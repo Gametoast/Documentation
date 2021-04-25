@@ -1,9 +1,9 @@
-##Star Wars Battlefront (2004) Lua
+## Star Wars Battlefront (2004) Lua
 
 #### About versions 
 It should be noted that Lua 4 and Lua 5 are quite different. SWBF (2004) uses Lua 4.0.1 SWBFII (2005) uses Lua 5.0.2.
 
-
+### Folder Contents
 This folder contains binaries of Luac.exe (the Lua compiler) and Lua.exe (the Lua interpreter) version Lua 4.0.1. 
 
 
