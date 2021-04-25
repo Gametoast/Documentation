@@ -1,0 +1,6502 @@
+ [addr requested]
+ [C$
+ [chap not MD5]
+ [glitch]
+ [his %s]
+ [hisaddr %s]
+ [invalid]
+ [maxsid
+ [maxsid: %d, cmpsid: %d]
+ [mine %s != his %s]
+ [myaddr %s]
+ [not configured]
+ [primary DNS server %s]
+ [proto
+ [proto: 0x%02x, maxsid: %d]
+ [rej]
+ [reject]
+ [request %d, permit %d]
+ [secondary DNS server %s]
+ add
+ additional chat script
+ additional chat script: %s
+ addr
+ addr len
+ addr: %s, mask: %s, gateway: %s
+ AF %d not purged
+ already registered device type(%d).
+ an async call is in progress...
+ another async call is in progress...
+ arp
+ auth
+ auth_name: %s, auth_key: %s
+ bad base
+ bad cnt
+ bad gateway value
+ bad mbuf chain
+ bind errr
+ bind failed
+ bind() in send
+ block too big
+ both fileds are used to hold options
+ bound to %s -- renewal in %d seconds.
+ boundary=Qr4G823s23d---<<><><<<>--7d118e0536
+ Broadcast Address
+ buffer addr is not 64 byte align. %08x
+ busy string
+ busy string: %s
+ cable connected.
+ cable disconnected.
+ can't add device list.
+ can't allocate llinfo
+ can't allocate sif code.
+ Can't extend lease.
+ can't handle af%d
+ can't malloc entry
+ can't start comm thread.
+ can't start rpc server.
+ chap %s, 
+ chap bad hash value length
+ chap corrupted challenge <%s id=0x%x len=%d
+ chap corrupted response <%s id=0x%x len=%d
+ chap dropping response for old ID (got %d, expected %d)
+ chap failure
+ chap input <%s id=0x%x len=%d name=
+ chap input(%s) <%s id=0x%x len=%d name=
+ chap invalid packet length
+ chap peer TO auth
+ chap response, his name 
+ chap success
+ chap tld
+ chap TO(%s) rst
+ chap unknown input(%s) <0x%x id=0x%xh len=%d
+ chat login script
+ chat login script: %s
+ check DHCP options (valid length = %d)
+ chunked
+ Client can get neither DHCPACK nor DHCPNAK.
+-- Command Groups --
+-- Commands --
+ configuration for this I/F is not set yet
+ Connection closed
+ continuing.
+ could not establish connection
+ couldn't find our annotation
+ couldn't find us
+ create
+ create semaphore failed.
+ CreateSema Error
+ CreateSema() failed.
+ CreateSema() in eenet
+ CreateThread FAILED!
+ data available = %ld, packet size = %ld
+ defer
+ deflate 1.2.2 Copyright 1995-2004 Jean-loup Gailly 
+ delete default route failed in set
+ DeleteSema() --> error
+ descriptor not in list
+ detach failed (id = %d).
+ dhcp
+ DHCP message summary
+ DHCP message type(%u) isn't DHCPOFFER
+ dhcp: %s
+ dhcp_hostname: %s, dhcp hostname nullterm: %s, dhcp release on ifdown: %s
+ DHCPACK from %s
+ DHCPDECLINE to %s
+ DHCPDISCOVER on %s to %s port %d interval %d
+ DHCPNAK contains the error message "%s"
+ DHCPNAK from %s
+ DHCPOFFER from %s
+ DHCPRELEASE to %s
+ DHCPREQUEST on %s to %s port %d interval %d
+ dial string
+ dial string: %s
+ dialing string, tone
+ dialing string, tone: %s, pulse: %s, any: %s
+ dialing type
+ dialing type: %d
+ discarding oversize frame (len=%d)
+ disconnecting
+ display
+ display_name=%s
+ DMA Ch.1 (GS->MEM) does not terminate
+ DMA Ch.1 does not terminate
+ DMA Ch.2 does not terminate
+ Domain Name
+ Domain Name Server
+ down
+ Down event (carrier loss)
+ Down event (carrier loss), taking interface down.
+ down interface failed in eenetctl
+ dropping too short packet
+ EB$
+ eenet
+ EENET
+ End
+ end of main function
+ Enough data does not reach VIF1
+ err ti->wlen=%08x
+ error
+ error %d/%d
+ error happens
+ error: 
+ estimate Rebinding (T2) Time
+ estimate Renewal (T1) Time
+ event happened. if=%s af = %d, type = %d
+ expected %d
+ expected at least %d.%d
+ expected at most %d.%d
+ failed by no memory
+ FB$
+ FB$D
+ file filed is used to hold options
+ filename="%s"
+ form-data
+ garbled output len, should be %ld, is %ld
+ GetThreadId() failed. (%d)
+ GIF does not terminate
+ Got DHCPNAK in rebinding state.
+ got lcp echo req, sending echo rep
+ GS does not terminate
+ handleId(%d) type(%s) playerId(%d) pos(%.2f,%.2f,%.2f) frontCount(%d) frontAngle(%.2f) frontDist(%.2f)
+ HB$
+ Host Name
+ HTTP/1.1
+ icon=mc0
+ if
+ if %d, type
+ ifname (%s) is too long.
+ ifpromisc failed
+ ignoring RXJ (%s) for code ?, danger will robinson
+ Illegal
+ in eenet
+ in eenet_free():
+ in eenet_malloc():
+ in eenet_realloc():
+ in function `%s'
+ in function <%s
+ in function <%s:%d>
+ in main chunk
+ inconsistent annotation
+ inet
+ inflate 1.2.2 Copyright 1995-2004 Mark Adler 
+ init string
+ init string: %s
+ input packet is too small, %d bytes
+ invalid checksum in IP header
+ invalid checksum in UDP header
+ invalid host unique value
+ invalid input packet <addr=0x%x ctrl=0x%x proto=0x%x>
+ invalid input protocol <proto=0x%x>
+ invalid lcp echo request packet length
+ invalid length in IP header
+ invalid length in UDP header
+ invalid parameter (*size too big)
+ invalid parameter (description)
+ invalid parameter (dest)
+ invalid parameter (device)
+ invalid parameter (hint)
+ invalid parameter (mr)
+ invalid parameter (openparam)
+ invalid parameter (openparam->Mode)
+ invalid parameter (size too big)
+ invalid parameter (src)
+ invalid wscale %d, assuming %d
+ IP Address Lease Time
+ ipcp nak opts
+ ipcp parse opt values
+ ipcp parse opts
+ ipcp rej opts
+ ipv6
+ ipv6.nameserver1
+ ipv6.nameserver1: %s, ipv6.nameserver2: %s
+ ipv6_addr: %s/%s, ipv6_gateway: %s
+ ipv6_rtsold: %s
+ ipversion
+ ipversion: %d
+ lcp echo req but lcp closed
+ lcp got echo rep
+ lcp invalid echo reply packet length
+ LCP keepalive timed out, going to restart the connection
+ lcp nak opts
+ lcp parse opt values
+ lcp parse opts
+ lcp rej opts
+ Lease time expired.
+ length=%d
+ link address is broadcast for IP address %s!
+ Localize game.tooltips.leaving
+ locked
+ loopback
+ lucasarts.gamespy.com
+ m == 0
+ m == 0 and not COPYALL
+ magic glitch
+ make
+ malloc failed
+ mask impossibly already in tree
+ max streaming data size
+ MCLGET() failed.
+ mediatype
+ mediatype: %d
+ memory allocation failed in smap
+ memory allocation failed.
+ memory allocaton failed(id = %d).
+ Mesage op code(%u) isn't BOOTREPLY
+ Message
+ message too large %d
+ message too long
+ MGETHDR() failed.
+ mix %s, aux %s %s %2d
+ Module version mismatch 
+ name="%s"
+ nameserver
+ nameserver_order: %d
+ nameserver1
+ nameserver1: %s, nameserver2: %s
+ new %d, i/f %d (ignored)
+ new addr len %d, was %d
+ no DHCP message type
+ No DHCP server is available.
+ no header mbuf
+ no Magic cookie? (0x%02x%02x%02x%02x)
+ no match for 0x%x/0x%x
+ no memory for receive header
+ no memory for transmit header
+ NOFDREF
+ OB$!
+ off %d, len %d
+ offset too short
+ Orphaned Mask
+ out of data
+ outside delay script
+ outside delay script: %s
+ outside number
+ outside number: %s
+ Overload
+ packet content does not fit
+ packet size larger than expect
+ packet too short
+ Pad
+ pap corrupted input <%s id=0x%x len=%d
+ pap corrupted input <0x%x id=0x%x len=%d
+ pap failure
+ pap input(%s) <%s id=0x%x len=%d name=
+ pap invalid packet length
+ pap peer TO auth
+ pap success
+ pap tld
+ pap TO(%s) rst
+ parse DHCP options (valid length = %d)
+ passwd=
+ pB$!
+ peer
+ peer_name: %s, peer_key: %s
+ permit
+ permit:
+ phase %s
+ phone
+ phone number not found
+ phone_number%d: %s
+ pkthdr.len=%d, pppoe.len=%d
+ ppp
+ pppoe service name
+ pppoe service name: %s, pppoe ac name: %s, pppoe send hostuniq: %s
+-- Press ENTER to continue --
+ protocol queue overflow
+ PS2 DVDROM FINAL
+ punting
+ radix functions require max
+ read %d
+ read version %d.%d
+ Rebinding (T2) Time
+ recalculate Renewal (T1) Time
+ receive error
+ received PADO but could not find request for it
+ received unexpected PADO
+ receiving
+ receiving call string
+ receiving call string: %s
+ receiving_call: %s, receiving_call_timeout: %d
+ recv() in 
+ redial
+ redial_count: %d, redial_interval: %d
+ RemoveIntcHandler() --> error
+ Renewal (T1) Time
+ request
+ request:
+ Router
+ rpc binding error
+ rpc call failed
+ rpc error
+ RXJ%c (%s) for proto 0x%x (%s/%s)
+ sbcompress
+ sceEENetGetIfnames() failed in eenetctl
+ sceEENetGetIfstat() in getmac()
+ sceEENetNotifyEEDriverIsReady() failed.
+ sceEENetNotifyEEDriverIsTerminated() failed.
+ sceEENetRegDriver() failed.
+ sceEENetUnregDriver() failed.
+ sceSifCallRpc -> %d
+ search failed. device(id = %d) doesn't exist.
+ send conf-ack
+ send conf-nak
+ send conf-rej
+ send err %d
+ send() in 
+ SendData2 BUSY
+ SendData2 data length too long [%d]
+ SendData3 BUSY
+ SendData3 data length too long [%d]
+ sending PADT
+ sendmsg() in send
+ Server Identifier
+ session 0x%x connected
+ session 0x%x terminated, received PADT
+ set
+ set mediatype failed in eenetctl
+ SetAlarm() failed.
+ setsockopt(SO
+ SifDmaAddr %08x
+ size of %s is %d but read %d
+ sname filed is used to hold options
+ socket(AF
+ socket(PF
+ src %s, agc %s, vad %s, enc %s
+ StartThread FAILED!
+ state %s
+ state %s -> %s
+ state=%d, not accepting host unique
+ Subnet Mask
+ sync timeout
+ sysctl() failed in delete
+ system halted.
+ tag 0x%x len 0x%x is too long
+ there isn't pppoe's real interface!!!
+ this device type(%d) is not registered.
+ time() in bound()
+ time() in dhclient
+ time() in rebinding()
+ time() in renewing()
+ time() in requesting()
+ time() in wait
+ timeout
+ timeout, lcp
+ timeout, lcp: %d, ipcp: %d, idle: %d, connect: %d
+ too long chat script.
+ too long phone number.
+ too old release of mcman.irx
+ too old release of mcserv.irx
+ Transaction ID(0x%08x) isn't match with mine(0x%08x)
+ unable to allocate %d bytes!
+ unable to create semaphore!
+ unable to delete rtentry @ %p, error = %d
+ unable to enter address for %s (%s)
+ Unable to write packet
+ uncompress failed on type PPP
+ unknown code (0x%04x) session = 0x%04x
+ unknown device type(%d)
+ unknown version/type packet
+ unregister device %s (id = %d).
+ up
+ Up event
+ used(%d) limit(%d)
+ value is not valid
+ value-size=%d value=
+ vendor
+ vendor: %s, product: %s, location: %s
+ version mismatch between lgdev.irx and liblgdev.a 
+ VIF1 does not terminate
+ VU1 does not terminate
+ Waiting I/F Event
+ warning
+ WARNING
+ warning: 
+ wrong ifa (%p) was (%p)
+ wrong interface, not accepting host unique
+ wrong version of lgaud.irx!
+ xE$b
+ XP$
+ zh& zm
+ zO?
+# TLB over flow (1)
+# TLB over flow (2)
+# TLB over flow (3)
+# TLB spad=0 kernel=1
+# TLB spad=0 kernel=1:%d default=%d:%d extended=%d:%d
+frontAngle(%.2f) frontDist(%.2f)
+%s Left
+%s module not found
+%s on %s tried to overwrite arp info for %s on %s
+%s too new
+%s too new: read version %d.%d; expected at most %d.%d
+%s too old
+%s too old: read version %d.%d; expected at least %d.%d
+%s tried to overwrite permanent arp info for %s
+%s(af=%d): error %d/%d
+%s.available.gamespy.com
+%s.firstnames.%02d
+%s.lastnames.%02d
+%s.lvl
+%s.master.gamespy.com
+%s.ms%d.gamespy.com
+%s/%s
+%s/clonehead.ico
+%s/date
+%s/icon.sys
+%s: %s close(%s)
+%s: %s down(%s)
+%s: %s id mismatch 0x%x != 0x%x
+%s: %s illegal %s in state %s
+%s: %s illegal down in state %s
+%s: %s illegal up in state %s
+%s: %s input(%s): <%s id=0x%x len=%d
+%s: %s invalid conf-req length %d
+%s: %s invalid packet length: %d bytes
+%s: %s open(%s)
+%s: %s output <%s id=0x%x len=%d
+%s: %s send code-rej for 0x%x
+%s: %s send terminate-ack
+%s: %s tlu
+%s: %s TO(%s) rst_counter = %d
+%s: %s up(%s)
+%s: %s: ignoring RXJ (%s) for code ?, danger will robinson
+%s: %s: RXJ%c (%s) for proto 0x%x (%s/%s)
+%s: arp: link address is broadcast for IP address %s!
+%s: cable connected.
+%s: cable disconnected.
+%s: can't handle af%d
+%s: chap %s, 
+%s: chap bad hash value length: %d bytes, should be %d
+%s: chap corrupted challenge <%s id=0x%x len=%d
+%s: chap corrupted response <%s id=0x%x len=%d
+%s: chap dropping response for old ID (got %d, expected %d)
+%s: chap failure
+%s: chap input <%s id=0x%x len=%d name=
+%s: chap input(%s) <%s id=0x%x len=%d name=
+%s: chap invalid packet length: %d bytes
+%s: chap peer TO auth_rst_counter = %d
+%s: chap response, his name 
+%s: chap success
+%s: chap tld
+%s: chap TO(%s) rst_counter = %d
+%s: chap unknown input(%s) <0x%x id=0x%xh len=%d
+%s: could not establish connection
+%s: discarding oversize frame (len=%d)
+%s: disconnecting
+%s: down
+%s: Down event (carrier loss)
+%s: Down event (carrier loss), taking interface down.
+%s: got lcp echo req, sending echo rep
+%s: input packet is too small, %d bytes
+%s: invalid input packet <addr=0x%x ctrl=0x%x proto=0x%x>
+%s: invalid input protocol <proto=0x%x>
+%s: invalid lcp echo request packet length: %d bytes
+%s: ipcp nak opts:
+%s: ipcp parse opt values: 
+%s: ipcp parse opts:
+%s: ipcp rej opts:
+%s: lcp echo req but lcp closed
+%s: lcp got echo rep
+%s: lcp invalid echo reply packet length: %d bytes
+%s: LCP keepalive timed out, going to restart the connection
+%s: lcp nak opts:
+%s: lcp parse opt values: 
+%s: lcp parse opts:
+%s: lcp rej opts:
+%s: loopback
+%s: m_pullup() failed on type PPP_VJC_COMP
+%s: m_pullup() failed on type PPP_VJC_UNCOMP
+%s: no memory for receive header
+%s: no memory for transmit header
+%s: pap corrupted input <%s id=0x%x len=%d
+%s: pap corrupted input <0x%x id=0x%x len=%d
+%s: pap failure
+%s: pap input(%s) <%s id=0x%x len=%d name=
+%s: pap invalid packet length: %d bytes
+%s: pap peer TO auth_rst_counter = %d
+%s: pap success
+%s: pap tld
+%s: pap TO(%s) rst_counter = %d
+%s: phase %s
+%s: pkthdr.len=%d, pppoe.len=%d
+%s: protocol queue overflow
+%s: received unexpected PADO
+%s: sending PADT
+%s: session 0x%x connected
+%s: session 0x%x terminated, received PADT
+%s: state=%d, not accepting host unique
+%s: timeout
+%s: uncompress failed on type PPP_VJC_COMP
+%s: uncompress failed on type PPP_VJC_UNCOMP
+%s: unknown code (0x%04x) session = 0x%04x
+%s: up
+%s: Up event
+%s: warning: unable to delete rtentry @ %p, error = %d
+%s: wrong interface, not accepting host unique
+%sContent-Disposition
+%sContent-Disposition: form-data; name="%s"
+%sContent-Disposition: form-data; name="%s"; filename="%s"
+%spatch
+(for generator)
+(for limit)
+(for state)
+(for step)
+(incoming call)
+(null)
+(numplayers < maxplayers)
+(numplayers < maxplayers) and (swbregion = %d)
+(unknown)
+*** libeenet %s ***
+*name
+*number
+*string
+./journal
+./values
+.A0123456789abcdef
+.DVP.overlay..0x0.2442495.103.8
+.DVP.overlay..0x0.2442495.124.9
+.DVP.overlay..0x0.2442495.68.0
+.DVP.overlay..0x0.3107378691.27.0
+.DVP.overlay..0x0.3119174819.27.0
+.DVP.overlay..0x800.3107378691.402.1
+.DVP.overlay..0x800.3119174819.456.1
+.DVP.overlay..unknvma.3556664.1203.2
+.DVP.overlay..unknvma.3556664.1736.3
+.DVP.overlay..unknvma.3556664.2171.4
+.DVP.overlay..unknvma.3556664.2609.5
+.DVP.overlay..unknvma.3556664.3162.6
+.DVP.overlay..unknvma.3556664.3572.7
+.DVP.overlay..unknvma.3556664.523.1
+.DVP.ovlystrtab
+.DVP.ovlytab
+.gcc
+.gcc_except_table
+.level
+.lib section in a.out corrupted
+.libinit
+.libupd
+.lua
+.mdebug.eabi64
+.reginfo
+.rodata
+.sbss
+.shstrtab
+.strtab
+.symtab
+.text
+.txt
+.vubss
+.vudata
+.vutext
+//gamestats.gamespy.com/swbfront2ps2/web/leaderboard
+//motd.gamespy.com/motd/motd.asp?userid=%d&productid=%d&versionuniqueid=%s&distid=%d&uniqueid=%s&gamename=%s
+//motd.gamespy.com/motd/vercheck.asp?productid=%d&versionuniqueid=%s&distid=%d&gamename=%s
+//motd.gamespy.com/motd/vercheck.asp?userid=%d&productid=%d&versionuniqueid=%s&distid=%d&uniqueid=%s&gamename=%s
+//www.fileplanet.com/dlfileraw.asp?file=%d&gamename=%s
+/Battlefront2/PS2
+/BWNETCNF/BWNETCNF
+/BWNETCNF/icon.sys
+/BWNETCNF/SYS
+/crashed
+/droplateupdate
+/elf
+/login
+/nodroplateupdate
+/notvalues
+/NTGUI "%s"
+/oneworld
+/P8i
+/playback
+/record
+?## internel error in libkernl.a!
+?liblgaud version 1.09.004, built on Sep 15 2003 at 18
+?liblgaud version 1.09.004, built on Sep 15 2003 at 18:00:05
+@Q23pvs6Sector
+@Q23pvs7Manager
+@Q23Snd10StreamNode
+@Q23Snd14StreamCodecCBR
+@Q23Snd14StreamNodeSink
+@Q23Snd20StreamNodeSinkNInput
+@Q24util12SubAllocator
+@Q24util14StackAllocator
+@Q24util17DummyNonAllocator
+@Small
+@Unknown Error!
+[access denied]
+[inet
+[inet_ntoa error]
+[INVALID
+[INVALID]
+[INVALID_COMBO_ANIMATION]
+[libdbc.a = %d.%02x, dbcman.irx = %d.%02x]
+[MPEG ERROR]%s
+[NULL]
+[string "
+\000
+\aack\
+\addbuddy\
+\aim\
+\anack\
+\auth\
+\authadd\
+\authtoken\
+\basic\\info\
+\birthday\
+\bm\
+\cdkey\
+\cdkeyenc\
+\challenge\
+\chc\
+\check\
+\conn\
+\connectionid\
+\connectionspeed\
+\countrycode\
+\cpubrandid\
+\cpuspeed\
+\data\
+\Data\_lvl_ps2\
+\date\
+\delbuddy\
+\delprofile\
+\delprofileid\
+\dlurl\
+\echo\test
+\Ed$
+\email\
+\err\
+\errmsg\
+\error\
+\fatal\
+\final\
+\firewall\1
+\firstname\
+\fpfileid\
+\fromprofileid\
+\gamename\
+\getpdr\
+\getpidr\
+\getprofile\\sesskey\
+\hasnetwork\
+\homepage\
+\i1\
+\icquin\
+\id\
+\id\1
+\inc\
+\ind\
+\inviteto\
+\irx\
+\k5! 
+\ka\
+\lastname\
+\lat\
+\lc\1
+\lc\2
+\len\
+\len\%d\msg\
+\loc\
+\location\
+\lockout\
+\locstring\
+\login\
+\logout\\sesskey\
+\lon\
+\lt\
+\m\%d\xfer\%d %u %u
+\mar\
+\memory\
+\mod\%d
+\msg\
+\namespaceid\
+\netirx\
+\newprofile\
+\newprofileid\
+\newuser\
+\newver\
+\newvername\
+\nick\
+\nicks\
+\npr\
+\nur\
+\o1\
+\occ\
+\oldnick\
+\osstring\
+\others\
+\pass\
+\password\
+\passwordenc\
+\pauthr\
+\pi\
+\pic\
+\pid\
+\pinvite\
+\pmask\
+\pmatch\
+\port\
+\preferrednick\
+\productid\
+\productID\
+\products\
+\profileid\
+\proof\
+\publicmask\
+\rank
+\rank\
+\reason\
+\registernick\\sesskey\
+\replace\
+\response\
+\revoke\
+\rn\
+\search\
+\sesskey\
+\setpdr\
+\sex\
+\sig\
+\skip\
+\statstring\
+\status\
+\uniquenick\
+\uniquesearch\
+\updatepro\\sesskey\
+\updateui\\sesskey\
+\user\
+\userid\
+\valid\
+\version\%d\result\%d
+\videocard1ram\
+\videocard1string\
+\videocard2ram\
+\videocard2string\
+\x%x
+\xfer\
+\zipcode\
+__add
+__call
+__concat
+__div
+__eq
+__fenv
+__gc
+__index
+__le
+__lt
+__metatable
+__mode
+__mul
+__newindex
+__pow
+__sceEENetSetDNSSockAddr: inet_ntop() failed.
+__sub
+__tostring
+__unm
+_>%!
+_1flag
+_AB4D
+_ALERT
+_ass
+_B4c
+_B4e
+_B4k
+_c$f
+_c$p
+_chroma_format needs to be 1: 420
+_con
+_ctf
+_dtl
+_eli
+_full
+_hunt
+_input
+_LOADED
+_LOCALIZE_
+_lower
+_lvl_ps2\
+_lvl_ps2\movies\
+_obj
+_output
+_pictureSpatialScalableExtension is not supported
+_pictureTemporalScalableExtension is not supported
+_REQUIREDNAME
+_resource
+_sequenceScalableExtension() is not implemented
+_sliceA0(): error happens
+_tdm
+_them_
+_TRACEBACK
+_upper
+_us_
+_VERSION
+`%s' expected
+`%s' expected (to close `%s' at line %d)
+`.c$
+`:B$!
+`:Q$,
+`;P$
+`[f$-@`
+`__pow' (`^' operator) is not a function
+`_LOADED' is not a table
+`=' or `in' expected
+`for' initial value must be a number
+`for' limit must be a number
+`for' step must be a number
+`setfenv' cannot change a protected environment
+`setfenv' cannot change environment of given function
+`tostring' must return a string to `print'
+`while' condition too complex
+<eof>
+<eof> expected
+<name> expected
+<name> or `...' expected
+<NULL>
+<VIF1_STAT=%08x:
+= Skip to the next picture =
+=(tail call)
+=_lower
+0000000000
+0123456789
+0123456789abcdef
+0123456789ABCDEF
+0123456789abcdefarp
+0123456789abcdefghijklmnopqrstuvwxyz
+100baseTX
+100baseTX-FDX
+100baseTX-FDX/Flow
+10bad
+10bad_typeid
+10baseT
+10baseT-FDX
+10baseT-FDX/Flow
+10PblHandled
+10RedConsole
+10RedSegment
+10Renderable
+10ShadowData
+11PblMemChunk
+11RedBoxShape
+11RedJoystick
+11RedKeyboard
+127.0.0.1
+128M
+12RedAnimation
+12RedAxisShape
+12RedLineShape
+12RedOmniLight
+12RedSpotLight
+13bad
+13bad_exception
+13RedShadowBlob
+14__si_type_info
+14RedMoviePlayer
+14RedSceneObject
+14RedShadowProxy
+14RedSphereShape
+14RedTextElement
+15RedAmbientLight
+15RedGroupElement
+15RedSceneManager
+15RedShadingState
+15WaterRenderable
+16__attr_type_info
+16__func_type_info
+16__ptmd_type_info
+16__ptmf_type_info
+16__user_type_info
+16RedBitmapElement
+16RedRegionFactory
+16RedStencilShadow
+16RedVectorElement
+17__array_type_info
+17__class_type_info
+17Red3DModelElement
+17RedFadingBoxShape
+17RedFixedWidthFont
+17TerrainRenderable
+18Red3DModelAnimator
+18RedMoviePlayerBase
+19__builtin_type_info
+19__pointer_type_info
+19RedDirectionalLight
+19RedInterfaceElement
+19RedTetrahedronShape
+1iB4
+207.38.12.253
+207.38.8.12
+207.38.8.13
+207.38.8.14
+207.38.8.34
+20DropShadowRenderable
+20RedGlyphCacheElement
+20RedInputEventHandler
+20RedVariableWidthFont
+20UnderWaterRenderable
+212.40
+212.40.zdb
+2147483647
+21Red3DModelElementLite
+21RedScreenGroupElement
+22RedMaskedBitmapElement
+22RedShadowRegionFactory
+255.0.0.0
+255.255.255.255
+4qE<w|Backdrop
+7RedFont
+7RedPath
+8bad
+8bad_cast
+8IFScreen
+8RedLight
+8RedModel
+8RedMouse
+8RedMovie
+8RedShape
+952F41D039DB4507A84B40488E76932F 0123456789ABCDECAT0123456IPA
+9bad_alloc
+9exception
+9RedCamera
+9type
+9type_info
+abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789
+ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789
+ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789@.- #$%&()[]*+'"!=^{}
+ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789@.- #$%&()[]*+'"!=^{}_<>:;?`|/,~          
+abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789_@-.*
+ABORT
+AbortCapture
+AbortNeutralize
+Acceleration %03.03f
+accept
+Accept
+ACCEPT
+AcceptHero
+AcceptString
+Accessing a corrupted shared library
+accuracy
+acklay%d
+AcklayData
+acklaystepleft
+acklaystepright
+ack-rcvd
+ack-sent
+acos
+acosf
+action().
+Action1
+Action2
+Action3
+Action4
+ActivateBonus
+ActivateObject
+ActivateObjective
+ActivateRegion
+Active  , Cur. PS, Des. PS, Pos., Inact., Play, Pri.
+ActiveRegion
+add
+Add 8 sub partitions.
+AddAIGoal
+AddAssaultDestroyPoints
+addbuddy
+ADDBUDDY
+AddCameraShot
+AddDeathRegion
+added player %s
+adderror
+AddFlagCapturePoints
+AddIFContainer
+AddIFFlashyText
+AddIFImage
+AddIFMaskImage
+AddIFModel
+AddIFScreen
+AddIFText
+Additive
+AddLandingRegion
+addmap
+addmask
+AddMissionHint
+AddMissionObjective
+AddProfile
+addr
+addr-comp
+AddReinforcements
+address
+Address already in use
+Address family not supported by protocol family
+address()
+addresses
+AddShieldStrength
+AddSpaceAssaultDestroyPoints
+AddTeamPoints
+AddUnitClass
+ADDVOICE
+AddWalkerType
+Admin
+ADMIN
+adminpw
+advanced
+advanced_blasters
+Advertise error
+Agent
+AICanCaptureCP
+aidifficulty
+AIGoal
+aim
+Aimer
+AIPath
+AIPathNode
+AISnipeSuitabilityDist
+AIText
+aivis
+aJB4
+AKB)
+AKBJ
+akE*
+AlB4
+ALB4
+alert
+ALERT
+aligned
+alliance
+alloc
+ALLOCATE
+Allocate failed - new[] failed - out of memory!
+Allocated %d bytes of user memory.
+allocation failed.
+AllowAISpawn
+AllowSkipDNAS
+Alpha
+ALREADY
+ALT+DOWNARROW
+ALT+E
+ALT+H
+ALT+LEFTARROW
+ALT+P
+ALT+RIGHTARROW
+ALT+UPARROW
+ALT+W
+ambient
+ambiguous syntax (decimal point x string concatenation)
+ambiguous syntax (function call x new statement)
+ameSpy3D
+AmmoCounter
+anack
+ANB4A
+anB4H
+and
+ANi"A
+animalscale
+animatedbuilding
+AnimatedMove
+animatedprop
+ANIMATION]
+AP$a
+APB,
+Application
+application/octet-stream
+application/x-www-form-urlencoded
+ApplyFilters
+April
+ARB4G
+areaeffectweapon
+AreMoviePropertiesPlaying
+Arg %i
+Arg %i: %s
+Arg list too long
+armedanimatedbuilding
+armedbuilding
+armedbuildingdynamic
+arp
+arp from %s
+arp from %s: addr len: new %d, i/f %d (ignored)
+arp from %s: new addr len %d, was %d
+arp info overwritten for %s by %s
+arp()
+arp_drain: locked; punting
+arp_rtrequest: bad gateway value
+arp_rtrequest: malloc failed
+arpintr
+arplookup
+arplookup: unable to enter address for %s (%s)
+arpresolve
+arpresolve: can't allocate llinfo
+arptfree
+Arrangement error!
+array
+Artist
+Artist Memory %d free of %d
+asin
+asinf
+ass
+assert
+assertion failed!
+asteroid
+Asteroid
+AsteroidClass
+asyncconf()
+asyncconf() in eenet
+async-map
+atad
+atan
+atan2
+atan2f
+attach
+Attach
+AttachEffectToMatrix
+AttachEffectToObject
+AttachModel
+Attack
+attack1
+ATTACK1
+attack1a
+attack1b
+attack2
+ATTACK2
+attack3
+ATTACK3
+attack4
+AttackerOffScreen
+AttackerOffScreenBehind
+AttackerOnScreen
+AttackerOnScreenBehind
+attempt to %s %s `%s' (a %s value)
+attempt to %s a %s value
+attempt to compare %s with %s
+attempt to compare two %s values
+attempt to use a closed file
+attempt to yield across metamethod/C-call boundary
+Attempting to link in more shared libraries than system limit
+AttenuateBus 0x%08x
+Attenuation
+AttenuationLeadIn
+AttenuationLeadIn %f
+AttenuationLeadOut
+AttenuationLeadOut %f
+attr
+Attract mode launching %s
+AudioStreamAppendSegments
+AudioStreamComplete
+August
+auth
+AUTH
+authadd
+AUTHADD
+authenticate
+auth-proto
+authtoken
+auto
+autoaim
+AutoInit
+autonet
+AUTONET
+AutoNetJoin
+autoteam
+autoturrets
+AutoUpdate
+awardsListbox
+AWAY
+Back
+BACK
+Backdrop%s
+backward
+bacta
+bacta_tanks
+bad
+BAD
+Bad address
+bad argument #%d to `%s' (%s)
+bad ASCII code 0x%x
+BAD CODE
+bad code in %s
+bad constant type (%d) in %s
+bad file
+Bad file number
+bad integer in %s
+Bad message
+bad nupvalues in %s
+bad nupvalues in %s: read %d; expected %d
+bad signature in %s
+bad type
+bad_alloc
+bAimAssist
+bait
+baitKills
+ball
+bAllRegions
+bandwidth
+bandwidth not set
+bandwidth: used(%d) limit(%d)
+bAppearOffline
+Base
+base out of range
+BaseHint
+Baseline
+basic
+BASLUS-21240
+BASLUS-29164
+BatchChangeTeams
+battlefield
+Battlefront2 Request
+Battlefront2.elf
+bAutoAim
+bAutoAssignTeams
+bazooka
+beacon
+beam
+BeginCapture
+BeginFriends
+BeginJoin
+BeginJoinIP
+BeginJoinSpecial
+BeginLeave
+BeginLobby
+BeginNeutralize
+BeginQuickmatch
+BeginScreenTransition
+BeginSessionList
+BESLES-53501
+BESLES-53502
+BESLES-53503
+bEverSkipped
+bFavorite
+bFirstPerson
+bFlyerRolling
+bHeroes
+bHeroesEnabled
+Bias
+Bias(%01.02f)
+BIB4%
+binary string
+bind error libmc 
+binoculars
+birthday
+bIsLocal
+BISLPM-65687
+bIsPrivate
+BKBJ
+blasters
+block
+Block device required
+bLocked
+BlockPlanningGraphArcs
+blue
+bMovieSubtitles
+bObjectiveDetails
+body
+bolt
+bonus
+boolean
+boolean or proxy expected
+boost
+boot
+booted player %d (%s)
+bottom
+Bottom
+bouncebacksoft
+bouncefrontsoft
+BOUND
+bpf: ifpromisc failed
+bpf_change_type
+bpf_detachd: descriptor not in list
+bpf_mcpy
+bpfattach
+bpfioctl(BIOCGBLEN) in eenet
+bpfioctl(BIOCSETF) in arp
+bpfioctl(BIOCSETF) in eenet
+bpfioctl(BIOCSETIF) in eenet
+bpfioctl(BIOCSRTIMEOUT) in eenet
+bpfopen() in eenet
+bpfread() in dhclient
+bpfread() in rebinding()
+bpfread() in renewing()
+bpfread() in requesting()
+bpfread() in wait
+bpfwrite() in arp
+bpfwrite() in bound()
+bpfwrite() in dhclient
+bpfwrite() in init()
+bpfwrite() in renewing()
+bpfwrite() in requesting()
+bpfwrite() in rexmt()
+bpfwrite() in selecting()
+break
+BringToFront
+BroadcastVoiceOver
+Broken pipe
+bRumble
+bShowNames
+bSoldierHints
+bsrdone
+bStickyReticule
+bToolTipAuto
+bToolTips
+bTp"B
+BUDDY
+buffer error
+BUFFER TOO SMALL
+bug in vfprintf
+bug in vfprintf: bad base
+build
+building
+buildingdeadscale
+buildingscale
+buildingunbuiltscale
+builtin
+bullet
+Bus(0x%08x)
+bVoiceMask
+bWrongVer
+bwstr
+C stack overflow
+call
+call cdread cmd
+call eenet
+call eenet_malloc_init() first.
+call malloc
+call malloc_init() first.
+calling `%s' on bad self (%s)
+Calls
+campaign
+camper
+CancelConnectSockets
+CancelDNAS
+CancelFriends
+CancelJoin
+CancelLeaderBoardPlayerData
+CancelLeave
+CancelLobby
+CancelLogin
+CancelQuickmatch
+CancelSessionList
+CanCharacterInteractWithFlag
+CanClientLeaveStats
+cannon
+Cannot access a needed shared library
+cannot change a protected metatable
+Cannot exec a shared library directly
+cannot format disk %d
+cannot format partition, %d.
+cannot mount partition, %d.
+cannot open device %s, %d
+cannot open directory %s, %d
+cannot read %s
+cannot read %s: %s
+cannot resume dead coroutine
+cannot resume non-suspended coroutine
+cannot yield a C function
+CanSupportMaxPlayers
+can't boot player %d
+can't config eth device
+Can't load module atad.
+Can't load module hdd.
+Can't load module pfs.
+Can't send after socket shutdown
+capture
+capture: src %s, agc %s, vad %s, enc %s
+captures
+carrier
+cast
+catapult
+cd- 
+CD Key or challenge too long
+cd-(`
+cd-0
+cdkey
+cdkeyenc
+cdread end
+cdrom0
+cdrom0:
+cdrom0:%s
+cdrom0:\%s
+cdrom0:\IRX\DNAS300.IMG
+cdrom0:\NETGUI\NTGUI.ELF;1
+cdrom0:\SLES_535.01;1
+cdrom0:\SLES_535.02;1
+cdrom0:\SLES_535.03;1
+cdrom0:\SLPM_656.87;1
+cdrom0:\SLUS_212.40;1
+cdrom0:\SLUS_291.64;1
+ceil
+Center
+center(%.2f,%.2f,%.2f)
+C-EUCJP
+challenge
+change
+chap
+char
+char(%d)
+Character
+CharacterChangeClass
+CharacterDeath
+CharacterDispenseControllable
+CharacterDispensePowerup
+CharacterEnterVehicle
+CharacterIssueAICommand
+CharacterLandedFlyer
+CharacterSpawn
+charge
+charselect%i
+charselect%i.Info.UnitNameText
+charselect%i.Info.Window.BoxText
+charselect%i.Info.Window.titleBarElement
+CHATTING
+chc
+CHCR=%08x
+check
+check()
+CheckIfOkToExitMemoryMode
+CheckMemoryCardMark
+CheckPlayerListDone
+checkweapon
+chroma
+chunk is already free.
+Circle
+CIS
+CJ5!
+C-JIS
+cksum
+cksum: out of data
+cksum4
+cksum4: out of data
+class
+Class
+Cleanup
+ClearAIGoals
+ClearCampaignState
+ClearError
+ClearListbox
+ClearMetagameState
+ClearMissionSetup
+ClearPrevSessionId
+ClearTempHeap
+ClearWalkers
+client
+client will drop late updates
+client will keep late updates
+ClientAimer
+ClientAmmoCounter
+ClientArmedDynamic
+ClientAsteroid
+ClientCarrier
+ClientCommandFlyer
+ClientCommandHover
+ClientCommandWalker
+ClientDroid
+ClientDroideka
+ClientEnergyBar
+ClientFlag
+ClientFlyer
+ClientGotStats
+ClientHover
+ClientMountedTurret
+ClientOrdnanceTowCable
+ClientPowerup
+ClientRemoteTerminal
+ClientSoldier
+ClientTreeGrid
+ClientWalker
+ClientWalkerBlend
+ClientWalkerBlendUnit
+ClientWalkerLegPair
+ClientWeapon
+close
+CloseAudioStream
+closed
+CLOSED
+closed file
+CloseErrorBox
+CloseMovie
+CloseNetShell
+ClosePopup
+closing
+cloth
+ClothData
+cloudcluster
+cmd
+CMD
+CMD: %s
+COB4i
+COB4R
+code size overflow
+code()
+code(0x%08x) out of range
+code-rej
+coll
+coll_
+coll_ball
+coll_body
+coll_body_lower
+coll_body_medium
+coll_body_medium2
+coll_body_upper
+coll_head
+coll_torso
+collate
+collectgarbage
+CollisionMesh
+color
+ColorB
+ColorG
+ColorR
+ColorTransformer
+com
+com_icon_alliance
+com_icon_CIS
+com_icon_imperial
+com_icon_republic
+combat
+combat_shielding
+Combination%d
+Combo
+COMBO
+Combo::Attack
+Combo::Condition
+Combo::DamageSample
+Combo::Deflect
+Combo::State
+Combo::Transition
+combostr
+command not found
+commandarmedanimatedbuilding
+commandarmedbuilding
+CommandBuilding
+CommandBuildingAnimatedArmed
+CommandBuildingAnimatedArmedClass
+CommandBuildingArmed
+CommandBuildingArmedClass
+CommandBuildingClass
+commandflyer
+CommandFlyer
+CommandFlyerClass
+commandhover
+CommandHover
+CommandHoverClass
+commandpost
+CommandPostKill
+CommandPostRespawn
+commandwalker
+CommandWalker
+CommandWalkerClass
+CommentStr
+common.era.cw
+common.era.gcw
+common.loading
+common.lvl
+common.mp.errors.nocable
+common.no
+common.ok
+common.sides.all
+common.sides.all.name
+common.sides.cis
+common.sides.cis.name
+common.sides.imp
+common.sides.imp.name
+common.sides.neu
+common.sides.rep
+common.sides.rep.name
+common.waitforhost
+common.yes
+Communication error
+COMP
+CompleteObjective
+compression
+con
+concat
+concatenate
+Condition
+conf-ack
+config
+conf-nak
+conf-rej
+conf-req
+conn
+Connected to network
+Connecting to network
+Connection
+CONNECTION
+Connection accepted
+Connection attempt to TCP %s
+Connection attempt to TCP %s:%d from %s:%d
+Connection dead
+Connection error with ISP
+Connection established with ISP
+Connection failed
+Connection refused
+Connection rejected
+connectionid
+connectionspeed
+ConnectivityGraphFollower
+ConnectUsingEntry
+ConquestGoal
+constant table overflow
+cont
+Content-Length
+Content-Length:
+Content-Length: 
+contents
+contentsL
+contentsR
+contentsstr
+contentsustr
+Content-Type
+Content-Type: %s
+control
+control structure too long
+Controller
+copydata
+copym
+core.lvl
+coroutine
+coroutine expected
+could not add partition, %d.
+could not allocate llinfo
+Could not authenticate server.
+Could not connect to the search manager.
+could not create partition, %d.
+could not load package `%s' from path `%s'
+Could not resolve connection mananger host name.
+Could not resolve search mananger host name.
+could not write partition info, %d.
+count
+counter = %d
+countrycode
+cpubrandid
+cpuspeed
+CQPatchRead
+CQPatchRead::Cycle: CreateThread FAILED!
+CQPatchRead::Cycle: StartThread FAILED!
+create
+Create main Partition.
+create()
+create_sema() failed.
+CreateEffect
+CreateEntity
+CreateHotSpot
+CreateMatrix
+createopts
+createoptsds
+CreateSema failed (%d)
+CreateTimer
+CreateUserEvent
+Cross-device link
+crouch
+Crouch
+crouch_getdown_prone
+crouchalert
+CrouchToProne
+CrouchToStand
+CSC handler error
+C-SJIS
+ctf
+CTFGoal
+CTFGoalD
+ctime
+ctype
+CUB4g
+CurButton
+currentline
+CursorIdx
+D1_MADR=%08x:
+D1_QWC=%08x>
+D1_TADR=%08x:
+D2_MADR=%08x:
+D2_QWC=%08x>
+D2_TADR=%08x:
+DAB4
+DAB4-
+DAB4*
+DAB4;
+DAB4+
+DAB4B
+DAB4E
+DAB4G
+DAB4O
+DAB4R
+damage
+damagerate
+DamageSample
+danger
+data
+Data
+data error
+data failed
+Data stream error
+data/
+Data/
+data/_LVL_PS2/Movies/
+data\
+Data\_LVL_PS2
+data\_lvl_ps2\
+DATABASE
+date
+datestr
+DayB4
+dbcman
+dbcman 
+dbcman : SendData2 BUSY
+dbcman : SendData3 BUSY
+dea1h01
+DeactivateObject
+DeactivateRegion
+dead
+Dead
+deadEye
+deadhero
+Deadlock
+death
+death01
+DeathmatchGoal
+deaths
+Deaths
+deaths_
+DeathsChange
+debug
+Debug
+debug> 
+debugmenu
+debugmenu.ToggleQosDisplay
+Decal
+DecayHFRatio
+DecayHFRatio(%02.02f)
+DecayTime
+DecayTime(%02.02f)
+December
+DECLINE
+decline() in requesting()
+dedicated
+DedicatedTitleText
+default
+Default
+defeattimer
+defeattimer.disable
+DefendGoal
+defensegridturret
+Deflect
+defn
+delay
+delay_thread
+delay_thread: CreateSema() failed.
+delay_thread: SetAlarm() failed.
+delbuddy
+DELBUDDY
+delete
+DeleteAIGoal
+DeleteCampaignDone
+DELETED
+DeleteEntity
+DeleteMetagameDone
+DeleteProfileDone
+delprofile
+DELPROFILE
+delprofileid
+demolition
+Density
+Density(%01.03f)
+Desirednick too long.
+destroy()
+DestroyedCollisionMesh
+DestroyGoal
+DestroyTimer
+destruct
+destructablebuilding
+detach
+Detach
+detachd
+DETACHED
+DETACHING
+detectbandwidth
+detected and set bandwidth %d kbps
+detonator
+dev9
+device
+Device or resource busy
+DeviceAccess
+DeviceStr
+devm
+devman
+DEVMAN
+devman: already registered device type(%d).
+devman: can't add device list.
+devman: can't allocate sif code.
+devman: can't start comm thread.
+devman: can't start rpc server.
+devman: detach failed (id = %d).
+devman: eenet_add_driver_list: memory allocation failed.
+devman: EENET_DEVMAN_RPC_ALLOCATE: create semaphore failed.
+devman: EENET_DEVMAN_RPC_ALLOCATE: memory allocation failed.
+devman: EENET_DEVMAN_RPC_READY create semaphore failed.
+devman: ifname (%s) is too long.
+devman: memory allocaton failed(id = %d).
+devman: search failed. device(id = %d) doesn't exist.
+devman: this device type(%d) is not registered.
+devman: unknown device type(%d)
+devman: unregister device %s (id = %d).
+DGRAM) in config
+DGRAM) in eenet
+DGRAM) in send
+dhclient
+dhclient()
+dhclient: bind() in send_unicast()
+dhclient: bound to %s -- renewal in %d seconds.
+dhclient: Can't extend lease.
+dhclient: check DHCP options (valid length = %d)
+dhclient: Client can get neither DHCPACK nor DHCPNAK.
+dhclient: create_start_thread() in eenet_dhclient()
+dhclient: CreateSema() in eenet_dhclient()
+dhclient: DHCP message summary:
+dhclient: DHCP message type(%u) isn't DHCPOFFER
+dhclient: DHCPACK from %s
+dhclient: DHCPDECLINE to %s
+dhclient: DHCPDISCOVER on %s to %s port %d interval %d
+dhclient: DHCPNAK contains the error message "%s"
+dhclient: DHCPNAK from %s
+dhclient: DHCPOFFER from %s
+dhclient: DHCPRELEASE to %s
+dhclient: DHCPREQUEST on %s to %s port %d interval %d
+dhclient: eenet_bpfioctl(BIOCGBLEN) in eenet_dhclient()
+dhclient: eenet_bpfioctl(BIOCSETF) in arp_check()
+dhclient: eenet_bpfioctl(BIOCSETF) in eenet_dhclient()
+dhclient: eenet_bpfioctl(BIOCSETIF) in eenet_dhclient()
+dhclient: eenet_bpfioctl(BIOCSRTIMEOUT) in eenet_dhclient()
+dhclient: eenet_bpfopen() in eenet_dhclient()
+dhclient: eenet_bpfread() in dhclient_arp_resolv()
+dhclient: eenet_bpfread() in rebinding()
+dhclient: eenet_bpfread() in renewing()
+dhclient: eenet_bpfread() in requesting()
+dhclient: eenet_bpfread() in wait_offer()
+dhclient: eenet_bpfwrite() in arp_reply()
+dhclient: eenet_bpfwrite() in bound()
+dhclient: eenet_bpfwrite() in dhclient_send_arp_req()
+dhclient: eenet_bpfwrite() in init()
+dhclient: eenet_bpfwrite() in renewing()
+dhclient: eenet_bpfwrite() in requesting()
+dhclient: eenet_bpfwrite() in rexmt()
+dhclient: eenet_bpfwrite() in selecting()
+dhclient: eenet_ioctl(SIOCGIFADDR) in config_if()
+dhclient: eenet_ioctl(SIOCGIFBRDADDR) in config_if()
+dhclient: eenet_ioctl(SIOCGIFNETMASK) in config_if()
+dhclient: eenet_malloc() in eenet_dhclient()
+dhclient: eenet_malloc() in eenet_dhcliet()
+dhclient: estimate Rebinding (T2) Time: %u
+dhclient: estimate Renewal (T1) Time: %u
+dhclient: Got DHCPNAK in rebinding state.
+dhclient: invalid checksum in IP header
+dhclient: invalid checksum in UDP header
+dhclient: invalid length in IP header
+dhclient: invalid length in UDP header
+dhclient: Lease time expired.
+dhclient: make_decline() in requesting()
+dhclient: make_request() in bound()
+dhclient: make_request() in renewing()
+dhclient: make_request() in selecting()
+dhclient: Mesage op code(%u) isn't BOOTREPLY
+dhclient: no DHCP message type
+dhclient: No DHCP server is available.
+dhclient: no Magic cookie? (0x%02x%02x%02x%02x)
+dhclient: parse DHCP options (valid length = %d)
+dhclient: recalculate Renewal (T1) Time: %u
+dhclient: sceEENetGetIfstat() in getmac()
+dhclient: sendmsg() in send_unicast()
+dhclient: set_dns_and_route failed.
+dhclient: setsockopt(SO_REUSEPORT) in send_unicast()
+dhclient: setsockopt(SO_SNDBUF) in send_unicast()
+dhclient: socket(AF_INET, SOCK_DGRAM) in config_if()
+dhclient: socket(AF_INET, SOCK_DGRAM) in send_unicast()
+dhclient: state %s
+dhclient: state %s -> %s
+dhclient: time() in bound()
+dhclient: time() in dhclient_thread()
+dhclient: time() in rebinding()
+dhclient: time() in renewing()
+dhclient: time() in requesting()
+dhclient: time() in wait_offer()
+dhclient: Transaction ID(0x%08x) isn't match with mine(0x%08x)
+dhcliet()
+DHCP configuration error
+DHCP configuration successful
+DHCPACK
+DHCPDECLINE
+DHCPDISCOVER
+DHCPINFORM
+DHCPNAK
+DHCPOFFER
+DHCPRELEASE
+DHCPREQUEST
+DhUH$
+Dialing %s
+Diffusion
+Diffusion(%01.03f)
+direct
+Direct
+DirectGain 
+DirectGain : %f
+DirectHFGain 
+DirectHFGain : %f
+direction
+directional
+Directory not empty
+DisableAIAutoBalance
+DisableBarriers
+DisableFlyerShadows
+DisableSmallMapMiniMap
+discard-req
+DISCONNECT
+Disconnected from network
+Disconnecting from network
+Disconnecting line
+Disconnecting line: %s
+disguise
+DiskReady ended
+dispenser
+Display Next Frame Data
+Display Previous Frame Data
+div
+diveforward
+dlurl
+DMA address 0x%x not %d-byte aligned
+DNAS300.IMG
+dns
+DNS lookup error
+DoConsoleCmd
+DoesCampaignExistOnCard
+DoesMetagameExistOnCard
+DoesProfileExistOnCard
+dofile
+DoFile
+DoFriendAction
+DoInitialMemcardCheck
+done
+done.
+DoneCheckDNAS
+DoneCheckPatch
+door
+DopplerMode(%d)
+down
+Down
+DownloadLeaderBoardData
+DPadDown
+DPadLeft
+DPadRight
+DPadUp
+drain
+DrawBeamBetween
+DrawParticleAt
+driver
+droid
+droidekafp
+droidekafp_rifle_idle
+droidekafp_rifle_reload
+droidekafp_rifle_shoot
+droidekafp_rifle_walk
+droidscale
+droplagjumps
+dropmap
+dtime
+dtl
+duel
+DummyRoot
+DummyUpload
+dump
+duplicate IP address %s sent from link address %s
+dusteffect
+DVDDemo
+Dying
+dynamic
+e:/Battlefront2/PS2_Final/PlatformFL/Ps2/core/ee/cd_t.c
+e:/Battlefront2/PS2_Final/PlatformFL/Ps2/core/ee/cddir_t.c
+echo
+echo-reply
+echo-req
+ee call cmd search %s
+eenet
+EENET
+eenet_malloc() in _sce_eenet_flush_route()
+eenet_sysctl() in _sce_eenet_flush_route()
+eenet_tsleep
+eenetctl
+eenetctl: (ifname:%s, af:%d)
+eenetctl: (ifname:%s, af:%d) 
+eenetctl: (ifname=%s) [ %s ]
+eenetctl: _sce_eenet_delete_default_route() failed in delete_default_route().
+eenetctl: _sce_eenet_set_route() failed in set_dns_and_route().
+eenetctl: add_default_route() failed in set_dns_and_route().
+eenetctl: delete default route failed in set_dns_and_route().
+eenetctl: down interface failed in eenetctl_action().
+eenetctl: eenet_malloc() failed in eenetctl_main().
+eenetctl: end of main function
+eenetctl: if %d, type: %d, mtu: %d
+eenetctl: inet_pton() failed in set_dns_and_route().
+eenetctl: sceEENetGetIfnames() failed in eenetctl_main().
+eenetctl: set mediatype failed in eenetctl_action().
+eenetctl: sysctl() failed in delete_default_route().
+eenetctl: there isn't pppoe's real interface!!!
+eenetctl: Waiting I/F Event
+EES
+effectprop
+EffectsEnabled
+eli
+else
+elseif
+email
+EMAIL
+Email too long.
+emitterordnance
+emote
+Empty
+EMPTY
+empty distance tree with lengths
+EmptyText
+Enable
+EnableAIAutoBalance
+EnableBarriers
+EnableBuildingLockOn
+EnableCommandPostVO
+EnableCursor
+EnableFlyerPath
+EnableHeroMusic
+EnableHeroVO
+EnableJournal
+EnablePlayback
+EnableScene
+EnableSPHeroRules
+EnableSPScriptedHeroes
+end1a
+EndAutoNet
+ended
+endfaction
+endgame
+EndIFObj
+EndIFScreen
+endurance
+energy
+energy_boost
+EnergyBar
+eng
+english
+ent
+ent_devm
+ent_smap
+ent_smap: memory allocation failed in smap_rpc_server().
+ent_smap: sceEENetNotifyEEDriverIsReady() failed.
+ent_smap: sceEENetNotifyEEDriverIsTerminated() failed.
+ent_smap: sceEENetRegDriver() failed.
+ent_smap: sceEENetUnregDriver() failed.
+enter
+Enter
+EnterMission
+EnterRegion
+EnterVehicle
+Entity
+entity.%s
+EntityBuilding
+EntityBuildingAnimated
+EntityBuildingAnimatedArmed
+EntityBuildingAnimatedArmedClass
+EntityBuildingAnimatedClass
+EntityBuildingArmed
+EntityBuildingArmedClass
+EntityBuildingArmedDynamic
+EntityBuildingArmedDynamicClass
+EntityBuildingClass
+EntityCarrier
+EntityCarrierClass
+EntityClass
+EntityCloth
+EntityClothClass
+EntityDefenseGridTurret
+EntityDefenseGridTurretClass
+EntityDoor
+EntityDoorClass
+EntityDroid
+EntityDroidClass
+EntityDroideka
+EntityDroidekaClass
+EntityEffectClass
+EntityEx
+EntityFlyer
+EntityFlyerClass
+EntityFlyerInitAsFlying
+EntityFlyerInitAsLanded
+EntityFlyerLand
+EntityFlyerTakeOff
+EntityGeometry
+EntityGeometryClass
+EntityHologram
+EntityHologramClass
+EntityHover
+EntityHoverClass
+EntityItem
+EntityItemClass
+EntityLight
+EntityLightClass
+EntityMine
+EntityMineClass
+entitypathbranch
+EntityPortableTurret
+EntityPortableTurretClass
+EntityProp
+EntityPropAnimated
+EntityPropAnimatedClass
+EntityPropClass
+EntityRemoteTerminal
+EntityRemoteTerminalClass
+EntitySoldier
+EntitySoldierClass
+EntitySound
+EntitySoundClass
+EntitySoundStatic
+EntitySoundStaticClass
+EntitySoundStream
+EntitySoundStreamClass
+EntityTrap
+EntityTrapClass
+EntityWalker
+EntityWalkerClass
+Entry
+EnumerateLeaderBoard
+EnumerateLeaderBoardDone
+ERDelay
+ERDelay(%01.03f)
+ERGain
+ERGain(%01.02f)
+err
+errmsg
+error
+Error
+ERROR
+Error code detected(BDEC)
+error code= 0x%08x
+Error connecting
+Error connecting to a peer.
+Error getting buddy authorization.
+error in error handling
+error loading package `%s' (%s)
+error new
+Error parsing buddy message.
+Error reading from the search server.
+Error.title
+escape sequence too large
+esskey
+establish
+Establishing connection to ISP
+Establishing PPPoE session
+event
+Event
+event sema not signalled
+event_handler: event happened. if=%s af = %d, type = %d
+except
+exception
+Exec format error
+EXECCMD
+Exit
+exiting
+ExitVehicle
+Expand Current Sample
+experience
+expf
+explosion
+EXT2
+EXT2SWAP
+external hook
+ezentctl
+ezentctl: %d
+eznetcnf
+ezNetCnfGetCombination
+ezNetCnfGetCombinationList
+ezNetCnfGetCount
+ezNetCnfGetDefault
+ezNetCnfGetProperties
+ezNetCnfInit
+ezNetCnfInit() failed.
+eznetctl
+eznetctl_eenet
+ezNetCtlInit
+ezNetCtlPreloadModemCnf
+ezNetCtlSetCombination
+ezNetCtlSetProperties
+ezNetCtlUnloadModemCnf
+ezNetCtlWaitEventTO
+failed
+FAILED
+Failed...
+failure
+fall
+false
+fatal
+fatray
+favoriteClass
+favoriteVehicle
+favoriteWeapon
+February
+FEEDBACK
+fenv
+field
+field `%s' missing in date table
+file
+file (%s)
+file error
+File exists
+file is already closed
+File or path name too long
+File too large
+FILE*
+filename
+files
+FillAsteroidPath
+FillAsteroidRegion
+final
+Final 
+Final/PlatformFL/Ps2/core/ee/cd
+Final/PlatformFL/Ps2/core/ee/cddir
+final\
+final\\queryid\1.1
+FinalGain %01.02f
+find
+FindEntityClass
+FindTimer
+finish
+FinishCapture
+finishes
+Finishes
+FinishNeutralize
+fins
+firewall
+first
+firstname
+FirstPerson
+fix MP stats
+FIXME
+FIXME: Localize game.tooltips.leaving_battlefield
+flag
+flag needs to be '0' in PS
+FlagCapture
+FlagDrop
+FlagItem
+FlagItemClass
+FlagOffScreen
+FlagOffScreenBehind
+FlagOnScreen
+FlagOnScreenBehind
+FlagPickUp
+FlagReset
+FlagReturn
+flail
+flash
+FLEffectObject
+FLEffectObject::OffsetMatrix
+flnSu
+floor
+flush
+flyer
+FLYER
+flyer.contrailsActive
+flyingback
+flyingfront
+flyingleft
+flyingright
+fnActivate
+fnFindReady
+fnPostMissingController
+fnSetTitle
+fnSetTitleStr
+foB4
+fogspread
+fold
+foleyfx
+FoleyFX
+FoleyFXImpact
+FoleyFXSoldier
+FoleyFXWalker
+followchr
+FollowGoal
+ForceAIOutOfVehicles
+FORCED
+ForceHumansOntoTeam1
+foreach
+foreachi
+format
+Format
+Format hdd0.
+format needs to be 1
+Format pfs.
+FormatTimeString
+forward
+fpfileid
+fraglimit
+Frame
+free()
+Freecamera
+freelist is destroyed.
+french
+frenzy
+frexp
+friends
+friends_listbox_contents
+FROM
+fromedge
+fromprofileid
+front(%.2f,%.2f,%.2f)
+front1
+front2
+Ft=a
+FtMa
+full
+func
+func().
+function
+Function
+function arguments expected
+Function not implemented
+function or expression too complex
+function or level expected
+Function parameter error
+function: %p
+fx_splash
+FXrippl1
+gain
+Gain
+Gain %01.02f
+Gain(%01.02f)
+GainDev
+GainDev(%f)
+game
+game over
+game started
+game started: %s
+game.awards.bonus.
+game.awards.medal.
+game.spawndisplay.numtospawn
+game.squadcommand.%s.%s
+game_finish
+game_interface
+game_rank
+game_start
+gameComplete
+gamemode
+GameMode
+GameMovie
+GameMovie::sTextureHeap
+GameMovieTextureHeap
+gamename
+GameObject
+GameObjectClass
+gameopts
+Gamespy
+GameSpy
+gamespy.errors.%s
+gamespy.errors.backend
+gamespy.errors.backend_temp_unavailable
+gamespy.errors.backend_unavailable
+gamespy.errors.nick
+gamespy.errors.nick_nonumber
+gamespy.errors.nick_nospaces
+gamespy.errors.nick_validchars
+gamespy.status.GP
+gamespy.status.GP_AWAY
+gamespy.status.GP_CHATTING
+gamespy.status.GP_OFFLINE
+gamespy.status.GP_ONLINE
+gamespy.status.GP_PLAYING
+gamespy.status.GP_STAGING
+gamespy.status.pending
+gamespy.status.unknown
+GameSpyHTTP/1.0
+gamestats.gamespy.com
+gametype
+gamevariant
+gamever
+garrison
+garrison_used_by
+gateway
+gateway route is not ours
+gcinfo
+gConsoleCmdList
+gCurPopup
+gDemoBuild
+gDemoHasMP
+gDemoHasSplitscreen
+gDemoHost
+gE3Demo
+GENERAL
+GeneralDown
+GeneralLeft
+GeneralRight
+GeneralUp
+geo
+geo_inf_acklay%d
+german
+get
+GET 
+GET /ps2/swbf2/%s HTTP/1.1
+get_ifindex() in _sce_eenet_flush_route()
+GetAlpha
+GetAmHost
+GetAssaultScoreLimit
+GetASSNumBots
+GetAutoAssignTeams
+GetAutoGetPlayerCount
+GetAutoNetGameName
+GetAutoNetIsDedicated
+GetAutoNetMode
+GetAutoNetScript
+GetAwardStats
+GetBassManagement
+GetBleedRate
+GetBuildStr
+GetCareerMedalLevel
+GetCareerMedals
+GetCareerPersonalStats
+GetCareerRank
+GetCharacterClass
+GetCharacterControllable
+GetCharacterRemote
+GetCharacterTeam
+GetCharacterUnit
+GetCharacterVehicle
+GetCmdlineLogin
+GetColor
+GetCommandPostBleedValue
+GetCommandPostCaptureRegion
+GetCommandPostTeam
+GetCONMaxTimeLimit
+GetConnectSocketsStatus
+GetConnectType
+GetCONNumBots
+GetConsoleCmds
+GetControlMode
+GetControlScale
+GetCPointer
+GetCTFCaptureLimit
+GetCTFMaxTimeLimit
+GetCTFNumBots
+GetCurrentProfileName
+GetCurrentProfileNetName
+GetDateStr
+GetDepth
+GetDifficulty
+GetDisplayRect
+GetDNASError
+getdown
+GetEffectMatrix
+GetEntityClass
+GetEntityClassName
+GetEntityClassPtr
+GetEntityLabel
+GetEntityMatrix
+GetEntityMesh
+GetEntityName
+GetEntityPtr
+GetEntityWeaponMesh
+GetEnumerateLeaderBoardData
+GetError
+GetErrorLevel
+GetExtraSessionInfo
+getfenv
+GetFilters
+GetFlagCarrier
+GetFontHeight
+GetFriendActions
+GetFriendListIcon
+GetFriendStateStr
+GetFunctionIdForAnalogId
+GetFunctionIdForButtonId
+GetGameName
+GetGameRules
+GetGeneralOptions
+GetGSProfileInfo
+gethook
+gethostbyaddr
+gethostbyname
+GetHUDScale
+GetHuntMaxTimeLimit
+GetHuntScoreLimit
+GetIFaceLighting
+getinfo
+getinfo' is not a function
+GetIntercharacterSpacing
+getintovehicle
+GetInTrainingMission
+GetIPAddr
+GetLanguage
+GetLastBattleVictory
+GetLatestError
+GetLeaderBoardPlayerData
+GetLeading
+GetLobbyPlayerCount
+GetLobbyPlayerFlags
+GetLobbyPlayerlist
+getlocal
+getlocalizestr
+GetLoginList
+GetMapCameraZoom
+GetMaskTexCoords
+GetMaxControllers
+GetMaxMissionQueue
+GetMedalStats
+getmetatable
+GetMissionTime
+GetMixConfig
+GetMixConfigChanged
+getMsgEntry
+getn
+GetNetGameDefaults
+GetNetHeroDefaults
+GetNumCameras
+GetNumControllers
+GetNumTeamMembersAlive
+GetObjectHealth
+GetObjectLastHitWeaponClass
+GetObjectPtr
+GetObjectShield
+GetObjectTeam
+GetOnlineOpts
+GetOnlineService
+getoutofvehicle
+GetOutputMode
+GetPathPoint
+GetPausingViewport
+getpdr
+GetPersonalStats
+getpidr
+GetPlatform
+GetPlayerIDAtRank
+GetPos
+GetPosition
+GetPrimaryController
+getprofile
+GETPROFILE
+GetProfileName
+GetPS2PatchCheckError
+GetQuitPlayer
+GetRank
+GetRect
+GetRegion
+GetRegionName
+GetReinforcementCount
+GetRotation
+GetSafeScreenInfo
+GetSavedCampaignList
+GetSavedMetagameList
+GetScale
+GetScreenInfo
+GetScreenPosition
+GetSecondaryController
+GetSessionList
+GetSessionListPercent
+GetSessionSortMode
+GetShellActive
+GetSideSelectButtonSetting
+GetSkipToNTGUIProfileName
+GetSpectatorMode
+GetSPProgress
+GetTeamFactionId
+GetTeamMember
+GetTeamName
+GetTeamPoints
+GetTeamSize
+GetTeamstats
+GetTexCoords
+GetTextBox
+GetTextExtent
+GetTextScaleX
+GetTextScaleY
+GetTimerName
+GetTimerRate
+GetTimerValue
+GetTranslation
+GetUniqueLoginName
+GetUnitCount
+GetUnusedControllerPort
+getup
+getupback
+getupfront
+getupvalue
+GetVis
+GetVKeyboardCharacter
+GetVoiceCaptureConnected
+GetVoiceEnable
+GetVoiceReceivePreset
+GetVoiceReceiveStatus
+GetVoiceRenderConnected
+GetVoiceSendPreset
+GetVoiceSendStatus
+GetVoiceTVGain
+GetVolumes
+GetWidthHeight
+GetWorldFilename
+GetYAxisFlip
+GetZOrder
+gFinalBuild
+gfind
+Gfmodf
+GiB4M
+GIF
+GIF_STAT=%08x>
+global
+gMovieAttractMode
+gmtest.master.gamespy.com
+gmtest.ms8.gamespy.com
+gNoControllerChanges
+gNoNewProfiles
+gp.info
+GP_ADDBUDDY
+GP_ADDBUDDY_ALREADY_BUDDY
+GP_ADDBUDDY_BAD_FROM
+GP_ADDBUDDY_BAD_NEW
+GP_AUTHADD
+GP_AUTHADD_BAD_FROM
+GP_AUTHADD_BAD_SIG
+GP_BAD_SESSKEY
+GP_BM
+GP_BM_NOT_BUDDY
+GP_CONNECTION_CLOSED
+GP_DATABASE
+GP_DELBUDDY
+GP_DELBUDDY_NOT_BUDDY
+GP_DELPROFILE
+GP_DELPROFILE_LAST_PROFILE
+GP_FORCED_DISCONNECT
+GP_GENERAL
+GP_GETPROFILE
+GP_GETPROFILE_BAD_PROFILE
+GP_LOGIN
+GP_LOGIN_BAD_EMAIL
+GP_LOGIN_BAD_NICK
+GP_LOGIN_BAD_PASSWORD
+GP_LOGIN_BAD_PROFILE
+GP_LOGIN_CONNECTION_FAILED
+GP_LOGIN_PROFILE_DELETED
+GP_LOGIN_SERVER_AUTH_FAILED
+GP_LOGIN_TIMEOUT
+GP_MEMORY_ERROR
+GP_NETWORK
+GP_NETWORK_ERROR
+GP_NEWPROFILE
+GP_NEWPROFILE_BAD_NICK
+GP_NEWPROFILE_BAD_OLD_NICK
+GP_NEWUSER
+GP_NEWUSER_BAD_NICK
+GP_NEWUSER_BAD_PASSWORD
+GP_NO_ERROR
+GP_NOT_LOGGED_IN
+GP_PARAMETER_ERROR
+GP_PARSE
+GP_SEARCH
+GP_SEARCH_CONNECTION_FAILED
+GP_SERVER_ERROR
+GP_STATUS
+GP_UPDATEPRO
+GP_UPDATEPRO_BAD_NICK
+GP_UPDATEUI
+GP_UPDATEUI_BAD_EMAIL
+gpcm.gamespy.com
+gpiInitialize
+gpiProcessOperation was passed an operation with an invalid type (%d)
+gPopup
+gPopup_Loadsave2_fnSetTitleStr
+gpsp.gamespy.com
+grace
+grace_probe
+grapplinghook
+grapplinghookweapon
+grasspatch
+green
+grenade
+Group
+groupid
+GS$n
+gsfriends
+gsfriends_listbox_layout
+GSTemp
+gsub
+gU$p
+guardian
+GuiManager
+GuiManager::Event
+gunner
+gunslinger
+gXBox
+gXBox_DVDDemo
+hallenge
+HandleMouse
+handler
+handsdown
+hashinit
+hashinit: bad cnt
+hasnetwork
+HasNewPatch
+HasSeenDNASEULA
+HasServerLaunched
+haywire
+hdd0
+hdd0:
+hdd0:test,fpasswd
+hdd0:test,fpasswd,rpasswd,256M,PFS
+head
+HEAD 
+header
+header crc mismatch
+Headset %d (player id=%d)
+headShots
+HealthChange
+HEB4
+height
+Height
+Height %03.03f
+hello
+hero
+hero_points
+HeroDefeated%d
+heroes
+heroplayer
+heropoints
+HeroPoints
+heropoints_
+herorespawn
+herorespawnval
+HeroSelectable%d
+HeroSpawned%d
+heroteam
+herounlock
+HeroUnlocked%d
+herounlockval
+HFReference
+HFReference(%01.03f)
+HiB4S
+HideDownloadableContent
+Highlight Next Sample
+Highlight Previous Sample
+HintFlagOffScreen
+HintFlagOffScreenBehind
+HintFlagOnScreen
+HintFlagOnScreenBehind
+HintOffScreen
+HintOffScreenBehind
+HintOnScreen
+HintOnScreenBehind
+hintPopup
+hintPopup.disable
+hintPopup.pageNumber
+hitback
+hitfront
+hitleft
+hitright
+hologram
+homepage
+Horizontal
+host
+Host
+host is not on local network
+host will drop lag jumps
+host will not drop lag jumps
+host will not split update
+host will not wait for late moves
+host will split update
+host will use lag version %d
+host will wait for late moves
+host:
+Host: 
+Host: lucasarts.gamespy.com
+host0
+host0:
+host0:%s%s.irx
+HostAimer
+HostAmmoCounter
+HostArmedDynamic
+HostAsteroid
+HostCarrier
+HostCommandFlyer
+HostCommandHover
+HostCommandWalker
+HostDroid
+HostDroideka
+HostEnergyBar
+HostFlag
+HostFlyer
+HostHover
+HostMountedTurret
+hostname
+HostOrdnanceTowCable
+hostport
+HostPowerup
+HostRemoteTerminal
+hosts
+HostSoldier
+HostTreeGrid
+HostWalker
+HostWalkerBlend
+HostWalkerBlendUnit
+HostWalkerLegPair
+HostWeapon
+hot1i
+hover
+HOVER
+http
+HTTP/%d.%d %d%n
+HTTP/1.1 304 
+HTTP/1.1 404 
+http://
+http://%s:%d%s
+http://gamestats.gamespy.com/swbfront2ps2/web/leaderboard
+http://motd.gamespy.com/motd/motd.asp?userid=%d&productid=%d&versionuniqueid=%s&distid=%d&uniqueid=%s&gamename=%s
+http://motd.gamespy.com/motd/vercheck.asp?productid=%d&versionuniqueid=%s&distid=%d&gamename=%s
+http://motd.gamespy.com/motd/vercheck.asp?userid=%d&productid=%d&versionuniqueid=%s&distid=%d&uniqueid=%s&gamename=%s
+http://www.fileplanet.com/dlfileraw.asp?file=%d&gamename=%s
+hud
+hud_icon_flash
+hud_map_northpointer
+HUGE
+human
+humanfp
+humanfp_bazooka_flail
+humanfp_bazooka_idle
+humanfp_bazooka_jump
+humanfp_bazooka_jump_land
+humanfp_bazooka_reload
+humanfp_bazooka_run
+humanfp_bazooka_shoot
+humanfp_grenade_charge
+humanfp_grenade_shoot
+humanfp_grenade_shoot2
+humanfp_handsdown
+humanfp_rifle_flail
+humanfp_rifle_idle
+humanfp_rifle_jump
+humanfp_rifle_jump_land
+humanfp_rifle_reload
+humanfp_rifle_run
+humanfp_rifle_shoot
+humanfp_tool_flail
+humanfp_tool_idle
+humanfp_tool_jump
+humanfp_tool_jump_land
+humanfp_tool_reload
+humanfp_tool_repair
+humanfp_tool_run
+humanfp_tool_shoot
+humanlz
+hunt
+HWSupport
+I/O error
+i3dl2reverb
+iASSNumBots
+iASSScoreLimit
+iAutoAim
+icmp
+icmp len
+icmp_error
+icmp_mtudisc_timeout:  bad route to timeout
+icon
+icon=mc0
+icon=mc0:/BWNETCNF/SYS_NET.ICO
+iCONMult
+iCONNumBots
+iconsys=mc0
+iconsys=mc0:/BWNETCNF/icon.sys
+iCONTimer
+icquin
+iCTFNumBots
+iCTFScore
+iCTFTimer
+Identifier removed
+iDifficulty
+idle
+Idle
+IDLE
+idle idle
+idle idle_leftup idle_rightup
+idle leftfoot
+idle rightfoot
+idle_checkweapon
+idle_emote
+idle_lookaround
+idle_takeknee
+idle_to_leftfoot
+idle_to_leftfoot idle_to_leftfoot_leftup idle_to_leftfoot_rightup
+idle_to_rightfoot idle_to_rightfoot_leftup idle_to_rightfoot_rightup
+IdleToLeft
+IdleToRight
+IdleToRoll
+iDMMult
+iELINumBots
+if()
+if_attach
+if_detach: WARNING: AF %d not purged
+IFaceSoldierAnimator
+IFFlashyText
+IFImage
+ifindex() in 
+iflist(1)
+iflist(2)
+IFMaskImage
+ifmedia
+ifmedia_add: can't malloc entry
+ifmedia_set
+ifmedia_set: no match for 0x%x/0x%x
+IFModel
+If-Modified-Since
+If-Modified-Since: %s; length=%d
+IFObj
+iFriendlyFire
+ifs
+ifs.briefing.%s
+ifs.error.netcable
+ifs.error.netcable_removed
+ifs.error.no
+ifs.error.no_net_device
+ifs.gsprofile.all
+ifs.gsprofile.badchars
+ifs.loadsave
+ifs.loadsave_ps2.cancel
+ifs.loadsave_ps2.continue
+ifs.loadsave_ps2.freemoreblocks
+ifs.loadsave_ps2.no
+ifs.loadsave_ps2.ok
+ifs.loadsave_ps2.save01
+ifs.loadsave_ps2.save02
+ifs.loadsave_ps2.save03
+ifs.loadsave_ps2.save04
+ifs.loadsave_ps2.save05
+ifs.loadsave_ps2.save06
+ifs.loadsave_ps2.save07
+ifs.loadsave_ps2.save08
+ifs.loadsave_ps2.save09
+ifs.loadsave_ps2.save10
+ifs.loadsave_ps2.save11
+ifs.loadsave_ps2.save13
+ifs.loadsave_ps2.save14
+ifs.loadsave_ps2.save15
+ifs.loadsave_ps2.save16
+ifs.loadsave_ps2.save17
+ifs.loadsave_ps2.save18
+ifs.loadsave_ps2.save19
+ifs.loadsave_ps2.save22
+ifs.loadsave_ps2.save23
+ifs.loadsave_ps2.yes
+ifs.mp.dnas.err%d
+ifs.mp.hosterrors.register
+ifs.mp.hosterrors.register_failed
+ifs.mp.joinerrors.banned
+ifs.mp.joinerrors.booted
+ifs.mp.joinerrors.cdkey
+ifs.mp.joinerrors.connectlost
+ifs.mp.joinerrors.full
+ifs.mp.joinerrors.game
+ifs.mp.joinerrors.hostquit
+ifs.mp.joinerrors.missingdc
+ifs.mp.joinerrors.password
+ifs.mp.joinerrors.version
+ifs.mp.netconfig.firstline
+ifs.mp.netconfig.secondline
+ifs.mp.sessionlist.servertypes.pc
+ifs.mp.sessionlist.servertypes.pcdedicated
+ifs.mp.sessionlist.servertypes.ps2
+ifs.mp.sessionlist.servertypes.ps2dedicated
+ifs.mp.sessionlist.servertypes.xbox
+ifs.mp.sessionlist.servertypes.xboxdedicated
+ifs.patch.error
+ifs.patch.fullcard
+ifs.patch.fullmemory
+ifs.patch.nocard
+ifs.patch.nonewpatch
+ifs.patch.restart
+ifs_charselect%i
+ifs_charselect%i.Info.UnitNameText
+ifs_charselect%i.Info.Window.BoxText
+ifs_charselect%i.Info.Window.titleBarElement
+ifs_legal
+ifs_lobby
+ifs_login
+ifs_main
+ifs_mapselect%i
+ifs_missionselect
+ifs_mp
+ifs_mp_autonet
+ifs_mp_createopts
+ifs_mp_createoptsds
+ifs_mp_gameopts
+ifs_mp_lobby
+ifs_mp_lobby_quick.launching
+ifs_mp_lobbyds
+ifs_mp_main
+ifs_mp_maptype
+ifs_mp_sessionlist
+ifs_mpgs_login
+ifs_mpxl_login
+ifs_pausemenu
+ifs_pausemenu%d
+ifs_readyselect
+ifs_readyselect%i
+ifs_readyselect%i.Helptext_Back
+ifs_saveop_DeleteCampaignDone
+ifs_saveop_DeleteMetagameDone
+ifs_saveop_DeleteProfileDone
+ifs_saveop_InitialMemcardCheckDone
+ifs_saveop_LoadCampaignDone
+ifs_saveop_LoadMetagameDone
+ifs_saveop_LoadProfileDone
+ifs_saveop_PreOpDone
+ifs_saveop_SaveCampaignDone
+ifs_saveop_SaveMetagameDone
+ifs_saveop_SaveProfileDone
+ifs_sideselect%d
+ifs_sideselect%d.buttons.team%d.label
+ifs_sideselect%i
+ifs_start
+ifs_teamstats
+ifs_vkeyboard
+IFText
+iHeroPlayer
+iHeroRespawn
+iHeroRespawnVal
+iHeroTeam
+iHeroUnlock
+iHeroUnlockVal
+iHUNTimer
+iHUNTScoreLimit
+illegal
+Illegal seek
+I'm no longer need the IP address (%s)
+image buffer needs to be aligned to 64byte boundary(0x%08x)
+iMaxBots
+iMaxDedicatedBots
+iMaxDedicatedPlayers
+iMaxPlayers
+imperial
+in  %2d, bfd %2d
+in  %2d, bfd %2d:%2d, %s, %s, ltc %04.02f, sfq %04.02f, sct %2d, seq %2d %s %s, dec %2d
+In 0x%08x, Out 0x%08x, Graph 0x%08x
+in_control
+in4
+in4_cksum: bad mbuf chain
+in4_cksum: offset too short
+inc
+incompatible version
+incomplete distance tree
+incomplete dynamic bit lengths tree
+incomplete literal/length tree
+incorrect data check
+incorrect header check
+incorrect length check
+increment code(0x%08x)
+ind
+index
+IndexMultipageText
+indexstr
+IndexStr
+INET, SOCK
+inf
+-Inf
+info
+ingame.lvl
+ingame.mvs
+ingamefr.mvs
+ingamegr.mvs
+ingameit.mvs
+ingamesp.mvs
+ingameuk.mvs
+init
+Init
+INIT
+Init %d
+init 2
+init() first.
+initial
+initialize
+Initializing modem
+InitialMemcardCheckDone
+InMemoryProfileMode
+InMultiplayer
+InNetGame
+InNetSession
+input
+Input
+Input_
+Input_Accept
+Input_Back
+Input_GeneralDown
+Input_GeneralRight
+Input_GeneralUp
+Input_Start
+insert
+instantaction
+Instruction
+insufficient memory
+interface
+internet
+Interrupted system call
+interval
+interval is empty
+intra
+intra && skip MB
+iNumBots
+iNumPlayers
+iNumSessions
+Invalid AI Command
+Invalid argument
+invalid argument to in
+invalid argument to in_lifaddr_ioctl
+invalid bit length repeat
+invalid block type
+invalid capture index
+invalid code lengths set
+invalid Combination number (%d)
+Invalid connection.
+invalid control char
+Invalid countrycode.
+Invalid date.
+invalid default Combination number (%d)
+Invalid dial-in number
+Invalid dial-in number: %s
+invalid distance code
+invalid distance too far back
+invalid distances set
+Invalid e-mail.
+Invalid firewall.
+invalid format
+invalid format (too long)
+invalid format (width or precision too long)
+Invalid func.
+Invalid index.
+Invalid info.
+invalid key for `next'
+invalid level
+invalid literal/length code
+invalid literal/lengths set
+Invalid locationString.
+Invalid macroblock
+Invalid macroblock_address_increment code(0x%08x)
+Invalid macroblock_type code: 0
+Invalid message.
+invalid mode
+Invalid modion type -- ignored(%d)
+Invalid nick.
+Invalid numProductIDs.
+invalid option
+invalid option to `format'
+invalid order function for sorting
+Invalid parameter %s
+Invalid password.
+invalid pattern capture
+Invalid productIDs.
+Invalid profile.
+Invalid reason.
+Invalid replace.
+Invalid sex.
+Invalid state.
+Invalid status.
+Invalid statusString.
+invalid stored block lengths
+invalid value
+Invalid value.
+invalid window size
+Invalid zipcode.
+invincibilitytime
+invisibility
+INVITE
+inviteto
+INVITEVOICE
+ioctl
+ioctl(PPPGETLINKSTATE) in link
+ioctl(PPPGETMAXLINKSTATE) in ppp
+ioctl(PPPGETPPPCONFS) in 
+ioctl(PPPOEMAXPHASEREQ) in pppoe
+ioctl(PPPOERSTMAXPHASEREQ) in pppoe
+ioctl(PPPOESETPARMS) in eenet
+ioctl(PPPRSTMAXLINKSTATE) in ppp
+ioctl(PPPSETASYNCMAP) in ppp
+ioctl(PPPSETPPPCONFS) in ppp
+ioctl(PPPSETRASYNCMAP) in ppp
+ioctl(SIOCAIFADDR) in 
+ioctl(SIOCDIFADDR) in 
+ioctl(SIOCGIFADDR) in config
+ioctl(SIOCGIFBRDADDR) in config
+ioctl(SIOCGIFFLAGS) in pppoe
+ioctl(SIOCGIFNETMASK) in config
+ioctl(SIOCIFCREATE) in pppoe
+ioctl(SIOCIFDESTROY) in pppoe
+ioctl(SIOCSIFFLAGS) in pppoe
+ioctl(SPPPGETIPCPCFG) in 
+ioctl(SPPPGETMAXPHASEREQ) in 
+ioctl(SPPPGETSPHASEREQ) in 
+ioctl(SPPPGETSPHASEREQ) in pppoe
+ioctl(SPPPRSTMAXPHASEREQ) in 
+ioctl(SPPPSETSPPPREQ) in 
+iOnlineIcon
+ip_init
+ipairs
+ipcp
+iPlayersSupported
+ipum
+ipv6cp
+Iq`B
+Iqacos
+irx
+IRX
+Is a directory
+IsAutoNet
+IsBadNetworkConnection
+IsBootInvitePending
+IsCampaign
+IsCampaignStateSaved
+IsCharacterHuman
+IsCharacterInRegion
+IsCmdlineJoinPending
+IsControllerBound
+IsControllerConnected
+IsCurProfileDirty
+isCurrent
+IsCurrentCampaign
+IsCurrentMetagame
+IsDedicated
+IsDNASDone
+IsEffectActive
+IsEnabled
+IsEnableLeaderBoard
+IsErrorBoxOpen
+IsFileExist
+IsGameOver
+IsGroup
+IsGuest
+IsHorizontalSplitScreen
+IsInShell
+IsJoinDone
+IsLeaveDone
+IsLegalGamespyString
+IsLoggedIn
+IsLoginDone
+IsMemoryCardInsertted
+IsMemoryCardUnformatted
+IsMetaAllMapsOn
+IsMetagameStateSaved
+IsMissionSetupSaved
+IsMoviePlaying
+IsNetCableIn
+IsNetHWPresent
+IsNetworkOn
+IsObjectAlive
+IsPAL
+IsPlayerLoggedIn
+IsPopupOpen
+IsProfileDirty
+IsPropertyPlayingNow
+IsPS2PatchCheckDone
+IsQuickmatchDone
+IsQuickmatchPassworded
+IsScreenInStack
+IsSessionReady
+IsShellMusicPlaying
+IsSpecialJoinPending
+IsSplitscreen
+iStartCnt
+IsUniqueLoginName
+italian
+iTeam
+iTeamDmg
+items in a constructor
+iTurnsPerSecond
+iTVVoiceVol
+IUUUUU
+iViewport
+iVoiceMode
+iVoiceModeDedicatedMax
+iVoiceModeMax
+iVoiceModeMin
+iVoicePlayVol
+iVoiceRecordVol
+iVote
+iWarmUp
+January
+japanese
+jawa
+jawalz
+jetpack
+jetpack_hover
+JSET
+Jso.W
+JSTS
+July
+jump
+jump_backward
+jump_forward
+jump_left
+jump_right
+JumpToNTGUI
+June
+junk pointer, too high to make sense.
+junk pointer, too low to make sense.
+key
+KeyDown
+keylen be set
+killingSpree
+KillObject
+kills
+Kills
+kills_
+KillsChange
+killsstr
+L>team
+L>team_bonus_
+LAB4
+LAB4;
+labelustr
+lagversion
+LAJoyDown
+LAJoyLeft
+LAJoyRight
+LAJoyUp
+land
+Land
+landbacksoft
+landfrontsoft
+landhard
+landsoft
+Large
+laser
+last
+LAST
+lastGamePlayed
+LastGamePlayed
+Last-Modified
+Last-Modified: 
+lastname
+lat
+LaunchDemo
+launcher
+launchflag
+LaunchJoin
+LaunchLeave
+LaunchLobby
+LaunchQuickmatch
+LaunchSessionList
+Layer 0x%08x
+Layered Sound 0x%08x
+layout
+ldexp
+leader
+leaderboard
+leaderboard_listbox_contents
+leaderboarddetails
+leaderboarddetails_data
+LeaderBoardDownloadDone
+leafpatch
+LeaveRegion
+left
+Left
+left1
+left2
+leftfoot
+leftfoot idle
+leftfoot walk
+leftfoot_to_idle
+leftfoot_to_idle leftfoot_to_idle_leftup leftfoot_to_idle_rightup
+LeftToIdle
+LeftToRight
+leftup idle
+leftup leftfoot
+leftup rightfoot
+leftup turnl
+leftup turnr
+leftup walk
+legal
+len
+length
+level
+level must be non-negative
+level out of range
+level.%s.%s
+level.%s.hints
+level.%s.local
+level.%s.locals
+levelHintText
+lgaud
+lgAudARead
+lgAudARead: error: another async call is in progress...
+lgAudARead: invalid parameter (*size too big)
+lgAudARead: invalid parameter (dest)
+lgAudARead: rpc call failed
+lgAudAWrite
+lgAudAWrite: error: another async call is in progress...
+lgAudAWrite: invalid parameter (*size too big)
+lgAudAWrite: invalid parameter (src)
+lgAudAWrite: rpc call failed
+lgAudAWriteVag
+lgAudAWriteVag: error: another async call is in progress...
+lgAudAWriteVag: invalid parameter (*size too big)
+lgAudAWriteVag: invalid parameter (src)
+lgAudAWriteVag: rpc call failed
+lgAudClose
+lgAudClose: rpc call failed
+lgAudEnumerate
+lgAudEnumerate: invalid parameter (description)
+lgAudEnumerate: rpc call failed
+lgAudEnumHint
+lgAudEnumHint: invalid parameter (hint)
+lgAudGetAvailableRecordingBytes
+lgAudGetAvailableRecordingBytes: rpc call failed
+lgAudGetMixer
+lgAudGetMixer: invalid parameter (mr)
+lgAudGetMixer: rpc call failed
+lgAudGetRemainingPlaybackBytes
+lgAudGetRemainingPlaybackBytes: rpc call failed
+lgAudInit
+lgAudInit:  lgaud.irx is version %d.%02d.%03d
+lgAudInit:  liblgaud.a is version %d.%02d.%03d
+lgAudInit: continuing.
+lgAudInit: max streaming data size: %d
+lgAudInit: rpc binding error
+lgAudInit: rpc error
+lgAudInit: system halted.
+lgAudInit: unable to allocate %d bytes!
+lgAudInit: unable to create semaphore!
+lgAudInit: warning: version mismatch between lgdev.irx and liblgdev.a 
+lgAudInit: wrong version of lgaud.irx!
+lgAudOpen
+lgAudOpen: invalid parameter (device)
+lgAudOpen: invalid parameter (openparam)
+lgAudOpen: invalid parameter (openparam->Mode)
+lgAudOpen: rpc call failed
+lgAudPrepareForReboot
+lgAudPrepareForReboot: error: an async call is in progress...
+lgAudPrepareForReboot: rpc call failed
+lgAudRead
+lgAudRead: invalid parameter (dest)
+lgAudRead: invalid parameter (size too big)
+lgAudRead: rpc call failed
+lgAudResumePlayback
+lgAudResumePlayback: rpc call failed
+lgAudSetMixer
+lgAudSetMixer: invalid parameter (mr)
+lgAudStartPlayback
+lgAudStartPlayback: rpc call failed
+lgAudStartRecording
+lgAudStartRecording: rpc call failed
+lgAudStopPlayback
+lgAudStopPlayback: rpc call failed
+lgAudWrite
+lgAudWrite: invalid parameter (size too big)
+lgAudWrite: invalid parameter (src)
+lgAudWrite: rpc call failed
+lgAudWriteVag
+lgAudWriteVag: invalid parameter (size too big)
+lgAudWriteVag: invalid parameter (src)
+lgAudWriteVag: rpc call failed
+lgB4
+LGTGliblgaud
+Libcdvd bind err %d CD
+Libcdvd bind err %d CD_Init %d
+Libcdvd bind err CdDiskReady
+Libcdvd bind err CdSearchFile
+Libcdvd bind err N CMD
+Libcdvd bind err S cmd
+Libcdvd Exit
+libdbc
+libdbc: bind failed
+libdbc: Module version mismatch 
+libdbc: SendData2 data length too long [%d]
+libdbc: SendData3 data length too long [%d]
+libdbc: SifDmaAddr %08x
+libdma
+libdma: sync timeout
+libeenet
+libeenet: if_setaddr() failed in set_staticaddr_func().
+libeenet: set_dns_and_route() failed in set_staticaddr_func().
+libmc
+libmc: too old release of mcman.irx
+libmc: too old release of mcserv.irx
+libpad2
+libpad2: buffer addr is not 64 byte align. %08x
+libsd
+libusbkb 
+libusbkb : bind errr
+libusbkb : CreateSema Error
+libusbkb.a 
+libusbkb.a : DeleteSema() --> error
+libusbkb.a : RemoveIntcHandler() --> error
+lifaddr
+light
+LightFlash
+LightningBoltEffectObject
+line
+Line busy
+Line disconnected
+Line disconnected: %s
+Line speed %s
+linedefined
+lines in a chunk
+list
+listbox
+livingStreak
+lo%d
+load
+Load
+Load\load
+load_chroma_intra_quantizer_matrix == 1
+load_chroma_non_intra_quantizer_matrix == 1
+LoadCampaignDone
+LoadCampaignState
+LOADED
+LOADED' is not a table
+loadfile
+LoadMetagameDone
+LoadMetagameState
+LoadMissionSetup
+LoadProfileDone
+Loadsave2
+LoadSave2
+LoadSavePopupResult
+loadstring
+LOB4
+loB4K
+lobby
+lobby_listbox_layout
+LobbyAction
+lobbyds
+LobbyOpts
+loc
+local
+local loop
+local variables
+localhost
+localip%d
+LOCALIZE
+localport
+location
+Location
+Location:
+LockedOffScreen
+LockedOffScreenBehind
+LockedOnScreen
+LockedOnScreenBehind
+lockout
+locstring
+log10
+log10f
+logf
+LOGGED
+logged in
+login
+LOGIN
+logout
+Logout
+lon
+LongestLiving
+lookaround
+loop in gettable
+loop in settable
+Looping
+Looping(%d)
+looutput
+looutput: no header mbuf
+losingCnt
+losingTeam
+losses
+lower
+LowerCorner
+LTrigger
+LTrigger2
+LTrigger3
+lua
+Lua 5.0.2
+Lua function expected
+Lua out of memory (%d used in %d blocks, trying to alloc %d)
+Lua%d
+lua_debug> 
+lucasarts.gamespy.com
+lvl
+LVL
+m == NULL in m
+m == NULL in m_pulldown()
+m_copydata
+m_copym: m == 0
+m_copym: m == 0 and not COPYALL
+m_copym: off %d, len %d
+m_pulldown malfunction
+MAB4*
+MAB4+
+Machine is not on the network
+MADR=%08x
+magic
+main
+main().
+main_body
+MakeFakeProfiles
+malformed number
+malformed pattern (ends with `%')
+malformed pattern (missing `]')
+malloc
+malloc()
+malloc() failed in eenetctl
+malloc() has never been called.
+malloc() in 
+malloc() in eenet
+ManufacturerStr
+map
+map '%s' not added
+map added
+map dropped
+map not dropped
+map not found
+map_mask
+MapAddClassMarker
+MapAddEntityMarker
+MapAddRegionMarker
+MapHideCommandPosts
+mapname
+mapname.name.%s
+mapname.name.spa
+mapname.name.spa_%s
+MapRemoveClassMarker
+MapRemoveEntityMarker
+MapRemoveRegionMarker
+maps
+mapselect%i
+maptype
+mar
+March
+MarkCurrentProfile
+Marker%s
+MarkMemoryCard
+marksman
+mask
+Mask for route not entered
+Match
+math
+Math argument
+matrix == 1
+max
+MaxDistance
+MaxDistance(%f)
+maxplayers
+mc%d:/BWNETCNF/BWNETCNF
+mc0
+mc0:
+mcB4I
+mcman
+mcpy
+mcserv
+meat
+medalbox
+medaltype
+medium
+MEDIUM
+medium2
+melee
+meleethrow
+meleethrowordnance
+memory
+MEMORY
+memory allocation error
+Memory allocation error
+memory allocation error: block too big
+Memory File
+memslot
+message()
+metagame
+MetagameSetBonus
+MetagameSetSide
+metatable
+method
+MGiI
+MIc4
+MinDistance
+MinDistance(%f)
+mine
+minplayers
+Misc
+Misc2
+missile
+missing `[' after `%%f' in pattern
+mission
+MISSION
+mission.lvl
+MISSION.lvl
+MISSION\%s.lvl
+MissionDefeat
+missionselect
+MissionVictory
+moB4
+mod
+mode
+Mode3D
+Mode3D(%d)
+ModeDoppler
+Modem cannot connect
+Modem cannot connect: %s
+Modem error
+Modem error: %s
+modemconf()
+modemconf() in eenet
+modename.name.%s
+modename.name.1flag
+modename.name.ass
+modename.name.con
+modename.name.ctf
+modename.name.elimination
+modename.name.hunt
+modename.name.obj
+modified (chunk-) pointer.
+modified (page-) pointer.
+monetary
+more
+Mount pfs.
+mounted pfs
+MountedTurret
+MountedTurretClass
+MouseOver
+MoveCameraToEntity
+movies
+mpgs
+mpsessionlist
+mpsessionlist_listbox_contents
+mpsessionlist_listbox_layout
+mpsessionlist_playerlist_contents
+mpsessionlist_serverinfo_contents
+mpxl
+msg
+msg1
+MTLS
+mtu()
+mtudisc
+muB4g
+mul
+multi
+multi_streamer
+Multihop attempted
+multipart/form-data
+multipart/form-data; boundary=Qr4G823s23d---<<><><<<>--7d118e0536
+Music
+MuteDistance
+MuteDistance(%f)
+N cmd wait
+NAB4
+name
+Name
+Name 
+Name : 0x%08x %s
+name=%s
+namefield
+namespaceid
+namestr
+namewhat
+narrowEscapes
+natneg
+natneg1.gamespy.com
+natneg2.gamespy.com
+Navigator
+NavigatorFollowTarget
+NavigatorGraphFollower
+NavigatorPathFollower
+NavigatorSlide
+Ncmd fail sema cur
+Ncmd fail sema cur_cmd:%d keep_cmd:%d
+ndone
+ndustries
+need dictionary
+NeedToSelectNetConfig
+nemesis
+nemesisDeaths
+net
+NET.ICO
+net.nearobjects
+net.toggleqostext
+netcnf
+netcnf args
+netcnf args: icon=mc0:/BWNETCNF/SYS_NET.ICO
+NETGUI
+netirx
+NetObj
+NetObjState
+NetWasClient
+NetWasDedicated
+NetWasDedicatedQuit
+NetWasHost
+network
+NETWORK
+Network hardware is detached
+Network hardware is detaching
+NEVER
+NEW
+NEW DiskReady Call
+NewAllocator
+newindex
+newprofile
+NEWPROFILE
+newprofileid
+newproxy
+newuser
+NEWUSER
+newver
+newvername
+next
+next map set
+next re-challenge in %d seconds
+NextHost
+nextmap
+NextMixConfig
+NextOutputMode
+NextToolTipState
+niB4 
+nick
+NICK
+Nick too long.
+nicks
+nil or table expected
+No buffer space available
+No callback.
+No challenge value was received from the master server.
+No children
+no conf
+no function environment for tail call at level %d
+No lock
+no loop to break
+no match for %d
+No matching operation found for id %d
+No message of desired type
+No more files
+No more processes
+No other players connected
+No package
+No Reformat
+No search criteria.
+No space left on device
+No stream resources
+No such device
+No such device or address
+No such file or directory
+No such process
+no value
+noalert
+NOINVITE
+NOLINK
+non
+None
+NONE
+nonumber
+Non-unique normal route, mask not entered
+Normal
+North%s
+northpointer
+nospaces
+NOT
+Not a character device
+Not a directory
+Not a stream
+not enough memory
+Not enough space
+not logged in
+Not owner
+November
+NTGUI.ELF
+ntoa error]
+ntop() failed.
+num= %d
+numai
+number
+number%d
+number()
+numeric
+numplayers
+numteams
+nups
+nur
+obj
+Object
+ObjectCreate
+ObjectDamage
+ObjectDelete
+ObjectHack
+ObjectHeadshot
+ObjectInit
+ObjectiveOffScreen
+ObjectiveOffScreenBehind
+ObjectiveOnScreen
+ObjectiveOnScreenBehind
+objectivePopup
+objectivePopup.disable
+objectivetimer
+objectivetimer.disable
+ObjectKill
+ObjectRepair
+ObjectRespawn
+obsolete option (d$) to `format'
+obsolete option `*w' to `read'
+Obstacle
+ObstructionHFGain 
+ObstructionHFGain : %f
+ObstructionLFRatio 
+ObstructionLFRatio : %f
+occ
+OcclusionHFGain 
+OcclusionHFGain : %f
+OcclusionLFRatio 
+OcclusionLFRatio : %f
+October
+odd number of field pictures
+odone
+offer()
+OFFLINE
+OffsetMatrix
+OLD
+OLD DiskReady Call
+oldnick
+On%s
+On%s%s
+On%s%s%s
+ONLINE
+Open
+Open failed
+Open failed: %s
+open()
+Open: %s (lbn: %d)
+OpenAudioStream
+opened
+OpenErrorBox
+OpenMovie
+OpenNetShell
+openplaying
+OpenPopup
+openwaiting
+OPTION
+orB4
+order
+Ordnance
+OrdnanceBeacon
+OrdnanceBeaconClass
+OrdnanceBeam
+OrdnanceBeamClass
+OrdnanceBullet
+OrdnanceBulletClass
+OrdnanceClass
+OrdnanceEmitterClass
+OrdnanceFatRay
+OrdnanceFatRayClass
+OrdnanceGrapplingHook
+OrdnanceGrapplingHookClass
+OrdnanceGrenade
+OrdnanceGrenadeClass
+OrdnanceHaywire
+OrdnanceHaywireClass
+OrdnanceLaser
+OrdnanceLaserClass
+OrdnanceMeleeThrow
+OrdnanceMeleeThrowClass
+OrdnanceMissile
+OrdnanceMissileClass
+OrdnanceShell
+OrdnanceShellClass
+OrdnanceSticky
+OrdnanceStickyClass
+OrdnanceTowCable
+OrdnanceTowCableClass
+osstring
+OtB48
+others
+out %2d, dsc %04d, dst %04.02f, tsc %04d, tst %04.02f, drp %3d, kps %02.02f 
+out %2d, dsc %04d, dst %04.02f, tsc %04d, tst %04.02f, drp %3d, kps %02.02f : %02.02f
+Out of memory increase the profiler stack size!
+out of memory.
+Out of memory.
+output
+output REXMT
+overall
+oversubscribed distance tree
+oversubscribed dynamic bit lengths tree
+oversubscribed literal/length tree
+Pad2/ds2o
+Pad2/ds2o_d
+padi
+padi in state %d
+padr
+page is already free.
+pairs
+Pan(%01.03f)
+panic
+panic: %s
+param%d
+param()
+param() in eenet
+PARAMETER
+parameters
+Parent
+Parent 0x%08x
+PARSE
+Parse Error.
+ParticleEmitter
+ParticleEmitterInfoData
+ParticleEmitterObject
+ParticleTransformer
+ParticleTransformer::ColorTransformer
+ParticleTransformer::PositionTransformer
+ParticleTransformer::RotationTransformer
+ParticleTransformer::SizeTransformer
+pass
+passenger
+PassengerSlot
+password
+PASSWORD
+Password too long.
+passwordenc
+PasswordStr
+patch.error
+PathFollower
+PathNode
+PathRequest
+pAUnknown Error!
+Pause Profile Data
+PauseAnimation
+Paused 
+PauseDemoTimer
+pausemenu
+pausemenu%d
+PauseSessionList
+Pausing
+PausingIsPrimary
+pauthr
+perform arithmetic on
+Permission denied
+PersonalStatsSetTitles
+personscale
+pfs
+pfs:
+pfs0
+pfs0:
+pfs0:%s
+pfs0:.
+pfs0:./journal_%c_%d.dat
+pfs0:./journal_f_0.dat
+pfs0:./values_%c_%d.dat
+pfs0:Data
+pfs0:Data/_LVL_PS2
+pfs0:Data/_LVL_PS2/TAT
+pfs0:sendfile.dat
+phase()
+PHNQ
+phone
+pic
+pictureSpatialScalableExtension is not supported
+pictureTemporalScalableExtension is not supported
+pid
+pid_
+ping
+ping_
+pingint
+pingstr
+pinvite
+pistol
+Pitch
+Pitch(%01.03f)
+PitchDev
+PitchDev(%f)
+Pixels
+pL$%XL
+PlayAnimation
+PlayAnimationFromTo
+PlayAudioStream
+PlayAudioStreamUsingProperties
+PlayAuditionEffect
+PlaybackDelay %f
+PlaybackDelayDev %f
+player
+Player
+Player %d
+player%d.bonusHealthFraction
+player%d.commandPost.charge
+player%d.commandPost.color
+player%d.commandPost.disable
+player%d.commandPost.disputeColor
+player%d.commandPost.disputeDisable
+player%d.commandPost.disputeEnable
+player%d.die
+player%d.energy
+player%d.energyDisable
+player%d.energyFraction
+player%d.energyOverburn
+player%d.energyRegenPulseRate
+player%d.flag.enemy.carried
+player%d.flag.enemy.carried.disable
+player%d.flag.enemy.carried.number
+player%d.flag.enemy.carried.number.disable
+player%d.flag.enemy.dropped
+player%d.flag.enemy.dropped.disable
+player%d.flag.enemy.dropped.number
+player%d.flag.enemy.dropped.number.disable
+player%d.flag.friend.carried
+player%d.flag.friend.carried.disable
+player%d.flag.friend.carried.number
+player%d.flag.friend.carried.number.disable
+player%d.flag.friend.dropped
+player%d.flag.friend.dropped.disable
+player%d.flag.friend.dropped.number
+player%d.flag.friend.dropped.number.disable
+player%d.flag.player.carried
+player%d.flag.player.disable
+player%d.flag.player.dropped
+player%d.health
+player%d.healthDisable
+player%d.healthFraction
+player%d.healthInVehicle
+player%d.healthInVehicleDisable
+player%d.healthInVehicleFraction
+player%d.healthRegenPulseRate
+player%d.hero.health
+player%d.hero.healthDisable
+player%d.hero.healthFraction
+player%d.heroSelect.disable
+player%d.heroSelect.message
+player%d.heroSelect.timer
+player%d.heroSelect.timerFraction
+player%d.hintsAvailable
+player%d.hintsAvailable.disable
+player%d.index
+player%d.jetDisable
+player%d.jetFuelFraction
+player%d.jetFuelThreshold
+player%d.jetFuelWarning
+player%d.lockOnClassName
+player%d.lockOnDirection
+player%d.lockOnDirectionDisable
+player%d.lockOnDisable
+player%d.lockOnDisableShieldName
+player%d.lockOnDistance
+player%d.lockOnFlagCarrier
+player%d.lockOnFlagCarrierDisable
+player%d.lockOnHealth
+player%d.lockOnHealthFraction
+player%d.lockOnName
+player%d.lockOnShieldName
+player%d.lockOnTeamColor
+player%d.map.disable
+player%d.map.enable
+player%d.map.hideCPs
+player%d.map.mode
+player%d.map.modeToggle
+player%d.map.refreshMarker
+player%d.map.refreshPost
+player%d.map.refreshTarget
+player%d.map.spawn
+player%d.map.spawnLarge
+player%d.map.spawnLargeDisable
+player%d.message
+player%d.message.color
+player%d.message.disable
+player%d.missileLock
+player%d.missileLockDisable
+player%d.missileLockDistance
+player%d.objectiveDetails
+player%d.objectiveDetails.disable
+player%d.objectivelist.disable
+player%d.objectivelist.enable
+player%d.objectivesUpdated
+player%d.objectivesUpdated.disable
+player%d.pressSelectToReturn
+player%d.pressSelectToReturn.disable
+player%d.spaceAssaultStatus
+player%d.spaceAssaultStatus.disable
+player%d.spawn
+player%d.spawnDisplay.disable
+player%d.spawnDisplay.enable
+player%d.spawnDisplay.message
+player%d.spawnDisplay.spawninfo
+player%d.spawnDisplay.vehicle
+player%d.statistic.%s
+player%d.statistic.%sDelta
+player%d.statistic.changed
+player%d.statistic.disable
+player%d.targetResetPlayer
+player%d.team%d.bleedRate
+player%d.team%d.points
+player%d.team%d.pointsDisable
+player%d.team%d.pointsText
+player%d.team%d.reinforcements
+player%d.team%d.reinforcementsDisable
+player%d.team%d.reinforcementsFraction
+player%d.team%d.texture
+player%d.team%d.textureDisable
+player%d.tooltips
+player%d.tooltips.disable
+player%d.vehicle.hackedTime
+player%d.vehicle.hackedTimeDisable
+player%d.vehicle.hackedTimeFraction
+player%d.vehicle.hackingTime
+player%d.vehicle.hackingTimeDisable
+player%d.vehicle.hackingTimeFraction
+player%d.vehicle.health
+player%d.vehicle.healthDisable
+player%d.vehicle.healthFraction
+player%d.vehicle.seatingMesh
+player%d.weapon%d.ammoInfinite
+player%d.weapon%d.change
+player%d.weapon%d.charge
+player%d.weapon%d.disable
+player%d.weapon%d.heat
+player%d.weapon%d.lockOnDisable
+player%d.weapon%d.lockOnPosition
+player%d.weapon%d.name
+player%d.weapon%d.refire
+player%d.weapon%d.reticule.disable
+player%d.weapon%d.reticule.position
+player%d.weapon%d.target.className
+player%d.weapon%d.target.disable
+player%d.weapon%d.target.disableShieldName
+player%d.weapon%d.target.health
+player%d.weapon%d.target.healthFraction
+player%d.weapon%d.target.hit
+player%d.weapon%d.target.hitColor
+player%d.weapon%d.target.hitCritical
+player%d.weapon%d.target.name
+player%d.weapon%d.target.shieldName
+player%d.weapon%d.target.teamColor
+player%d.weapon%d.totalAmmoBullets
+player%d.weapon%d.totalAmmoFraction
+player%d.weapon%d.totalClipBullets
+player%d.weapon%d.totalClipFraction
+player%d.weaponsDisable
+player%d.weaponsEnable
+player%d.weaponsOverheat
+player%dspaceassaultgroup
+player_
+player_shadow
+PlayerChange
+PlayerController
+PlayerDirection%s
+PlayerFOV%s
+playerlist
+playerpoints
+players
+PlayerSuicide
+PlayerText
+Playing
+PLAYING
+PlayInGameMovie
+PlayInGameMusic
+PlayInterval
+PlayInterval(%f)
+PlayIntervalDev
+PlayIntervalDev(%f)
+PlayMovie
+PlayProbability
+PlayProbability(%f)
+pList is empty
+PLNQ
+pmask
+pmatch
+point
+Point
+point_gain
+pointer
+pointer to wrong page.
+pointMan
+points
+polish
+PopScreen
+Popup
+Popup_Error
+Popup_Error.title
+Popup_LoadSave2_ResizeButtons
+Popup_LoadSave2_SelectButton
+Popup_LobbyOpts
+port
+portableturret
+Portal
+Position
+PositionTransformer
+POST 
+Post%s
+PostLoadHack
+PostSelect%s
+PostSelected%s
+PostText%s
+pow
+pow' (`^' operator) is not a function
+power off request has come.
+powerupitem
+PowerupItem
+PowerupItemClass
+powerupstation
+PowerupStation
+PowerupStationClass
+powf
+ppp0
+pppctl
+pppctl()
+pppctl: _sce_eenet_sppp_config_param() in eenet_pppctl()
+pppctl: create_start_thread() in eenet_pppctl()
+pppctl: CreateSema() in eenet_pppctl()
+pppctl: eenet_ioctl(PPPGETLINKSTATE) in link_state()
+pppctl: eenet_ioctl(PPPGETMAXLINKSTATE) in ppp_set_error_code()
+pppctl: eenet_ioctl(PPPRSTMAXLINKSTATE) in ppp_reset_max_state()
+pppctl: eenet_ioctl(PPPSETASYNCMAP) in ppp_asyncconf()
+pppctl: eenet_ioctl(PPPSETPPPCONFS) in ppp_modemconf()
+pppctl: eenet_ioctl(PPPSETRASYNCMAP) in ppp_asyncconf()
+pppctl: eenet_malloc() in eenet_pppctl()
+pppctl: phone number not found
+pppctl: ppp_asyncconf() in eenet_pppctl()
+pppctl: ppp_modemconf() in eenet_pppctl()
+pppctl: socket(AF_INET, SOCK_DGRAM) in eenet_pppctl()
+pppctl: too long chat script.
+pppctl: too long phone number.
+pppoctl
+pppoctl: eenet_ioctl(SIOCGIFFLAGS) in pppoe_create()
+pppoe
+pppoe (data)
+pppoe (data): dropping too short packet: %ld bytes
+pppoe (data): unknown version/type packet: 0x%x
+PPPoE session error with ISP
+PPPoE session established
+PPPoE session terminated by ISP
+pppoe%d
+pppoe: %s output failed(%d)
+pppoe: invalid host unique value
+pppoe: packet content does not fit: data available = %ld, packet size = %ld
+pppoe: packet too short: %ld
+pppoe: received PADO but could not find request for it
+pppoe: tag 0x%x len 0x%x is too long
+pppoe: unknown version/type packet: 0x%x
+pppoe_send_padi in state %d
+pppoe_send_padi: garbled output len, should be %ld, is %ld
+pppoe_send_padr: garbled output len, should be %ld, is %ld
+pppoe0
+pppoectl
+pppoectl()
+pppoectl: _sce_eenet_sppp_config_param() in eenet_pppoectl()
+pppoectl: create_start_thread() in eenet_pppoectl()
+pppoectl: CreateSema() in eenet_pppoectl()
+pppoectl: eenet_ioctl(PPPOEMAXPHASEREQ) in pppoe_set_error_code()
+pppoectl: eenet_ioctl(PPPOERSTMAXPHASEREQ) in pppoe_reset_max_phase()
+pppoectl: eenet_ioctl(PPPOESETPARMS) in eenet_pppoectl()
+pppoectl: eenet_ioctl(SIOCIFCREATE) in pppoe_create()
+pppoectl: eenet_ioctl(SIOCIFDESTROY) in pppoe_destroy()
+pppoectl: eenet_ioctl(SIOCSIFFLAGS) in pppoe_create()
+pppoectl: eenet_ioctl(SPPPGETSPHASEREQ) in pppoe_set_error_code()
+pppoectl: eenet_malloc() in eenet_pppoectl()
+pppoectl: socket(AF_INET, SOCK_DGRAM) in eenet_pppoectl()
+preferrednick
+PreOpDone
+PreviousHost
+PreviousMixConfig
+PreviousOutputMode
+prevsession
+PrevToolTipState
+primary DNS
+print
+Print3D
+Priority
+Priority 
+Priority : %f
+Priority(%01.02f)
+probe
+productid
+productID
+products
+PROFILE
+Profile not a buddy.
+profileid
+Profiler
+prone
+prone_getup_crouch
+prone_getup_stand
+pronealert
+ProneToStand
+proof
+prop
+Properties
+Protocol error
+Protocol not available
+Protocol wrong type for socket
+proto-comp
+proto-rej
+ps2
+PS2
+pS2&f
+ps2.cancel
+ps2.continue
+ps2.freemoreblocks
+ps2.no
+ps2.ok
+ps2.save01
+ps2.save02
+ps2.save03
+ps2.save04
+ps2.save05
+ps2.save06
+ps2.save07
+ps2.save08
+ps2.save09
+ps2.save10
+ps2.save11
+ps2.save13
+ps2.save14
+ps2.save15
+ps2.save16
+ps2.save17
+ps2.save18
+ps2.save19
+ps2.save22
+ps2.save23
+ps2.yes
+PS2/Movies/
+PS2/TAT
+PS2_Final : PS2 DVDROM FINAL
+ps2netconfig
+ps2netconfig_listbox_contents
+psf0
+psf0:
+PsIIeenetctl3020
+PsIIent
+PsIIent_smap3020 
+PsIIlibcdvd 3000
+PsIIlibdbc  3020
+PsIIlibdma  3000
+PsIIlibeenet3020
+PsIIlibgraph3000
+PsIIlibipu  2700
+PsIIlibkernl3000
+PsIIlibmc   3020
+PsIIlibmpeg 2700
+PsIIlibpad2 3020
+PsIIlibpkt  3000
+PsIIlibscf  3000
+PsIIlibusbkb3020
+PsIIlibvib  3000
+PsIInetglue 3000
+psrdone
+pton() failed in set
+publicEnemy
+publicip
+publicmask
+publicport
+pulldown malfunction
+pulldown()
+pulloutofband
+pullup() failed on type PPP
+PushScreen
+Q216RedStencilShadow10Renderable
+Q219RedFootprintManager10Renderable
+Q219RedParticleRenderer10Renderable
+Q23pvs10BaseCamera
+Q23pvs10TestCamera
+Q23pvs12IDisplayable
+Q23pvs14DynDisplayable
+Q23pvs6Portal
+Q23pvs7ICamera
+Q23pvs7IPortal
+Q23pvs7ISector
+Q23pvs8IManager
+Q23pvst15BaseDisplayable1ZQ23pvs12IDisplayable
+Q23Snd10StreamNode
+Q23Snd11StreamCodec
+Q23Snd11StreamMixer
+Q23Snd12FilePlatform
+Q23Snd15SourceTransport
+Q23Snd16FilePlatformBase
+Q23Snd16StreamNodeSource
+Q23Snd19StreamCaptureSource
+Q23Snd20StreamSourceProducer
+Q23Snd21StreamSourceNProducer
+Q23Snd23StreamCaptureSourceBase
+Q23Snd23StreamNellyMoserDecoder
+Q23Snd23StreamNellyMoserEncoder
+Q23Snd9StreamVAD
+Q24util10IAllocator
+Q24util12NewAllocator
+Q24util12SubAllocator
+Q24util13ListAllocator
+Q24util13VNewAllocator
+Q24util17ListAllocatorImpl
+Q24util18HashMultiAllocator
+Q24utilt14MultiAllocator1ZQ24utilt9HashTable3ZPQ24util12SubAllocatorZiZQ24utilt14TNewArrayAlloc1ZPQ24util12SubAllocator
+Q24utilt14StaticSubAlloc1ZQ24utilt6SLNode1ZPQ23pvs12IDisplayable
+Q24utilt17StaticMemoryBlock1Ui32768
+Q24utilt17StaticMemoryBlock1Ui4096
+Q28RedDebug18RedDebugRenderable
+Q2t7PblList1Z18RedMoviePlayerBase4Node
+Qkkbal
+qr2
+qr2_adderror
+--Qr4G823s23d---<<><><<<>--7d118e0536
+--Qr4G823s23d---<<><><<<>--7d118e0536--
+QT- 
+qual-proto
+quantizer
+Query Error
+Query Error: 
+queryid
+QueueAnimation
+quick.launching
+QuitFromStats
+quitting
+QuitToShell
+QuitToWindows
+rainshadow
+RAJoyDown
+RAJoyLeft
+RAJoyRight
+RAJoyUp
+random
+randomseed
+rank
+rankfield
+rating
+ratingfield
+raw
+RAW) in 
+raw_usrreq
+rawequal
+rawget
+rawset
+RayRequest
+Reactivate
+read  failed.
+Read End Error %d - retrying.
+Read Middle Error %d - retrying.
+Read Start Error %d - retrying.
+ReadAllControllers
+ReadDataFile
+ReadDataFileInGame
+ReadLeftstick
+Read-only file system
+READY create semaphore failed.
+readyselect
+readyselect%i
+readyselect%i.Helptext
+realloc()
+rear1
+rear2
+reason
+REBINDING
+Reboot
+Received an unrecognized, unsolicited message.
+re-challenging supressed
+reconfirmed
+RECOVER1
+RECOVER2
+RECOVER3
+Rectangle
+recursive call.
+RECVTOTL(%s)
+RECVTOTL(%s): %d
+RECVXXXX(%s)
+RECVXXXX(%s): Connection closed
+Red3DModelAnimator
+RedMoviePlayer
+RedMoviePlayer_0x%08x_0x%08x
+RedOmniLight
+RedShadingPose
+RedShadingPose::Entry
+RedShadingState
+region
+registernick
+regs
+regulator
+Release%s
+reload
+ReloadMarkedProfile
+remote
+remoteterminal
+remove
+REMOVE
+removed
+removed player %s
+RemoveEffect
+RemoveHotSpot
+RemoveRegion
+RemoveTexture
+render 
+render : mix %s, aux %s %s %2d:%2d
+render.ForceFullDetail
+rendering.maxVertexDensity
+rendering.minScreenSize
+rendering.nsFadeEnd
+rendering.nsFadeStart
+rendering.showMissingLOD
+rendering.soldiers
+RENEWING
+rep
+rep_icon
+RepaintExtraInfo
+RepaintListbox
+repair
+repeat
+replace
+reply()
+republic
+req()
+req-sent
+request() in bound()
+request() in renewing()
+request() in selecting()
+REQUESTING
+Requesting DHCP configuration
+require
+REQUIREDNAME
+reset
+ResetControlsToDefault
+ResetGameOptionsToDefault
+ResetLeaderBoardPlayerData
+ResetSkipToNTGUI
+ResetSkipToPlayerList
+ResetSoundToDefault
+ResetToolTips
+ResizeButtons
+resolv()
+resource
+Resource is remote
+RespawnObject
+response
+RestartMission
+restbacksoft
+restfrontsoft
+RestoreDefaultProfile
+RestorePrimaryController
+result
+Result too large
+resume
+ret of sceEENetDeviceSMAPReg() = %d
+ret of sceEENetDriverRegInit() = %d
+Retry
+RETRYING
+return
+returned %d
+REUSEPORT) in send
+ReverbDelay(%01.03f)
+ReverbGain
+ReverbGain(%01.02f)
+ReverbGain(%01.03f)
+ReverbPreset 
+ReverbPreset : 0x%08x
+revoke
+RewindAnimation
+rifle
+rifle_crouch_idle_emote
+rifle_crouch_idle_takeknee
+rifle_diveforward
+rifle_jetpack_hover
+rifle_stand_death_backward
+rifle_stand_idle_emote
+rifle_stand_runforward
+rifle_thrown_flail
+right
+Right
+right1
+right2
+rightfoot
+rightfoot idle
+rightfoot walk
+rightfoot_to_idle
+rightfoot_to_idle rightfoot_to_idle_leftup rightfoot_to_idle_rightup
+RightToIdle
+RightToLeft
+rightup
+rip
+rip_usrreq
+rm %s
+RmDir %s
+rn_addmask: mask impossibly already in tree
+rn_delete: couldn't find our annotation
+rn_delete: couldn't find us
+rn_delete: inconsistent annotation
+rn_delete: Orphaned Mask
+rn_init
+rn_init 2
+rn_init: radix functions require max_keylen be set
+rojectAphex
+roll
+RollIn
+RollIn(%01.02f)
+RollInDistance
+RollInDistance(%f)
+Rolling
+RollLeft
+RollOff
+RollOff(%01.02f)
+RollRight
+RollToIdle
+rom0
+rom0:ROMVER
+rom0:UDNL 
+ROMVER
+RoomGain
+RoomGain 
+RoomGain : %f
+RoomGain(%01.02f)
+RoomHFGain 
+RoomHFGain : %f
+RoomHFGain(%01.02f)
+RoomRollOff
+RoomRollOff 
+RoomRollOff : %f
+RoomRollOff(%02.02f)
+RotatingModel
+Rotation
+RotationTransformer
+roundelapsed
+roundtime
+route
+route failed.
+route()
+route() failed in delete
+route() failed in set
+route().
+ROUTE, SOCK
+route_output
+routecommon
+routecommon: GetThreadId() failed. (%d)
+routecommon: recv() in _sce_eenet_set_arp_rtmsg(), errno = %d
+routecommon: send() in _sce_eenet_set_arp_rtmsg(), errno = %d
+routecommon: send() in _sce_eenet_set_route()
+routecommon: socket(PF_ROUTE, SOCK_RAW) in _sce_eenet_set_arp()
+routecommon: socket(PF_ROUTE, SOCK_RAW) in _sce_eenet_set_route()
+rows
+rpc
+RPC
+RPC service not running
+RPC transfer size 0x%x exceeds buffer 0x%x
+RQB4
+RQB4;
+RSlope
+rst
+rt_msg1: message too long
+RTB4>
+rtfree
+rtfree 2
+rtfree: %p not freed (neg refs)
+rtinit
+rtinit: wrong ifa (%p) was (%p)
+rtmsg(), errno = %d
+rtrequest
+rtrequest delete
+RTrigger
+RTrigger2
+RTrigger3
+rtsold
+rumble
+rumbleeffect
+run
+runbackward
+runforward
+runleft
+running
+runright
+Runtime
+S cmd wait
+sabotage
+SampleList()
+SaveCampaignDone
+SaveCampaignState
+SaveMetagameDone
+SaveMetagameState
+SaveMissionSetup
+saveop
+SaveProfileDone
+sbappendaddr
+sbappendcontrol
+sbcreatecontrol
+sbcreatecontrol: message too large %d
+sbdrop
+sbflush
+sbflush 2
+SC3.01.06.02
+ScaleSoundParameter
+SCB4
+sce
+SceCdCallbackSema
+SceCdCallbackThread
+sceCdCbfunc= %d sceCdCbfunc
+sceCdCbfunc= %d sceCdCbfunc_num= %d
+sceCdChgSys
+sceCdChgSys: Illegal_function_call
+SceCdNcmdSema
+SceCdRcmdSema
+SceCdScmdSema
+sceDbc
+sceDbc_sema
+sceDbcCreateSocket
+sceDbcCreateSocket: rpc error
+sceDbcDeleteSocket
+sceDbcDeleteSocket: rpc error
+sceDbcGetDepNumber
+sceDbcGetDepNumber: rpc error
+sceDbcGetDeviceStatus
+sceDbcGetDeviceStatus: rpc error
+sceDbcInitSocket
+sceDbcInitSocket: rpc error
+sceDbcReceiveData
+sceDbcReceiveData: rpc error
+sceDbcResetSocket
+sceDbcResetSocket: rpc error
+sceDbcSendData
+sceDbcSendData: rpc error
+sceDbcSendData2
+sceDbcSendData2: rpc error
+sceDbcSetWorkAddr
+sceDbcSetWorkAddr: rpc error
+sceDbcSRData
+sceDbcSRData: rpc error
+SceEENetCalloutSema
+SceEENetCalloutThread
+sceEENetCtlDownInterface() failed.
+SceEENetCtlEventSema
+SceEENetCtlIfcnfSema
+sceEENetCtlInit
+sceEENetCtlInit() failed.
+sceEENetCtlRegisterEventHandler() failed.
+SceEENetCtlRpcServerThread
+SceEENetCtlSetConfigSema
+sceEENetCtlTerm() failed.
+SceEENetCtlTermDoneSema
+SceEENetCtlThread
+sceEENetCtlUnRegisterEventHandler() failed.
+sceEENetCtlUpInterface
+sceEENetCtlUpInterface() failed.
+SceEENetDeviceCommThread
+SceEENetDeviceRpcServerThread
+sceEENetDeviceSMAPUnreg() failed.
+SceEENetDeviceStartSema
+SceEENetDeviceTermSema
+SceEENetDevmanRpcSema
+SceEENetDevmanThread
+SceEENetDhcpClientSema
+SceEENetDhcpClientThread
+sceEENetGetIfinfo(%s) failed. ret = %d
+sceEENetInit
+sceEENetInit() failed.
+SceEENetKernClockSema
+SceEENetLogSema
+SceEENetMallocSema
+SceEENetNetintrSema
+SceEENetNetintrThread
+SceEENetPppClientSema
+SceEENetPppClientThread
+SceEENetPppoeClientSema
+SceEENetPppoeClientThread
+sceEENetSetDNSSockAddr
+SceEENetSifCmdHandlerSema
+SceEENetSlqueSema
+SceEENetSmapIntrRxSema
+SceEENetSmapIntrSema
+SceEENetSmapIntrTxDoneSema
+SceEENetSmapReadySema
+SceEENetSmapRpcSema
+SceEENetSplSema
+SceEENetStaticAddrClientSema
+SceEENetStaticAddrClientThread
+sceEENetTerm() failed.
+SceEENetThreadInfoSema
+SceEENetThreadListSema
+sceGsExecStoreImage
+sceGsExecStoreImage: DMA Ch.1 (GS->MEM) does not terminate
+sceGsExecStoreImage: DMA Ch.1 does not terminate
+sceGsExecStoreImage: Enough data does not reach VIF1
+sceGsExecStoreImage: GS does not terminate
+sceGsSyncPath
+sceGsSyncPath: DMA Ch.1 does not terminate
+sceGsSyncPath: DMA Ch.2 does not terminate
+sceGsSyncPath: GIF does not terminate
+sceGsSyncPath: VIF1 does not terminate
+sceGsSyncPath: VU1 does not terminate
+SceKernelDelayThread
+SceKernelLibc
+SceKernelLibcEh
+SceKerneltopThread
+sceMc
+sceMc_sema_regs
+sceMc_sema_timer
+sceMcUdCheckNewCard RPC faild
+sceNetcnfifDataDump
+SCES
+sceSifBindRpc failed, retrying
+SceSifrpcBind
+SceSifrpcCall
+SceSifrpcGod
+SceStdioAddDrvSema
+SceStdioCCodeSema
+SceStdioChstatSema
+SceStdioCloseSema
+SceStdioDcloseSema
+SceStdioDevctlSema
+SceStdioDreadSema
+SceStdioFioSema
+SceStdioFormatSema
+SceStdioGetstatSema
+SceStdioIobSema
+SceStdioIoctl2Sema
+SceStdioIoctlSema
+SceStdioLseek64Sema
+SceStdioLseekSema
+SceStdioMkdirSema
+SceStdioMountSema
+SceStdioOpenSema
+SceStdioQueSema
+SceStdioReadlinkSema
+SceStdioReadSema
+SceStdioRenameSema
+SceStdioSymlinkSema
+SceStdioSyncSema
+SceStdioWriteSema
+sceUsbKbGetInfo
+sceUsbKbGetInfo: sceSifCallRpc -> %d
+sceUsbKbGetLocation
+sceUsbKbGetLocation: sceSifCallRpc -> %d
+sceUsbKbRead
+sceUsbKbRead: sceSifCallRpc -> %d
+sceUsbKbSetLEDMode
+sceUsbKbSetLEDMode: sceSifCallRpc -> %d
+sceUsbKbSetLEDStatus
+sceUsbKbSetLEDStatus: sceSifCallRpc -> %d
+Scmd fail sema cur
+Scmd fail sema cur_cmd:%d keep_cmd:%d
+score
+score: %s(%d) to %s(%d)
+score_
+score_t
+ScoreChange
+SCPS
+Screen
+ScriptCB
+ScriptCB_AddIFContainer
+ScriptCB_AddIFFlashyText
+ScriptCB_AddIFImage
+ScriptCB_AddIFMaskImage
+ScriptCB_AddIFModel
+ScriptCB_AddIFScreen
+ScriptCB_AddIFText
+ScriptCB_AddProfile
+ScriptCB_AllowSkipDNAS
+ScriptCB_ApplyFilters
+ScriptCB_AreMoviePropertiesPlaying
+ScriptCB_AutoNetJoin
+ScriptCB_BeginFriends
+ScriptCB_BeginJoin
+ScriptCB_BeginJoinIP
+ScriptCB_BeginJoinSpecial
+ScriptCB_BeginLeave
+ScriptCB_BeginLobby
+ScriptCB_BeginQuickmatch
+ScriptCB_BeginSessionList
+ScriptCB_CancelConnectSockets
+ScriptCB_CancelDNAS
+ScriptCB_CancelFriends
+ScriptCB_CancelJoin
+ScriptCB_CancelLeaderBoardPlayerData
+ScriptCB_CancelLeave
+ScriptCB_CancelLobby
+ScriptCB_CancelLogin
+ScriptCB_CancelQuickmatch
+ScriptCB_CancelSessionList
+ScriptCB_CanClientLeaveStats
+ScriptCB_CanSupportMaxPlayers
+ScriptCB_CheckIfOkToExitMemoryMode
+ScriptCB_CheckMemoryCardMark
+ScriptCB_CheckPlayerListDone
+ScriptCB_ClearCampaignState
+ScriptCB_ClearError
+ScriptCB_ClearMetagameState
+ScriptCB_ClearMissionSetup
+ScriptCB_ClearPrevSessionId
+ScriptCB_ClientGotStats
+ScriptCB_CloseErrorBox
+ScriptCB_CloseMovie
+ScriptCB_CloseNetShell
+ScriptCB_ClosePopup
+ScriptCB_ConnectUsingEntry
+ScriptCB_DisableFlyerShadows
+ScriptCB_DoConsoleCmd
+ScriptCB_DoesCampaignExistOnCard
+ScriptCB_DoesMetagameExistOnCard
+ScriptCB_DoesProfileExistOnCard
+ScriptCB_DoFile
+ScriptCB_DoFriendAction
+ScriptCB_DoInitialMemcardCheck
+ScriptCB_DoneCheckDNAS
+ScriptCB_DoneCheckPatch
+ScriptCB_DownloadLeaderBoardData
+ScriptCB_EffectsEnabled
+ScriptCB_EnableCommandPostVO
+ScriptCB_EnableCursor
+ScriptCB_EnableHeroMusic
+ScriptCB_EnableHeroVO
+ScriptCB_EnableJournal
+ScriptCB_EnablePlayback
+ScriptCB_EnableScene
+ScriptCB_EndAutoNet
+ScriptCB_EndIFObj
+ScriptCB_EndIFScreen
+ScriptCB_EnterMission
+ScriptCB_EnumerateLeaderBoard
+ScriptCB_EnumerateLeaderBoardDone
+ScriptCB_FormatTimeString
+ScriptCB_Freecamera
+ScriptCB_GetAmHost
+ScriptCB_GetAssaultScoreLimit
+ScriptCB_GetASSNumBots
+ScriptCB_GetAutoAssignTeams
+ScriptCB_GetAutoGetPlayerCount
+ScriptCB_GetAutoNetGameName
+ScriptCB_GetAutoNetIsDedicated
+ScriptCB_GetAutoNetMode
+ScriptCB_GetAutoNetScript
+ScriptCB_GetAwardStats
+ScriptCB_GetBassManagement
+ScriptCB_GetBuildStr
+ScriptCB_GetCareerMedalLevel
+ScriptCB_GetCareerMedals
+ScriptCB_GetCareerPersonalStats
+ScriptCB_GetCareerRank
+ScriptCB_GetCmdlineLogin
+ScriptCB_GetCONMaxTimeLimit
+ScriptCB_GetConnectSocketsStatus
+ScriptCB_GetConnectType
+ScriptCB_GetCONNumBots
+ScriptCB_GetConsoleCmds
+ScriptCB_GetControlMode
+ScriptCB_GetControlScale
+ScriptCB_GetCTFCaptureLimit
+ScriptCB_GetCTFMaxTimeLimit
+ScriptCB_GetCTFNumBots
+ScriptCB_GetCurrentProfileName
+ScriptCB_GetCurrentProfileNetName
+ScriptCB_GetDateStr
+ScriptCB_GetDifficulty
+ScriptCB_GetDNASError
+ScriptCB_GetEntityLabel
+ScriptCB_GetEntityMesh
+ScriptCB_GetEntityWeaponMesh
+ScriptCB_GetEnumerateLeaderBoardData
+ScriptCB_GetError
+ScriptCB_GetErrorLevel
+ScriptCB_GetExtraSessionInfo
+ScriptCB_GetFilters
+ScriptCB_GetFontHeight
+ScriptCB_GetFriendActions
+ScriptCB_GetFriendListIcon
+ScriptCB_GetFriendStateStr
+ScriptCB_GetFunctionIdForAnalogId
+ScriptCB_GetFunctionIdForButtonId
+ScriptCB_GetGameName
+ScriptCB_GetGameRules
+ScriptCB_GetGeneralOptions
+ScriptCB_GetGSProfileInfo
+ScriptCB_GetHUDScale
+ScriptCB_GetHuntMaxTimeLimit
+ScriptCB_GetHuntScoreLimit
+ScriptCB_GetIFaceLighting
+ScriptCB_GetInTrainingMission
+ScriptCB_GetIPAddr
+ScriptCB_GetLanguage
+ScriptCB_GetLastBattleVictory
+ScriptCB_GetLatestError
+ScriptCB_GetLeaderBoardPlayerData
+ScriptCB_GetLobbyPlayerCount
+ScriptCB_GetLobbyPlayerFlags
+ScriptCB_GetLobbyPlayerlist
+ScriptCB_getlocalizestr
+ScriptCB_GetLoginList
+ScriptCB_GetMaxControllers
+ScriptCB_GetMaxMissionQueue
+ScriptCB_GetMedalStats
+ScriptCB_GetMissionTime
+ScriptCB_GetMixConfig
+ScriptCB_GetMixConfigChanged
+ScriptCB_GetNetGameDefaults
+ScriptCB_GetNetHeroDefaults
+ScriptCB_GetNumCameras
+ScriptCB_GetNumControllers
+ScriptCB_GetOnlineOpts
+ScriptCB_GetOnlineService
+ScriptCB_GetOutputMode
+ScriptCB_GetPausingViewport
+ScriptCB_GetPersonalStats
+ScriptCB_GetPlatform
+ScriptCB_GetPlayerIDAtRank
+ScriptCB_GetPrimaryController
+ScriptCB_GetProfileName
+ScriptCB_GetPS2PatchCheckError
+ScriptCB_GetQuitPlayer
+ScriptCB_GetRank
+ScriptCB_GetSafeScreenInfo
+ScriptCB_GetSavedCampaignList
+ScriptCB_GetSavedMetagameList
+ScriptCB_GetScreenInfo
+ScriptCB_GetSecondaryController
+ScriptCB_GetSessionList
+ScriptCB_GetSessionListPercent
+ScriptCB_GetSessionSortMode
+ScriptCB_GetShellActive
+ScriptCB_GetSideSelectButtonSetting
+ScriptCB_GetSkipToNTGUIProfileName
+ScriptCB_GetSpectatorMode
+ScriptCB_GetSPProgress
+ScriptCB_GetTeamName
+ScriptCB_GetTeamstats
+ScriptCB_GetUniqueLoginName
+ScriptCB_GetUnusedControllerPort
+ScriptCB_GetVKeyboardCharacter
+ScriptCB_GetVoiceCaptureConnected
+ScriptCB_GetVoiceEnable
+ScriptCB_GetVoiceReceivePreset
+ScriptCB_GetVoiceReceiveStatus
+ScriptCB_GetVoiceRenderConnected
+ScriptCB_GetVoiceSendPreset
+ScriptCB_GetVoiceSendStatus
+ScriptCB_GetVoiceTVGain
+ScriptCB_GetVolumes
+ScriptCB_GetYAxisFlip
+ScriptCB_HasNewPatch
+ScriptCB_HasSeenDNASEULA
+ScriptCB_HasServerLaunched
+ScriptCB_HideDownloadableContent
+ScriptCB_HWSupport
+ScriptCB_IFFlashyText_SetBackground
+ScriptCB_IFFlashyText_SetBackgroundRightJustify
+ScriptCB_IFFlashyText_SetBackgroundSize
+ScriptCB_IFFlashyText_SetTextColor
+ScriptCB_IFFlashyText_Setup
+ScriptCB_IFFlashyText_StartFlashiness
+ScriptCB_IFImage_GetRect
+ScriptCB_IFImage_GetTexCoords
+ScriptCB_IFImage_SetRect
+ScriptCB_IFImage_SetTexCoords
+ScriptCB_IFImage_SetTexture
+ScriptCB_IFMaskImage_GetMaskTexCoords
+ScriptCB_IFMaskImage_SetMaskTexCoords
+ScriptCB_IFMaskImage_SetMaskTexture
+ScriptCB_IFModel_AttachModel
+ScriptCB_IFModel_GetDepth
+ScriptCB_IFModel_GetRotation
+ScriptCB_IFModel_GetScale
+ScriptCB_IFModel_GetTranslation
+ScriptCB_IFModel_QueueAnimation
+ScriptCB_IFModel_SetAnimation
+ScriptCB_IFModel_SetAnimationBanks
+ScriptCB_IFModel_SetAnimationLooping
+ScriptCB_IFModel_SetAnimationTime
+ScriptCB_IFModel_SetDepth
+ScriptCB_IFModel_SetLighting
+ScriptCB_IFModel_SetModel
+ScriptCB_IFModel_SetOmegaY
+ScriptCB_IFModel_SetRotation
+ScriptCB_IFModel_SetScale
+ScriptCB_IFModel_SetTranslation
+ScriptCB_IFModel_UpdateAnimation
+ScriptCB_IFObj_BringToFront
+ScriptCB_IFObj_CreateHotSpot
+ScriptCB_IFObj_Enable
+ScriptCB_IFObj_GetAlpha
+ScriptCB_IFObj_GetColor
+ScriptCB_IFObj_GetCPointer
+ScriptCB_IFObj_GetPos
+ScriptCB_IFObj_GetPosition
+ScriptCB_IFObj_GetVis
+ScriptCB_IFObj_GetWidthHeight
+ScriptCB_IFObj_GetZOrder
+ScriptCB_IFObj_IsEnabled
+ScriptCB_IFObj_IsGroup
+ScriptCB_IFObj_MouseOver
+ScriptCB_IFObj_RemoveHotSpot
+ScriptCB_IFObj_SendToBack
+ScriptCB_IFObj_SetAlpha
+ScriptCB_IFObj_SetBasicRotation
+ScriptCB_IFObj_SetColor
+ScriptCB_IFObj_SetEnabled
+ScriptCB_IFObj_SetPos
+ScriptCB_IFObj_SetPosition
+ScriptCB_IFObj_SetRelativeRotation
+ScriptCB_IFObj_SetRotation
+ScriptCB_IFObj_SetScreenPosition
+ScriptCB_IFObj_SetUseSafezone
+ScriptCB_IFObj_SetVis
+ScriptCB_IFObj_SetWidthHeight
+ScriptCB_IFObj_SetZOrder
+ScriptCB_IFObj_TestHotSpot
+ScriptCB_IFText_GetDisplayRect
+ScriptCB_IFText_GetIntercharacterSpacing
+ScriptCB_IFText_GetLeading
+ScriptCB_IFText_GetTextBox
+ScriptCB_IFText_GetTextExtent
+ScriptCB_IFText_GetTextScaleX
+ScriptCB_IFText_GetTextScaleY
+ScriptCB_IFText_SetFont
+ScriptCB_IFText_SetIntercharacterSpacing
+ScriptCB_IFText_SetJustify
+ScriptCB_IFText_SetLeading
+ScriptCB_IFText_SetString
+ScriptCB_IFText_SetTextBox
+ScriptCB_IFText_SetTextBreak
+ScriptCB_IFText_SetTextPosition
+ScriptCB_IFText_SetTextScale
+ScriptCB_IFText_SetTextStyle
+ScriptCB_IFText_SetUString
+ScriptCB_IndexMultipageText
+ScriptCB_InMemoryProfileMode
+ScriptCB_InMultiplayer
+ScriptCB_InNetGame
+ScriptCB_InNetSession
+ScriptCB_IsAutoNet
+ScriptCB_IsBadNetworkConnection
+ScriptCB_IsBootInvitePending
+ScriptCB_IsCampaignStateSaved
+ScriptCB_IsCmdlineJoinPending
+ScriptCB_IsControllerBound
+ScriptCB_IsControllerConnected
+ScriptCB_IsCurProfileDirty
+ScriptCB_IsCurrentCampaign
+ScriptCB_IsCurrentMetagame
+ScriptCB_IsDedicated
+ScriptCB_IsDNASDone
+ScriptCB_IsEnableLeaderBoard
+ScriptCB_IsErrorBoxOpen
+ScriptCB_IsFileExist
+ScriptCB_IsGameOver
+ScriptCB_IsGuest
+ScriptCB_IsHorizontalSplitScreen
+ScriptCB_IsInShell
+ScriptCB_IsJoinDone
+ScriptCB_IsLeaveDone
+ScriptCB_IsLegalGamespyString
+ScriptCB_IsLoggedIn
+ScriptCB_IsLoginDone
+ScriptCB_IsMemoryCardInsertted
+ScriptCB_IsMemoryCardUnformatted
+ScriptCB_IsMetaAllMapsOn
+ScriptCB_IsMetagameStateSaved
+ScriptCB_IsMissionSetupSaved
+ScriptCB_IsMoviePlaying
+ScriptCB_IsNetCableIn
+ScriptCB_IsNetHWPresent
+ScriptCB_IsNetworkOn
+ScriptCB_IsPAL
+ScriptCB_IsPlayerLoggedIn
+ScriptCB_IsPopupOpen
+ScriptCB_IsProfileDirty
+ScriptCB_IsPropertyPlayingNow
+ScriptCB_IsPS2PatchCheckDone
+ScriptCB_IsQuickmatchDone
+ScriptCB_IsQuickmatchPassworded
+ScriptCB_IsScreenInStack
+ScriptCB_IsSessionReady
+ScriptCB_IsShellMusicPlaying
+ScriptCB_IsSpecialJoinPending
+ScriptCB_IsSplitscreen
+ScriptCB_IsUniqueLoginName
+ScriptCB_JumpToNTGUI
+ScriptCB_LaunchDemo
+ScriptCB_LaunchJoin
+ScriptCB_LaunchLeave
+ScriptCB_LaunchLobby
+ScriptCB_LaunchQuickmatch
+ScriptCB_LaunchSessionList
+ScriptCB_LeaderBoardDownloadDone
+ScriptCB_LoadCampaignState
+ScriptCB_LoadMetagameState
+ScriptCB_LoadMissionSetup
+ScriptCB_LoadSavePopupResult
+ScriptCB_LobbyAction
+ScriptCB_Logout
+ScriptCB_MakeFakeProfiles
+ScriptCB_MarkCurrentProfile
+ScriptCB_MarkMemoryCard
+ScriptCB_MetagameSetBonus
+ScriptCB_MetagameSetSide
+ScriptCB_NeedToSelectNetConfig
+ScriptCB_NetWasClient
+ScriptCB_NetWasDedicated
+ScriptCB_NetWasDedicatedQuit
+ScriptCB_NetWasHost
+ScriptCB_NextHost
+ScriptCB_NextMixConfig
+ScriptCB_NextOutputMode
+ScriptCB_NextToolTipState
+ScriptCB_OpenErrorBox
+ScriptCB_OpenMovie
+ScriptCB_OpenNetShell
+ScriptCB_OpenPopup
+ScriptCB_PauseDemoTimer
+ScriptCB_PauseSessionList
+ScriptCB_PausingIsPrimary
+ScriptCB_PersonalStatsSetTitles
+ScriptCB_PlayAuditionEffect
+ScriptCB_PlayerSuicide
+ScriptCB_PlayInGameMovie
+ScriptCB_PlayInGameMusic
+ScriptCB_PlayMovie
+ScriptCB_PopScreen
+ScriptCB_PostLoadHack
+ScriptCB_PreviousHost
+ScriptCB_PreviousMixConfig
+ScriptCB_PreviousOutputMode
+ScriptCB_PrevToolTipState
+ScriptCB_PushScreen
+ScriptCB_QuitFromStats
+ScriptCB_QuitToShell
+ScriptCB_QuitToWindows
+ScriptCB_random
+ScriptCB_ReadAllControllers
+ScriptCB_ReadLeftstick
+ScriptCB_Reboot
+ScriptCB_ReloadMarkedProfile
+ScriptCB_RemoveTexture
+ScriptCB_ResetControlsToDefault
+ScriptCB_ResetGameOptionsToDefault
+ScriptCB_ResetLeaderBoardPlayerData
+ScriptCB_ResetSkipToNTGUI
+ScriptCB_ResetSkipToPlayerList
+ScriptCB_ResetSoundToDefault
+ScriptCB_ResetToolTips
+ScriptCB_RestartMission
+ScriptCB_RestoreDefaultProfile
+ScriptCB_RestorePrimaryController
+ScriptCB_SaveCampaignState
+ScriptCB_SaveMetagameState
+ScriptCB_SaveMissionSetup
+ScriptCB_SearchStatsRank
+ScriptCB_SetAIDifficulty
+ScriptCB_SetAmHost
+ScriptCB_SetAsFavorite
+ScriptCB_SetAutoAcquireControllers
+ScriptCB_SetBassManagement
+ScriptCB_SetBleedingRepeatTime
+ScriptCB_SetCanSwitchSides
+ScriptCB_SetConnectType
+ScriptCB_SetControlMode
+ScriptCB_SetControlScale
+ScriptCB_SetDCMap
+ScriptCB_SetDedicated
+ScriptCB_SetDifficulty
+ScriptCB_SetDopplerFactor
+ScriptCB_SetFilters
+ScriptCB_SetFunctionIdForAnalogId
+ScriptCB_SetFunctionIdForButtonId
+ScriptCB_SetGameName
+ScriptCB_SetGameRules
+ScriptCB_SetGeneralOptions
+ScriptCB_SetGSProfileInfo
+ScriptCB_SetHasNewPatch
+ScriptCB_SetHasSeenDNASEULA
+ScriptCB_SetHorizontalSplitScreen
+ScriptCB_SetHotController
+ScriptCB_SetHUDScale
+ScriptCB_SetIFaceLighting
+ScriptCB_SetIFScreen
+ScriptCB_SetIFScreenViewport
+ScriptCB_SetIgnoreControllerRemoval
+ScriptCB_SetIgnoreInputs
+ScriptCB_SetInNetGame
+ScriptCB_SetInputRepeat
+ScriptCB_SetInTrainingMission
+ScriptCB_SetLastBattleVictoryValid
+ScriptCB_SetLeaderBoardID
+ScriptCB_SetMemoryProfileMode
+ScriptCB_SetMetaAllMapsOn
+ScriptCB_SetMissionNames
+ScriptCB_SetMovieAudioBus
+ScriptCB_SetNetGameDefaults
+ScriptCB_SetNetHeroDefaults
+ScriptCB_SetNetLoginName
+ScriptCB_SetNoticeNoCable
+ScriptCB_SetNumBots
+ScriptCB_SetOnlineOpts
+ScriptCB_SetPlayerSide
+ScriptCB_SetPlayerStatsPoints
+ScriptCB_SetProfileAsDefault
+ScriptCB_SetProfileNotDirty
+ScriptCB_SetQuitPlayer
+ScriptCB_SetSessionSortMode
+ScriptCB_SetShellMusic
+ScriptCB_SetShellMusicInterval
+ScriptCB_SetSpawnDisplayGain
+ScriptCB_SetSpectatorMode
+ScriptCB_SetSplitscreen
+ScriptCB_SetSPProgress
+ScriptCB_SetSunlight
+ScriptCB_SetTeamNames
+ScriptCB_SetTeamStatsSortMode
+ScriptCB_SetupAutoNetIsLan
+ScriptCB_SetupAutoNetMissions
+ScriptCB_SetVoiceLocalEchoEnable
+ScriptCB_SetVoiceReceiveEnable
+ScriptCB_SetVoiceReceivePreset
+ScriptCB_SetVoiceSendEnable
+ScriptCB_SetVoiceSendPreset
+ScriptCB_SetVolumes
+ScriptCB_SetYAxisFlip
+ScriptCB_ShellPlayDelayedStream
+ScriptCB_ShouldCheckDNAS
+ScriptCB_ShouldCheckPatch
+ScriptCB_ShouldShowDemoPostscreen
+ScriptCB_ShouldShowLegal
+ScriptCB_ShowHuntScoreLimit
+ScriptCB_ShowLoadDisplay
+ScriptCB_ShowMultipageText
+ScriptCB_SkipToNTGUI
+ScriptCB_SkipToPlayerList
+ScriptCB_SndBusFade
+ScriptCB_SndPlaySound
+ScriptCB_SoundDisable
+ScriptCB_SoundEnable
+ScriptCB_srand
+ScriptCB_StartDeleteCampaign
+ScriptCB_StartDeleteMetagame
+ScriptCB_StartDeleteProfile
+ScriptCB_StartDNAS
+ScriptCB_StartInitialMemcardCheck
+ScriptCB_StartLoadCampaign
+ScriptCB_StartLoadMetagame
+ScriptCB_StartLoadProfile
+ScriptCB_StartLogin
+ScriptCB_StartLoginDedicatedServer
+ScriptCB_StartNewCampaign
+ScriptCB_StartNewMetagame
+ScriptCB_StartPreOp
+ScriptCB_StartPS2PatchCheck
+ScriptCB_StartSaveCampaign
+ScriptCB_StartSaveMetagame
+ScriptCB_StartSaveProfile
+ScriptCB_StopInGameMovie
+ScriptCB_StopInGameMusic
+ScriptCB_StopMovie
+ScriptCB_SwapActiveProfileSlots
+ScriptCB_SwapPrimaryController
+ScriptCB_TeamStatsGetTeam1
+ScriptCB_TeamStatsGetTeamColor
+ScriptCB_TeamStatsSetTitles
+ScriptCB_TeamStatsValidatePos
+ScriptCB_ToggleEffects
+ScriptCB_tounicode
+ScriptCB_TrackLoginErrors
+ScriptCB_TriggerSoundRegionEnable
+ScriptCB_TrimLoginName
+ScriptCB_UnbindController
+ScriptCB_UnicodeStrCat
+ScriptCB_UnlockableState
+ScriptCB_UnlockUnlockable
+ScriptCB_Unpause
+ScriptCB_ununicode
+ScriptCB_UpdateFriends
+ScriptCB_UpdateJoin
+ScriptCB_UpdateLeave
+ScriptCB_UpdateLobby
+ScriptCB_UpdateNetConfigs
+ScriptCB_UpdateQuickmatch
+ScriptCB_UpdateScreen
+ScriptCB_UpdateSessionList
+ScriptCB_usprintf
+ScriptCB_ustrupper
+ScriptCB_VoiceEnable
+ScriptCB_VoteKick
+ScriptCB_VoteOrNominate
+ScriptCB_WasSplitscreen
+ScriptInit
+ScriptPostLoad
+ScriptPreInit
+SCUS
+sD$h
+sdkdev.gamespy.com
+search
+SEARCH
+search loc lbn %d
+search name %s
+search size %d
+SearchStatsRank
+seB4
+secondary
+secondary DNS
+secondary2
+Sector
+Sector1
+Sector2
+seek  failed.
+Segment
+SegmentList()
+Select
+SelectButton
+SelectCharacterClass
+SelectCharacterTeam
+Selected
+SelectedIdx
+SELECTING
+selectionPopup
+selectionPopup.disable
+self
+Self
+SelfText
+sema
+sema() failed.
+semi-panic
+semi-panic: sbcompress
+send
+sendfile.dat
+SendToBack
+SENDXXXX(%s)
+SENDXXXX(%s): Connection closed
+sensor
+sensor_array
+Sep  9 2005 22
+Sep  9 2005 22:55:47
+September
+sequenceScalableExtension() is not implemented
+SERVER
+server().
+serverinfo
+servertype
+session
+sessionIdx
+sessionlist
+sesskey
+SESSKEY
+set
+setaddr() failed in set
+SetAIDamageThreshold
+SetAIDifficulty
+SetAIVehicleNotifyRadius
+SetAIViewMultiplier
+SetAllowBlindJetJumps
+SetAlpha
+SetAmbientMusic
+SetAmHost
+SetAnimation
+SetAnimationBanks
+SetAnimationLooping
+SetAnimationStartPoint
+SetAnimationTime
+SetAsFavorite
+SetAttackerSnipeRange
+SetAttackingTeam
+SetAutoAcquireControllers
+SetBackground
+SetBackgroundRightJustify
+SetBackgroundSize
+SetBasicRotation
+SetBassManagement
+SetBirdFlockMinHeight
+SetBirdType
+SetBleedingRepeatTime
+SetBleedingVoiceOver
+SetBleedRate
+SetCameraPosition
+SetCameraRotation
+SetCanSwitchSides
+SetCarrierClass
+SetClassProperty
+SetColor
+SetConnectType
+SetControlMode
+SetControlScale
+SetDCMap
+SetDedicated
+SetDefeatMovie
+SetDefeatMusic
+SetDefeatTimer
+SetDefenderSnipeRange
+SetDenseEnvironment
+SetDepth
+SetDifficulty
+SetDopplerFactor
+SetEffectActive
+SetEffectMatrix
+SetEnabled
+SetEntityMatrix
+setfenv
+SetFilters
+SetFishType
+SetFlagGameplayType
+SetFlyerControllerConfig
+SetFont
+SetFunctionIdForAnalogId
+SetFunctionIdForButtonId
+SetGameName
+SetGameRules
+SetGeneralOptions
+SetGroundFlyerMap
+SetGSProfileInfo
+SetHasNewPatch
+SetHasSeenDNASEULA
+SetHeroClass
+SetHeroPlayerRule
+SetHeroRespawnRule
+SetHeroTeamRule
+SetHeroUnlockRule
+SetHistorical
+sethook
+SetHorizontalSplitScreen
+SetHotController
+SetHUDScale
+SetIFaceLighting
+SetIFScreen
+SetIFScreenViewport
+SetIgnoreControllerRemoval
+SetIgnoreInputs
+SetInNetGame
+SetInputRepeat
+SetIntercharacterSpacing
+SetInTrainingMission
+SetJustify
+SetLastBattleVictoryValid
+SetLeaderBoardID
+SetLeading
+SetLighting
+setlocal
+SetLowReinforcementsVoiceOver
+SetMapCameraOffset
+SetMapCameraPitch
+SetMapCameraZoom
+SetMapNorthAngle
+SetMaskTexCoords
+SetMaskTexture
+SetMaxCollisionDistance
+SetMaxFlyHeight
+SetMaxPlayerFlyHeight
+SetMemoryPoolSize
+SetMemoryProfileMode
+SetMetaAllMapsOn
+setmetatable
+SetMinFlyHeight
+SetMinPlayerFlyHeight
+SetMissionEndMovie
+SetMissionNames
+SetMissionTimer
+SetModel
+SetMovieAudioBus
+setn
+SetNetGameDefaults
+SetNetHeroDefaults
+SetNetLoginName
+SetNoticeNoCable
+SetNumBirdTypes
+SetNumBots
+SetNumFishTypes
+SetObjectTeam
+SetOmegaY
+SetOnlineOpts
+SetOutOfBoundsVoiceOver
+SetParticleLODBias
+setpdr
+SetPlanetaryBonusVoiceOver
+SetPlayerSide
+SetPlayerStatsPoints
+SetPos
+SetPosition
+SetProfileAsDefault
+SetProfileNotDirty
+SetProperty
+SetPS2ModelMemory
+SetQuitPlayer
+SetRect
+SetReinforcementCount
+SetRelativeRotation
+SetReservesVO
+SetRotation
+SetScale
+SetScreenPosition
+SetSessionSortMode
+SetShellMusic
+SetShellMusicInterval
+SetSoundEffect
+SetSpawnDelay
+SetSpawnDelayTeam
+SetSpawnDisplayGain
+SetSpectatorMode
+SetSplitscreen
+SetSPProgress
+SetState
+SetStationaryWaitTime
+SetStayInTurrets
+SetString
+SetSunlight
+SetTeamAggressiveness
+SetTeamAsEnemy
+SetTeamAsFriend
+SetTeamAsNeutral
+SetTeamIcon
+SetTeamName
+SetTeamNames
+SetTeamPoints
+SetTeamStatsSortMode
+SetTexCoords
+SetTextBox
+SetTextBreak
+SetTextColor
+SetTextPosition
+SetTextScale
+SetTextStyle
+SetTexture
+SetTimerAlarm failed (%d)
+SetTimerRate
+SetTimerValue
+setting bandwidth to %d kbps
+setting window size to %d
+settings
+SetTranslation
+SetUnitCount
+Setup
+SetupAutoNetIsLan
+SetupAutoNetMissions
+SetupTempHeap
+setupvalue
+SetUrbanEnvironment
+SetUseSafezone
+SetUString
+SetVictoryMovie
+SetVictoryMusic
+SetVictoryTimer
+SetVis
+SetVoiceLocalEchoEnable
+SetVoiceReceiveEnable
+SetVoiceReceivePreset
+SetVoiceSendEnable
+SetVoiceSendPreset
+SetVolumes
+SetWidthHeight
+SetWorldExtents
+SetYAxisFlip
+SetZOrder
+sex
+shadow
+Shadow
+shB4
+SHB4
+SHB4H
+shB4K
+shell
+Shell
+shell.lvl
+Shell\eng\shell.lvl
+shell_interface
+ShellPlayDelayedStream
+shellps2.lvl
+shield
+ShieldChange
+ShieldEffect
+shielding
+shoot
+shoot_secondary
+shoot_secondary2
+shoot2
+short
+short_src
+ShouldCheckDNAS
+ShouldCheckPatch
+ShouldShowDemoPostscreen
+ShouldShowLegal
+ShowAllUnitsOnMinimap
+ShowHuntScoreLimit
+ShowLoadDisplay
+ShowMessageText
+ShowMultipageText
+ShowObjectiveTextPopup
+showplayernames
+ShowPopup
+ShowSelectionTextPopup
+showstr
+ShowStr
+ShowTeamPoints
+ShowTimer
+shutdown
+Side
+sideselect%d
+sideselect%d.buttons.team%d.label
+sideselect%i
+sig
+SIG
+sink
+sio2d
+sio2man
+size
+Size
+SIZE
+size_t
+SizeTransformer
+SKEL
+skill
+skill_
+skip
+skiped macroblock in I picure is not allowed
+SkipToNTGUI
+SkipToPlayerList
+SKNS
+SLES
+SLES_535.01.zdb
+SLES_535.02.zdb
+SLES_535.03.zdb
+slice
+slice_start_code(0x%08x) out of range
+sliceA0()
+Slope
+SLPM
+SLPM_656.87.zdb
+SLPS
+SLUS
+SLUS_212.40.zdb
+SLUS_291.64.zdb
+SMALL
+smap
+smap_input: MCLGET() failed.
+smap_input: MGETHDR() failed.
+smap0
+smap3020 
+SMB4=
+SnapMapCamera
+snB4
+SNDBUF) in send
+SndBusFade
+SndPlaySound
+soaccept
+soaccept: !NOFDREF
+Socket creation error
+Socket operation on non-socket
+socket(PF
+socket(PF_ROUTE, SOCK_RAW) in _sce_eenet_flush_route()
+sockets started
+soclose
+soclose: NOFDREF
+Software caused connection abort
+soldier
+SOLDIER
+SoldierPolyCount
+sort
+sound
+Sound 0x%08x
+SoundAmbienceStatic
+SoundAmbienceStreaming
+SoundDisable
+SoundEnable
+soundlayered
+soundparameterized
+soundspace
+SoundSpaceRegion
+soundstatic
+soundstream
+soundtrigger
+source
+Space
+SpaceAssault
+SpaceAssault::ViewportData
+SpaceAssaultAddCriticalSystem
+SpaceAssaultEnable
+SpaceAssaultGetScoreLimit
+SpaceAssaultLinkCriticalSystems
+SpaceAssaultSetupBitmaps
+SpaceAssaultSetupTeamNumbers
+spanish
+Spawn
+SpawnCharacter
+spec
+SpecialFont
+specular
+Speed %03.03f
+splash
+splitupdate
+sppp
+spppcommon
+spppcommon: _sce_eenet_if_set_mtu()
+spppcommon: eenet_ioctl(PPPGETPPPCONFS) in _sce_eenet_sppp_phone_number()
+spppcommon: eenet_ioctl(SIOCAIFADDR) in _sce_eenet_sppp_config_address()
+spppcommon: eenet_ioctl(SIOCDIFADDR) in _sce_eenet_sppp_config_address()
+spppcommon: eenet_ioctl(SPPPGETIPCPCFG) in _sce_eenet_is_ipcp_up()
+spppcommon: eenet_ioctl(SPPPGETIPCPCFG) in _sce_eenet_sppp_auth_message()
+spppcommon: eenet_ioctl(SPPPGETIPCPCFG) in _sce_eenet_sppp_config_address()
+spppcommon: eenet_ioctl(SPPPGETIPCPCFG) in _sce_eenet_sppp_config_dns_and_route()
+spppcommon: eenet_ioctl(SPPPGETIPCPCFG) in _sce_eenet_sppp_config_mtu()
+spppcommon: eenet_ioctl(SPPPGETMAXPHASEREQ) in _sce_eenet_sppp_error_code()
+spppcommon: eenet_ioctl(SPPPGETSPHASEREQ) in _sce_eenet_sppp_state()
+spppcommon: eenet_ioctl(SPPPRSTMAXPHASEREQ) in _sce_eenet_sppp_open()
+spppcommon: eenet_ioctl(SPPPSETSPPPREQ) in _sce_eenet_sppp_config_param()
+spppcommon: set_dns_and_route failed.
+SpringBody%d
+sprint
+sqrt
+sqrtf
+srand
+src
+Srmount error
+SSbd
+SShd
+STABLE
+stack overflow
+stack overflow (%s)
+stack traceback
+stack traceback:
+STAGING
+stand
+stand_attack1a
+stand_attack1b
+stand_block_front1
+stand_block_front2
+stand_block_left1
+stand_block_left2
+stand_block_rear1
+stand_block_rear2
+stand_block_right1
+stand_block_right2
+stand_deadhero
+stand_death_backward
+stand_death_forward
+stand_death_left
+stand_death_right
+stand_getupback
+stand_getupfront
+stand_hitback
+stand_hitfront
+stand_hitleft
+stand_hitright
+standalert
+StandToProne
+Star Wars Battlefront
+start
+Start
+StartDeleteCampaign
+StartDeleteMetagame
+StartDeleteProfile
+StartDNAS
+STARTED
+StartFlashiness
+starting
+Starting
+STARTING
+StartInitialMemcardCheck
+StartLoadCampaign
+StartLoadMetagame
+StartLoadProfile
+StartLogin
+StartLoginDedicatedServer
+StartNewCampaign
+StartNewMetagame
+StartPreOp
+StartPS2PatchCheck
+starts
+Starts
+StartSaveCampaign
+StartSaveMetagame
+StartSaveProfile
+StartTimer
+STAT=%08x
+STAT=%08x>
+State
+state()
+statechanged
+StateIcon
+static
+staticaddr
+stats
+stats.dat
+stats_listbox_contents
+stats_medalbox_left_contents
+stats_medalbox_right_contents
+statstring
+status
+STATUS
+statuscode
+stderr
+stdin
+stdout
+StealArtistHeap
+sTextureHeap
+StickInfo
+sticky
+Stop
+StopAudioStream
+stopfollowchr
+StopInGameMovie
+StopInGameMusic
+StopMovie
+stopped
+STOPPED
+Stopped 
+stopping
+Stopping
+STOPPING
+StopTimer
+stream
+stream end
+stream error
+Stream ioctl timeout
+Stream(0x%08x)
+StreamAuxRenderer 
+StreamAuxRenderer : Unable to write packet
+streamer
+string
+string expected
+string or function expected
+string size overflow
+sub
+success
+Such IP address (%s) is already in use
+Such IP address (%s) isn't preferable
+supplies
+survivalist
+suspended
+SwapActiveProfileSlots
+SwapPrimaryController
+SWB2 
+SWB2 Profile
+SWBF2
+SWBF2 Patch
+swbf2.zip
+SWBFront %s NetVer %d Lang %d
+swbfront2ps2
+swbregion
+syntax error
+sysctl
+sysctl() in 
+sysctl_iflist(1)
+sysctl_iflist(2)
+syslink
+systemfont
+table
+table contains non-strings
+table index is NaN
+table index is nil
+table overflow
+table too big to unpack
+table: %p
+TAc4!8
+TADR=%08x
+tail
+tail return
+takeknee
+takeoff
+tankBuster
+tanks
+Target%s
+TargetChange
+targetResetCommon
+tat2
+tCD
+tCD_AutoUpdate
+tCD_DeviceAccess
+tCDDir
+tCDDir_AutoInit
+tcp
+TCP
+TCP: invalid wscale %d, assuming %d
+tcp_init
+tcp_output
+tcp_output REXMT
+tcp_pulloutofband
+tcp_usrreq
+tdm
+team
+Team
+team_
+team_t
+team1
+Team1
+Team1Name
+team1reinforcements
+team2
+Team2
+Team2Name
+team2reinforcements
+TeamAssist
+TeamChange
+teamdamage
+teamfraglimit
+teamplay
+TeamPointsChange
+teamstats
+teamstats_awardsListbox_contentsL
+teamstats_awardsListbox_contentsR
+teamstats_listbox_contentsL
+teamstats_listbox_contentsR
+TeamStatsGetTeam1
+TeamStatsGetTeamColor
+TeamStatsSetTitles
+TeamStatsValidatePos
+teB4
+technician
+temp
+Temp
+TentacleSimulator
+term-ack
+terminate
+term-req
+test
+test,fpasswd
+test,fpasswd,rpasswd,256M,PFS
+TestHotSpot
+text
+Text file busy
+thai
+The connection has already been disconnected.
+the second field is missing
+The server has closed the connection.
+The server has refused the connection.
+The size of work area is too small
+them
+then
+There was an error binding a socket.
+There was an error checking for a completed connection.
+There was an error connecting a socket.
+There was an error creating a socket.
+There was an error getting a socket's addres.
+There was an error listening on a socket.
+There was an error making a socket non-blocking.
+There was an error reading from a socket.
+There was an error reading from the server.
+There was an error sending on a socket.
+thpri=060, 061
+thpri=5
+thread
+thread()
+thread() in eenet
+thread: %p
+thread_enter: failed by no memory
+thrown
+thrown_bouncebacksoft
+thrown_bouncefrontsoft
+thrown_flail
+thrown_flyingback
+thrown_flyingfront
+thrown_flyingleft
+thrown_flyingright
+thrown_landbacksoft
+thrown_landfrontsoft
+thrown_restbacksoft
+thrown_restfrontsoft
+thrown_tumbleback
+thrown_tumblefront
+tiB4I
+TicketBleedChange
+TicketCountChange
+time
+Time
+timeelapsed
+timelimit
+timeout
+TIMEOUT
+timePlayed
+timer
+Timer
+TimerElapse
+title
+Toggle Profiler
+Toggle Summary
+ToggleBarriers
+ToggleEffects
+TogglePlanningGraphArcs
+tonumber
+too long parameter '%s'
+too many %s (limit=%d)
+too many arguments
+too many arguments to resume
+too many captures
+too many length or distance symbols
+Too many links
+Too many macroblocks in picture
+too many marks in a path component
+Too many open files
+Too many open files in system
+too many results to resume
+Too many symbolic links
+too many syntax levels
+Too small buffer size for %dx%d picture
+tool
+torso
+tostring
+total
+total out %2.02f
+total_rows_count
+totalTimePlayed
+TotalTimePlayed
+tounicode
+towcable
+towcableweapon
+traceback
+TRACEBACK
+TrackLoginErrors
+traitor
+Transfer-Encoding
+Transfer-Encoding: chunked
+Transition
+TranslateAICommand
+trap
+treaded
+TreeGridStack
+Tried to remove peer not in list.
+Trigger%s
+TriggerSoundRegion
+TriggerSoundRegion::Group
+TriggerSoundRegion::Properties
+TriggerSoundRegionEnable
+TrimLoginName
+true
+tsleep
+TTY
+TTY: err ti->wlen=%08x
+TTY: packet size larger than expect
+TTY: receive error
+TTY: send err %d
+tumbleback
+tumblefront
+turnl
+turnl turnl
+turnl turnl_leftup turnl_rightup
+turnleft
+TurnLeft
+turnr
+turnr turnr
+turnr turnr_leftup turnr_rightup
+turnright
+TurnRight
+TYB4
+type
+type code
+type(%d)-0
+type(%d)-1
+type(%d)-2
+type_%s
+typeid
+udp_usrreq
+uk_english
+Unable to cache CD directory.
+unable to dump given function
+unavailable
+unbalanced pattern
+UnbindController
+UnblockPlanningGraphArcs
+UnbuiltCollisionMesh
+UNCOMP
+Unexepected data was received from the server.
+Unexpected data was received from the server.
+unexpected end of file in %s
+unexpected symbol
+unfinished capture
+unfinished long comment
+unfinished long string
+unfinished string
+unfold
+ungetc error
+ungetc error: *static buffer overflow* - char not added to buffer
+unicast()
+UnicodeStrCat
+UNINVITE
+uniquenick
+Uniquenick too long.
+uniquesearch
+UnitAgent
+UnitBoardAgent
+UnitCaptureCPAgent
+UnitCombatAgent
+UnitController
+UnitCTFOffenseAgent
+UnitDeathmatchAgent
+UnitDefendAgent
+UnitDestroyAgent
+UnitFlyAgent
+UnitFlyController
+UnitFollowAgent
+UnitHoldAgent
+UnitMobileController
+UnitRandomAgent
+UnitStationaryController
+UnitTrooperAgent
+UnitUnBoardAgent
+UnitWaitAgent
+UnitWaitSecondaryAgent
+unknown
+Unknown
+UNKNOWN
+unknown compression method
+Unknown error code!
+Unknown Error!
+Unknown Extension
+unknown header flags set
+unknown number format in %s
+Unknown object type %s
+unknown picture sutructure
+Unknown result!
+Unknown SJIS code, possibly NULL %x,%x,%x
+Unknown type %s
+Unknown VarType
+Unknown VarType: %d
+UnlockableState
+UnlockHeroForTeam
+UnlockUnlockable
+unm
+unmounted pfs
+Unnamed
+unpack
+Unpause
+Unsupported profile/level
+until
+ununicode
+up()
+Update
+UpdateAnimation
+UpdateFriends
+UpdateJoin
+UpdateLeave
+UpdateLobby
+UpdateNetConfigs
+updatepro
+UPDATEPRO
+UpdateQuickmatch
+UpdateScreen
+UpdateSessionList
+updateui
+UPDATEUI
+upper
+UpperCorner
+upvalues
+USB
+USB_driver
+usbd
+usdone
+used
+user
+User authentication error with ISP
+User-Agent
+userdata
+userdata: %p
+userid
+usprintf
+usrreq
+ustrupper
+util
+util::NewAllocator::Allocate failed - new[] failed - out of memory!
+val1str
+val2str
+val3str
+val4str
+valid
+Valid parameters for SoundProperties are...
+validchars
+value expected
+value for `lua
+value for `lua_getinfo' is not a function
+vehiclepad
+vehiclescale
+vehiclesDestroyed
+vehiclespawn
+VehicleSpawn
+VehicleSpawn::VehicleTracker
+VehicleTracker
+verify partition info.
+VERS
+version
+VERSION
+version 1.1.31
+Vertical
+vertical size > 2800
+victorytimer
+victorytimer.disable
+videocard1ram
+videocard1string
+videocard2ram
+videocard2string
+Viewport
+ViewportData
+Virtual circuit is gone
+virtual machine mismatch in %s
+virtual machine mismatch in %s: size of %s is %d but read %d
+vis.BackFaceCull
+vis.DebugDraw
+vis.Enable
+vis.ProximityTest
+vis.SaveCam
+VJC
+vkeyboard
+voice, pri., dist., 3d gain, play pos., min, max, roll
+VoiceEnable
+VoiceIcon
+VoteKick
+VoteOrNominate
+VOUnitNum
+waitforpickup
+Waiting to retry
+waitlate
+waitlate(%d) lagversion(%d) splitupdate(%d)
+walk
+walk_leftfoot_rightfoot
+walk_leftfoot_rightfoot walk_leftfoot_rightfoot_leftup walk_leftfoot_rightfoot_rightup
+walk_rightfoot_leftfoot
+walk_rightfoot_leftfoot walk_rightfoot_leftfoot_leftup walk_rightfoot_leftfoot_rightup
+walkbackward
+walker
+Walker%d
+walker.ShowDamage
+WalkerBlend
+WalkerBlendUnit
+walkerdroid
+WalkerLegPair
+walkforward
+walkleft
+walkright
+warhero
+WasSplitscreen
+water
+water_sink_region
+weapon
+Weapon
+WeaponAreaEffect
+WeaponAreaEffectClass
+WeaponBinoculars
+WeaponBinocularsClass
+WeaponCannon
+WeaponCannonClass
+WeaponCatapult
+WeaponCatapultClass
+WeaponChange
+WeaponClass
+WeaponDestruct
+WeaponDestructClass
+WeaponDetonator
+WeaponDetonatorClass
+WeaponDisguise
+WeaponDisguiseClass
+WeaponDispenser
+WeaponDispenserClass
+WeaponGrapplingHook
+WeaponGrapplingHookClass
+WeaponGrenade
+WeaponGrenadeClass
+WeaponInvisibility
+WeaponInvisibilityClass
+WeaponLaser
+WeaponLaserClass
+WeaponLauncher
+WeaponLauncherClass
+WeaponMelee
+WeaponMeleeClass
+WeaponMeleeThrow
+WeaponMeleeThrowClass
+WeaponRemote
+WeaponRemoteClass
+WeaponRepair
+WeaponRepairClass
+weapons.%s
+WeaponShield
+WeaponShieldClass
+WeaponTowCable
+WeaponTowCableClass
+Welcome!
+WGB4
+what
+while
+white
+WHITE
+white.tga
+width
+window size %d
+window size not set
+windowsize
+winningCnt
+winningTeam
+wins
+WMB4e
+Word
+Word Reformat
+work area size is too small
+world
+wrap
+write failed.
+write partition info.
+wrong number of arguments
+WUnknown Error!
+xlive.errors.nocable
+xlive.errors.nocable_syslink
+YESINVITE
+yield
+YouKilledHero%d
