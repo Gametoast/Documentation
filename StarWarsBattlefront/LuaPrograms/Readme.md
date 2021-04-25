@@ -48,7 +48,7 @@ usage: luac [options] [filenames].  Available options are:
 
 ```
 
-Of Particular interest is the -l option, which lists out the lua code and can be used to decompile compiled lua files. 
+Of Particular interest is the -l option, which lists out the lua byte code in a human-readable format and can be used to decompile compiled lua files. 
 
 Lua 4.0 manual: https://www.lua.org/manual/4.0/
 
