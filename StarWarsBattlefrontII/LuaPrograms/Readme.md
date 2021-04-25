@@ -44,7 +44,7 @@ usage: Luac.exe [options] [filenames].  Available options are:
   --       stop handling options
 ```
 
-Of Particular interest is the -l option, which lists out the lua code and can be used to decompile compiled lua files.
+Of Particular interest is the -l option, which lists out the lua byte code in a human-readable format and can be used to decompile compiled lua files.
 
 See Video here: https://youtu.be/Rkl5RiRWu9Q
 
