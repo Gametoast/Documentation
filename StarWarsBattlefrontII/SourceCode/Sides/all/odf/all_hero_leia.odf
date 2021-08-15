@@ -1,0 +1,105 @@
+[GameObjectClass]
+ClassParent     = "com_hero_default"
+GeometryName    = "all_inf_deathstarleia.msh"
+
+[Properties]
+UnitType        = "Scout"
+
+GeometryName    = "all_inf_deathstarleia"
+GeometryLowRes  = "all_inf_deathstarleia_low1"
+SkeletonName    = "deathstarleia"
+SkeletonLowRes  = "leialz"
+SkeletonRootScale   = "0.95"
+CollisionRootScale  = "0.95"
+FirstPerson     = "all\allleia;all_1st_deathstarleia"
+ClothODF    = "all_inf_leia_skirt"
+
+WEAPONSECTION = 1
+WeaponName1         = "all_weap_hero_targetpistol"
+WeaponAmmo1         = 0
+
+WEAPONSECTION = 2
+WeaponName2         = "all_weap_inf_thermaldetonator"
+WeaponAmmo2         = 3
+WeaponChannel2      = 1
+
+WEAPONSECTION = 3
+WeaponName3         = "all_weap_inf_buff_invuln"
+WeaponAmmo3         = 1
+WeaponChannel3      = 1
+
+//SOUND
+// general VO - Some female VO unavailable
+HurtSound               = "all_inf_com_chatter_wound_female"
+DeathSound              = "all_inf_com_chatter_death_female"
+AcquiredTargetSound     = ""
+HidingSound             = ""
+ApproachingTargetSound  = ""
+FleeSound               = ""
+PreparingForDamageSound = ""
+HeardEnemySound         = ""
+
+// squad command VO - No female VO available
+SCFieldMoveOutSound     = ""
+SCFieldHoldSound        = ""
+SCFieldFollowSound      = ""
+SCDriverGetInSound      = ""
+SCDriverGetOutSound     = ""
+SCPassengerMoveOutSound = ""
+SCPassengerStopSound    = ""
+SCPassengerGetInSound   = ""
+SCPassengerGetOutSound  = ""
+SCGunnerAllClearSound   = ""
+SCGunnerSteadySound     = ""
+SCGunnerGetInSound      = ""
+SCGunnerGetOutSound     = ""
+SCResponseYessirSound   = ""
+SCResponseNosirSound    = ""
+
+// AIsquad command VO - No female VO available
+AISCFieldMoveOutSound       = ""
+AISCFieldHoldSound          = ""
+AISCFieldFollowSound        = ""
+AISCDriverGetInSound        = ""
+AISCDriverGetOutSound       = ""
+AISCPassengerMoveOutSound   = ""
+AISCPassengerStopSound      = ""
+AISCPassengerGetInSound     = ""
+AISCPassengerGetOutSound    = ""
+AISCGunnerAllClearSound     = ""
+AISCGunnerSteadySound       = ""
+AISCGunnerGetInSound        = ""
+AISCGunnerGetOutSound       = ""
+AISCResponseYessirSound     = ""
+AISCResponseNosirSound      = ""
+
+SndHeroSelectable           = ""
+SndHeroSpawned              = "hero_leia_spawn"
+SndHeroDefeated             = "hero_leia_exhausted"
+SndHeroKiller               = "hero_leia_exhausted"
+
+VOSound = "all_off_response_hero_command      SC_Follow"
+VOSound = "all_off_response_hero_command      SC_StopFollow"
+VOSound = "all_off_response_hero_command     SC_VehicleWaitUp"
+VOSound = "all_off_response_hero_command     SC_GetIn"
+VOSound = "all_off_response_hero_command      SC_GetOut"
+
+VOSound = "leia_hero_pc_com_hostile   		SpottedVO"
+VOSound = "leia_hero_pc_com_mechanic  		NeedRepairVO"
+VOSound = "leia_hero_pc_com_transport 		NeedPickupVO"
+VOSound = "leia_hero_pc_com_backup    		NeedBackupVO"
+VOSound = "leia_hero_pc_com_clear_area		AttackPositionVO"
+VOSound = "leia_hero_pc_com_defend    		DefendPositionVO"
+           
+VOSound = "leia_hero_pc_com_hostile_inVehicle   		SpottedVO +InVehicle"
+VOSound = "leia_hero_pc_com_mechanic_inVehicle  		NeedRepairVO +InVehicle"
+VOSound = "leia_hero_pc_com_transport_inVehicle 		NeedPickupVO +InVehicle"
+VOSound = "leia_hero_pc_com_backup_inVehicle    		NeedBackupVO +InVehicle"
+VOSound = "leia_hero_pc_com_clear_area_inVehicle		AttackPositionVO +InVehicle"
+VOSound = "leia_hero_pc_com_defend_inVehicle    		DefendPositionVO +InVehicle"
+
+VOSound = "hero_leia_AcquiredTarget      AcquiredTarget"
+VOSound = "hero_leia_KillingSpree4      KillingSpree4"
+
+VOUnitType              = 183
+SoldierMusic            = "all_hero_Leia_lp"

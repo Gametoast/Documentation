@@ -1,0 +1,31 @@
+[WeaponClass]
+
+ClassLabel 			= "melee"
+
+[Properties]
+IconTexture		= "HUD_all_rifle_icon"
+
+
+GeometryName 		= ""
+//AnimationBank 		= "melee"
+CustomAnimationBank	= "geo_walk_acklay melee"
+
+MuzzleFlash			= "med_muzzle_flash"
+Discharge			= "med_smoke_effect"
+
+RoundsPerClip 		= "0"
+ReloadTime 			= "3.0"
+
+LockOnRange			= "10.0"
+LockTime 			= "0.4"
+AutoAimSize			= "1.0"
+
+MinRange            = "0"
+OptimalRange        = "3.0"
+MaxRange			= "5.0"
+// needs to be so high because the silly eyepoint is y=4m, 
+// which accounts for part of the range
+
+FirePointName		= "hp_fire"
+
+//SwingTime = "1.0 0.2"

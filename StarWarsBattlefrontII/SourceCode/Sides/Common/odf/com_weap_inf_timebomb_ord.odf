@@ -1,0 +1,26 @@
+[GameObjectClass]
+ClassLabel          = "mine"
+
+[Properties]
+//TrailEffect         = "com_sfx_weap_grenade_gold"
+//LightColor          = "224 224 160 150"
+//LightRadius         = "4.0"
+
+TrailEffect             = "com_sfx_mineblink_purple"
+LightColor              = "150 100 200 150"
+LightRadius             = "3.0"
+
+LifeSpan            = "5.0"
+Velocity            = "0.0"
+Gravity             = "1.0"
+Rebound             = "0.0
+Friction            = "1.0
+
+MaxHealth           = "800"
+
+TickSound           = "com_weap_inf_timebomb_timer"
+TickSoundPitch      = "0.5"
+
+CollisionSound      = "com_sticky_stick"
+
+

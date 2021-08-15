@@ -1,0 +1,217 @@
+OffhandAnimation("stand_useforce", "FIRE")
+{
+    Loop("FinalFrame");
+    AimType("Torso");
+    BlendInTime(0.15);
+    BlendOutTime(0.15);
+}
+OffhandAnimation("stand_useforce", "FIRE2");
+OffhandAnimation("stand_useforce", "CHARGE");
+
+Animation("stand_attack1a_end");
+Animation("stand_attack1b");
+Animation("stand_attack1a_upper")
+{
+    AimType("None");
+    BlendInTime(0.0);
+    BlendOutTime(0.3);
+    BlendTimeTo("stand_attack1a_end", 0.0);
+    BlendTimeTo("stand_attack1b", 0.2);
+}
+Animation("stand_attack1a_lower")
+{
+    BlendInTime(0.3);
+    BlendOutTime(0.3);
+    BlendTimeTo("stand_attack1a_end", 0.0);
+    BlendTimeTo("stand_attack1b", 0.15);
+}
+
+// Throw stuff....
+ThrowAnimation("stand_throw");
+
+State("IDLE")
+{
+    Duration(0.0);  // infinite duration
+    EnergyRestoreRate();    // (0.0, "FromSoldier")
+    InputLock(0.15, "Sprint", "Jump", "Crouch");
+
+    InputLock("Jump");
+
+    Transition("ATTACK1")
+    {
+        If()
+        {
+            Break();    // all transitions are breaking if Duration is 0
+            Posture("Stand", "Crouch");
+            Button("Fire", "Press");
+        }
+    }
+}
+
+//Forward declare animations to allow BlendTimeTo references:
+State("ATTACK1")
+{
+    Posture("Stand");
+    Animation("stand_attack1a");
+
+    InputLock("All", "!Thrust");
+    Attack()
+    {
+	Edge(0);
+        DamageTime(9, 13, "Frames");
+        DamageLength(2.5);
+        DamageWidth(1.5);
+        Damage(800);
+	Push(10.0);
+    }
+
+    Sound("com_weap_throw");
+
+    Duration(30, "Frames");
+
+    Transition("ATTACK2")
+    {
+        If()
+        {
+            TimeStart(0.0);
+            TimeEnd(0.25, "FromEnd");   //, "SyncIfOvertime");
+            Posture("Stand");
+            Button("Fire", "Press");
+        }
+    }
+
+    Transition("RECOVER1");
+}
+
+//Forward declare animations to allow BlendTimeTo references:
+State("RECOVER1")
+{
+    Posture("Stand");
+    Animation("stand_attack1a");
+
+    InputLock("All", "!Thrust");
+
+    Transition("IDLE");
+}
+
+State("ATTACK2")
+{
+    Posture("Stand");
+    Animation("stand_attack1b")
+    {
+//      SyncType("attack1b", "ByTime");
+        AimType("None");
+        BlendInTime(0.3);
+        BlendOutTime(0.4);
+    }
+
+    InputLock("All", "!Thrust");
+
+    Sound("com_weap_throw");
+
+    Attack()
+    {
+	Edge(1);
+        DamageTime(7, 12, "Frames");
+        DamageLength(2.5);
+        DamageWidth(1.5);
+        Damage(800);
+	Push(10.0);
+    }
+
+    Attack()
+    {
+	Edge(2);
+        DamageTime(26, 32, "Frames");
+        DamageLength(2.5);
+        DamageWidth(1.5);
+        Damage(800);
+	Push(10.0);
+    }
+
+    Transition("ATTACK3")
+    {
+        If()
+        {
+            TimeStart(0.0);
+            TimeEnd(0.25, "FromEnd");   //, "SyncIfOvertime");
+           Posture("Stand");
+            Button("Fire", "Press");
+        }
+    }
+
+    Transition("RECOVER2");
+}
+
+//Forward declare animations to allow BlendTimeTo references:
+State("RECOVER2")
+{
+    Posture("Stand");
+    Animation("stand_attack1b");
+
+    InputLock("All", "!Thrust");
+
+    Transition("IDLE");
+}
+
+State("ATTACK3")
+{
+    Posture("Stand");
+    Animation("stand_attack1c")
+    {
+//      SyncType("attack1c", "ByTime");
+        AimType("None");
+        BlendInTime(0.4);
+        BlendOutTime(0.15);
+    }
+
+    Sound("com_weap_throw");
+
+    //set a duration so we will go to state RECOVER3 before the animation ends
+
+    AlignedToThrust();
+
+    StrafeFactor(0.5);
+    TurnFactor(0.5);
+
+    InputLock("All", "!Thrust");    // lock all controls for duration of state
+    Attack()
+    {
+	Edge(0);
+        DamageTime(12, 16, "Frames");
+        DamageLength(2.5);
+        DamageWidth(1.5);
+        Damage(800);
+	Push(20.0);
+    }
+    Attack()
+    {
+	Edge(1);
+        DamageTime(15, 19, "Frames");
+        DamageLength(2.5);
+        DamageWidth(1.5);
+        Damage(800);
+	Push(20.0);
+    }
+    Attack()
+    {
+	Edge(0);
+        DamageTime(22, 29, "Frames");
+        DamageLength(2.5);
+        DamageWidth(1.5);
+        Damage(800);
+	Push(20.0);
+    }
+    Attack()
+    {
+	Edge(1);
+        DamageTime(29, 34, "Frames");
+        DamageLength(2.5);
+        DamageWidth(1.5);
+        Damage(800);
+	Push(20.0);
+    }
+
+
+    Transition("IDLE");
+}

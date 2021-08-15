@@ -1,0 +1,29 @@
+[WeaponClass]
+ClassParent              = "com_weap_inf_arccaster"
+GeometryName            = "imp_weap_inf_rifle.msh"
+
+[Properties]
+GeometryName            = "imp_weap_inf_rifle"
+HighResGeometry         = "imp_1st_weap_inf_rifle"
+
+OrdnanceName            = "imp_weap_inf_arccaster_ord"
+
+//SOUND
+
+FireSound               = "force_lightning_fire"
+ReloadSound             = ""
+WeaponChangeSound       = "com_weap_inf_equip_med"
+ChangeModeSound         = "com_weap_inf_equip_med"
+FireEmptySound          = "com_weap_inf_weapon_empty"
+ChargeSound             = "imp_weap_inf_arccaster_charge"
+ChargeSoundPitch        = "0.05"
+OverheatSound           = "com_weap_energy_depleted"
+OverheatSoundPitch      = "0.5"
+OverheatStopSound       = "com_weap_energy_refilled"
+JumpSound               = "com_weap_inf_rifle_mvt_jump"
+LandSound               = "com_weap_inf_rifle_mvt_land"
+RollSound               = "com_weap_inf_rifle_mvt_roll"
+//ProneSound              = "com_weap_inf_rifle_mvt_squat"
+SquatSound              = "com_weap_inf_rifle_mvt_squat"
+//StandSound              = "com_weap_inf_rifle_mvt_getup"
+

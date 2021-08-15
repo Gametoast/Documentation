@@ -1,0 +1,315 @@
+[GameObjectClass]
+ClassLabel          = "flyer"
+GeometryName            = "rep_fly_jedifighter.msh"
+
+[Properties]
+FLYERSECTION            = "BODY"
+
+HUDModel 		= "hud_jedistarfighter_shape"
+VehicleType             = "fighter"
+
+MapTexture          = "jedi_starfighter_icon"
+HealthTexture           = "HUD_rep_jedistarfighter_icon"
+VehiclePosition         = "common.vehiclepositions.pilot"
+MapScale            = 1.5
+
+// PathFollower Attributes
+PathFollowerClass       = "Fighter"
+PathFollowerBranchPaths     = "5"
+PathFollowerBranchMaxAngle  = "60"
+//-----------------------------------
+
+GeometryName            = "rep_fly_jedifighter"
+AnimationName               = "rep_fly_jedifighter"
+//FirstPerson             = "REP\repjedfi;rep_1st_cockpit_jedistarfighter"
+//ForceMode       = "1"
+
+MaxHealth           = 1500.0
+HealthType          = "vehicle"
+//HitLocation           = "p_crithit 0"
+
+PilotSkillRepairScale = 0.02
+
+TakeoffTime             = 0.75
+TakeoffSpeed            = 10.0
+LandingTime             = 0.75
+LandingSpeed            = 10.0
+TakeoffHeight           = 1.5
+LandedHeight            = 1.1
+
+TerrainCollision        = "p_spherefront1"
+TerrainCollision        = "p_spherefront2"
+PC:TerrainCollision     = "p_spherefront3"
+
+BuildingCollision      = "p_spherefront1"
+BuildingCollision      = "p_spherefront2"
+PC:BuildingCollision   = "p_spherefront3"
+
+VehicleCollision        = "p_spherefront1"
+VehicleCollision        = "p_spherefront2"
+PC:VehicleCollision     = "p_spherefront3"
+
+WEAPONSECTION           = 1
+WeaponName          = "rep_weap_fly_jedifighter_cannon"
+WeaponAmmo          = 0
+
+AimerNodeName           = "hp_gun_2"
+NextAimer           = "-"
+AimerNodeName           = "hp_gun_4"
+
+
+WEAPONSECTION           = 2
+WeaponName          = "rep_weap_fly_jedifighter_missile"
+WeaponAmmo          = 0
+
+AimerNodeName           = "hp_gun_1"
+NextAimer           = "-"
+AimerNodeName           = "hp_gun_3"
+
+
+//PilotPosition           = "hp_active"
+//PilotAnimation          = "drive"
+//IsPilotExposed      = "0"
+
+
+
+CHUNKSECTION            = "CHUNK1"
+ChunkGeometryName       = "rep_fly_jedifighter_chunk1"
+ChunkNodeName           = ""
+ChunkTerrainCollisions      = "1"
+ChunkTerrainEffect      = "com_sfx_explosion_lg"
+ChunkPhysics            = "FULL"
+ChunkOmega          = "3.0 3.0 2.5"
+ChunkBounciness         = 0.45
+ChunkStickiness         = 0.25
+ChunkSpeed          = "13.0"
+ChunkUpFactor           = "0.00"
+ChunkTrailEffect        = "com_sfx_chunktrail_sm"
+ChunkGravity            = "0.0 0.0 0.0"
+ChunkVelocityFactor         =   "0.15"
+
+CHUNKSECTION        = "CHUNK2"
+ChunkGeometryName   = "rep_fly_jedifighter_chunk2"
+ChunkNodeName       = ""
+ChunkTerrainCollisions  = "5"
+ChunkTerrainEffect  = "dirtspray"
+ChunkPhysics        = "FULL"
+ChunkOmega      = "3.0 3.5 3.0"
+ChunkBounciness         = 0.45
+ChunkStickiness         = 0.25
+ChunkSpeed      = "15.0"
+ChunkUpFactor       = "6.00"
+ChunkTrailEffect        = "com_sfx_chunktrail_sm"
+ChunkGravity            = "0.0 0.0 0.0"
+ChunkVelocityFactor         =   "0.15"
+
+CHUNKSECTION        = "CHUNK3"
+ChunkGeometryName   = "rep_fly_jedifighter_chunk3"
+ChunkNodeName       = ""
+ChunkTerrainCollisions  = "4"
+ChunkTerrainEffect  = "dirtspray"
+ChunkTrailEffect        = "com_sfx_chunktrail_sm"
+ChunkPhysics        = "FULL"
+ChunkOmega      = "2.0 2.0 2.0"
+ChunkSpeed      = "18.0"
+ChunkGravity            = "0.0 0.0 0.0"
+ChunkVelocityFactor         =   "0.15"
+
+ChunkSmokeEffect    = "com_sfx_smokeplume"
+ChunkSmokeNodeName  = "hp_smoke1"
+
+
+ThrustEffect        = "com_sfx_exhaust_jedistarfighter"
+ThrustAttachPoint       = "DummyRoot"
+ThrustAttachOffset  = "0.7368 -0.3585 -2.4618"
+ThrustEffectMinScale    = "0.5"
+ThrustEffectMaxScale    = "1.4"
+ThrustEffectScaleStart  = "0.55"
+
+ThrustEffect        = "com_sfx_exhaust_jedistarfighter"
+ThrustAttachPoint       = "DummyRoot"
+ThrustAttachOffset  = "-0.7368 -0.3585 -2.4618"
+ThrustEffectMinScale    = "0.5"
+ThrustEffectMaxScale    = "1.4"
+ThrustEffectScaleStart  = "0.55"
+
+ContrailEffect            = "com_sfx_contrail"
+ContrailAttachPoint       = "dummyroot"
+ContrailAttachOffset      = "0.7368 -0.3585 -2.4618"
+ContrailEffectMinScale    = "0.2"
+ContrailEffectMaxScale    = "0.8"
+
+ContrailEffect            = "com_sfx_contrail"
+ContrailAttachPoint       = "dummyroot"
+ContrailAttachOffset      = "-0.7368 -0.3585 -2.4618"
+ContrailEffectMinSpeed    = "0.2"
+ContrailEffectMaxScale    = "0.8"
+
+ContrailEffect            = "com_sfx_contrail"
+ContrailAttachPoint       = "dummyroot"
+ContrailAttachOffset      = "0.7368 -0.3585 -2.4618"
+ContrailEffectMinSpeed    = "0.0"
+ContrailEffectMinScale    = "1.2"
+ContrailEffectMaxScale    = "1.8"
+
+ContrailEffect            = "com_sfx_contrail"
+ContrailAttachPoint       = "dummyroot"
+ContrailAttachOffset      = "-0.7368 -0.3585 -2.4618"
+ContrailEffectMinSpeed    = "0.0"
+ContrailEffectMinSpeed    = "1.2"
+ContrailEffectMaxScale    = "1.8"
+
+// SPARK
+
+DamageStartPercent = "85"
+DamageStopPercent = "25"
+DamageEffect = "com_sfx_vehiclespark_sc"
+DamageEffectScale = "1"
+DamageInheritVelocity = "0.0"
+DamageAttachPoint = "hp_damage1"
+
+DamageStartPercent = "75"
+DamageStopPercent = "15"
+DamageEffect = "com_sfx_vehiclespark_sc"
+DamageEffectScale = "1"
+DamageInheritVelocity = "0.0"
+DamageAttachPoint = "hp_damage2"
+
+DamageStartPercent = "65"
+DamageStopPercent = "5"
+DamageEffect = "com_sfx_vehiclespark_sc"
+DamageEffectScale = "1"
+DamageInheritVelocity = "0.0"
+DamageAttachPoint = "hp_damage3"
+
+// SMOKE
+
+DamageStartPercent = "75"
+DamageStopPercent = "35"
+DamageEffect = "com_sfx_vehiclesmoke_sc"
+DamageEffectScale = "1"
+DamageInheritVelocity = "0.0"
+DamageAttachPoint = "hp_damage1"
+
+DamageStartPercent = "65"
+DamageStopPercent = "25"
+DamageEffect = "com_sfx_vehiclesmoke_sc"
+DamageEffectScale = "1"
+DamageInheritVelocity = "0.0"
+DamageAttachPoint = "hp_damage2"
+
+DamageStartPercent = "55"
+DamageStopPercent = "0.1"
+DamageEffect = "com_sfx_vehiclesmoke_sc"
+DamageEffectScale = "1"
+DamageInheritVelocity = "0.0"
+DamageAttachPoint = "hp_damage3"
+
+// FLAME
+
+DamageStartPercent = "35"
+DamageStopPercent = "0.1"
+DamageEffect = "com_sfx_vehicleflame_sc"
+DamageEffectScale = "0.75"
+DamageInheritVelocity = "0.0"
+DamageAttachPoint = "hp_damage1"
+
+DamageStartPercent = "25"
+DamageStopPercent = "0.1"
+DamageEffect = "com_sfx_vehicleflame_sc"
+DamageEffectScale = "0.75"
+DamageInheritVelocity = "0.0"
+DamageAttachPoint = "hp_damage2"
+
+
+//ExplosionCritical     = "rep_fly_jedifighter_sc_exp"
+ExplosionDestruct       = "rep_fly_jedifighter_sc_exp"
+
+//SOUNDS**************************8
+VOUnitType              = 128
+EngineSound             = "rep_fly_jedifighter_engine_parameterized"
+TakeoffSound            = "r2_take_off"
+LandSound               = "r2_land"
+HurtSound               = "r2_damage"
+DeathSound              = "imp_weap_ord_exp_lg"
+VehicleCollisionSound   = "com_veh_collision_lg"
+TurnOnSound             = "r2_turn_on"
+TurnOffSound            = ""
+TurnOffTime             = ""
+TurningOffSound         = "r2_turn_off"
+Music                   = ""
+CISMusic                = "cis_vehicle"
+RepMusic                = "rep_vehicle"
+MusicSpeed              = "0.3"
+MusicDelay              = "3.0"
+AfterburnerOnSound      = ""
+AfterburnerOffSound     = ""
+AfterburnerSpeed        = ""
+Cockpit1stPersonSound   = "rep_inf_com_space_chatter"
+Cockpit3rdPersonSound   = "rep_inf_com_space_chatter"
+FoleyFXGroup    = "metal_foley"
+
+
+// ***************************************************************************************
+
+EnergyBar               = 100
+EnergyAutoRestore       = 10
+EnergyBoostDrain        = 20
+EnergyTrickDrainSingleTap = 15
+EnergyTrickDrainDoubleTap = 50
+
+FirstPersonFOV          = "52"
+CockpitTension          = "22"
+CollisionScale          = 1.5
+CollisionThreshold      = 5.0
+
+PitchRate               = 1.2
+PitchFilter             = 4.0
+PitchFilterDecel        = 4.0
+PitchBuildupMultiplier  = 1.5
+TurnRate                = 1.2
+TurnFilter              = 4.0
+TurnFilterDecel         = 4.0
+TurnBuildupMultiplier   = 1.25
+
+BankAngle               = 0.8
+BankFilter              = 3.5
+LevelFilter             = 1.5
+LevelFilterLanding      = 5.0 // LevelFilter for landing
+RollRate                = 3.15
+
+PCPitchRate             = 15.0
+PCSpinRate              = 15.0
+PCTurnRate              = 25.0
+
+EyePointOffset 					= "0.0 1.0 -2.0"
+TrackCenter 						= "0.0 2.0 -9.0"
+CollisionScale 					= "1.5"
+TiltValue 							= "5"
+
+AimTension              = "20.0"//how much the reticule swims
+MoveTensionX            = "4.00"
+MoveTensionY            = "4.25"
+MoveTensionZ            = "4.25"
+
+BlurEffect              = 0.9
+BlurStart               = 40.0
+
+FOVEffect3rd            = 90
+FOVEFFectMinCamOffset3rd = "0.0 2.5 10.0"
+FOVEFFectMaxCamOffset3rd = "0.0 2.5 -18.0"
+
+FOVEffect1st            = 90
+
+Acceleraton             = 100.0
+MinSpeed                = 70.0
+MidSpeed                = 90.0
+MaxSpeed                = 110.0
+BoostAcceleration       = 101.0
+BoostSpeed              = 200.0
+
+TrickRollSpeed          = 6.0
+TrickFlipSpeed          = 12.0
+TrickSideRollStrafeSpeed = 30
+TrickFlipCameraDetach   = 0.24
+TrickSideRollCameraDetach = 0.48

@@ -1,0 +1,69 @@
+[GameObjectClass]
+ClassParent         = "com_inf_default"
+GeometryName        = "nab_inf_gungan.msh"
+
+[Properties]
+GeometryName        = "nab_inf_gungan"
+GeometryLowRes      = "nab_inf_gungan_low1"
+SkeletonName        = "gungan"
+SkeletonRootScale   = "1.1"
+
+OverrideTexture     = "gungan"
+
+NumTentacles        = "2"
+BonesPerTentacle    = "3"
+TentacleCollType    = "0"
+
+//this keeps the player from entering first person with this char
+forcemode                       = 1
+
+MaxHealth       = 200.0
+
+WEAPONSECTION = 1
+WeaponName         = "gun_weap_inf_fusioncutter"
+WeaponAmmo         = 0
+
+WEAPONSECTION = 2
+WeaponName         = "gun_weap_inf_thermaldetonator"
+WeaponAmmo         = 20
+WeaponChannel      = 1
+
+CAMERASECTION           = "STAND"
+
+EyePointOffset          = "0.0 2.0 0.0"
+TrackOffset             = "0.0 -0.0 3.75"
+TiltValue           = "7"
+
+CAMERASECTION           = "CROUCH"
+
+EyePointOffset          = "0.0 2.0 0.0"
+TrackOffset             = "0.0 -0.0 3.75"
+TiltValue           = "7"
+
+CAMERASECTION           = "SPRINT"
+
+EyePointOffset          = "0.0 2.0 0.0"
+TrackOffset             = "0.0 -0.0 5.0"
+TiltValue           = "7"
+CameraBlendTime         = "0.75"
+
+VOUnitType              = 171
+HurtSound               = "gungan_hurt"
+DeathSound              = "gungan_die"
+ShockFadeOutTime        = ""
+ShockFadeOutGain        = ""
+ShockFadeInTime         = ""
+ShockSound              = ""
+ClothingRustleSound     = ""
+LowHealthSound          = ""
+LowHealthThreshold      = "1.1"
+
+VOSound = "gungan_inf_chatter_AcquiredTarget    AcquiredTarget"
+
+FoleyFXClass            = "wok_inf_soldier"
+
+
+AISizeType          = "SOLDIER"
+NoEnterVehicles         = 0
+
+

@@ -1,0 +1,40 @@
+[ExplosionClass]
+ClassLabel 		= "explosion"
+
+[Properties]
+//***************************************
+//*************PROTON BOMBS**************
+//***************************************
+
+//***************************************
+//**********VISUAL EFFECTS***************
+//***************************************
+ImpactEffectWater 	= "com_sfx_watersplash_lg"
+
+//***************************************
+//**********DAMAGE EFFECTS***************
+//***************************************
+Damage 			= "750.0"
+
+DamageRadiusInner = "6.5"
+DamageRadiusOuter = "10.5"
+	
+Shake 		  = "0.5"
+ShakeLength	  = "0.75"
+ShakeRadiusInner  = "8.0"
+ShakeRadiusOuter  = "15.0"
+
+Push 			= "12.5"
+
+PushRadiusInner   = "6.5"
+PushRadiusOuter   = "6.5"
+
+Effect 			= "com_sfx_weap_sc_exp_xl"
+
+VehicleScale		= "1.0"
+BuildingScale	= "0.25"
+
+//***************************************
+//**********SOUNDS***********************
+//***************************************
+SoundProperty		="com_weap_obj_med_exp"

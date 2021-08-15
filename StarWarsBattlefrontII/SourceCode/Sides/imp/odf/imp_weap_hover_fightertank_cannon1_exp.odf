@@ -1,0 +1,26 @@
+[ExplosionClass]
+ClassLabel 		= "explosion"
+
+[Properties]
+WaterEffect 		= "com_sfx_watersplash_ord_md"
+
+Damage 		  	= "300.0"
+DamageRadiusInner 	= "2.0"
+DamageRadiusOuter 	= "4.0"
+
+Push 		  	= "5.0"
+PushRadiusInner   	= "2.0"
+PushRadiusOuter   	= "2.0"
+
+Shake 		  	= "0.2"
+ShakeLength	 	= "0.75"
+ShakeRadiusInner  	= "8.0" 
+ShakeRadiusOuter  	= "15.0"
+
+VehicleScale		= "0.0"
+Effect 			= "com_sfx_weap_greenbolt_exp_md"
+VehicleScale		= "0.1"
+ArmorScale		= "1.0"
+HealthScale 		= "1.0"
+ShieldScale 		= "1.0"
+SoundProperty		= "imp_weap_ord_exp_lg"

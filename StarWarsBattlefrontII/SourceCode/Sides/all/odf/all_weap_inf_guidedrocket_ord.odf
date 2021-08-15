@@ -1,0 +1,127 @@
+[GameObjectClass]
+ClassLabel = "flyer"
+GeometryName = "com_weap_missile.msh"
+[Properties]
+VehicleType = "fighter"
+MapTexture = "x-wing_icon"
+HealthTexture = "HUD_all_xwing_icon"
+//VehiclePosition = "common.vehiclepositions.pilot"
+MapScale = "1.0"
+PathFollowerClass = "Fighter"
+GeometryName = "com_weap_missile"
+//AnimationName = "com_weap_missile"
+ForceMode = "1"
+CollisionScale = "1.5"
+CollisionThreshold = "5"
+MaxHealth = "50"
+HealthType = "droid"
+PathFollowerBranchPaths = "5"
+PilotSkillRepairScale = "0.00"
+TakeoffTime = "1"
+TakeoffSpeed = "3"
+LandingTime = "2"
+LandingSpeed = "5"
+TakeoffHeight = "2.5"
+PathFollowerBranchMaxAngle = "60"
+
+WeaponName = "all_weap_null"
+WeaponAmmo = "0"
+
+TerrainCollision = "p_front_sphere"
+ExplosionDestruct = "all_weap_inf_remotedroid_exp2"
+ExplosionCritical = "all_fly_xwing_sc_exp"
+VehicleCollision = "p_front_sphere"
+BuildingCollision = "p_front_sphere"
+
+
+
+ThrustEffect = "com_sfx_exhaust_xwing"
+ThrustAttachPoint = "xwing_br_hatch3"
+ThrustAttachOffset = "0.0 0.0 0.0"
+
+ThrustEffectMinScale = "0.25"
+ThrustEffectMaxScale = "0.75"
+ThrustEffectScaleStart = "0"
+
+ContrailEffect = "com_sfx_contrail"
+//ContrailAttachPoint = "xwing_bl_hatch3"
+ContrailAttachOffset = "0.0 0.0 0.0"
+ContrailEffectMinScale = "0.0"
+ContrailEffectMaxScale = "0.2"
+
+
+DamageEffectScale = "1"
+DamageInheritVelocity = "0.75"
+
+EngineSound     = "all_fly_xwing_engine_parameterized"
+TakeoffSound    = ""
+DeathSound      = "imp_weap_ord_exp_lg"
+VehicleCollisionSound = "com_veh_collision_lg"
+TurnOnSound     = ""
+TurningOffSound = ""
+Cockpit1stPersonSound = ""
+Cockpit3rdPersonSound = ""
+FoleyFXGroup    = "metal_foley"
+
+EnergyBar = "200"
+EnergyBoostDrain = "20"
+EnergyTrickDrainSingleTap = "5"
+EnergyTrickDrainDoubleTap = "5"
+EnergyAutoRestore = "-5.0"
+
+FirstPersonFOV = "52"
+CockpitTension = "22"
+PitchRate = "1.2"
+PitchFilter = "4"
+PitchFilterDecel = "4"
+PitchBuildupMultiplier = "1.5"
+TurnRate = "1.2"
+TurnFilter = "4"
+TurnFilterDecel = "4"
+TurnBuildupMultiplier = "1.25"
+BankAngle = "0.1"
+BankFilter = "3.5"
+LevelFilter = "1.5"
+LevelFilterLanding = "5"
+RollRate = "3.15"
+PCPitchRate = "15"
+PCSpinRate = "15"
+PCTurnRate = "25"
+EyePointOffset = "0.0 3.0 2.0"
+TrackCenter = "0.0 1.0 -3.0"
+
+TiltValue = "0"
+AimTension = "20"
+MoveTensionX = "10"
+MoveTensionY = "10"
+MoveTensionZ = "4.25"
+BlurEffect = "0.9"
+BlurStart = "50"
+FOVEffect3rd = "90"
+FOVEFFectMinCamOffset3rd = "0.0 -0.75 -1.0"
+FOVEFFectMaxCamOffset3rd = "0.0 -2.5 -14.5"
+FOVEffect1st = "90"
+
+Acceleraton = "100"
+MinSpeed = "20"
+MidSpeed = "40"
+MaxSpeed = "40"
+BoostAcceleration = "20"
+BoostSpeed = "80"
+
+TrickRollSpeed = "10.0"
+TrickFlipSpeed = "4.0"
+TrickSideRollStrafeSpeed = "15.0"
+TrickFlipCameraDetach = "0.24"
+TrickSideRollCameraDetach = "1.0"
+TrackOffset = "0.0 2.0 6.0"
+
+TargetableCollision = "CollisionMesh"
+
+GuidedMissile = 1
+GuidedMissileDamage = 500.0
+GuidedMissileDamageBoost = 2000.0
+GuidedMissileDeathCamPause = 1.0
+GuidedMissileDeathCamPullbackSpeed = 60.0
+GuidedMissileDeathCamMinDistance = 20.0
+GuidedMissileBoostExplosionSpeedThreshold = 0.8

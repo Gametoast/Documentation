@@ -1,0 +1,32 @@
+[ExplosionClass]
+ClassLabel = "explosion"
+
+[Properties]
+WaterEffect 	= "com_sfx_watersplash_md"
+
+
+Damage 				= "750"
+DamageRadiusInner 		= "4.5"
+DamageRadiusOuter 		= "6.5"
+
+Push 		  		= "2.0"
+PushRadiusInner   		= "4.5"
+PushRadiusOuter   		= "4.5"
+
+Shake 		  		= "0.5"
+ShakeLength	  		= "0.75"
+ShakeRadiusInner  		= "8.0" 
+ShakeRadiusOuter  		= "15.0"
+
+
+Effect 				= "com_sfx_weap_redbolt_exp_lg"
+LightColor              	= "224 224 128 100"
+LightRadius 			= "7.0"
+LightDuration 			= "1.0"
+
+VehicleScale			= "0.0"
+ShieldScale			= "1.0"
+PersonScale			= "1.0"
+AnimalScale			= "1.0"
+DroidScale			= "1.0"
+BuildingScale			= "0.0"

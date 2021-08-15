@@ -1,0 +1,24 @@
+[GameObjectClass]
+ClassLabel          = "mine"
+
+[Properties]
+ImpactEffectWater   = "com_sfx_watersplash_sm"
+
+GeometryName        = "com_weap_inf_seismic_mine"
+ExplosionTrigger    = "com_weap_inf_seismic_mine_exp"
+ExplosionExpire     = "com_weap_inf_seismic_mine_exp"
+ExplosionDeath      = "com_weap_inf_seismic_mine_exp"
+
+TriggerContact      = "1.0"
+TriggerRadius       = "3.0"
+SuppressRadius      = "0.0"
+
+LifeSpan        = "240.0"
+Velocity        = "0.0"
+Gravity         = "1.0"
+Rebound         = "0.0
+Friction        = "1.0
+
+//CollisionOtherSound     = "com_weap_remote_charge_land"
+//CollisionFoliageSound   = "com_weap_remote_charge_land"
+//CollisionWaterSound     = ""

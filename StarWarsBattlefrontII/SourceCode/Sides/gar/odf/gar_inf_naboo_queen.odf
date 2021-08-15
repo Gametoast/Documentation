@@ -1,0 +1,48 @@
+[GameObjectClass]
+
+ClassParent          ="com_inf_default"
+GeometryName        = "gar_inf_nabooqueen.msh"
+
+[Properties]
+UnitType            = "Scout"
+
+GeometryName        = "gar_inf_nabooqueen"
+GeometryLowRes      = "gar_inf_nabooqueen_low1"
+SkeletonName        = "nabooqueen"
+SkeletonRootScale   = "0.95"
+CollisionRootScale  = "0.95"
+FirstPerson         = "all\allmarks;all_1st_marksperson"
+
+ClothODF            = "gar_inf_nabooqueen_fronttassle"
+ClothODF            = "gar_inf_nabooqueen_backtassle"
+ClothODF            = "gar_inf_nabooqueen_skirt"
+
+MaxHealth           = 1520.0
+
+NoEnterVehicles     	= 1
+
+MaxSpeed            = 8.0
+MaxStrafeSpeed      = 6.0
+MaxTurnSpeed        = 4.0
+
+WEAPONSECTION = 1
+WeaponName1         = "gar_weap_inf_targetpistol"
+WeaponAmmo1         = 0
+
+WEAPONSECTION = 2
+WeaponName2         = "gar_weap_inf_thermaldetonator"
+WeaponAmmo2         = 8
+WeaponChannel2      = 1
+
+// general VO - Some female VO unavailable
+//HurtSound           = "all_inf_com_chatter_wound_female"
+//DeathSound          = "all_inf_com_chatter_death_female"
+
+
+
+
+
+
+
+
+

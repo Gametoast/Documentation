@@ -1,0 +1,112 @@
+[GameObjectClass]
+ClassParent         = "com_hero_default"
+GeometryName        = "all_inf_chewbacca.msh"
+
+[Properties]
+UnitType            = "repair"
+ClothODF	    = "all_inf_chewbacca_l_fur"
+ClothODF	    = "all_inf_chewbacca_r_fur"
+
+GeometryName        = "all_inf_chewbacca"
+GeometryLowRes      = "all_inf_chewbacca_low1"
+//OverrideTexture   = "wookie"
+//OverrideTexture2  = "wookieface02"
+SkeletonName	    = "chewbacca"
+SkeletonLowRes      = "wookielz"
+SkeletonRootScale   = "1.15"
+CollisionRootScale  = "1.15"
+FirstPerson         = "all\allwook;all_1st_wookie"
+
+NumTentacles        = "1"
+BonesPerTentacle    = "1"
+TentacleCollType    = "0"
+
+HealthType          = "person"
+MaxHealth           = 2400.0
+
+MaxSpeed            = 8.0
+MaxStrafeSpeed      = 6.0
+MaxTurnSpeed        = 4.0
+
+WEAPONSECTION = 1
+WeaponName         = "all_weap_inf_bowcaster"
+WeaponAmmo         = 6
+
+WEAPONSECTION = 2
+WeaponName         = "all_weap_hero_rocket_launcher"
+WeaponAmmo         = 4
+
+WEAPONSECTION = 3
+WeaponName         = "all_weap_inf_timebomb"
+WeaponAmmo         = 3
+WeaponChannel      = 1
+
+WEAPONSECTION = 4
+WeaponName         = "all_weap_inf_buff_damage"
+WeaponAmmo         = 1
+WeaponChannel      = 1
+
+CAMERASECTION       = "STAND"
+EyePointOffset      = "0.0 1.8 0.0"
+TrackCenter         = "0.0 2.25 0.0
+TrackOffset         = "0.0 0.0 4.0"
+TiltValue           = "5.0"
+
+CAMERASECTION       = "STANDZOOM"
+EyePointOffset      = "0.0 1.8 0.0"
+TrackCenter         = "0.0 2.0 0.0
+TrackOffset         = "0.4 0.05 3.25"
+TiltValue           = "3.5"
+
+CAMERASECTION       = "CROUCH"
+EyePointOffset      = "0.0 1.3 0.0"
+TrackCenter         = "0.0 1.3 0.0
+TrackOffset         = "0.0 0.15 3.5"
+TiltValue           = "5.0"
+
+CAMERASECTION       = "CROUCHZOOM"
+EyePointOffset      = "0.0 1.3 0.0"
+TrackCenter         = "0.0 1.3 0.0
+TrackOffset         = "0.4 0.2 2.8"
+TiltValue           = "3.5"
+
+CAMERASECTION       = "PRONE"
+EyePointOffset      = "0.0 0.5 0.0"
+TrackCenter         = "0.0 0.5 0.0"
+TrackOffset         = "0.0 0.0 3.0"
+TiltValue           = "5.0"
+
+CAMERASECTION       = "PRONEZOOM"
+EyePointOffset      = "0.0 0.5 0.0"
+TrackCenter         = "0.0 0.5 0.0"
+TrackOffset         = "0.4 0.2 2.8"
+TiltValue           = "3.5"
+
+CAMERASECTION       	= "SPRINT"
+EyePointOffset      	= "0.0 1.8 0.0"
+TrackCenter         	= "0.0 2.25 0.0
+TrackOffset         	= "0.0 0.0 4.5"
+TiltValue           	= "5.0"
+CameraBlendTime     	= "0.75"
+
+
+// general VO - some wookie VO unavailable
+HurtSound               = "all_inf_com_chatter_wound_wookie"
+DeathSound              = "all_inf_com_chatter_death_wookie"
+
+FoleyFXClass            = "wok_inf_soldier"
+
+
+
+VOUnitType              = 182
+SoldierMusic           = "all_hero_Chewbacca_lp"
+
+VOSound = "all_off_response_hero_command      SC_Follow"
+VOSound = "all_off_response_hero_command      SC_StopFollow"
+VOSound = "all_off_response_hero_command     SC_VehicleWaitUp"
+VOSound = "all_off_response_hero_command     SC_GetIn"
+VOSound = "all_off_response_hero_command      SC_GetOut"
+
+VOSound = "wok2_inf_chatter_AcquiredTarget    AcquiredTarget"
+VOSound = "wok2_inf_chatter_KillingSpree8      KillingSpree8"
+VOSound = "wok2_inf_chatter_Grenade      Grenade"

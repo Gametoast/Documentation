@@ -1,0 +1,23 @@
+[OrdnanceClass]
+ClassParent     	= "com_weap_veh_laser_ord"
+
+[Properties]
+ExplosionName		= "imp_weap_walk_atat_cannon_head_exp"
+
+MaxDamage           = "1000.0"
+
+Velocity = "250"
+
+LaserTexture = "com_sfx_laser_red"
+LaserLength = "15"
+LaserWidth = "0.75"
+LaserGlowColor = "249 42 42 100"
+LightRadius = "7"
+
+BuildingScale = "1.0"
+VehicleScale  = "1.0"
+ShieldScale		= "1.0"
+
+DamageTransitionDelay   = "2.0"
+DamageTransitionPeriod  = "0.5" 
+DamageFinalDamage       = "500" 

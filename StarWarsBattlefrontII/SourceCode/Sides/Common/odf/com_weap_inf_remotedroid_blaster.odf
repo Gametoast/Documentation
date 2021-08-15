@@ -1,0 +1,91 @@
+[WeaponClass]
+ClassLabel      = "cannon"
+
+[Properties]
+AnimationBank       = "pistol"
+//GeometryName      = "imp_weap_inf_pistol"
+//HighResGeometry        = "imp_1st_weap_inf_pistol"
+HUDTag              = "hud_vehicle_recoiless"
+
+//***********************************************
+//************* TARGET & RANGE VALUES  **********
+//***********************************************
+
+TargetEnemy     = "1"
+TargetNeutral       = "0"
+TargetFriendly      = "0"
+
+TargetPerson        = "1"
+TargetAnimal        = "0"
+TargetDroid     = "0"
+TargetVehicle       = "0"
+TargetBuilding      = "0"
+
+MinRange        = "0"
+OptimalRange        = "16"
+MaxRange        = "32"
+
+LockOnRange             = "64.0"
+LockTime                = "0.4"
+LockOnAngle             = "1.0"
+
+ZoomMin         = "2.5"
+ZoomMax         = "2.5"
+ZoomRate        = "0.0"
+
+YawSpread       = "0.65" //.4
+PitchSpread     = "0.65" //.4
+
+SpreadPerShot       = "1.25" //1.1
+SpreadRecoverRate   = "4.8"
+SpreadThreshold     = "1.6"
+SpreadLimit     = "6.0"
+
+StandStillSpread    = "0.0"
+StandMoveSpread     = "0.0"
+CrouchStillSpread   = "0.0"
+CrouchMoveSpread    = "0.0"
+ProneStillSpread    = "0.0"
+ProneMoveSpread     = "0.0"
+
+HeatPerShot         = "0.13" //.15
+HeatRecoverRate         = "0.4"
+HeatThreshold           = "0.25"
+//***********************************************
+//*********** WEAPON PERFORMANCE VALUES *********
+//***********************************************
+
+RoundsPerClip       = "0"
+ReloadTime      = "2.0"
+ShotDelay       = "0.15"
+TriggerSingle       = "1"
+MaxPressedTime      = "0.0"
+
+SalvoCount      = "1"
+SalvoDelay      = "0.0"
+InitialSalvoDelay   = "0.0"
+SalvoTime       = "0.0"
+
+//FirePointName     = "hp_fire"
+
+//***********************************************
+//***********  HUD & CONTROLLER VALUES  *********
+//***********************************************
+
+IconTexture     = "IMP_pistol_icon"
+ModeTexture     = "HUD_weap_semiauto"
+ReticuleTexture     = "reticule_pistol"
+
+MuzzleFlash     = "small_muzzle_flash"
+FlashColor      = "255 80 80 255"
+FlashLength         = 0.025
+FlashLightColor     = "255 192 192 175"
+FlashLightRadius    = "2.0"
+FlashLightDuration  = "0.25"
+Discharge       = "small_smoke_effect"
+
+FireSound           = "com_weap_turret_fire_mini"
+OverheatSound       = "com_weap_energy_depleted"
+OverheatSoundPitch  = "0.5"
+OverheatStopSound   = "com_weap_energy_refilled"
+

@@ -1,0 +1,16 @@
+[WeaponClass]
+ClassParent         = "com_weap_veh_laser"
+
+[Properties]
+OrdnanceName        = "rep_weap_walk_atrt_laser_ord"
+
+HeatRecoverRate     = "0.3"
+HeatThreshold       = "0.8"
+HeatPerShot         = "0.1"
+
+ShotDelay           = "0.15"
+
+TargetPerson        = "1"
+TargetDroid         = "1"
+
+FireSound           = "rep_weap_walk_atrt_cannon_chin_fire"

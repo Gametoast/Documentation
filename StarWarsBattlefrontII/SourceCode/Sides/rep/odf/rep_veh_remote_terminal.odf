@@ -1,0 +1,33 @@
+[GameObjectClass]
+
+ClassLabel          = "remoteterminal"
+GeometryName        = "rep_prop_turretchair.msh"
+
+[Properties]
+VehicleType         = "remoteterminal"
+//MapTexture          = "x-wing_icon"
+//HealthTexture       = "HUD_all_xwing_icon"
+VehiclePosition     = "common.vehiclepositions.pilot"
+MapScale            = 1.5
+
+GeometryName            = "rep_prop_turretchair"
+CollisionScale          = "1.5"
+CollisionThreshold      = "5.0"
+//HitLocation           = "p_crithit 1.5"
+HealthType              = "vehicle"
+MaxHealth		= 9999999.0
+
+PilotSkillRepairScale = 0.04
+
+PilotPosition       = "hp_active"
+PilotAnimation      = "drive"
+IsPilotExposed      = "0"
+
+
+CockpitTension          = 22
+
+[InstanceProperties]
+RemoteGameObject   = ""
+NextLinkedTerminal = ""
+PrevLinkedTerminal = ""
+

@@ -1,0 +1,39 @@
+[GameObjectClass]
+ClassParent         = "wok_inf_default_wookie"
+GeometryName        = "wok_inf_wookiewarrior.msh"
+
+[Properties]
+//ClothODF        = "wok_inf_wookiewarrior_dreads1"
+//ClothODF        = "wok_inf_wookiewarrior_dreads2"
+//ClothODF        = "wok_inf_wookiewarrior_dreads3"
+//ClothODF        = "wok_inf_wookiewarrior_dreads4"
+
+// the cool bit - Mike Z
+AnimatedAddon = "DREADS"
+GeometryAddon = "wok_inf_wookiedreads"
+AddonAttachJoint = "bone_head"
+NumTentacles     = "4"
+BonesPerTentacle    = "5"
+TentacleCollType    = "1"
+
+UnitType            = "trooper"
+
+GeometryName        = "wok_inf_wookiewarrior"
+GeometryLowRes      = "wok_inf_wookiewarrior_low1"
+FirstPerson         = "all\allwook;all_1st_wookie"
+SkeletonName        = "wookie"
+SkeletonLowRes      = "wookielz"
+
+//OverrideTexture     = "wookie02"
+//OverrideTexture2    = "wookieface02"
+
+MaxHealth       = 300.0
+
+WEAPONSECTION = 1
+WeaponName         = "wok_weap_inf_bowcaster"
+WeaponAmmo         = 6
+
+WEAPONSECTION   = 2
+WeaponName      = "wok_weap_inf_thermaldetonator"
+WeaponAmmo      = 4
+WeaponChannel   = 1

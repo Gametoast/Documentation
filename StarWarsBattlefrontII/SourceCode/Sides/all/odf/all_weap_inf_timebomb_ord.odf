@@ -1,0 +1,15 @@
+[GameObjectClass]
+ClassParent             = "com_weap_inf_timebomb_ord"
+
+[Properties]
+GeometryName            = "com_weap_inf_seismic_mine"
+
+ExplosionTrigger        = "all_weap_inf_timebomb_exp"
+ExplosionDeath          = "all_weap_inf_timebomb_destroyed_exp"
+ExplosionExpire         = "all_weap_inf_timebomb_exp"
+
+
+//TickSound           = "all_weap_inf_timebomb_timer"
+//TickSoundPitch      = "0.5"
+
+CollisionSound      = "com_sticky_stick"

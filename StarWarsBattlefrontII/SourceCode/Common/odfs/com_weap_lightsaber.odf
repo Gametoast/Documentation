@@ -1,0 +1,31 @@
+[WeaponClass]
+
+ClassLabel 			= "melee"
+
+[Properties]
+IconTexture		= "HUD_all_rifle_icon"
+
+
+GeometryName 		= "rep_weap_inf_rifle"
+AnimationBank 		= "melee"
+
+MuzzleFlash			= "med_muzzle_flash"
+Discharge			= "med_smoke_effect"
+
+RoundsPerClip 		= "75"
+ReloadTime 			= "5.0"
+
+
+//ReloadSound     		= "laserreload"
+//ChangeModeSound 		= "com_weap_inf_blaster_rifle_modechange"
+
+LockOnRange			= "1.0"
+LockTime 			= "0.4"
+AutoAimSize			= "1.0"
+
+
+FirePointName		= "hp_fire"
+
+SwingTime = "0.5 0.2"
+SwingTime = "0.6 0.3"
+SwingTime = "0.7 0.3"

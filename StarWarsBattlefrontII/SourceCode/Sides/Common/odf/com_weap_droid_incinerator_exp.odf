@@ -1,0 +1,23 @@
+[ExplosionClass]
+
+ClassLabel 			= "explosion"    
+
+[Properties]
+//WaterEffect 			= "com_sfx_watersplash_md"
+
+Effect 				= "com_sfx_weap_incinerate_ord_exp"  
+
+Push				= "0.0"
+PushRadius			= "0.0"
+
+Damage 				= "0.0"
+DamageRadius 			= "1.0"
+
+VehicleScale		= "0.0"
+ShieldScale			= "0.0"
+PersonScale			= "1.0"
+DroidScale			= "1.0"
+AnimalScale			= "1.0"
+BuildingScale 	= "0.0"
+
+SoundProperty   = "com_inf_disintegrate"

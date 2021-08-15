@@ -1,0 +1,85 @@
+[GameObjectClass]
+ClassParent     = "all_inf_default"
+
+
+[Properties]
+UnitType        = "Scout"
+
+MaxHealth       = 300.0
+
+MaxSpeed        = 8.0
+MaxStrafeSpeed  = 6.0
+
+CollisionHeadOffset = "0.0 0.15 0.0"
+
+WEAPONSECTION = 1
+WeaponName     = "all_weap_inf_sniper_rifle"
+WeaponAmmo     = 7
+
+WEAPONSECTION = 2
+WeaponName     = "all_weap_inf_pistol"
+WeaponAmmo     = 0
+
+WEAPONSECTION = 3
+WeaponName     = "all_weap_inf_thermaldetonator"
+WeaponAmmo     = 2
+WeaponChannel  = 1
+
+WEAPONSECTION = 4
+WeaponName     = "all_weap_inf_autoturret_dispenser"
+WeaponAmmo     = 1
+WeaponChannel  = 1
+
+WEAPONSECTION = 5
+WeaponName     = "all_weap_award_sniper_rifle"
+WeaponAmmo     = 6
+
+WEAPONSECTION = 6
+WeaponName     = "all_weap_award_pistol"
+WeaponAmmo     = 6
+
+// general VO - Some female VO unavailable
+HurtSound               = "all_inf_com_chatter_wound_female"
+DeathSound              = "all_inf_com_chatter_death_female"
+DamageRegionSound       = "allfemalechoke"
+ChokeSound              = "allfemaleforcechoke"
+AcquiredTargetSound     = ""
+HidingSound             = ""
+ApproachingTargetSound  = ""
+FleeSound               = ""
+// PreparingForDamageSound = ""
+HeardEnemySound         = ""
+
+// squad command VO - No female VO available
+SCFieldMoveOutSound     = ""
+SCFieldHoldSound        = ""
+SCFieldFollowSound      = ""
+SCDriverGetInSound      = ""
+SCDriverGetOutSound     = ""
+SCPassengerMoveOutSound = ""
+SCPassengerStopSound    = ""
+SCPassengerGetInSound   = ""
+SCPassengerGetOutSound  = ""
+SCGunnerAllClearSound   = ""
+SCGunnerSteadySound     = ""
+SCGunnerGetInSound      = ""
+SCGunnerGetOutSound     = ""
+SCResponseYessirSound   = ""
+SCResponseNosirSound    = ""
+
+// AIsquad command VO - No female VO available
+AISCFieldMoveOutSound       = ""
+AISCFieldHoldSound          = ""
+AISCFieldFollowSound        = ""
+AISCDriverGetInSound        = ""
+AISCDriverGetOutSound       = ""
+AISCPassengerMoveOutSound   = ""
+AISCPassengerStopSound      = ""
+AISCPassengerGetInSound     = ""
+AISCPassengerGetOutSound    = ""
+AISCGunnerAllClearSound     = ""
+AISCGunnerSteadySound       = ""
+AISCGunnerGetInSound        = ""
+AISCGunnerGetOutSound       = ""
+AISCResponseYessirSound     = ""
+AISCResponseNosirSound      = ""

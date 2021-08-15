@@ -1,0 +1,32 @@
+[GameObjectClass]
+ClassParent         = "wok_inf_default_wookie"
+GeometryName        = "wok_inf_wookie.msh"
+
+[Properties]
+GeometryName        = "wok_inf_wookiewarrior"
+GeometryLowRes      = "wok_inf_wookiewarrior_low1"
+FirstPerson         = "all\allwook;all_1st_wookie"
+
+SkeletonName        = "wookie"
+SkeletonLowRes      = "wookielz"
+
+// the cool bit - Mike Z
+AnimatedAddon = "DREADS"
+GeometryAddon = "wok_inf_wookiedreads"
+AddonAttachJoint = "bone_head"
+NumTentacles     = "4"
+BonesPerTentacle    = "5"
+TentacleCollType    = "1"
+
+OverrideTexture     = "wookie"
+OverrideTexture2    = "wookieface"
+
+MaxHealth           = 300.0
+
+WEAPONSECTION      = 1
+WeaponName         = "wok_weap_inf_bowcaster"
+WeaponAmmo         = 5
+
+WEAPONSECTION      = 2
+WeaponName         = "wok_weap_inf_fusioncutter"
+WeaponAmmo         = 1

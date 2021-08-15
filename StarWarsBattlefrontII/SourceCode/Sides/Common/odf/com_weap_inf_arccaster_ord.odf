@@ -1,0 +1,40 @@
+[OrdnanceClass]
+
+ClassLabel          = "emitterordnance"
+
+[Properties]
+ConeLength          = "25"
+ConeAngle           = "40"
+FirstRadius         = "1.2"
+MaxTargets          = "3"
+
+OrdnanceSound           = "force_lightning_impact"
+
+Damage              = "300"
+MaxDamage           = "325"
+JumpDeduction           = "5"
+DamageThreshold         = "300"
+MaxJumpDistance         = "10"
+
+VehicleScale            = "0.1"
+ShieldScale         = "4.0"
+PersonScale         = "1.0"
+AnimalScale         = "1.0"
+DroidScale          = "1.0"
+BuildingScale           = "0.1"
+
+Push                = "3.0"
+LightningEffect         = "com_sfx_lightning"
+
+SmolderEffectTimer = 2.0
+
+SmolderEffect = "com_sfx_inf_damage_electricity"
+SmolderBone = "bone_ribcage"
+
+SmolderEffect = "com_sfx_inf_damage_electricity"
+SmolderBone = "bone_r_thigh"
+
+SmolderEffect = "com_sfx_inf_damage_electricity"
+SmolderBone = "bone_l_calf"
+
+BonusAmplification  = "0.25"				//how much more damage will be done when team_bonus_blaster_amplication is on

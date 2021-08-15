@@ -1,0 +1,27 @@
+[GameObjectClass]
+ClassParent         = "all_inf_default_wookiee"
+
+
+[Properties]
+//ClothODF	    = "all_inf_wookie_dreads1"
+//ClothODF	    = "all_inf_wookie_dreads2"
+//ClothODF	    = "all_inf_wookie_dreads3"
+//ClothODF	    = "all_inf_wookie_dreads4"
+
+// the cool bit - Mike Z
+AnimatedAddon = "DREADS"
+GeometryAddon = "all_inf_wookiedreads"
+AddonAttachJoint = "bone_head"
+NumTentacles	 = "4"
+BonesPerTentacle    = "5"
+TentacleCollType    = "1"
+
+GeometryName        = "all_inf_wookie"
+GeometryLowRes      = "all_inf_wookie_low1"
+overridetexture	    = "all_inf_wookie"
+SkeletonName        = "wookie"
+SkeletonLowRes      = "wookielz"
+SkeletonRootScale   = "1.15"
+CollisionRootScale  = "1.15"
+FirstPerson         = "all\allwook;all_1st_wookie"
+

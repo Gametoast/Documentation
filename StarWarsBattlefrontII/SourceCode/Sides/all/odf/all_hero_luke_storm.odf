@@ -1,0 +1,54 @@
+[GameObjectClass]
+
+ClassLabel          = "soldier"
+ClassParent         = "all_inf_default"
+GeometryName        = "all_inf_stormtrooperlukeskywalker.msh"
+
+[Properties]
+
+UnitType            = "Trooper"
+IconTexture         = "all_soldier_icon"
+
+GeometryName        = "all_inf_stormtrooperlukeskywalker"
+GeometryLowRes      = "all_inf_stormtrooperlukeskywalker_low1"
+FirstPerson         = "all\alllstrm;all_1st_stormtrooper"
+
+
+HealthType          = "person"
+MaxHealth           = 1200.0
+
+MaxSpeed            = 6.5
+MaxStrafeSpeed      = 4.5
+MaxTurnSpeed        = 4.00
+
+WEAPONSECTION = 1
+WeaponName1         = "all_weap_inf_rifle"
+WeaponAmmo1         = 6
+
+WEAPONSECTION = 2
+WeaponName2         = "all_weap_inf_pistol"
+WeaponAmmo2         = 0
+
+WEAPONSECTION = 3
+WeaponName3         = "all_weap_inf_thermaldetonator"
+WeaponAmmo3         = 3
+WeaponChannel3      = 1
+
+FoleyFXClass        = "imp_inf_trooper"
+
+SndHeroSelectable           = ""
+SndHeroSpawned              = "hero_luke_spawn"
+SndHeroDefeated             = "hero_luke_exhausted"
+SndHeroKiller               = "hero_luke_exhausted"
+
+VOSound = "all_off_response_hero_command      SC_Follow"
+VOSound = "all_off_response_hero_command      SC_StopFollow"
+VOSound = "all_off_response_hero_command     SC_VehicleWaitUp"
+VOSound = "all_off_response_hero_command     SC_GetIn"
+VOSound = "all_off_response_hero_command      SC_GetOut"
+
+VOSound = "hero_luke_AcquiredTarget      AcquiredTarget"
+VOSound = "hero_luke_KillingSpree4      KillingSpree4"
+
+VOUnitType          = 184
+SoldierMusic        = "all_hero_Luke_lp"

@@ -1,0 +1,15 @@
+[GameObjectClass]
+ClassParent     	= "cis_inf_default_rifleman"
+
+
+[Properties]
+UnitType            	= "trooper"
+
+GeometryName        	= "cis_inf_sbdroid"
+GeometryLowRes      	= "cis_inf_sbdroid_low1"
+SkeletonName        	= "sbdroid"
+SkeletonLowRes      	= "sbdroidlz"
+
+FirstPerson         	= "CIS\cissbdrd;cis_1st_sbdroid"
+
+CollisionHeadOffset = "0.0 -0.2 0.0"

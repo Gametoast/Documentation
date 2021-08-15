@@ -1,0 +1,33 @@
+[GameObjectClass]
+ClassParent         = "wok_inf_default_wookie"
+GeometryName        = "wok_inf_wookie.msh"
+
+[Properties]
+UnitType        = "assault"
+
+GeometryName        = "wok_inf_wookiewarrior"
+GeometryLowRes      = "wok_inf_wookiewarrior_low1"
+FirstPerson         = "all\allwook;all_1st_wookie"
+
+SkeletonName        = "wookie"
+SkeletonLowRes      = "wookielz"
+
+// the cool bit - Mike Z
+AnimatedAddon = "DREADS"
+GeometryAddon = "wok_inf_wookiedreads"
+AddonAttachJoint = "bone_head"
+NumTentacles     = "4"
+BonesPerTentacle    = "5"
+TentacleCollType    = "1"
+
+OverrideTexture     = "wookie03"
+OverrideTexture2        = "wookieface03"
+
+MaxHealth       = 300.0
+
+WeaponName1         = "wok_weap_inf_torpedo_launcher"
+WeaponAmmo1         = 7
+
+WeaponName2         = "wok_weap_inf_bowcaster"
+WeaponAmmo2         = 6
+

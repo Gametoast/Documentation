@@ -1,0 +1,32 @@
+[WeaponClass]
+ClassLabel = "weapon"
+[Properties]
+Label = "Blaster Cannon"
+OrdnanceName = "imp_weap_fly_tiefighter_cannon_ord"
+Discharge = "med_smoke_effect"
+RoundsPerClip = "0"
+ShotDelay = "0.2"
+ReloadTime = "0"
+HeatRecoverRate = "0.95"
+HeatThreshold = "0.2"
+HeatPerShot = "0.07"
+ReticuleTexture = "reticule_rifle"
+LockTime = "0.5"
+SalvoCount = "2"
+SalvoDelay = "0"
+InitialSalvoDelay = "0"
+RecoilLengthLight = "0.4"
+RecoilLengthHeavy = "0.1"
+RecoilStrengthLight = "1"
+RecoilStrengthHeavy = "1"
+MinRange = "0"
+OptimalRange = "100"
+MaxRange = "200"
+
+
+
+FireSound           = "imp_weap_fly_tiefighter_cannon_fire"
+FireSoundStop       = "0"
+OverheatSound       = "com_weap_energy_depleted"
+OverheatSoundPitch  = "0.5"
+OverheatStopSound   = "com_weap_energy_refilled"

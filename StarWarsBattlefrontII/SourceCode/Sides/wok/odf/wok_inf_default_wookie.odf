@@ -1,0 +1,81 @@
+[GameObjectClass]
+ClassParent         = "com_inf_default"
+
+[Properties]
+MaxSpeed            = 6.0
+MaxStrafeSpeed      = 4.5
+
+CollisionRootScale  = "1.15"
+CollisionHeadOffset = "0.0 -0.2 0.0"
+
+CAMERASECTION       = "STAND"
+EyePointOffset      = "0.0 1.8 0.0"
+TrackCenter         = "0.0 2.25 0.0
+TrackOffset         = "0.0 0.0 4.0"
+TiltValue           = "5.0"
+
+CAMERASECTION       = "STANDZOOM"
+EyePointOffset      = "0.0 1.8 0.0"
+TrackCenter         = "0.0 2.0 0.0
+TrackOffset         = "0.4 0.05 3.25"
+TiltValue           = "3.5"
+
+CAMERASECTION       = "CROUCH"
+EyePointOffset      = "0.0 1.3 0.0"
+TrackCenter         = "0.0 1.3 0.0
+TrackOffset         = "0.0 0.15 3.5"
+TiltValue           = "5.0"
+
+CAMERASECTION       = "CROUCHZOOM"
+EyePointOffset      = "0.0 1.3 0.0"
+TrackCenter         = "0.0 1.3 0.0
+TrackOffset         = "0.4 0.2 2.8"
+TiltValue           = "3.5"
+
+CAMERASECTION       	= "SPRINT"
+EyePointOffset      	= "0.0 1.8 0.0"
+TrackCenter         	= "0.0 2.25 0.0
+TrackOffset         	= "0.0 0.0 4.5"
+TiltValue           	= "5.0"
+CameraBlendTime     	= "0.75"
+
+
+HurtSound               = "all_inf_com_chatter_wound_wookie"
+DeathSound              = "all_inf_com_chatter_death_wookie"
+AcquiredTargetSound     = ""
+HidingSound             = ""
+ApproachingTargetSound  = ""
+FleeSound               = ""
+PreparingForDamageSound = ""
+HeardEnemySound         = ""
+ShockFadeOutGain        = ""
+ShockSound              = ""
+ClothingRustleSound     = ""
+LowHealthSound          = ""
+//LowHealthThreshold    = ".25"
+FoleyFXClass            = "wok_inf_soldier"
+
+
+VOUnitType          = 2
+
+VOSound = "wok1_command_follow      SC_Follow"
+VOSound = "wok1_command_stopFollow      SC_StopFollow"
+VOSound = "wok1_command_stopVehicle      SC_VehicleWaitUp"
+VOSound = "wok1_command_getIn      SC_GetIn"
+VOSound = "wok1_command_getOut      SC_GetOut"
+VOSound = "wok1_response_follow      SC_FollowResponse"
+VOSound = "wok1_response_stopFollow      SC_StopFollowResponse"
+VOSound = "wok1_response_stopVehicle      SC_VehicleWaitUpResponse"
+VOSound = "wok1_response_getIn      SC_GetInResponse"
+VOSound = "wok1_response_getOut      SC_GetOutResponse"
+
+VOSound = "wok1_inf_chatter_AcquiredTarget    AcquiredTarget"
+VOSound = "wok1_inf_chatter_NearbyEnemySlaughter      NearbyEnemySlaughter"
+VOSound = "wok1_inf_chatter_NearbyFriendlySlaughter      NearbyFriendlySlaughter"
+VOSound = "wok1_inf_chatter_KillingSpree4      KillingSpree4"
+VOSound = "wok1_inf_chatter_KillingSpree8      KillingSpree8"
+VOSound = "wok1_inf_chatter_HeadshotKill      HeadshotKill"
+VOSound = "wok1_inf_chatter_Grenade      Grenade"
+VOSound = "wok1_inf_chatter_FriendlyFire      FriendlyFire"
+VOSound = "wok1_inf_chatter_RebelsShootDeadBody      RebelsShootDeadBody"
+VOSound = "wok1_inf_chatter_GivePowerup      GivePowerup"

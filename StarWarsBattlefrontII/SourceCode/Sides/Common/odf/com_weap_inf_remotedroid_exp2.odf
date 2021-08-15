@@ -1,0 +1,31 @@
+[ExplosionClass]
+ClassLabel = "explosion"
+
+[Properties]
+WaterEffect 	= "com_sfx_watersplash_md"
+
+Damage 		  = "8000.0"
+DamageRadiusInner = "5.0"
+DamageRadiusOuter = "10.0"
+
+Push 		  = "10.0"
+PushRadiusInner   = "5.0"
+PushRadiusOuter   = "10.0"
+
+Shake 		  = "0.35"
+ShakeLength	  = "0.75"
+ShakeRadiusInner  = "4.0" 
+ShakeRadiusOuter  = "7.0"
+
+Effect 		= "com_sfx_weap_remotedroid_exp"
+LightColor 	= "255 255 50 255"
+LightRadius 	= "4.0"
+LightDuration 	= "1.0"
+
+BuildingScale   ="0.5"
+VehicleScale 	="1.0"
+HealthScale 	="1.0"
+ShieldScale 	="0.5"
+DroidScale	="1.0"
+
+SoundProperty	= "com_weap_obj_small_exp"

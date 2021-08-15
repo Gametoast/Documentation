@@ -1,0 +1,53 @@
+[GameObjectClass]
+ClassParent     = "all_inf_default"
+
+
+[Properties]
+PointsToUnlock          = 8
+
+AnimationName		= "bothanspy"
+
+EnergyRestore           = 12.0      // energy regained per second if moving
+
+ScanningRange       = 30.0
+TransmitRange       = 300.0
+
+MaxHealth           	= 300.0
+
+WEAPONSECTION 	= 1
+WeaponName     	= "all_weap_inf_incinerator"
+WeaponAmmo     	= 10
+
+WEAPONSECTION 	= 2
+WeaponName     	= "all_weap_inf_invisibility"
+WeaponAmmo     	= 0
+
+WEAPONSECTION 	= 3
+WeaponName     	= "all_weap_inf_buff_health"
+WeaponAmmo     	= 1
+WeaponChannel  	= 1
+
+WEAPONSECTION 	= 4
+WeaponName     	= "all_weap_inf_timebomb"
+WeaponAmmo     	= 3
+WeaponChannel  	= 1
+
+VOUnitType              = 3
+
+VOSound = "all1_inf_pc_com_hostile      SpottedVO"                               
+VOSound = "all1_inf_pc_com_bacta      NeedMedicVO"                               
+VOSound = "all1_inf_pc_com_mechanic      NeedRepairVO"                           
+VOSound = "all1_inf_pc_com_ammo      NeedAmmoVO"                                 
+VOSound = "all1_inf_pc_com_transport      NeedPickupVO"                          
+VOSound = "all1_inf_pc_com_backup      NeedBackupVO"                             
+VOSound = "all1_inf_pc_com_clear_area      AttackPositionVO"                     
+VOSound = "all1_inf_pc_com_defend     DefendPositionVO"                          
+                                                                   
+VOSound = "all1_inf_pc_com_hostile_inVehicle      SpottedVO +InVehicle"          
+VOSound = "all1_inf_pc_com_bacta_inVehicle      NeedMedicVO +InVehicle"          
+VOSound = "all1_inf_pc_com_mechanic_inVehicle      NeedRepairVO +InVehicle"      
+VOSound = "all1_inf_pc_com_ammo_inVehicle      NeedAmmoVO +InVehicle"            
+VOSound = "all1_inf_pc_com_transport_inVehicle      NeedPickupVO +InVehicle"     
+VOSound = "all1_inf_pc_com_backup_inVehicle      NeedBackupVO +InVehicle"        
+VOSound = "all1_inf_pc_com_clear_area_inVehicle      AttackPositionVO +InVehicle"
+VOSound = "all1_inf_pc_com_defend_inVehicle     DefendPositionVO +InVehicle"     

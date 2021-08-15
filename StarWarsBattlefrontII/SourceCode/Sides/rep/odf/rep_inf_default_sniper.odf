@@ -1,0 +1,38 @@
+[GameObjectClass]
+ClassParent         = "rep_inf_default"
+
+
+[Properties]
+UnitType            = "Scout"
+
+MaxHealth           = 300.0
+MaxSpeed            = 8.0       // base forward speed
+MaxStrafeSpeed      = 6.0       // base right/left speed
+
+WEAPONSECTION = 1
+WeaponName         = "rep_weap_inf_sniper_rifle"
+WeaponAmmo         = 7
+
+WEAPONSECTION = 2
+WeaponName         = "rep_weap_inf_pistol"
+WeaponAmmo         = 0
+
+WEAPONSECTION = 3
+WeaponName         = "rep_weap_inf_thermaldetonator"
+WeaponAmmo         = 2
+WeaponChannel      = 1
+
+WEAPONSECTION = 4
+WeaponName         = "rep_weap_inf_autoturret_dispenser"
+WeaponAmmo         = 1
+WeaponChannel      = 1
+
+WEAPONSECTION = 5
+WeaponName         = "rep_weap_award_sniper_rifle"
+WeaponAmmo         = 6
+
+WEAPONSECTION = 6
+WeaponName         = "rep_weap_award_pistol"
+WeaponAmmo         = 6
+
+VOUnitType        	= 122

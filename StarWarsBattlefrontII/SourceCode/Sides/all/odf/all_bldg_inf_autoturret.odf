@@ -1,0 +1,24 @@
+[GameObjectClass]
+ClassParent          	= "com_bldg_inf_autoturret"
+GeometryName            = "com_weap_inf_dropturret.msh"
+
+[Properties]
+
+// NOBODY has override textures for this!
+//OverrideTexture 	= "com_prop_dropturret_all"
+
+BUILDINGSECTION         = "BODY"
+GeometryName            = "com_weap_inf_dropturret"
+ExplosionName           = "all_bldg_inf_autoturret_exp"
+
+BUILDINGSECTION         = "TURRET1"
+
+TurretNodeName 		= "aimer_y"
+
+TURRETSECTION       	= "TURRET1"
+
+WeaponName           	= "all_weap_inf_autoturret"
+WeaponAmmo          	= "0"
+
+AimerNodeName           = "aimer_x"
+FirePointName           = "hp_fire"

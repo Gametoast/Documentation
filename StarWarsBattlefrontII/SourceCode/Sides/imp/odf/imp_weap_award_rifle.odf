@@ -1,0 +1,29 @@
+[WeaponClass]
+ClassParent         = "com_weap_award_rifle"
+GeometryName        = "imp_weap_inf_rifle.msh"
+
+[Properties]
+GeometryName        = "imp_weap_inf_rifle"
+HighResGeometry     = "imp_1st_weap_inf_rifle"
+OrdnanceName        = "imp_weap_award_rifle_ord"
+FirePointName       = "hp_fire"
+
+
+//******************************************************
+//***************   SOUND       ****************
+//******************************************************
+
+FireSound           = "imp_weap_inf_rifle_fire"
+FireEmptySound      = "com_weap_inf_ammo_empty"
+FireLoopSound       = ""
+ReloadSound         = "com_weap_inf_reload_med"
+ChargeSound         = ""
+ChargeSoundPitch    = ""
+ChangeModeSound     = "com_weap_inf_equip_med"
+WeaponChangeSound   = "com_weap_inf_equip_med"
+JumpSound           = "com_weap_inf_rifle_mvt_jump"
+LandSound           = "com_weap_inf_rifle_mvt_land"
+RollSound           = "com_weap_inf_rifle_mvt_roll"
+//ProneSound          = "com_weap_inf_rifle_mvt_lie"
+SquatSound          = "com_weap_inf_rifle_mvt_squat"
+//StandSound          = "com_weap_inf_rifle_mvt_getup"

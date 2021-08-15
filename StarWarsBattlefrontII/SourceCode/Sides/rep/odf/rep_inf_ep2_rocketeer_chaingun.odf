@@ -1,0 +1,38 @@
+[GameObjectClass]
+ClassLabel          = "soldier"
+ClassParent         = "rep_inf_default_rocketeer"
+
+[Properties]
+UnitType            = "assault"
+IconTexture         = "rep_gunner_icon"
+
+GeometryName        = "rep_inf_arctrooper"
+FirstPerson         = "REP\reparc;rep_1st_arctrooper"
+GeometryLowRes      = "rep_inf_arctrooper_low1"
+ClothODF	    = "rep_inf_arctrooper_cape"
+
+MaxHealth           	= 400.0
+
+OverrideTexture     = "rep_inf_arc_blue"
+OverrideTexture2    = "rep_inf_arc_pack_blue"
+
+
+WEAPONSECTION = 1
+WeaponName1         = "rep_weap_inf_chaingun"
+WeaponAmmo1         = 5
+
+WEAPONSECTION = 2
+WeaponName2         = "rep_weap_inf_pistol"
+WeaponAmmo2         = 3
+
+WEAPONSECTION = 3
+WeaponName3         = "rep_weap_inf_thermaldetonator"
+WeaponAmmo3         = 2
+WeaponChannel3      = 1
+
+WEAPONSECTION = 4
+WeaponName4         = "rep_weap_inf_thermaldetonator"
+WeaponAmmo4         = 2
+WeaponChannel4      = 1
+
+

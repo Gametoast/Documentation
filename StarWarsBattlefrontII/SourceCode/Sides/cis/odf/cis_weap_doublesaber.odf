@@ -1,0 +1,26 @@
+[WeaponClass]
+
+ClassLabel      = "melee"
+ClassParent		= "com_weap_inf_lightsaber"
+
+[Properties]
+
+GeometryName    = "cis_weap_inf_doublesabre"
+ComboAnimationBank  = "human_sabre melee cis_hero_darthmaul"
+
+NumDamageEdges		= "3"
+FirePointName       = "hp_fire1"
+LightSaberLength    = "1.0"
+LightSaberWidth     = "0.08"
+LightSaberTexture   = "redlightsabre"
+LightSaberTrailColor = "255 0 0 128"
+
+FirePointName       = "hp_fire2"
+LightSaberLength    = "1.0"
+LightSaberWidth     = "0.08"
+LightSaberTexture   = "redlightsabre"
+LightSaberTrailColor = "255 0 0 128"
+
+AttachedFirePoint	= "bone_l_calf 1.0 0.0 0.0 0.35 0.0 0.0"
+DamageEdgeLength	= "0.5"
+DamageEdgeWidth		= "0.1"

@@ -1,0 +1,408 @@
+[GameObjectClass]
+ClassLabel 			= "hover"
+GeometryName 			= "cis_tread_hailfire.msh"
+
+[Properties]
+FLYERSECTION 			= "BODY"
+VehicleType 			= "medium"
+
+ReserveOneForPlayer		= "0"
+
+MapTexture 			= "hailfire_icon"
+HealthTexture			= "HUD_cis_hailfire_icon"
+VehiclePosition			= "common.vehiclepositions.pilot"
+MapScale 			= 1.5
+
+GeometryName 			= "cis_tread_hailfire"
+
+Explosion			= "cis_tread_hailfire_exp"
+//ExplosionCritical		= "cis_tread_hailfire_exp"
+ExplosionDestruct		= "cis_tread_hailfire_exp"
+//FirstPerson       		= "cis\cishlfrd;cis_1st_cockpit_hailfiredroid"
+FirstPersonFOV			= "45"
+
+CockpitTension			= 35
+
+CollisionScale 			= 1.0
+CollisionThreshold		= 4
+MaxHealth 			= 8000.0
+HealthType			= "vehicle"
+HitLocation			= "p_crithit 4.0"
+
+TimeRequiredToEject	=	"5.0"
+EjectResistance			= "0.03"
+TimeTilReboard			= "5.0"
+
+SetAltitude			= 0.0
+GravityScale			= 3.0
+LiftSpring			= 10.0
+LiftDamp			= 3.0
+
+Acceleration 			= 15.0
+Deceleration			= 4.0
+Traction					= 50.0
+ForwardSpeed			= 15.0
+ReverseSpeed			= 8.0
+StrafeSpeed			= 0.0
+
+EnergyBar				= 60
+EnergyOverheat			= 20
+EnergyAutoRestore		= 7.5
+EnergyBoostDrain		= 20
+BoostSpeed			    = 30
+BoostAcceleration		= 100.0
+BoostFOV				= 60
+
+AddSpringBody = "0.0 3.8 2.0 4.0"
+BodySpringLength = 0.4
+BodyOmegaXSpringFactor = -2.0
+
+AddSpringBody = "-2.5 3.3 -0.8 3.5"
+BodySpringLength = 0.4
+AddSpringBody = "2.5 3.3 -0.8 3.5"
+BodySpringLength = 0.4
+
+NoRandomSpring = 1
+
+VelocitySpring = 4
+VelocityDamp = 2
+OmegaXSpring = 3.0
+OmegaXDamp = 2.0
+OmegaZSpring = 6.0
+OmegaZDamp = 2.5
+
+PCPitchRate 			= "15.0"
+PCSpinRate			= "15.0"
+PCTurnRate 			= "20.0"
+
+SpinRate			= 1.5
+TurnRate			= 1.5
+TurnFilter			= 10.0
+PitchRate			= 0.5
+PitchFilter			= 10.0
+LevelSpring			= 5.0
+LevelDamp			= 3.0
+
+EyePointOffset 			= "0.0 3.0 -5.0"
+TrackCenter			= "0.0 6.25 -7.0"
+TrackOffset 			= "0.0 0.0 12.0"
+TiltValue			= "4.0"
+NormalDirection 		= "0.0 -10.0 0.0"
+
+PitchLimits = 			"-15 20"
+
+WHEELSECTION		= 1
+WheelTexture 		= "wheel_left"
+WheelVelocToU		= 0.4
+WheelOmegaToU		= -1.1
+
+WHEELSECTION		= 2
+WheelTexture		= "wheel_right"
+WheelVelocToU		= 0.4
+WheelOmegaToU		= 1.1
+
+WEAPONSECTION			= 1
+
+WeaponName			= "cis_weap_tread_hailfire_chaingun"
+WeaponAmmo			= 0
+//BarrelLength 			= "2.0"
+AimerNodeName		= "hp_gun"
+AimerPitchLimits		= "-10 25"
+AimerYawLimits		= "-15.0 15.0"
+
+WEAPONSECTION			= 2
+WeaponName			= "cis_weap_tread_hailfire_missile"
+WeaponAmmo			= 0
+
+ps2:AimerNodeName		= "hp_missile_1"
+xbox:AimerNodeName	= "missile_left"
+pc:AimerNodeName		= "missile_left"
+AimerPitchLimits		= "-25 25"
+AimerYawLimits		= "-0.0 0.0"
+FireOutsideLimits		= 1
+xbox:BarrelNodeName	= "missile_1"
+xbox:NextBarrel		= "-"
+xbox:BarrelNodeName	= "missile_2"
+xbox:NextBarrel		= "-"
+xbox:BarrelNodeName	= "missile_3"
+xbox:NextBarrel		= "-"
+xbox:BarrelNodeName	= "missile_4"
+pc:BarrelNodeName		= "missile_1"
+pc:NextBarrel		= "-"
+pc:BarrelNodeName		= "missile_2"
+pc:NextBarrel		= "-"
+pc:BarrelNodeName		= "missile_3"
+pc:NextBarrel		= "-"
+pc:BarrelNodeName		= "missile_4"
+
+NextAimer			= "-"
+
+ps2:AimerNodeName		= "hp_missile_5"
+xbox:AimerNodeName	= "missile_right"
+pc:AimerNodeName		= "missile_right"
+AimerPitchLimits		= "-25 25"
+AimerYawLimits		= "-0.0 0.0"
+FireOutsideLimits		= 1
+xbox:BarrelNodeName	= "missile_17"
+xbox:NextBarrel		= "-"
+xbox:BarrelNodeName	= "missile_18"
+xbox:NextBarrel		= "-"
+xbox:BarrelNodeName	= "missile_19"
+xbox:NextBarrel		= "-"
+xbox:BarrelNodeName	= "missile_20"
+pc:BarrelNodeName		= "missile_17"
+pc:NextBarrel		= "-"
+pc:BarrelNodeName		= "missile_18"
+pc:NextBarrel		= "-"
+pc:BarrelNodeName		= "missile_19"
+pc:NextBarrel		= "-"
+pc:BarrelNodeName		= "missile_20"
+
+NextAimer 			= "-"
+
+ps2:AimerNodeName		= "hp_missile_2"
+xbox:AimerNodeName	= "missile_left"
+pc:AimerNodeName		= "missile_left"
+AimerPitchLimits		= "-25 25"
+AimerYawLimits		= "-0.0 0.0"
+FireOutsideLimits		= 1
+xbox:BarrelNodeName	= "missile_5"
+xbox:NextBarrel		= "-"
+xbox:vBarrelNodeName	= "missile_6"
+xbox:NextBarrel		= "-"
+xbox:BarrelNodeName	= "missile_7"
+xbox:NextBarrel		= "-"
+xbox:BarrelNodeName	= "missile_8"
+pc:BarrelNodeName		= "missile_5"
+pc:NextBarrel		= "-"
+pc:BarrelNodeName		= "missile_6"
+pc:NextBarrel		= "-"
+pc:BarrelNodeName		= "missile_7"
+pc:NextBarrel		= "-"
+pc:BarrelNodeName		= "missile_8"
+
+NextAimer 			= "-"
+
+ps2:AimerNodeName		= "hp_missile_6"
+xbox:AimerNodeName	= "missile_right"
+pc:AimerNodeName		= "missile_right"
+
+AimerPitchLimits		= "-25 25"
+AimerYawLimits		= "-0.0 0.0"
+FireOutsideLimits		= 1
+xbox:BarrelNodeName	= "missile_21"
+xbox:NextBarrel		= "-"
+xbox:BarrelNodeName	= "missile_22"
+xbox:NextBarrel		= "-"
+xbox:BarrelNodeName	= "missile_23"
+xbox:NextBarrel		= "-"
+xbox:BarrelNodeName	= "missile_24"
+pc:BarrelNodeName		= "missile_21"
+pc:NextBarrel		= "-"
+pc:BarrelNodeName		= "missile_22"
+pc:NextBarrel		= "-"
+pc:BarrelNodeName		= "missile_23"
+pc:NextBarrel		= "-"
+pc:BarrelNodeName		= "missile_24"
+
+NextAimer			= "-"
+
+ps2:AimerNodeName		= "hp_missile_3"
+xbox:AimerNodeName	= "missile_left"
+pc:AimerNodeName		= "missile_left"
+AimerPitchLimits		= "-25 25"
+AimerYawLimits		= "-0.0 0.0"
+FireOutsideLimits		= 1
+xbox:BarrelNodeName	= "missile_9"
+xbox:NextBarrel		= "-"
+xbox:BarrelNodeName	= "missile_10"
+xbox:NextBarrel		= "-"
+xbox:BarrelNodeName	= "missile_11"
+xbox:NextBarrel		= "-"
+xbox:BarrelNodeName	= "missile_12"
+pc:BarrelNodeName		= "missile_9"
+pc:NextBarrel		= "-"
+pc:BarrelNodeName		= "missile_10"
+pc:NextBarrel		= "-"
+pc:BarrelNodeName		= "missile_11"
+pc:NextBarrel		= "-"
+pc:BarrelNodeName		= "missile_12"
+
+NextAimer 			= "-"
+
+ps2:AimerNodeName		= "hp_missile_7"
+xbox:AimerNodeName	= "missile_right"
+pc:AimerNodeName		= "missile_right"
+AimerPitchLimits		= "-25 25"
+AimerYawLimits		= "-0.0 0.0"
+FireOutsideLimits		= 1
+xbox:BarrelNodeName	= "missile_25"
+xbox:NextBarrel		= "-"
+xbox:BarrelNodeName	= "missile_26"
+xbox:NextBarrel		= "-"
+xbox:BarrelNodeName	= "missile_27"
+xbox:NextBarrel		= "-"
+xbox:BarrelNodeName	= "missile_28"
+pc:BarrelNodeName		= "missile_25"
+pc:NextBarrel		= "-"
+pc:BarrelNodeName		= "missile_26"
+pc:NextBarrel		= "-"
+pc:BarrelNodeName		= "missile_27"
+pc:NextBarrel		= "-"
+pc:BarrelNodeName		= "missile_28"
+
+NextAimer 			= "-"
+
+ps2:AimerNodeName		= "hp_missile_4"
+xbox:AimerNodeName	= "missile_left"
+pc:AimerNodeName		= "missile_left"
+AimerPitchLimits		= "-25 25"
+AimerYawLimits		= "-0.0 0.0"
+FireOutsideLimits		= 1
+xbox:BarrelNodeName	= "missile_13"
+xbox:NextBarrel		= "-"
+xbox:BarrelNodeName	= "missile_14"
+xbox:NextBarrel		= "-"
+xbox:BarrelNodeName	= "missile_15"
+xbox:NextBarrel		= "-"
+xbox:BarrelNodeName	= "missile_16"
+pc:BarrelNodeName		= "missile_13"
+pc:NextBarrel		= "-"
+pc:BarrelNodeName		= "missile_14"
+pc:NextBarrel		= "-"
+pc:BarrelNodeName		= "missile_15"
+pc:NextBarrel		= "-"
+pc:BarrelNodeName		= "missile_16"
+
+NextAimer 			= "-"
+
+ps2:AimerNodeName		= "hp_missile_8"
+xbox:AimerNodeName	= "missile_right"
+pc:AimerNodeName		= "missile_right"
+AimerPitchLimits		= "-25 25"
+AimerYawLimits		= "-0.0 0.0"
+FireOutsideLimits		= 1
+xbox:BarrelNodeName	= "missile_29"
+xbox:NextBarrel		= "-"
+xbox:BarrelNodeName	= "missile_30"
+xbox:NextBarrel		= "-"
+xbox:BarrelNodeName	= "missile_31"
+xbox:NextBarrel		= "-"
+xbox:BarrelNodeName	= "missile_32"
+pc:BarrelNodeName		= "missile_29"
+pc:NextBarrel		= "-"
+pc:BarrelNodeName		= "missile_30"
+pc:NextBarrel		= "-"
+pc:BarrelNodeName		= "missile_31"
+pc:NextBarrel		= "-"
+pc:BarrelNodeName		= "missile_32"
+
+WakeEffect 			= "hailfire_wake"
+
+
+
+\\\\\\\\\\\\ -----  COLLISION ----- \\\\\\\\\\\\\\
+
+VehicleCollision		= "p_vehiclesphere"
+
+SoldierCollision 		= "CollisionMesh"
+
+OrdnanceCollision 		= "CollisionMesh"
+OrdnanceCollision 		= "p_crithit"
+
+
+
+
+CHUNKSECTION 			= "CHUNK1"
+ChunkGeometryName 		= "hailfire_chunk1"
+ChunkNodeName 			= "wheel_left"
+ChunkTerrainCollisions 		= "100"
+ChunkTerrainEffect 		= "com_sfx_walkerstomp"
+ChunkPhysics 			= "FULL"
+ChunkOmega 			= "0.0 -.75 0.0"
+ChunkSpeed 			= "5.0"
+ChunkUpFactor			= "1.0"
+ChunkBounciness			= "0.75"
+ChunkStickiness			= "0.2"
+ChunkLinearDamping		= "0.6"
+ChunkAngularDamping		= "0.55"
+
+CHUNKSECTION 			= "CHUNK2"
+ChunkGeometryName 		= "hailfire_chunk2"
+ChunkNodeName 			= "wheel_right"
+ChunkTerrainCollisions 		= "100"
+ChunkTerrainEffect 		= "com_sfx_walkerstomp"
+ChunkPhysics 			= "FULL"
+ChunkOmega 			= "0.0 0.75 0.0"
+ChunkSpeed 			= "5.0"
+ChunkUpFactor			= "1.0"
+ChunkBounciness			= "0.75"
+ChunkStickiness			= "0.2"
+ChunkLinearDamping		= "0.6"
+ChunkAngularDamping		= "0.55"
+
+CHUNKSECTION 			= "CHUNK3"
+ChunkGeometryName 		= "hailfire_chunk3"
+ChunkNodeName 			= ""
+ChunkOmega 			= "0.0 2.0 0.0"
+ChunkTerrainCollisions 		= "10"
+ChunkTerrainEffect 		= "com_sfx_explosion_lg"
+ChunkPhysics 			= "FULL"
+ChunkSpeed 			= "20.0"
+ChunkUpFactor			= "0.0"
+
+AISizeType			= "MEDIUM"
+MovingTurnOnly			= 1
+
+SuspensionNodeName		= "CIS_HailFire_Droid_center"
+SuspensionLeftArmNodeName	= "armL"
+SuspensionRightArmNodeName	= "armR"
+SuspensionMaxOffset		= "-0.5"
+SuspensionMidOffset		= "-0.125"
+
+//////////////////////////
+////DAMAGE///////////
+///////////////
+
+DamageStartPercent		= 60.0
+DamageStopPercent		= 20.0
+DamageEffect			= "com_sfx_vehiclespark"
+DamageAttachPoint		= "hp_damage_2"
+
+DamageStartPercent		= 70.0
+DamageStopPercent		= 20.0
+DamageEffect			= "com_sfx_vehiclespark"
+DamageAttachPoint		= "hp_damage_3"
+
+DamageStartPercent		= 70.0
+DamageStopPercent		= 20.0
+DamageEffect			= "com_sfx_vehiclespark"
+DamageAttachPoint		= "hp_damage_4"
+
+DamageStartPercent		= 50.0
+DamageStopPercent		= 0.0
+DamageEffect			= "com_sfx_vehiclesmoke"
+DamageAttachPoint		= "hp_damage_1"
+
+DamageStartPercent		= 5.0
+DamageStopPercent		= 0.0
+DamageEffect			= "com_sfx_vehicleflame"
+DamageAttachPoint		= "hp_damage_1"
+
+
+VOUnitType                      = 087
+EngineSound 			= "cis_tread_hailfire_engine_parameterized"
+//HurtSound      			= "cis_inf_com_chatter_wound"
+DeathSound   	= "imp_weap_ord_exp_lg"
+VehicleCollisionSound   ="com_veh_collision_lg"
+TurnOnSound    			= ""
+TurnOffSound   			= ""
+Music          			= ""
+RepMusic 			= "rep_vehicle"
+CISMusic 			= "cis_vehicle"
+ImpMusic 			= "imp_vehicle"
+MusicSpeed     			= ".15"
+MusicDelay     			= "3.0"
+GroundedSound  			= ""
+GroundedHeight 			= ""
+FoleyFXGroup    		= "metal_foley"

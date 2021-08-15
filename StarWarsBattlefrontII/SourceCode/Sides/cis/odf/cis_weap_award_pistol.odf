@@ -1,0 +1,36 @@
+[WeaponClass]
+ClassParent         = "com_weap_award_pistol"
+GeometryName        = "cis_weap_inf_pistol.msh"
+
+[Properties]
+
+GeometryName        = "cis_weap_inf_pistol"
+HighResGeometry         = "cis_1st_weap_inf_pistol"
+OrdnanceName        = "cis_weap_award_pistol_ord"
+
+
+//******************************************************
+//***************   SOUND       ****************
+//******************************************************
+
+FireSound           = "cis_weap_inf_commando_pistol_fire"
+FireEmptySound      = "com_weap_inf_ammo_empty"
+FireLoopSound       = ""
+ReloadSound         = ""
+ChargeSound         = ""
+OverheatSound       = "com_weap_energy_depleted"
+OverheatSoundPitch  = "0.5"
+OverheatStopSound   = "com_weap_energy_refilled"
+ChangeModeSound     = "com_weap_inf_equip_sm"
+WeaponChangeSound   = "com_weap_inf_equip_sm"
+JumpSound           = "com_weap_inf_pistol_mvt_jump"
+LandSound           = "com_weap_inf_pistol_mvt_land"
+RollSound           = "com_weap_inf_pistol_mvt_roll"
+//ProneSound          = "com_weap_inf_pistol_mvt_lie"
+SquatSound          = "com_weap_inf_pistol_mvt_squat"
+//StandSound          = "com_weap_inf_pistol_mvt_getup"
+
+
+
+
+

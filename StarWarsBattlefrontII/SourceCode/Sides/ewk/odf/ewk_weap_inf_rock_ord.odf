@@ -1,0 +1,28 @@
+[OrdnanceClass]
+ClassLabel      = "shell"
+
+[Properties]
+ImpactEffectWater   = "com_sfx_watersplash_sm"
+
+GeometryName        = "ewk_rock"
+//ExplosionExpire   = "rep_weap_inf_grenadefrag_exp"
+//OrdnanceEffect    = "com_sfx_weap_grenade_red"
+ExplosionImpact     = "ewk_weap_inf_rock_exp"
+TrailEffect     = "com_sfx_weap_grenade_gold"
+
+CollisionOtherSound = "com_weap_inf_rock_bounce"
+
+MaxDamage       = "50.0"
+
+LifeSpan        = "5.0"
+Velocity        = "40.0"
+Gravity         = "1.5"
+Rebound         = "0.5"
+Friction        = "0.2"
+
+VehicleScale        = "0.1"
+PersonScale         = "1.0"
+DroidScale      = "1.0"
+BuildingScale       = "0.1"
+AnimalScale     = "1.0"
+

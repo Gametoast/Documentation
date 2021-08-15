@@ -1,0 +1,345 @@
+[GameObjectClass]
+ClassLabel 				= "walker"
+GeometryName 			= "cis_walk_spider.msh"
+
+ReserveOneForPlayer		= "0"
+
+[Properties]
+WALKERSECTION			= "BODY"
+VehicleType 			= "medium"
+Label				= "Spider"
+
+DeathDustEffect 		= "deathdustcloud_brown"
+DeathDustDelay 			= "5.1"
+DeathDustOffset 		= "0.0 0.0 0.0"
+
+ExplosionName 			= "cis_walk_spider_exp"
+DeathAnimationExplosion		= "small_explosion"
+DeathAnimationExplosion		= "med_explosion"
+MapTexture 			= "spider_icon"
+HealthTexture 			= "HUD_cis_spiderwalker_icon"
+MapScale 			= "1.6"
+
+GeometryName 			= "cis_walk_spider"
+AnimationName 			= "cis_walk_spider"
+//FirstPerson       		= "cis\cisspdrw;cis_1st_cockpit_spiderwalker"
+VehiclePosition			= "common.vehiclepositions.pilot"
+
+MaxHealth 			= "20000.0"
+HitLocation			= "p_crithit1 4.0"
+HitLocation			= "p_crithit2 4.0"
+
+TimeRequiredToEject	=	"12.5"
+EjectResistance			= "0.03"
+TimeTilReboard			= "5.0"
+
+DamageStartPercent		= 70.0
+DamageStopPercent		= 20.0
+DamageEffect			= "com_sfx_vehiclespark"
+DamageAttachPoint		= "bone_fl_upperarm"
+
+DamageStartPercent		= 70.0
+DamageStopPercent		= 20.0
+DamageEffect			= "com_sfx_vehiclespark"
+DamageAttachPoint		= "bone_fr_upperarm"
+
+DamageStartPercent		= 45.0
+DamageStopPercent		= 20.0
+DamageEffect			= "com_sfx_vehiclespark"
+DamageAttachPoint		= "bone_fl_lowerarm"
+
+DamageStartPercent		= 45.0
+DamageStopPercent		= 20.0
+DamageEffect			= "com_sfx_vehiclespark"
+DamageAttachPoint		= "bone_fr_lowerarm"
+
+DamageStartPercent		= 60.0
+DamageStopPercent		= 20.0
+DamageEffect			= "com_sfx_vehiclespark"
+DamageAttachPoint		= "bone_bl_upperarm"
+
+DamageStartPercent		= 60.0
+DamageStopPercent		= 20.0
+DamageEffect			= "com_sfx_vehiclespark"
+DamageAttachPoint		= "bone_br_upperarm"
+
+DamageStartPercent		= 45.0
+DamageStopPercent		= 20.0
+DamageEffect			= "com_sfx_vehiclespark"
+DamageAttachPoint		= "bone_bl_lowerarm"
+
+DamageStartPercent		= 45.0
+DamageStopPercent		= 20.0
+DamageEffect			= "com_sfx_vehiclespark"
+DamageAttachPoint		= "bone_br_lowerarm"
+
+DamageStartPercent		= 50.0
+DamageStopPercent		= 20.0
+DamageEffect			= "com_sfx_vehiclesmoke"
+DamageAttachPoint		= "hp_damage_1"
+
+DamageStartPercent		= 10.0
+DamageStopPercent		= 0.0
+DamageEffect			= "com_sfx_vehicleflame"
+DamageAttachPoint		= "hp_damage_1"
+
+Acceleraton 			= "2.4"
+
+MaxSpeed 			= "3.0"
+MaxStrafeSpeed 			= "3.0"
+MaxTurnSpeed 			= "0.6"
+PCMaxTurnSpeed			= "20.0"
+PCMaxStrafeSpeed		= "20.0"
+
+PCPitchRate 			= 15.0
+PCSpinRate			= 15.0
+PCTurnRate 			= 25.0
+
+
+StoppedTurnSpeed		= "0.3"
+ForwardTurnSpeed		= "0.2"
+TurnThreshold			= "0.45"
+
+SteerAtYawLimit         = "1"
+SteerAtStrafeLimit      = "0"
+CorrectAimForSteering   = "1"
+SteerTowardAimFactor    = "0.0"
+ReverseBackwardSteering = "1"       //steer in reverse like a car - ThrustAngleToStrafe works more intuitively this way
+ThrustAngleToStrafe     = "87"    //should match yaw limit or 0.0
+ThrustAngleToTurn       = "88"    //thrust angle to reach full forward turn speed
+ThrustAngleToStop       = "89"    //thrust angle to turn in place
+
+
+EyePointOffset 			= "0.0 8.0 0.0"
+TrackCenter			= "0.0 12.0 0.0"
+TrackOffset 			= "0.0 0.0 10.0"
+TiltValue			= "5.0"
+
+PitchLimits			= "-20.0 20.0"
+YawLimits			= "-90.0 90.0"
+
+AISizeType			= "MEDIUM"
+
+
+WEAPONSECTION			= "1"
+
+WeaponName			= "cis_weap_hover_stap_cannon"
+WeaponAmmo			= "0"
+
+HierarchyLevel			= "1"
+AimerYawLimits 			= "-360.0 360.0"
+AimerPitchLimits 			= "0.0 0.0"
+AimerNodeName 			= "turret_y_1"
+
+NextAimer				= "-"
+
+AimerYawLimits 			= "-360.0 360.0"
+AimerPitchLimits 			= "-25.0 25.0"
+AimerNodeName 			= "turret_x_1"
+FirePointName			= "hp_cannon_1"
+
+
+WEAPONSECTION			= "2"
+
+WeaponName				= "cis_weap_walk_spider_beam"
+WeaponAmmo				= "0"
+
+HierarchyLevel			= "1"
+AimerYawLimits 			= "-360.0 360.0"
+AimerPitchLimits 			= "0.0 0.0"
+AimerNodeName 			= "turret_y_2"
+FireOutsideLimits			= "1"
+
+NextAimer				= "-"
+
+AimerYawLimits 			= "-360.0 360.0"
+AimerPitchLimits 			= "-25.0 25.0"
+AimerNodeName 			= "turret_x_2"
+FirePointName			= "hp_cannon_2"
+FireOutsideLimits			= "1"
+
+
+TEMP_AnimationSpeed 		= "1.0"
+TEMP_Type 				= "0"
+
+TerrainCollision 			= "p_foot1"
+TerrainCollision 			= "p_foot2"
+TerrainCollision 			= "p_foot3"
+TerrainCollision 			= "p_foot4"
+
+//VehicleCollision 	= "p_vehicle"
+VehicleCollision 	= "p_main"
+VehicleCollision	= "p_leg_fr"
+VehicleCollision	= "p_leg_fl"
+VehicleCollision	= "p_leg_br"
+VehicleCollision	= "p_leg_bl"
+
+BuildingCollision 	= "p_foot1"
+BuildingCollision 	= "p_foot2"
+BuildingCollision 	= "p_foot3"
+BuildingCollision 	= "p_foot4"
+//BuildingCollision 	= "p_main"
+BuildingCollisionPrim	= "BldgSphere1 sphere NULL 3.0 9.0 -3.0 5.0 0.0 0.0"
+BuildingCollisionPrim	= "BldgSphere2 sphere NULL 3.0 9.0 3.0 5.0 0.0 0.0"
+BuildingCollisionPrim	= "BldgSphere3 sphere NULL -3.0 9.0 -3.0 5.0 0.0 0.0"
+BuildingCollisionPrim	= "BldgSphere4 sphere NULL -3.0 9.0 3.0 5.0 0.0 0.0"
+
+SoldierCollision 	= "p_main"
+SoldierCollision	= "p_leg_fr"
+SoldierCollision	= "p_leg_fl"
+SoldierCollision	= "p_leg_br"
+SoldierCollision	= "p_leg_bl"
+
+OrdnanceCollision	= "p_main"
+OrdnanceCollision	= "p_leg_fr"
+OrdnanceCollision	= "p_leg_fl"
+OrdnanceCollision	= "p_leg_br"
+OrdnanceCollision	= "p_leg_bl"
+OrdnanceCollision	= "p_joint_fl"
+OrdnanceCollision	= "p_joint_bl"
+OrdnanceCollision	= "p_joint_fr"
+OrdnanceCollision	= "p_joint_br"
+OrdnanceCollision	= "p_crithit1"
+OrdnanceCollision 	= "p_crithit2"
+
+
+StompEffect = "com_sfx_walkerstomp"
+
+WaterDamageInterval		= "1.0"
+WaterDamageAmount		= "10.0"
+
+WalkerOrientRoll	= "1"
+LegRayHitLength		= "10.0"
+WalkerWidth		= "22.0"
+
+LegPairCount		= "2"
+
+WalkerLegPair		= "front_legs"
+
+LegBoneLeft		= "bone_fl_foot"
+LegBoneRight		= "bone_fr_foot"
+
+LegBoneTopLeft		= "bone_fl_shoulder"
+LegBoneTopRight		= "bone_fr_shoulder"
+
+TerrainLeft		= "p_foot1"
+TerrainRight		= "p_foot2"
+
+FootBoneLeft		= "bone_l_toe"
+FootBoneRight		= "bone_r_toe"
+
+WalkerLegPair		= "back_legs"
+
+LegBoneLeft		= "bone_bl_foot"
+LegBoneRight		= "bone_br_foot"
+
+LegBoneTopLeft		= "bone_bl_shoulder"
+LegBoneTopRight		= "bone_br_shoulder"
+
+TerrainLeft		= "p_foot3"
+TerrainRight		= "p_foot4"
+
+FootBoneLeft		= "bone_l_toe"
+FootBoneRight		= "bone_r_toe"
+
+CHUNKSECTION 		= "CHUNK1"
+ChunkGeometryName 	= "spider_chunk1"
+ChunkNodeName 		= "cis_walk_spider"
+ChunkTerrainCollisions 	= "15"
+ChunkTerrainEffect 	= "dirtspray"
+ChunkPhysics 		= "FULL"
+ChunkOmega 		= "2.0 2.5 2.5"
+ChunkBounciness 		= 0.45
+ChunkStickiness 		= 0.25
+ChunkSpeed		= "8.0"
+ChunkUpFactor		= "0.00"
+
+CHUNKSECTION 		= "CHUNK2"
+ChunkGeometryName 	= "spider_chunk2"
+ChunkNodeName 		= "cis_walk_spider"
+ChunkTerrainCollisions 	= "10"
+ChunkTerrainEffect 	= "dirtspray"
+ChunkPhysics 		= "FULL"
+ChunkOmega 		= "1.0 0.0 0.0"
+ChunkSpeed		= "7.0"
+ChunkUpFactor		= "0.00"
+
+CHUNKSECTION 		= "CHUNK3"
+ChunkGeometryName 	= "spider_chunk3"
+ChunkNodeName 		= "cis_walk_spider"
+ChunkTerrainCollisions 	= "45"
+ChunkTerrainEffect 	= "dirtspray"
+ChunkPhysics 		= "FULL"
+ChunkOmega 		= "-0.1 0.5 0.9"
+ChunkSpeed		= "5.0"
+ChunkBounciness	= "0.75"
+ChunkStickiness	= "0.1"
+ChunkUpFactor		= "0.0"
+ChunkLinearDamping	=	"0.6"
+ChunkAngularDamping	=	"0.5"
+
+CHUNKSECTION 		= "CHUNK4"
+ChunkGeometryName 	= "spider_chunk4"
+ChunkNodeName 		= "cis_walk_spider"
+ChunkTerrainCollisions 	= "45"
+ChunkTerrainEffect 	= "dirtspray"
+ChunkPhysics 		= "FULL"
+ChunkOmega 		= "0.1 0.5 -0.9"
+ChunkSpeed		= "5.0"
+ChunkBounciness	= "0.75"
+ChunkStickiness	= "0.1"
+ChunkUpFactor		= "0.0"
+ChunkLinearDamping	=	"0.6"
+ChunkAngularDamping	=	"0.5"
+
+CHUNKSECTION 		= "CHUNK5"
+ChunkGeometryName 	= "spider_chunk5"
+ChunkNodeName 		= "cis_walk_spider"
+ChunkTerrainCollisions 	= "45"
+ChunkTerrainEffect 	= "dirtspray"
+ChunkPhysics 		= "FULL"
+ChunkOmega 		= "0.0 0.5 -1.0"
+ChunkSpeed		= "5.0"
+ChunkBounciness	= "0.75"
+ChunkStickiness	= "0.1"
+ChunkUpFactor		= "0.0"
+ChunkLinearDamping	=	"0.6"
+ChunkAngularDamping	=	"0.5"
+
+CHUNKSECTION 		= "CHUNK6"
+ChunkGeometryName 	= "spider_chunk6"
+ChunkNodeName 		= "cis_walk_spider"
+ChunkTerrainCollisions 	= "45"
+ChunkTerrainEffect 	= "dirtspray"
+ChunkPhysics 		= "FULL"
+ChunkOmega 		= "0.0 0.5 1.0"
+ChunkSpeed		= "5.0"
+ChunkBounciness	= "0.75"
+ChunkStickiness	= "0.1"
+ChunkUpFactor		= "0.0"
+ChunkLinearDamping	=	"0.6"
+ChunkAngularDamping	=	"0.5"
+
+VOUnitType              = 088
+StompDetectionType = "1"
+FootstepSound0    = "cis_walk_spider_step_layered"
+FootstepSound1   = "cis_walk_spider_step_layered"
+FootstepSound2   = "cis_walk_spider_step_layered"
+FootstepSound3   = "cis_walk_spider_step_layered"
+HydraulicSound       = "cis_walk_spider_legup"
+HydraulicSoundHeight = ".5"
+HydraulicLowerSound  = ""
+HydraulicLowerHeight = ""
+HurtSound            = ""
+DeathSound   	= "imp_weap_ord_exp_lg"
+VehicleCollisionSound   ="com_veh_collision_lg"
+Music                = ""
+RepMusic 		= "rep_vehicle"
+CISMusic 		= "cis_vehicle"
+ImpMusic 		= "imp_vehicle"
+MusicSpeed           = ".15"
+MusicDelay           = "3.0"
+
+FoleyFXGroup    = "metal_foley"
+
+EngineSound          = "cis_walk_spiderwalker_engine_parameterized"

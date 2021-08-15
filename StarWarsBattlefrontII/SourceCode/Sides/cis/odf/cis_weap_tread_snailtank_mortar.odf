@@ -1,0 +1,23 @@
+[WeaponClass]
+ClassParent          = "com_weap_veh_mortar"
+
+[Properties]
+OrdnanceName        = "cis_weap_tread_snailtank_mortar_ord"
+
+ShotDelay           = "0.25"
+
+RoundsPerClip       = "4"
+ReloadTime          = "2.5"
+
+ShotElevate         = "50"
+
+FireSound           = "cis_weap_tread_snailtank_mortar_fire"
+
+
+MinRange            = "15"
+OptimalRange        = "60"
+MaxRange            = "160"
+
+AITargetPerson			= "0"
+AITargetAnimal			= "0"
+AITargetDroid			= "0"

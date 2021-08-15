@@ -1,0 +1,173 @@
+[GameObjectClass]
+
+ClassLabel 			= "flyer"
+GeometryName			= "all_fly_kwing.msh"
+//PILOT
+----------------------------------------------------
+[Properties]
+VehicleType			= "transport"
+MapTexture 			= "x-wing_icon"
+StatusTexture			= "HUD_all_xwing_icon"
+VehiclePosition			= "common.vehiclepositions.pilot"
+MapScale 			= 1.5
+
+GeometryName 			= "all_fly_kwing"
+AnimationName			= "all_fly_kwing"
+FirstPerson			= "ALL\allkwing;all_1st_cockpit_kwing"
+CollisionScale 			= "1.5"
+CollisionThreshold		= "5.0"
+MaxHealth 			= 5000.0
+HealthType			= "vehicle"
+//HitLocation			= "p_crithit 1.5"
+
+//ExplosionCritical		= "all_fly_snowspeeder_exp"
+ExplosionDestruct		= "all_fly_snowspeeder_exp"
+
+Acceleraton 			= 8.0
+MinSpeed 			= 20.0
+MaxSpeed 			= 52.0
+
+CockpitTension		= 23
+
+PitchRate 			= 0.75
+PitchFilter 			= 1.0
+TurnRate 			= 0.75
+TurnFilter 			= 0.75
+BankAngle 			= 0.5
+BankFilter 			= 2.5
+LevelFilter 			= 1.0
+
+//PCPitchRate 			= 15.0
+//PCSpinRate 			= 15.0
+//PCTurnRate 			= 25.0
+
+TakeoffTime 			= 4.0
+TakeoffSpeed 			= 4.0
+LandingTime 			= 2.0
+LandingSpeed 			= 5.0
+TakeoffHeight 			= 8.0
+
+EyePointCenter			= "0.0 0.0 0.0"
+TrackCenter 			= "0.0 9.2 -18"
+TrackOffset 			= "0.0 -3.0 0"
+TiltValue			= "2.5"
+
+AimTension			= "20.0"//how much the reticule swims
+MoveTension			= "4.25"//how much swim the craft has from the center of the screen
+
+ThrustEffect			= "exhaust_kwing"
+ThrustAttachPoint		= "dummyroot"
+ThrustAttachOffset		= "3.1069 -0.0345 -8.9494"
+ThrustEffectMinScale		= "0.95"
+ThrustEffectMaxScale		= "1.4"
+ThrustEffectScaleStart		= "0.85"
+
+ThrustEffect			= "exhaust_kwing"
+ThrustAttachPoint		= "dummyroot"
+ThrustAttachOffset		= "-3.1069 -0.0345 -8.9494"
+ThrustEffectMinScale		= "0.95"
+ThrustEffectMaxScale		= "1.4"
+ThrustEffectScaleStart		= "0.85"
+
+ThrustEffect			= "exhaust_kwing"
+ThrustAttachPoint		= "dummyroot"
+ThrustAttachOffset		= "0.0 2.5442 -8.815"
+ThrustEffectMinScale		= "0.65"
+ThrustEffectMaxScale		= "0.9"
+ThrustEffectScaleStart		= "0.55"
+
+// COLLISION
+--------------------------------------------------------------
+
+BuildingCollision 		= "p_front_sphere1"
+BuildingCollision 		= "p_front_sphere2"
+BuildingCollision 		= "p_front_sphere3"
+BuildingCollision 		= "p_left_sphere1"
+BuildingCollision 		= "p_left_sphere2"
+BuildingCollision 		= "p_right_sphere1"
+BuildingCollision 		= "p_right_sphere2"
+
+TerrainCollision 		= "p_front_sphere1"
+TerrainCollision 		= "p_front_sphere2"
+TerrainCollision 		= "p_front_sphere3"
+TerrainCollision 		= "p_left_sphere1"
+TerrainCollision 		= "p_left_sphere2"
+TerrainCollision 		= "p_right_sphere1"
+TerrainCollision 		= "p_right_sphere2"
+
+VehicleCollision 		= "p_front_sphere1"
+VehicleCollision 		= "p_front_sphere2"
+VehicleCollision 		= "p_front_sphere3"
+VehicleCollision 		= "p_left_sphere1"
+VehicleCollision 		= "p_left_sphere2"
+VehicleCollision 		= "p_right_sphere1"
+VehicleCollision 		= "p_right_sphere2"
+
+SoldierCollision 		= "p_wing_L"
+SoldierCollision 		= "p_wing_R"
+
+OrdnanceCollision 		= "p_wing_L"
+OrdnanceCollision 		= "p_wing_R"
+
+// CHUNKS
+--------------------------------------------------------------
+
+CHUNKSECTION 			= "CHUNK1"
+ChunkGeometryName 		= "all_fly_kwing_chunk1"
+ChunkNodeName 			= ""
+ChunkTerrainCollisions 		= "0"
+ChunkTerrainEffect 		= "explosion"
+ChunkPhysics 			= "FULL"
+ChunkOmega 			= "3.0 0.5 1.0"
+ChunkBounciness 			= 0.45
+ChunkStickiness 			= 0.25
+ChunkSpeed			= "7.0"
+ChunkUpFactor			= "4.00"
+ChunkTrailEffect 			= "mediumsmoketrail"
+
+CHUNKSECTION 			= "CHUNK2"
+ChunkGeometryName 		= "all_fly_kwing_chunk2"
+ChunkNodeName 			= ""
+ChunkTerrainCollisions 		= "2"
+ChunkTerrainEffect 		= "dirtspray"
+ChunkPhysics 			= "FULL"
+ChunkOmega 			= "3.0 -0.5 0.5"
+ChunkBounciness 			= 0.45
+ChunkStickiness 			= 0.25
+ChunkSpeed			= "6.0"
+ChunkUpFactor			= "8.00"
+ChunkTrailEffect 			= "mediumsmoketrail"
+
+CHUNKSECTION 			= "CHUNK3"
+ChunkGeometryName 		= "all_fly_kwing_chunk3"
+ChunkNodeName 			= ""
+ChunkTerrainCollisions 		= "0"
+ChunkTerrainEffect 		= "explosion"
+ChunkPhysics 			= "FULL"
+ChunkOmega 			= "2.0 1.0 1.5"
+ChunkBounciness 			= 0.45
+ChunkStickiness 			= 0.25
+ChunkSpeed			= "5.0"
+ChunkUpFactor			= "4.00"
+ChunkTrailEffect 			= "mediumsmoketrail"
+
+CHUNKSECTION 			= "CHUNK4"
+ChunkGeometryName 		= "all_fly_kwing_chunk4"
+ChunkNodeName 			= ""
+ChunkTerrainCollisions 		= "2"
+ChunkTerrainEffect 		= "dirtspray"
+ChunkPhysics 			= "FULL"
+ChunkOmega 			= "2.0 0.5 2.5"
+ChunkBounciness 			= 0.45
+ChunkStickiness 			= 0.25
+ChunkSpeed			= "8.0"
+ChunkUpFactor			= "3.00"
+ChunkTrailEffect 			= "mediumsmoketrail"
+
+
+FoleyFXGroup    = "metal_foley"
+
+Cockpit1stPersonSound   = "all_inf_com_space_chatter" // Sound which is triggered every frame when the player is in first person mode.
+Cockpit3rdPersonSound   = "all_inf_com_space_chatter" // Sound which is triggered every frame when the player is in third person mode.
+AllMusic                = "all_vehicle"
+ImpMusic                = "imp_vehicle"

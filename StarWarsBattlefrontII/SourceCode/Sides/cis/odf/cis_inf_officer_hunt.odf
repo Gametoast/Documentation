@@ -1,0 +1,51 @@
+[GameObjectClass]
+ClassParent         = "cis_inf_default_officer"
+
+
+[Properties]
+
+GeometryName            = "cis_inf_magnaguard"
+GeometryLowRes          = "cis_inf_magnaguard_low1"
+
+SkeletonName            = "magnaguard"
+SkeletonLowRes          = "magnaguardlz"
+SkeletonRootScale   = "1.24"
+
+// no head offset for this guy, unlike all other droids
+CollisionHeadOffset = "0.0 0.0 0.0"
+
+FirstPerson             = "CIS\cisoff;cis_1st_magnaguard"
+
+CAMERASECTION           = "STAND"
+EyePointOffset          = "0.0 1.8 0.0"
+TrackCenter             = "0.0 1.8 0.0
+TrackOffset             = "0.0 0.0 4"
+TiltValue               = "10.0"
+
+CAMERASECTION           = "STANDZOOM"
+EyePointOffset          = "0.0 1.8 0.0"
+TrackCenter             = "0.0 1.8 0.0
+TrackOffset             = "0.4 0.05 2.8"
+TiltValue               = "3.5"
+
+CAMERASECTION           = "CROUCH"
+EyePointOffset          = "0.0 1.3 0.0"
+TrackCenter             = "0.0 1.3 0.0
+TrackOffset             = "0.0 0.15 3.5"
+TiltValue               = "10.0"
+CameraBlendTime         = "0.75"
+
+CAMERASECTION           = "CROUCHZOOM"
+EyePointOffset          = "0.0 1.3 0.0"
+TrackCenter             = "0.0 1.3 0.0
+TrackOffset             = "0.4 0.2 2.8"
+TiltValue               = "3.5"
+
+CAMERASECTION           = "SPRINT"
+EyePointOffset          = "0.0 1.8 0.0"
+TrackCenter             = "0.0 1.8 0.0
+TrackOffset             = "0.0 0.0 5.0"
+TiltValue               = "10.0"
+CameraBlendTime         = "0.75"
+
+PointsToUnlock      = 0

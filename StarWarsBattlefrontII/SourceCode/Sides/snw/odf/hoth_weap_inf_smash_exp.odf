@@ -1,0 +1,30 @@
+[ExplosionClass]
+ClassLabel = "explosion"
+
+[Properties]
+
+// Important
+HurtOwner = 0
+
+Push 		  = "8.0"
+PushRadiusInner   = "3.5"
+PushRadiusOuter   = "4.5"
+
+Shake 		  = "1.2"
+ShakeLength	  = "0.60"
+ShakeRadiusInner  = "5.0"
+ShakeRadiusOuter  = "5.0"
+
+LifeSpan = "0.3"
+Damage = "800.0"
+DamageRadiusInner = "4.0"
+DamageRadiusOuter = "6.0"
+Effect = "hot_sfx_weap_smash"
+ArmorScale =	"1.0"
+HealthScale =	"1.0"
+ShieldScale =	"0.5"
+
+// push EVERYBODY!!!!!!
+PushDeadOnly = 0
+
+SoundProperty = "hoth_rumble"

@@ -1,0 +1,45 @@
+[WeaponClass]
+
+ClassLabel          = "melee"
+ClassParent         = "com_weap_inf_lightsaber"
+
+[Properties]
+HUDTag                  = "hud_wampa"
+
+// impact explosion
+Explosion           = "hoth_weap_inf_smash_exp"
+
+OnSound               = "overrideparentsound"
+TurnOnSound           = "overrideparentsound"
+TurnOffSound      = "overrideparentsound"
+HitEffect = "hot_sfx_weap_pawsmash"
+AddHitEffect = "com_sfx_bif"
+AddHitEffect = "com_sfx_zap"
+AddHitEffect = "com_sfx_blammo"
+AddHitEffect = "com_sfx_pow"
+
+HitSound            = "wampa_impact"
+
+GeometryName        = "hot_inf_weap_l_smash"
+ComboAnimationBank  = "human_sabre melee hot_inf_wampa"
+
+NumDamageEdges          = "3"
+OffhandFirePointName    = "hp_fire_lightsabre bone_r_hand"
+LightSaberLength        = "0.0"
+LightSaberWidth         = "0.08"
+//LightSaberTexture         = "bluelightsabre"
+//LightSaberTrailColor  = "7 85 255 255"
+
+OffhandGeometryName = "hot_inf_weap_r_smash"
+OffhandFirePointName    = "hp_fire_lightsabre bone_l_hand"
+LightSaberLength        = "0.0"
+LightSaberWidth         = "0.08"
+//LightSaberTexture         = "bluelightsabre"
+//LightSaberTrailColor  = "82 255 7 255"
+
+OffhandGeometryName = "hot_inf_weap_head_smash"
+OffhandFirePointName    = "hp_fire_lightsabre bone_head"
+LightSaberLength        = "0.0"
+LightSaberWidth         = "0.08"
+//LightSaberTexture         = "bluelightsabre"
+//LightSaberTrailColor  = "82 255 7 255"

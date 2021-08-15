@@ -1,0 +1,73 @@
+// Aayla
+[GameObjectClass]
+ClassParent           = "com_jedi_default"
+GeometryName            = "jed_inf_jedi.msh"
+
+[Properties]
+AISizeType              = "HOVER"
+
+GeometryName        = "jed_inf_jedi"
+GeometryLowRes      = "jed_inf_jedi_low1"
+OverrideTexture     = "jed_inf_jedi01"
+
+AnimationName        = "aalya"
+
+MaxHealth           = 200.0
+AddHealth           = 20.0
+
+MaxSpeed                = 8.0
+MaxStrafeSpeed          = 6.0
+MaxTurnSpeed            = 5.0
+JumpHeight              = 3.5
+RecoverFromTumble       = "1"
+
+NoEnterVehicles     	= 1
+
+//Jet Jump
+JetJump             = "10.0"    //The initial jump-push given when enabling the jet
+JetPush             = "0.0"     //The constant push given while the jet is enabled (20 is gravity)
+JetAcceleration     = "10.0"    // for characters with jet jump, use this acceleration for in air control
+JetEffect           = ""
+JetFuelRechargeRate = "0.0" //Additional fuel per second (fuel is 0 to 1)
+JetFuelCost         = "0.0" //Cost per second when hovering (only used for jet-hovers)(fuel is 0 to 1)
+JetFuelInitialCost  = "0.0" //4initial cost when jet jumping(fuel is 0 to 1)
+JetFuelMinBorder    = "0.0" //minimum fuel to perform a jet jump(fuel is 0 to 1)
+JetShowHud          = 0
+JetEnergyDrain      = 40.0
+
+CollisionScale      = "0.0 0.0 0.0" // don't take damage from collisions
+//Jet Jump End
+
+
+WEAPONSECTION = 1
+WeaponName1           = "jed_weap_lightsaber_aalya"
+WeaponAmmo1           = 0
+
+//SOUND
+//SndHeroSelectable           = ""
+//SndHeroSpawned              = "hero_secura_spawn"
+//SndHeroDefeated             = "hero_secura_exhausted"
+//SndHeroKiller               = "hero_secura_exhausted"
+
+//VOSound = "hero_secura_AcquiredTarget      AcquiredTarget"
+//VOSound = "hero_secura_KillingSpree4      KillingSpree4"
+
+VOUnitType                  = 0181
+//SoldierMusic            = "rep_hero_secura_lp"
+HurtSound                   = ""
+DeathSound                  = ""
+AcquiredTargetSound         = ""
+HidingSound                 = ""
+//ApproachingTargetSound    = ""
+FleeSound               = ""
+PreparingForDamageSound = ""
+HeardEnemySound         = ""
+ShockFadeOutTime        = ""
+ShockFadeInTime         = ""
+ShockFadeOutGain        = ""
+ShockSound              = ""
+ClothingRustleSound     = ""
+//LowHealthSound          = "com_inf_saber_ambient"
+LowHealthThreshold      = "1.1"
+FoleyFXClass            = "rep_inf_soldier"
+

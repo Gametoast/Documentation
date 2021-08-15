@@ -1,0 +1,20 @@
+[WeaponClass]
+ClassParent = "com_weap_veh_chaingun"
+
+[Properties]
+OrdnanceName = "all_weap_fly_snowspeeder_chaingun_ord"
+
+
+ZoomFirstPerson     = 1
+ZoomMin         = "2.0"
+ZoomMax         = "4.0"
+ZoomRate        = "1.0"
+
+WarmUpSound         = "all_weap_inf_chaingun_spin"
+WarmUpSoundStartPitch   = 0.5
+WarmUpSoundFadeInTime   = 0.2
+WarmUpSoundFadeOutTime  = 0.2
+
+BarrelSound         = "all_weap_inf_chaingun_fire"
+BarrelSoundFadeInTime   = 0.2
+BarrelSoundFadeOutTime  = 0.1

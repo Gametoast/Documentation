@@ -1,0 +1,16 @@
+[GameObjectClass]
+
+// Base class for all alliance soldiers, inherits from com_inf_default
+ClassParent             = "com_inf_default"
+
+[Properties]
+
+
+HurtSound               = "all_inf_com_chatter_wound"
+DeathSound              = "all_inf_com_chatter_death"
+DamageRegionSound       = "allmalechoke"
+FoleyFXClass            = "all_inf_soldier"
+
+
+
+

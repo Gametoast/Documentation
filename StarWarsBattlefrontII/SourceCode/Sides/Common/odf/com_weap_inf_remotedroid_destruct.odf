@@ -1,0 +1,28 @@
+[WeaponClass]
+ClassLabel          = "destruct"
+
+[Properties]
+IconTexture         = "HUD_orbital_strike_icon"
+
+RoundsPerClip           = "1"
+
+MaxPressedTime          = "3.0"
+
+InitialSalvoDelay       = "0.0"
+
+AimAzimuth          = "0.0"
+AimElevation            = "70.0"
+AimDistance         = "600.0"
+
+SalvoCount          = "4"
+SalvoDelay          = "0.75"
+
+ScatterDistance         = "2.5"
+
+ChargeSound             = "com_weap_remote_charge_fire"
+SelfDestructSoundPitch  = "0.3"
+
+OrdnanceName            = "com_weap_droid_incinerator_ord"
+HUDTag                  = "hud_detpack_plunger"
+
+

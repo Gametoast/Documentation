@@ -1,0 +1,121 @@
+[GameObjectClass]
+ClassParent         = "imp_inf_default"
+
+[Properties]
+PointsToUnlock      = 8
+
+UnitType            = "support"
+
+AnimationName	    = "impofficer"
+
+ScanningRange       = 30.0
+TransmitRange       = 300.0
+
+WEAPONSECTION = 1
+WeaponName         = "imp_weap_inf_sonic_blaster"
+WeaponAmmo         = 5
+
+WEAPONSECTION = 2
+WeaponName         = "imp_weap_inf_mortar_launcher"
+WeaponAmmo         = 5
+
+WEAPONSECTION = 3
+WeaponName         = "imp_weap_inf_buff_damage"
+WeaponAmmo         = 1
+WeaponChannel      = 1
+
+WEAPONSECTION = 4
+WeaponName         = "imp_weap_inf_remotedroid"
+WeaponAmmo         = 1
+WeaponChannel      = 1
+
+
+
+VOUnitType           = 43
+
+// VOSound = "imp_command_follow      SC_Follow"
+// VOSound = "imp_command_stopFollow      SC_StopFollow"
+// VOSound = "imp_command_stopVehicle      SC_VehicleWaitUp"
+// VOSound = "imp_command_getIn      SC_GetIn"
+// VOSound = "imp_command_getOut      SC_GetOut"
+// VOSound = "imp_response_follow      SC_FollowResponse"
+// VOSound = "imp_response_stopFollow      SC_StopFollowResponse"
+// VOSound = "imp_response_stopVehicle      SC_VehicleWaitUpResponse"
+// VOSound = "imp_response_getIn      SC_GetInResponse"
+// VOSound = "imp_response_getOut      SC_GetOutResponse"
+
+VOSound = "imp2_inf_pc_com_hostile      SpottedVO"
+VOSound = "imp2_inf_pc_com_bacta      NeedMedicVO"
+VOSound = "imp2_inf_pc_com_mechanic      NeedRepairVO"
+VOSound = "imp2_inf_pc_com_ammo      NeedAmmoVO"
+VOSound = "imp2_inf_pc_com_transport      NeedPickupVO"
+VOSound = "imp2_inf_pc_com_backup      NeedBackupVO"
+VOSound = "imp2_inf_pc_com_clear_area      AttackPositionVO"
+VOSound = "imp2_inf_pc_com_defend     DefendPositionVO"
+
+VOSound = "imp2_inf_pc_com_hostile_inVehicle      SpottedVO +InVehicle"
+VOSound = "imp2_inf_pc_com_bacta_inVehicle      NeedMedicVO +InVehicle"
+VOSound = "imp2_inf_pc_com_mechanic_inVehicle      NeedRepairVO +InVehicle"
+VOSound = "imp2_inf_pc_com_ammo_inVehicle      NeedAmmoVO +InVehicle"
+VOSound = "imp2_inf_pc_com_transport_inVehicle      NeedPickupVO +InVehicle"
+VOSound = "imp2_inf_pc_com_backup_inVehicle      NeedBackupVO +InVehicle"
+VOSound = "imp2_inf_pc_com_clear_area_inVehicle      AttackPositionVO +InVehicle"
+VOSound = "imp2_inf_pc_com_defend_inVehicle     DefendPositionVO +InVehicle"
+
+VOSound = "imp2_inf_chatter_AcquiredTarget_VOUnitNum1      AcquiredTarget +VOUnitNum1"
+// VOSound = "imp2_inf_chatter_AcquiredTarget_left      AcquiredTarget +left"
+// VOSound = "imp2_inf_chatter_AcquiredTarget_right      AcquiredTarget +right"
+VOSound = "imp2_inf_chatter_AcquiredTarget_VOUnitNum2      AcquiredTarget +VOUnitNum2"
+// VOSound = "imp2_inf_chatter_AcquiredTarget_VOUnitNum3      AcquiredTarget +VOUnitNum3"
+// VOSound = "imp2_inf_chatter_AcquiredTarget_VOUnitNum5      AcquiredTarget +VOUnitNum5"
+// VOSound = "imp2_inf_chatter_AcquiredTarget_VOUnitNum6      AcquiredTarget +VOUnitNum6"
+// VOSound = "imp2_inf_chatter_NotShootingCriticalHit_VOUnitNum6      NotShootingCriticalHit +VOUnitNum6"
+VOSound = "imp2_inf_chatter_AcquiredTarget_VOUnitNum10      AcquiredTarget +VOUnitNum10"
+// VOSound = "imp2_inf_chatter_NotShootingCriticalHit_VOUnitNum10      NotShootingCriticalHit +VOUnitNum10"
+VOSound = "imp2_inf_chatter_AcquiredTarget_VOUnitNum12      AcquiredTarget +VOUnitNum12"
+VOSound = "imp2_inf_chatter_AcquiredTarget_VOUnitNum11      AcquiredTarget +VOUnitNum11"
+// VOSound = "imp2_inf_chatter_NotShootingCriticalHit_VOUnitNum11      NotShootingCriticalHit +VOUnitNum11"
+VOSound = "imp2_inf_chatter_NearbyEnemySlaughter      NearbyEnemySlaughter"
+VOSound = "imp2_inf_chatter_NearbyFriendlySlaughter      NearbyFriendlySlaughter"
+// VOSound = "imp2_inf_chatter_KillingSpree4      KillingSpree4"
+// VOSound = "imp2_inf_chatter_KillingSpree8      KillingSpree8"
+// VOSound = "imp2_inf_chatter_HeadshotKill      HeadshotKill"
+VOSound = "imp2_inf_chatter_Grenade      Grenade"
+// VOSound = "imp2_inf_chatter_MissileIncoming      MissileIncoming"
+// VOSound = "imp2_inf_chatter_AcquiredTarget_IsSniper_VOUnitNum4      AcquiredTarget +IsSniper +VOUnitNum4"
+// VOSound = "imp2_inf_chatter_FriendlyFire      FriendlyFire"
+// VOSound = "imp2_inf_chatter_RebelsShootDeadBody      RebelsShootDeadBody"
+VOSound = "imp2_inf_chatter_GivePowerup      GivePowerup"
+VOSound = "imp2_inf_chatter_AcquiredTarget_IsTurret      AcquiredTarget +IsTurret"
+VOSound = "imp2_inf_chatter_AcquiredTarget_VOUnitNum121      AcquiredTarget +VOUnitNum121"
+// VOSound = "imp2_inf_chatter_AcquiredTarget_VOUnitNum123      AcquiredTarget +VOUnitNum123"
+// VOSound = "imp2_inf_chatter_AcquiredTarget_VOUnitNum124      AcquiredTarget +VOUnitNum124"
+// VOSound = "imp2_inf_chatter_NotShootingCriticalHit_VOUnitNum124      NotShootingCriticalHit +VOUnitNum124"
+// VOSound = "imp2_inf_chatter_AcquiredTarget_VOUnitNum125      AcquiredTarget +VOUnitNum125"
+// VOSound = "imp2_inf_chatter_NotShootingCriticalHit_VOUnitNum125      NotShootingCriticalHit +VOUnitNum125"
+// VOSound = "imp2_inf_chatter_AcquiredTarget_VOUnitNum126      AcquiredTarget +VOUnitNum126"
+// VOSound = "imp2_inf_chatter_NotShootingCriticalHit_VOUnitNum126      NotShootingCriticalHit +VOUnitNum126"
+// VOSound = "imp2_inf_chatter_AcquiredTarget_VOUnitNum127      AcquiredTarget +VOUnitNum127"
+// VOSound = "imp2_inf_chatter_NotShootingCriticalHit_VOUnitNum127      NotShootingCriticalHit +VOUnitNum127"
+// VOSound = "imp2_inf_chatter_NotShootingCriticalHit_VOUnitNum126      NotShootingCriticalHit +VOUnitNum126"
+// VOSound = "imp2_inf_chatter_AcquiredTarget_VOUnitNum132      AcquiredTarget +VOUnitNum132"
+// VOSound = "imp2_inf_chatter_NotShootingCriticalHit_VOUnitNum132      NotShootingCriticalHit +VOUnitNum132"
+VOSound = "imp2_inf_chatter_AcquiredTarget_VOUnitNum182      AcquiredTarget +VOUnitNum182"
+VOSound = "imp2_inf_chatter_AcquiredTarget_VOUnitNum183      AcquiredTarget +VOUnitNum183"
+VOSound = "imp2_inf_chatter_AcquiredTarget_VOUnitNum184      AcquiredTarget +VOUnitNum184"
+VOSound = "imp2_inf_chatter_AcquiredTarget_VOUnitNum185      AcquiredTarget +VOUnitNum185"
+VOSound = "imp2_inf_chatter_AcquiredTarget_VOUnitNum186      AcquiredTarget +VOUnitNum186"
+VOSound = "imp2_inf_chatter_AcquiredTarget_VOUnitNum187      AcquiredTarget +VOUnitNum187"
+VOSound = "imp2_inf_chatter_AcquiredTarget_VOUnitNum188      AcquiredTarget +VOUnitNum188"
+VOSound = "imp2_inf_chatter_AcquiredTarget_VOUnitNum189      AcquiredTarget +VOUnitNum189"
+VOSound = "imp2_inf_chatter_AcquiredTarget_VOUnitNum190      AcquiredTarget +VOUnitNum190"
+// VOSound = "imp2_inf_chatter_AcquiredTarget_VOUnitNum83      AcquiredTarget +VOUnitNum83"
+VOSound = "imp2_inf_chatter_AcquiredTarget_VOUnitNum82      AcquiredTarget +VOUnitNum82"
+// VOSound = "imp2_inf_chatter_AcquiredTarget      AcquiredTarget"
+VOSound = "imp2_inf_chatter_AcquiredTarget_VOUnitNum176      AcquiredTarget +VOUnitNum176"
+VOSound = "imp2_inf_chatter_AcquiredTarget_VOUnitNum175      AcquiredTarget +VOUnitNum175"
+VOSound = "imp2_inf_chatter_AcquiredTarget_VOUnitNum177      AcquiredTarget +VOUnitNum177"
+VOSound = "imp2_inf_chatter_AcquiredTarget_VOUnitNum172      AcquiredTarget +VOUnitNum172"
+VOSound = "imp2_inf_chatter_AcquiredTarget_VOUnitNum174      AcquiredTarget +VOUnitNum174"
+VOSound = "imp2_inf_chatter_AcquiredTarget_VOUnitNum173      AcquiredTarget +VOUnitNum173"
+VOSound = "imp2_inf_chatter_AcquiredTarget_VOUnitNum171      AcquiredTarget +VOUnitNum171"

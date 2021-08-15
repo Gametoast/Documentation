@@ -1,0 +1,26 @@
+[WeaponClass]
+
+ClassLabel          = "melee"
+ClassParent         = "com_weap_inf_lightsaber"
+
+[Properties]
+
+GeometryName        = "gam_inf_weap_axe"
+ComboAnimationBank  = "human_sabre melee gam_inf_axe"
+
+FirePointName    = "hp_fire"
+LightSaberLength        = "0.4"
+LightSaberWidth         = "0.75"
+//LightSaberTrailColor 	= "255 255 255 100"
+//LightSaberTexture = "gam_guard" // invalid texture to get trail to show up
+//LightSaberGlowTexture = "gam_guard"
+
+MinRange            = "0"
+OptimalRange        = "1.5"
+MaxRange        = "3"
+
+HitSound            = "com_weap_inf_grenade_bounce"
+
+OnSound				= "overrideparentsound"
+TurnOnSound			= "overrideparentsound"
+TurnOffSound		= "overrideparentsound"

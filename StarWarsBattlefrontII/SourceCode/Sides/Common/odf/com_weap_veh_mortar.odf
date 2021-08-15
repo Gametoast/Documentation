@@ -1,0 +1,56 @@
+[WeaponClass]
+ClassLabel 		= "cannon"
+
+[Properties]
+HUDTag 		    = "hud_vehicle_mortar"
+MuzzleFlash         = "com_sfx_muzzleflash_lg"
+Discharge           = "com_sfx_muzzleflash_lg"
+
+HeatRecoverRate     = "0.0"
+HeatThreshold       = "0.0"
+HeatPerShot         = "0.0"
+
+ShotDelay           = "0.5"
+
+MinSpread           = "0"
+MaxSpread           = "0"
+
+AutoAimSize         = "1"
+
+SalvoCount          = "1"
+SalvoDelay          = "0"
+InitialSalvoDelay   = "0.2"
+
+ScopeTexture        = "weapon_scope4"
+
+ShotElevate         = "0.1"
+
+OverheatSound       = "com_weap_energy_depleted"
+OverheatSoundPitch  = "0.5"
+OverheatStopSound   = "com_weap_energy_refilled"
+
+RecoilLengthLight   = "0.5"
+RecoilStrengthLight = "1"
+RecoilLengthHeavy   = "2.5"
+RecoilStrengthHeavy = "0.7"
+RecoilDecayHeavy    = "0.25"
+
+MinRange            = "0"
+OptimalRange        = "10"
+MaxRange            = "50"
+
+TargetEnemy			= "1"
+TargetNeutral			= "0"
+TargetFriendly			= "0"
+
+TargetPerson			= "0"
+TargetAnimal			= "0"
+TargetDroid			= "0"
+TargetVehicle			= "1"
+TargetBuilding			= "0"
+
+AITargetPerson			= "1"
+AITargetAnimal			= "1"
+AITargetDroid			= "1"
+AITargetVehicle			= "1"
+AITargetBuilding			= "1"

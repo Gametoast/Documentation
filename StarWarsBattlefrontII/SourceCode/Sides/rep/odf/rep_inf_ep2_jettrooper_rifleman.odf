@@ -1,0 +1,34 @@
+[GameObjectClass]
+ClassParent         = "rep_inf_default_jettrooper"
+
+[Properties]
+Label               = "Jet Trooper"
+UnitType            = "trooper"
+IconTexture         = "rep_htrooper_icon"
+
+GeometryName        = "rep_inf_jettrooper"
+GeometryLowRes      = "rep_inf_jettrooper_low1"
+FirstPerson         = "REP\repjettp;rep_1st_jettrooper"
+
+MaxHealth           	= 300.0
+
+WEAPONSECTION = 1
+WeaponName1         = "rep_weap_inf_rifle"
+WeaponAmmo1         = 4
+
+WEAPONSECTION = 2
+WeaponName2         = "rep_weap_inf_pistol"
+WeaponAmmo2         = 0
+
+WEAPONSECTION = 3
+WeaponName3         = "rep_weap_inf_thermaldetonator"
+WeaponAmmo3         = 4
+WeaponChannel3      = 1
+
+WEAPONSECTION = 4
+WeaponName4         = "rep_weap_inf_fusioncutter"
+WeaponAmmo4         = 1
+WeaponChannel4      = 1
+
+
+

@@ -1,0 +1,29 @@
+[GameObjectClass]
+// Base class for all imperial soldiers, inherits from com_inf_default
+ClassParent             = "com_inf_default"
+
+[Properties]
+// general VO
+HurtSound               = "imp_inf_com_chatter_wound"
+DeathSound              = "imp_inf_com_chatter_death"
+//AcquiredTargetSound     = "imp_inf_com_chatter_acquired"
+//HidingSound             = "imp_inf_com_chatter_hide"
+//ApproachingTargetSound  = "imp_inf_com_chatter_approach"
+//FleeSound               = "imp_inf_com_chatter_flee"
+//PreparingForDamageSound = "imp_inf_com_chatter_predamage"
+//HeardEnemySound         = "imp_inf_com_chatter_heard"
+DamageRegionSound       = "impmalechoke"
+ChokeSound              = "impmaleforcechoke"
+//ShockFadeOutTime      = "0.8"
+//ShockFadeInTime       = "2.0"
+ShockFadeOutGain        = ""
+ShockSound              = ""
+ClothingRustleSound     = ""
+LowHealthSound          = ""
+//LowHealthThreshold    = ".25"
+FoleyFXClass            = "imp_inf_trooper"
+
+
+
+
+

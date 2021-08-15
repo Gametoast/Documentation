@@ -1,0 +1,26 @@
+[WeaponClass]
+ClassParent         = "com_weap_inf_flamethrower"
+GeometryName        = "imp_weap_inf_rifle.msh"
+
+[Properties]
+HUDTag              = "hud_imp_flamethrower"
+GeometryName        = "imp_weap_inf_rifle"
+HighResGeometry     = "imp_1st_weap_inf_rifle"
+OrdnanceName        = "imp_weap_hero_flamethrower_ord"
+//FirePointName       = "hp_fire"
+
+//******************************************************
+//***************   SOUND       ****************
+//******************************************************
+
+FireSound           = "flame_on"
+ReloadSound         = "com_weap_inf_reload_med"
+ChangeModeSound     = "com_weap_inf_equip_med"
+FireEmptySound      = "com_weap_inf_ammo_empty"
+WeaponChangeSound   = "com_weap_inf_equip_med"
+JumpSound           = "com_weap_inf_rifle_mvt_jump"
+LandSound           = "com_weap_inf_rifle_mvt_land"
+RollSound           = "com_weap_inf_rifle_mvt_roll"
+//ProneSound          = "com_weap_inf_rifle_mvt_lie"
+SquatSound          = "com_weap_inf_rifle_mvt_squat"
+//StandSound          = "com_weap_inf_rifle_mvt_getup"

@@ -1,0 +1,33 @@
+[ExplosionClass]
+ClassLabel = "explosion"
+
+[Properties]
+LifeSpan            = "0.2"
+
+Damage              = "400.0"
+DamageRadiusInner       = "2.5"
+DamageRadiusOuter       = "7.5"
+
+Push                = "7.5"
+PushRadiusInner         = "0.0"
+PushRadiusOuter         = "0.0"
+
+Shake               = "0.2"
+ShakeLength         = "0.3"
+ShakeRadiusInner        = "2.0" 
+ShakeRadiusOuter        = "3.0"
+
+Effect              = "com_sfx_weap_flame_exp_lg"
+
+VehicleScale            = "0.0"
+ShieldScale         = "0.0"
+PersonScale         = "1.0"
+AnimalScale         = "1.0"
+DroidScale          = "1.0"
+BuildingScale           = "0.0"
+
+SoundProperty   = "imp_weap_ord_exp_lg"
+
+
+
+

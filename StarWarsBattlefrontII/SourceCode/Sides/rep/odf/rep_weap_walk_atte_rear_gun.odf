@@ -1,0 +1,25 @@
+[WeaponClass]
+ClassParent     = "com_weap_veh_chaingun"
+
+[Properties]
+SecondaryOrdnancePeriod = 3
+
+OrdnanceName    = "rep_weap_walk_atte_rear_gun_ord"
+
+
+ZoomMin         = "2.0"
+ZoomMax         = "2.0"
+ZoomRate        = "0.0"
+
+
+//*****SOUND*****//
+
+WarmUpSound         = "rep_weap_walk_atte_chaingun_spin"
+WarmUpSoundStartPitch   = 0.35
+WarmUpSoundFadeInTime   = 0.2
+WarmUpSoundFadeOutTime  = 0.2
+
+BarrelSound         = "rep_weap_walk_atte_chaingun_fire"
+BarrelSoundFadeInTime   = 0.2
+BarrelSoundFadeOutTime  = 0.1
+

@@ -1,0 +1,30 @@
+[WeaponClass]
+ClassLabel 			= "detonator"
+
+[Properties]
+RoundsPerClip 		= "15"
+ReloadTime 			= "4.0"
+LockOnRange			= "80.0"
+LockTime 			= "0.4"
+
+AnimationBank		= "grenade"
+FirePointName		= "hp_fire"
+
+ReloadSound     		= "cannonreload defer"
+
+TrackingSound       	= ""
+
+WEAPONSECTION		= 1
+OrdnanceName 		= "com_item_seismic_mine"
+
+ShotDelay 			= "0.5"  
+MinSpread			= "0.0"
+MaxSpread			= "0.0"
+AutoAimSize			= "1.0"
+
+SalvoCount			= "1"
+SalvoDelay			= "0.0"
+InitialSalvoDelay		= "0.0"
+
+MinStrength			= "0.2"
+MaxStrength			= "0.2"

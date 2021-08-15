@@ -1,0 +1,32 @@
+[WeaponClass]
+ClassLabel      = "grenade"
+
+[Properties]
+GeometryName        = "ewk_spear"
+
+RoundsPerClip       = "1"
+ReloadTime      = "1.25"
+
+LockOnRange     = "20.0"
+
+//AnimationBank     = "grenade"
+CustomAnimationBank = "ewok_spear tool"
+
+OrdnanceName        = "ewk_weap_inf_spear_ord"
+
+ShotDelay       = "0"  
+
+TargetEnemy     = "1"
+TargetNeutral       = "0"
+TargetFriendly      = "0"
+
+TargetPerson        = "1"
+TargetAnimal        = "1"
+TargetDroid     = "1"
+TargetVehicle       = "1"
+TargetBuilding      = "1"
+
+InitialSalvoDelay   = "0.3"
+ShotElevate     = "0.15"
+
+Firesound ="com_weap_throw"

@@ -1,0 +1,95 @@
+OffhandAnimation("stand_useforce", "FIRE")
+{
+    Loop("FinalFrame");
+    AimType("Torso");
+    BlendInTime(0.15);
+    BlendOutTime(0.15);
+}
+OffhandAnimation("stand_useforce", "FIRE2");
+OffhandAnimation("stand_useforce", "CHARGE");
+
+Animation("stand_attack1a_upper")
+{
+    AimType("None");
+    BlendInTime(0.0);
+    BlendOutTime(0.3);
+    BlendTimeTo("stand_attack1a_end", 0.0);
+    BlendTimeTo("stand_attack1b", 0.2);
+}
+Animation("stand_attack1a_lower")
+{
+    BlendInTime(0.3);
+    BlendOutTime(0.3);
+    BlendTimeTo("stand_attack1a_end", 0.0);
+    BlendTimeTo("stand_attack1b", 0.15);
+}
+
+// Throw stuff....
+ThrowAnimation("stand_throw");
+
+State("IDLE")
+{
+    Duration(0.0);  // infinite duration
+    EnergyRestoreRate();    // (0.0, "FromSoldier")
+    InputLock("Sprint");
+
+    Transition("ATTACK1")
+    {
+        If()
+        {
+            Break();    // all transitions are breaking if Duration is 0
+            Posture("Stand", "Crouch");
+            Button("Fire", "Press");
+        }
+    }
+}
+
+//Forward declare animations to allow BlendTimeTo references:
+State("ATTACK1")
+{
+    Posture("Stand");
+    Animation("stand_attack1a");
+
+    RestartAnimation();
+
+    InputLock("All", "!Thrust", "!Fire");
+
+    Duration(11, "Frames");
+
+    Transition("ATTACK1_2");
+}
+
+
+//Forward declare animations to allow BlendTimeTo references:
+State("ATTACK1_2")
+{
+    Posture("Stand");
+    Animation("stand_attack1a");
+
+    InputLock("All", "!Thrust", "!Fire");
+    Attack()
+    {
+	Edge(0);
+        DamageTime(12, 21, "Frames");
+        DamageLength(2.5);
+        DamageWidth(1.5);
+        Damage(1000);
+	Push(10.0);
+    }
+
+    Sound("com_weap_throw");
+
+    Transition("IDLE")
+    {
+        If()
+        {
+            Break(45, "Frames");    
+            Posture("Stand", "Crouch");
+            Button("Fire", "Press");
+            TimeStart(0.2);
+            TimeEnd(0.25, "FromEnd");   //, "SyncIfOvertime");
+        }
+    }
+
+    Transition("IDLE");
+}

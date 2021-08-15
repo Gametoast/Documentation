@@ -1,0 +1,23 @@
+[OrdnanceClass]
+ClassParent 		= "com_weap_veh_missile_ord"
+
+[Properties]
+GeometryName 		= "com_weap_missile"
+ExplosionName		= "all_weap_hover_combatspeeder_missile_exp"
+
+Damage			= "400"
+
+VehicleScale		= "1.0"
+PersonScale 		= "1.0"
+DroidScale 		= "1.0"
+BuildingScale		= "1.0"
+AnimalScale		= "1.0"
+
+MinSpeed 	    = "60.0"
+Acceleration	    = "60.0"
+Velocity            = "90"
+
+TurnRate            = "0.0"
+
+WaverRate           = "0.5" //how often it starts wavering
+WaverTurn           = ".2"

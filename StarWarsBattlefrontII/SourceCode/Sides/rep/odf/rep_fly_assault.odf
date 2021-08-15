@@ -1,0 +1,66 @@
+[GameObjectClass]
+
+ClassLabel		= "flyer"
+VehicleType		= "capitol"
+GeometryName		= "rep_fly_assault.msh"
+MapTexture		= "speeder_icon"
+StatusTexture		= "HUD_combat_speeder_icon"
+[Properties]
+FLYERSECTION 		= "BODY"
+GeometryName		= "rep_fly_assault"
+AnimationName		= "rep_fly_assault"
+CollisionScale 		= 100.0
+
+VehiclePosition			= "common.vehiclepositions.pilot"
+
+MaxHealth 		= 4000.0
+HealthType		= "vehicle"
+HitLocation		= "p_crithit 0"
+
+DamageStartPercent	= 60.0
+DamageStopPercent	= 20.0
+DamageEffect		= "com_sfx_vehiclespark"
+DamageAttachPoint	= "hp_damage_1"
+
+DamageStartPercent	= 30.0
+DamageStopPercent	= 20.0
+DamageEffect		= "com_sfx_vehiclesmoke"
+DamageAttachPoint	= "hp_damage_1"
+
+DamageStartPercent	= 19.0
+DamageStopPercent	= 0.0
+DamageEffect		= "com_sfx_vehicleflame"
+DamageAttachPoint	= "hp_damage_1"
+
+ExplosionCritical	= "rep_fly_assault_exp"
+ExplosionDestruct	= "rep_fly_assault_exp"
+
+EyePointOffset 		= "0.0 36.0 -15.0"
+TrackCenter		= "0.0 36.0 -15.0"
+TrackOffset 		= "0.0 0.0 0.0"
+NormalDirection 	= "0.0 -10.0 0.0"
+
+
+Acceleraton 		= 3.0
+MinSpeed 		= 3.0
+MaxSpeed 		= 12.0
+
+
+PCPitchRate 		= 15.0
+PCSpinRate		= 15.0
+PCTurnRate 		= 25.0
+
+
+PitchRate 		= 0.1
+PitchFilter 		= 5.0
+TurnRate 		= 0.1
+TurnFilter 		= 5.0
+BankAngle 		= 0.1
+BankFilter 		= 3.0
+LevelFilter 		= 5.0
+
+TakeoffTime 		= 10.0
+TakeoffSpeed 		= 10.0
+LandingTime 		= 20.0
+LandingSpeed 		= 8.0
+TakeoffHeight 			= 10.0

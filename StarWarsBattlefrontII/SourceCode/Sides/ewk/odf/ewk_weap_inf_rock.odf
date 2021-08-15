@@ -1,0 +1,38 @@
+[WeaponClass]
+ClassLabel      = "grenade"
+
+[Properties]
+
+GeometryName        = "ewk_rock"
+
+RoundsPerClip       = "1"
+ReloadTime      = "0.5"
+
+LockOnRange     = "30.0"
+
+//AnimationBank     = "grenade"
+FireAnim        = "1"
+OffhandWeapon           = 1
+
+OrdnanceName        = "ewk_weap_inf_rock_ord"
+
+ShotDelay       = "0"  
+
+ZoomMin             = "2.0"
+ZoomMax             = "2.0"
+ZoomRate            = "0.0"
+
+TargetEnemy     = "1"
+TargetNeutral       = "0"
+TargetFriendly      = "0"
+
+TargetPerson        = "1"
+TargetAnimal        = "1"
+TargetDroid     = "1"
+TargetVehicle       = "1"
+TargetBuilding      = "1"
+
+InitialSalvoDelay   = "0.51"
+ShotElevate     = "0.2"
+
+Firesound ="com_weap_throw"

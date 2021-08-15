@@ -1,0 +1,244 @@
+[GameObjectClass]
+ClassLabel 			= "flyer"
+VehicleType	 		= "transport"
+GeometryName 			= "cis_fly_maf.msh"
+
+[Properties]
+FLYERSECTION 			= "BODY"
+
+Label 				= "MAF"
+MapTexture 			= "aat_icon"
+HealthTexture			= "HUD_cis_maf_icon"
+VehiclePosition			= "common.vehiclepositions.pilot"
+MapScale 			= 1.5
+
+GeometryName 			= "cis_fly_maf"
+AnimationName			= "cis_fly_maf"
+//FirstPerson       		= "cis\cismafp;cis_1st_cockpit_MAF"
+
+CockpitTension			= 15
+
+//ExplosionCritical		= "cis_fly_droidfighter_exp"
+ExplosionDestruct		= "cis_fly_droidfighter_exp"
+CollisionScale 			= "1.5"
+CollisionThreshold		= "5.0"
+MaxHealth 			= 2160.0
+HealthType			= "vehicle"
+//HitLocation			= "p_crithit 2.0"
+
+
+Acceleraton 			= 20.0
+MinSpeed 			= -15.0
+MidSpeed			= 0.0
+StrafeSpeed			= 15.0
+MaxSpeed 			= 45.0
+
+PitchRate 			= 0.75
+PitchFilter 			= 1.75
+TurnRate            		= 1.0
+TurnFilter          		= 5.75
+BankAngle 			= 0.5
+BankFilter 			= 2.5
+LevelFilter 			= 2.0
+
+PCPitchRate 			= "15.0"
+PCSpinRate			= "15.0"
+PCTurnRate 			= "20.0"
+
+TakeoffTime 			= 1.0
+TakeoffSpeed 			= 5.0
+LandingTime 			= 1.5
+LandingSpeed 			= 8.0
+TakeoffHeight 			= 10.0
+
+EyePointOffset			= "0.0 5.0 -6.0"
+TrackCenter 			= "0.0 10.0 -40.0"
+TrackOffset 			= "0.0 0.0 0.0"
+//				= "0.0 0.0 5.0"
+TiltValue			= "0.0"
+
+AimTension			= "20.0"//how much the reticule swims
+MoveTension			= "4.25"//how much swim the craft has from the center of the screen
+
+//WEAPON SYSTEMS
+
+//WEAPONSECTION			= 1
+//
+//WeaponName			= "cis_weap_fly_maf_cannon
+//WeaponAmmo			= "0"
+//
+//AimerNodeName 			= "aimer_r_laser"
+//FirePointName			= "hp_laser2"
+//NextAimer			= "-"
+//AimerNodeName			= "aimer_l_laser"
+//FirePointName			= "hp_laser1"
+
+
+
+WEAPONSECTION			= 1
+WeaponName			= "cis_weap_fly_maf_cannon"
+WeaponAmmo			= "0"
+
+AimerNodeName			= "hp_cannon1"
+NextAimer 			= "-"
+AimerNodeName			= "hp_cannon2"
+
+//For co-pilot position
+WEAPONSECTION			= 2
+WeaponName			= "cis_weap_fly_maf_torpedo"
+WeaponAmmo			= "5"
+AimerNodeName 			= "R_Single_Cannon"
+FirePointName			= "hp_gun2"
+NextAimer			= "-"
+AimerNodeName			= "L_Single_Cannon"
+FirePointName			= "hp_gun1"
+
+FLYERSECTION			= "TURRET1"
+
+VehiclePosition			= "common.vehiclepositions.copilot"
+//FirstPerson       		= "cis\cissccam;cis_1st_cockpit_securitycam"
+ForceMode			= "2"
+PitchRate			= 0.8
+PitchFilter			= 2.75
+TurnRate			= 1.3
+TurnFilter			= 2.75
+
+YawLimits			= "-75.0 75.0"
+PitchLimits			= "10.0 40.0"
+ThirdPersonFOV			= "55"
+
+EyePointOffset			= "0.0 15.0 -6.0"
+TrackCenter			= "0.0 9.0 0.0"
+TrackOffset			= "0.0 0.0 6.0"
+
+WEAPONSECTION			= 1
+
+WeaponName			= "cis_weap_fly_maf_laser"
+WeaponAmmo			= "0"
+
+AimerNodeName 			= "aimer_r_laser"
+AimerYawLimits			= "-280.0 20.0"
+//AimerPitchLimits		= "10.0 120.0"
+BarrelNodeName			= "barrel_r_laser"
+FirePointName			= "hp_laser2"
+NextAimer			= "-"
+AimerNodeName			= "aimer_l_laser"
+AimerYawLimits			= "-20.0 280.0"
+//AimerPitchLimits		= "10.0 120.0"
+BarrelNodeName			= "barrel_l_laser"
+FirePointName			= "hp_laser1"
+
+
+FLYERSECTION			= "TURRET2"
+VehiclePosition			= "common.vehiclepositions.gunner"
+//FirstPerson       		= "cis\cissccam;cis_1st_cockpit_securitycam"
+WeaponSection			= 1
+WeaponName 			= "cis_weap_fly_maf_cannon"
+WeaponAmmo 			= "0"
+
+
+PitchLimits			= "-10.0 20.0"
+YawLimits			= "-180.0 180.0"
+
+PitchTurnFactor			= "0.0"
+
+TurretNodeName 			="turret_rearcannon"
+AimerNodeName			= "aimer_rearcannon"
+AimerPitchLimits 		= "-10.0 10.0"
+AimerYawLimits 			= "0.0 0.0"
+
+BarrelNodeName			= "barrel_r_rearcannon"
+BarrelRecoil			= 0.15
+FirePointName			= "hp_reargun2"
+
+NextBarrel 			= "-"
+
+BarrelNodeName			= "barrel_l_rearcannon"
+BarrelRecoil			= 0.15
+FirePointName			= "hp_reargun1"
+
+//Camera Placement
+//--------------
+EyePointOffset 			= "0.0 2.0 0.0"
+TrackCenter			= "0.0 0.0 -1.5"
+TrackOffset 			= "0.0 2.0 0.0"
+TiltValue			= "5.0"
+
+
+
+
+///////////  COLLISION //////////////////
+
+BuildingCollision 		= "p_sphere1"
+BuildingCollision 		= "p_sphere2"
+
+TerrainCollision 		= "p_sphere1"
+TerrainCollision 		= "p_sphere2"
+
+VehicleCollision 		= "p_sphere1"
+VehicleCollision 		= "p_sphere2"
+
+SoldierCollision 		= "p_wingL"
+SoldierCollision 		= "p_cannonL"
+SoldierCollision 		= "p_wingR"
+SoldierCollision 		= "p_cannonR"
+SoldierCollision 		= "p_gear"
+
+OrdnanceCollision 		= "p_wingL"
+OrdnanceCollision 		= "p_cannonL"
+OrdnanceCollision 		= "p_wingR"
+OrdnanceCollision 		= "p_cannonR"
+OrdnanceCollision 		= "p_gear"
+
+/// Chunks
+
+CHUNKSECTION 		= "CHUNK1"
+ChunkGeometryName 	= "cis_fly_maf_chunk1"
+ChunkNodeName 		= ""
+ChunkTerrainCollisions 	= "15"
+ChunkTerrainEffect 	= "dirtspray"
+ChunkPhysics 		= "FULL"
+ChunkOmega 		= "-2.0 1.0 2.5"
+ChunkSpeed		= "12.0"
+ChunkUpFactor		= "4.00"
+
+CHUNKSECTION 		= "CHUNK2"
+ChunkGeometryName 	= "cis_fly_maf_chunk2"
+ChunkNodeName 		= ""
+ChunkTerrainCollisions 	= "10"
+ChunkTerrainEffect 	= "dirtspray"
+ChunkPhysics 		= "FULL"
+ChunkOmega 		= "2.5 1.0 2.5"
+ChunkSpeed		= "10.0"
+ChunkUpFactor		= "5.00"
+
+CHUNKSECTION 		= "CHUNK3"
+ChunkGeometryName 	= "cis_fly_maf_chunk3"
+ChunkNodeName 		= ""
+ChunkTerrainCollisions 	= "0"
+ChunkTerrainEffect 	= "com_sfx_explosion_lg"
+ChunkPhysics 		= "FULL"
+ChunkOmega 		= "-1.1 0.3 2.9"
+ChunkSpeed		= "5.0"
+ChunkUpFactor		= "5.0"
+
+
+// SOUND
+
+EngineSound 		= "cis_fly_maf_engine_parameterized"
+TakeoffSound 		= ""
+LandSound    		= ""
+HurtSound    		= ""
+DeathSound   		= "imp_weap_ord_exp_lg"
+VehicleCollisionSound   ="com_veh_collision_lg"
+TurnOnSound  		= ""
+TurnOffSound 		= ""
+Music        		= ""
+Cockpit1stPersonSound   = "cis_inf_com_space_chatter" // Sound which is triggered every frame when the player is in first person mode.
+Cockpit3rdPersonSound   = "cis_inf_com_space_chatter" // Sound which is triggered every frame when the player is in third person mode.
+CISMusic                ="cis_vehicle"
+RepMusic                ="rep_vehicle"
+ImpMusic                ="imp_vehicle"
+MusicSpeed   		= ".15"
+MusicDelay   		= "3.0"
+FoleyFXGroup    		= "metal_foley"

@@ -1,0 +1,48 @@
+[WeaponClass]
+
+ClassLabel      = "melee"
+ClassParent     = "com_weap_inf_lightsaber"
+
+[Properties]
+
+OnSound             = "override_parent_sound"
+TurnOnSound         = "override_parent_sound"
+TurnOffSound        = "override_parent_sound"
+HitEffect           = " "
+HitSound            = "acklaystepleft"
+DeflectEffect       = " "
+DeflectSound        = "acklaystepright"
+
+
+GeometryName        = "ack_weap_r_smash"
+ComboAnimationBank  = "human_sabre melee geo_inf_acklay"
+
+NumDamageEdges          = "3"
+OffhandFirePointName    = "hp_fire_lightsabre bone_r_finger1"
+LightSaberLength        = "0.0"
+LightSaberWidth         = "0.08"
+//LightSaberTexture         = "bluelightsabre"
+//LightSaberTrailColor  = "7 85 255 255"
+
+OffhandGeometryName = "ack_weap_l_smash"
+OffhandFirePointName    = "hp_fire_lightsabre bone_l_finger1"
+LightSaberLength        = "0.0"
+LightSaberWidth         = "0.08"
+//LightSaberTexture         = "bluelightsabre"
+//LightSaberTrailColor  = "82 255 7 255"
+
+// and one for the bite
+OffhandGeometryName = "ack_weap_l_smash"
+OffhandFirePointName    = "hp_fire_lightsabre bone_head"
+LightSaberLength        = "0.0"
+LightSaberWidth         = "0.08"
+//LightSaberTexture         = "bluelightsabre"
+//LightSaberTrailColor  = "82 255 7 255"
+
+
+MinRange            = "0"
+OptimalRange        = "3.0"
+MaxRange            = "5.0"
+// needs to be so high because the silly eyepoint is y=4m, 
+// which accounts for part of the range
+

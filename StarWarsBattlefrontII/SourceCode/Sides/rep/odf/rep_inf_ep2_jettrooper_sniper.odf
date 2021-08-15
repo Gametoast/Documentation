@@ -1,0 +1,41 @@
+[GameObjectClass]
+ClassParent         = "rep_inf_default_jettrooper"
+
+[Properties]
+Label               = "Arc Trooper"
+UnitType            = "trooper"
+IconTexture         = "rep_htrooper_icon"
+
+GeometryName        = "rep_inf_jettrooper"
+GeometryLowRes      = "rep_inf_jettrooper_low1"
+FirstPerson         = "REP\repjettp;rep_1st_jettrooper"
+MaxHealth           	= 300.0
+JetJump             = "0.0" //7 //The initial jump-push given when enabling the jet
+JetPush             = "0.0" //The constant push given while the jet is enabled (20 is gravity)
+JetAcceleration     = "0.0" //Acceleration while hovering.
+//JetEffect           = "rep_sfx_jetpack"
+//JetType             = "hover"
+JetFuelRechargeRate = "0.0" //Additional fuel per second (fuel is 0 to 1)
+JetFuelCost         = "1.0" //Cost per second when hovering (only used for jet-hovers)(fuel is 0 to 1)
+JetFuelInitialCost  = "1.0" //initial cost when jet jumping(fuel is 0 to 1)
+JetFuelMinBorder    = "1.04" //minimum fuel to perform a jet jump(fuel is 0 to 1)
+
+WEAPONSECTION = 1
+WeaponName1         = "rep_weap_inf_sniper_rifle"
+WeaponAmmo1         = 7
+
+WEAPONSECTION = 2
+WeaponName2         = "rep_weap_inf_pistol"
+WeaponAmmo2         = 0
+
+WEAPONSECTION = 3
+WeaponName3         = "rep_weap_inf_thermaldetonator"
+WeaponAmmo3         = 2
+WeaponChannel3      = 1
+
+VOUnitType        	= 122
+
+
+
+
+

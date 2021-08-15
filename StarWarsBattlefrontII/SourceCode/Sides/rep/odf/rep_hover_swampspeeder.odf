@@ -1,0 +1,277 @@
+[GameObjectClass]
+ClassLabel          = "hover"
+GeometryName            = "rep_hover_swampspeeder.msh"
+
+[Properties]
+
+
+FLYERSECTION            = "BODY"
+VehicleType             = "medium"
+AISizeType          = "MEDIUM"
+FirstPersonFOV          = 52
+CockpitTension          = 42
+
+WaterEffect             = "com_sfx_waterwake_lg"
+WakeEffect          = "hailfire_wake"
+
+MapTexture          = "combatspeeder_icon"
+HealthTexture           = "HUD_combat_speeder_icon"
+VehiclePosition         = "common.vehiclepositions.pilot"
+MapScale            = 1.5
+
+GeometryName            = "rep_hover_swampspeeder"
+//FirstPerson             = "all\allcmspd;all_1st_cockpit_combatspeeder"
+ExplosionName           = "rep_hover_fightertank_exp"
+
+MaxHealth           = 4500.0
+HealthType          = "vehicle"
+//HitLocation           = "p_crithit 0"
+
+TimeRequiredToEject	=	"2.5"
+EjectResistance			= "0.01"
+TimeTilReboard			= "2.5"
+
+CollisionScale          = 1.5
+CollisionThreshold      = 5.0
+
+SetAltitude         = 0.01
+GravityScale            = 2.0
+LiftSpring          = 10.0
+LiftDamp            = 3.0
+
+Acceleration            = 7.5
+Deceleration            = 2.0
+Traction            	= 75.0
+ForwardSpeed            = 12.0
+ReverseSpeed            = 6.0
+StrafeSpeed         = 6.0
+BoostSpeed              = 18.0
+BoostFOV            = 65
+BoostAcceleration       = 15.0
+
+EnergyBar               = 50
+EnergyAutoRestore       = 7.5
+EnergyBoostDrain        = 20
+EnergyTrickDrainSingleTap = 0
+EnergyTrickDrainDoubleTap = 0
+
+SpinRate            	= 1.7
+TurnRate            	= 1.7
+TurnFilter          	= 20.0
+PitchRate           	= 0.5
+PitchFilter         	= 20.0
+PitchDamp           	= 1.0
+
+//SpinRate            = 1.0
+//TurnRate            = 1.5
+//TurnFilter          = 5.0
+//PitchRate           = 0.5
+//PitchFilter         = 1.0
+//PitchDamp           = 1.0
+
+
+//AddSpringBody           = "-4.0 1.4 1.7 2.5"
+//BodySpringLength        = 1.0
+//AddSpringBody           = "4.0 1.4 1.7 2.5"
+//BodySpringLength        = 1.0
+
+//AddSpringBody           = "0.0 2.4 -2.0 3.5"
+//BodySpringLength        = 1.0
+//BodyOmegaXSpringFactor      = 2
+
+//VelocitySpring          = 5
+//VelocityDamp            = 2.5
+//OmegaXSpring            = 3.0
+//OmegaXDamp          = 3.0
+//OmegaZSpring            = 5.0
+//OmegaZDamp          = 1.5
+
+StrafeRollAngle         = 0.01
+ThrustPitchAngle        = 0.0
+BankAngle           = 0.001
+BankFilter          = 3.0 //low is slow - How quickly the bank returns to level
+LevelSpring         = 2.0 //low is slow - the force the restores level
+LevelDamp           = 1.0 //low is slow - the force that reduces the momentum of the rotation
+
+PCPitchRate             = "15.0"
+PCSpinRate          = "25.0"
+PCTurnRate          = "30.0"
+
+EyePointOffset          = "0.0 1.0 -2.2"
+TrackCenter         = "0.0 10.0 -5"
+TrackOffset             = "0.0 -7.0 2"
+TiltValue           = "10.0"
+
+//AutoAimSize         = 1.0
+
+//PitchLimits             = "-7 25"
+//YawLimits           = "-90 90"
+
+PilotPosition           = "hp_pilot"
+PilotAnimation          = "drive"
+
+VehiclePosition         = "common.vehicleposition.pilot"
+
+
+WEAPONSECTION = 1
+
+PitchLimits             = "-12.5 10.0"
+YawLimits           = "-45 45"
+PCPitchRate             = 15.0
+PCTurnRate          = 20.0
+
+TurnRate            = 1.5
+TurnFilter          = 10.0
+PitchRate           = 0.5
+PitchFilter         = 10.0
+PitchDamp           = 1.0
+PitchBuildupMultiplier  = 0.5
+TurnBuildupMultiplier   = 0.5
+
+VehiclePosition         = "common.vehicleposition.copilot"
+
+WeaponName          = "rep_weap_walk_atte_rear_gun"
+WeaponAmmo          = "0"
+
+
+AimerNodeName           = "aimer_turretL"
+AimerPitchLimits        = "-50 30"
+AimerYawLimits          = "-50.0 50.0"
+
+BarrelNodeName          = "barrel_l1"
+BarrelRecoil            = "0.25"
+FirePointName           = "hp_fire_l1"
+
+NextBarrel              = "-"
+
+BarrelNodeName          = "barrel_l2"
+BarrelRecoil            = "0.25"
+FirePointName           = "hp_fire_l2"
+
+NextAimer           = "-"
+
+AimerNodeName           = "aimer_turretR"
+AimerPitchLimits        = "-50 30"
+AimerYawLimits          = "-50.0 50.0"
+
+BarrelNodeName          = "barrel_r1"
+BarrelRecoil            = "0.25"
+FirePointName           = "hp_fire_r1"
+
+NextBarrel              = "-"
+
+BarrelNodeName          = "barrel_r2"
+BarrelRecoil            = "0.25"
+FirePointName           = "hp_fire_r2"
+
+
+PilotPosition           = "hp_pilot1"
+PilotAnimation          = "drive"
+
+
+TurretYawSound         = "turret_whir_yaw_lp"
+TurretYawSoundPitch    = "0.7"
+TurretPitchSound       = "turret_whir_pitch_lp"
+TurretPitchSoundPitch   = "0.7"
+TurretAmbientSound     = ""
+TurretActivateSound    = "vehicle_equip"
+TurretDeactivateSound  = "vehicle_equip"
+TurretStartSound       = ""
+TurretStopSound        = ""
+
+
+CHUNKSECTION            = "CHUNK1"
+ChunkGeometryName       = "rep_hover_fightertank_chunk1"
+ChunkNodeName           = ""
+ChunkTerrainCollisions      = "4"
+ChunkTerrainEffect      = "dirtspray"
+ChunkPhysics            = "FULL"
+ChunkOmega          = "1.0 4.0 1.5"
+ChunkBounciness         = 0.5
+ChunkStickiness         = 0.25
+ChunkSpeed          = "10.0"
+ChunkUpFactor           = "13.00"
+ChunkTrailEffect        = "com_sfx_chunktrail_sm"
+
+CHUNKSECTION            = "CHUNK2"
+ChunkGeometryName       = "rep_hover_fightertank_chunk2"
+ChunkNodeName           = ""
+ChunkTerrainCollisions      = "2"
+ChunkTerrainEffect      = "dirtspray"
+ChunkPhysics            = "FULL"
+ChunkOmega          = "2.0 0.5 2.0"
+ChunkBounciness         = 0.4
+ChunkStickiness         = 0.25
+ChunkSpeed          = "8.0"
+ChunkUpFactor           = "2.00"
+ChunkTrailEffect        = "com_sfx_chunktrail_sm"
+
+ChunkSmokeEffect        = "com_sfx_smokeplume"
+ChunkSmokeNodeName      = "hp_smoke_2"
+
+
+CHUNKSECTION            = "CHUNK3"
+ChunkGeometryName       = "rep_hover_fightertank_chunk3"
+ChunkNodeName           = ""
+ChunkTerrainCollisions      = "5"
+ChunkTerrainEffect      = "dirtspray"
+ChunkTrailEffect        = "com_sfx_chunktrail_sm"
+ChunkPhysics            = "FULL"
+ChunkOmega          = "3.0 2.0 2.0"
+ChunkSpeed          = "14.0"
+ChunkBounciness         = 0.5
+ChunkStickiness         = 0.25
+
+DamageStartPercent      = 50.0
+DamageStopPercent       = 30.0
+DamageEffect            = "com_sfx_vehiclespark"
+DamageEffectScale       = 1.5
+DamageInheritVelocity       = 0.5
+DamageAttachPoint       = "hp_damage_2"
+
+DamageStartPercent      = 30.0
+DamageStopPercent       = 2.0
+DamageEffect            = "com_sfx_vehiclesmoke"
+DamageEffectScale       = 1.5
+DamageInheritVelocity       = 0.5
+DamageAttachPoint       = "hp_damage_1"
+
+//DamageStartPercent        = 5.0
+//DamageStopPercent     = 0.0
+//DamageEffect          = "com_sfx_vehicleflame"
+//DamageEffectScale     = 1.5
+//DamageInheritVelocity     = 0.5
+//DamageAttachPoint     = "hp_damage_1"
+
+DamageStartPercent      = 30.0
+DamageStopPercent       = 2.0
+DamageEffect            = "com_sfx_vehiclesmoke"
+DamageInheritVelocity       = 0.5
+DamageAttachPoint       = "hp_damage_3"
+
+//DamageStartPercent        = 5.0
+//DamageStopPercent     = 0.0
+//DamageEffect          = "com_sfx_vehicleflame"
+//DamageEffectScale     = 1.5
+//DamageInheritVelocity     = 0.5
+//DamageAttachPoint     = "hp_damage_3"
+
+VOUnitType              = 126
+EngineSound         = "interceptorTank_engine_parameterized"
+TurnOnSound             = ""
+TurningOffSound         = ""
+TurnOffSound            = ""
+TurnOffTime             = ""
+HurtSound               = ""
+DeathSound              = "imp_weap_ord_exp_lg"
+VehicleCollisionSound       ="com_veh_collision_lg"
+Music                   = ""
+CisMusic            = "cis_vehicle"
+RepMusic            = "rep_vehicle"
+MusicSpeed              = ".25"
+MusicDelay              = "3.0"
+GroundedSound           = ""
+GroundedHeight          = ""
+BoostSound              = ""
+FoleyFXGroup            = "metal_foley"
+

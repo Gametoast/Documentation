@@ -1,0 +1,17 @@
+[GameObjectClass]
+ClassParent         = "rep_inf_default_officer"
+
+
+[Properties]
+Label               = "Arc Trooper"
+UnitType            = "support"
+IconTexture         = "rep_trooper_icon"
+
+GeometryName        = "rep_inf_arctrooper"
+GeometryLowRes      = "rep_inf_arctrooper_low1"
+FirstPerson         = "REP\reptroop;rep_1st_trooper"
+ClothODF	    = "rep_inf_arctrooper_cape"
+
+OverrideTexture     = "rep_inf_arc_red"
+OverrideTexture2    = "rep_inf_arc_pack_red"
+

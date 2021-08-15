@@ -1,0 +1,24 @@
+[OrdnanceClass]
+ClassLabel = "missile"
+[Properties]
+ImpactEffectWater = "com_sfx_watersplash_md"
+GeometryName = "com_weap_missile"
+ExplosionName = "rep_weap_fly_jedifighter_missile_exp"
+TrailEffect = "com_sfx_weap_rockettrail"
+LifeSpan = "6"
+Velocity = "300"
+Gravity = ".1"
+Rebound = "0"
+MaxDamage = "200"
+VehicleScale = "1"
+PersonScale = "1"
+DroidScale = "1"
+BuildingScale = ".25"
+AnimalScale = "1"
+TurnRate = "0"
+OrdnanceSound = "com_weap_inf_ord_hum_rocket"
+
+TurnRate            = "0.5"
+
+WaverRate = "2.0"
+WaverTurn = ".25"

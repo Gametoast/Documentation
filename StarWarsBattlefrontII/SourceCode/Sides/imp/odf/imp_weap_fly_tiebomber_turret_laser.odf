@@ -1,0 +1,16 @@
+[WeaponClass]
+ClassParent         = "com_weap_veh_fly_beam"
+
+[Properties]
+OrdnanceName        = "imp_weap_fly_tiebomber_turret_laser_ord"
+
+TargetLockMaxDistance       = "2500"
+TargetLockMaxDistanceLose   = "3500" 
+
+ZoomFirstPerson     = 1
+ZoomMin             = "2.0"
+ZoomMax             = "8.0"
+ZoomRate            = "0.75"
+
+FireSound           = "imp_weap_fly_tie_turret_laser_beam_fire"
+FireLoopSound       = "imp_weap_fly_tie_turret_laser_beam__loop"

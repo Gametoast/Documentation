@@ -1,0 +1,506 @@
+[GameObjectClass]
+ClassLabel 			= "commandwalker"
+GeometryName 			= "imp_walk_atat.msh"
+
+
+[Properties]
+
+//***********************************************
+//***********  VEHICLE VALUES AND INFO  *********
+//***********************************************
+
+WALKERSECTION 			= "BODY"
+// /\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\|
+VehicleType 			= "ATAT"
+AISizeType			= "Huge"
+NoCombatInterrupt		= "1"
+ReserveOneForPlayer		= "0"
+CockpitTension			= 15
+//ForceMode 			= "2"
+
+Label				= "AT-AT"
+VehiclePosition			= "common.vehiclepositions.pilot"
+MapTexture 			= "atat_icon"
+HealthTexture 			= "HUD_imp_atat_icon"
+MapScale 			= "3.5"
+
+ExplosionName			= "imp_walk_atat_exp"
+ExplosionOffset      		= "0.0 12.46 0.0"
+
+\\DeathAnimationExplosion		= "small_explosion"
+DeathAnimationExplosion		= "imp_sfx_atat_explosion"
+DeathAnimationExplosionTime	= "1.5"
+
+FinalExplosion			= "imp_walk_atat_finalexp"
+FinalExplosionOffset    		= "1.97 0.0 11.43"
+
+GeometryName 			= "imp_walk_atat"
+AnimationName 			= "imp_walk_atat"
+
+//HACK to add "imp_walk_atat1" to the req file
+AnimationExtraFile		= "imp_walk_atat1"
+//FirstPerson			= "IMP\impATAT;imp_1st_cockpit_atat"
+FirstPersonFOV			= "53"
+
+MaxHealth 			= "60000.0"
+HitLocation			= "p_neck_soldier 4.0"
+
+// dont know if these are working for vehicles but it would be cool
+ScanningRange			= "60.0"
+TransmitRange			= "60.0"
+
+//***********************************************
+//***********  COMMAND POST VALUES  *************
+//***********************************************
+
+SpawnPointCount 		= "6"
+SpawnPointLocation 		= "8.0 0.0 0.0 5"
+SpawnPointLocation 		= "8.0 0.0 4.0 5"
+SpawnPointLocation 		= "8.0 0.0 -4.0 5"
+SpawnPointLocation 		= "-8.0 0.0 0.0 355"
+SpawnPointLocation 		= "-8.0 0.0 4.0 355"
+SpawnPointLocation 		= "-8.0 0.0 -4.0 355"
+ValueBleed			= 10
+Value_ATK_Alliance 		= 10
+Value_ATK_CIS 			= 10
+Value_ATK_Empire 		= 10
+Value_ATK_Republic 		= 10
+Value_ATK_Locals 		= 0
+Value_DEF_Alliance 		= 0
+Value_DEF_CIS 			= 0
+Value_DEF_Empire 		= 0
+Value_DEF_Republic 		= 0
+Value_DEF_Locals 		= 0
+HUDIndexDisplay 		= 0
+LegRayHitLength 		= "16"
+
+SteerAtYawLimit         = "1"
+SteerAtStrafeLimit      = "0"
+CorrectAimForSteering   = "1"
+SteerTowardAimFactor    = "0.0"
+ReverseBackwardSteering = "1"       //steer in reverse like a car - ThrustAngleToStrafe works more intuitively this way
+ThrustAngleToStrafe     = "50"    //should match yaw limit or 0.0
+ThrustAngleToTurn       = "67.5"    //thrust angle to reach full forward turn speed
+ThrustAngleToStop       = "78.0"    //thrust angle to turn in place
+
+
+//***********************************************
+//***********  MOVEMENT VALUES  *****************
+//***********************************************
+
+Acceleraton 			= "1.0"
+MaxSpeed 			= "2.0"
+MaxStrafeSpeed 			= "0.0"
+MaxTurnSpeed 			= "0.4"
+
+PCMaxYawSpeed			= 1.0
+PCMaxTurnSpeed			= 1.0
+PCPitchRate 			= .6
+
+PitchRate             		= 0
+PitchFilter             	= 0
+TurnRate                	= 0
+TurnFilter              	= 0
+
+StoppedTurnSpeed		= "0.05"
+ForwardTurnSpeed		= "0.03"
+TurnThreshold			= "0.35"
+
+//***********************************************
+//***********  CAMERA VALUES  *******************
+//***********************************************
+
+EyePointOffset 			= "0.0 16.0 9.0"
+TrackCenter			= "0.0 17 1.0"
+TrackOffset 			= "0.0 5.5 6.5"
+TiltValue				= "8"
+
+AimerNodeName 			= "aimer_head"
+
+PitchLimits 			= "-35 15"
+YawLimits 			= "-35 35"
+PitchTurnFactor 		= "0.5"
+YawTurnFactor 			= "0.5"
+
+
+//***********************************************
+//***********  MAIN WEAPON VALUES  **************
+//***********************************************
+
+
+WEAPONSECTION		= 1
+
+//TurretNodeName 		= "aimer_head"
+
+WeaponName 			= "imp_weap_walk_atat_cannon_head"
+WeaponAmmo 			= "0"
+// /\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\|
+
+BarrelNodeName 			= "aimer_Lgun"
+
+AimerPitchLimits 		= "-90.0 90.0"
+AimerYawLimits 			= "-60.0 60.0"
+FirePointName 			= "hp_fire_Lgun"
+BarrelRecoil 			= "0.0"
+
+NextBarrel			= "-"
+
+BarrelNodeName 			= "aimer_Rgun"
+
+AimerPitchLimits 		= "-90.0 90.0"
+AimerYawLimits 			= "-60.0 60.0"
+FirePointName 			= "hp_fire_Rgun"
+BarrelRecoil 			= "0.0"
+
+//YawLimits 			= "-25 20"
+//PitchLimits 			= "-20 15"
+//PitchTurnFactor 		= "1.0"
+//YawTurnFactor 			= "1.0"
+//PCPitchTurnFactor 		= "10.0"
+//PCYawTurnFactor 		= "10.0"
+//
+//EyePointOffset 			= "-1.0 0.0 9.0"
+//TrackCenter			= "0.0 4.0 4.0"
+//TrackOffset 			= "0.0 -1.0 6.0"
+
+
+
+WEAPONSECTION		= 2
+
+WeaponName 			= "imp_weap_walk_atat_cannon_chin"
+WeaponAmmo 			= "0"	//"5"
+
+// /\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\|
+AimerPitchLimits 		= "-30 15"
+AimerYawLimits 			= "-70 70"
+FireOutsideLimits		= 1
+AimerNodeName 			= "barrel_Lcannon"
+FirePoint 			= "hp_fire_Lcannon"
+BarrelRecoil 			= "0.4"
+
+NextAimer 			= "-"
+
+AimerPitchLimits 		= "-30 15"
+AimerYawLimits 			= "-70 70"
+FireOutsideLimits		= 1
+AimerNodeName 			= "barrel_Rcannon"
+FirePoint 			= "hp_fire_Rcannon"
+BarrelRecoil 			= "0.4"
+
+TEMP_AnimationSpeed 		= "1.5"
+TEMP_Type 			= "1"	//Sets up collision and number of legs, will be moved to the msh file
+
+WaterDamageInterval		= "1.0"
+WaterDamageAmount		= "10.0"
+
+//PassengerSlots          	= "6"
+//PassengerEyePoint       	= "hp_passenger"
+//EyePointOffset			- "4.0 12.0 0.0"
+
+
+
+//***********************************************
+//***********  VISUAL EFFECTS  ******************
+//***********************************************
+
+StompEffect 			= "bigwalkerstomp"
+StompDecal			= "decal_atat_footprint"
+StompDecalSize			= "2.5"
+
+DeathShakeDelay 		= "3.5"
+DeathShakeForce 		= "1.0"
+DeathShakeDuration 		= "1.0"
+DeathShakeRadius 		= "30.0"
+
+//***********************************************
+//***********  ANIMATION VALUES  ****************
+//***********************************************
+
+LegPairCount			= "2"
+
+WalkerLegPair			= "front_legs"
+
+LegBoneLeft			= "bone_fl_thigh"
+LegBoneRight			= "bone_fr_thigh"
+
+LegBoneTopLeft			= "bone_fl_thigh"
+LegBoneTopRight			= "bone_fr_thigh"
+
+TerrainLeft			= "p_front_left"
+TerrainRight			= "p_front_right"
+
+FootBoneLeft			= "bone_l_toe"
+FootBoneRight			= "bone_r_toe"
+
+WalkerLegPair			= "back_legs"
+
+LegBoneLeft			= "bone_bl_thigh"
+LegBoneRight			= "bone_br_thigh"
+
+LegBoneTopLeft			= "bone_bl_thigh"
+LegBoneTopRight			= "bone_br_thigh"
+
+TerrainLeft			= "p_back_left"
+TerrainRight			= "p_back_right"
+
+FootBoneLeft			= "bone_l_toe"
+FootBoneRight			= "bone_r_toe"
+
+//***********************************************
+//***********  COLLISION VALUES  ****************
+//***********************************************
+TerrainCollision 		= "p_front_left"
+TerrainCollision 		= "p_back_right"
+TerrainCollision 		= "p_front_right"
+TerrainCollision 		= "p_back_left"
+
+BuildingCollision 		= "p_front_left"
+BuildingCollision 		= "p_front_right"
+BuildingCollision 		= "p_back_left"
+BuildingCollision 		= "p_back_right"
+BuildingCollision		= "p_main_building"
+BuildingCollision		= "p_head_building"
+
+TargetableCollision		= "p_front_left_thigh"
+TargetableCollision		= "p_front_left_shin"
+TargetableCollision		= "p_front_right_thigh"
+TargetableCollision		= "p_front_right_shin"
+TargetableCollision		= "p_back_left_thigh"
+TargetableCollision		= "p_back_left_shin"
+TargetableCollision		= "p_back_right_thigh"
+TargetableCollision		= "p_back_right_shin"
+
+TowCableCollision 		= "p_front_left_thigh 0.36 0.0 1.06"
+SmashParkedFlyers			= "1"
+TowCableCollision 		= "p_front_left_shin 0.36 0.0 1.06"
+TowCableCollision 		= "p_front_left 0.5 0.0 1.1"
+
+TowCableCollision 		= "p_front_right_thigh -0.36 0.0 1.06"
+TowCableCollision 		= "p_front_right_shin -0.36 0.0 1.06"
+TowCableCollision 		= "p_front_right -0.5 0.0 1.1"
+
+TowCableCollision 		= "p_back_right_thigh -0.36 0.0 -1.06"
+TowCableCollision 		= "p_back_right_shin -0.36 0.0 -1.06"
+TowCableCollision 		= "p_back_right -0.5 0.0 -1.1"
+
+TowCableCollision 		= "p_back_left_thigh 0.36 0.0 -1.06"
+TowCableCollision 		= "p_back_left_shin 0.36 0.0 -1.06"
+TowCableCollision 		= "p_back_left 0.5 0.0 -1.1"
+
+VehicleCollision		="p_front_left_vehicle"
+VehicleCollision		="p_front_right_vehicle"
+VehicleCollision		="p_back_left_vehicle"
+VehicleCollision		="p_back_right_vehicle"
+VehicleCollision		="p_main_vehicle"
+VehicleCollision		="p_head_vehicle"
+
+OrdnanceCollision		= "p_main_soldier1"
+OrdnanceCollision		= "p_main_soldier2"
+OrdnanceCollision		= "p_main_soldier3"
+OrdnanceCollision		= "p_main_soldier4"
+OrdnanceCollision		= "p_main_soldier5"
+OrdnanceCollision		= "p_neck_soldier"
+OrdnanceCollision		= "p_head_soldier"
+OrdnanceCollision		= "p_front_left_thigh"
+OrdnanceCollision		= "p_front_left_shin"
+OrdnanceCollision		= "p_front_left"
+OrdnanceCollision		= "p_front_right_thigh"
+OrdnanceCollision		= "p_front_right_shin"
+OrdnanceCollision		= "p_front_right"
+OrdnanceCollision		= "p_back_left_thigh"
+OrdnanceCollision		= "p_back_left_shin"
+OrdnanceCollision		= "p_back_left"
+OrdnanceCollision		= "p_back_right_thigh"
+OrdnanceCollision		= "p_back_right_shin"
+OrdnanceCollision		= "p_back_right"
+
+SoldierCollision		= "p_main_soldier1"
+SoldierCollision		= "p_main_soldier2"
+SoldierCollision		= "p_main_soldier3"
+SoldierCollision		= "p_main_soldier4"
+SoldierCollision		= "p_main_soldier5"
+SoldierCollision		= "p_neck_soldier"
+SoldierCollision		= "p_head_soldier"
+SoldierCollision		= "p_front_left_thigh"
+SoldierCollision		= "p_front_left_shin"
+SoldierCollision		= "p_front_left"
+SoldierCollision		= "p_front_right_thigh"
+SoldierCollision		= "p_front_right_shin"
+SoldierCollision		= "p_front_right"
+SoldierCollision		= "p_back_left_thigh"
+SoldierCollision		= "p_back_left_shin"
+SoldierCollision		= "p_back_left"
+SoldierCollision		= "p_back_right_thigh"
+SoldierCollision		= "p_back_right_shin"
+SoldierCollision		= "p_back_right"
+
+//***********************************************
+//***********  DAMAGE VALUES  ****************
+//***********************************************
+
+DamageStartPercent		= 60.0
+DamageStopPercent		= 20.0
+DamageEffect			= "com_sfx_vehiclespark"
+DamageAttachPoint		= "bone_fl_thigh"
+
+DamageStartPercent		= 60.0
+DamageStopPercent		= 20.0
+DamageEffect			= "com_sfx_vehiclespark"
+DamageAttachPoint		= "bone_fr_thigh"
+
+DamageStartPercent		= 60.0
+DamageStopPercent		= 20.0
+DamageEffect			= "com_sfx_vehiclespark"
+DamageAttachPoint		= "bone_bl_thigh"
+
+DamageStartPercent		= 60.0
+DamageStopPercent		= 20.0
+DamageEffect			= "com_sfx_vehiclespark"
+DamageAttachPoint		= "bone_br_thigh"
+
+DamageStartPercent		= 45.0
+DamageStopPercent		= 20.0
+DamageEffect			= "com_sfx_vehiclespark"
+DamageAttachPoint		= "bone_fl_calf"
+
+DamageStartPercent		= 45.0
+DamageStopPercent		= 20.0
+DamageEffect			= "com_sfx_vehiclespark"
+DamageAttachPoint		= "bone_fr_calf"
+
+DamageStartPercent		= 45.0
+DamageStopPercent		= 20.0
+DamageEffect			= "com_sfx_vehiclespark"
+DamageAttachPoint		= "bone_bl_calf"
+
+DamageStartPercent		= 45.0
+DamageStopPercent		= 20.0
+DamageEffect			= "com_sfx_vehiclespark"
+DamageAttachPoint		= "bone_br_calf"
+
+//DamageStartPercent		= 30.0
+//DamageStopPercent		= 20.0
+//DamageEffect			= "com_sfx_vehiclesmoke"
+//DamageEffectScale		= 3.0
+//DamageInheritVelocity		= 0.0
+//DamageAttachPoint		= "hp_damage_1"
+
+//DamageStartPercent		= 15.0
+//DamageStopPercent		= 0.0
+//DamageEffect			= "com_sfx_vehicleflame"
+//DamageEffectScale		= 3.0
+//DamageInheritVelocity		= 0.0
+//DamageAttachPoint		= "hp_damage_1"
+
+//***********************************************
+//***********  DEATH EXPLOSION VALUES  **********
+//***********************************************
+
+CHUNKSECTION 			= "CHUNK1"
+ChunkGeometryName 		= "imp_walk_atat_chunk1"
+ChunkNodeName 	= ""
+ChunkTerrainCollisions 		= "0"
+ChunkTerrainEffect 		= "dirtspray"
+ChunkPhysics 			= "FULL"
+ChunkOmega 			= "0.1 0.1 0.5"
+ChunkBounciness 		= 0.05
+ChunkStickiness 		= 0.05
+ChunkSpeed			= "0.0"
+ChunkTrailEffect 		= "com_sfx_chunktrail_sm"
+
+ChunkSmokeEffect 		= "com_sfx_smokeplume"
+ChunkSmokeNodeName 		= "hp_smoke_1"
+
+
+CHUNKSECTION 			= "CHUNK2"
+ChunkGeometryName 		= "imp_walk_atat_chunk2"
+ChunkNodeName 			= ""
+ChunkTerrainCollisions 		= "1"
+ChunkTerrainEffect 		= "com_sfx_explosion_lg"
+ChunkPhysics 			= "FULL"
+ChunkOmega 			= "0.5 0.5 0.3"
+ChunkBounciness 		= 0.45
+ChunkStickiness 		= 0.25
+ChunkSpeed			= "8.0"
+ChunkUpFactor			= "16.00"
+ChunkTrailEffect 		= "com_sfx_chunktrail_sm"
+
+
+CHUNKSECTION 			= "CHUNK3"
+ChunkGeometryName 		= "imp_walk_atat_chunk3"
+ChunkNodeName 			= ""
+ChunkTerrainCollisions 		= "1"
+ChunkTerrainEffect 		= "com_sfx_explosion_lg"
+ChunkTrailEffect		= "com_sfx_chunktrail_sm"
+ChunkPhysics 			= "FULL"
+ChunkOmega 			= "2.0 2.0 2.0"
+ChunkSpeed			= "4.0"
+ChunkUpFactor			= "8.00"
+
+
+CHUNKSECTION 			= "CHUNK4"
+ChunkGeometryName 		= "imp_walk_atat_chunk4"
+ChunkNodeName 			= ""
+ChunkTerrainCollisions 		= "3"
+ChunkTerrainEffect 		= "dirtspray"
+ChunkPhysics 			= "FULL"
+ChunkOmega 			= "0.4 0.2 1.0"
+ChunkBounciness 		= 0.55
+ChunkStickiness 		= 0.25
+ChunkSpeed			= "5.0"
+ChunkUpFactor			= "4.00"
+ChunkTrailEffect 		= "com_sfx_chunktrail_sm"
+
+
+CHUNKSECTION 			= "CHUNK5"
+ChunkGeometryName 		= "imp_walk_atat_chunk5"
+ChunkNodeName 			= ""
+ChunkTerrainCollisions 		= "3"
+ChunkTerrainEffect 		= "dirtspray"
+ChunkPhysics 			= "FULL"
+ChunkOmega 			= "2.0 0.5 2.0"
+ChunkBounciness 		= 0.45
+ChunkStickiness 		= 0.25
+ChunkSpeed			= "3.0"
+ChunkUpFactor			= "6.00"
+ChunkTrailEffect 		= "com_sfx_chunktrail_sm"
+
+
+CHUNKSECTION 			= "CHUNK6"
+ChunkGeometryName 		= "imp_walk_atat_chunk6"
+ChunkTerrainCollisions 		= "5"
+ChunkTerrainEffect 		= "dirtspray"
+ChunkPhysics 			= "FULL"
+ChunkOmega 			= "1.5 1.0 1.25"
+ChunkBounciness 			= 0.45
+ChunkStickiness 			= 0.25
+ChunkSpeed			= "5.0"
+ChunkUpFactor			= "3.00"
+ChunkTrailEffect 		= "com_sfx_chunktrail_sm"
+
+//*******************************************
+//***********  SOUND VALUES  ****************
+//*******************************************
+
+VOUnitType                      = 50
+StompDetectionType		= "1"
+FootstepSound0 			= "com_weap_layered_at_step"
+FootstepSound1 			= "com_weap_layered_at_step"
+FootstepSound2 			= "com_weap_layered_at_step"
+FootstepSound3 			= "com_weap_layered_at_step"
+HydraulicSound    		= "atst_leg_up"
+HydraulicSoundHeight		= "0.5"
+HydraulicLowerSound 		= ""
+//HydraulicLowerHeight 		= "0.5"
+HurtSound            		= ""
+DeathSound           		= "com_weap_obj_med_exp"
+//AllMusic			= "all_vehicle"
+ImpMusic    		        = "imp_vehicle"
+MusicSpeed              	= "0.0"
+MusicDelay              	= "5.0"
+EngineSound          		= "atst_engine_parameterized"
+TurnOnSound          		= ""
+TurnOnTime			= "1.0"
+TurningOffSound      		= ""
+TurnOffSound         		= ""
+TurnOffTime			= "1.0"

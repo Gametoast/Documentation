@@ -1,0 +1,31 @@
+[GameObjectClass]       
+ClassLabel          = "cloth"
+
+[Properties]
+attachedmesh		= "wok_inf_wookiewarrior"
+CrossConstraint		= 0
+
+
+VOUnitType          = 2
+
+//VOSound = "wok1_command_follow      SC_Follow"
+//VOSound = "wok1_command_stopFollow      SC_StopFollow"
+//VOSound = "wok1_command_stopVehicle      SC_VehicleWaitUp"
+//VOSound = "wok1_command_getIn      SC_GetIn"
+//VOSound = "wok1_command_getOut      SC_GetOut"
+//VOSound = "wok1_response_follow      SC_FollowResponse"
+//VOSound = "wok1_response_stopFollow      SC_StopFollowResponse"
+//VOSound = "wok1_response_stopVehicle      SC_VehicleWaitUpResponse"
+//VOSound = "wok1_response_getIn      SC_GetInResponse"
+//VOSound = "wok1_response_getOut      SC_GetOutResponse"
+
+VOSound = "wok1_inf_chatter_AcquiredTarget    AcquiredTarget"
+VOSound = "wok1_inf_chatter_NearbyEnemySlaughter      NearbyEnemySlaughter"
+VOSound = "wok1_inf_chatter_NearbyFriendlySlaughter      NearbyFriendlySlaughter"
+VOSound = "wok1_inf_chatter_KillingSpree4      KillingSpree4"
+VOSound = "wok1_inf_chatter_KillingSpree8      KillingSpree8"
+VOSound = "wok1_inf_chatter_HeadshotKill      HeadshotKill"
+VOSound = "wok1_inf_chatter_Grenade      Grenade"
+VOSound = "wok1_inf_chatter_FriendlyFire      FriendlyFire"
+VOSound = "wok1_inf_chatter_RebelsShootDeadBody      RebelsShootDeadBody"
+VOSound = "wok1_inf_chatter_GivePowerup      GivePowerup"

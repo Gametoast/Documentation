@@ -1,0 +1,38 @@
+[WeaponClass]
+ClassLabel      = "dispenser"
+
+[Properties]
+IconTexture     = "HUD_powerup_icon"
+
+RoundsPerClip       = "1"
+ReloadTime      = "1.0"
+LockOnRange     = "80.0"
+LockTime        = "0.4"
+
+OffhandWeapon   = 1
+
+RefillFromItem  = 0
+
+TrackingSound   = ""
+
+WEAPONSECTION   = 1
+
+ModeTexture     = "HUD_weap_health"
+ReticuleTexture = "reticule_00"
+OrdnanceName    = "com_item_powerup_dual"
+
+ShotDelay       = "0.0"
+MaxItems        = "4.0"
+
+AutoAimSize     = "1.0"
+
+SalvoCount      = "1"
+SalvoDelay      = "0.0"
+InitialSalvoDelay   = "0.5"
+
+MinStrength     = "0.3"
+MaxStrength     = "0.4"
+MaxPressedTime  = "0.0"
+
+
+

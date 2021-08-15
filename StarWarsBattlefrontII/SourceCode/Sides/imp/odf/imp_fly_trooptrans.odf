@@ -1,0 +1,535 @@
+[GameObjectClass]
+ClassLabel          = "commandflyer"
+GeometryName            = "imp_fly_shuttleproto.msh"
+
+[Properties]
+FLYERSECTION            = "BODY"
+Label               = "Lamda Shuttle"
+MapTexture          = "protoshuttle_icon"
+HealthTexture           = "HUD_rep_gunship_icon"
+VehiclePosition         = "common.vehiclepositions.pilot"
+
+MapScale            = 1.5
+MapViewMin          = 750
+MapViewMax          = 750
+
+GeometryName            = "imp_fly_shuttleproto"
+AnimationName           = "imp_fly_shuttleproto"
+
+PilotSkillRepairScale = 0.015
+
+// PathFollower Attributes
+PathFollowerClass           = "transport"
+PathFollowerBranchPaths     = "5"
+PathFollowerBranchMaxAngle  = "45"
+PathFollowerMinBranchDist   = "250.0"
+PathFollowerBranchRange     = "1500"
+
+
+//FirstPerson             = "IMP\impimplc;imp_1st_cockpit_landingcraft"
+CollisionScale          = 1.5
+
+CockpitTension      = 18
+
+MaxHealth           = 25000.0
+HealthType          = "vehicle"
+//HitLocation           = "p_crithit 1.5"
+
+SpawnPointCount         = "6"
+SpawnPointLocation      = "-6.0 -3.0 4.0 0"
+SpawnPointLocation      = "6.0 -3.0 4.0 0"
+SpawnPointLocation      = "-7.0 -3.0 0.0 0"
+SpawnPointLocation      = "7.0 -3.0 0.0 0"
+SpawnPointLocation      = "-6.0 -3.0 -4.0 0"
+SpawnPointLocation      = "6.0 -3.0 -4.0 0"
+AllyCount           = 65536
+Radius              = 0.0
+ValueBleed          = 10
+Value_ATK_Alliance      = 10
+Value_ATK_CIS           = 10
+Value_ATK_Empire        = 10
+Value_ATK_Republic      = 10
+Value_ATK_Locals        = 0
+Value_DEF_Alliance      = 0
+Value_DEF_CIS           = 0
+Value_DEF_Empire        = 0
+Value_DEF_Republic      = 0
+Value_DEF_Locals        = 0
+HUDIndexDisplay     = 0
+
+ReserveOneForPlayer     = "1"
+
+Acceleraton             = 30.0
+MinSpeed            = 20.0
+MidSpeed            = 40.0
+MaxSpeed            = 60.0
+
+EnergyBar = "150"
+EnergyAutoRestore = "12.5"
+EnergyBoostDrain = "20"
+EnergyTrickDrainSingleTap = "0"
+EnergyTrickDrainDoubleTap = "0"
+
+BoostAcceleration = "30"
+BoostSpeed = "100"
+TrickRollSpeed = "0"
+TrickFlipSpeed = "0"
+TrickSideRollStrafeSpeed = "0"
+
+FOVEffect3rd             = 90
+
+//PCPitchRate       = 15.0
+//PCSpinRate        = 15.0
+//PCTurnRate        = 25.0
+
+PitchRate           = .65
+PitchFilter             = 2.75
+TurnRate            = .35
+TurnFilter          = 2.75
+BankAngle           = 2.5
+BankFilter          = 2.5
+LevelFilter             = 1.5
+LevelFilterLanding      = 5.0 // LevelFilter for landing
+RollRate                = 1
+
+TakeoffTime             = 1.5
+TakeoffSpeed            = 10.0
+LandingTime             = 1.0
+LandingSpeed            = 6.0
+TakeoffHeight           = 2.0
+
+EyePointOffset          = "0.0 0.0 0.0"
+TrackCenter             = "0.0 0.0 0.0"
+TrackOffset             = "0.0 0.0 0.0"
+TiltValue           = "5"
+
+FOVEFFectMinCamOffset3rd = "0.0 6.0 25.0"
+FOVEFFectMaxCamOffset3rd = "0.0 10.0 10.0"
+
+AimTension              = "30.0"
+
+MoveTensionX            = "0.8"
+MoveTensionY            = "1.2 9.0"
+MoveTensionZ            = "4.25"
+
+
+WEAPONSECTION           = "1"
+
+WeaponName              ="imp_weap_fly_trooptrans_recoilless"
+WeaponAmmo              = "0"
+
+AimerNodeName           = "hp_gunr2"
+NextAimer               = "-"
+
+AimerNodeName           = "hp_gunl2"
+NextAimer               = "-"
+
+AimerNodeName           = "hp_gunr1"
+NextAimer               = "-"
+
+AimerNodeName           = "hp_gunl1"
+
+
+WEAPONSECTION           = "2"
+
+WeaponName              = "imp_weap_fly_trooptrans_ptorpedo"
+WeaponAmmo              = "0"
+
+AimerNodeName           = "hp_cannonl1"
+NextAimer               = "-"
+
+AimerNodeName           = "hp_cannonl1"
+NextAimer               = "-"
+
+AimerNodeName           = "hp_cannonl1"
+NextAimer               = "-"
+
+AimerNodeName           = "hp_cannonl1"
+NextAimer               = "-"
+
+AimerNodeName           = "hp_cannonl1"
+NextAimer               = "-"
+
+AimerNodeName           = "hp_cannonl2"
+NextAimer               = "-"
+
+AimerNodeName           = "hp_cannonl2"
+NextAimer               = "-"
+
+AimerNodeName           = "hp_cannonl2"
+NextAimer               = "-"
+
+AimerNodeName           = "hp_cannonl2"
+NextAimer               = "-"
+
+AimerNodeName           = "hp_cannonr1"
+NextAimer               = "-"
+
+AimerNodeName           = "hp_cannonr1"
+NextAimer               = "-"
+
+AimerNodeName           = "hp_cannonr1"
+NextAimer               = "-"
+
+AimerNodeName           = "hp_cannonr1"
+NextAimer               = "-"
+
+AimerNodeName           = "hp_cannonr1"
+NextAimer               = "-"
+
+AimerNodeName           = "hp_cannonr2"
+NextAimer               = "-"
+
+AimerNodeName           = "hp_cannonr2"
+NextAimer               = "-"
+
+AimerNodeName           = "hp_cannonr2"
+NextAimer               = "-"
+
+AimerNodeName           = "hp_cannonr2"
+NextAimer               = "-"
+
+AimerNodeName           = "hp_cannonr2"
+NextAimer               = "-"
+
+AimerNodeName           = "hp_cannonl2"
+
+
+FLYERSECTION            = "TURRET1"
+
+//FirstPerson             = "rep\repsccam;rep_1st_cockpit_securitycam"
+PitchRate           = 0.8
+PitchFilter         = 2.75
+TurnRate            = 1.3
+TurnFilter          = 2.75
+
+VehiclePosition         = "common.vehiclepositions.copilot"
+
+PitchLimits         = "-0 0"
+YawLimits           = "-0 0"
+EyePointOffset          = "0.0 10.0 0.0"
+TrackCenter         = "0.0 7.0 -10.0"
+TrackOffset         = "0.0 -2.0 22.0"
+TiltValue           = "7.0"
+
+ForceMode = 1
+
+WEAPONSECTION           = "1"
+WeaponName          = "imp_weap_fly_trooptrans_guided_rocket"
+WeaponAmmo          = "0"
+
+
+FLYERSECTION            = "TURRET2"
+//PilotType             = self
+
+//FirstPerson             = "all\allsccam;all_1st_cockpit_securitycam"
+EyePointOffset          = "0.0 -5.0 4.0"
+TrackCenter             = "0.0 0.0 0.0"
+TrackOffset             = "0 -0.8 1.25"  //"0 3 16"
+TiltValue               = "-2.0" //5
+FirstPersonFOV          = "50"
+ForceMode               = "1"
+
+VehiclePosition         = "common.vehiclepositions.gunner"
+
+WeaponName              = "imp_weap_fly_trooptrans_turret"
+WeaponAmmo              = "0"
+
+PitchLimits             = "-20.0 30.0" // -20 10
+YawLimits               = "120.0 240.0"
+
+PitchTurnFactor         = "0.0"
+
+TurretNodeName          ="aimer_tailgun_y"
+AimerNodeName           = "aimer_tailgun_x"
+AimerPitchLimits        = "-10.0 90.0"
+AimerYawLimits          = "-180.0 180.0"
+
+PitchRate           = 4.0
+//PitchFilter         = 2.75
+TurnRate            = 4.0
+//TurnFilter          = 2.75
+
+FLYERSECTION            = "TURRET3"
+
+//FirstPerson             = "all\allsccam;all_1st_cockpit_securitycam"
+EyePointOffset          = "0.0 2.5 4.0"
+TrackCenter             = "0.0 0.0 0.0"
+TrackOffset             = "0 3 30"
+TiltValue               = "5"
+FirstPersonFOV          = "50"
+ForceMode               = "1"
+
+VehiclePosition         = "common.vehiclepositions.passenger"
+
+PitchLimits             = "-20.0 10.0"
+YawLimits               = "-180.0 180.0"
+
+PitchTurnFactor         = "0.0"
+
+
+FLYERSECTION            = "TURRET4"
+
+//FirstPerson             = "all\allsccam;all_1st_cockpit_securitycam"
+EyePointOffset          = "0.0 2.5 4.0"
+TrackCenter             = "0.0 0.0 0.0"
+TrackOffset             = "0 3 30"
+TiltValue               = "5"
+FirstPersonFOV          = "50"
+ForceMode               = "1"
+
+VehiclePosition         = "common.vehiclepositions.passenger"
+
+PitchLimits             = "-20.0 10.0"
+YawLimits               = "-180.0 180.0"
+
+PitchTurnFactor         = "0.0"
+
+FLYERSECTION            = "TURRET5"
+
+//FirstPerson             = "all\allsccam;all_1st_cockpit_securitycam"
+EyePointOffset          = "0.0 2.5 4.0"
+TrackCenter             = "0.0 0.0 0.0"
+TrackOffset             = "0 3 30"
+TiltValue               = "5"
+FirstPersonFOV          = "50"
+ForceMode               = "1"
+
+VehiclePosition         = "common.vehiclepositions.passenger"
+
+PitchLimits             = "-20.0 10.0"
+YawLimits               = "-180.0 180.0"
+
+PitchTurnFactor         = "0.0"
+
+
+
+
+VehicleCollision        = "p_sphere1"
+VehicleCollision        = "p_sphere2"
+VehicleCollision        = "p_sphere3"
+VehicleCollision        = "p_sphere4"
+VehicleCollision        = "p_sphere5"
+VehicleCollision        = "p_sphere6"
+VehicleCollision        = "p_sphere7"
+VehicleCollision        = "p_sphere8"
+VehicleCollision        = "p_sphere9"
+VehicleCollision        = "p_sphere10"
+VehicleCollision        = "p_sphere11"
+
+BuildingCollision        = "p_sphere1"
+BuildingCollision        = "p_sphere2"
+BuildingCollision        = "p_sphere3"
+BuildingCollision        = "p_sphere4"
+BuildingCollision        = "p_sphere5"
+BuildingCollision        = "p_sphere6"
+BuildingCollision        = "p_sphere7"
+BuildingCollision        = "p_sphere8"
+BuildingCollision        = "p_sphere9"
+BuildingCollision        = "p_sphere10"
+BuildingCollision        = "p_sphere11"
+
+TerrainCollision        = "p_sphere1"
+TerrainCollision        = "p_sphere2"
+TerrainCollision        = "p_sphere3"
+TerrainCollision        = "p_sphere4"
+TerrainCollision        = "p_sphere5"
+TerrainCollision        = "p_sphere6"
+TerrainCollision        = "p_sphere7"
+TerrainCollision        = "p_sphere8"
+TerrainCollision        = "p_sphere9"
+TerrainCollision        = "p_sphere10"
+TerrainCollision        = "p_sphere11"
+
+OrdnanceCollision       = "p_cube1L"
+OrdnanceCollision       = "p_cube1R"
+OrdnanceCollision       = "p_cube2L"
+OrdnanceCollision       = "p_cube2R"
+OrdnanceCollision       = "p_cube3L"
+OrdnanceCollision       = "p_cube3R"
+OrdnanceCollision       = "p_cube4L"
+OrdnanceCollision       = "p_cube4R"
+OrdnanceCollision       = "p_cube5L"
+OrdnanceCollision       = "p_cube5R"
+OrdnanceCollision       = "p_cube6L"
+OrdnanceCollision       = "p_cube6R"
+OrdnanceCollision       = "p_cube7L"
+OrdnanceCollision       = "p_cube7R"
+OrdnanceCollision       = "p_cube8L"
+OrdnanceCollision       = "p_cube8R"
+
+SoldierCollision       = "p_cube1L"
+SoldierCollision       = "p_cube1R"
+SoldierCollision       = "p_cube2L"
+SoldierCollision       = "p_cube2R"
+SoldierCollision       = "p_cube3L"
+SoldierCollision       = "p_cube3R"
+SoldierCollision       = "p_cube4L"
+SoldierCollision       = "p_cube4R"
+SoldierCollision       = "p_cube5L"
+SoldierCollision       = "p_cube5R"
+SoldierCollision       = "p_cube6L"
+SoldierCollision       = "p_cube6R"
+SoldierCollision       = "p_cube7L"
+SoldierCollision       = "p_cube7R"
+SoldierCollision       = "p_cube8L"
+SoldierCollision       = "p_cube8R"
+
+ContrailEffect = "com_sfx_contrail"
+ContrailAttachPoint = "DummyRoot"
+ContrailAttachOffset  = "-7.75 -6.0 -0.6"
+ContrailEffectMinScale  = "0.0"
+ContrailEffectMaxScale  = "0.8"
+
+ContrailEffect = "com_sfx_contrail"
+ContrailAttachPoint = "DummyRoot"
+ContrailAttachOffset  = "7.75 -6.0 -0.6"
+ContrailEffectMinScale  = "0.0"
+ContrailEffectMaxScale  = "0.8"
+
+ContrailEffect = "com_sfx_contrail"
+ContrailAttachPoint = "DummyRoot"
+ContrailAttachOffset  = "0.0 4.75 4.25"
+ContrailEffectMinScale  = "0.0"
+ContrailEffectMaxScale  = "0.8"
+
+// SPARK
+
+DamageStartPercent = "85"
+DamageStopPercent = "25"
+DamageEffect = "com_sfx_vehiclespark_sc"
+DamageEffectScale = "1"
+DamageInheritVelocity = "0.0"
+DamageAttachPoint = "hp_damage1"
+
+DamageStartPercent = "75"
+DamageStopPercent = "15"
+DamageEffect = "com_sfx_vehiclespark_sc"
+DamageEffectScale = "1"
+DamageInheritVelocity = "0.0"
+DamageAttachPoint = "hp_damage2"
+
+DamageStartPercent = "65"
+DamageStopPercent = "5"
+DamageEffect = "com_sfx_vehiclespark_sc"
+DamageEffectScale = "1"
+DamageInheritVelocity = "0.0"
+DamageAttachPoint = "hp_damage3"
+
+// SMOKE
+
+DamageStartPercent = "75"
+DamageStopPercent = "35"
+DamageEffect = "com_sfx_vehiclesmoke_sc"
+DamageEffectScale = "1"
+DamageInheritVelocity = "0.0"
+DamageAttachPoint = "hp_damage1"
+
+DamageStartPercent = "65"
+DamageStopPercent = "25"
+DamageEffect = "com_sfx_vehiclesmoke_sc"
+DamageEffectScale = "1"
+DamageInheritVelocity = "0.0"
+DamageAttachPoint = "hp_damage2"
+
+DamageStartPercent = "55"
+DamageStopPercent = "0.1"
+DamageEffect = "com_sfx_vehiclesmoke_sc"
+DamageEffectScale = "1"
+DamageInheritVelocity = "0.0"
+DamageAttachPoint = "hp_damage3"
+
+// FLAME
+
+DamageStartPercent = "35"
+DamageStopPercent = "0.1"
+DamageEffect = "com_sfx_vehicleflame_sc"
+DamageEffectScale = "0.75"
+DamageInheritVelocity = "0.0"
+DamageAttachPoint = "hp_damage1"
+
+DamageStartPercent = "25"
+DamageStopPercent = "0.1"
+DamageEffect = "com_sfx_vehicleflame_sc"
+DamageEffectScale = "0.75"
+DamageInheritVelocity = "0.0"
+DamageAttachPoint = "hp_damage2"
+
+
+CHUNKSECTION        = "CHUNK1"
+ChunkGeometryName   = "imp_fly_trooptrans_chunk1"
+ChunkNodeName       = ""
+ChunkTerrainCollisions  = "0"
+ChunkTerrainEffect  = "com_sfx_explosion_lg"
+ChunkPhysics        = "FULL"
+ChunkOmega      = "2.0 2.0 2.5"
+ChunkBounciness         = 0.45
+ChunkStickiness         = 0.25
+ChunkSpeed      = "10.0"
+ChunkUpFactor       = "4.00"
+ChunkTrailEffect        = "com_sfx_chunktrail_sm"
+ChunkSmokeEffect    = "com_sfx_smokeplume"
+ChunkSmokeNodeName  = "hp_smoke2"
+
+CHUNKSECTION        = "CHUNK2"
+ChunkGeometryName   = "imp_fly_trooptrans_chunk2"
+ChunkNodeName       = ""
+ChunkTerrainCollisions  = "0"
+ChunkTerrainEffect  = "com_sfx_explosion_lg"
+ChunkPhysics        = "FULL"
+ChunkOmega      = "2.0 2.5 2.3"
+ChunkBounciness         = 0.45
+ChunkStickiness         = 0.25
+ChunkSpeed      = "12.0"
+ChunkUpFactor       = "3.00"
+ChunkTrailEffect        = "com_sfx_chunktrail_sm"
+ChunkSmokeEffect    = "com_sfx_smokeplume"
+ChunkSmokeNodeName  = "hp_smoke1"
+
+CHUNKSECTION        = "CHUNK3"
+ChunkGeometryName   = "imp_fly_trooptrans_chunk3"
+ChunkNodeName       = ""
+ChunkTerrainCollisions  = "0"
+ChunkTerrainEffect  = "com_sfx_explosion_lg"
+ChunkPhysics        = "FULL"
+ChunkOmega      = "2.0 2.5 1.0"
+ChunkBounciness         = 0.45
+ChunkStickiness         = 0.25
+ChunkSpeed      = "12.0"
+ChunkUpFactor       = "8.00"
+ChunkTrailEffect        = "com_sfx_chunktrail_sm"
+ChunkSmokeEffect    = "com_sfx_smokeplume"
+ChunkSmokeNodeName  = "hp_smoke1"
+
+//ExplosionCritical     = "imp_fly_trooptrans_exp"
+ExplosionDestruct       = "imp_fly_trooptrans_exp"
+
+VOUnitType              = 56
+EngineSound             = "imp_fly_trooptrans_engine_parameterized"
+TakeoffSound            = "imp_fly_trooptrans_take_off"
+LandSound               = "imp_fly_trooptrans_land"
+HurtSound               = "imp_weap_ord_exp_lg"
+DeathSound              = "imp_weap_ord_exp_lg"
+VehicleCollisionSound   = "com_veh_collision_lg"
+TurnOnSound             = "imp_fly_trooptrans_turn_on"
+TurnOffSound            = "imp_fly_trooptrans_airbrakes_off"
+TurningOffSound         = "imp_fly_trooptrans_turn_off"
+TurnOffTime             = "1.5"
+FoleyFXGroup            = "metal_foley"
+BoostSound              = "imp_fly_trooptrans_shift_up_property 0.11 1"
+//BoostSound              = "imp_fly_trooptrans_shift_up_property 0.53 1"
+BoostSound              = "imp_fly_trooptrans_shift_up_high_property 0.66 1"
+BoostSound              = "imp_fly_trooptrans_shift_down_property 0.17 0"
+BoostSound              = "imp_fly_trooptrans_shift_down_property 0.9 0"
+TrickSound              = "trooptrans_has_no_roll" //Played when the flyer performs a roll 
+FlipSound               = "trooptrans_has_no_flip" //Played when the flyer performs a flip
+ProximityMinDist        = "25" // Distance from target where proximity parameter of engine is 0.
+ProximityMaxDist        = "100" // Distance from target where proximity parameter of engine is 1.
+ImpMusic                = "imp_vehicle"
+AllMusic                = "all_vehicle"
+CisMusic                = "cis_vehicle
+MusicSpeed              = ".25"
+MusicDelay              = "3.0"
+
+Cockpit1stPersonSound   = "imp_inf_com_space_chatter"
+Cockpit3rdPersonSound   = "imp_inf_com_space_chatter"

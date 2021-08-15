@@ -1,0 +1,28 @@
+[WeaponClass]
+ClassParent         = "com_weap_award_shotgun"
+GeometryName            = "all_weap_inf_seeker.msh"
+
+[Properties]
+GeometryName            = "all_weap_inf_seeker"
+HighResGeometry         = "all_1st_weap_inf_seeker"
+OrdnanceName            = "all_weap_award_shotgun_ord"
+
+// *************************************************
+//******************* SOUND ************************
+//**************************************************
+
+FireSound           = "all_weap_inf_shotgun_fire"
+FireEmptySound      = "com_weap_inf_ammo_empty"
+
+ReloadSound         = "com_weap_inf_reload_med"
+ChangeModeSound     = "com_weap_inf_equip_med"
+WeaponChangeSound   = "com_weap_inf_equip_med"
+
+
+JumpSound           = "com_weap_inf_rifle_mvt_jump"
+LandSound           = "com_weap_inf_rifle_mvt_land"
+RollSound           = "com_weap_inf_rifle_mvt_roll"
+//ProneSound          = "com_weap_inf_rifle_mvt_lie"
+SquatSound          = "com_weap_inf_rifle_mvt_squat"
+//StandSound          = "com_weap_inf_rifle_mvt_getup"
+

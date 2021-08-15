@@ -1,0 +1,26 @@
+[WeaponClass]
+ClassParent     = "com_weap_veh_fly_chaingun"
+
+[Properties]
+OrdnanceName = "all_weap_fly_ywing_turret_cannon_ord"
+
+TargetLockMaxDistance = "2500"
+TargetLockMaxDistanceLose = "3500" 
+
+ZoomFirstPerson     = 1
+ZoomMin         = "2.0"
+ZoomMax         = "8.0"
+ZoomRate        = "1.25"
+
+
+
+//*****SOUND*****//
+//FireSound = "all_weap_fly_ywing_turret_fire"
+WarmUpSound         = "tur_weap_fly_chaingun_spin"
+WarmUpSoundStartPitch   = 0.6
+WarmUpSoundFadeInTime   = 0.2
+WarmUpSoundFadeOutTime  = 0.2
+
+BarrelSound         = "tur_weap_fly_chaingun_fire"
+BarrelSoundFadeInTime   = 0.2
+BarrelSoundFadeOutTime  = 0.1

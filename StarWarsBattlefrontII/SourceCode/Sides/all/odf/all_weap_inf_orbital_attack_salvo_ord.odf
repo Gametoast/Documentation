@@ -1,0 +1,37 @@
+[OrdnanceClass]
+//This area defines the ordnances class and the effects associated with it.
+ClassLabel 		= "bolt"
+
+
+
+[Properties]
+ExplosionName		= "all_weap_inf_orbital_attack_salvo_exp"
+LaserTexture		= "com_sfx_laser_yellow"
+//ImpactEffect		= "com_sfx_explosion_sm"
+LaserLength		= "15.0"
+LaserWidth		= "0.75"
+LaserGlowColor		= "252 252 56 100 100"
+
+//*RANGE*  (Velocity * Lifespan = range)
+//"LifeSpan" is the amount of time in seconds the ordnance will be in play
+//"Velocity" is the speed at which the ordance travels in the direction fired
+LifeSpan 		= "3.0"
+Velocity 		= "300.0"
+Gravity			= "0.0"
+Rebound			= "0.0"
+
+//*DAMAGE* (Damage * Soak = DamageDealt)
+//"MaxDamage" is the unmodified amount of damage the ordnance can inflict.
+//"AreaOfEffect" is the blast radius in meters from the center.
+//"Soak", all three kinds, indicates the ordnances effectiveness against it's target
+MaxDamage 		= "1000.0"
+
+VehicleScale		= "1.0"
+PersonScale 		= "1.0"
+DroidScale 		= "1.0"
+BuildingScale		= "1.0"
+AnimalScale		= "1.0"
+
+OrdnanceSound  = "com_weap_inf_ord_hum_lg"
+CollisionSound = "imp_weap_ord_exp"
+

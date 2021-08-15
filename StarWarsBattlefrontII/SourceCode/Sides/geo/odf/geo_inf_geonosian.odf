@@ -1,0 +1,126 @@
+[GameObjectClass]
+ClassParent             = "com_inf_default"
+GeometryName 		= "gen_inf_geonosian.msh"
+
+[Properties]
+Label 			= "Geonosian"
+UnitType			= "trooper"
+
+//this keeps the player from entering first person with this char
+forcemode                       = 1
+
+GeometryName 		= "gen_inf_geonosian"
+GeometryLowRes		= "gen_inf_geonosian_low1"
+SkeletonName 		= "geo"
+SkeletonLowRes		= "geolz"
+
+ControlSpeed        	= "jet    2.00 1.25 1.25"
+
+JetDuration 		= "30.0"		//The duration of the jet push, until its turned off
+JetJump 		= "8.0"		//The initial jump-push given when enabling the jet
+JetPush 		= "8.0"	//The constant push given while the jet is enabled (20 is gravity)
+JetEffect		= "geo_wingsfly"
+
+// the cool bit - Mike Z
+AnimatedAddon = "WINGS"
+GeometryAddon = "geonosianwings_folded"
+AddonAttachJoint = "bone_ribcage"
+
+JetType			= "hover"
+JetFuelRechargeRate		= "0.1" //Additional fuel per second (fuel is 0 to 1)
+JetFuelCost			= "0.1" //Cost per second when hovering (only used for jet-hovers)(fuel is 0 to 1)
+JetFuelInitialCost		= "0.2" //initial cost when jet jumping(fuel is 0 to 1)
+JetFuelMinBorder		= "0.3" //minimum fuel to perform a jet jump(fuel is 0 to 1)
+
+CAMERASECTION 		= "STAND"
+
+EyePointOffset 		= "0.0 2.0 0.0"
+TrackCenter			= "0.0 2.0 0.0"
+TrackOffset 		= "0.0 -0.25 5.0"
+TiltValue			= "8"
+
+CAMERASECTION 		= "CROUCH"
+
+EyePointOffset 		= "0.0 2.0 0.0"
+TrackCenter			= "0.0 2.0 0.0"
+TrackOffset 		= "0.0 -0.25 5.0"
+TiltValue			= "8"
+
+CAMERASECTION       	= "STANDZOOM"
+EyePointOffset      	= "0.0 1.8 0.0"
+TrackCenter         	= "0.0 1.8 0.0
+TrackOffset         	= "0.4 -0.3 4.8"
+TiltValue           	= "3.5"
+
+CAMERASECTION       	= "SPRINT"
+EyePointOffset 		= "0.0 2.0 0.0"
+TrackCenter			= "0.0 2.0 0.0"
+TrackOffset 		= "0.0 -0.25 5.0"
+TiltValue			= "8"
+CameraBlendTime     	= "0.75"
+
+MaxHealth 			= 125.0
+
+Acceleraton 		= 30.0
+MaxSpeed 		= 6.0
+MaxStrafeSpeed 		= 5.0
+MaxTurnSpeed 		= 2.25
+
+WEAPONSECTION = 1
+WeaponName 		= "geo_weap_inf_blunderbuss"
+WeaponAmmo 		= 0
+
+CollisionScale		= "0.0 0.0 0.0"
+
+NoEnterVehicles			= 0
+
+VOUnitType              = 177
+
+HurtSound               = "geo_inf_hurt"
+DeathSound              = "geo_inf_die"
+//LeftFootstepSound       = "soldierstepleft"
+//RightFootstepSound      = "soldierstepright"
+AcquiredTargetSound     = ""
+HidingSound             = ""
+ApproachingTargetSound  = ""
+FleeSound               = ""
+PreparingForDamageSound = ""
+HeardEnemySound         = ""
+WaterWadingSound        = ""
+ShockFadeOutTime        = ""
+ShockFadeOutGain        = ""
+ShockFadeInTime         = ""
+ShockSound              = ""
+RollSound               = ""
+JumpSound               = ""
+LandSound               = ""
+ClothingRustleSound     = ""
+LowHealthSound          = ""
+LowHealthThreshold      = ""
+EngineSound			= "geo_inf_fly_parameterized"
+TurnOnSound             = ""
+TurnOffSound            = ""
+FoleyFXClass = "cis_inf_droid"
+
+AISizeType		= "HOVER"
+
+DropItemClass           = "com_item_powerup_ammo"
+DropItemProbability     = 0.15
+NextDropItem            = "-"
+DropItemClass           = "com_item_powerup_health25"
+DropItemProbability     = 0.15
+NextDropItem            = "-"
+DropItemClass           = "com_item_powerup_health100"
+DropItemProbability     = 0.08
+NextDropItem            = "-"
+DropItemClass           = "com_item_powerup_dual"
+DropItemProbability     = 0.08
+NextDropItem            = "-"
+DropItemClass           = "com_item_powerup_energy"
+DropItemProbability     = 0.10
+NextDropItem            = "-"
+DropItemClass           = "com_item_powerup_offense"
+DropItemProbability     = 0.02
+NextDropItem            = "-"
+DropItemClass           = "com_item_powerup_defense"
+DropItemProbability     = 0.02

@@ -1,0 +1,60 @@
+[WeaponClass]
+ClassLabel 			= "cannon"
+
+[Properties]
+IconTexture			= "HUD_all_lascannon_icon"
+
+LockOnRange			= "120.0"
+AutoAimSize			= "1.0"
+
+RoundsPerClip 		= "400"
+ReloadTime 			= "5.0"
+
+ZoomMin			= "2.0"
+ZoomMax			= "2.0"
+ZoomRate		= "0.0"
+
+WEAPONSECTION		= 1
+OrdnanceName 		= "imp_weap_walk_atst_cannon_chin_ord"
+MuzzleFlash			= "med_muzzle_flash"
+FlashLightColor 	= "255 192 192 175"
+FlashLightRadius 	= "4.0"
+FlashLightDuration 	= "0.25"
+
+ShotDelay 			= "0.5"
+LockTime 			= "0.6"
+MinSpread			= "0.0"
+MaxSpread			= "0.5"
+
+SalvoCount			= "2"
+SalvoDelay			= "0.2"
+InitialSalvoDelay		= "0.0"
+
+//FireSound       		= "com_weap_inf_blaster_red3"
+//ReloadSound     		= "laserreload"
+
+WEAPONSECTION		= 2
+OrdnanceName 		= "imp_weap_walk_atst_cannon_chin_ord"
+MuzzleFlash			= "med_muzzle_flash"
+FlashLightColor 	= "255 192 192 200"
+FlashLightRadius 	= "4.0"
+FlashLightDuration 	= "0.25"
+
+ShotDelay 			= "0.5"
+LockTime 			= "0.6"
+MinSpread			= "0.0"
+MaxSpread			= "0.5"
+
+SalvoCount			= "2"
+SalvoDelay			= "0.2"
+InitialSalvoDelay		= "0.0"
+
+//FireSound       		= "com_weap_inf_blaster_red3"
+//ReloadSound     		= "laserreload"
+//WeaponChangeSound = "com_weap_inf_laser_weaponchange"
+
+RecoilLengthHeavy       = "0.1"
+RecoilStrengthLight     = "1"
+RecoilLengthLight       = "0.1"
+RecoilStrengthHeavy     = "1"
+

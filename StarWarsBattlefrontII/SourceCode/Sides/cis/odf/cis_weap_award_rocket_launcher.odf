@@ -1,0 +1,31 @@
+[WeaponClass]
+ClassParent      = "com_weap_award_rocket_launcher"
+GeometryName        = "cis_weap_inf_launcher.msh"
+
+[Properties]
+
+GeometryName        = "cis_weap_inf_launcher"
+HighResGeometry     = "cis_1st_weap_inf_launcher"
+OrdnanceName        = "com_weap_award_rocket_launcher_ord"
+
+AnimationName				= "bazooka"
+HideOnFire					= 0
+
+//************************************************
+//*******************   SOUND    *****************
+//************************************************
+
+FireSound           = "cis_weap_inf_rocket_launcher_fire"
+FireLoopSound       = ""
+ChargeSound         = "cis_weap_inf_rocket_launcher_tracking"
+ChargeSoundPitch    = "0.8"
+ReloadSound         = "com_weap_inf_reload_lg"
+ChangeModeSound     = "com_weap_inf_equip_lg"
+FireEmptySound      = "com_weap_inf_ammo_empty"
+WeaponChangeSound   = "com_weap_inf_equip_lg"
+JumpSound           = "com_weap_inf_bazooka_mvt_jump"
+LandSound           = "com_weap_inf_bazooka_mvt_land"
+RollSound           = "com_weap_inf_bazooka_mvt_roll"
+//ProneSound          = "com_weap_inf_bazooka_mvt_lie"
+SquatSound          = "com_weap_inf_bazooka_mvt_squat"
+//StandSound          = "com_weap_inf_bazooka_mvt_getup"

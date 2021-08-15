@@ -1,0 +1,28 @@
+[OrdnanceClass]
+ClassLabel 			= "bolt"
+
+[Properties]
+ImpactEffectWater 	= "com_sfx_watersplash_ord"
+
+LaserTexture		= "com_sfx_laser_yellow"
+LaserLength			= "1.5"
+LaserWidth			= "0.4"
+LaserGlowColor		= "252 235 42 100"
+LightColor              = "252 235 42 150"
+LightRadius             = "5.0"
+GlowLength		= "3"
+BlurLength		= "5"
+
+ExplosionName		= "com_weap_ord_exp"
+
+LifeSpan 			= "0.75"
+Velocity 			= "200.0"
+Gravity			= "1.0"
+Rebound			= "0.0"
+
+MaxDamage 			= "50.0"
+ArmorScale			= "1.0"
+ShieldScale			= "0.5"
+HealthScale			= "0.5"
+
+OrdnanceSound		= "com_weap_inf_ord_hum_sm"

@@ -1,0 +1,49 @@
+[WeaponClass]
+
+ClassLabel = "launcher"
+
+[Properties]
+
+Label = "Missile Launcher"
+ModeTexture = "HUD_weap_semiauto"
+ReticuleTexture = "reticule_rocket"
+OrdnanceName = "rep_weap_fly_jedifighter_missile_ord"
+
+InitialSalvoDelay = "0"
+SalvoCount = "2"
+ShotsPerSalvo = "1"
+SalvoDelay = "0"
+
+ShotDelay = "0.1"
+RoundsPerClip = "10"
+ReloadTime = "5"
+
+
+TargetEnemy = "1"
+TargetNeutral = "1"
+TargetFriendly = "0"
+
+TargetPerson = "0"
+TargetAnimal = "0"
+TargetDroid = "0"
+TargetVehicle = "1"
+TargetBuilding = "0"
+
+MinRange		= "200"
+OptimalRange		= "800"
+MaxRange		= "1200"
+
+LockOnRange		= "400.0"
+LockOnAngle		= "6.0"
+LockOffAngle		= "10.0"
+LockTime 		= "0.01"
+MinSpread		= "0.0"
+MaxSpread		= "0.5"
+
+FireSound = "rep_weap_fly_jedifighter_missle_fire"
+FireSoundStop   = "0"
+
+RecoilLengthHeavy = "0.15"
+RecoilStrengthHeavy = "1"
+RecoilDecayHeavy = "10"
+ShotElevate		= "0.1"

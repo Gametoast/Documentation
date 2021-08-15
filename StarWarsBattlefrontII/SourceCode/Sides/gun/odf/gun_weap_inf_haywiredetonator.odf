@@ -1,0 +1,52 @@
+[WeaponClass]
+ClassLabel      = "grenade"
+
+[Properties]
+IconTexture     = "HUD_all_detonator_icon"
+
+GeometryName        = "gun_weap_inf_grenadethermal"
+
+RoundsPerClip       = "1"
+ReloadTime      = "0.0"
+
+LockOnRange     = "30.0"
+
+//AnimationBank     = "grenade"
+OffhandWeapon = 1
+
+WEAPONSECTION       = 1
+
+ModeTexture     = "HUD_weap_bounce"
+ReticuleTexture     = "reticule_00"
+OrdnanceName        = "gun_weap_inf_haywiredetonator_ord"
+
+ShotDelay       = "1.4"
+
+MinRange        = "0"
+OptimalRange        = "16"
+MaxRange        = "32"
+
+TargetEnemy     = "1"
+TargetNeutral       = "0"
+TargetFriendly      = "0"
+
+TargetPerson        = "1"
+TargetAnimal        = "1"
+TargetDroid     = "1"
+TargetVehicle       = "0"
+TargetBuilding      = "0"
+
+InitialSalvoDelay   = "0.36"
+
+FireSound               = "com_weap_throw"
+FireEmptySound          = "com_weap_inf_ammo_empty"
+FireLoopSound           = ""
+ReloadSound             = ""
+JumpSound               = "com_weap_inf_rifle_mvt_jump"
+LandSound               = "com_weap_inf_rifle_mvt_land"
+RollSound               = "com_weap_inf_rifle_mvt_roll"
+//ProneSound              = "com_weap_inf_rifle_mvt_squat"
+SquatSound              = "com_weap_inf_rifle_mvt_squat"
+//StandSound              = "com_weap_inf_rifle_mvt_getup"
+
+

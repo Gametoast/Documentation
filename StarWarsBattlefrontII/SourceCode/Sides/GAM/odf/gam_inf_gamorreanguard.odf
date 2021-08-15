@@ -1,0 +1,149 @@
+[GameObjectClass]
+ClassLabel              = "soldier"
+GeometryName            = "gam_inf_gamorreanguard.msh"
+
+[Properties]
+UnitType                = "trooper"
+MapTexture              = "troop_icon"
+MapScale                = 1.4
+
+GeometryName            = "gam_inf_gamorreanguard"
+GeometryLowRes          = "gam_inf_gamorreanguard_low1"
+SkeletonName            = "gam"
+SkeletonLowRes          = "gamlz"
+
+HealthType              = "person"
+MaxHealth               = 750.0
+//AddHealth             = 1000.0
+
+CapturePosts            = 1
+
+Acceleraton         = 35.0
+MaxSpeed        = 7.0
+MaxStrafeSpeed      = 7.0
+MaxTurnSpeed        = 4.0
+
+WeaponName1             = "gam_weap_inf_axe"
+WeaponAmmo1             = 0
+
+AimFactorPostureSpecial     = 50
+AimFactorPostureStand       = 100
+AimFactorPostureCrouch      = 140
+AimFactorPostureProne       = 160
+AimFactorStrafe         = 60
+AimFactorMove           = 70
+
+
+CAMERASECTION       = "STAND"
+
+EyePointOffset      = "0.0 1.8 0.0"
+TrackCenter     = "0.0 1.8 0.0
+TrackOffset         = "0.0 0.0 3.5"
+TiltValue       = "5.0"
+
+CAMERASECTION       = "STANDZOOM"
+
+EyePointOffset      = "0.0 1.8 0.0"
+TrackCenter     = "0.0 1.8 0.0
+TrackOffset         = "0.4 0.05 2.8"
+TiltValue       = "3.5"
+
+CAMERASECTION       = "CROUCH"
+
+EyePointOffset      = "0.0 1.3 0.0"
+TrackCenter     = "0.0 1.3 0.0
+TrackOffset         = "0.0 0.15 3.5"
+TiltValue       = "5.0"
+
+CAMERASECTION       = "CROUCHZOOM"
+
+EyePointOffset      = "0.0 1.3 0.0"
+TrackCenter     = "0.0 1.3 0.0
+TrackOffset         = "0.4 0.2 2.8"
+TiltValue       = "3.5"
+
+CAMERASECTION       = "PRONE"
+
+EyePointOffset      = "0.0 0.5 0.0"
+TrackCenter         = "0.0 0.5 0.0"
+TrackOffset         = "0.0 0.0 3.0"
+TiltValue       = "5.0"
+
+CAMERASECTION       = "PRONEZOOM"
+
+EyePointOffset      = "0.0 0.5 0.0"
+TrackCenter         = "0.0 0.5 0.0"
+TrackOffset         = "0.4 0.2 2.8"
+TiltValue       = "3.5"
+
+
+AimValue                = "1.0"
+
+
+
+
+NoEnterVehicles     = 1
+
+AISizeType      = "SOLDIER"
+
+DropItemClass = "com_item_powerup_ammo"
+DropItemProbability = 0.20
+NextDropItem = "-"
+DropItemClass = "com_item_powerup_health25"
+DropItemProbability = 0.05
+NextDropItem = "-"
+DropItemClass = "com_item_powerup_health100"
+DropItemProbability = 0.0
+
+VOUnitType                  = 174
+
+HurtSound                   = "gam_hurt"
+DeathSound                  = "gam_die"
+AcquiredTargetSound         = ""
+HidingSound                 = "gam_chatter"
+ApproachingTargetSound      = "gam_chatter"
+FleeSound                   = "gam_chatter"
+PreparingForDamageSound     = "gam_hurt"
+HeardEnemySound             = "gam_chatter"
+ShockFadeOutTime            = ""
+ShockFadeInTime             = ""
+ShockFadeOutGain            = ""
+ShockSound                  = ""
+ClothingRustleSound         = ""
+LowHealthSound              = ""
+LowHealthThreshold          = ""
+FoleyFXClass                = "wok_inf_soldier"
+
+// squad command VO
+SCFieldMoveOutSound     = "gam_chatter"
+SCFieldHoldSound        = "gam_chatter"
+SCFieldFollowSound      = "gam_chatter"
+SCDriverGetInSound      = "gam_chatter"
+SCDriverGetOutSound     = "gam_chatter"
+SCPassengerMoveOutSound = "gam_chatter"
+SCPassengerStopSound    = "gam_chatter"
+SCPassengerGetInSound   = "gam_chatter"
+SCPassengerGetOutSound  = "gam_chatter"
+SCGunnerAllClearSound   = "gam_chatter"
+SCGunnerSteadySound     = "gam_chatter"
+SCGunnerGetInSound      = "gam_chatter"
+SCGunnerGetOutSound     = "gam_chatter"
+SCResponseYessirSound   = "gam_chatter"
+SCResponseNosirSound    = "gam_chatter"
+
+// AI squad command VO
+AISCFieldMoveOutSound       = "gam_chatter"
+AISCFieldHoldSound          = "gam_chatter"
+AISCFieldFollowSound        = "gam_chatter"
+AISCDriverGetInSound        = "gam_chatter"
+AISCDriverGetOutSound       = "gam_chatter"
+AISCPassengerMoveOutSound   = "gam_chatter"
+AISCPassengerStopSound      = "gam_chatter"
+AISCPassengerGetInSound     = "gam_chatter"
+AISCPassengerGetOutSound    = "gam_chatter"
+AISCGunnerAllClearSound     = "gam_chatter"
+AISCGunnerSteadySound       = "gam_chatter"
+AISCGunnerGetInSound        = "gam_chatter"
+AISCGunnerGetOutSound       = "gam_chatter"
+AISCResponseYessirSound     = "gam_chatter"
+AISCResponseNosirSound      = "gam_chatter"

@@ -1,0 +1,41 @@
+[GameObjectClass]
+ClassParent         = "rep_inf_default"
+
+
+[Properties]
+PointsToUnlock      = 8
+
+UnitType            = "support"
+
+AnimationName		= "clonecommander"
+
+MaxSpeed                = 6.0       // base forward speed
+MaxStrafeSpeed          = 4.5       // base right/left speed
+
+ScanningRange       	= 30.0
+TransmitRange       	= 300.0
+
+WEAPONSECTION = 1
+WeaponName         = "rep_weap_inf_chaingun"
+WeaponAmmo         = 0
+
+WEAPONSECTION = 2
+WeaponName         = "rep_weap_inf_pistol"
+WeaponAmmo         = 0
+
+WEAPONSECTION = 3
+WeaponName         = "rep_weap_inf_buff_defense"
+WeaponAmmo         = 1
+WeaponChannel      = 1
+
+WEAPONSECTION = 4
+WeaponName         = "rep_weap_inf_remotedroid"
+WeaponAmmo         = 1
+WeaponChannel      = 1
+
+WEAPONSECTION = 5
+WeaponName         = "rep_weap_award_pistol"
+WeaponAmmo         = 6
+
+
+VOUnitType        	= 121

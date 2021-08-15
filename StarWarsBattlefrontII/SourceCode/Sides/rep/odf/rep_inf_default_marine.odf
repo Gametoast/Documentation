@@ -1,0 +1,28 @@
+[GameObjectClass]
+ClassParent         = "rep_inf_default"
+
+
+[Properties]
+UnitType            	= "assault"
+
+MaxSpeed                = 6.0       // base forward speed
+MaxStrafeSpeed          = 4.5       // base right/left speed
+
+WEAPONSECTION = 1
+WeaponName         = "rep_weap_inf_rifle"
+WeaponAmmo         = 4
+
+WEAPONSECTION = 2
+WeaponName         = "rep_weap_inf_rocket_launcher"
+WeaponAmmo         = 4
+
+WEAPONSECTION = 3
+WeaponName         = "rep_weap_inf_thermaldetonator"
+WeaponAmmo         = 4
+WeaponChannel      = 1
+
+WEAPONSECTION = 4
+WeaponName         = "rep_weap_award_rifle"
+WeaponAmmo         = 4
+
+VOUnitType        	= 121

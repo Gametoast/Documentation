@@ -1,0 +1,32 @@
+[GameObjectClass]
+ClassParent        	= "rep_inf_default"
+
+
+[Properties]
+UnitType           	= "pilot"
+
+ImmuneToMines       	= "1"
+
+WEAPONSECTION 		= 1
+WeaponName        	= "rep_weap_inf_shotgun"
+WeaponAmmo        	= 8
+
+WEAPONSECTION 		= 2
+WeaponName        	= "rep_weap_inf_fusioncutter"
+WeaponAmmo         	= 0
+
+WEAPONSECTION 		= 3
+WeaponName         	= "rep_weap_inf_detpack"
+WeaponAmmo         	= 3
+WeaponChannel      	= 1
+
+WEAPONSECTION 		= 4
+WeaponName         	= "rep_weap_inf_powerup_dispenser"
+WeaponAmmo         	= 5
+WeaponChannel      	= 1
+
+WEAPONSECTION 		= 5
+WeaponName        	= "rep_weap_award_shotgun"
+WeaponAmmo        	= 8
+
+VOUnitType        	= 121

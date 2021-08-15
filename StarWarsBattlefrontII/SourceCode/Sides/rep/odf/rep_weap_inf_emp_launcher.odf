@@ -1,0 +1,55 @@
+[WeaponClass]
+ClassParent         = "com_weap_inf_rocket_launcher"
+GeometryName        = "com_weap_inf_torpedo.msh"
+
+[Properties]
+ScoreForMedalsType = -1
+
+AnimationBank       = "rifle"
+
+GeometryName        = "com_weap_inf_torpedo"
+HighResGeometry     = "com_1st_weap_inf_torpedo"
+
+OrdnanceName        = "rep_weap_inf_emp_launcher_ord"
+
+RoundsPerClip       = "2"
+ReloadTime      = "2.25"
+HeatRecoverRate     = "0.15"
+HeatThreshold       = "0.3"
+HideOnFire              = "0"
+
+TriggerSingle       = "1"
+ShotDelay       = "1.5"
+
+LockTime            = "0.0"
+
+TargetPerson        = "1"
+TargetAnimal        = "1"
+TargetDroid         = "1"
+TargetVehicle       = "0"
+TargetBuilding      = "0"
+
+AITargetPerson        = "1"
+AITargetAnimal        = "1"
+AITargetDroid         = "1"
+AITargetVehicle       = "0"
+AITargetBuilding      = "0"
+
+//************************************************
+//*******************   SOUND    *****************
+//************************************************
+
+FireSound           = "rep_weap_inf_emp_launcher_fire"
+FireEmptySound      = "com_weap_inf_ammo_empty"
+FireLoopSound       = ""
+ReloadSound         = "com_weap_inf_reload_lg"
+ChangeModeSound     = "com_weap_inf_equip_lg"
+WeaponChangeSound   = "com_weap_inf_equip_lg"
+JumpSound           = "com_weap_inf_bazooka_mvt_jump"
+LandSound           = "com_weap_inf_bazooka_mvt_land"
+RollSound           = "com_weap_inf_bazooka_mvt_roll"
+//ProneSound          = "com_weap_inf_bazooka_mvt_lie"
+SquatSound          = "com_weap_inf_bazooka_mvt_squat"
+//StandSound          = "com_weap_inf_bazooka_mvt_getup"
+
+

@@ -1,0 +1,30 @@
+[OrdnanceClass]
+ClassLabel 		= "sticky"
+
+[Properties]
+ImpactEffectWater 	= "com_sfx_watersplash_sm"
+
+GeometryName 		= "ewk_spear"
+//ExplosionExpire	= "rep_weap_inf_grenadefrag_exp"
+//OrdnanceEffect	= "com_sfx_weap_grenade_red"
+ImpactEffect		= "com_sfx_explosion_lg"
+//TrailEffect		= "com_sfx_weap_grenade_gold"
+
+//CollisionOtherSound	= "com_weap_inf_grenade_bounce"
+
+AlignVertical		= "0"
+
+MaxDamage		= "200.0"
+LifeSpan 		= "3.0"
+Velocity 		= "50.0"
+Gravity			= "2.0"
+Rebound			= "0.35"
+Friction		= "1.25"
+
+VehicleScale		= "0.1"
+PersonScale 		= "1.0"
+DroidScale 		= "0.0"
+BuildingScale		= "0.1"
+AnimalScale		= "1.0"
+
+

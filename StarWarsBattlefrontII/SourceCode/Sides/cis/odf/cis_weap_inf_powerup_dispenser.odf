@@ -1,0 +1,50 @@
+[WeaponClass]
+ClassLabel          = "dispenser"
+
+[Properties]
+IconTexture         = "HUD_powerup_icon"
+
+RoundsPerClip       = "1"
+ReloadTime          = "1.0"
+LockOnRange         = "80.0"
+LockTime            = "0.4"
+
+//AnimationBank     = "grenade"
+OffhandWeapon = 1
+
+TrackingSound           = ""
+
+RefillFromItem      = 0
+
+WEAPONSECTION           = 1
+
+FireSound           = "com_weap_throw"
+FireEmptySound      = "com_weap_inf_ammo_empty"
+FireLoopSound       = ""
+ReloadSound         = "com_weap_inf_equip_sm"
+ChargeSound         = ""
+ChangeModeSound     = "com_weap_inf_equip_sm"
+WeaponChangeSound   = "com_weap_inf_equip_sm"
+JumpSound           = "com_weap_inf_rifle_mvt_jump"
+LandSound           = "com_weap_inf_rifle_mvt_land"
+RollSound           = "com_weap_inf_rifle_mvt_roll"
+//ProneSound          = "com_weap_inf_rifle_mvt_lie"
+SquatSound          = "com_weap_inf_rifle_mvt_squat"
+//StandSound          = "com_weap_inf_rifle_mvt_getup"
+
+ModeTexture     = "HUD_weap_health"
+ReticuleTexture     = "reticule_00"
+OrdnanceName        = "com_item_powerup_dual"
+
+ShotDelay       = "0.0"
+MaxItems        = "4.0"
+InitialSalvoDelay   = "0.5"
+
+AutoAimSize     = "1.0"
+
+SalvoCount      = "1"
+SalvoDelay      = "0.0"
+
+MinStrength     = "0.3"
+MaxStrength     = "0.4"
+MaxPressedTime      = "0.0"

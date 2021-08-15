@@ -1,0 +1,50 @@
+[OrdnanceClass]
+
+ClassLabel          = "bolt"
+
+[Properties]
+ImpactEffectWater   = "com_sfx_watersplash_ord"
+[OrdnanceClass]
+
+ClassLabel          = "bolt"
+
+//***************************************
+//**********MEDIUM PULSE LASER************
+//***************************************
+[Properties]
+
+//***************************************
+//**********VISUAL EFFECTS***************
+//***************************************
+LaserTexture            = "com_sfx_laser_green"
+LaserLength         = "4.0"
+GlowLength          = 4
+BlurLength          = 4
+LaserWidth          = "0.175"
+LaserGlowColor          = "61 252 56 100 100"
+ExplosionName           = "imp_weap_hover_fightertank_cannon1_exp"
+ImpactEffect            = "com_sfx_explosion_sm"
+ImpactEffectWater       = "com_sfx_watersplash_sm"
+
+//***************************************
+//**********SPEED AND DAMAGE*************
+//***************************************
+LifeSpan            = "7.0"
+Velocity            = "70.0"
+Gravity             = "1.0"
+Rebound             = "0.0"
+
+MaxDamage           = "160.0" // 300
+
+VehicleScale            = "0.3"
+ShieldScale         = "1.0"
+PersonScale         = "1.0"
+DroidScale          = "1.0"
+BuildingScale           = "0.3"
+
+//***************************************
+//**********SOUND************************
+//***************************************
+
+OrdnanceSound  = "com_weap_inf_ord_hum_lg"
+CollisionSound = "imp_weap_ord_exp"

@@ -1,0 +1,44 @@
+[OrdnanceClass]
+
+ClassLabel          = "emitterordnance"
+
+[Properties]
+Radius             = "5" // sphere used for finding the targets
+FirstRadius         = "1.2"
+MaxTargets          = "10"
+
+OrdnanceSound           = "force_lightning_impact"
+
+Damage              = "300"
+MaxDamage           = "425"
+JumpDeduction           = "0"
+DamageThreshold         = "400"
+MaxJumpDistance         = "0"
+NoChaining          = "1"   // No chaining - all bolts coming from the attacker
+
+VehicleScale            = "0.1"
+ShieldScale         = "4.0"
+PersonScale         = "1.0"
+AnimalScale         = "1.0"
+DroidScale          = "1.0"
+BuildingScale           = "0.1"
+
+Push                = "3.0"
+//LightningEffect     = "com_sfx_lightning"
+//LightningEffectScale = "0.25"
+//NoTargetLightningEffectCount = "5"  // The number of ligthning effects to display when the ordinance has no targets to hit
+//NoTargetLightningEffectRandomSpread = "1.0"  // The random rotation spread the ligthning effects does when the ordinance has no targets to hit
+
+
+SmolderEffectTimer = 2.0
+
+SmolderEffect = "com_sfx_inf_damage_electricity"
+SmolderBone = "bone_ribcage"
+
+SmolderEffect = "com_sfx_inf_damage_electricity"
+SmolderBone = "bone_r_thigh"
+
+SmolderEffect = "com_sfx_inf_damage_electricity"
+SmolderBone = "bone_l_calf"
+
+BonusAmplification  = "0.25"				//how much more damage will be done when team_bonus_blaster_amplication is on

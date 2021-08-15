@@ -1,0 +1,42 @@
+[GameObjectClass]
+ClassParent     	= "cis_inf_default"
+
+[Properties]
+UnitType            	= "trooper"
+
+WEAPONSECTION = 1
+WeaponName     	= "cis_weap_inf_wrist_blaster"
+WeaponAmmo     	= 5
+
+WEAPONSECTION = 2
+WeaponName     	= "cis_weap_inf_wrist_trishot"
+WeaponAmmo     	= 0
+
+WEAPONSECTION = 3
+WeaponName     	= "cis_weap_inf_wrist_rocket"
+WeaponAmmo     	= 3
+WeaponChannel  	= 1
+
+WEAPONSECTION = 4
+WeaponName     	= "cis_weap_award_wrist_blaster"
+WeaponAmmo     	= 4
+
+VOUnitType      	= 083
+
+VOSound = "cis1_inf_pc_com_hostile      SpottedVO"
+VOSound = "cis1_inf_pc_com_bacta      NeedMedicVO"
+VOSound = "cis1_inf_pc_com_mechanic      NeedRepairVO"
+VOSound = "cis1_inf_pc_com_ammo      NeedAmmoVO"
+VOSound = "cis1_inf_pc_com_transport      NeedPickupVO"
+VOSound = "cis1_inf_pc_com_backup      NeedBackupVO"
+VOSound = "cis1_inf_pc_com_clear_area      AttackPositionVO"
+VOSound = "cis1_inf_pc_com_defend     DefendPositionVO"
+
+VOSound = "cis1_inf_pc_com_hostile_inVehicle      SpottedVO +InVehicle"
+VOSound = "cis1_inf_pc_com_bacta_inVehicle      NeedMedicVO +InVehicle"
+VOSound = "cis1_inf_pc_com_mechanic_inVehicle      NeedRepairVO +InVehicle"
+VOSound = "cis1_inf_pc_com_ammo_inVehicle      NeedAmmoVO +InVehicle"
+VOSound = "cis1_inf_pc_com_transport_inVehicle      NeedPickupVO +InVehicle"
+VOSound = "cis1_inf_pc_com_backup_inVehicle      NeedBackupVO +InVehicle"
+VOSound = "cis1_inf_pc_com_clear_area_inVehicle      AttackPositionVO +InVehicle"
+VOSound = "cis1_inf_pc_com_defend_inVehicle     DefendPositionVO +InVehicle"

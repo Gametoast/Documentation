@@ -1,0 +1,110 @@
+[GameObjectClass]
+ClassLabel          = "soldier"
+GeometryName        = "ewk_inf_ewok2.msh"
+
+[Properties]
+FootWaterSplashEffect   = "com_sfx_watersplash_sm"
+WaterSplashEffect   = "com_sfx_watersplash_md"
+WakeWaterSplashEffect   = "com_sfx_watersplash_wade"
+UnitType            = "scout"
+IconTexture         = "rep_trooper_icon"
+MapTexture          = "troop_icon"
+MapScale            = 1.4
+
+//this keeps the player from entering first person with this char
+forcemode                       = 1
+
+GeometryName        = "ewk_inf2"
+GeometryLowRes      = "ewk_inf_low1"
+SkeletonName        = "ewok"
+SkeletonLowRes      = "ewoklz"
+SkeletonRootScale       = "0.5"
+SkeletonRootScaleLowRes = "0.5"
+
+OverrideTexture     = "Ewok2"
+
+CAMERASECTION       = "STAND"
+
+EyePointOffset      = "0.0 2.0 0.0"
+TrackCenter         	= "0.0 2.0 0.0
+TrackOffset         = "0.0 -0.5 5"
+TiltValue           = "6"
+
+CAMERASECTION       = "CROUCH"
+
+EyePointOffset      = "0.0 2.0 0.0"
+TrackCenter         	= "0.0 2.0 0.0
+TrackOffset         = "0.0 -0.5 5"
+TiltValue           = "6"
+
+CAMERASECTION       	= "STAND"
+EyePointOffset      = "0.0 2.0 0.0"
+TrackCenter         	= "0.0 2.0 0.0
+TrackOffset         = "0.0 -0.5 5"
+TiltValue           = "6"
+
+CAMERASECTION       	= "STANDZOOM"
+EyePointOffset      = "0.0 2.0 0.0"
+TrackCenter         	= "0.0 2.0 0.0
+TrackOffset         = "0.0 -0.5 5"
+TiltValue           = "6"
+
+CAMERASECTION       	= "CROUCH"
+EyePointOffset      = "0.0 2.0 0.0"
+TrackCenter         	= "0.0 2.0 0.0
+TrackOffset         = "0.0 -0.5 5"
+TiltValue           = "6"
+
+CAMERASECTION       	= "SPRINT"
+EyePointOffset      = "0.0 2.0 0.0"
+TrackCenter         	= "0.0 2.0 0.0
+TrackOffset         = "0.0 -0.5 6.5"
+TiltValue           = "6"
+CameraBlendTime     	= "0.75"
+
+MaxHealth           = 200.0
+
+Acceleraton         = 30.0
+MaxSpeed            = 6.0
+MaxStrafeSpeed      = 4.0
+MaxTurnSpeed        = 2.25
+PCMaxTurnSpeed      = 20.0
+PCMaxStrafeSpeed        = 20.0
+
+WEAPONSECTION = 1
+WeaponName         = "ewk_weap_inf_spear"
+WeaponAmmo         = 30
+
+WEAPONSECTION = 2
+WeaponName         = "ewk_weap_inf_rock"
+WeaponAmmo         = 50
+WeaponChannel	   = 1
+
+HurtSound               = "end_inf_ewok_hurt"
+DeathSound              = "end_inf_ewok_die"
+//LeftFootstepSound       = "soldierstepleft"
+//RightFootstepSound      = "soldierstepright"
+AcquiredTargetSound     = ""
+HidingSound             = ""
+ApproachingTargetSound  = "end_inf_ewok_attack"
+FleeSound               = ""
+PreparingForDamageSound = ""
+HeardEnemySound         = "end_inf_ewok_attack"
+//WaterWadingSound        = "com_inf_wading"
+ShockFadeOutTime        = ""
+ShockFadeOutGain        = ""
+ShockFadeInTime         = ""
+ShockSound              = ""
+RollSound               = ""
+JumpSound               = ""
+LandSound               = ""
+ClothingRustleSound     = ""
+LowHealthSound          = "end_inf_ewok_breathing"
+LowHealthThreshold      = "1.1"
+FoleyFXClass            = "npc_inf_small"
+
+
+AISizeType          = "SOLDIER"
+NoEnterVehicles         = 1
+
+

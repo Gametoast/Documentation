@@ -1,0 +1,32 @@
+[OrdnanceClass]
+
+ClassLabel 		= "bullet"
+
+[Properties]
+
+LaserTexture		= "com_sfx_laser_orange"
+LaserLength		= "45"
+GlowLength 		= 15
+LaserWidth		= "1.0"
+LaserGlowColor		= "249 42 42 100"
+--ImpactEffectWater 	= "com_sfx_watersplash_sm"
+
+//ExplosionName 	= "rep_weap_walk_oneman_atst_gun_exp"
+
+LifeSpan 		= ".05"
+Velocity 		= "20000"
+Gravity 		= "0.1"
+Rebound 		= "0"
+
+MaxDamage 		= "25"
+
+VehicleScale 		= "0.1"
+ShieldScale 		= "1"
+PersonScale 		= "1"
+HealthScale 		= "1"
+BuildingScale 		= "0.1"
+
+OrdnanceSound 		= "com_weap_inf_ord_hum_lg"
+CollisionSound 		= "imp_weap_ord_exp"
+
+ImpactEffect 		= "com_sfx_ord_exp"

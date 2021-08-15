@@ -1,0 +1,51 @@
+[OrdnanceClass]
+
+ClassLabel 			= "bolt"
+
+//***************************************
+//**********MEDIUM PULSE LASER************
+//***************************************
+[Properties]
+
+//***************************************
+//**********VISUAL EFFECTS***************
+//***************************************
+LaserTexture			= "com_sfx_laser_green"
+LaserGlowColor			= "61 252 56 100 100"
+
+LaserLength			= "2.5"
+LaserWidth			= "0.3"
+GlowLength 			= 3
+BlurLength 			= 4
+
+ExplosionName			= "rep_weap_fly_gunship_cannon_exp"
+ImpactEffect			= "com_sfx_explosion_sm"
+ImpactEffectWater 		= "com_sfx_watersplash_sm"
+
+
+
+
+
+
+//***************************************
+//**********SPEED AND DAMAGE*************
+//***************************************
+LifeSpan 			= "7.0"
+Velocity 			= "80.0"
+Gravity				= "1.0"
+Rebound				= "0.0"
+
+MaxDamage 			= "300"
+
+VehicleScale			= "0.5"
+ShieldScale			= "1.0"
+PersonScale			= "1.0"
+DroidScale			= "1.0"
+BuildingScale			= "1.0"
+
+//***************************************
+//**********SOUND************************
+//***************************************
+
+OrdnanceSound			= "com_weap_inf_ord_hum_lg"
+

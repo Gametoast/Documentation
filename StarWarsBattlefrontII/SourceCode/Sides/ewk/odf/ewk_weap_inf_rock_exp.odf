@@ -1,0 +1,38 @@
+[ExplosionClass]
+ClassLabel          = "explosion"
+
+[Properties]
+Damage              = "25.0"
+DamageRadiusInner   = "0.2"
+DamageRadiusOuter   = "0.3"
+
+Push                = "4.0"
+PushRadiusInner     = "0.2"
+PushRadiusOuter     = "0.3"
+PushDeadOnly        = "0"
+
+Shake               = "0.0"
+ShakeLength         = "0.0"
+ShakeRadiusInner    = "0.0"
+ShakeRadiusOuter    = "0.0"
+
+Effect              = "com_sfx_explosion_xs"
+WaterEffect         = "com_sfx_watersplash_sm"
+//Decal               = "decal_explosion"
+
+VehicleScale        = "1.0"
+PersonScale         = "1.0"
+DroidScale          = "1.0"
+BuildingScale       = "1.0"
+AnimalScale         = "1.0"
+
+StickPerson         = 1
+StickAnimal         = 1
+StickDroid          = 1
+StickVehicle        = 0
+StickBuilding       = 1
+StickBuildingDead   = 1
+StickBuildingUnbuilt= 1
+StickTerrain        = 1
+
+SoundProperty       = "com_weap_inf_rock_bounce"

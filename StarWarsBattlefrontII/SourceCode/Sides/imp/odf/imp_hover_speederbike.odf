@@ -1,0 +1,243 @@
+[GameObjectClass]
+ClassLabel 			= "hover"
+GeometryName 			= "imp_hover_speederbike.msh"
+
+[Properties]
+WaterEffect 			= "com_sfx_waterwake_sm"
+
+FLYERSECTION 			= "BODY"
+VehicleType 			= "light"
+
+Label 				= "Speederbike"
+
+MapTexture 			= "speederbike_icon"
+HealthTexture 			= "HUD_speederbike_icon"
+MapScale 			= 1.5
+
+HealthTexture			= "HUD_speederbike_icon"
+
+ExplosionName			= "imp_hover_speederbike_exp"
+GeometryName 			= "imp_hover_speederbike"
+CollisionThreshold		= "4.0 20.0 0.0"
+CollisionScale 			= "0.0 -0.0001 -0.1"
+//FirstPerson       		= "imp\impspbk;imp_1st_cockpit_speederbike"
+VehiclePosition			= "common.vehiclepositions.pilot"
+
+WakeEffect			= "dustwake"
+WaterEffect			= "com_sfx_waterwake_sm"
+
+PilotPosition 			= "hp_active"
+Pilot9Pose	 			= "speederbike_9pose"
+
+AnimationName 			= "imp_hover_speederbike"
+FinAnimation			= "imp_speederbike_9pose"
+
+MaxHealth 			= 80.0
+
+TimeRequiredToEject	=	"1.0"
+EjectResistance			= "0.01"
+TimeTilReboard			= "5.0"
+
+//HitLocation			= "p_crithit 0"
+
+////////// COLLISION ////////////////////
+
+// SMOKE
+
+DamageStartPercent = "75"
+DamageStopPercent = "35"
+DamageEffect = "com_sfx_vehiclesmoke_speeder"
+DamageEffectScale = "1"
+DamageInheritVelocity = "0.0"
+DamageAttachPoint = "bone_l_footpedal"
+
+DamageStartPercent = "55"
+DamageStopPercent = "15"
+DamageEffect = "com_sfx_vehiclesmoke_speeder"
+DamageEffectScale = "1"
+DamageInheritVelocity = "0.0"
+DamageAttachPoint = "bone_r_footpedal"
+
+// FIRE
+
+DamageStartPercent = "35"
+DamageStopPercent = "0.01"
+DamageEffect = "com_sfx_vehicleflame_speeder"
+DamageEffectScale = ".75"
+DamageInheritVelocity = "0.0"
+DamageAttachPoint = "bone_l_footpedal"
+
+DamageStartPercent = "15"
+DamageStopPercent = "0.01"
+DamageEffect = "com_sfx_vehicleflame_speeder"
+DamageEffectScale = ".75"
+DamageInheritVelocity = "0.0"
+DamageAttachPoint = "bone_r_footpedal"
+
+SetAltitude			= .85
+GravityScale			= 4.0  //2
+
+Acceleration 			= 30.0
+Deceleration			= 60.0
+Traction			= 35.0
+ForwardSpeed			= 28.0
+ReverseSpeed			= 6.0
+StrafeSpeed			= 3.0
+
+EnergyBar						= 50
+EnergyAutoRestore		= 15
+EnergyBoostDrain		= 20
+BoostSpeed					= 40
+BoostAcceleration		= 100.0
+BoostFOV						= 60
+
+AddSpringBody = "0.0 0.7 1.5 1.4"
+BodyOmegaXSpringFactor = -2.0
+
+AddSpringBody = "-0.5 0.7 -1.0 1.4"
+AddSpringBody = "0.5 0.7 -1.0 1.4"
+
+AddSpringBody = "0.0 0.7 0.0 0.4"
+
+VelocitySpring = 5
+VelocityDamp = 2.5
+OmegaXSpring = 3.0
+OmegaXDamp = 2.5
+OmegaZSpring = 5.0
+OmegaZDamp = 1.8
+
+SoldierCollision		= "CollisionMesh"
+OrdnanceCollision		= "CollisionMesh"
+VehicleCollision		= "p_ball1"
+VehicleCollision		= "p_ball2"
+//BuildingCollision		= "p_bcube"
+
+SpinRate			= 1.3
+TurnRate			= 1.4
+BoostTurnMultiplier = 1.0
+TurnFilter			= 15.0
+PitchRate			= 0.5
+StrafeRollAngle		= 0.0
+ThrustPitchAngle	= 0.0
+BankAngle			= 0.002
+BankFilter			= 3.0
+LevelSpring			= 10.0
+LevelDamp			= 5.0
+
+JumpTimeMin      = 0.1
+JumpTimeMax      = 0.35
+JumpForce        = 50.0
+JumpMinSpeedMult = 0.4
+JumpEnergyPerSec = 100.0
+
+//PCPitchRate 			= 15.0
+//PCSpinRate			= 15.0
+//PCTurnRate 			= 25.0
+
+
+EyePointOffset 			= "0.0 1.0 0.0"
+TrackCenter			= "0 2.5 -6"
+TrackOffset 			= "0.0 0.0 0.0"
+TiltValue			= "5.0"
+
+CockpitTension			= "12"
+
+NormalDirection 		= "0.0 -10.0 0.0"
+
+PitchLimits			= "-5.0 5.0"
+YawLimits			= "-15.0 15.0"
+
+WeaponName 			= "imp_weap_hover_speederbike_cannon"
+WeaponAmmo 			= "0"	//"5"
+
+AimerNodeName 			= "gun"
+FirePointName			= "hp_fire"
+//BarrelNodeName 		= "hp_fire"
+BarrelLength 			= "2.0"
+AimerPitchLimits		= "-15.0 15.0"
+AimerYawLimits			= "-25.0 25.0"
+
+BlurEffect			= 0.5 //the closer to 1 the greater the blur
+BlurStart			= 0.8 //percentage of maxspeed where blur starts
+
+
+//BuildingCollisionPrim		= "BldgCylinder1 aacylinder NULL 0.0 0.5 1.4 1.0 1.0 0.0"
+//BuildingCollisionPrim		= "BldgCylinder2 aacylinder NULL 0.0 0.5 -0.4 0.8 1.0 0.0"
+
+
+
+
+AISizeType			= "MEDIUM"
+NoCombatInterrupt		= 1
+AvailableForAnyTeam		= 1
+
+CHUNKSECTION 			= "CHUNK1"
+ChunkGeometryName 		= "speederbike_chunk3"
+ChunkNodeName 			= "imp_hover_speederbike"
+ChunkTerrainCollisions 		= "4"
+ChunkTerrainEffect 		= "dirtspray"
+ChunkPhysics 			= "FULL"
+ChunkOmega 			= "0.0 0.0 0.0"
+
+//ChunkInitialCollisionSound = "exp_obj_small_debris"
+
+CHUNKSECTION 			= "CHUNK2"
+ChunkGeometryName 		= "speederbike_chunk1"
+ChunkNodeName 			= "imp_hover_speederbike"
+ChunkTerrainCollisions 		= "4"
+ChunkTerrainEffect 		= "dirtspray"
+ChunkPhysics 			= "FULL"
+ChunkOmega 			= "0.0 0.0 0.0"
+
+//ChunkInitialCollisionSound = "exp_obj_small_debris"
+
+CHUNKSECTION 			= "CHUNK3"
+ChunkGeometryName 		= "speederbike_chunk2"
+ChunkNodeName 			= "imp_hover_speederbike"
+ChunkTerrainCollisions 		= "4"
+ChunkTerrainEffect 		= "dirtspray"
+ChunkPhysics 			= "FULL"
+ChunkOmega 			= "0.0 0.0 0.0"
+
+//ChunkInitialCollisionSound = "exp_obj_small_debris"
+
+CHUNKSECTION 			= "CHUNK4"
+ChunkGeometryName 		= "speederbike_chunk4"
+ChunkNodeName 			= "imp_hover_speederbike"
+ChunkTerrainCollisions 		= "4"
+ChunkTerrainEffect 		= "dirtspray"
+ChunkPhysics 			= "FULL"
+ChunkOmega 			= "0.0 0.0 0.0"
+
+//ChunkInitialCollisionSound = "exp_obj_small_debris"
+
+CHUNKSECTION 			= "CHUNK5"
+ChunkGeometryName 		= "speederbike_chunk5"
+ChunkNodeName 			= "imp_hover_speederbike"
+ChunkTerrainCollisions 		= "4"
+ChunkTerrainEffect 		= "dirtspray"
+ChunkPhysics 			= "FULL"
+ChunkOmega 			= "0.0 0.0 0.0"
+
+//ChunkInitialCollisionSound = "exp_obj_small_debris"
+
+VOUnitType                      = 52
+EngineSound 			= "speederbike_engine_parameterized"
+HurtSound      			= ""
+DeathSound              = "com_weap_obj_small_exp"
+VehicleCollisionSound   ="com_veh_collision_sm"
+TurnOnSound    			= ""
+TurnOffSound   			= ""
+Music       			= ""
+ImpMusic			= "imp_vehicle"
+AllMusic			= "all_vehicle"
+CisMusic			= "cis_vehicle"
+MusicSpeed  			= "0.5"
+MusicDelay  			= "3.0"
+GroundedSound  			= ""
+GroundedHeight 			= ""
+//BoostSound          		= "imp_hover_speederbike_boost_on      0.5 1"
+//BoostSound          		= "imp_hover_speederbike_boost_on_max  0.9 1"
+//BoostSound          		= "imp_hover_speederbike_boost_off_max 0.8 0"
+//BoostSound          		= "imp_hover_speederbike_boost_off     0.4 0"
+FoleyFXGroup    		= "metal_foley"

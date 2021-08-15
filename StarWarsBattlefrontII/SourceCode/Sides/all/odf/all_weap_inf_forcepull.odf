@@ -1,0 +1,78 @@
+[WeaponClass]
+
+ClassLabel 			= "cannon"
+
+[Properties]
+IconTexture			= "HUD_all_rifle_icon"
+
+//GeometryName 			= "rep_weap_inf_rifle"
+
+//Use human_force_*_shoot animations
+CustomAnimationBank = "force tool noalert"
+
+//ChargeUpEffect		= "com_sfx_chargeup"
+//MuzzleFlash			= "med_muzzle_flash"
+//Discharge			= "med_smoke_effect"
+
+RoundsPerClip 			= "75"
+ReloadTime 			= "5.0"
+HeatRecoverRate			= "0.15"
+HeatThreshold			= "0.3"
+
+ZoomMin				= "2.0"
+ZoomMax				= "2.0"
+ZoomRate			= "0.0"
+
+MinRange		= "8"
+OptimalRange		= "12"
+MaxRange		= "16"
+
+
+WEAPONSECTION			= 1
+
+
+ModeTexture			= "HUD_weap_semiauto"
+//ModeTextureColor		= "42 235 42 100"
+//ReticuleTexture			= "reticule_04"
+OrdnanceName 			= "all_weap_inf_forcepull_ord"
+
+TriggerSingle			= "1"
+ShotDelay 			= "0.1"
+HeatPerShot			= "0.075"
+MaxPressedTime			= "0.0"
+
+PitchSpread			= "0.5"
+YawSpread			= "0.5"
+
+SpreadPerShot		= "1.1"//1.2
+SpreadRecoverRate	= "4.8"//0.08
+SpreadThreshold		= "1.6"//0.03
+SpreadLimit		= "6.0"
+
+StandStillSpread	= "0.0"//0.4
+StandMoveSpread	= "0.0"//0.9
+CrouchStillSpread	= "0.0"//0.1
+CrouchMoveSpread	= "0.0"//0.6
+ProneStillSpread	= "0.0"
+ProneMoveSpread		= "0.0"
+
+LockOnRange			= "30.0"
+LockTime 			= "0.0"
+AutoAimSize			= "2.0"
+
+SalvoCount			= "1"
+ShotsPerSalvo			= "1"
+SalvoDelay			= "0.0"
+InitialSalvoDelay		= "0.4"
+SalvoTime			= "0.0"
+
+TargetEnemy			= "1"
+TargetNeutral			= "0"
+TargetFriendly			= "0"
+
+TargetPerson			= "1"
+TargetAnimal			= "1"
+TargetDroid			= "1"
+TargetVehicle			= "1"
+TargetBuilding			= "1"
+

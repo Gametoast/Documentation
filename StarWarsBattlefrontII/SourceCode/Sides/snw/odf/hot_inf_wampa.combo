@@ -1,0 +1,543 @@
+OffhandAnimation("stand_useforce", "FIRE")
+{
+    Loop("FinalFrame");
+    AimType("Torso");
+    BlendInTime(0.15);
+    BlendOutTime(0.15);
+}
+OffhandAnimation("stand_useforce", "FIRE2");
+OffhandAnimation("stand_useforce", "CHARGE");
+
+Animation("stand_attack1a_end");
+Animation("stand_attack1b");
+Animation("stand_attack1a_upper")
+{
+    AimType("None");
+    BlendInTime(0.0);
+    BlendOutTime(0.3);
+    BlendTimeTo("stand_attack1a_end", 0.0);
+    BlendTimeTo("stand_attack1b", 0.2);
+}
+Animation("stand_attack1a_lower")
+{
+    BlendInTime(0.3);
+    BlendOutTime(0.3);
+    BlendTimeTo("stand_attack1a_end", 0.0);
+    BlendTimeTo("stand_attack1b", 0.15);
+}
+
+// Throw stuff....
+ThrowAnimation("stand_throw");
+
+State("IDLE")
+{
+    Duration(0.0);  // infinite duration
+    EnergyRestoreRate();    // (0.0, "FromSoldier")
+    InputLock(0.15, "Sprint", "Jump", "Crouch");
+
+    Transition("ATTACK_CLAP")
+    {
+        If()
+        {
+            Break();    // all transitions are breaking if Duration is 0
+            Posture("Stand", "Crouch", "Sprint");
+            Button("Reload", "Press");
+        }
+    }
+    Transition("ATTACK_CLAP")
+    {
+        If()
+        {
+            Break();    // all transitions are breaking if Duration is 0
+            Posture("Stand", "Crouch", "Sprint");
+            Button("FireSecondary", "Press");
+        }
+    }
+    Transition("ATTACK1")
+    {
+        If()
+        {
+            Break();    // all transitions are breaking if Duration is 0
+            Posture("Stand", "Crouch");
+            Button("Fire", "Press");
+        }
+    }
+    Transition("DASHATTACK")
+    {
+        If()
+        {
+            Break();    // all transitions are breaking if Duration is 0
+            Posture("Sprint");
+            Button("Fire", "Press");
+        }
+    }
+    Transition("JUMPATTACK_FALL")
+    {
+        If()
+        {
+            Break();    // all transitions are breaking if Duration is 0
+            Posture("Jump", "Jet");
+            //The following should be true during a jetjump, jump, or fall 
+            // unless we're more than 0.35 seconds from the apex
+            //NOTE: This may not allow luke to jump attack during longer falls
+            // or falling from a force jump when it could.
+            VelocityY(">", -6.3);
+            TimeInPosture(">", 0.5);
+            Button("Fire", "Press");
+        }
+    }
+}
+
+//Forward declare animations to allow BlendTimeTo references:
+Animation("stand_attack1b_end");
+Animation("stand_attack1c");
+
+State("ATTACK1")
+{
+    Posture("Stand");
+    Animation("stand_attack1a");
+
+    InputLock("All", "!Thrust");
+    AlignedToThrust();
+    Attack()
+    {
+	Edge(0);
+        DamageTime(5, 12, "Frames");
+        DamageLength(1.0);
+        DamageWidth(1.25);
+        Damage(300);
+	Push(10.0);
+    }
+
+    // Duration(20, "Frames");
+
+    Sound("com_weap_melee_swing");
+
+    Transition("ATTACK2")
+    {
+        If()
+        {
+            TimeStart(0.0);
+            TimeEnd(0.25, "FromEnd");   //, "SyncIfOvertime");
+            Posture("Stand");
+            Button("Fire", "Press");
+        }
+    }
+    Transition("RECOVER1");
+}
+
+State("RECOVER1")
+{
+    Posture("Stand");
+    Animation("stand_attack1a_end")
+    {
+//      SyncType("attack1b", "ByTime");
+        AimType("None");
+        BlendOutTime(0.15);
+        BlendTimeTo("standalert_idle_emote", 0.3);
+    }
+
+    InputLock(0.3, "All", "!Thrust");
+    AlignedToThrust();
+
+    Transition("IDLE")
+    {
+        If()
+        {
+            Break(0.3); // break out after 0.2 seconds if:
+            ButtonsPressed("Any");
+        }
+    }
+}
+
+State("ATTACK2")
+{
+    Posture("Stand");
+    Animation("stand_attack1b")
+    {
+//      SyncType("attack1b", "ByTime");
+        AimType("None");
+        BlendInTime(0.3);
+        BlendOutTime(0.15);
+    }
+
+    InputLock("All", "!Thrust");
+    AlignedToThrust();
+    Attack()
+    {
+	Edge(1);
+        DamageTime(6, 13, "Frames");
+        DamageLength(1.5);
+        DamageWidth(1.25);
+        Damage(300);
+	Push(10.0);
+    }
+
+    // Duration(23, "Frames");
+
+    Sound("com_weap_melee_swing");
+
+    Transition("ATTACK3")
+    {
+        If()
+        {
+            TimeStart(0.0);
+            TimeEnd(0.25, "FromEnd");   //, "SyncIfOvertime");
+            Posture("Stand");
+            Button("Fire", "Press");
+//          Thrust(">", 0.9);
+//          ThrustAngle(-45, 45);
+        }
+    }
+    Transition("RECOVER2");
+}
+
+State("RECOVER2")
+{
+    Posture("Stand");
+    Animation("stand_attack1b_end")
+    {
+//      SyncType("attack1c", "ByTime");
+        AimType("None");
+        BlendInTime(0.15);
+	BlendOutTime(0.15);
+        BlendTimeTo("standalert_idle_emote", 0.3);
+    }
+
+    InputLock(0.3, "All", "!Thrust");
+    AlignedToThrust();
+
+    Transition("IDLE")
+    {
+        If()
+        {
+            Break(0.3); // break out after 0.2 seconds if:
+            ButtonsPressed("Any");
+        }
+    }
+}
+
+State("ATTACK3")
+{
+    Posture("Stand");
+    Animation("stand_attack1c")
+    {
+//      SyncType("attack1c", "ByTime");
+        AimType("None");
+        BlendInTime(0.15);
+        BlendOutTime(0.15);
+    }
+
+    Sound("com_weap_throw");
+
+    //set a duration so we will go to state RECOVER3 before the animation ends
+
+    AlignedToThrust();
+
+    AnimatedMove()
+    {
+        VelocityZ(13.0);
+        VelocityX(0.0);
+        VelocityFromThrust(0.0);
+        VelocityFromStrafe(1.0);
+    }
+
+    StrafeFactor(0.5);
+    TurnFactor(0.5);
+
+    Duration(16, "Frames");
+
+    InputLock("All", "!Thrust");    // lock all controls for duration of state
+    Attack()
+    {
+	Edge(0);
+	AttackID("attack3right");
+        DamageTime(16, 20, "Frames");
+        DamageLength(1.5);
+        DamageWidth(1.25);
+        Damage(300);
+	Push(15.0);
+    }
+    Attack()
+    {
+	Edge(1);
+	AttackID("attack3left");
+        DamageTime(16, 20, "Frames");
+        DamageLength(1.5);
+        DamageWidth(1.25);
+        Damage(300);
+	Push(15.0);
+    }
+
+    Transition("ATTACK3_LAND");
+}
+
+State("ATTACK3_LAND")
+{
+    Posture("Stand");
+    Animation("stand_attack1c")
+    {
+//      SyncType("attack1c", "ByTime");
+        AimType("None");
+        BlendInTime(0.15);
+        BlendOutTime(0.15);
+    }
+
+    Sound("com_weap_melee_swing");
+
+    //set a duration so we will go to state RECOVER3 before the animation ends
+
+    AlignedToThrust();
+
+    AnimatedMove()
+    {
+        VelocityZ(0.0);
+        VelocityX(0.0);
+        VelocityFromThrust(0.5);
+        VelocityFromStrafe(1.0);
+    }
+
+    StrafeFactor(0.5);
+    TurnFactor(0.5);
+
+    InputLock("All", "!Thrust");    // lock all controls for duration of state
+    Attack()
+    {
+	Edge(0);
+	AttackID("attack3right");
+        DamageTime(16, 20, "Frames");
+        DamageLength(1.5);
+        DamageWidth(1.25);
+        Damage(300);
+	Push(15.0);
+    }
+    Attack()
+    {
+	Edge(1);
+	AttackID("attack3left");
+        DamageTime(16, 20, "Frames");
+        DamageLength(1.5);
+        DamageWidth(1.25);
+        Damage(300);
+	Push(15.0);
+    }
+
+    Transition("IDLE");
+}
+
+
+State("DASHATTACK")
+{
+    Posture("Stand");
+    Animation("stand_dashattack")
+    {
+        AimType("FullBody");
+        BlendInTime(0.10);
+        BlendOutTime(0.25);
+    }
+
+    Sound("com_weap_melee_swing");
+
+    Duration(7, "Frames");
+
+    EnergyRestoreRate(0.0);
+
+    AnimatedMove()
+    {
+        VelocityZ(27.0);
+        VelocityX(0.0);
+        VelocityFromThrust(5.0);
+        VelocityFromStrafe(1.0);
+    }
+    TurnFactor(0.3);
+
+    InputLock("All", "!Thrust");
+    Attack()
+    {
+	Edge(2);
+	AttackID("dash_right");
+        DamageTime(5, 9, "Frames");
+        DamageLength(0.5);
+        DamageWidth(2.25);
+        Damage(800);
+	Push(20.0);
+    }
+
+    Transition("DASHATTACK2");
+}
+
+State("DASHATTACK2")
+{
+    Posture("Stand");
+    Animation("stand_dashattack")
+    {
+        AimType("FullBody");
+        BlendInTime(0.10);
+        BlendOutTime(0.25);
+    }
+
+    AnimatedMove()
+    {
+        VelocityZ(0.0);
+        VelocityX(0.0);
+        VelocityFromThrust(0.5);
+        VelocityFromStrafe(1.0);
+    }
+    TurnFactor(0.3);
+
+    EnergyRestoreRate(0.0);
+
+    InputLock("All", "!Thrust");
+    Attack()
+    {
+	Edge(2);
+	AttackID("dash_right");
+        DamageTime(5, 9, "Frames");
+        DamageLength(0.5);
+        DamageWidth(2.25);
+        Damage(800);
+	Push(20.0);
+    }
+    Attack()
+    {
+	Edge(0);
+	AttackID("dash_right");
+        DamageTime(9, 14, "Frames");
+        DamageLength(0.5);
+        DamageWidth(1.25);
+        Damage(300);
+	Push(20.0);
+    }
+
+    Transition("IDLE");
+}
+
+// forward declare jumpattack_land, since jumpattack_fall refers to it:
+Animation("jumpattack_land");
+
+State("JUMPATTACK_FALL")
+{
+    Posture("Jump");
+    Animation("jumpattack_fall")
+    {
+        Loop("FinalFrame");
+        AimType("None");
+        BlendInTime(0.15);
+        BlendOutTime(0.15);
+//      BlendTimeTo("jumpattack_land", 0.15);
+    }
+
+    Sound("com_weap_throw");
+
+    Duration(0);
+
+    EnergyRestoreRate(0.0);
+
+    Gravity(4.0);
+    GravityVelocityTarget(-20.0);   // accelerate us 
+    AnimatedMove();
+    InputLock("All", "!Thrust");    // lock all buttons for duration of state
+
+    Transition("JUMPATTACK_LAND")
+    {
+        If()
+        {
+            Break();
+            Posture("Stand");
+        }
+    }
+    Transition("IDLE")
+    {
+        If()
+        {
+            Break();
+            Posture("Any", "!Stand", "!Jump", "!Jet");
+        }
+    }
+}
+
+State("JUMPATTACK_LAND")
+{
+    Posture("Stand");
+
+    Animation("jumpattack_land")
+    {
+        AimType("FullBody");
+        //SyncType("jumpattack_land", "ByTime");
+        BlendInTime(0.00);
+        BlendOutTime(0.20);
+    }
+
+    RestartAnimation();
+    Duration(4, "Frames");
+
+    EnergyRestoreRate(0.0);
+
+    AnimatedMove();
+    InputLock("All");
+
+    Transition("JUMPATTACK_LAND2");
+}
+
+State("JUMPATTACK_LAND2")
+{
+    Posture("Stand");
+
+    Animation("jumpattack_land")
+    {
+        AimType("FullBody");
+        //SyncType("jumpattack_land", "ByTime");
+        BlendInTime(0.00);
+        BlendOutTime(0.20);
+    }
+
+    EnergyRestoreRate(0.0);
+
+    PlayExplosion(); // yep...
+
+    AnimatedMove();
+    InputLock("All");
+}
+
+State("ATTACK_CLAP")
+{
+    Posture("Stand");
+    Animation("stand_alternate_attack")
+    {
+//      SyncType("attack1c", "ByTime");
+        AimType("None");
+        BlendInTime(0.15);
+        BlendOutTime(0.15);
+    }
+
+    Sound("com_weap_melee_swing", 15, "Frames");
+
+    //set a duration so we will go to state RECOVER3 before the animation ends
+
+    AlignedToThrust();
+
+    StrafeFactor(0.5);
+    TurnFactor(0.5);
+
+    InputLock("All", "!Thrust");    // lock all controls for duration of state
+    Attack()
+    {
+	Edge(0);
+        DamageTime(17, 20, "Frames");
+        DamageLength(1.5);
+        DamageWidth(1.25);
+        Damage(400);
+	Push(20.0);
+    }
+    Attack()
+    {
+	Edge(1);
+        DamageTime(17, 20, "Frames");
+        DamageLength(1.5);
+        DamageWidth(1.25);
+        Damage(400);
+	Push(20.0);
+    }
+
+    Transition("IDLE");
+}

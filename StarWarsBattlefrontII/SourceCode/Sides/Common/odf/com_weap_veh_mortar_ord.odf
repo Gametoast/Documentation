@@ -1,0 +1,23 @@
+[OrdnanceClass]
+ClassLabel      = "shell"
+
+[Properties]
+ImpactEffectWater       = "com_sfx_watersplash_sm"
+ImpactEffect        = "com_sfx_explosion_lg"
+TrailEffect     = "com_sfx_weap_mortartrail_yellow"
+
+LifeSpan            = "5.0"
+Velocity            = "120.0"
+Gravity             = "2.0"
+Rebound             = "0.0"
+
+MaxDamage           = "750.0"
+VehicleScale            = "1.0"
+BuildingScale           =   "1.0"
+
+
+//***************************************
+//**********SOUNDS***********************
+//***************************************
+OrdnanceSound           = "com_weap_inf_ord_hum_rocket"
+CollisionSound      = "imp_weap_ord_exp_lg"

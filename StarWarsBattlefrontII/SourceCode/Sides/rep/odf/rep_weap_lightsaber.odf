@@ -1,0 +1,19 @@
+[WeaponClass]
+
+ClassLabel      = "melee"
+ClassParent		= "com_weap_inf_lightsaber"
+
+[Properties]
+
+ExplosionName = "rep_mace_groundcrack_exp"
+//SmashEffect = "com_sfx_groundcrack"
+
+GeometryName        = "rep_weap_inf_lightsabre"
+ComboAnimationBank  = "human_sabre melee rep_hero_macewindu"
+
+FirePointName       = "hp_fire"
+LightSaberLength	= "1.0"
+LightSaberWidth		= "0.08"
+LightSaberTexture   = "violetlightsaber"
+LightSaberTrailColor = "189 7 255 128"
+

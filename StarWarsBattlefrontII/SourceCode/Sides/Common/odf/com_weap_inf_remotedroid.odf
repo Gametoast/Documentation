@@ -1,0 +1,42 @@
+[WeaponClass]
+ClassLabel          = "remote"
+
+[Properties]
+IconTexture         = "HUD_com_probedroid_health_icon"
+
+MuzzleFlash         = "small_muzzle_flash"
+Discharge           = "small_smoke_effect"
+
+RoundsPerClip           = "1"
+ReloadTime          = "0.0"
+LockOnRange         = "80.0"
+LockTime            = "0.4"
+
+ZoomMin             = "0.0"
+ZoomMax             = "0.0"
+ZoomRate            = "0.0"
+
+//AnimationBank         = "grenade"
+OffhandWeapon = 1
+
+SwitchImmediately       = "1"
+
+ShotDelay           = "1.4"
+MinSpread           = "0.0"
+MaxSpread           = "0.0"
+AutoAimSize         = "1.0"
+
+SalvoCount          = "1"
+SalvoDelay          = "0.0"
+InitialSalvoDelay       = "0.3"
+
+FireSound           = "com_weap_inf_remotedroid_fire"
+FireEmptySound      = "com_weap_inf_ammo_empty"
+
+
+
+
+
+
+
+
