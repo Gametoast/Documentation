@@ -1,0 +1,957 @@
+// ----- Soundspace Start ----------------------------------------------
+
+// Start I3DL2 Presets
+// -- Start small -----
+#ifplatform pc xbox
+I3DL2ReverbPreset()
+{
+    Name("smallplastic");
+    RoomGain(1.0);
+    RoomHFGain(0.9);
+    RoomRollOff(1.0);
+    DecayTime(1.2);
+    DecayHFRatio(0.3);
+    ERGain(0.4);
+    ERDelay(0.02);
+    ReverbGain(0.2);
+    ReverbDelay(0.04);
+    Diffusion(100.0);
+    Density(100.0);
+    HFReference(5000.0);
+}
+#endifplatform pc xbox
+
+#ifplatform ps2
+I3DL2ReverbPreset()
+{
+    Name("smallplastic");
+    RoomGain(0.1);
+    RoomHFGain(0.9);
+    RoomRollOff(1.0);
+    DecayTime(1.2);
+    DecayHFRatio(0.3);
+    ERGain(0.2);
+    ERDelay(0.02);
+    ReverbGain(0.2);
+    ReverbDelay(0.04);
+    Diffusion(100.0);
+    Density(100.0);
+    HFReference(5000.0);
+}
+#endifplatform ps2
+// End Small
+// Start Medium
+#ifplatform pc xbox
+I3DL2ReverbPreset()
+{
+    Name("mediumplastic");
+    RoomGain(1.0);
+    RoomHFGain(0.9);
+    RoomRollOff(1.0);
+    DecayTime(2.5);
+    DecayHFRatio(0.3);
+    ERGain(0.15);
+    ERDelay(0.05);
+    ReverbGain(0.2);
+    ReverbDelay(0.04);
+    Diffusion(100.0);
+    Density(100.0);
+    HFReference(5000.0);
+}
+#endifplatform pc xbox
+
+#ifplatform ps2
+I3DL2ReverbPreset()
+{
+    Name("mediumplastic");
+    RoomGain(0.1);
+    RoomHFGain(0.9);
+    RoomRollOff(1.0);
+    DecayTime(2.5);
+    DecayHFRatio(0.3);
+    ERGain(0.15);
+    ERDelay(0.05);
+    ReverbGain(0.2);
+    ReverbDelay(0.04);
+    Diffusion(100.0);
+    Density(100.0);
+    HFReference(5000.0);
+}
+#endifplatform ps2
+// --- End medium -----
+
+// Start Large
+#ifplatform pc xbox
+I3DL2ReverbPreset()
+{
+    Name("largeplastic");
+    RoomGain(1.0);
+    RoomHFGain(0.9);
+    RoomRollOff(1.0);
+    DecayTime(3.5);
+    DecayHFRatio(0.6);
+    ERGain(0.0);
+    ERDelay(0.02);
+    ReverbGain(0.1);
+    ReverbDelay(0.04);
+    Diffusion(100.0);
+    Density(100.0);
+    HFReference(5000.0);
+}
+#endifplatform pc xbox
+
+#ifplatform ps2
+I3DL2ReverbPreset()
+{
+    Name("largeplastic");
+    RoomGain(0.1);
+    RoomHFGain(0.9);
+    RoomRollOff(1.0);
+    DecayTime(3.5);
+    DecayHFRatio(0.6);
+    ERGain(0.0);
+    ERDelay(0.02);
+    ReverbGain(0.2);
+    ReverbDelay(0.04);
+    Diffusion(100.0);
+    Density(100.0);
+    HFReference(5000.0);
+}
+#endifplatform ps2
+// --- End Large -----
+// End I3DL2 Presets 
+
+
+Space()
+{
+    Name("Hangar3");
+    I3DL2ReverbPreset("mediumplastic");
+    DirectGain(1.0);
+    DirectHFGain(1.0);
+    RoomGain(1.0);
+    RoomHFGain(1.0);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.0);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.0);
+    OcclusionLFRatio(1.0);
+}
+
+
+
+
+Space()
+{
+    Name("Hangar2");
+    I3DL2ReverbPreset("mediumplastic");
+    DirectGain(1.0);
+    DirectHFGain(1.0);
+    RoomGain(1.0);
+    RoomHFGain(1.0);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.0);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.0);
+    OcclusionLFRatio(1.0);
+}
+
+Space()
+{
+    Name("Hangar2Access");
+    I3DL2ReverbPreset("smallplastic");
+    DirectGain(1.0);
+    DirectHFGain(1.0);
+    RoomGain(1.0);
+    RoomHFGain(1.0);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.0);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.0);
+    OcclusionLFRatio(1.0);
+    ConnectedList()
+    {
+        Space("Hangar2", 0.3)
+    }      
+}
+
+Space()
+{
+    Name("Cavern5");
+    I3DL2ReverbPreset("largeplastic");
+    DirectGain(1.0);
+    DirectHFGain(1.0);
+    RoomGain(1.0);
+    RoomHFGain(1.0);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.0);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.0);
+    OcclusionLFRatio(1.0);
+    ConnectedList()
+    {
+        Space("Hangar3", 0.3)
+     
+    }      
+}
+
+Space()
+{
+    Name("Cavern4");
+    I3DL2ReverbPreset("largeplastic");
+    DirectGain(1.0);
+    DirectHFGain(1.0);
+    RoomGain(1.0);
+    RoomHFGain(1.0);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.0);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.0);
+    OcclusionLFRatio(1.0);
+    ConnectedList()
+    {
+        Space("Cavern5", 0.0)
+        Space("Hangar3", 0.3)
+        
+    }      
+}
+
+Space()
+{
+    Name("Cavern3");
+    I3DL2ReverbPreset("largeplastic");
+    DirectGain(1.0);
+    DirectHFGain(1.0);
+    RoomGain(1.0);
+    RoomHFGain(1.0);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.0);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.0);
+    OcclusionLFRatio(1.0);
+    ConnectedList()
+    {
+        Space("Cavern3", 0.0)
+        Space("Cavern5", 0.0)
+    }     
+}
+
+Space()
+{
+    Name("Cavern2");
+    I3DL2ReverbPreset("largeplastic");
+    DirectGain(1.0);
+    DirectHFGain(1.0);
+    RoomGain(1.0);
+    RoomHFGain(1.0);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.0);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.0);
+    OcclusionLFRatio(1.0);
+    ConnectedList()
+    {
+        Space("Cavern3", 0.0)
+        Space("Cavern4", 0.0)
+        Space("Cavern5", 0.0)
+    }     
+}
+
+Space()
+{
+    Name("Cavern1");
+    I3DL2ReverbPreset("largeplastic");
+    DirectGain(1.0);
+    DirectHFGain(1.0);
+    RoomGain(1.0);
+    RoomHFGain(1.0);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.0);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.0);
+    OcclusionLFRatio(1.0);
+    ConnectedList()
+    {
+        Space("Cavern2", 0.0)
+        Space("Cavern3", 0.0)
+    }  
+}
+
+Space()
+{
+    Name("MineLanding");
+    I3DL2ReverbPreset("largeplastic");
+    DirectGain(1.0);
+    DirectHFGain(1.0);
+    RoomGain(1.0);
+    RoomHFGain(1.0);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.0);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.0);
+    OcclusionLFRatio(1.0);
+    ConnectedList()
+    {
+        Space("Cavern1", 0.1)
+        Space("Cavern2", 0.0)
+        
+    }       
+}
+
+Space()
+{
+    Name("MineLandingAccess");
+    I3DL2ReverbPreset("mediumplastic");
+    DirectGain(1.0);
+    DirectHFGain(1.0);
+    RoomGain(1.0);
+    RoomHFGain(1.0);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.0);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.0);
+    OcclusionLFRatio(1.0);
+    ConnectedList()
+    {
+        Space("MineLanding", 0.3)
+        Space("Hangar2Access", 0.3)
+    }      
+}
+
+Space()
+{
+    Name("MineLandingHall1");
+    I3DL2ReverbPreset("largeplastic");
+    DirectGain(1.0);
+    DirectHFGain(1.0);
+    RoomGain(1.0);
+    RoomHFGain(1.0);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.0);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.0);
+    OcclusionLFRatio(1.0);
+    ConnectedList()
+    {
+        Space("MineLandingAccess", 0.2)
+    }      
+}
+
+Space()
+{
+    Name("HangarBox2");
+    I3DL2ReverbPreset("mediumplastic");
+    DirectGain(1.0);
+    DirectHFGain(1.0);
+    RoomGain(1.0);
+    RoomHFGain(1.0);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.0);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.0);
+    OcclusionLFRatio(1.0);
+    ConnectedList()
+    {
+        Space("MineLandingHall1", 0.1)
+    }     
+}
+
+Space()
+{
+    Name("HangarBox");
+    I3DL2ReverbPreset("mediumplastic");
+    DirectGain(1.0);
+    DirectHFGain(1.0);
+    RoomGain(1.0);
+    RoomHFGain(1.0);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.0);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.0);
+    OcclusionLFRatio(1.0);
+    ConnectedList()
+    {
+        Space("HangarBox2", 0.0)
+        Space("MineLandingHall1", 0.1)
+        Space("MineLandingAccess", 0.8)
+       
+
+    }     
+}
+
+Space()
+{
+    Name("Lounge2Hall");
+    I3DL2ReverbPreset("smallplastic");
+    DirectGain(1.0);
+    DirectHFGain(1.0);
+    RoomGain(1.0);
+    RoomHFGain(1.0);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.0);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.0);
+    OcclusionLFRatio(1.0);
+    ConnectedList()
+    {
+        Space("HangarBox2", 0.0)
+        Space("HangarBox", 0.0)     
+    }     
+}
+
+Space()
+{
+    Name("MineLoungeHall2");
+    I3DL2ReverbPreset("mediumplastic");
+    DirectGain(1.0);
+    DirectHFGain(1.0);
+    RoomGain(1.0);
+    RoomHFGain(1.0);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.0);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.0);
+    OcclusionLFRatio(1.0);
+    ConnectedList()
+    {
+        Space("MineLandingAccess", 0.2)
+        
+    } 
+}
+
+Space()
+{
+    Name("Skybox");
+    I3DL2ReverbPreset("mediumplastic");
+    DirectGain(1.0);
+    DirectHFGain(1.0);
+    RoomGain(1.0);
+    RoomHFGain(1.0);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.0);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.0);
+    OcclusionLFRatio(1.0);
+    ConnectedList()
+    {
+        Space("MineLoungeHall2", 0.2)
+        Space("MineLandingAccess", 0.2)
+        
+    }      
+}
+
+Space()
+{
+    Name("Skyboxlanding2");
+    I3DL2ReverbPreset("mediumplastic");
+    DirectGain(1.0);
+    DirectHFGain(1.0);
+    RoomGain(1.0);
+    RoomHFGain(1.0);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.0);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.0);
+    OcclusionLFRatio(1.0);
+    ConnectedList()
+    {
+        Space("SkyBox", 0.3)
+        Space("HangarBox", 0.7)
+        Space("HangarBox2", 0.7)
+        Space("Lounge2Hall", 0.7)
+        Space("MineLoungeHall2", 0.3)
+
+    }     
+}
+
+Space()
+{
+    Name("Skylounge1");
+    I3DL2ReverbPreset("mediumplastic");
+    DirectGain(1.0);
+    DirectHFGain(1.0);
+    RoomGain(1.0);
+    RoomHFGain(1.0);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.0);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.0);
+    OcclusionLFRatio(1.0);
+    ConnectedList()
+    {
+        Space("SkyBox", 0.3)
+        Space("SkyBoxLanding2", 0.3)      
+    }     
+}
+
+Space()
+{
+    Name("SkyboxHall1");
+    I3DL2ReverbPreset("smallplastic");
+    DirectGain(1.0);
+    DirectHFGain(1.0);
+    RoomGain(1.0);
+    RoomHFGain(1.0);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.0);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.0);
+    OcclusionLFRatio(1.0);
+    ConnectedList()
+    {
+        Space("SkyLounge1", 0.2)      
+        Space("SkyBox", 0.3)
+        Space("SkyBoxLanding2", 0.3)      
+    } 
+}
+
+Space()
+{
+    Name("Skylounge");
+    I3DL2ReverbPreset("mediumplastic");
+    DirectGain(1.0);
+    DirectHFGain(1.0);
+    RoomGain(1.0);
+    RoomHFGain(1.0);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.0);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.0);
+    OcclusionLFRatio(1.0);
+    ConnectedList()
+    {
+        Space("SkyBoxHall1", 0.1) 
+        Space("Hangar2Access", 0.1)   
+        Space("Lounge2Hall", 0.2) 
+        Space("SkyLounge1", 0.7) 
+        Space("HangarBox2", 0.7) 
+    }     
+}
+
+Space()
+{
+    Name("RadarCatwalk2");
+    I3DL2ReverbPreset("smallplastic");
+    DirectGain(1.0);
+    DirectHFGain(1.0);
+    RoomGain(1.0);
+    RoomHFGain(1.0);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.0);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.0);
+    OcclusionLFRatio(1.0);
+    ConnectedList()
+    {
+        Space("SkyLounge", 0.8) 
+    }     
+}
+
+Space()
+{
+    Name("RadarCatwalk1");
+    I3DL2ReverbPreset("smallplastic");
+    DirectGain(1.0);
+    DirectHFGain(1.0);
+    RoomGain(1.0);
+    RoomHFGain(1.0);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.0);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.0);
+    OcclusionLFRatio(1.0);
+    ConnectedList()
+    {
+        Space("SkyLounge", 0.8) 
+    }  
+}
+
+Space()
+{
+    Name("RadarBldg");
+    I3DL2ReverbPreset("largeplastic");
+    DirectGain(1.0);
+    DirectHFGain(1.0);
+    RoomGain(1.0);
+    RoomHFGain(1.0);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.0);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.0);
+    OcclusionLFRatio(1.0);
+    ConnectedList()
+    {
+        Space("RadarCatwalk1", 0.8) 
+        Space("RadarCatwalk2", 0.8) 
+    }  
+}
+
+Space()
+{
+    Name("RadarCore");
+    I3DL2ReverbPreset("mediumplastic");
+    DirectGain(1.0);
+    DirectHFGain(1.0);
+    RoomGain(1.0);
+    RoomHFGain(1.0);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.0);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.0);
+    OcclusionLFRatio(1.0);
+    ConnectedList()
+    {
+        Space("RadarBldg", 0.2) 
+    }  
+}
+
+Space()
+{
+    Name("Airlock2");
+    I3DL2ReverbPreset("largeplastic");
+    DirectGain(1.0);
+    DirectHFGain(1.0);
+    RoomGain(1.0);
+    RoomHFGain(1.0);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.0);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.0);
+    OcclusionLFRatio(1.0);
+    ConnectedList()
+    {
+        Space("RadarBldg", 0.0) 
+        Space("RadarCatwalk2", 0.3)
+        Space("SkyLounge", 0.7) 
+
+    }  
+}
+
+Space()
+{
+    Name("Airlock3");
+    I3DL2ReverbPreset("largeplastic");
+    DirectGain(1.0);
+    DirectHFGain(1.0);
+    RoomGain(1.0);
+    RoomHFGain(1.0);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.0);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.0);
+    OcclusionLFRatio(1.0);
+    ConnectedList()
+    {
+        Space("RadarBldg", 0.0) 
+        Space("Airlock2", 0.3) 
+        Space("RadarCatwalk1", 0.3) 
+        Space("SkyLounge", 0.7) 
+    }  
+}
+
+
+
+Space()
+{
+    Name("Hangar1CatwalkLower");
+    I3DL2ReverbPreset("smallplastic");
+    DirectGain(1.0);
+    DirectHFGain(1.0);
+    RoomGain(1.0);
+    RoomHFGain(1.0);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.0);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.0);
+    OcclusionLFRatio(1.0);
+    ConnectedList()
+    {
+       Space("RadarBldg", 0.6) 
+    } 
+}
+
+Space()
+{
+    Name("Airlock1");
+    I3DL2ReverbPreset("largeplastic");
+    DirectGain(1.0);
+    DirectHFGain(1.0);
+    RoomGain(1.0);
+    RoomHFGain(1.0);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.0);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.0);
+    OcclusionLFRatio(1.0);
+    ConnectedList()
+    {
+        Space("RadarBldg", 0.0) 
+    }  
+}
+
+Space()
+{
+    Name("Hanger1CatwalkUpper");
+    I3DL2ReverbPreset("largeplastic");
+    DirectGain(1.0);
+    DirectHFGain(1.0);
+    RoomGain(1.0);
+    RoomHFGain(1.0);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.0);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.0);
+    OcclusionLFRatio(1.0);
+    ConnectedList()
+    {
+        Space("Airlock1", 0.2) 
+        Space("RadarBldg", 0.95) 
+    }  
+}
+
+Space()
+{
+    Name("Hangar1Control");
+    I3DL2ReverbPreset("mediumplastic");
+    DirectGain(1.0);
+    DirectHFGain(1.0);
+    RoomGain(1.0);
+    RoomHFGain(1.0);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.0);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.0);
+    OcclusionLFRatio(1.0);
+    ConnectedList()
+    {
+        Space("Hanger1CatwalkUpper", 0.3) 
+        Space("Airlock1", 0.7) 
+    }    
+}
+
+Space()
+{
+    Name("DockingBay1");
+    I3DL2ReverbPreset("mediumplastic");
+    DirectGain(1.0);
+    DirectHFGain(1.0);
+    RoomGain(1.0);
+    RoomHFGain(1.0);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.0);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.0);
+    OcclusionLFRatio(1.0);
+    ConnectedList()
+    {
+        Space("Hangar1Control", 0.15) 
+        Space("Hanger1CatwalkUpper", 0.8) 
+    }
+}
+
+Space()
+{
+    Name("Hangar1");
+    I3DL2ReverbPreset("largeplastic");
+    DirectGain(1.0);
+    DirectHFGain(1.0);
+    RoomGain(1.0);
+    RoomHFGain(1.0);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.0);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.0);
+    OcclusionLFRatio(1.0);
+    ConnectedList()
+    {
+        Space("DockingBay1", 0.3) 
+        Space("Hangar1Control", 0.7) 
+        Space("Hangar1CatwalkLower", 0.3) 
+        Space("RadarBldg", 0.95) 
+    }
+}
+
+// ----- End Hangar1 space ------
+
+
+
+// ----- Soundspace End -----------------------------------------------------
+
+
+
+
+// ----- Ambient Environment Streams Start ------------------------------
+//SoundStreamProperties()
+//{
+//    Name("pol_amb_wind");
+//    Group("ambientenv");
+//    Inherit("ambientfx_template");
+//    Stream("pol1");
+//    SegmentList()
+//    {
+//        Segment("pol_amb_wind", 1.0);
+//    }
+//}
+
+SoundStreamProperties()
+{
+    Name("pol_amb_hall_mach");
+    Group("ambientenv");
+    Inherit("ambientfx_template");
+    Gain(1.0);
+    Stream("pol1");
+    SegmentList()
+    {
+        Segment("pol_amb_hall_mach", 1.0);
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("pol_amb_hall_mine");
+    Group("ambientenv");
+    Inherit("ambientfx_template");
+    Gain(1.0);
+    Stream("pol1");
+    SegmentList()
+    {
+        Segment("pol_amb_hall_mine", 1.0);
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("pol_amb_hall_small");
+    Group("ambientenv");
+    Inherit("ambientfx_template");
+    Gain(1.0);
+    Stream("pol1");
+    SegmentList()
+    {
+        Segment("pol_amb_hall_small", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("hoth_rumble")
+    Pitch(1.0);
+    PitchDev(0.0);
+    Gain(0.7);
+    GainDev(0.0);
+    ReverbGain(1.0);
+    Bus("soundfx");
+    Looping(0);
+    Pan(0.0);
+    MinDistance(5.0);
+    MuteDistance(50.0);
+    MaxDistance(50.0);
+    RollOff(0.0);
+    Mode3D(1);
+    Bias(0.0001);
+    Priority(0.8);
+    SampleList()
+    {
+        Sample("rumble1", 0.5);
+        Sample("rumble2", 0.5);
+    }
+}
+
+// ----- Ambient Environment Streams End ---------------------------
+
+
+
+// ----- Prop Ambient Effects Start --------------------------------
+
+
+
+SoundProperties()
+{
+    Name("shield_hum"); // steam jet loop low pitch
+    Group("Props");
+    Inherit("props_template");
+    Looping(1);
+    Gain(0.4)
+    Pitch(0.6);
+    RandomPlayPos(1);
+    RollOff(5.0);
+    MinDIstance(20)
+    MaxDistance(70);
+    MuteDistance(70);
+    SampleList()
+    {
+        Sample("force_field_lp", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("radar_hum"); // steam jet loop low pitch
+    Group("Props");
+    Inherit("props_template");
+    Looping(1);
+    RandomPlayPos(1);
+    Gain(0.5);
+    Pitch(0.7);
+    RollOff(5.0);
+    MaxDistance(50);
+    MuteDistance(50);
+    SampleList()
+    {
+        Sample("com_blg_commandpost3", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("door_open");
+    Pitch(1.0);
+    PitchDev(0.1);
+    Gain(1.0);
+    GainDev(0.05);
+    ReverbGain(1.0);
+    Bus("soundfx");
+    Looping(0);
+    Pan(0.0);
+    MinDistance(7.0);
+    SpaceDistance(7.0);
+    MuteDistance(50.0);
+    MaxDistance(50.0);
+    RollOff(1.0);
+    Mode3D(1);
+    Bias(0.0001);
+    Priority(0.8);
+    SampleList()
+    {
+        Sample("door_open", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("door_close");
+    Pitch(1.0);
+    PitchDev(0.1);
+    Gain(1.0);
+    GainDev(0.05);
+    ReverbGain(1.0);
+    Bus("soundfx");
+    Looping(0);
+    Pan(0.0);
+    MinDistance(7.0);
+    SpaceDistance(7.0);
+    MuteDistance(50.0);
+    MaxDistance(50.0);
+    RollOff(1.0);
+    Mode3D(1);
+    Bias(0.0001);
+    Priority(0.8);
+    SampleList()
+    {
+        Sample("door_close", 1.0);
+    }
+}
+
+
+// ----- Prop Ambient Effects End ----------------------------------
+
+

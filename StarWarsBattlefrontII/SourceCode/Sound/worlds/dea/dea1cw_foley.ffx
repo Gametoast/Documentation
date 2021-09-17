@@ -1,0 +1,61 @@
+#ifplatform xbox pc
+FoleyFXGroup()
+{
+    Name("terrain_foley");
+    FoleyFX("cis_inf_droid_metal");
+    FoleyFX("cis_inf_sbdroid_metal");
+    FoleyFX("rep_inf_trooper_metal");
+    FoleyFX("rep_inf_soldier_metal");
+    FoleyFX("cis_inf_soldier_metal");
+}
+
+FoleyFXGroup()
+{
+    Name("metal_foley");
+    FoleyFX("cis_inf_droid_metal");
+    FoleyFX("cis_inf_sbdroid_metal");
+    FoleyFX("rep_inf_trooper_metal");
+    FoleyFX("cis_inf_soldier_metal");
+    FoleyFX("rep_inf_soldier_metal");
+}
+#endifplatform xbox pc
+#ifplatform ps2
+FoleyFXGroup()
+{
+    Name("terrain_foley");
+    FoleyFX("cis_inf_droid_Stone");
+    FoleyFX("cis_inf_sbdroid_Stone");
+    FoleyFX("rep_inf_trooper_Stone");
+    FoleyFX("rep_inf_soldier_Stone");
+    FoleyFX("cis_inf_soldier_Stone");
+}
+
+FoleyFXGroup()
+{
+    Name("metal_foley");
+    FoleyFX("cis_inf_droid_Stone");
+    FoleyFX("cis_inf_sbdroid_Stone");
+    FoleyFX("rep_inf_trooper_Stone");
+    FoleyFX("cis_inf_soldier_Stone");
+    FoleyFX("rep_inf_soldier_Stone");
+}
+#endifplatform ps2
+FoleyFXGroup()
+{
+    Name("Stone_foley");
+    FoleyFX("cis_inf_droid_Stone");
+    FoleyFX("cis_inf_sbdroid_Stone");
+    FoleyFX("rep_inf_trooper_Stone");
+    FoleyFX("rep_inf_soldier_Stone");
+    FoleyFX("cis_inf_soldier_Stone");
+}
+
+FoleyFXGroup()
+{
+    Name("water_foley");
+    FoleyFX("cis_inf_droid_water");
+    FoleyFX("cis_inf_sbdroid_water");
+    FoleyFX("rep_inf_trooper_water");
+    FoleyFX("cis_inf_soldier_water");
+    FoleyFX("rep_inf_soldier_water");
+}

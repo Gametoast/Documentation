@@ -1,0 +1,27 @@
+SoundStreamProperties()
+{
+    Name("tat_amb_desertwind");
+    Group("ambientenv");
+    Inherit("ambientfx_template");
+    Bus("ambience");
+    Gain(0.2);
+    Stream("tat1");
+    SegmentList()
+    {
+        Segment("tat_amb_desertwind", 1.0);
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("tat_amb_canyon");
+    Group("ambientenv");
+    Inherit("ambientfx_template");
+    Bus("ambience");
+    Gain(0.4);
+    Stream("tat1");
+    SegmentList()
+    {
+        Segment("tat_amb_canyon", 1.0);
+    }
+}

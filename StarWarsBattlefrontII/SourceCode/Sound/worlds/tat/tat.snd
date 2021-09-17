@@ -1,0 +1,13 @@
+SoundProperties()
+{
+    Name("vaporatorhum"); // Vaporator loop
+    Group("ambientenv");
+    Inherit("ambientemt_static_template");
+    Looping(1);
+    RandomPlayPos(1);
+    RollOff(3.0);
+    SampleList()
+    {
+        Sample("emt_waterVaporator_lp01", 1.0);
+    }
+}

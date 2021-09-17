@@ -1,0 +1,912 @@
+// ======= Soundspaces Start ========================================
+// ------- Start I3DL2 Presets --------------------------------------
+
+
+#ifplatform xbox pc
+I3DL2ReverbPreset()
+{
+    Name("smallmetalroom");
+    RoomGain(1.0);
+    RoomHFGain(1.0);
+    RoomRollOff(1.0);
+    DecayTime(1.0);
+    DecayHFRatio(0.6);
+    ERGain(0.1);
+    ERDelay(0.07);
+    ReverbGain(0.1);
+    ReverbDelay(0.04);
+    Diffusion(100.0);
+    Density(100.0);
+    HFReference(5000.0);
+}
+#endifplatform xbox pc
+
+#ifplatform ps2
+I3DL2ReverbPreset()
+{
+    Name("smallmetalroom");
+    RoomGain(0.1);
+    RoomHFGain(1.0);
+    RoomRollOff(1.0);
+    DecayTime(1.0);
+    DecayHFRatio(0.6);
+    ERGain(0.1);
+    ERDelay(0.04);
+    ReverbGain(0.1);
+    ReverbDelay(0.04);
+    Diffusion(100.0);
+    Density(100.0);
+    HFReference(5000.0);
+}
+#endifplatform ps2
+
+#ifplatform xbox pc
+I3DL2ReverbPreset()
+{
+    Name("mediummetalroom");
+    RoomGain(1.0);
+    RoomHFGain(1.0);
+    RoomRollOff(1.0);
+    DecayTime(2.5);
+    DecayHFRatio(0.6);
+    ERGain(0.1);
+    ERDelay(0.07);
+    ReverbGain(0.1);
+    ReverbDelay(0.04);
+    Diffusion(60.0);
+    Density(50.0);
+    HFReference(5000.0);
+}
+#endifplatform xbox pc
+
+#ifplatform ps2
+I3DL2ReverbPreset()
+{
+    Name("mediummetalroom");
+    RoomGain(0.1);
+    RoomHFGain(1.0);
+    RoomRollOff(1.0);
+    DecayTime(2.5);
+    DecayHFRatio(0.6);
+    ERGain(0.1);
+    ERDelay(0.07);
+    ReverbGain(0.1);
+    ReverbDelay(0.04);
+    Diffusion(60.0);
+    Density(50.0);
+    HFReference(5000.0);
+}
+#endifplatform ps2
+
+#ifplatform xbox pc
+I3DL2ReverbPreset()
+{
+    Name("largemetalroom");
+    RoomGain(1.0);
+    RoomHFGain(1.0);
+    RoomRollOff(1.0);
+    DecayTime(4.0);
+    DecayHFRatio(0.6);
+    ERGain(0.3);
+    ERDelay(0.07);
+    ReverbGain(0.1);
+    ReverbDelay(0.04);
+    Diffusion(60.0);
+    Density(50.0);
+    HFReference(5000.0);
+}
+#endifplatform xbox pc
+
+#ifplatform ps2
+I3DL2ReverbPreset()
+{
+    Name("largemetalroom");
+    RoomGain(0.15);
+    RoomHFGain(1.0);
+    RoomRollOff(1.0);
+    DecayTime(3.5);
+    DecayHFRatio(0.6);
+    ERGain(0.3);
+    ERDelay(0.07);
+    ReverbGain(0.1);
+    ReverbDelay(0.04);
+    Diffusion(100.0);
+    Density(50.0);
+    HFReference(5000.0);
+}
+#endifplatform ps2
+// ----- End I3DL2 Presets -----------------------------------
+
+// ----- Start Spaces ----------------------------------------
+
+// ----- Start Outside space ------------------
+
+#ifplatform xbox pc
+Space()
+{
+    Name("outside");
+    I3DL2ReverbPreset("noreverb");
+    DirectGain(1.0);
+    DirectHFGain(1.0);
+    RoomGain(1.0);
+    RoomHFGain(1.0);
+    RoomRollOffFactor(0.0);
+    ObstructionHFGain(1.0);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(1.0);
+    OcclusionLFRatio(1.0);
+    Priority(0.5);
+
+}
+#endifplatform xbox pc
+
+#ifplatform ps2
+Space()
+{
+    Name("outside");
+    I3DL2ReverbPreset("noreverb");
+    DirectGain(1.0);
+    DirectHFGain(1.0);
+    RoomGain(1.0);
+    RoomHFGain(1.0);
+    RoomRollOffFactor(0.0);
+    ObstructionHFGain(1.0);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(1.0);
+    OcclusionLFRatio(1.0);
+    Priority(0.5);
+}
+
+#endifplatform ps2
+// ----- End Outside space -------------------------
+
+// ----- Start computercore space ------------------
+
+#ifplatform xbox pc
+Space()
+{
+    Name("computercore");
+    I3DL2ReverbPreset("mediummetalroom");
+    DirectGain(1.0);
+    DirectHFGain(1.0);
+    RoomGain(1.0);
+    RoomHFGain(1.0);
+    RoomRollOffFactor(0.0);
+    ObstructionHFGain(0.0);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.0);
+    OcclusionLFRatio(1.0);
+}
+#endifplatform xbox pc
+#ifplatform ps2
+Space()
+{
+    Name("computercore");
+    I3DL2ReverbPreset("mediummetalroom");
+    DirectGain(1.0);
+    DirectHFGain(1.0);
+    RoomGain(1.0);
+    RoomHFGain(1.0);
+    RoomRollOffFactor(0.0);
+    ObstructionHFGain(0.0);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.0);
+    OcclusionLFRatio(1.0);
+}
+#endifplatform ps2
+// ----- End computercore space ----------------------
+// ----- Start jedicouncil space ---------------------
+
+#ifplatform xbox pc
+Space()
+{
+    Name("jedicouncil");
+    I3DL2ReverbPreset("mediummetalroom");
+    DirectGain(1.0);
+    DirectHFGain(1.0);
+    RoomGain(1.0);
+    RoomHFGain(1.0);
+    RoomRollOffFactor(0.0);
+    ObstructionHFGain(0.0);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.0);
+    OcclusionLFRatio(1.0);
+}
+#endifplatform xbox pc
+#ifplatform ps2
+Space()
+{
+    Name("jedicouncil");
+    I3DL2ReverbPreset("mediummetalroom");
+    DirectGain(1.0);
+    DirectHFGain(1.0);
+    RoomGain(1.0);
+    RoomHFGain(1.0);
+    RoomRollOffFactor(0.0);
+    ObstructionHFGain(0.0);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.0);
+    OcclusionLFRatio(1.0);
+}
+#endifplatform ps2
+// ----- End jedicouncil space -------------------
+// ----- Start LZentry space ---------------------
+
+#ifplatform xbox pc
+Space()
+{
+    Name("LZentry");
+    I3DL2ReverbPreset("largemetalroom");
+    DirectGain(1.0);
+    DirectHFGain(1.0);
+    RoomGain(1.0);
+    RoomHFGain(1.0);
+    RoomRollOffFactor(0.0);
+    ObstructionHFGain(0.5);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.5);
+    OcclusionLFRatio(1.0);
+    ConnectedList()
+    {
+        Space("outside", 0.0)       
+    }     
+}
+#endifplatform xbox pc
+
+#ifplatform ps2
+Space()
+{
+    Name("LZentry");
+    I3DL2ReverbPreset("largemetalroom");
+    DirectGain(1.0);
+    DirectHFGain(1.0);
+    RoomGain(1.0);
+    RoomHFGain(1.0);
+    RoomRollOffFactor(0.0);
+    ObstructionHFGain(0.5);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.5);
+    OcclusionLFRatio(1.0);
+    ConnectedList()
+    {
+        Space("outside", 0.0)       
+    }     
+}
+#endifplatform ps2
+// ----- End LZentry space ---------------------------
+// ----- Start coreaccess space ----------------------
+
+#ifplatform xbox pc
+Space()
+{
+    Name("coreaccess");
+    I3DL2ReverbPreset("smallmetalroom");
+    DirectGain(1.0);
+    DirectHFGain(1.0);
+    RoomGain(1.0);
+    RoomHFGain(1.0);
+    RoomRollOffFactor(0.0);
+    ObstructionHFGain(0.0);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.0);
+    OcclusionLFRatio(1.0);
+    ConnectedList()
+    {
+        Space("computercore", 0.0)       
+    }  
+}
+#endifplatform xbox pc
+#ifplatform ps2
+Space()
+{
+    Name("coreaccess");
+    I3DL2ReverbPreset("smallmetalroom");
+    DirectGain(1.0);
+    DirectHFGain(1.0);
+    RoomGain(1.0);
+    RoomHFGain(1.0);
+    RoomRollOffFactor(0.0);
+    ObstructionHFGain(0.0);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.0);
+    OcclusionLFRatio(1.0);
+    ConnectedList()
+    {
+        Space("computercore", 0.0)       
+    }  
+}
+#endifplatform ps2
+// ----- End coreaccess space ------------------------
+// ----- Start maproom space -------------------------
+
+#ifplatform xbox pc
+Space()
+{
+    Name("maproom");
+    I3DL2ReverbPreset("smallmetalroom");
+    DirectGain(1.0);
+    DirectHFGain(1.0);
+    RoomGain(1.0);
+    RoomHFGain(1.0);
+    RoomRollOffFactor(0.0);
+    ObstructionHFGain(0.0);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.0);
+    OcclusionLFRatio(1.0);
+    Priority(0.9);
+    ConnectedList()
+    {
+        Space("outside", 0.7)       
+    }     
+}
+#endifplatform xbox pc
+#ifplatform ps2
+Space()
+{
+    Name("maproom");
+    I3DL2ReverbPreset("smallmetalroom");
+    DirectGain(1.0);
+    DirectHFGain(1.0);
+    RoomGain(1.0);
+    RoomHFGain(1.0);
+    RoomRollOffFactor(0.0);
+    ObstructionHFGain(0.0);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.0);
+    OcclusionLFRatio(1.0);
+    Priority(0.9);
+    ConnectedList()
+    {
+        Space("outside", 0.7)       
+    } 
+}
+#endifplatform ps2
+// ----- End maproom space ---------------------------
+// ----- Start maphall space -------------------------
+
+#ifplatform xbox pc
+Space()
+{
+    Name("maphall");
+    I3DL2ReverbPreset("smallmetalroom");
+    DirectGain(1.0);
+    DirectHFGain(1.0);
+    RoomGain(1.0);
+    RoomHFGain(1.0);
+    RoomRollOffFactor(0.0);
+    ObstructionHFGain(0.0);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.0);
+    OcclusionLFRatio(1.0);
+    ConnectedList()
+    {
+        Space("maproom", 0.0)       
+    }      
+}
+#endifplatform xbox pc
+#ifplatform ps2
+Space()
+{
+    Name("maphall");
+    I3DL2ReverbPreset("smallmetalroom");
+    DirectGain(1.0);
+    DirectHFGain(1.0);
+    RoomGain(1.0);
+    RoomHFGain(1.0);
+    RoomRollOffFactor(0.0);
+    ObstructionHFGain(0.0);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.0);
+    OcclusionLFRatio(1.0);
+    ConnectedList()
+    {
+        Space("maproom", 0.0)       
+    }  
+}
+#endifplatform ps2
+// ----- End maphall space ----------------------------
+// ----- Start briefingroom space ---------------------
+
+#ifplatform xbox pc
+Space()
+{
+    Name("briefingroom");
+    I3DL2ReverbPreset("mediummetalroom");
+    DirectGain(1.0);
+    DirectHFGain(1.0);
+    RoomGain(1.0);
+    RoomHFGain(1.0);
+    RoomRollOffFactor(0.0);
+    ObstructionHFGain(0.0);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.0);
+    OcclusionLFRatio(1.0);
+    ConnectedList()
+    {
+        Space("outside", 0.3)       
+    }       
+}
+#endifplatform xbox pc
+#ifplatform ps2
+Space()
+{
+    Name("briefingroom");
+    I3DL2ReverbPreset("mediummetalroom");
+    DirectGain(1.0);
+    DirectHFGain(1.0);
+    RoomGain(1.0);
+    RoomHFGain(1.0);
+    RoomRollOffFactor(0.0);
+    ObstructionHFGain(0.0);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.0);
+    OcclusionLFRatio(1.0);
+    ConnectedList()
+    {
+        Space("outside", 0.3)       
+    }   
+}
+#endifplatform ps2
+// ----- End briefingroom space ------------------------
+// ----- Start briefingentry space ---------------------
+
+#ifplatform xbox pc
+Space()
+{
+    Name("briefingentry");
+    I3DL2ReverbPreset("smallmetalroom");
+    DirectGain(1.0);
+    DirectHFGain(1.0);
+    RoomGain(1.0);
+    RoomHFGain(1.0);
+    RoomRollOffFactor(0.0);
+    ObstructionHFGain(0.0);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.0);
+    OcclusionLFRatio(1.0);
+    ConnectedList()
+    {
+        Space("briefingroom", 0.1)       
+    }    
+    
+}
+#endifplatform xbox pc
+#ifplatform ps2
+Space()
+{
+    Name("briefingentry");
+    I3DL2ReverbPreset("smallmetalroom");
+    DirectGain(1.0);
+    DirectHFGain(1.0);
+    RoomGain(1.0);
+    RoomHFGain(1.0);
+    RoomRollOffFactor(0.0);
+    ObstructionHFGain(0.0);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.0);
+    OcclusionLFRatio(1.0);
+    ConnectedList()
+    {
+        Space("briefingroom", 0.1)       
+    }    
+}
+#endifplatform ps2
+// ----- End briefingentry space -------------------------
+// ----- Start jedicouncilstairs space -------------------
+
+#ifplatform xbox pc
+Space()
+{
+    Name("jedicouncilstairs");
+    I3DL2ReverbPreset("largemetalroom");
+    DirectGain(1.0);
+    DirectHFGain(1.0);
+    RoomGain(1.0);
+    RoomHFGain(1.0);
+    RoomRollOffFactor(0.0);
+    ObstructionHFGain(0.0);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.0);
+    OcclusionLFRatio(1.0);
+    ConnectedList()
+    {
+        Space("jedicouncil", 0.1)       
+    }      
+    
+}
+#endifplatform xbox pc
+#ifplatform ps2
+Space()
+{
+    Name("jedicouncilstairs");
+    I3DL2ReverbPreset("largemetalroom");
+    DirectGain(1.0);
+    DirectHFGain(1.0);
+    RoomGain(1.0);
+    RoomHFGain(1.0);
+    RoomRollOffFactor(0.0);
+    ObstructionHFGain(0.0);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.0);
+    OcclusionLFRatio(1.0);
+    ConnectedList()
+    {
+        Space("jedicouncil", 0.1)       
+    }      
+}
+#endifplatform ps2
+// ----- End jedicouncilstairs space ------------------------
+// ----- Start securityroom space ---------------------------
+
+#ifplatform xbox pc
+Space()
+{
+    Name("securityroom");
+    I3DL2ReverbPreset("mediummetalroom");
+    DirectGain(1.0);
+    DirectHFGain(1.0);
+    RoomGain(1.0);
+    RoomHFGain(1.0);
+    RoomRollOffFactor(0.0);
+    ObstructionHFGain(0.0);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.0);
+    OcclusionLFRatio(1.0);
+    ConnectedList()
+    {
+        Space("coreaccess", 0.0)
+        Space("computercore", 0.2)
+    }    
+}
+#endifplatform xbox pc
+#ifplatform ps2
+Space()
+{
+    Name("securityroom");
+    I3DL2ReverbPreset("mediummetalroom");
+    DirectGain(1.0);
+    DirectHFGain(1.0);
+    RoomGain(1.0);
+    RoomHFGain(1.0);
+    RoomRollOffFactor(0.0);
+    ObstructionHFGain(0.0);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.0);
+    OcclusionLFRatio(1.0);
+    ConnectedList()
+    {
+        Space("coreaccess", 0.0)
+        Space("computercore", 0.2)
+    }
+}
+#endifplatform ps2
+// ----- End securityroom space --------------------
+
+// ----- Start shorthall space ---------------------
+
+#ifplatform xbox pc
+Space()
+{
+    Name("shorthall");
+    I3DL2ReverbPreset("smallmetalroom");
+    DirectGain(1.0);
+    DirectHFGain(1.0);
+    RoomGain(1.0);
+    RoomHFGain(1.0);
+    RoomRollOffFactor(0.0);
+    ObstructionHFGain(0.0);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.0);
+    OcclusionLFRatio(1.0);
+    ConnectedList()
+    {
+        Space("JediCouncilStairs", 0.0)
+        Space("BriefingRoom", 0.3)
+    }      
+
+}
+#endifplatform xbox pc
+#ifplatform ps2
+Space()
+{
+    Name("shorthall");
+    I3DL2ReverbPreset("smallmetalroom");
+    DirectGain(1.0);
+    DirectHFGain(1.0);
+    RoomGain(1.0);
+    RoomHFGain(1.0);
+    RoomRollOffFactor(0.0);
+    ObstructionHFGain(0.0);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.0);
+    OcclusionLFRatio(1.0);
+    ConnectedList()
+    {
+        Space("JediCouncilStairs", 0.0)
+        Space("BriefingRoom", 0.3)
+    }      
+
+}
+#endifplatform ps2
+// ----- End shorthall space -------------------------
+
+// ----- Start longhall space ------------------------
+
+#ifplatform xbox pc
+Space()
+{
+    Name("longhall");
+    I3DL2ReverbPreset("largemetalroom");
+    DirectGain(1.0);
+    DirectHFGain(1.0);
+    RoomGain(1.0);
+    RoomHFGain(1.0);
+    RoomRollOffFactor(0.0);
+    ObstructionHFGain(0.0);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.0);
+    OcclusionLFRatio(1.0);
+    ConnectedList()
+    {
+        Space("Securityroom", 0.1)
+        Space("JediCouncilStairs", 0.0)
+        Space("JediCouncil", 0.2)
+        Space("ShortHall", 0.1)
+        Space("BriefingRoom", 0.3)
+        Space("coreaccess", 0.3)        
+    }    
+}
+#endifplatform xbox pc
+#ifplatform ps2
+Space()
+{
+    Name("longhall");
+    I3DL2ReverbPreset("largemetalroom");
+    DirectGain(1.0);
+    DirectHFGain(1.0);
+    RoomGain(1.0);
+    RoomHFGain(1.0);
+    RoomRollOffFactor(0.0);
+    ObstructionHFGain(0.0);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.0);
+    OcclusionLFRatio(1.0);
+    ConnectedList()
+    {
+        Space("Securityroom", 0.1)
+        Space("JediCouncilStairs", 0.0)
+        Space("JediCouncil", 0.2)
+        Space("ShortHall", 0.1)
+        Space("BriefingRoom", 0.3)
+        Space("coreaccess", 0.3)
+    }    
+}
+#endifplatform ps2
+// ----- End longhall space ------------------------
+
+// ----- Start Library space ------------------
+
+#ifplatform xbox pc
+Space()
+{
+    Name("Library");
+    I3DL2ReverbPreset("largemetalroom");
+    DirectGain(1.0);
+    DirectHFGain(1.0);
+    RoomGain(1.0);
+    RoomHFGain(1.0);
+    RoomRollOffFactor(0.0);
+    ObstructionHFGain(0.0);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.0);
+    OcclusionLFRatio(1.0);
+    ConnectedList()
+    {
+        Space("outside", 0.7)
+        Space("LZEntry", 0.0)
+        Space("coreaccess", 0.1)
+        Space("JediCouncilStairs", 0.0)
+        Space("ComputerCore", 0.4)
+        Space("LongHall", 0.0)
+        Space("BriefingEntry", 0.0)
+        Space("MapHall", 0.0)
+    }      
+}
+#endifplatform xbox pc
+#ifplatform ps2
+Space()
+{
+    Name("Library");
+    I3DL2ReverbPreset("largemetalroom");
+    DirectGain(1.0);
+    DirectHFGain(1.0);
+    RoomGain(1.0);
+    RoomHFGain(1.0);
+    RoomRollOffFactor(0.0);
+    ObstructionHFGain(0.0);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.0);
+    OcclusionLFRatio(1.0);
+    ConnectedList()
+    {
+        Space("outside", 0.7)
+        Space("LZEntry", 0.0)
+        Space("coreaccess", 0.1)
+        Space("JediCouncilStairs", 0.0)
+        Space("ComputerCore", 0.4)
+        Space("LongHall", 0.0)
+        Space("BriefingEntry", 0.0)
+        Space("MapHall", 0.0)
+    }     
+}
+#endifplatform ps2
+// ----- End Library space -------------------------
+// ----- Start mainhall space ---------------
+
+
+#ifplatform xbox pc
+Space()
+{
+    Name("mainhall");
+    I3DL2ReverbPreset("largemetalroom");
+    DirectGain(1.0);
+    DirectHFGain(1.0);
+    RoomGain(1.0);
+    RoomHFGain(1.0);
+    RoomRollOffFactor(0.0);
+    ObstructionHFGain(0.0);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.0);
+    OcclusionLFRatio(1.0);
+    ConnectedList()
+    {
+        Space("LZentry", 0.2)
+        Space("outside", 0.0)
+        Space("LongHall", 0.1)
+        Space("BriefingEntry", 0.1)
+        Space("MapHall", 0.2)
+        Space("Library", 0.15)
+        Space("JediCouncilStairs", 0.0)
+        Space("BriefingRoom", 0.0)
+        Space("Maproom", 0.0)
+        Space("ShortHall", 0.7)      
+    }   
+}
+#endifplatform xbox pc
+#ifplatform ps2
+Space()
+{
+    Name("mainhall");
+    I3DL2ReverbPreset("largemetalroom");
+    DirectGain(1.0);
+    DirectHFGain(1.0);
+    RoomGain(1.0);
+    RoomHFGain(1.0);
+    RoomRollOffFactor(0.0);
+    ObstructionHFGain(0.0);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.0);
+    OcclusionLFRatio(1.0);
+    ConnectedList()
+    {
+        Space("LZentry", 0.2)
+        Space("outside", 0.0)
+        Space("LongHall", 0.1)
+        Space("BriefingEntry", 0.1)
+        Space("MapHall", 0.2)
+        Space("Library", 0.15)
+        Space("JediCouncilStairs", 0.0)
+        Space("BriefingRoom", 0.0)
+        Space("Maproom", 0.0)
+        Space("ShortHall", 0.7)
+    }       
+}
+#endifplatform ps2
+// ----- End mainhall space -------------------
+
+// ======= Soundspace End =====================================================================
+
+
+
+// ----- Ambient Environment Streams Start ------------------------------
+SoundStreamProperties()
+{
+    Name("cor_amb_exterior");
+    Group("ambientenv");
+    Inherit("ambientfx_template");
+    Stream("cor1");
+    Gain(0.8);
+    SegmentList()
+    {
+        Segment("cor_amb_exterior", 1.0);
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("cor_amb_interior");
+    Group("ambientenv");
+    Inherit("ambientfx_template");
+    Stream("cor1");
+    SegmentList()
+    {
+        Segment("cor_amb_interior", 1.0);
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("cor_amb_security");
+    Group("ambientenv");
+    Inherit("ambientfx_template");
+    Stream("cor1");
+    SegmentList()
+    {
+        Segment("cor_amb_security", 1.0);
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("cor_amb_core");
+    Group("ambientenv");
+    Inherit("ambientfx_template");
+    Stream("cor1");
+    SegmentList()
+    {
+        Segment("cor_amb_core", 1.0);
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("cor_amb_library");
+    Group("ambientenv");
+    Inherit("ambientfx_template");
+    Stream("cor1");
+    SegmentList()
+    {
+        Segment("cor_amb_library", 1.0);
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("cor_amb_council");
+    Group("ambientenv");
+    Inherit("ambientfx_template");
+    Stream("cor1");
+    SegmentList()
+    {
+        Segment("cor_amb_council", 1.0);
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("cor_amb_maproom");
+    Group("ambientenv");
+    Inherit("ambientfx_template");
+    Stream("cor1");
+    SegmentList()
+    {
+        Segment("cor_amb_maproom", 1.0);
+    }
+}
+
+
+// ----- Ambient Environment Streams End ---------------------------
+
+
+
+// ----- Prop Ambient Effects Start --------------------------------
+
+// ----- Prop Ambient Effects End ----------------------------------
+
+
+// ----- Cor1 Objective VO Start ---------------------------------------------
+
+// ----- Cor1 Objective VO End --------------------------------------------------
+

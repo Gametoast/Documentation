@@ -1,0 +1,279 @@
+// REP_hover_Speederbike -----------------------------
+
+SoundProperties()
+{
+    Name("rep_weap_hover_speederbike_cannon_fire");
+    Group("weapons");
+    Inherit("veh_weapon_template");
+    SampleList()
+    {
+        Sample("wpn_spdrbike_blaster_fire", 1.0);
+    }
+}
+// ------ Speederbike Engine Config ------------------------
+
+SoundProperties()
+{
+    Name("speederbike_engine_low_idle_property");
+    Group("vehicles");
+    Inherit("vehicle_template");
+    MuteDistance(250.0);
+    MaxDistance(250.0);
+    SampleList()
+    {
+      Sample("eng_speederbike_low_lp", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("speederbike_engine_med_idle_property");
+    Group("vehicles");
+    Inherit("vehicle_template");
+    MuteDistance(225.0);
+    MaxDistance(225.0);
+    SampleList()
+    {
+      Sample("eng_speederbike_mid_lp", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("speederbike_engine_high_idle_property");
+    Group("vehicles");
+    Inherit("vehicle_template");
+    MuteDistance(200.0);
+    MaxDistance(200.0);
+    SampleList()
+    {
+      Sample("eng_speederbike_hi_lp", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("speederbike_engine_damage_idle_property");
+    Group("vehicles");
+    Inherit("vehicle_template");
+    SampleList()
+    {
+      Sample("eng_speederbike_grit_lp", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("rep_hover_speederbike_boost_on")
+    Pitch(0.6);
+    PitchDev(0.0);
+    Gain(0.4);
+    GainDev(0.0);
+    ReverbGain(1.0);
+    Bus("soundfx");
+    Looping(0);
+    Pan(0.0);
+    MinDistance(5.0);
+    MuteDistance(100.0);
+    MaxDistance(100.0);
+    RollOff(5.0);
+    Mode3D(1);
+    Bias(0.0001);
+    Priority(0.7);
+    SampleList()
+    {
+        Sample("imp_hover_speederbike_boost_on", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("rep_hover_speederbike_boost_on_max")
+    Pitch(1.0);
+    PitchDev(0.0);
+    Gain(0.6);
+    GainDev(0.0);
+    ReverbGain(1.0);
+    Bus("soundfx");
+    Looping(0);
+    Pan(0.0);
+    MinDistance(5.0);
+    MuteDistance(100.0);
+    MaxDistance(100.0);
+    RollOff(5.0);
+    Mode3D(1);
+    Bias(0.0001);
+    Priority(0.7);
+    SampleList()
+    {
+        Sample("imp_hover_speederbike_boost_on", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("rep_hover_speederbike_boost_off_max")
+    Pitch(1.0);
+    PitchDev(0.0);
+    Gain(0.6);
+    GainDev(0.0);
+    ReverbGain(1.0);
+    Bus("soundfx");
+    Looping(0);
+    Pan(0.0);
+    MinDistance(5.0);
+    MuteDistance(100.0);
+    MaxDistance(100.0);
+    RollOff(5.0);
+    Mode3D(1);
+    Bias(0.0001);
+    Priority(0.7);
+    SampleList()
+    {
+        Sample("imp_hover_speederbike_boost_off", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("rep_hover_speederbike_boost_off")
+    Pitch(0.5);
+    PitchDev(0.0);
+    Gain(0.3);
+    GainDev(0.0);
+    ReverbGain(1.0);
+    Bus("soundfx");
+    Looping(0);
+    Pan(0.0);
+    MinDistance(5.0);
+    MuteDistance(100.0);
+    MaxDistance(100.0);
+    RollOff(5.0);
+    Mode3D(1);
+    Bias(0.0001);
+    Priority(0.7);
+    SampleList()
+    {
+        Sample("imp_hover_speederbike_boost_off", 1.0);
+    }
+}
+
+ParameterGraph()
+{
+    Name("speederbike_engine_low_idle_speed");
+    ControlPoint(-1.0, 0.8);
+    ControlPoint(0.0, 0.8);
+    ControlPoint(1.0, 1.0);
+    ControlPoint(1.2, 1.2);
+
+}
+
+ParameterGraph()
+{
+    Name("speederbike_engine_low_idle_acceleration");
+    ControlPoint(-1.0, 0.6);
+    ControlPoint(0.0, 0.7);
+    //ControlPoint(0.5, 0.8);
+    ControlPoint(1.0, 1.0);
+}
+
+ParameterGraph()
+{
+    Name("speederbike_engine_med_idle_speed");
+    ControlPoint(-1.0, 0.8);
+    ControlPoint(0.0, 0.8);
+   // ControlPoint(0.5, 0.9);
+    ControlPoint(1.0, 1.0);
+    ControlPoint(1.2, 1.2);
+    
+}
+
+ParameterGraph()
+{
+    Name("speederbike_engine_med_idle_acceleration");
+    ControlPoint(-1.0, 0.6);
+    ControlPoint(0.0, 0.7);
+//    ControlPoint(0.5, 0.8);
+    ControlPoint(1.0, 1.0);
+}
+
+ParameterGraph()
+{
+    Name("speederbike_engine_high_idle_speed");
+    ControlPoint(-1.0, 0.6);
+    ControlPoint(0.0, 0.6);
+    ControlPoint(1.0, 1.0);
+    ControlPoint(1.2, 1.2);
+    
+}
+
+ParameterGraph()
+{
+    Name("speederbike_engine_high_idle_acceleration");
+    ControlPoint(-1.0, 0.7);
+    ControlPoint(0.0, 0.7);
+    //ControlPoint(0.5, 0.8);
+    ControlPoint(1.0, 1.0);
+}
+
+
+ParameterGraph()
+{
+    Name("speederbike_engine_health");
+    ControlPoint(0.1, 2.0);
+    ControlPoint(0.3, 2.0);
+    ControlPoint(0.4, 1.5);
+    ControlPoint(0.5, 1.0);
+    ControlPoint(0.85, 0.0);
+    ControlPoint(1.0, 0.0);
+}
+
+SoundLayered()
+{
+    Name("speederbike_engine_layered");
+    Layer("speederbike_engine_low_idle", "speederbike_engine_low_idle_property", 0.0);
+    Layer("speederbike_engine_med_idle", "speederbike_engine_med_idle_property", 0.0);
+    Layer("speederbike_engine_high_idle", "speederbike_engine_high_idle_property", 0.0);
+  //  Layer("speederbike_engine_damage", "speederbike_engine_damage_idle_property", 0.0);
+
+}
+
+SoundParameterized()
+{
+    Name("speederbike_engine_parameterized");
+    SoundLayered("speederbike_engine_layered");
+
+Layer()
+    {
+        Name("speederbike_engine_low_idle");
+        ParameterGraph("speed",        "speederbike_engine_low_idle_speed", "pitch");
+        ParameterGraph("acceleration", "speederbike_engine_low_idle_acceleration","gain");
+        ParameterGraph("turnontime",   "engine_turnon_gain",      "gain");
+        ParameterGraph("turnofftime",  "engine_turnoff_gain",     "gain");
+    }
+
+    Layer()
+    {
+        Name("speederbike_engine_med_idle");
+        ParameterGraph("speed",        "speederbike_engine_med_idle_speed", "pitch");
+        ParameterGraph("acceleration", "speederbike_engine_med_idle_acceleration","gain");
+        ParameterGraph("turnontime",   "engine_turnon_gain",      "gain");
+        ParameterGraph("turnofftime",  "engine_turnoff_gain",     "gain");
+    }
+    Layer()
+    {
+        Name("speederbike_engine_high_idle");
+        ParameterGraph("speed",        "speederbike_engine_high_idle_speed", "pitch");
+        ParameterGraph("acceleration", "speederbike_engine_high_idle_acceleration","gain");
+        ParameterGraph("turnontime",   "engine_turnon_gain",      "gain");
+        ParameterGraph("turnofftime",  "engine_turnoff_gain",     "gain");
+    }
+//  Layer()
+//    {
+//        Name("speederbike_engine_damage");
+//        ParameterGraph("health", "speederbike_engine_health","gain");
+//    }
+
+}
+
+//speederbike Engine End--------------------------------------------------------------

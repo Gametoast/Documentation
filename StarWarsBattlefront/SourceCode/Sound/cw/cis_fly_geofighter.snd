@@ -1,0 +1,195 @@
+// cis_fly_geofighter --------------------------------------
+
+SoundProperties()
+{
+    Name("cis_weap_fly_geofighter_cannon_fire")
+    Group("weapons");
+    Inherit("veh_weapon_template");
+    SampleList()
+    {
+        Sample("wpn_geonFighter_blaster_fire", 1.0);
+    }
+}
+
+
+// Geofighter Engine start------------------------------------------------------------
+
+SoundProperties()
+{
+    Name("cis_fly_geofighter_takeoff");
+    Group("vehicles");
+    Inherit("vehicle_foley_template");
+    SampleList()
+    {
+        Sample("Blastoff_wing", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("cis_fly_geofighter_land");
+    Group("vehicles");
+    Inherit("vehicle_foley_template");
+    SampleList()
+    {
+        Sample("flyer_land", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("geofighter_engine_low_idle_property");
+    Group("vehicles");
+    Inherit("vehicle_eng_low_template");
+    SampleList()
+    {
+      Sample("eng_geonosianFtr_low_lp", 1.0);
+
+    }
+}
+
+SoundProperties()
+{
+    Name("geofighter_engine_med_idle_property");
+    Group("vehicles");
+    Inherit("vehicle_eng_hi-mid_template");
+    SampleList()
+    {
+      Sample("eng_geonosianFtr_mid_lp", 1.0);
+
+    }
+}
+
+SoundProperties()
+{
+    Name("geofighter_engine_high_idle_property");
+    Group("vehicles");
+    Inherit("vehicle_eng_hi-mid_template");
+    SampleList()
+    {
+      Sample("eng_geonosianFtr_hi_lp", 1.0);
+
+    }
+}
+
+SoundProperties()
+{
+    Name("geofighter_engine_damage_idle_property");
+    Group("vehicles");
+    Inherit("vehicle_template");
+    SampleList()
+    {
+      Sample("eng_chop_a_loop", 1.0);
+    }
+}
+
+ParameterGraph()
+{
+    Name("geofighter_engine_low_idle_speed");
+    ControlPoint(0.0, 0.7);
+    ControlPoint(0.5, 0.9);
+    ControlPoint(1.0, 1.0);
+}
+
+ParameterGraph()
+{
+    Name("geofighter_engine_low_idle_acceleration");
+    ControlPoint(-1.0, 0.6);
+    ControlPoint(0.0, 0.6);
+    ControlPoint(0.5, 0.9);
+    ControlPoint(1.0, 1.0);
+}
+
+ParameterGraph()
+{
+    Name("geofighter_engine_med_idle_speed");
+    ControlPoint(0.0, 0.7);
+    ControlPoint(0.5, 0.9);
+    ControlPoint(1.0, 1.0);
+}
+
+ParameterGraph()
+{
+    Name("geofighter_engine_med_idle_acceleration");
+    ControlPoint(-1.0, 0.6);
+    ControlPoint(0.0, 0.6);
+    ControlPoint(0.5, 0.9);
+    ControlPoint(1.0, 1.0);
+}
+
+ParameterGraph()
+{
+    Name("geofighter_engine_high_idle_speed");
+    ControlPoint(0.0, 0.7);
+    ControlPoint(0.5, 0.8);
+    ControlPoint(1.0, 1.0);
+}
+
+ParameterGraph()
+{
+    Name("geofighter_engine_high_idle_acceleration");
+    ControlPoint(-1.0, 0.6);
+    ControlPoint(0.0, 0.6);
+    ControlPoint(0.5, 0.9);
+    ControlPoint(1.0, 1.0);
+}
+
+
+
+
+SoundLayered()
+{
+    Name("geofighter_engine_layered");
+    Layer("geofighter_engine_low_idle", "geofighter_engine_low_idle_property", 0.0);
+    Layer("geofighter_engine_med_idle", "geofighter_engine_med_idle_property", 0.0);
+    Layer("geofighter_engine_high_idle", "geofighter_engine_high_idle_property", 0.0);
+    Layer("geofighter_engine_damage", "geofighter_engine_damage_idle_property", 0.0);
+}
+
+SoundParameterized()
+{
+    Name("cis_fly_geofighter_engine_parameterized");
+    SoundLayered("geofighter_engine_layered");
+
+Layer()
+    {
+        Name("geofighter_engine_low_idle");
+        ParameterGraph("speed",        "geofighter_engine_low_idle_speed", "pitch");
+        ParameterGraph("acceleration", "geofighter_engine_low_idle_acceleration","gain");
+        ParameterGraph("turnontime",   "engine_turnon_gain",      "gain");
+        ParameterGraph("turnofftime",  "engine_turnoff_gain",     "gain");
+        ParameterGraph("turnontime",   "engine_turnon_pitch",     "pitch");
+        ParameterGraph("turnofftime",  "engine_turnoff_pitch",    "pitch");
+    }
+
+    Layer()
+    {
+        Name("geofighter_engine_med_idle");
+        ParameterGraph("speed",        "geofighter_engine_med_idle_speed", "pitch");
+        ParameterGraph("acceleration", "geofighter_engine_med_idle_acceleration","gain");
+        ParameterGraph("turnontime",   "engine_turnon_gain",      "gain");
+        ParameterGraph("turnofftime",  "engine_turnoff_gain",     "gain");
+        ParameterGraph("turnontime",   "engine_turnon_pitch",     "pitch");
+        ParameterGraph("turnofftime",  "engine_turnoff_pitch",    "pitch");
+    }
+    Layer()
+    {
+        Name("geofighter_engine_high_idle");
+        ParameterGraph("speed",        "geofighter_engine_high_idle_speed", "pitch");
+        ParameterGraph("acceleration", "geofighter_engine_high_idle_acceleration","gain");
+        ParameterGraph("turnontime",   "engine_turnon_gain",      "gain");
+        ParameterGraph("turnofftime",  "engine_turnoff_gain",     "gain");
+        ParameterGraph("turnontime",   "engine_turnon_pitch",     "pitch");
+        ParameterGraph("turnofftime",  "engine_turnoff_pitch",    "pitch");
+    }
+    Layer()
+    {
+        Name("geofighter_engine_damage");
+        ParameterGraph("health", "engine_health","gain");
+        ParameterGraph("turnontime",   "engine_turnon_gain",      "gain");
+        ParameterGraph("turnofftime",  "engine_turnoff_gain",     "gain");
+    }
+
+}
+
+// Geofighter Engine End--------------------------------------------------------------

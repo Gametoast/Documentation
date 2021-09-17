@@ -1,0 +1,412 @@
+// ----------------------------------------- COR Music -----------------------------------
+
+// ----------------- COR Objective Music ----------------------
+
+Music()
+{
+    Name("rep_cor_amb_obj1_2_explore");
+    Priority(4.0);
+    FadeInTime(0.0);
+    FadeOutTime(1.5);
+    MinPlaybackTime(15.0);
+    MaxPlaybackTime(150.0);
+    MinInactiveTime(20.0);
+    SoundStream("rep_cor_amb_obj1_2_explore");
+}
+
+Music()
+{
+    Name("rep_cor_amb_defend_library_01");
+    Priority(4.0);
+    FadeInTime(0.0);
+    FadeOutTime(1.5);
+    MinPlaybackTime(15.0);
+    MaxPlaybackTime(600.0);
+    MinInactiveTime(25.0);
+    SoundStream("rep_cor_amb_defend_library_01");
+}
+
+Music()
+{
+    Name("rep_cor_amb_holocron_retrieve_01");
+    Priority(5.0);
+    FadeInTime(0.0);
+    FadeOutTime(1.5);
+    MinPlaybackTime(15.0);
+    MaxPlaybackTime(150.0);
+    MinInactiveTime(20.0);
+    SoundStream("rep_cor_amb_holocron_retrieve_01");
+}
+
+Music()
+{
+    Name("rep_cor_amb_holocron_return_01");
+    Priority(6.0);
+    FadeInTime(0.0);
+    FadeOutTime(1.5);
+    MinPlaybackTime(15.0);
+    MaxPlaybackTime(150.0);
+    MinInactiveTime(20.0);
+    SoundStream("rep_cor_amb_holocron_return_01");
+}
+
+Music()
+{
+    Name("rep_cor_act_01");
+    Priority(4.0);
+    FadeInTime(0.0);
+    FadeOutTime(1.5);
+    MinPlaybackTime(10.0);
+    MaxPlaybackTime(180.0);
+    MinInactiveTime(9.0);
+    SoundStream("rep_cor_act_01");
+}
+
+Music()
+{
+    Name("rep_cor_objComplete_01");
+    Priority(8.0);
+    FadeInTime(0.0);
+    FadeOutTime(0.0);
+    MinPlaybackTime(11.0);
+    MaxPlaybackTime(12.0);
+    MinInactiveTime(60.0);
+    SoundStream("rep_cor_objComplete_01");
+}
+
+Music()
+{
+    Name("rep_cor_objComplete_02");
+    Priority(8.0);
+    FadeInTime(0.0);
+    FadeOutTime(0.0);
+    MinPlaybackTime(9.0);
+    MaxPlaybackTime(10.0);
+    MinInactiveTime(60.0);
+    SoundStream("rep_cor_objComplete_02");
+}
+
+
+// ----------------- COR REP Music -----------------------
+
+Music()
+{
+    Name("rep_cor_amb_start");
+    Priority(1.0);
+    FadeInTime(0.0);
+    FadeOutTime(1.5);
+    MinPlaybackTime(20.0);
+    MaxPlaybackTime(180.0);
+    MinInactiveTime(15.0);
+    SoundStream("rep_cor_amb_start");
+}
+
+Music()
+{
+    Name("rep_cor_amb_middle");
+    Priority(1.0);
+    FadeInTime(0.0);
+    FadeOutTime(1.5);
+    MinPlaybackTime(20.0);
+    MaxPlaybackTime(180.0);
+    MinInactiveTime(15.0);
+    SoundStream("rep_cor_amb_middle");
+}
+
+Music()
+{
+    Name("rep_cor_amb_end");
+    Priority(1.0);
+    FadeInTime(0.0);
+    FadeOutTime(1.5);
+    MinPlaybackTime(20.0);
+    MaxPlaybackTime(150.0);
+    MinInactiveTime(15.0);
+    SoundStream("rep_cor_amb_end");
+}
+
+Music()
+{
+    Name("rep_cor_amb_victory");
+    Priority(9.0);
+    FadeInTime(0.0);
+    FadeOutTime(5.0);
+    MinPlaybackTime(3.0);
+    MaxPlaybackTime(360.0);
+    MinInactiveTime(35.0);
+    SoundStream("rep_cor_amb_victory");
+}
+
+Music()
+{
+    Name("rep_cor_amb_defeat");
+    Priority(9.0);
+    FadeInTime(0.0);
+    FadeOutTime(5.0);
+    MinPlaybackTime(3.0);
+    MaxPlaybackTime(360.0);
+    MinInactiveTime(35.0);
+    SoundStream("rep_cor_amb_defeat");
+}
+
+Music()
+{
+    Name("rep_vehicle");
+    Priority(2.0);
+    FadeInTime(0.0);
+    FadeOutTime(1.5);
+    MinPlaybackTime(20.0);
+    MaxPlaybackTime(150.0);
+    MinInactiveTime(10.0);
+    SoundStream("rep_cor_amb_vehicle");
+}
+
+
+// ----------------- COR CIS Music ----------------------
+
+Music()
+{
+    Name("cis_cor_amb_start");
+    Priority(1.0);
+    FadeInTime(0.0);
+    FadeOutTime(1.5);
+    MinPlaybackTime(20.0);
+    MaxPlaybackTime(180.0);
+    MinInactiveTime(15.0);
+    SoundStream("cis_cor_amb_start");
+}
+
+Music()
+{
+    Name("cis_cor_amb_middle");
+    Priority(1.0);
+    FadeInTime(0.0);
+    FadeOutTime(1.5);
+    MinPlaybackTime(20.0);
+    MaxPlaybackTime(180.0);
+    MinInactiveTime(15.0);
+    SoundStream("cis_cor_amb_middle");
+}
+
+Music()
+{
+    Name("cis_cor_amb_end");
+    Priority(1.0);
+    FadeInTime(0.0);
+    FadeOutTime(1.5);
+    MinPlaybackTime(20.0);
+    MaxPlaybackTime(150.0);
+    MinInactiveTime(15.0);
+    SoundStream("cis_cor_amb_end");
+}
+
+Music()
+{
+    Name("cis_cor_amb_victory");
+    Priority(9.0);
+    FadeInTime(0.0);
+    FadeOutTime(5.0);
+    MinPlaybackTime(3.0);
+    MaxPlaybackTime(360.0);
+    MinInactiveTime(35.0);
+    SoundStream("cis_cor_amb_victory");
+}
+
+Music()
+{
+    Name("cis_cor_amb_defeat");
+    Priority(9.0);
+    FadeInTime(0.0);
+    FadeOutTime(5.0);
+    MinPlaybackTime(3.0);
+    MaxPlaybackTime(360.0);
+    MinInactiveTime(35.0);
+    SoundStream("cis_cor_amb_defeat");
+}
+
+Music()
+{
+    Name("cis_vehicle");
+    Priority(2.0);
+    FadeInTime(0.0);
+    FadeOutTime(1.5);
+    MinPlaybackTime(20.0);
+    MaxPlaybackTime(150.0);
+    MinInactiveTime(10.0);
+    SoundStream("cis_cor_amb_vehicle");
+}
+
+// ----------------- CW Hero Music ----------------------  
+
+Music()
+{
+    Name("rep_hero_secura_lp");
+    Priority(8.0);
+    FadeInTime(0.0);
+    FadeOutTime(1.0);
+    MinPlaybackTime(20.0);
+    MaxPlaybackTime(600.0);
+    MinInactiveTime(20.0);
+    SoundStream("rep_hero_secura_lp");
+}
+
+Music()
+{
+    Name("rep_hero_Mundi_lp");
+    Priority(8.0);
+    FadeInTime(0.0);
+    FadeOutTime(1.0);
+    MinPlaybackTime(20.0);
+    MaxPlaybackTime(600.0);
+    MinInactiveTime(20.0);
+    SoundStream("rep_hero_Mundi_lp");
+}
+
+Music()
+{
+    Name("rep_hero_Anakin_lp");
+    Priority(7.0);
+    FadeInTime(0.0);
+    FadeOutTime(1.0);
+    MinPlaybackTime(20.0);
+    MaxPlaybackTime(600.0);
+    MinInactiveTime(20.0);
+    SoundStream("rep_hero_Anakin_lp");
+}
+
+Music()
+{
+    Name("rep_hero_Windu_lp");
+    Priority(8.0);
+    FadeInTime(0.0);
+    FadeOutTime(1.0);
+    MinPlaybackTime(20.0);
+    MaxPlaybackTime(600.0);
+    MinInactiveTime(20.0);
+    SoundStream("rep_hero_Windu_lp");
+}
+
+Music()
+{
+    Name("rep_hero_ObiWan_lp");
+    Priority(8.0);
+    FadeInTime(0.0);
+    FadeOutTime(1.0);
+    MinPlaybackTime(20.0);
+    MaxPlaybackTime(600.0);
+    MinInactiveTime(20.0);
+    SoundStream("rep_hero_ObiWan_lp");
+}
+
+Music()
+{
+    Name("rep_hero_Yoda_lp");
+    Priority(8.0);
+    FadeInTime(0.0);
+    FadeOutTime(1.0);
+    MinPlaybackTime(20.0);
+    MaxPlaybackTime(600.0);
+    MinInactiveTime(20.0);
+    SoundStream("rep_hero_Yoda_lp");
+}
+
+Music()
+{
+    Name("cis_hero_Dooku_lp");
+    Priority(8.0);
+    FadeInTime(0.0);
+    FadeOutTime(1.0);
+    MinPlaybackTime(20.0);
+    MaxPlaybackTime(600.0);
+    MinInactiveTime(20.0);
+    SoundStream("cis_hero_Dooku_lp");
+}
+
+Music()
+{
+    Name("cis_hero_Maul_lp");
+    Priority(8.0);
+    FadeInTime(0.0);
+    FadeOutTime(1.0);
+    MinPlaybackTime(20.0);
+    MaxPlaybackTime(600.0);
+    MinInactiveTime(20.0);
+    SoundStream("cis_hero_Maul_lp");
+}
+
+Music()
+{
+    Name("cis_hero_Grievous_lp");
+    Priority(8.0);
+    FadeInTime(0.0);
+    FadeOutTime(1.0);
+    MinPlaybackTime(20.0);
+    MaxPlaybackTime(600.0);
+    MinInactiveTime(20.0);
+    SoundStream("cis_hero_Grievous_lp");
+}
+
+Music()
+{
+    Name("cis_hero_Jango_lp");
+    Priority(8.0);
+    FadeInTime(0.0);
+    FadeOutTime(1.0);
+    MinPlaybackTime(20.0);
+    MaxPlaybackTime(600.0);
+    MinInactiveTime(20.0);
+    SoundStream("cis_hero_Jango_lp");
+}
+
+Music()
+{
+    Name("imp_hero_Palpatine_lp");
+    Priority(8.0);
+    FadeInTime(0.0);
+    FadeOutTime(1.0);
+    MinPlaybackTime(20.0);
+    MaxPlaybackTime(600.0);
+    MinInactiveTime(20.0);
+    SoundStream("imp_hero_Palpatine_lp");
+}
+
+Music()
+{
+    Name("imp_hero_Boba_lp");
+    Priority(8.0);
+    FadeInTime(0.0);
+    FadeOutTime(1.0);
+    MinPlaybackTime(20.0);
+    MaxPlaybackTime(600.0);
+    MinInactiveTime(20.0);
+    SoundStream("imp_hero_Boba_lp");
+}
+
+// ----------------- COR REP HUNT Music -----------------------
+
+Music()
+{
+    Name("rep_cor_amb_hunt");
+    Priority(1.0);
+    FadeInTime(0.0);
+    FadeOutTime(1.5);
+    MinPlaybackTime(20.0);
+    MaxPlaybackTime(180.0);
+    MinInactiveTime(15.0);
+    SoundStream("rep_cor_amb_hunt");
+}
+
+
+// ----------------- COR CIS HUNT Music ----------------------
+
+Music()
+{
+    Name("cis_cor_amb_hunt");
+    Priority(1.0);
+    FadeInTime(0.0);
+    FadeOutTime(1.5);
+    MinPlaybackTime(20.0);
+    MaxPlaybackTime(180.0);
+    MinInactiveTime(15.0);
+    SoundStream("cis_cor_amb_hunt");
+}

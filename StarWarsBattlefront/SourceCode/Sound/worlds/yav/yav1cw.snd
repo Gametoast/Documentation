@@ -1,0 +1,203 @@
+SoundStreamProperties()
+{
+    Name("rep_replost_temple");
+    Group("republic_vo");
+    Inherit("vo_template");
+    Stream("cw_vo");
+    SegmentList()
+    {
+        Segment("ROYAV008", 1.0);
+        Segment("ROYAV009", 1.0);
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("rep_ciscapture_temple");
+    Group("republic_vo");
+    Inherit("vo_template");
+    Stream("cw_vo");
+    SegmentList()
+    {
+        Segment("ROYAV010", 1.0);
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("rep_repcapture_temple");
+    Group("republic_vo");
+    Inherit("vo_template");
+    Stream("cw_vo");
+    SegmentList()
+    {
+        Segment("ROYAV005", 1.0);
+        Segment("ROYAV006", 1.0);
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("rep_cislost_temple");
+    Group("republic_vo");
+    Inherit("vo_template");
+    Stream("cw_vo");
+    SegmentList()
+    {
+        Segment("ROYAV007", 1.0);
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("cis_replost_temple");
+    Group("cis_vo");
+    Inherit("vo_template");
+    Stream("cw_vo");
+    SegmentList()
+    {
+        Segment("COYAV007", 1.0);
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("cis_ciscapture_temple");
+    Group("cis_vo");
+    Inherit("vo_template");
+    Stream("cw_vo");
+    SegmentList()
+    {
+        Segment("COYAV005", 1.0);
+        Segment("COYAV006", 1.0);
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("cis_repcapture_temple");
+    Group("cis_vo");
+    Inherit("vo_template");
+    Stream("cw_vo");
+    SegmentList()
+    {
+        Segment("COYAV010", 1.0);
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("cis_cislost_temple");
+    Group("cis_vo");
+    Inherit("vo_template");
+    Stream("cw_vo");
+    SegmentList()
+    {
+        Segment("COYAV008", 1.0);
+        Segment("COYAV009", 1.0);
+    }
+}
+
+//-- kill vo
+
+SoundStreamProperties()
+{
+    Name("all_alllost_temple");
+    Group("kill_vo");
+    Inherit("vo_template");
+    Stream("cw_vo");
+    SegmentList()
+    {
+        Segment("ROYAV008", 1.0);
+        Segment("ROYAV009", 1.0);
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("all_impcapture_temple");
+    Group("kill_vo");
+    Inherit("vo_template");
+    Stream("cw_vo");
+    SegmentList()
+    {
+        Segment("ROYAV010", 1.0);
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("all_allcapture_temple");
+    Group("kill_vo");
+    Inherit("vo_template");
+    Stream("cw_vo");
+    SegmentList()
+    {
+        Segment("ROYAV005", 1.0);
+        Segment("ROYAV006", 1.0);
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("all_implost_temple");
+    Group("kill_vo");
+    Inherit("vo_template");
+    Stream("cw_vo");
+    SegmentList()
+    {
+        Segment("ROYAV007", 1.0);
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("imp_alllost_temple");
+    Group("kill_vo");
+    Inherit("vo_template");
+    Stream("cw_vo");
+    SegmentList()
+    {
+        Segment("COYAV007", 1.0);
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("imp_impcapture_temple");
+    Group("kill_vo");
+    Inherit("vo_template");
+    Stream("cw_vo");
+    SegmentList()
+    {
+        Segment("COYAV005", 1.0);
+        Segment("COYAV006", 1.0);
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("imp_allcapture_temple");
+    Group("kill_vo");
+    Inherit("vo_template");
+    Stream("cw_vo");
+    SegmentList()
+    {
+        Segment("COYAV010", 1.0);
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("imp_implost_temple");
+    Group("kill_vo");
+    Inherit("vo_template");
+    Stream("cw_vo");
+    SegmentList()
+    {
+        Segment("COYAV008", 1.0);
+        Segment("COYAV009", 1.0);
+    }
+}
+
+// ----- Prop Ambient Effects End ----------------------------------

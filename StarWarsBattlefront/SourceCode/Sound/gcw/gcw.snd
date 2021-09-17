@@ -1,0 +1,1219 @@
+// ----- Level Global -----
+// flyer sfx
+// turbulence
+
+// ----- All Foley -----
+// all_inf_soldier foley
+// soldier movement stone
+// footsteps run walk
+// jump land roll squat
+// binoculars
+// wade is none
+
+// ----- All Pain Chatter Start ------------------
+
+SoundProperties()
+{
+    Name("all_inf_com_chatter_wound");
+    Group("all_inf_pain_vo");
+    Inherit("pain_chatter_template");
+    PlayInterval(0.0);
+    PlayIntervalDev(0.0);
+    PlayProbability(0.85);
+    SampleList()
+    {
+        Sample("AICOM401", 0.33);
+        Sample("AICOM402", 0.33);
+        Sample("AICOM403", 0.33);
+    }
+}
+
+SoundProperties()
+{
+    Name("all_inf_com_chatter_death");
+    Group("all_inf_pain_vo");
+    Inherit("pain_chatter_template");
+    PlayInterval(0.0);
+    PlayIntervalDev(0.0);
+    PlayProbability(1.0);
+    SampleList()
+    {
+        Sample("AICOM404", 0.33);
+          Sample("AICOM405", 0.33);
+          Sample("AICOM406", 0.33);
+    }
+}
+
+SoundProperties()
+{
+    Name("all_inf_com_chatter_wound_female");
+    Group("all_inf_pain_vo");
+    Inherit("pain_chatter_template");
+    Pitch(1.3);
+    PitchDev(0.0);
+    PlayInterval(0.0);
+    PlayIntervalDev(0.0);
+    PlayProbability(0.85);
+    SampleList()
+    {
+        Sample("AICOM401", 0.33);
+        Sample("AICOM402", 0.33);
+        Sample("AICOM403", 0.33);
+    }
+}
+
+SoundProperties()
+{
+    Name("all_inf_com_chatter_death_female");
+    Group("all_inf_pain_vo");
+    Inherit("pain_chatter_template");
+    Pitch(1.3);
+    PitchDev(0.0);
+    PlayInterval(0.0);
+    PlayIntervalDev(0.0);
+    PlayProbability(1.0);
+    SampleList()
+    {
+        Sample("AICOM404", 0.33);
+        Sample("AICOM405", 0.33);
+        Sample("AICOM406", 0.33);
+    }
+}
+
+
+
+// ----- Alliance Smuggler-Wookie VO End ----------------------------
+
+// ----- All Units -------------------------------
+// all_inf_soldier - rifle, pistol, thermal
+// all_inf_vanguard - torpedo, pistol, mine dispenser
+// all_inf_smuggler - bowcaster, pistol, powerup dispenser
+// all_inf_pilot - pistol, haywire, fusioncutter
+// all_inf_marksman - sniper, pistol, thermal
+// all_inf_spy - spyrifle, charge dispenser, disguise
+// all_inf_lukeskywalker - lightsaber, force pull
+
+// ----- Start Alliance Generic Weapon Foley -----
+// Equip
+
+SoundProperties()
+{
+    Name("all_weap_inf_equip_sm");
+    Group("weapons_foley");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("wpn_rebel_smlEquip", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("all_weap_inf_equip_med");
+    Group("weapons_foley");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("wpn_rebel_medEquip", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("all_weap_inf_equip_lg");
+    Group("weapons_foley");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("wpn_rebel_lgEquip", 1.0);
+    }
+}
+
+// Reload
+
+SoundProperties()
+{
+//    Name("all_weap_inf_reload_med_sound");
+    Name("all_weap_inf_reload_med");
+    Group("weapons_foley");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("wpn_rebel_medReload", 1.0);
+    }
+}
+
+
+// It is not possible to control the position of a layered sound in game 
+// after it's started playing.  Doing this will drop the sound in the world.
+//SoundLayered()
+//{
+//    Name("all_weap_inf_reload_med");
+//    Layer("null", "all_weap_inf_reload_med_sound", 0.3);
+//}
+
+SoundProperties()
+{
+    Name("all_weap_inf_reload_lg");
+    Group("weapons_foley");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("wpn_rebel_lgReload", 1.0);
+    }
+}
+
+
+// ----- Start Alliance Rifle ------------------------------
+
+SoundProperties()
+{
+    Name("all_weap_inf_rifle_fire");
+    Group("weapons");
+    Inherit("weapon_template");
+    SampleList()
+    {
+        Sample("wpn_all_blaster_fire", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("all_weap_inf_rifle_mvt_getup");
+    Group("weapons_foley");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("mvt_getup_rifle", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("all_weap_inf_rifle_mvt_jump");
+    Group("weapons_foley");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("mvt_jump_rifle", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("all_weap_inf_rifle_mvt_land");
+    Group("weapons_foley");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("mvt_land_rifle", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("all_weap_inf_rifle_mvt_roll");
+    Group("weapons_foley");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("mvt_roll_rifle", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("all_weap_inf_rifle_mvt_lie");
+    Group("weapons_foley");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("mvt_lie_rifle", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("all_weap_inf_rifle_mvt_squat");
+    Group("weapons_foley");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("mvt_squat_rifle", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("all_weap_inf_rifle_mvt_stop");
+    Group("weapons_foley");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("mvt_stop_rifle", 1.0);
+    }
+}
+
+// ----- End Alliance Rifle ----------------------------------
+
+// ----- Start Alliance Pistol -------------------------------
+
+SoundProperties()
+{
+    Name("all_weap_inf_pistol_fire");
+    Group("weapons");
+    Inherit("weapon_template");
+    SampleList()
+    {
+        Sample("wpn_all_pistol_fire", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("all_weap_inf_pistol_mvt_getup");
+    Group("weapons_foley");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("mvt_getup_pistol", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("all_weap_inf_pistol_mvt_jump");
+    Group("weapons_foley");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("mvt_jump_pistol", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("all_weap_inf_pistol_mvt_land");
+    Group("weapons_foley");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("mvt_land_pistol", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("all_weap_inf_pistol_mvt_roll");
+    Group("weapons_foley");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("mvt_roll_pistol", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("all_weap_inf_pistol_mvt_lie");
+    Group("weapons_foley");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("mvt_lie_pistol", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("all_weap_inf_pistol_mvt_squat");
+    Group("weapons_foley");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("mvt_squat_pistol", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("all_weap_inf_pistol_mvt_stop");
+    Group("weapons_foley");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("mvt_stop_pistol", 1.0);
+    }
+}
+
+// ----- End Alliance Pistol ------------------------------
+
+// ----- Start Alliance Torpedo Launcher ------------------
+
+SoundProperties()
+{
+    Name("all_weap_inf_torpedo_fire");
+    Group("weapons");
+    Inherit("weapon_template");
+    SampleList()
+    {
+        Sample("wpn_all_torpLauncher_fire", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("all_weap_inf_torpedo_mvt_getup");
+    Group("weapons_foley");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("mvt_getup_bazooka", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("all_weap_inf_torpedo_mvt_jump");
+    Group("weapons_foley");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("mvt_jump_bazooka", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("all_weap_inf_torpedo_mvt_land");
+    Group("weapons_foley");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("mvt_land_bazooka", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("all_weap_inf_torpedo_mvt_roll");
+    Group("weapons_foley");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("mvt_roll_bazooka", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("all_weap_inf_torpedo_mvt_lie");
+    Group("weapons_foley");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("mvt_lie_bazooka", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("all_weap_inf_torpedo_mvt_squat");
+    Group("weapons_foley");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("mvt_squat_bazooka", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("all_weap_inf_torpedo_mvt_stop");
+    Group("weapons_foley");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("mvt_stop_bazooka", 1.0);
+    }
+}
+
+// ----- Torpedo Weapon tracking -----
+
+SoundProperties()
+{
+    Name("all_weap_inf_tracking_unit");
+    Group("weapons_foley");
+    Inherit("body_movement_template");
+    looping (1);
+    SampleList()
+    {
+        Sample("wpn_all_unit_lockon_lp", 1.0);
+    }
+}
+
+// ----- Time bomb timer -----
+SoundProperties()
+{
+    Name("all_weap_inf_timebomb_timer");
+    Group("weapons_foley");
+    Inherit("body_movement_template");
+    Rolloff(2.0);
+    SampleList()
+    {
+        Sample("wpn_all_unit_lockon_lp", 1.0);
+    }
+}
+
+// ----- End Alliance Torpedo Launcher -------------------
+
+// ----- Start Alliance Sniperrifle ----------------------
+
+SoundProperties()
+{
+    Name("all_weap_inf_sniperrifle_fire");
+    Group("weapons");
+    Inherit("weapon_template");
+    SampleList()
+    {
+        Sample("wpn_all_sniperrifle_fire", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("all_weap_inf_sniperrifle_mvt_getup");
+    Group("weapons_foley");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("mvt_getup_rifle", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("all_weap_inf_sniperrifle_mvt_jump");
+    Group("weapons_foley");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("mvt_jump_rifle", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("all_weap_inf_sniperrifle_mvt_land");
+    Group("weapons_foley");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("mvt_land_rifle", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("all_weap_inf_sniperrifle_mvt_roll");
+    Group("weapons_foley");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("mvt_roll_rifle", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("all_weap_inf_sniperrifle_mvt_lie");
+    Group("weapons_foley");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("mvt_lie_rifle", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("all_weap_inf_sniperrifle_mvt_squat");
+    Group("weapons_foley");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("mvt_squat_rifle", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("all_weap_inf_sniperrifle_mvt_stop");
+    Group("weapons_foley");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("mvt_stop_rifle", 1.0);
+    }
+}
+
+// ----- End Alliance Sniperrifle --------------------------
+
+// ----- Start Alliance Spy Rifle --------------------------
+
+SoundProperties()
+{
+    Name("all_weap_inf_spyrifle_fire");
+    Group("weapons");
+    Inherit("weapon_template");
+    SampleList()
+    {
+        Sample("wpn_all_spyrifle_fire", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("all_weap_inf_spyrifle_mvt_getup");
+    Group("weapons_foley");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("mvt_getup_rifle", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("all_weap_inf_spyrifle_mvt_jump");
+    Group("weapons_foley");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("mvt_jump_rifle", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("all_weap_inf_spyrifle_mvt_land");
+    Group("weapons_foley");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("mvt_land_rifle", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("all_weap_inf_spyrifle_mvt_roll");
+    Group("weapons_foley");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("mvt_roll_rifle", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("all_weap_inf_spyrifle_mvt_lie");
+    Group("weapons_foley");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("mvt_lie_rifle", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("all_weap_inf_spyrifle_mvt_squat");
+    Group("weapons_foley");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("mvt_squat_rifle", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("all_weap_inf_spyrifle_mvt_stop");
+    Group("weapons_foley");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("mvt_stop_rifle", 1.0);
+    }
+}
+
+// ----- End Alliance Spy Rifle ----------------------------
+
+// ----- All Vehicles ----------------------------------
+// all_fly_xwing - weapons, engine, power, explosion
+// all_fly_ywing - weapons, engine, power, explosion
+// all_fly_snowspeeder
+// all_hover_combatspeeder
+// all_hover_hovernaut
+// all_hover_skiff
+// all_walk_tauntaun
+// tat_hover_landspeeder
+
+
+
+
+
+
+// all_hover_hovernaut ------------------------------------
+
+
+// all_hover_skiff ----------------------------------------
+
+
+// tat_hover_landspeeder ----------------------------------
+
+
+
+
+
+// ----- Imp Foley ----------------------------------------
+//imp_inf_soldiier foley
+// trooper movement stone
+// soldier movement stone
+// footsteps run walk
+// jump land roll squat
+// binoculars
+// wade is none
+
+// Imp Pain Chatter ---------------------------------------
+
+SoundProperties()
+{
+    Name("imp_inf_com_chatter_wound");
+    Group("imp_inf_pain_vo");
+    Inherit("pain_chatter_template");
+    PlayInterval(0.0);
+    PlayIntervalDev(0.0);
+    PlayProbability(0.85);
+    SampleList()
+    {
+        Sample("IICOM416", 0.33);
+        Sample("IICOM417", 0.33);
+        Sample("IICOM418", 0.33);
+    }
+}
+
+SoundProperties()
+{
+    Name("imp_inf_com_chatter_death");
+    Group("imp_inf_pain_vo");
+    Inherit("pain_chatter_template");
+    PlayInterval(0.0);
+    PlayIntervalDev(0.0);
+    PlayProbability(1.0);
+    SampleList()
+    {
+        Sample("IICOM419", 0.33);
+        Sample("IICOM420", 0.33);
+        Sample("IICOM421", 0.33);
+    }
+}
+
+// ----- Imp Units ----------------------------------------
+// imp_inf_storm_trooper - thermal(g)
+// imp_inf_shock_trooper - launcher, mine dispenser
+// imp_inf_pilottie - haywire(g), fusioncutter(g)
+// imp_inf_pilotatst - haywire(g), fusioncutter(g)
+// imp_inf_pilotatat - haywire(g), fusioncutter(g)
+// imp_inf_scout_trooper - thermal(g)
+// imp_inf_dark_trooper - jump pack, shotgun, thermal(g)
+// imp_inf_officer - powerup dispenser, orbital strike
+// imp_inf_darthvader - breathing, lightsaber, force choke
+// g = global
+//--------------------------------------------------------
+
+// Darth Vader VO Start -----------------------------------------------
+
+SoundProperties()
+{
+    Name("imp_inf_vo_darth_breath")
+    Group("imp_inf_pain_vo");
+    Inherit("pain_chatter_template");
+    SampleList()
+    {
+        Sample("crtr_vader_breath_lp", 1.0);
+    }
+}
+
+
+// Darth Vader VO End -----------------------------------------------
+
+// ------ Imperial Specific Explosions ------------
+
+SoundProperties()
+{
+    Name("com_weap_inf_empmine_exp"); // seismic mine explosion near
+    Group("Explosion");
+    Inherit("explosion_template");
+    RollOff(6.0);
+    SampleList()
+    {
+      Sample("exp_ord_seismicCharge01", 0.33);
+      Sample("exp_ord_seismicCharge02", 0.33);
+      Sample("exp_ord_seismicCharge03", 0.33);
+    }
+}
+
+// ----- Start Imperial Generic Weapon Foley -----
+
+// Equip
+
+SoundProperties()
+{
+    Name("imp_weap_inf_equip_sm");
+    Group("weapons_foley");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("wpn_empire_smlEquip", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("imp_weap_inf_equip_med");
+    Group("weapons_foley");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("wpn_empire_medEquip", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("imp_weap_inf_equip_lg");
+    Group("weapons_foley");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("wpn_empire_lgEquip", 1.0);
+    }
+}
+
+// Reload
+
+SoundProperties()
+{
+    //Name("imp_weap_inf_reload_med_sound");
+    Name("imp_weap_inf_reload_med");
+    Group("weapons_foley");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("wpn_empire_medReload", 1.0);
+    }
+}
+
+// It is not possible to control the position of a layered sound in game 
+// after it's started playing.  Doing this will drop the sound in the world.
+//SoundLayered()
+//{
+//    Name("imp_weap_inf_reload_med");
+//    Layer("null", "imp_weap_inf_reload_med_sound", 0.3);
+//}
+
+SoundProperties()
+{
+    Name("imp_weap_inf_reload_lg");
+    Group("weapons_foley");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("wpn_empire_lgReload", 1.0);
+    }
+}
+
+// ----- Start Imperial Rifle -----------------------------
+
+SoundProperties()
+{
+    Name("imp_weap_inf_rifle_fire");
+    Group("weapons");
+    Inherit("weapon_template");
+    SampleList()
+    {
+        Sample("wpn_imp_blaster_fire", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("imp_weap_inf_rifle_mvt_getup");
+    Group("weapons_foley");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("mvt_getup_rifle", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("imp_weap_inf_rifle_mvt_jump");
+    Group("weapons_foley");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("mvt_jump_rifle", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("imp_weap_inf_rifle_mvt_land");
+    Group("weapons_foley");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("mvt_land_rifle", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("imp_weap_inf_rifle_mvt_roll");
+    Group("weapons_foley");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("mvt_roll_rifle", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("imp_weap_inf_rifle_mvt_lie");
+    Group("weapons_foley");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("mvt_lie_rifle", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("imp_weap_inf_rifle_mvt_squat");
+    Group("weapons_foley");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("mvt_squat_rifle", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("imp_weap_inf_rifle_mvt_stop");
+    Group("weapons_foley");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("mvt_stop_rifle", 1.0);
+    }
+}
+
+// ----- End Imperial Rifle -------------------------
+
+// ----- Start Imperial Pistol ----------------------
+
+SoundProperties()
+{
+    Name("imp_weap_inf_pistol_fire");
+    Group("weapons");
+    Inherit("weapon_template");
+    SampleList()
+    {
+        Sample("wpn_imp_pistol_fire", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("imp_weap_inf_pistol_mvt_getup");
+    Group("weapons_foley");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("mvt_getup_rifle", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("imp_weap_inf_pistol_mvt_jump");
+    Group("weapons_foley");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("mvt_jump_rifle", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("imp_weap_inf_pistol_mvt_land");
+    Group("weapons_foley");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("mvt_land_rifle", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("imp_weap_inf_pistol_mvt_roll");
+    Group("weapons_foley");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("mvt_roll_rifle", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("imp_weap_inf_pistol_mvt_lie");
+    Group("weapons_foley");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("mvt_lie_rifle", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("imp_weap_inf_pistol_mvt_squat");
+    Group("weapons_foley");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("mvt_squat_rifle", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("imp_weap_inf_pistol_mvt_stop");
+    Group("weapons_foley");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("mvt_stop_rifle", 1.0);
+    }
+}
+
+// ----- End Imperial Pistol -------------------------
+
+// ----- Start Imperial Sniper Rifle -----------------
+
+SoundProperties()
+{
+    Name("imp_weap_inf_sniperrifle_fire");
+    Group("weapons");
+    Inherit("weapon_template");
+    SampleList()
+    {
+        Sample("wpn_imp_sniperrifle_fire", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("imp_weap_inf_sniperrifle_mvt_getup");
+    Group("weapons_foley");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("mvt_getup_rifle", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("imp_weap_inf_sniperrifle_mvt_jump");
+    Group("weapons_foley");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("mvt_jump_rifle", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("imp_weap_inf_sniperrifle_mvt_land");
+    Group("weapons_foley");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("mvt_land_rifle", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("imp_weap_inf_sniperrifle_mvt_roll");
+    Group("weapons_foley");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("mvt_roll_rifle", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("imp_weap_inf_sniperrifle_mvt_lie");
+    Group("weapons_foley");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("mvt_lie_rifle", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("imp_weap_inf_sniperrifle_mvt_squat");
+    Group("weapons_foley");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("mvt_squat_rifle", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("imp_weap_inf_sniperrifle_mvt_stop");
+    Group("weapons_foley");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("mvt_stop_rifle", 1.0);
+    }
+}
+
+// ----- End Imperial Sniper Rifle ------------------
+
+// ----- Start Imperial Mortar Launcher -------------
+
+SoundProperties()
+{
+    Name("imp_weap_inf_mortar_launcher_fire");
+    Group("weapons");
+    Inherit("weapon_template");
+    SampleList()
+    {
+        Sample("wpn_imp_mortar_fire", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("imp_weap_inf_mortar_launcher_mvt_getup");
+    Group("weapons_foley");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("mvt_getup_bazooka", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("imp_weap_inf_mortar_launcher_mvt_jump");
+    Group("weapons_foley");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("mvt_jump_bazooka", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("imp_weap_inf_mortar_launcher_mvt_land");
+    Group("weapons_foley");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("mvt_land_bazooka", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("imp_weap_inf_mortar_launcher_mvt_roll");
+    Group("weapons_foley");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("mvt_roll_bazooka", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("imp_weap_inf_mortar_launcher_mvt_lie");
+    Group("weapons_foley");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("mvt_lie_bazooka", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("imp_weap_inf_mortar_launcher_mvt_squat");
+    Group("weapons_foley");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("mvt_squat_bazooka", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("imp_weap_inf_mortar_launcher_mvt_stop");
+    Group("weapons_foley");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("mvt_stop_bazooka", 1.0);
+    }
+}
+
+// ----- End Imperial Torpedo Launcher ---------------
+
+// ----- Torpedo Weapon tracking -----
+
+SoundProperties()
+{
+    Name("imp_weap_inf_tracking_unit");
+    Group("weapons_foley");
+    Inherit("body_movement_template");
+    looping (1);
+    SampleList()
+    {
+        Sample("wpn_imp_unit_lockon_lp", 1.0);
+    }
+}

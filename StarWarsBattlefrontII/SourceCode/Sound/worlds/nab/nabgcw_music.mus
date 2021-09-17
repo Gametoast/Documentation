@@ -1,0 +1,364 @@
+// ----------------------------------------- NAB Music -----------------------------------
+
+// -----------------  NAB Objective Music ---------------------
+
+Music()
+{
+    Name("rep_nab_amb_obj1_2_explore");
+    Priority(4.0);
+    FadeInTime(0.0);
+    FadeOutTime(1.5);
+    MinPlaybackTime(15.0);
+    MaxPlaybackTime(150.0);
+    MinInactiveTime(20.0);
+    SoundStream("rep_nab_amb_obj1_2_explore");
+}
+
+Music()
+{
+    Name("rep_nab_amb_obj3_4_explore");
+    Priority(5.0);
+    FadeInTime(0.0);
+    FadeOutTime(1.5);
+    MinPlaybackTime(15.0);
+    MaxPlaybackTime(150.0);
+    MinInactiveTime(20.0);;
+    SoundStream("rep_nab_amb_obj3_4_explore");
+}
+
+Music()
+{
+    Name("rep_nab_act_01");
+    Priority(6.0);
+    FadeInTime(0.0);
+    FadeOutTime(1.5);
+    MinPlaybackTime(15.0);
+    MaxPlaybackTime(180.0);
+    MinInactiveTime(20.0);;
+    SoundStream("rep_nab_act_01");
+}
+
+Music()
+{
+    Name("rep_nab_objComplete_01");
+    Priority(8.0);
+    FadeInTime(0.0);
+    FadeOutTime(4.0);
+    MinPlaybackTime(11.0);
+    MaxPlaybackTime(12.0);
+    MinInactiveTime(60.0);
+    SoundStream("rep_nab_objComplete_01");
+}
+
+Music()
+{
+    Name("rep_vehicle");
+    Priority(2.0);
+    FadeInTime(0.0);
+    FadeOutTime(3.0);
+    MinPlaybackTime(15.0);
+    MaxPlaybackTime(120.0);
+    MinInactiveTime(15.0);
+    SoundStream("rep_nab_amb_vehicle");
+}
+
+Music()
+{
+    Name("cis_nab_amb_victory");
+    Priority(4.0);
+    FadeInTime(0.0);
+    FadeOutTime(5.0);
+    MinPlaybackTime(3.0);
+    MaxPlaybackTime(360.0);
+    MinInactiveTime(35.0);
+    SoundStream("cis_nab_amb_victory");
+}
+
+Music()
+{
+    Name("cis_nab_amb_defeat");
+    Priority(9.0);
+    FadeInTime(0.0);
+    FadeOutTime(5.0);
+    MinPlaybackTime(3.0);
+    MaxPlaybackTime(360.0);
+    MinInactiveTime(35.0);
+    SoundStream("cis_nab_amb_defeat");
+}
+
+// ----------------- NAB ALL Music ----------------------
+
+Music()
+{
+    Name("all_nab_amb_start");
+    Priority(1.0);
+    FadeInTime(0.0);
+    FadeOutTime(1.5);
+    MinPlaybackTime(20.0);
+    MaxPlaybackTime(180.0);
+    MinInactiveTime(15.0);
+    SoundStream("all_nab_amb_start");
+}
+
+Music()
+{
+    Name("all_nab_amb_middle");
+    Priority(1.0);
+    FadeInTime(0.0);
+    FadeOutTime(1.5);
+    MinPlaybackTime(20.0);
+    MaxPlaybackTime(180.0);
+    MinInactiveTime(15.0);
+    SoundStream("all_nab_amb_middle");
+}
+
+Music()
+{
+    Name("all_nab_amb_end");
+    Priority(1.0);
+    FadeInTime(0.0);
+    FadeOutTime(1.5);
+    MinPlaybackTime(20.0);
+    MaxPlaybackTime(150.0);
+    MinInactiveTime(15.0);
+    SoundStream("all_nab_amb_end");
+}
+
+Music()
+{
+    Name("all_nab_amb_victory");
+    Priority(9.0);
+    FadeInTime(0.0);
+    FadeOutTime(5.0);
+    MinPlaybackTime(3.0);
+    MaxPlaybackTime(360.0);
+    MinInactiveTime(35.0);
+    SoundStream("all_nab_amb_victory");
+}
+
+Music()
+{
+    Name("all_nab_amb_defeat");
+    Priority(9.0);
+    FadeInTime(0.0);
+    FadeOutTime(5.0);
+    MinPlaybackTime(3.0);
+    MaxPlaybackTime(360.0);
+    MinInactiveTime(35.0);
+    SoundStream("all_nab_amb_defeat");
+}
+
+Music()
+{
+    Name("all_vehicle");
+    Priority(2.0);
+    FadeInTime(0.0);
+    FadeOutTime(1.5);
+    MinPlaybackTime(20.0);
+    MaxPlaybackTime(150.0);
+    MinInactiveTime(10.0);
+    SoundStream("all_nab_amb_vehicle");
+}
+
+
+// ----------------- NAB IMP Music ----------------------
+
+Music()
+{
+    Name("imp_nab_amb_start");
+    Priority(1.0);
+    FadeInTime(0.0);
+    FadeOutTime(1.5);
+    MinPlaybackTime(20.0);
+    MaxPlaybackTime(180.0);
+    MinInactiveTime(15.0);
+    SoundStream("imp_nab_amb_start");
+}
+
+Music()
+{
+    Name("imp_nab_amb_middle");
+    Priority(2.0);
+    FadeInTime(0.0);
+    FadeOutTime(1.5);
+    MinPlaybackTime(20.0);
+    MaxPlaybackTime(180.0);
+    MinInactiveTime(15.0);
+    SoundStream("imp_nab_amb_middle");
+}
+
+Music()
+{
+    Name("imp_nab_amb_end");
+    Priority(3.0);
+    FadeInTime(0.0);
+    FadeOutTime(1.5);
+    MinPlaybackTime(20.0);
+    MaxPlaybackTime(150.0);
+    MinInactiveTime(15.0);
+    SoundStream("imp_nab_amb_end");
+}
+
+Music()
+{
+    Name("imp_nab_amb_victory");
+    Priority(9.0);
+    FadeInTime(0.0);
+    FadeOutTime(5.0);
+    MinPlaybackTime(3.0);
+    MaxPlaybackTime(360.0);
+    MinInactiveTime(35.0);
+    SoundStream("imp_nab_amb_victory");
+}
+
+Music()
+{
+    Name("imp_nab_amb_defeat");
+    Priority(9.0);
+    FadeInTime(0.0);
+    FadeOutTime(5.0);
+    MinPlaybackTime(3.0);
+    MaxPlaybackTime(360.0);
+    MinInactiveTime(35.0);
+    SoundStream("imp_nab_amb_defeat");
+}
+
+//Music()
+//{
+//    Name("imp_vehicle");
+//    Priority(1.0);
+//    FadeInTime(0.0);
+//    FadeOutTime(3.0);
+//    MinPlaybackTime(30.0);
+//    MaxPlaybackTime(256.0);
+//    MinInactiveTime(15.0);
+//    SoundStream("imp_nab_amb_vehicle");
+//}
+
+// ----------------- GCW Hero Music ---------------------- 
+
+Music()
+{
+    Name("imp_hero_Palpatine_lp");
+    Priority(8.0);
+    FadeInTime(0.0);
+    FadeOutTime(1.0);
+    MinPlaybackTime(20.0);
+    MaxPlaybackTime(600.0);
+    MinInactiveTime(20.0);
+    SoundStream("imp_hero_Palpatine_lp");
+}
+
+Music()
+{
+    Name("imp_hero_Vader_lp");
+    Priority(8.0);
+    FadeInTime(0.0);
+    FadeOutTime(1.0);
+    MinPlaybackTime(20.0);
+    MaxPlaybackTime(600.0);
+    MinInactiveTime(20.0);
+    SoundStream("imp_hero_Vader_lp");
+}
+
+Music()
+{
+    Name("imp_hero_Boba_lp");
+    Priority(8.0);
+    FadeInTime(0.0);
+    FadeOutTime(1.0);
+    MinPlaybackTime(20.0);
+    MaxPlaybackTime(600.0);
+    MinInactiveTime(20.0);
+    SoundStream("imp_hero_Boba_lp");
+}
+
+Music()
+{
+    Name("all_hero_Chewbacca_lp");
+    Priority(8.0);
+    FadeInTime(0.0);
+    FadeOutTime(1.0);
+    MinPlaybackTime(20.0);
+    MaxPlaybackTime(600.0);
+    MinInactiveTime(20.0);
+    SoundStream("all_hero_Chewbacca_lp");
+}
+
+Music()
+{
+    Name("all_hero_BenKenobi_lp");
+    Priority(8.0);
+    FadeInTime(0.0);
+    FadeOutTime(1.0);
+    MinPlaybackTime(20.0);
+    MaxPlaybackTime(600.0);
+    MinInactiveTime(20.0);
+    SoundStream("all_hero_BenKenobi_lp");
+}
+
+Music()
+{
+    Name("all_hero_Luke_lp");
+    Priority(8.0);
+    FadeInTime(0.0);
+    FadeOutTime(1.0);
+    MinPlaybackTime(20.0);
+    MaxPlaybackTime(600.0);
+    MinInactiveTime(20.0);
+    SoundStream("all_hero_Luke_lp");
+}
+
+Music()
+{
+    Name("all_hero_Han_lp");
+    Priority(8.0);
+    FadeInTime(0.0);
+    FadeOutTime(1.0);
+    MinPlaybackTime(20.0);
+    MaxPlaybackTime(600.0);
+    MinInactiveTime(20.0);
+    SoundStream("all_hero_Han_lp");
+}
+
+Music()
+{
+    Name("all_hero_Leia_lp");
+    Priority(8.0);
+    FadeInTime(0.0);
+    FadeOutTime(1.0);
+    MinPlaybackTime(20.0);
+    MaxPlaybackTime(600.0);
+    MinInactiveTime(20.0);
+    SoundStream("all_hero_Leia_lp");
+}
+
+// ----------------- NAB ALL HUNT Music ----------------------
+
+Music()
+{
+    Name("all_nab_amb_hunt");
+    Priority(1.0);
+    FadeInTime(0.0);
+    FadeOutTime(1.5);
+    MinPlaybackTime(20.0);
+    MaxPlaybackTime(180.0);
+    MinInactiveTime(15.0);
+    SoundStream("all_nab_amb_hunt");
+}
+
+
+
+// ----------------- NAB IMP HUNT Music ----------------------
+
+Music()
+{
+    Name("imp_nab_amb_hunt");
+    Priority(1.0);
+    FadeInTime(0.0);
+    FadeOutTime(1.5);
+    MinPlaybackTime(20.0);
+    MaxPlaybackTime(180.0);
+    MinInactiveTime(15.0);
+    SoundStream("imp_nab_amb_hunt");
+}

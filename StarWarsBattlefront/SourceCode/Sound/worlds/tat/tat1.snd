@@ -1,0 +1,194 @@
+// Ambient Environment --------------------------------------------------------
+
+Space()
+{
+    Name("Default");
+    I3DL2ReverbPreset("noreverb");
+    DirectGain(1.0);
+    DirectHFGain(1.0);
+    RoomGain(0.0);
+    RoomHFGain(0.0);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.5);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.5);
+    OcclusionLFRatio(1.0);
+}
+
+SoundStreamProperties()
+{
+    Name("tat_amb_desertwind");
+    Group("ambientenv");
+    Inherit("ambientfx_template");
+    Stream("tat1");
+    Gain(0.4);
+    SegmentList()
+    {
+        Segment("tat_amb_desertwind", 1.0);
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("tat_amb_canyon");
+    Group("ambientenv");
+    Inherit("ambientfx_template");
+    Stream("tat1");
+    Gain(0.4);
+    SegmentList()
+    {
+        Segment("tat_amb_canyon", 1.0);
+    }
+}
+
+// Ambient Static Emitters ----------------------------------------------------------------
+
+SoundProperties()
+{
+    Name("sandcrawler");
+    Group("ambientenv");
+    Inherit("ambientemt_static_template");
+    Gain(0.2);
+    RandomPlayPos(1);
+    Looping(1);
+    Rolloff(3.0);
+    //Max and Min distance set in wld or lyr file
+    SampleList()
+    {
+        Sample("emt_sandcrawler_idle_lp01", 1.0);
+    }
+}
+
+
+
+
+SoundStreamProperties()
+{
+    Name("sarlacc_amb");
+    Pitch(1.0);
+    PitchDev(0.1);
+    Gain(0.8);
+    GainDev(0.0);
+    ReverbGain(1.0);
+    Bus("soundfx");
+    Looping(0);
+    Pan(0.0);
+    Mode3D(1);
+    PlayInterval(5.0);
+    RollOff(3.0);
+    MinDistance(35.0);
+    MuteDistance(100.0);
+    MaxDistance(100.0);
+    Stream("tat1_emt");
+    SegmentList()
+    {
+        Segment("crtr_sarlacc_crunch_01", 1.0);
+        Segment("crtr_sarlacc_crunch_02", 1.0);
+        Segment("crtr_sarlacc_growl_01", 1.0);
+        Segment("crtr_sarlacc_growl_02", 1.0);
+        Segment("crtr_sarlacc_growl_03", 1.0);
+    Segment("crtr_sarlacc_growl_04", 1.0);
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("sarlacc_belch");
+    Pitch(1.0);
+    PitchDev(0.1);
+    Gain(1.0);
+    GainDev(0.0);
+    ReverbGain(1.0);
+    Bus("soundfx");
+    Looping(0);
+    Pan(0.0);
+    Mode3D(1);
+    PlayInterval(2.0);
+    RollOff(3.0);
+    MinDistance(35.0);
+    MuteDistance(100.0);
+    MaxDistance(100.0);
+    Stream("tat1_emt");
+    SegmentList()
+    {
+        Segment("crtr_sarlacc_belch_01", 1.0);
+        Segment("crtr_sarlacc_belch_02", 1.0);
+        Segment("crtr_sarlacc_belch_03", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("tusken_hurt");
+    Group("tat_inf_pain_vo");
+    Inherit("pain_chatter_template");
+    PlayInterval(0.5);
+    SampleList()
+    {
+        Sample("crtr_tusken_hurt", 1.0);
+        Sample("crtr_tusken_chatter_01", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("tusken_die");
+    Group("tat_inf_pain_vo");
+    Inherit("pain_chatter_template");
+    SampleList()
+    {
+        Sample("crtr_tusken_death", 1.0);
+        Sample("crtr_tusken_chatter_05", 1.0);
+    }
+}
+SoundProperties()
+{
+    Name("tusken_chatter");
+    Group("tat_inf_pain_vo");
+    Inherit("pain_chatter_template");
+    RollOff(3.0);
+    MaxDistance(350.0);
+    SampleList()
+    {
+        Sample("crtr_tusken_chatter_02", 1.0);
+        Sample("crtr_tusken_chatter_03", 1.0);
+        Sample("crtr_tusken_chatter_04", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("tat_weap_tusken_fire");
+    Group("weapons_foley");
+    Inherit("weapon_template");
+    SampleList()
+    {
+        Sample("wpn_rep_blaster_fire", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("tat_weap_tuskensniper_fire");
+    Group("weapons_foley");
+    Inherit("weapon_template");
+    SampleList()
+    {
+        Sample("wpn_rep_sniperrifle_fire", 1.0);
+    }
+}
+
+// Reload
+
+SoundProperties()
+{
+    Name("tat_weap_tusken_reload");
+    Group("weapons_foley");
+    Inherit("weapon_template");
+    SampleList()
+    {
+        Sample("wpn_republic_medReload", 1.0);
+    }
+}
+
+

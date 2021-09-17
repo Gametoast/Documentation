@@ -1,0 +1,154 @@
+//-All water Foley--------------------------------------------------------------
+// all_inf
+
+// soldier movement
+//-jump land roll squat--------------------------------------------------------
+
+//SoundProperties()
+//{
+//    Name("npc_inf_small_getup_water")
+//    Group("body_movement");
+//    Inherit("body_movement_template");
+//    SampleList()
+//    {
+//        Sample("mvt_small_getup_water", 1.0);
+//    }
+//}
+
+SoundProperties()
+{
+    Name("npc_inf_small_jump_water")
+    Group("body_movement");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("mvt_small_jump_water", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("npc_inf_small_land_water")
+    Group("body_movement");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("mvt_small_land_water", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("npc_inf_small_lgBF_water")
+    Group("body_movement");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+      Sample("mvt_small_water_lgBF_01", 0.33);
+      Sample("mvt_small_water_lgBF_02", 0.33);
+      Sample("mvt_small_water_smBf", 0.33);
+    }
+}
+
+//SoundProperties()
+//{
+//    Name("npc_inf_small_lie_water")
+//    Group("body_movement");
+//    Inherit("body_movement_template");
+//    SampleList()
+//    {
+//        Sample("mvt_small_lie_water", 1.0);
+//    }
+//}
+
+SoundProperties()
+{
+    Name("npc_inf_small_roll_water")
+    Group("body_movement");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("mvt_small_roll_water", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("npc_inf_small_squat_water")
+    Group("body_movement");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("mvt_small_squat", 1.0);
+    }
+}
+
+
+//-Footsteps run walk----------------------------------------------------------
+
+SoundProperties()
+{
+    Name("npc_inf_small_run_water_left")
+    Group("body_movement");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("mvt_small_run_water_L01", 1.0);
+        Sample("mvt_small_run_water_L02", 1.0);
+        Sample("mvt_small_run_water_L03", 1.0);
+        Sample("mvt_small_run_water_L04", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("npc_inf_small_run_water_right")
+    Group("body_movement");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("mvt_small_run_water_R01", 1.0);
+        Sample("mvt_small_run_water_R02", 1.0);
+        Sample("mvt_small_run_water_R03", 1.0);
+        Sample("mvt_small_run_water_R04", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("npc_inf_small_walk_water_left")
+    Group("body_movement");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("mvt_small_walk_water_L01", 1.0);
+        Sample("mvt_small_walk_water_L02", 1.0);
+        Sample("mvt_small_walk_water_L03", 1.0);
+        Sample("mvt_small_walk_water_L04", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("npc_inf_small_walk_water_right")
+    Group("body_movement");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("mvt_small_walk_water_R01", 1.0);
+        Sample("mvt_small_walk_water_R02", 1.0);
+        Sample("mvt_small_walk_water_R03", 1.0);
+        Sample("mvt_small_walk_water_R04", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("npc_inf_small_stop_water")
+    Group("body_movement");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("mvt_small_stop_water", 1.0);
+    }
+}

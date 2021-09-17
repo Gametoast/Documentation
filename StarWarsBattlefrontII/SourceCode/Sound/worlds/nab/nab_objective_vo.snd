@@ -1,0 +1,455 @@
+
+//  --------------------------------------------------- Objective VO ----------------------------------------------------------
+
+SoundStreamProperties()
+{
+    Name("NAB_obj_01");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("nab_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IONAB0001", 1.0, 0.0, 0.0); //  Initial Theed insertion complete, moving on to phase two.  Make your way to the Central Plaza and the Embassy Building, neutralizing any Naboo guards you meet along the way before they can raise an alarm.  Once all the guards have been dispatched, reinforcements will rendezvous at your position.  Good luck, Trooper.
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("NAB_obj_02");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("nab_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IONAB0002", 1.0, 0.0, 0.0); //  The Plaza is secure.  Move on to the Embassy.  Eliminate any opposition you meet along the way, while maintaining element of surprise.
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("NAB_obj_03");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("nab_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IONAB0003", 1.0, 0.0, 0.0); //  The Embassy is secure.  Move on to the Central Plaza.   Eliminate any opposition you meet along the way, but try to maintain element of surprise.
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("NAB_obj_04");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("nab_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IONAB0004", 1.0, 0.0, 0.0); //  It seems the Naboonians have finally noticed us.  Time is running short.  Quickly strike at the Guards' Command Post and the Registry Building before they can rally their forces.
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("NAB_obj_05");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("nab_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IONAB0005", 1.0, 0.0, 0.0); //  The Guard Post is secure, on to the Registry!
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("NAB_obj_06");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("nab_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IONAB0006", 1.0, 0.0, 0.0); //  The Registry is ours, on the the Guard Post!
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("NAB_obj_07");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("nab_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IONAB0007", 1.0, 0.0, 0.0); //  The only thing standing between us and the traitorous Queen is her Royal Guard.  Take them out.
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("NAB_obj_08");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("nab_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IONAB0009", 1.0, 0.0, 0.0); //  You've performed admirably in the service of the Empire.  Lord Vader will be pleased.
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("NAB_obj_09");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("nab_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IONAB0010", 1.0, 0.0, 0.0); //  Your failure to complete this simplest of tasks has greatly upset Lord Vader
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("NAB_obj_10");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("nab_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IONAB0008", 1.0, 0.0, 0.0); //  There she is... the Queen.  Finish the mission, and let her fate be an example to all those who would dare defy the Empire!
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("NAB_obj_11");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("nab_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IONAB0011", 1.0, 0.0, 0.0); //  Welcome to the Capitol city of Theed, soldier. Our mission here is to topple the government of Naboo by eliminating their leadership, namely, the Queen. Surprise is necessary for this plan to work, as our main force is relatively small. You are being sent ahead of the main force to eliminate any Naboo forces that could raise the alarm before we have assembled and are ready to attack. Make you way to the Plaza Guard Post and capture it. Avoid enemy contact if possible; eliminate any Guards that take your notice. DO NOT Cross over to the South side of the city until ordered to.
+        }
+}
+
+SoundStreamProperties()
+{
+    Name("NAB_obj_12");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("nab_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IONAB0012", 1.0, 0.0, 0.0); //  So far so good.  Now, capture the guard post by the embassy.  Remember to avoid contact.
+        }
+}
+
+SoundStreamProperties()
+{
+    Name("NAB_obj_13");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("nab_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IONAB0013", 1.0, 0.0, 0.0); //  The city is alert to our presence.  Thankfully our main forces are being deployed.  They have been ordered to take the guard post located at the office building marked on your map.  Go there and assist in the capture.
+        }
+}
+
+SoundStreamProperties()
+{
+    Name("NAB_obj_14");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("nab_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IONAB0014", 1.0, 0.0, 0.0); //  One last strategic point to take before we can storm the palace.  Capture the guards' headquarters.
+        }
+}
+
+SoundStreamProperties()
+{
+    Name("NAB_obj_15");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("nab_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IONAB0015", 1.0, 0.0, 0.0); //  The Queen and her royal guard are trying to escape.  You must eliminate the Queen at all costs.  Quickly!  If she gets away, this mission was for naught.
+        }
+}
+
+SoundStreamProperties()
+{
+    Name("NAB_obj_16");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("nab_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("obj16", 1.0, 0.0, 0.0); //  You have performed a great service for the Empire.  Many  lives will be saved from the needless conflict to our rule.  Be proud, soldier!
+        }
+}
+
+SoundStreamProperties()
+{
+    Name("NAB_obj_17");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("nab_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("obj17", 1.0, 0.0, 0.0); //  The Queen's personal jedi bodyguards have broken from the palace.  Do not let them take our initiative away.  Destroy them.
+        }
+}
+
+SoundStreamProperties()
+{
+    Name("NAB_obj_18");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("nab_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IONAB0018", 1.0, 0.0, 0.0); //  Deceivers!  The jedi are a distraction!  The Queen has taken flight.  We cannot let her escape alive.  Quickly, pursue the Queen and slay her.
+        }
+}
+
+SoundStreamProperties()
+{
+    Name("NAB_obj_19");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("nab_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IONAB0019", 1.0, 0.0, 0.0); //  Your reinforcement count is dropping too low.  Continue like this and you will fail the mission.
+        }
+}
+
+SoundStreamProperties()
+{
+    Name("NAB_obj_20");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("nab_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IONAB0020", 1.0, 0.0, 0.0); //  There are no more soldiers available for ground support.  Return to base immediately.  You are a disappointment to the Empire.
+        }
+}
+
+SoundStreamProperties()
+{
+    Name("NAB_obj_21");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("nab_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IONAB0021", 1.0, 0.0, 0.0); //  We're almost out of reinforcements.
+        }
+}
+
+SoundStreamProperties()
+{
+    Name("NAB_obj_22");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("nab_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IONAB0022", 1.0, 0.0, 0.0); //  We have arrived on the City of Theed.  Our mission is to topple the Government of Naboo by eliminating the Queen in her Hive.  She is heavily guarded in the Central Plaza by a group of Jedi and an Auto-turret grid.  In order for us to Stand a chance against their defenses we must set up a perimeter around the Central Plaza and Shut down the Auto Turret Grid. Careful soldier, your numbers are few and the mission's success rests on your shoulders. 
+        }
+}
+
+SoundStreamProperties()
+{
+    Name("NAB_obj_23");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("nab_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IONAB0023", 1.0, 0.0, 0.0); //  Excellent.  Now we must destroy the Auto Turret Grid Console, so that we can access the Central Plaza.  Destroy it and the Queen will be ours.
+        }
+}
+
+SoundStreamProperties()
+{
+    Name("NAB_obj_24");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("nab_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IONAB0024", 1.0, 0.0, 0.0); //  Watch out Soldier!  The Auto Turret Grid is still online.  Keep you and your men out of the Central plaza until we can find a way to shut down the Turret Grid
+        }
+}
+
+SoundStreamProperties()
+{
+    Name("NAB_obj_25");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("nab_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IONAB0025", 1.0, 0.0, 0.0); //  We must now capture the Embassy Plaza, move out
+        }
+}
+
+SoundStreamProperties()
+{
+    Name("NAB_obj_26");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("nab_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IONAB0026", 1.0, 0.0, 0.0); //  So far so good.  Now, capture the guard post past the embassy.  We have supplied a Tank for you at the Embassy command post.  Use it wisely
+        }
+}
+
+SoundStreamProperties()
+{
+    Name("NAB_obj_27");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("nab_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IONAB0027", 1.0, 0.0, 0.0); //  The Queen and her royal guard are trying to escape.  Quickly! You must eliminate the Queen at all costs.  
+        }
+}
+
+SoundStreamProperties()
+{
+    Name("NAB_obj_28");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("nab_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IONAB0028", 1.0, 0.0, 0.0); //  We have failed... The Emperor will be most disappointed in our efforts.
+        }
+}
+
+SoundStreamProperties()
+{
+    Name("NAB_obj_29");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("nab_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IONAB0029", 1.0, 0.0, 0.0); //  You have failed the Emperor for the last time. 
+        }
+}
+
+SoundStreamProperties()
+{
+    Name("NAB_obj_30");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("nab_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IONAB0030", 1.0, 0.0, 0.0); //  The Queen and her royal guard are trying to escape.  Quickly! You must eliminate the Queen and her guards before they can flee
+        }
+}
+
+SoundStreamProperties()
+{
+    Name("NAB_obj_31");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("nab_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IONAB0031", 1.0, 0.0, 0.0); //  We must now capture the Embassy Plaza on the other side of the City.  Move out
+        }
+}
+
+SoundStreamProperties()
+{
+    Name("NAB_obj_32");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("nab_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IONAB0032", 1.0, 0.0, 0.0); //  The Queen is Dead!
+        }
+}
+
+SoundStreamProperties()
+{
+    Name("NAB_obj_33");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("nab_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IONAB0033", 1.0, 0.0, 0.0); //  One more to Go
+        }
+}
+
+SoundStreamProperties()
+{
+    Name("NAB_obj_34");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("nab_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IONAB0034", 1.0, 0.0, 0.0); //  4 More Jedi to Go
+        }
+}
+
+SoundStreamProperties()
+{
+    Name("NAB_obj_35");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("nab_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IONAB0035", 1.0, 0.0, 0.0); //  3 More Jedi to Kill
+        }
+}
+
+SoundStreamProperties()
+{
+    Name("NAB_obj_36");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("nab_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IONAB0036", 1.0, 0.0, 0.0); //  5 More Jedi to Kill
+        }
+}
+
+SoundStreamProperties()
+{
+    Name("NAB_obj_37");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("nab_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IONAB0037", 1.0, 0.0, 0.0); //  Just Three More
+        }
+}

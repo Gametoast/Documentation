@@ -1,0 +1,1797 @@
+SoundStreamProperties()
+{
+    Name("cw_battle_chatter_template");
+    Inherit("battle_chatter_template");
+}
+
+SoundStreamProperties()
+{
+    Name("cw_ai_tactical_template");
+    Inherit("ai_tactical_template");
+}
+
+SoundStreamProperties()
+{
+    Name("cw_tactical_template");
+    Inherit("tactical_template");
+}
+
+// VO sound for audio options screen
+SoundStreamProperties()
+{
+    Name("shell_auditionVO");
+    Pitch(1.0);
+    PitchDev(0.0);
+    Gain(1.0);
+    GainDev(0.0);
+    ReverbGain(0.0);
+    Bus("Root");
+    Looping(0);
+    Pan(0.0);
+    Mode3D(0);
+    Stream("cw_vo");
+    SegmentList()
+    {
+        Segment("crtr_wookiee_chatter_01", 1.0);
+        Segment("crtr_wookiee_chatter_02", 1.0);
+        Segment("crtr_wookiee_chatter_03", 1.0);
+        Segment("crtr_wookiee_chatter_05", 1.0);
+        Segment("crtr_wookiee_chatter_06", 1.0);
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("shell_auditionSFX")
+    Pitch(1.0);
+    PitchDev(0.0);
+    Gain(1.0);
+    GainDev(0.0);
+    ReverbGain(1.0);
+    Bus("Root");
+    Looping(0);
+    Pan(0.0);
+    Mode3D(0);
+    Stream("cw_vo");
+    SegmentList()
+    {
+        Segment("ui_sfxVolume", 1.0);
+    }
+}
+
+// Void GCW Command Post VO Start -----------------------------------
+// This section kills the asserts when looking for other era cp vo
+
+SoundStreamProperties()
+{
+    Name("all_off_com_report_captured_commandpost");
+    Group("kill_vo");
+    Inherit("vo_template");
+    Stream("cw_vo");
+    SegmentList()
+    {
+        Segment("COCOM062", 1.0); // We've captured a command post
+    }
+}
+SoundStreamProperties()
+{
+    Name("all_off_com_report_lost_commandpost");
+    Group("kill_vo");
+    Inherit("vo_template");
+    Stream("cw_vo");
+    SegmentList()
+    {
+        Segment("COCOM063", 1.0); // Enemy Forces have captured a command post
+    }
+}
+SoundStreamProperties()
+{
+    Name("all_off_com_report_lost_commandpost3");
+    Group("kill_vo");
+    Inherit("vo_template");
+    Stream("cw_vo");
+    SegmentList()
+    {
+        Segment("COCOM061", 1.0); // We've lost a command post
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("imp_off_com_report_captured_commandpost");
+    Group("kill_vo");
+    Inherit("vo_template");
+    Stream("cw_vo");
+    SegmentList()
+    {
+        Segment("COCOM061", 1.0); // We've captured a command post
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("imp_off_com_report_lost_commandpost");
+    Group("kill_vo");
+    Inherit("vo_template");
+    Stream("cw_vo");
+    SegmentList()
+    {
+        Segment("COCOM062", 1.0); // Enemy forces have captured a command post
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("imp_off_com_report_lost_commandpost3");
+    Group("kill_vo");
+    Inherit("vo_template");
+    Stream("cw_vo");
+    SegmentList()
+    {
+        Segment("COCOM063", 1.0); // We've lost a command post
+    }
+}
+
+
+// Void GCW Command Post VO End -----------------------------------
+
+
+// CIS Officer Command Post VO Start -----------------------------------
+
+SoundStreamProperties()
+{
+    Name("cis_off_com_chatter_goodjob2"); // we captured cp
+    Group("cis_vo");
+    Inherit("vo_template");
+    Stream("cw_vo");
+    SegmentList()
+    {
+        Segment("COCOM062", 1.0); // We've captured a command post
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("cis_off_com_report_lost_commandpost"); // they captured cp
+    Group("cis_vo");
+    Inherit("vo_template");
+    Stream("cw_vo");
+    SegmentList()
+    {
+        Segment("COCOM063", 1.0); // Enemy Forces have captured a command post
+
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("cis_off_com_report_lost_commandpost3"); // We lost cp
+    Group("cis_vo");
+    Inherit("vo_template");
+    Stream("cw_vo");
+    SegmentList()
+    {
+        Segment("COCOM061", 1.0); // We've lost a command post
+
+    }
+}
+
+// CIS Officer Command Post VO End -----------------------------------
+
+// CIS Officer Bleed Rate VO Start -----------------------------------
+
+SoundStreamProperties()
+{
+    Name("cis_off_com_report_us_overwhelmed"); // We're bleeding
+    Group("cis_vo");
+    Inherit("vo_template");
+    Stream("cw_vo");
+    SegmentList()
+    {
+        Segment("COCOM049", 1.0); // Reinforcements have been cut off by the Republic
+        Segment("COCOM050", 1.0); // The Republic is depleting our reinforcements
+        Segment("COCOM051", 1.0); // We're losing reinforcements
+        Segment("COCOM052", 1.0); // Our reinforcements have been cut off
+        Segment("COCOM053", 1.0); // Our reinforcements are being depleted
+        Segment("COCOM054", 1.0); // Our reinforcements are taking casualties
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("cis_off_com_report_enemy_losing"); // They are bleeding
+    Group("cis_vo");
+    Inherit("vo_template");
+    Stream("cw_vo");
+    SegmentList()
+    {
+        Segment("COCOM055", 1.0); // We've cut off the enemy's reinforcements
+        Segment("COCOM056", 1.0); // We're depleting the Republic reinforcements
+        Segment("COCOM057", 1.0); // They're losing reinforcements
+        Segment("COCOM058", 1.0); // Their reinforcements have been cut off
+        Segment("COCOM059", 1.0); // Their reinforcements are being depleted
+        Segment("COCOM060", 1.0); // Their reinforcements are taking casualties
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("cis_off_com_report_us_overwhelmed_generic"); // We're bleeding
+    Group("cis_vo");
+    Inherit("vo_template");
+    Stream("cw_vo");
+    SegmentList()
+    {
+        Segment("COCOM051", 1.0); // We're losing reinforcements
+        Segment("COCOM052", 1.0); // Our reinforcements have been cut off
+        Segment("COCOM053", 1.0); // Our reinforcements are being depleted
+        Segment("COCOM054", 1.0); // Our reinforcements are taking casualties
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("cis_off_com_report_enemy_losing_generic"); // They are bleeding
+    Group("cis_vo");
+    Inherit("vo_template");
+    Stream("cw_vo");
+    SegmentList()
+    {
+        Segment("COCOM055", 1.0); // We've cut off the enemy's reinforcements
+        Segment("COCOM057", 1.0); // They're losing reinforcements
+        Segment("COCOM058", 1.0); // Their reinforcements have been cut off
+        Segment("COCOM059", 1.0); // Their reinforcements are being depleted
+        Segment("COCOM060", 1.0); // Their reinforcements are taking casualties
+    }
+}
+
+// CIS Officer Bleed Rate VO End -----------------------------------
+
+// Republic Officer Command Post VO Start -------------------------------------------------
+
+SoundStreamProperties()
+{
+    Name("rep_off_com_report_captured_commandpost"); // We captured a cp
+    Group("republic_vo");
+    Inherit("vo_template");
+    Stream("cw_vo");
+    SegmentList()
+    {
+        Segment("ROMET063", 1.0); // We've captured a command post
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("rep_off_com_report_lost_commandpost"); // They captured a cp
+    Group("republic_vo");
+    Inherit("vo_template");
+    Stream("cw_vo");
+    SegmentList()
+    {
+        Segment("ROMET064", 1.0); // Enemy forces have captured a command post
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("rep_off_com_report_lost_commandpost3"); // We lost a cp
+    Group("republic_vo");
+    Inherit("vo_template");
+    Stream("cw_vo");
+    SegmentList()
+    {
+        Segment("ROMET062", 1.0); //We've lost a command post
+    }
+}
+
+// Republic Officer Command Post VO End -------------------------------------------------
+
+// Republic Officer Bleed Rate VO Start -------------------------------------------------
+
+SoundStreamProperties()
+{
+    Name("rep_off_com_report_us_overwhelmed"); // We are bleeding
+    Group("republic_vo");
+    Inherit("vo_template");
+    Stream("cw_vo");
+    SegmentList()
+    {
+        Segment("ROMET050", 1.0); // The Separatists have cut off our reinforcements
+        Segment("ROMET051", 1.0); // The Separatists are depleting our reinforcements
+        Segment("ROMET052", 1.0); // We're losing reinforcements
+        Segment("ROMET053", 1.0); // Our reinforcements have been cut off
+        Segment("ROMET054", 1.0); // Our reinforcements are being depleted
+        Segment("ROMET055", 1.0); // Our reinforcements are talking casualties
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("rep_off_com_report_enemy_losing"); // They are bleeding
+    Group("republic_vo");
+    Inherit("vo_template");
+    Stream("cw_vo");
+    SegmentList()
+    {
+        Segment("ROMET056", 0.16); // We've cut off the enemy's reinforcements
+        Segment("ROMET057", 0.16); // We're depleting the Separatist reinforcements!
+        Segment("ROMET058", 0.16); // They're losing reinforcements!
+        Segment("ROMET059", 0.16); // Their reinforcements have been cut off!
+        Segment("ROMET060", 0.16); // Their reinforcements are being depleted!
+        Segment("ROMET061", 0.16); // Their reinforcements are taking casualties!
+
+    }
+}
+
+// Republic Officer Bleed Rate VO End ------------------------------------
+
+// CIS Officer Alert VO Start --------------------------------------------
+
+SoundStreamProperties()
+{
+    Name("cis_off_victory_im"); // Victory is iminenet
+    Group("cis_vo");
+    Inherit("vo_template");
+    Stream("cw_vo");
+    SegmentList()
+    {
+        Segment("COCOM002", 1.0); // Victory is imminent
+    }
+}
+SoundStreamProperties()
+{
+    Name("cis_off_defeat_im"); // Defeat is imminent
+    Group("cis_vo");
+    Inherit("vo_template");
+    Stream("cw_vo");
+    SegmentList()
+    {
+        Segment("COCOM003", 1.0); // Defeat is imminent
+    }
+}
+SoundStreamProperties()
+{
+    Name("cisleaving"); // You are going out of bounds
+    Group("cis_vo");
+    Inherit("vo_template");
+    Stream("cw_vo");
+    SegmentList()
+    {
+        Segment("COCOM201", 0.5); // You're leaving the battlefield
+        Segment("COCOM202", 0.5); // Return to the battlefield
+    }
+}
+// CIS Officer Alert VO End ----------------------------------------------
+
+// Republic Officer Alert VO Start ---------------------------------------
+
+SoundStreamProperties()
+{
+    Name("rep_off_victory_im"); // Victory is iminent
+    Group("republic_vo");
+    Inherit("vo_template");
+    Stream("cw_vo");
+    SegmentList()
+    {
+        Segment("ROCOM001", 1.0); // Victory is iminent
+    }
+}
+SoundStreamProperties()
+{
+    Name("rep_off_defeat_im"); // Defeat is iminent
+    Group("republic_vo");
+    Inherit("vo_template");
+    Stream("cw_vo");
+    SegmentList()
+    {
+        Segment("ROCOM002", 1.0); // Defeat is imminent
+    }
+}
+SoundStreamProperties()
+{
+    Name("repleaving"); // You are going out of bounds
+    Group("republic_vo");
+    Inherit("vo_template");
+    Stream("cw_vo");
+    SegmentList()
+    {
+        Segment("ROCOM205", 0.5); // You're leaving the battlefield
+        Segment("ROCOM206", 0.5); // Return to the battlefield
+    }
+}
+// Republic Officer Alert VO End ----------------------------------------------
+
+// CIS Planetary Bonus VO Start ------------------------------------------------
+
+SoundStreamProperties()
+{
+    Name("cis_bonus_cis_reserves"); // we have secondary reinforcements
+    Group("cis_vo");
+    Inherit("vo_template");
+    Stream("cw_vo");
+    SegmentList()
+    {
+        Segment("COCOM027", 0.33); // We've been provided with secondary reinforcements
+        Segment("COMET258", 0.33); // We've got secondary reinforcements en route
+        Segment("COMET259", 0.33); // We've got secondary reinforcements standing by
+
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("cis_bonus_rep_reserves"); // they have secondary reinforcements
+    Group("cis_vo");
+    Inherit("vo_template");
+    Stream("cw_vo");
+    SegmentList()
+    {
+        Segment("COMET255", 0.2); // The enemy has secondary reinforcements on the way
+        Segment("COMET256", 0.2); // The enemy has secondary reinforcements on standby
+        Segment("COMET257", 0.2); // The enemy has secondary reinforcements standing by
+        Segment("COCOM028", 0.2); // They've received secondary reinforcements
+        Segment("COCOM029", 0.2); // The Republic has received secondary reinforcements
+
+
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("cis_bonus_cis_medical"); // we have health regen
+    Group("cis_vo");
+    Inherit("vo_template");
+    Stream("cw_vo");
+    SegmentList()
+    {
+       Segment("COMET236", 0.2); // Our regeneration packs will repair our damage
+       Segment("COCOM010", 0.2); // We've been provided with a surplus of Bacta tanks
+       Segment("COCOM011", 0.2); // Our troops have been injected with Bacta serum
+       Segment("COCOM012", 0.2); // Bacta serum injections are regenerating our troops
+       Segment("COCOM014", 0.2); // Our troops have been replaced with self-repairing droids
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("cis_bonus_rep_medical"); // they have health regen
+    Group("cis_vo");
+    Inherit("vo_template");
+    Stream("cw_vo");
+    SegmentList()
+    {
+       Segment("COMET251", 1.0); // The enemy has regeneration packs
+       Segment("COCOM016", 1.0); // The Republic has been provided a surplus of Bacta tanks!
+       Segment("COCOM017", 1.0); // The Republic troops have been injected with Bacta serum!
+       Segment("COCOM018", 1.0); // Bacta serum injections are regenerating their troops!
+
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("cis_bonus_cis_sabotage"); // we sabotaged them
+    Group("cis_vo");
+    Inherit("vo_template");
+    Stream("cw_vo");
+    SegmentList()
+    {
+       Segment("COCOM034", 1.0); // We've sabotaged the Republic vehicles
+       Segment("COCOM035", 1.0); // We've sabotaged their vehicles
+       Segment("COCOM036", 1.0); // Our saboteurs have damaged their vehicles
+
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("cis_bonus_rep_sabotage"); // they sabotaged us
+    Group("cis_vo");
+    Inherit("vo_template");
+    Stream("cw_vo");
+    SegmentList()
+    {
+       Segment("COCOM031", 1.0); // Our vehicles have been sabotaged
+       Segment("COCOM032", 1.0); // They've sabotaged our vehicles
+       Segment("COCOM033", 1.0); // The Republic has sabotaged our vehicles
+
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("cis_bonus_cis_sensors"); // our sensors boosted - theirs jammed
+    Group("cis_vo");
+    Inherit("vo_template");
+    Stream("cw_vo");
+    SegmentList()
+    {
+        // Segment("COMET222", 1.0); // Our sensors have been boosted
+        // Segment("COMET223", 1.0); // We've boosted our sensors
+        // Segment("COMET224", 1.0); // Our troops sensors have been boosted
+        // Segment("COMET237", 1.0); // Our sensors have been boosted
+        Segment("COMET238", 1.0); // We're jamming their sensors
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("cis_bonus_rep_sensors"); // their sensors boosted ours jammed
+    Group("cis_vo");
+    Inherit("vo_template");
+    Stream("cw_vo");
+    SegmentList()
+    {
+        Segment("COCOM020", 1.0); // They are jamming our sensors
+        Segment("COCOM021", 1.0); // The Republic is jamming our sensors
+        Segment("COMET239", 1.0); // Our sensors are being jammed
+        // Segment("COMET240", 1.0); // The enemy has boosted boosted their sensors
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("cis_bonus_cis_hero"); // our hero arrived
+    Group("cis_vo");
+    Inherit("vo_template");
+    Stream("cw_vo");
+    SegmentList()
+    {
+       Segment("COCOM072", 1.0);// Count Dooku has joined the battle
+       Segment("COCOM073", 1.0); // Count Dooku has entered the battlefield
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("cis_bonus_rep_hero"); // their hero arrived
+    Group("cis_vo");
+    Inherit("vo_template");
+    Stream("cw_vo");
+    SegmentList()
+    {
+       Segment("COCOM068", 1.0);// Mace Windu has joined the battle
+       Segment("COCOM069", 1.0); // Mace Windu has entered the battlefield
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("cis_bonus_cis_training"); //we have advanced training
+    Group("cis_vo");
+    Inherit("vo_template");
+    Stream("cw_vo");
+    SegmentList()
+    {
+        Segment("COMET266", 1.0); // Our troops have been given advanced training
+        Segment("COMET268", 1.0); // We've got advanced training
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("cis_bonus_rep_training"); // they have advanced training
+    Group("cis_vo");
+    Inherit("vo_template");
+    Stream("cw_vo");
+    SegmentList()
+    {
+        Segment("COMET267", 1.0); // Their troops have been given advanced training
+        Segment("COMET269", 1.0); // They've got advanced training
+    }
+}
+
+// CIS Planetary Bonus Vo End ----------------------------------------------
+
+// Republic Planetary Bonus VO Start ---------------------------------------
+
+SoundStreamProperties()
+{
+    Name("rep_bonus_rep_reserves"); // we have secondary reinforcements
+    Group("republic_vo");
+    Inherit("vo_template");
+    Stream("cw_vo");
+    SegmentList()
+    {
+        Segment("ROCOM025", 1.0); // The Republic has provided secondary reinforcements
+        Segment("ROCOM026", 1.0); // We've been provided with secondary reinforcements
+        Segment("ROMET029", 1.0); // We've got secondary reinforcements en route
+        Segment("ROMET030", 1.0); // We've got secondary reinforcements standing by
+
+
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("rep_bonus_cis_reserves"); // they have secondary reinforcements
+    Group("republic_vo");
+    Inherit("vo_template");
+    Stream("cw_vo");
+    SegmentList()
+    {
+        Segment("ROCOM027", 1.0); // They've received secondary reinforcements
+        Segment("ROCOM028", 1.0); // The Separatists have received secondary reinforcements
+        Segment("ROMET026", 1.0); // The enemy has secondary reinforcements on the way
+        Segment("ROMET027", 1.0); // The enemy has secondary reinforcements on standby
+        Segment("ROMET028", 1.0); // The enemy has secondary reinforcements standing by
+
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("rep_bonus_rep_medical"); // we have health regen
+    Group("republic_vo");
+    Inherit("vo_template");
+    Stream("cw_vo");
+    SegmentList()
+    {
+        Segment("ROCOM009", 1.0); // We've been provided with a surplus of Bacta tanks
+        Segment("ROCOM010", 1.0); // Our troops have been injected with Bacta serum
+        Segment("ROCOM011", 1.0); // Bacta serum injections are regenerating our troops
+        Segment("ROMET012", 1.0); // Our bacta packs will regenerate us
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("rep_bonus_cis_medical"); // they have health regen
+    Group("republic_vo");
+    Inherit("vo_template");
+    Stream("cw_vo");
+    SegmentList()
+    {
+        Segment("ROCOM012", 1.0); // The Separatists have been provided a surplus of Bacta tanks
+        Segment("ROCOM013", 1.0); // The Separatist troops have been injected with Bacta serum
+        Segment("ROCOM014", 1.0); // Bacta serum injections are regenerating their troops
+        Segment("ROCOM016", 1.0); // Separatists troops have been replaced with self-repairing droid
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("rep_bonus_rep_sabotage"); // we sabotaged them
+    Group("republic_vo");
+    Inherit("vo_template");
+    Stream("cw_vo");
+    SegmentList()
+    {
+        Segment("ROCOM033", 1.0); // We've sabotaged the Separatist vehicles
+        Segment("ROCOM034", 1.0); // We've sabotaged their vehicles
+        Segment("ROCOM035", 1.0); // Our saboteurs have damaged their vehicles
+
+    }
+}
+SoundStreamProperties()
+{
+    Name("rep_bonus_cis_sabotage"); // they sabotaged us
+    Group("republic_vo");
+    Inherit("vo_template");
+    Stream("cw_vo");
+    SegmentList()
+    {
+        Segment("ROCOM030", 1.0); // Our vehicles have been sabotaged
+        Segment("ROCOM031", 1.0); // They've sabotaged our vehicles
+        Segment("ROCOM032", 1.0); // The Separatists have sabotaged our vehicles
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("rep_bonus_rep_sensors"); // our sensors boosted - theirs jammed
+    Group("republic_vo");
+    Inherit("vo_template");
+    Stream("cw_vo");
+    SegmentList()
+    {
+        // Segment("ROCOM021", 1.0); // Our sensors have been boosted
+        // Segment("ROCOM022", 1.0); // We've boosted our sensors
+        // Segment("ROCOM023", 1.0); // Our troops sensors have been boosted
+        Segment("ROMET014", 1.0); // We're jamming their sensors
+
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("rep_bonus_cis_sensors"); // their sensors boosted ours jammed
+    Group("republic_vo");
+    Inherit("vo_template");
+    Stream("cw_vo");
+    SegmentList()
+    {
+        Segment("ROCOM018", 1.0); // Our sensors are being jammed
+        Segment("ROCOM019", 1.0); // They are jamming our sensors
+        Segment("ROCOM020", 1.0); // The Separatists are jamming our sensors
+        // Segment("ROMET016", 1.0); // The enemy has boosted boosted their sensors
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("rep_bonus_rep_hero"); // our hero arrived
+    Group("republic_vo");
+    Inherit("vo_template");
+    Stream("cw_vo");
+    SegmentList()
+    {
+        Segment("ROMET065", 1.0); // Master Windu has joined the battle
+        Segment("ROMET066", 1.0); // Master Windu has entered the battlefield
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("rep_bonus_cis_hero"); // their hero arrived
+    Group("republic_vo");
+    Inherit("vo_template");
+    Stream("cw_vo");
+    SegmentList()
+    {
+        Segment("ROMET073", 1.0); // Count Dooku has joined the battle
+        Segment("ROMET074", 1.0); // Count Dooku has entered the battlefield
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("rep_bonus_rep_training"); //we have advanced training
+    Group("republic_vo");
+    Inherit("vo_template");
+    Stream("cw_vo");
+    SegmentList()
+    {
+        Segment("ROMET037", 1.0); // Our troops have been given advanced training
+        Segment("ROMET039", 1.0); // We've got advanced training
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("rep_bonus_cis_training"); // they have advanced training
+    Group("republic_vo");
+    Inherit("vo_template");
+    Stream("cw_vo");
+    SegmentList()
+    {
+        Segment("ROMET038", 1.0); // Their troops have been given advanced training
+        Segment("ROMET040", 1.0); // They've got advanced training
+    }
+}
+// Planetary Bonus VO End -------------------------------------
+
+// CIS Infantry Chatter VO Start -----------------------------------
+
+SoundStreamProperties()
+{
+    Name("cis_inf_com_chatter_acquired");
+    Group("cis_inf_chatter_vo");
+    Inherit("cw_battle_chatter_template");
+    Stream("cw_vo");
+    Pitch(1.0);
+    PlayInterval(20.0);
+    PlayIntervalDev(5.0);
+    SegmentList()
+    {
+        Segment("CICOM402", 0.5, 0.0, 0.0); // Objective acquired!
+        Segment("CICOM411", 0.5, 0.0, 0.0); // Target acquired
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("cis_inf_com_chatter_approach");
+    Group("cis_inf_chatter_vo");
+    Inherit("cw_battle_chatter_template");
+    Pitch(1.0);
+    Stream("cw_vo");
+    SegmentList()
+    {
+        Segment("CICOM410", 0.33, 20.0, 5.0); // Engaging
+        Segment("CICOM420", 0.33, 20.0, 5.0); // Enemy in range
+        Segment("CICOM422", 0.33, 20.0, 5.0); // Roger Roger
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("cis_inf_com_chatter_hide");
+    Group("cis_inf_chatter_vo");
+    Inherit("cw_battle_chatter_template");
+    Pitch(1.0);
+    Stream("cw_vo");
+    SegmentList()
+    {
+        Segment("CICOM412", 0.33, 0.0, 0.0); // Take cover!
+        Segment("CICOM413", 0.33, 0.0, 0.0); // Get down!
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("cis_inf_com_chatter_flee"); // from grenade
+    Group("cis_inf_chatter_vo");
+    Inherit("cw_battle_chatter_template");
+    Pitch(1.0);
+    Stream("cw_vo");
+    SegmentList()
+    {
+        Segment("CICOM412", 0.25, 0.0, 0.0); // Take Cover
+        Segment("CICOM413", 0.25, 0.0, 0.0); // Get down
+        Segment("CICOM419", 0.25, 0.0, 0.0); // Incoming
+        //Segment("CICOM416", 0.2, 5.0, 0.0); // Retreat
+        //Segment("CICOM417", 0.2, 5.0, 0.0); // Fall back
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("cis_inf_com_chatter_predamage");
+    Group("cis_inf_chatter_vo");
+    Inherit("cw_battle_chatter_template");
+    Pitch(1.0);
+    Stream("cw_vo");
+    SegmentList()
+    {
+        Segment("CICOM412", 0.25, 0.0, 0.0); // Take Cover
+        Segment("CICOM413", 0.25, 0.0, 0.0); // Get down
+        Segment("CICOM419", 0.25, 0.0, 0.0); // Incoming
+        Segment("CICOM428", 0.33, 5.0, 0.0); // Uh oh!
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("cis_inf_com_chatter_heard");
+    Group("cis_inf_chatter_vo");
+    Inherit("cw_battle_chatter_template");
+    Pitch(1.0);
+    Stream("cw_vo");
+    SegmentList()
+    {
+        Segment("CICOM421", 0.25, 0.0, 0.0); // I hear something
+        Segment("CICOM427", 0.33, 15.0, 0.0); // Over there
+    }
+}
+
+// CIS Infantry Chatter VO End -----------------------------------
+
+// REP Infantry Chatter VO Start ---------------------------------
+
+SoundStreamProperties()
+{
+    Name("rep_inf_com_chatter_acquired");
+    Group("rep_inf_chatter_vo");
+    Inherit("cw_battle_chatter_template");
+    Stream("cw_vo");
+    SegmentList()
+    {
+        Segment("RICOM201", 1.0, 25.0, 5.0); // Objective Acquired
+        Segment("RICOM408", 1.0, 25.0, 5.0); // Target Acquired
+        Segment("RICOM425", 1.0, 25.0, 5.0); // Target located
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("rep_inf_com_chatter_hide");
+    Group("rep_inf_chatter_vo");
+    Inherit("cw_battle_chatter_template");
+    Stream("cw_vo");
+    SegmentList()
+    {
+        Segment("RICOM415", 1.0, 5.0, 0.0); // Take Cover
+        Segment("RICOM410", 1.0, 5.0, 0.0); // Get down
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("rep_inf_com_chatter_approach");
+    Group("rep_inf_chatter_vo");
+    Inherit("cw_battle_chatter_template");
+    Stream("cw_vo");
+    SegmentList()
+    {
+        Segment("RICOM407", 1.0, 20.0, 5.0); // Engaging
+        Segment("RICOM411", 1.0, 20.0, 5.0); // Enemy sighted
+        Segment("RICOM412", 1.0, 20.0, 5.0); // Hostile ahead
+        Segment("RICOM417", 1.0, 20.0, 5.0); // Enemy in range
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("rep_inf_com_chatter_flee"); // flee from grenade
+    Group("rep_inf_chatter_vo");
+    Inherit("cw_battle_chatter_template");
+    Stream("cw_vo");
+    SegmentList()
+    {
+        Segment("RICOM410", 1.0, 5.0, 0.0); // Get down
+        Segment("RICOM416", 1.0, 5.0, 0.0); // Incoming
+        Segment("RICOM415", 1.0, 5.0, 0.0); // Take Cover
+        Segment("RICOM424", 1.0, 5.0, 0.0); // Oh No
+        //Segment("RICOM413", 1.0, 5.0, 0.0); // Retreat
+        //Segment("RICOM414", 1.0, 5.0, 0.0); // Fall back
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("rep_inf_com_chatter_predamage");
+    Group("rep_inf_chatter_vo");
+    Inherit("cw_battle_chatter_template");
+    Stream("cw_vo");
+    SegmentList()
+    {
+        Segment("RICOM410", 1.0, 5.0, 0.0); // Get down
+        Segment("RICOM416", 1.0, 5.0, 0.0); // Incoming
+        Segment("RICOM415", 1.0, 5.0, 0.0); // Take Cover
+        Segment("RICOM424", 1.0, 5.0, 0.0); // Oh No
+
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("rep_inf_com_chatter_heard");
+    Group("rep_inf_chatter_vo");
+    Inherit("cw_battle_chatter_template");
+    Stream("cw_vo");
+    SegmentList()
+    {
+        Segment("RICOM418", 0.33, 15.0, 0.0); // Enemy detected
+        Segment("RICOM422", 0.33, 15.0, 0.0); // Over there
+    }
+}
+
+
+// Republic Infantry Chatter VO End -----------------------------------------------
+
+// Republic Infantry Tactical VO Start --------------------------------------------
+
+SoundStreamProperties()
+{
+    Name("rep_inf_com_chatter_tac_follow"); // unit follow me
+    Group("rep_inf_tactical_vo");
+    Inherit("cw_tactical_template");
+    PlayProbability(1.0);
+    PlayInterval(0.0);
+    PlayIntervalDev(0.0);
+    MinDistance(30.0);
+    Stream("cw_tac_vo");
+    SegmentList()
+    {
+        Segment("RICOM208", 1.0, 1.0, 0.0); // Lets go
+        Segment("RICOM211", 1.0, 1.0, 0.0); // Follow me
+        Segment("RICOM212", 1.0, 1.0, 0.0); // Come with me
+        Segment("RICOM423", 1.0, 1.0, 0.0); // I need cover fire
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("rep_inf_com_chatter_tac_hold"); // unit stop
+    Group("rep_inf_tactical_vo");
+    Inherit("cw_tactical_template");
+    PlayProbability(1.0);
+    PlayInterval(0.0);
+    PlayIntervalDev(0.0);
+    MinDistance(30.0);
+    Stream("cw_tac_vo");
+    SegmentList()
+    {
+        Segment("RICOM209", 1.0, 1.0, 0.0); // Hold your position
+        Segment("RICOM210", 1.0, 1.0, 0.0); // Hold up
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("rep_inf_com_chatter_tac_moveout"); // unit disperse
+    Group("rep_inf_tactical_vo");
+    Inherit("cw_tactical_template");
+    PlayProbability(1.0);
+    PlayInterval(0.0);
+    PlayIntervalDev(0.0);
+    MinDistance(30.0);
+    Stream("cw_tac_vo");
+    SegmentList()
+    {
+        Segment("RICOM207", 1.0, 1.0, 0.0); // Move out
+        Segment("RICOM213", 1.0, 1.0, 0.0); // Spread out
+        Segment("RICOM214", 1.0, 1.0, 0.0); // Disperse
+        Segment("RICOM219", 1.0, 1.0, 0.0); // Move out soldier
+        Segment("RICOM220", 1.0, 1.0, 0.0); // Move it soldier
+        Segment("RICOM421", 1.0, 1.0, 0.0); // Move Move Move
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("rep_inf_com_chatter_tac_needgunner"); // vehicle position avaiable
+    Group("rep_inf_tactical_vo");
+    Inherit("cw_tactical_template");
+    PlayProbability(1.0);
+    PlayInterval(0.0);
+    PlayIntervalDev(0.0);
+    MinDistance(30.0);
+    Stream("cw_tac_vo");
+    SegmentList()
+    {
+        Segment("RICOM215", 1.0, 1.0, 0.0); // Mount up
+        Segment("RICOM216", 1.0, 1.0, 0.0); // Get in
+        Segment("RICOM223", 1.0, 1.0, 0.0); // Pile in
+        Segment("RICOM224", 1.0, 1.0, 0.0); // Get aboard
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("rep_inf_com_chatter_tac_allclear"); // vehicle move out
+    Group("rep_inf_tactical_vo");
+    Inherit("cw_tactical_template");
+    PlayProbability(1.0);
+    PlayInterval(0.0);
+    PlayIntervalDev(0.0);
+    MinDistance(30.0);
+    Stream("cw_tac_vo");
+    SegmentList()
+    {
+        Segment("RICOM227", 1.0, 1.0, 0.0); // Move it driver
+        Segment("RICOM228", 1.0, 1.0, 0.0); // Get us out of here
+        Segment("RICOM220", 1.0, 1.0, 0.0); // Move it soldier
+        Segment("RICOM217", 1.0, 1.0, 0.0); // Go go go
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("rep_inf_com_chatter_tac_spreadout");  // exit vehicle
+    Group("rep_inf_tactical_vo");
+    Inherit("cw_tactical_template");
+    PlayProbability(1.0);
+    PlayInterval(0.0);
+    PlayIntervalDev(0.0);
+    MinDistance(30.0);
+    Stream("cw_tac_vo");
+    SegmentList()
+    {
+        Segment("RICOM207", 1.0, 1.0, 0.0); // Move out
+        Segment("RICOM217", 1.0, 1.0, 0.0); // Go go go
+        Segment("RICOM218", 1.0, 1.0, 0.0); // All units deploy
+        Segment("RICOM234", 1.0, 1.0, 0.0); // Deploy troops
+        Segment("RICOM225", 1.0, 1.0, 0.0); // Bail out
+        Segment("RICOM226", 1.0, 1.0, 0.0); // Get out
+        Segment("RICOM233", 1.0, 1.0, 0.0); // Get out and provide cover
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("rep_inf_com_chatter_tac_stop"); // vehicle stop
+    Group("rep_inf_tactical_vo");
+    Inherit("cw_tactical_template");
+    Stream("cw_tac_vo");
+    SegmentList()
+    {
+        Segment("RICOM221", 1.0, 1.0, 0.0); // All stop
+        Segment("RICOM222", 1.0, 1.0, 0.0); // Hold it steady
+        Segment("RICOM230", 1.0, 1.0, 0.0); // Stop the vehicle
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("rep_inf_com_chatter_tac_yes"); // response yes
+    Group("rep_inf_tactical_vo");
+    Inherit("cw_tactical_template");
+    Stream("cw_tac_vo");
+    SegmentList()
+    {
+        Segment("RICOM202", 1.0, 1.0, 0.0); // Yes sir
+        Segment("RICOM203", 1.0, 1.0, 0.0); // Right away
+        Segment("RICOM204", 1.0, 1.0, 0.0); // Right away sir
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("rep_inf_com_chatter_tac_no"); // response no
+    Group("rep_inf_tactical_vo");
+    Inherit("cw_tactical_template");
+    Stream("cw_tac_vo");
+    SegmentList()
+    {
+        Segment("RICOM205", 1.0, 1.0, 0.0); // Negative
+        Segment("RICOM206", 1.0, 1.0, 0.0); // Negative sir
+        Segment("RICOM237", 1.0, 1.0, 0.0); // I can't do that
+    }
+}
+
+// Republic Infantry Tactical VO End -------------------------------------------------
+
+// Republic Infantry AI Tactical VO Start --------------------------------------------
+
+SoundStreamProperties()
+{
+    Name("ai_rep_inf_com_chatter_tac_follow"); // unit follow me
+    Group("rep_inf_tactical_vo");
+    Inherit("cw_ai_tactical_template");
+    Stream("cw_vo");
+    SegmentList()
+    {
+        Segment("RICOM208", 1.0, 1.0, 0.0); // Lets go
+        Segment("RICOM211", 1.0, 1.0, 0.0); // Follow me
+        Segment("RICOM212", 1.0, 1.0, 0.0); // Come with me
+        Segment("RICOM423", 1.0, 1.0, 0.0); // I need cover fire
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("ai_rep_inf_com_chatter_tac_hold"); // unit stop
+    Group("rep_inf_tactical_vo");
+    Inherit("cw_ai_tactical_template");
+    Stream("cw_vo");
+    SegmentList()
+    {
+        Segment("RICOM209", 1.0, 1.0, 0.0); // Hold your position
+        Segment("RICOM210", 1.0, 1.0, 0.0); // Hold up
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("ai_rep_inf_com_chatter_tac_moveout"); // unit disperse
+    Group("rep_inf_tactical_vo");
+    Inherit("cw_ai_tactical_template");
+    Stream("cw_vo");
+    SegmentList()
+    {
+        Segment("RICOM207", 1.0, 1.0, 0.0); // Move out
+        Segment("RICOM213", 1.0, 1.0, 0.0); // Spread out
+        Segment("RICOM214", 1.0, 1.0, 0.0); // Disperse
+        Segment("RICOM219", 1.0, 1.0, 0.0); // Move out soldier
+        Segment("RICOM220", 1.0, 1.0, 0.0); // Move it soldier
+        Segment("RICOM421", 1.0, 1.0, 0.0); // Move Move Move
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("ai_rep_inf_com_chatter_tac_needgunner"); // vehicle position avaiable
+    Group("rep_inf_tactical_vo");
+    Inherit("cw_ai_tactical_template");
+    Stream("cw_vo");
+    SegmentList()
+    {
+        Segment("RICOM215", 1.0, 1.0, 0.0); // Mount up
+        Segment("RICOM216", 1.0, 1.0, 0.0); // Get in
+        Segment("RICOM223", 1.0, 1.0, 0.0); // Pile in
+        Segment("RICOM224", 1.0, 1.0, 0.0); // Get aboard
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("ai_rep_inf_com_chatter_tac_allclear"); // vehicle move out
+    Group("rep_inf_tactical_vo");
+    Inherit("cw_ai_tactical_template");
+    Stream("cw_vo");
+    SegmentList()
+    {
+        Segment("RICOM227", 1.0, 1.0, 0.0); // Move it driver
+        Segment("RICOM228", 1.0, 1.0, 0.0); // Get us out of here
+        Segment("RICOM220", 1.0, 1.0, 0.0); // Move it soldier
+        Segment("RICOM217", 1.0, 1.0, 0.0); // Go go go
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("ai_rep_inf_com_chatter_tac_spreadout");  // exit vehicle
+    Group("rep_inf_tactical_vo");
+    Inherit("cw_ai_tactical_template");
+    Stream("cw_vo");
+    SegmentList()
+    {
+        Segment("RICOM207", 1.0, 1.0, 0.0); // Move out
+        Segment("RICOM217", 1.0, 1.0, 0.0); // Go go go
+        Segment("RICOM218", 1.0, 1.0, 0.0); // All units deploy
+        Segment("RICOM234", 1.0, 1.0, 0.0); // Deploy troops
+        Segment("RICOM225", 1.0, 1.0, 0.0); // Bail out
+        Segment("RICOM226", 1.0, 1.0, 0.0); // Get out
+        Segment("RICOM233", 1.0, 1.0, 0.0); // Get out and provide cover
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("ai_rep_inf_com_chatter_tac_stop"); // vehicle stop
+    Group("rep_inf_tactical_vo");
+    Inherit("cw_ai_tactical_template");
+    Stream("cw_vo");
+    SegmentList()
+    {
+        Segment("RICOM221", 1.0, 1.0, 0.0); // All stop
+        Segment("RICOM222", 1.0, 1.0, 0.0); // Hold it steady
+        Segment("RICOM230", 1.0, 1.0, 0.0); // Stop the vehicle
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("ai_rep_inf_com_chatter_tac_yes"); // response yes
+    Group("rep_inf_tactical_vo");
+    Inherit("cw_ai_tactical_template");
+    Stream("cw_vo");
+    PlayProbability(1.0);
+    PlayInterval(0.0);
+    PlayIntervalDev(0.0);
+    SegmentList()
+    {
+        Segment("RICOM202", 1.0, 1.0, 0.0); // Yes sir
+        Segment("RICOM203", 1.0, 1.0, 0.0); // Right away
+        Segment("RICOM204", 1.0, 1.0, 0.0); // Right away sir
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("ai_rep_inf_com_chatter_tac_no"); // response no
+    Group("rep_inf_tactical_vo");
+    Inherit("cw_ai_tactical_template");
+    Stream("cw_vo");
+    PlayProbability(1.0);
+    PlayInterval(0.0);
+    PlayIntervalDev(0.0);
+    SegmentList()
+    {
+        Segment("RICOM205", 1.0, 1.0, 0.0); // Negative
+        Segment("RICOM206", 1.0, 1.0, 0.0); // Negative sir
+        Segment("RICOM237", 1.0, 1.0, 0.0); // I can't do that
+    }
+}
+
+// Republic Infantry AI Tactical VO End -------------------------------------------------
+
+// CIS Infantry Tactical VO Start --------------------------------------------
+
+SoundStreamProperties()
+{
+    Name("cis_inf_com_chatter_tac_follow"); // unit follow me
+    Group("cis_inf_tactical_vo");
+    Inherit("cw_tactical_template");
+    Stream("cw_tac_vo");
+    SegmentList()
+    {
+        Segment("CICOM202", 1.0, 1.0, 0.0); // Let's go
+        Segment("CICOM205", 1.0, 1.0, 0.0); // Follow me
+        Segment("CICOM206", 1.0, 1.0, 0.0); // Come with me
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("cis_inf_com_chatter_tac_hold"); // unit stop
+    Group("cis_inf_tactical_vo");
+    Inherit("cw_tactical_template");
+    Stream("cw_tac_vo");
+    SegmentList()
+    {
+        Segment("CICOM203", 1.0, 1.0, 0.0); // Hold position
+        Segment("CICOM204", 1.0, 1.0, 0.0); // Halt
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("cis_inf_com_chatter_tac_moveout"); // unit disperse
+    Group("cis_inf_tactical_vo");
+    Inherit("cw_tactical_template");
+    Stream("cw_tac_vo");
+    SegmentList()
+    {
+        Segment("CICOM207", 1.0, 1.0, 0.0); // Spread out
+        Segment("CICOM208", 1.0, 1.0, 0.0); // Disperse
+        Segment("CICOM214", 1.0, 1.0, 0.0); // Move
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("cis_inf_com_chatter_tac_needgunner"); // enter vehicle
+    Group("cis_inf_tactical_vo");
+    Inherit("cw_tactical_template");
+    Stream("cw_tac_vo");
+    SegmentList()
+    {
+        Segment("CICOM209", 1.0, 1.0, 0.0); // Mount vehicle
+        Segment("CICOM210", 1.0, 1.0, 0.0); // Get in vehicle
+        Segment("CICOM217", 1.0, 1.0, 0.0); // Man vehicle
+        Segment("CICOM218", 1.0, 1.0, 0.0); // Get aboard
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("cis_inf_com_chatter_tac_allclear"); // vehicle moveout
+    Group("cis_inf_tactical_vo");
+    Inherit("cw_tactical_template");
+    Stream("cw_tac_vo");
+    SegmentList()
+    {
+        Segment("CICOM213", 1.0, 1.0, 0.0); // Move this vehicle
+        Segment("CICOM214", 1.0, 1.0, 0.0); // Move
+        Segment("CICOM222", 1.0, 1.0, 0.0); // Get this vehicle moving
+        Segment("CICOM426", 1.0, 1.0, 0.0); // Move out
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("cis_inf_com_chatter_tac_spreadout");  // exit vehicle
+    Group("cis_inf_tactical_vo"); // exit vehicle disperse
+    Inherit("cw_tactical_template");
+    Stream("cw_tac_vo");
+    SegmentList()
+    {
+        Segment("CICOM211", 1.0, 1.0, 0.0); // Units deploy
+        Segment("CICOM212", 1.0, 1.0, 0.0); // Units disembark
+        Segment("CICOM219", 1.0, 1.0, 0.0); // Disembark vehicle
+        Segment("CICOM220", 1.0, 1.0, 0.0); // Disembark
+        Segment("CICOM227", 1.0, 1.0, 0.0); // Get out and provide cover
+        Segment("CICOM228", 1.0, 1.0, 0.0); // Deploy troops
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("cis_inf_com_chatter_tac_stop"); // vehicle stop
+    Group("cis_inf_tactical_vo");
+    Inherit("cw_tactical_template");
+    Stream("cw_tac_vo");
+    SegmentList()
+    {
+        Segment("CICOM215", 1.0, 1.0, 0.0); // Stop the vehicle
+        Segment("CICOM216", 1.0, 1.0, 0.0); // Stop
+        Segment("CICOM223", 1.0, 1.0, 0.0); // Steady the vehicle
+        Segment("CICOM224", 1.0, 1.0, 0.0); // Halt vehicle
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("cis_inf_com_chatter_tac_yes"); // response yes
+    Group("cis_inf_tactical_vo");
+    Inherit("cw_tactical_template");
+    Stream("cw_tac_vo");
+    SegmentList()
+    {
+        Segment("CICOM403", 1.0, 1.0, 0.0); // Yes sir
+        Segment("CICOM404", 1.0, 1.0, 0.0); // Right away
+        Segment("CICOM405", 1.0, 1.0, 0.0); // Right away sir
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("cis_inf_com_chatter_tac_no"); // response no
+    Group("cis_inf_tactical_vo");
+    Inherit("cw_tactical_template");
+    Stream("cw_tac_vo");
+    SegmentList()
+    {
+        Segment("CICOM406", 1.0, 1.0, 0.0); // Negative
+        Segment("CICOM407", 1.0, 1.0, 0.0); // Negative sir
+        Segment("CICOM231", 1.0, 1.0, 0.0); // I can't do that
+    }
+}
+
+
+
+// CIS Infantry Tactical VO End -------------------------------------------------
+
+// CIS Infantry AI Tactical VO Start --------------------------------------------
+
+SoundStreamProperties()
+{
+    Name("ai_cis_inf_com_chatter_tac_follow"); // unit follow me
+    Group("cis_inf_tactical_vo");
+    Inherit("cw_ai_tactical_template");
+    Stream("cw_vo");
+    SegmentList()
+    {
+        Segment("CICOM202", 1.0, 1.0, 0.0); // Let's go
+        Segment("CICOM205", 1.0, 1.0, 0.0); // Follow me
+        Segment("CICOM206", 1.0, 1.0, 0.0); // Come with me
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("ai_cis_inf_com_chatter_tac_hold"); // unit stop
+    Group("cis_inf_tactical_vo");
+    Inherit("cw_ai_tactical_template");
+    Stream("cw_vo");
+    SegmentList()
+    {
+        Segment("CICOM203", 1.0, 1.0, 0.0); // Hold position
+        Segment("CICOM204", 1.0, 1.0, 0.0); // Halt
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("ai_cis_inf_com_chatter_tac_moveout"); // unit disperse
+    Group("cis_inf_tactical_vo");
+    Inherit("cw_ai_tactical_template");
+    Stream("cw_vo");
+    SegmentList()
+    {
+        Segment("CICOM207", 1.0, 1.0, 0.0); // Spread out
+        Segment("CICOM208", 1.0, 1.0, 0.0); // Disperse
+        Segment("CICOM214", 1.0, 1.0, 0.0); // Move
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("ai_cis_inf_com_chatter_tac_needgunner"); // enter vehicle
+    Group("cis_inf_tactical_vo");
+    Inherit("cw_ai_tactical_template");
+    Stream("cw_vo");
+    SegmentList()
+    {
+        Segment("CICOM209", 1.0, 1.0, 0.0); // Mount vehicle
+        Segment("CICOM210", 1.0, 1.0, 0.0); // Get in vehicle
+        Segment("CICOM217", 1.0, 1.0, 0.0); // Man vehicle
+        Segment("CICOM218", 1.0, 1.0, 0.0); // Get aboard
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("ai_cis_inf_com_chatter_tac_allclear"); // vehicle moveout
+    Group("cis_inf_tactical_vo");
+    Inherit("cw_ai_tactical_template");
+    Stream("cw_vo");
+    SegmentList()
+    {
+        Segment("CICOM213", 1.0, 1.0, 0.0); // Move this vehicle
+        Segment("CICOM214", 1.0, 1.0, 0.0); // Move
+        Segment("CICOM222", 1.0, 1.0, 0.0); // Get this vehicle moving
+        Segment("CICOM426", 1.0, 1.0, 0.0); // Move out
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("ai_cis_inf_com_chatter_tac_spreadout");  // exit vehicle
+    Group("cis_inf_tactical_vo"); // exit vehicle disperse
+    Inherit("cw_ai_tactical_template");
+    Stream("cw_vo");
+    SegmentList()
+    {
+        Segment("CICOM211", 1.0, 1.0, 0.0); // Units deploy
+        Segment("CICOM212", 1.0, 1.0, 0.0); // Units disembark
+        Segment("CICOM219", 1.0, 1.0, 0.0); // Disembark vehicle
+        Segment("CICOM220", 1.0, 1.0, 0.0); // Disembark
+        Segment("CICOM227", 1.0, 1.0, 0.0); // Get out and provide cover
+        Segment("CICOM228", 1.0, 1.0, 0.0); // Deploy troops
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("ai_cis_inf_com_chatter_tac_stop"); // vehicle stop
+    Group("cis_inf_tactical_vo");
+    Inherit("cw_ai_tactical_template");
+    Stream("cw_vo");
+    SegmentList()
+    {
+        Segment("CICOM215", 1.0, 1.0, 0.0); // Stop the vehicle
+        Segment("CICOM216", 1.0, 1.0, 0.0); // Stop
+        Segment("CICOM223", 1.0, 1.0, 0.0); // Steady the vehicle
+        Segment("CICOM224", 1.0, 1.0, 0.0); // Halt vehicle
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("ai_cis_inf_com_chatter_tac_yes"); // response yes
+    Group("cis_inf_tactical_vo");
+    Inherit("cw_ai_tactical_template");
+    Stream("cw_vo");
+    PlayProbability(1.0);
+    PlayInterval(0.0);
+    PlayIntervalDev(0.0);
+    SegmentList()
+    {
+        Segment("CICOM403", 1.0, 1.0, 0.0); // Yes sir
+        Segment("CICOM404", 1.0, 1.0, 0.0); // Right away
+        Segment("CICOM405", 1.0, 1.0, 0.0); // Right away sir
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("ai_cis_inf_com_chatter_tac_no"); // response no
+    Group("cis_inf_tactical_vo");
+    Inherit("cw_ai_tactical_template");
+    Stream("cw_vo");
+    PlayProbability(1.0);
+    PlayInterval(0.0);
+    PlayIntervalDev(0.0);
+    SegmentList()
+    {
+        Segment("CICOM406", 1.0, 1.0, 0.0); // Negative
+        Segment("CICOM407", 1.0, 1.0, 0.0); // Negative sir
+        Segment("CICOM231", 1.0, 1.0, 0.0); // I can't do that
+    }
+}
+
+// CIS Infantry AI Tactical VO End -------------------------------------------------
+
+
+
+
+// naboo guards Chatter VO Start -----------------------------------
+
+SoundStreamProperties()
+{
+    Name("gar_inf_com_chatter_acquired");
+    Group("gar_inf_chatter_vo");
+    Inherit("battle_chatter_template");
+    PlayProbability(1.0);
+    PlayInterval(10.0);
+    PlayIntervalDev(5.0);
+    Stream("cw_vo");
+    SegmentList()
+    {
+
+        Segment("AICOM408", 0.2, 0.0, 0.0); // Target acquired
+        Segment("AICOM409", 0.2, 0.0, 0.0); // Objective acquired
+        Segment("AICOM412", 0.2, 0.0, 0.0); // Enemy sighted
+        Segment("AICOM413", 0.2, 0.0, 0.0); // Hostile ahead
+        Segment("AICOM418", 0.2, 0.0, 0.0); // Enemy in range
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("gar_inf_com_chatter_hide");
+    Group("gar_inf_chatter_vo");
+    Inherit("battle_chatter_template");
+    Stream("cw_vo");
+    PlayProbability(1.0);
+    PlayInterval(1.0);
+    PlayIntervalDev(0.0);
+    SegmentList()
+    {
+      Segment("AICOM410", 0.5, 0.0, 0.0); // Take cover
+      Segment("AICOM411", 0.5, 0.0, 0.0); // Get down
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("gar_inf_com_chatter_approach");
+    Group("gar_inf_chatter_vo");
+    Inherit("battle_chatter_template");
+    Stream("cw_vo");
+    PlayProbability(1.0);
+    PlayInterval(10.0);
+    PlayIntervalDev(5.0);
+    SegmentList()
+    {
+        Segment("AICOM407", 0.33, 0.0, 0.0); // Engaging
+        Segment("AICOM418", 0.33, 0.0, 0.0); // Enemy in range
+        Segment("AICOM432", 0.33, 0.0, 0.0); // Imperial bucket head
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("gar_inf_com_chatter_flee"); // flee from grenade
+    Group("gar_inf_chatter_vo");
+    Inherit("battle_chatter_template");
+    Stream("cw_vo");
+    PlayProbability(1.0);
+    PlayInterval(1.0);
+    PlayIntervalDev(0.0);
+    SegmentList()
+    {
+      Segment("AICOM411", .33, 0.0, 0.0); // Get down
+      Segment("AICOM416", .33, 0.0, 0.0); // Take cover
+      Segment("AICOM417", .33, 0.0, 0.0); // Incoming
+      //Segment("AICOM414", 0.5, 0.0, 0.0); // Retreat
+      //Segment("AICOM415", 0.5, 0.0, 0.0); // Fall back!
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("gar_inf_com_chatter_predamage");
+    Group("gar_inf_chatter_vo");
+    Inherit("battle_chatter_template");
+    PlayProbability(1.0);
+    PlayInterval(1.0);
+    PlayIntervalDev(0.0);
+    Stream("cw_vo");
+    SegmentList()
+    {
+      Segment("AICOM411", .33, 0.0, 0.0); // Get down
+      Segment("AICOM416", .33, 0.0, 0.0); // Take cover
+      Segment("AICOM417", .33, 0.0, 0.0); // Incoming
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("gar_inf_com_chatter_heard");
+    Group("gar_inf_chatter_vo");
+    Inherit("battle_chatter_template");
+    PlayProbability(1.0);
+    PlayInterval(1.0);
+    PlayIntervalDev(5.0);
+    Stream("cw_vo");
+    SegmentList()
+    {
+        Segment("AICOM418", 0.5, 0.0, 0.0); // Enemy in range
+        Segment("AICOM419", 0.5, 0.0, 0.0); // I hear something
+        Segment("AICOM424", 0.5, 0.0, 0.0); // Over there!
+    }
+}
+
+
+// naboo guards Infantry Chatter VO End  -----------------------------------
+
+// naboo guards Infantry AI Tactical VO Start --------------------------------------------
+
+SoundStreamProperties()
+{
+    Name("ai_gar_inf_com_chatter_tac_follow"); // unit follow me
+    Group("gar_inf_tactical_vo");
+    Inherit("ai_tactical_template");
+    Stream("cw_vo");
+    SegmentList()
+    {
+        Segment("AICOM205", 1.0, 1.0, 0.0); // Lets go
+        Segment("AICOM208", 1.0, 1.0, 0.0); // Follow me
+        Segment("AICOM209", 1.0, 1.0, 0.0); // Back me up
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("ai_gar_inf_com_chatter_tac_hold"); // unit stop
+    Group("gar_inf_tactical_vo");
+    Inherit("ai_tactical_template");
+    Stream("cw_vo");
+    SegmentList()
+    {
+        Segment("AICOM206", 1.0, 1.0, 0.0); // Hold your position
+        Segment("AICOM207", 1.0, 1.0, 0.0); // Hold up
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("ai_gar_inf_com_chatter_tac_moveout"); // unit disperse
+    Group("gar_inf_tactical_vo");
+    Inherit("ai_tactical_template");
+    Stream("cw_vo");
+    SegmentList()
+    {
+        Segment("AICOM204", 1.0, 1.0, 0.0); // Move out
+        Segment("AICOM210", 1.0, 1.0, 0.0); // Spread out
+        Segment("AICOM211", 1.0, 1.0, 0.0); // Disperse
+        Segment("AICOM215", 1.0, 1.0, 0.0); // Go go go
+        Segment("AICOM422", 1.0, 1.0, 0.0); // Move move move
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("ai_gar_inf_com_chatter_tac_needgunner"); // vehicle position avaiable
+    Group("gar_inf_tactical_vo");
+    Inherit("ai_tactical_template");
+    Stream("cw_vo");
+    SegmentList()
+    {
+        Segment("AICOM212", 1.0, 1.0, 0.0); // Mount up
+        Segment("AICOM213", 1.0, 1.0, 0.0); // Get in
+        Segment("AICOM220", 1.0, 1.0, 0.0); // Hop in
+        Segment("AICOM221", 1.0, 1.0, 0.0); // Jump in
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("ai_gar_inf_com_chatter_tac_allclear"); // vehicle move out
+    Group("gar_inf_tactical_vo");
+    Inherit("ai_tactical_template");
+    Stream("cw_vo");
+    SegmentList()
+    {
+        Segment("AICOM224", 1.0, 1.0, 0.0); // Move it driver
+        Segment("AICOM225", 1.0, 1.0, 0.0); // Get us out of here
+        Segment("AICOM216", 1.0, 1.0, 0.0); // Ready to roll
+        Segment("AICOM217", 1.0, 1.0, 0.0); // Move this thing
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("ai_gar_inf_com_chatter_tac_spreadout");  // exit vehicle
+    Group("gar_inf_tactical_vo");
+    Inherit("ai_tactical_template");
+    Stream("cw_vo");
+    SegmentList()
+    {
+        Segment("AICOM215", 1.0, 1.0, 0.0); // Go go go
+        Segment("AICOM214", 1.0, 1.0, 0.0); // Get going
+        Segment("AICOM222", 1.0, 1.0, 0.0); // Bail out
+        Segment("AICOM223", 1.0, 1.0, 0.0); // Get out
+        Segment("AICOM230", 1.0, 1.0, 0.0); // Get out and provide us cover
+        Segment("AICOM231", 1.0, 1.0, 0.0); // Deploy troops
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("ai_gar_inf_com_chatter_tac_stop"); // vehicle stop
+    Group("gar_inf_tactical_vo");
+    Inherit("ai_tactical_template");
+    Stream("cw_vo");
+    SegmentList()
+    {
+        Segment("AICOM218", 1.0, 1.0, 0.0); // Stop here
+        Segment("AICOM219", 1.0, 1.0, 0.0); // Stop
+        Segment("AICOM226", 1.0, 1.0, 0.0); // Hold it steady
+        Segment("AICOM227", 1.0, 1.0, 0.0); // Stop the vehicle
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("ai_gar_inf_com_chatter_tac_yes"); // response yes
+    Group("gar_inf_tactical_vo");
+    Inherit("ai_tactical_template");
+    Stream("cw_vo");
+    PlayProbability(1.0);
+    PlayInterval(0.0);
+    PlayIntervalDev(0.0);
+    SegmentList()
+    {
+        Segment("AICOM427", 1.0, 2.0, 0.0); // Yes sir
+        Segment("AICOM428", 1.0, 2.0, 0.0); // Right away
+        Segment("AICOM429", 1.0, 2.0, 0.0); // Right away sir
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("ai_gar_inf_com_chatter_tac_no"); // response no
+    Group("gar_inf_tactical_vo");
+    Inherit("ai_tactical_template");
+    Stream("cw_vo");
+    PlayProbability(1.0);
+    PlayInterval(0.0);
+    PlayIntervalDev(0.0);
+    SegmentList()
+    {
+        Segment("AICOM430", 1.0, 2.0, 0.0); // Negative
+        Segment("AICOM431", 1.0, 2.0, 0.0); // Negative sir
+        Segment("AICOM203", 1.0, 2.0, 0.0); // I can't do that
+
+    }
+}
+
+// naboo guards Infantry AI Tactical VO End -------------------------------------------------
+

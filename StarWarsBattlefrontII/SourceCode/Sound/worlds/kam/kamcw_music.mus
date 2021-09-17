@@ -1,0 +1,358 @@
+// ----------------------------------------- KAM Music -----------------------------------
+
+// -----------------  KAM Objective Music ----------------------
+
+Music()
+{
+    Name("rep_kam_amb_obj1_2_explore");
+    Priority(4.0);
+    FadeInTime(0.0);
+    FadeOutTime(2.5);
+    MinPlaybackTime(15.0);
+    MaxPlaybackTime(180.0);
+    MinInactiveTime(20.0);
+    SoundStream("rep_kam_amb_obj1_2_explore");
+}
+
+Music()
+{
+    Name("rep_kam_amb_obj3_4_explore");
+    Priority(5.0);
+    FadeInTime(0.0);
+    FadeOutTime(1.5);
+    MinPlaybackTime(15.0);
+    MaxPlaybackTime(180.0);
+    MinInactiveTime(20.0);
+    SoundStream("rep_kam_amb_obj3_4_explore");
+}
+
+Music()
+{
+    Name("rep_kam_objComplete_01");
+    Priority(8.0);
+    FadeInTime(0.0);
+    FadeOutTime(0.0);
+    MinPlaybackTime(23.0);
+    MaxPlaybackTime(26.0);
+    MinInactiveTime(60.0);
+    SoundStream("rep_kam_objComplete_01");
+}
+
+Music()
+{
+    Name("rep_kam_objComplete_02");
+    Priority(8.0);
+    FadeInTime(0.0);
+    FadeOutTime(0.0);
+    MinPlaybackTime(22.0);
+    MaxPlaybackTime(23.0);
+    MinInactiveTime(60.0);
+    SoundStream("rep_kam_objComplete_02");
+}
+
+Music()
+{
+    Name("rep_kam_immVict_01");
+    Priority(6.0);
+    FadeInTime(0.0);
+    FadeOutTime(1.5);
+    MinPlaybackTime(15.0);
+    MaxPlaybackTime(180.0);
+    MinInactiveTime(20.0);
+    SoundStream("rep_kam_immVict_01");
+}
+
+
+// ----------------- KAM REP Music ----------------------
+
+Music()
+{
+    Name("rep_kam_amb_start");
+    Priority(1.0);
+    FadeInTime(0.0);
+    FadeOutTime(1.5);
+    MinPlaybackTime(15.0);
+    MaxPlaybackTime(180.0);
+    MinInactiveTime(15.0);
+    SoundStream("rep_kam_amb_start");
+}
+
+Music()
+{
+    Name("rep_kam_amb_middle");
+    Priority(1.0);
+    FadeInTime(0.0);
+    FadeOutTime(1.5);
+    MinPlaybackTime(15.0);
+    MaxPlaybackTime(180.0);
+    MinInactiveTime(15.0);
+    SoundStream("rep_kam_amb_middle");
+}
+
+Music()
+{
+    Name("rep_kam_amb_end");
+    Priority(1.0);
+    FadeInTime(0.0);
+    FadeOutTime(1.5);
+    MinPlaybackTime(15.0);
+    MaxPlaybackTime(150.0);
+    MinInactiveTime(15.0);
+    SoundStream("rep_kam_amb_end");
+}
+
+Music()
+{
+    Name("rep_kam_amb_victory");
+    Priority(9.0);
+    FadeInTime(0.0);
+    FadeOutTime(5.0);
+    MinPlaybackTime(3.0);
+    MaxPlaybackTime(360.0);
+    MinInactiveTime(35.0);
+    SoundStream("rep_kam_amb_victory");
+}
+
+Music()
+{
+    Name("rep_kam_amb_defeat");
+    Priority(9.0);
+    FadeInTime(0.0);
+    FadeOutTime(5.0);
+    MinPlaybackTime(3.0);
+    MaxPlaybackTime(360.0);
+    MinInactiveTime(35.0);
+    SoundStream("rep_kam_amb_defeat");
+}
+
+Music()
+{
+    Name("rep_vehicle");
+    Priority(2.0);
+    FadeInTime(0.0);
+    FadeOutTime(1.5);
+    MinPlaybackTime(15.0);
+    MaxPlaybackTime(150.0);
+    MinInactiveTime(15.0);
+    SoundStream("rep_kam_amb_vehicle");
+}
+
+// ----------------- KAM CIS Music ----------------------
+
+Music()
+{
+    Name("cis_kam_amb_start");
+    Priority(1.0);
+    FadeInTime(0.0);
+    FadeOutTime(1.5);
+    MinPlaybackTime(15.0);
+    MaxPlaybackTime(180.0);
+    MinInactiveTime(15.0);
+    SoundStream("cis_kam_amb_start");
+}
+
+Music()
+{
+    Name("cis_kam_amb_middle");
+    Priority(1.0);
+    FadeInTime(0.0);
+    FadeOutTime(1.5);
+    MinPlaybackTime(15.0);
+    MaxPlaybackTime(180.0);
+    MinInactiveTime(15.0);
+    SoundStream("cis_kam_amb_middle");
+}
+
+Music()
+{
+    Name("cis_kam_amb_end");
+    Priority(1.0);
+    FadeInTime(0.0);
+    FadeOutTime(1.5);
+    MinPlaybackTime(15.0);
+    MaxPlaybackTime(150.0);
+    MinInactiveTime(15.0);
+    SoundStream("cis_kam_amb_end");
+}
+
+Music()
+{
+    Name("cis_kam_amb_victory");
+    Priority(9.0);
+    FadeInTime(0.0);
+    FadeOutTime(5.0);
+    MinPlaybackTime(3.0);
+    MaxPlaybackTime(360.0);
+    MinInactiveTime(35.0);
+    SoundStream("cis_kam_amb_victory");
+}
+
+Music()
+{
+    Name("cis_kam_amb_defeat");
+    Priority(9.0);
+    FadeInTime(0.0);
+    FadeOutTime(5.0);
+    MinPlaybackTime(3.0);
+    MaxPlaybackTime(360.0);
+    MinInactiveTime(35.0);
+    SoundStream("cis_kam_amb_defeat");
+}
+
+Music()
+{
+    Name("cis_vehicle");
+    Priority(2.0);
+    FadeInTime(0.0);
+    FadeOutTime(1.5);
+    MinPlaybackTime(15.0);
+    MaxPlaybackTime(150.0);
+    MinInactiveTime(15.0);
+    SoundStream("cis_kam_amb_vehicle");
+}
+
+// ----------------- CW Hero Music ----------------------  
+
+Music()
+{
+    Name("rep_hero_secura_lp");
+    Priority(8.0);
+    FadeInTime(0.0);
+    FadeOutTime(1.0);
+    MinPlaybackTime(20.0);
+    MaxPlaybackTime(600.0);
+    MinInactiveTime(20.0);
+    SoundStream("rep_hero_secura_lp");
+}
+
+Music()
+{
+    Name("rep_hero_Mundi_lp");
+    Priority(8.0);
+    FadeInTime(0.0);
+    FadeOutTime(1.0);
+    MinPlaybackTime(20.0);
+    MaxPlaybackTime(600.0);
+    MinInactiveTime(20.0);
+    SoundStream("rep_hero_Mundi_lp");
+}
+
+Music()
+{
+    Name("rep_hero_Anakin_lp");
+    Priority(8.0);
+    FadeInTime(0.0);
+    FadeOutTime(1.0);
+    MinPlaybackTime(20.0);
+    MaxPlaybackTime(600.0);
+    MinInactiveTime(20.0);
+    SoundStream("rep_hero_Anakin_lp");
+}
+
+Music()
+{
+    Name("rep_hero_Windu_lp");
+    Priority(8.0);
+    FadeInTime(0.0);
+    FadeOutTime(1.0);
+    MinPlaybackTime(20.0);
+    MaxPlaybackTime(600.0);
+    MinInactiveTime(20.0);
+    SoundStream("rep_hero_Windu_lp");
+}
+
+Music()
+{
+    Name("rep_hero_ObiWan_lp");
+    Priority(8.0);
+    FadeInTime(0.0);
+    FadeOutTime(1.0);
+    MinPlaybackTime(20.0);
+    MaxPlaybackTime(600.0);
+    MinInactiveTime(20.0);
+    SoundStream("rep_hero_ObiWan_lp");
+}
+
+Music()
+{
+    Name("rep_hero_Yoda_lp");
+    Priority(8.0);
+    FadeInTime(0.0);
+    FadeOutTime(1.0);
+    MinPlaybackTime(20.0);
+    MaxPlaybackTime(600.0);
+    MinInactiveTime(20.0);
+    SoundStream("rep_hero_Yoda_lp");
+}
+
+Music()
+{
+    Name("cis_hero_Dooku_lp");
+    Priority(8.0);
+    FadeInTime(0.0);
+    FadeOutTime(1.0);
+    MinPlaybackTime(20.0);
+    MaxPlaybackTime(600.0);
+    MinInactiveTime(20.0);
+    SoundStream("cis_hero_Dooku_lp");
+}
+
+Music()
+{
+    Name("cis_hero_Maul_lp");
+    Priority(8.0);
+    FadeInTime(0.0);
+    FadeOutTime(1.0);
+    MinPlaybackTime(20.0);
+    MaxPlaybackTime(600.0);
+    MinInactiveTime(20.0);
+    SoundStream("cis_hero_Maul_lp");
+}
+
+Music()
+{
+    Name("cis_hero_Grievous_lp");
+    Priority(8.0);
+    FadeInTime(0.0);
+    FadeOutTime(1.0);
+    MinPlaybackTime(20.0);
+    MaxPlaybackTime(600.0);
+    MinInactiveTime(20.0);
+    SoundStream("cis_hero_Grievous_lp");
+}
+
+Music()
+{
+    Name("cis_hero_Jango_lp");
+    Priority(8.0);
+    FadeInTime(0.0);
+    FadeOutTime(1.0);
+    MinPlaybackTime(20.0);
+    MaxPlaybackTime(600.0);
+    MinInactiveTime(20.0);
+    SoundStream("cis_hero_Jango_lp");
+}
+
+Music()
+{
+    Name("imp_hero_Palpatine_lp");
+    Priority(8.0);
+    FadeInTime(0.0);
+    FadeOutTime(1.0);
+    MinPlaybackTime(20.0);
+    MaxPlaybackTime(600.0);
+    MinInactiveTime(20.0);
+    SoundStream("imp_hero_Palpatine_lp");
+}
+
+Music()
+{
+    Name("imp_hero_Boba_lp");
+    Priority(7.0);
+    FadeInTime(0.0);
+    FadeOutTime(1.5);
+    MinPlaybackTime(10.0);
+    MaxPlaybackTime(600.0);
+    MinInactiveTime(5.0);
+    SoundStream("imp_hero_Boba_lp");
+}

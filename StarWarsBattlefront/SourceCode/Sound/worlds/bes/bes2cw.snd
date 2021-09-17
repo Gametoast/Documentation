@@ -1,0 +1,197 @@
+
+
+// ----- CP-Objective VO ---------
+
+SoundStreamProperties()
+{
+    Name("rep_replost_carbonfreezing");
+    Group("republic_vo");
+    Inherit("vo_template");
+    Stream("cw_vo");
+    SegmentList()
+    {
+        Segment("ROBES068", 1.0);
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("rep_ciscapture_carbonfreezing");
+    Group("republic_vo");
+    Inherit("vo_template");
+    Stream("cw_vo");
+    SegmentList()
+    {
+        Segment("ROBES065", 1.0);
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("rep_repcapture_carbonfreezing");
+    Group("republic_vo");
+    Inherit("vo_template");
+    Stream("cw_vo");
+    SegmentList()
+    {
+        Segment("ROBES066", 1.0);
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("rep_cislost_carbonfreezing");
+    Group("republic_vo");
+    Inherit("vo_template");
+    Stream("cw_vo");
+    SegmentList()
+    {
+        Segment("ROBES067", 1.0);
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("cis_replost_carbonfreezing");
+    Group("cis_vo");
+    Inherit("vo_template");
+    Stream("cw_vo");
+    SegmentList()
+    {
+        Segment("COBES067", 1.0);
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("cis_ciscapture_carbonfreezing");
+    Group("cis_vo");
+    Inherit("vo_template");
+    Stream("cw_vo");
+    SegmentList()
+    {
+        Segment("COBES066", 1.0);
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("cis_repcapture_carbonfreezing");
+    Group("cis_vo");
+    Inherit("vo_template");
+    Stream("cw_vo");
+    SegmentList()
+    {
+        Segment("COBES065", 1.0);
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("cis_cislost_carbonfreezing");
+    Group("cis_vo");
+    Inherit("vo_template");
+    Stream("cw_vo");
+    SegmentList()
+    {
+        Segment("COBES068", 1.0);
+    }
+}
+
+// ----- Kill VO ------ kills asserts for other era vo
+
+SoundStreamProperties()
+{
+    Name("all_alllost_carbonfreezing");
+    Group("kill_vo");
+    Inherit("vo_template");
+    Stream("cw_vo");
+    SegmentList()
+    {
+        Segment("ROBES068", 1.0);
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("all_impcapture_carbonfreezing");
+    Group("kill_vo");
+    Inherit("vo_template");
+    Stream("cw_vo");
+    SegmentList()
+    {
+        Segment("ROBES065", 1.0);
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("all_allcapture_carbonfreezing");
+    Group("kill_vo");
+    Inherit("vo_template");
+    Stream("cw_vo");
+    SegmentList()
+    {
+        Segment("ROBES066", 1.0);
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("all_implost_carbonfreezing");
+    Group("kill_vo");
+    Inherit("vo_template");
+    Stream("cw_vo");
+    SegmentList()
+    {
+        Segment("ROBES067", 1.0);
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("imp_alllost_carbonfreezing");
+    Group("kill_vo");
+    Inherit("vo_template");
+    Stream("cw_vo");
+    SegmentList()
+    {
+        Segment("COBES067", 1.0);
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("imp_impcapture_carbonfreezing");
+    Group("kill_vo");
+    Inherit("vo_template");
+    Stream("cw_vo");
+    SegmentList()
+    {
+        Segment("COBES066", 1.0);
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("imp_allcapture_carbonfreezing");
+    Group("kill_vo");
+    Inherit("vo_template");
+    Stream("cw_vo");
+    SegmentList()
+    {
+        Segment("COBES065", 1.0);
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("imp_implost_carbonfreezing");
+    Group("kill_vo");
+    Inherit("vo_template");
+    Stream("cw_vo");
+    SegmentList()
+    {
+        Segment("COBES068", 1.0);
+    }
+}

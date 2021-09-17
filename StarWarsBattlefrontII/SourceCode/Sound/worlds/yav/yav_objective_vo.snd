@@ -1,0 +1,348 @@
+
+//  --------------------------------------------------- Objective VO ----------------------------------------------------------
+
+SoundStreamProperties()
+{
+    Name("YAV_obj_01");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("yav_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IOYAV0001", 1.0, 0.0, 0.0); //  Okay, you all know the mission.  First, we capture the Fountain Command Post from the Rebels, while destroying their X-Wings near the viaduct, cutting off their escape.    Now, I know you're all looking for some revenge, but let's stick to the plan, and strike a blow for the Empire!  Move 'em out!
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("YAV_obj_02");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("yav_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IOYAV0002", 1.0, 0.0, 0.0); //  Forward base established at the Fountain Command Post.  Now take out those X-Wings!
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("YAV_obj_03");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("yav_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IOYAV0003", 1.0, 0.0, 0.0); //  Nice job on those X-Wings.  Now get over here and help secure the Fountain Command Post!
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("YAV_obj_04");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("yav_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IOYAV0004", 1.0, 0.0, 0.0); //  Phase One complete, Phase Two initiated.  Drive the Rebels from the Temple, and secure the Rebel Commander's strategic holodisk.
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("YAV_obj_05");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("yav_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IOYAV0005", 1.0, 0.0, 0.0); //  Well done.  Now search the interior of the Temple for the Rebel Commander's strategic holodisk.
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("YAV_obj_06");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("yav_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IOYAV0006", 1.0, 0.0, 0.0); //  The holodisk has been secured.  Quickly, return the disk the Forward Base of Operations at the Fountain for uplink!
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("YAV_inf_01");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("yav_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IIYAV0001", 1.0, 0.0, 0.0); //  They're  flanking us!
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("YAV_inf_02");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("yav_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IIYAV0002", 1.0, 0.0, 0.0); //  Watch your fire!
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("YAV_obj_07");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("yav_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IOYAV0007", 1.0, 0.0, 0.0); //  Vengeance is ours, men!  The spirits of our fallen brothers will sleep soundly tonight!
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("YAV_obj_08");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("yav_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IOYAV0008", 1.0, 0.0, 0.0); //  What does the Empire have to do to score a victory on this accursed planet?
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("YAV_inf_04");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("yav_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IIYAV0003", 1.0, 0.0, 0.0); //  Gernade!
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("YAV_obj_09");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("yav_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IOYAV0009", 1.0, 0.0, 0.0); //  We have disembarked just outside of the security perimeter of an important Rebel base located in the ancient Temple ahead. The first step will be to take the Rebel’s Command Post located in the ruined stone Fountain ahead.
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("YAV_obj_10");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("yav_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IOYAV0010", 1.0, 0.0, 0.0); //  The ruined Reflecting Pool would be a good staging area for the our assault on the Temple. Go there and capture the guard post
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("YAV_obj_11");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("yav_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IOYAV0011", 1.0, 0.0, 0.0); //  Good! Now, begin your assault of the Temple Complex. We must capture this Rebel Base quickly.
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("YAV_obj_12");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("yav_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IOYAV0012", 1.0, 0.0, 0.0); //  Hard won soldier! Now for the last, and most crucial part of our mission. Retrieve the Holocron containing the Rebel War Plans from the Temple’s command room, and take it back to our original Landing Zone. 
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("YAV_obj_13");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("yav_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IOYAV0013", 1.0, 0.0, 0.0); //  Mission Complete!
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("YAV_obj_14");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("yav_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IOYAV0014", 1.0, 0.0, 0.0); //  Your reinforcement count is dropping too low. Continue like this and you will fail the mission.
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("YAV_obj_15");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("yav_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IOYAV0015", 1.0, 0.0, 0.0); //  Reserve reinforcements have been depleted.  The rebels have won.
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("YAV_obj_16");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("yav_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IOYAV0016", 1.0, 0.0, 0.0); //  Reinforcements are nearly exhausted
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("YAV_obj_17");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("yav_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IOYAV0017", 1.0, 0.0, 0.0); //  Now that we have the Fountain command post, we must hold it against the expected rebel counter attack.  Hond on men and use available cover!
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("YAV_obj_18");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("yav_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IOYAV0018", 1.0, 0.0, 0.0); //  I knew I could depend on you.  Our new objective is to capture the command post under the ViaDuct.  Husband your forces.  We still have a big fight ahead of us.
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("YAV_obj_19");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("yav_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IOYAV0019", 1.0, 0.0, 0.0); //  Nicely don, but quickly! We can rush the Reflecting Pool command post and take it over.  It would make an excellent jump off point to attack the temple itself.
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("YAV_obj_20");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("yav_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IOYAV0020", 1.0, 0.0, 0.0); //  The Rebel counter attack should start any second.  Defend the reflecting pool with all your might!
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("YAV_obj_21");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("yav_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IOYAV0021", 1.0, 0.0, 0.0); //  We've pushed them back!  Time to breach the security door on the Temple.  Special Forces have left a unique breaching bomb at the point marked on your map.  Retrieve the bomb from it's drop off location and place it near the Temple security door.  It iwll detonate within 10 seconds of being placed so high-tail it out of thereas soon as it's set.
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("YAV_obj_22");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("yav_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IOYAV0022", 1.0, 0.0, 0.0); //  There they are!  The Rebel Leadership have taken to their personal vehicles.  Decapitate the Rebel command!  Destroy those combat speeders!
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("YAV_obj_23");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("yav_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IOYAV0023", 1.0, 0.0, 0.0); //  Keep going, just two more to go!
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("YAV_obj_24");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("yav_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IOYAV0024", 1.0, 0.0, 0.0); //  Our mission is almost complete. Finish the last Rebel leader and let's been done with them.
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("YAV_obj_25");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("yav_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IOYAV0025", 1.0, 0.0, 0.0); //  Quickly, back away from the door!
+    }
+}

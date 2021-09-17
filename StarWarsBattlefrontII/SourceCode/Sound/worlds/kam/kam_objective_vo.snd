@@ -1,0 +1,380 @@
+
+//  --------------------------------------------------- Objective VO ----------------------------------------------------------
+
+SoundStreamProperties()
+{
+    Name("KAM_obj_01");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("kam_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IOKAM0001", 1.0, 0.0, 0.0); //  Take out those transports before someone escapes!
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("KAM_obj_02");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("kam_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IOKAM0002", 1.0, 0.0, 0.0); //  They've escaped...this will surely complicate things.
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("KAM_obj_03");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("kam_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IOKAM0003", 1.0, 0.0, 0.0); //  We've failed to destory the clone pods... the galaxy will fall into chaos.
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("KAM_obj_04");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("kam_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IOKAM0004", 1.0, 0.0, 0.0); //  You know your orders, troopers.  Destroy the Kaminoans' clone pods before they can create any more traitorous anti-troopers.
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("KAM_obj_05");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("kam_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IOKAM0005", 1.0, 0.0, 0.0); //  Primary objectives complete, clone pods destroyed.  Can we leave now?  I'm tired of shooting myself.
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("KAM_obj_06");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("kam_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IOKAM0006", 1.0, 0.0, 0.0); //  Before we leave, the Empire wants us to collect some DNA samples from our evil brothers.
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("KAM_obj_07");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("kam_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IOKAM0007", 1.0, 0.0, 0.0); //  Our traitorous gene brothers have defeated us...who knows what horrors they will bring to the galaxy?
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("KAM_obj_08");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("kam_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IOKAM0008", 1.0, 0.0, 0.0); //  Boba Fett has been chosen to sneak a small task force into the kaminoin cloning center., He is familiar with the layout and knows the access codes, giving us the element of surprise
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("KAM_obj_09");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("kam_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IOKAM0009", 1.0, 0.0, 0.0); //  reinforcements have been issued, Now gain entry and wait for orders.
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("KAM_obj_10");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("kam_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IOKAM0010", 1.0, 0.0, 0.0); //  Get that sample back to ship safely Soldier
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("KAM_obj_11");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("kam_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IOKAM0011", 1.0, 0.0, 0.0); //  Dna secure we are pulling the ship back to a safer location
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("KAM_obj_12");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("kam_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IOKAM0012", 1.0, 0.0, 0.0); //  hack your way into the lower facility.
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("KAM_obj_13");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("kam_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IOKAM0013", 1.0, 0.0, 0.0); //  Find the Clone Nursery
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("KAM_obj_14");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("kam_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IOKAM0014", 1.0, 0.0, 0.0); //  Elimate All of the Remaining clones
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("KAM_obj_15");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("kam_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IOKAM0015", 1.0, 0.0, 0.0); //  Okay, sokder.  Now take that CP and wait for orders
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("KAM_obj_16");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("kam_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IOKAM0016", 1.0, 0.0, 0.0); //  Great work!  Now let's move this team to the main entrance of the lower facility.
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("KAM_obj_17");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("kam_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IOKAM0017", 1.0, 0.0, 0.0); //  We have run out of reserve troops.  Those clones are better than we thought.
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("KAM_obj_18");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("kam_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IOKAM0018", 1.0, 0.0, 0.0); //  Our reinforcement level is critical
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("KAM_obj_19");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("kam_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IOKAM0019", 1.0, 0.0, 0.0); //  There goes the element of surprise.  We are issuing you more reinforcements
+     }
+}
+
+SoundStreamProperties()
+{
+    Name("KAM_obj_20");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("kam_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IOKAM0020", 1.0, 0.0, 0.0); //  You know your orders, troopers. Destroy the computers keeping the Kaminoans' clone pods alive before they can create any more traitorous anti-troopers.
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("KAM_obj_21");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("kam_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IOKAM0021", 1.0, 0.0, 0.0); //  The Kaminoans are evacuating in 5 minutes.  Take down their transports before they can escape
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("KAM_obj_22");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("kam_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IOKAM0022", 1.0, 0.0, 0.0); //  2 minutes left.  Take down those transports!
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("KAM_obj_23");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("kam_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IOKAM0023", 1.0, 0.0, 0.0); //  They are taking off any second now
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("KAM_obj_24");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("kam_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IOKAM0024", 1.0, 0.0, 0.0); //  They’ve escaped.  The Kaminoans will be able to build another clone army for sure. You have failed the Emperor.  Perhaps the 501st has outlived it's usefulness...
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("KAM_inf_01");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("kam_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IIKAM0001", 1.0, 0.0, 0.0); //  Transports down...they're trapped.
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("KAM_inf_02");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("kam_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IIKAM0002", 1.0, 0.0, 0.0); //  I think that's the last we'll be seeing of those guys
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("KAM_inf_03");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("kam_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IIKAM0003", 1.0, 0.0, 0.0); //  I sure hope so.
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("KAM_inf_04");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("kam_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IIKAM0004", 1.0, 0.0, 0.0); //  One down.  Let's take that last one out and go home!
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("KAM_inf_05");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("kam_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IIKAM0005", 1.0, 0.0, 0.0); //  Objective complete.  Clone pod Life supports down.  They won’t be cloning another army anytime soon
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("KAM_inf_06");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("kam_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IIKAM0006", 1.0, 0.0, 0.0); //  Blast that door
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("KAM_boba_01");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("kam_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("BFKAM0003", 1.0, 0.0, 0.0); //  They must have changed the access codes. Never stopped me before
+    }
+}

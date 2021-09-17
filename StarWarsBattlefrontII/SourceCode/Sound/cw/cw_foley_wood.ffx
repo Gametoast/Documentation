@@ -1,0 +1,159 @@
+//-cis Foley Effects-----------------------------------------------------------
+
+//-Soldier---------------------------------------------------------------------
+
+FoleyFXSoldier()
+{
+    Name("cis_inf_droid_wood");
+    Class("cis_inf_droid");
+    FootstepLeftWalk("cis_inf_droid_walk_wood_left");
+    FootstepRightWalk("cis_inf_droid_walk_wood_right");
+    FootstepLeftRun("cis_inf_droid_run_wood_left");
+    FootstepRightRun("cis_inf_droid_run_wood_right");
+    FootstepLeftStop("cis_inf_droid_stop_wood");
+    FootstepRightStop("cis_inf_droid_stop_wood");
+    Jump("cis_inf_droid_jump_wood");
+    Land("cis_inf_droid_land_wood");
+    Roll("cis_inf_droid_roll_wood");
+//    Prone("cis_inf_droid_lie_wood");
+    Squat("cis_inf_droid_squat_wood");
+////    Stand("cis_inf_droid_getup_wood");
+    Bodyfall("cis_inf_droid_lgBF_wood");
+}
+
+#ifplatform ps2
+FoleyFXSoldier()
+{
+    Name("cis_inf_sbdroid_wood");
+    Class("cis_inf_sbdroid");
+    FootstepLeftWalk("cis_inf_droid_walk_wood_left");
+    FootstepRightWalk("cis_inf_droid_walk_wood_right");
+    FootstepLeftRun("cis_inf_droid_run_wood_left");
+    FootstepRightRun("cis_inf_droid_run_wood_right");
+    FootstepLeftStop("cis_inf_droid_stop_wood");
+    FootstepRightStop("cis_inf_droid_stop_wood");
+    Jump("cis_inf_droid_jump_wood");
+    Land("cis_inf_droid_land_wood");
+    Roll("cis_inf_droid_roll_wood");
+//    Prone("cis_inf_droid_lie_wood");
+    Squat("cis_inf_droid_squat_wood");
+////    Stand("cis_inf_droid_getup_wood");
+    Bodyfall("cis_inf_droid_lgBF_wood");
+}
+#endifplatform ps2
+
+#ifplatform xbox pc
+FoleyFXSoldier()
+{
+    Name("cis_inf_sbdroid_wood");
+    Class("cis_inf_sbdroid");    
+    FootstepLeftWalk("cis_inf_sbdroid_walk_wood_left");
+    FootstepRightWalk("cis_inf_sbdroid_walk_wood_right");
+    FootstepLeftRun("cis_inf_sbdroid_run_wood_left");
+    FootstepRightRun("cis_inf_sbdroid_run_wood_right");
+    FootstepLeftStop("cis_inf_sbdroid_stop_wood");
+    FootstepRightStop("cis_inf_sbdroid_stop_wood");
+    Jump("cis_inf_sbdroid_jump_wood");
+    Land("cis_inf_sbdroid_land_wood");
+    Roll("cis_inf_sbdroid_roll_wood");
+//    Prone("cis_inf_sbdroid_lie_wood");
+    Squat("cis_inf_sbdroid_squat_wood");
+////    Stand("cis_inf_sbdroid_getup_wood");
+    Bodyfall("cis_inf_sbdroid_lgBF_wood");
+}
+#endifplatform xbox pc
+//-rep Foley Effects-----------------------------------------------------------
+
+//-Trooper---------------------------------------------------------------------
+
+FoleyFXSoldier()
+{
+    Name("rep_inf_trooper_wood");
+    Class("rep_inf_trooper");
+    FootstepLeftWalk("rep_inf_trooper_walk_wood_left");
+    FootstepRightWalk("rep_inf_trooper_walk_wood_right");
+    FootstepLeftRun("rep_inf_trooper_run_wood_left");
+    FootstepRightRun("rep_inf_trooper_run_wood_right");
+    FootstepLeftStop("rep_inf_trooper_stop_wood");
+    FootstepRightStop("rep_inf_trooper_stop_wood");
+    Jump("rep_inf_trooper_jump_wood");
+    Land("rep_inf_trooper_land_wood");
+    Roll("rep_inf_trooper_roll_wood");
+//    Prone("rep_inf_trooper_lie_wood");
+    Squat("rep_inf_trooper_squat_wood");
+////    Stand("rep_inf_trooper_getup_wood");
+    Bodyfall("rep_inf_trooper_lgBF_wood");
+}
+FoleyFXSoldier()
+{
+    Name("rep_inf_soldier_wood");
+    Class("rep_inf_soldier");
+    FootstepLeftWalk("rep_inf_soldier_walk_wood_left");
+    FootstepRightWalk("rep_inf_soldier_walk_wood_right");
+    FootstepLeftRun("rep_inf_soldier_run_wood_left");
+    FootstepRightRun("rep_inf_soldier_run_wood_right");
+    FootstepLeftStop("rep_inf_soldier_stop_wood");
+    FootstepRightStop("rep_inf_soldier_stop_wood");
+    Jump("rep_inf_soldier_jump_wood");
+    Land("rep_inf_soldier_land_wood");
+    Roll("rep_inf_soldier_roll_wood");
+//    Prone("rep_inf_soldier_lie_wood");
+    Squat("rep_inf_soldier_squat_wood");
+////    Stand("rep_inf_soldier_getup_wood");
+    Bodyfall("rep_inf_soldier_lgBF_wood");
+}
+
+FoleyFXSoldier()
+{
+    Name("cis_inf_soldier_wood");
+    Class("cis_inf_soldier");
+    FootstepLeftWalk("cis_inf_soldier_walk_wood_left");
+    FootstepRightWalk("cis_inf_soldier_walk_wood_right");
+    FootstepLeftRun("cis_inf_soldier_run_wood_left");
+    FootstepRightRun("cis_inf_soldier_run_wood_right");
+    FootstepLeftStop("cis_inf_soldier_stop_wood");
+    FootstepRightStop("cis_inf_soldier_stop_wood");
+    Jump("cis_inf_soldier_jump_wood");
+    Land("cis_inf_soldier_land_wood");
+    Roll("cis_inf_soldier_roll_wood");
+//    Prone("cis_inf_soldier_lie_wood");
+    Squat("cis_inf_soldier_squat_wood");
+////    Stand("cis_inf_soldier_getup_wood");
+    Bodyfall("cis_inf_soldier_lgBF_wood");
+}
+FoleyFXSoldier()
+{
+    Name("imp_inf_trooper_wood");
+    Class("imp_inf_trooper");
+    FootstepLeftWalk("rep_inf_trooper_walk_wood_left");
+    FootstepRightWalk("rep_inf_trooper_walk_wood_right");
+    FootstepLeftRun("rep_inf_trooper_run_wood_left");
+    FootstepRightRun("rep_inf_trooper_run_wood_right");
+    FootstepLeftStop("rep_inf_trooper_stop_wood");
+    FootstepRightStop("rep_inf_trooper_stop_wood");
+    Jump("rep_inf_trooper_jump_wood");
+    Land("rep_inf_trooper_land_wood");
+    Roll("rep_inf_trooper_roll_wood");
+//    Prone("rep_inf_trooper_lie_wood");
+    Squat("rep_inf_trooper_squat_wood");
+////    Stand("rep_inf_trooper_getup_wood");
+    Bodyfall("rep_inf_trooper_lgBF_wood");
+}
+FoleyFXSoldier()
+{
+    Name("imp_inf_soldier_wood");
+    Class("imp_inf_soldier");
+    FootstepLeftWalk("rep_inf_soldier_walk_wood_left");
+    FootstepRightWalk("rep_inf_soldier_walk_wood_right");
+    FootstepLeftRun("rep_inf_soldier_run_wood_left");
+    FootstepRightRun("rep_inf_soldier_run_wood_right");
+    FootstepLeftStop("rep_inf_soldier_stop_wood");
+    FootstepRightStop("rep_inf_soldier_stop_wood");
+    Jump("rep_inf_soldier_jump_wood");
+    Land("rep_inf_soldier_land_wood");
+    Roll("rep_inf_soldier_roll_wood");
+//    Prone("rep_inf_soldier_lie_wood");
+    Squat("rep_inf_soldier_squat_wood");
+////    Stand("rep_inf_soldier_getup_wood");
+    Bodyfall("rep_inf_soldier_lgBF_wood");
+}

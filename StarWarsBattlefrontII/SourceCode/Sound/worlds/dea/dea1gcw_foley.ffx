@@ -1,0 +1,53 @@
+#ifplatform xbox pc
+FoleyFXGroup()
+{
+    Name("terrain_foley");
+    FoleyFX("all_inf_soldier_metal");
+    FoleyFX("wok_inf_soldier_metal");
+    FoleyFX("imp_inf_trooper_metal");
+    FoleyFX("imp_inf_soldier_metal");
+}
+FoleyFXGroup()
+{
+    Name("metal_foley");
+    FoleyFX("all_inf_soldier_metal");
+    FoleyFX("wok_inf_soldier_metal");
+    FoleyFX("imp_inf_trooper_metal");
+    FoleyFX("imp_inf_soldier_metal");
+}
+#endifplatform xbox pc
+#ifplatform ps2
+FoleyFXGroup()
+{
+    Name("terrain_foley");
+    FoleyFX("all_inf_soldier_Stone");
+    FoleyFX("wok_inf_soldier_Stone");
+    FoleyFX("imp_inf_trooper_Stone");
+    FoleyFX("imp_inf_soldier_Stone");
+}
+FoleyFXGroup()
+{
+    Name("metal_foley");
+    FoleyFX("all_inf_soldier_Stone");
+    FoleyFX("wok_inf_soldier_Stone");
+    FoleyFX("imp_inf_trooper_Stone");
+    FoleyFX("imp_inf_soldier_Stone");
+}
+#endifplatform ps2
+
+FoleyFXGroup()
+{
+    Name("Stone_foley");
+    FoleyFX("all_inf_soldier_Stone");
+    FoleyFX("wok_inf_soldier_Stone");
+    FoleyFX("imp_inf_trooper_Stone");
+    FoleyFX("imp_inf_soldier_Stone");
+}
+FoleyFXGroup()
+{
+    Name("water_foley");
+    FoleyFX("all_inf_soldier_water");
+    FoleyFX("wok_inf_soldier_water");
+    FoleyFX("imp_inf_trooper_water");
+    FoleyFX("imp_inf_soldier_water");
+}

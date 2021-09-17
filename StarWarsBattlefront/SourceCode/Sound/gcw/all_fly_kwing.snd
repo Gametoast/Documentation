@@ -1,0 +1,215 @@
+// all_fly_X-wing --------------------------------------
+
+SoundProperties()
+{
+	Name("all_weap_fly_xwing_cannon_fire");
+	Group("weapons");
+	Inherit("veh_weapon_template");
+    SampleList()
+    {
+        Sample("wpn_xwing_blaster_fire", 1.0);
+    }
+}
+
+SoundProperties()
+{
+	Name("all_weap_fly_xwing_ptorpedo_fire");
+	Group("weapons");
+	Inherit("veh_weapon_template");
+    SampleList()
+    {
+        Sample("wpn_xwing_torpedo_fire", 1.0);
+    }
+}
+
+// Xwing Engine start------------------------------------------------------------
+
+SoundProperties()
+{
+    Name("all_fly_xwing_takeoff");
+	Group("vehicles");
+	Inherit("vehicle_foley_template");
+    SampleList()
+    {
+        Sample("Blastoff_wing", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("all_fly_xwing_land");
+	Group("vehicles");
+	Inherit("vehicle_foley_template");
+    SampleList()
+    {
+        Sample("flyer_land", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("xwing_engine_low_idle_property");
+	Group("vehicles");
+	Inherit("vehicle_template");
+    SampleList()
+    {
+      Sample("eng_xwing_low_lp", 1.0);
+
+    }
+}
+
+SoundProperties()
+{
+    Name("xwing_engine_med_idle_property");
+	Group("vehicles");
+	Inherit("vehicle_template");
+    SampleList()
+    {
+      Sample("eng_xwing_med_lp", 1.0);
+
+    }
+}
+
+SoundProperties()
+{
+    Name("xwing_engine_high_idle_property");
+	Group("vehicles");
+	Inherit("vehicle_template");
+    SampleList()
+    {
+      Sample("eng_xwing_high_lp", 1.0);
+
+    }
+}
+
+SoundProperties()
+{
+    Name("xwing_engine_damage_idle_property");
+	Group("vehicles");
+	Inherit("vehicle_template");
+    SampleList()
+    {
+      Sample("veh_xwing_damaged_lp", 1.0);
+
+    }
+}
+
+ParameterGraph()
+{
+    Name("xwing_engine_low_idle_speed");
+    ControlPoint(0.0, 0.5);
+    ControlPoint(0.5, 0.5;
+    ControlPoint(1.0, 1.0);
+
+}
+
+ParameterGraph()
+{
+    Name("xwing_engine_low_idle_acceleration");
+    ControlPoint(-1.0, 0.6);
+    ControlPoint(0.0, 0.6);
+    ControlPoint(0.5, 0.9);
+    ControlPoint(1.0, 1.0);
+}
+
+ParameterGraph()
+{
+    Name("xwing_engine_med_idle_speed");
+    ControlPoint(0.0, 0.5);
+    ControlPoint(0.5, 0.5;
+    ControlPoint(1.0, 1.0);
+}
+
+ParameterGraph()
+{
+    Name("xwing_engine_med_idle_acceleration");
+    ControlPoint(-1.0, 0.6);
+    ControlPoint(0.0, 0.6);
+    ControlPoint(0.5, 0.9);
+    ControlPoint(1.0, 1.0);
+}
+
+ParameterGraph()
+{
+    Name("xwing_engine_high_idle_speed");
+    ControlPoint(0.0, 0.5);
+    ControlPoint(0.5, 0.5;
+    ControlPoint(1.0, 1.0);
+}
+
+ParameterGraph()
+{
+    Name("xwing_engine_high_idle_acceleration");
+    ControlPoint(-1.0, 0.6);
+    ControlPoint(0.0, 0.6);
+    ControlPoint(0.5, 0.9);
+    ControlPoint(1.0, 1.0);
+}
+
+
+ParameterGraph()
+{
+    Name("xwing_engine_health");
+	ControlPoint(0.1, 2.0);
+	ControlPoint(0.3, 2.0);
+	ControlPoint(0.4, 1.5);
+	ControlPoint(0.5, 1.0);
+	ControlPoint(0.85, 0.0);
+    ControlPoint(1.0, 0.0);
+}
+
+SoundLayered()
+{
+    Name("xwing_engine_layered");
+    Layer("xwing_engine_low_idle", "xwing_engine_low_idle_property", 0.0);
+    Layer("xwing_engine_med_idle", "xwing_engine_med_idle_property", 0.0);
+    Layer("xwing_engine_high_idle", "xwing_engine_high_idle_property", 0.0);
+    Layer("xwing_engine_damage", "xwing_engine_damage_idle_property", 0.0);
+
+}
+
+SoundParameterized()
+{
+    Name("all_fly_xwing_engine_parameterized");
+    SoundLayered("xwing_engine_layered");
+
+Layer()
+    {
+        Name("xwing_engine_low_idle");
+        ParameterGraph("speed",        "xwing_engine_low_idle_speed", "pitch");
+        ParameterGraph("acceleration", "xwing_engine_low_idle_acceleration","gain")
+        ParameterGraph("turnontime",   "engine_turnon_gain",      "gain");
+        ParameterGraph("turnofftime",  "engine_turnoff_gain",     "gain");
+        ParameterGraph("turnontime",   "engine_turnon_pitch",     "pitch");
+        ParameterGraph("turnofftime",  "engine_turnoff_pitch",    "pitch");
+    }
+
+    Layer()
+    {
+        Name("xwing_engine_med_idle");
+        ParameterGraph("speed",        "xwing_engine_med_idle_speed", "pitch");
+        ParameterGraph("acceleration", "xwing_engine_med_idle_acceleration","gain")
+        ParameterGraph("turnontime",   "engine_turnon_gain",      "gain");
+        ParameterGraph("turnofftime",  "engine_turnoff_gain",     "gain");
+        ParameterGraph("turnontime",   "engine_turnon_pitch",     "pitch");
+        ParameterGraph("turnofftime",  "engine_turnoff_pitch",    "pitch");
+    }
+    Layer()
+    {
+        Name("xwing_engine_high_idle");
+        ParameterGraph("speed",        "xwing_engine_high_idle_speed", "pitch");
+        ParameterGraph("acceleration", "xwing_engine_high_idle_acceleration","gain")
+        ParameterGraph("turnontime",   "engine_turnon_gain",      "gain");
+        ParameterGraph("turnofftime",  "engine_turnoff_gain",     "gain");
+        ParameterGraph("turnontime",   "engine_turnon_pitch",     "pitch");
+        ParameterGraph("turnofftime",  "engine_turnoff_pitch",    "pitch");
+    }
+	Layer()
+    {
+        Name("xwing_engine_damage");
+        ParameterGraph("health", "xwing_engine_health","gain")
+    }
+
+}
+
+//Xwing Engine End--------------------------------------------------------------

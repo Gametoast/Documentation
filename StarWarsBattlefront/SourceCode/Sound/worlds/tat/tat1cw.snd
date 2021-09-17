@@ -1,0 +1,159 @@
+SoundStreamProperties()
+{
+    Name("tat_amb_desertwind");
+    Group("ambientenv");
+    Inherit("ambientfx_template");
+	Gain(0.3);
+    Stream("tat1");
+    SegmentList()
+    {
+        Segment("tat_amb_desertwind", 1.0);
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("tat_amb_canyon");
+    Group("ambientenv");
+    Inherit("ambientfx_template");
+	Gain(0.2);
+    Stream("tat1");
+    SegmentList()
+    {
+        Segment("tat_amb_canyon", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("tat_tusken_die")
+	Group("tat_vo");
+	Inherit("pain_chatter_template");
+    SampleList()
+    {
+      Sample("tat_tusken_die01", 0.33);
+	Sample("tat_tusken_die02", 0.33);
+	Sample("tat_tusken_die03", 0.33);
+
+    }
+}
+
+SoundProperties()
+{
+    Name("sarlac_belch")
+    Pitch(1.0);
+    PitchDev(0.005);
+    Gain(1.0);
+    GainDev(0.0);
+    ReverbGain(1.0);
+    Bus("soundfx");
+    Looping(0);
+    Pan(0.0);
+    MinDistance(30.0);
+    MuteDistance(100.0);
+    MaxDistance(100.0);
+    RollOff(3.0);
+    Mode3D(1);
+    Bias(0.0001);
+    Priority(0.5);
+    SampleList()
+    {
+        Sample("sarlac_belch", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("tat_tusken_howl")
+	Group("tat_vo");
+	Inherit("pain_chatter_template");
+    SampleList()
+    {
+        Sample("tat_tusken_howl01", 0.33);
+	Sample("tat_tusken_howl02", 0.33);
+    }
+}
+
+SoundProperties()
+{
+    Name("tat_tusken_grunt")
+	Group("tat_vo");
+	Inherit("pain_chatter_template");
+    SampleList()
+    {
+        Sample("tat_tusken_grunt01", 0.35);
+	Sample("tat_tusken_grunt02", 0.35);
+    }
+}
+
+SoundProperties()
+{
+    Name("tat_tusken_hurt")
+	Group("tat_vo");
+	Inherit("pain_chatter_template");
+    SampleList()
+    {
+        Sample("tat_tusken_hurt", 0.75);
+    }
+}
+SoundProperties()
+{
+    Name("tat_inf_jawa_hurt")
+	Group("tat_vo");
+	Inherit("pain_chatter_template");
+    SampleList()
+    {
+      Sample("tat_inf_jawa_hurt01", 1.0);
+	Sample("tat_inf_jawa_hurt02", 1.0);
+	Sample("tat_inf_jawa_hurt03", 1.0);
+
+    }
+}
+
+SoundProperties()
+{
+    Name("tat_inf_jawa_death")
+	Group("tat_vo");
+	Inherit("pain_chatter_template");
+    SampleList()
+    {
+      Sample("tat_inf_jawa_death01", 1.0);
+      Sample("tat_inf_jawa_death02", 1.0);
+      Sample("tat_inf_jawa_death03", 1.0);
+    }
+}
+
+
+SoundProperties()
+{
+    Name("tat_inf_jawa_heard")
+	Group("tat_vo");
+	Inherit("pain_chatter_template");
+    SampleList()
+    {
+      Sample("tat_inf_jawa_heard01", 1.0);
+	Sample("tat_inf_jawa_heard02", 1.0);
+
+    }
+}
+
+SoundProperties()
+{
+    Name("tat_inf_jawa_chatter")
+	Group("tat_vo");
+	Inherit("pain_chatter_template");
+    SampleList()
+    {
+    	Sample("tat_inf_jawa_heard01", 1.0);
+		Sample("tat_inf_jawa_heard02", 1.0);
+		Sample("tat_inf_jawa_chatter01", 1.0);
+		Sample("tat_inf_jawa_chatter02", 1.0);
+		Sample("tat_inf_jawa_chatter03", 1.0);
+		Sample("tat_inf_jawa_chatter04", 1.0);
+		Sample("tat_inf_jawa_chatter05", 1.0);
+		Sample("tat_inf_jawa_chatter06", 1.0);
+		Sample("tat_inf_jawa_chatter07", 1.0);
+
+    }
+}
+

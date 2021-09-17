@@ -1,0 +1,1036 @@
+
+//  --------------------------------------------------- Objective VO ----------------------------------------------------------
+
+SoundStreamProperties()
+{
+    Name("SPA2_obj_01");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROSB10001", 1.0, 0.0, 0.0); //  Our forward assault ship is under attack.    If we're to save it, you'll have to disable that droid cruiser.
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("SPA2_obj_02");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROSB10002", 1.0, 0.0, 0.0); //  Before we can make a frontal assault, we'll have to take out their comm arrays to disrupt ship-to-fighter communications.
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("SPA2_obj_03");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROSB10003", 1.0, 0.0, 0.0); //  4 more arrays
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("SPA2_obj_04");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROSB10004", 1.0, 0.0, 0.0); //  3 more arrays
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("SPA2_obj_05");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROSB10005", 1.0, 0.0, 0.0); //  2 more arrays left
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("SPA2_obj_06");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROSB10006", 1.0, 0.0, 0.0); //  Just one more array!
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("SPA2_obj_07");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROSB10007", 1.0, 0.0, 0.0); //  Droid comms successfully disrupted, now take out the cruiser's engines and cripple her!
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("SPA2_obj_08");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROSB10008", 1.0, 0.0, 0.0); //  One engine down, one to go.
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("SPA2_obj_09");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROSB10009", 1.0, 0.0, 0.0); //  Droid cruiser disabled, forward assault ship preparing to deploy fighters.
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("SPA2_obj_10");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROSB10010", 1.0, 0.0, 0.0); //  The droids are launching fighters from the rear cruiser, take 'em out!
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("SPA2_obj_11");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROSB10011", 1.0, 0.0, 0.0); //  That's one down
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("SPA2_obj_12");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROSB10012", 1.0, 0.0, 0.0); //  8 targets remain
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("SPA2_obj_13");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROSB10013", 1.0, 0.0, 0.0); //  7 more fighters
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("SPA2_obj_14");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROSB10014", 1.0, 0.0, 0.0); //  Just 6 more fighters
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("SPA2_obj_15");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROSB10015", 1.0, 0.0, 0.0); //  Halfway there.
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("SPA2_obj_16");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROSB10016", 1.0, 0.0, 0.0); //  Four more, hang in there!
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("SPA2_obj_17");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROSB10017", 1.0, 0.0, 0.0); //  3 more
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("SPA2_obj_18");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROSB10018", 1.0, 0.0, 0.0); //  Just two more to go!
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("SPA2_obj_19");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROSB10019", 1.0, 0.0, 0.0); //  One more!
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("SPA2_obj_20");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROSB10020", 1.0, 0.0, 0.0); //  Well done, men.  The Chancellor should be rescued in no time!
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("SPA2_obj_21");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROSB10021", 1.0, 0.0, 0.0); //  Clear the skies of these irritating fighters!
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("SPA2_obj_22");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROSB10022", 1.0, 0.0, 0.0); //  Their fighters are on the run!  Press the advantage by taking out the cruiser's comm towers, cutting off their communications.
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("SPA2_obj_23");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROSB10023", 1.0, 0.0, 0.0); //  The fighters are in retreat, giving us an opening to destroy the cruiser's engines.
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("SPA2_obj_24");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROSB10024", 1.0, 0.0, 0.0); //  The cruiser has been crippled, now take out those communication towers!
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("SPA2_obj_25");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROSB10025", 1.0, 0.0, 0.0); //  Your failure has doomed the Chancellor.  I knew we shouldn't have used rookie fliers.
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("SPA2_obj_26");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROSB10026", 1.0, 0.0, 0.0); //  Troopers, get to your ships and launch immediately!  Our forward ship is under attack and we must aid them!
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("SPA2_obj_27");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROSB10027", 1.0, 0.0, 0.0); //  Destroy the communication arrays on the Droid Cruiser.
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("SPA2_obj_28");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROSB10028", 1.0, 0.0, 0.0); //  Destroy the communication array on the Droid Cruiser.
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("SPA2_obj_29");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROSB10029", 1.0, 0.0, 0.0); //  Take out the remaining arrays on the Cruiser.
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("SPA2_obj_30");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROSB10030", 1.0, 0.0, 0.0); //  Destroy the remaining array
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("SPA2_obj_31");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROSB10031", 1.0, 0.0, 0.0); //  4 more arrays!  Stay on target!
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("SPA2_obj_32");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROSB10032", 1.0, 0.0, 0.0); //  3 arrays left!
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("SPA2_obj_33");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROSB10033", 1.0, 0.0, 0.0); //  Just 2 more arrays
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("SPA2_obj_34");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROSB10034", 1.0, 0.0, 0.0); //  The arrays have been destroyed.  Droid communications have been interrupted
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("SPA2_obj_35");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROSB10035", 1.0, 0.0, 0.0); //  Good job trooper, droid communication has been disrupted.
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("SPA2_obj_36");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROSB10036", 1.0, 0.0, 0.0); //  Alright trooper, you're going to have to land in the enemy hangar and take out their internal systems.
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("SPA2_obj_37");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROSB10037", 1.0, 0.0, 0.0); //  Trooper!  Land your ship in the enemy hangar and take out their critical systems.
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("SPA2_obj_38");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROSB10038", 1.0, 0.0, 0.0); //  Use your timebombs on the critical systems!
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("SPA2_obj_39");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROSB10039", 1.0, 0.0, 0.0); //  Destroy those targets with your timebombs and get outta that ship soldier!
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("SPA2_obj_40");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROSB10040", 1.0, 0.0, 0.0); //  Well done trooper, our forward assault ship is in the clear!
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("SPA2_obj_41");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROSB10041", 1.0, 0.0, 0.0); //  Good job pilot, you've made the Republic proud.
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("SPA2_obj_42");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROSB10042", 1.0, 0.0, 0.0); //  Trooper, you have to destroy those targets!
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("SPA2_obj_43");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROSB10043", 1.0, 0.0, 0.0); //  Soldier, stop wasting time, get back on duty and destroy those targets!
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("SPA2_obj_44");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROSB10044", 1.0, 0.0, 0.0); //  Pilot! Stop wasting ammo and get to your duties!
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("SPA2_obj_45");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROSB10045", 1.0, 0.0, 0.0); //  10 minutes left
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("SPA2_obj_46");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROSB10046", 1.0, 0.0, 0.0); //  9 minutes left
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("SPA2_obj_47");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROSB10047", 1.0, 0.0, 0.0); //  8 minutes left
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("SPA2_obj_48");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROSB10048", 1.0, 0.0, 0.0); //  7 minutes left
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("SPA2_obj_49");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROSB10049", 1.0, 0.0, 0.0); //  6 minutes left
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("SPA2_obj_50");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROSB10050", 1.0, 0.0, 0.0); //  5 minutes left
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("SPA2_obj_51");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROSB10051", 1.0, 0.0, 0.0); //  4 minutes left
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("SPA2_obj_52");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROSB10052", 1.0, 0.0, 0.0); //  3 minutes left
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("SPA2_obj_53");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROSB10053", 1.0, 0.0, 0.0); //  2 minutes left
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("SPA2_obj_54");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROSB10054", 1.0, 0.0, 0.0); //  1 minute left
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("SPA2_obj_55");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROSB10055", 1.0, 0.0, 0.0); //  Get out of that hangar and destroy their fighters!
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("SPA2_obj_56");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROSB10056", 1.0, 0.0, 0.0); //  reinforcements have been depleted.  We must retreat!
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("SPA2_obj_57");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROSB10057", 1.0, 0.0, 0.0); //  Pilots and marines, get to your ships!  The Jedi are depending on you!
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("SPA2_obj_58");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROSB10058", 1.0, 0.0, 0.0); //  We've got fighters incoming, make them scarce.
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("SPA2_obj_59");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROSB10059", 1.0, 0.0, 0.0); //  It seems that a Banking Clan ship is serving as a frigate for the Droids, destroy that frigate.  
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("SPA2_obj_60");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROSB10060", 1.0, 0.0, 0.0); //  Pilots, Marines, focus your fire on the main CIS ship.  Drop their shields as quickly as you can.
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("SPA2_obj_61");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROSB10061", 1.0, 0.0, 0.0); //  Destroy the Droid Communications Array, that should cause enough of a disturbance to allow you to board their ship.
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("SPA2_obj_62");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROSB10062", 1.0, 0.0, 0.0); //  Well done. Now, fly into their hangar and land. Watch for small arms fire.
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("SPA2_obj_63");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROSB10063", 1.0, 0.0, 0.0); //  Run into their Command Room and destroy the Life Support Systems.
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("SPA2_obj_64");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROSB10064", 1.0, 0.0, 0.0); //  Use your rockets or timebombs to destroy the internal systems.
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("SPA2_obj_65");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROSB10065", 1.0, 0.0, 0.0); //  As your last objective, grab a fighter and destroy the bridge of the enemy cruiser.
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("SPA2_obj_66");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROSB10066", 1.0, 0.0, 0.0); //  Well done gents, with flying like that, we'lre well on our way to victory in this war.
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("SPA2_obj_67");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROSB10067", 1.0, 0.0, 0.0); //  The CIS are too much for us, the day has been lost.
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("SPA2_obj_68");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROSB10068", 1.0, 0.0, 0.0); //  We're running out of ships
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("SPA2_obj_69");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROSB10069", 1.0, 0.0, 0.0); //  Ok Pilot, we’re going to calibrate your controls for the Arc 170.  Fly to the designated ring.
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("SPA2_obj_70");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROSB10070", 1.0, 0.0, 0.0); //  Now fly to the second ring, watch your flying.
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("SPA2_obj_71");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROSB10071", 1.0, 0.0, 0.0); //  Alright, now fly to the final ring and that will conclude the control calibration.
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("SPA2_obj_72");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROSB10072", 1.0, 0.0, 0.0); //  Alright, now fly to the second ring, which will conclude the control calibration.
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("SPA2_obj_73");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROSB10073", 1.0, 0.0, 0.0); //  Well done pilot.
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("SPA2_obj_74");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROSB10074", 1.0, 0.0, 0.0); //  Pilots, we’re going to toggle you into a different control scheme for a few seconds.
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("SPA2_obj_75");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROSB10075", 1.0, 0.0, 0.0); //  This mode has the throttle and roll control on the left analog stick.
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("SPA2_obj_76");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROSB10076", 1.0, 0.0, 0.0); //  Turning and Pitch is now on the right analog stick.
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("SPA2_obj_77");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROSB10077", 1.0, 0.0, 0.0); //  Now we will change back to the default control scheme for a few moments.
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("SPA2_obj_78");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROSB10078", 1.0, 0.0, 0.0); //  This mode has the throttle and roll control on the right analog stick.
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("SPA2_obj_79");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROSB10079", 1.0, 0.0, 0.0); //  Turning and Pitch is now on the left analog stick.
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("SPA2_obj_80");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROSB10080", 1.0, 0.0, 0.0); //  Alright pilot, make your choice of the two selections.
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("SPA2_obj_81");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROSB10081", 1.0, 0.0, 0.0); //  Remember that you can always change your controls in your personal settings
+
+    }
+}
+
+
+
+
+
+
+

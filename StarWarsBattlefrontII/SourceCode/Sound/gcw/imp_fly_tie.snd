@@ -1,0 +1,485 @@
+// ----- Start TIE Fighter Weapons -------------------------
+
+SoundProperties()
+{
+    Name("imp_weap_fly_tiefighter_cannon_fire");
+    Group("weapons");
+    Inherit("flyer_weapon_template");
+    PitchDev(0.1);
+    SampleList()
+    {
+        Sample("wpn_tie_blaster_long", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("imp_weap_fly_tiefighter_ptorpedo_fire");
+    Group("weapons");
+    Inherit("flyer_weapon_template");
+    SampleList()
+    {
+       Sample("wpn_ywing_torpedo_fire", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("imp_weap_fly_tieinter_ptorpedo_fire");
+    Group("weapons");
+    Inherit("flyer_weapon_template");
+    SampleList()
+    {
+       Sample("wpn_hailfire_missile_fire", 1.0);   // this is right 
+    }
+}
+// ----- End TIE Fighter Weapons -------------------------
+SoundProperties()
+{
+    Name("imp_fly_tie_airbrakes_on");
+    Group("vehicle_foley");
+    Inherit("flyer_foley_template");
+    Gain(0.35)
+    SampleList()
+    {
+        Sample("sfx_pod_airbrakes_off", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("imp_fly_tie_airbrakes_off");
+    Group("vehicle_foley");
+    Inherit("flyer_foley_template");
+    Gain(0.35)
+    SampleList()
+    {
+        Sample("sfx_pod_airbrakes_on", 1.0);
+    }
+}
+
+// Takeoff ----------------------------------------
+
+SoundProperties()
+{
+    Name("imp_fly_tie_take_off");
+    Group("vehicle_foley");
+    Inherit("flyer_foley_template");
+    SampleList()
+    {
+        Sample("tie_shift_up", 1.0);
+    }
+}
+
+// Land --------------------------------
+
+SoundProperties()
+{
+    Name("imp_fly_tie_land");
+    Group("vehicle_foley");
+    Inherit("flyer_foley_template");
+    Pitch(0.85)
+    PitchDev(0.0)
+    SampleList()
+    {
+        Sample("tie_shift_down", 1.0);
+    }
+}
+
+// Turnon --------------------------------
+
+SoundProperties()
+{
+    Name("imp_fly_tie_turn_on");
+    Group("vehicle_foley");
+    Inherit("flyer_foley_template");
+    SampleList()
+    {
+        Sample("tie_shift_up", 1.0);
+    }
+}
+
+
+// Turnoff  --------------------------------
+//Played when the flyer turns off
+
+SoundProperties()
+{
+    Name("imp_fly_tie_turn_off");
+    Group("vehicle_foley");
+    Inherit("flyer_foley_template");
+    SampleList()
+    {
+        Sample("tie_shift_down", 1.0);
+    }
+}
+
+// Turning Off   // Played when a soldier leaves the flyer
+
+// Shift Up   --------------------------------
+
+SoundProperties()
+{
+    Name("imp_fly_tie_shift_up_property");
+    Group("vehicle_foley");
+    Inherit("flyer_shift_template");
+    Gain(1.0)
+    SampleList()
+    {
+        Sample("tie_shift_up", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("imp_fly_tie_shift_up_high_property");
+    Group("vehicle_foley");
+    Inherit("flyer_shift_template");
+    Gain(1.0)
+    Pitch(1.3);
+    SampleList()
+    {
+        Sample("tie_shift_up", 1.0);
+    }
+}
+
+// Shift Down --------------------------------
+
+SoundProperties()
+{
+    Name("imp_fly_tie_shift_down_property");
+    Group("vehicle_foley");
+    Inherit("flyer_foley_template");
+    Gain(1.0)
+    SampleList()
+    {
+        Sample("tie_shift_down", 1.0);
+    }
+}
+
+// Roll side to side --------------------------
+
+SoundProperties()
+{
+    Name("imp_fly_tie_roll");
+    Group("vehicles");
+    Inherit("flyer_trick_template");
+    Gain(1.0)
+    Pitch(0.85)
+    PitchDev(0.0)
+    SampleList()
+    {
+      Sample("tie_shift_up", 1.0);
+    }
+}
+
+
+
+// Flip/Roll forward/back -----------------------
+
+SoundProperties()
+{
+    Name("imp_fly_tie_flip");
+    Group("vehicles");
+    Inherit("flyer_trick_template");
+    Gain(1.0)
+    SampleList()
+    {
+      Sample("tie_fighter_roll", 1.0);
+
+    }
+}
+
+SoundProperties()
+{
+    Name("imp_fly_tie_int_flip");
+    Group("vehicles");
+    Inherit("flyer_trick_template");
+    Gain(1.0)
+    SampleList()
+    {
+      Sample("tie_int_roll", 1.0);
+
+    }
+}
+// Damage
+
+// Boost
+
+// ----- Start TIE Fighter Engine Loops --------------------
+
+SoundProperties()
+{
+    Name("imp_fly_tie_engine_hi");
+    Group("vehicles");
+    Inherit("flyer_eng_hi-mid_template");
+#ifplatform pc
+    Gain(0.65);
+#endifplatform pc
+#ifplatform ps2 xbox
+    Gain(0.45);
+#endifplatform ps2 xbox
+    SampleList()
+    {
+      Sample("eng_tieFighter_hi_lp", 1.0);
+
+    }
+}
+
+SoundProperties()
+{
+    Name("imp_fly_tie_engine_mid");
+    Group("vehicles");
+    Inherit("flyer_eng_hi-mid_template");
+#ifplatform pc
+    Gain(0.65);
+#endifplatform pc
+#ifplatform ps2 xbox
+    Gain(0.45);
+#endifplatform ps2 xbox
+    SampleList()
+    {
+    Sample("eng_tieFighter_mid_lp", 1.0);
+
+    }
+}
+
+SoundProperties()
+{
+    Name("imp_fly_tie_engine_low");
+    Group("vehicles");
+    Inherit("flyer_eng_low_template");
+#ifplatform pc
+    Gain(0.7);
+#endifplatform pc
+#ifplatform ps2 xbox
+    Gain(0.5);
+#endifplatform ps2 xbox
+    SampleList()
+    {
+      Sample("eng_tiebomber_mid_lp", 1.0);
+    }
+}
+
+// ----- End TIE Fighter Engine Loops --------------------
+
+// ----- Start TIE Fighter Engine Parameter Graphs ----------------------------------------------
+
+ParameterGraph()
+{
+    Name("tieengine_hi_speed");
+    ControlPoint(0.0, 0.8);
+    ControlPoint(0.5, 0.9);
+    ControlPoint(1.0, 1.0);
+}
+
+ParameterGraph()
+{
+    Name("tieengine_hi_acceleration");
+    ControlPoint(-0.1, 0.8);
+    ControlPoint(0.0, 0.8);
+    ControlPoint(0.5, 0.9);
+    ControlPoint(1.0, 1.0);
+}
+
+ParameterGraph()
+{
+    Name("tieengine_mid_acceleration");
+    ControlPoint(-0.1, 1.0);
+    ControlPoint(0.0, 1.0);
+    ControlPoint(0.5, 1.0);
+    ControlPoint(1.0, 1.0);
+}
+
+ParameterGraph()
+{
+    Name("tieengine_mid_speed");
+    ControlPoint(-0.1, 0.8);
+    ControlPoint(0.0, 0.8);
+    ControlPoint(0.5, 0.9);
+    ControlPoint(1.0, 1.1);
+}
+
+ParameterGraph()
+{
+    Name("tieengine_lo_acceleration");
+    ControlPoint(-0.1, 1.0);
+    ControlPoint(0.0, 1.0);
+    ControlPoint(0.5, 1.0);
+    ControlPoint(1.0, 1.0);
+}
+
+ParameterGraph()
+{
+    Name("tieengine_lo_speed");
+    ControlPoint(-0.1, 0.8);
+    ControlPoint(0.0, 0.6);
+    ControlPoint(0.5, 0.7);
+    ControlPoint(1.0, 1.0);
+}
+
+ParameterGraph()
+{
+    Name("tieengine_turnon_gain");
+    ControlPoint(0.0, 0.0);
+    ControlPoint(1.0, 1.0);
+}
+
+ParameterGraph()
+{
+    Name("tieengine_turnoff_gain");
+    ControlPoint(0.0, 1.0);
+    ControlPoint(1.0, 0.0);
+}
+
+SoundLayered()
+{
+    Name("tieengine_layered");
+    Layer("tie_engine_hi", "imp_fly_tie_engine_hi", 0.0);
+    Layer("tie_engine_mid", "imp_fly_tie_engine_mid", 0.0);
+    Layer("tie_engine_low", "imp_fly_tie_engine_low", 0.0);
+}
+
+SoundParameterized()
+{
+    Name("imp_fly_tie_engine_parameterized");
+    SoundLayered("tieengine_layered");
+    Layer()
+    {
+        Name("tie_engine_hi");
+        ParameterGraph("speed",        "tieengine_hi_speed",        "pitch");
+        ParameterGraph("acceleration", "tieengine_hi_acceleration", "gain");
+        ParameterGraph("turnontime",   "tieengine_turnon_gain",      "gain");
+        ParameterGraph("turnofftime",  "tieengine_turnoff_gain",     "gain");
+    }
+    Layer()
+    {
+        Name("tie_engine_mid");
+        ParameterGraph("speed",        "tieengine_mid_speed",        "pitch");
+        ParameterGraph("acceleration", "tieengine_mid_acceleration", "gain");
+        ParameterGraph("turnontime",   "tieengine_turnon_gain",      "gain");
+        ParameterGraph("turnofftime",  "tieengine_turnoff_gain",     "gain");
+    }
+    Layer()
+    {
+        Name("tie_engine_low");
+        ParameterGraph("speed",        "tieengine_lo_speed",        "pitch");
+        ParameterGraph("acceleration", "tieengine_lo_acceleration", "gain");
+        ParameterGraph("turnontime",   "tieengine_turnon_gain",      "gain");
+        ParameterGraph("turnofftime",  "tieengine_turnoff_gain",     "gain");
+    }
+}
+
+// ----- End TIEFighter Engine Parameter Graphs ----------------------------------------------
+
+// TIE Interceptor
+// ----- Start TIE int Engine Parameter Graphs ----------------------------------------------
+
+//MinSpeed                = 35.0 = .21
+//MidSpeed                = 80.0 = .47
+//MaxSpeed                = 105  = .62 Contrails at .68
+//BoostSpeed              = 170  = 1.0
+ParameterGraph()
+{
+    Name("tieintengine_hi_speed");
+    ControlPoint(0.0, 0.85);
+    ControlPoint(0.47, 0.9);
+    ControlPoint(1.0, 1.0);
+}
+
+ParameterGraph()
+{
+    Name("tieintengine_hi_acceleration");
+    ControlPoint(-0.1, 0.8);
+    ControlPoint(0.0, 0.8);
+    ControlPoint(0.47, 0.9);
+    ControlPoint(1.0, 1.0);
+}
+
+ParameterGraph()
+{
+    Name("tieintengine_mid_acceleration");
+    ControlPoint(-0.1, 1.0);
+    ControlPoint(0.0, 1.0);
+    ControlPoint(0.47, 1.0);
+    ControlPoint(1.0, 1.0);
+}
+
+ParameterGraph()
+{
+    Name("tieintengine_mid_speed");
+    ControlPoint(-0.1, 0.85);
+    ControlPoint(0.0, 0.85);
+    ControlPoint(0.47, 0.95);
+    ControlPoint(1.0, 1.1);
+}
+
+ParameterGraph()
+{
+    Name("tieintengine_lo_acceleration");
+    ControlPoint(-0.1, 1.0);
+    ControlPoint(0.0, 1.0);
+    ControlPoint(0.47, 1.0);
+    ControlPoint(1.0, 1.0);
+}
+
+ParameterGraph()
+{
+    Name("tieintengine_lo_speed");
+    ControlPoint(-0.1, 0.8);
+    ControlPoint(0.0, 0.6);
+    ControlPoint(0.47, 0.7);
+    ControlPoint(1.0, 1.0);
+}
+
+ParameterGraph()
+{
+    Name("tieintengine_turnon_gain");
+    ControlPoint(0.0, 0.0);
+    ControlPoint(1.0, 1.0);
+}
+
+ParameterGraph()
+{
+    Name("tieintengine_turnoff_gain");
+    ControlPoint(0.0, 1.0);
+    ControlPoint(1.0, 0.0);
+}
+
+SoundLayered()
+{
+    Name("tieintengine_layered");
+    Layer("tieint_engine_hi", "imp_fly_tie_engine_hi", 0.0);
+    Layer("tieint_engine_mid", "imp_fly_tie_engine_mid", 0.0);
+    Layer("tieint_engine_low", "imp_fly_tie_engine_low", 0.0);
+}
+
+SoundParameterized()
+{
+    Name("imp_fly_tieint_engine_parameterized");
+    SoundLayered("tieintengine_layered");
+    Layer()
+    {
+        Name("tieint_engine_hi");
+        ParameterGraph("speed",        "tieintengine_hi_speed",        "pitch");
+        ParameterGraph("acceleration", "tieintengine_hi_acceleration", "gain");
+        ParameterGraph("turnontime",   "tieintengine_turnon_gain",      "gain");
+        ParameterGraph("turnofftime",  "tieintengine_turnoff_gain",     "gain");
+    }
+    Layer()
+    {
+        Name("tieint_engine_mid");
+        ParameterGraph("speed",        "tieintengine_mid_speed",        "pitch");
+        ParameterGraph("acceleration", "tieintengine_mid_acceleration", "gain");
+        ParameterGraph("turnontime",   "tieintengine_turnon_gain",      "gain");
+        ParameterGraph("turnofftime",  "tieintengine_turnoff_gain",     "gain");
+    }
+    Layer()
+    {
+        Name("tieint_engine_low");
+        ParameterGraph("speed",        "tieintengine_lo_speed",        "pitch");
+        ParameterGraph("acceleration", "tieintengine_lo_acceleration", "gain");
+        ParameterGraph("turnontime",   "tieintengine_turnon_gain",      "gain");
+        ParameterGraph("turnofftime",  "tieintengine_turnoff_gain",     "gain");
+    }
+}

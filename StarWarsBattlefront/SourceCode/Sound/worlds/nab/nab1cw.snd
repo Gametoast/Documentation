@@ -1,0 +1,105 @@
+// Gungan Chatter -------------------------------------------------
+
+SoundStreamProperties()
+{
+    Name("gungan_chatter_acquired");
+    Inherit("gungan_chatter_template");
+    Stream("cw_vo");
+    SegmentList()
+    {
+        Segment("GUNAB407", 0.33, 1.0, 0);
+        Segment("GUNAB408", 0.33, 1.0, 0);
+        Segment("GUNAB409", 0.33, 1.0, 0);
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("gungan_chatter_hide");
+    Inherit("gungan_chatter_template");
+    Stream("cw_vo");
+    SegmentList()
+    {
+          Segment("GUNAB410", 0.33, 1.0, 0);
+          Segment("GUNAB422", 0.33, 1.0, 0);
+          Segment("GUNAB416", 0.33, 1.0, 0);
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("gungan_chatter_approach");
+    Inherit("gungan_chatter_template");
+    Stream("cw_vo");
+    SegmentList()
+    {
+      Segment("GUNAB411", 0.33, 1.0, 0);
+      Segment("GUNAB423", 0.33, 1.0, 0);
+      Segment("GUNAB420", 0.33, 1.0, 0);
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("gungan_chatter_flee");
+    Inherit("gungan_chatter_template");
+    Stream("cw_vo");
+    SegmentList()
+    {
+      Segment("GUNAB416", 0.33, 1.0, 0);
+      Segment("GUNAB429", 0.33, 1.0, 0);
+      Segment("GUNAB430", 0.33, 1.0, 0);
+
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("gungan_chatter_predamage");
+    Inherit("gungan_chatter_template");
+    Stream("cw_vo");
+    SegmentList()
+    {
+      Segment("GUNAB416", 0.2, 1.0, 0);
+      Segment("GUNAB419", 0.2, 1.0, 0);
+      Segment("GUNAB418", 0.2, 1.0, 0);
+      Segment("GUNAB417", 0.2, 1.0, 0);
+      Segment("GUNAB420", 0.2, 1.0, 0);
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("gungan_chatter_heard");
+    Inherit("gungan_chatter_template");
+    Stream("cw_vo");
+    SegmentList()
+    {
+      Segment("GUNAB413", 0.165, 1.0, 0);
+      Segment("GUNAB420", 0.165, 1.0, 0);
+      Segment("GUNAB419", 0.165, 1.0, 0);
+      Segment("GUNAB413", 0.165, 1.0, 0);
+      Segment("GUNAB414", 0.165, 1.0, 0);
+      Segment("GUNAB424", 0.165, 1.0, 0);
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("gungan_chatter_heartbeat");
+    Inherit("gungan_chatter_template");
+    Stream("cw_vo");
+    PlayInterval(0.0);
+    PlayIntervalDev(0.0);
+    PlayProbability(0.2);
+    SegmentList()
+    {
+      Segment("GUNAB409", 0.143, 1.0, 0);
+      Segment("GUNAB416", 0.143, 1.0, 0);
+      Segment("GUNAB420", 0.143, 1.0, 0);
+      Segment("GUNAB421", 0.143, 1.0, 0);
+      Segment("GUNAB422", 0.143, 1.0, 0);
+      Segment("GUNAB423", 0.143, 1.0, 0);
+      Segment("GUNAB428", 0.143, 1.0, 0);
+    }
+}

@@ -1,0 +1,105 @@
+// Ambient Environment ------------------------------------------------------------------
+
+Space()
+{
+    Name("Default");
+    I3DL2ReverbPreset("noreverb");
+    DirectGain(1.0);
+    DirectHFGain(1.0);
+    RoomGain(0.0);
+    RoomHFGain(0.0);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.5);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.5);
+    OcclusionLFRatio(1.0);
+}
+
+SoundStreamProperties()
+{
+    Name("nab_amb_city");
+    Group("ambientenv");
+    Inherit("ambientfx_template");
+    Gain(1.0);
+    Stream("nab2");
+    SegmentList()
+    {
+        Segment("nab_amb_city", 1.0);
+    }
+}
+
+// Ambient Emitter Streams --------------------------------------------------------------
+
+
+
+// Ambient Emitters Static ---------------------------------------------------------------
+
+
+SoundProperties()
+{
+    Name("canal");
+    Group("ambientenv");
+    Inherit("ambientemt_static_template");
+#ifplatform xbox pc
+    Gain(0.4);
+#endifplatform xbox pc
+#ifplatform ps2
+    Gain(0.6);
+#endifplatform ps2
+    Looping(1);
+    //Max and Min distance set in wld or lyr file
+    Rolloff(1.0);
+    SampleList()
+    {
+        Sample("emt_canal_stream_lp", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("fountain");
+    Group("ambientenv");
+    Inherit("ambientemt_static_template");
+#ifplatform xbox pc
+    Gain(0.3);
+#endifplatform xbox pc
+#ifplatform ps2
+    Gain(0.6);
+
+#endifplatform ps2
+    RandomPlayPos(1);
+    Looping(1);
+    Rolloff(2.0);
+    //Max and Min distance set in wld or lyr file
+    SampleList()
+    {
+        Sample("emt_fountain_lp", 1.0);
+    }
+}
+
+// ---------------------------------------------------------
+
+// Gungan Hurt and Death
+
+SoundProperties()
+{
+    Name("gungan_hurt");
+    Group("gun_pain_vo");
+    Inherit("pain_chatter_template");
+    SampleList()
+    {
+        Sample("gunab401", 1.0);
+        Sample("gunab402", 1.0);
+    }
+}
+SoundProperties()
+{
+    Name("gungan_die");
+    Group("gun_pain_vo");
+    Inherit("pain_chatter_template");
+    SampleList()
+    {
+        Sample("gunab404", 1.0);
+        Sample("gunab405", 1.0);
+    }
+}

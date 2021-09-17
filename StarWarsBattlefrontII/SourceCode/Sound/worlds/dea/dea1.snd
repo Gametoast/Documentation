@@ -1,0 +1,2024 @@
+// Soundspace Start ----------------------------------------------
+
+
+// ----- Start I3DL2 Presets -----
+
+// --- Start Metal Room ---
+#ifplatform pc
+I3DL2ReverbPreset()
+{
+    Name("metalroom");
+    RoomGain(1.0);
+    RoomHFGain(1.0);
+    RoomRollOff(1.0);
+    DecayTime(0.75);
+    DecayHFRatio(0.6);
+    ERGain(0.4);
+    ERDelay(0.014);
+    ReverbGain(0.2);
+    ReverbDelay(0.031);
+    Diffusion(100.0);
+    Density(100.0);
+    HFReference(5000.0);
+}
+#endifplatform pc
+
+#ifplatform xbox
+I3DL2ReverbPreset()
+{
+    Name("metalroom");
+    RoomGain(1.0);
+    RoomHFGain(1.0);
+    RoomRollOff(1.0);
+    DecayTime(0.75);
+    DecayHFRatio(0.6);
+    ERGain(0.4);
+    ERDelay(0.014);
+    ReverbGain(0.2);
+    ReverbDelay(0.031);
+    Diffusion(100.0);
+    Density(100.0);
+    HFReference(5000.0);
+}
+#endifplatform xbox
+
+#ifplatform ps2
+I3DL2ReverbPreset()
+{
+    Name("metalroom");
+    RoomGain(0.1);
+    RoomHFGain(1.0);
+    RoomRollOff(1.0);
+    DecayTime(0.75);
+    DecayHFRatio(0.6);
+    ERGain(0.1);
+    ERDelay(0.014);
+    ReverbGain(0.2);
+    ReverbDelay(0.031);
+    Diffusion(100.0);
+    Density(100.0);
+    HFReference(5000.0);
+}
+#endifplatform ps2
+// --- End Metal Room ----
+
+// --- Start Metal Medium Room ----
+#ifplatform pc
+I3DL2ReverbPreset()
+{
+    Name("MetalMediumRoom");
+    RoomGain(1.0);
+    RoomHFGain(0.7);
+    RoomRollOff(1.0);
+    DecayTime(1.0);
+    DecayHFRatio(0.3);
+    ERGain(0.3);
+    ERDelay(0.014);
+    ReverbGain(0.2);
+    ReverbDelay(0.041);
+    Diffusion(100.0);
+    Density(100.0);
+    HFReference(5000.0);
+    HFReference(5000.0);
+}
+#endifplatform pc
+
+#ifplatform xbox
+I3DL2ReverbPreset()
+{
+    Name("MetalMediumRoom");
+    RoomGain(1.0);
+    RoomHFGain(1.0);
+    RoomRollOff(1.0);
+    DecayTime(1.0);
+    DecayHFRatio(0.3);
+    ERGain(0.4);
+    ERDelay(0.014);
+    ReverbGain(0.2);
+    ReverbDelay(0.041);
+    Diffusion(100.0);
+    Density(100.0);
+    HFReference(5000.0);
+}
+#endifplatform xbox
+
+#ifplatform ps2
+I3DL2ReverbPreset()
+{
+    Name("MetalMediumRoom");
+    RoomGain(0.2);
+    RoomHFGain(1.0);
+    RoomRollOff(1.0);
+    DecayTime(1.0);
+    DecayHFRatio(0.3);
+    ERGain(0.2);
+    ERDelay(0.014);
+    ReverbGain(0.2);
+    ReverbDelay(0.041);
+    Diffusion(100.0);
+    Density(100.0);
+    HFReference(5000.0);
+}
+#endifplatform ps2
+// --- End Metal Medium Room ----
+
+// --- Start Metal Large Room ----
+#ifplatform pc
+I3DL2ReverbPreset()
+{
+    Name("MetalLargeRoom");
+    RoomGain(1.0);
+    RoomHFGain(1.0);
+    RoomRollOff(1.0);
+    DecayTime(4.0);
+    DecayHFRatio(0.3);
+    ERGain(0.4);
+    ERDelay(0.014);
+    ReverbGain(0.15);
+    ReverbDelay(0.051);
+    Diffusion(100.0);
+    Density(100.0);
+    HFReference(5000.0);
+}
+#endifplatform pc
+
+#ifplatform xbox
+I3DL2ReverbPreset()
+{
+    Name("MetalLargeRoom");
+    RoomGain(1.0);
+    RoomHFGain(1.0);
+    RoomRollOff(1.0);
+    DecayTime(4.0);
+    DecayHFRatio(0.3);
+    ERGain(0.4);
+    ERDelay(0.014);
+    ReverbGain(0.15);
+    ReverbDelay(0.051);
+    Diffusion(100.0);
+    Density(100.0);
+    HFReference(5000.0);
+}
+#endifplatform xbox
+
+#ifplatform ps2
+I3DL2ReverbPreset()
+{
+    Name("MetalLargeRoom");
+    RoomGain(0.1);
+    RoomHFGain(1.0);
+    RoomRollOff(1.0);
+    DecayTime(4.0);
+    DecayHFRatio(0.3);
+    ERGain(0.2);
+    ERDelay(0.014);
+    ReverbGain(0.15);
+    ReverbDelay(0.051);
+    Diffusion(100.0);
+    Density(100.0);
+    HFReference(5000.0);
+}
+#endifplatform ps2
+// --- End Metal Large Room ----
+
+// --- Start Metal Hall -----
+#ifplatform pc
+I3DL2ReverbPreset()
+{
+    Name("Metalhall");
+    RoomGain(1.0);
+    RoomHFGain(0.9);
+    RoomRollOff(1.0);
+    DecayTime(0.5);
+    DecayHFRatio(0.3);
+    ERGain(0.4);
+    ERDelay(0.014);
+    ReverbGain(0.2);
+    ReverbDelay(0.021);
+    Diffusion(100.0);
+    Density(100.0);
+    HFReference(5000.0);
+}
+#endifplatform pc
+
+#ifplatform xbox
+I3DL2ReverbPreset()
+{
+    Name("Metalhall");
+    RoomGain(1.0);
+    RoomHFGain(1.0);
+    RoomRollOff(1.0);
+    DecayTime(0.5);
+    DecayHFRatio(0.3);
+    ERGain(0.4);
+    ERDelay(0.014);
+    ReverbGain(0.2);
+    ReverbDelay(0.021);
+    Diffusion(100.0);
+    Density(100.0);
+    HFReference(5000.0);
+}
+#endifplatform xbox
+
+#ifplatform ps2
+I3DL2ReverbPreset()
+{
+    Name("Metalhall");
+    RoomGain(0.1);
+    RoomHFGain(1.0);
+    RoomRollOff(1.0);
+    DecayTime(0.5);
+    DecayHFRatio(0.3);
+    ERGain(0.2);
+    ERDelay(0.014);
+    ReverbGain(0.2);
+    ReverbDelay(0.021);
+    Diffusion(100.0);
+    Density(100.0);
+    HFReference(5000.0);
+}
+#endifplatform ps2
+// --- End Metal Hall -----
+
+// --- Start Chasm -----
+#ifplatform pc
+I3DL2ReverbPreset()
+{
+    Name("Chasm");
+    RoomGain(1.0);
+    RoomHFGain(1.0);
+    RoomRollOff(1.0);
+    DecayTime(2.0);
+    DecayHFRatio(0.8);
+    ERGain(0.4);
+    ERDelay(0.014);
+    ReverbGain(0.2);
+    ReverbDelay(0.071);
+    Diffusion(100.0);
+    Density(100.0);
+    HFReference(5000.0);
+}
+#endifplatform pc
+
+#ifplatform xbox
+I3DL2ReverbPreset()
+{
+    Name("Chasm");
+    RoomGain(1.0);
+    RoomHFGain(1.0);
+    RoomRollOff(1.0);
+    DecayTime(2.0);
+    DecayHFRatio(0.8);
+    ERGain(0.4);
+    ERDelay(0.014);
+    ReverbGain(0.2);
+    ReverbDelay(0.071);
+    Diffusion(100.0);
+    Density(100.0);
+    HFReference(5000.0);
+}
+#endifplatform xbox
+
+#ifplatform ps2
+I3DL2ReverbPreset()
+{
+    Name("Chasm");
+    RoomGain(0.2);
+    RoomHFGain(0.4);
+    RoomRollOff(1.0);
+    DecayTime(4.0);
+    DecayHFRatio(0.8);
+    ERGain(0.1);
+    ERDelay(0.014);
+    ReverbGain(0.2);
+    ReverbDelay(0.071);
+    Diffusion(100.0);
+    Density(100.0);
+    HFReference(5000.0);
+}
+#endifplatform ps2
+// --- End Chasm -----
+
+// ----- END I3DL2 Presets -----
+
+
+
+
+/// ----- Sound Spaces Start ------
+
+
+
+
+
+
+Space()
+{
+    Name("ChsmHllB");
+    I3DL2ReverbPreset("chasm");
+    DirectGain(1.0);
+    DirectHFGain(1.0);
+    RoomGain(1.0);
+    RoomHFGain(1.0);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.0);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.0);
+    OcclusionLFRatio(1.0);
+}
+
+
+
+
+
+Space()
+{
+    Name("GunB");
+    I3DL2ReverbPreset("metallargeroom");
+    DirectGain(1.0);
+    DirectHFGain(1.0);
+    RoomGain(1.0);
+    RoomHFGain(1.0);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.0);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.0);
+    OcclusionLFRatio(1.0);
+    ConnectedList
+    {
+        Space("ChsmHllB", 0.3) 
+    }       
+}
+
+Space()
+{
+    Name("GunA");
+    I3DL2ReverbPreset("metallargeroom");
+    DirectGain(1.0);
+    DirectHFGain(1.0);
+    RoomGain(1.0);
+    RoomHFGain(1.0);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.0);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.0);
+    OcclusionLFRatio(1.0);
+    ConnectedList
+    {
+        Space("GunB", 0.0) 
+        Space("ChsmHllB", 0.2) 
+
+    }       
+
+}
+
+Space()
+{
+    Name("GunTube");
+    I3DL2ReverbPreset("metallargeroom");
+    DirectGain(1.0);
+    DirectHFGain(1.0);
+    RoomGain(1.0);
+    RoomHFGain(1.0);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.0);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.0);
+    OcclusionLFRatio(1.0);
+    ConnectedList
+    {
+        Space("GunA", 0.0) 
+        Space("GunB", 0.0) 
+    }     
+}
+
+
+Space()
+{
+    Name("Cell5");
+    I3DL2ReverbPreset("metalhall");
+    DirectGain(1.0);
+    DirectHFGain(1.0);
+    RoomGain(1.0);
+    RoomHFGain(1.0);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.0);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.0);
+    OcclusionLFRatio(1.0);
+}
+
+
+Space()
+{
+    Name("Cell6");
+    I3DL2ReverbPreset("metalhall");
+    DirectGain(1.0);
+    DirectHFGain(1.0);
+    RoomGain(1.0);
+    RoomHFGain(1.0);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.0);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.0);
+    OcclusionLFRatio(1.0);
+}
+
+
+
+Space()
+{
+    Name("Cell2");
+    I3DL2ReverbPreset("metalhall");
+    DirectGain(1.0);
+    DirectHFGain(1.0);
+    RoomGain(1.0);
+    RoomHFGain(1.0);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.0);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.0);
+    OcclusionLFRatio(1.0);
+}
+
+
+Space()
+{
+    Name("Cell4");
+    I3DL2ReverbPreset("metalhall");
+    DirectGain(1.0);
+    DirectHFGain(1.0);
+    RoomGain(1.0);
+    RoomHFGain(1.0);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.0);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.0);
+    OcclusionLFRatio(1.0);
+}
+
+
+Space()
+{
+    Name("Cell3");
+    I3DL2ReverbPreset("metalhall");
+    DirectGain(1.0);
+    DirectHFGain(1.0);
+    RoomGain(1.0);
+    RoomHFGain(1.0);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.0);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.0);
+    OcclusionLFRatio(1.0);
+}
+
+Space()
+{
+    Name("Cell1");
+    I3DL2ReverbPreset("metalhall");
+    DirectGain(1.0);
+    DirectHFGain(1.0);
+    RoomGain(1.0);
+    RoomHFGain(1.0);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.0);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.0);
+    OcclusionLFRatio(1.0);
+}
+
+
+Space()
+{
+    Name("TrcB");
+    I3DL2ReverbPreset("chasm");
+    DirectGain(1.0);
+    DirectHFGain(1.0);
+    RoomGain(1.0);
+    RoomHFGain(1.0);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.0);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.0);
+    OcclusionLFRatio(1.0);
+    ConnectedList
+    {
+        Space("GunB", 0.4) 
+    }    
+}
+
+
+Space()
+{
+    Name("TrcA");
+    I3DL2ReverbPreset("chasm");
+    DirectGain(1.0);
+    DirectHFGain(1.0);
+    RoomGain(1.0);
+    RoomHFGain(1.0);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.0);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.0);
+    OcclusionLFRatio(1.0);
+    ConnectedList
+    {
+        Space("TrcB", 0.1) 
+        Space("GunB", 0.9) 
+    }       
+}
+
+
+Space()
+{
+    Name("TrcJHll");
+    I3DL2ReverbPreset("metalroom");
+    DirectGain(1.0);
+    DirectHFGain(1.0);
+    RoomGain(1.0);
+    RoomHFGain(1.0);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.0);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.0);
+    OcclusionLFRatio(1.0);
+    ConnectedList
+    {
+        Space("GunTube", 0.3) 
+        Space("TrcB", 0.3) 
+        Space("TrcA", 0.3) 
+        Space("GunB", 0.95)
+        Space("GunA", 0.85)
+    }        
+}
+
+
+
+
+
+Space()
+{
+    Name("TrshHllB");
+    I3DL2ReverbPreset("metalroom");
+    DirectGain(1.0);
+    DirectHFGain(1.0);
+    RoomGain(1.0);
+    RoomHFGain(1.0);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.0);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.0);
+    OcclusionLFRatio(1.0);
+    ConnectedList
+    {
+        Space("TrcA", 0.1) 
+        Space("TrcB", 0.7) 
+        Space("TrcJHll", 0.2) 
+    }     
+}
+
+Space()
+{
+    Name("TrshHllA");
+    I3DL2ReverbPreset("metalhall");
+    DirectGain(1.0);
+    DirectHFGain(1.0);
+    RoomGain(1.0);
+    RoomHFGain(1.0);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.0);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.0);
+    OcclusionLFRatio(1.0);
+    ConnectedList
+    {
+        Space("TrcA", 0.2) 
+        Space("TrcJHll", 0.3) 
+        
+    }        
+}
+
+Space()
+{
+    Name("Trash");
+    I3DL2ReverbPreset("metalroom");
+    DirectGain(1.0);
+    DirectHFGain(1.0);
+    RoomGain(1.0);
+    RoomHFGain(1.0);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.0);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.0);
+    OcclusionLFRatio(1.0);
+    ConnectedList
+    {
+        Space("TrshHllA", 0.2) 
+        Space("TrshHllB", 0.3) 
+        Space("TrcA", 0.3) 
+        Space("TrcJHll", 0.3) 
+    }       
+}
+
+Space()
+{
+    Name("Chute");
+    I3DL2ReverbPreset("metalhall");
+    DirectGain(1.0);
+    DirectHFGain(1.0);
+    RoomGain(1.0);
+    RoomHFGain(1.0);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.0);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.0);
+    OcclusionLFRatio(1.0);
+    ConnectedList
+    {
+        Space("Trash", 0.1) 
+        Space("TrshHllA", 0.5) 
+        Space("TrshHllB", 0.7) 
+        Space("TrcA", 0.3) 
+    }      
+}
+
+
+
+Space()
+{
+    Name("DetHllC");
+    I3DL2ReverbPreset("metalhall");
+    DirectGain(1.0);
+    DirectHFGain(1.0);
+    RoomGain(1.0);
+    RoomHFGain(1.0);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.0);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.0);
+    OcclusionLFRatio(1.0);
+}
+
+
+Space()
+{
+    Name("DetHllD");
+    I3DL2ReverbPreset("metalhall");
+    DirectGain(1.0);
+    DirectHFGain(1.0);
+    RoomGain(1.0);
+    RoomHFGain(1.0);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.0);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.0);
+    OcclusionLFRatio(1.0);
+    ConnectedList
+    {
+        Space("TrcA", 0.3) 
+        Space("Cell5", 0.2) 
+        Space("Cell6", 0.2) 
+        Space("TrcB", 0.2) 
+        Space("DetHllC", 0.2) 
+
+    }         
+}
+
+
+Space()
+{
+    Name("DetHllB");
+    I3DL2ReverbPreset("metalhall");
+    DirectGain(1.0);
+    DirectHFGain(1.0);
+    RoomGain(1.0);
+    RoomHFGain(1.0);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.0);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.0);
+    OcclusionLFRatio(1.0);
+    ConnectedList
+    {
+        Space("DetHllC", 0.1) 
+        Space("DetHllD", 0.1) 
+        Space("Cell5", 0.2) 
+        Space("Cell6", 0.2) 
+        Space("TrcB", 0.3) 
+
+    }      
+}
+
+
+Space()
+{
+    Name("DetHllA");
+    I3DL2ReverbPreset("metalroom");
+    DirectGain(1.0);
+    DirectHFGain(1.0);
+    RoomGain(1.0);
+    RoomHFGain(1.0);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.0);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.0);
+    OcclusionLFRatio(1.0);
+    ConnectedList
+    {
+        Space("DetHllB", 0.7) 
+        Space("DetHllC", 0.1) 
+        Space("DetHllD", 0.3) 
+        Space("Cell1", 0.2) 
+        Space("Cell2", 0.2) 
+        Space("Cell3", 0.2) 
+        Space("Cell4", 0.2) 
+        Space("Chute", 0.3) 
+        Space("Trash", 0.9) 
+        Space("TrcB", 0.2) 
+
+    }  
+}
+
+
+
+Space()
+{
+    Name("DetB");
+    I3DL2ReverbPreset("metalroom");
+    DirectGain(1.0);
+    DirectHFGain(1.0);
+    RoomGain(1.0);
+    RoomHFGain(1.0);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.0);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.0);
+    OcclusionLFRatio(1.0);
+    ConnectedList
+    {
+        Space("DetHllA", 0.9) 
+        Space("DetHllB", 0.1) 
+        Space("DetHllC", 0.2) 
+        Space("Cell5", 0.8) 
+         Space("Cell6", 0.8) 
+        Space("DetHllD", 0.1) 
+
+    } 
+}
+
+Space()
+{
+    Name("DetHll");
+    I3DL2ReverbPreset("metalhall");
+    DirectGain(1.0);
+    DirectHFGain(1.0);
+    RoomGain(1.0);
+    RoomHFGain(1.0);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.0);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.0);
+    OcclusionLFRatio(1.0);
+    ConnectedList
+    {
+        Space("DetHllA", 0.2) 
+        Space("DetHllB", 0.2) 
+        Space("DetHllC", 0.7) 
+        Space("Cell5", 0.8) 
+    }     
+}
+
+Space()
+{
+    Name("DetA");
+    I3DL2ReverbPreset("metalroom");
+    DirectGain(1.0);
+    DirectHFGain(1.0);
+    RoomGain(1.0);
+    RoomHFGain(1.0);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.0);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.0);
+    OcclusionLFRatio(1.0);
+    ConnectedList
+    {
+        Space("DetB", 0.3) 
+        Space("DetHllA", 0.1) 
+        Space("DetHllC", 0.3) 
+        Space("DetHll", 0.1) 
+        Space("Cell1", 0.7) 
+        Space("Cell2", 0.3) 
+    }     
+}
+
+Space()
+{
+    Name("ChsmHllC");
+    I3DL2ReverbPreset("metalhall");
+    DirectGain(1.0);
+    DirectHFGain(1.0);
+    RoomGain(1.0);
+    RoomHFGain(1.0);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.0);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.0);
+    OcclusionLFRatio(1.0);
+    ConnectedList()
+    {
+        Space("DetA", 0.2) 
+        Space("DetB", 0.8) 
+        Space("DetHllA", 0.2) 
+        Space("DetHll", 0.3) 
+    } 
+}
+
+
+
+
+Space()
+{
+    Name("HngJHllB");
+    I3DL2ReverbPreset("metalroom");
+    DirectGain(1.0);
+    DirectHFGain(1.0);
+    RoomGain(1.0);
+    RoomHFGain(1.0);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.0);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.0);
+    OcclusionLFRatio(1.0);
+}
+
+Space()
+{
+    Name("HngJHllA");
+    I3DL2ReverbPreset("metalroom");
+    DirectGain(1.0);
+    DirectHFGain(1.0);
+    RoomGain(1.0);
+    RoomHFGain(1.0);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.0);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.0);
+    OcclusionLFRatio(1.0);
+    ConnectedList()
+    {
+        Space("HngJHllB", 0.1) 
+    } 
+}
+
+
+
+
+
+Space()
+{
+    Name("HngBHll");
+    I3DL2ReverbPreset("metallargeroom");
+    DirectGain(1.0);
+    DirectHFGain(1.0);
+    RoomGain(1.0);
+    RoomHFGain(1.0);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.0);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.0);
+    OcclusionLFRatio(1.0);
+    ConnectedList()
+    {
+        Space("HngJHllB", 0.3) 
+    } 
+}
+
+Space()
+{
+    Name("ConfHllA");
+    I3DL2ReverbPreset("metalhall");
+    DirectGain(1.0);
+    DirectHFGain(1.0);
+    RoomGain(1.0);
+    RoomHFGain(1.0);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.0);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.0);
+    OcclusionLFRatio(1.0);
+    ConnectedList()
+    {
+        Space("HngBHll", 0.1) 
+    }       
+}
+
+
+
+
+
+
+Space()
+{
+    Name("ConfHllB");
+    I3DL2ReverbPreset("metalhall");
+    DirectGain(1.0);
+    DirectHFGain(1.0);
+    RoomGain(1.0);
+    RoomHFGain(1.0);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.0);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.0);
+    OcclusionLFRatio(1.0);
+    ConnectedList()
+    {
+        Space("ConfHllA", 0.3) 
+    }      
+}
+
+
+Space()
+{
+    Name("ConfHllC");
+    I3DL2ReverbPreset("metalhall");
+    DirectGain(1.0);
+    DirectHFGain(1.0);
+    RoomGain(1.0);
+    RoomHFGain(1.0);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.0);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.0);
+    OcclusionLFRatio(1.0);
+    ConnectedList()
+    {
+        Space("ConfHllA", 0.7)
+        Space("ConfHllB", 0.7)
+    
+    }  
+}
+
+Space()
+{
+    Name("ConfA");
+    I3DL2ReverbPreset("metalmediumroom");
+    DirectGain(1.0);
+    DirectHFGain(1.0);
+    RoomGain(1.0);
+    RoomHFGain(1.0);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.0);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.0);
+    OcclusionLFRatio(1.0);
+    ConnectedList()
+    {
+        Space("ConfHllA", 0.3)
+        Space("ConfHllB", 0.3)
+        Space("ConfHllC", 0.3)
+
+    }      
+}
+
+
+Space()
+{
+    Name("ConfB");
+    I3DL2ReverbPreset("metalmediumroom");
+    DirectGain(1.0);
+    DirectHFGain(1.0);
+    RoomGain(1.0);
+    RoomHFGain(1.0);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.0);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.0);
+    OcclusionLFRatio(1.0);
+    ConnectedList()
+    {
+        Space("ConfA", 0.0)
+        Space("ConfHllA", 0.2)
+        Space("ConfHllB", 0.5)
+        Space("ConfHllC", 0.2)
+
+    }      
+}
+
+
+Space()
+{
+    Name("ConfHllD");
+    I3DL2ReverbPreset("metalhall");
+    DirectGain(1.0);
+    DirectHFGain(1.0);
+    RoomGain(1.0);
+    RoomHFGain(1.0);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.0);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.0);
+    OcclusionLFRatio(1.0);
+    ConnectedList()
+    {
+        Space("ConfA", 0.7)
+        Space("ConfA", 0.5)
+        Space("ConfHllB", 0.3)
+    }    
+}
+
+
+
+
+
+Space()
+{
+    Name("ChsmHllA");
+    I3DL2ReverbPreset("metalhall");
+    DirectGain(1.0);
+    DirectHFGain(1.0);
+    RoomGain(1.0);
+    RoomHFGain(1.0);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.0);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.0);
+    OcclusionLFRatio(1.0);
+    ConnectedList()
+    {
+        Space("DetA", 0.7)
+        Space("ChsmHllC", 0.3)
+        Space("ChsmHllB", 0.7)
+        Space("ConfHllD", 0.2)
+        Space("ConfHllB", 0.3)
+        Space("ConfHllC", 0.3)
+    }
+}    
+
+
+Space()
+{
+    Name("ChsmC");
+    I3DL2ReverbPreset("chasm");
+    DirectGain(1.0);
+    DirectHFGain(1.0);
+    RoomGain(1.0);
+    RoomHFGain(1.0);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.0);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.0);
+    OcclusionLFRatio(1.0);
+    ConnectedList()
+    {
+        Space("ChsmHllA", 0.2)
+        Space("ChsmHllB", 0.5)
+        Space("ConfHllD", 0.3)
+        Space("ConfHllB", 0.6)
+        Space("ConfHllC", 0.2)
+        Space("ConfA", 0.95)
+        Space("ConfB", 0.85)
+
+    }
+}
+
+Space()
+{
+    Name("ChsmA");
+    I3DL2ReverbPreset("chasm");
+    DirectGain(1.0);
+    DirectHFGain(1.0);
+    RoomGain(1.0);
+    RoomHFGain(1.0);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.0);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.0);
+    OcclusionLFRatio(1.0);
+    ConnectedList()
+    {
+        Space("ChsmHllA", 0.2)
+        Space("ChsmHllB", 0.3)
+        Space("ChsmC", 0.0)
+        Space("ConfHllD", 0.2)
+        Space("ConfHllB", 0.3)
+        Space("ConfHllC", 0.3)
+        Space("ConfA", 0.85)
+        Space("ConfB", 0.95)
+    }
+}
+
+
+
+
+Space()
+{
+    Name("ChsmB");
+    I3DL2ReverbPreset("chasm");
+    DirectGain(1.0);
+    DirectHFGain(1.0);
+    RoomGain(1.0);
+    RoomHFGain(1.0);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.0);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.0);
+    OcclusionLFRatio(1.0);
+    ConnectedList()
+    {
+        Space("ChsmHllA", 0.1)
+        Space("ChsmA", 0.0)
+        Space("ChsmC", 0.0)
+        Space("ChsmC", 0.1)
+        Space("ConfHllB", 0.3)
+        Space("ConfHllC", 0.3)
+        Space("ConfA", 0.95)
+        Space("ConfB", 0.85)
+
+        
+    }
+}
+
+
+
+
+
+Space()
+{
+    Name("ChsmD");
+    I3DL2ReverbPreset("chasm");
+    DirectGain(1.0);
+    DirectHFGain(1.0);
+    RoomGain(1.0);
+    RoomHFGain(1.0);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.0);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.0);
+    OcclusionLFRatio(1.0);
+    ConnectedList()
+    {
+        Space("ChsmHllA", 0.1)
+        Space("ChsmHllB", 0.1)
+        Space("ChsmHllC", 0.1)
+        Space("DetA", 0.7)
+        Space("DetHllA", 0.3)
+    }
+}
+
+
+
+
+
+
+Space()
+{
+    Name("HngCtlDr1");
+    I3DL2ReverbPreset("metalroom");
+    DirectGain(1.0);
+    DirectHFGain(1.0);
+    RoomGain(1.0);
+    RoomHFGain(1.0);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.0);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.0);
+    OcclusionLFRatio(1.0);
+}
+
+
+Space()
+{
+    Name("HngCtlDr2");
+    I3DL2ReverbPreset("metalroom");
+    DirectGain(1.0);
+    DirectHFGain(1.0);
+    RoomGain(1.0);
+    RoomHFGain(1.0);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.0);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.0);
+    OcclusionLFRatio(1.0);
+    ConnectedList()
+    {
+        Space("HngCtlDr1", 0.1)
+    }
+}
+
+Space()
+{
+    Name("HngCtlBHll");
+    I3DL2ReverbPreset("metalhall");
+    DirectGain(1.0);
+    DirectHFGain(1.0);
+    RoomGain(1.0);
+    RoomHFGain(1.0);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.0);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.0);
+    OcclusionLFRatio(1.0);
+    ConnectedList()
+    {
+    Space("HngCtlDr1", 0.9)
+    Space("HngCtlDr2", 0.1)
+    }
+}
+
+Space()
+{
+    Name("HngCtl");
+    I3DL2ReverbPreset("metalroom");
+    DirectGain(1.0);
+    DirectHFGain(1.0);
+    RoomGain(1.0);
+    RoomHFGain(1.0);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.0);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.0);
+    OcclusionLFRatio(1.0);
+    ConnectedList()
+    {
+        Space("HngCtlBHll", 0.3)
+        Space("HngCtlDr1", 0.3)   
+        Space("HngCtlDr2", 0.1)        
+
+    }
+}
+
+
+
+Space()
+{
+    Name("HngCtlCHll");
+    I3DL2ReverbPreset("metalhall");
+    DirectGain(1.0);
+    DirectHFGain(1.0);
+    RoomGain(1.0);
+    RoomHFGain(1.0);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.0);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.0);
+    OcclusionLFRatio(1.0);
+    ConnectedList()
+    {
+        Space("HngCtlBHll", 0.1)
+    }
+}
+
+
+
+
+Space()
+{
+    Name("HngCtlAHll");
+    I3DL2ReverbPreset("metalhall");
+    DirectGain(1.0);
+    DirectHFGain(1.0);
+    RoomGain(1.0);
+    RoomHFGain(1.0);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.0);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.0);
+    OcclusionLFRatio(1.0);
+    ConnectedList()
+    {
+        Space("HngCtlDr1", 0.1)
+        Space("HngCtlDr2", 0.1)
+        Space("HngCtl", 0.7)
+    }
+}
+
+
+
+Space()
+{
+    Name("HngLHllB");
+    I3DL2ReverbPreset("metalroom");
+    DirectGain(1.0);
+    DirectHFGain(1.0);
+    RoomGain(1.0);
+    RoomHFGain(1.0);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.0);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.0);
+    OcclusionLFRatio(1.0);
+    ConnectedList()
+    {
+        Space("ChsmHllC", 0.7)
+        Space("ChsmHllA", 0.1)
+        Space("ChsmD",      0.3)
+        Space("HngCtlAHll", 0.2)
+    }
+}
+
+
+Space()
+{
+    Name("HngLHllA");
+    I3DL2ReverbPreset("metalroom");
+    DirectGain(1.0);
+    DirectHFGain(1.0);
+    RoomGain(1.0);
+    RoomHFGain(1.0);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.0);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.0);
+    OcclusionLFRatio(1.0);
+    ConnectedList()
+    {
+        Space("HngCtlAHll", 0.1)
+        Space("HngLHllB", 0.0)
+        Space("ChsmD", 0.6)
+        Space("ChsmHllB", 0.2)
+    }      
+}
+
+
+Space()
+{
+    Name("HngB");
+    I3DL2ReverbPreset("metallargeroom");
+    DirectGain(1.0);
+    DirectHFGain(1.0);
+    RoomGain(1.0);
+    RoomHFGain(1.0);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.0);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.0);
+    OcclusionLFRatio(1.0);
+    ConnectedList()
+    {
+        Space("HngJHllA", 0.6)
+        Space("HngJHllB", 0.2)    
+        Space("HngBHll", 0.2)
+        Space("ConfHllA", 0.7)
+    }     
+}
+
+
+Space()
+{
+    Name("HngCtl2");
+    I3DL2ReverbPreset("metalroom");
+    DirectGain(1.0);
+    DirectHFGain(1.0);
+    RoomGain(1.0);
+    RoomHFGain(1.0);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.0);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.0);
+    OcclusionLFRatio(1.0);
+    ConnectedList()
+    {
+        Space("HngCtlBHll", 0.7)
+        Space("HngCtl", 0.0)
+        Space("HngCtlDr1", 0.2)
+        Space("HngCtlDr2", 0.1)
+    }    
+}
+
+Space()
+{
+    Name("HngA");
+    I3DL2ReverbPreset("metallargeroom");
+    DirectGain(1.0);
+    DirectHFGain(1.0);
+    RoomGain(1.0);
+    RoomHFGain(1.0);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.0);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.0);
+    OcclusionLFRatio(1.0);
+    ConnectedList()
+    {
+        Space("HngCtlBHll", 0.9)
+        Space("HngCtlCHll", 0.7)
+        Space("HngCtl", 0.6)
+        Space("HngCtl2", 0.7)    
+        Space("HngCtlDr1", 0.9)
+        Space("HngCtlDr2", 0.9)
+        Space("HngLHllA", 0.3)
+        Space("HngLHllB", 0.5)
+        Space("HngJHllA", 0.3)
+        Space("HngJHllB", 0.5)
+        Space("HngB", 0.95)        
+        
+    }
+}
+
+
+// ----- Sound Spaces End -----------------------------------------------------
+
+// ----- Ambient Environment Streams Start ------------------------------
+
+SoundStreamProperties()
+{
+    Name("dea_amb_deathstar");
+    Group("ambientenv");
+    Inherit("ambientfx_template");
+    Gain(1.0)
+    Stream("dea1");
+    SpaceDistance(368);
+    SegmentList()
+    {
+        Segment("dea_amb_deathstar", 1.0);
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("dea_amb_chasm");
+    Group("ambientenv");
+    Inherit("ambientfx_template");
+    Gain(1.0)
+    Stream("dea1");
+    SegmentList()
+    {
+        Segment("dea_amb_chasm", 1.0);
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("dea_amb_hangar");
+    Group("ambientenv");
+    Inherit("ambientfx_template");
+    Gain(1.0);
+    Stream("dea1");
+    SegmentList()
+    {
+        Segment("dea_amb_hangar", 1.0);
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("dea_amb_hangarcontrol");
+    Group("ambientenv");
+    Inherit("ambientfx_template");
+    Stream("dea1");
+    Gain(1.0);
+    SegmentList()
+    {
+        Segment("dea_amb_hangarcontrol", 1.0);
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("dea_amb_firecontrol");
+    Group("ambientenv");
+    Inherit("ambientfx_template");
+    Gain(1.0);
+    Stream("dea1");
+    SegmentList()
+    {
+        Segment("dea_amb_firecontrol", 1.0);
+    }
+}
+
+//SoundStreamProperties()
+//{
+//    Name("dea_amb_detention");
+//    Group("ambientenv");
+//    Inherit("ambientfx_template");
+//    Gain(1.0);
+//    Stream("dea1");
+//    SegmentList()
+//    {
+//        Segment("dea_amb_detention", 1.0);
+//    }
+//}
+
+SoundStreamProperties()
+{
+    Name("dea_amb_conf");
+    Group("ambientenv");
+    Inherit("ambientfx_template");
+    Gain(1.0);
+    Stream("dea1");
+    SegmentList()
+    {
+        Segment("dea_amb_conf", 1.0);
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("dea_amb_tractor");
+    Group("ambientenv");
+    Inherit("ambientfx_template");
+    Gain(1.0);
+    Stream("dea1");
+    SegmentList()
+    {
+        Segment("dea_amb_tractor", 1.0);
+    }
+}
+
+// ----- Ambient Environment Streams End ---------------------------
+
+// ----- Prop Ambient Effects Start --------------------------------
+
+
+SoundProperties()
+{
+    Name("TractorBeam"); 
+    Group("Prop");
+    Inherit("props_template");
+    Looping(1);
+    Pitch(0.8);
+    Gain(0.5)
+    PitchDev(0.1);
+    RollOff(1.0);
+    SampleList()
+    {
+        Sample("com_blg_commandpost2", 1.0);
+    }
+}
+
+
+
+SoundProperties()
+{
+    Name("bridge_retract");
+    Pitch(1.0);
+    PitchDev(0.1);
+    Gain(1.0);
+    GainDev(0.05);
+    ReverbGain(1.0);
+    Bus("soundfx");
+    Looping(0);
+    Pan(0.0);
+    MinDistance(10.0);
+    MuteDistance(30.0);
+    MaxDistance(30.0);
+    SpaceDistance(20.0);
+    RollOff(0.0);
+    Mode3D(1);
+    Bias(0.0001);
+    Priority(0.8);
+    SampleList()
+    {
+        Sample("door_op_01", 1.0);
+        Sample("door_op_02", 1.0);
+        Sample("door_op_03", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("bridge_extend");
+    Pitch(1.0);
+    PitchDev(0.1);
+    Gain(1.0);
+    GainDev(0.05);
+    ReverbGain(1.0);
+    Bus("soundfx");
+    Looping(0);
+    Pan(0.0);
+    MinDistance(10.0);
+    MuteDistance(30.0);
+    MaxDistance(30.0);
+    SpaceDistance(20.0);
+    RollOff(0.0);
+    Mode3D(1);
+    Bias(0.0001);
+    Priority(0.8);
+    SampleList()
+    {
+        Sample("cell_door_cl_01", 1.0);
+        Sample("cell_door_cl_02", 1.0);
+        Sample("cell_door_cl_03", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("trash_hum");
+    Pitch(0.4);
+    PitchDev(0.05);
+    Gain(1.0);
+    GainDev(0.05);
+    ReverbGain(1.0);
+    Bus("soundfx");
+    Looping(1);
+    Pan(0.0);
+    MinDistance(10.0);
+    MuteDistance(30.0);
+    MaxDistance(30.0);
+    SpaceDistance(20.0);
+    RollOff(0.0);
+    Mode3D(1);
+    Bias(0.0001);
+    Priority(0.8);
+    SampleList()
+    {
+        Sample("saber_twirl", 1.0);
+    }
+}
+
+
+// ----- Prop Ambient Effects End ----------------------------------
+
+// Start Doors -------------------
+
+SoundProperties()
+{
+    Name("door_open");
+    Pitch(1.0);
+    PitchDev(0.1);
+    Gain(1.0);
+    GainDev(0.05);
+    ReverbGain(1.0);
+    Bus("soundfx");
+    Looping(0);
+    Pan(0.0);
+    MinDistance(7.0);
+    SpaceDistance(7.0);
+    MuteDistance(50.0);
+    MaxDistance(50.0);
+    RollOff(1.0);
+    Mode3D(1);
+    Bias(0.0001);
+    Priority(0.8);
+    SpaceDistance(7.0)
+    SampleList()
+    {
+        Sample("door_open", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("big_door_open");
+    Pitch(1.0);
+    PitchDev(0.1);
+    Gain(1.0);
+    GainDev(0.05);
+    ReverbGain(1.0);
+    Bus("soundfx");
+    Looping(0);
+    Pan(0.0);
+    MinDistance(7.0);
+    SpaceDistance(8.0)
+    MuteDistance(50.0);
+    MaxDistance(50.0);
+    RollOff(1.0);
+    Mode3D(1);
+    Bias(0.0001);
+    Priority(0.8);
+    SpaceDistance(7.0)
+    SampleList()
+    {
+        Sample("big_door_open", 1.0);
+    }
+}
+
+
+
+SoundProperties()
+{
+    Name("door_close_layer");
+    Pitch(1.0);
+    PitchDev(0.1);
+    Gain(1.0);
+    GainDev(0.05);
+    ReverbGain(1.0);
+    Bus("soundfx");
+    Looping(0);
+    Pan(0.0);
+    MinDistance(7.0);
+    SpaceDistance(8.0);
+    MuteDistance(50.0);
+    MaxDistance(50.0);
+    RollOff(1.0);
+    Mode3D(1);
+    Bias(0.0001);
+    Priority(0.8);
+    SpaceDistance(7.0)
+    SampleList()
+    {
+        Sample("door_close", 1.0);
+    }
+}
+
+
+
+SoundProperties()
+{
+    Name("big_door_close");
+    Pitch(1.0);
+    PitchDev(0.1);
+    Gain(1.0);
+    GainDev(0.05);
+    ReverbGain(1.0);
+    Bus("soundfx");
+    Looping(0);
+    Pan(0.0);
+    MinDistance(7.0);
+    SpaceDistance(8.0)
+    MuteDistance(50.0);
+    MaxDistance(50.0);
+    RollOff(1.0);
+    Mode3D(1);
+    Bias(0.0001);
+    Priority(0.8);
+    SpaceDistance(7.0)
+    SampleList()
+    {
+        Sample("big_door_close", 1.0);
+    }
+}
+
+
+SoundLayered()
+{
+    Name("door_close");
+    Layer("null", "door_close_layer", 0.5);
+}
+
+SoundLayered()
+{
+    Name("huge_door_close");
+    Layer("null", "door_close_layer", 0.5);
+}
+
+// End Doors
+
+
+// Klaxon Siren Horn
+
+SoundProperties()
+{
+    Name("dea_amb_siren")
+    Group("ambientenv");
+    Inherit("ambientemt_static_template");
+    #ifplatform pc
+    Gain(0.8);
+    #endifplatform pc
+    #ifplatform xbox
+    Gain(0.6);
+    #endifplatform xbox
+    #ifplatform ps2
+    Gain(0.6);
+    #endifplatform ps2
+    Pitch(1.0);
+    PlayInterval(0.0);
+    PlayIntervalDev(0.0);
+    PitchDev(0.0);
+    SampleList()
+    {
+        Sample("sfx_amb_signal_horn_01", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("dea_amb_siren_loop")
+    Group("ambientenv");
+    Inherit("ambientemt_static_template");
+    #ifplatform pc
+    Gain(0.8);
+    #endifplatform pc
+    #ifplatform xbox
+    Gain(0.6);
+    #endifplatform xbox
+    #ifplatform ps2
+    Gain(0.6);
+    #endifplatform ps2
+    Looping(1);
+    Pitch(1.0);
+    PlayInterval(0.0);
+    PlayIntervalDev(0.0);
+    PitchDev(0.0);
+    SampleList()
+    {
+        Sample("sfx_amb_signal_horn_01", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("shield_hum"); // steam jet loop low pitch
+    Group("Props");
+    Inherit("props_template");
+    Looping(1);
+    #ifplatform ps2 xbox
+    Gain(0.3)
+    #endifplatform ps2 xbox
+    #ifplatform pc
+    Gain(0.4)
+    #endifplatform pc
+    Pitch(0.6);
+    RandomPlayPos(1);
+    RollOff(1.0);
+    MinDIstance(15)
+    MaxDistance(100);
+    MuteDistance(100);
+    SampleList()
+    {
+        Sample("force_field_lp", 1.0);
+    }
+}
+
+
+// DS Gun
+SoundProperties()
+{
+    Name("ds_beam_fire"); 
+    Group("Prop");
+    Inherit("props_template");
+    Gain(1.0)
+    PitchDev(0.1);
+    RollOff(0.0);
+    SampleList()
+    {
+        Sample("C_IonCannon_fire01", 1.0);
+    }
+}
+
+
+SoundProperties()
+{
+    Name("ds_beam_powerup"); 
+    Group("Prop");
+    Inherit("props_template");
+    Gain(1.0)
+    PitchDev(0.0);
+    RollOff(5.0);
+    SampleList()
+    {
+        Sample("tractoroff", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("ds_beam_chargeup"); 
+    Group("Prop");
+    Inherit("props_template");
+    Gain(0.7)
+    Pitch(1.0)
+    RollOff(0.0);
+    SampleList()
+    {
+        Sample("B_CyTank_SonicAttack04", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("ds_beam_charge"); 
+    Group("Prop");
+    Inherit("props_template");
+    Gain(0.2)
+    Pitch(0.7)
+    PitchDev(0.0);
+    RollOff(3.0);
+    SampleList()
+    {
+        Sample("wpn_energyDepleted", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("ds_beam_crackle"); 
+    Group("Prop");
+    Inherit("props_template");
+    Gain(0.8)
+    Pitch(0.8);
+    PitchDev(0.1);
+    RollOff(1.0);
+    SampleList()
+    {
+        Sample("disintegrate", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("ds_gun_hammer"); 
+    Group("Prop");
+    Inherit("props_template");
+    Gain(1.0)
+    PitchDev(0.1);
+    RollOff(1.0);
+    SampleList()
+    {
+        Sample("door_open", 1.0);
+    }
+}
+SoundProperties()
+{
+    Name("big_sparks"); 
+    Group("Prop");
+    Inherit("props_template");
+    Gain(0.6)
+    PitchDev(0.0);
+    Pitch(0.6)
+    RollOff(2.0);
+    PlayInterval(0.3);
+    SampleList()
+    {
+        Sample("wpn_fusionCutter_lp", 1.0);
+    }
+}
+SoundProperties()
+{
+    Name("energy_rings"); 
+    Group("ambientenv");
+    Inherit("ambientemt_static_template");
+    Pitch(1.2);
+    Gain(0.4)
+    MinDistance(5)
+    MaxDistance(75)
+    MuteDistance(75)
+    PitchDev(0.0);
+    RollOff(1.0);
+    SampleList()
+    {
+        Sample("com_blg_commandpost_dispute", 1.0);
+    }
+}
+
+
+SoundProperties()
+{
+    Name("energy_loop")
+    Group("ambientenv");
+    Group("Prop");
+    Inherit("props_template");
+    #ifplatform pc
+    Gain(1.0);
+    #endifplatform pc
+    #ifplatform xbox
+    Gain(0.8);
+    #endifplatform xbox
+    #ifplatform ps2
+    Gain(0.8);
+    #endifplatform ps2
+    MinDistance(15)
+    Looping(1);
+    Pitch(0.8);
+    PitchDev(0.0);
+    SampleList()
+    {
+        Sample("energy_loop", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("energy_loop_2")
+    Group("Prop");
+    Inherit("props_template");
+    #ifplatform pc
+    Gain(0.9);
+    #endifplatform pc
+    #ifplatform xbox
+    Gain(0.7);
+    #endifplatform xbox
+    #ifplatform ps2
+    Gain(0.7);
+    #endifplatform ps2
+    MinDistance(15)
+    Looping(0);
+    Pitch(1.0);
+    PlayInterval(0.0);
+    PlayIntervalDev(0.0);
+    PitchDev(0.0);
+    SampleList()
+    {
+        Sample("energy_loop", 1.0);
+    }
+}
+
+
+SoundLayered()
+{
+    Name("ds_beam_seq");
+    Layer("EnergyRings", "ds_beam_powerup", 0.0);
+    Layer("EnergyCollected", "ds_beam_charge", 3.0);
+    Layer("ChargeSparks", "ds_beam_chargeup", 10.0);
+    Layer("ChargeGlow", "ds_beam_charge", 10.0);
+    Layer("BeamOuter2", "ds_beam_crackle", 12.0);
+    Layer("BeamInner", "ds_gun_hammer", 13.0);
+    Layer("BeamOuter", "ds_beam_crackle", 13.0);
+    Layer("null", "ds_beam_fire", 13.5);
+    Layer("null", "ds_beam_fire", 13.5);
+    Layer("null", "ds_beam_fire", 13.5);
+
+}
+    

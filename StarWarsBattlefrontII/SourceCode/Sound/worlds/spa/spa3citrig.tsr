@@ -1,0 +1,75 @@
+Group()
+{
+    Name("cis_transport1away");
+    Reinforcements(0.75);
+    Alliance("");
+    Empire("cis_spahangar");
+    Republic("");
+    CIS("cis_spahangar");
+}
+
+Group()
+{
+    Name("cis_transport2away");
+    Reinforcements(0.50);
+    Alliance("");
+    Empire("cis_spahangar");
+    Republic("");
+    CIS("cis_spahangar");
+}
+
+Group()
+{
+    Name("cis_transportaway");
+    Reinforcements(0.0);
+    Alliance("");
+    Empire("cis_spahangar");
+    Republic("");
+    CIS("cis_spahangar");
+}
+
+Region()
+{
+    Name("cis_loudspeaker");
+    Group("cis_transport1away");
+    Group("cis_transport2away");
+    Group("cis_transportaway");
+}
+
+Group()
+{
+    Name("imp_transport1away");
+    Reinforcements(0.75);
+    Alliance("");
+    Empire("imp_spahangar");
+    Republic("");
+    CIS("imp_spahangar");
+}
+
+Group()
+{
+    Name("imp_transport2away");
+    Reinforcements(0.50);
+    Alliance("");
+    Empire("imp_spahangar");
+    Republic("");
+    CIS("imp_spahangar");
+}
+
+Group()
+{
+    Name("imp_transportaway");
+    Reinforcements(0.0);
+    Alliance("");
+    Empire("imp_spahangar");
+    Republic("");
+    CIS("imp_spahangar");
+}
+
+Region()
+{
+    Name("imp_loudspeaker");
+    Group("imp_transport1away");
+    Group("imp_transport2away");
+    Group("imp_transportaway");
+}

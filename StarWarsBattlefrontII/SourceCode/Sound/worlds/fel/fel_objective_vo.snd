@@ -1,0 +1,483 @@
+
+//  --------------------------------------------------- Objective VO ----------------------------------------------------------
+
+
+SoundStreamProperties()
+{
+    Name("FEL_obj_01");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("fel_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROFEL0001", 1.0, 0.0, 0.0); //  Trooper, defend the AT-TE until Jedi Commander Secura arrives
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("FEL_obj_02");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("fel_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROFEL0002", 1.0, 0.0, 0.0); //  Transport secure.  Continue with your mission.
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("FEL_inf_01");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("fel_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("RIFEL0001", 1.0, 0.0, 0.0); //  They never had a chance
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("FEL_inf_02");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("fel_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("RIFEL0002", 1.0, 0.0, 0.0); //  You can stick a fork in those AATs
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("FEL_inf_03");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("fel_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("RIFEL0003", 1.0, 0.0, 0.0); //  DiD you see the size of that bug
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("FEL_obj_03");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("fel_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROFEL0003", 1.0, 0.0, 0.0); //  We need a foothold.  Make for the fungal tree, and establish your position!
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("FEL_obj_04");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("fel_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROFEL0004", 1.0, 0.0, 0.0); //  Eliminate any remaining droid forces.
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("FEL_obj_05");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("fel_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROFEL0005", 1.0, 0.0, 0.0); //  Our forward unit is under attack by some kind of creatures.  Get up there and give them some support!
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("FEL_obj_06");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("fel_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROFEL0006", 1.0, 0.0, 0.0); //  Our troops are being slaughtered, let's move it!
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("FEL_obj_07");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("fel_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROFEL0007", 1.0, 0.0, 0.0); //  This ATTE is out of commission
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("FEL_obj_08");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("fel_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROFEL0008", 1.0, 0.0, 0.0); //  Here they come!  We have to take out these creatures before they rip our unit apart!
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("FEL_obj_09");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("fel_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROFEL0009", 1.0, 0.0, 0.0); //  CIS units have ben detected moving in this direction.  Defend the ATTE until Jedi Master Aalya Secura arrives!
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("FEL_obj_10");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("fel_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROFEL0010", 1.0, 0.0, 0.0); //  Aalya Secura has just landed!
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("FEL_obj_11");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("fel_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROFEL0011", 1.0, 0.0, 0.0); //  We need a power cell to reactive the ATTE.  A republic gunship crashed in the brush near here.  Acquire it's power cell, and bring it back to the ATTE.
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("FEL_obj_12");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("fel_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROFEL0012", 1.0, 0.0, 0.0); //  The CIS offensive is being mounted from the fungal tree to the south.  Advance on their base of operations there, and take out their primary defense turrets.
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("FEL_obj_13");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("fel_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROFEL0013", 1.0, 0.0, 0.0); //  Good job, now let's take care of the remaining CIS forces.
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("FEL_obj_14");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("fel_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROFEL0014", 1.0, 0.0, 0.0); //  Nice Work Clone.  The Separatists' assault on Felucia has been severely crippled.  We have them on the run.
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("FEL_obj_15");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("fel_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("obj15", 1.0, 0.0, 0.0); //  Those things are tough to take down.  2 more to go!
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("FEL_obj_16");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("fel_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROFEL0016", 1.0, 0.0, 0.0); //  Nice work, just one more!
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("FEL_obj_17");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("fel_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROFEL0017", 1.0, 0.0, 0.0); //  There are no more reinforcements.  We must retreat.
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("FEL_obj_18");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("fel_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROFEL0018", 1.0, 0.0, 0.0); //  reinforcements are at a critical level
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("FEL_obj_1");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("fel_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROFEL0019", 1.0, 0.0, 0.0); //  Take the Fungal Tree and the CIS will lose their foothold on the planet.
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("FEL_obj_20");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("fel_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROFEL0020", 1.0, 0.0, 0.0); //  Nice work clone.  The ATTE has been reactivated.
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("FEL_inf_04");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("fel_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("RIFEL0005", 1.0, 0.0, 0.0); //  I heard General Kenobi fought one of those on Geonosis single handedly 
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("FEL_inf_05");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("fel_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("RIFEL0006", 1.0, 0.0, 0.0); //  We've lost the AT-TE!
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("FEL_inf_06");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("fel_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("RIFEL0007", 1.0, 0.0, 0.0); //  There's too many droids!
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("FEL_inf_07");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("fel_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("RIFEL0008", 1.0, 0.0, 0.0); //  The battle is lost, we have to pull out!
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("FEL_inf_08");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("fel_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("RIFEL0004", 1.0, 0.0, 0.0); //  The battle is lost, we have to pull out!
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("FEL_inf_09");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("fel_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("RIFEL0009", 1.0, 0.0, 0.0); //  //    What is that thing?!?! AHHHHH!!!!
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("FEL_inf_10");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("fel_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("RIFEL0010", 1.0, 0.0, 0.0); //  //    These things are everywhere!
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("FEL_inf_11");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("fel_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("RIFEL0011", 1.0, 0.0, 0.0); //  Where are they?  Oh my god, they're all dead!
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("FEL_inf_12");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("fel_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("RIFEL0012", 1.0, 0.0, 0.0); //  Movement to the north!
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("FEL_Secura_01");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("fel_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("AYSFEL001", 1.0, 0.0, 0.0); //  Take out the heavy armor!
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("FEL_Secura_02");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("fel_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("AYSFEL002", 1.0, 0.0, 0.0); //  Once the heavy armor is cleared, we’ll have them on the run
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("FEL_Secura_03");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("fel_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("AYSFEL003", 1.0, 0.0, 0.0); //  Keep an eye out for flying predators
+
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("FEL_Secura_04");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("fel_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("AYSFEL004", 1.0, 0.0, 0.0); //  Let’s take that fungal tree
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("FEL_Secura_05");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("fel_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("AYSFEL005", 1.0, 0.0, 0.0); //  Don't lose control of that tree!
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("FEL_Secura_06");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("fel_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("AYSFEL006", 1.0, 0.0, 0.0); //  They're scattering!
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("FEL_Secura_07");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("fel_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("AYSFEL007", 1.0, 0.0, 0.0); //  Let’s finish 'em up and move out!
+    }
+}

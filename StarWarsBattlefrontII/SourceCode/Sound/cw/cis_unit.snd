@@ -1,0 +1,862 @@
+// ------ CIS Unit Sound Properties -----------------
+
+//ODF                             WeaponODF
+//cis_bldg_inf_autoturret         cis_weap_inf_autoturret
+//cis_hero_countdooku             cis_weap_lightsaber               - sound props in global_world
+//cis_hero_countdooku             com_weap_inf_force_choke          - sound props in global_world
+//cis_hero_countdooku             com_weap_inf_force_lightning      - sound props in global_world
+//cis_hero_darthmaul              cis_weap_doublesaber              - sound props in global_world
+//cis_hero_darthmaul              com_weap_inf_force_push           - sound props in global_world
+//cis_hero_darthmaul              com_weap_inf_sabre_throw          - sound props in global_world
+//cis_hero_grievous               cis_weap_grievoussabers           - sound props in global_world
+//cis_hero_jangofett              cis_weap_hero_flamethrower        - sound props in global_world
+//cis_hero_jangofett              cis_weap_hero_jangopistol
+//cis_hero_jangofett              cis_weap_inf_timebomb             - sound props in global_world
+//cis_hero_jangofett              cis_weap_inf_wrist_rocket
+//cis_inf_default_droideka        cis_weap_inf_repeater
+//cis_inf_default_droideka        cis_weap_walk_droideka_shield
+//cis_inf_default_engineer        cis_weap_inf_autoturret_dispenser - sound props in global_world
+//cis_inf_default_engineer        cis_weap_inf_detpack              - sound props in global_world
+//cis_inf_default_engineer        cis_weap_inf_fusioncutter         - sound props in global_world
+//cis_inf_default_engineer        cis_weap_inf_shotgun
+//cis_inf_default_marine          cis_weap_inf_rifle
+//cis_inf_default_marine          cis_weap_inf_rocket_launcher
+//cis_inf_default_marine          cis_weap_inf_thermaldetonator
+//cis_inf_default_officer         cis_weap_inf_buff_damage          - sound props in global_world
+//cis_inf_default_officer         cis_weap_inf_bulldog
+//cis_inf_default_officer         cis_weap_inf_mortar_launcher
+//cis_inf_default_officer         cis_weap_inf_powerup_dispenser    - sound props in global_world
+//cis_inf_default_pilot           cis_weap_inf_commando_pistol
+//cis_inf_default_pilot           cis_weap_inf_fusioncutter         - sound props in global_world
+//cis_inf_default_pilot           cis_weap_inf_timebomb             - sound props in global_world
+//cis_inf_default_rifleman        cis_weap_inf_wrist_blaster
+//cis_inf_default_rifleman        cis_weap_inf_wrist_rocket
+//cis_inf_default_rifleman        cis_weap_inf_wrist_trishot        - sound props in global_world
+//cis_inf_default_rocketeer       cis_weap_inf_mine_dispenser       - sound props in global_world
+//cis_inf_default_rocketeer       cis_weap_inf_pistol
+//cis_inf_default_rocketeer       cis_weap_inf_rocket_launcher
+//cis_inf_default_rocketeer       cis_weap_inf_thermaldetonator     - sound props in global_world
+//cis_inf_default_sniper          cis_weap_inf_pistol
+//cis_inf_default_sniper          cis_weap_inf_remotedroid          - sound props in global_world
+//cis_inf_default_sniper          cis_weap_inf_sniper_rifle         - sound props in global_world
+//cis_inf_default_sniper          cis_weap_inf_thermaldetonator     - sound props in global_world
+//cis_inf_droideka                cis_weap_inf_repeater
+//cis_weap_inf_remotedroid_ord    cis_weap_inf_remotedroid_blaster  - sound props in global_world
+//cis_weap_inf_remotedroid_ord    cis_weap_inf_remotedroid_destruct - sound props in global_world
+
+
+// ===== Note: Common jedi sound properties located in global_world.snd
+
+// ========== Start Heroes ===========
+// ----- Count Dooku Start -------------------------------------------------
+// ----- Count Dooku End ---------------------------------------------------
+
+// ----- Darth Maul Start -------------------------------------------------
+// ----- Darth Maul End ---------------------------------------------------
+
+// ----- Grievous Start -------------------------------------------------
+// ----- Grievous End ---------------------------------------------------
+
+// ----- Jango Fett Start -------------------------------------------------
+// Jetpack located in gloabal world snd until nits finalized
+
+SoundProperties()
+{
+    Name("jango_inf_com_chatter_wound");
+    Group("cis_inf_pain_vo");
+    Inherit("pain_chatter_template");
+    PlayInterval(0.0);
+    PlayIntervalDev(0.0);
+    PlayProbability(0.85);
+    SampleList()
+    {
+        Sample("RICOM401", 0.33);
+        Sample("RICOM402", 0.33);
+        Sample("RICOM403", 0.33);
+    }
+}
+
+SoundProperties()
+{
+    Name("jango_inf_com_chatter_death");
+    Group("cis_inf_pain_vo");
+    Inherit("pain_chatter_template");
+    PlayInterval(0.0);
+    PlayIntervalDev(0.0);
+    PlayProbability(1.0);
+    SampleList()
+    {
+        Sample("RICOM404", 0.33);
+        Sample("RICOM405", 0.33);
+        Sample("RICOM406", 0.33);
+    }
+}
+
+
+// ----- Jango Fett End ---------------------------------------------------
+// =========== End Heroes =============
+
+// ----- Start CIS Pain Chatter ------------------------------------
+
+SoundProperties()
+{
+    Name("cis_inf_com_chatter_wound");
+    Group("cis_vo");
+    Inherit("pain_chatter_template");
+    PlayInterval(0.0);
+    PlayIntervalDev(0.0);
+    PlayProbability(0.85);
+    SampleList()
+    {
+        Sample("CICOM401", 0.33, 0.0, 0.0);
+        Sample("CICOM408", 0.33, 0.0, 0.0);
+        Sample("CICOM409", 0.33, 0.0, 0.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("droid_death");
+    Group("cis_vo");
+    Inherit("pain_chatter_template");
+    PlayInterval(0.0);
+    PlayIntervalDev(0.0);
+    PlayProbability(1.0);
+    SampleList()
+    {
+        Sample("drd_droid_hit_01", 0.167);
+        Sample("drd_droid_hit_02", 0.167);
+        Sample("drd_droid_hit_03", 0.167);
+        Sample("drd_droid_hit_04", 0.167);
+        Sample("drd_droid_hit_05", 0.167);
+        Sample("drd_droid_hit_06", 0.167);
+    }
+}
+
+// ----- End CIS Pain Chatter ------------------------------------
+
+
+
+
+// ----- Start CIS Buff Damage -----------------------
+
+SoundProperties()
+{
+    Name("buff_poison_fire");
+    Group("weapons");
+    Inherit("weapon_template");
+    MinDistance(15.0);
+    SampleList()
+    {
+        Sample("buff_poison_fire", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("buff_poison_effect");
+    Group("weapons");
+    MinDistance(15.0);
+    Inherit("ordnance_template");
+    SampleList()
+    {
+        Sample("buff_poison_effect", 1.0);
+    }
+}
+
+
+// ----- End CIS Buff Damage -------------------------
+
+// ----- Start CIS Bulldog--------------------
+
+SoundProperties()
+{
+    Name("cis_weap_inf_bulldog_fire");
+    Group("weapons");
+    Inherit("weapon_template");
+    Pitch(1.1);
+    SampleList()
+    {
+        Sample("bulldog_fire", 1.0);
+    }
+}
+
+
+SoundProperties()
+{
+    Name("cis_weap_inf_bulldog_ordnance");
+    Group("Ordnance");
+    Inherit("ordnance_template");
+    Gain(1.0);
+    Rolloff(1.5);
+    MinDistance(10.0);
+    MaxDistance(50.0);
+    MuteDistance(50.0);
+    SampleList()
+    {
+        Sample("ammo_rocket_lp02", 1.0);
+    }
+}
+// ----- End CIS Bulldog -------------------------
+
+
+
+// ----- Start CIS Commando Pistol ----------------------
+
+SoundProperties()
+{
+    Name("cis_weap_inf_commando_pistol_fire");
+    Group("weapons");
+    Inherit("weapon_template");
+    SampleList()
+    {
+        Sample("com_cpistol_fire", 1.0);
+    }
+}
+
+// ----- End CIS Commando Pistol -------------------------
+
+// ----- Start CIS Detpack Dispenser -----------------------
+// Included in global until unit weapons finalized
+// ----- End CIS Detpack Dispenser -------------------------
+
+// ----- Start CIS Force Lightning -----------------------
+// ----- End CIS Force Lightning -------------------------
+
+// ----- Start CIS Fusioncutter -------------------------
+// Included in global until unit weapons finalized
+// ----- End CIS Fusioncutter ---------------------------
+
+// ----- Start CIS Mine Dispenser -------------------------
+// Included in global until unit weapons finalized
+// ----- End CIS Mine Dispenser ---------------------------
+
+// ----- Start CIS Mortar Launcher -------------
+
+SoundProperties()
+{
+    Name("cis_weap_inf_mortar_launcher_fire");
+    Group("weapons");
+    Inherit("weapon_template");
+    SampleList()
+    {
+        Sample("wpn_rep_grenadelaunch_fire", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("cis_weap_inf_mortar_launcher_ord_hum");
+    Group("Ordnance");
+    Inherit("ordnance_template");
+    Gain(0.5);
+    Pitch(0.9)
+    SampleList()
+    {
+        Sample("neon_buzz", 1.0);
+    }
+}
+
+// ----- End CIS Mortar Launcher ---------------
+
+
+// ----- Start CIS Pistol ----------------------
+
+SoundProperties()
+{
+    Name("cis_weap_inf_pistol_fire");
+    Group("weapons");
+    Inherit("weapon_template");
+    SampleList()
+    {
+        Sample("wpn_cis_pistol_fire", 1.0);
+    }
+}
+
+// ----- End CIS Pistol -------------------------
+
+
+// ----- Start CIS Powerup Dispenser -------------------------
+// Included in global until unit weapons finalized
+// ----- End CIS Powerup Dispenser ---------------------------
+
+
+
+
+// ----- Start CIS Remote Droid ------------------------------
+// Included in global until unit weapons finalized
+// Imperial Orbital Attack --------------
+// ----- End CIS Remote Droid --------------------------------
+
+
+
+
+// ----- Start CIS Repeater ----------------------------------
+// Repeater is the ODF name for the Droideka blaster
+// Not used elsewhere -- See Droideka Section
+// ----- End CIS Repeater ------------------------------------
+
+
+
+
+// ----- Start CIS Rifle ---------------------------------------------
+
+SoundProperties()
+{
+    Name("cis_weap_inf_rifle_fire");
+    Group("weapons");
+    Inherit("weapon_template");
+    SampleList()
+    {
+        Sample("wpn_cis_blaster_fire", 1.0);
+    }
+}
+
+// ----- End CIS Rifle ---------------------------------------------
+
+
+// ----- Start CIS Rocket Launcher ---------------------------------------------
+
+SoundProperties()
+{
+    Name("cis_weap_inf_rocket_launcher_fire");
+    Group("weapons");
+    Inherit("weapon_template");
+    SampleList()
+    {
+        Sample("wpn_cis_rcktlauncher_fire", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("cis_weap_inf_rocket_launcher_tracking");
+    Group("weapons_foley");
+    Inherit("body_movement_template");
+    Pitch(1.5)
+    looping (1);
+    SampleList()
+    {
+        Sample("com_tracking_loop", 1.0);
+    }
+}
+
+// ----- End CIS Rocket Launcher ---------------------------------------------
+
+
+
+
+// ----- Start CIS Shotgun -----------------------------
+
+SoundProperties()
+{
+    Name("cis_weap_inf_shotgun_fire");
+    Group("weapons");
+    Inherit("weapon_template");
+    Gain(1.0)
+    SampleList()
+    {
+        Sample("com_weap_shotgun_fire", 1.0);
+    }
+}
+
+// ----- End CIS Shotgun -------------------------
+
+
+// ----- Start CIS Sniper Rifle -------------------------------------------
+
+SoundProperties()
+{
+    Name("cis_weap_inf_sniper_rifle_fire");
+    Group("weapons");
+    Inherit("weapon_template");
+    Pitch(1.0);
+    PitchDev(0.05);
+    SampleList()
+    {
+        Sample("wep_All_sniper_01", 1.0);
+    }
+}
+
+// ----- End CIS Sniper Rifle ---------------------------------------------
+
+// ----- Start CIS Thermal Detonator -------------------------
+// Included in global until unit weapons finalized
+// ----- End CIS Thermal Detonator ---------------------------
+
+// ----- Start CIS Wrist Blaster -----------------------------
+
+SoundProperties()
+{
+    Name("cis_weap_inf_wrist_blaster_fire");
+    Group("weapons");
+    Inherit("weapon_template");
+    SampleList()
+    {
+        Sample("wpn_cis_blaster_fire", 1.0);
+    }
+}
+
+// ----- End CIS Wrist Blaster -----------------------------
+
+// ----- Start CIS Wrist Rocket -----------------------------
+
+SoundProperties()
+{
+    Name("cis_weap_inf_wrist_rocket_fire");
+    Group("weapons");
+    Inherit("weapon_template");
+    SampleList()
+    {
+        Sample("wpn_cis_rcktlauncher_fire", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("cis_weap_inf_wrist_rocket_equip");
+    Group("weapons_foley");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("wpn_cis_lgEquip", 1.0);
+    }
+}
+
+// No Tracking presently on wrist rocket
+//SoundProperties()
+//{
+//    Name("cis_weap_inf_wrist_rocket_tracking");
+//    Group("weapons_foley");
+//    Inherit("body_movement_template");
+//    looping (1);
+//    SampleList()
+//    {
+//        Sample("wpn_cis_unit_lockon_lp", 1.0);
+//    }
+//}
+
+SoundProperties()
+{
+    Name("cis_weap_inf_wrist_rocket_reload");
+    Group("weapons_foley");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("wpn_wristRocket_reload", 1.0);
+    }
+}
+
+// ----- End CIS Wrist Rocket -----------------------------
+
+// ----- Start CIS Wrist Trishot ---------------------------
+
+SoundProperties()
+{
+    Name("cis_weap_inf_wrist_trishot_fire");
+    Group("weapons");
+    Inherit("weapon_template");
+    Pitch(0.9);
+    SampleList()
+    {
+        Sample("com_weap_triburst_fire", 1.0);
+    }
+}
+
+// ----- End CIS Wrist Trishot   ---------------------------
+
+
+
+
+// Droideka Start --------------------------------------------------------------
+
+SoundProperties()
+{
+    Name("cis_weap_inf_droideka_fire");
+    Group("weapons");
+    Inherit("weapon_template");
+#ifplatform pc
+    Gain(0.7);
+#endifplatform pc
+#ifplatform xbox ps2
+    Gain(0.4);
+#endifplatform xbox ps2
+    RollOff(3.0);
+    SampleList()
+    {
+        Sample("wpn_droideka_blaster_fire", 1.0);
+    }
+}
+
+//SoundProperties()
+//{
+//    Name("cis_weap_inf_droideka_chargeup");
+//    Group("weapons");
+//    Inherit("weapon_template");
+//    Pitch(0.3);
+//    RollOff(5.0);
+//    SampleList()
+//    {
+//        Sample("wpn_droideka_chargeup", 1.0);
+//    }
+//}
+
+SoundProperties()
+{
+    Name("cis_inf_droideka_step");
+    Group("body_movement");
+    Inherit("body_movement_metal_template");
+    Gain(0.8);
+    CyclePlayback(1);
+    SampleList()
+    {
+        Sample("fs_droideka_01", 0.25);
+        Sample("fs_droideka_02", 0.25);
+        Sample("fs_droideka_03", 0.25);
+        Sample("fs_droideka_04", 0.25);
+    }
+}
+
+// Shield ambience not used
+//SoundProperties()
+//{
+//    Name("cis_droideka_shield");
+//    Pitch(2.0);
+//    PitchDev(0.0);
+//    Gain(0.0);
+//    GainDev(0.0);
+//    ReverbGain(1.0);
+//    Bus("soundfx");
+//    Looping(1);
+//    Pan(0.0);
+//    MinDistance(10.0);
+//    MuteDistance(20.0);
+//    MaxDistance(20.0);
+//    RollOff(1.0);
+//    Mode3D(1);
+//    Bias(0.0001);
+//    Priority(0.5);
+//    SampleList()
+//    {
+//     Sample("droid_fx7_hum_lp", 1.0);
+//    }
+//}
+
+SoundProperties()
+{
+    Name("cis_droideka_shield_on");
+    Pitch(1.0);
+    PitchDev(0.0);
+    Gain(1.0);
+    GainDev(0.0);
+    ReverbGain(1.0);
+    Bus("soundfx");
+    Looping(0);
+    Pan(0.0);
+    MinDistance(10.0);
+    MuteDistance(40.0);
+    MaxDistance(40.0);
+    RollOff(1.0);
+    Mode3D(1);
+    Bias(0.0001);
+    Priority(0.5);
+    SampleList()
+    {
+        Sample("drd_droideka_shield_on", 1.0);
+    }
+}
+
+
+//SoundProperties()
+//{
+//    Name("cis_droideka_shield_wearoff");
+//    Pitch(1.0);
+//    PitchDev(0.0);
+//    Gain(1.0);
+//    GainDev(0.0);
+//    ReverbGain(1.0);
+//    Bus("soundfx");
+//    Looping(0);
+//    Pan(0.0);
+//    MinDistance(6.0);
+//    MuteDistance(50.0);
+//    MaxDistance(50.0);
+//    RollOff(3.0);
+//    Mode3D(1);
+//    Bias(0.0001);
+//    Priority(0.5);
+//    SampleList()
+//    {
+//    Sample("drd_droideka_flicker_lp", 1.0);
+//    }
+//}
+
+
+SoundProperties()
+{
+    Name("cis_droideka_fold_property");
+    Pitch(1.0);
+    PitchDev(0.0);
+    Gain(1.0);
+    GainDev(0.0);
+    ReverbGain(1.0);
+    Bus("soundfx");
+    Looping(0);
+    Pan(0.0);
+    MinDistance(6.0);
+    MuteDistance(70.0);
+    MaxDistance(70.0);
+    RollOff(3.0);
+    Mode3D(1);
+    Bias(0.0001);
+    Priority(0.5);
+    SampleList()
+    {
+    Sample("drd_droideka_fold", 1.0);
+    }
+}
+
+SoundLayered()
+{
+    Name("cis_droideka_fold");
+    Layer("null", "cis_droideka_fold_property", 0.15);
+}
+
+
+SoundProperties()
+{
+    Name("cis_droideka_unfold_property");
+    Pitch(1.0);
+    PitchDev(0.0);
+    Gain(1.0);
+    GainDev(0.0);
+    ReverbGain(1.0);
+    Bus("soundfx");
+    Looping(0);
+    Pan(0.0);
+    MinDistance(6.0);
+    MuteDistance(70.0);
+    MaxDistance(70.0);
+    RollOff(3.0);
+    Mode3D(1);
+    Bias(0.0001);
+    Priority(0.5);
+    SampleList()
+    {
+    Sample("drd_droideka_unfold", 1.0);
+    }
+}
+
+SoundLayered()
+{
+    Name("cis_droideka_unfold");
+    Layer("null", "cis_droideka_unfold_property", 0.35);
+    Layer("null", "cis_droideka_fold_property", 0.0);
+}
+
+
+
+SoundProperties()
+{
+    Name("cis_droideka_jump");
+    Pitch(1.0);
+    PitchDev(0.0);
+    Gain(1.0);
+    GainDev(0.0);
+    ReverbGain(1.0);
+    Bus("soundfx");
+    Looping(0);
+    Pan(0.0);
+    MinDistance(6.0);
+    MuteDistance(70.0);
+    MaxDistance(70.0);
+    RollOff(3.0);
+    Mode3D(1);
+    Bias(0.0001);
+    Priority(0.5);
+    SampleList()
+    {
+    Sample("wpn_snowSpder_towCable_rls", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("cis_walk_droideka_engine_parameterized");
+    Pitch(1.0);
+    PitchDev(0.0);
+    Gain(1.0);
+    GainDev(0.0);
+    ReverbGain(1.0);
+    Bus("soundfx");
+    Looping(1);
+    Pan(0.0);
+    MinDistance(6.0);
+    MuteDistance(70.0);
+    MaxDistance(70.0);
+    RollOff(3.0);
+    Mode3D(1);
+    Bias(0.0001);
+    Priority(0.5);
+    SampleList()
+    {
+      Sample("drd_droideka_roll_lp", 1.0);
+    }
+}
+
+ParameterGraph()
+{
+    Name("droidekaengine_speed");
+    ControlPoint(0.0, 0.0);
+    ControlPoint(0.5, 0.5);
+    ControlPoint(1.0, 1.0);
+}
+
+ParameterGraph()
+{
+    Name("droidekaengine_acceleration");
+    ControlPoint(-1.0, 0.0);
+    ControlPoint(0.0, 0.0);
+    ControlPoint(0.8, 0.1);
+    ControlPoint(1.0, 0.65);
+}
+
+SoundLayered()
+{
+    Name("droidekaengine_layered");
+    Layer("droideka_engine", "cis_walk_droideka_engine_parameterized", 0.0);
+}
+
+SoundParameterized()
+{
+    Name("cis_walk_droideka_engine_parameterized");
+    SoundLayered("droidekaengine_layered");
+    Layer()
+    {
+        Name("droideka_engine");
+        ParameterGraph("speed",        "droidekaengine_speed",        "pitch");
+        ParameterGraph("speed",        "droidekaengine_acceleration", "gain");
+    }
+}
+// Droideka End --------------------------------------------------------------
+
+
+
+
+
+// CIS UNIT VO Effects
+//..\..\cw\effects\CICOM401.wav    -resample ps2 5000   xbox 16000  pc 22050
+//..\..\cw\effects\CICOM408.wav    -resample ps2 6000   xbox 16000  pc 22050
+//..\..\cw\effects\CICOM409.wav    -resample ps2 14000  xbox 16000  pc 22050
+
+
+// BDroid Death Explosions ------------------------------------------------------
+//..\..\cw\effects\drd_droid_hit_01.wav     -resample ps2 16000 xbox 22050 pc 22050
+//..\..\cw\effects\drd_droid_hit_02.wav    -alias ps2 drd_droid_hit_01  -resample xbox 22050 pc 22050
+//..\..\cw\effects\drd_droid_hit_03.wav    -resample ps2 16000 xbox 22050 pc 22050
+//..\..\cw\effects\drd_droid_hit_04.wav    -alias ps2 drd_droid_hit_03 -resample xbox 22050 pc 22050
+//..\..\cw\effects\drd_droid_hit_05.wav    -alias ps2 drd_droid_hit_01 -resample xbox 22050 pc 22050
+//..\..\cw\effects\drd_droid_hit_06.wav    -resample ps2 16000 xbox 22050 pc 22050
+
+
+//  Droideka -------------------------------------------------------------------------------------
+// Footsteps
+//..\..\cw\effects\fs_droideka_01.wav     -resample ps2 16000 xbox 22050 pc 22050
+//..\..\cw\effects\fs_droideka_02.wav     -resample ps2 16000 xbox 22050 pc 22050
+//..\..\cw\effects\fs_droideka_03.wav     -resample ps2 16000 xbox 22050 pc 22050
+//..\..\cw\effects\fs_droideka_04.wav     -alias ps2 fs_droideka_01 -resample xbox 22050 pc 22050
+//#ifplatform xbox pc
+//..\..\cw\effects\wpn_droideka_blaster_fire.wav  -resample xbox 20000 pc 44100
+//..\..\cw\effects\drd_droideka_fold.wav          -resample xbox 20000 pc 22050
+//..\..\cw\effects\drd_droideka_unfold.wav        -resample xbox 22050 pc 22050
+//..\..\cw\effects\drd_droideka_roll_lp.wav       -resample xbox 20000 pc 22050
+//..\..\cw\effects\drd_droideka_shield_on.wav     -resample xbox 20000 pc 22050
+//#endifplatform xbox pc
+//#ifplatform ps2
+//..\..\cw\effects\wp2_droideka_blaster_fire.wav  wpn_droideka_blaster_fire     -resample ps2 18000
+//..\..\cw\effects\dr2_droideka_fold.wav          drd_droideka_fold             -resample ps2 18000
+//..\..\cw\effects\dr2_droideka_unfold.wav        drd_droideka_unfold           -resample ps2 20000
+//..\..\cw\effects\dr2_droideka_roll_lp.wav       drd_droideka_roll_lp          -resample ps2 17000
+//..\..\cw\effects\dr2_droideka_shield_on.wav     drd_droideka_shield_on        -resample ps2 17000
+//#endifplatform ps2
+
+// Common Weapon Foley
+//#ifplatform xbox pc
+//..\..\global\effects\mvt_getup_rifle.wav     -resample xbox 22050 pc 22050
+//..\..\global\effects\mvt_jump_rifle.wav      -resample xbox 22050 pc 22050
+//..\..\global\effects\mvt_land_rifle.wav      -resample xbox 22050 pc 22050
+//..\..\global\effects\mvt_squat_rifle.wav     -resample xbox 22050 pc 22050
+//..\..\global\effects\mvt_roll_rifle.wav      -resample xbox 22050 pc 22050
+//..\..\global\effects\mvt_lie_rifle.wav       -resample xbox 22050 pc 22050
+//..\..\global\effects\mvt_getup_pistol.wav    -resample xbox 22050 pc 22050
+//..\..\global\effects\mvt_jump_pistol.wav     -resample xbox 22050 pc 22050
+//..\..\global\effects\mvt_land_pistol.wav     -resample xbox 22050 pc 22050
+//..\..\global\effects\mvt_squat_pistol.wav    -resample xbox 22050 pc 22050
+//..\..\global\effects\mvt_roll_pistol.wav     -resample xbox 22050 pc 22050
+//..\..\global\effects\mvt_lie_pistol.wav      -resample xbox 22050 pc 22050
+//..\..\global\effects\mvt_getup_bazooka.wav   -resample xbox 22050 pc 22050
+//..\..\global\effects\mvt_jump_bazooka.wav    -resample xbox 22050 pc 22050
+//..\..\global\effects\mvt_land_bazooka.wav    -resample xbox 22050 pc 22050
+//..\..\global\effects\mvt_squat_bazooka.wav   -resample xbox 22050 pc 22050
+//..\..\global\effects\mvt_roll_bazooka.wav    -resample xbox 22050 pc 22050
+//..\..\global\effects\mvt_lie_bazooka.wav     -resample xbox 22050 pc 22050
+//..\..\global\effects\mvt_bazooka_lgBF_01.wav -resample xbox 22050 pc 22050
+//..\..\global\effects\mvt_bazooka_lgBF_02.wav -resample xbox 12000 pc 22050
+//..\..\global\effects\mvt_bazooka_lgBF_03.wav -resample xbox 22050 pc 22050
+//..\..\global\effects\mvt_bazooka_smBF.wav    -resample xbox 22050 pc 22050
+//#endifplatform xbox pc
+
+
+//wpn_all_bowcaster_fire
+//wpn_cis_blaster_fire
+//wpn_cis_lgEquip
+//wpn_cis_medEquip
+//wpn_cis_medReload
+//wpn_cis_pistol_fire
+//wpn_cis_rcktlauncher_fire
+//wpn_cis_smlEquip
+//wpn_cis_sniperrifle_fire
+//wpn_cis_unit_lockon_lp
+//wpn_droideka_blaster_fire
+//wpn_rep_grenadelaunch_fire
+//wpn_republic_lgReload
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

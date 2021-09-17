@@ -1,0 +1,213 @@
+// Soundspaces --------------------------
+
+Space()
+{
+    Name("Default");
+    I3DL2ReverbPreset("noreverb");
+    DirectGain(1.0);
+    DirectHFGain(1.0);
+    RoomGain(0.0);
+    RoomHFGain(0.0);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.5);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.5);
+    OcclusionLFRatio(1.0);
+}
+
+#ifplatform pc
+I3DL2ReverbPreset()
+{
+    Name("stoneroom");
+    RoomGain(1.0);
+    RoomHFGain(0.9);
+    RoomRollOff(1.0);
+    DecayTime(2.0);
+    DecayHFRatio(0.3);
+    ERGain(0.5);
+    ERDelay(0.04);
+    ReverbGain(0.3);
+    ReverbDelay(0.05);
+    Diffusion(100.0);
+    Density(100.0);
+    HFReference(5000.0);
+}
+#endifplatform pc
+
+#ifplatform xbox
+I3DL2ReverbPreset()
+{
+    Name("stoneroom");
+    RoomGain(1.0);
+    RoomHFGain(0.9);
+    RoomRollOff(1.0);
+    DecayTime(2.0);
+    DecayHFRatio(0.3);
+    ERGain(0.5);
+    ERDelay(0.04);
+    ReverbGain(0.3);
+    ReverbDelay(0.05);
+    Diffusion(100.0);
+    Density(100.0);
+    HFReference(5000.0);
+}
+#endifplatform xbox
+
+#ifplatform ps2
+I3DL2ReverbPreset()
+{
+    Name("stoneroom");
+    RoomGain(0.25);
+    RoomHFGain(0.9);
+    RoomRollOff(1.0);
+    DecayTime(2.0);
+    DecayHFRatio(0.3);
+    ERGain(0.1);
+    ERDelay(0.04);
+    ReverbGain(0.3);
+    ReverbDelay(0.05);
+    Diffusion(100.0);
+    Density(100.0);
+    HFReference(5000.0);
+}
+#endifplatform ps2
+
+Space()
+{
+    Name("Temple");
+    I3DL2ReverbPreset("stoneroom");
+    DirectGain(1.0);
+    DirectHFGain(1.0);
+    RoomGain(1.0);
+    RoomHFGain(0.8);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.1);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.1);
+    OcclusionLFRatio(1.0);
+}
+
+// Ambient Environment ---------------------------------------------
+
+SoundStreamProperties()
+{
+    Name("yav_amb_forest");
+    Group("ambientenv");
+    Inherit("ambientfx_template");
+    Gain(0.25);
+    Stream("yav1");
+    SegmentList()
+    {
+        Segment("yav_amb_forest", 1.0);
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("yav_amb_temple");
+    Group("ambientenv");
+    Inherit("ambientfx_template");
+    Gain(0.3);
+    Stream("yav1");
+    SegmentList()
+    {
+        Segment("yav_amb_temple", 1.0);
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("yav_amb_maproom");
+    Group("ambientenv");
+    Inherit("ambientfx_template");
+    Gain(0.7);
+    Stream("yav1");
+    SegmentList()
+    {
+        Segment("yav_amb_maproom", 1.0);
+    }
+}
+
+// Ambient Emitters ------------------------------------------------
+
+SoundStreamProperties()
+{
+    Name("waterfall1");
+    Group("ambientenv");
+    Inherit("ambientemt_template");
+    Gain(0.8);
+    Looping(1);
+    Rolloff(1.0);
+    //Max and Min distance set in wld or lyr file
+    Stream("yav1_emt");
+    SegmentList()
+    {
+        Segment("emt_waterfall_lp", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("minifall");
+    Group("ambientenv");
+    Inherit("ambientemt_static_template");
+    Gain(0.4);
+    RandomPlayPos(1);
+    MaxDistance(60);
+    Looping(1);
+    Rolloff(3.0);
+    //Max and Min distance set in wld or lyr file
+    SampleList()
+    {
+        Sample("emt_fountain_lp", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("stream1");
+    Group("ambientenv");
+    Inherit("ambientemt_static_template");
+    Gain(0.3);
+    Looping(1);
+    //Max and Min distance set in wld or lyr file
+    Rolloff(2.0);
+    SampleList()
+    {
+        Sample("emt_canal_stream_lp", 1.0);
+    }
+}
+
+
+
+// ----- Prop Ambient Effects Start --------------------------------
+
+SoundProperties()
+{
+    Name("foliage_collision");
+    Pitch(0.9);
+    PitchDev(0.2);
+    Gain(0.4);
+    GainDev(0.05);
+    ReverbGain(1.0);
+    Bus("soundfx");
+    Looping(0);
+    Pan(0.0);
+    MinDistance(1.0);
+    MuteDistance(40.0);
+    MaxDistance(40.0);
+    RollOff(10.0);
+    Mode3D(1);
+    Bias(0.0001);
+    Priority(0.5);
+    SampleList()
+    {
+        Sample("emt_foliageCollision_01", 0.33);
+        Sample("emt_foliageCollision_02", 0.33);
+        Sample("emt_foliageCollision_03", 0.33);
+
+    }
+}
+
+
+// ----- Prop Ambient Effects End ----------------------------------

@@ -1,0 +1,627 @@
+// Start Ambient Streams ------------------------
+
+SoundStreamProperties()
+{
+    Name("kam_amb_rain");
+    Group("ambientenv");
+    Inherit("ambientfx_template");
+#ifplatform pc
+    Gain(0.8);
+#endifplatform pc
+#ifplatform xbox 
+    Gain(0.9);
+#endifplatform xbox 
+#ifplatform ps2
+    Gain(1.0);
+#endifplatform ps2
+    Stream("kam1");
+    SegmentList()
+    {
+        Segment("kam_amb_rain", 1.0);
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("kam_amb_rain_interior");
+    Group("ambientenv");
+    Inherit("ambientfx_template");
+    Gain(0.7);
+    Stream("kam1");
+    SegmentList()
+    {
+        Segment("kam_amb_rain_interior", 1.0);
+    }
+}
+
+
+// End Ambient Streams --------------------------------
+
+// Start Rain and Thunder ----------------------------
+
+SoundProperties()
+{
+    Name("kam_amb_thunder")
+    Pitch(1.0);
+    PitchDev(0.15);
+#ifplatform pc
+    Gain(1.0);
+#endifplatform pc
+#ifplatform xbox ps2
+    Gain(0.6);
+#endifplatform xbox ps2
+    GainDev(0.2);
+    ReverbGain(1.0);
+    Bus("ambience");
+    Pan(0.0);
+    Mode3D(1);
+    Bias(0.0001);
+    Priority(0.5);
+    PlayInterval(3.0);
+    MinDistance(50);
+    MuteDistance(500);
+    MaxDistance(500);
+    SampleList()
+    {
+        Sample("emt_thunder_clap_01", 0.33);
+        Sample("emt_thunder_clap_02", 0.33);
+        Sample("emt_thunder_clap_03", 0.33);
+    }
+}
+
+SoundProperties()
+{
+    Name("kam_amb_thundersub")
+    Pitch(1.0);
+    PitchDev(0.15);
+#ifplatform pc
+    Gain(1.0);
+#endifplatform pc
+#ifplatform xbox
+    Gain(0.6);
+#endifplatform xbox
+    GainDev(0.1);
+    ReverbGain(1.0);
+    Bus("ambience");
+    Looping(0);
+    Pan(0.0);
+    Mode3D(1);
+    Bias(0.0001);
+    Priority(0.5);
+    PlayInterval(0.5);
+    MinDistance(50);
+    MuteDistance(500);
+    MaxDistance(500);
+    SampleList()
+    {
+        Sample("emt_thunder_roll_01", 0.33);
+        Sample("emt_thunder_roll_02", 0.33);
+        Sample("emt_thunder_roll_03", 0.33);
+    }
+}
+// End Rain and Thunder ----------------------------------
+
+// Start Ambient Effects ----------------------------------
+
+SoundProperties()
+{
+    Name("gutter_rain");
+    Group("ambientenv");
+    Inherit("ambientemt_static_template");
+    Gain(0.8);
+    Looping(1);
+    SampleList()
+    {
+        Sample("emt_kamRainGutter_01", 1.0);
+        Sample("emt_kamRainGutter_02", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("door_open");
+    Pitch(1.0);
+    PitchDev(0.1);
+    Gain(1.0);
+    GainDev(0.05);
+    ReverbGain(1.0);
+    Bus("soundfx");
+    Looping(0);
+    Pan(0.0);
+    MinDistance(7.0);
+    MuteDistance(50.0);
+    MaxDistance(50.0);
+    RollOff(1.0);
+    Mode3D(1);
+    Bias(0.0001);
+    Priority(0.8);
+    SpaceDistance(7.0)
+    SampleList()
+    {
+        Sample("door_open", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("door_close_layer");
+    Pitch(1.0);
+    PitchDev(0.1);
+    Gain(1.0);
+    GainDev(0.05);
+    ReverbGain(1.0);
+    Bus("soundfx");
+    Looping(0);
+    Pan(0.0);
+    MinDistance(7.0);
+    MuteDistance(50.0);
+    MaxDistance(50.0);
+    RollOff(1.0);
+    Mode3D(1);
+    Bias(0.0001);
+    Priority(0.8);
+    SpaceDistance(7.0)
+    SampleList()
+    {
+        Sample("door_close", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("big_door_open");
+    Pitch(1.0);
+    PitchDev(0.1);
+    Gain(1.0);
+    GainDev(0.05);
+    ReverbGain(1.0);
+    Bus("soundfx");
+    Looping(0);
+    Pan(0.0);
+    MinDistance(7.0);
+    MuteDistance(50.0);
+    MaxDistance(50.0);
+    RollOff(1.0);
+    Mode3D(1);
+    Bias(0.0001);
+    Priority(0.8);
+    SpaceDistance(7.0)
+    SampleList()
+    {
+        Sample("big_door_open", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("big_door_close");
+    Pitch(1.0);
+    PitchDev(0.1);
+    Gain(1.0);
+    GainDev(0.05);
+    ReverbGain(1.0);
+    Bus("soundfx");
+    Looping(0);
+    Pan(0.0);
+    MinDistance(7.0);
+    MuteDistance(50.0);
+    MaxDistance(50.0);
+    RollOff(1.0);
+    Mode3D(1);
+    Bias(0.0001);
+    Priority(0.8);
+    SpaceDistance(7.0)
+    SampleList()
+    {
+        Sample("big_door_close", 1.0);
+    }
+}
+
+
+SoundLayered()
+{
+    Name("door_close");
+    Layer("null", "door_close_layer", 0.5);
+}
+
+// End Ambient Effects -------------------------------------
+
+
+// Soundspace Start ----------------------------------------------
+#ifplatform pc
+I3DL2ReverbPreset()
+{
+    Name("controlcenter");
+    RoomGain(1.0);
+    RoomHFGain(0.9);
+    RoomRollOff(0.0);
+    DecayTime(4.0);
+    DecayHFRatio(0.8);
+    ERGain(0.4);
+    ERDelay(0.014);
+    ReverbGain(0.5);
+    ReverbDelay(0.021);
+    Diffusion(100.0);
+    Density(100.0);
+    HFReference(5000.0);
+}
+
+Space()
+{
+    Name("outside");
+    I3DL2ReverbPreset("noreverb");
+    DirectGain(1.0);
+    DirectHFGain(1.0);
+    RoomGain(0.0);
+    RoomHFGain(0.0);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(1.0);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(1.0);
+    OcclusionLFRatio(1.0);
+}
+
+Space()
+{
+    Name("bunker");
+    I3DL2ReverbPreset("controlcenter");
+    DirectGain(0.9);
+    DirectHFGain(0.9);
+    RoomGain(0.3);
+    RoomHFGain(0.3);
+    RoomRollOffFactor(0.0);
+    ObstructionHFGain(0.0);
+    ObstructionLFRatio(0.0);
+    OcclusionHFGain(0.0);
+    OcclusionLFRatio(0.0);
+}
+
+Space()
+{
+    Name("ExtHall");
+    I3DL2ReverbPreset("controlcenter");
+    DirectGain(0.9);
+    DirectHFGain(0.9);
+    RoomGain(0.3);
+    RoomHFGain(0.3);
+    RoomRollOffFactor(0.0);
+    ObstructionHFGain(0.0);
+    ObstructionLFRatio(0.0);
+    OcclusionHFGain(0.0);
+    OcclusionLFRatio(0.0);
+    ConnectedList()
+    {
+        Space("bunker", 0.15)
+        Space("outside", 0.0)
+
+    }
+}
+
+Space()
+{
+    Name("ExtDr");
+    I3DL2ReverbPreset("controlcenter");
+    DirectGain(0.9);
+    DirectHFGain(0.9);
+    RoomGain(0.6);
+    RoomHFGain(0.6);
+    RoomRollOffFactor(0.0);
+    ObstructionHFGain(0.3);
+    ObstructionLFRatio(0.0);
+    OcclusionHFGain(0.3);
+    OcclusionLFRatio(0.0);
+    ConnectedList()
+    {
+        Space("ExtHall", 0.7)
+        Space("bunker", 0.0)
+        Space("outside", 0.0)
+    }
+}
+Space()
+{
+    Name("ExtLDr1");
+    I3DL2ReverbPreset("controlcenter");
+    DirectGain(0.9);
+    DirectHFGain(0.9);
+    RoomGain(0.6);
+    RoomHFGain(0.6);
+    RoomRollOffFactor(0.0);
+    ObstructionHFGain(0.3);
+    ObstructionLFRatio(0.0);
+    OcclusionHFGain(0.3);
+    OcclusionLFRatio(0.0);
+    ConnectedList()
+    {
+        Space("ExtHall", 0.7)
+        Space("bunker", 0.0)
+        Space("outside", 0.0)
+    }    
+}
+Space()
+{
+    Name("ExtLDr2");
+    I3DL2ReverbPreset("controlcenter");
+    DirectGain(0.9);
+    DirectHFGain(0.9);
+    RoomGain(0.6);
+    RoomHFGain(0.6);
+    RoomRollOffFactor(0.0);
+    ObstructionHFGain(0.3);
+    ObstructionLFRatio(0.0);
+    OcclusionHFGain(0.3);
+    OcclusionLFRatio(0.0);
+    ConnectedList()
+    {
+        Space("ExtHall", 0.7)
+        Space("bunker", 0.0)
+        Space("outside", 0.0)
+    }    
+}
+
+
+
+#endifplatform pc
+#ifplatform xbox
+I3DL2ReverbPreset()
+{
+    Name("controlcenter");
+    RoomGain(0.3);
+    RoomHFGain(0.4);
+    RoomRollOff(0.0);
+    DecayTime(4.0);
+    DecayHFRatio(0.8);
+    ERGain(0.3);
+    ERDelay(0.014);
+    ReverbGain(0.5);
+    ReverbDelay(0.021);
+    Diffusion(100.0);
+    Density(100.0);
+    HFReference(5000.0);
+}
+
+Space()
+{
+    Name("outside");
+    I3DL2ReverbPreset("noreverb");
+    DirectGain(1.0);
+    DirectHFGain(1.0);
+    RoomGain(0.0);
+    RoomHFGain(0.0);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(1.0);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(1.0);
+    OcclusionLFRatio(1.0);
+}
+
+Space()
+{
+    Name("bunker");
+    I3DL2ReverbPreset("controlcenter");
+    DirectGain(0.9);
+    DirectHFGain(0.9);
+    RoomGain(0.3);
+    RoomHFGain(0.3);
+    RoomRollOffFactor(0.0);
+    ObstructionHFGain(0.0);
+    ObstructionLFRatio(0.0);
+    OcclusionHFGain(0.0);
+    OcclusionLFRatio(0.0);
+}
+
+Space()
+{
+    Name("ExtHall");
+    I3DL2ReverbPreset("controlcenter");
+    DirectGain(0.9);
+    DirectHFGain(0.9);
+    RoomGain(0.3);
+    RoomHFGain(0.3);
+    RoomRollOffFactor(0.0);
+    ObstructionHFGain(0.0);
+    ObstructionLFRatio(0.0);
+    OcclusionHFGain(0.0);
+    OcclusionLFRatio(0.0);
+    ConnectedList()
+    {
+        Space("bunker", 0.15)
+        Space("outside", 0.0)
+    }
+}
+
+Space()
+{
+    Name("ExtDr");
+    I3DL2ReverbPreset("controlcenter");
+    DirectGain(0.9);
+    DirectHFGain(0.9);
+    RoomGain(0.6);
+    RoomHFGain(0.6);
+    RoomRollOffFactor(0.0);
+    ObstructionHFGain(0.3);
+    ObstructionLFRatio(0.0);
+    OcclusionHFGain(0.3);
+    OcclusionLFRatio(0.0);
+    ConnectedList()
+    {
+        Space("ExtHall", 0.7)
+        Space("bunker", 0.0)
+        Space("outside", 0.0)
+    }
+}
+Space()
+{
+    Name("ExtLDr1");
+    I3DL2ReverbPreset("controlcenter");
+    DirectGain(0.9);
+    DirectHFGain(0.9);
+    RoomGain(0.6);
+    RoomHFGain(0.6);
+    RoomRollOffFactor(0.0);
+    ObstructionHFGain(0.3);
+    ObstructionLFRatio(0.0);
+    OcclusionHFGain(0.3);
+    OcclusionLFRatio(0.0);
+    ConnectedList()
+    {
+        Space("ExtHall", 0.7)
+        Space("bunker", 0.0)
+        Space("outside", 0.0)
+    }    
+}
+Space()
+{
+    Name("ExtLDr2");
+    I3DL2ReverbPreset("controlcenter");
+    DirectGain(0.9);
+    DirectHFGain(0.9);
+    RoomGain(0.6);
+    RoomHFGain(0.6);
+    RoomRollOffFactor(0.0);
+    ObstructionHFGain(0.3);
+    ObstructionLFRatio(0.0);
+    OcclusionHFGain(0.3);
+    OcclusionLFRatio(0.0);
+    ConnectedList()
+    {
+        Space("ExtHall", 0.7)
+        Space("bunker", 0.0)
+        Space("outside", 0.0)
+    }    
+}
+
+
+#endifplatform xbox
+#ifplatform ps2
+I3DL2ReverbPreset()
+{
+    Name("controlcenter");
+    RoomGain(0.2);
+    RoomHFGain(0.4);
+    RoomRollOff(0.0);
+    DecayTime(4.0);
+    DecayHFRatio(0.8);
+    ERGain(0.3);
+    ERDelay(0.014);
+    ReverbGain(0.5);
+    ReverbDelay(0.021);
+    Diffusion(100.0);
+    Density(100.0);
+    HFReference(5000.0);
+}
+
+Space()
+{
+    Name("outside");
+    I3DL2ReverbPreset("noreverb");
+    DirectGain(1.0);
+    DirectHFGain(1.0);
+    RoomGain(0.0);
+    RoomHFGain(0.0);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(1.0);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(1.0);
+    OcclusionLFRatio(1.0);
+}
+
+Space()
+{
+    Name("bunker");
+    I3DL2ReverbPreset("controlcenter");
+    DirectGain(0.9);
+    DirectHFGain(0.9);
+    RoomGain(0.3);
+    RoomHFGain(0.3);
+    RoomRollOffFactor(0.0);
+    ObstructionHFGain(0.0);
+    ObstructionLFRatio(0.0);
+    OcclusionHFGain(0.0);
+    OcclusionLFRatio(0.0);
+}
+
+Space()
+{
+    Name("ExtHall");
+    I3DL2ReverbPreset("controlcenter");
+    DirectGain(0.9);
+    DirectHFGain(0.9);
+    RoomGain(0.3);
+    RoomHFGain(0.3);
+    RoomRollOffFactor(0.0);
+    ObstructionHFGain(0.0);
+    ObstructionLFRatio(0.0);
+    OcclusionHFGain(0.0);
+    OcclusionLFRatio(0.0);
+    ConnectedList()
+    {
+        Space("bunker", 0.15)
+        Space("outside", 0.0)
+    }
+}
+
+Space()
+{
+    Name("ExtDr");
+    I3DL2ReverbPreset("controlcenter");
+    DirectGain(0.9);
+    DirectHFGain(0.9);
+    RoomGain(0.6);
+    RoomHFGain(0.6);
+    RoomRollOffFactor(0.0);
+    ObstructionHFGain(0.3);
+    ObstructionLFRatio(0.0);
+    OcclusionHFGain(0.3);
+    OcclusionLFRatio(0.0);
+    ConnectedList()
+    {
+        Space("ExtHall", 0.7)
+        Space("bunker", 0.0)
+        Space("outside", 0.0)
+    }
+}
+Space()
+{
+    Name("ExtLDr1");
+    I3DL2ReverbPreset("controlcenter");
+    DirectGain(0.9);
+    DirectHFGain(0.9);
+    RoomGain(0.6);
+    RoomHFGain(0.6);
+    RoomRollOffFactor(0.0);
+    ObstructionHFGain(0.3);
+    ObstructionLFRatio(0.0);
+    OcclusionHFGain(0.3);
+    OcclusionLFRatio(0.0);
+    ConnectedList()
+    {
+        Space("ExtHall", 0.7)
+        Space("bunker", 0.0)
+        Space("outside", 0.0)
+    }    
+}
+Space()
+{
+    Name("ExtLDr2");
+    I3DL2ReverbPreset("controlcenter");
+    DirectGain(0.9);
+    DirectHFGain(0.9);
+    RoomGain(0.6);
+    RoomHFGain(0.6);
+    RoomRollOffFactor(0.0);
+    ObstructionHFGain(0.3);
+    ObstructionLFRatio(0.0);
+    OcclusionHFGain(0.3);
+    OcclusionLFRatio(0.0);
+    ConnectedList()
+    {
+        Space("ExtHall", 0.7)
+        Space("bunker", 0.0)
+        Space("outside", 0.0)
+    }    
+}
+
+#endifplatform ps2
+
+
+// Soundspace End -----------------------------------------------------

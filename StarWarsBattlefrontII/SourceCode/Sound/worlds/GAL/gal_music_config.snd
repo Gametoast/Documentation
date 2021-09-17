@@ -1,0 +1,23 @@
+
+// ----- Metagame music -----
+SoundStream()
+{
+    Name("metagame_menu_music");
+    Pitch(1.0);
+    PitchDev(0.0);
+    Gain(1.0);
+    GainDev(0.0);
+    ReverbGain(0.0);
+    Bus("ingamemusic");
+    Looping(1);
+    Pan(0.0);
+    Mode3D(0);
+    CyclePlayback(0);
+    Stream("gal_music");
+    SegmentList()
+    {
+        Segment("RepFel01_Act02_lp", 1.0);
+  //      Segment("CISMus02_Amb02_lp", 1.0);
+  //      Segment("CISJed01_Amb01_lp", 1.0);
+    }
+}

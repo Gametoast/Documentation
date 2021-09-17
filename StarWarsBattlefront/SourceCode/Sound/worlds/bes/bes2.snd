@@ -1,0 +1,287 @@
+// Soundspaces ----------
+
+I3DL2ReverbPreset()
+{
+    Name("metalroom");
+    RoomGain(1.0);
+    RoomHFGain(1.0);
+    RoomRollOff(1.0);
+    DecayTime(1.0);
+    DecayHFRatio(0.6);
+    ERGain(0.3);
+    ERDelay(0.07);
+    ReverbGain(0.8);
+    ReverbDelay(0.04);
+    Diffusion(60.0);
+    Density(50.0);
+    HFReference(5000.0);
+}
+
+
+I3DL2ReverbPreset()
+{
+    Name("metalroom_carbonfreezing");
+    RoomGain(1.0);
+    RoomHFGain(0.7);
+    RoomRollOff(1.0);
+    DecayTime(3.0);
+    DecayHFRatio(0.3);
+    ERGain(0.5);
+    ERDelay(0.04);
+    ReverbGain(1.0);
+    ReverbDelay(0.04);
+    Diffusion(100.0);
+    Density(100.0);
+    HFReference(5000.0);
+}
+
+I3DL2ReverbPreset()
+{
+    Name("plastichall");
+    RoomGain(1.0);
+    RoomHFGain(0.9);
+    RoomRollOff(1.0);
+    DecayTime(1.2);
+    DecayHFRatio(0.3);
+    ERGain(0.3);
+    ERDelay(0.02);
+    ReverbGain(0.5);
+    ReverbDelay(0.04);
+    Diffusion(100.0);
+    Density(100.0);
+    HFReference(5000.0);
+}
+
+I3DL2ReverbPreset()
+{
+    Name("exhaustamb");
+    RoomGain(1.0);
+    RoomHFGain(0.7);
+    RoomRollOff(1.0);
+    DecayTime(4.0);
+    DecayHFRatio(0.8);
+    ERGain(0.2);
+    ERDelay(0.06);
+    ReverbGain(0.8);
+    ReverbDelay(0.01);
+    Diffusion(100.0);
+    Density(100.0);
+    HFReference(5000.0);
+}
+
+Space()
+{
+    Name("bes_carbon"); // Carbon Freezing Chamber
+    I3DL2ReverbPreset("metalroom_carbonfreezing");
+    DirectGain(1.0);
+    DirectHFGain(1.0);
+    RoomGain(0.8);
+    RoomHFGain(0.8);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.1);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.5);
+    OcclusionLFRatio(1.0);
+}
+
+Space()
+{
+    Name("court_corridor"); // Ramp-corridor leading to courtyard door
+    I3DL2ReverbPreset("plastichall");
+    DirectGain(1.0);
+    DirectHFGain(1.0);
+    RoomGain(0.8);
+    RoomHFGain(0.8);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.5);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.5);
+    OcclusionLFRatio(1.0);
+}
+
+
+Space()
+{
+    Name("Bcorridor"); // Short hall from court landing to left
+    I3DL2ReverbPreset("plastichall");
+    DirectGain(1.0);
+    DirectHFGain(1.0);
+    RoomGain(0.8);
+    RoomHFGain(0.8);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.4);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.4);
+    OcclusionLFRatio(1.0);
+}
+
+Space()
+{
+    Name("B2corridor"); // Short hall-ramp from court landing to lower carbon
+    I3DL2ReverbPreset("plastichall");
+    DirectGain(1.0);
+    DirectHFGain(1.0);
+    RoomGain(0.8);
+    RoomHFGain(0.8);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.4);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.4);
+    OcclusionLFRatio(1.0);
+}
+
+Space()
+{
+    Name("Ccorridor"); // Halls outside carbon to exhaust overlook
+    I3DL2ReverbPreset("plastichall");
+    DirectGain(1.0);
+    DirectHFGain(1.0);
+    RoomGain(0.8);
+    RoomHFGain(0.8);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.4);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.4);
+    OcclusionLFRatio(1.0);
+}
+
+Space()
+{
+    Name("Exhaust"); // Exhaust chamber
+    I3DL2ReverbPreset("exhaustamb");
+    DirectGain(1.0);
+    DirectHFGain(1.0);
+    RoomGain(0.8);
+    RoomHFGain(0.8);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.0);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.0);
+    OcclusionLFRatio(1.0);
+}
+
+Space()
+{
+    Name("AExhaust"); // Metal ramp leading out of exhaust chamber up
+    I3DL2ReverbPreset("metalroom");
+    DirectGain(1.0);
+    DirectHFGain(1.0);
+    RoomGain(0.8);
+    RoomHFGain(0.8);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.7);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.7);
+    OcclusionLFRatio(1.0);
+}
+
+Space()
+{
+    Name("BExhaust"); // Ramp leading from rear entrance to exhaust chamber
+    I3DL2ReverbPreset("metalroom");
+    DirectGain(1.0);
+    DirectHFGain(1.0);
+    RoomGain(0.8);
+    RoomHFGain(0.8);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.7);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.7);
+    OcclusionLFRatio(1.0);
+}
+
+
+Space()
+{
+    Name("Platforms"); 
+    I3DL2ReverbPreset("plastichall");
+    DirectGain(1.0);
+    DirectHFGain(1.0);
+    RoomGain(0.8);
+    RoomHFGain(0.8);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.6);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.6);
+    OcclusionLFRatio(1.0);
+}
+
+
+// ----- Ambient Environment ----------
+
+SoundStreamProperties()
+{
+    Name("bes_amb_wind");
+    Group("ambientenv");
+    Inherit("ambientfx_template");
+    Gain(0.55);
+    Stream("bes2");
+    SegmentList()
+    {
+        Segment("bes_amb_wind", 1.0);
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("bes_amb_carbon");
+    Group("ambientenv");
+    Inherit("ambientfx_template");
+    Gain(0.8);
+    Stream("bes2");
+    SegmentList()
+    {
+        Segment("bes_amb_carbon", 1.0);
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("bes_amb_exhaustchamber");
+    Group("ambientenv");
+    Inherit("ambientfx_template");
+    Gain(0.9);
+    Stream("bes2");
+    SegmentList()
+    {
+        Segment("bes_amb_exhaustchamber", 1.0);
+    }
+}
+
+
+// ----- Ambient Emitters ---------
+
+SoundProperties()
+{
+    Name("com_amb_steam"); // steam jet loop
+    Group("Props");
+    Inherit("props_template");
+    Looping(1);
+    RandomPlayPos(1);
+    RollOff(5.0);
+    MaxDistance(50);
+    MuteDistance(50);
+    Gain(0.2);
+    SampleList()
+    {
+        Sample("emt_steam_lp", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("com_amb_steam_slow"); // steam jet loop low pitch
+    Group("Props");
+    Inherit("props_template");
+    Looping(1);
+    RandomPlayPos(1);
+    Pitch(0.5);
+    RollOff(5.0);
+    MaxDistance(50);
+    MuteDistance(50);
+    SampleList()
+    {
+        Sample("emt_steam_lp", 1.0);
+    }
+}
+

@@ -1,0 +1,22 @@
+//-all Foley Effects-----------------------------------------------------------
+
+//-Soldier---------------------------------------------------------------------
+
+FoleyFXSoldier()
+{
+    Name("wok_inf_soldier_dirt");
+    Class("wok_inf_soldier");
+    FootstepLeftWalk("wok_inf_soldier_walk_dirt_left");
+    FootstepRightWalk("wok_inf_soldier_walk_dirt_right");
+    FootstepLeftRun("wok_inf_soldier_run_dirt_left");
+    FootstepRightRun("wok_inf_soldier_run_dirt_right");
+    FootstepLeftStop("wok_inf_soldier_stop_dirt");
+    FootstepRightStop("wok_inf_soldier_stop_dirt");
+    Jump("wok_inf_soldier_jump_dirt");
+    Land("wok_inf_soldier_land_dirt");
+    Roll("wok_inf_soldier_roll_dirt");
+//    Prone("wok_inf_soldier_lie_dirt");
+    Squat("wok_inf_soldier_squat_dirt");
+//    Stand("wok_inf_soldier_getup_dirt");
+    Bodyfall("wok_inf_soldier_lgBF_dirt");
+}

@@ -1,0 +1,316 @@
+// Soundspace Start ----------------------------------------------
+
+#ifplatform pc
+I3DL2ReverbPreset()
+{
+    Name("metallic");
+    RoomGain(1.0);
+    RoomHFGain(0.7);
+    RoomRollOff(1.0);
+    DecayTime(2.6);
+    DecayHFRatio(0.8);
+    ERGain(0.2);
+    ERDelay(0.06);
+    ReverbGain(0.8);
+    ReverbDelay(0.01);
+    Diffusion(100.0);
+    Density(100.0);
+    HFReference(5000.0);
+}
+
+Space()
+{
+    Name("bunker");
+    I3DL2ReverbPreset("metallic");
+    DirectGain(1.0);
+    DirectHFGain(1.0);
+    RoomGain(0.9);
+    RoomHFGain(1.0);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.1);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.1);
+    OcclusionLFRatio(1.0);
+}
+#endifplatform pc
+#ifplatform xbox
+I3DL2ReverbPreset()
+{
+    Name("metallic");
+    RoomGain(0.6);
+    RoomHFGain(0.6);
+    RoomRollOff(1.0);
+    DecayTime(1.2);
+    DecayHFRatio(0.3);
+    ERGain(0.3);
+    ERDelay(0.07);
+    ReverbGain(0.4);
+    ReverbDelay(0.04);
+    Diffusion(100.0);
+    Density(100.0);
+    HFReference(5000.0);
+}
+
+
+Space()
+{
+    Name("bunker");
+    I3DL2ReverbPreset("metallic");
+    DirectGain(0.9);
+    DirectHFGain(0.9);
+    RoomGain(0.3);
+    RoomHFGain(0.3);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.1);
+    ObstructionLFRatio(0.0);
+    OcclusionHFGain(0.1);
+    OcclusionLFRatio(0.0);
+}
+
+#endifplatform xbox
+#ifplatform ps2
+I3DL2ReverbPreset()
+{
+    Name("metallic");
+    RoomGain(0.1);
+    RoomHFGain(0.4);
+    RoomRollOff(0.0);
+    DecayTime(2.5);
+    DecayHFRatio(1.0);
+    ERGain(0.2);
+    ERDelay(0.2);
+    ReverbGain(1.0);
+    ReverbDelay(0.021);
+    Diffusion(100.0);
+    Density(60.0);
+    HFReference(5000.0);
+}
+
+Space()
+{
+    Name("bunker");
+    I3DL2ReverbPreset("metallic");
+    DirectGain(0.9);
+    DirectHFGain(0.9);
+    RoomGain(0.3);
+    RoomHFGain(0.3);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.1);
+    ObstructionLFRatio(0.0);
+    OcclusionHFGain(0.1);
+    OcclusionLFRatio(0.0);
+}
+#endifplatform ps2
+Space()
+{
+    Name("Default");
+    I3DL2ReverbPreset("noreverb");
+    DirectGain(1.0);
+    DirectHFGain(1.0);
+    RoomGain(0.0);
+    RoomHFGain(0.0);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.5);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.5);
+    OcclusionLFRatio(1.0);
+}
+
+
+// Soundspace End -----------------------------------------------------
+
+// ----- Ambient Environment Streams Start ------------------------------
+
+SoundStreamProperties()
+{
+    Name("end_amb_forest");
+    Group("ambientenv");
+    Inherit("ambientfx_template");
+    Gain(1.0);
+    Stream("end1gcw");
+    SegmentList()
+    {
+        Segment("end_amb_forest", 1.0);
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("end_amb_bunker");
+    Group("ambientenv");
+    Inherit("ambientfx_template");
+    #ifplatform pc
+    Gain(0.7);
+    #endifplatform pc
+    #ifplatform xbox ps2
+    Gain(0.6);
+    #endifplatform xbox ps2
+    Stream("end1gcw");
+    SegmentList()
+    {
+        Segment("end_amb_bunker", 1.0);
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("end_amb_ewokhorn1");
+    Pitch(1.0);
+    PitchDev(0.1);
+    Gain(1.0);
+    GainDev(0.0);
+    ReverbGain(1.0);
+    Bus("ambience");
+    Looping(0);
+    Pan(0.0);
+    Mode3D(1);
+    RollOff(0.3);
+    PlayInterval(50.0);
+    CyclePlayback(1)
+    Stream("end1gcw_emt");
+    SegmentList()
+    {
+        Segment("end_amb_ewokhorn1", 1.0);
+        Segment("end_amb_ewokhorn3", 1.0);
+        Segment("end_amb_ewokhorn2", 1.0);
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("end_amb_ewokhorn2");
+    Pitch(1.0);
+    PitchDev(0.1);
+    Gain(1.0);
+    GainDev(0.0);
+    ReverbGain(1.0);
+    Bus("ambience");
+    Looping(0);
+    Pan(0.0);
+    Mode3D(1);
+    PlayInterval(60.0);
+    Stream("end1gcw_emt");
+    CyclePlayback(1)
+    SegmentList()
+    {
+        Segment("end_amb_ewokhorn2", 1.0);
+        Segment("end_amb_ewokhorn1", 1.0);
+        Segment("end_amb_ewokhorn3", 1.0);
+    }
+}
+
+
+// ----- Ambient Environment Streams End ---------------------------
+
+// ----- Prop Ambient Effects Start --------------------------------
+
+SoundProperties()
+{
+    Name("foliage_collision");
+    Pitch(0.9);
+    #ifplatform pc
+    PitchDev(0.2);
+    Gain(0.4);
+    #endifplatform pc
+    #ifplatform xbox
+    PitchDev(0.1);
+    Gain(0.3);
+    #endifplatform xbox
+    #ifplatform ps2
+    PitchDev(0.1);
+    Gain(0.7);
+    #endifplatform ps2
+    GainDev(0.05);
+    ReverbGain(1.0);
+    Bus("soundfx");
+    Looping(0);
+    Pan(0.0);
+    MinDistance(1.0);
+    MuteDistance(40.0);
+    MaxDistance(40.0);
+    RollOff(10.0);
+    Mode3D(1);
+    Bias(0.0001);
+    Priority(0.5);
+    SampleList()
+    {
+        Sample("emt_foliageCollision_01", 0.33);
+        Sample("emt_foliageCollision_02", 0.33);
+        Sample("emt_foliageCollision_03", 0.33);
+
+    }
+}
+
+// ----- Prop Ambient Effects End ----------------------------------
+// Endor Objective VO Start ---------------------------------------------
+
+
+
+// Endor Objective VO End --------------------------------------------------
+
+// Ewok Pain Effects VO Start ------------------------------------------------------
+
+SoundProperties()
+{
+    Name("end_inf_ewok_hurt");
+    Group("ewok_vo");
+    Inherit("pain_chatter_template");
+    SampleList()
+    {
+        Sample("Ewok_Hurt_1", 0.33);
+        Sample("Ewok_Hurt_2", 0.33);
+        Sample("Ewok_Hurt_3", 0.33);
+    }
+}
+
+SoundProperties()
+{
+    Name("end_inf_ewok_die");
+    Group("ewok_vo");
+    Inherit("pain_chatter_template");
+    SampleList()
+    {
+      Sample("Ewok_Death_1", 0.33);
+      Sample("Ewok_Death_2", 0.33);
+      Sample("Ewok_Death_3", 0.33);
+    }
+}
+
+// Ewok Pain Effects VO End ------------------------------------------------------
+
+// Ewok Battle Chatter Effects VO Start ------------------------------------------
+
+SoundProperties()
+{
+    Name("end_inf_ewok_attack");
+    Group("ewok_vo");
+    Inherit("pain_chatter_template");
+    PlayProbability(0.75);
+    SampleList()
+    {
+        Sample("end_inf_ewok_attack", .25);
+        Sample("ewok_battle_cry_1", .25);
+        Sample("ewok_battle_cry_2", .25);
+        Sample("ewok_battle_cry_3", .25);
+    }
+}
+
+SoundProperties()
+{
+    Name("end_inf_ewok_breathing");
+    Group("ewok_vo");
+    Inherit("pain_chatter_template");
+    PlayProbability(0.25);
+    Samplelist()
+    {
+        Sample("ewokwhoop1", .142);
+        Sample("ewokwhoop2", .142);
+        Sample("ewokwhoop3", .142);
+        Sample("end_inf_ewok_attack", .142);
+        Sample("ewok_battle_cry_1", .142);
+        Sample("ewok_battle_cry_2", .142);
+        Sample("ewok_battle_cry_3", .142);
+    }
+}
+
+// Ewok Battle Chatter Effects VO Start ------------------------------------------

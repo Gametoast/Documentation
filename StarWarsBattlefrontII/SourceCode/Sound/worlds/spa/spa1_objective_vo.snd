@@ -1,0 +1,861 @@
+
+//  --------------------------------------------------- Objective VO ----------------------------------------------------------
+
+SoundStreamProperties()
+{
+    Name("SPA1_obj_01");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("AOSB50001", 1.0, 0.0, 0.0); //  Our Auto-Turrets have been disabled!
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("SPA1_obj_02");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("AOSB50002", 1.0, 0.0, 0.0); //  Our turrets are down, we need to get them back online!
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("SPA1_obj_03");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("AOSB50003", 1.0, 0.0, 0.0); //  Our interior defenses have fallen
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("SPA1_obj_04");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("AOSB50004", 1.0, 0.0, 0.0); //  Destroy the Victory-2 Star Destroyer!
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("SPA1_obj_05");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("AOSB50005", 1.0, 0.0, 0.0); //  Another of the Victory-2 Destroyers has been destroyed!
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("SPA1_obj_06");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("AOSB50006", 1.0, 0.0, 0.0); //  One of the Victory-2 Destroyers has been destroyed!
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("SPA1_obj_07");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("AOSB50007", 1.0, 0.0, 0.0); //  Their Victory-2 Destroyers have been cleared out!
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("SPA1_obj_08");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("AOSB50008", 1.0, 0.0, 0.0); //  Their Victory-2 Destroyer has been wiped out!
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("SPA1_obj_09");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("AOSB50009", 1.0, 0.0, 0.0); //  Target the Star Destroyer!
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("SPA1_obj_10");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("AOSB50010", 1.0, 0.0, 0.0); //  Destroy the Star Destroyer's Sensor Array!
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("SPA1_obj_11");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("AOSB50011", 1.0, 0.0, 0.0); //  Destroy the Star Destroyer's Shield Generators!
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("SPA1_obj_12");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("AOSB50012", 1.0, 0.0, 0.0); //  Star Destroyer has 1 Shield Generator left.
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("SPA1_obj_13");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("AOSB50013", 1.0, 0.0, 0.0); //  Destroy the Star Destroyer's Engines!
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("SPA1_obj_14");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("AOSB50014", 1.0, 0.0, 0.0); //  Star Destroyer has 1 Engine left.
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("SPA1_obj_15");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("AOSB50015", 1.0, 0.0, 0.0); //  Star Destroyer has 2 Engines left.
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("SPA1_obj_16");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("AOSB50016", 1.0, 0.0, 0.0); //  The Imperials have been defeated, the day is ours!
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("SPA1_obj_17");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("AOSB50017", 1.0, 0.0, 0.0); //  Our engines have been destroyed!
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("SPA1_obj_18");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("AOSB50018", 1.0, 0.0, 0.0); //  The Imperials have destroyed our Sensor Array!
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("SPA1_obj_19");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("AOSB50019", 1.0, 0.0, 0.0); //  Our Life Support systems have been critically damaged!
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("SPA1_obj_20");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("AOSB50020", 1.0, 0.0, 0.0); //  The Imperials may have won this battle, but we've already scored the day's largest victory!
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("SPA1_obj_21");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IOSB50001", 1.0, 0.0, 0.0); //  Our shields have suffered a critical failure, we need to repair those generators!
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("SPA1_obj_22");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IOSB50002", 1.0, 0.0, 0.0); //  Our ship's defenses have been destroyed, dispatch a team to repair them!
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("SPA1_obj_23");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IOSB50003", 1.0, 0.0, 0.0); //  The interior defenses are destroyed, our turrets are vulnerable!
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("SPA1_obj_24");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IOSB50004", 1.0, 0.0, 0.0); //  Our shields have failed, defeat is imminent.
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("SPA1_obj_25");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IOSB50005", 1.0, 0.0, 0.0); //  Destroy the Correlian Corvette!
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("SPA1_obj_26");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IOSB50006", 1.0, 0.0, 0.0); //  Their Corvette is destroyed!
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("SPA1_obj_27");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IOSB50007", 1.0, 0.0, 0.0); //  One of their Corvettes has been annihilated.
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("SPA1_obj_28");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IOSB50008", 1.0, 0.0, 0.0); //  Another of their Corvettes has fallen.
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("SPA1_obj_29");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IOSB50009", 1.0, 0.0, 0.0); //  Their Covettes are no longer a threat to our forces.
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("SPA1_obj_30");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IOSB50010", 1.0, 0.0, 0.0); //  Target the Mon Calimari Cruiser!
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("SPA1_obj_31");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IOSB50011", 1.0, 0.0, 0.0); //  Destroy the Alliance Cruiser's Engines!
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("SPA1_obj_32");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IOSB50012", 1.0, 0.0, 0.0); //  One more engine, and the cruiser is ours for the taking!
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("SPA1_obj_33");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IOSB50013", 1.0, 0.0, 0.0); //  Just two more engines!
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("SPA1_obj_34");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IOSB50014", 1.0, 0.0, 0.0); //  The alliance cruiser is down to three engines!
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("SPA1_obj_35");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IOSB50015", 1.0, 0.0, 0.0); //  Two engines down, four to go!
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("SPA1_obj_36");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IOSB50016", 1.0, 0.0, 0.0); //  That's one engine down, now take out the rest!
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("SPA1_obj_37");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IOSB50017", 1.0, 0.0, 0.0); //  Destroy the Mon Calimari Sensor Array!
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("SPA1_obj_38");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IOSB50018", 1.0, 0.0, 0.0); //  Destroy the Mon Calimari Life Support Systems!
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("SPA1_obj_39");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IOSB50019", 1.0, 0.0, 0.0); //  Their ship is crippled, finish them off!
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("SPA1_obj_40");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IOSB50020", 1.0, 0.0, 0.0); //  Our Sensor Array has fallen.
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("SPA1_obj_41");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IOSB50021", 1.0, 0.0, 0.0); //  Our primary shield generators have been destroyed!
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("SPA1_obj_42");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IOSB50022", 1.0, 0.0, 0.0); //  We've lost our engines!
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("SPA1_obj_43");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IOSB50023", 1.0, 0.0, 0.0); //  Vengeance, it seems, will not be ours today...
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("SPA1_obj_44");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IOSB50024", 1.0, 0.0, 0.0); //  Our Victory-2 Destroyer has been destroyed!
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("SPA1_obj_45");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IOSB50025", 1.0, 0.0, 0.0); //  Our Victory-2 Destroyers have been destroyed!
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("SPA1_obj_46");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IOSB50026", 1.0, 0.0, 0.0); //  A Victory-2 Destroyer has been destroyed!
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("SPA1_obj_47");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IOSB50027", 1.0, 0.0, 0.0); //  The Alliance is within our grasp
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("SPA1_obj_48");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IOSB50028", 1.0, 0.0, 0.0); //  Victory is ours men.  Dispatch the 501st to the planet surface, this planet will be under Imperial control within the hour.
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("SPA1_obj_49");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IOSB50029", 1.0, 0.0, 0.0); //  Reinforcements are no longer available.  The battle is lost.
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("SPA1_obj_50");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IOSB50030", 1.0, 0.0, 0.0); //  We only have a few fighters left
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("SPA1_obj_51");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IOSB50045", 1.0, 0.0, 0.0); //  The Rebels are attemping to send their forces off to wreak havoc in other parts of our galaxy.  Destroy them, in the memory of our fallen comrades.
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("SPA1_obj_52");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IOSB50031", 1.0, 0.0, 0.0); //  Their heavy transports are trying to go around us, we must not let them jump to hyperspace.  Destroy them!
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("SPA1_obj_53");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IOSB50032", 1.0, 0.0, 0.0); //  Their frigates are harassing our fighters, show them no mercy!
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("SPA1_obj_54");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IOSB50033", 1.0, 0.0, 0.0); //  Gents, their aces are inbound, slaughter their pathetic pilots.
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("SPA1_inf_01");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IOSB50034", 1.0, 0.0, 0.0); //  Our frigates need to move in to assault their hull, use a TIE bomber to destroy their heavy turrets.
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("SPA1_obj_55");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IISB50001", 1.0, 0.0, 0.0); //  SIR!  The Rebel ship is powering up their hyperdrive system! If they jump now they'll…
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("SPA1_obj_56");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IOSB50035", 1.0, 0.0, 0.0); //  They'll rip right through us.  They're trying to take us down with them.  Pilots, attack their engines, they can't jump if they haven't any engines!
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("SPA1_obj_57");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IOSB50036", 1.0, 0.0, 0.0); //  Now gentlemen, destroy their remaining critical systems, those Rebels don’t deserve to breath any longer.
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("SPA1_obj_58");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IOSB50037", 1.0, 0.0, 0.0); //  Leave them to float boys, we have more pressing matter to attend to, on Yavin.
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("SPA1_obj_59");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IOSB50038", 1.0, 0.0, 0.0); //  Their transports we allowed to escape!  We have let them slip through our grasp once again.
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("SPA1_obj_60");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IOSB50039", 1.0, 0.0, 0.0); //  Their engines are still active?  Your failure has doomed us all!  
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("SPA1_obj_61");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IOSB50040", 1.0, 0.0, 0.0); //  Pilots, if they are allowed to make the jump to hyperspace they'll rip right through us.
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("SPA1_obj_62");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IOSB50041", 1.0, 0.0, 0.0); //  Clear their fighters out and be quick about it.   We haven't any time to spare.
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("SPA1_obj_63");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IOSB50042", 1.0, 0.0, 0.0); //  Well done pilots.
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("SPA1_obj_64");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IOSB50043", 1.0, 0.0, 0.0); //  We need to clear a path for our frigates to cover you.  Use a TIE bomber to destroy their heavy turrets.
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("SPA1_obj_65");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IOSB50044", 1.0, 0.0, 0.0); //  Now get after those engines men, they can't jump if they haven't any engines!
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("SPA1_inf_02");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IISB5002", 1.0, 0.0, 0.0); //  SIR!  The Rebel ship is powering up their hyperdrive system!
+    }
+}

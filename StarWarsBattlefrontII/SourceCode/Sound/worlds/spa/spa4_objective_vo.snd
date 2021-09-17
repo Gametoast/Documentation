@@ -1,0 +1,330 @@
+
+//  --------------------------------------------------- Objective VO ----------------------------------------------------------
+
+SoundStreamProperties()
+{
+    Name("SPA4_obj_01");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IOSB30001", 1.0, 0.0, 0.0); //  Okay troops, before we move on to Mustafar proper, Lord Vader wants us to recover those plans for the new Imperial fighter.  To do that you'll have to take out the enemy's hangar shields, zip into the the enemy's hangar, grab the plans, and fly out again, all without getting killed.  Just like in the simulators, right?
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("SPA4_obj_02");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IOSB30002", 1.0, 0.0, 0.0); //  The shield generators are located on the left and right sides of the hangar.
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("SPA4_obj_03");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IOSB30003", 1.0, 0.0, 0.0); //  That's one shield generator down, now take out the other one.
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("SPA4_obj_04");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IOSB30004", 1.0, 0.0, 0.0); //  Well done, gentlemen, now let's board their ship and take back those plans!
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("SPA4_obj_05");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IOSB30005", 1.0, 0.0, 0.0); //  Alert!  Alert!  Primary shields destroyed, Auxilliary shields activated.
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("SPA4_obj_06");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IOSB30006", 1.0, 0.0, 0.0); //  Ignore the auxilliary shields, they're not powerful enoough to stop you from entering the hangar.
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("SPA4_obj_07");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IOSB30007", 1.0, 0.0, 0.0); //  Holocron secured, return to your ship for immediate evac.
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("SPA4_obj_08");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IOSB30008", 1.0, 0.0, 0.0); //  Well done, Trooper.  Lord Vader is most pleased.
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("SPA4_obj_09");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IOSB30009", 1.0, 0.0, 0.0); //  You couldn't even get their shields down... perhaps it's time for Lord Vader to re-evaluate the status of the 501st.
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("SPA4_obj_10");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IOSB30010", 1.0, 0.0, 0.0); //  Your failure to retrieve the stolen fighter plans has set back the Empire's military efforts by nearly a decade.  Report to Lord Vader for "re-assignment."
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("SPA4_obj_11");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IOSB30011", 1.0, 0.0, 0.0); //  Men, we've come out of hyperspace next to our target.  They have the stolen plans on board and must not be allowed to escape.
+        }
+}
+
+SoundStreamProperties()
+{
+    Name("SPA4_obj_12");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IOSB30012", 1.0, 0.0, 0.0); //  Droid frigates off the port side of the ship, get to it men!  Destroy those ships!
+        }
+}
+
+SoundStreamProperties()
+{
+    Name("SPA4_obj_13");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IOSB30013", 1.0, 0.0, 0.0); //  Crush them!
+        }
+}
+
+SoundStreamProperties()
+{
+    Name("SPA4_obj_14");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IOSB30014", 1.0, 0.0, 0.0); //  Fighters incoming, pilots, be on guard!
+        }
+}
+
+SoundStreamProperties()
+{
+    Name("SPA4_obj_15");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IOSB30015", 1.0, 0.0, 0.0); //  Well done, now fly into their hangar and get those plans back.
+        }
+}
+
+SoundStreamProperties()
+{
+    Name("SPA4_obj_16");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IOSB30016", 1.0, 0.0, 0.0); //  The plans are in locked in the ships' shield room, destroy the generator nearby and drop the defense barrier to that room.
+        }
+}
+
+SoundStreamProperties()
+{
+    Name("SPA4_obj_17");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IOSB30017", 1.0, 0.0, 0.0); //  Soldier reinforcements have bee exhausted.  We have failed.
+        }
+}
+
+SoundStreamProperties()
+{
+    Name("SPA4_obj_18");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IOSB30018", 1.0, 0.0, 0.0); //  Reinforcements are running out
+        }
+}
+
+SoundStreamProperties()
+{
+    Name("SPA4_inf_01");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IISB30001", 1.0, 0.0, 0.0); //  Sir!  The droids have landed on our ship sir!  We can't launch our fighters!  
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("SPA4_obj_20");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IOSB30020", 1.0, 0.0, 0.0); //  Calm down son, get out there and destroy that transport.  Use any means necessary to clear our hangar!
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("SPA4_obj_21");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IOSB30021", 1.0, 0.0, 0.0); //  Alright men, now get into your fighters and give those droids all you've got.  Destroy their incoming fighters and bombers.
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("SPA4_obj_22");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IOSB30022", 1.0, 0.0, 0.0); //  Watch out for the asteroids pilots, they can be destroyed with laser fire, but are still a considerable danger.
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("SPA4_obj_23");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IOSB30023", 1.0, 0.0, 0.0); //  Attack their shields!  Use a bomber to deliver the maximum damage.
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("SPA4_obj_24");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IOSB30024", 1.0, 0.0, 0.0); //  Last bit pilots, you need to get one of their Strike Bombers and return it to our hangar.  Just land in their hangar, grab the ship and land it in our hangar.  You can do it, I know you can.
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("SPA4_obj_25");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IOSB30025", 1.0, 0.0, 0.0); //  Excellent job pilots and marines.  Lord Vader will be most pleased.  
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("SPA4_obj_26");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IOSB30026", 1.0, 0.0, 0.0); //  Your failure will yield more than a bruised ego once Lord Vader hears of this.  You might want to smash into an asteroid and save him the trouble.
+    }
+}

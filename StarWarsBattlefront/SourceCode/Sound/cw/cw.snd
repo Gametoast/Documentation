@@ -1,0 +1,1700 @@
+
+// Naboo Guard Pain and Death
+
+SoundProperties()
+{
+    Name("gar_inf_com_chatter_death");
+    Group("rep_vo");
+    Inherit("pain_chatter_template");
+    PlayInterval(0.0);
+    PlayIntervalDev(0.0);
+    PlayProbability(1.0);
+    SampleList()
+    {
+        Sample("GICOM404", 0.33);
+        Sample("GICOM405", 0.33);
+        Sample("GICOM406", 0.33);
+    }
+}
+
+SoundProperties()
+{
+    Name("gar_inf_com_chatter_wound");
+    Group("rep_vo");
+    Inherit("pain_chatter_template");
+    PlayInterval(0.0);
+    PlayIntervalDev(0.0);
+    PlayProbability(0.85);
+    SampleList()
+    {
+        Sample("GICOM401", 0.33);
+        Sample("GICOM402", 0.33);
+        Sample("GICOM403", 0.33);
+    }
+}
+
+// ----- Era Global ----------------------------------------------
+// flyer sfx
+// turbulence
+//
+
+// ----- CIS Foley -----
+// cis_inf_droid foley
+// droid movement water low
+// droid movement water deep
+// droid movement wood
+// droid movement stone
+// droid movement grass
+// droid movement snow
+// droid movement metal
+// droid movement dirt
+// footsteps run walk stop
+// jump land roll squat lie getup
+// binoculars/scope zoom
+// Wade
+
+
+// ----- CIS Units ------------------------------------------------
+// cis_inf_battledroid - torpedo launcher, pistol
+// cis_inf_super_battledroid - wrist blaster, wrist rocket
+// cis_inf_pilotdroid - pistol, haywire, fusioncutter
+// cis_inf_tacticaldroid - sonic blaster, pistol, powerup dispenser
+// cis_inf_droideka - roll, walk, shield, repeater
+// cis_inf_assassindroid - sniper, pistol, thermal
+// cis_inf_dooku - lightsaber, lightsaber deflects
+
+
+SoundProperties()
+{
+    Name("com_weap_haywiredetonator_equip");
+    Group("weapons_foley");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("wpn_haywireGrenadeArm", 1.0);
+    }
+}
+
+// ----- CIS Unit SFX Chatter ------------------------------------------
+
+SoundProperties()
+{
+    Name("cis_inf_com_chatter_wound");
+    Group("cis_vo");
+    Inherit("pain_chatter_template");
+    PlayInterval(0.0);
+    PlayIntervalDev(0.0);
+    PlayProbability(0.85);
+    SampleList()
+    {
+        Sample("CICOM401", 0.33, 0.0, 0.0);
+        Sample("CICOM408", 0.33, 0.0, 0.0);
+        Sample("CICOM409", 0.33, 0.0, 0.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("droid_death");
+    Group("cis_vo");
+    Inherit("pain_chatter_template");
+    PlayInterval(0.0);
+    PlayIntervalDev(0.0);
+    PlayProbability(1.0);
+    SampleList()
+    {
+        Sample("drd_droid_hit_01", 0.167);
+        Sample("drd_droid_hit_02", 0.167);
+        Sample("drd_droid_hit_03", 0.167);
+        Sample("drd_droid_hit_04", 0.167);
+        Sample("drd_droid_hit_05", 0.167);
+        Sample("drd_droid_hit_06", 0.167);
+    }
+}
+
+
+
+// ----- Start CIS Generic Weapon Foley -----
+// Equip
+
+SoundProperties()
+{
+    Name("cis_weap_inf_equip_sm");
+    Group("weapons_foley");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("wpn_cis_smlEquip", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("cis_weap_inf_equip_med");
+    Group("weapons_foley");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("wpn_cis_medEquip", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("cis_weap_inf_equip_lg");
+    Group("weapons_foley");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("wpn_cis_lgEquip", 1.0);
+    }
+}
+
+// Reload
+
+SoundProperties()
+{
+//    Name("cis_weap_inf_reload_med_sound");
+    Name("cis_weap_inf_reload_med")
+    Group("weapons_foley");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("wpn_cis_medReload", 1.0);
+    }
+}
+
+// It is not possible to control the position of a layered sound in game 
+// after it's started playing.  Doing this will drop the sound in the world.
+//SoundLayered()
+//{
+//    Name("cis_weap_inf_reload_med");
+//    Layer("null", "cis_weap_inf_reload_med_sound", 0.3);
+//}
+
+SoundProperties()
+{
+    Name("cis_weap_inf_reload_lg");
+    Group("weapons_foley");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("wpn_republic_lgReload", 1.0);
+    }
+}
+
+
+//CIS Unit Weapons ---------------------------------------------------
+
+// battle droid's tri blaster
+SoundProperties()
+{
+    Name("cis_weap_inf_wrist_shrapnel");
+    Group("weapons");
+    Inherit("weapon_template");
+    Pitch(0.9);
+    SampleList()
+    {
+        Sample("wpn_cis_blaster_fire", 1.0);
+    }
+}
+
+// ----- Start CIS Rifle ---------------------------------------------
+
+SoundProperties()
+{
+    Name("cis_weap_inf_blaster_fire");
+    Group("weapons");
+    Inherit("weapon_template");
+    SampleList()
+    {
+        Sample("wpn_cis_blaster_fire", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("cis_weap_inf_blaster_mvt_getup");
+    Group("weapons_foley");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("mvt_getup_rifle", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("cis_weap_inf_blaster_mvt_jump");
+    Group("weapons_foley");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("mvt_jump_rifle", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("cis_weap_inf_blaster_mvt_land");
+    Group("weapons_foley");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("mvt_land_rifle", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("cis_weap_inf_blaster_mvt_roll");
+    Group("weapons_foley");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("mvt_roll_rifle", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("cis_weap_inf_blaster_mvt_lie");
+    Group("weapons_foley");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("mvt_lie_rifle", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("cis_weap_inf_blaster_mvt_squat");
+    Group("weapons_foley");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("mvt_squat_rifle", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("cis_weap_inf_blaster_mvt_stop");
+    Group("weapons_foley");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("mvt_stop_rifle", 1.0);
+    }
+}
+
+
+// ----- End CIS Rifle ---------------------------------------------
+
+// ----- Start CIS Pistol ---------------------------------------------
+
+SoundProperties()
+{
+    Name("cis_weap_inf_pistol_fire");
+    Group("weapons");
+    Inherit("weapon_template");
+    SampleList()
+    {
+        Sample("wpn_cis_pistol_fire", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("cis_weap_inf_pistol_mvt_getup");
+    Group("weapons_foley");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("mvt_getup_pistol", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("cis_weap_inf_pistol_mvt_jump");
+    Group("weapons_foley");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("mvt_jump_pistol", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("cis_weap_inf_pistol_mvt_land");
+    Group("weapons_foley");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("mvt_land_pistol", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("cis_weap_inf_pistol_mvt_roll");
+    Group("weapons_foley");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("mvt_roll_pistol", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("cis_weap_inf_pistol_mvt_lie");
+    Group("weapons_foley");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("mvt_lie_pistol", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("cis_weap_inf_pistol_mvt_squat");
+    Group("weapons_foley");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("mvt_squat_pistol", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("cis_weap_inf_pistol_mvt_stop");
+    Group("weapons_foley");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("mvt_stop_pistol", 1.0);
+    }
+}
+
+
+// ----- End CIS Pistol ---------------------------------------------
+
+// ----- Start CIS Rocket ---------------------------------------------
+
+SoundProperties()
+{
+    Name("cis_weap_inf_rocket_fire");
+    Group("weapons");
+    Inherit("weapon_template");
+    SampleList()
+    {
+        Sample("wpn_cis_rcktlauncher_fire", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("cis_weap_inf_rocket_mvt_getup");
+    Group("weapons_foley");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("mvt_getup_bazooka", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("cis_weap_inf_rocket_mvt_jump");
+    Group("weapons_foley");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("mvt_jump_bazooka", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("cis_weap_inf_rocket_mvt_land");
+    Group("weapons_foley");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("mvt_land_bazooka", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("cis_weap_inf_rocket_mvt_roll");
+    Group("weapons_foley");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("mvt_roll_bazooka", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("cis_weap_inf_rocket_mvt_lie");
+    Group("weapons_foley");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("mvt_lie_bazooka", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("cis_weap_inf_rocket_mvt_squat");
+    Group("weapons_foley");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("mvt_squat_bazooka", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("cis_weap_inf_rocket_mvt_stop");
+    Group("weapons_foley");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("mvt_stop_bazooka", 1.0);
+    }
+}
+// ----- Torpedo Weapon tracking -----
+
+SoundProperties()
+{
+    Name("cis_weap_inf_tracking_unit");
+    Group("weapons_foley");
+    Inherit("body_movement_template");
+    looping (1);
+    SampleList()
+    {
+        Sample("wpn_cis_unit_lockon_lp", 1.0);
+    }
+}
+
+// ----- End CIS Rocket ---------------------------------------------
+
+// ----- Start CIS Sniper Rifle -------------------------------------------
+
+SoundProperties()
+{
+    Name("cis_weap_inf_sniperrifle_fire");
+    Group("weapons");
+    Inherit("weapon_template");
+    SampleList()
+    {
+        Sample("wpn_cis_sniperrifle_fire", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("cis_weap_inf_sniperrifle_mvt_getup");
+    Group("weapons_foley");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("mvt_getup_rifle", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("cis_weap_inf_sniperrifle_mvt_jump");
+    Group("weapons_foley");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("mvt_jump_rifle", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("cis_weap_inf_sniperrifle_mvt_land");
+    Group("weapons_foley");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("mvt_land_rifle", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("cis_weap_inf_sniperrifle_mvt_roll");
+    Group("weapons_foley");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("mvt_roll_rifle", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("cis_weap_inf_sniperrifle_mvt_lie");
+    Group("weapons_foley");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("mvt_lie_rifle", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("cis_weap_inf_sniperrifle_mvt_squat");
+    Group("weapons_foley");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("mvt_squat_rifle", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("cis_weap_inf_sniperrifle_mvt_stop");
+    Group("weapons_foley");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("mvt_stop_rifle", 1.0);
+    }
+}
+
+// ----- End CIS Sniper Rifle ---------------------------------------------
+
+// ----- Start CIS Sonicblaster ---------------------------------------------
+
+SoundProperties()
+{
+    Name("cis_weap_inf_sonicblaster_fire");
+    Group("weapons");
+    Inherit("weapon_template");
+    SampleList()
+    {
+        Sample("wpn_cis_sonicblaster_fire", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("cis_weap_inf_sonicblaster_mvt_getup");
+    Group("weapons_foley");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("mvt_getup_rifle", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("cis_weap_inf_sonicblaster_mvt_jump");
+    Group("weapons_foley");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("mvt_jump_rifle", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("cis_weap_inf_sonicblaster_mvt_land");
+    Group("weapons_foley");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("mvt_land_rifle", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("cis_weap_inf_sonicblaster_mvt_roll");
+    Group("weapons_foley");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("mvt_roll_rifle", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("cis_weap_inf_sonicblaster_mvt_lie");
+    Group("weapons_foley");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("mvt_lie_rifle", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("cis_weap_inf_sonicblaster_mvt_squat");
+    Group("weapons_foley");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("mvt_squat_rifle", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("cis_weap_inf_sonicblaster_mvt_stop");
+    Group("weapons_foley");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("mvt_stop_rifle", 1.0);
+    }
+}
+
+
+
+// Droideka Start --------------------------------------------------------------
+
+SoundProperties()
+{
+    Name("cis_weap_inf_droideka_fire");
+    Group("weapons");
+    Inherit("weapon_template");
+    Gain(0.7);
+    RollOff(3.0);
+    SampleList()
+    {
+        Sample("wpn_droideka_blaster_fire", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("cis_weap_inf_droideka_chargeup");
+    Group("weapons");
+    Inherit("weapon_template");
+    Pitch(0.3);
+    RollOff(5.0);
+    SampleList()
+    {
+        Sample("wpn_droideka_chargeup", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("cis_inf_droideka_step");
+    Group("body_movement");
+    Inherit("body_movement_metal_template");
+    Gain(0.8);
+    CyclePlayback(1);
+    SampleList()
+    {
+        Sample("fs_droideka_01", 0.25);
+        Sample("fs_droideka_02", 0.25);
+        Sample("fs_droideka_03", 0.25);
+        Sample("fs_droideka_04", 0.25);
+    }
+}
+
+
+SoundProperties()
+{
+    Name("cis_droideka_shield");
+    Pitch(2.0);
+    PitchDev(0.0);
+    Gain(0.0);
+    GainDev(0.0);
+    ReverbGain(1.0);
+    Bus("soundfx");
+    Looping(1);
+    Pan(0.0);
+    MinDistance(10.0);
+    MuteDistance(20.0);
+    MaxDistance(20.0);
+    RollOff(1.0);
+    Mode3D(1);
+    Bias(0.0001);
+    Priority(0.5);
+    SampleList()
+    {
+   // Sample("drd_droideka_shield_lp", 1.0);
+   Sample("droid_fx7_hum_lp", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("cis_droideka_shield_on");
+    Pitch(1.0);
+    PitchDev(0.0);
+    Gain(1.0);
+    GainDev(0.0);
+    ReverbGain(1.0);
+    Bus("soundfx");
+    Looping(0);
+    Pan(0.0);
+    MinDistance(10.0);
+    MuteDistance(40.0);
+    MaxDistance(40.0);
+    RollOff(1.0);
+    Mode3D(1);
+    Bias(0.0001);
+    Priority(0.5);
+    SampleList()
+    {
+        Sample("drd_droideka_shield_on", 1.0);
+    }
+}
+
+
+
+
+SoundProperties()
+{
+    Name("cis_droideka_shield_wearoff");
+    Pitch(1.0);
+    PitchDev(0.0);
+    Gain(1.0);
+    GainDev(0.0);
+    ReverbGain(1.0);
+    Bus("soundfx");
+    Looping(0);
+    Pan(0.0);
+    MinDistance(6.0);
+    MuteDistance(50.0);
+    MaxDistance(50.0);
+    RollOff(3.0);
+    Mode3D(1);
+    Bias(0.0001);
+    Priority(0.5);
+    SampleList()
+    {
+    Sample("drd_droideka_flicker_lp", 1.0);
+    }
+}
+
+
+SoundProperties()
+{
+    Name("cis_droideka_fold_property");
+    Pitch(1.0);
+    PitchDev(0.0);
+    Gain(1.0);
+    GainDev(0.0);
+    ReverbGain(1.0);
+    Bus("soundfx");
+    Looping(0);
+    Pan(0.0);
+    MinDistance(6.0);
+    MuteDistance(70.0);
+    MaxDistance(70.0);
+    RollOff(3.0);
+    Mode3D(1);
+    Bias(0.0001);
+    Priority(0.5);
+    SampleList()
+    {
+    Sample("drd_droideka_fold", 1.0);
+    }
+}
+
+SoundLayered()
+{
+    Name("cis_droideka_fold");
+    Layer("null", "cis_droideka_fold_property", 0.15);
+}
+
+
+SoundProperties()
+{
+    Name("cis_droideka_unfold_property");
+    Pitch(1.0);
+    PitchDev(0.0);
+    Gain(1.0);
+    GainDev(0.0);
+    ReverbGain(1.0);
+    Bus("soundfx");
+    Looping(0);
+    Pan(0.0);
+    MinDistance(6.0);
+    MuteDistance(70.0);
+    MaxDistance(70.0);
+    RollOff(3.0);
+    Mode3D(1);
+    Bias(0.0001);
+    Priority(0.5);
+    SampleList()
+    {
+    Sample("drd_droideka_unfold", 1.0);
+    }
+}
+
+SoundLayered()
+{
+    Name("cis_droideka_unfold");
+    Layer("null", "cis_droideka_unfold_property", 0.35);
+    Layer("null", "cis_droideka_fold_property", 0.0);
+}
+
+
+SoundProperties()
+{
+    Name("cis_walk_droideka_engine_parameterized");
+    Pitch(1.0);
+    PitchDev(0.0);
+    Gain(1.0);
+    GainDev(0.0);
+    ReverbGain(1.0);
+    Bus("soundfx");
+    Looping(1);
+    Pan(0.0);
+    MinDistance(6.0);
+    MuteDistance(70.0);
+    MaxDistance(70.0);
+    RollOff(3.0);
+    Mode3D(1);
+    Bias(0.0001);
+    Priority(0.5);
+    SampleList()
+    {
+      Sample("drd_droideka_roll_lp", 1.0);
+
+    }
+}
+
+ParameterGraph()
+{
+    Name("droidekaengine_speed");
+    ControlPoint(0.0, 0.0);
+    ControlPoint(0.5, 0.5);
+    ControlPoint(1.0, 1.0);
+}
+
+ParameterGraph()
+{
+    Name("droidekaengine_acceleration");
+    ControlPoint(0.0, 0.0);
+    ControlPoint(0.5, 0.2);
+    ControlPoint(1.0, 0.65);
+}
+
+SoundLayered()
+{
+    Name("droidekaengine_layered");
+    Layer("droideka_engine", "cis_walk_droideka_engine_parameterized", 0.0);
+}
+
+SoundParameterized()
+{
+    Name("cis_walk_droideka_engine_parameterized");
+    SoundLayered("droidekaengine_layered");
+    Layer()
+    {
+        Name("droideka_engine");
+        ParameterGraph("speed",        "droidekaengine_speed",        "pitch");
+        ParameterGraph("speed",        "droidekaengine_acceleration", "gain");
+    }
+}
+// Droideka End --------------------------------------------------------------
+
+
+// ----- End CIS Sonicblaster ---------------------------------------------
+
+// ----- CIS Vehicles -------------------------------------
+// cis_fly_droidfighter - weapons, engine, power, explosion
+// cis_fly_geofighter - weapons, engine, power, explosion
+// cis_hover_aat
+// cis_hover_mtt
+// cis_hover_stap
+// cis_tread_hailfire
+// cis_walk_spider
+// ---------------------------------------------
+
+
+
+
+
+
+// CIS_hover_MTT ---------------------------------------
+
+
+
+
+
+// ----- REP Foley ---------------------------------------
+// rep_inf_soldiier foley
+// trooper movement water low
+// trooper movement water deep
+// trooper movement wood
+// trooper movement stone
+// trooper movement grass
+// trooper movement snow
+// trooper movement metal
+// trooper movement dirt
+// footsteps run walk stop
+// jump land roll squat lie getup
+// binoculars/scope zoom
+// Wade
+
+// ----- Rep Units ----------------------------------------------------
+// rep_inf_clone_trooper - rifle, pistol, thermal(g)
+// rep_inf_clone_pilot - pistol, haywire, fusioncutter(g)
+// rep_inf_arc_trooper - torpedo, pistol, mine dispenser
+// rep_inf_clone_sharpshooter - sniperrifle, pistol, thermal
+// rep_inf_clone_commander - launcher, remote droid, power up dispenser
+// rep_inf_macewindu - lightsaber, lightsaber deflect, force push
+// rep_inf_jet_trooper - jet pack, arccaster, pistol, thermal
+// ---------------------------------------------------------------------
+
+
+// ----- Rep Unit SFX Chatter ------------------------------------------
+
+SoundProperties()
+{
+    Name("rep_inf_com_chatter_death");
+    Group("rep_vo");
+    Inherit("pain_chatter_template");
+    PlayInterval(0.0);
+    PlayIntervalDev(0.0);
+    PlayProbability(1.0);
+    SampleList()
+    {
+        Sample("RICOM404", 0.33);
+        Sample("RICOM405", 0.33);
+        Sample("RICOM406", 0.33);
+    }
+}
+
+SoundProperties()
+{
+    Name("rep_inf_com_chatter_wound");
+    Group("rep_vo");
+    Inherit("pain_chatter_template");
+    PlayInterval(0.0);
+    PlayIntervalDev(0.0);
+    PlayProbability(0.85);
+    SampleList()
+    {
+        Sample("RICOM401", 0.33);
+        Sample("RICOM402", 0.33);
+        Sample("RICOM403", 0.33);
+    }
+}
+
+// ----- Rep Unit Weapons ---------------------------------------------
+
+// ----- Start Rep Generic Weapon Foley -----
+// Equip
+
+SoundProperties()
+{
+    Name("rep_weap_inf_equip_sm");
+    Group("weapons_foley");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("wpn_republic_smlEquip", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("rep_weap_inf_equip_med");
+    Group("weapons_foley");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("wpn_republic_medEquip", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("rep_weap_inf_equip_lg");
+    Group("weapons_foley");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("wpn_republic_lgEquip", 1.0);
+    }
+}
+
+// Reload
+
+SoundProperties()
+{
+//    Name("rep_weap_inf_reload_med_sound");
+    Name("rep_weap_inf_reload_med");
+    Group("weapons_foley");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("wpn_republic_medReload", 1.0);
+    }
+}
+
+
+// It is not possible to control the position of a layered sound in game 
+// after it's started playing.  Doing this will drop the sound in the world.
+//SoundLayered()
+//{
+//    Name("rep_weap_inf_reload_med");
+//    Layer("null", "rep_weap_inf_reload_med_sound", 0.3);
+//}
+
+SoundProperties()
+{
+    Name("rep_weap_inf_reload_lg");
+    Group("weapons_foley");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("wpn_republic_lgReload", 1.0);
+    }
+}
+
+// ----- Torpedo Weapon tracking -----
+
+SoundProperties()
+{
+    Name("rep_weap_inf_tracking_unit");
+    Group("weapons_foley");
+    Inherit("body_movement_template");
+    looping (1);
+    SampleList()
+    {
+        Sample("wpn_rep_unit_lockon_lp", 1.0);
+    }
+}
+
+// ----- Start Republic Rifle ----------------------------------------
+
+SoundProperties()
+{
+    Name("rep_weap_inf_rifle_fire");
+    Group("weapons");
+    Inherit("weapon_template");
+    SampleList()
+    {
+        Sample("wpn_rep_blaster_fire", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("rep_weap_inf_rifle_mvt_getup");
+    Group("weapons_foley");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("mvt_getup_rifle", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("rep_weap_inf_rifle_mvt_jump");
+    Group("weapons_foley");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("mvt_jump_rifle", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("rep_weap_inf_rifle_mvt_land");
+    Group("weapons_foley");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("mvt_land_rifle", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("rep_weap_inf_rifle_mvt_roll");
+    Group("weapons_foley");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("mvt_roll_rifle", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("rep_weap_inf_rifle_mvt_lie");
+    Group("weapons_foley");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("mvt_lie_rifle", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("rep_weap_inf_rifle_mvt_squat");
+    Group("weapons_foley");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("mvt_squat_rifle", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("rep_weap_inf_rifle_mvt_stop");
+    Group("weapons_foley");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("mvt_stop_rifle", 1.0);
+    }
+}
+
+// ----- End Republic Rifle --------------------------------
+
+// ----- Start Republic Pistol ----------------------------
+
+SoundProperties()
+{
+    Name("rep_weap_inf_pistol_fire");
+    Group("weapons");
+    Inherit("weapon_template");
+    SampleList()
+    {
+        Sample("wpn_rep_pistol_fire", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("rep_weap_inf_pistol_mvt_getup");
+    Group("weapons_foley");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("mvt_getup_pistol", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("rep_weap_inf_pistol_mvt_jump");
+    Group("weapons_foley");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("mvt_jump_pistol", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("rep_weap_inf_pistol_mvt_land");
+    Group("weapons_foley");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("mvt_land_pistol", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("rep_weap_inf_pistol_mvt_roll");
+    Group("weapons_foley");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("mvt_roll_pistol", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("rep_weap_inf_pistol_mvt_lie");
+    Group("weapons_foley");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("mvt_lie_pistol", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("rep_weap_inf_pistol_mvt_squat");
+    Group("weapons_foley");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("mvt_squat_pistol", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("rep_weap_inf_pistol_mvt_stop");
+    Group("weapons_foley");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("mvt_stop_pistol", 1.0);
+    }
+}
+
+// ----- End Republic Pistol --------------------------------
+
+// ----- Start Republic Grenade Launcher --------------------
+
+SoundProperties()
+{
+    Name("rep_weap_inf_grenadelauncher_fire");
+    Group("weapons");
+    Inherit("weapon_template");
+    SampleList()
+    {
+        Sample("wpn_rep_grenadelaunch_fire", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("rep_weap_inf_grenadelauncher_mvt_getup");
+    Group("weapons_foley");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("mvt_getup_bazooka", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("rep_weap_inf_grenadelauncher_mvt_jump");
+    Group("weapons_foley");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("mvt_jump_bazooka", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("rep_weap_inf_grenadelauncher_mvt_land");
+    Group("weapons_foley");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("mvt_land_bazooka", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("rep_weap_inf_grenadelauncher_mvt_roll");
+    Group("weapons_foley");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("mvt_roll_bazooka", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("rep_weap_inf_grenadelauncher_mvt_lie");
+    Group("weapons_foley");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("mvt_lie_bazooka", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("rep_weap_inf_grenadelauncher_mvt_squat");
+    Group("weapons_foley");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("mvt_squat_bazooka", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("rep_weap_inf_grenadelauncher_mvt_stop");
+    Group("weapons_foley");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("mvt_stop_bazooka", 1.0);
+    }
+}
+
+
+// ----- End Republic Grenade Launcher --------------------
+
+// ----- Start Republic Laser Cannon --------------------
+
+SoundProperties()
+{
+    Name("rep_weap_inf_lasercannon_fire");
+    Group("weapons");
+    Inherit("weapon_template");
+    SampleList()
+    {
+        Sample("wpn_rep_lasercannon_fire", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("rep_weap_inf_lasercannon_mvt_getup");
+    Group("weapons_foley");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("mvt_getup_bazooka", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("rep_weap_inf_lasercannon_mvt_jump");
+    Group("weapons_foley");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("mvt_jump_bazooka", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("rep_weap_inf_lasercannon_mvt_land");
+    Group("weapons_foley");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("mvt_land_bazooka", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("rep_weap_inf_lasercannon_mvt_roll");
+    Group("weapons_foley");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("mvt_roll_bazooka", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("rep_weap_inf_lasercannon_mvt_lie");
+    Group("weapons_foley");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("mvt_lie_bazooka", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("rep_weap_inf_lasercannon_mvt_squat");
+    Group("weapons_foley");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("mvt_squat_bazooka", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("rep_weap_inf_lasercannon_mvt_stop");
+    Group("weapons_foley");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("mvt_stop_bazooka", 1.0);
+    }
+}
+
+
+// ----- End Republic Laser Cannon --------------------
+
+// ----- Start Republic Arcaster --------------------
+
+SoundProperties()
+{
+    Name("rep_weap_inf_arccaster_fire");
+    Group("weapons");
+    Inherit("weapon_template");
+    SampleList()
+    {
+        Sample("wpn_rep_arccaster_fire", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("rep_weap_inf_arccaster_exp");
+    Group("weapons");
+    Inherit("weapon_template");
+    SampleList()
+    {
+        Sample("exp_ord_arcCaster", 1.0);
+    }
+}
+
+//arc caster charge
+SoundProperties()
+{
+    Name("rep_weap_inf_arccaster_charge");
+    Group("weapons");
+    Inherit("weapon_template");
+    Pitch(0.3);
+    RollOff(5.0);
+    SampleList()
+    {
+        Sample("wpn_lightningGun_chargeup", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("rep_weap_inf_arccaster_mvt_getup");
+    Group("weapons_foley");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("mvt_getup_rifle", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("rep_weap_inf_arccaster_mvt_jump");
+    Group("weapons_foley");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("mvt_jump_rifle", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("rep_weap_inf_arccaster_mvt_land");
+    Group("weapons_foley");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("mvt_land_rifle", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("rep_weap_inf_arccaster_mvt_roll");
+    Group("weapons_foley");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("mvt_roll_rifle", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("rep_weap_inf_arccaster_mvt_lie");
+    Group("weapons_foley");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("mvt_lie_rifle", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("rep_weap_inf_arccaster_mvt_squat");
+    Group("weapons_foley");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("mvt_squat_rifle", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("rep_weap_inf_arccaster_mvt_stop");
+    Group("weapons_foley");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("mvt_stop_rifle", 1.0);
+    }
+}
+
+// ----- End Republic Arcaster --------------------
+
+// ----- Start Republic Sniperrifle --------------------
+
+SoundProperties()
+{
+    Name("rep_weap_inf_sniperrifle_fire");
+    Group("weapons");
+    Inherit("weapon_template");
+    SampleList()
+    {
+        Sample("wpn_rep_sniperrifle_fire", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("rep_weap_inf_sniperrifle_mvt_getup");
+    Group("weapons_foley");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("mvt_getup_rifle", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("rep_weap_inf_sniperrifle_mvt_jump");
+    Group("weapons_foley");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("mvt_jump_rifle", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("rep_weap_inf_sniperrifle_mvt_land");
+    Group("weapons_foley");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("mvt_land_rifle", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("rep_weap_inf_sniperrifle_mvt_roll");
+    Group("weapons_foley");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("mvt_roll_rifle", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("rep_weap_inf_sniperrifle_mvt_lie");
+    Group("weapons_foley");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("mvt_lie_rifle", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("rep_weap_inf_sniperrifle_mvt_squat");
+    Group("weapons_foley");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("mvt_squat_rifle", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("rep_weap_inf_sniperrifle_mvt_stop");
+    Group("weapons_foley");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("mvt_stop_rifle", 1.0);
+    }
+}
+
+// ----- End Republic Sniperrifle -----------------------------
+
+// ----- Start Republic EMP Mine ------------------------------------
+
+SoundProperties()
+{
+    Name("rep_weap_inf_emp_exp");
+    Group("Explosion");
+    Inherit("explosion_template");
+    SampleList()
+    {
+      Sample("exp_ord_emp_large", 1.0);
+    }
+}
+
+// ----- End Republic EMP Mine -------------------------------
+
+// ----- Rep Vehicles -------------------------------------
+
+// rep_fly_gunship - weapons, engine, power, explosion
+// rep_fly_jedifighter - weapons, engine, power, explosion
+// rep_hover_combatspeeder - weapons, engine, power, explosion
+// rep_hover_Fightertank - weapons, engine, power, explosion
+// rep_hover_skiff
+// rep_hover_Speederbike - weapons, engine, power, explosion
+// rep_walk_atte
+// rep_walk_atxt
+// ---------------------------------------------------------
+
+
+// REP_walk_ATXT --------------------------------------
+

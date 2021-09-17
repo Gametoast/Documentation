@@ -1,0 +1,53 @@
+ucft
+{
+    REQN
+    {
+        "bnk"
+        "align=2048"
+        "kas2cw"
+    }
+
+    REQN
+    {
+        "config"
+        "global_world"
+        "exp_obj"
+        "exp_obj_water"
+        "KAS_objective_vo"
+        "rep_unit_vo"
+        "cis_unit_vo"          
+        "global_vo"
+        "wok_unit_vo"
+        "kascw_music_config"
+        "kascw_music"
+        "kas"
+        "kas2"
+        "wok_vo"
+        "cis_unit"
+        "rep_unit"
+        "cw_foley_dirt_config"
+        "cw_foley_dirt"
+        "cw_foley_wood_config"
+        "cw_foley_wood"
+        "cw_foley_waterdeep_config"
+        "cw_foley_water"
+        "wok_foley_dirt_config"
+        "wok_foley_dirt"
+        "wok_foley_wood_config"
+        "wok_foley_wood"
+        "wok_foley_waterdeep_config"
+        "wok_foley_water"
+#ifplatform xbox pc
+        "cw_foley_stone_config"
+        "cw_foley_stone"
+        "wok_foley_stone_config"
+        "wok_foley_stone"
+#endifplatform xbox pc
+        "cis_walk_spider"
+        "cis_hover_stap"
+        "cis_tread_snailtank"
+        "rep_hover_fightertank"
+        "rep_hover_speederbike"
+        "kas2cw_foley"
+    }
+ }

@@ -1,0 +1,885 @@
+Bus()
+{
+    Name("shellfx");
+    Gain(0.3);
+    Parent("Root");
+}
+
+Bus()
+{
+    Name("ingame");
+    Gain(1.0);
+    Parent("Root");
+}
+
+Bus()
+{
+    Name("main");
+    Gain(1.0);
+    Parent("ingame");
+}
+
+Bus()
+{
+    Name("soundfx");
+    Gain(1.0);
+    Parent("main");
+}
+
+Bus()
+{
+    Name("music");
+    Gain(1.0);
+    Parent("main");
+}
+
+Bus()
+{
+    Name("shellmusic");
+    Gain(0.6);
+    Parent("music");
+}
+
+Bus()
+{
+    Name("shellmovies");
+    Gain(1.0);
+    Parent("ingame");
+}
+
+Bus()
+{
+    Name("ingamemusic");
+    Gain(0.5);
+    Parent("music");
+}
+
+Bus()
+{
+    Name("ambience");
+    Gain(0.7);
+    Parent("ingame");
+}
+
+Bus()
+{
+    Name("voiceover");
+    Gain(0.6);
+    AttenuateBus("main");
+    AttenuationLeadIn(0.5);
+    AttenuationLeadOut(0.5);
+    Attenuation(0.5);
+    Parent("ingame");
+    //Mute();
+}
+
+I3DL2ReverbPreset()
+{
+    Name("noreverb");
+    RoomGain(0.0);
+    RoomHFGain(0.0);
+    RoomRollOff(1.0);
+    DecayTime(1.0);
+    DecayHFRatio(0.3);
+    ERGain(0.0);
+    ERDelay(0.02);
+    ReverbGain(0.0);
+    ReverbDelay(0.04);
+    Diffusion(100.0);
+    Density(100.0);
+    HFReference(5000.0);
+}
+
+Space()
+{
+    Name("Default");
+    I3DL2ReverbPreset("noreverb");
+    DirectGain(1.0);
+    DirectHFGain(1.0);
+    RoomGain(0.0);
+    RoomHFGain(0.0);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.1);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.1);
+    OcclusionLFRatio(1.0);
+}
+
+// Templates Start -----------------------------------------------------
+
+SoundProperties()
+{
+    Name("explosion_template");
+    Pitch(1.0);
+    PitchDev(0.15);
+    Gain(1.0);
+    GainDev(0.0);
+    ReverbGain(1.0);
+    Bus("soundfx");
+    Looping(0);
+    Pan(0.0);
+    MinDistance(30.0);
+    MuteDistance(450.0);
+    MaxDistance(450.0);
+    RollOff(1.0);
+    Mode3D(1);
+    Bias(0.0001);
+    Priority(0.9);
+}
+
+SoundProperties()
+{
+    Name("explosion_distant_template");
+    Inherit("explosion_template");
+    Gain(0.8);
+    RollInDistance(55.0);
+    MinDistance(60.0);
+    MuteDistance(500.0);
+    MaxDistance(500.0);
+    RollOff(4.0);
+    Mode3D(1);
+    Bias(0.0001);
+    Priority(0.9);
+}
+
+SoundProperties()
+{
+    Name("explosion_verydistant_template");
+    Inherit("explosion_template");
+    Gain(0.7);
+    RollIn(5.0);
+    RollInDistance(50.0);
+    MinDistance(50.0);
+    MuteDistance(550.0);
+    MaxDistance(550.0);
+    RollOff(1.0);
+    Mode3D(1);
+    Bias(0.0001);
+    Priority(0.9);
+    PlayInterval(0.3);
+}
+
+SoundProperties()
+{
+    Name("veh_weapon_template");
+    Pitch(1.0);
+    PitchDev(0.05);
+    Gain(0.7);
+    GainDev(0.0);
+    ReverbGain(1.0);
+    Bus("soundfx");
+    Looping(0);
+    Pan(0.0);
+    MinDistance(20.0);
+    MuteDistance(600.0);
+    MaxDistance(600.0);
+    RollOff(3.0);
+    Mode3D(1);
+    Bias(0.0001);
+    Priority(0.9);
+}
+
+SoundProperties()
+{
+    Name("weapon_template");
+    Pitch(1.0);
+    PitchDev(0.05);
+    Gain(1.0);
+    GainDev(0.0);
+    ReverbGain(1.0);
+    Bus("soundfx");
+    Looping(0);
+    Pan(0.0);
+    MinDistance(11.0);
+    MuteDistance(400.0);
+    MaxDistance(400.0);
+    RollIn(0.0);
+    RollOff(3.5);
+    Mode3D(1);
+    Bias(0.0001);
+    Priority(0.85);
+}
+
+SoundProperties()
+{
+    Name("impact_template");
+    Pitch(1.0);
+    PitchDev(0.05);
+    Gain(0.5);
+    GainDev(0.05);
+    ReverbGain(1.0);
+    Bus("soundfx");
+    Looping(0);
+    Pan(0.0);
+    MinDistance(7.0);
+    MuteDistance(60.0);
+    MaxDistance(60.0);
+    RollOff(3.0);
+    Mode3D(1);
+    Bias(0.0001);
+    Priority(0.7);
+}
+
+SoundProperties()
+{
+    Name("ordnance_template");
+    Pitch(1.0);
+    PitchDev(0.15);
+    Gain(0.5);
+    GainDev(0.0);
+    ReverbGain(1.0);
+    Bus("soundfx");
+    Looping(1);
+    Pan(0.0);
+    MinDistance(2.0);
+    MuteDistance(30.0);
+    MaxDistance(30.0);
+    ModeDoppler(1);
+    RollOff(4.0);
+    Mode3D(1);
+    Bias(0.0001);
+    Priority(0.8);
+}
+
+SoundProperties()
+{
+    Name("pain_chatter_template");
+    Pitch(1.0);
+    PitchDev(0.1);
+    Gain(0.7);
+    GainDev(0.05);
+    ReverbGain(1.0);
+    Bus("soundfx");
+    Looping(0);
+    Pan(0.0);
+    MinDistance(7.0);
+    MuteDistance(200.0);
+    MaxDistance(200.0);
+    RollOff(2.0);
+    Mode3D(1);
+    Bias(0.0001);
+    Priority(0.8);
+    PlayProbability(0.8);
+    CyclePlayback(1);
+}
+
+SoundStreamProperties()
+{
+    Name("battle_chatter_template");
+    Pitch(1.0);
+    PitchDev(0.0);
+    Gain(0.7);
+    GainDev(0.05);
+    ReverbGain(1.0);
+    Bus("soundfx");
+    Looping(0);
+    Pan(0.0);
+    MinDistance(16.0);
+    MuteDistance(150.0);
+    MaxDistance(150.0);
+    PlayProbability(1.0);
+    PlayInterval(20.0);
+    PlayIntervalDev(5.0);
+    RollOff(3.0);
+    Mode3D(1);
+    Bias(0.0001);
+    Priority(0.6);
+    CyclePlayback(1);
+}
+
+SoundStreamProperties()
+{
+    Name("tactical_template");
+    Inherit("battle_chatter_template");
+    Gain(0.8);
+    RollOff(1.0)
+    MinDistance(30.0);
+    MuteDistance(150.0);
+    MaxDistance(150.0);
+    PlayInterval(0.0);
+    PlayIntervalDev(0.0);
+    PlayProbability(1.0);
+}
+
+SoundStreamProperties()
+{
+    Name("ai_tactical_template");
+    Inherit("battle_chatter_template");
+    Gain(0.7);
+    MinDistance(11.0);
+    MuteDistance(150.0);
+    MaxDistance(150.0);
+}
+
+
+SoundProperties()
+{
+    Name("vehicle_template");
+    Pitch(1.0);
+    PitchDev(0.0);
+    Gain(0.8);
+    GainDev(0.0);
+    ReverbGain(1.0);
+    Bus("soundfx");
+    Looping(1);
+    Pan(0.0);
+    MinDistance(25.0);
+    MuteDistance(350.0);
+    MaxDistance(350.0);
+    RollOff(3.0);
+    Mode3D(1);
+    Bias(0.0001);
+    Priority(0.7);
+}
+
+SoundProperties()
+{
+    Name("vehicle_eng_hi-mid_template");
+    Pitch(1.0);
+    PitchDev(0.0);
+    Gain(0.9);
+    GainDev(0.0);
+    ReverbGain(1.0);
+    Bus("soundfx");
+    Looping(1);
+    Pan(0.0);
+    MinDistance(25.0);
+    MaxDistance(450.0);
+    MuteDistance(450.0);
+    Rolloff(3.0);
+    Mode3D(1);
+    Bias(0.0001);
+    Priority(0.7);
+}
+
+SoundProperties()
+{
+    Name("vehicle_eng_low_template");
+    Pitch(1.0);
+    PitchDev(0.0);
+    Gain(0.9);
+    GainDev(0.0);
+    ReverbGain(1.0);
+    Bus("soundfx");
+    Looping(1);
+    Pan(0.0);
+    MinDistance(45.0);
+    MaxDistance(450.0);
+    MuteDistance(450.0);
+    Rolloff(2.0);
+    Mode3D(1);
+    Bias(0.0001);
+    Priority(0.7);
+}
+
+SoundProperties()
+{
+    Name("vehicle_foley_template");
+    Pitch(1.0);
+    Gain(0.8);
+    GainDev(0.0);
+    ReverbGain(1.0);
+    Bus("soundfx");
+    Looping(0);
+    Pan(0.0);
+    MinDistance(15.0);
+    MuteDistance(100.0);
+    MaxDistance(100.0);
+    RollOff(3.0);
+    Mode3D(1);
+    Bias(0.0001);
+    Priority(0.7);
+}
+
+SoundStreamProperties()
+{
+    Name("ambientfx_template");
+    Pitch(1.0);
+    PitchDev(0.05);
+    Gain(0.8);
+    GainDev(0.0);
+    ReverbGain(1.0);
+    Bus("ambience");
+    Looping(1);
+    Pan(0.0);
+    MinDistance(15.0);
+    MuteDistance(400.0);
+    MaxDistance(400.0);
+    ModeDoppler(0.0);
+    RollOff(3.0);
+    Mode3D(1);
+    Bias(0.0001);
+    Priority(0.7);
+}
+
+SoundStreamProperties()
+{
+    Name("ambientemt_template");
+    Pitch(1.0);
+    PitchDev(0.05);
+    Gain(0.5);
+    GainDev(0.0);
+    ReverbGain(1.0);
+    Bus("ambience");
+    Looping(1);
+    Pan(0.0);
+    MinDistance(1.0);
+    MuteDistance(50.0);
+    MaxDistance(50.0);
+    ModeDoppler(0.0);
+    RollOff(1.0);
+    Mode3D(1);
+    Bias(0.0001);
+    Priority(0.7);
+}
+
+SoundProperties()
+{
+    Name("ambientemt_static_template");
+    Pitch(1.0);
+    PitchDev(0.05);
+    Gain(0.6);
+    GainDev(0.0);
+    ReverbGain(1.0);
+    Bus("ambience");
+    Looping(1);
+    Pan(0.0);
+    MinDistance(2.0);
+    MuteDistance(40.0);
+    MaxDistance(40.0);
+    RollOff(1.0);
+    Mode3D(1);
+    Bias(0.0001);
+    Priority(0.7);
+}
+
+SoundProperties()
+{
+    Name("props_template");
+    Pitch(1.0);
+    PitchDev(0.05);
+    Gain(0.3);
+    GainDev(0.0);
+    ReverbGain(1.0);
+    Bus("soundfx");
+    Looping(0);
+    Pan(0.0);
+    MinDistance(5.0);
+    MuteDistance(200.0);
+    MaxDistance(200.0);
+    RollOff(5.0);
+    Mode3D(1);
+    Bias(0.0001);
+    Priority(0.7);
+}
+
+SoundProperties()
+{
+    Name("wookie_movement_template");
+    Pitch(1.0);
+    PitchDev(0.02);
+    Gain(1.0);
+    GainDev(0.0);
+    ReverbGain(1.0);
+    Bus("soundfx");
+    Looping(0);
+    Pan(0.0);
+    MinDistance(10.0);
+    MuteDistance(50.0);
+    MaxDistance(50.0);
+    RollOff(3.0);
+    Mode3D(1);
+    Bias(0.0001);
+    Priority(0.6);
+}
+
+SoundProperties()
+{
+    Name("wookie_movement_metal_template");
+    Inherit("wookie_movement_template");
+    Gain(1.0);
+}
+
+SoundProperties()
+{
+    Name("body_movement_template");
+    Pitch(1.0);
+    PitchDev(0.02);
+    Gain(0.8);
+    GainDev(0.0);
+    ReverbGain(1.0);
+    Bus("soundfx");
+    Looping(0);
+    Pan(0.0);
+    MinDistance(10.0);
+    MuteDistance(50.0);
+    MaxDistance(50.0);
+    RollOff(3.0);
+    Mode3D(1);
+    Bias(0.0001);
+    Priority(0.6);
+}
+
+SoundProperties()
+{
+    Name("body_movement_water_template");
+    Inherit("body_movement_template");
+    Gain(1.0);
+}
+
+SoundProperties()
+{
+    Name("body_movement_metal_template");
+    Inherit("body_movement_template");
+    Gain(0.65);
+}
+
+SoundProperties()
+{
+    Name("body_movement_fall_template");
+    Inherit("body_movement_template");
+    MinDistance(15.0);
+    MaxDistance(30.0);
+    MuteDistance(30.0);
+    Rolloff(1.0);
+}
+
+SoundProperties()
+{
+    Name("turret_template");
+    Pitch(0.9);
+    PitchDev(0.0);
+    Gain(1.0);
+    GainDev(0.01);
+    ReverbGain(1.0);
+    Bus("soundfx");
+    Looping(0);
+    Pan(0.0);
+    MinDistance(10.0);
+    MuteDistance(20.0);
+    MaxDistance(20.0);
+    RollOff(1.0);
+    Mode3D(1);
+    Bias(0.0001);
+    Priority(0.6);
+}
+
+
+SoundStreamProperties()
+{
+    Name("vo_template");
+    Pitch(1.0);
+    PitchDev(0.0);
+    Gain(0.7);
+    GainDev(0.0);
+    ReverbGain(0.0);
+    Bus("voiceover");
+    Looping(0);
+    Pan(0.0);
+    Mode3D(0);
+}
+
+SoundProperties()
+{
+    Name("commandpost_amb_template");
+    Pitch(1.0);
+    PitchDev(0.00);
+    Gain(1.0);
+    GainDev(0.0);
+    ReverbGain(1.0);
+    Bus("soundfx");
+    Looping(1);
+    Pan(0.0);
+    MinDistance(6.0);
+    MuteDistance(100.0);
+    MaxDistance(100.0);
+    RollOff(6.0);
+    Mode3D(1);
+    Bias(0.0001);
+    Priority(1.0);
+    PlayProbability(1.0);
+}
+
+SoundProperties()
+{
+    Name("commandpost_capturelost");
+    Pitch(1.0);
+    PitchDev(0.00);
+    Gain(0.5);
+    GainDev(0.0);
+    ReverbGain(1.0);
+    Bus("soundfx");
+    Looping(0);
+    Pan(0.0);
+    MinDistance(12.0);
+    MuteDistance(75.0);
+    MaxDistance(75.0);
+    RollOff(4.0);
+    Mode3D(1);
+    Bias(0.0001);
+    Priority(1.0);
+    PlayProbability(1.0);
+}
+
+
+// Templates End -----------------------------------
+
+
+//---------------------------------------------------
+// Load display -------------------------------------
+SoundProperties()
+{
+    Name("load_zoom")
+    Pitch(1.5);
+    PitchDev(0.0);
+    Gain(1.0);
+    GainDev(0.0);
+    ReverbGain(1.0);
+    Bus("shellfx");
+    Looping(0);
+    Pan(0.0);
+    Mode3D(0);
+    Bias(0.5);
+    Priority(0.5);
+    SampleList()
+    {
+        Sample("ui_planetzoom", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("load_transition")
+    Pitch(1.0);
+    PitchDev(0.0);
+    Gain(1.0);
+    GainDev(0.0);
+    ReverbGain(1.0);
+    Bus("shellfx");
+    Looping(0);
+    Pan(0.0);
+    Mode3D(0);
+    Bias(0.5);
+    Priority(0.5);
+    SampleList()
+    {
+        Sample("ui_menuSelectionToggle", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("load_xtracking")
+    Pitch(2.1);
+    PitchDev(0.0);
+    Gain(0.7);
+    GainDev(0.0);
+    ReverbGain(1.0);
+    Bus("shellfx");
+    Looping(1);
+    Pan(0.0);
+    Mode3D(0);
+    Bias(0.5);
+    Priority(0.5);
+    PlayInterval(0.05);
+    SampleList()
+    {
+        Sample("ui_load_lp", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("load_ytracking")
+    Pitch(1.8);
+    PitchDev(0.0);
+    Gain(0.7);
+    GainDev(0.0);
+    ReverbGain(1.0);
+    Bus("shellfx");
+    Looping(1);
+    Pan(0.0);
+    Mode3D(0);
+    Bias(0.5);
+    Priority(0.5);
+    PlayInterval(0.05);
+    SampleList()
+    {
+        Sample("ui_load_lp", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("load_bar")
+    Pitch(0.4);
+    PitchDev(0.0);
+    Gain(0.0);
+    GainDev(0.0);
+    ReverbGain(1.0);
+    Bus("shellfx");
+    Looping(1);
+    Pan(0.0);
+    Mode3D(0);
+    Bias(0.5);
+    Priority(0.5);
+    PlayInterval(0.05);
+    SampleList()
+    {
+        Sample("ui_load_lp", 1.0);
+    }
+}
+
+
+// Shell Sound ----------------------------
+// HUD Sound effects
+
+SoundProperties()
+{
+    Name("shell_select_change")
+    Pitch(1.5);
+    PitchDev(0.0);
+    Gain(1.0);
+    GainDev(0.0);
+    ReverbGain(0.0);
+    Bus("shellfx");
+    Looping(0);
+    Pan(0.0);
+    Mode3D(0);
+    Bias(0.5);
+    Priority(0.5);
+    PlayInterval(0.05);
+    SampleList()
+    {
+        Sample("ui_menuMove", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("shell_menu_exit")
+    Pitch(0.8);
+    PitchDev(0.0);
+    Gain(1.0);
+    GainDev(0.0);
+    ReverbGain(0.0);
+    Bus("shellfx");
+    Looping(0);
+    Pan(0.0);
+    Mode3D(0);
+    Bias(0.5);
+    Priority(0.5);
+    SampleList()
+    {
+        Sample("ui_menuBack", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("shell_menu_accept")
+    Pitch(1.1);
+    PitchDev(0.0);
+    Gain(1.0);
+    GainDev(0.0);
+    ReverbGain(0.0);
+    Bus("shellfx");
+    Looping(0);
+    Pan(0.0);
+    Mode3D(0);
+    Bias(0.5);
+    Priority(0.5);
+    SampleList()
+    {
+        Sample("ui_planetzoom", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("shell_menu_cancel")
+    Pitch(1.0);
+    PitchDev(0.0);
+    Gain(1.0);
+    GainDev(0.0);
+    ReverbGain(0.0);
+    Bus("shellfx");
+    Looping(0);
+    Pan(0.0);
+    Mode3D(0);
+    Bias(0.5);
+    Priority(0.5);
+    SampleList()
+    {
+        Sample("ui_cancel", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("shell_menu_error")
+    Pitch(1.0);
+    PitchDev(0.0);
+    Gain(1.0);
+    GainDev(0.0);
+    ReverbGain(0.0);
+    Bus("shellfx");
+    Looping(0);
+    Pan(0.0);
+    Mode3D(0);
+    Bias(0.5);
+    Priority(0.5);
+    SampleList()
+    {
+        Sample("ui_cancel", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("shell_keyboard_key")
+    Pitch(1.5);
+    PitchDev(0.0);
+    Gain(1.0);
+    GainDev(0.0);
+    ReverbGain(1.0);
+    Bus("shellfx");
+    Looping(0);
+    Pan(0.0);
+    Mode3D(0);
+    Bias(0.5);
+    Priority(0.5);
+    SampleList()
+    {
+        Sample("ui_keyboardtype", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("shell_keyboard_backspace")
+    Pitch(1.0);
+    PitchDev(0.0);
+    Gain(1.0);
+    GainDev(0.0);
+    ReverbGain(1.0);
+    Bus("shellfx");
+    Looping(0);
+    Pan(0.0);
+    Mode3D(0);
+    Bias(0.5);
+    Priority(0.5);
+    SampleList()
+    {
+        Sample("ui_keyboardtype", 1.0);
+    }
+}
+
+
+// LEGACY for map display (i didn't want to change all of the luas)
+
+SoundProperties()
+{
+    Name("shell_menu_enter")
+    Inherit("shell_menu_accept")
+}

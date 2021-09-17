@@ -1,0 +1,204 @@
+// ----- Soundspace Start ----------------------------------------------
+Space()
+{
+    Name("Default");
+    I3DL2ReverbPreset("noreverb");
+    DirectGain(1.0);
+    DirectHFGain(1.0);
+    RoomGain(0.0);
+    RoomHFGain(0.0);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.1);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.1);
+    OcclusionLFRatio(1.0);
+}
+
+
+#ifplatform pc
+I3DL2ReverbPreset()
+{
+    Name("exhaustamb");
+    RoomGain(1.0);
+    RoomHFGain(0.7);
+    RoomRollOff(1.0);
+    DecayTime(2.5);
+    DecayHFRatio(0.8);
+    ERGain(0.2);
+    ERDelay(0.06);
+    ReverbGain(0.5);
+    ReverbDelay(0.01);
+    Diffusion(100.0);
+    Density(100.0);
+    HFReference(5000.0);
+}
+
+Space()
+{
+    Name("Exhaust"); // Exhaust chamber
+    I3DL2ReverbPreset("exhaustamb");
+    DirectGain(1.0);
+    DirectHFGain(1.0);
+    RoomGain(0.8);
+    RoomHFGain(0.8);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(1.0);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(1.0);
+    OcclusionLFRatio(1.0);
+}
+#endifplatform pc
+
+#ifplatform xbox
+
+I3DL2ReverbPreset()
+{
+    Name("exhaustamb");
+    RoomGain(0.2);
+    RoomHFGain(0.2);
+    RoomRollOff(1.0);
+    DecayTime(2.5);
+    DecayHFRatio(1.0);
+    ERGain(0.2);
+    ERDelay(0.08);
+    ReverbGain(0.5);
+    ReverbDelay(0.01);
+    Diffusion(100.0);
+    Density(100.0);
+    HFReference(5000.0);
+}
+
+Space()
+{
+    Name("Exhaust"); // Exhaust chamber
+    I3DL2ReverbPreset("exhaustamb");
+    DirectGain(1.0);
+    DirectHFGain(1.0);
+    RoomGain(0.3);
+    RoomHFGain(0.4);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(1.0);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(1.0);
+    OcclusionLFRatio(1.0);
+}
+
+#endifplatform xbox
+
+#ifplatform ps2
+
+I3DL2ReverbPreset()
+{
+    Name("exhaustamb");
+    RoomGain(0.1);
+    RoomHFGain(0.4);
+    RoomRollOff(1.0);
+    DecayTime(2.5);
+    DecayHFRatio(1.0);
+    ERGain(0.2);
+    ERDelay(0.08);
+    ReverbGain(0.65);
+    ReverbDelay(0.01);
+    Diffusion(100.0);
+    Density(100.0);
+    HFReference(5000.0);
+}
+
+Space()
+{
+    Name("Exhaust"); // Exhaust chamber
+    I3DL2ReverbPreset("exhaustamb");
+    DirectGain(1.0);
+    DirectHFGain(1.0);
+    RoomGain(0.3);
+    RoomHFGain(0.4);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.0);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.0);
+    OcclusionLFRatio(1.0);
+}
+#endifplatform ps2
+// ----- Soundspace End -----------------------------------------------------
+
+
+
+// ----- Ambient Environment Streams Start ------------------------------
+SoundStreamProperties()
+{
+    Name("uta_amb_wind");
+    Group("ambientenv");
+    Inherit("ambientfx_template");
+    Stream("uta1");
+    Gain(0.5);
+    SegmentList()
+    {
+        Segment("uta_amb_wind", 1.0);
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("amb_hangar");
+    Group("ambientenv");
+    Inherit("ambientfx_template");
+    Gain(0.6);
+    Stream("uta1");
+    Priority(0.75);
+    SegmentList()
+    {
+        Segment("amb_hangar", 1.0);
+    }
+}
+
+
+// ----- Ambient Environment Streams End ---------------------------
+
+
+
+// ----- Prop Ambient Effects Start --------------------------------
+
+
+SoundProperties()
+{
+    Name("electric_hum");
+    Group("unit_weapon");
+    Inherit("weapon_template");
+    Gain(0.1);
+    RandomPlayPos(1);
+    Pitch(1.0);
+    PitchDev(0.05);
+    Looping(1);
+    MinDistance(2.0);
+    MuteDistance(50.0);
+    MaxDistance(50.0);
+    SampleList()
+    {
+      Sample("electric_hum", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("windmill"); // steam jet loop low pitch
+    Group("Props");
+    Inherit("props_template");
+    Looping(1);
+    RandomPlayPos(1);
+    Gain(0.1)
+    Pitch(0.8);
+    RollOff(3.0);
+    MaxDistance(100);
+    MuteDistance(100);
+    SampleList()
+    {
+        Sample("emt_industrialFanLow_lp", 1.0);
+    }
+}
+// ----- Prop Ambient Effects End ----------------------------------
+
+
+// ----- uta1 Objective VO Start ---------------------------------------------
+
+// ----- uta1 Objective VO End --------------------------------------------------
+

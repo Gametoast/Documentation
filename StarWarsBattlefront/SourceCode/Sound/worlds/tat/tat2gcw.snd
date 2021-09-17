@@ -1,0 +1,114 @@
+SoundProperties()
+{
+    Name("tat_inf_jawa_hurt")
+    Pitch(1.0);
+    PitchDev(0.1);
+    Gain(1.0);
+    GainDev(0.05);
+    ReverbGain(1.0);
+    Bus("soundfx");
+    Looping(0);
+    Pan(0.0);
+    MinDistance(20.0);
+    MuteDistance(400.0);
+    MaxDistance(400.0);
+    RollOff(5.0);
+    Mode3D(1);
+    Bias(0.5);
+    Priority(0.5);
+    SampleList()
+    {
+      Sample("tat_inf_jawa_hurt01", 1.0);
+    Sample("tat_inf_jawa_hurt02", 1.0);
+    Sample("tat_inf_jawa_hurt03", 1.0);
+
+    }
+}
+
+SoundProperties()
+{
+    Name("tat_inf_jawa_death")
+    Pitch(1.0);
+    PitchDev(0.05);
+    Gain(1.0);
+    GainDev(0.05);
+    ReverbGain(1.0);
+    Bus("soundfx");
+    Looping(0);
+    Pan(0.0);
+    MinDistance(20.0);
+    MuteDistance(400.0);
+    MaxDistance(400.0);
+    RollOff(5.0);
+    Mode3D(1);
+    Bias(0.5);
+    Priority(0.5);
+    SampleList()
+    {
+      Sample("tat_inf_jawa_death01", 1.0);
+      Sample("tat_inf_jawa_death02", 1.0);
+      Sample("tat_inf_jawa_death03", 1.0);
+    }
+}
+
+
+SoundProperties()
+{
+    Name("tat_inf_jawa_heard")
+    Pitch(1.0);
+    PitchDev(0.1);
+    Gain(1.0);
+    GainDev(0.05);
+    ReverbGain(1.0);
+    Bus("soundfx");
+    Looping(0);
+    Pan(0.0);
+   MinDistance(15.0);
+    MuteDistance(400.0);
+    MaxDistance(400.0);
+    RollOff(5.0);
+    Mode3D(1);
+    Bias(0.5);
+    Priority(0.5);
+    SampleList()
+    {
+      Sample("tat_inf_jawa_heard01", 1.0);
+    Sample("tat_inf_jawa_heard02", 1.0);
+
+    }
+}
+
+SoundProperties()
+{
+    Name("tat_inf_jawa_chatter")
+    Pitch(1.0);
+    PitchDev(0.1);
+    Gain(1.0);
+    GainDev(0.05);
+    ReverbGain(1.0);
+    Bus("soundfx");
+    Looping(0);
+    Pan(0.0);
+    MinDistance(15.0);
+    MuteDistance(125.0);
+    MaxDistance(125.0);
+    RollOff(5.0);
+    PlayInterval(0.5);
+    Mode3D(1);
+    Bias(0.5);
+    Priority(0.5);
+    SampleList()
+    {
+        Sample("tat_inf_jawa_heard01", 1.0);
+        Sample("tat_inf_jawa_heard02", 1.0);
+        Sample("tat_inf_jawa_chatter01", 1.0);
+        Sample("tat_inf_jawa_chatter02", 1.0);
+        Sample("tat_inf_jawa_chatter03", 1.0);
+        Sample("tat_inf_jawa_chatter04", 1.0);
+        Sample("tat_inf_jawa_chatter05", 1.0);
+        Sample("tat_inf_jawa_chatter06", 1.0);
+        Sample("tat_inf_jawa_chatter07", 1.0);
+
+    }
+}
+

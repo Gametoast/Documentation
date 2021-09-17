@@ -1,0 +1,400 @@
+// ------ Republic Unit Sound Properties -----------------
+
+// ===== Note: Common jedi sound properties located in global_world.snd
+
+
+
+
+// ========== Start Heroes ===========
+
+// ----- Aalya Secura Start -------------------------------------------------
+// ----- Aalya Secura  End ---------------------------------------------------
+
+// ----- Kiyadi Mundi Start -------------------------------------------------
+// ----- Kiyadi Mundi  End ---------------------------------------------------
+
+// ----- Mace Windu Start -------------------------------------------------
+// ----- Mace Windu End ---------------------------------------------------
+
+// ----- Obiwan Start -------------------------------------------------
+// ----- Obiwan End ---------------------------------------------------
+
+// ----- Obiwan Old Start -------------------------------------------------
+// ----- Obiwan Old End ---------------------------------------------------
+
+// ----- Yoda Start -------------------------------------------------
+// ----- Yoda End ---------------------------------------------------
+
+
+
+// TEMP TO BE RECONCILED ====================================================
+// Naboo Guard Pain and Death
+
+SoundProperties()
+{
+    Name("gar_inf_com_chatter_death");
+    Group("rep_vo");
+    Inherit("pain_chatter_template");
+    PlayInterval(0.0);
+    PlayIntervalDev(0.0);
+    PlayProbability(1.0);
+    SampleList()
+    {
+        Sample("AICOM404", 0.33);
+        Sample("AICOM405", 0.33);
+        Sample("AICOM406", 0.33);
+    }
+}
+
+SoundProperties()
+{
+    Name("gar_inf_com_chatter_wound");
+    Group("rep_vo");
+    Inherit("pain_chatter_template");
+    PlayInterval(0.0);
+    PlayIntervalDev(0.0);
+    PlayProbability(0.85);
+    SampleList()
+    {
+        Sample("AICOM401", 0.33);
+        Sample("AICOM402", 0.33);
+        Sample("AICOM403", 0.33);
+    }
+}
+
+SoundProperties()
+{
+    Name("repmalechoke");
+    Group("rep_inf_pain_vo");
+    Inherit("pain_chatter_template");
+    PlayInterval(2.0);
+    PlayIntervalDev(0.0);
+    PlayProbability(1.0);
+    SampleList()
+    {
+        Sample("malechoke", 1.0);
+    }
+}
+// TEMP (ABOVE) TO BE RECONCILED ====================================================
+
+
+
+// ----- Rep Unit SFX Chatter ------------------------------------------
+
+SoundProperties()
+{
+    Name("rep_inf_com_chatter_death");
+    Group("rep_vo");
+    Inherit("pain_chatter_template");
+    PlayInterval(0.0);
+    PlayIntervalDev(0.0);
+    PlayProbability(1.0);
+    SampleList()
+    {
+        Sample("RICOM404", 0.33);
+        Sample("RICOM405", 0.33);
+        Sample("RICOM406", 0.33);
+    }
+}
+
+SoundProperties()
+{
+    Name("rep_inf_com_chatter_wound");
+    Group("rep_vo");
+    Inherit("pain_chatter_template");
+    PlayInterval(0.0);
+    PlayIntervalDev(0.0);
+    PlayProbability(0.85);
+    SampleList()
+    {
+        Sample("RICOM401", 0.33);
+        Sample("RICOM402", 0.33);
+        Sample("RICOM403", 0.33);
+    }
+}
+
+
+
+
+// ----- Rep Unit SFX Chatter End ------------------------------------------
+
+
+
+// ----- Republic Buff Defense Start -----------------------------------------
+
+SoundProperties()
+{
+    Name("buff_rally_fire");
+    Group("weapons");
+    Inherit("weapon_template");
+    SampleList()
+    {
+        Sample("buff_rally_fire", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("buff_rally_effect");
+    Group("weapons");
+    Inherit("ordnance_template");
+    SampleList()
+    {
+        Sample("buff_rally_effect", 1.0);
+    }
+}
+
+
+// ----- Republic Buff Defense End -----------------------------------------
+
+
+
+// ----- Republic Chaingun Start -----------------------------------------
+
+SoundProperties()
+{
+    Name("rep_weap_inf_chaingun_fire");
+    Group("weapons");
+    Inherit("weapon_template");
+    Gain(0.9);
+    Looping(1);
+    RollOff(2.0);
+    SampleList()
+    {
+        Sample("wpn_chaingun_fire01", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("rep_weap_inf_chaingun_spin");
+    Group("weapons");
+    Inherit("weapon_template");
+    #ifplatform pc
+    Gain(0.3);
+    #endifplatform pc
+    #ifplatform xbox
+    Gain(0.2);
+    #endifplatform xbox
+    #ifplatform ps2
+    Gain(0.2);
+    #endifplatform ps2
+    MinDistance(15.0);
+    Pitch(0.75);
+    Looping(1);
+    Rolloff(3.0);
+    SampleList()
+    {
+        Sample("wpn_chaingun_spin", 1.0);
+    }
+}
+
+// ----- Republic Chaingun End -----------------------------------------
+
+
+
+
+// ----- Republic Commando Pistol Start -----------------------------------------
+
+SoundProperties()
+{
+    Name("rep_weap_inf_commando_pistol_fire");
+    Group("weapons");
+    Inherit("weapon_template");
+    SampleList()
+    {
+        Sample("com_cpistol_fire", 1.0);
+    }
+}
+
+// ----- Republic Commando Pistol End -------------------------------------------
+
+
+// ----- Republic Detpack Start -----------------------------------------
+// Included in global world
+// ----- Republic Detpack End -------------------------------------------
+
+
+
+// ----- Republic EMP Launcher Start -----------------------------------------
+
+SoundProperties()
+{
+    Name("rep_weap_inf_emp_launcher_fire");
+    Group("weapons");
+    Inherit("weapon_template");
+    SampleList()
+    {
+        Sample("wpn_cis_rcktlauncher_fire", 1.0);
+    }
+}
+
+// ----- Republic EMP Launcher End -------------------------------------------
+
+
+// ----- Republic Force Push Start -------------------------
+// Included in global until hero weapons finalized
+// ----- Republic Force Push End ---------------------------
+
+
+// ----- Republic Fusioncutter Start -------------------------
+// Included in global until unit weapons finalized
+// ----- Republic Fusioncutter End ---------------------------
+
+
+
+// ----- Republic Mine Dispenser Start -----------------------------------------
+// Included in global until unit weapons finalized
+// ----- Republic Mine Dispenser End -------------------------------------------
+
+// ----- Republic Pistol Start -----------------------------------------
+
+SoundProperties()
+{
+    Name("rep_weap_inf_pistol_fire");
+    Group("weapons");
+    Inherit("weapon_template");
+    SampleList()
+    {
+        Sample("wpn_rep_pistol_fire", 1.0);
+    }
+}
+
+// ----- Republic Pistol End -------------------------------------------
+
+// ----- Republic Powerup Dispenser Start -----------------------------------------
+// Included in global until unit weapons finalized
+// ----- Republic Powerup Dispenser End -------------------------------------------
+
+// ----- Republic Remote Droid Start -----------------------------------------
+// Included in global until unit weapons finalized
+// ----- Republic Remote Droid End -------------------------------------------
+
+// ----- Republic Rifle Start -----------------------------------------
+
+SoundProperties()
+{
+    Name("rep_weap_inf_rifle_fire");
+    Group("weapons");
+    Inherit("weapon_template");
+    SampleList()
+    {
+        Sample("wpn_rep_blaster_fire", 1.0);
+    }
+}
+
+// ----- Republic Rifle End -------------------------------------------
+
+
+// ----- Republic Rocket Launcher Start -----------------------------------------
+
+SoundProperties()
+{
+    Name("rep_weap_inf_rocket_launcher_fire");
+    Group("weapons");
+    Inherit("weapon_template");
+    SampleList()
+    {
+        Sample("wpn_cis_rcktlauncher_fire", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("rep_weap_inf_rocket_launcher_tracking");
+    Group("weapons_foley");
+    Inherit("body_movement_template");
+    Pitch(1.5);
+    looping (1);
+    SampleList()
+    {
+        Sample("com_tracking_loop", 1.0);
+    }
+}
+
+// ----- Republic Rocket Launcher End -------------------------------------------
+
+// ----- Republic Shotgun Start -----------------------------------------
+
+SoundProperties()
+{
+    Name("rep_weap_inf_shotgun_fire");
+    Group("weapons");
+    Inherit("weapon_template");
+    Gain(1.0)
+    SampleList()
+    {
+        Sample("com_weap_shotgun_fire", 1.0);
+    }
+}
+
+
+// ----- Republic Shotgun End -------------------------------------------
+
+
+// ----- Republic Sniper Rifle Start -----------------------------------------
+
+SoundProperties()
+{
+    Name("rep_weap_inf_sniper_rifle_fire");
+    Group("weapons");
+    Inherit("weapon_template");
+    Pitch(1.0);
+    PitchDev(0.05);
+    SampleList()
+    {
+        Sample("wep_All_sniper_01", 1.0);
+    }
+}
+
+
+// ----- Republic Sniper Rifle End -------------------------------------------
+
+// ----- Republic Thermal Detonator Start -----------------------------------------
+// ----- Republic Thermal Detonator End -------------------------------------------
+
+
+//GICOM401
+//GICOM402
+//GICOM403
+//GICOM404
+//GICOM405
+//GICOM406
+//malechoke
+//mvt_getup_bazooka
+//mvt_getup_pistol
+//mvt_getup_rifle
+//mvt_jump_bazooka
+//mvt_jump_pistol
+//mvt_jump_rifle
+//mvt_land_bazooka
+//mvt_land_pistol
+//mvt_land_rifle
+//mvt_lie_bazooka
+//mvt_lie_pistol
+//mvt_lie_rifle
+//mvt_roll_bazooka
+//mvt_roll_pistol
+//mvt_roll_rifle
+//mvt_squat_bazooka
+//mvt_squat_pistol
+//mvt_squat_rifle
+//RICOM401
+//RICOM402
+//RICOM403
+//RICOM404
+//RICOM405
+//RICOM406
+//wpn_all_bowcaster_fire
+//wpn_chaingun_fire
+//wpn_chaingun_spin
+//wpn_cis_rcktlauncher_fire
+//wpn_rep_blaster_fire
+//wpn_rep_pistol_fire
+//wpn_rep_sniperrifle_fire
+//wpn_rep_unit_lockon_lp
+//wpn_republic_lgEquip
+//wpn_republic_lgReload
+//wpn_republic_medEquip
+//wpn_republic_medReload
+//wpn_republic_smlEquip

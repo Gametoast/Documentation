@@ -1,0 +1,130 @@
+// Soundspace Start ----------------------------------------------
+
+Space()
+{
+    Name("Default");
+    I3DL2ReverbPreset("noreverb");
+    DirectGain(1.0);
+    DirectHFGain(1.0);
+    RoomGain(0.0);
+    RoomHFGain(0.0);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.5);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.5);
+    OcclusionLFRatio(1.0);
+}
+
+I3DL2ReverbPreset()
+{
+    Name("bar");
+    RoomGain(1.0);
+    RoomHFGain(0.8);
+    RoomRollOff(1.0);
+    DecayTime(2.0);
+    DecayHFRatio(0.14);
+    ERGain(0.3);
+    ERDelay(0.014);
+    ReverbGain(1.0);
+    ReverbDelay(0.021);
+    Diffusion(100.0);
+    Density(100.0);
+    HFReference(5000.0);
+}
+
+
+Space()
+{
+    Name("cantina");
+    I3DL2ReverbPreset("bar");
+    DirectGain(1.0);
+    DirectHFGain(1.0);
+    RoomGain(1.0);
+    RoomHFGain(0.7);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.4);
+    ObstructionLFRatio(0.0);
+    OcclusionHFGain(0.4);
+    OcclusionLFRatio(0.0);
+}
+
+// Soundspace End -----------------------------------------------------
+
+SoundStreamProperties()
+{
+    Name("tat_amb_desert");
+    Group("ambientenv");
+    Inherit("ambientfx_template");
+    Gain(0.30);
+    Stream("tat2");
+    SegmentList()
+    {
+        Segment("tat_amb_desert", 1.0);
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("tat_amb_cantina");
+    Group("ambientenv");
+    Inherit("ambientfx_template");
+    Gain(0.85);
+    Stream("tat2");
+    SegmentList()
+    {
+        Segment("tat_amb_cantina", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("tat_inf_jawa_hurt")
+    Group("tat_vo");
+    Inherit("pain_chatter_template");
+    SampleList()
+    {
+        Sample("crtr_jawa_hurt", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("tat_inf_jawa_death")
+    Group("tat_vo");
+    Inherit("pain_chatter_template");
+    SampleList()
+    {
+      Sample("crtr_jawa_death", 1.0);
+    }
+}
+
+
+SoundProperties()
+{
+    Name("tat_inf_jawa_heard")
+    Group("tat_vo");
+    Inherit("pain_chatter_template");
+    SampleList()
+    {
+        Sample("crtr_jawa_chatter_03", 1.0);
+        Sample("crtr_jawa_chatter_06", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("tat_inf_jawa_chatter")
+    Group("tat_vo");
+    Inherit("pain_chatter_template");
+    PlayProbability(0.01);
+    CyclePlayback(1);
+    SampleList()
+    {
+        Sample("crtr_jawa_chatter_01", 1.0);
+        Sample("crtr_jawa_chatter_02", 1.0);
+        Sample("crtr_jawa_chatter_03", 1.0);
+        Sample("crtr_jawa_chatter_04", 1.0);
+        Sample("crtr_jawa_chatter_05", 1.0);
+        Sample("crtr_jawa_chatter_06", 1.0);
+    }
+}

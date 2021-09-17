@@ -1,0 +1,950 @@
+//--------------------- AMBIENCES ------------------------
+
+SoundStreamProperties()
+{
+    Name("hot_amb_wind");
+    Group("ambientenv");
+    Inherit("ambientfx_template");
+    Stream("hot1gcw");
+#ifplatform ps2
+    Gain(0.65);
+#endifplatform ps2
+    Priority(0.3);
+    SegmentList()
+    {
+        Segment("hot_amb_wind", 1.0);
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("hot_amb_hangar");
+    Group("ambientenv");
+    Inherit("ambientfx_template");
+    Gain(0.6);
+    Stream("hot1gcw");
+    SPaceDistance(50)
+    Priority(0.75);
+    SegmentList()
+    {
+        Segment("hot_amb_hangar", 1.0);
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("hot_amb_tunnel");
+    Group("ambientenv");
+    Inherit("ambientfx_template");
+    Stream("hot1gcw");
+    Gain(0.65);
+    //SPaceDistance(40)
+    Priority(0.7);
+    SegmentList()
+    {
+        Segment("hot_amb_icecave", 1.0);
+    }
+}
+
+// ----- Ambient Emitters ----------
+
+
+
+//--------------------- SPACES ---------------------------
+#ifplatform pc
+I3DL2ReverbPreset()
+{
+    Name("hanger");
+    RoomGain(1.0);
+    RoomHFGain(1.0);
+    RoomRollOff(1.0);
+    DecayTime(3.5);
+    DecayHFRatio(0.1);
+    ERGain(0.4);
+    ERDelay(0.08);
+    ReverbGain(1.0);
+    ReverbDelay(0.06);
+    Diffusion(100.0);
+    Density(100.0);
+    HFReference(5000.0);
+}
+
+I3DL2ReverbPreset()
+{
+    Name("tunnels");
+    RoomGain(1.0);
+    RoomHFGain(0.7);
+    RoomRollOff(1.0);
+    DecayTime(1.9);
+    DecayHFRatio(0.6);
+    ERGain(0.3);
+    ERDelay(0.02);
+    ReverbGain(1.0);
+    ReverbDelay(0.04);
+    Diffusion(100.0);
+    Density(100.0);
+    HFReference(5000.0);
+}
+
+I3DL2ReverbPreset()
+{
+    Name("bunker");
+    RoomGain(0.8);
+    RoomHFGain(0.7);
+    RoomRollOff(1.0);
+    DecayTime(1.4);
+    DecayHFRatio(0.4);
+    ERGain(0.4);
+    ERDelay(0.02);
+    ReverbGain(1.0);
+    ReverbDelay(0.04);
+    Diffusion(100.0);
+    Density(100.0);
+    HFReference(5000.0);
+}
+Space()
+{
+    Name("reartunnel");
+    I3DL2ReverbPreset("bunker");
+    DirectGain(1.0);
+    DirectHFGain(1.0);
+    RoomGain(1.0);
+    RoomHFGain(1.0);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.5);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.5);
+    OcclusionLFRatio(1.0);
+}
+Space()
+{
+    Name("rearhangar");
+    I3DL2ReverbPreset("hanger");
+    DirectGain(0.8);
+    DirectHFGain(0.8);
+    RoomGain(1.0);
+    RoomHFGain(1.0);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.2);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.2);
+    OcclusionLFRatio(1.0);
+}
+Space()
+{
+    Name("hanger");
+    I3DL2ReverbPreset("hanger");
+    DirectGain(0.8);
+    DirectHFGain(0.8);
+    RoomGain(1.0);
+    RoomHFGain(1.0);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.2);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.2);
+    OcclusionLFRatio(1.0);
+}
+Space()
+{
+    Name("bunker");
+    I3DL2ReverbPreset("bunker");
+    DirectGain(1.0);
+    DirectHFGain(1.0);
+    RoomGain(1.0);
+    RoomHFGain(1.0);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.5);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.5);
+    OcclusionLFRatio(1.0);
+}
+Space()
+{
+    Name("maintunnels");
+    I3DL2ReverbPreset("tunnels");
+    DirectGain(1.0);
+    DirectHFGain(1.0);
+    RoomGain(0.6);
+    RoomHFGain(0.6);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.0);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.0);
+    OcclusionLFRatio(1.0);
+    ConnectedList()
+    {
+        Space("Bunker", 0.3)                
+    }    
+}
+
+Space()
+{
+    Name("midtunnels");
+    I3DL2ReverbPreset("tunnels");
+    DirectGain(1.0);
+    DirectHFGain(1.0);
+    RoomGain(0.6);
+    RoomHFGain(0.6);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.0);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.0);
+    OcclusionLFRatio(1.0);
+    ConnectedList()
+    {
+        Space("MainTunnels", 0.3)
+        Space("Hanger", 0.3)    
+        Space("RearHangar", 0.3)                
+    }      
+}
+
+
+#endifplatform pc
+#ifplatform xbox
+I3DL2ReverbPreset()
+{
+    Name("hanger");
+    RoomGain(0.4);
+    RoomHFGain(0.3);
+    RoomRollOff(1.0);
+    DecayTime(3.5);
+    DecayHFRatio(0.1);
+    ERGain(0.2);
+    ERDelay(0.02);
+    ReverbGain(0.6);
+    ReverbDelay(0.04);
+    Diffusion(100.0);
+    Density(100.0);
+    HFReference(5000.0);
+}
+
+I3DL2ReverbPreset()
+{
+    Name("tunnels");
+    RoomGain(0.6);
+    RoomHFGain(0.3);
+    RoomRollOff(1.0);
+    DecayTime(1.9);
+    DecayHFRatio(0.6);
+    ERGain(1.0);
+    ERDelay(0.02);
+    ReverbGain(0.4);
+    ReverbDelay(0.04);
+    Diffusion(100.0);
+    Density(100.0);
+    HFReference(5000.0);
+}
+
+I3DL2ReverbPreset()
+{
+    Name("bunker");
+    RoomGain(0.4);
+    RoomHFGain(0.3);
+    RoomRollOff(1.0);
+    DecayTime(1.0);
+    DecayHFRatio(0.2);
+    ERGain(0.4);
+    ERDelay(0.02);
+    ReverbGain(0.4);
+    ReverbDelay(0.04);
+    Diffusion(100.0);
+    Density(100.0);
+    HFReference(5000.0);
+}
+
+
+Space()
+{
+    Name("hanger");
+    I3DL2ReverbPreset("hanger");
+    DirectGain(1.0);
+    DirectHFGain(1.0);
+    RoomGain(0.4);
+    RoomHFGain(0.4);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.2);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.2);
+    OcclusionLFRatio(1.0);
+}
+
+Space()
+{
+    Name("rearhangar");
+    I3DL2ReverbPreset("hanger");
+    DirectGain(1.0);
+    DirectHFGain(1.0);
+    RoomGain(0.4);
+    RoomHFGain(0.4);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.2);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.2);
+    OcclusionLFRatio(1.0);
+}
+Space()
+{
+    Name("reartunnel");
+    I3DL2ReverbPreset("bunker");
+    DirectGain(1.0);
+    DirectHFGain(1.0);
+    RoomGain(0.4);
+    RoomHFGain(0.4);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.5);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.5);
+    OcclusionLFRatio(1.0);
+}
+Space()
+{
+    Name("bunker");
+    I3DL2ReverbPreset("bunker");
+    DirectGain(1.0);
+    DirectHFGain(1.0);
+    RoomGain(0.4);
+    RoomHFGain(0.4);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.5);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.5);
+    OcclusionLFRatio(1.0);
+}
+Space()
+{
+    Name("maintunnels");
+    I3DL2ReverbPreset("tunnels");
+    DirectGain(1.0);
+    DirectHFGain(1.0);
+    RoomGain(0.6);
+    RoomHFGain(0.6);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.0);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.0);
+    OcclusionLFRatio(1.0);
+    ConnectedList()
+    {
+        Space("Bunker", 0.3)                
+    }    
+}
+
+Space()
+{
+    Name("midtunnels");
+    I3DL2ReverbPreset("tunnels");
+    DirectGain(1.0);
+    DirectHFGain(1.0);
+    RoomGain(0.4);
+    RoomHFGain(0.4);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.0);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.0);
+    OcclusionLFRatio(1.0);
+    ConnectedList()
+    {
+        Space("MainTunnels", 0.3)
+        Space("Hanger", 0.3)    
+        Space("RearHangar", 0.3)                
+    }      
+}
+
+
+
+#endifplatform xbox
+#ifplatform ps2
+I3DL2ReverbPreset()
+{
+    Name("hanger");
+    RoomGain(0.2);
+    RoomHFGain(0.3);
+    RoomRollOff(1.0);
+    DecayTime(3.5);
+    DecayHFRatio(0.1);
+    ERGain(0.2);
+    ERDelay(0.02);
+    ReverbGain(0.4);
+    ReverbDelay(0.04);
+    Diffusion(100.0);
+    Density(100.0);
+    HFReference(5000.0);
+}
+
+I3DL2ReverbPreset()
+{
+    Name("tunnels");
+    RoomGain(0.3);
+    RoomHFGain(0.3);
+    RoomRollOff(1.0);
+    DecayTime(1.9);
+    DecayHFRatio(0.6);
+    ERGain(0.4);
+    ERDelay(0.02);
+    ReverbGain(0.4);
+    ReverbDelay(0.04);
+    Diffusion(100.0);
+    Density(100.0);
+    HFReference(5000.0);
+}
+
+I3DL2ReverbPreset()
+{
+    Name("bunker");
+    RoomGain(0.2);
+    RoomHFGain(0.3);
+    RoomRollOff(1.0);
+    DecayTime(1.0);
+    DecayHFRatio(0.2);
+    ERGain(0.2);
+    ERDelay(0.02);
+    ReverbGain(0.4);
+    ReverbDelay(0.04);
+    Diffusion(100.0);
+    Density(100.0);
+    HFReference(5000.0);
+}
+
+
+Space()
+{
+    Name("hanger");
+    I3DL2ReverbPreset("hanger");
+    DirectGain(1.0);
+    DirectHFGain(1.0);
+    RoomGain(0.4);
+    RoomHFGain(0.4);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.2);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.2);
+    OcclusionLFRatio(1.0);
+}
+
+Space()
+{
+    Name("rearhangar");
+    I3DL2ReverbPreset("hanger");
+    DirectGain(1.0);
+    DirectHFGain(1.0);
+    RoomGain(0.4);
+    RoomHFGain(0.4);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.2);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.2);
+    OcclusionLFRatio(1.0);
+}
+
+Space()
+{
+    Name("reartunnel");
+    I3DL2ReverbPreset("bunker");
+    DirectGain(1.0);
+    DirectHFGain(1.0);
+    RoomGain(0.4);
+    RoomHFGain(0.4);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.5);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.5);
+    OcclusionLFRatio(1.0);
+}
+Space()
+{
+    Name("bunker");
+    I3DL2ReverbPreset("bunker");
+    DirectGain(1.0);
+    DirectHFGain(1.0);
+    RoomGain(0.4);
+    RoomHFGain(0.4);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.5);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.5);
+    OcclusionLFRatio(1.0);
+}
+Space()
+{
+    Name("maintunnels");
+    I3DL2ReverbPreset("tunnels");
+    DirectGain(1.0);
+    DirectHFGain(1.0);
+    RoomGain(0.4);
+    RoomHFGain(0.4);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.0);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.0);
+    OcclusionLFRatio(1.0);
+    ConnectedList()
+    {
+        Space("Bunker", 0.3)                
+    }    
+}
+
+Space()
+{
+    Name("midtunnels");
+    I3DL2ReverbPreset("tunnels");
+    DirectGain(1.0);
+    DirectHFGain(1.0);
+    RoomGain(0.4);
+    RoomHFGain(0.4);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.05);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.05);
+    OcclusionLFRatio(1.0);
+    ConnectedList()
+    {
+        Space("MainTunnels", 0.3)
+        Space("Hanger", 0.3)    
+        Space("RearHangar", 0.3)                
+    }     
+}
+
+
+#endifplatform ps2
+//----------------------SOUND FX---------------------------
+
+
+SoundProperties()
+{
+    Name("tur_weap_hoth_lasermortar_laser_fire");
+    Group("weapons");
+    Inherit("veh_weapon_template");
+    SampleList()
+    {
+        Sample("wpn_IFT_blaster_fire", 1.0);
+    }
+}
+
+
+
+SoundProperties()
+{
+    Name("tauntaunstepleft");
+    Pitch(0.8);
+    PitchDev(0.1);
+    Gain(1.0);
+    GainDev(0.0);
+    ReverbGain(1.0);
+    Bus("soundfx");
+    Looping(0);
+    Pan(0.0);
+    MinDistance(30.0);
+    MuteDistance(350.0);
+    MaxDistance(350.0);
+    RollOff(1.0);
+    Mode3D(1);
+    Bias(0.0001);
+    Priority(0.7);
+    SampleList()
+    {
+        Sample("mvt_tauntaun_run_snow_L01", 0.5);
+        Sample("mvt_tauntaun_run_snow_L02", 0.5);
+    }
+}
+
+SoundProperties()
+{
+    Name("tauntaunstepright");
+    Pitch(0.8);
+    PitchDev(0.1);
+    Gain(1.0);
+    GainDev(0.0);
+    ReverbGain(1.0);
+    Bus("soundfx");
+    Looping(0);
+    Pan(0.0);
+    MinDistance(30.0);
+    MuteDistance(350.0);
+    MaxDistance(350.0);
+    RollOff(1.0);
+    Mode3D(1);
+    Bias(0.0001);
+    Priority(0.7);
+    SampleList()
+    {
+        Sample("mvt_tauntaun_run_snow_R01", 0.5);
+        Sample("mvt_tauntaun_run_snow_R02", 0.5);
+    }
+}
+
+SoundProperties()
+{
+    Name("tauntaunhurt");
+    Inherit("pain_chatter_template");
+    PitchDev(0.15);
+    SampleList()
+    {
+        Sample("crtr_taun-taun_grunt_04", 0.5);
+        Sample("crtr_taun-taun_hurt", 0.5);
+    }
+}
+
+SoundProperties()
+{
+    Name("tauntaunstart");
+    Inherit("pain_chatter_template");
+    SampleList()
+    {
+        Sample("crtr_taun-taun_grunt_01", 0.33);
+        Sample("crtr_taun-taun_grunt_02", 0.33);
+        Sample("crtr_taun-taun_grunt_03", 0.33);
+    }
+}
+
+SoundProperties()
+{
+    Name("tauntaunstop");
+    Inherit("pain_chatter_template");
+    SampleList()
+    {
+        Sample("crtr_taun-taun_grunt_01", 0.33);
+        Sample("crtr_taun-taun_grunt_02", 0.33);
+        Sample("crtr_taun-taun_grunt_03", 0.33);
+    }
+}
+
+
+
+SoundProperties()
+{
+    Name("tauntaundie");
+    Inherit("pain_chatter_template");
+    PitchDev(0.15);
+    SampleList()
+    {
+        Sample("crtr_taun-taun_death", 0.33);
+        Sample("crtr_taun-taun_grunt_04", 0.33);
+        Sample("crtr_taun-taun_hurt", 0.33);
+    }
+}
+
+SoundProperties()
+{
+    Name("wampahurt");
+    Inherit("pain_chatter_template");
+    Gain(1.0);
+    PitchDev(0.15);
+    SampleList()
+    {
+        Sample("wampa_hurt01", 0.5);
+        Sample("wampa_hurt02", 0.5);
+    }
+}
+
+SoundProperties()
+{
+    Name("wampadeath");
+    Inherit("pain_chatter_template");
+    Gain(1.0);
+    SampleList()
+    {
+        Sample("wampa_Death01", 0.33);
+        Sample("WampaDeath02", 0.33);       
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("wampa_chatter");
+    Inherit("pain_chatter_template");
+    Stream("all_unit_vo_slow");
+    Gain(0.5)
+    PlayProbability(0.001);
+    CyclePlayBack(1)
+    SegmentList()
+    {
+        Segment("crtr_wookiee_growl_01", 0.25); 
+        Segment("crtr_wookiee_growl_02", 0.25);  
+        Segment("crtr_wookiee_grunt_02", 0.25); 
+        Segment("crtr_wookiee_grunt_03", 0.25); 
+        Segment("crtr_wookiee_grunt_04", 0.25); 
+        Segment("crtr_wookiee_hiss_01", 0.25); 
+        Segment("crtr_wookiee_hiss_02", 0.25); 
+        Segment("crtr_wookiee_hiss_03", 0.25); 
+        Segment("crtr_wookiee_hiss_04", 0.25); 
+        Segment("crtr_wookiee_hiss_05", 0.25); 
+        Segment("crtr_wookiee_hiss_06", 0.25); 
+        Segment("crtr_wookiee_killedEnemy_01", 0.25); 
+        Segment("crtr_wookiee_killedEnemy_02", 0.25); 
+        Segment("crtr_wookiee_talk_02", 0.25); 
+        Segment("crtr_wookiee_talk_03", 0.25); 
+        Segment("crtr_wookiee_talk_06", 0.25); 
+    }
+}
+
+
+
+
+SoundProperties()
+{
+    Name("hoth_rumble")
+    Pitch(1.0);
+    PitchDev(0.0);
+    Gain(0.7);
+    GainDev(0.0);
+    ReverbGain(1.0);
+    Bus("soundfx");
+    Looping(0);
+    Pan(0.0);
+    MinDistance(5.0);
+    MuteDistance(50.0);
+    MaxDistance(50.0);
+    RollOff(0.0);
+    Mode3D(1);
+    Bias(0.0001);
+    Priority(0.8);
+    SampleList()
+    {
+        Sample("rumble1", 0.5);
+        Sample("rumble2", 0.5);
+    }
+}
+
+
+SoundProperties()
+{
+    Name("wampa_impact");
+    Group("Ordnance");
+    Inherit("impact_template");
+    Gain(1.0);
+    MinDistance(20.0);
+    MuteDistance(60.0);
+    MaxDistance(60.0);
+    RollOff(1.0);
+    Mode3D(1);
+    Priority(0.8);
+    SampleList()
+    {
+        Sample("mvt_wookiee_Snow_lgBF_01", 0.33); 
+        Sample("mvt_wookiee_Snow_lgBF_01", 0.33); 
+        Sample("mvt_wookiee_Snow_smBF", 0.33); 
+
+    }
+}
+
+SoundProperties()
+{
+    Name("hoth_shield_amb")
+    Pitch(0.7);
+    PitchDev(0.0);
+    Gain(1.0);
+    GainDev(0.0);
+    ReverbGain(1.0);
+    Bus("ambience");
+    Looping(1);
+    Pan(0.0);
+    MinDistance(75.0);
+    MuteDistance(120.0);
+    MaxDistance(120.0);
+    RollOff(0.0);
+    Mode3D(1);
+    Bias(0.0001);
+    Priority(0.5);
+    SampleList()
+    {
+        Sample("com_blg_commandpost2", 1.0);
+    }
+}
+
+
+
+// Hoth VO Start -------------------------------------------------------
+
+
+
+//Hoth VO End ----------------------------------------------------------
+
+// ----- Tripod Chaingun Start -----------------------------------------
+
+SoundProperties()
+{
+    Name("hot_weap_inf_chaingun_fire");
+    Group("weapons");
+    Inherit("weapon_template");
+    Gain(0.9);
+    Looping(1);
+    RollOff(2.0);
+    SampleList()
+    {
+        Sample("wpn_chaingun_fire01", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("hot_weap_inf_chaingun_spin");
+    Group("weapons");
+    Inherit("weapon_template");
+    #ifplatform pc
+    Gain(0.3);
+    #endifplatform pc
+    #ifplatform xbox
+    Gain(0.2);
+    #endifplatform xbox
+    #ifplatform ps2
+    Gain(0.2);
+    #endifplatform ps2
+    MinDistance(15.0);
+    Pitch(0.75);
+    Looping(1);
+    Rolloff(3.0);
+    SampleList()
+    {
+        Sample("wpn_chaingun_spin", 1.0);
+    }
+}
+
+// ----- Tripod Chaingun End -----------------------------------------
+
+SoundProperties()
+{
+    Name("hot_weap_dish_fire_property");
+    Group("weapons");
+    Inherit("weapon_template");
+    Gain(0.9);
+    RollOff(2.0);
+    SampleList()
+    {
+        Sample("rchothdishturret", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("hot_weap_dish_fire_soft");
+    Group("weapons");
+    Inherit("veh_weapon_template");
+    Gain(0.7)
+    SampleList()
+    {
+        Sample("wpn_IFT_blaster_fire", 1.0);
+    }
+}
+
+// Only used on Hoth Dish Turret
+SoundProperties()
+{
+    Name("com_weap_charge");
+    Group("unit_weapon");
+    Inherit("weapon_template");
+    Pitch(0.7);
+    Gain(0.5)
+    Rolloff(5.0);
+    Looping(1);
+    SampleList()
+    {
+        Sample("wpn_bowcaster_chargeup", 1.0);
+    }
+}
+
+
+SoundLayered()
+{
+    Name("hot_weap_dish_fire");
+    Layer("loud",  "hot_weap_dish_fire_property",        0.0);
+    Layer("soft", "hot_weap_dish_fire_soft",     0.1);
+}
+
+
+
+SoundProperties()
+{
+    Name("force_field_lp");
+    Group("props");
+    Inherit("props_template");
+    Gain(0.5);
+    RandomPlayPos(1);
+    Pitch(1.0);
+    PitchDev(0.0);
+    Looping(1);
+    Rolloff(1);
+    MinDistance(15.0);
+    MuteDistance(60.0);
+    MaxDistance(60.0);
+    SampleList()
+    {
+      Sample("force_field_lp", 1.0);
+    }
+}
+
+//SoundProperties()
+//{
+//    Name("force_field_on");
+//    Group("props");
+//    Inherit("props_template");
+//    Gain(0.6);
+//    Pitch(0.7);
+//    PitchDev(0.1);
+//    Looping(0);
+//    MinDistance(20.0);
+//    MuteDistance(60.0);
+//    MaxDistance(60.0);
+//    SampleList()
+//    {
+//      Sample("emt_mygeetoForceField_st", 1.0);
+//    }
+//}
+
+
+SoundProperties()
+{
+    Name("correllian_cruiser");
+    Group("props");
+    Inherit("props_template");
+    Gain(0.6);
+    Pitch(0.5);
+    PitchDev(0.0);
+    Looping(1);
+    MinDistance(50.0);
+    MuteDistance(200.0);
+    MaxDistance(200.0);
+    Rolloff(10);
+    SampleList()
+    {
+      Sample("eng_snowspeeder_mid_lp", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("tur_weap_veh_chaingun_fire");
+    Group("weapons");
+    Inherit("weapon_template");
+    Gain(0.9);
+    Looping(1);
+    RollOff(2.0);
+    SampleList()
+    {
+        Sample("wpn_chaingun_fire01", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("tur_weap_veh_chaingun_spin");
+    Group("weapons");
+    Inherit("weapon_template");
+    #ifplatform pc
+    Gain(0.3);
+    #endifplatform pc
+    #ifplatform xbox
+    Gain(0.2);
+    #endifplatform xbox
+    #ifplatform ps2
+    Gain(0.2);
+    #endifplatform ps2
+    MinDistance(15.0);
+    Pitch(0.75);
+    Looping(1);
+    Rolloff(3.0);
+    SampleList()
+    {
+        Sample("wpn_chaingun_spin", 1.0);
+    }
+}
+

@@ -1,0 +1,39 @@
+FoleyFXGroup()
+{
+    Name("terrain_foley");
+    FoleyFX("cis_inf_droid_dirt");
+    FoleyFX("cis_inf_sbdroid_dirt");
+    FoleyFX("rep_inf_trooper_dirt");
+    FoleyFX("rep_inf_soldier_dirt");
+    FoleyFX("cis_inf_soldier_dirt");
+}
+
+FoleyFXGroup()
+{
+    Name("dirt_foley");
+    FoleyFX("cis_inf_droid_dirt");
+    FoleyFX("cis_inf_sbdroid_dirt");
+    FoleyFX("rep_inf_trooper_dirt");
+    FoleyFX("rep_inf_soldier_dirt");
+    FoleyFX("cis_inf_soldier_dirt");
+}
+
+FoleyFXGroup()
+{
+    Name("metal_foley");
+    FoleyFX("cis_inf_droid_metal");
+    FoleyFX("cis_inf_sbdroid_metal");
+    FoleyFX("rep_inf_trooper_metal");
+    FoleyFX("cis_inf_soldier_metal");
+    FoleyFX("rep_inf_soldier_metal");
+}
+
+FoleyFXGroup()
+{
+    Name("stone_foley");
+    FoleyFX("cis_inf_droid_stone");
+    FoleyFX("cis_inf_sbdroid_stone");
+    FoleyFX("rep_inf_trooper_stone");
+    FoleyFX("cis_inf_soldier_stone");
+    FoleyFX("rep_inf_soldier_stone");
+}

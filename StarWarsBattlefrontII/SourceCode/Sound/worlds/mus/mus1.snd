@@ -1,0 +1,1273 @@
+// ======= Soundspaces Start ========================================
+// ------- Start I3DL2 Presets --------------------------------------
+
+
+#ifplatform xbox pc
+I3DL2ReverbPreset()
+{
+    Name("stoneroom");
+    RoomGain(1.0);
+    RoomHFGain(0.7);
+    RoomRollOff(1.0);
+    DecayTime(1.0);
+    DecayHFRatio(0.64);
+    ERGain(0.2);
+    ERDelay(0.012);
+    ReverbGain(0.3);
+    ReverbDelay(0.011);
+    Diffusion(100.0);
+    Density(100.0);
+    HFReference(5000.0);
+}
+#endifplatform xbox pc
+
+#ifplatform ps2
+I3DL2ReverbPreset()
+{
+    Name("stoneroom");
+    RoomGain(0.2);
+    RoomHFGain(0.7);
+    RoomRollOff(1.0);
+    DecayTime(1.0);
+    DecayHFRatio(0.64);
+    ERGain(0.2);
+    ERDelay(0.012);
+    ReverbGain(0.3);
+    ReverbDelay(0.011);
+    Diffusion(100.0);
+    Density(100.0);
+    HFReference(5000.0);
+}
+#endifplatform ps2
+
+// ----- End I3DL2 Presets -----------------------------------
+
+// ----- Start Outside space ------
+#ifplatform ps2
+Space()
+{
+    Name("Outside"); 
+    I3DL2ReverbPreset("noreverb");
+    DirectGain(0.85);
+    DirectHFGain(0.85);
+    RoomGain(0.95);
+    RoomHFGain(0.8);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(1.0);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(1.0);
+    OcclusionLFRatio(1.0);
+}
+#endifplatform ps2
+#ifplatform xbox pc
+Space()
+{
+    Name("Outside");
+    I3DL2ReverbPreset("noreverb");
+    DirectGain(0.85);
+    DirectHFGain(0.85);
+    RoomGain(0.95);
+    RoomHFGain(0.8);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(1.0);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(1.0);
+    OcclusionLFRatio(1.0);
+}
+#endifplatform xbox pc
+// ----- End Outside space ------
+
+// ----- Start controlhall space ------
+#ifplatform ps2
+Space()
+{
+    Name("controlhall"); 
+    I3DL2ReverbPreset("stoneroom");
+    DirectGain(0.85);
+    DirectHFGain(0.85);
+    RoomGain(0.95);
+    RoomHFGain(0.8);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.0);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.0);
+    OcclusionLFRatio(1.0);
+    ConnectedList()
+    {
+        Space("Outside", 0.7)
+    }     
+}
+#endifplatform ps2
+#ifplatform xbox
+Space()
+{
+    Name("controlhall"); 
+    I3DL2ReverbPreset("stoneroom");
+    DirectGain(0.85);
+    DirectHFGain(0.85);
+    RoomGain(0.95);
+    RoomHFGain(0.8);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.0);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.0);
+    OcclusionLFRatio(1.0);
+    ConnectedList()
+    {
+        Space("Outside", 0.7)
+    }     
+}
+#endifplatform xbox
+#ifplatform pc
+Space()
+{
+    Name("controlhall"); 
+    I3DL2ReverbPreset("stoneroom");
+    DirectGain(0.85);
+    DirectHFGain(0.85);
+    RoomGain(0.95);
+    RoomHFGain(0.8);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.0);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.0);
+    OcclusionLFRatio(1.0);
+    ConnectedList()
+    {
+        Space("Outside", 0.7)
+    }       
+}
+#endifplatform pc
+
+
+// ----- End controlhall space ------
+
+// ----- Start controlroom space ------
+#ifplatform ps2
+Space()
+{
+    Name("controlroom"); 
+    I3DL2ReverbPreset("stoneroom");
+    DirectGain(0.85);
+    DirectHFGain(0.85);
+    RoomGain(0.95);
+    RoomHFGain(0.8);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.0);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.0);
+    OcclusionLFRatio(1.0);
+}
+#endifplatform ps2
+#ifplatform xbox
+Space()
+{
+    Name("controlroom"); 
+    I3DL2ReverbPreset("stoneroom");
+    DirectGain(0.85);
+    DirectHFGain(0.85);
+    RoomGain(0.95);
+    RoomHFGain(0.8);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.0);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.0);
+    OcclusionLFRatio(1.0);
+}
+#endifplatform xbox
+#ifplatform pc
+Space()
+{
+    Name("controlroom"); 
+    I3DL2ReverbPreset("stoneroom");
+    DirectGain(0.85);
+    DirectHFGain(0.85);
+    RoomGain(0.95);
+    RoomHFGain(0.8);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.0);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.0);
+    OcclusionLFRatio(1.0);
+}
+#endifplatform pc
+
+
+// ----- End controlroom space ------
+
+// ----- Start LavaAccess space ------
+#ifplatform ps2
+Space()
+{
+    Name("LavaAccess"); 
+    I3DL2ReverbPreset("stoneroom");
+    DirectGain(0.85);
+    DirectHFGain(0.85);
+    RoomGain(0.95);
+    RoomHFGain(0.8);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.0);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.0);
+    OcclusionLFRatio(1.0);
+}
+#endifplatform ps2
+#ifplatform xbox
+Space()
+{
+    Name("LavaAccess");
+    I3DL2ReverbPreset("stoneroom");
+    DirectGain(0.85);
+    DirectHFGain(0.85);
+    RoomGain(0.95);
+    RoomHFGain(0.8);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.0);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.0);
+    OcclusionLFRatio(1.0);
+}
+#endifplatform xbox
+#ifplatform pc
+Space()
+{
+    Name("LavaAccess"); 
+    I3DL2ReverbPreset("stoneroom");
+    DirectGain(0.85);
+    DirectHFGain(0.85);
+    RoomGain(0.95);
+    RoomHFGain(0.8);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.0);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.0);
+    OcclusionLFRatio(1.0);
+}
+#endifplatform pc
+// ----- End LavaAccess space ------
+
+// ----- Start controlaccess space ------
+#ifplatform pc
+Space()
+{
+    Name("controlaccess");
+    I3DL2ReverbPreset("stoneroom");
+    DirectGain(0.85);
+    DirectHFGain(0.85);
+    RoomGain(0.95);
+    RoomHFGain(0.8);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.0);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.0);
+    OcclusionLFRatio(1.0);
+    ConnectedList()
+    {
+        Space("ControlHall", 0.3)
+        Space("ControlRoom", 0.3)
+    }      
+}
+#endifplatform pc
+#ifplatform xbox
+Space()
+{
+    Name("controlaccess"); 
+    I3DL2ReverbPreset("stoneroom");
+    DirectGain(0.85);
+    DirectHFGain(0.85);
+    RoomGain(0.95);
+    RoomHFGain(0.8);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.0);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.0);
+    OcclusionLFRatio(1.0);
+    ConnectedList()
+    {
+        Space("ControlHall", 0.3)
+        Space("ControlRoom", 0.3)
+    }      
+}
+#endifplatform xbox
+#ifplatform ps2
+Space()
+{
+    Name("controlaccess"); 
+    I3DL2ReverbPreset("stoneroom");
+    DirectGain(0.85);
+    DirectHFGain(0.85);
+    RoomGain(0.95);
+    RoomHFGain(0.8);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.0);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.0);
+    OcclusionLFRatio(1.0);
+    ConnectedList()
+    {
+        Space("ControlHall", 0.3)
+        Space("ControlRoom", 0.3)
+    }     
+}
+#endifplatform ps2
+// ----- End controlaccess space ------
+
+// ----- Start Controlcenter space ------
+#ifplatform ps2
+Space()
+{
+    Name("Controlcenter"); 
+    I3DL2ReverbPreset("stoneroom");
+    DirectGain(0.85);
+    DirectHFGain(0.85);
+    RoomGain(0.95);
+    RoomHFGain(0.8);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.0);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.0);
+    OcclusionLFRatio(1.0);
+    ConnectedList()
+    {
+        Space("ControlRoom", 0.3)
+        Space("ControlAccess", 0.7)
+        Space("Outside", 0.3)
+        Space("LavaAccess", 0.3)
+    }       
+}
+#endifplatform ps2
+#ifplatform xbox
+Space()
+{
+    Name("Controlcenter");
+    I3DL2ReverbPreset("stoneroom");
+    DirectGain(0.85);
+    DirectHFGain(0.85);
+    RoomGain(0.95);
+    RoomHFGain(0.8);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.0);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.0);
+    OcclusionLFRatio(1.0);
+    ConnectedList()
+    {
+        Space("ControlRoom", 0.3)
+        Space("ControlAccess", 0.7)
+        Space("Outside", 0.3)
+        Space("LavaAccess", 0.3)
+    }       
+}
+#endifplatform xbox
+#ifplatform pc
+Space()
+{
+    Name("Controlcenter"); 
+    I3DL2ReverbPreset("stoneroom");
+    DirectGain(0.85);
+    DirectHFGain(0.85);
+    RoomGain(0.95);
+    RoomHFGain(0.8);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.0);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.0);
+    OcclusionLFRatio(1.0);
+    ConnectedList()
+    {
+        Space("ControlRoom", 0.3)
+        Space("ControlAccess", 0.7)
+        Space("Outside", 0.3)
+        Space("LavaAccess", 0.3)
+    }       
+}
+#endifplatform pc
+// ----- End Controlcenter space ------
+
+// ----- Start Lavacontrolroom space ------
+#ifplatform pc
+Space()
+{
+    Name("Lavacontrolroom");
+    I3DL2ReverbPreset("stoneroom");
+    DirectGain(0.85);
+    DirectHFGain(0.85);
+    RoomGain(0.95);
+    RoomHFGain(0.8);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.0);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.0);
+    OcclusionLFRatio(1.0);
+    ConnectedList()
+    {
+        Space("ControlHall", 0.3)
+        Space("ControlRoom", 0.7)
+        Space("ControlAccess", 0.4)
+        Space("Outside", 0.3)
+        Space("LavaAccess", 0.3)
+        Space("ControlCenter", 0.7)
+    }            
+}
+#endifplatform pc
+#ifplatform xbox
+Space()
+{
+    Name("Lavacontrolroom");
+    I3DL2ReverbPreset("stoneroom");
+    DirectGain(0.85);
+    DirectHFGain(0.85);
+    RoomGain(0.95);
+    RoomHFGain(0.8);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.0);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.0);
+    OcclusionLFRatio(1.0);
+    ConnectedList()
+    {
+        Space("ControlHall", 0.3)
+        Space("ControlRoom", 0.7)
+        Space("ControlAccess", 0.4)
+        Space("Outside", 0.3)
+        Space("LavaAccess", 0.3)
+        Space("ControlCenter", 0.7)
+
+    }              
+}
+#endifplatform xbox
+#ifplatform ps2
+Space()
+{
+    Name("Lavacontrolroom");
+    I3DL2ReverbPreset("stoneroom");
+    DirectGain(0.85);
+    DirectHFGain(0.85);
+    RoomGain(0.95);
+    RoomHFGain(0.8);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.0);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.0);
+    OcclusionLFRatio(1.0);
+    ConnectedList()
+    {
+        Space("ControlHall", 0.3)
+        Space("ControlRoom", 0.7)
+        Space("ControlAccess", 0.4)
+        Space("Outside", 0.3)
+        Space("LavaAccess", 0.3)
+        Space("ControlCenter", 0.7)
+
+    }      
+}
+#endifplatform ps2
+// ----- End Lavacontrolroom space ------
+
+// ----- Start Lavahall space ------
+#ifplatform pc
+Space()
+{
+    Name("Lavahall"); 
+    I3DL2ReverbPreset("stoneroom");
+    DirectGain(0.85);
+    DirectHFGain(0.85);
+    RoomGain(0.95);
+    RoomHFGain(0.8);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.0);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.0);
+    OcclusionLFRatio(1.0);
+    ConnectedList()
+    {
+        Space("Outside", 0.3)
+    }     
+}
+#endifplatform pc
+#ifplatform xbox
+Space()
+{
+    Name("Lavahall"); 
+    I3DL2ReverbPreset("stoneroom");
+    DirectGain(0.85);
+    DirectHFGain(0.85);
+    RoomGain(0.95);
+    RoomHFGain(0.8);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.0);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.0);
+    OcclusionLFRatio(1.0);
+    ConnectedList()
+    {
+        Space("Outside", 0.3)
+    }     
+}
+#endifplatform xbox
+#ifplatform ps2
+Space()
+{
+    Name("Lavahall");
+    I3DL2ReverbPreset("stoneroom");
+    DirectGain(0.85);
+    DirectHFGain(0.85);
+    RoomGain(0.95);
+    RoomHFGain(0.8);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.0);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.0);
+    OcclusionLFRatio(1.0);  
+    ConnectedList()
+    {
+        Space("Outside", 0.3)
+    }     
+}
+#endifplatform ps2
+// ----- End Lavahall space ------
+// ----- Start Entryhall1 space ------
+#ifplatform ps2
+Space()
+{
+    Name("entryhall1"); 
+    I3DL2ReverbPreset("stoneroom");
+    DirectGain(0.85);
+    DirectHFGain(0.85);
+    RoomGain(0.95);
+    RoomHFGain(0.8);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.0);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.0);
+    OcclusionLFRatio(1.0);
+    ConnectedList()
+    {
+        Space("ControlHall", 0.3)
+        Space("Outside", 0.3)
+        Space("ControlCenter", 0.7)      
+    }     
+}
+#endifplatform ps2
+#ifplatform xbox
+Space()
+{
+    Name("entryhall1"); 
+    I3DL2ReverbPreset("stoneroom");
+    DirectGain(0.85);
+    DirectHFGain(0.85);
+    RoomGain(0.95);
+    RoomHFGain(0.8);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.0);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.0);
+    OcclusionLFRatio(1.0);
+    ConnectedList()
+    {
+        Space("ControlHall", 0.3)
+        Space("Outside", 0.3)
+        Space("ControlCenter", 0.7)      
+    }     
+}
+#endifplatform xbox
+#ifplatform pc
+Space()
+{
+    Name("entryhall1"); 
+    I3DL2ReverbPreset("stoneroom");
+    DirectGain(0.85);
+    DirectHFGain(0.85);
+    RoomGain(0.95);
+    RoomHFGain(0.8);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.0);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.0);
+    OcclusionLFRatio(1.0);
+    ConnectedList()
+    {
+        Space("ControlHall", 0.3)
+        Space("Outside", 0.3)
+        Space("ControlCenter", 0.7)      
+    }      
+    
+}
+#endifplatform pc
+
+
+// ----- End Entryhall1 space ------
+
+
+
+// ----- Start Entryhall2 space ------
+
+#ifplatform ps2
+Space()
+{
+    Name("entryhall2"); 
+    I3DL2ReverbPreset("stoneroom");
+    DirectGain(0.85);
+    DirectHFGain(0.85);
+    RoomGain(0.95);
+    RoomHFGain(0.8);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.0);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.0);
+    OcclusionLFRatio(1.0);
+    ConnectedList()
+    {
+        Space("EntryHall1", 0.0)
+        Space("ControlCenter", 0.3)
+        Space("Outside", 0.3)
+        Space("ControlRoom", 0.7)      
+    }  
+}
+#endifplatform ps2
+#ifplatform xbox
+Space()
+{
+    Name("entryhall2");
+    I3DL2ReverbPreset("stoneroom");
+    DirectGain(0.85);
+    DirectHFGain(0.85);
+    RoomGain(0.95);
+    RoomHFGain(0.8);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.0);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.0);
+    OcclusionLFRatio(1.0);
+    ConnectedList()
+    {
+        Space("EntryHall1", 0.0)
+        Space("ControlCenter", 0.3)
+        Space("Outside", 0.3)
+        Space("ControlRoom", 0.7)      
+    }      
+}
+#endifplatform xbox
+#ifplatform pc
+Space()
+{
+    Name("entryhall2"); 
+    I3DL2ReverbPreset("stoneroom");
+    DirectGain(0.85);
+    DirectHFGain(0.85);
+    RoomGain(0.95);
+    RoomHFGain(0.8);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.0);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.0);
+    OcclusionLFRatio(1.0);
+    ConnectedList()
+    {
+        Space("EntryHall1", 0.0)
+        Space("ControlCenter", 0.3)
+        Space("Outside", 0.3)
+        Space("ControlRoom", 0.7)      
+    }       
+}
+#endifplatform pc
+
+// ----- End Entryhall2 space ------
+
+// ----- Start Lhall space ------
+#ifplatform ps2
+Space()
+{
+    Name("lhall"); 
+    I3DL2ReverbPreset("stoneroom");
+    DirectGain(0.85);
+    DirectHFGain(0.85);
+    RoomGain(0.95);
+    RoomHFGain(0.8);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.0);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.0);
+    OcclusionLFRatio(1.0);
+    ConnectedList()
+    {
+        Space("EntryHall1", 0.0)
+        Space("EntryHall2", 0.7)
+        Space("ControlHall", 0.0)
+        Space("ControlRoom", 1.0)
+        Space("ControlAccess", 0.3)
+        Space("LavaControlRoom", 0.7)
+    }         
+}
+#endifplatform ps2
+#ifplatform xbox
+Space()
+{
+    Name("lhall"); 
+    I3DL2ReverbPreset("stoneroom");
+    DirectGain(0.85);
+    DirectHFGain(0.85);
+    RoomGain(0.95);
+    RoomHFGain(0.8);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.0);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.0);
+    OcclusionLFRatio(1.0);
+    ConnectedList()
+    {
+        Space("EntryHall1", 0.0)
+        Space("EntryHall2", 0.7)
+        Space("ControlHall", 0.0)
+        Space("ControlRoom", 1.0)
+        Space("ControlAccess", 0.3)
+        Space("LavaControlRoom", 0.7)
+    }         
+}
+#endifplatform xbox
+#ifplatform pc
+Space()
+{
+    Name("lhall"); 
+    I3DL2ReverbPreset("stoneroom");
+    DirectGain(0.85);
+    DirectHFGain(0.85);
+    RoomGain(0.95);
+    RoomHFGain(0.8);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.0);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.0);
+    OcclusionLFRatio(1.0);
+    ConnectedList()
+    {
+        Space("EntryHall1", 0.0)
+        Space("EntryHall2", 0.7)
+        Space("ControlHall", 0.0)
+        Space("ControlRoom", 1.0)
+        Space("ControlAccess", 0.3)
+        Space("LavaControlRoom", 0.7)
+    }         
+}
+#endifplatform pc
+
+
+// ----- End Lhall space ------
+
+// ======= Soundspace End ================================================
+
+//-- Geonosian Start ----------------------------------------------------------
+
+SoundProperties()
+{
+    Name("geo_inf_hurt")
+    Group("cis_vo");
+    Inherit("pain_chatter_template");
+    SampleList()
+    {
+    Sample("crtr_geonosian_hurt", 1.0);
+    Sample("crtr_geonosian_chatter_04", 1.0);
+
+    }
+}
+
+SoundProperties()
+{
+    Name("geo_inf_die")
+    Group("cis_vo");
+    Inherit("pain_chatter_template");
+    SampleList()
+    {
+    Sample("crtr_geonosian_death", 1.0);
+    Sample("crtr_geonosian_chatter_04", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("geo_inf_fly_parameterized")
+    Pitch(1.0);
+    PitchDev(0.1);
+    Gain(1.0);
+    GainDev(0.1);
+    ReverbGain(1.0);
+    Bus("soundfx");
+    Looping(1);
+    Pan(0.0);
+    MinDistance(10.0);
+    MuteDistance(100.0);
+    MaxDistance(100.0);
+    RollOff(1.0);
+    Mode3D(1);
+    Bias(0.0001);
+    Priority(0.8);
+    SampleList()
+    {
+      Sample("geo_inf_fly", 1.0);
+
+    }
+}
+
+ParameterGraph()
+{
+        Name("wings_speed");
+        ControlPoint(0.0, 0.7);
+        ControlPoint(0.4, 0.8);
+        ControlPoint(0.6, 0.9);
+        ControlPoint(0.8, 1.0);
+        ControlPoint(1.0, 1.1);
+}
+
+ParameterGraph()
+{
+    Name("wings_acceleration");
+    ControlPoint(-0.1, 0.5);
+    ControlPoint(0.0, 0.4);
+    ControlPoint(0.1, 1.0);
+    ControlPoint(1.0, 1.0);
+}
+
+ParameterGraph()
+{
+    Name("wings_turnon_gain");
+    ControlPoint(0.0, 0.0);
+    ControlPoint(0.1, 1.0);
+    ControlPoint(1.0, 1.0);
+}
+
+ParameterGraph()
+{
+    Name("wings_turnoff_gain");
+    ControlPoint(0.0, 1.0);
+    ControlPoint(0.1, 0.0);
+}
+
+ParameterGraph()
+{
+    Name("wings_turnon_pitch");
+    ControlPoint(0.0, 0.5);
+    ControlPoint(1.0, 1.0);
+}
+
+ParameterGraph()
+{
+    Name("wings_turnoff_pitch");
+    ControlPoint(0.0, 1.0);
+    ControlPoint(0.05, 0.6);
+    ControlPoint(0.1, 0.3);
+}
+
+SoundLayered()
+{
+    Name("wings_layered");
+    Layer("wings_engine", "geo_inf_fly_parameterized", 0.0);
+}
+
+SoundParameterized()
+{
+    Name("geo_inf_fly_parameterized");
+    SoundLayered("wings_layered");
+    Layer()
+    {
+        Name("wings_engine");
+        ParameterGraph("speed",        "wings_speed",        "pitch");
+        ParameterGraph("acceleration", "wings_acceleration", "gain");
+        ParameterGraph("turnontime",   "engine_turnon_gain",      "gain");
+        ParameterGraph("turnofftime",  "engine_turnoff_gain",     "gain");
+        ParameterGraph("turnontime",   "engine_turnon_pitch",     "pitch");
+        ParameterGraph("turnofftime",  "engine_turnoff_pitch",    "pitch");
+    }
+}
+
+
+
+
+// ----- Start CIS Sonicblaster ---------------------------------------------
+
+SoundProperties()
+{
+    Name("cis_weap_inf_sonicblaster_fire");
+    Group("weapons");
+    Inherit("weapon_template");
+    Gain(1.0);
+    SampleList()
+    {
+        Sample("wpn_cis_sonicblaster_fire", 1.0);
+    }
+}
+
+//SoundProperties()
+//{
+//    Name("cis_weap_inf_sonicblaster_mvt_getup");
+//    Group("weapons_foley");
+//    Inherit("body_movement_template");
+//    SampleList()
+//    {
+//        Sample("mvt_getup_rifle", 1.0);
+//    }
+//}
+
+SoundProperties()
+{
+    Name("cis_weap_inf_sonicblaster_mvt_jump");
+    Group("weapons_foley");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("mvt_jump_rifle", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("cis_weap_inf_sonicblaster_mvt_land");
+    Group("weapons_foley");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("mvt_land_rifle", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("cis_weap_inf_sonicblaster_mvt_roll");
+    Group("weapons_foley");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("mvt_roll_rifle", 1.0);
+    }
+}
+
+//SoundProperties()
+//{
+//    Name("cis_weap_inf_sonicblaster_mvt_lie");
+//    Group("weapons_foley");
+//    Inherit("body_movement_template");
+//    SampleList()
+//    {
+//        Sample("mvt_lie_rifle", 1.0);
+//    }
+//}
+
+SoundProperties()
+{
+    Name("cis_weap_inf_sonicblaster_mvt_squat");
+    Group("weapons_foley");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("mvt_squat_rifle", 1.0);
+    }
+}
+
+
+
+
+
+// ----- Ambient Environment Streams Start ------------------------------
+SoundStreamProperties()
+{
+    Name("mus_amb_lava");
+    Group("ambientenv");
+    Inherit("ambientfx_template");
+    Stream("mus1");
+    SpaceDistance(85)
+    SegmentList()
+    {
+        Segment("mus_amb_lava", 1.0);
+    }
+}
+
+
+
+//SoundStreamProperties()
+//{
+//    Name("mus_amb_lava_near");
+//    Group("ambientenv");
+//    Inherit("ambientfx_template");
+//    Stream("mus1");
+//    SegmentList()
+//    {
+//        Segment("mus_amb_lava_near", 1.0);
+//    }
+//}
+
+SoundStreamProperties()
+{
+    Name("mus_amb_lava_far");
+    Group("ambientenv");
+    Inherit("ambientfx_template");
+    Stream("mus1");
+    Priority(0.75);
+    SegmentList()
+    {
+        Segment("mus_amb_lava_near", 1.0);
+    }
+}
+
+// Start Ambient Static Emitters --------------------------
+
+
+// ----- Ambient Environment Streams End ---------------------------
+
+SoundProperties()
+{
+    Name("mus1_rumble")
+    Pitch(1.0);
+    PitchDev(0.05);
+    Gain(1.0);
+    GainDev(0.0);
+    ReverbGain(1.0);
+    Bus("soundfx");
+    Looping(0);
+    Pan(0.0);
+    MinDistance(10.0);
+    MuteDistance(50.0);
+    MaxDistance(50.0);
+    RollOff(0.0);
+    Mode3D(1);
+    Bias(0.0001);
+    Priority(0.7);
+    SampleList()
+    {
+        Sample("rumble1", 0.5);
+        Sample("rumble2", 0.5);
+    }
+}
+
+
+SoundProperties()
+{
+    Name("mus_amb_lava_close");
+    Group("ambientenv");
+    Inherit("ambientemt_static_template");
+    Gain(0.5);
+    Pitch(0.9);
+    PitchDev(0.1);
+    Looping(1);
+    RandomPlayPos(1);
+    RollOff(3.0);
+    //Max and Min distance set in wld or lyr file
+    SampleList()
+    {
+        Sample("lava_bubbles", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("mus_amb_lava_distant");
+    Group("ambientenv");
+    Inherit("ambientemt_static_template");
+    Gain(0.7);
+    Pitch(0.9);
+    PitchDev(0.1);
+    Looping(1);
+    RandomPlayPos(1);
+    RollOff(2.0);
+    Priority(0.75);
+    MinDistance(15.0);
+    MaxDistance(60.0);
+    MuteDistance(60.0);
+    SampleList()
+    {
+        Sample("sfx_amb_lava_loop", 1.0);
+    }
+}
+
+
+SoundProperties()
+{
+    Name("mus_amb_lava_exp");
+    Group("ambientenv");
+    Inherit("explosion_template");
+    Gain(0.7);
+    Pitch(0.8);
+    PitchDev(.2);
+    SampleList()
+    {
+        Sample("mus_amb_lava_exp01", 1.0);
+
+    }
+}
+
+SoundProperties()
+{
+    Name("mus_amb_lava_exp_lg");
+    Group("ambientenv");
+    Inherit("explosion_template");
+    PitchDev(.2);
+    SampleList()
+    {
+        Sample("mus_amb_lava_exp01", 1.0);
+
+    }
+}
+
+
+SoundProperties()
+{
+    Name("mus_amb_lava_fan");
+    Group("ambientenv");
+    Inherit("ambientemt_static_template");
+    Gain(0.6);
+    Pitch(0.9);
+    PitchDev(0.1);
+    Looping(1);
+    RandomPlayPos(1);
+    RollOff(2.0);
+    MinDistance(15);
+    MaxDistance(50);
+    MuteDistance(50);
+    Rolloff(2.0);
+    SampleList()
+    {
+        Sample("emt_mustLavaFan_lp01", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("walkway_drop");
+    Group("ambientenv");
+    Inherit("explosion_template");
+    MinDistance(40)  
+    PitchDev(.2);
+    SampleList()
+    {
+        Sample("walkway_drop", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("mus_amb_lava_splash");
+    Group("ambientenv");
+    Inherit("ambientemt_static_template");
+    Gain(0.7);
+    Pitch(1.0);
+    PitchDev(0.1);
+    RollOff(0.0);
+    MinDistance(15.0);
+    MaxDistance(50.0);
+    MuteDistance(50.0);
+    SampleList()
+    {
+        Sample("lava_splash01", 1.0);
+        Sample("lava_splash02", 1.0);
+        Sample("lava_splash03", 1.0);
+        Sample("lava_splash04", 1.0);
+
+    }
+}
+
+
+// End Ambient Static Emitters --------------------------
+
+// ----- Prop Ambient Effects Start --------------------------------
+SoundProperties()
+{
+    Name("door_open");
+    Pitch(1.0);
+    PitchDev(0.1);
+    Gain(1.0);
+    GainDev(0.05);
+    ReverbGain(1.0);
+    Bus("soundfx");
+    Looping(0);
+    Pan(0.0);
+    MinDistance(10.0);
+    SpaceDistance(7.0);
+    MuteDistance(50.0);
+    MaxDistance(50.0);
+    RollOff(1.0);
+    Mode3D(1);
+    Bias(0.0001);
+    Priority(0.8);
+    SampleList()
+    {
+        Sample("mus_door_open", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("door_close");
+    Pitch(1.0);
+    PitchDev(0.1);
+    Gain(1.0);
+    GainDev(0.05);
+    ReverbGain(1.0);
+    Bus("soundfx");
+    Looping(0);
+    Pan(0.0);
+    MinDistance(10.0);
+    SpaceDistance(7.0);
+    MuteDistance(50.0);
+    MaxDistance(50.0);
+    RollOff(1.0);
+    Mode3D(1);
+    Bias(0.0001);
+    Priority(0.8);
+    SampleList()
+    {
+        Sample("mus_door_close", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("window_open");
+    Pitch(1.0);
+    PitchDev(0.1);
+    Gain(1.0);
+    GainDev(0.05);
+    ReverbGain(1.0);
+    Bus("soundfx");
+    Looping(0);
+    Pan(0.0);
+    MinDistance(7.0);
+    MuteDistance(50.0);
+    MaxDistance(50.0);
+    RollOff(1.0);
+    Mode3D(1);
+    Bias(0.0001);
+    Priority(0.8);
+    SampleList()
+    {
+        Sample("mus_window_open", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("window_close");
+    Pitch(1.0);
+    PitchDev(0.1);
+    Gain(1.0);
+    GainDev(0.05);
+    ReverbGain(1.0);
+    Bus("soundfx");
+    Looping(0);
+    Pan(0.0);
+    MinDistance(7.0);
+    MuteDistance(50.0);
+    MaxDistance(50.0);
+    RollOff(1.0);
+    Mode3D(1);
+    Bias(0.0001);
+    Priority(0.8);
+    SampleList()
+    {
+        Sample("mus_window_close", 1.0);
+    }
+}
+// ----- Prop Ambient Effects End ----------------------------------
+
+
+// ----- mus1 Objective VO Start ---------------------------------------------
+
+// ----- mus1 Objective VO End --------------------------------------------------
+

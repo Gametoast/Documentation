@@ -1,0 +1,770 @@
+//  ----------------------------------- Multiplayer GCW Objective VO ----------------------------------------------------------
+
+SoundStreamProperties()
+{
+    Name("IOSMP_obj_01");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IOSMP0001", 1.0, 0.0, 0.0); //  Destroy the enemy frigate
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("IOSMP_obj_02");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IOSMP0002", 1.0, 0.0, 0.0); //  Destroy the 5 critical systems on the enemy ship
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("IOSMP_obj_03");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IOSMP0003", 1.0, 0.0, 0.0); //  Their Frigate has been destroyed.
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("IOSMP_obj_04");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IOSMP0004", 1.0, 0.0, 0.0); //  Our Frigate has been destroyed!
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("IOSMP_obj_05");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IOSMP0005", 1.0, 0.0, 0.0); //  Their engines have been destroyed.
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("IOSMP_obj_06");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IOSMP0006", 1.0, 0.0, 0.0); //  Our Engines have been destroyed.
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("IOSMP_obj_07");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IOSMP0007", 1.0, 0.0, 0.0); //  Our engines are under attack.
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("IOSMP_obj_08");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IOSMP0008", 1.0, 0.0, 0.0); //  Their Life support systems have be destroyed.
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("IOSMP_obj_09");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IOSMP0009", 1.0, 0.0, 0.0); //  Our Life Support systems have been destroyed!
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("IOSMP_obj_10");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IOSMP0010", 1.0, 0.0, 0.0); //  Their Bridge has been destroyed.
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("IOSMP_obj_11");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IOSMP0011", 1.0, 0.0, 0.0); //  Our Bridge has been destroyed!
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("IOSMP_obj_12");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IOSMP0012", 1.0, 0.0, 0.0); //  Their Communications Relay has been destroyed.
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("IOSMP_obj_13");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IOSMP0013", 1.0, 0.0, 0.0); //  Our Communications Relay has been destroyed!
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("IOSMP_obj_14");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IOSMP0014", 1.0, 0.0, 0.0); //  Their Sensors Array has been destroyed.
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("IOSMP_obj_15");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IOSMP0015", 1.0, 0.0, 0.0); //  Our Sensors Array has been destroyed.
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("IOSMP_obj_16");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IOSMP0016", 1.0, 0.0, 0.0); //  Their shields have been disabled.
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("IOSMP_obj_17");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IOSMP0017", 1.0, 0.0, 0.0); //  Our Shields have been disabled.
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("IOSMP_obj_18");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IOSMP0018", 1.0, 0.0, 0.0); //  Their Shields are back online
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("IOSMP_obj_19");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IOSMP0019", 1.0, 0.0, 0.0); //  Our Shields are back online.
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("IOSMP_obj_20");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IOSMP0020", 1.0, 0.0, 0.0); //  Their Auto-Turret defenses have been disabled.
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("IOSMP_obj_21");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IOSMP0021", 1.0, 0.0, 0.0); //  Our Auto-Turret defenses have been disabled!
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("IOSMP_obj_22");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IOSMP0022", 1.0, 0.0, 0.0); //  Their Turret defenses are back online
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("IOSMP_obj_23");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IOSMP0023", 1.0, 0.0, 0.0); //  Our turret defenses are back online.
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("IOSMP_obj_24");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IOSMP0024", 1.0, 0.0, 0.0); //  We are victorious, well done men.
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("IOSMP_obj_25");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IOSMP0025", 1.0, 0.0, 0.0); //  We have been defeated.
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("IOSMP_obj_31");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IOSMP0031", 1.0, 0.0, 0.0); //  5 frigates remaining
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("IOSMP_obj_32");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IOSMP0032", 1.0, 0.0, 0.0); //  4 frigates remaining
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("IOSMP_obj_33");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IOSMP0033", 1.0, 0.0, 0.0); //  3 frigates remaining
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("IOSMP_obj_34");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IOSMP0034", 1.0, 0.0, 0.0); //  2 frigates remaining
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("IOSMP_obj_35");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IOSMP0035", 1.0, 0.0, 0.0); //  1 frigate remaining
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("AOSMP_obj_01");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("AOSMP0001", 1.0, 0.0, 0.0); //  Destroy the enemy frigate
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("AOSMP_obj_02");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("AOSMP0002", 1.0, 0.0, 0.0); //  Destroy the 5 critical systems on the enemy ship
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("AOSMP_obj_03");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("AOSMP0003", 1.0, 0.0, 0.0); //  Their Frigate has been destroyed.
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("AOSMP_obj_04");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("AOSMP0004", 1.0, 0.0, 0.0); //  Our Frigate has been destroyed!
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("AOSMP_obj_05");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("AOSMP0005", 1.0, 0.0, 0.0); //  Their engines have been destroyed.
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("AOSMP_obj_06");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("AOSMP0006", 1.0, 0.0, 0.0); //  Our Engines have been destroyed.
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("AOSMP_obj_07");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("AOSMP0007", 1.0, 0.0, 0.0); //  Our engines are under attack.
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("AOSMP_obj_08");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("AOSMP0008", 1.0, 0.0, 0.0); //  Their Life support systems have be destroyed.
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("AOSMP_obj_09");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("AOSMP0009", 1.0, 0.0, 0.0); //  Our Life Support systems have been destroyed!
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("AOSMP_obj_10");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("AOSMP0010", 1.0, 0.0, 0.0); //  Their Bridge has been destroyed.
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("AOSMP_obj_11");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("AOSMP0011", 1.0, 0.0, 0.0); //  Our Bridge has been destroyed!
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("AOSMP_obj_12");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("AOSMP0012", 1.0, 0.0, 0.0); //  Their Communications Relay has been destroyed.
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("AOSMP_obj_13");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("AOSMP0013", 1.0, 0.0, 0.0); //  Our Communications Relay has been destroyed!
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("AOSMP_obj_14");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("AOSMP0014", 1.0, 0.0, 0.0); //  Their Sensors Array has been destroyed.
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("AOSMP_obj_15");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("AOSMP0015", 1.0, 0.0, 0.0); //  Our Sensors Array has been destroyed.
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("AOSMP_obj_16");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("AOSMP0016", 1.0, 0.0, 0.0); //  Their shields have been disabled.
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("AOSMP_obj_17");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("AOSMP0017", 1.0, 0.0, 0.0); //  Our Shields have been disabled.
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("AOSMP_obj_18");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("AOSMP0018", 1.0, 0.0, 0.0); //  Their Shields are back online
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("AOSMP_obj_19");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("AOSMP0019", 1.0, 0.0, 0.0); //  Our Shields are back online.
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("AOSMP_obj_20");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("AOSMP0020", 1.0, 0.0, 0.0); //  Their Auto-Turret defenses have been disabled.
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("AOSMP_obj_21");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("AOSMP0021", 1.0, 0.0, 0.0); //  Our Auto-Turret defenses have been disabled!
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("AOSMP_obj_22");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("AOSMP0022", 1.0, 0.0, 0.0); //  Their Turret defenses are back online
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("AOSMP_obj_23");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("AOSMP0023", 1.0, 0.0, 0.0); //  Our turret defenses are back online.
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("AOSMP_obj_24");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("AOSMP0024", 1.0, 0.0, 0.0); //  The day is ours!  
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("AOSMP_obj_25");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("AOSMP0025", 1.0, 0.0, 0.0); //  We were simply no match for the Empire.
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("AOSMP_obj_31");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("AOSMP0031", 1.0, 0.0, 0.0); //  5 frigates remaining
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("AOSMP_obj_32");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("AOSMP0032", 1.0, 0.0, 0.0); //  4 frigates remaining
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("AOSMP_obj_33");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("AOSMP0033", 1.0, 0.0, 0.0); //  3 frigates remaining
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("AOSMP_obj_34");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("AOSMP0034", 1.0, 0.0, 0.0); //  2 frigates remaining
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("AOSMP_obj_35");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("AOSMP0035", 1.0, 0.0, 0.0); //  1 frigate remaining
+    }
+}

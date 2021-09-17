@@ -1,0 +1,238 @@
+// ----- Alliance Music ----------
+
+SoundStream()
+{
+    Name("all_bes_amb_start");
+    Pitch(1.0);
+    PitchDev(0.0);
+    Gain(1.0);
+    GainDev(0.0);
+    ReverbGain(0.0);
+    Bus("ingamemusic");
+    Looping(0);
+    Pan(0.0);
+    Mode3D(0);
+    Stream("bes2gcw_music");
+    SegmentList()
+    {
+        Segment("all_bes_amb_start", 1.0);
+	}
+}
+
+SoundStream()
+{
+    Name("all_bes_amb_middle");
+    Pitch(1.0);
+    PitchDev(0.0);
+    Gain(1.0);
+    GainDev(0.0);
+    ReverbGain(0.0);
+    Bus("ingamemusic");
+    Looping(0);
+    Pan(0.0);
+    Mode3D(0);
+    Stream("bes2gcw_music");
+	CyclePlayback(1);
+    SegmentList()
+    {
+        Segment("all_bes_amb_middle", 0.5);
+        Segment("all_bes_amb_middle02", 0.5);
+    }
+}
+
+SoundStream()
+{
+    Name("all_bes_amb_end");
+    Pitch(1.0);
+    PitchDev(0.0);
+    Gain(1.0);
+    GainDev(0.0);
+    ReverbGain(0.0);
+    Bus("ingamemusic");
+    Looping(0);
+    Pan(0.0);
+    Mode3D(0);
+    Stream("bes2gcw_music");
+    SegmentList()
+    {
+        Segment("all_bes_amb_end", 1.0);
+    }
+}
+
+SoundStream()
+{
+    Name("all_bes_amb_victory");
+    Pitch(1.0);
+    PitchDev(0.0);
+    Gain(1.0);
+    GainDev(0.0);
+    ReverbGain(0.0);
+    Bus("ingamemusic");
+    Looping(0);
+    Pan(0.0);
+    Mode3D(0);
+    Stream("bes2gcw_music");
+    SegmentList()
+    {
+		Segment("all_bes_amb_victory02", 1.0);
+    }
+}
+
+SoundStream()
+{
+    Name("all_bes_amb_defeat");
+    Pitch(1.0);
+    PitchDev(0.0);
+    Gain(1.0);
+    GainDev(0.0);
+    ReverbGain(0.0);
+    Bus("ingamemusic");
+    Looping(0);
+    Pan(0.0);
+    Mode3D(0);
+    Stream("bes2gcw_music");
+    SegmentList()
+    {
+        Segment("all_bes_amb_defeat01", 1.0);
+    }
+}
+
+//SoundStream()
+//{
+//    Name("all_bes_amb_vehicle");
+//    Pitch(1.0);
+//    PitchDev(0.0);
+//    Gain(1.0);
+//    GainDev(0.0);
+//    ReverbGain(0.0);
+//    Bus("ingamemusic");
+//    Looping(0);
+//    Pan(0.0);
+//    Mode3D(0);
+//    Stream("bes2gcw_music");
+//    SegmentList()
+//    {
+//        Segment("all_bes_amb_veh01", 0.5);
+//		Segment("all_bes_amb_veh02", 0.5);
+//    }
+//}
+
+//----- Imperial Music -----
+
+SoundStream()
+{
+    Name("imp_bes_amb_start");
+    Pitch(1.0);
+    PitchDev(0.0);
+    Gain(1.0);
+    GainDev(0.0);
+    ReverbGain(0.0);
+    Bus("ingamemusic");
+    Looping(0);
+    Pan(0.0);
+    Mode3D(0);
+    Stream("bes2gcw_music");
+    SegmentList()
+    {
+        Segment("imp_bes_amb_start", 1.0);
+    }
+}
+
+SoundStream()
+{
+    Name("imp_bes_amb_middle");
+    Pitch(1.0);
+    PitchDev(0.0);
+    Gain(1.0);
+    GainDev(0.0);
+    ReverbGain(0.0);
+    Bus("ingamemusic");
+    Looping(0);
+    Pan(0.0);
+    Mode3D(0);
+    Stream("bes2gcw_music");
+	CyclePlayback(1);
+    SegmentList()
+    {
+        Segment("imp_bes_amb_middle", 0.5);
+        Segment("imp_bes_amb_middle02", 0.5);
+    }
+}
+
+SoundStream()
+{
+    Name("imp_bes_amb_end");
+    Pitch(1.0);
+    PitchDev(0.0);
+    Gain(1.0);
+    GainDev(0.0);
+    ReverbGain(0.0);
+    Bus("ingamemusic");
+    Looping(0);
+    Pan(0.0);
+    Mode3D(0);
+    Stream("bes2gcw_music");
+    SegmentList()
+    {
+        Segment("imp_bes_amb_end", 1.0);
+    }
+}
+
+SoundStream()
+{
+    Name("imp_bes_amb_victory");
+    Pitch(1.0);
+    PitchDev(0.0);
+    Gain(1.0);
+    GainDev(0.0);
+    ReverbGain(0.0);
+    Bus("ingamemusic");
+    Looping(0);
+    Pan(0.0);
+    Mode3D(0);
+    Stream("bes2gcw_music");
+    SegmentList()
+    {
+        Segment("imp_bes_amb_victory01", 1.0);
+    }
+}
+
+SoundStream()
+{
+    Name("imp_bes_amb_defeat");
+    Pitch(1.0);
+    PitchDev(0.0);
+    Gain(1.0);
+    GainDev(0.0);
+    ReverbGain(0.0);
+    Bus("ingamemusic");
+    Looping(0);
+    Pan(0.0);
+    Mode3D(0);
+    Stream("bes2gcw_music");
+    SegmentList()
+    {
+		Segment("imp_bes_amb_defeat02", 1.0);
+    }
+}
+
+//SoundStream()
+//{
+//    Name("imp_bes_amb_vehicle");
+//    Pitch(1.0);
+//    PitchDev(0.0);
+//    Gain(1.0);
+//    GainDev(0.0);
+//    ReverbGain(0.0);
+//    Bus("ingamemusic");
+//    Looping(0);
+//    Pan(0.0);
+//    Mode3D(0);
+//    Stream("bes2gcw_music");
+//    SegmentList()
+//    {
+//        Segment("imp_bes_amb_veh01", 0.33);
+//		Segment("imp_bes_amb_veh02", 0.33);
+//		Segment("imp_bes_amb_veh03", 0.33);
+//    }
+//}

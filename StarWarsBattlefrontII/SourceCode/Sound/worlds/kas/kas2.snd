@@ -1,0 +1,156 @@
+// Ambient Emitters ----------------------------------------------
+
+Space()
+{
+    Name("Default");
+    I3DL2ReverbPreset("noreverb");
+    DirectGain(1.0);
+    DirectHFGain(1.0);
+    RoomGain(0.0);
+    RoomHFGain(0.0);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.5);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.5);
+    OcclusionLFRatio(1.0);
+}
+
+#ifplatform ps2
+I3DL2ReverbPreset()
+{
+    Name("hut");
+    RoomGain(0.1);
+    RoomHFGain(0.4);
+    RoomRollOff(0.0);
+    DecayTime(1.0);
+    DecayHFRatio(0.3);
+    ERGain(0.3);
+    ERDelay(0.014);
+    ReverbGain(0.5);
+    ReverbDelay(0.021);
+    Diffusion(100.0);
+    Density(100.0);
+    HFReference(5000.0);
+}
+
+Space()
+{
+    Name("hut");
+    I3DL2ReverbPreset("hut");
+    DirectGain(1.0);
+    DirectHFGain(1.0);
+    RoomGain(0.3);
+    RoomHFGain(0.3);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.4);
+    ObstructionLFRatio(0.0);
+    OcclusionHFGain(0.4);
+    OcclusionLFRatio(0.0);
+}
+#endifplatform ps2
+
+
+#ifplatform pc
+I3DL2ReverbPreset()
+{
+    Name("hut");
+    RoomGain(1.0);
+    RoomHFGain(1.0);
+    RoomRollOff(0.0);
+    DecayTime(1.0);
+    DecayHFRatio(0.4);
+    ERGain(0.3);
+    ERDelay(0.014);
+    ReverbGain(0.8);
+    ReverbDelay(0.021);
+    Diffusion(100.0);
+    Density(100.0);
+    HFReference(5000.0);
+}
+
+Space()
+{
+    Name("hut");
+    I3DL2ReverbPreset("hut");
+    DirectGain(1.0);
+    DirectHFGain(1.0);
+    RoomGain(0.6);
+    RoomHFGain(0.6);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.4);
+    ObstructionLFRatio(0.0);
+    OcclusionHFGain(0.4);
+    OcclusionLFRatio(0.0);
+}
+#endifplatform pc
+#ifplatform xbox
+I3DL2ReverbPreset()
+{
+    Name("hut");
+    RoomGain(0.1);
+    RoomHFGain(0.4);
+    RoomRollOff(0.0);
+    DecayTime(1.0);
+    DecayHFRatio(0.3);
+    ERGain(0.3);
+    ERDelay(0.014);
+    ReverbGain(0.5);
+    ReverbDelay(0.021);
+    Diffusion(100.0);
+    Density(100.0);
+    HFReference(5000.0);
+}
+
+Space()
+{
+    Name("hut");
+    I3DL2ReverbPreset("hut");
+    DirectGain(1.0);
+    DirectHFGain(1.0);
+    RoomGain(0.3);
+    RoomHFGain(0.3);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.4);
+    ObstructionLFRatio(0.0);
+    OcclusionHFGain(0.4);
+    OcclusionLFRatio(0.0);
+}
+
+#endifplatform xbox
+
+SoundProperties()
+{
+    Name("foliage_collision");
+    Pitch(0.9);
+    PitchDev(0.2);
+#ifplatform pc
+    Gain(0.37);
+#endifplatform pc
+#ifplatform xbox
+    Gain(0.6);
+#endifplatform xbox
+#ifplatform pc ps2
+    Gain(0.9);
+#endifplatform pc ps2
+    GainDev(0.05);
+    ReverbGain(1.0);
+    Bus("soundfx");
+    Looping(0);
+    Pan(0.0);
+    MinDistance(1.0);
+    MuteDistance(40.0);
+    MaxDistance(40.0);
+    RollOff(10.0);
+    Mode3D(1);
+    Bias(0.0001);
+    Priority(0.5);
+    SampleList()
+    {
+        Sample("emt_foliageCollision_01", 0.33);
+        Sample("emt_foliageCollision_02", 0.33);
+        Sample("emt_foliageCollision_03", 0.33);
+
+    }
+}
+
+

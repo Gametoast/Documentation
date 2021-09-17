@@ -1,0 +1,13 @@
+// ----- Metagame Music -----
+
+Music()
+{
+    Name("metagame_menu_music");
+    Priority(3.0);
+    FadeInTime(2.0);
+    FadeOutTime(2.0);
+    MinPlaybackTime(10.0);
+    MaxPlaybackTime(120.0);
+    MinInactiveTime(0.0);
+    SoundStream("metagame_menu_music");
+}

@@ -1,0 +1,161 @@
+//-cis Foley Effects-----------------------------------------------------------
+
+//-Soldier---------------------------------------------------------------------
+
+FoleyFXSoldier()
+{
+    Name("cis_inf_droid_grass");
+    Class("cis_inf_droid");
+    FootstepLeftWalk("cis_inf_droid_walk_grass_left");
+    FootstepRightWalk("cis_inf_droid_walk_grass_right");
+    FootstepLeftRun("cis_inf_droid_run_grass_left");
+    FootstepRightRun("cis_inf_droid_run_grass_right");
+    FootstepLeftStop("cis_inf_droid_stop_grass");
+    FootstepRightStop("cis_inf_droid_stop_grass");
+    Jump("cis_inf_droid_jump_grass");
+    Land("cis_inf_droid_land_grass");
+    Roll("cis_inf_droid_roll_grass");
+//    Prone("cis_inf_droid_lie_grass");
+    Squat("cis_inf_droid_squat_grass");
+////    Stand("cis_inf_droid_getup_grass");
+    Bodyfall("cis_inf_droid_lgBF_grass");
+}
+#ifplatform ps2
+FoleyFXSoldier()
+{
+    Name("cis_inf_sbdroid_grass");
+    Class("cis_inf_sbdroid");
+    FootstepLeftWalk("cis_inf_droid_walk_grass_left");
+    FootstepRightWalk("cis_inf_droid_walk_grass_right");
+    FootstepLeftRun("cis_inf_droid_run_grass_left");
+    FootstepRightRun("cis_inf_droid_run_grass_right");
+    FootstepLeftStop("cis_inf_droid_stop_grass");
+    FootstepRightStop("cis_inf_droid_stop_grass");
+    Jump("cis_inf_droid_jump_grass");
+    Land("cis_inf_droid_land_grass");
+    Roll("cis_inf_droid_roll_grass");
+//    Prone("cis_inf_droid_lie_grass");
+    Squat("cis_inf_droid_squat_grass");
+////    Stand("cis_inf_droid_getup_grass");
+    Bodyfall("cis_inf_droid_lgBF_grass");
+}
+#endifplatform ps2
+
+#ifplatform xbox pc
+FoleyFXSoldier()
+{
+    Name("cis_inf_sbdroid_grass");
+    Class("cis_inf_sbdroid");    
+    FootstepLeftWalk("cis_inf_sbdroid_walk_grass_left");
+    FootstepRightWalk("cis_inf_sbdroid_walk_grass_right");
+    FootstepLeftRun("cis_inf_sbdroid_run_grass_left");
+    FootstepRightRun("cis_inf_sbdroid_run_grass_right");
+    FootstepLeftStop("cis_inf_sbdroid_stop_grass");
+    FootstepRightStop("cis_inf_sbdroid_stop_grass");
+    Jump("cis_inf_sbdroid_jump_grass");
+    Land("cis_inf_sbdroid_land_grass");
+    Roll("cis_inf_sbdroid_roll_grass");
+//    Prone("cis_inf_sbdroid_lie_grass");
+    Squat("cis_inf_sbdroid_squat_grass");
+////    Stand("cis_inf_sbdroid_getup_grass");
+    Bodyfall("cis_inf_sbdroid_lgBF_grass");
+}
+#endifplatform xbox pc
+
+//-rep Foley Effects-----------------------------------------------------------
+
+//-Trooper---------------------------------------------------------------------
+
+FoleyFXSoldier()
+{
+    Name("rep_inf_trooper_grass");
+    Class("rep_inf_trooper");
+    FootstepLeftWalk("rep_inf_trooper_walk_grass_left");
+    FootstepRightWalk("rep_inf_trooper_walk_grass_right");
+    FootstepLeftRun("rep_inf_trooper_run_grass_left");
+    FootstepRightRun("rep_inf_trooper_run_grass_right");
+    FootstepLeftStop("rep_inf_trooper_stop_grass");
+    FootstepRightStop("rep_inf_trooper_stop_grass");
+    Jump("rep_inf_trooper_jump_grass");
+    Land("rep_inf_trooper_land_grass");
+    Roll("rep_inf_trooper_roll_grass");
+//    Prone("rep_inf_trooper_lie_grass");
+    Squat("rep_inf_trooper_squat_grass");
+////    Stand("rep_inf_trooper_getup_grass");
+    Bodyfall("rep_inf_trooper_lgBF_grass");
+}
+
+FoleyFXSoldier()
+{
+    Name("rep_inf_soldier_grass");
+    Class("rep_inf_soldier");
+    FootstepLeftWalk("rep_inf_soldier_walk_grass_left");
+    FootstepRightWalk("rep_inf_soldier_walk_grass_right");
+    FootstepLeftRun("rep_inf_soldier_run_grass_left");
+    FootstepRightRun("rep_inf_soldier_run_grass_right");
+    FootstepLeftStop("rep_inf_soldier_stop_grass");
+    FootstepRightStop("rep_inf_soldier_stop_grass");
+    Jump("rep_inf_soldier_jump_grass");
+    Land("rep_inf_soldier_land_grass");
+    Roll("rep_inf_soldier_roll_grass");
+//    Prone("rep_inf_soldier_lie_grass");
+    Squat("rep_inf_soldier_squat_grass");
+////    Stand("rep_inf_soldier_getup_grass");
+    Bodyfall("rep_inf_soldier_lgBF_grass");
+}
+
+FoleyFXSoldier()
+{
+    Name("cis_inf_soldier_grass");
+    Class("cis_inf_soldier");
+    FootstepLeftWalk("cis_inf_soldier_walk_grass_left");
+    FootstepRightWalk("cis_inf_soldier_walk_grass_right");
+    FootstepLeftRun("cis_inf_soldier_run_grass_left");
+    FootstepRightRun("cis_inf_soldier_run_grass_right");
+    FootstepLeftStop("cis_inf_soldier_stop_grass");
+    FootstepRightStop("cis_inf_soldier_stop_grass");
+    Jump("cis_inf_soldier_jump_grass");
+    Land("cis_inf_soldier_land_grass");
+    Roll("cis_inf_soldier_roll_grass");
+//    Prone("cis_inf_soldier_lie_grass");
+    Squat("cis_inf_soldier_squat_grass");
+////    Stand("cis_inf_soldier_getup_grass");
+    Bodyfall("cis_inf_soldier_lgBF_grass");
+}
+FoleyFXSoldier()
+{
+    Name("imp_inf_trooper_grass");
+    Class("imp_inf_trooper");
+    FootstepLeftWalk("rep_inf_trooper_walk_grass_left");
+    FootstepRightWalk("rep_inf_trooper_walk_grass_right");
+    FootstepLeftRun("rep_inf_trooper_run_grass_left");
+    FootstepRightRun("rep_inf_trooper_run_grass_right");
+    FootstepLeftStop("rep_inf_trooper_stop_grass");
+    FootstepRightStop("rep_inf_trooper_stop_grass");
+    Jump("rep_inf_trooper_jump_grass");
+    Land("rep_inf_trooper_land_grass");
+    Roll("rep_inf_trooper_roll_grass");
+//    Prone("rep_inf_trooper_lie_grass");
+    Squat("rep_inf_trooper_squat_grass");
+////    Stand("rep_inf_trooper_getup_grass");
+    Bodyfall("rep_inf_trooper_lgBF_grass");
+}
+
+FoleyFXSoldier()
+{
+    Name("imp_inf_soldier_grass");
+    Class("imp_inf_soldier");
+    FootstepLeftWalk("rep_inf_soldier_walk_grass_left");
+    FootstepRightWalk("rep_inf_soldier_walk_grass_right");
+    FootstepLeftRun("rep_inf_soldier_run_grass_left");
+    FootstepRightRun("rep_inf_soldier_run_grass_right");
+    FootstepLeftStop("rep_inf_soldier_stop_grass");
+    FootstepRightStop("rep_inf_soldier_stop_grass");
+    Jump("rep_inf_soldier_jump_grass");
+    Land("rep_inf_soldier_land_grass");
+    Roll("rep_inf_soldier_roll_grass");
+//    Prone("rep_inf_soldier_lie_grass");
+    Squat("rep_inf_soldier_squat_grass");
+////    Stand("rep_inf_soldier_getup_grass");
+    Bodyfall("rep_inf_soldier_lgBF_grass");
+}

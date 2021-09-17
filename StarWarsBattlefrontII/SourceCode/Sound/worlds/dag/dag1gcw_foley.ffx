@@ -1,0 +1,108 @@
+FoleyFXGroup()
+{
+    Name("terrain_foley");
+    FoleyFX("all_inf_soldier_grass");
+    FoleyFX("wok_inf_soldier_grass");
+    FoleyFX("imp_inf_trooper_grass");
+    FoleyFX("imp_inf_soldier_grass");
+    FoleyFX("npc_inf_small_grass");
+}
+FoleyFXGroup()
+{
+    Name("grass_foley");
+    FoleyFX("all_inf_soldier_grass");
+    FoleyFX("wok_inf_soldier_grass");
+    FoleyFX("imp_inf_trooper_grass");
+    FoleyFX("imp_inf_soldier_grass");
+    FoleyFX("npc_inf_small_grass");
+}
+
+FoleyFXGroup()
+{
+    Name("dirt_foley");
+    FoleyFX("all_inf_soldier_dirt");
+    FoleyFX("wok_inf_soldier_dirt");
+    FoleyFX("imp_inf_trooper_dirt");
+    FoleyFX("imp_inf_soldier_dirt");
+    FoleyFX("npc_inf_small_dirt");
+
+}
+#ifplatform xbox pc
+FoleyFXGroup()
+{
+    Name("stone_foley");
+    FoleyFX("all_inf_soldier_stone");
+    FoleyFX("wok_inf_soldier_stone");
+    FoleyFX("imp_inf_trooper_stone");
+    FoleyFX("imp_inf_soldier_stone");
+    FoleyFX("npc_inf_small_stone");
+
+}
+#endifplatform xbox pc
+#ifplatform ps2
+FoleyFXGroup()
+{
+    Name("stone_foley");
+    FoleyFX("all_inf_soldier_dirt");
+    FoleyFX("wok_inf_soldier_dirt");
+    FoleyFX("imp_inf_trooper_dirt");
+    FoleyFX("imp_inf_soldier_dirt");
+    FoleyFX("npc_inf_small_dirt");
+
+}
+#endifplatform ps2
+#ifplatform xbox pc
+FoleyFXGroup()
+{
+    Name("metal_foley");
+    FoleyFX("all_inf_soldier_metal");
+    FoleyFX("wok_inf_soldier_metal");
+    FoleyFX("imp_inf_trooper_metal");
+    FoleyFX("imp_inf_soldier_metal");
+    FoleyFX("npc_inf_small_metal");
+}
+#endifplatform xbox pc
+#ifplatform ps2
+FoleyFXGroup()
+{
+    Name("metal_foley");
+    FoleyFX("all_inf_soldier_dirt");
+    FoleyFX("wok_inf_soldier_dirt");
+    FoleyFX("imp_inf_trooper_dirt");
+    FoleyFX("imp_inf_soldier_dirt");
+    FoleyFX("npc_inf_small_dirt");
+
+}
+#endifplatform ps2
+#ifplatform xbox pc
+FoleyFXGroup()
+{
+    Name("wood_foley");
+    FoleyFX("all_inf_soldier_stone");
+    FoleyFX("wok_inf_soldier_stone");
+    FoleyFX("imp_inf_trooper_stone");
+    FoleyFX("imp_inf_soldier_stone");
+    FoleyFX("npc_inf_small_stone");
+}
+#endifplatform xbox pc
+#ifplatform ps2
+FoleyFXGroup()
+{
+    Name("wood_foley");
+    FoleyFX("all_inf_soldier_dirt");
+    FoleyFX("wok_inf_soldier_dirt");
+    FoleyFX("imp_inf_trooper_dirt");
+    FoleyFX("imp_inf_soldier_dirt");
+    FoleyFX("npc_inf_small_dirt");
+
+}
+#endifplatform ps2
+FoleyFXGroup()
+{
+    Name("water_foley");
+    FoleyFX("all_inf_soldier_water");
+    FoleyFX("wok_inf_soldier_water");
+    FoleyFX("imp_inf_trooper_water");
+    FoleyFX("imp_inf_soldier_water");
+    FoleyFX("npc_inf_small_water");
+}

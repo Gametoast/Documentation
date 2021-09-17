@@ -1,0 +1,978 @@
+
+// ============================================= Objective VO ==============================================================
+
+//    Our Auto-Turrets have been disabled!
+//..\international\french\AOSB50001.wav
+
+//    Our turrets are down, we need to get them back online!
+//..\international\french\AOSB50002.wav
+
+//    Our interior defenses have fallen
+//..\international\french\AOSB50003.wav
+
+//    Destroy the Victory-2 Star Destroyer!
+//..\international\french\AOSB50004.wav
+
+//    Another of the Victory-2 Destroyers has been destroyed!
+//..\international\french\AOSB50005.wav
+
+//    One of the Victory-2 Destroyers has been destroyed!
+//..\international\french\AOSB50006.wav
+
+//    Their Victory-2 Destroyers have been cleared out!
+//..\international\french\AOSB50007.wav
+
+//    Their Victory-2 Destroyer has been wiped out!
+//..\international\french\AOSB50008.wav
+
+//    Target the Star Destroyer!
+//..\international\french\AOSB50009.wav
+
+//    Destroy the Star Destroyer's Sensor Array!
+//..\international\french\AOSB50010.wav
+
+//    Destroy the Star Destroyer's Shield Generators!
+//..\international\french\AOSB50011.wav
+
+//    Star Destroyer has 1 Shield Generator left.
+//..\international\french\AOSB50012.wav
+
+//    Destroy the Star Destroyer's Engines!
+//..\international\french\AOSB50013.wav
+
+//    Star Destroyer has 1 Engine left.
+//..\international\french\AOSB50014.wav
+
+//    Star Destroyer has 2 Engines left.
+//..\international\french\AOSB50015.wav
+
+//    The Imperials have been defeated, the day is ours!
+//..\international\french\AOSB50016.wav
+
+//    Our engines have been destroyed!
+//..\international\french\AOSB50017.wav
+
+//    The Imperials have destroyed our Sensor Array!
+//..\international\french\AOSB50018.wav
+
+//    Our Life Support systems have been critically damaged!
+//..\international\french\AOSB50019.wav
+
+//    The Imperials may have won this battle, but we've already scored the day's largest victory!
+//..\international\french\AOSB50020.wav
+
+//    Our shields have suffered a critical failure, we need to repair those generators!
+//..\international\french\IOSB50001.wav
+
+//    Our ship's defenses have been destroyed, dispatch a team to repair them!
+//..\international\french\IOSB50002.wav
+
+//    The interior defenses are destroyed, our turrets are vulnerable!
+//..\international\french\IOSB50003.wav
+
+//    Our shields have failed, defeat is imminent.
+//..\international\french\IOSB50004.wav
+
+//    Destroy the Correlian Corvette!
+//..\international\french\IOSB50005.wav
+
+//    Their Corvette is destroyed!
+//..\international\french\IOSB50006.wav
+
+//    One of their Corvettes has been annihilated.
+//..\international\french\IOSB50007.wav
+
+//    Another of their Corvettes has fallen.
+//..\international\french\IOSB50008.wav
+
+//    Their Covettes are no longer a threat to our forces.
+//..\international\french\IOSB50009.wav
+
+//    Target the Mon Calimari Cruiser!
+//..\international\french\IOSB50010.wav
+
+//    Destroy the Alliance Cruiser's Engines!
+//..\international\french\IOSB50011.wav
+
+//    One more engine, and the cruiser is ours for the taking!
+//..\international\french\IOSB50012.wav
+
+//    Just two more engines!
+//..\international\french\IOSB50013.wav
+
+//    The alliance cruiser is down to three engines!
+//..\international\french\IOSB50014.wav
+
+//    Two engines down, four to go!
+//..\international\french\IOSB50015.wav
+
+//    That's one engine down, now take out the rest!
+//..\international\french\IOSB50016.wav
+
+//    Destroy the Mon Calimari Sensor Array!
+//..\international\french\IOSB50017.wav
+
+//    Destroy the Mon Calimari Life Support Systems!
+//..\international\french\IOSB50018.wav
+
+//    Their ship is crippled, finish them off!
+//..\international\french\IOSB50019.wav
+
+//    Our Sensor Array has fallen.
+//..\international\french\IOSB50020.wav
+
+//    Our primary shield generators have been destroyed!
+//..\international\french\IOSB50021.wav
+
+//    We've lost our engines!
+//..\international\french\IOSB50022.wav
+
+//    Vengeance, it seems, will not be ours today...
+//..\international\french\IOSB50023.wav
+
+//    Our Victory-2 Destroyer has been destroyed!
+//..\international\french\IOSB50024.wav
+
+//    Our Victory-2 Destroyers have been destroyed!
+//..\international\french\IOSB50025.wav
+
+//    A Victory-2 Destroyer has been destroyed!
+//..\international\french\IOSB50026.wav
+
+//    The Alliance is within our grasp.
+//..\international\french\IOSB50027.wav
+
+//    Victory is ours men.  Dispatch the 501st to the planet surface, this planet will be under Imperial control within the hour.
+..\international\french\IOSB50028.wav
+
+//     Reinforcements are no longer available.  The battle is lost.
+..\international\french\IOSB50029.wav
+
+//     We only have a few fighters left
+..\international\french\IOSB50030.wav
+
+//        Their heavy transports are trying to go around us, we must not let them jump to hyperspace.  Destroy them!
+..\international\french\IOSB50031.wav
+
+//        Their frigates are harassing our fighters, show them no mercy!
+..\international\french\IOSB50032.wav
+
+//        Gents, their aces are inbound, slaughter their pathetic pilots.
+//..\international\french\IOSB50033.wav
+
+//        Our frigates need to move in to assault their hull, use a TIE bomber to destroy their heavy turrets.
+..\international\french\IOSB50034.wav
+
+//        SIR!  The Rebel ship is powering up their hyperdrive system! If they jump now they'll...
+//..\international\french\IISB50001.wav
+
+//        They'll rip right through us.  They're trying to take us down with them.  Pilots, attack their engines, they can't jump if they haven't any engines!
+//..\international\french\IOSB50035.wav
+
+//        Now gentlemen, destroy their remaining critical systems, those Rebels don’t deserve to breath any longer.
+..\international\french\IOSB50036.wav
+
+//        Leave them to float boys, we have more pressing matter to attend to, on Yavin.
+..\international\french\IOSB50037.wav
+
+//        Their transports we allowed to escape!  We have let them slip through our grasp once again.
+..\international\french\IOSB50038.wav
+
+//        Their engines are still active?  Your failure has doomed us all!  
+..\international\french\IOSB50039.wav
+
+//        Pilots, if they are allowed to make the jump to hyperspace they'll rip right through us.
+..\international\french\IOSB50040.wav
+
+//        Clear their fighters out and be quick about it.   We haven't any time to spare.
+..\international\french\IOSB50041.wav
+
+//        Well done pilots.
+..\international\french\IOSB50042.wav
+
+//        We need to clear a path for our frigates to cover you.  Use a TIE bomber to destroy their heavy turrets.
+..\international\french\IOSB50043.wav
+
+//        Now get after those engines men, they can't jump if they haven't any engines!
+..\international\french\IOSB50044.wav
+
+//        SIR!  The Rebel ship is powering up their hyperdrive system!
+//..\international\french\IISB50002.wav
+
+//        The Rebels are attemping to send their forces off to wreak havoc in other parts of our galaxy.  Destroy them, in the memory of our fallen comrades.
+..\international\french\IOSB50045.wav
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//    Our forward assault ship is under attack.    If we're to save it, you'll have to disable that droid cruiser.
+//..\international\french\ROSB10001.wav
+
+//    Before we can make a frontal assault, we'll have to take out their comm arrays to disrupt ship-to-fighter communications.
+//..\international\french\ROSB10002.wav
+
+//    4 more arrays
+//..\international\french\ROSB10003.wav
+
+//    3 more arrays
+//..\international\french\ROSB10004.wav
+
+//    2 more arrays left
+//..\international\french\ROSB10005.wav
+
+//    Just one more array!
+//..\international\french\ROSB10006.wav
+
+//    Droid comms successfully disrupted, now take out the cruiser's engines and cripple her!
+//..\international\french\ROSB10007.wav
+
+//    One engine down, one to go.
+//..\international\french\ROSB10008.wav
+
+//    Droid cruiser disabled, forward assault ship preparing to deploy fighters.
+//..\international\french\ROSB10009.wav
+
+//    The droids are launching fighters from the rear cruiser, take 'em out!
+//..\international\french\ROSB10010.wav
+
+//    That's one down
+//..\international\french\ROSB10011.wav
+
+//    8 targets remain
+//..\international\french\ROSB10012.wav
+
+//    7 more fighters
+//..\international\french\ROSB10013.wav
+
+//    Just 6 more fighters
+//..\international\french\ROSB10014.wav
+
+//    Halfway there.
+//..\international\french\ROSB10015.wav
+
+//    Four more, hang in there!
+//..\international\french\ROSB10016.wav
+
+//    3 more
+//..\international\french\ROSB10017.wav
+
+//    Just two more to go!
+//..\international\french\ROSB10018.wav
+
+//    One more!
+..\international\french\ROSB10019.wav
+
+//    Well done, men.  The Chancellor should be rescued in no time!
+//..\international\french\ROSB10020.wav
+
+//    Clear the skies of these irritating fighters!
+//..\international\french\ROSB10021.wav
+
+//    Their fighters are on the run!  Press the advantage by taking out the cruiser's comm towers, cutting off their communications.
+//..\international\french\ROSB10022.wav
+
+//    The fighters are in retreat, giving us an opening to destroy the cruiser's engines.
+//..\international\french\ROSB10023.wav
+
+//    The cruiser has been crippled, now take out those communication towers!
+//..\international\french\ROSB10024.wav
+
+//    Your failure has doomed the Chancellor.  I knew we shouldn't have used rookie fliers.
+//..\international\french\ROSB10025.wav
+
+//    Troopers, get to your ships and launch immediately!  Our forward ship is under attack and we must aid them!
+//..\international\french\ROSB10026.wav
+
+//    Destroy the communication arrays on the Droid Cruiser.
+//..\international\french\ROSB10027.wav
+
+//    Destroy the communication array on the Droid Cruiser.
+//..\international\french\ROSB10028.wav
+
+//    Take out the remaining arrays on the Cruiser.
+//..\international\french\ROSB10029.wav
+
+//    Destroy the remaining array
+//..\international\french\ROSB10030.wav
+
+//    4 more arrays!  Stay on target!
+//..\international\french\ROSB10031.wav
+
+//    3 arrays left!
+//..\international\french\ROSB10032.wav
+
+//    Just 2 more arrays
+//..\international\french\ROSB10033.wav
+
+//    The arrays have been destroyed.  Droid communications have been interrupted
+//..\international\french\ROSB10034.wav
+
+//    Good job trooper, droid communication has been disrupted.
+//..\international\french\ROSB10035.wav
+
+//    Alright trooper, you're going to have to land in the enemy hangar and take out their internal systems.
+//..\international\french\ROSB10036.wav
+
+//    Trooper!  Land your ship in the enemy hangar and take out their critical systems.
+//..\international\french\ROSB10037.wav
+
+//    Use your timebombs on the critical systems!
+//..\international\french\ROSB10038.wav
+
+//    Destroy those targets with your timebombs and get outta that ship soldier!
+//..\international\french\ROSB10039.wav
+
+//    Well done trooper, our forward assault ship is in the clear!
+//..\international\french\ROSB10040.wav
+
+//    Good job pilot, you've made the Republic proud.
+//..\international\french\ROSB10041.wav
+
+//    Trooper, you have to destroy those targets!
+//..\international\french\ROSB10042.wav
+
+//    Soldier, stop wasting time, get back on duty and destroy those targets!
+//..\international\french\ROSB10043.wav
+
+//    Pilot! Stop wasting ammo and get to your duties!
+//..\international\french\ROSB10044.wav
+
+//    10 minutes left
+//..\international\french\ROSB10045.wav
+
+//    9 minutes left
+//..\international\french\ROSB10046.wav
+
+//    8 minutes left
+//..\international\french\ROSB10047.wav
+
+//    7 minutes left
+//..\international\french\ROSB10048.wav
+
+//    6 minutes left
+//..\international\french\ROSB10049.wav
+
+//    5 minutes left
+//..\international\french\ROSB10050.wav
+
+//    4 minutes left
+//..\international\french\ROSB10051.wav
+
+//    3 minutes left
+//..\international\french\ROSB10052.wav
+
+//    2 minutes left
+//..\international\french\ROSB10053.wav
+
+//    1 minute left
+//..\international\french\ROSB10054.wav
+
+//    Get out of that hangar and destroy their fighters!
+//..\international\french\ROSB10055.wav
+
+//    reinforcements have been depleted.  We must retreat! 
+..\international\french\ROSB10056.wav
+
+//     Pilots and marines, get to your ships!  The Jedi are depending on you!
+..\international\french\ROSB10057.wav
+
+//     We've got fighters incoming, make them scarce.
+..\international\french\ROSB10058.wav
+
+//     It seems that a Banking Clan ship is serving as a frigate for the Droids, destroy that frigate.
+..\international\french\ROSB10059.wav
+
+//     Pilots, Marines, focus your fire on the main CIS ship.  Drop their shields as quickly as you can.
+..\international\french\ROSB10060.wav
+
+//     Destroy the Droid Communications Array, that should cause enough of a disturbance to allow you to board their ship.
+..\international\french\ROSB10061.wav
+
+//     Well done. Now, fly into their hangar and land. Watch for small arms fire.
+..\international\french\ROSB10062.wav
+
+//     Run into their Command Room and destroy the Life Support Systems.
+//..\international\french\ROSB10063.wav
+
+//     Use your rockets or timebombs to destroy the internal systems.
+..\international\french\ROSB10064.wav
+
+//     As your last objective, grab a fighter and destroy the bridge of the enemy cruiser.
+..\international\french\ROSB10065.wav
+
+//     Well done gents, with flying like that, we'lre well on our way to victory in this war.
+..\international\french\ROSB10066.wav
+
+//     The CIS are too much for us, the day has been lost.
+//..\international\french\ROSB10067.wav
+
+//     We're running out of ships
+..\international\french\ROSB10068.wav
+
+//     Ok Pilot, we’re going to calibrate your controls for the Arc 170.  Fly to the designated ring.
+//..\international\french\ROSB10069.wav
+
+//     Now fly to the second ring, watch your flying.
+//..\international\french\ROSB10070.wav
+
+//     Alright, now fly to the final ring and that will conclude the control calibration.
+//..\international\french\ROSB10071.wav
+
+//     Alright, now fly to the second ring, which will conclude the control calibration.
+//..\international\french\ROSB10072.wav
+
+//     Well done pilot.
+//..\international\french\ROSB10073.wav
+
+//     Pilots, we’re going to toggle you into a different control scheme for a few seconds.
+//..\international\french\ROSB10074.wav
+
+//     This mode has the throttle and roll control on the left analog stick.
+//..\international\french\ROSB10075.wav
+
+//     Turning and Pitch is now on the right analog stick.
+//..\international\french\ROSB10076.wav
+
+//     Now we will change back to the default control scheme for a few moments.
+//..\international\french\ROSB10077.wav
+
+//     This mode has the throttle and roll control on the right analog stick.
+//..\international\french\ROSB10078.wav
+
+//     Turning and Pitch is now on the left analog stick.
+//..\international\french\ROSB10079.wav
+
+//     Alright pilot, make your choice of the two selections.
+//..\international\french\ROSB10080.wav
+
+//     Remember that you can always change your controls in your personal settings
+//..\international\french\ROSB10081.wav
+
+
+
+
+
+
+//    The droids have thrown up a blockade around Kashyyyk.  If we're going to punch through, we'll have to destroy their support ships.
+//..\international\french\ROSB20001.wav
+
+//    That's one frigate down.
+//..\international\french\ROSB20002.wav
+
+//    That's another firgate down.
+//..\international\french\ROSB20003.wav
+
+//    There goes the last of their support ships.  Well done.
+//..\international\french\ROSB20004.wav
+
+//    The droids aren't getting the message; move in and destroy them.
+//..\international\french\ROSB20005.wav
+
+//    Destroy the cruiser's Shield Generators
+//..\international\french\ROSB20006.wav
+
+//    Take out the cruiser's Sensor Array
+//..\international\french\ROSB20007.wav
+
+//    Attack the Droid Cruisers' Engines and cripple their ship.
+//..\international\french\ROSB20008.wav
+
+//    Well done, men.  Now let's get down there and liberate Kashyyyk..
+..\international\french\ROSB20009.wav
+
+//    We can't break through the blockade... Kashyyyk is doomed.
+//..\international\french\ROSB20010.wav
+
+//    The droids have thrown up a blockade around Kashyyyk.  If we're going to punch through, we'll need to weaken their forces in this sector.
+..\international\french\ROSB20011.wav
+
+//    Fighters are inbound, no mercy.
+//..\international\french\ROSB20012.wav
+
+//    Pilots, focus your attacks on their supprot ships.
+..\international\french\ROSB20013.wav
+
+//    Destroy their engines, they must not be allowed to escape.
+//..\international\french\ROSB20014.wav
+
+//    Ok pilots, we're moving onto the planet, destroy their comms and targeting are return to the hangar.  Our backup will mop up the rest.
+//..\international\french\ROSB20015.wav
+
+//    Reinforcements are exhausted.  We have failed.
+..\international\french\ROSB20016.wav
+
+//    Watch your flying!  We're running out of reinforcements
+..\international\french\ROSB20017.wav
+
+//        Their ship guns are pounding our shields, take out those heavy turrets!
+..\international\french\ROSB20018.wav
+
+//        Well done pilot head back to the hangar for your next objective.
+..\international\french\ROSB20019.wav
+
+//        Ok son, we're gonna need to you take that LAAT into the enemy hangar and land it.  It's the only way we're gonna be able to land a force in that ship to destroy the internal systems.
+..\international\french\ROSB20020.wav
+
+//        Okay boys, get to their critical systems room and use your explosives on the fuel and life support systems.
+..\international\french\ROSB20021.wav
+
+//        Alright, this one is easy.  Just grab the Battleplan Holocron and bring it back to our hangar.  Easy right?
+..\international\french\ROSB20022.wav
+
+
+
+
+
+
+//    Okay troops, before we move on to Mustafar proper, Lord Vader wants us to recover those plans for the new Imperial fighter.  To do that you'll have to take out the enemy's hangar shields, zip into the the enemy's hangar, grab the plans, and fly out again, all without getting killed.  Just like in the simulators, right?
+//..\international\french\IOSB30001.wav
+
+//    The shield generators are located on the left and right sides of the hangar.
+//..\international\french\IOSB30002.wav
+
+//    That's one shield generator down, now take out the other one.
+//..\international\french\IOSB30003.wav
+
+//    Well done, gentlemen, now let's board their ship and take back those plans!
+//..\international\french\IOSB30004.wav
+
+//    Alert!  Alert!  Primary shields destroyed, Auxilliary shields activated.
+//..\international\french\IOSB30005.wav
+
+//    Ignore the auxilliary shields, they're not powerful enoough to stop you from entering the hangar.
+//..\international\french\IOSB30006.wav
+
+//    Holocron secured, return to your ship for immediate evac.
+//..\international\french\IOSB30007.wav
+
+//    Well done, Trooper.  Lord Vader is most pleased.
+//..\international\french\IOSB30008.wav
+
+//    You couldn't even get their shields down... perhaps it's time for Lord Vader to re-evaluate the status of the 501st.
+//..\international\french\IOSB30009.wav
+
+//    Your failure to retrieve the stolen fighter plans has set back the Empire's military efforts by nearly a decade.  Report to Lord Vader for "re-assignment."
+//..\international\french\IOSB30010.wav
+
+//    Men, we've come out of hyperspace next to our target.  They have the stolen plans on board and must not be allowed to escape.
+//..\international\french\IOSB30011.wav
+
+//    Droid frigates off the port side of the ship, get to it men!  Destroy those ships!
+//..\international\french\IOSB30012.wav
+
+//    Crush them!
+//..\international\french\IOSB30013.wav
+
+//    Fighters incoming, pilots, be on guard!
+//..\international\french\IOSB30014.wav
+
+//    Well done, now fly into their hangar and get those plans back.
+//..\international\french\IOSB30015.wav
+
+//    The plans are in locked in the ships' shield room, destroy the generator nearby and drop the defense barrier to that room.
+//..\international\french\IOSB30016.wav
+
+//    Soldier reinforcements have bee exhausted.  We have failed.
+..\international\french\IOSB30017.wav
+
+//    Reinforcements are running out
+..\international\french\IOSB30018.wav
+
+//        Sir!  The droids have landed on our ship sir!  We can't launch our fighters!  
+..\international\french\IISB30001.wav
+
+//        Calm down son, get out there and destroy that transport.  Use any means necessary to clear our hangar!
+..\international\french\IOSB30020.wav
+
+//        Alright men, now get into your fighters and give those droids all you've got.  Destroy their incoming fighters and bombers.
+..\international\french\IOSB30021.wav
+
+//        Watch out for the asteroids pilots, they can be destroyed with laser fire, but are still a considerable danger.
+..\international\french\IOSB30022.wav
+
+//        Attack their shields!  Use a bomber to deliver the maximum damage.
+..\international\french\IOSB30023.wav
+
+//        Last bit pilots, you need to get one of their Strike Bombers and return it to our hangar.  Just land in their hangar, grab the ship and land it in our hangar.  You can do it, I know you can.
+..\international\french\IOSB30024.wav
+
+//        Excellent job pilots and marines.  Lord Vader will be most pleased.  
+..\international\french\IOSB30025.wav
+
+//        Your failure will yield more than a bruised ego once Lord Vader hears of this.  You might want to smash into an asteroid and save him the trouble.
+//..\international\french\IOSB30026.wav
+
+
+
+// ==================================== Multiplayer Objective VO ==============================================================
+
+
+//        Destroy the enemy frigate
+..\international\french\IOSMP0001.wav
+
+//        Destroy the 5 critical systems on the enemy ship
+..\international\french\IOSMP0002.wav
+
+//        Their Frigate has been destroyed.
+..\international\french\IOSMP0003.wav
+
+//        Our Frigate has been destroyed!
+..\international\french\IOSMP0004.wav
+
+//        Their engines have been destroyed.
+..\international\french\IOSMP0005.wav
+
+//        Our Engines have been destroyed.
+..\international\french\IOSMP0006.wav
+
+//        Our engines are under attack.
+..\international\french\IOSMP0007.wav
+
+//        Their Life support systems have be destroyed.
+..\international\french\IOSMP0008.wav
+
+//        Our Life Support systems have been destroyed!
+..\international\french\IOSMP0009.wav
+
+//        Their Bridge has been destroyed.
+..\international\french\IOSMP0010.wav
+
+//        Our Bridge has been destroyed!
+..\international\french\IOSMP0011.wav
+
+//        Their Communications Relay has been destroyed.
+..\international\french\IOSMP0012.wav
+
+//        Our Communications Relay has been destroyed!
+..\international\french\IOSMP0013.wav
+
+//        Their Sensors Array has been destroyed.
+..\international\french\IOSMP0014.wav
+
+//        Our Sensors Array has been destroyed.
+..\international\french\IOSMP0015.wav
+
+//        Their shields have been disabled.
+..\international\french\IOSMP0016.wav
+
+//        Our Shields have been disabled.
+..\international\french\IOSMP0017.wav
+
+//        Their Shields are back online
+..\international\french\IOSMP0018.wav
+
+//        Our Shields are back online.
+..\international\french\IOSMP0019.wav
+
+//        Their Auto-Turret defenses have been disabled.
+..\international\french\IOSMP0020.wav
+
+//        Our Auto-Turret defenses have been disabled!
+..\international\french\IOSMP0021.wav
+
+//        Their Turret defenses are back online
+..\international\french\IOSMP0022.wav
+
+//        Our turret defenses are back online.
+..\international\french\IOSMP0023.wav
+
+//        We are victorious, well done men.
+..\international\french\IOSMP0024.wav
+
+//        We have been defeated.
+..\international\french\IOSMP0025.wav
+
+//        5 frigates remaining
+..\international\french\IOSMP0031.wav
+
+//        4 frigates remaining
+..\international\french\IOSMP0032.wav
+
+//        3 frigates remaining
+..\international\french\IOSMP0033.wav
+
+//        2 frigates remaining
+..\international\french\IOSMP0034.wav
+
+//        1 frigate remaining
+..\international\french\IOSMP0035.wav
+
+//        Destroy the enemy frigate
+..\international\french\AOSMP0001.wav
+
+//        Destroy the 5 critical systems on the enemy ship
+..\international\french\AOSMP0002.wav
+
+//        Their Frigate has been destroyed.
+..\international\french\AOSMP0003.wav
+
+//        Our Frigate has been destroyed!
+..\international\french\AOSMP0004.wav
+
+//        Their engines have been destroyed.
+..\international\french\AOSMP0005.wav
+
+//        Our Engines have been destroyed.
+..\international\french\AOSMP0006.wav
+
+//        Our engines are under attack.
+..\international\french\AOSMP0007.wav
+
+//        Their Life support systems have be destroyed.
+..\international\french\AOSMP0008.wav
+
+//        Our Life Support systems have been destroyed!
+..\international\french\AOSMP0009.wav
+
+//        Their Bridge has been destroyed.
+..\international\french\AOSMP0010.wav
+
+//        Our Bridge has been destroyed!
+..\international\french\AOSMP0011.wav
+
+//        Their Communications Relay has been destroyed.
+..\international\french\AOSMP0012.wav
+
+//        Our Communications Relay has been destroyed!
+..\international\french\AOSMP0013.wav
+
+//        Their Sensors Array has been destroyed.
+..\international\french\AOSMP0014.wav
+
+//        Our Sensors Array has been destroyed.
+..\international\french\AOSMP0015.wav
+
+//        Their shields have been disabled.
+..\international\french\AOSMP0016.wav
+
+//        Our Shields have been disabled.
+..\international\french\AOSMP0017.wav
+
+//        Their Shields are back online
+..\international\french\AOSMP0018.wav
+
+//        Our Shields are back online.
+..\international\french\AOSMP0019.wav
+
+//        Their Auto-Turret defenses have been disabled.
+..\international\french\AOSMP0020.wav
+
+//        Our Auto-Turret defenses have been disabled!
+..\international\french\AOSMP0021.wav
+
+//        Their Turret defenses are back online
+..\international\french\AOSMP0022.wav
+
+//        Our turret defenses are back online.
+..\international\french\AOSMP0023.wav
+
+//        The day is ours!  
+..\international\french\AOSMP0024.wav
+
+//        We were simply no match for the Empire.
+..\international\french\AOSMP0025.wav
+
+//        5 frigates remaining
+..\international\french\AOSMP0031.wav
+
+//        4 frigates remaining
+..\international\french\AOSMP0032.wav
+
+//        3 frigates remaining
+..\international\french\AOSMP0033.wav
+
+//        2 frigates remaining
+..\international\french\AOSMP0034.wav
+
+//        1 frigate remaining
+..\international\french\AOSMP0035.wav
+
+//        Destroy the enemy frigate
+..\international\french\ROSMP0001.wav
+
+//        Destroy the 5 critical systems on the enemy ship
+..\international\french\ROSMP0002.wav
+
+//        Their Frigate has been destroyed.
+..\international\french\ROSMP0003.wav
+
+//        Our Frigate has been destroyed!
+..\international\french\ROSMP0004.wav
+
+//        Their engines have been destroyed.
+..\international\french\ROSMP0005.wav
+
+//        Our Engines have been destroyed.
+..\international\french\ROSMP0006.wav
+
+//        Our engines are under attack.
+..\international\french\ROSMP0007.wav
+
+//        Their Life support systems have be destroyed.
+..\international\french\ROSMP0008.wav
+
+//        Our Life Support systems have been destroyed!
+..\international\french\ROSMP0009.wav
+
+//        Their Bridge has been destroyed.
+..\international\french\ROSMP0010.wav
+
+//        Our Bridge has been destroyed!
+..\international\french\ROSMP0011.wav
+
+//        Their Communications Relay has been destroyed.
+..\international\french\ROSMP0012.wav
+
+//        Our Communications Relay has been destroyed!
+..\international\french\ROSMP0013.wav
+
+//        Their Sensors Array has been destroyed.
+..\international\french\ROSMP0014.wav
+
+//        Our Sensors Array has been destroyed.
+..\international\french\ROSMP0015.wav
+
+//        Their shields have been disabled.
+..\international\french\ROSMP0016.wav
+
+//        Our Shields have been disabled.
+..\international\french\ROSMP0017.wav
+
+//        Their Shields are back online
+..\international\french\ROSMP0018.wav
+
+//        Our Shields are back online.
+..\international\french\ROSMP0019.wav
+
+//        Their Auto-Turret defenses have been disabled.
+..\international\french\ROSMP0020.wav
+
+//        Our Auto-Turret defenses have been disabled!
+..\international\french\ROSMP0021.wav
+
+//        Their Turret defenses are back online
+..\international\french\ROSMP0022.wav
+
+//        Our turret defenses are back online.
+..\international\french\ROSMP0023.wav
+
+//        The day is ours!  For the Republic!
+..\international\french\ROSMP0024.wav
+
+//        The battle has been lost.
+..\international\french\ROSMP0025.wav
+
+//        5 frigates remaining
+..\international\french\ROSMP0031.wav
+
+//        4 frigates remaining
+..\international\french\ROSMP0032.wav
+
+//        3 frigates remaining
+..\international\french\ROSMP0033.wav
+
+//        2 frigates remaining
+..\international\french\ROSMP0034.wav
+
+//        1 frigate remaining
+..\international\french\ROSMP0035.wav
+
+//        Destroy the enemy frigate
+..\international\french\COSMP0001.wav
+
+//        Destroy the 5 critical systems on the enemy ship
+..\international\french\COSMP0002.wav
+
+//        Their Frigate has been destroyed.
+..\international\french\COSMP0003.wav
+
+//        Our Frigate has been destroyed!
+..\international\french\COSMP0004.wav
+
+//        Their engines have been destroyed.
+..\international\french\COSMP0005.wav
+
+//        Our Engines have been destroyed.
+..\international\french\COSMP0006.wav
+
+//        Our engines are under attack.
+..\international\french\COSMP0007.wav
+
+//        Their Life support systems have be destroyed.
+..\international\french\COSMP0008.wav
+
+//        Our Life Support systems have been destroyed!
+..\international\french\COSMP0009.wav
+
+//        Their Bridge has been destroyed.
+..\international\french\COSMP0010.wav
+
+//        Our Bridge has been destroyed!
+..\international\french\COSMP0011.wav
+
+//        Their Communications Relay has been destroyed.
+..\international\french\COSMP0012.wav
+
+//        Our Communications Relay has been destroyed!
+..\international\french\COSMP0013.wav
+
+//        Their Sensors Array has been destroyed.
+..\international\french\COSMP0014.wav
+
+//        Our Sensors Array has been destroyed.
+..\international\french\COSMP0015.wav
+
+//        Their shields have been disabled.
+..\international\french\COSMP0016.wav
+
+//        Our Shields have been disabled.
+..\international\french\COSMP0017.wav
+
+//        Their Shields are back online
+..\international\french\COSMP0018.wav
+
+//        Our Shields are back online.
+..\international\french\COSMP0019.wav
+
+//        Their Auto-Turret defenses have been disabled.
+..\international\french\COSMP0020.wav
+
+//        Our Auto-Turret defenses have been disabled!
+..\international\french\COSMP0021.wav
+
+//        Their Turret defenses are back online
+..\international\french\COSMP0022.wav
+
+//        Our turret defenses are back online.
+..\international\french\COSMP0023.wav
+
+//        We have crushed the enemy.   Roger Roger.
+..\international\french\COSMP0024.wav
+
+//        Our forces have been crushed, we must retreat.
+..\international\french\COSMP0025.wav
+
+//        5 frigates remaining
+..\international\french\COSMP0031.wav
+
+//        4 frigates remaining
+..\international\french\COSMP0032.wav
+
+//        3 frigates remaining
+..\international\french\COSMP0033.wav
+
+//        2 frigates remaining
+..\international\french\COSMP0034.wav
+
+//        1 frigate remaining
+..\international\french\COSMP0035.wav

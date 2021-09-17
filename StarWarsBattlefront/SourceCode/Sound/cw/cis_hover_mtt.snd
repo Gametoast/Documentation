@@ -1,0 +1,182 @@
+// Engine -------
+
+SoundProperties()
+{
+    Name("cis_weap_fly_mafmtt_cannon_fire");
+    Group("weapons");
+    Inherit("veh_weapon_template");
+    Pitch(0.7);
+    MinDistance(40.0);
+    SampleList()
+    {
+        Sample("wpn_xwing_blaster_fire", 1.0);
+    }
+}
+
+
+SoundProperties()
+{
+    Name("cis_weap_fly_mafmtt_missile_fire");
+    Group("weapons");
+    Inherit("veh_weapon_template");
+    SampleList()
+    {
+        Sample("wpn_drdFghtr_missile_fire", 1.0);
+    }
+}
+
+
+SoundProperties()
+{
+    Name("mtt_engine_low_idle_property");
+        Inherit("vehicle_eng_low_template");
+    Group("vehicles");
+    MinDistance(40.0);
+    MaxDistance(450);
+    MuteDistance(450);
+    SampleList()
+    {
+      Sample("eng_mtt_low_lp", 1.0);
+
+    }
+}
+
+SoundProperties()
+{
+    Name("mtt_engine_med_idle_property");
+    Group("vehicles");
+    Inherit("vehicle_eng_hi-mid_template");
+    MinDistance(40.0);
+    MaxDistance(400);
+    MuteDistance(400);
+    SampleList()
+    {
+      Sample("eng_mtt_mid_lp", 1.0);
+
+    }
+}
+
+SoundProperties()
+{
+    Name("mtt_engine_high_idle_property");
+    Group("vehicles");
+    Inherit("vehicle_eng_hi-mid_template");
+    MinDistance(40.0);
+    MaxDistance(400);
+    MuteDistance(400);
+    SampleList()
+    {
+      Sample("eng_mtt_hi_lp", 1.0);
+
+    }
+}
+
+
+ParameterGraph()
+{
+    Name("mtt_engine_low_idle_speed");
+    ControlPoint(0.0, 0.8);
+    ControlPoint(0.5, 0.9);
+    ControlPoint(1.0, 1.0);
+
+}
+
+ParameterGraph()
+{
+    Name("mtt_engine_low_idle_acceleration");
+    ControlPoint(-1.0, 1.0);
+    ControlPoint(0.0, 1.0);
+    ControlPoint(1.0, 1.0);
+}
+
+ParameterGraph()
+{
+    Name("mtt_engine_med_idle_speed");
+    ControlPoint(0.0, 0.8);
+    ControlPoint(0.5, 0.9);
+    ControlPoint(1.0, 1.0);
+}
+
+ParameterGraph()
+{
+    Name("mtt_engine_med_idle_acceleration");
+    ControlPoint(-1.0, 0.8);
+    ControlPoint(0.0, 0.8);
+    ControlPoint(0.5, 0.9);
+    ControlPoint(1.0, 1.0);
+}
+
+ParameterGraph()
+{
+    Name("mtt_engine_high_idle_speed");
+    ControlPoint(0.0, 0.8);
+    ControlPoint(0.5, 0.9);
+    ControlPoint(1.0, 1.0);
+}
+
+ParameterGraph()
+{
+    Name("mtt_engine_high_idle_acceleration");
+    ControlPoint(-1.0, 0.6);
+    ControlPoint(0.0, 0.6);
+    ControlPoint(0.5, 0.9);
+    ControlPoint(1.0, 1.0);
+}
+
+
+ParameterGraph()
+{
+    Name("mtt_engine_health");
+    ControlPoint(0.1, 2.0);
+    ControlPoint(0.3, 2.0);
+    ControlPoint(0.4, 1.5);
+    ControlPoint(0.5, 1.0);
+    ControlPoint(0.85, 0.0);
+    ControlPoint(1.0, 0.0);
+}
+
+SoundLayered()
+{
+    Name("mtt_engine_layered");
+    Layer("mtt_engine_low_idle", "mtt_engine_low_idle_property", 0.0);
+    Layer("mtt_engine_med_idle", "mtt_engine_med_idle_property", 0.0);
+    Layer("mtt_engine_high_idle", "mtt_engine_high_idle_property", 0.0);
+}
+
+SoundParameterized()
+{
+    Name("cis_hover_mtt_engine_parameterized");
+    SoundLayered("mtt_engine_layered");
+
+Layer()
+    {
+        Name("mtt_engine_low_idle");
+        ParameterGraph("speed",        "mtt_engine_low_idle_speed", "pitch");
+        ParameterGraph("acceleration", "mtt_engine_low_idle_acceleration","gain");
+        ParameterGraph("turnontime",   "engine_turnon_gain",      "gain");
+        ParameterGraph("turnofftime",  "engine_turnoff_gain",     "gain");
+        ParameterGraph("turnontime",   "engine_turnon_pitch",     "pitch");
+        ParameterGraph("turnofftime",  "engine_turnoff_pitch",    "pitch");
+    }
+    Layer()
+    {
+        Name("mtt_engine_med_idle");
+        ParameterGraph("speed",        "mtt_engine_med_idle_speed", "pitch");
+        ParameterGraph("acceleration", "mtt_engine_med_idle_acceleration","gain");
+        ParameterGraph("turnontime",   "engine_turnon_gain",      "gain");
+        ParameterGraph("turnofftime",  "engine_turnoff_gain",     "gain");
+        ParameterGraph("turnontime",   "engine_turnon_pitch",     "pitch");
+        ParameterGraph("turnofftime",  "engine_turnoff_pitch",    "pitch");
+    }
+    Layer()
+    {
+        Name("mtt_engine_high_idle");
+        ParameterGraph("speed",        "mtt_engine_high_idle_speed", "pitch");
+        ParameterGraph("acceleration", "mtt_engine_high_idle_acceleration","gain");
+        ParameterGraph("turnontime",   "engine_turnon_gain",      "gain");
+        ParameterGraph("turnofftime",  "engine_turnoff_gain",     "gain");
+        ParameterGraph("turnontime",   "engine_turnon_pitch",     "pitch");
+        ParameterGraph("turnofftime",  "engine_turnoff_pitch",    "pitch");
+    }
+
+}

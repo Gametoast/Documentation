@@ -1,0 +1,470 @@
+// ------ Imperial Unit Sound Properties -----------------
+
+// ===== Note: Common jedi sound properties located in global_world.snd
+
+
+
+
+// ========== Start Heroes ===========
+
+// ----- Boba Fett Start -------------------------------------------------
+// Jetpack located in global world until units finalized
+
+//Flamethrower
+SoundProperties()
+{
+    Name("imp_weap_inf_flamethrower_fire");
+    Group("weapons");
+    Inherit("weapon_template");
+    Pitch(0.8);
+    Gain((0.7);
+    SampleList()
+    {
+        Sample("rep_inf_jetpack", 1.0);
+    }
+}
+
+
+SoundProperties()
+{
+    Name("fett_inf_com_chatter_wound");
+    Group("imp_inf_pain_vo");
+    Inherit("pain_chatter_template");
+    PlayInterval(0.0);
+    PlayIntervalDev(0.0);
+    PlayProbability(0.85);
+    SampleList()
+    {
+        Sample("IICOM416", 0.33);
+        Sample("IICOM417", 0.33);
+        Sample("IICOM418", 0.33);
+    }
+}
+
+SoundProperties()
+{
+    Name("fett_inf_com_chatter_death");
+    Group("imp_inf_pain_vo");
+    Inherit("pain_chatter_template");
+    PlayInterval(0.0);
+    PlayIntervalDev(0.0);
+    PlayProbability(1.0);
+    SampleList()
+    {
+        Sample("IICOM419", 0.33);
+        Sample("IICOM420", 0.33);
+        Sample("IICOM421", 0.33);
+    }
+}
+
+SoundProperties()
+{
+    Name("imp_weap_boba_burst_fire");
+    Group("weapons");
+    Inherit("weapon_template");
+    SampleList()
+    {
+        Sample("wpn_boba_burst", 1.0);
+    }
+}
+
+
+
+
+
+// ----- Boba Fett End ---------------------------------------------------
+
+
+SoundProperties()
+{
+    Name("impmalechoke");
+    Group("imp_inf_pain_vo");
+    Inherit("pain_chatter_template");
+    PlayInterval(2.0);
+    PlayIntervalDev(0.0);
+    PlayProbability(1.0);
+    SampleList()
+    {
+        Sample("malechoke", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("impmaleforcechoke");
+    Group("imp_inf_pain_vo");
+    Inherit("pain_chatter_template");
+    Looping(1);
+    PlayProbability(1.0);
+    SampleList()
+    {
+        Sample("malechoke", 1.0);
+    }
+}
+
+
+
+// ----- Darth Vader Start -----------------------------------------------
+
+SoundProperties()
+{
+    Name("imp_inf_vo_darth_breath")
+    Group("imp_inf_pain_vo");
+    Inherit("pain_chatter_template");
+    PitchDev(0.0)
+    SampleList()
+    {
+        Sample("crtr_vader_breath_lp", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("imp_inf_vo_vader_hurt")
+    Group("imp_inf_pain_vo");
+    Inherit("pain_chatter_template");
+    SampleList()
+    {
+        Sample("vader_hurt", 1.0);
+    }
+}
+
+// ----- Darth Vader End -----------------------------------------------
+
+
+
+
+// ----- Darth Sidious (Emperor) Start ---------------------------------
+// ----- Darth Sidious (Emperor) End -----------------------------------
+
+
+
+
+// ----- Royal Guard Start ---------------------------------------------
+// ----- Royal Guard End -----------------------------------------------
+
+// =========== End Heroes =====================================================
+
+
+
+
+// ----- Start Imperial Pain Chatter ------------------------------------
+
+SoundProperties()
+{
+    Name("imp_inf_com_chatter_wound");
+    Group("imp_inf_pain_vo");
+    Inherit("pain_chatter_template");
+    PlayInterval(0.0);
+    PlayIntervalDev(0.0);
+    PlayProbability(0.85);
+    SampleList()
+    {
+        Sample("IICOM416", 0.33);
+        Sample("IICOM417", 0.33);
+        Sample("IICOM418", 0.33);
+    }
+}
+
+SoundProperties()
+{
+    Name("imp_inf_com_chatter_death");
+    Group("imp_inf_pain_vo");
+    Inherit("pain_chatter_template");
+    PlayInterval(0.0);
+    PlayIntervalDev(0.0);
+    PlayProbability(1.0);
+    SampleList()
+    {
+        Sample("IICOM419", 0.33);
+        Sample("IICOM420", 0.33);
+        Sample("IICOM421", 0.33);
+    }
+}
+
+// ----- End Imperial Pain Chatter ---------------------------------------
+
+
+
+// ----- Start Imperial ArcCaster --------------------
+
+//SoundProperties()
+//{
+//    Name("imp_weap_inf_arccaster_fire");
+//    Group("weapons");
+//    Inherit("weapon_template");
+//    SampleList()
+//    {
+//        Sample("wpn_rep_arccaster_fire", 1.0);
+//    }
+//}
+
+// Uses Force_lightning_fire in global_world
+
+SoundProperties()
+{
+    Name("imp_weap_inf_arccaster_exp");
+    Group("weapons");
+    Inherit("weapon_template");
+    SampleList()
+    {
+        Sample("exp_ord_arcCaster", 1.0);
+    }
+}
+
+//arc caster charge
+SoundProperties()
+{
+    Name("imp_weap_inf_arccaster_charge");
+    Group("weapons");
+    Inherit("weapon_template");
+    Pitch(0.3);
+    RollOff(3.0);
+    SampleList()
+    {
+        Sample("wpn_lightningGun_chargeup", 1.0);
+    }
+}
+
+// ----- End Imperial ArcCaster ----------------------
+
+
+
+
+// ----- Start Imperial  Buff ------------------
+
+// Uses common buff rage in global_world
+
+// ----- End Imperial  Buff --------------------
+
+
+// ----- Start Imperial Commando Pistol ----------------------
+
+SoundProperties()
+{
+    Name("imp_weap_inf_commando_pistol_fire");
+    Group("weapons");
+    Inherit("weapon_template");
+    SampleList()
+    {
+        Sample("com_cpistol_fire", 1.0);
+    }
+}
+
+
+// ----- End Imperial Commando Pistol -------------------------
+
+
+
+
+// ----- Start Imperial Detpack Dispenser ---------------------
+// Fire sound uses com_weap_remote_charge_fire in global_world
+SoundProperties()
+{
+    Name("imp_weap_inf_timebomb_timer");
+    Group("weapons_foley");
+    Inherit("body_movement_template");
+    Rolloff(2.0);
+    SampleList()
+    {
+        Sample("wpn_imp_unit_lockon_lp", 1.0);
+    }
+}
+
+// ----- End Imperial Detpack Dispenser ---------------------
+
+
+
+
+// ----- Start Imperial Force Choke -------------------------
+// Included in global until hero weapons finalized
+// ----- End Imperial Force Choke ---------------------------
+
+
+
+
+// ----- Start Imperial Fusioncutter -------------------------
+// Included in global until unit weapons finalized
+// ----- End Imperial Fusioncutter ---------------------------
+
+
+
+
+// ----- Start Imperial Grappling Hook -------------------------
+// Excluded until unit weapons finalized
+// ----- End Imperial Grappling Hook ---------------------------
+
+
+
+
+// ----- Start Imperial Mine Dispenser -------------------------
+// Included in global until unit weapons finalized
+// ----- End Imperial Mine Dispenser -------------------------
+
+
+
+
+// ----- Start Imperial Mortar Launcher -------------
+
+SoundProperties()
+{
+    Name("imp_weap_inf_mortar_launcher_fire");
+    Group("weapons");
+    Inherit("weapon_template");
+    SampleList()
+    {
+        Sample("com_mortar_launcher_fire", 1.0);
+    }
+}
+
+
+
+// ----- End Imperial Mortar Launcher ---------------
+
+
+
+
+// ----- Start Imperial Pistol ----------------------
+
+SoundProperties()
+{
+    Name("imp_weap_inf_pistol_fire");
+    Group("weapons");
+    Inherit("weapon_template");
+    SampleList()
+    {
+        Sample("wpn_imp_pistol_fire", 1.0);
+    }
+}
+
+// ----- End Imperial Pistol -------------------------
+
+
+
+
+// ----- Start Imperial Powerup Dispenser -------------------------
+// Included in global until unit weapons finalized
+// ----- End Imperial Powerup Dispenser -------------------------
+
+
+
+
+// ----- Start Imperial Remote Droid --------------
+// Included in global until unit weapons finalized
+// Imperial Orbital Attack --------------
+// ----- End Imperial Remote Droid ----------------
+
+
+
+
+// ----- Start Imperial Rifle -----------------------------
+
+SoundProperties()
+{
+    Name("imp_weap_inf_rifle_fire");
+    Group("weapons");
+    Inherit("weapon_template");
+    SampleList()
+    {
+        Sample("wpn_imp_blaster_fire", 1.0);
+    }
+}
+
+// ----- End Imperial Rifle -------------------------
+
+
+
+
+// ----- Start Imperial Rocket Launcher ------------------
+
+SoundProperties()
+{
+    Name("imp_weap_inf_rocket_launcher_fire");
+    Group("weapons");
+    Inherit("weapon_template");
+    SampleList()
+    {
+        Sample("wpn_all_torpLauncher_fire", 1.0);
+    }
+}
+
+
+SoundProperties()
+{
+    Name("imp_weap_inf_rocket_launcher_tracking");
+    Group("weapons_foley");
+    Inherit("body_movement_template");
+    Pitch(1.5)
+    looping (1);
+    SampleList()
+    {
+        Sample("com_tracking_loop", 1.0);
+    }
+}
+
+// ----- End Imperial Rocket Launcher -------------------
+
+
+
+
+
+// ----- Start Imperial Shotgun -----------------------------
+
+SoundProperties()
+{
+    Name("imp_weap_inf_shotgun_fire");
+    Group("weapons");
+    Inherit("weapon_template");
+    Gain(1.0)
+    SampleList()
+    {
+        Sample("com_weap_shotgun_fire", 1.0);
+    }
+}
+
+// ----- End Imperial Shotgun -------------------------
+
+
+
+
+// ----- Start Imperial Sniper Rifle -----------------
+
+SoundProperties()
+{
+    Name("imp_weap_inf_sniper_rifle_fire");
+    Group("weapons");
+    Inherit("weapon_template");
+    Pitch(1.0);
+    PitchDev(0.05);
+    SampleList()
+    {
+        Sample("wep_All_sniper_01", 1.0);
+    }
+}
+
+// ----- End Imperial Sniper Rifle ------------------
+
+// ----- Start Imperial Sonic Blaster
+
+SoundProperties()
+{
+    Name("imp_weap_inf_sonicblaster_fire");
+    Group("weapons");
+    Inherit("weapon_template");
+    SampleList()
+    {
+        Sample("wpn_cis_sonicblaster_fire", 1.0);
+    }
+}
+// ----- End Imperial Sonic Blaster
+
+// ----- Start Imperial Thermal Detonator -------------------------
+// Included in global until unit weapons finalized
+// ----- End Imperial Thermal Detonator -------------------------
+
+
+
+// ----- End Imperial Unit Sound Properties --------------------
+
+
+

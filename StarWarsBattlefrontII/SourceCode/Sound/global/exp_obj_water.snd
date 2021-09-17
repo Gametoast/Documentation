@@ -1,0 +1,83 @@
+// Elements -------------------------------------------------------------------
+
+SoundProperties()
+{
+    Name("com_weap_obj_ordnance_wtr_exp"); // medium explosion near
+    Group("Explosion");
+    Inherit("impact_template");
+    SampleList()
+    {
+        Sample("imp_laser_water_1", 0.2);
+        Sample("imp_laser_water_2", 0.2);
+        Sample("imp_laser_water_3", 0.2);
+    }
+}
+
+// ----- Medium Water Exploison -----
+// Used for large vehicle deathsound-primary explosion
+
+SoundProperties()
+{
+    Name("com_weap_obj_med_wtr_exp_near"); // medium explosion near
+    Group("Explosion");
+    Inherit("explosion_template");
+    MinDistance(20.0);
+    SampleList()
+    {
+        Sample("exp_sub01", 0.167);
+        Sample("exp_sub02", 0.167);
+        Sample("exp_sub03", 0.167);
+    }
+}
+
+SoundProperties()
+{
+    Name("com_weap_obj_med_wtr_exp_near_delay"); // medium explosion near
+    Group("Explosion");
+    Inherit("explosion_template");
+    PlayProbability(0.8);
+    MinDistance(30.0);
+    SampleList()
+    {
+        Sample("exp_water_small01", 0.2);
+        Sample("exp_water_small02", 0.2);
+        Sample("exp_water_small03", 0.2);
+    }
+}
+
+SoundProperties()
+{
+    Name("com_weap_obj_med_wtr_exp_distant"); // medium explosion medium distance
+    Group("Explosion");
+    Inherit("explosion_distant_template");
+    Looping(0);
+    SampleList()
+    {
+        Sample("exp_distant_medium01", 0.5);
+        Sample("exp_distant_medium02", 0.5);
+    }
+}
+
+SoundProperties()
+{
+    Name("com_weap_obj_med_wtr_exp_verydistant"); // medium explosion large distance
+    Group("Explosion");
+    Inherit("explosion_verydistant_template");
+    PlayInterval(0.5);
+    SampleList()
+    {
+        Sample("exp_verydistant_medium01", 0.5);
+        Sample("exp_verydistant_medium02", 0.5);
+    }
+}
+
+// --- Medium Water explosion
+
+SoundLayered()
+{
+    Name("com_weap_obj_med_water_exp");
+    Layer("near",       "com_weap_obj_med_wtr_exp_near",        0.05);
+    Layer("near",       "com_weap_obj_med_wtr_exp_near_delay",  0.1, 0.1);
+    Layer("medium",     "com_weap_obj_med_wtr_exp_distant",     0.3, 0.1);
+    Layer("far",        "com_weap_obj_med_wtr_exp_verydistant", 0.6, 0.1);
+}

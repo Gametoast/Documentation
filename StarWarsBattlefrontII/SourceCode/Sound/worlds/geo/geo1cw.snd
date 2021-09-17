@@ -1,0 +1,380 @@
+#ifplatform pc
+I3DL2ReverbPreset()
+{
+    Name("stoneroom");
+    RoomGain(0.6);
+    RoomHFGain(1.0);
+    RoomRollOff(1.0);
+    DecayTime(2.5);
+    DecayHFRatio(0.7);
+    ERGain(0.0);
+    ERDelay(0.04);
+    ReverbGain(1.0);
+    ReverbDelay(0.04);
+    Diffusion(100.0);
+    Density(100.0);
+    HFReference(5000.0);
+}
+
+Space()
+{
+    Name("Spire");
+    I3DL2ReverbPreset("stoneroom");
+    DirectGain(1.0);
+    DirectHFGain(1.0);
+    RoomGain(1.0);
+    RoomHFGain(1.0);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.3);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.3);
+    OcclusionLFRatio(1.0);
+}
+
+Space()
+{
+    Name("Cave");
+    I3DL2ReverbPreset("stoneroom");
+    DirectGain(1.0);
+    DirectHFGain(1.0);
+    RoomGain(1.0);
+    RoomHFGain(1.0);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.3);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.3);
+    OcclusionLFRatio(1.0);
+}
+#endifplatform pc
+#ifplatform xbox
+
+
+I3DL2ReverbPreset()
+{
+    Name("stoneroom");
+    RoomGain(0.6);
+    RoomHFGain(0.3);
+    RoomRollOff(1.0);
+    DecayTime(1.6);
+    DecayHFRatio(0.3);
+    ERGain(0.2);
+    ERDelay(0.02);
+    ReverbGain(0.4);
+    ReverbDelay(0.04);
+    Diffusion(100.0);
+    Density(100.0);
+    HFReference(5000.0);
+}
+
+Space()
+{
+    Name("Spire");
+    I3DL2ReverbPreset("stoneroom");
+    DirectGain(1.0);
+    DirectHFGain(1.0);
+    RoomGain(0.4);
+    RoomHFGain(0.4);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.3);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.3);
+    OcclusionLFRatio(1.0);
+}
+Space()
+{
+    Name("Cave");
+    I3DL2ReverbPreset("stoneroom");
+    DirectGain(1.0);
+    DirectHFGain(1.0);
+    RoomGain(1.0);
+    RoomHFGain(1.0);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.3);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.3);
+    OcclusionLFRatio(1.0);
+}
+#endifplatform xbox
+#ifplatform ps2
+
+
+I3DL2ReverbPreset()
+{
+    Name("stoneroom");
+    RoomGain(0.1);
+    RoomHFGain(0.3);
+    RoomRollOff(1.0);
+    DecayTime(1.0);
+    DecayHFRatio(0.3);
+    ERGain(0.2);
+    ERDelay(0.02);
+    ReverbGain(0.4);
+    ReverbDelay(0.04);
+    Diffusion(100.0);
+    Density(100.0);
+    HFReference(5000.0);
+}
+
+Space()
+{
+    Name("Spire");
+    I3DL2ReverbPreset("stoneroom");
+    DirectGain(1.0);
+    DirectHFGain(1.0);
+    RoomGain(0.4);
+    RoomHFGain(0.4);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.3);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.3);
+    OcclusionLFRatio(1.0);
+}
+Space()
+{
+    Name("Cave");
+    I3DL2ReverbPreset("stoneroom");
+    DirectGain(1.0);
+    DirectHFGain(1.0);
+    RoomGain(1.0);
+    RoomHFGain(1.0);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.3);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.3);
+    OcclusionLFRatio(1.0);
+}
+#endifplatform ps2
+
+SoundStreamProperties()
+{
+    Name("geo_amb_desert");
+    Group("ambientenv");
+    Inherit("ambientfx_template");
+    Gain(0.4);
+    Stream("geo1cw");
+    SegmentList()
+    {
+        Segment("geo_amb_desert", 1.0);
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("geo_amb_spire");
+    Group("ambientenv");
+    Inherit("ambientfx_template");
+    Gain(0.4);
+    Stream("geo1cw");
+    SegmentList()
+    {
+        Segment("geo_amb_spire", 1.0);
+    }
+}
+
+//-- Geonosian Start ----------------------------------------------------------
+
+SoundProperties()
+{
+    Name("geo_inf_hurt")
+    Group("cis_vo");
+    Inherit("pain_chatter_template");
+    SampleList()
+    {
+    Sample("crtr_geonosian_hurt", 1.0);
+    Sample("crtr_geonosian_chatter_04", 1.0);
+
+    }
+}
+
+SoundProperties()
+{
+    Name("geo_inf_die")
+    Group("cis_vo");
+    Inherit("pain_chatter_template");
+    SampleList()
+    {
+    Sample("crtr_geonosian_death", 1.0);
+    Sample("crtr_geonosian_chatter_04", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("geo_inf_fly_parameterized")
+    Pitch(1.0);
+    PitchDev(0.1);
+    Gain(1.0);
+    GainDev(0.1);
+    ReverbGain(1.0);
+    Bus("soundfx");
+    Looping(1);
+    Pan(0.0);
+    MinDistance(10.0);
+    MuteDistance(100.0);
+    MaxDistance(100.0);
+    RollOff(1.0);
+    Mode3D(1);
+    Bias(0.0001);
+    Priority(0.8);
+    SampleList()
+    {
+      Sample("geo_inf_fly", 1.0);
+
+    }
+}
+
+ParameterGraph()
+{
+        Name("wings_speed");
+        ControlPoint(0.0, 0.7);
+        ControlPoint(0.4, 0.8);
+        ControlPoint(0.6, 0.9);
+        ControlPoint(0.8, 1.0);
+        ControlPoint(1.0, 1.1);
+}
+
+ParameterGraph()
+{
+    Name("wings_acceleration");
+    ControlPoint(-0.1, 0.5);
+    ControlPoint(0.0, 0.4);
+    ControlPoint(0.1, 1.0);
+    ControlPoint(1.0, 1.0);
+}
+
+ParameterGraph()
+{
+    Name("wings_turnon_gain");
+    ControlPoint(0.0, 0.0);
+    ControlPoint(0.1, 1.0);
+    ControlPoint(1.0, 1.0);
+}
+
+ParameterGraph()
+{
+    Name("wings_turnoff_gain");
+    ControlPoint(0.0, 1.0);
+    ControlPoint(0.1, 0.0);
+}
+
+ParameterGraph()
+{
+    Name("wings_turnon_pitch");
+    ControlPoint(0.0, 0.5);
+    ControlPoint(1.0, 1.0);
+}
+
+ParameterGraph()
+{
+    Name("wings_turnoff_pitch");
+    ControlPoint(0.0, 1.0);
+    ControlPoint(0.05, 0.6);
+    ControlPoint(0.1, 0.3);
+}
+
+SoundLayered()
+{
+    Name("wings_layered");
+    Layer("wings_engine", "geo_inf_fly_parameterized", 0.0);
+}
+
+SoundParameterized()
+{
+    Name("geo_inf_fly_parameterized");
+    SoundLayered("wings_layered");
+    Layer()
+    {
+        Name("wings_engine");
+        ParameterGraph("speed",        "wings_speed",        "pitch");
+        ParameterGraph("acceleration", "wings_acceleration", "gain");
+        ParameterGraph("turnontime",   "engine_turnon_gain",      "gain");
+        ParameterGraph("turnofftime",  "engine_turnoff_gain",     "gain");
+        ParameterGraph("turnontime",   "engine_turnon_pitch",     "pitch");
+        ParameterGraph("turnofftime",  "engine_turnoff_pitch",    "pitch");
+    }
+}
+
+
+
+
+// ----- Start CIS Sonicblaster ---------------------------------------------
+
+SoundProperties()
+{
+    Name("cis_weap_inf_sonicblaster_fire");
+    Group("weapons");
+    Inherit("weapon_template");
+    Gain(1.0);
+    SampleList()
+    {
+        Sample("wpn_cis_sonicblaster_fire", 1.0);
+    }
+}
+
+//SoundProperties()
+//{
+//    Name("cis_weap_inf_sonicblaster_mvt_getup");
+//    Group("weapons_foley");
+//    Inherit("body_movement_template");
+//    SampleList()
+//    {
+//        Sample("mvt_getup_rifle", 1.0);
+//    }
+//}
+
+SoundProperties()
+{
+    Name("cis_weap_inf_sonicblaster_mvt_jump");
+    Group("weapons_foley");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("mvt_jump_rifle", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("cis_weap_inf_sonicblaster_mvt_land");
+    Group("weapons_foley");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("mvt_land_rifle", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("cis_weap_inf_sonicblaster_mvt_roll");
+    Group("weapons_foley");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("mvt_roll_rifle", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("cis_weap_inf_sonicblaster_mvt_lie");
+    Group("weapons_foley");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("mvt_lie_rifle", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("cis_weap_inf_sonicblaster_mvt_squat");
+    Group("weapons_foley");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("mvt_squat_rifle", 1.0);
+    }
+}
+
+

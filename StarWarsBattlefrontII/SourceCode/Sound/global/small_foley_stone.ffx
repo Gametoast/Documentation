@@ -1,0 +1,20 @@
+//- Small Unit Foley Effects-----------------------------------------------------------
+
+FoleyFXSoldier()
+{
+    Name("npc_inf_small_stone");
+    Class("npc_inf_small");
+    FootstepLeftWalk("npc_inf_small_walk_stone_left");
+    FootstepRightWalk("npc_inf_small_walk_stone_right");
+    FootstepLeftRun("npc_inf_small_run_stone_left");
+    FootstepRightRun("npc_inf_small_run_stone_right");
+    FootstepLeftStop("npc_inf_small_stop_stone");
+    FootstepRightStop("npc_inf_small_stop_stone");
+    Jump("npc_inf_small_jump_stone");
+    Land("npc_inf_small_land_stone");
+    Roll("npc_inf_small_roll_stone");
+//    Prone("npc_inf_small_lie_stone");
+    Squat("npc_inf_small_squat_stone");
+//    Stand("npc_inf_small_getup_stone");
+    Bodyfall("npc_inf_small_lgBF_stone");
+}

@@ -1,0 +1,68 @@
+//-all Foley Effects-----------------------------------------------------------
+//-Soldier---------------------------------------------------------------------
+
+FoleyFXSoldier()
+{
+    Name("all_inf_soldier_stone");
+    Class("all_inf_soldier");
+    FootstepLeftWalk("all_inf_soldier_walk_stone_left");
+    FootstepRightWalk("all_inf_soldier_walk_stone_right");
+    FootstepLeftRun("all_inf_soldier_run_stone_left");
+    FootstepRightRun("all_inf_soldier_run_stone_right");
+    FootstepLeftStop("all_inf_soldier_stop_stone");
+    FootstepRightStop("all_inf_soldier_stop_stone");
+    Jump("all_inf_soldier_jump_stone");
+    Land("all_inf_soldier_land_stone");
+    Roll("all_inf_soldier_roll_stone");
+//    Prone("all_inf_soldier_lie_stone");
+    Squat("all_inf_soldier_squat_stone");
+//    Stand("all_inf_soldier_getup_stone");
+    Bodyfall("all_inf_soldier_lgBF_stone");
+}
+
+
+//-imp Foley Effects-----------------------------------------------------------
+
+//-Trooper---------------------------------------------------------------------
+
+FoleyFXSoldier()
+{
+    Name("imp_inf_trooper_stone");
+    Class("imp_inf_trooper");
+    FootstepLeftWalk("imp_inf_trooper_walk_stone_left");
+    FootstepRightWalk("imp_inf_trooper_walk_stone_right");
+    FootstepLeftRun("imp_inf_trooper_run_stone_left");
+    FootstepRightRun("imp_inf_trooper_run_stone_right");
+    FootstepLeftStop("imp_inf_trooper_stop_stone");
+    FootstepRightStop("imp_inf_trooper_stop_stone");
+    Jump("imp_inf_trooper_jump_stone");
+    Land("imp_inf_trooper_land_stone");
+    Roll("imp_inf_trooper_roll_stone");
+//    Prone("imp_inf_trooper_lie_stone");
+    Squat("imp_inf_trooper_squat_stone");
+//    Stand("imp_inf_trooper_getup_stone");
+    Bodyfall("imp_inf_trooper_lgBF_stone");
+}
+
+
+//-Soldier---------------------------------------------------------------------
+
+FoleyFXSoldier()
+{
+    Name("imp_inf_soldier_stone");
+    Class("imp_inf_soldier");
+    FootstepLeftWalk("imp_inf_soldier_walk_stone_left");
+    FootstepRightWalk("imp_inf_soldier_walk_stone_right");
+    FootstepLeftRun("imp_inf_soldier_run_stone_left");
+    FootstepRightRun("imp_inf_soldier_run_stone_right");
+    FootstepLeftStop("imp_inf_soldier_stop_stone");
+    FootstepRightStop("imp_inf_soldier_stop_stone");
+    Jump("imp_inf_soldier_jump_stone");
+    Land("imp_inf_soldier_land_stone");
+    Roll("imp_inf_soldier_roll_stone");
+//    Prone("imp_inf_soldier_lie_stone");
+    Squat("imp_inf_soldier_squat_stone");
+//    Stand("imp_inf_soldier_getup_stone");
+    Bodyfall("imp_inf_soldier_lgBF_stone");
+}
+

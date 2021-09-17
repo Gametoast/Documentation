@@ -1,0 +1,22 @@
+//-all Foley Effects-----------------------------------------------------------
+
+//-Soldier---------------------------------------------------------------------
+
+FoleyFXSoldier()
+{
+    Name("wok_inf_soldier_snow");
+    Class("wok_inf_soldier");
+    FootstepLeftWalk("wok_inf_soldier_walk_snow_left");
+    FootstepRightWalk("wok_inf_soldier_walk_snow_right");
+    FootstepLeftRun("wok_inf_soldier_run_snow_left");
+    FootstepRightRun("wok_inf_soldier_run_snow_right");
+    FootstepLeftStop("wok_inf_soldier_stop_snow");
+    FootstepRightStop("wok_inf_soldier_stop_snow");
+    Jump("wok_inf_soldier_jump_snow");
+    Land("wok_inf_soldier_land_snow");
+    Roll("wok_inf_soldier_roll_snow");
+//    Prone("wok_inf_soldier_lie_snow");
+    Squat("wok_inf_soldier_squat_snow");
+//    Stand("wok_inf_soldier_getup_snow");
+    Bodyfall("wok_inf_soldier_lgBF_snow");
+}

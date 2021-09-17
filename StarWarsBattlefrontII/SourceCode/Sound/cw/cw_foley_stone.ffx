@@ -1,0 +1,159 @@
+//-cis Foley Effects-----------------------------------------------------------
+
+//-Soldier---------------------------------------------------------------------
+
+FoleyFXSoldier()
+{
+    Name("cis_inf_droid_stone");
+    Class("cis_inf_droid");
+    FootstepLeftWalk("cis_inf_droid_walk_stone_left");
+    FootstepRightWalk("cis_inf_droid_walk_stone_right");
+    FootstepLeftRun("cis_inf_droid_run_stone_left");
+    FootstepRightRun("cis_inf_droid_run_stone_right");
+    FootstepLeftStop("cis_inf_droid_stop_stone");
+    FootstepRightStop("cis_inf_droid_stop_stone");
+    Jump("cis_inf_droid_jump_stone");
+    Land("cis_inf_droid_land_stone");
+    Roll("cis_inf_droid_roll_stone");
+//    Prone("cis_inf_droid_lie_stone");
+    Squat("cis_inf_droid_squat_stone");
+////    Stand("cis_inf_droid_getup_stone");
+    Bodyfall("cis_inf_droid_lgBF_stone");
+}
+#ifplatform ps2
+FoleyFXSoldier()
+{
+    Name("cis_inf_sbdroid_stone");
+    Class("cis_inf_sbdroid");
+    FootstepLeftWalk("cis_inf_droid_walk_stone_left");
+    FootstepRightWalk("cis_inf_droid_walk_stone_right");
+    FootstepLeftRun("cis_inf_droid_run_stone_left");
+    FootstepRightRun("cis_inf_droid_run_stone_right");
+    FootstepLeftStop("cis_inf_droid_stop_stone");
+    FootstepRightStop("cis_inf_droid_stop_stone");
+    Jump("cis_inf_droid_jump_stone");
+    Land("cis_inf_droid_land_stone");
+    Roll("cis_inf_droid_roll_stone");
+//    Prone("cis_inf_droid_lie_stone");
+    Squat("cis_inf_droid_squat_stone");
+////    Stand("cis_inf_droid_getup_stone");
+    Bodyfall("cis_inf_droid_lgBF_stone");
+}
+#endifplatform ps2
+
+#ifplatform xbox pc
+FoleyFXSoldier()
+{
+    Name("cis_inf_sbdroid_stone");
+    Class("cis_inf_sbdroid");    
+    FootstepLeftWalk("cis_inf_sbdroid_walk_stone_left");
+    FootstepRightWalk("cis_inf_sbdroid_walk_stone_right");
+    FootstepLeftRun("cis_inf_sbdroid_run_stone_left");
+    FootstepRightRun("cis_inf_sbdroid_run_stone_right");
+    FootstepLeftStop("cis_inf_sbdroid_stop_stone");
+    FootstepRightStop("cis_inf_sbdroid_stop_stone");
+    Jump("cis_inf_sbdroid_jump_stone");
+    Land("cis_inf_sbdroid_land_stone");
+    Roll("cis_inf_sbdroid_roll_stone");
+//    Prone("cis_inf_sbdroid_lie_stone");
+    Squat("cis_inf_sbdroid_squat_stone");
+////    Stand("cis_inf_sbdroid_getup_stone");
+    Bodyfall("cis_inf_sbdroid_lgBF_stone");
+}
+#endifplatform xbox pc
+
+//-rep Foley Effects-----------------------------------------------------------
+
+//-Trooper---------------------------------------------------------------------
+
+FoleyFXSoldier()
+{
+    Name("rep_inf_trooper_stone");
+    Class("rep_inf_trooper");
+    FootstepLeftWalk("rep_inf_trooper_walk_stone_left");
+    FootstepRightWalk("rep_inf_trooper_walk_stone_right");
+    FootstepLeftRun("rep_inf_trooper_run_stone_left");
+    FootstepRightRun("rep_inf_trooper_run_stone_right");
+    FootstepLeftStop("rep_inf_trooper_stop_stone");
+    FootstepRightStop("rep_inf_trooper_stop_stone");
+    Jump("rep_inf_trooper_jump_stone");
+    Land("rep_inf_trooper_land_stone");
+    Roll("rep_inf_trooper_roll_stone");
+//    Prone("rep_inf_trooper_lie_stone");
+    Squat("rep_inf_trooper_squat_stone");
+////    Stand("rep_inf_trooper_getup_stone");
+    Bodyfall("rep_inf_trooper_lgBF_stone");
+}
+FoleyFXSoldier()
+{
+    Name("rep_inf_soldier_stone");
+    Class("rep_inf_soldier");
+    FootstepLeftWalk("rep_inf_soldier_walk_stone_left");
+    FootstepRightWalk("rep_inf_soldier_walk_stone_right");
+    FootstepLeftRun("rep_inf_soldier_run_stone_left");
+    FootstepRightRun("rep_inf_soldier_run_stone_right");
+    FootstepLeftStop("rep_inf_soldier_stop_stone");
+    FootstepRightStop("rep_inf_soldier_stop_stone");
+    Jump("rep_inf_soldier_jump_stone");
+    Land("rep_inf_soldier_land_stone");
+    Roll("rep_inf_soldier_roll_stone");
+//    Prone("rep_inf_soldier_lie_stone");
+    Squat("rep_inf_soldier_squat_stone");
+////    Stand("rep_inf_soldier_getup_stone");
+    Bodyfall("rep_inf_soldier_lgBF_stone");
+}
+
+FoleyFXSoldier()
+{
+    Name("cis_inf_soldier_stone");
+    Class("cis_inf_soldier");
+    FootstepLeftWalk("cis_inf_soldier_walk_stone_left");
+    FootstepRightWalk("cis_inf_soldier_walk_stone_right");
+    FootstepLeftRun("cis_inf_soldier_run_stone_left");
+    FootstepRightRun("cis_inf_soldier_run_stone_right");
+    FootstepLeftStop("cis_inf_soldier_stop_stone");
+    FootstepRightStop("cis_inf_soldier_stop_stone");
+    Jump("cis_inf_soldier_jump_stone");
+    Land("cis_inf_soldier_land_stone");
+    Roll("cis_inf_soldier_roll_stone");
+//    Prone("cis_inf_soldier_lie_stone");
+    Squat("cis_inf_soldier_squat_stone");
+////    Stand("cis_inf_soldier_getup_stone");
+    Bodyfall("cis_inf_soldier_lgBF_stone");
+}
+FoleyFXSoldier()
+{
+    Name("imp_inf_trooper_stone");
+    Class("imp_inf_trooper");
+    FootstepLeftWalk("rep_inf_trooper_walk_stone_left");
+    FootstepRightWalk("rep_inf_trooper_walk_stone_right");
+    FootstepLeftRun("rep_inf_trooper_run_stone_left");
+    FootstepRightRun("rep_inf_trooper_run_stone_right");
+    FootstepLeftStop("rep_inf_trooper_stop_stone");
+    FootstepRightStop("rep_inf_trooper_stop_stone");
+    Jump("rep_inf_trooper_jump_stone");
+    Land("rep_inf_trooper_land_stone");
+    Roll("rep_inf_trooper_roll_stone");
+//    Prone("rep_inf_trooper_lie_stone");
+    Squat("rep_inf_trooper_squat_stone");
+////    Stand("rep_inf_trooper_getup_stone");
+    Bodyfall("rep_inf_trooper_lgBF_stone");
+}
+FoleyFXSoldier()
+{
+    Name("imp_inf_soldier_stone");
+    Class("imp_inf_soldier");
+    FootstepLeftWalk("rep_inf_soldier_walk_stone_left");
+    FootstepRightWalk("rep_inf_soldier_walk_stone_right");
+    FootstepLeftRun("rep_inf_soldier_run_stone_left");
+    FootstepRightRun("rep_inf_soldier_run_stone_right");
+    FootstepLeftStop("rep_inf_soldier_stop_stone");
+    FootstepRightStop("rep_inf_soldier_stop_stone");
+    Jump("rep_inf_soldier_jump_stone");
+    Land("rep_inf_soldier_land_stone");
+    Roll("rep_inf_soldier_roll_stone");
+//    Prone("rep_inf_soldier_lie_stone");
+    Squat("rep_inf_soldier_squat_stone");
+////    Stand("rep_inf_soldier_getup_stone");
+    Bodyfall("rep_inf_soldier_lgBF_stone");
+}

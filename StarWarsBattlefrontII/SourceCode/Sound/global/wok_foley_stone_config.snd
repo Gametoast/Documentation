@@ -1,0 +1,154 @@
+//-All Stone Foley--------------------------------------------------------------
+// all_inf
+
+// soldier movement
+//-jump land roll squat--------------------------------------------------------
+
+//SoundProperties()
+//{
+//    Name("wok_inf_soldier_getup_stone")
+//    Group("body_movement");
+//    Inherit("wookie_movement_template");
+//    SampleList()
+//    {
+//        Sample("mvt_wookiee_getup_stone", 1.0);
+//    }
+//}
+
+SoundProperties()
+{
+    Name("wok_inf_soldier_jump_stone")
+    Group("body_movement");
+    Inherit("wookie_movement_template");
+    SampleList()
+    {
+        Sample("mvt_wookiee_jump_stone", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("wok_inf_soldier_land_stone")
+    Group("body_movement");
+    Inherit("wookie_movement_template");
+    SampleList()
+    {
+        Sample("mvt_wookiee_land_stone", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("wok_inf_soldier_lgBF_stone")
+    Group("body_movement");
+    Inherit("wookie_movement_template");
+    SampleList()
+    {
+      Sample("mvt_wookiee_Stone_lgBF_01", 0.33);
+      Sample("mvt_wookiee_Stone_lgBF_02", 0.33);
+      Sample("mvt_wookiee_Stone_smBf", 0.33);
+    }
+}
+
+//SoundProperties()
+//{
+//    Name("wok_inf_soldier_lie_stone")
+//    Group("body_movement");
+//    Inherit("wookie_movement_template");
+//    SampleList()
+//    {
+//        Sample("mvt_wookiee_lie_stone", 1.0);
+//    }
+//}
+
+SoundProperties()
+{
+    Name("wok_inf_soldier_roll_stone")
+    Group("body_movement");
+    Inherit("wookie_movement_template");
+    SampleList()
+    {
+        Sample("mvt_wookiee_roll_stone", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("wok_inf_soldier_squat_stone")
+    Group("body_movement");
+    Inherit("wookie_movement_template");
+    SampleList()
+    {
+        Sample("mvt_wookiee_squat", 1.0);
+    }
+}
+
+
+//-Footsteps run walk----------------------------------------------------------
+
+SoundProperties()
+{
+    Name("wok_inf_soldier_run_stone_left")
+    Group("body_movement");
+    Inherit("wookie_movement_template");
+    SampleList()
+    {
+        Sample("mvt_wookiee_run_stone_L01", 1.0);
+        Sample("mvt_wookiee_run_stone_L02", 1.0);
+        Sample("mvt_wookiee_run_stone_L03", 1.0);
+        Sample("mvt_wookiee_run_stone_L04", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("wok_inf_soldier_run_stone_right")
+    Group("body_movement");
+    Inherit("wookie_movement_template");
+    SampleList()
+    {
+        Sample("mvt_wookiee_run_stone_R01", 1.0);
+        Sample("mvt_wookiee_run_stone_R02", 1.0);
+        Sample("mvt_wookiee_run_stone_R03", 1.0);
+        Sample("mvt_wookiee_run_stone_R04", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("wok_inf_soldier_walk_stone_left")
+    Group("body_movement");
+    Inherit("wookie_movement_template");
+    SampleList()
+    {
+        Sample("mvt_wookiee_walk_stone_L01", 1.0);
+        Sample("mvt_wookiee_walk_stone_L02", 1.0);
+        Sample("mvt_wookiee_walk_stone_L03", 1.0);
+        Sample("mvt_wookiee_walk_stone_L04", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("wok_inf_soldier_walk_stone_right")
+    Group("body_movement");
+    Inherit("wookie_movement_template");
+    SampleList()
+    {
+        Sample("mvt_wookiee_walk_stone_R01", 1.0);
+        Sample("mvt_wookiee_walk_stone_R02", 1.0);
+        Sample("mvt_wookiee_walk_stone_R03", 1.0);
+        Sample("mvt_wookiee_walk_stone_R04", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("wok_inf_soldier_stop_stone")
+    Group("body_movement");
+    Inherit("wookie_movement_template");
+    SampleList()
+    {
+        Sample("mvt_wookiee_stop_stone", 1.0);
+    }
+}

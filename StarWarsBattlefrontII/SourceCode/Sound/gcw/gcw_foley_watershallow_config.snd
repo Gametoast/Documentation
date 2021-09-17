@@ -1,0 +1,466 @@
+//-All Water Foley--------------------------------------------------------------
+// all_inf
+
+// soldier movement
+//-jump land roll squat--------------------------------------------------------
+
+//SoundProperties()
+//{
+//    Name("all_inf_soldier_getup_water")
+//    Group("body_movement");
+//    Inherit("body_movement_water_template");
+//    SampleList()
+//    {
+//        Sample("mvt_soldier_getup_water", 1.0);
+//    }
+//}
+
+SoundProperties()
+{
+    Name("all_inf_soldier_jump_water")
+    Group("body_movement");
+    Inherit("body_movement_water_template");
+    SampleList()
+    {
+        Sample("mvt_soldier_jump_water", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("all_inf_soldier_land_water")
+    Group("body_movement");
+    Inherit("body_movement_water_template");
+    SampleList()
+    {
+        Sample("mvt_soldier_land_water", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("all_inf_soldier_lgBF_water")
+    Group("body_movement");
+    Inherit("body_movement_fall_template");
+    SampleList()
+    {
+        Sample("mvt_soldier_water_lgBF_01", 1.0);
+        Sample("mvt_soldier_water_lgBF_02", 1.0);
+        Sample("mvt_soldier_water_smBF", 1.0);
+    }
+}
+
+//SoundProperties()
+//{
+//    Name("all_inf_soldier_lie_water")
+//    Group("body_movement");
+//    Inherit("body_movement_water_template");
+//    SampleList()
+//    {
+//        Sample("mvt_soldier_lie_water", 1.0);
+//    }
+//}
+
+SoundProperties()
+{
+    Name("all_inf_soldier_roll_water")
+    Group("body_movement");
+    Inherit("body_movement_water_template");
+    SampleList()
+    {
+        Sample("mvt_soldier_roll_water", 1.0);
+    }
+}
+
+
+SoundProperties()
+{
+    Name("all_inf_soldier_squat_water")
+    Group("body_movement");
+    Inherit("body_movement_water_template");
+    SampleList()
+    {
+        Sample("mvt_soldier_squat", 1.0);
+    }
+}
+
+
+//-Shallow Water Footsteps (run walk)------------------------------------------
+
+SoundProperties()
+{
+    Name("all_inf_soldier_run_water_left")
+    Group("body_movement");
+    Inherit("body_movement_water_template");
+    SampleList()
+    {
+        Sample("mvt_soldier_run_wtrLo_L01", 1.0);
+        Sample("mvt_soldier_run_wtrLo_L02", 1.0);
+        Sample("mvt_soldier_run_wtrLo_L03", 1.0);
+        Sample("mvt_soldier_run_wtrLo_L04", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("all_inf_soldier_run_water_right")
+    Group("body_movement");
+    Inherit("body_movement_water_template");
+    SampleList()
+    {
+        Sample("mvt_soldier_run_wtrLo_R01", 1.0);
+        Sample("mvt_soldier_run_wtrLo_R02", 1.0);
+        Sample("mvt_soldier_run_wtrLo_R03", 1.0);
+        Sample("mvt_soldier_run_wtrLo_R04", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("all_inf_soldier_walk_water_left")
+    Group("body_movement");
+    Inherit("body_movement_water_template");
+    SampleList()
+    {
+        Sample("mvt_soldier_walk_wtrLo_L01", 1.0);
+        Sample("mvt_soldier_walk_wtrLo_L02", 1.0);
+        Sample("mvt_soldier_walk_wtrLo_L03", 1.0);
+        Sample("mvt_soldier_walk_wtrLo_L04", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("all_inf_soldier_walk_water_right")
+    Group("body_movement");
+    Inherit("body_movement_water_template");
+    SampleList()
+    {
+        Sample("mvt_soldier_walk_wtrLo_R01", 1.0);
+        Sample("mvt_soldier_walk_wtrLo_R02", 1.0);
+        Sample("mvt_soldier_walk_wtrLo_R03", 1.0);
+        Sample("mvt_soldier_walk_wtrLo_R04", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("all_inf_soldier_stop_water")
+    Group("body_movement");
+    Inherit("body_movement_water_template");
+    SampleList()
+    {
+        Sample("mvt_soldier_stop_wtrLo", 1.0);
+    }
+}
+
+
+//-Imp Water Foley--------------------------------------------------------------
+// imp_inf
+
+// trooper movement
+//-jump land roll squat--------------------------------------------------------
+
+//SoundProperties()
+//{
+//    Name("imp_inf_trooper_getup_water")
+//    Group("body_movement");
+//    Inherit("body_movement_water_template");
+//    SampleList()
+//    {
+//        Sample("mvt_trooper_getup_wtr", 1.0);
+//    }
+//}
+
+SoundProperties()
+{
+    Name("imp_inf_trooper_jump_water")
+    Group("body_movement");
+    Inherit("body_movement_water_template");
+    SampleList()
+    {
+        Sample("mvt_trooper_jump_wtr", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("imp_inf_trooper_land_water")
+    Group("body_movement");
+    Inherit("body_movement_water_template");
+    SampleList()
+    {
+        Sample("mvt_trooper_land_wtr", 1.0);
+    }
+}
+
+
+SoundProperties()
+{
+    Name("imp_inf_trooper_lgBF_water")
+    Group("body_movement");
+    Inherit("body_movement_fall_template");
+    SampleList()
+    {
+        Sample("mvt_trooper_water_lgBF_01", 0.25);
+        Sample("mvt_trooper_water_lgBF_02", 0.25);
+        Sample("mvt_trooper_water_lgBF_03", 0.25);
+        Sample("mvt_trooper_water_smBF", 0.25);
+    }
+}
+
+SoundProperties()
+{
+    Name("imp_inf_trooper_lie_water")
+    Group("body_movement");
+    Inherit("body_movement_water_template");
+    SampleList()
+    {
+        Sample("mvt_trooper_lie_wtr", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("imp_inf_trooper_roll_water")
+    Group("body_movement");
+    Inherit("body_movement_water_template");
+    SampleList()
+    {
+        Sample("mvt_trooper_roll_wtr", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("imp_inf_trooper_squat_water")
+    Group("body_movement");
+    Inherit("body_movement_water_template");
+    SampleList()
+    {
+        Sample("mvt_trooper_squat", 1.0);
+    }
+}
+
+
+//-Shallow Water Footsteps (run walk)------------------------------------------
+
+SoundProperties()
+{
+    Name("imp_inf_trooper_run_water_left")
+    Group("body_movement");
+    Inherit("body_movement_water_template");
+    SampleList()
+    {
+        Sample("mvt_trooper_run_wtrLo_L01", 1.0);
+        Sample("mvt_trooper_run_wtrLo_L02", 1.0);
+        Sample("mvt_trooper_run_wtrLo_L03", 1.0);
+        Sample("mvt_trooper_run_wtrLo_L04", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("imp_inf_trooper_run_water_right")
+    Group("body_movement");
+    Inherit("body_movement_water_template");
+    SampleList()
+    {
+        Sample("mvt_trooper_run_wtrLo_R01", 1.0);
+        Sample("mvt_trooper_run_wtrLo_R02", 1.0);
+        Sample("mvt_trooper_run_wtrLo_R03", 1.0);
+        Sample("mvt_trooper_run_wtrLo_R04", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("imp_inf_trooper_walk_water_left")
+    Group("body_movement");
+    Inherit("body_movement_water_template");
+    SampleList()
+    {
+        Sample("mvt_trooper_walk_wtrLo_L01", 1.0);
+        Sample("mvt_trooper_walk_wtrLo_L02", 1.0);
+        Sample("mvt_trooper_walk_wtrLo_L03", 1.0);
+        Sample("mvt_trooper_walk_wtrLo_L04", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("imp_inf_trooper_walk_water_right")
+    Group("body_movement");
+    Inherit("body_movement_water_template");
+    SampleList()
+    {
+        Sample("mvt_trooper_walk_wtrLo_R01", 1.0);
+        Sample("mvt_trooper_walk_wtrLo_R02", 1.0);
+        Sample("mvt_trooper_walk_wtrLo_R03", 1.0);
+        Sample("mvt_trooper_walk_wtrLo_R04", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("imp_inf_trooper_stop_water")
+    Group("body_movement");
+    Inherit("body_movement_water_template");
+    SampleList()
+    {
+        Sample("mvt_trooper_stop_wtrLo", 1.0);
+    }
+}
+
+
+// soldier movement
+//-jump land roll squat--------------------------------------------------------
+
+//SoundProperties()
+//{
+//    Name("imp_inf_soldier_getup_water")
+//    Group("body_movement");
+//    Inherit("body_movement_water_template");
+//    SampleList()
+//    {
+//        Sample("mvt_soldier_getup_water", 1.0);
+//    }
+//}
+
+SoundProperties()
+{
+    Name("imp_inf_soldier_jump_water")
+    Group("body_movement");
+    Inherit("body_movement_water_template");
+    SampleList()
+    {
+        Sample("mvt_soldier_jump_water", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("imp_inf_soldier_land_water")
+    Group("body_movement");
+    Inherit("body_movement_water_template");
+    SampleList()
+    {
+        Sample("mvt_soldier_land_water", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("imp_inf_soldier_lgBF_water")
+    Group("body_movement");
+    Inherit("body_movement_fall_template");
+    SampleList()
+    {
+        Sample("mvt_soldier_water_lgBF_01", 0.33);
+        Sample("mvt_soldier_water_lgBF_02", 0.33);
+        Sample("mvt_soldier_water_smBF", 0.33);
+    }
+}
+
+//SoundProperties()
+//{
+//    Name("imp_inf_soldier_lie_water")
+//    Group("body_movement");
+//    Inherit("body_movement_water_template");
+//    SampleList()
+//    {
+//        Sample("mvt_soldier_lie_water", 1.0);
+//    }
+//}
+
+SoundProperties()
+{
+    Name("imp_inf_soldier_roll_water")
+    Group("body_movement");
+    Inherit("body_movement_water_template");
+    SampleList()
+    {
+        Sample("mvt_soldier_roll_water", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("imp_inf_soldier_squat_water")
+    Group("body_movement");
+    Inherit("body_movement_water_template");
+    SampleList()
+    {
+        Sample("mvt_soldier_squat", 1.0);
+    }
+}
+
+
+//-Shallow Water Footsteps (run walk)------------------------------------------
+
+SoundProperties()
+{
+    Name("imp_inf_soldier_run_water_left")
+    Group("body_movement");
+    Inherit("body_movement_water_template");
+    SampleList()
+    {
+        Sample("mvt_soldier_run_wtrLo_L01", 1.0);
+        Sample("mvt_soldier_run_wtrLo_L02", 1.0);
+        Sample("mvt_soldier_run_wtrLo_L03", 1.0);
+        Sample("mvt_soldier_run_wtrLo_L04", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("imp_inf_soldier_run_water_right")
+    Group("body_movement");
+    Inherit("body_movement_water_template");
+    SampleList()
+    {
+        Sample("mvt_soldier_run_wtrLo_R01", 1.0);
+        Sample("mvt_soldier_run_wtrLo_R02", 1.0);
+        Sample("mvt_soldier_run_wtrLo_R03", 1.0);
+        Sample("mvt_soldier_run_wtrLo_R04", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("imp_inf_soldier_walk_water_left")
+    Group("body_movement");
+    Inherit("body_movement_water_template");
+    SampleList()
+    {
+        Sample("mvt_soldier_walk_wtrLo_L01", 1.0);
+        Sample("mvt_soldier_walk_wtrLo_L02", 1.0);
+        Sample("mvt_soldier_walk_wtrLo_L03", 1.0);
+        Sample("mvt_soldier_walk_wtrLo_L04", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("imp_inf_soldier_walk_water_right")
+    Group("body_movement");
+    Inherit("body_movement_water_template");
+    SampleList()
+    {
+        Sample("mvt_soldier_walk_wtrLo_R01", 1.0);
+        Sample("mvt_soldier_walk_wtrLo_R02", 1.0);
+        Sample("mvt_soldier_walk_wtrLo_R03", 1.0);
+        Sample("mvt_soldier_walk_wtrLo_R04", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("imp_inf_soldier_stop_water")
+    Group("body_movement");
+    Inherit("body_movement_water_template");
+    SampleList()
+    {
+        Sample("mvt_soldier_stop_wtrLo", 1.0);
+    }
+}

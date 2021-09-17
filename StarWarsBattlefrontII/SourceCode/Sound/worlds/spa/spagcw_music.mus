@@ -1,0 +1,223 @@
+// ----------------------------------------- SPA1 Music -----------------------------------
+
+// ----------------- SPA1 Objective Music ----------------------
+
+Music()
+{
+    Name("imp_spa1_amb_obj1_explore");
+    Priority(4.0);
+    FadeInTime(0.0);
+    FadeOutTime(1.5);
+    MinPlaybackTime(60.0);
+    MaxPlaybackTime(190.0);
+    MinInactiveTime(120.0);
+    SoundStream("imp_spa1_amb_obj1_explore");
+}
+
+Music()
+{
+    Name("imp_spa1_objComplete_01");
+    Priority(8.0);
+    FadeInTime(0.0);
+    FadeOutTime(0.0);
+    MinPlaybackTime(21.0);
+    MaxPlaybackTime(22.0);
+    MinInactiveTime(30.0);
+    SoundStream("imp_spa1_objComplete_01");
+}
+
+Music()
+{
+    Name("imp_spa1_amb_obj2_3_explore");
+    Priority(4.0);
+    FadeInTime(0.0);
+    FadeOutTime(1.5);
+    MinPlaybackTime(60.0);
+    MaxPlaybackTime(190.0);
+    MinInactiveTime(120.0);
+    SoundStream("imp_spa1_amb_obj2_3_explore");
+}
+
+Music()
+{
+    Name("imp_spa1_objComplete_02");
+    Priority(8.0);
+    FadeInTime(0.0);
+    FadeOutTime(0.0);
+    MinPlaybackTime(.0);
+    MaxPlaybackTime(.0);
+    MinInactiveTime(.0);
+    SoundStream("imp_spa1_objComplete_02");
+}
+
+Music()
+{
+    Name("imp_spa1_amb_obj4_5_explore");
+    Priority(4.0);
+    FadeInTime(0.0);
+    FadeOutTime(1.5);
+    MinPlaybackTime(60.0);
+    MaxPlaybackTime(190.0);
+    MinInactiveTime(120.0);
+    SoundStream("imp_spa1_amb_obj4_5_explore");
+}
+
+Music()
+{
+    Name("imp_spa1_immVict_01");
+    Priority(5.0);
+    FadeInTime(0.0);
+    FadeOutTime(1.5);
+    MinPlaybackTime(60.0);
+    MaxPlaybackTime(190.0);
+    MinInactiveTime(120.0);
+    SoundStream("imp_spa1_immVict_01");
+}
+
+// ----------------- SPA ALL Music ----------------------
+
+Music()
+{
+    Name("all_spa_amb_start");
+    Priority(1.0);
+    FadeInTime(0.0);
+    FadeOutTime(1.5);
+    MinPlaybackTime(20.0);
+    MaxPlaybackTime(180.0);
+    MinInactiveTime(15.0);
+    SoundStream("all_spa1_amb_start");
+}
+
+Music()
+{
+    Name("all_spa_amb_middle");
+    Priority(1.0);
+    FadeInTime(0.0);
+    FadeOutTime(1.5);
+    MinPlaybackTime(20.0);
+    MaxPlaybackTime(180.0);
+    MinInactiveTime(15.0);
+    SoundStream("all_spa1_amb_middle");
+}
+
+Music()
+{
+    Name("all_spa_amb_end");
+    Priority(1.0);
+    FadeInTime(0.0);
+    FadeOutTime(1.5);
+    MinPlaybackTime(20.0);
+    MaxPlaybackTime(150.0);
+    MinInactiveTime(15.0);
+    SoundStream("all_spa1_amb_end");
+}
+
+Music()
+{
+    Name("all_spa_amb_victory");
+    Priority(9.0);
+    FadeInTime(0.0);
+    FadeOutTime(5.0);
+    MinPlaybackTime(3.0);
+    MaxPlaybackTime(360.0);
+    MinInactiveTime(35.0);
+    SoundStream("all_spa1_amb_victory");
+}
+
+Music()
+{
+    Name("all_spa_amb_defeat");
+    Priority(9.0);
+    FadeInTime(0.0);
+    FadeOutTime(5.0);
+    MinPlaybackTime(3.0);
+    MaxPlaybackTime(360.0);
+    MinInactiveTime(35.0);
+    SoundStream("all_spa1_amb_defeat");
+}
+
+Music()
+{
+    Name("all_vehicle");
+    Priority(2.0);
+    FadeInTime(0.0);
+    FadeOutTime(1.5);
+    MinPlaybackTime(30.0);
+    MaxPlaybackTime(200.0);
+    MinInactiveTime(60.0);
+    SoundStream("all_spa1_amb_vehicle");
+}
+
+// ----------------- SPA IMP Music ----------------------
+
+Music()
+{
+    Name("imp_spa_amb_start");
+    Priority(1.0);
+    FadeInTime(0.0);
+    FadeOutTime(1.5);
+    MinPlaybackTime(20.0);
+    MaxPlaybackTime(180.0);
+    MinInactiveTime(15.0);
+    SoundStream("imp_spa1_amb_start");
+}
+
+Music()
+{
+    Name("imp_spa_amb_middle");
+    Priority(1.0);
+    FadeInTime(0.0);
+    FadeOutTime(1.5);
+    MinPlaybackTime(20.0);
+    MaxPlaybackTime(180.0);
+    MinInactiveTime(15.0);
+    SoundStream("imp_spa1_amb_middle");
+}
+
+Music()
+{
+    Name("imp_spa_amb_end");
+    Priority(1.0);
+    FadeInTime(0.0);
+    FadeOutTime(1.5);
+    MinPlaybackTime(20.0);
+    MaxPlaybackTime(180.0);
+    MinInactiveTime(15.0);
+    SoundStream("imp_spa1_amb_end");
+}
+
+Music()
+{
+    Name("imp_spa_amb_victory");
+    Priority(9.0);
+    FadeInTime(0.0);
+    FadeOutTime(5.0);
+    MinPlaybackTime(3.0);
+    MaxPlaybackTime(360.0);
+    MinInactiveTime(35.0);
+    SoundStream("imp_spa1_amb_victory");
+}
+
+Music()
+{
+    Name("imp_spa_amb_defeat");
+    Priority(9.0);
+    FadeInTime(0.0);
+    FadeOutTime(5.0);
+    MinPlaybackTime(3.0);
+    MaxPlaybackTime(360.0);
+    MinInactiveTime(35.0);
+    SoundStream("imp_spa1_amb_defeat");
+}
+
+Music()
+{
+    Name("imp_vehicle");
+    Priority(2.0);
+    FadeInTime(0.0);
+    FadeOutTime(1.5);
+    MinPlaybackTime(30.0);
+    MaxPlaybackTime(200.0);
+    MinInactiveTime(60.0);
+    SoundStream("imp_spa1_amb_vehicle");
+}

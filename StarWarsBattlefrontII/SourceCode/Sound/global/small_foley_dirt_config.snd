@@ -1,0 +1,154 @@
+//-All dirt Foley--------------------------------------------------------------
+// all_inf
+
+// soldier movement
+//-jump land roll squat--------------------------------------------------------
+
+//SoundProperties()
+//{
+//    Name("npc_inf_small_getup_dirt")
+//    Group("body_movement");
+//    Inherit("body_movement_template");
+//    SampleList()
+//    {
+//        Sample("mvt_small_getup_dirt", 1.0);
+//    }
+//}
+
+SoundProperties()
+{
+    Name("npc_inf_small_jump_dirt")
+    Group("body_movement");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("mvt_small_jump_dirt", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("npc_inf_small_land_dirt")
+    Group("body_movement");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("mvt_small_land_dirt", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("npc_inf_small_lgBF_dirt")
+    Group("body_movement");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+      Sample("mvt_small_dirt_lgBF_01", 0.33);
+      Sample("mvt_small_dirt_lgBF_02", 0.33);
+      Sample("mvt_small_dirt_smBf", 0.33);
+    }
+}
+
+//SoundProperties()
+//{
+//    Name("npc_inf_small_lie_dirt")
+//    Group("body_movement");
+//    Inherit("body_movement_template");
+//    SampleList()
+//    {
+//        Sample("mvt_small_lie_dirt", 1.0);
+//    }
+//}
+
+SoundProperties()
+{
+    Name("npc_inf_small_roll_dirt")
+    Group("body_movement");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("mvt_small_roll_dirt", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("npc_inf_small_squat_dirt")
+    Group("body_movement");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("mvt_small_squat", 1.0);
+    }
+}
+
+
+//-Footsteps run walk----------------------------------------------------------
+
+SoundProperties()
+{
+    Name("npc_inf_small_run_dirt_left")
+    Group("body_movement");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("mvt_small_run_dirt_L01", 1.0);
+        Sample("mvt_small_run_dirt_L02", 1.0);
+        Sample("mvt_small_run_dirt_L03", 1.0);
+        Sample("mvt_small_run_dirt_L04", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("npc_inf_small_run_dirt_right")
+    Group("body_movement");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("mvt_small_run_dirt_R01", 1.0);
+        Sample("mvt_small_run_dirt_R02", 1.0);
+        Sample("mvt_small_run_dirt_R03", 1.0);
+        Sample("mvt_small_run_dirt_R04", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("npc_inf_small_walk_dirt_left")
+    Group("body_movement");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("mvt_small_walk_dirt_L01", 1.0);
+        Sample("mvt_small_walk_dirt_L02", 1.0);
+        Sample("mvt_small_walk_dirt_L03", 1.0);
+        Sample("mvt_small_walk_dirt_L04", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("npc_inf_small_walk_dirt_right")
+    Group("body_movement");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("mvt_small_walk_dirt_R01", 1.0);
+        Sample("mvt_small_walk_dirt_R02", 1.0);
+        Sample("mvt_small_walk_dirt_R03", 1.0);
+        Sample("mvt_small_walk_dirt_R04", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("npc_inf_small_stop_dirt")
+    Group("body_movement");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("mvt_small_stop_dirt", 1.0);
+    }
+}

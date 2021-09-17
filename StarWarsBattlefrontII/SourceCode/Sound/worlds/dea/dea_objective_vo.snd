@@ -1,0 +1,516 @@
+
+//  --------------------------------------------------- Objective VO ----------------------------------------------------------
+
+SoundStreamProperties()
+{
+    Name("DEA_inf_01");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("dea_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IIDEA0001", 1.0, 0.0, 0.0); //  Cell block 2180 is under attack.  Send backup!
+        }
+}
+
+SoundStreamProperties()
+{
+    Name("DEA_obj_01");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("dea_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IODEA0001", 1.0, 0.0, 0.0); //  Attention!  All available units report to Cell Block 23B.  The prisoners have overpowered their guards, and are attempting to wrest control of the Fire Containment Systems.  Punish them.
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("DEA_obj_02");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("dea_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IODEA0002", 1.0, 0.0, 0.0); //  The Fire Containment Systems are once again secure.  Now take back the prison block from those foolish rebels.
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("DEA_obj_03");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("dea_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IODEA0003", 1.0, 0.0, 0.0); //  These rebels have gained the attention of the Emperor's Royal Guard.
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("DEA_obj_04");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("dea_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IODEA0004", 1.0, 0.0, 0.0); //  Cell Block 23B is secured.  Track down the remaining prisoners, and eradicate them.
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("DEA_obj_05");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("dea_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IODEA0005", 1.0, 0.0, 0.0); //  The leader of the breakout, a Bothan named Wayx Nicior, is still alive.  Recify this situation.
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("DEA_obj_06");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("dea_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IODEA0006", 1.0, 0.0, 0.0); //  Cell Block 23B is secured.  Hunt down the rebel leader, Wayx Nicior, and wipe out his followers.
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("DEA_obj_07");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("dea_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IODEA0007", 1.0, 0.0, 0.0); //  Lord Vader has joined the battle.  You would be wise not to fail in his presence.
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("DEA_obj_08");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("dea_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IODEA0008", 1.0, 0.0, 0.0); //  The prisoners' revolt has been smothered.  Perhaps one day will learn what motivated so many Bothans to throw their lives away.
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("DEA_obj_09");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("dea_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IODEA0009", 1.0, 0.0, 0.0); //  Attention.  Cell Block 23B has fallen.  In accordance with Death Star guidelines, the Cell Block, along with the rest of Sector 17J will be jettisoned into space and destroyed.
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("DEA_obj_10");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("dea_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IODEA0010", 1.0, 0.0, 0.0); //  Attention Hangar 84g, the 501st are inbound from Kamino, meet with them and get their after action report.
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("DEA_obj_11");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("dea_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IODEA0011", 1.0, 0.0, 0.0); //  The rebels tried to steal the internal plans for this battlestation.  Several of them ducked into a broken grate in the prison, but perished in the garbage smasher.  Get down there, retrieve those plans.  Now.
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("DEA_obj_12");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("dea_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IODEA0012", 1.0, 0.0, 0.0); //  Trooper!  Join with the 501st, get to cell block 2180 and secure that area.
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("DEA_obj_13");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("dea_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IODEA0013", 1.0, 0.0, 0.0); //  Use the remote hack link in your pack on the Prison Control Computer; that should override their interference.
+        }
+}
+
+SoundStreamProperties()
+{
+    Name("DEA_obj_14");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("dea_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IODEA0014", 1.0, 0.0, 0.0); //  Troopers!  The rebels made an attempt to steal the internal plans for this battlestation.  Several of them ducked into a broken grate in the prison, but were trapped in the garbage smasher and died.  Get down there and retrieve those plans, we cannot allow the rebels to steal our secrets.
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("DEA_obj_15");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("dea_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IODEA0015", 1.0, 0.0, 0.0); //  Well done troopers, guard those plans with you life.
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("DEA_obj_16");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("dea_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IODEA0016", 1.0, 0.0, 0.0); //  The rioters have damaged the tractor beam system, secure the generators so we can bring them back online.
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("DEA_obj_17");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("dea_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IODEA0017", 1.0, 0.0, 0.0); //  They have captured the Fire Control Room, you must not allow them to damage the main cannon.
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("DEA_obj_18");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("dea_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IODEA0018", 1.0, 0.0, 0.0); //  Well done troopers, make your way to the conference room on this level and transfer the recovered plans into the terminal there.
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("DEA_obj_19");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("dea_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IODEA0019", 1.0, 0.0, 0.0); //  Troopers!  There is a Jedi in the TIE hangar, he is the source of this "rebellion".  Destroy this man, now!
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("DEA_obj_20");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("dea_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IODEA0020", 1.0, 0.0, 0.0); //  You have done well soldier, your valor has secured your place with the 501st, report to your CO and... May the Force be with you.
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("DEA_obj_21");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("dea_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IODEA0021", 1.0, 0.0, 0.0); //  Kill that Jedi, do not let him escape!
+        }
+}
+
+SoundStreamProperties()
+{
+    Name("DEA_obj_22");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("dea_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IODEA0022", 1.0, 0.0, 0.0); //  Our sensors are showing a large force of escaped prisoners in the TIE hangar.  Make your way there now.
+        }
+}
+
+SoundStreamProperties()
+{
+    Name("DEA_obj_23");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("dea_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IODEA0023", 1.0, 0.0, 0.0); //  Now, kill them trooper.  Kill them all!
+        }
+}
+
+SoundStreamProperties()
+{
+    Name("DEA_obj_24");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("dea_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IODEA0024", 1.0, 0.0, 0.0); //  Return the plans to the Prison Control Computer and we’ll handle it from there.
+        }
+}
+
+SoundStreamProperties()
+{
+    Name("DEA_obj_25");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("dea_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IODEA0025", 1.0, 0.0, 0.0); //  Our troops have been wiped out by those filthy rebels.  
+        }
+}
+
+SoundStreamProperties()
+{
+    Name("DEA_obj_26");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("dea_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IODEA0026", 1.0, 0.0, 0.0); //  careful.  Our reinforcements are getting dangerously low
+        }
+}
+
+SoundStreamProperties()
+{
+    Name("DEA_obj_27");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("dea_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IODEA0027", 1.0, 0.0, 0.0); //  Attention hangar 84g, there is a prison riot in progress.  A contingent of the 501st is inbound from kamino.  Join up with your squadmates in the hangar, and quell this riot!
+        }
+}
+
+SoundStreamProperties()
+{
+    Name("DEA_obj_28");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("dea_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IODEA0028", 1.0, 0.0, 0.0); //  Rebel forces are converging on hangar 84g, we can not allow any rebels to escape.  Defend the hangar!
+        }
+}
+
+SoundStreamProperties()
+{
+    Name("DEA_obj_29");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("dea_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IODEA0029", 1.0, 0.0, 0.0); //  The riot originated in cell block 2180. Get up there and secure that cell block!
+        }
+}
+
+SoundStreamProperties()
+{
+    Name("DEA_obj_30");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("dea_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("obj30", 1.0, 0.0, 0.0); //  One of the rebels managed to get his hands on the plans for this battle station.  We can not allow those plans to leave this outpost.  Dispatch the rebel carrying the plans, and return them to our forces.
+        }
+}
+
+SoundStreamProperties()
+{
+    Name("oDEA_obj_31");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("dea_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("obj31", 1.0, 0.0, 0.0); //  The cell block has been secured.
+        }
+}
+
+SoundStreamProperties()
+{
+    Name("DEA_obj_32");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("dea_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IODEA0032", 1.0, 0.0, 0.0); //  The rebels have overrun our forces in the hangar!
+        }
+}
+
+SoundStreamProperties()
+{
+    Name("DEA_obj_33");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("dea_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("obj33", 1.0, 0.0, 0.0); //  The rebels have infiltrated hangar 85g and are preparing to escape in one of the shuttles.  Get to the hangar, and take out that shuttle before it takes off!
+        }
+}
+
+SoundStreamProperties()
+{
+    Name("DEA_obj_34");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("dea_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IODEA0034", 1.0, 0.0, 0.0); //  The rebels have escaped, Lord Vader will not be pleased.
+        }
+}
+
+SoundStreamProperties()
+{
+    Name("DEA_obj_35");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("dea_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IODEA0035", 1.0, 0.0, 0.0); //  The uprising has been crushed.  Well done trooper.  Lord Vader will be most pleased with your performance.
+        }
+}
+
+SoundStreamProperties()
+{
+    Name("DEA_obj_36");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("dea_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IODEA0036", 1.0, 0.0, 0.0); //  The rebel leader has been destroyed, our reinforcements can take it from here. 
+        }
+}
+
+SoundStreamProperties()
+{
+    Name("DEA_obj_37");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("dea_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IODEA0037", 1.0, 0.0, 0.0); //  Hangar 84g is secure!
+        }
+}
+
+SoundStreamProperties()
+{
+    Name("DEA_obj_38");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("dea_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IODEA0038", 1.0, 0.0, 0.0); //  Well done.  The plans have been secured.
+        }
+}
+ 
+SoundStreamProperties()
+{
+    Name("DEA_obj_39");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("dea_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IODEA0039", 1.0, 0.0, 0.0); //  The fire control room is ours!
+        }
+}
+
+SoundStreamProperties()
+{
+    Name("DEA_obj_40");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("dea_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IODEA0040", 1.0, 0.0, 0.0); //  Well done trooper.  No rebel scum will be leaving this battle sataion.
+        }
+}
+
+SoundStreamProperties()
+{
+    Name("DEA_obj_42");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("dea_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IODEA0042", 1.0, 0.0, 0.0); //  Rebels are attacking from the TIE hangar to the west!
+        }
+}

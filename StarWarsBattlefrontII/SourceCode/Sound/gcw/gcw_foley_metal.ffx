@@ -1,0 +1,61 @@
+//-all Foley Effects-----------------------------------------------------------
+//-Soldier---------------------------------------------------------------------
+FoleyFXSoldier()
+{
+    Name("all_inf_soldier_metal");
+    Class("all_inf_soldier");
+    FootstepLeftWalk("all_inf_soldier_walk_metal_left");
+    FootstepRightWalk("all_inf_soldier_walk_metal_right");
+    FootstepLeftRun("all_inf_soldier_run_metal_left");
+    FootstepRightRun("all_inf_soldier_run_metal_right");
+    FootstepLeftStop("all_inf_soldier_stop_metal");
+    FootstepRightStop("all_inf_soldier_stop_metal");
+    Jump("all_inf_soldier_jump_metal");
+    Land("all_inf_soldier_land_metal");
+    Roll("all_inf_soldier_roll_metal");
+//    Prone("all_inf_soldier_lie_metal");
+    Squat("all_inf_soldier_squat_metal");
+////    Stand("all_inf_soldier_getup_metal");
+    Bodyfall("all_inf_soldier_lgBF_metal");
+}
+//-imp Foley Effects-----------------------------------------------------------
+//-Trooper---------------------------------------------------------------------
+
+FoleyFXSoldier()
+{
+    Name("imp_inf_trooper_metal");
+    Class("imp_inf_trooper");
+    FootstepLeftWalk("imp_inf_trooper_walk_metal_left");
+    FootstepRightWalk("imp_inf_trooper_walk_metal_right");
+    FootstepLeftRun("imp_inf_trooper_run_metal_left");
+    FootstepRightRun("imp_inf_trooper_run_metal_right");
+    FootstepLeftStop("imp_inf_trooper_stop_metal");
+    FootstepRightStop("imp_inf_trooper_stop_metal");
+    Jump("imp_inf_trooper_jump_metal");
+    Land("imp_inf_trooper_land_metal");
+    Roll("imp_inf_trooper_roll_metal");
+//    Prone("imp_inf_trooper_lie_metal");
+    Squat("imp_inf_trooper_squat_metal");
+////    Stand("imp_inf_trooper_getup_metal");
+    Bodyfall("imp_inf_trooper_lgBF_metal");
+}
+//-Soldier---------------------------------------------------------------------
+FoleyFXSoldier()
+{
+    Name("imp_inf_soldier_metal");
+    Class("imp_inf_soldier");
+    FootstepLeftWalk("imp_inf_soldier_walk_metal_left");
+    FootstepRightWalk("imp_inf_soldier_walk_metal_right");
+    FootstepLeftRun("imp_inf_soldier_run_metal_left");
+    FootstepRightRun("imp_inf_soldier_run_metal_right");
+    FootstepLeftStop("imp_inf_soldier_stop_metal");
+    FootstepRightStop("imp_inf_soldier_stop_metal");
+    Jump("imp_inf_soldier_jump_metal");
+    Land("imp_inf_soldier_land_metal");
+    Roll("imp_inf_soldier_roll_metal");
+//    Prone("imp_inf_soldier_lie_metal");
+    Squat("imp_inf_soldier_squat_metal");
+////    Stand("imp_inf_soldier_getup_metal");
+    Bodyfall("imp_inf_soldier_lgBF_metal");
+}
+

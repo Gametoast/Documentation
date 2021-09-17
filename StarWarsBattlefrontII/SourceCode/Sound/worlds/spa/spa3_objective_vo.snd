@@ -1,0 +1,279 @@
+
+//  --------------------------------------------------- Objective VO ----------------------------------------------------------
+
+SoundStreamProperties()
+{
+    Name("SPA3_obj_01");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROSB20001", 1.0, 0.0, 0.0); //  The droids have thrown up a blockade around Kashyyyk.  If we're going to punch through, we'll have to destroy their support ships.
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("SPA3_obj_02");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROSB20002", 1.0, 0.0, 0.0); //  That's one frigate down.
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("SPA3_obj_03");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROSB20003", 1.0, 0.0, 0.0); //  That's another firgate down.
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("SPA3_obj_04");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROSB20004", 1.0, 0.0, 0.0); //  There goes the last of their support ships.  Well done.
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("SPA3_obj_05");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROSB20005", 1.0, 0.0, 0.0); //  The droids aren't getting the message; move in and destroy them.
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("SPA3_obj_06");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROSB20006", 1.0, 0.0, 0.0); //  Destroy the cruiser's Shield Generators
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("SPA3_obj_07");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROSB20007", 1.0, 0.0, 0.0); //  Take out the cruiser's Sensor Array
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("SPA3_obj_08");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROSB20008", 1.0, 0.0, 0.0); //  Attack the Droid Cruisers' Engines and cripple their ship.
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("SPA3_obj_09");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROSB20009", 1.0, 0.0, 0.0); //  Well done, men.  Now let's get down there and liberate Kashyyyk..
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("SPA3_obj_10");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROSB20010", 1.0, 0.0, 0.0); //  We can't break through the blockade...Kashyyyk is doomed.
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("SPA3_obj_11");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROSB20011", 1.0, 0.0, 0.0); //  The droids have thrown up a blockade around Kashyyyk.  If we're going to punch through, we'll need to weaken their forces in this sector.
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("SPA3_obj_12");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROSB20012", 1.0, 0.0, 0.0); //  Fighters are inbound, no mercy.
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("SPA3_obj_13");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROSB20013", 1.0, 0.0, 0.0); //  Pilots, focus your attacks on their supprot ships.
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("SPA3_obj_14");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROSB20014", 1.0, 0.0, 0.0); //  Destroy their engines, they must not be allowed to escape.
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("SPA3_obj_15");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROSB20015", 1.0, 0.0, 0.0); //  Ok pilots, we're moving onto the planet, destroy their comms and targeting are return to the hangar.  Our backup will mop up the rest.
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("SPA3_obj_16");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROSB20016", 1.0, 0.0, 0.0); //  Reinforcements are exhausted.  We have failed.
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("SPA3_obj_17");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROSB20017", 1.0, 0.0, 0.0); //  Watch your flying!  We're running out of reinforcements
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("SPA3_obj_18");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROSB20018", 1.0, 0.0, 0.0); //  Their ship guns are pounding our shields, take out those heavy turrets!
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("SPA3_obj_19");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROSB20019", 1.0, 0.0, 0.0); //  Well done pilot head back to the hangar for your next objective.
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("SPA3_obj_20");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROSB20020", 1.0, 0.0, 0.0); //  Ok son, we're gonna need to you take that LAAT into the enemy hangar and land it.  It's the only way we're gonna be able to land a force in that ship to destroy the internal systems.
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("SPA3_obj_21");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROSB20021", 1.0, 0.0, 0.0); //  Okay boys, get to their critical systems room and use your explosives on the fuel and life support systems.
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("SPA3_obj_22");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROSB20022", 1.0, 0.0, 0.0); //  Alright, this one is easy.  Just grab the Battleplan Holocron and bring it back to our hangar.  Easy right?
+    }
+}

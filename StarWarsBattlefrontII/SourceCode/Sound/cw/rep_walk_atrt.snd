@@ -1,0 +1,451 @@
+// imp_walk_atst ----------------------------------------
+
+// Primary Fire
+SoundProperties()
+{
+    Name("rep_weap_walk_atrt_cannon_chin_fire");
+    Group("weapons");
+    Pitch(1.15);
+    Inherit("veh_weapon_template");
+    SampleList()
+    {
+        Sample("com_weap_turret_fire_small", 1.0);
+    }
+}
+
+// Secondary Fire
+SoundProperties()
+{
+    Name("rep_weap_walk_atrt_cannon_head_fire");
+    Group("weapons");
+    #ifplatform ps2 xbox
+    Gain(1.0)
+    #endifplatform ps2 xbox
+    Pitch(1.15);
+    Inherit("veh_weapon_template");
+    SampleList()
+    {
+        Sample("com_mortar_launcher_fire", 1.0);
+    }
+}
+
+//SoundProperties()
+//{
+//  Name("imp_weap_walk_atst_launcher_fire");
+//  Group("weapons");
+//  Inherit("veh_weapon_template");
+//  SampleList()
+//    {
+//        Sample("wpn_atst_headLauncher_fire", 1.0);
+//    }
+//}
+
+
+// Common AT Walker ------------------------------------------------
+
+// Common AT Walker Steps -----
+#ifplatform ps2
+SoundProperties()
+{
+    Name("com_weap_layered_at_step");
+    Pitch(1.5);
+    PitchDev(0.15);
+    Gain(0.7);
+    GainDev(0.0);
+    ReverbGain(1.0);
+    Bus("soundfx");
+    Looping(0);
+    Pan(0.0);
+    MinDistance(25.0);
+    MuteDistance(200.0);
+    MaxDistance(200.0);
+    RollOff(2.0);
+    Mode3D(1);
+    Bias(0.0001);
+    Priority(0.7);
+    CyclePlayback(1);
+    SampleList()
+    {
+        Sample("atst_step01", 0.167);
+        Sample("atst_step02", 0.167);
+        Sample("atst_step03", 0.167);
+        Sample("atst_step04", 0.167);
+        Sample("atst_step05", 0.167);
+        Sample("atst_step06", 0.167);
+    }
+}
+#endifplatform ps2
+#ifplatform xbox pc
+SoundProperties()
+{
+    Name("at_step_layer_A");
+    Pitch(1.5);
+    PitchDev(0.15);
+    Gain(0.7);
+    GainDev(0.0);
+    ReverbGain(1.0);
+    Bus("soundfx");
+    Looping(0);
+    Pan(0.0);
+    MinDistance(25.0);
+    MuteDistance(150.0);
+    MaxDistance(150.0);
+    RollOff(2.0);
+    Mode3D(1);
+    Bias(0.0001);
+    Priority(0.7);
+    SampleList()
+    {
+        Sample("fs_walker_layerA01", 0.167);
+        Sample("fs_walker_layerA02", 0.167);
+        Sample("fs_walker_layerA03", 0.167);
+        Sample("fs_walker_layerA04", 0.167);
+        Sample("fs_walker_layerA05", 0.167);
+        Sample("fs_walker_layerA06", 0.167);
+    }
+}
+SoundProperties()
+{
+    Name("at_step_layer_B");
+    Pitch(1.5);
+    PitchDev(0.15);
+    Gain(0.7);
+    GainDev(0.0);
+    ReverbGain(1.0);
+    Bus("soundfx");
+    Looping(0);
+    Pan(0.0);
+    MinDistance(25.0);
+    MuteDistance(150.0);
+    MaxDistance(150.0);
+    RollOff(2.0);
+    Mode3D(1);
+    Bias(0.0001);
+    Priority(0.7);
+    SampleList()
+    {
+        Sample("fs_walker_layerB01", 0.167);
+        Sample("fs_walker_layerB02", 0.167);
+        Sample("fs_walker_layerB03", 0.167);
+        Sample("fs_walker_layerB04", 0.167);
+        Sample("fs_walker_layerB05", 0.167);
+        Sample("fs_walker_layerB06", 0.167);
+    }
+}
+SoundProperties()
+{
+    Name("at_step_layer_C");
+    Pitch(1.5);
+    PitchDev(0.15);
+    Gain(0.7);
+    GainDev(0.0);
+    ReverbGain(1.0);
+    Bus("soundfx");
+    Looping(0);
+    Pan(0.0);
+    MinDistance(25.0);
+    MuteDistance(150.0);
+    MaxDistance(150.0);
+    RollOff(2.0);
+    Mode3D(1);
+    Bias(0.0001);
+    Priority(0.7);
+    SampleList()
+    {
+        Sample("fs_walker_layerC01", 0.167);
+        Sample("fs_walker_layerC02", 0.167);
+        Sample("fs_walker_layerC03", 0.167);
+        Sample("fs_walker_layerC04", 0.167);
+        Sample("fs_walker_layerC05", 0.167);
+        Sample("fs_walker_layerC06", 0.167);
+    }
+}
+
+SoundProperties()
+{
+    Name("at_step_layer_low");
+    Pitch(1.5);
+    PitchDev(0.15);
+    Gain(0.7);
+    GainDev(0.0);
+    ReverbGain(1.0);
+    Bus("soundfx");
+    Looping(0);
+    Pan(0.0);
+    MinDistance(25.0);
+    MuteDistance(175.0);
+    MaxDistance(175.0);
+    RollOff(2.0);
+    Mode3D(1);
+    Bias(0.0001);
+    Priority(0.7);
+    CyclePlayback(1);
+    SampleList()
+    {
+        Sample("fs_walker_low01", 0.33);
+        Sample("fs_walker_low02", 0.33);
+        Sample("fs_walker_low03", 0.33);
+    }
+}
+
+SoundLayered()
+{
+    Name("com_weap_layered_at_step");
+    Layer("steplayer01", "at_step_layer_A", 0.0);
+    Layer("steplayer02", "at_step_layer_B", 0.0);
+    Layer("steplayer03", "at_step_layer_C", 0.0);
+    Layer("steplayer04", "at_step_layer_low", 0.0);
+}
+#endifplatform xbox pc
+
+
+
+
+SoundProperties()
+{
+    Name("atst_leg_up");
+    Pitch(1.5);
+    PitchDev(0.0);
+    Gain(0.4);
+    GainDev(0.0);
+    ReverbGain(1.0);
+    Bus("soundfx");
+    Looping(0);
+    Pan(0.0);
+    MinDistance(10.0);
+    MuteDistance(75.0);
+    MaxDistance(75.0);
+    RollOff(3.0);
+    Mode3D(1);
+    Bias(0.0001);
+    Priority(0.7);
+    SampleList()
+    {
+        Sample("atst_leg_up01", 0.167);
+        Sample("atst_leg_up02", 0.167);
+        Sample("atst_leg_up03", 0.167);
+        Sample("atst_leg_up04", 0.167);
+        Sample("atst_leg_up05", 0.167);
+        Sample("atst_leg_up06", 0.167);
+    }
+}
+
+SoundProperties()
+{
+    Name("atst_engine_idle_hi");
+    Pitch(1.5);
+    PitchDev(0.0);
+    Gain(0.4);
+    GainDev(0.0);
+    ReverbGain(1.0);
+    Bus("soundfx");
+    Looping(1);
+    Pan(0.0);
+    MinDistance(15.0);
+    MuteDistance(75.0);
+    MaxDistance(75.0);
+    RollOff(4.0);
+    Mode3D(1);
+    Bias(0.0001);
+    Priority(0.7);
+    SampleList()
+    {
+        Sample("eng_walker_hi_lp", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("atst_engine_idle_mid");
+    Pitch(1.5);
+    PitchDev(0.0);
+    Gain(0.3);
+    GainDev(0.0);
+    ReverbGain(1.0);
+    Bus("soundfx");
+    Looping(1);
+    Pan(0.0);
+    MinDistance(15.0);
+    MuteDistance(75.0);
+    MaxDistance(75.0);
+    RollOff(4.0);
+    Mode3D(1);
+    Bias(0.0001);
+    Priority(0.7);
+    SampleList()
+    {
+        Sample("eng_walker_mid_lp", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("atst_engine_idle_low");
+    Pitch(1.5);
+    PitchDev(0.1);
+    Gain(0.6);
+    GainDev(0.1);
+    ReverbGain(1.0);
+    Bus("soundfx");
+    Looping(1);
+    Pan(0.0);
+    MinDistance(15.0);
+    MuteDistance(75.0);
+    MaxDistance(75.0);
+    RollOff(3.0);
+    Mode3D(1);
+    Bias(0.0001);
+    Priority(0.7);
+    SampleList()
+    {
+      Sample("eng_walker_low_lp", 1.0);
+
+    }
+}
+
+ParameterGraph()
+{
+    Name("atstreactor_speed");
+    ControlPoint(0.0, 0.9);
+    ControlPoint(1.0, 1.0);
+}
+
+ParameterGraph()
+{
+    Name("atstreactor_acceleration");
+    ControlPoint(0.0, 1.0);
+    ControlPoint(1.0, 0.8);
+}
+
+ParameterGraph()
+{
+    Name("atstreactor_turnon_gain");
+    ControlPoint(0.0, 0.0);
+    ControlPoint(1.0, 1.0);
+}
+
+ParameterGraph()
+{
+    Name("atstreactor_turnon_pitch");
+    ControlPoint(0.0, 0.7);
+    ControlPoint(1.0, 1.0);
+}
+
+ParameterGraph()
+{
+    Name("atstreactor_turnoff_gain");
+    ControlPoint(0.0, 1.0);
+    ControlPoint(1.0, 0.0);
+}
+
+ParameterGraph()
+{
+    Name("atstreactor_turnoff_pitch");
+    ControlPoint(0.0, 1.0);
+    ControlPoint(1.0, 0.1);
+}
+
+ParameterGraph()
+{
+    Name("atstengine_speed");
+    ControlPoint(-0.1, 1.0);
+    ControlPoint(0.0, 0.8);
+    ControlPoint(0.5, 0.9);
+    ControlPoint(1.0, 1.0);
+}
+
+ParameterGraph()
+{
+    Name("atstengine_acceleration");
+    ControlPoint(-0.1, 1.0);
+    ControlPoint(0.0, 8.0);
+    ControlPoint(1.0, 1.0);
+}
+
+ParameterGraph()
+{
+    Name("atstenginehi_speed");
+    ControlPoint(-0.1, 1.0);
+    ControlPoint(0.0, 0.8);
+    ControlPoint(0.5, 0.9);
+    ControlPoint(1.0, 1.0);
+}
+
+ParameterGraph()
+{
+    Name("atstenginehi_acceleration");
+    ControlPoint(-0.1, 0.7);
+    ControlPoint(0.0, 0.5);
+    ControlPoint(1.0, 0.7);
+}
+
+SoundLayered()
+{
+    Name("atstengine_layered");
+    Layer("atst_engine_hi", "atst_engine_idle_hi", 0.8);
+    Layer("atst_engine", "atst_engine_idle_low", 0.8);
+    Layer("atst_reactor", "atst_engine_idle_mid", 0.8);
+}
+
+SoundParameterized()
+{
+    Name("atst_engine_parameterized");
+    SoundLayered("atstengine_layered");
+    Layer()
+    {
+        Name("atst_engine");
+        ParameterGraph("speed",        "atstengine_speed",        "pitch");
+        ParameterGraph("acceleration", "atstengine_acceleration", "gain");
+        ParameterGraph("turnontime", "atstreactor_turnon_pitch", "pitch");
+        ParameterGraph("turnontime", "atstreactor_turnon_gain", "gain");
+        ParameterGraph("turnofftime", "atstreactor_turnoff_pitch", "pitch");
+        ParameterGraph("turnofftime", "atstreactor_turnoff_gain", "gain");
+    }
+    Layer()
+    {
+        Name("atst_reactor");
+        ParameterGraph("speed",        "atstreactor_speed",        "pitch");
+        ParameterGraph("acceleration", "atstreactor_acceleration", "gain");
+        ParameterGraph("turnontime", "atstreactor_turnon_pitch", "pitch");
+        ParameterGraph("turnontime", "atstreactor_turnon_gain", "gain");
+        ParameterGraph("turnofftime", "atstreactor_turnoff_pitch", "pitch");
+        ParameterGraph("turnofftime", "atstreactor_turnoff_gain", "gain");
+    }
+    Layer()
+    {
+        Name("atst_engine_hi");
+        ParameterGraph("speed",        "atstenginehi_speed",        "pitch");
+        ParameterGraph("acceleration", "atstenginehi_acceleration", "gain");
+        ParameterGraph("turnontime", "atstreactor_turnon_pitch", "pitch");
+        ParameterGraph("turnontime", "atstreactor_turnon_gain", "gain");
+        ParameterGraph("turnofftime", "atstreactor_turnoff_pitch", "pitch");
+        ParameterGraph("turnofftime", "atstreactor_turnoff_gain", "gain");
+    }
+}
+
+
+SoundProperties()
+{
+    Name("atst_falling_impact");
+    Group("Explosion");
+    Inherit("explosion_template");
+    SampleList()
+    {
+        Sample("exp_obj_small_03", 1.0);
+    }
+}
+
+// ----- ATST Medium Exploison -----
+// Used for large vehicle deathsound-primary explosion
+
+SoundLayered()
+{
+    Name("com_weap_obj_atst_exp");
+    Layer("fallimpact",       "atst_falling_impact",        3.3);
+    Layer("fallimpact",       "atst_falling_impact",        3.3);
+    Layer("fallstep1",       "com_weap_layered_at_step",    0.15);
+    Layer("fallstep2",       "com_weap_layered_at_step",    1.5);
+    Layer("fallstep3",       "com_weap_layered_at_step",    2.0);
+    Layer("medium",     "com_weap_obj_med_exp_distant",     0.3, 0.1);
+    Layer("far",        "com_weap_obj_med_exp_verydistant", 0.5, 0.1);
+}

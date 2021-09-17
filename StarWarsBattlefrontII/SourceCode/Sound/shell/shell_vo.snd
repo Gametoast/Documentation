@@ -1,0 +1,3479 @@
+// VO sound for audio options screen
+SoundStreamProperties()
+{
+    Name("shell_auditionVO");  
+    Pitch(1.0);
+    PitchDev(0.0);
+    Gain(1.0);
+    GainDev(0.0);
+    ReverbGain(0.0);
+    Bus("Root");
+    Looping(0);
+    Pan(0.0);
+    Mode3D(0);
+    Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("crtr_wookiee_chatter_01", 1.0); 
+        Segment("crtr_wookiee_chatter_02", 1.0); 
+        Segment("crtr_wookiee_chatter_03", 1.0); 
+        Segment("crtr_wookiee_chatter_05", 1.0); 
+        Segment("crtr_wookiee_chatter_06", 1.0); 
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("shell_auditionSFX")
+    Pitch(1.0);
+    PitchDev(0.0);
+    Gain(1.0);
+    GainDev(0.0);
+    ReverbGain(1.0);
+    Bus("Root");
+    Looping(0);
+    Pan(0.0);
+    Mode3D(0);
+    Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("ui_sfxVolume", 1.0);
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("shellvo_template");
+    Inherit("shellvo_template");
+    Gain(0.4);
+}
+
+// CW mission briefings
+
+// Darth Sidious
+// -------------
+
+//Our representatives to Kashyyyk did not return with all of their
+//The rabble of Naboo have dared to raise an army against us. 
+//Take a legion to the fields and wipe them out--- all of them.
+
+SoundStreamProperties()
+{
+    Name("cis_missionbriefing_nab1");
+    Group("shell_vo");
+    Inherit("shellvo_template");
+    Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("DSNAB004", 1.0);
+    }
+}
+
+//The Royal Naboo Security Force is trying to retake 
+//Theed while the bulk of our forces are engaged with the Gungans. 
+//You must hold the city at all costs.
+
+SoundStreamProperties()
+{
+    Name("cis_missionbriefing_nab2");
+    Group("shell_vo");
+    Inherit("shellvo_template");
+    Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("DSNAB001", 1.0);
+    }
+}
+
+//The Wookiees continue to resist our overtures. Now, they will learn
+//the price of their insolence. Take a legion to Kashyyyk and destroy
+//the trade settlement.
+
+SoundStreamProperties()
+{
+    Name("cis_missionbriefing_kas1");
+    Group("shell_vo");
+    Inherit("shellvo_template");
+    Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("DSKAS002", 1.0);
+    }
+}
+
+
+// Yoda
+// -------------
+
+//Prevent the Separatists from leaving the surface, we must. 
+//Concentrate all fire power on the remaining techno union ships.   
+//The ret of your units, to the Great Spire send them. 
+
+SoundStreamProperties()
+{
+    Name("rep_missionbriefing_geo1");
+    Group("shell_vo");
+    Inherit("shellvo_template");
+    Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("YOGEO005", 1.0);
+    }
+}
+
+//On Kamino, our eventual victory depends. 
+//Defend against the Separatist attack or our clones will be lost.
+
+SoundStreamProperties()
+{
+    Name("rep_missionbriefing_kam1");
+    Group("shell_vo");
+    Inherit("shellvo_template");
+    Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("YOKAM004", 1.0);
+    }
+}
+
+//Dooku has begun to set up a long range sensor station on Rhen Var.  
+//Stop them we will, and take this station for our own use.
+
+SoundStreamProperties()
+{
+    Name("rep_missionbriefing_rhn1");
+    Group("shell_vo");
+    Inherit("shellvo_template");
+    Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("YORHN004", 1.0);
+    }
+}
+
+//The Separatists have launched a desperate attack on the Wookiee home world. 
+//We cannot allow this planet to fall into Separatist hands. 
+//Defend Kashyyyk and drive the enemy off the planet.
+
+SoundStreamProperties()
+{
+    Name("rep_missionbriefing_kas1");
+    Group("shell_vo");
+    Inherit("shellvo_template");
+    Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("YOKAS001", 1.0);
+    }
+}
+
+// GCW mission briefings
+
+//Emperor Palpatine
+
+//The rebel scum have holed up on Tatooine.  
+//Perhaps they think they can disappear like sand in the desert.  
+//But I sense their fear.  I can taste their desperation.  
+//Go and find the plans I seek, return them to me and I shall reward you.  
+//Fail, and you will have new definitions for the words pain and suffering.
+
+SoundStreamProperties()
+{
+    Name("imp_missionbriefing_tat1");
+    Group("shell_vo");
+    Inherit("shellvo_template");
+    Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("EPTAT001", 1.0);
+    }
+}
+
+//Local smugglers from Mos Eisley have escaped with the Rebel droids. 
+//It is time to bring Imperial order to Tatooine. 
+//Seize control of Mos Eisley and terminate any who resist.
+
+SoundStreamProperties()
+{
+    Name("imp_missionbriefing_tat2");
+    Group("shell_vo");
+    Inherit("shellvo_template");
+    Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("EPTAT003", 1.0);
+    }
+}
+
+//Our long-standing listening outpost on the high peaks of Rhen Var 
+//is under Rebel attack. This outpost is key to monitoring the 
+//local systems for Rebel activity. Defend the Monitoring 
+//Station from the Rebel attack..
+
+SoundStreamProperties()
+{
+    Name("imp_missionbriefing_rhn1");
+    Group("shell_vo");
+    Inherit("shellvo_template");
+    Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("EPRHN001", 1.0);
+    }
+}
+
+//.
+
+SoundStreamProperties()
+{
+    Name("imp_missionbriefing_yav1");
+    Group("shell_vo");
+    Inherit("shellvo_template");
+    Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("EPYAV010", 1.0);
+    }
+}
+
+// Admiral Ackbar
+// --------------
+
+//The destruction of the Death Star is a tremendous victory.  
+//But several Imperial Garrisons escaped the blast and their escape 
+//pods have crashed on the planet.  
+//They have combined their ranks and are moving on our base to attack.  
+//We must finish off the Imperials before our celebration can trully begin..
+
+SoundStreamProperties()
+{
+    Name("all_missionbriefing_yav1");
+    Group("shell_vo");
+    Inherit("shellvo_template");
+    Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("AAYAV001", 1.0);
+    }
+}
+
+//The Empire has discovered Echo Base. 
+//We must hold off their troops for as long as possible and 
+//protect the shield generator. Delay them until the evacuation is complete..
+
+SoundStreamProperties()
+{
+    Name("all_missionbriefing_hot1");
+    Group("shell_vo");
+    Inherit("shellvo_template");
+    Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("AAHOT001", 1.0);
+    }
+}
+
+//The Empire has left behind many troops to keep control of Cloud City.  
+//We must enter the city and remove the Imperial Presence..
+
+SoundStreamProperties()
+{
+    Name("all_missionbriefing_bes1");
+    Group("shell_vo");
+    Inherit("shellvo_template");
+    Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("AABES002", 1.0);
+    }
+}
+
+//An Imperial garrison has been left behind to monitor cloud 
+//city's mining operations.  The planets mining operation 
+//is essential to our cause.  We must take back those facilities..
+
+SoundStreamProperties()
+{
+    Name("all_missionbriefing_bes2");
+    Group("shell_vo");
+    Inherit("shellvo_template");
+    Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("AABES007", 1.0);
+    }
+}
+
+//This mission is our last hope to take down the empire.  
+//We have to get the shield generator down so the attack on the 
+//second Death Star can succeed.  Good luck, and may the force be with you.
+
+SoundStreamProperties()
+{
+    Name("all_missionbriefing_end1");
+    Group("shell_vo");
+    Inherit("shellvo_template");
+    Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("AAEND002", 1.0);
+    }
+}
+
+//-----------------------------------------------------------------------------
+// General Metagame Voiceovers
+
+// --- Choose a planet to attack -----------------------------------
+
+SoundStreamProperties()
+{
+    Name("all_planet_select"); // select a planet to attack
+	Group("shell_vo");
+	Inherit("shellvo_template");
+	Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("AOCOM069", 0.5); // choose a planet to attack
+        Segment("AOCOM070", 0.5); // select a planet to attack
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("imp_planet_select"); // select a planet to attack
+	Group("shell_vo");
+	Inherit("shellvo_template");
+	Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("IOMET002", 0.5); // choose a planet to attack
+        Segment("IOMET003", 0.5); // select a planet to attack
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("cis_planet_select"); // select a planet to attack
+	Group("shell_vo");
+	Inherit("shellvo_template");
+	Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("COCOM077", 0.5); // choose a planet to attack
+        Segment("COCOM078", 0.5); // select a planet to attack
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("rep_planet_select"); // select a planet to attack
+	Group("shell_vo");
+	Inherit("shellvo_template");
+	Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("ROCOM049", 0.5); // choose a planet to attack
+        Segment("ROCOM050", 0.5); // select a planet to attack
+    }
+}
+
+//-----------------------------------------------------------------------------
+
+// ----- Alliance Choose Planet Rollover -----
+
+SoundStreamProperties()
+{
+    Name("all_bes_select"); // Bespin rollover
+	Group("shell_vo");
+	Inherit("shellvo_template");
+	Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("AOCOM073", 1.0); // Bespin
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("all_end_select"); // Endor rollover
+	Group("shell_vo");
+	Inherit("shellvo_template");
+	Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("AOCOM072", 1.0); // Endor
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("all_kas_select"); // Kashyyyk rollover
+	Group("shell_vo");
+	Inherit("shellvo_template");
+	Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("AOCOM075", 1.0); // Kashyyyk
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("all_nab_select"); // Naboo rollover
+	Group("shell_vo");
+	Inherit("shellvo_template");
+	Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("AOCOM076", 1.0); // Naboo
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("all_rhn_select"); // Rhen Var rollover
+	Group("shell_vo");
+	Inherit("shellvo_template");
+	Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("AOCOM077", 1.0); // Rhen Var
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("all_tat_select"); // Tatooine rollover
+	Group("shell_vo");
+	Inherit("shellvo_template");
+	Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("AOCOM074", 1.0); // Tatootine
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("all_yav_select"); // Yavin rollover
+	Group("shell_vo");
+	Inherit("shellvo_template");
+	Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("AOCOM078", 1.0); // Yavin
+    }
+}
+
+
+// ----- Planet Selected -----
+// triggers choose a bonus to activate
+
+SoundStreamProperties()
+{
+    Name("all_bonus_select"); // Select a bonus to activate
+	Group("shell_vo");
+	Inherit("shellvo_template");
+	Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("AOCOM129", 0.2); // Choose a bonus to activate
+		Segment("AOCOM130", 0.2); // Select a bonus to activate
+		Segment("AOCOM192", 0.2); // Choose a planetary bonus
+		Segment("AOCOM193", 0.2); // Activate a planetary bonus
+		Segment("AOCOM194", 0.2); // Choose a planetary bonus to activate
+    }
+}
+
+// ----- Bonus Rollover ---------
+
+SoundStreamProperties()
+{
+    Name("all_bes_bonus"); // Bespin/Sabotage Bonus Rollover
+	Group("shell_vo");
+	Inherit("shellvo_template");
+	Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("AOCOM128", 1.0); // Sabotage
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("all_hot_bonus"); // Hoth/Rebellion Factional Bonus Rollover
+	Group("shell_vo");
+	Inherit("shellvo_template");
+	Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("AOCOM121", 1.0); // Rebel Uprising
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("all_kas_bonus"); // Kashyyyk/Reinforcements Bonus Rollover
+	Group("shell_vo");
+	Inherit("shellvo_template");
+	Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("AOCOM126", 1.0); // Secondary reinforcements
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("all_nab_bonus"); // Naboo bonus Rollover
+	Group("shell_vo");
+	Inherit("shellvo_template");
+	Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("AOCOM124", 1.0); // Bacta Tanks
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("all_rhe_bonus"); // Rhen Var bonus rollover
+	Group("shell_vo");
+	Inherit("shellvo_template");
+	Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("AOCOM125", 1.0); // Orbital Sensors
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("all_tat_bonus"); // Tatooine bonus rollover
+	Group("shell_vo");
+	Inherit("shellvo_template");
+	Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("AOCOM127", 1.0); // Jedi hero
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("all_yav_bonus"); // Yavin bonus rollover
+	Group("shell_vo");
+	Inherit("shellvo_template");
+	Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("AOMET062", 1.0); // Elite Training
+    }
+}
+
+// ----- Bonus selected -----
+// ----- Prepare for battle/summary ---------
+// Bespin
+SoundStreamProperties()
+{
+    Name("all_bes_attack"); // Bespin Attackers
+	Group("shell_vo");
+	Inherit("shellvo_template");
+	Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("AOCOM093", 1.0); // Attack
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("all_bes_defend"); // Bespin Defenders
+	Group("shell_vo");
+	Inherit("shellvo_template");
+	Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("AOCOM096", 1.0); // Defend Bespin
+    }
+}
+
+// Endor
+SoundStreamProperties()
+{
+    Name("all_end_attack"); // Endor Attackers
+	Group("shell_vo");
+	Inherit("shellvo_template");
+	Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("AOCOM093", 1.0); // Attack
+    }
+}
+// Alliance do not defend endor
+
+// Hoth
+// Alliance do not attack Hoth
+
+SoundStreamProperties()
+{
+    Name("all_hot_defend"); // Hoth Defenders
+	Group("shell_vo");
+	Inherit("shellvo_template");
+	Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("AOCOM095", 1.0); // Defend Hoth
+    }
+}
+
+// Kashyyyk
+SoundStreamProperties()
+{
+    Name("all_kas_attack"); // Kashyyyk Attackers
+	Group("shell_vo");
+	Inherit("shellvo_template");
+	Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("AOCOM093", 1.0); // Attack
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("all_kas_defend"); // Kashyyyk Defenders
+	Group("shell_vo");
+	Inherit("shellvo_template");
+	Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("AOCOM098", 1.0); // Defend Kashyyyk
+    }
+}
+
+// Naboo
+SoundStreamProperties()
+{
+    Name("all_nab_attack"); // Naboo Attackers
+	Group("shell_vo");
+	Inherit("shellvo_template");
+	Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("AOCOM093", 1.0); // Attack
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("all_nab_defend"); // Naboo Defenders
+	Group("shell_vo");
+	Inherit("shellvo_template");
+	Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("AOCOM099", 1.0); // Defend Naboo
+    }
+}
+
+// Rhen Var
+SoundStreamProperties()
+{
+    Name("all_rhn_attack"); // Rhen Var Attackers
+	Group("shell_vo");
+	Inherit("shellvo_template");
+	Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("AOCOM093", 1.0); // Attack
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("all_rhn_defend"); // Rhen Var Defenders
+	Group("shell_vo");
+	Inherit("shellvo_template");
+	Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("AOCOM100", 1.0); // Defend Rhen Var
+    }
+}
+
+// Tatooine
+SoundStreamProperties()
+{
+    Name("all_tat_attack"); // Tatooine Attackers
+	Group("shell_vo");
+	Inherit("shellvo_template");
+	Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("AOCOM093", 1.0); // Attack
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("all_tat_defend"); // Tatooine Defenders
+	Group("shell_vo");
+	Inherit("shellvo_template");
+	Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("AOCOM097", 1.0); // Defend Tatooine
+    }
+}
+
+// Yavin
+SoundStreamProperties()
+{
+    Name("all_yav_attack"); // Yavin Attackers
+	Group("shell_vo");
+	Inherit("shellvo_template");
+	Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("AOCOM093", 1.0); // Attack
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("all_yav_defend"); // Yavin Defenders
+	Group("shell_vo");
+	Inherit("shellvo_template");
+	Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("AOCOM101", 1.0); // Defend Yavin
+    }
+}
+
+
+//-----------------------------------------------------------------------------
+// ----- CIS Choose Planet Rollover -----
+
+SoundStreamProperties()
+{
+    Name("cis_bes_select"); // Bespin rollover
+	Group("shell_vo");
+	Inherit("shellvo_template");
+	Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("COCOM081", 1.0); // Bespin
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("cis_kam_select"); Kamino rollover
+	Group("shell_vo");
+	Inherit("shellvo_template");
+	Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("COCOM080", 1.0); // Kamino
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("cis_kas_select"); // Kashyyyk rollover
+	Group("shell_vo");
+	Inherit("shellvo_template");
+	Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("COCOM083", 1.0); // Kashyyyk
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("cis_nab_select"); // Naboo rollover
+	Group("shell_vo");
+	Inherit("shellvo_template");
+	Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("COCOM084", 1.0); // Naboo
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("cis_rhn_select"); // Rhen Var rollover
+	Group("shell_vo");
+	Inherit("shellvo_template");
+	Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("COCOM085", 1.0); // Rhen Var
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("cis_tat_select"); // Tatooine rollover
+	Group("shell_vo");
+	Inherit("shellvo_template");
+	Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("COCOM082", 1.0); // Tatooine
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("cis_yav_select"); // Yavin rollover
+	Group("shell_vo");
+	Inherit("shellvo_template");
+	Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("COCOM086", 1.0); // Yavin
+    }
+}
+
+// ----- Planet Selected -----
+// triggers choose a bonus to activate
+
+SoundStreamProperties()
+{
+    Name("cis_bonus_select"); // Select a bonus to activate
+	Group("shell_vo");
+	Inherit("shellvo_template");
+	Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("COCOM138", 0.2); // Choose a bonus to activate
+		Segment("COCOM139", 0.2); // Select a bonus to activate
+        Segment("COMET218", 0.2); // Choose a planetary bonus
+		Segment("COMET219", 0.2); // Activate a planetary bonus
+		Segment("COMET220", 0.2); // Choose a planetary bonus to activate
+    }
+}
+
+// ----- Bonus Rollover ---------
+
+SoundStreamProperties()
+{
+    Name("cis_bes_bonus"); // Bespin bonus rollover
+	Group("shell_vo");
+	Inherit("shellvo_template");
+	Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("COCOM137", 1.0); // Sabotage
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("cis_kas_bonus"); // Kashyyyk bonus rollover
+  	Group("shell_vo");
+	Inherit("shellvo_template");
+	Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("COCOM135", 1.0); // Secondary Reinforcements
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("cis_nab_bonus"); // Naboo bonus rollover
+	Group("shell_vo");
+	Inherit("shellvo_template");
+	Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("COCOM133", 1.0); // Bacta tanks
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("cis_rhe_bonus"); // Rhen Var rollover
+	Group("shell_vo");
+	Inherit("shellvo_template");
+	Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("COCOM134", 1.0); // Orbital sensors
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("cis_tat_bonus"); // Tatooine rollover
+	Group("shell_vo");
+	Inherit("shellvo_template");
+	Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("COCOM136", 1.0); // Jedi Hero
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("cis_yav_bonus"); // Advanced training selected
+	Group("shell_vo");
+	Inherit("shellvo_template");
+	Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("COMET298", 1.0); // Elite Training
+    }
+}
+
+// ----- Bonus selected -----
+// ----- Prepare for battle/summary ---------
+// Bespin
+SoundStreamProperties()
+{
+    Name("cis_bes_attack"); // Bespin Attackers
+	Group("shell_vo");
+	Inherit("shellvo_template");
+	Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("COCOM102", 1.0); // Attack
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("cis_bes_defend"); // Bespin Defenders
+	Group("shell_vo");
+	Inherit("shellvo_template");
+	Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("COCOM105", 1.0); // Defend Bespin
+    }
+}
+
+// Geonosis
+// CIS do not attack Geonosis
+
+SoundStreamProperties()
+{
+    Name("cis_geo_defend"); // Geonosis Defenders
+	Group("shell_vo");
+	Inherit("shellvo_template");
+	Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("COCOM104", 1.0); // Defend Geonosis
+    }
+}
+
+// Kamino
+// CIS do not defend Kamino
+SoundStreamProperties()
+{
+    Name("cis_kam_attack"); // Kamino Attackers
+	Group("shell_vo");
+	Inherit("shellvo_template");
+	Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("COCOM102", 1.0); // Attack
+    }
+}
+
+// Kashyyyk
+SoundStreamProperties()
+{
+    Name("cis_kas_attack"); // Kashyyyk Attackers
+	Group("shell_vo");
+	Inherit("shellvo_template");
+	Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("COCOM102", 1.0); // Attack
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("cis_kas_defend"); // Kashyyyk Defenders
+	Group("shell_vo");
+	Inherit("shellvo_template");
+	Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("COCOM107", 1.0); // Defend Kashyyyk
+    }
+}
+
+// Naboo
+SoundStreamProperties()
+{
+    Name("cis_nab_attack"); // Naboo Attackers
+	Group("shell_vo");
+	Inherit("shellvo_template");
+	Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("COCOM102", 1.0); // Attack
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("cis_nab_defend"); // Naboo Defenders
+	Group("shell_vo");
+	Inherit("shellvo_template");
+	Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("COCOM108", 1.0); // Defend Naboo
+    }
+}
+
+// Rhen Var
+SoundStreamProperties()
+{
+    Name("cis_rhn_attack"); // Rhen Var Attackers
+	Group("shell_vo");
+	Inherit("shellvo_template");
+	Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("COCOM102", 1.0); // Attack
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("cis_rhn_defend"); // Rhen Var Defenders
+	Group("shell_vo");
+	Inherit("shellvo_template");
+	Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("COCOM109", 1.0); // Defend Rhen Var
+    }
+}
+
+// Tatooine
+SoundStreamProperties()
+{
+    Name("cis_tat_attack"); // Tatooine Attackers
+	Group("shell_vo");
+	Inherit("shellvo_template");
+	Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("COCOM102", 1.0); // Attack
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("cis_tat_defend"); // Tatooine Defenders
+	Group("shell_vo");
+	Inherit("shellvo_template");
+	Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("COCOM106", 1.0); // Defend Tatooine
+    }
+}
+
+// Yavin
+SoundStreamProperties()
+{
+    Name("cis_yav_attack"); // Yavin Attackers
+	Group("shell_vo");
+	Inherit("shellvo_template");
+	Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("COCOM102", 1.0); // Attack
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("cis_yav_defend"); // Yavin Defenders
+	Group("shell_vo");
+	Inherit("shellvo_template");
+	Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("COCOM110", 1.0); // Defend Naboo
+    }
+}
+
+//-----------------------------------------------------------------------------
+// Empire Metagame Voiceovers
+
+SoundStreamProperties()
+{
+    Name("imp_bes_select");  // Bespin rollover
+	Group("shell_vo");
+	Inherit("shellvo_template");
+	Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("IOMET006", 1.0); // Bespin
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("imp_hot_select"); // Hoth rollover
+	Group("shell_vo");
+	Inherit("shellvo_template");
+	Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("IOMET004", 1.0);  // Hoth
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("imp_kas_select"); // Kashyyyk rollover
+  	Group("shell_vo");
+	Inherit("shellvo_template");
+	Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("IOMET008", 1.0); // Kashyyyk
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("imp_nab_select"); // Naboo rollover
+	Group("shell_vo");
+	Inherit("shellvo_template");
+	Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("IOMET009", 1.0); // Naboo
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("imp_end_bonus"); // Endor bonus rollover
+	Group("shell_vo");
+	Inherit("shellvo_template");
+	Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("IOMET005", 1.0); // Endor
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("imp_rhn_select");  // Rhen Var rollover
+	Group("shell_vo");
+	Inherit("shellvo_template");
+	Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("IOMET010", 1.0);  // Rhen Var
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("imp_tat_select");  // Tatooine rollover
+	Group("shell_vo");
+	Inherit("shellvo_template");
+	Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("IOMET007", 1.0); // Tatooine
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("imp_yav_select"); // Yavin rollover
+	Group("shell_vo");
+	Inherit("shellvo_template");
+	Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("IOMET011", 1.0); // Yavin
+    }
+}
+
+// ----- Planet Selected -----
+// triggers choose a bonus to activate
+
+SoundStreamProperties()
+{
+    Name("imp_bonus_select"); // Select a bonus to activate
+	Group("shell_vo");
+	Inherit("shellvo_template");
+	Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("IOMET062", 0.167); // Choose a bonus to activate
+        Segment("IOMET063", 0.167); // Select a bonus to activate
+		Segment("IOMET064", 0.167); // Activate bonus
+		Segment("IOMET125", 0.167); // Choose a planetary bonus
+		Segment("IOMET126", 0.167); // Activate a planetary bonus
+		Segment("IOMET127", 0.167); // Choose a planetary bonus to activate
+    }
+}
+
+// ----- Bonus Rollover ---------
+
+SoundStreamProperties()
+{
+    Name("imp_bes_bonus");  // Bespin bonus rollover
+	Group("shell_vo");
+	Inherit("shellvo_template");
+	Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("IOMET061", 1.0); // Sabotage
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("imp_kas_bonus"); // Kashyyyk bonus rollover
+	Group("shell_vo");
+	Inherit("shellvo_template");
+	Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("IOMET059", 1.0); // Secondary Reinforcements
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("imp_nab_bonus");  // Naboo bonus rollover
+	Group("shell_vo");
+	Inherit("shellvo_template");
+	Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("IOMET057", 1.0); // Bacta tanks
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("imp_rhe_bonus"); // Rhen Var bonus rollover
+ 	Group("shell_vo");
+	Inherit("shellvo_template");
+	Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("IOMET058", 1.0); // Orbital sensors
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("imp_tat_bonus");  // Tatooine bonus rollover
+	Group("shell_vo");
+	Inherit("shellvo_template");
+	Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("IOMET060", 1.0); // Jedi Hero
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("imp_yav_bonus"); // Yavin bonus rollover
+ 	Group("shell_vo");
+	Inherit("shellvo_template");
+	Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("IOMET192", 1.0); // Elite training
+    }
+}
+
+// ----- Bonus selected -----
+// ----- Prepare for battle/summary ---------
+// Bespin
+SoundStreamProperties()
+{
+    Name("imp_bes_attack"); // Bespin Attackers
+	Group("shell_vo");
+	Inherit("shellvo_template");
+	Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("IOMET026", 1.0); // Attack
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("imp_bes_defend"); // Bespin Defenders
+	Group("shell_vo");
+	Inherit("shellvo_template");
+	Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("IOMET029", 1.0); // Defend Bespin
+    }
+}
+
+// Endor
+// Empire does not attack Endor
+SoundStreamProperties()
+{
+    Name("imp_end_defend"); // Endor Defenders
+	Group("shell_vo");
+	Inherit("shellvo_template");
+	Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("IOMET028", 1.0); // Defend Endor
+    }
+}
+
+// Hoth
+// Empire does not defend Hoth
+SoundStreamProperties()
+{
+    Name("imp_hot_attack"); // Hoth Attackers
+	Group("shell_vo");
+	Inherit("shellvo_template");
+	Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("IOMET026", 1.0); // Attack
+    }
+}
+
+// Kashyyyk
+SoundStreamProperties()
+{
+    Name("imp_kas_attack"); // Kashyyyk Attackers
+	Group("shell_vo");
+	Inherit("shellvo_template");
+	Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("IOMET026", 1.0); // Attack
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("imp_kas_defend"); // Kashyyyk Defenders
+	Group("shell_vo");
+	Inherit("shellvo_template");
+	Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("IOMET031", 1.0); // Defend Kashyyyk
+    }
+}
+
+// Naboo
+SoundStreamProperties()
+{
+    Name("imp_nab_attack"); // Naboo Attackers
+	Group("shell_vo");
+	Inherit("shellvo_template");
+	Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("IOMET026", 1.0); // Attack
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("imp_nab_defend"); // Naboo Defenders
+	Group("shell_vo");
+	Inherit("shellvo_template");
+	Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("IOMET032", 1.0); // Defend Naboo
+    }
+}
+
+// Rhen Var
+SoundStreamProperties()
+{
+    Name("imp_rhn_attack"); // Rhen Var Attackers
+	Group("shell_vo");
+	Inherit("shellvo_template");
+	Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("IOMET026", 1.0); // Attack
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("imp_rhn_defend"); // Rhen Var Defenders
+	Group("shell_vo");
+	Inherit("shellvo_template");
+	Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("IOMET033", 1.0); // Defend Rhen Var
+    }
+}
+
+// Tatooine
+SoundStreamProperties()
+{
+    Name("imp_tat_attack"); // Tatooine Attackers
+	Group("shell_vo");
+	Inherit("shellvo_template");
+	Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("IOMET026", 1.0); // Attack
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("imp_tat_defend"); // Tatooine Defenders
+	Group("shell_vo");
+	Inherit("shellvo_template");
+	Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("IOMET030", 1.0); // Defend Tatooine
+    }
+}
+
+// Yavin
+SoundStreamProperties()
+{
+    Name("imp_yav_attack"); // Yavin Attackers
+	Group("shell_vo");
+	Inherit("shellvo_template");
+	Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("IOMET026", 1.0); // Attack
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("imp_yav_defend"); // Yavin Defenders
+	Group("shell_vo");
+	Inherit("shellvo_template");
+	Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("IOMET034", 1.0); // Defend Yavin
+    }
+}
+//-----------------------------------------------------------------------------
+// Republic Metagame Voiceovers
+
+// Select Planet
+
+SoundStreamProperties()
+{
+    Name("rep_bes_select"); // Bespin rollover
+	Group("shell_vo");
+	Inherit("shellvo_template");
+	Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("ROCOM053", 1.0); // Bespin
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("rep_geo_select"); // Geonosis rollover
+	Group("shell_vo");
+	Inherit("shellvo_template");
+	Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("ROCOM051", 1.0); // Geonosis
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("rep_kas_select"); // Kashyyyk rollover
+	Group("shell_vo");
+	Inherit("shellvo_template");
+	Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("ROCOM055", 1.0); // Kashyyyk
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("rep_nab_select"); // Naboo rollover
+	Group("shell_vo");
+	Inherit("shellvo_template");
+	Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("ROCOM056", 1.0); // Naboo
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("rep_rhn_select"); // Rhen Var rollover
+	Group("shell_vo");
+	Inherit("shellvo_template");
+	Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("ROCOM057", 1.0); // Rhen Var
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("rep_tat_select"); // Tatooine rollover
+	Group("shell_vo");
+	Inherit("shellvo_template");
+	Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("ROCOM054", 1.0); // Tatooine
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("rep_yav_select"); // Yavin rollover
+	Group("shell_vo");
+	Inherit("shellvo_template");
+	Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("ROCOM058", 1.0); // Yavin
+    }
+}
+
+// ----- Planet Selected -----
+// triggers choose a bonus to activate
+
+SoundStreamProperties()
+{
+    Name("rep_bonus_select"); // Select a bonus to activate
+	Group("shell_vo");
+	Inherit("shellvo_template");
+	Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("ROCOM112", 0.167); // Choose a bonus to activate
+        Segment("ROCOM113", 0.167); // Select a bonus to activate
+		Segment("ROCOM114", 0.167); // Activate bonus
+		Segment("ROCOM192", 0.167); // Choose a planetary bonus
+		Segment("ROCOM193", 0.167); // Activate a planetary bonus
+		Segment("ROCOM194", 0.167); // Choose a planetary bonus to activate
+    }
+}
+
+// ----- Bonus Rollover ---------
+
+SoundStreamProperties()
+{
+    Name("rep_bes_bonus"); // Bespin bonus rollover
+	Group("shell_vo");
+	Inherit("shellvo_template");
+	Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("ROCOM111", 1.0); // Sabotage
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("rep_kas_bonus"); // Kashyyyk bonus rollover
+	Group("shell_vo");
+	Inherit("shellvo_template");
+	Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("ROCOM109", 1.0); // Secondary Reinforcements
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("rep_nab_bonus"); // Naboo bonus rollover
+	Group("shell_vo");
+	Inherit("shellvo_template");
+	Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("ROCOM107", 1.0); // Bacta Tanks
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("rep_rhe_bonus"); // Rhen Var bonus rollover
+	Group("shell_vo");
+	Inherit("shellvo_template");
+	Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("ROCOM108", 1.0); // Orbital Sensors
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("rep_tat_bonus"); // Tatooine bonus rollover
+	Group("shell_vo");
+	Inherit("shellvo_template");
+	Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("ROCOM110", 1.0); // Jedi hero
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("rep_yav_bonus"); // Yavin bonus rollover
+	Group("shell_vo");
+	Inherit("shellvo_template");
+	Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("ROMET091", 1.0); // Elite Training
+    }
+}
+
+// ----- Bonus selected -----
+// ----- Prepare for battle/summary ---------
+// Bespin
+SoundStreamProperties()
+{
+    Name("rep_bes_attack"); // Bespin Attackers
+	Group("shell_vo");
+	Inherit("shellvo_template");
+	Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("ROCOM074", 1.0); // Attack
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("rep_bes_defend"); // Bespin Defenders
+	Group("shell_vo");
+	Inherit("shellvo_template");
+	Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("ROCOM077", 1.0); // Defend Bespin
+    }
+}
+
+// Geonosis
+// Republic do not defend Geonosis
+SoundStreamProperties()
+{
+    Name("rep_geo_attack"); // Geonosis Attackers
+	Group("shell_vo");
+	Inherit("shellvo_template");
+	Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("ROCOM074", 1.0); // Attack
+    }
+}
+
+// Kamino
+// Republic do not attack Kamino
+SoundStreamProperties()
+{
+    Name("rep_kam_defend"); // Kamino Defenders
+	Group("shell_vo");
+	Inherit("shellvo_template");
+	Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("ROCOM076", 1.0); // Defend Kamino
+    }
+}
+
+// Kashyyyk
+SoundStreamProperties()
+{
+    Name("rep_kas_attack"); // Kashyyyk Attackers
+	Group("shell_vo");
+	Inherit("shellvo_template");
+	Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("ROCOM074", 1.0); // Attack
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("rep_kas_defend"); // Kashyyyk Defenders
+	Group("shell_vo");
+	Inherit("shellvo_template");
+	Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("ROCOM079", 1.0); // Defend Kashyyyk
+    }
+}
+
+// Naboo
+SoundStreamProperties()
+{
+    Name("rep_nab_attack"); // Naboo Attackers
+	Group("shell_vo");
+	Inherit("shellvo_template");
+	Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("ROCOM074", 1.0); // Attack
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("rep_nab_defend"); // Naboo Defenders
+	Group("shell_vo");
+	Inherit("shellvo_template");
+	Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("ROCOM080", 1.0); // Defend Naboo
+    }
+}
+
+// Rhen Var
+SoundStreamProperties()
+{
+    Name("rep_rhn_attack"); // Rhen Var Attackers
+	Group("shell_vo");
+	Inherit("shellvo_template");
+	Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("ROCOM074", 1.0); // Attack
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("rep_rhn_defend"); // Rhen Var Defenders
+	Group("shell_vo");
+	Inherit("shellvo_template");
+	Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("ROCOM081", 1.0); // Defend Rhen Var
+    }
+}
+
+// Tatooine
+SoundStreamProperties()
+{
+    Name("rep_tat_attack"); // Tatooine Attackers
+	Group("shell_vo");
+	Inherit("shellvo_template");
+	Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("ROCOM074", 1.0); // Attack
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("rep_tat_defend"); // Tatooine Defenders
+	Group("shell_vo");
+	Inherit("shellvo_template");
+	Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("ROCOM078", 1.0); // Defend Tatooine
+    }
+}
+
+// Yavin
+SoundStreamProperties()
+{
+    Name("rep_yav_attack"); // Yavin Attackers
+	Group("shell_vo");
+	Inherit("shellvo_template");
+	Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("ROCOM074", 1.0); // Attack
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("rep_yav_defend"); // Yavin Defenders
+	Group("shell_vo");
+	Inherit("shellvo_template");
+	Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("ROCOM082", 1.0); // Defend Yavin
+    }
+}
+/////////////////////////////////
+////////War status Meta game VO
+/////////////////////////////////
+
+////////////
+//BESPIN
+////////////
+
+SoundStreamProperties()
+{
+    Name("all_won_bes1");  
+	Group("shell_vo");
+	Inherit("shellvo_template");
+	Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("AOCOM183", 1.0);
+        Segment("AOMET003", 1.0);
+        Segment("AOMET004", 1.0); 
+    }
+}
+SoundStreamProperties()
+{
+    Name("all_lost_bes1");  
+	Group("shell_vo");
+	Inherit("shellvo_template");
+	Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("AOMET002", 1.0); 
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("imp_won_bes1");  
+	Group("shell_vo");
+	Inherit("shellvo_template");
+	Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("IOMET116", 1.0);
+        Segment("IOMET134", 1.0);
+    }
+}
+SoundStreamProperties()
+{
+    Name("imp_lost_bes1");  
+	Group("shell_vo");
+	Inherit("shellvo_template");
+	Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("IOMET136", 1.0); 
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("rep_won_bes1");  
+	Group("shell_vo");
+	Inherit("shellvo_template");
+	Stream("shell_vo");
+    SegmentList()
+    {
+    	Segment("ROCOM156", 1.0);
+        Segment("ROCOM152", 1.0);
+        Segment("ROMET002", 1.0);
+ 
+    }
+}
+SoundStreamProperties()
+{
+    Name("rep_lost_bes1");  
+	Group("shell_vo");
+	Inherit("shellvo_template");
+	Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("ROMET003", 1.0);
+        Segment("ROMET004", 1.0); 
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("cis_won_bes1");  
+	Group("shell_vo");
+	Inherit("shellvo_template");
+	Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("COCOM178", 1.0);
+        Segment("COMET228", 1.0); 
+    }
+}
+SoundStreamProperties()
+{
+    Name("cis_lost_bes1");  
+	Group("shell_vo");
+	Inherit("shellvo_template");
+	Stream("shell_vo");
+    SegmentList()
+    {
+    	Segment("COCOM181", 1.0);
+        Segment("COMET227", 1.0);
+        Segment("COMET230", 1.0); 
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("all_won_bes2");  
+	Group("shell_vo");
+	Inherit("shellvo_template");
+	Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("AOCOM183", 1.0);
+        Segment("AOMET003", 1.0);
+        Segment("AOMET004", 1.0); 
+    }
+}
+SoundStreamProperties()
+{
+    Name("all_lost_bes2");  
+	Group("shell_vo");
+	Inherit("shellvo_template");
+	Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("AOMET002", 1.0); 
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("imp_won_bes2");  
+	Group("shell_vo");
+	Inherit("shellvo_template");
+	Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("IOMET116", 1.0);
+        Segment("IOMET134", 1.0); 
+    }
+}
+SoundStreamProperties()
+{
+    Name("imp_lost_bes2");  
+	Group("shell_vo");
+	Inherit("shellvo_template");
+	Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("IOMET136", 1.0); 
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("rep_won_bes2");  
+	Group("shell_vo");
+	Inherit("shellvo_template");
+	Stream("shell_vo");
+    SegmentList()
+    {
+    	Segment("ROCOM156", 1.0);
+        Segment("ROCOM152", 1.0);
+        Segment("ROMET002", 1.0); 
+    }
+}
+SoundStreamProperties()
+{
+    Name("rep_lost_bes2");  
+	Group("shell_vo");
+	Inherit("shellvo_template");
+	Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("ROMET003", 1.0);
+        Segment("ROMET004", 1.0); 
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("cis_won_bes2");  
+	Group("shell_vo");
+	Inherit("shellvo_template");
+	Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("COCOM178", 1.0);
+        Segment("COMET228", 1.0); 
+    }
+}
+SoundStreamProperties()
+{
+    Name("cis_lost_bes2");  
+	Group("shell_vo");
+	Inherit("shellvo_template");
+	Stream("shell_vo");
+    SegmentList()
+    {
+    	Segment("COCOM181", 1.0);
+        Segment("COMET227", 1.0);
+        Segment("COMET230", 1.0); 
+    }
+}
+
+////////////
+//ENDOR
+////////////
+
+SoundStreamProperties()
+{
+    Name("all_won_end1");  
+	Group("shell_vo");
+	Inherit("shellvo_template");
+	Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("AOCOM183", 1.0);
+        Segment("AOMET003", 1.0);
+        Segment("AOMET004", 1.0); 
+    }
+}
+SoundStreamProperties()
+{
+    Name("all_lost_end1");  
+	Group("shell_vo");
+	Inherit("shellvo_template");
+	Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("AOMET002", 1.0); 
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("imp_won_end1");  
+	Group("shell_vo");
+	Inherit("shellvo_template");
+	Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("IOMET116", 1.0);
+        Segment("IOMET134", 1.0); 
+    }
+}
+SoundStreamProperties()
+{
+    Name("imp_lost_end1");  
+	Group("shell_vo");
+	Inherit("shellvo_template");
+	Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("IOMET077", 1.0);
+        Segment("IOMET136", 1.0);
+    }
+}
+
+/////////
+//GEONOSIS
+/////////
+
+SoundStreamProperties()
+{
+    Name("rep_won_geo1");  
+	Group("shell_vo");
+	Inherit("shellvo_template");
+	Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("ROCOM154", 1.0);
+        Segment("ROCOM152", 1.0);
+        Segment("ROMET002", 1.0); 
+    }
+}
+SoundStreamProperties()
+{
+    Name("rep_lost_geo1");  
+	Group("shell_vo");
+	Inherit("shellvo_template");
+	Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("ROMET003", 1.0);
+        Segment("ROMET004", 1.0); 
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("cis_won_geo1");  
+	Group("shell_vo");
+	Inherit("shellvo_template");
+	Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("COCOM178", 1.0);
+        Segment("COMET228", 1.0); 
+    }
+}
+SoundStreamProperties()
+{
+    Name("cis_lost_geo1");  
+	Group("shell_vo");
+	Inherit("shellvo_template");
+	Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("COCOM153", 1.0);
+        Segment("COMET227", 1.0);
+        Segment("COMET230", 1.0); 
+    }
+}
+
+////////////
+//HOTH
+////////////
+
+SoundStreamProperties()
+{
+    Name("all_won_hot1");  
+	Group("shell_vo");
+	Inherit("shellvo_template");
+	Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("AOCOM183", 1.0);
+        Segment("AOMET003", 1.0);
+        Segment("AOMET004", 1.0); 
+    }
+}
+SoundStreamProperties()
+{
+    Name("all_lost_hot1");  
+	Group("shell_vo");
+	Inherit("shellvo_template");
+	Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("AOCOM144", 1.0);
+        Segment("AOMET002", 1.0); 
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("imp_won_hot1");  
+	Group("shell_vo");
+	Inherit("shellvo_template");
+	Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("IOMET116", 1.0);
+        Segment("IOMET134", 1.0); 
+    }
+}
+SoundStreamProperties()
+{
+    Name("imp_lost_hot1");  
+	Group("shell_vo");
+	Inherit("shellvo_template");
+	Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("IOMET136", 1.0); 
+    }
+}
+
+/////////
+//KAMINO
+/////////
+
+SoundStreamProperties()
+{
+    Name("rep_won_kam1");  
+	Group("shell_vo");
+	Inherit("shellvo_template");
+	Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("ROCOM152", 1.0);
+        Segment("ROMET002", 1.0); 
+    }
+}
+SoundStreamProperties()
+{
+    Name("rep_lost_kam1");  
+	Group("shell_vo");
+	Inherit("shellvo_template");
+	Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("ROCOM127", 1.0);
+        Segment("ROMET003", 1.0);
+        Segment("ROMET004", 1.0); 
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("cis_won_kam1");  
+	Group("shell_vo");
+	Inherit("shellvo_template");
+	Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("COCOM178", 1.0);
+        Segment("COMET228", 1.0); 
+    }
+}
+SoundStreamProperties()
+{
+    Name("cis_lost_kam1");  
+	Group("shell_vo");
+	Inherit("shellvo_template");
+	Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("COMET227", 1.0);
+        Segment("COMET230", 1.0); 
+    }
+}
+
+/////////
+//KASHYYYK
+/////////
+
+SoundStreamProperties()
+{
+    Name("all_won_kas1");  
+	Group("shell_vo");
+	Inherit("shellvo_template");
+	Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("AOCOM183", 1.0);
+        Segment("AOMET003", 1.0);
+        Segment("AOMET004", 1.0); 
+    }
+}
+SoundStreamProperties()
+{
+    Name("all_lost_kas1");  
+	Group("shell_vo");
+	Inherit("shellvo_template");
+	Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("AOMET002", 1.0); 
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("imp_won_kas1");  
+	Group("shell_vo");
+	Inherit("shellvo_template");
+	Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("IOMET116", 1.0);
+        Segment("IOMET134", 1.0); 
+    }
+}
+SoundStreamProperties()
+{
+    Name("imp_lost_kas1");  
+	Group("shell_vo");
+	Inherit("shellvo_template");
+	Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("IOMET136", 1.0); 
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("rep_won_kas1");  
+	Group("shell_vo");
+	Inherit("shellvo_template");
+	Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("ROCOM160", 1.0);
+        Segment("ROCOM152", 1.0);
+        Segment("ROMET002", 1.0); 
+    }
+}
+SoundStreamProperties()
+{
+    Name("rep_lost_kas1");  
+	Group("shell_vo");
+	Inherit("shellvo_template");
+	Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("ROMET003", 1.0);
+        Segment("ROMET004", 1.0); 
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("cis_won_kas1");  
+	Group("shell_vo");
+	Inherit("shellvo_template");
+	Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("COCOM178", 1.0);
+        Segment("COMET228", 1.0); 
+    }
+}
+SoundStreamProperties()
+{
+    Name("cis_lost_kas1");  
+	Group("shell_vo");
+	Inherit("shellvo_template");
+	Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("COCOM185", 1.0);
+        Segment("COMET227", 1.0);
+        Segment("COMET230", 1.0); 
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("all_won_kas2");  
+	Group("shell_vo");
+	Inherit("shellvo_template");
+	Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("AOCOM183", 1.0);
+        Segment("AOMET003", 1.0);
+        Segment("AOMET004", 1.0); 
+    }
+}
+SoundStreamProperties()
+{
+    Name("all_lost_kas2");  
+	Group("shell_vo");
+	Inherit("shellvo_template");
+	Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("AOMET002", 1.0); 
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("imp_won_kas2");  
+	Group("shell_vo");
+	Inherit("shellvo_template");
+	Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("IOMET116", 1.0);
+        Segment("IOMET134", 1.0); 
+    }
+}
+SoundStreamProperties()
+{
+    Name("imp_lost_kas2");  
+	Group("shell_vo");
+	Inherit("shellvo_template");
+	Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("IOMET136", 1.0); 
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("rep_won_kas2");  
+	Group("shell_vo");
+	Inherit("shellvo_template");
+	Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("ROCOM160", 1.0);
+        Segment("ROCOM152", 1.0);
+        Segment("ROMET002", 1.0); 
+    }
+}
+SoundStreamProperties()
+{
+    Name("rep_lost_kas2");  
+	Group("shell_vo");
+	Inherit("shellvo_template");
+	Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("ROMET003", 1.0);
+        Segment("ROMET004", 1.0); 
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("cis_won_kas2");  
+	Group("shell_vo");
+	Inherit("shellvo_template");
+	Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("COCOM178", 1.0);
+        Segment("COMET228", 1.0); 
+    }
+}
+SoundStreamProperties()
+{
+    Name("cis_lost_kas2");  
+	Group("shell_vo");
+	Inherit("shellvo_template");
+	Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("COCOM185", 1.0);
+        Segment("COMET227", 1.0);
+        Segment("COMET230", 1.0); 
+    }
+}
+
+/////////
+//NABOO
+/////////
+SoundStreamProperties()
+{
+    Name("all_won_nab1");  
+	Group("shell_vo");
+	Inherit("shellvo_template");
+	Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("AOCOM183", 1.0);
+        Segment("AOMET003", 1.0);
+        Segment("AOMET004", 1.0); 
+    }
+}
+SoundStreamProperties()
+{
+    Name("all_lost_nab1");  
+	Group("shell_vo");
+	Inherit("shellvo_template");
+	Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("AOMET002", 1.0); 
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("imp_won_nab1");  
+	Group("shell_vo");
+	Inherit("shellvo_template");
+	Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("IOMET116", 1.0);
+        Segment("IOMET134", 1.0); 
+    }
+}
+SoundStreamProperties()
+{
+    Name("imp_lost_nab1");  
+	Group("shell_vo");
+	Inherit("shellvo_template");
+	Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("IOMET136", 1.0); 
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("rep_won_nab1");  
+	Group("shell_vo");
+	Inherit("shellvo_template");
+	Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("ROCOM162", 1.0);
+        Segment("ROCOM152", 1.0);
+        Segment("ROMET002", 1.0); 
+    }
+}
+SoundStreamProperties()
+{
+    Name("rep_lost_nab1");  
+	Group("shell_vo");
+	Inherit("shellvo_template");
+	Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("ROMET003", 1.0);
+        Segment("ROMET004", 1.0); 
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("cis_won_nab1");  
+	Group("shell_vo");
+	Inherit("shellvo_template");
+	Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("COCOM178", 1.0);
+        Segment("COMET228", 1.0); 
+    }
+}
+SoundStreamProperties()
+{
+    Name("cis_lost_nab1");  
+	Group("shell_vo");
+	Inherit("shellvo_template");
+	Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("COCOM187", 1.0);
+        Segment("COMET227", 1.0);
+        Segment("COMET230", 1.0); 
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("all_won_nab2");  
+	Group("shell_vo");
+	Inherit("shellvo_template");
+	Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("AOCOM183", 1.0);
+        Segment("AOMET003", 1.0);
+        Segment("AOMET004", 1.0); 
+    }
+}
+SoundStreamProperties()
+{
+    Name("all_lost_nab2");  
+	Group("shell_vo");
+	Inherit("shellvo_template");
+	Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("AOMET002", 1.0); 
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("imp_won_nab2");  
+	Group("shell_vo");
+	Inherit("shellvo_template");
+	Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("IOMET116", 1.0);
+        Segment("IOMET134", 1.0); 
+    }
+}
+SoundStreamProperties()
+{
+    Name("imp_lost_nab2");  
+	Group("shell_vo");
+	Inherit("shellvo_template");
+	Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("IOMET136", 1.0); 
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("rep_won_nab2");  
+	Group("shell_vo");
+	Inherit("shellvo_template");
+	Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("ROCOM162", 1.0);
+        Segment("ROCOM152", 1.0);
+        Segment("ROMET002", 1.0); 
+    }
+}
+SoundStreamProperties()
+{
+    Name("rep_lost_nab2");  
+	Group("shell_vo");
+	Inherit("shellvo_template");
+	Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("ROMET003", 1.0);
+        Segment("ROMET004", 1.0); 
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("cis_won_nab2");  
+	Group("shell_vo");
+	Inherit("shellvo_template");
+	Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("COCOM178", 1.0);
+        Segment("COMET228", 1.0); 
+    }
+}
+SoundStreamProperties()
+{
+    Name("cis_lost_nab2");  
+	Group("shell_vo");
+	Inherit("shellvo_template");
+	Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("COCOM187", 1.0);
+        Segment("COMET227", 1.0);
+        Segment("COMET230", 1.0); 
+    }
+}
+
+/////////
+//RHENVAR
+/////////
+SoundStreamProperties()
+{
+    Name("all_won_rhn1");  
+	Group("shell_vo");
+	Inherit("shellvo_template");
+	Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("AOCOM183", 1.0);
+        Segment("AOMET003", 1.0);
+        Segment("AOMET004", 1.0); 
+    }
+}
+SoundStreamProperties()
+{
+    Name("all_lost_rhn1");  
+	Group("shell_vo");
+	Inherit("shellvo_template");
+	Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("AOMET002", 1.0); 
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("imp_won_rhn1");  
+	Group("shell_vo");
+	Inherit("shellvo_template");
+	Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("IOMET116", 1.0);
+        Segment("IOMET134", 1.0); 
+    }
+}
+SoundStreamProperties()
+{
+    Name("imp_lost_rhn1");  
+	Group("shell_vo");
+	Inherit("shellvo_template");
+	Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("IOMET136", 1.0); 
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("rep_won_rhn1");  
+	Group("shell_vo");
+	Inherit("shellvo_template");
+	Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("ROCOM164", 1.0);
+        Segment("ROCOM152", 1.0);
+        Segment("ROMET002", 1.0); 
+    }
+}
+SoundStreamProperties()
+{
+    Name("rep_lost_rhn1");  
+	Group("shell_vo");
+	Inherit("shellvo_template");
+	Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("ROMET003", 1.0);
+        Segment("ROMET004", 1.0); 
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("cis_won_rhn1");  
+	Group("shell_vo");
+	Inherit("shellvo_template");
+	Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("COCOM178", 1.0);
+        Segment("COMET228", 1.0); 
+    }
+}
+SoundStreamProperties()
+{
+    Name("cis_lost_rhn1");  
+	Group("shell_vo");
+	Inherit("shellvo_template");
+	Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("COCOM189", 1.0);
+        Segment("COMET227", 1.0);
+        Segment("COMET230", 1.0); 
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("all_won_rhn2");  
+	Group("shell_vo");
+	Inherit("shellvo_template");
+	Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("AOCOM183", 1.0);
+        Segment("AOMET003", 1.0);
+        Segment("AOMET004", 1.0); 
+    }
+}
+SoundStreamProperties()
+{
+    Name("all_lost_rhn2");  
+	Group("shell_vo");
+	Inherit("shellvo_template");
+	Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("AOMET002", 1.0); 
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("imp_won_rhn2");  
+	Group("shell_vo");
+	Inherit("shellvo_template");
+	Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("IOMET116", 1.0);
+        Segment("IOMET134", 1.0); 
+    }
+}
+SoundStreamProperties()
+{
+    Name("imp_lost_rhn2");  
+	Group("shell_vo");
+	Inherit("shellvo_template");
+	Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("IOMET136", 1.0); 
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("rep_won_rhn2");  
+	Group("shell_vo");
+	Inherit("shellvo_template");
+	Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("ROCOM164", 1.0);
+        Segment("ROCOM152", 1.0);
+        Segment("ROMET002", 1.0); 
+    }
+}
+SoundStreamProperties()
+{
+    Name("rep_lost_rhn2");  
+	Group("shell_vo");
+	Inherit("shellvo_template");
+	Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("ROMET003", 1.0);
+        Segment("ROMET004", 1.0); 
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("cis_won_rhn2");  
+	Group("shell_vo");
+	Inherit("shellvo_template");
+	Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("COCOM178", 1.0);
+        Segment("COMET228", 1.0); 
+    }
+}
+SoundStreamProperties()
+{
+    Name("cis_lost_rhn2");  
+	Group("shell_vo");
+	Inherit("shellvo_template");
+	Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("COCOM189", 1.0);
+        Segment("COMET227", 1.0);
+        Segment("COMET230", 1.0); 
+    }
+}
+
+/////////
+//TATOOINE
+/////////
+SoundStreamProperties()
+{
+    Name("all_won_tat1");  
+	Group("shell_vo");
+	Inherit("shellvo_template");
+	Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("AOCOM183", 1.0);
+        Segment("AOMET003", 1.0);
+        Segment("AOMET004", 1.0); 
+    }
+}
+SoundStreamProperties()
+{
+    Name("all_lost_tat1");  
+	Group("shell_vo");
+	Inherit("shellvo_template");
+	Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("AOMET002", 1.0); 
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("imp_won_tat1");  
+	Group("shell_vo");
+	Inherit("shellvo_template");
+	Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("IOMET116", 1.0);
+        Segment("IOMET134", 1.0); 
+    }
+}
+SoundStreamProperties()
+{
+    Name("imp_lost_tat1");  
+	Group("shell_vo");
+	Inherit("shellvo_template");
+	Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("IOMET136", 1.0); 
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("rep_won_tat1");  
+	Group("shell_vo");
+	Inherit("shellvo_template");
+	Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("ROCOM158", 1.0);
+        Segment("ROCOM152", 1.0);
+        Segment("ROMET002", 1.0); 
+    }
+}
+SoundStreamProperties()
+{
+    Name("rep_lost_tat1");  
+	Group("shell_vo");
+	Inherit("shellvo_template");
+	Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("ROMET003", 1.0);
+        Segment("ROMET004", 1.0); 
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("cis_won_tat1");  
+	Group("shell_vo");
+	Inherit("shellvo_template");
+	Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("COCOM178", 1.0);
+        Segment("COMET228", 1.0); 
+    }
+}
+SoundStreamProperties()
+{
+    Name("cis_lost_tat1");  
+	Group("shell_vo");
+	Inherit("shellvo_template");
+	Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("COCOM183", 1.0);
+        Segment("COMET227", 1.0);
+        Segment("COMET230", 1.0); 
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("all_won_tat2");  
+	Group("shell_vo");
+	Inherit("shellvo_template");
+	Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("AOCOM183", 1.0);
+        Segment("AOMET003", 1.0);
+        Segment("AOMET004", 1.0); 
+    }
+}
+SoundStreamProperties()
+{
+    Name("all_lost_tat2");  
+	Group("shell_vo");
+	Inherit("shellvo_template");
+	Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("AOMET002", 1.0); 
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("imp_won_tat2");  
+	Group("shell_vo");
+	Inherit("shellvo_template");
+	Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("IOMET116", 1.0);
+        Segment("IOMET134", 1.0); 
+    }
+}
+SoundStreamProperties()
+{
+    Name("imp_lost_tat2");  
+	Group("shell_vo");
+	Inherit("shellvo_template");
+	Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("IOMET136", 1.0); 
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("rep_won_tat2");  
+	Group("shell_vo");
+	Inherit("shellvo_template");
+	Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("ROCOM158", 1.0);
+        Segment("ROCOM152", 1.0);
+        Segment("ROMET002", 1.0); 
+    }
+}
+SoundStreamProperties()
+{
+    Name("rep_lost_tat2");  
+	Group("shell_vo");
+	Inherit("shellvo_template");
+	Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("ROMET003", 1.0);
+        Segment("ROMET004", 1.0); 
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("cis_won_tat2");  
+	Group("shell_vo");
+	Inherit("shellvo_template");
+	Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("COCOM178", 1.0);
+        Segment("COMET228", 1.0); 
+    }
+}
+SoundStreamProperties()
+{
+    Name("cis_lost_tat2");  
+	Group("shell_vo");
+	Inherit("shellvo_template");
+	Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("COCOM183", 1.0);
+        Segment("COMET227", 1.0);
+        Segment("COMET230", 1.0); 
+    }
+}
+
+/////////
+//YAVINIV
+/////////
+SoundStreamProperties()
+{
+    Name("all_won_yav1");  
+	Group("shell_vo");
+	Inherit("shellvo_template");
+	Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("AOCOM183", 1.0);
+        Segment("AOMET003", 1.0);
+        Segment("AOMET004", 1.0); 
+    }
+}
+SoundStreamProperties()
+{
+    Name("all_lost_yav1");  
+	Group("shell_vo");
+	Inherit("shellvo_template");
+	Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("AOMET002", 1.0); 
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("imp_won_yav1");  
+	Group("shell_vo");
+	Inherit("shellvo_template");
+	Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("IOMET116", 1.0);
+        Segment("IOMET134", 1.0); 
+    }
+}
+SoundStreamProperties()
+{
+    Name("imp_lost_yav1");  
+	Group("shell_vo");
+	Inherit("shellvo_template");
+	Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("IOMET136", 1.0); 
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("rep_won_yav1");  
+	Group("shell_vo");
+	Inherit("shellvo_template");
+	Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("ROCOM166", 1.0);
+        Segment("ROCOM152", 1.0);
+        Segment("ROMET002", 1.0); 
+    }
+}
+SoundStreamProperties()
+{
+    Name("rep_lost_yav1");  
+	Group("shell_vo");
+	Inherit("shellvo_template");
+	Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("ROMET003", 1.0);
+        Segment("ROMET004", 1.0); 
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("cis_won_yav1");  
+	Group("shell_vo");
+	Inherit("shellvo_template");
+	Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("COCOM178", 1.0);
+        Segment("COMET228", 1.0); 
+    }
+}
+SoundStreamProperties()
+{
+    Name("cis_lost_yav1");  
+	Group("shell_vo");
+	Inherit("shellvo_template");
+	Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("COCOM191", 1.0);
+        Segment("COMET227", 1.0);
+        Segment("COMET230", 1.0); 
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("all_won_yav2");  
+	Group("shell_vo");
+	Inherit("shellvo_template");
+	Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("AOCOM183", 1.0);
+        Segment("AOMET003", 1.0);
+        Segment("AOMET004", 1.0); 
+    }
+}
+SoundStreamProperties()
+{
+    Name("all_lost_yav2");  
+	Group("shell_vo");
+	Inherit("shellvo_template");
+	Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("AOMET002", 1.0); 
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("imp_won_yav2");  
+	Group("shell_vo");
+	Inherit("shellvo_template");
+	Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("IOMET116", 1.0);
+        Segment("IOMET134", 1.0); 
+    }
+}
+SoundStreamProperties()
+{
+    Name("imp_lost_yav2");  
+	Group("shell_vo");
+	Inherit("shellvo_template");
+	Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("IOMET136", 1.0); 
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("rep_won_yav2");  
+	Group("shell_vo");
+	Inherit("shellvo_template");
+	Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("ROCOM166", 1.0);
+        Segment("ROCOM152", 1.0);
+        Segment("ROMET002", 1.0); 
+    }
+}
+SoundStreamProperties()
+{
+    Name("rep_lost_yav2");  
+	Group("shell_vo");
+	Inherit("shellvo_template");
+	Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("ROMET003", 1.0);
+        Segment("ROMET004", 1.0); 
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("cis_won_yav2");  
+	Group("shell_vo");
+	Inherit("shellvo_template");
+	Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("COCOM178", 1.0);
+        Segment("COMET228", 1.0); 
+    }
+}
+SoundStreamProperties()
+{
+    Name("cis_lost_yav2");  
+	Group("shell_vo");
+	Inherit("shellvo_template");
+	Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("COCOM191", 1.0);
+        Segment("COMET227", 1.0);
+        Segment("COMET230", 1.0); 
+    }
+}
+
+////////////////////////////////
+//META GAME SECRET BASE BONUSES
+////////////////////////////////
+
+////////////////////////////////
+//CIS
+//GEONOSIS
+////////////////////////////////
+
+SoundStreamProperties()
+{
+    Name("cis_geonosis_activate_blockade");  
+	Group("shell_vo");
+	Inherit("shellvo_template");
+	Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("COCOM170", 1.0); 
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("cis_geonosis_choose_blockade_target");  
+	Group("shell_vo");
+	Inherit("shellvo_template");
+	Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("COCOM172", 1.0); 
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("cis_geonosis_blockade_complete");  
+	Group("shell_vo");
+	Inherit("shellvo_template");
+	Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("COMET209", 1.0); 
+    }
+}
+
+////////////////////////////////
+//ALL
+//HOTH
+////////////////////////////////
+
+SoundStreamProperties()
+{
+    Name("all_hoth_activate_rebellion");  
+	Group("shell_vo");
+	Inherit("shellvo_template");
+	Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("AOCOM162", 1.0); 
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("all_hoth_choose_rebellion_target");  
+	Group("shell_vo");
+	Inherit("shellvo_template");
+	Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("AOCOM163", 1.0); 
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("all_hoth_rebellion_complete");  
+	Group("shell_vo");
+	Inherit("shellvo_template");
+	Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("AOMET165", 1.0); 
+    }
+}
+
+////////////////////////////////
+//REP
+//KAMINO
+////////////////////////////////
+
+SoundStreamProperties()
+{
+    Name("rep_kamino_activate_insurgence");  
+	Group("shell_vo");
+	Inherit("shellvo_template");
+	Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("ROMET133", 1.0); 
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("rep_kamino_choose_insurgence_target");  
+	Group("shell_vo");
+	Inherit("shellvo_template");
+	Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("ROCOM204", 1.0); 
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("rep_kamino_insurgence_complete");  
+	Group("shell_vo");
+	Inherit("shellvo_template");
+	Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("ROCOM136", 1.0); 
+    }
+}
+////////////////////////////////
+//IMP
+//ENDOR
+////////////////////////////////
+
+SoundStreamProperties()
+{
+    Name("imp_endor_activate_deathstar");  
+	Group("shell_vo");
+	Inherit("shellvo_template");
+	Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("IOMET094", 1.0); 
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("imp_endor_choose_deathstar_target");  
+	Group("shell_vo");
+	Inherit("shellvo_template");
+	Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("IOCOM210", 1.0); 
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("imp_endor_deathstar_complete");  
+	Group("shell_vo");
+	Inherit("shellvo_template");
+	Stream("shell_vo");
+    SegmentList()
+    {
+        Segment("IOMET107", 1.0); 
+    }
+}

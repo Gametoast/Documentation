@@ -1,0 +1,290 @@
+// Ambient Environment ----------------------------------------------------------
+
+SoundStreamProperties()
+{
+    Name("kas_amb_forest");
+    Group("ambientenv");
+    Inherit("ambientfx_template");
+    Gain(0.4);
+    Stream("kas");
+    SegmentList()
+    {
+        Segment("kas_amb_forest", 1.0);
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("kas_amb_waterside");
+    Group("ambientenv");
+    Inherit("ambientfx_template");
+    RandomPlayPos(1);
+    Gain(0.4);
+    Stream("kas");
+    SegmentList()
+    {
+        Segment("kas_amb_waterside", 1.0);
+    }
+}
+
+// Ambient Emitters -------------------------------------------------------------
+
+SoundProperties()
+{
+    Name("waterlapping");
+    Group("ambientenv");
+    Inherit("ambientemt_static_template");
+    Gain(0.4);
+    Looping(1);
+    RandomPlayPos(1);
+    RollOff(1.0);
+    //Max and Min distance set in wld or lyr file
+    SampleList()
+    {
+        Sample("emt_gentle_lapping_wtr_lp", 1.0);
+    }
+}
+
+
+
+SoundProperties()
+{
+    Name("wok_weap_inf_reload_med");
+    Group("weapons_foley");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("wpn_republic_medReload", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("wok_weap_inf_equip_med");
+    Group("weapons_foley");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("wpn_republic_medEquip", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("wok_weap_inf_pistol_fire");
+    Group("weapons");
+    Inherit("weapon_template");
+    Gain(1.0);
+    SampleList()
+    {
+        Sample("wpn_rep_pistol_fire", 1.0);
+    }
+}
+
+
+// ----- Start Wookiee Launcher --------------------
+
+
+SoundProperties()
+{
+    Name("wok_weap_inf_reload_lg");
+    Group("weapons_foley");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("wpn_republic_lgReload", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("wok_weap_inf_equip_lg");
+    Group("weapons_foley");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("wpn_republic_lgEquip", 1.0);
+    }
+}
+
+
+SoundProperties()
+{
+    Name("wok_weap_inf_rocket_fire");
+    Group("weapons");
+    Inherit("weapon_template");
+    SampleList()
+    {
+        Sample("wpn_cis_rcktlauncher_fire", 1.0);
+    }
+}
+
+
+SoundProperties()
+{
+    Name("wok_weap_inf_grenadelauncher_fire");
+    Group("weapons");
+    Inherit("weapon_template");
+    SampleList()
+    {
+        Sample("wpn_rep_grenadelaunch_fire", 1.0);
+    }
+}
+
+//--
+
+
+SoundProperties()
+{
+    Name("wok_weap_inf_rifle_mvt_getup");
+    Group("weapons_foley");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("mvt_getup_rifle", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("wok_weap_inf_rifle_mvt_jump");
+    Group("weapons_foley");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("mvt_jump_rifle", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("wok_weap_inf_rifle_mvt_land");
+    Group("weapons_foley");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("mvt_land_rifle", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("wok_weap_inf_rifle_mvt_roll");
+    Group("weapons_foley");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("mvt_roll_rifle", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("wok_weap_inf_rifle_mvt_lie");
+    Group("weapons_foley");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("mvt_lie_rifle", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("wok_weap_inf_rifle_mvt_squat");
+    Group("weapons_foley");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("mvt_squat_rifle", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("wok_weap_inf_rifle_mvt_stop");
+    Group("weapons_foley");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("mvt_stop_rifle", 1.0);
+    }
+}
+
+//--
+SoundProperties()
+{
+    Name("wok_weap_inf_grenadelauncher_mvt_getup");
+    Group("weapons_foley");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("mvt_getup_bazooka", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("wok_weap_inf_grenadelauncher_mvt_jump");
+    Group("weapons_foley");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("mvt_jump_bazooka", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("wok_weap_inf_grenadelauncher_mvt_land");
+    Group("weapons_foley");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("mvt_land_bazooka", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("wok_weap_inf_grenadelauncher_mvt_roll");
+    Group("weapons_foley");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("mvt_roll_bazooka", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("wok_weap_inf_grenadelauncher_mvt_lie");
+    Group("weapons_foley");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("mvt_lie_bazooka", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("wok_weap_inf_grenadelauncher_mvt_squat");
+    Group("weapons_foley");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("mvt_squat_bazooka", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("wok_weap_inf_grenadelauncher_mvt_stop");
+    Group("weapons_foley");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("mvt_stop_bazooka", 1.0);
+    }
+}

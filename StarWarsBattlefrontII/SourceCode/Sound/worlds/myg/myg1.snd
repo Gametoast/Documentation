@@ -1,0 +1,452 @@
+// ----- Soundspace Start ----------------------------------------------
+#ifplatform ps2
+I3DL2ReverbPreset()
+{
+    Name("hut1");
+    RoomGain(0.1);
+    RoomHFGain(0.4);
+    RoomRollOff(0.0);
+    DecayTime(1.0);
+    DecayHFRatio(0.3);
+    ERGain(0.3);
+    ERDelay(0.014);
+    ReverbGain(0.5);
+    ReverbDelay(0.021);
+    Diffusion(100.0);
+    Density(100.0);
+    HFReference(5000.0);
+}
+
+Space()
+{
+    Name("hut1");
+    I3DL2ReverbPreset("hut1");
+    DirectGain(1.0);
+    DirectHFGain(1.0);
+    RoomGain(0.3);
+    RoomHFGain(0.3);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.4);
+    ObstructionLFRatio(0.0);
+    OcclusionHFGain(0.4);
+    OcclusionLFRatio(0.0);
+}
+#endifplatform ps2
+
+
+#ifplatform pc
+I3DL2ReverbPreset()
+{
+    Name("hut1");
+    RoomGain(1.0);
+    RoomHFGain(1.0);
+    RoomRollOff(0.0);
+    DecayTime(1.0);
+    DecayHFRatio(0.4);
+    ERGain(0.3);
+    ERDelay(0.014);
+    ReverbGain(0.8);
+    ReverbDelay(0.021);
+    Diffusion(100.0);
+    Density(100.0);
+    HFReference(5000.0);
+}
+
+Space()
+{
+    Name("hut1");
+    I3DL2ReverbPreset("hut1");
+    DirectGain(1.0);
+    DirectHFGain(1.0);
+    RoomGain(0.6);
+    RoomHFGain(0.6);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.4);
+    ObstructionLFRatio(0.0);
+    OcclusionHFGain(0.4);
+    OcclusionLFRatio(0.0);
+}
+#endifplatform pc
+#ifplatform xbox
+I3DL2ReverbPreset()
+{
+    Name("hut1");
+    RoomGain(0.1);
+    RoomHFGain(0.4);
+    RoomRollOff(0.0);
+    DecayTime(1.0);
+    DecayHFRatio(0.3);
+    ERGain(0.3);
+    ERDelay(0.014);
+    ReverbGain(0.5);
+    ReverbDelay(0.021);
+    Diffusion(100.0);
+    Density(100.0);
+    HFReference(5000.0);
+}
+
+Space()
+{
+    Name("hut1");
+    I3DL2ReverbPreset("hut1");
+    DirectGain(1.0);
+    DirectHFGain(1.0);
+    RoomGain(0.3);
+    RoomHFGain(0.3);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.4);
+    ObstructionLFRatio(0.0);
+    OcclusionHFGain(0.4);
+    OcclusionLFRatio(0.0);
+}
+
+#endifplatform xbox
+
+
+// Hut 2
+
+#ifplatform ps2
+I3DL2ReverbPreset()
+{
+    Name("hut2");
+    RoomGain(0.1);
+    RoomHFGain(0.4);
+    RoomRollOff(0.0);
+    DecayTime(1.0);
+    DecayHFRatio(0.3);
+    ERGain(0.3);
+    ERDelay(0.014);
+    ReverbGain(0.5);
+    ReverbDelay(0.021);
+    Diffusion(100.0);
+    Density(100.0);
+    HFReference(5000.0);
+}
+
+Space()
+{
+    Name("hut2");
+    I3DL2ReverbPreset("hut2");
+    DirectGain(1.0);
+    DirectHFGain(1.0);
+    RoomGain(0.3);
+    RoomHFGain(0.3);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.4);
+    ObstructionLFRatio(0.0);
+    OcclusionHFGain(0.4);
+    OcclusionLFRatio(0.0);
+}
+#endifplatform ps2
+
+
+#ifplatform pc
+I3DL2ReverbPreset()
+{
+    Name("hut2");
+    RoomGain(1.0);
+    RoomHFGain(1.0);
+    RoomRollOff(0.0);
+    DecayTime(1.0);
+    DecayHFRatio(0.4);
+    ERGain(0.3);
+    ERDelay(0.014);
+    ReverbGain(0.8);
+    ReverbDelay(0.021);
+    Diffusion(100.0);
+    Density(100.0);
+    HFReference(5000.0);
+}
+
+Space()
+{
+    Name("hut2");
+    I3DL2ReverbPreset("hut2");
+    DirectGain(1.0);
+    DirectHFGain(1.0);
+    RoomGain(0.6);
+    RoomHFGain(0.6);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.4);
+    ObstructionLFRatio(0.0);
+    OcclusionHFGain(0.4);
+    OcclusionLFRatio(0.0);
+}
+#endifplatform pc
+#ifplatform xbox
+I3DL2ReverbPreset()
+{
+    Name("hut2");
+    RoomGain(0.1);
+    RoomHFGain(0.4);
+    RoomRollOff(0.0);
+    DecayTime(1.0);
+    DecayHFRatio(0.3);
+    ERGain(0.3);
+    ERDelay(0.014);
+    ReverbGain(0.5);
+    ReverbDelay(0.021);
+    Diffusion(100.0);
+    Density(100.0);
+    HFReference(5000.0);
+}
+
+Space()
+{
+    Name("hut2");
+    I3DL2ReverbPreset("hut2");
+    DirectGain(1.0);
+    DirectHFGain(1.0);
+    RoomGain(0.3);
+    RoomHFGain(0.3);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.4);
+    ObstructionLFRatio(0.0);
+    OcclusionHFGain(0.4);
+    OcclusionLFRatio(0.0);
+}
+
+#endifplatform xbox
+
+
+// Hut 3
+
+#ifplatform ps2
+I3DL2ReverbPreset()
+{
+    Name("hut3");
+    RoomGain(0.1);
+    RoomHFGain(0.4);
+    RoomRollOff(0.0);
+    DecayTime(1.0);
+    DecayHFRatio(0.3);
+    ERGain(0.3);
+    ERDelay(0.014);
+    ReverbGain(0.5);
+    ReverbDelay(0.021);
+    Diffusion(100.0);
+    Density(100.0);
+    HFReference(5000.0);
+}
+
+Space()
+{
+    Name("hut3");
+    I3DL2ReverbPreset("hut3");
+    DirectGain(1.0);
+    DirectHFGain(1.0);
+    RoomGain(0.3);
+    RoomHFGain(0.3);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.4);
+    ObstructionLFRatio(0.0);
+    OcclusionHFGain(0.4);
+    OcclusionLFRatio(0.0);
+}
+#endifplatform ps2
+
+
+#ifplatform pc
+I3DL2ReverbPreset()
+{
+    Name("hut3");
+    RoomGain(1.0);
+    RoomHFGain(1.0);
+    RoomRollOff(0.0);
+    DecayTime(1.0);
+    DecayHFRatio(0.4);
+    ERGain(0.3);
+    ERDelay(0.014);
+    ReverbGain(0.8);
+    ReverbDelay(0.021);
+    Diffusion(100.0);
+    Density(100.0);
+    HFReference(5000.0);
+}
+
+Space()
+{
+    Name("hut3");
+    I3DL2ReverbPreset("hut3");
+    DirectGain(1.0);
+    DirectHFGain(1.0);
+    RoomGain(0.6);
+    RoomHFGain(0.6);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.4);
+    ObstructionLFRatio(0.0);
+    OcclusionHFGain(0.4);
+    OcclusionLFRatio(0.0);
+}
+#endifplatform pc
+#ifplatform xbox
+I3DL2ReverbPreset()
+{
+    Name("hut3");
+    RoomGain(0.1);
+    RoomHFGain(0.4);
+    RoomRollOff(0.0);
+    DecayTime(1.0);
+    DecayHFRatio(0.3);
+    ERGain(0.3);
+    ERDelay(0.014);
+    ReverbGain(0.5);
+    ReverbDelay(0.021);
+    Diffusion(100.0);
+    Density(100.0);
+    HFReference(5000.0);
+}
+
+Space()
+{
+    Name("hut3");
+    I3DL2ReverbPreset("hut3");
+    DirectGain(1.0);
+    DirectHFGain(1.0);
+    RoomGain(0.3);
+    RoomHFGain(0.3);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.4);
+    ObstructionLFRatio(0.0);
+    OcclusionHFGain(0.4);
+    OcclusionLFRatio(0.0);
+}
+
+#endifplatform xbox
+// ----- Soundspace End -----------------------------------------------------
+
+
+
+// ----- Ambient Environment Streams Start ------------------------------
+SoundStreamProperties()
+{
+    Name("myg_amb_wind");
+    Group("ambientenv");
+    Inherit("ambientfx_template");
+    Stream("myg1");
+    Gain(0.3);
+    SegmentList()
+    {
+        Segment("myg_amb_wind", 1.0);
+    }
+}
+
+// ----- Ambient Environment Streams End ---------------------------
+
+
+
+// ----- Prop Ambient Effects Start --------------------------------
+
+SoundProperties()
+{
+    Name("force_field_lp");
+    Group("unit_weapon");
+    Inherit("props_template");
+    Gain(0.7);
+    RandomPlayPos(1);
+    Pitch(0.7);
+    PitchDev(0.0);
+    Looping(1);
+    Rolloff(1);
+    MinDistance(15.0);
+    MuteDistance(60.0);
+    MaxDistance(60.0);
+    SampleList()
+    {
+      Sample("force_field_lp", 1.0);
+    }
+}
+
+
+SoundProperties()
+{
+    Name("force_field_off");
+    Group("unit_weapon");
+    Inherit("props_template");
+    Gain(0.7);
+    Pitch(0.7);
+    PitchDev(0.1);
+    Looping(0);
+    MinDistance(20.0);
+    MuteDistance(60.0);
+    MaxDistance(650.0);
+    SampleList()
+    {
+      Sample("force_field_off", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("core_hum");
+    Group("unit_weapon");
+    Inherit("weapon_template");
+    Gain(0.6);
+    RandomPlayPos(1);
+    PitchDev(0.05);
+    Looping(1);
+    MinDistance(18.0);
+    MuteDistance(50.0);
+    MaxDistance(50.0);
+    SampleList()
+    {
+      Sample("core_hum", 1.0);
+    }
+}
+
+
+SoundProperties()
+{
+    Name("generator_on");
+    Group("unit_weapon");
+    Inherit("props_template");
+    Gain(0.0);
+    Looping(0);
+    PitchDev(0.1);
+    MinDistance(20.0);
+    MuteDistance(50.0);
+    MaxDistance(50.0);
+    SampleList()
+    {
+      Sample("generator_on", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("generator_off");
+    Group("unit_weapon");
+    Inherit("props_template");
+    Gain(1.0);
+    Looping(0);
+    PitchDev(0.1);
+    MinDistance(20.0);
+    MuteDistance(50.0);
+    MaxDistance(50.0);
+    SampleList()
+    {
+      Sample("generator_off", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("electric_hum");
+    Group("unit_weapon");
+    Inherit("weapon_template");
+    Gain(0.5);
+    RandomPlayPos(1);
+    Pitch(1.1);
+    PitchDev(0.1);
+    Looping(1);
+    SpaceDistance(8)
+    MinDistance(15.0);
+    MuteDistance(50.0);
+    MaxDistance(50.0);
+    SampleList()
+    {
+      Sample("electric_hum", 1.0);
+    }
+}
+// ----- Prop Ambient Effects End ----------------------------------
+

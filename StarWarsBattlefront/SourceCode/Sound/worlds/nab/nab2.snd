@@ -1,0 +1,67 @@
+// Ambient Environment ------------------------------------------------------------------
+
+Space()
+{
+    Name("Default");
+    I3DL2ReverbPreset("noreverb");
+    DirectGain(1.0);
+    DirectHFGain(1.0);
+    RoomGain(0.0);
+    RoomHFGain(0.0);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.5);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.5);
+    OcclusionLFRatio(1.0);
+}
+
+SoundStreamProperties()
+{
+    Name("nab_amb_city");
+    Group("ambientenv");
+    Inherit("ambientfx_template");
+    Gain(1.0);
+    Stream("nab2");
+    SegmentList()
+    {
+        Segment("nab_amb_city", 1.0);
+    }
+}
+
+// Ambient Emitter Streams --------------------------------------------------------------
+
+
+
+// Ambient Emitters Static ---------------------------------------------------------------
+
+
+SoundProperties()
+{
+    Name("canal");
+    Group("ambientenv");
+    Inherit("ambientemt_static_template");
+    Gain(0.4);
+    Looping(1);
+    //Max and Min distance set in wld or lyr file
+    SampleList()
+    {
+        Sample("emt_canal_stream_lp", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("fountain");
+    Group("ambientenv");
+    Inherit("ambientemt_static_template");
+    Gain(0.3);
+    RandomPlayPos(1);
+    Looping(1);
+    Rolloff(1.0);
+    //Max and Min distance set in wld or lyr file
+    SampleList()
+    {
+        Sample("emt_fountain_lp", 1.0);
+    }
+}
+

@@ -1,0 +1,340 @@
+// ----------------------------------------- SPA4 Music -----------------------------------
+
+// -----------------  SPA4 Objective Music ----------------------
+
+Music()
+{
+    Name("rep_spa4_act_01");
+    Priority(5.0);
+    FadeInTime(0.0);
+    FadeOutTime(1.5);
+    MinPlaybackTime(15.0);
+    MaxPlaybackTime(600.0);
+    MinInactiveTime(60.0);
+    SoundStream("rep_spa4_act_01");
+}
+
+Music()
+{
+    Name("rep_spa4_amb_obj2_3_explore");
+    Priority(5.0);
+    FadeInTime(0.0);
+    FadeOutTime(1.5);
+    MinPlaybackTime(15.0);
+    MaxPlaybackTime(180.0);
+    MinInactiveTime(120.0);
+    SoundStream("rep_spa4_amb_obj2_3_explore");
+}
+
+Music()
+{
+    Name("rep_spa4_amb_explore_04");
+    Priority(5.0);
+    FadeInTime(0.0);
+    FadeOutTime(1.5);
+    MinPlaybackTime(15.0);
+    MaxPlaybackTime(180.0);
+    MinInactiveTime(20.0);
+    SoundStream("rep_spa4_amb_explore_04");
+}
+
+Music()
+{
+    Name("rep_spa4_immVict_01");
+    Priority(6.0);
+    FadeInTime(0.0);
+    FadeOutTime(5.0);
+    MinPlaybackTime(15.0);
+    MaxPlaybackTime(200.0);
+    MinInactiveTime(0.0);
+    SoundStream("rep_spa4_immVict_01");
+}
+
+Music()
+{
+    Name("rep_spa4_objComplete_01");
+    Priority(8.0);
+    FadeInTime(0.0);
+    FadeOutTime(3.0);
+    MinPlaybackTime(14.0);
+    MaxPlaybackTime(15.0);
+    MinInactiveTime(60.0);
+    SoundStream("rep_spa4_objComplete_01");
+}
+
+Music()
+{
+    Name("rep_spa4_objComplete_02");
+    Priority(8.0);
+    FadeInTime(0.0);
+    FadeOutTime(0.0);
+    MinPlaybackTime(17.0);
+    MaxPlaybackTime(18.0);
+    MinInactiveTime(60.0);
+    SoundStream("rep_spa4_objComplete_02");
+}
+
+// ----------------------------------------- SPA5 Music -----------------------------------
+
+// ----------------- SPA5 Objective Music ----------------------
+
+Music()
+{
+    Name("rep_spa5_amb_obj1_2_explore");
+    Priority(0.0);
+    FadeInTime(0.0);
+    FadeOutTime(3.0);
+    MinPlaybackTime(20.0);
+    MaxPlaybackTime(240.0);
+    MinInactiveTime(20.0);
+    SoundStream("rep_spa5_amb_obj1_2_explore");
+}
+
+Music()
+{
+    Name("rep_spa5_amb_obj3_4_explore");
+    Priority(1.0);
+    FadeInTime(0.0);
+    FadeOutTime(3.0);
+    MinPlaybackTime(20.0);
+    MaxPlaybackTime(240.0);
+    MinInactiveTime(15.0);
+    SoundStream("rep_spa5_amb_obj3_4_explore");
+}
+
+Music()
+{
+    Name("rep_spa5_objComplete_01");
+    Priority(1.0);
+    FadeInTime(0.0);
+    FadeOutTime(0.0);
+    MinPlaybackTime(20.0);
+    MaxPlaybackTime(21.0);
+    MinInactiveTime(20.0);
+    SoundStream("rep_spa5_objComplete_01");
+}
+
+
+// ----------------- SPA REP Music ----------------------
+
+Music()
+{
+    Name("rep_spa_amb_start");
+    Priority(1.0);
+    FadeInTime(0.0);
+    FadeOutTime(1.5);
+    MinPlaybackTime(20.0);
+    MaxPlaybackTime(180.0);
+    MinInactiveTime(15.0);
+    SoundStream("rep_spa_amb_start");
+}
+
+Music()
+{
+    Name("rep_spa_amb_middle");
+    Priority(1.0);
+    FadeInTime(0.0);
+    FadeOutTime(1.5);
+    MinPlaybackTime(20.0);
+    MaxPlaybackTime(180.0);
+    MinInactiveTime(15.0);
+    SoundStream("rep_spa_amb_middle");
+}
+
+Music()
+{
+    Name("rep_spa_amb_end");
+    Priority(1.0);
+    FadeInTime(0.0);
+    FadeOutTime(1.5);
+    MinPlaybackTime(20.0);
+    MaxPlaybackTime(150.0);
+    MinInactiveTime(15.0);
+    SoundStream("rep_spa_amb_end");
+}
+
+Music()
+{
+    Name("rep_spa_amb_victory");
+    Priority(9.0);
+    FadeInTime(0.0);
+    FadeOutTime(5.0);
+    MinPlaybackTime(3.0);
+    MaxPlaybackTime(360.0);
+    MinInactiveTime(35.0);
+    SoundStream("rep_spa_amb_victory");
+}
+
+Music()
+{
+    Name("rep_spa_amb_defeat");
+    Priority(9.0);
+    FadeInTime(0.0);
+    FadeOutTime(5.0);
+    MinPlaybackTime(3.0);
+    MaxPlaybackTime(360.0);
+    MinInactiveTime(35.0);
+    SoundStream("rep_spa_amb_defeat");
+}
+
+Music()
+{
+    Name("rep_vehicle");
+    Priority(2.0);
+    FadeInTime(1.0);
+    FadeOutTime(1.5);
+    MinPlaybackTime(15.0);
+    MaxPlaybackTime(200.0);
+    MinInactiveTime(15.0);
+    SoundStream("rep_spa_amb_vehicle");
+}
+
+// ----------------- SPA CIS Music ----------------------
+
+Music()
+{
+    Name("cis_spa_amb_start");
+    Priority(1.0);
+    FadeInTime(0.0);
+    FadeOutTime(1.5);
+    MinPlaybackTime(20.0);
+    MaxPlaybackTime(180.0);
+    MinInactiveTime(15.0);
+    SoundStream("cis_spa_amb_start");
+}
+
+Music()
+{
+    Name("cis_spa_amb_middle");
+    Priority(1.0);
+    FadeInTime(0.0);
+    FadeOutTime(1.5);
+    MinPlaybackTime(20.0);
+    MaxPlaybackTime(180.0);
+    MinInactiveTime(15.0);
+    SoundStream("cis_spa_amb_middle");
+}
+
+Music()
+{
+    Name("cis_spa_amb_end");
+    Priority(1.0);
+    FadeInTime(0.0);
+    FadeOutTime(1.5);
+    MinPlaybackTime(20.0);
+    MaxPlaybackTime(150.0);
+    MinInactiveTime(15.0);
+    SoundStream("cis_spa_amb_end");
+}
+
+Music()
+{
+    Name("cis_spa_amb_victory");
+    Priority(9.0);
+    FadeInTime(0.0);
+    FadeOutTime(5.0);
+    MinPlaybackTime(3.0);
+    MaxPlaybackTime(360.0);
+    MinInactiveTime(35.0);
+    SoundStream("cis_spa_amb_victory");
+}
+
+Music()
+{
+    Name("cis_spa_amb_defeat");
+    Priority(9.0);
+    FadeInTime(0.0);
+    FadeOutTime(5.0);
+    MinPlaybackTime(3.0);
+    MaxPlaybackTime(360.0);
+    MinInactiveTime(35.0);
+    SoundStream("cis_spa_amb_defeat");
+}
+
+Music()
+{
+    Name("cis_vehicle");
+    Priority(2.0);
+    FadeInTime(1.0);
+    FadeOutTime(1.5);
+    MinPlaybackTime(15.0);
+    MaxPlaybackTime(200.0);
+    MinInactiveTime(15.0);
+    SoundStream("cis_spa_amb_vehicle");
+}
+
+
+// ----------------- SPA IMP Music ----------------------
+
+
+Music()
+{
+    Name("imp_spa_amb_start");
+    Priority(1.0);
+    FadeInTime(0.0);
+    FadeOutTime(1.5);
+    MinPlaybackTime(20.0);
+    MaxPlaybackTime(180.0);
+    MinInactiveTime(15.0);
+    SoundStream("imp_spa_amb_start");
+}
+
+Music()
+{
+    Name("imp_spa_amb_middle");
+    Priority(1.0);
+    FadeInTime(0.0);
+    FadeOutTime(1.5);
+    MinPlaybackTime(20.0);
+    MaxPlaybackTime(180.0);
+    MinInactiveTime(15.0);
+    SoundStream("imp_spa_amb_middle");
+}
+
+Music()
+{
+    Name("imp_spa_amb_end");
+    Priority(1.0);
+    FadeInTime(0.0);
+    FadeOutTime(1.5);
+    MinPlaybackTime(20.0);
+    MaxPlaybackTime(150.0);
+    MinInactiveTime(15.0);
+    SoundStream("imp_spa_amb_end");
+}
+
+Music()
+{
+    Name("imp_spa_amb_victory");
+    Priority(9.0);
+    FadeInTime(0.0);
+    FadeOutTime(5.0);
+    MinPlaybackTime(3.0);
+    MaxPlaybackTime(360.0);
+    MinInactiveTime(35.0);
+    SoundStream("imp_spa_amb_victory");
+}
+
+Music()
+{
+    Name("imp_spa_amb_defeat");
+    Priority(9.0);
+    FadeInTime(0.0);
+    FadeOutTime(5.0);
+    MinPlaybackTime(3.0);
+    MaxPlaybackTime(360.0);
+    MinInactiveTime(35.0);
+    SoundStream("imp_spa_amb_defeat");
+}
+
+Music()
+{
+    Name("imp_vehicle");
+    Priority(2.0);
+    FadeInTime(1.0);
+    FadeOutTime(1.5);
+    MinPlaybackTime(15.0);
+    MaxPlaybackTime(200.0);
+    MinInactiveTime(15.0);
+    SoundStream("imp_spa_amb_vehicle");
+}

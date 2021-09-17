@@ -1,0 +1,818 @@
+// Ambient Environment --------------------------------------------------------
+
+SoundStreamProperties()
+{
+    Name("tat_amb_desertwind");
+    Group("ambientenv");
+    Inherit("ambientfx_template");
+    Stream("tat3");
+    Gain(0.3);
+    SegmentList()
+    {
+        Segment("tat_amb_desertwind", 1.0);
+    }
+}
+
+Space()
+{
+    Name("Default");
+    I3DL2ReverbPreset("noreverb");
+    DirectGain(0.0);
+    DirectHFGain(1.0);
+    RoomGain(0.0);
+    RoomHFGain(0.0);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.0);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.0);
+    OcclusionLFRatio(1.0);
+}
+
+#ifplatform ps2
+I3DL2ReverbPreset()
+{
+    Name("metalroom");
+    RoomGain(0.1);
+    RoomHFGain(0.3);
+    RoomRollOff(1.0);
+    DecayTime(3.0);
+    DecayHFRatio(0.6);
+    ERGain(0.2);
+    ERDelay(0.1);
+    ReverbGain(0.65);
+    ReverbDelay(0.03);
+    Diffusion(70.0);
+    Density(70.0);
+    HFReference(5000.0);
+}
+
+I3DL2ReverbPreset()
+{
+    Name("stoneroom");
+    RoomGain(0.1);
+    RoomHFGain(0.1);
+    RoomRollOff(1.0);
+    DecayTime(2.5);
+    DecayHFRatio(0.3);
+    ERGain(0.3);
+    ERDelay(0.04);
+    ReverbGain(0.35);
+    ReverbDelay(0.05);
+    Diffusion(90.0);
+    Density(90.0);
+    HFReference(5000.0);
+}
+#endifplatform ps2
+
+#ifplatform pc xbox
+I3DL2ReverbPreset()
+{
+    Name("metalroom");
+    RoomGain(1.0);
+    RoomHFGain(0.9);
+    RoomRollOff(1.0);
+    DecayTime(1.0);
+    DecayHFRatio(0.6);
+    ERGain(0.3);
+    ERDelay(0.1);
+    ReverbGain(0.65);
+    ReverbDelay(0.03);
+    Diffusion(70.0);
+    Density(70.0);
+    HFReference(5000.0);
+}
+
+I3DL2ReverbPreset()
+{
+    Name("stoneroom");
+    RoomGain(1.0);
+    RoomHFGain(0.9);
+    RoomRollOff(1.0);
+    DecayTime(3.5);
+    DecayHFRatio(0.3);
+    ERGain(0.2);
+    ERDelay(0.04);
+    ReverbGain(0.2);
+    ReverbDelay(0.05);
+    Diffusion(90.0);
+    Density(90.0);
+    HFReference(5000.0);
+}
+#endifplatform pc xbox
+
+
+Space()
+{
+    Name("SS1-2");
+    I3DL2ReverbPreset("stoneroom");
+    DirectGain(1.0);
+    DirectHFGain(1.0);
+    RoomGain(1.0);
+    RoomHFGain(1.0);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.5);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.5);
+    OcclusionLFRatio(1.0);
+}
+Space()
+{
+    Name("SS1-3");
+    I3DL2ReverbPreset("stoneroom");
+    DirectGain(1.0);
+    DirectHFGain(1.0);
+    RoomGain(1.0);
+    RoomHFGain(1.0);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.1);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.1);
+    OcclusionLFRatio(1.0);
+}
+Space()
+{
+    Name("SS2-1");
+    I3DL2ReverbPreset("stoneroom");
+    DirectGain(1.0);
+    DirectHFGain(1.0);
+    RoomGain(1.0);
+    RoomHFGain(1.0);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.5);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.5);
+    OcclusionLFRatio(1.0);
+}
+
+Space()
+{
+    Name("SS3-2"); // Secret Passge to Pool
+    I3DL2ReverbPreset("metalroom");
+    DirectGain(1.0);
+    DirectHFGain(1.0);
+    RoomGain(1.0);
+    RoomHFGain(1.0);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.1);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.1);
+    OcclusionLFRatio(1.0);
+}
+Space()
+{
+    Name("SS3-3"); // L shaped Hall off of Pool
+    I3DL2ReverbPreset("stoneroom");
+    DirectGain(1.0);
+    DirectHFGain(1.0);
+    RoomGain(1.0);
+    RoomHFGain(1.0);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.5);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.5);
+    OcclusionLFRatio(1.0);
+}
+Space()
+{
+    Name("SS4-1");
+    I3DL2ReverbPreset("stoneroom");
+    DirectGain(1.0);
+    DirectHFGain(1.0);
+    RoomGain(1.0);
+    RoomHFGain(1.0);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.4);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.4);
+    OcclusionLFRatio(1.0);
+}
+Space()
+{
+    Name("SS5-1"); // prison cell
+    I3DL2ReverbPreset("stoneroom");
+    DirectGain(1.0);
+    DirectHFGain(1.0);
+    RoomGain(1.0);
+    RoomHFGain(0.95);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.3);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.3);
+    OcclusionLFRatio(1.0);
+}
+Space()
+{
+    Name("SS5-2"); // Security Station
+    I3DL2ReverbPreset("stoneroom");
+    DirectGain(1.0);
+    DirectHFGain(1.0);
+    RoomGain(1.0);
+    RoomHFGain(1.0);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.4);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.4);
+    OcclusionLFRatio(1.0);
+}
+Space()
+{
+    Name("SS5-3"); // Joined prison cells
+    I3DL2ReverbPreset("stoneroom");
+    DirectGain(1.0);
+    DirectHFGain(1.0);
+    RoomGain(1.0);
+    RoomHFGain(1.0);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.3);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.3);
+    OcclusionLFRatio(1.0);
+}
+Space()
+{
+    Name("SS5-4"); // Large Prison Cell
+    I3DL2ReverbPreset("stoneroom");
+    DirectGain(1.0);
+    DirectHFGain(1.0);
+    RoomGain(1.0);
+    RoomHFGain(1.0);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.3);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.3);
+    OcclusionLFRatio(1.0);
+}
+Space()
+{
+    Name("SS5-5"); // L Shaped Barracks
+    I3DL2ReverbPreset("stoneroom");
+    DirectGain(1.0);
+    DirectHFGain(1.0);
+    RoomGain(1.0);
+    RoomHFGain(1.0);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.3);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.3);
+    OcclusionLFRatio(1.0);
+}
+Space()
+{
+    Name("SS5-6"); // Barrack Room 1
+    I3DL2ReverbPreset("stoneroom");
+    DirectGain(1.0);
+    DirectHFGain(1.0);
+    RoomGain(1.0);
+    RoomHFGain(1.0);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.3);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.3);
+    OcclusionLFRatio(1.0);
+}
+Space()
+{
+    Name("SS5-7"); // Barrack Room 2
+    I3DL2ReverbPreset("stoneroom");
+    DirectGain(1.0);
+    DirectHFGain(1.0);
+    RoomGain(1.0);
+    RoomHFGain(1.0);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.3);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.3);
+    OcclusionLFRatio(1.0);
+}
+Space()
+{
+    Name("SS5-8"); // Barrack Room 3
+    I3DL2ReverbPreset("stoneroom");
+    DirectGain(1.0);
+    DirectHFGain(1.0);
+    RoomGain(1.0);
+    RoomHFGain(1.0);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.3);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.3);
+    OcclusionLFRatio(1.0);
+}
+Space()
+{
+    Name("MS1-1"); // Stairway from Great Hall to Barracks
+    I3DL2ReverbPreset("stoneroom");
+    DirectGain(0.9);
+    DirectHFGain(0.9);
+    RoomGain(1.0);
+    RoomHFGain(0.9);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.5);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.5);
+    OcclusionLFRatio(1.0);
+}
+Space()
+{
+    Name("MS1-2");
+    I3DL2ReverbPreset("stoneroom");
+    DirectGain(0.9);
+    DirectHFGain(0.9);
+    RoomGain(1.0);
+    RoomHFGain(0.9);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.5);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.5);
+    OcclusionLFRatio(1.0);
+}
+
+Space()
+{
+    Name("MS2-1"); // Stairs and Med Hall beside Throne Room
+    I3DL2ReverbPreset("stoneroom");
+    DirectGain(0.9);
+    DirectHFGain(0.9);
+    RoomGain(1.0);
+    RoomHFGain(0.9);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.5);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.5);
+    OcclusionLFRatio(1.0);
+}
+Space()
+{
+    Name("MS3-1"); // Droid Torture room and stair landing
+    I3DL2ReverbPreset("stoneroom");
+    DirectGain(0.9);
+    DirectHFGain(0.9);
+    RoomGain(1.0);
+    RoomHFGain(0.9);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.5);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.5);
+    OcclusionLFRatio(1.0);
+}
+Space()
+{
+    Name("MS3-2"); // Stairwell down to torture from throne room
+    I3DL2ReverbPreset("stoneroom");
+    DirectGain(0.9);
+    DirectHFGain(0.9);
+    RoomGain(1.0);
+    RoomHFGain(0.9);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.4);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.4);
+    OcclusionLFRatio(1.0);
+}
+Space()
+{
+    Name("MS4-1");
+    I3DL2ReverbPreset("stoneroom");
+    DirectGain(0.9);
+    DirectHFGain(0.9);
+    RoomGain(1.0);
+    RoomHFGain(0.9);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.5);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.5);
+    OcclusionLFRatio(1.0);
+}
+Space()
+{
+    Name("MS4-2");
+    I3DL2ReverbPreset("stoneroom");
+    DirectGain(0.9);
+    DirectHFGain(0.9);
+    RoomGain(1.0);
+    RoomHFGain(0.9);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.5);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.5);
+    OcclusionLFRatio(1.0);
+}
+Space()
+{
+    Name("MS4-3");
+    I3DL2ReverbPreset("stoneroom");
+    DirectGain(0.9);
+    DirectHFGain(0.9);
+    RoomGain(1.0);
+    RoomHFGain(0.9);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.5);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.5);
+    OcclusionLFRatio(1.0);
+}
+
+Space()
+{
+    Name("MS5-1"); // Prison Hall
+    I3DL2ReverbPreset("stoneroom");
+    DirectGain(0.9);
+    DirectHFGain(0.9);
+    RoomGain(1.0);
+    RoomHFGain(0.9);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.5);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.5);
+    OcclusionLFRatio(1.0);
+}
+Space()
+{
+    Name("MS5-2"); // Prison to Barrack Hall
+    I3DL2ReverbPreset("stoneroom");
+    DirectGain(0.9);
+    DirectHFGain(0.9);
+    RoomGain(1.0);
+    RoomHFGain(0.9);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.4);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.4);
+    OcclusionLFRatio(1.0);
+}
+Space()
+{
+    Name("MS5-3"); // Barrack Hall
+    I3DL2ReverbPreset("stoneroom");
+    DirectGain(0.9);
+    DirectHFGain(0.9);
+    RoomGain(1.0);
+    RoomHFGain(0.9);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.3);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.3);
+    OcclusionLFRatio(1.0);
+}
+
+Space()
+{
+    Name("MS5-4"); // Spiral Staircase
+    I3DL2ReverbPreset("stoneroom");
+    DirectGain(0.9);
+    DirectHFGain(0.9);
+    RoomGain(1.0);
+    RoomHFGain(0.9);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.45);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.45);
+    OcclusionLFRatio(1.0);
+}
+Space()
+{
+    Name("LS1-1"); // Main Hall
+    I3DL2ReverbPreset("stoneroom");
+    DirectGain(0.85);
+    DirectHFGain(0.85);
+    RoomGain(0.95);
+    RoomHFGain(0.8);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.3);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.3);
+    OcclusionLFRatio(1.0);
+}
+Space()
+{
+    Name("LS2-1"); // Throne Room
+    I3DL2ReverbPreset("stoneroom");
+    DirectGain(0.8);
+    DirectHFGain(0.8);
+    RoomGain(1.0);
+    RoomHFGain(0.8);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.3);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.3);
+    OcclusionLFRatio(1.0);
+}
+Space()
+{
+    Name("LS4-1");
+    I3DL2ReverbPreset("stoneroom");
+    DirectGain(0.8);
+    DirectHFGain(0.8);
+    RoomGain(1.0);
+    RoomHFGain(0.8);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.3);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.3);
+    OcclusionLFRatio(1.0);
+}
+
+
+Space()
+{
+    Name("LM3-1"); // Pool
+    I3DL2ReverbPreset("metalroom");
+    DirectGain(1.0);
+    DirectHFGain(1.0);
+    RoomGain(1.0);
+    RoomHFGain(0.8);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.5);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.5);
+    OcclusionLFRatio(1.0);
+}
+
+SoundStreamProperties()
+{
+    Name("tat_amb_drip");
+    Group("ambientenv");
+    Inherit("ambientfx_template");
+    Gain(1.0);
+    MaxDistance(45.0);
+    MuteDistance(45.0);
+    Stream("tat3");
+    SegmentList()
+    {
+        Segment("tat_amb_drip", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("door_open");
+    Pitch(1.0);
+    PitchDev(0.1);
+    Gain(1.0);
+    GainDev(0.05);
+    ReverbGain(1.0);
+    Bus("soundfx");
+    Looping(0);
+    Pan(0.0);
+    MinDistance(7.0);
+    SpaceDistance(7.0);
+    MuteDistance(50.0);
+    MaxDistance(50.0);
+    RollOff(1.0);
+    Mode3D(1);
+    Bias(0.0001);
+    Priority(0.8);
+    SampleList()
+    {
+        Sample("door_op_01", 1.0);
+        Sample("door_op_02", 1.0);
+        Sample("door_op_03", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("door_close");
+    Pitch(1.0);
+    PitchDev(0.1);
+    Gain(1.0);
+    GainDev(0.05);
+    ReverbGain(1.0);
+    Bus("soundfx");
+    Looping(0);
+    Pan(0.0);
+    MinDistance(7.0);
+    SpaceDistance(7.0);
+    MuteDistance(50.0);
+    MaxDistance(50.0);
+    RollOff(1.0);
+    Mode3D(1);
+    Bias(0.0001);
+    Priority(0.8);
+    SampleList()
+    {
+        Sample("cell_door_cl_01", 1.0);
+        Sample("cell_door_cl_02", 1.0);
+        Sample("cell_door_cl_03", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("trap_open");
+    Pitch(1.0);
+    PitchDev(0.1);
+    Gain(1.0;
+    GainDev(0.05);
+    ReverbGain(1.0);
+    Bus("soundfx");
+    Looping(0);
+    Pan(0.0);
+    MinDistance(7.0);
+    MuteDistance(200.0);
+    MaxDistance(200.0);
+    RollOff(2.0);
+    Mode3D(1);
+    Bias(0.0001);
+    Priority(0.8);
+    SampleList()
+    {
+        Sample("trap_01", 1.0);
+        Sample("trap_02", 1.0);
+    }
+}
+
+// Ambient Static Emitters ------------------------------------------------------
+
+
+
+// Gammorrean
+
+SoundProperties()
+{
+    Name("gam_hurt");
+    Group("tat_inf_pain_vo");
+    Inherit("pain_chatter_template");
+    Gain(1.0);
+    PlayInterval(0.0);
+    CyclePlayback(1.0);
+    SampleList()
+    {
+        Sample("gam_hurt_01", 0.33);
+        Sample("gam_hurt_02", 0.33);
+        Sample("gam_hurt_03", 0.33);
+    }
+}
+SoundProperties()
+{
+    Name("gam_die");
+    Group("tat_inf_pain_vo");
+    Inherit("pain_chatter_template");
+    Gain(1.0);
+    PlayInterval(0.0);
+    CyclePlayback(1.0);
+    SampleList()
+    {
+        Sample("gam_death_01", 0.33);
+        Sample("gam_death_02", 0.33);
+        Sample("gam_death_03", 0.33);
+    }
+}
+SoundProperties()
+{
+    Name("gam_chatter");
+    Group("tat_inf_pain_vo");
+    Inherit("pain_chatter_template");
+    Gain(1.0);
+    CyclePlayback(1.0);
+    SampleList()
+    {
+        Sample("gam_chatter_01", 0.25);
+        Sample("gam_chatter_02", 0.25);
+        Sample("gam_chatter_03", 0.25);
+        Sample("gam_chatter_04", 0.25);
+    }
+}
+
+// Rancor
+
+SoundStreamProperties()
+{
+    Name("rancor_amb");
+    Pitch(1.0);
+    PitchDev(0.1);
+    Gain(1.0);
+    GainDev(0.0);
+    ReverbGain(1.0);
+    Bus("soundfx");
+    Looping(0);
+    Pan(0.0);
+    Mode3D(1);
+    RollOff(1.0);
+    MinDistance(30.0);
+    MuteDistance(45.0);
+    MaxDistance(45.0);
+    PlayInterval(0.0);
+    Stream("tat3_emt");
+    CyclePlayBack(1.0);
+    SegmentList()
+    {
+        Segment("breath_loop", 1.0);
+        Segment("roar_01", 1.0);
+        Segment("rancor_chew_01", 1.0);
+        Segment("breath_loop", 1.0);
+        Segment("roar_02", 1.0);
+        Segment("rancor_chew_02", 1.0);
+        Segment("breath_loop", 1.0);
+        Segment("roar_03", 1.0);
+        Segment("rancor_chew_03", 1.0);
+        Segment("breath_loop", 1.0);
+        Segment("roar_04", 1.0);
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("rancor_belch");
+    Priority(0.9);
+    Pitch(1.0);
+    PitchDev(0.1);
+    Gain(0.8);
+    GainDev(0.0);
+    ReverbGain(1.0);
+    Bus("soundfx");
+    Looping(0);
+    Pan(0.0);
+    Mode3D(1);
+    RollOff(1.0);
+    MinDistance(30.0);
+    MuteDistance(45.0);
+    MaxDistance(45.0);
+    CyclePlayBack(1.0);
+    PlayProbability(1.0);
+    Stream("tat3_emt");
+    SegmentList()
+    {
+        Segment("crtr_sarlacc_belch_01", 1.0);
+        Segment("crtr_sarlacc_belch_02", 1.0);
+        Segment("crtr_sarlacc_belch_03", 1.0);
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("jabba_amb");
+    Pitch(1.0);
+    PitchDev(0.1);
+    Gain(1.0);
+    GainDev(0.0);
+    ReverbGain(1.0);
+    Bus("soundfx");
+    Looping(0);
+    Pan(0.0);
+    Mode3D(1);
+    RollOff(1.0);
+    MinDistance(25.0);
+    MuteDistance(60.0);
+    MaxDistance(60.0);
+    PlayInterval(15.0);
+    PlayIntervalDev(5.0);
+    CyclePlayback(1);
+    PlayProbability(1.0);
+    Stream("tat3_emt");
+    SegmentList()
+    {
+        Segment("jabba1", 0.33);
+        Segment("jabba2", 0.33);
+        Segment("jabba3", 0.33);
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("victim_amb");
+    Pitch(1.0);
+    PitchDev(0.1);
+    Gain(1.0);
+    GainDev(0.05);
+    ReverbGain(1.0);
+    Bus("soundfx");
+    Looping(0);
+    Pan(0.0);
+    Mode3D(1);
+    RollOff(1.0);
+    MinDistance(15.0);
+    MuteDistance(45.0);
+    MaxDistance(45.0);
+    PlayInterval(0.0);
+    PlayIntervalDev(0.0);
+    CyclePlayback(1);
+    Stream("tat3_emt");
+    SegmentList()
+    {
+        Segment("sfx_rusty_creaks_loop", 1.0, 3.0, 0.1);
+        Segment("droid_die_01", 1.0, 2.0, 0.1);
+    }
+}
+
+SoundProperties()
+{
+    Name("droid_spark");
+    Inherit("props_template");
+    Gain(0.8);
+    RandomPlayPos(1);
+    Pitch(0.7);
+    PitchDev(0.2);
+    Looping(1);
+    MinDistance(10.0);
+    MuteDistance(25.0);
+    MaxDistance(25.0);
+    PlayInterval (0.5);
+    PlayIntervalDev (0.5);
+    RollOff(1.0);
+    Bias(0.0001);
+    SampleList()
+    {
+      Sample("wpn_fusionCutter_lp", 1.0);
+    }
+}

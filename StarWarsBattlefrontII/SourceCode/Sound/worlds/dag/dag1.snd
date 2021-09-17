@@ -1,0 +1,215 @@
+// ----- Soundspace Start ----------------------------------------------
+
+#ifplatform xbox pc
+I3DL2ReverbPreset()
+{
+    Name("mudroom");
+    RoomGain(0.9);
+    RoomHFGain(0.7);
+    RoomRollOff(0.0);
+    DecayTime(3.0);
+    DecayHFRatio(0.5);
+    ERGain(0.2);
+    ERDelay(0.01);
+    ReverbGain(0.2);
+    ReverbDelay(0.05);
+    Diffusion(100.0);
+    Density(100.0);
+    HFReference(5000.0);
+}
+
+Space()
+{
+    Name("bogcave"); // Dark Jedi Bog
+    I3DL2ReverbPreset("mudroom");
+    DirectGain(1.0);
+    DirectHFGain(0.9);
+    RoomGain(1.0);
+    RoomHFGain(0.8);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.6);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.6);
+    OcclusionLFRatio(1.0);
+}
+#endifplatform xbox pc
+
+#ifplatform ps2
+I3DL2ReverbPreset()
+{
+    Name("mudroom");
+    RoomGain(0.1);
+    RoomHFGain(0.7);
+    RoomRollOff(0.0);
+    DecayTime(3.0);
+    DecayHFRatio(0.5);
+    ERGain(0.2);
+    ERDelay(0.01);
+    ReverbGain(0.2);
+    ReverbDelay(0.05);
+    Diffusion(100.0);
+    Density(100.0);
+    HFReference(5000.0);
+}
+
+Space()
+{
+    Name("bogcave"); // Dark Jedi Bog
+    I3DL2ReverbPreset("mudroom");
+    DirectGain(1.0);
+    DirectHFGain(0.9);
+    RoomGain(1.0);
+    RoomHFGain(0.8);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.6);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.6);
+    OcclusionLFRatio(1.0);
+}
+#endifplatform ps2
+
+// ----- Soundspace End -----------------------------------------------------
+
+
+
+// ----- Ambient Environment Streams Start ------------------------------
+SoundStreamProperties()
+{
+    Name("dag_amb_wind");
+    Group("ambientenv");
+    Inherit("ambientfx_template");
+    Stream("dag1"); 
+    Gain(0.4);
+    SegmentList()
+    {
+        Segment("dag_amb_wind", 1.0);
+    }
+}
+SoundStreamProperties()
+{
+    Name("bog_amb");
+    Group("ambientenv");
+    Inherit("ambientfx_template");
+    Stream("dag1");
+    Gain(0.5);
+    SegmentList()
+    {
+        Segment("dag_amb_cave", 1.0);
+    }
+}
+
+// ----- Ambient Environment Streams End ---------------------------
+
+
+
+// ----- Prop Ambient Effects Start --------------------------------
+
+SoundProperties()
+{
+    Name("foliage_collision");
+    Pitch(0.9);
+    #ifplatform pc
+    PitchDev(0.2);
+    Gain(0.4);
+    #endifplatform pc
+    #ifplatform xbox
+    PitchDev(0.1);
+    Gain(0.3);
+    #endifplatform xbox
+    #ifplatform ps2
+    PitchDev(0.1);
+    Gain(0.7);
+    #endifplatform ps2
+    GainDev(0.05);
+    ReverbGain(1.0);
+    Bus("soundfx");
+    Looping(0);
+    Pan(0.0);
+    MinDistance(1.0);
+    MuteDistance(40.0);
+    MaxDistance(40.0);
+    RollOff(10.0);
+    Mode3D(1);
+    Bias(0.0001);
+    Priority(0.5);
+    SampleList()
+    {
+        Sample("emt_foliageCollision_01", 0.33);
+        Sample("emt_foliageCollision_02", 0.33);
+        Sample("emt_foliageCollision_03", 0.33);
+    }
+}
+
+SoundProperties()
+{
+    Name("vader_breath")
+    Group("Props");
+    Inherit("props_template");
+    Looping(1);
+    SampleList()
+    {
+        Sample("amb_vader", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("dag_amb_wildlife")
+    Group("ambient_static");
+    Inherit("pain_chatter_template");
+    #ifplatform pc
+    Gain(0.6);
+    #endifplatform pc
+    #ifplatform xbox
+    Gain(0.4);
+    #endifplatform xbox
+    #ifplatform ps2
+    Gain(0.5);
+    #endifplatform ps2
+    Pitch(1.0);
+    PitchDev(0.1);
+    PlayInterval(0.5);
+    PlayIntervalDev(0.0);
+    PlayProbability(0.6);
+    SampleList()
+    {
+        Sample("dag_amb_wild01", 1.0, 0.0, 0.0);
+        Sample("dag_amb_wild02", 1.0, 0.0, 0.0);
+        Sample("dag_amb_wild03", 1.0, 0.0, 0.0);
+        Sample("dag_amb_wild04", 1.0, 0.0, 0.0);
+        Sample("dag_amb_wild05", 1.0, 0.0, 0.0);
+        Sample("dag_amb_wild06", 1.0, 0.0, 0.0);
+        Sample("dag_amb_wild07", 1.0, 0.0, 0.0);
+        Sample("dag_amb_wild08", 1.0, 0.0, 0.0);
+        Sample("dag_amb_wild09", 1.0, 0.0, 0.0);
+        Sample("dag_amb_wild11", 1.0, 0.0, 0.0);
+        Sample("dag_amb_wild12", 1.0, 0.0, 0.0);
+        Sample("dag_amb_wild13", 1.0, 0.0, 0.0);
+        Sample("dag_amb_wild14", 1.0, 0.0, 0.0);
+        Sample("dag_amb_wild15", 1.0, 0.0, 0.0);
+        Sample("dag_amb_wild16", 1.0, 0.0, 0.0);
+        Sample("dag_amb_wild17", 1.0, 0.0, 0.0);
+        Sample("dag_amb_wild18", 1.0, 0.0, 0.0);
+        Sample("dag_amb_wild19", 1.0, 0.0, 0.0);
+        Sample("dag_amb_wild21", 1.0, 0.0, 0.0);
+        Sample("dag_amb_wild22", 1.0, 0.0, 0.0);
+        Sample("dag_amb_wild23", 1.0, 0.0, 0.0);
+        Sample("dag_amb_wild24", 1.0, 0.0, 0.0);
+        Sample("dag_amb_wild25", 1.0, 0.0, 0.0);
+        Sample("dag_amb_wild26", 1.0, 0.0, 0.0);
+        Sample("dag_amb_wild27", 1.0, 0.0, 0.0);
+        Sample("dag_amb_wild28", 1.0, 0.0, 0.0);
+        Sample("dag_amb_wild29", 1.0, 0.0, 0.0);
+    }
+}
+
+
+
+
+// ----- Prop Ambient Effects End ----------------------------------
+
+
+// ----- dag1 Objective VO Start ---------------------------------------------
+
+// ----- dag1 Objective VO End --------------------------------------------------
+

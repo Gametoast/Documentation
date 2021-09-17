@@ -1,0 +1,330 @@
+// Soundspaces --------------------------
+
+I3DL2ReverbPreset()
+{
+    Name("stonehead");
+    RoomGain(0.8);
+    RoomHFGain(0.8);
+    RoomRollOff(1.0);
+    DecayTime(0.5);
+    DecayHFRatio(0.3);
+    ERGain(0.6);
+    ERDelay(0.1);
+    ReverbGain(0.3);
+    ReverbDelay(0.04);
+    Diffusion(100.0);
+    Density(100.0);
+    HFReference(5000.0);
+}
+
+Space()
+{
+    Name("Default");
+    I3DL2ReverbPreset("noreverb");
+    DirectGain(1.0);
+    DirectHFGain(1.0);
+    RoomGain(0.0);
+    RoomHFGain(0.0);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.5);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.5);
+    OcclusionLFRatio(1.0);
+}
+
+Space()
+{
+    Name("StoneHead");
+    I3DL2ReverbPreset("stonehead");
+    DirectGain(1.0);
+    DirectHFGain(1.0);
+    RoomGain(0.6);
+    RoomHFGain(0.6);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.5);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.5);
+    OcclusionLFRatio(1.0);
+}
+
+SoundStreamProperties()
+{
+    Name("nab_amb_meadow");
+    Group("ambientenv");
+    Inherit("ambientfx_template");
+    Gain(0.25);
+    Stream("nab1");
+    SegmentList()
+    {
+        Segment("nab_amb_meadow", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("famba_moan");
+   Pitch(0.95);
+    PitchDev(0.1);
+    Gain(0.7);
+    GainDev(0.0);
+    ReverbGain(1.0);
+    Bus("soundfx");
+    Looping(0);
+    Pan(0.0);
+    MinDistance(25.0);
+    MuteDistance(400.0);
+    MaxDistance(400.0);
+    RollOff(4.0);
+    PlayInterval(25.0);
+    PlayIntervalDev(8.0);
+    Mode3D(1);
+    Bias(0.0001);
+    Priority(0.6);
+    SampleList()
+    {
+        //Sample("fambab", 0.33, 40, 15);
+        //Sample("fambac", 0.33, 25, 20);
+        Sample("crtr_faamba_grunt_01", 0.5, 40, 5);
+        Sample("crtr_faamba_grunt_02", 0.5, 30, 5);
+    }
+}
+
+SoundProperties()
+{
+    Name("famba_hurt");
+   Pitch(0.95);
+    PitchDev(0.1);
+    Gain(0.7);
+    GainDev(0.0);
+    ReverbGain(1.0);
+    Bus("soundfx");
+    Looping(0);
+    Pan(0.0);
+    MinDistance(25.0);
+    MuteDistance(400.0);
+    MaxDistance(400.0);
+    RollOff(4.0);
+    Mode3D(1);
+    Bias(0.0001);
+    Priority(0.6);
+    PlayInterval(7.0);
+    PlayIntervalDev(1.0);
+    SampleList()
+    {
+        Sample("crtr_faamba_hurt", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("famba_death_cry");
+   Pitch(0.95);
+    PitchDev(0.1);
+    Gain(0.7);
+    GainDev(0.0);
+    ReverbGain(1.0);
+    Bus("soundfx");
+    Looping(0);
+    Pan(0.0);
+    MinDistance(25.0);
+    MuteDistance(400.0);
+    MaxDistance(400.0);
+    RollOff(4.0);
+    Mode3D(1);
+    Bias(0.0001);
+    Priority(0.6);
+    SampleList()
+    {
+        Sample("crtr_faamba_death", 1.0);
+    }
+}
+
+
+SoundProperties()
+{
+    Name("faamba_thump");
+    Pitch(0.3);
+    PitchDev(0.1);
+    Gain(0.7);
+    GainDev(0.0);
+    ReverbGain(1.0);
+    Bus("soundfx");
+    Looping(0);
+    Pan(0.0);
+    MinDistance(25.0);
+    MuteDistance(400.0);
+    MaxDistance(400.0);
+    RollOff(3.0);
+    Mode3D(1);
+    Bias(0.0001);
+    Priority(0.6);
+    SampleList()
+    {
+        Sample("mvt_trooper_land_grass", 1.0);
+    }
+}
+
+SoundLayered()
+{
+    Name("famba_death");
+    Layer("null", "famba_death_cry", 0.0);
+    Layer("null", "faamba_thump", 3.8);
+    Layer("null", "faamba_thump", 4.1);
+    
+}
+
+SoundProperties()
+{
+    Name("gungan_hurt");
+    Group("gun_pain_vo");
+    Inherit("pain_chatter_template");
+    SampleList()
+    {
+        Sample("gunab401", 1.0);
+        Sample("gunab402", 1.0);
+    }
+}
+SoundProperties()
+{
+    Name("gungan_die");
+    Group("gun_pain_vo");
+    Inherit("pain_chatter_template");
+    SampleList()
+    {
+        Sample("gunab404", 1.0);
+        Sample("gunab405", 1.0);
+    }
+}
+
+// -- Begin Kaadu --------------------------------------------------
+SoundProperties()
+{
+    Name("kaadu");
+    Pitch(1.0);
+    PitchDev(0.1);
+    Gain(0.7);
+    GainDev(0.1);
+    ReverbGain(1.0);
+    Bus("soundfx");
+    Looping(0);
+    Pan(0.0);
+    MinDistance(5.0);
+    MuteDistance(250.0);
+    MaxDistance(250.0);
+    RollOff(3.0);
+    Mode3D(1);
+    Bias(0.0001);
+    Priority(0.6);
+    SampleList()
+    {
+    Sample("crtr_kaadu_bark_01", 0.5, 2.0);
+    Sample("crtr_kaadu_bark_02", 0.5, 2.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("kaaducry");
+    Pitch(1.0);
+    PitchDev(0.1);
+    Gain(0.7);
+    GainDev(0.1);
+    ReverbGain(1.0);
+    Bus("soundfx");
+    Looping(0);
+    Pan(0.0);
+    MinDistance(5.0);
+    MuteDistance(250.0);
+    MaxDistance(250.0);
+    RollOff(3.0);
+    Mode3D(1);
+    Bias(0.0001);
+    Priority(0.6);
+    SampleList()
+    {
+    Sample("crtr_kaadu_hurt", 1.0);
+    Sample("crtr_kaadu_death", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("kaadustepleft");
+    Pitch(0.8);
+    PitchDev(0.1);
+    Gain(1.0);
+    GainDev(0.0);
+    ReverbGain(1.0);
+    Bus("soundfx");
+    Looping(0);
+    Pan(0.0);
+    MinDistance(30.0);
+    MuteDistance(350.0);
+    MaxDistance(350.0);
+    RollOff(1.0);
+    Mode3D(1);
+    Bias(0.0001);
+    Priority(0.7);
+    SampleList()
+    {
+        Sample("mvt_kaadu_run_dirt_L01", 1.0);
+        Sample("mvt_kaadu_run_dirt_L02", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("kaadustepright");
+    Pitch(0.8);
+    PitchDev(0.1);
+    Gain(1.0);
+    GainDev(0.0);
+    ReverbGain(1.0);
+    Bus("soundfx");
+    Looping(0);
+    Pan(0.0);
+    MinDistance(30.0);
+    MuteDistance(350.0);
+    MaxDistance(350.0);
+    RollOff(1.0);
+    Mode3D(1);
+    Bias(0.0001);
+    Priority(0.7);
+    SampleList()
+    {
+        Sample("mvt_kaadu_run_dirt_R01", 1.0);
+        Sample("mvt_kaadu_run_dirt_R02", 1.0);
+    }
+}
+
+
+// -- End Kaadu --------------------------------------------------------
+
+
+// End Gungan Chatter ----------------------------------------------
+
+//CP update Famba
+
+SoundStreamProperties()
+{
+    Name("cis_destroy_famba");
+    Group("kill_vo");
+    Inherit("vo_template");
+    Stream("cw_vo");
+    PlayInterval(10.0);
+    SegmentList()
+    {
+        Segment("CONAB209", 1.0);
+    }
+}
+
+
+
+// Gungan Chatter -------------------------------------------------
+
+SoundStreamProperties()
+{
+    Name("gungan_chatter_template");
+    Inherit("ai_tactical_template");
+    Gain(0.5);
+}

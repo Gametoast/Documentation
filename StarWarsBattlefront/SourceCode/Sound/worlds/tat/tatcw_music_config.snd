@@ -1,0 +1,240 @@
+// ----- Republic Music -----
+
+SoundStream()
+{
+    Name("rep_tat_amb_start");
+    Pitch(1.0);
+    PitchDev(0.0);
+    Gain(1.0);
+    GainDev(0.0);
+    ReverbGain(0.0);
+    Bus("ingamemusic");
+    Looping(0);
+    Pan(0.0);
+    Mode3D(0);
+    Stream("tatcw_music");
+    SegmentList()
+    {
+        Segment("rep_tat_amb_start", 1.0);
+    }
+}
+
+SoundStream()
+{
+    Name("rep_tat_amb_middle");
+    Pitch(1.0);
+    PitchDev(0.0);
+    Gain(1.0);
+    GainDev(0.0);
+    ReverbGain(0.0);
+    Bus("ingamemusic");
+    Looping(0);
+    Pan(0.0);
+    Mode3D(0);
+    CyclePlayback(1);
+    Stream("tatcw_music");
+    SegmentList()
+    {
+        Segment("rep_tat_amb_middle", 0.5);
+        Segment("rep_tat_amb_middle02", 0.5);
+    }
+}
+
+SoundStream()
+{
+    Name("rep_tat_amb_end");
+    Pitch(1.0);
+    PitchDev(0.0);
+    Gain(1.0);
+    GainDev(0.0);
+    ReverbGain(0.0);
+    Bus("ingamemusic");
+    Looping(0);
+    Pan(0.0);
+    Mode3D(0);
+    Stream("tatcw_music");
+    SegmentList()
+    {
+        Segment("rep_tat_amb_end", 1.0);
+    }
+}
+
+SoundStream()
+{
+    Name("rep_tat_amb_victory");
+    Pitch(1.0);
+    PitchDev(0.0);
+    Gain(1.0);
+    GainDev(0.0);
+    ReverbGain(0.0);
+    Bus("ingamemusic");
+    Looping(0);
+    Pan(0.0);
+    Mode3D(0);
+    Stream("tatcw_music");
+    SegmentList()
+    {
+        Segment("rep_tat_amb_victory01", 1.0);
+    }
+}
+
+SoundStream()
+{
+    Name("rep_tat_amb_defeat");
+    Pitch(1.0);
+    PitchDev(0.0);
+    Gain(1.0);
+    GainDev(0.0);
+    ReverbGain(0.0);
+    Bus("ingamemusic");
+    Looping(0);
+    Pan(0.0);
+    Mode3D(0);
+    Stream("tatcw_music");
+    SegmentList()
+    {
+        Segment("rep_tat_amb_defeat", 1.0);
+    }
+}
+
+SoundStream()
+{
+    Name("rep_tat_amb_vehicle");
+    Pitch(1.0);
+    PitchDev(0.0);
+    Gain(1.0);
+    GainDev(0.0);
+    ReverbGain(0.0);
+    Bus("ingamemusic");
+    Looping(0);
+    Pan(0.0);
+    Mode3D(0);
+    CyclePlayback(1);
+    Stream("tatcw_music");
+    SegmentList()
+    {
+        Segment("rep_tat_amb_veh01", 0.33);
+        Segment("rep_tat_amb_veh02", 0.33);
+        Segment("rep_tat_amb_veh03", 0.33);
+    }
+}
+
+//----- CIS Music -----
+
+SoundStream()
+{
+    Name("cis_tat_amb_start");
+    Pitch(1.0);
+    PitchDev(0.0);
+    Gain(1.0);
+    GainDev(0.0);
+    ReverbGain(0.0);
+    Bus("ingamemusic");
+    Looping(0);
+    Pan(0.0);
+    Mode3D(0);
+    Stream("tatcw_music");
+    SegmentList()
+    {
+        Segment("cis_tat_amb_start", 1.0);
+    }
+}
+
+SoundStream()
+{
+    Name("cis_tat_amb_middle");
+    Pitch(1.0);
+    PitchDev(0.0);
+    Gain(1.0);
+    GainDev(0.0);
+    ReverbGain(0.0);
+    Bus("ingamemusic");
+    Looping(0);
+    Pan(0.0);
+    Mode3D(0);
+    CyclePlayback(1);
+    Stream("tatcw_music");
+    SegmentList()
+    {
+        Segment("cis_tat_amb_middle", 1.0);
+    }
+}
+
+SoundStream()
+{
+    Name("cis_tat_amb_end");
+    Pitch(1.0);
+    PitchDev(0.0);
+    Gain(1.0);
+    GainDev(0.0);
+    ReverbGain(0.0);
+    Bus("ingamemusic");
+    Looping(0);
+    Pan(0.0);
+    Mode3D(0);
+    Stream("tatcw_music");
+    SegmentList()
+    {
+        Segment("cis_tat_amb_end", 1.0);
+    }
+}
+
+SoundStream()
+{
+    Name("cis_tat_amb_victory");
+    Pitch(1.0);
+    PitchDev(0.0);
+    Gain(1.0);
+    GainDev(0.0);
+    ReverbGain(0.0);
+    Bus("ingamemusic");
+    Looping(0);
+    Pan(0.0);
+    Mode3D(0);
+    Stream("tatcw_music");
+    SegmentList()
+    {
+        Segment("cis_tat_amb_victory", 1.0);
+    }
+}
+
+SoundStream()
+{
+    Name("cis_tat_amb_defeat");
+    Pitch(1.0);
+    PitchDev(0.0);
+    Gain(1.0);
+    GainDev(0.0);
+    ReverbGain(0.0);
+    Bus("ingamemusic");
+    Looping(0);
+    Pan(0.0);
+    Mode3D(0);
+    Stream("tatcw_music");
+    SegmentList()
+    {
+        Segment("cis_tat_amb_defeat01", 1.0);
+    }
+}
+
+SoundStream()
+{
+    Name("cis_tat_amb_vehicle");
+    Pitch(1.0);
+    PitchDev(0.0);
+    Gain(1.0);
+    GainDev(0.0);
+    ReverbGain(0.0);
+    Bus("ingamemusic");
+    Looping(0);
+    Pan(0.0);
+    Mode3D(0);
+    CyclePlayback(1);
+    Stream("tatcw_music");
+    SegmentList()
+    {
+        Segment("cis_tat_amb_veh01", 0.33);
+        Segment("cis_tat_amb_veh02", 0.33);
+        Segment("cis_tat_amb_veh03", 0.33);
+    }
+}

@@ -1,0 +1,602 @@
+
+//  --------------------------------------------------- Objective VO ----------------------------------------------------------
+
+SoundStreamProperties()
+{
+    Name("MYG_obj_01");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("myg_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROMYG0001", 1.0, 0.0, 0.0); //  Alright Men.    Today's target is an Energy Collector on the Northern section of the platform.  If we can take it down, production facilities in the area will grind to a halt.  Let's move 'em out.
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("MYG_obj_02");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("myg_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROMYG0002", 1.0, 0.0, 0.0); //  The enemy's forward command post is on the other side of this bridge.  We'll have capture it before moving on.
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("MYG_obj_03");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("myg_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROMYG0003", 1.0, 0.0, 0.0); //  Well done, men.  Now we need to make some space for General Mundi to land.  Take out those turrets, and clear the deck!
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("MYG_obj_04");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("myg_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROMYG0004", 1.0, 0.0, 0.0); //  One more to go
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("MYG_inf_01");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("myg_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("RIMYG0001", 1.0, 0.0, 0.0); //  There are too many of them!
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("MYG_inf_02");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("myg_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("RIMYG0002", 1.0, 0.0, 0.0); //  Boom!  Its raining droids
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("MYG_inf_03");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("myg_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("RIMYG0003", 1.0, 0.0, 0.0); //  Their frontline is too strong,  we cannot penetrate their defenses
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("MYG_inf_04");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("myg_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("RIMYG0004", 1.0, 0.0, 0.0); //  Lets turn this place into a scrap pile
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("MYG_obj_05");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("myg_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROMYG0005", 1.0, 0.0, 0.0); //  General Mundi,  you are clear to Land.
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("MYG_Mundi_01");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("myg_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("KAMYG0001", 1.0, 0.0, 0.0); //  Excellent Work Commander. Your men have more than lived up to their reputations.  
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("MYG_obj_06");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("myg_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROMYG0006", 1.0, 0.0, 0.0); //  Listen up...  Before we can begin our assault on the Sep's Energy Collector, we have to penetrate their Shield Barricades.  So load up those tanks and rockets, and move out!
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("MYG_obj_07");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("myg_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROMYG0016", 1.0, 0.0, 0.0); //  Listen up, men.  Before we can begin our assault on the Energy collector, we have to bring down those shields!  Now, we can do this the hard way, with tanks and rockets, or we can try to find a way to sneak past the shields and deactivate them,  In either event, this mission isn't going anywhere until those shields are down!
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("MYG_obj_08");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("myg_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROMYG0007", 1.0, 0.0, 0.0); //  We need to knock down the Shields protecting the core.
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("MYG_obj_09");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("myg_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROMYG0008", 1.0, 0.0, 0.0); //  The Shields are Down.  Lets take out the Core.
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("MYG_inf_05");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("myg_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("RIMYG0005", 1.0, 0.0, 0.0); //  Sir... they're repairing the core shields.
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("MYG_obj_10");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("myg_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROMYG0009", 1.0, 0.0, 0.0); //  Keep your finger on the Trigger Soldier.
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("MYG_inf_06");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("myg_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("RIMYG0006", 1.0, 0.0, 0.0); //  I could go for a Death Stick about now.
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("MYG_obj_11");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("myg_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROMYG0010", 1.0, 0.0, 0.0); //  Nice work men.  Commander Osalt to Capital Ship Control.  We've taken out the Energy Collector Core... Awaiting further instruction.
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("MYG_obj_12");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("myg_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROMYG0011", 1.0, 0.0, 0.0); //  Excellent work, Commander.  Now you may proceed with the mission's PRIMARY objective.  Within the energy collector's core are a number of crystals.  Have your men collect as many as they can without being noticed by your Jedi Commander, and deliver them to the drop ship marked on your nav map.  If you encounter droid resitance along the way, do everything in your power to keep the crystals intact.
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("MYG_inf_07");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("myg_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("RIMYG0007", 1.0, 0.0, 0.0); //  Sir.. I can see the Drop Ship.
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("MYG_obj_13");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("myg_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROMYG0012", 1.0, 0.0, 0.0); //  Drop ship has arrived.  Get those rocks on board, and prepare for departure.
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("MYG_obj_14");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("myg_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROMYG0013", 1.0, 0.0, 0.0); //  Nicely done, gentemen.  Your work here today has made the Chancellor a very happy man.
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("MYG_obj_15");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("myg_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROMYG0014", 1.0, 0.0, 0.0); //  We've failed to destory the Energy Collector...the Republic will suffer for our ineptitude.
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("MYG_obj_16");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("myg_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROMYG0015", 1.0, 0.0, 0.0); //  We've failed to bring the Chancellor his crystals...he will not be pleased.
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("MYG_obj_17");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("myg_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROMYG0017", 1.0, 0.0, 0.0); //  Well done, men.  Now we need to make some space for General Mundi to land.  Get in that tank and take down those turrets!
+        }
+}
+
+SoundStreamProperties()
+{
+    Name("MYG_obj_18");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("myg_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROMYG0018", 1.0, 0.0, 0.0); //  Listen up, men.  Before we can begin our assault on the Energy Collector, we have to get past those shield baracades.  Now we can take out the shield the hard way with tanks and rockets or we can sneak around and take out that shield generator.
+        }
+}
+
+SoundStreamProperties()
+{
+    Name("MYG_obj_19");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("myg_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROMYG0019", 1.0, 0.0, 0.0); //  If you're looking for some heavier fire power, we've dropped a tank off at the base of the stairs of the newly acquired command post
+        }
+}
+
+SoundStreamProperties()
+{
+    Name("MYG_obj_20");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("myg_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROMYG0020", 1.0, 0.0, 0.0); //  Good work, trooper.  Now collect the Core samples and return them to the dropship on the other side of the bridge.
+        }
+}
+
+SoundStreamProperties()
+{
+    Name("MYG_obj_21");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("myg_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROMYG0021", 1.0, 0.0, 0.0); //  C'mon, trooper!  What's the holdup.  The mission is simple.  Destroy the core, collect the samples, and get back to the dropship.  Now get a move on!
+        }
+}
+
+SoundStreamProperties()
+{
+    Name("MYG_obj_22");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("myg_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROMYG0022", 1.0, 0.0, 0.0); //  Shoot at the Shield to Destroy it! Or destroy the Generator behind the Shield
+        }
+}
+
+SoundStreamProperties()
+{
+    Name("MYG_obj_23");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("myg_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROMYG0023", 1.0, 0.0, 0.0); //  Now take the Crystals back to the Drop Ship
+        }
+}
+
+SoundStreamProperties()
+{
+    Name("MYG_obj_24");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("myg_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROMYG0024", 1.0, 0.0, 0.0); //  Reinforcements have been depleted.  Return to base for reassignment.
+        }
+}
+
+SoundStreamProperties()
+{
+    Name("MYG_obj_25");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("myg_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROMYG0025", 1.0, 0.0, 0.0); //  Our reinforcements count is low
+        }
+}
+
+SoundStreamProperties()
+{
+    Name("MYG_obj_26");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("myg_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROMYG0026", 1.0, 0.0, 0.0); //  One more AA Gun to take out
+        }
+}
+
+SoundStreamProperties()
+{
+    Name("MYG_obj_27");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("myg_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROMYG0027", 1.0, 0.0, 0.0); //  One more to go
+        }
+}
+
+SoundStreamProperties()
+{
+    Name("MYG_obj_28");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("myg_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROMYG0028", 1.0, 0.0, 0.0); //  Capture the Eastern CP soldier, it will serve as a staging point for our Assualt on the Energy Collector
+        }
+}
+
+SoundStreamProperties()
+{
+    Name("MYG_obj_29");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("myg_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROMYG0029", 1.0, 0.0, 0.0); //  Alright, now take out the second set of AA guns protecting the Collector
+        }
+}
+
+SoundStreamProperties()
+{
+    Name("MYG_obj_30");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("myg_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROMYG0030", 1.0, 0.0, 0.0); //  If you're looking for some heavier fire power, we've dropped a ATRT at the base of the stairs of the newly acquired command post
+        }
+}
+
+SoundStreamProperties()
+{
+    Name("MYG_obj_31");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("myg_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROMYG0031", 1.0, 0.0, 0.0); //  Destroy the Generator to Power down that Energy Shield
+        }
+}
+
+SoundStreamProperties()
+{
+    Name("MYG_obj_32");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("myg_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROMYG0032", 1.0, 0.0, 0.0); //  Take out that Generator to Clear the Path to Energy Collector
+        }
+}
+
+SoundStreamProperties()
+{
+    Name("MYG_obj_33");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("myg_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROMYG0033", 1.0, 0.0, 0.0); //  Take down that Shield by destroying the Generator 
+        }
+}
+
+SoundStreamProperties()
+{
+    Name("MYG_obj_34");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("myg_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROMYG0034", 1.0, 0.0, 0.0); //  Take down the Core's Shield by destroying the Generator 
+        }
+}
+
+SoundStreamProperties()
+{
+    Name("MYG_obj_35");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("myg_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROUTA0020", 1.0, 0.0, 0.0); //  Capture this CP, it will serve as an excellent look out point for our mission.
+        }
+}
+
+SoundStreamProperties()
+{
+    Name("MYG_Mundi_02");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("myg_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("KAMYG0002", 1.0, 0.0, 0.0); //  General Mundi here, I’m taking heavy fire
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("MYG_Mundi_03");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("myg_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("KAMYG0003", 1.0, 0.0, 0.0); //  Clear out the air defense turret so I can join the battle
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("MYG_Mundi_04");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("myg_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("KAMYG0004", 1.0, 0.0, 0.0); //  Well done 501st, I’m ready to join the fight
+
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("MYG_Mundi_05");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("myg_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("KAMYG0005", 1.0, 0.0, 0.0); //  These droids blasters are no match for my lightsaber
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("MYG_Mundi_06");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("myg_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("KAMYG0006", 1.0, 0.0, 0.0); //  I’ll take on the droids while you secure the perimeter
+    }
+}

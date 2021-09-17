@@ -1,0 +1,158 @@
+// Ambient Environment ------------------------------------------------------------------
+
+Space()
+{
+    Name("Default");
+    I3DL2ReverbPreset("noreverb");
+    DirectGain(1.0);
+    DirectHFGain(1.0);
+    RoomGain(0.0);
+    RoomHFGain(0.0);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.5);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.5);
+    OcclusionLFRatio(1.0);
+}
+
+I3DL2ReverbPreset()
+{
+    Name("largespace");
+    RoomGain(0.7);
+    RoomHFGain(0.5);
+    RoomRollOff(1.0);
+    DecayTime(2.5);
+    DecayHFRatio(0.8);
+    ERGain(0.3);
+    ERDelay(0.014);
+    ReverbGain(0.5);
+    ReverbDelay(0.021);
+    Diffusion(100.0);
+    Density(100.0);
+    HFReference(5000.0);
+}
+
+I3DL2ReverbPreset()
+{
+    Name("smallspace");
+    RoomGain(0.7);
+    RoomHFGain(0.3);
+    RoomRollOff(1.0);
+    DecayTime(1.6);
+    DecayHFRatio(0.3);
+    ERGain(0.2);
+    ERDelay(0.02);
+    ReverbGain(0.8);
+    ReverbDelay(0.04);
+    Diffusion(100.0);
+    Density(100.0);
+    HFReference(5000.0);
+}
+
+I3DL2ReverbPreset()
+{
+    Name("basement");
+    RoomGain(0.8);
+    RoomHFGain(0.6);
+    RoomRollOff(0.0);
+    DecayTime(3.2);
+    DecayHFRatio(0.8);
+    ERGain(0.3);
+    ERDelay(0.014);
+    ReverbGain(0.6);
+    ReverbDelay(0.021);
+    Diffusion(100.0);
+    Density(100.0);
+    HFReference(5000.0);
+}
+
+
+Space()
+{
+    Name("turret");
+    I3DL2ReverbPreset("largespace");
+    DirectGain(1.0);
+    DirectHFGain(1.0);
+    RoomGain(1.0);
+    RoomHFGain(0.1);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.7);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.7);
+    OcclusionLFRatio(1.0);
+}
+
+Space()
+{
+    Name("courtyard");
+    I3DL2ReverbPreset("largespace");
+    DirectGain(1.0);
+    DirectHFGain(1.0);
+    RoomGain(1.0);
+    RoomHFGain(0.1);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.5);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.5);
+    OcclusionLFRatio(1.0);
+}
+
+
+
+Space()
+{
+    Name("chamber");
+    I3DL2ReverbPreset("smallspace");
+    DirectGain(1.0);
+    DirectHFGain(1.0);
+    RoomGain(1.0);
+    RoomHFGain(0.1);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.5);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.5);
+    OcclusionLFRatio(1.0);
+}
+
+
+
+Space()
+{
+    Name("basement");
+    I3DL2ReverbPreset("basement");
+    DirectGain(1.0);
+    DirectHFGain(1.0);
+    RoomGain(1.0);
+    RoomHFGain(0.4);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.1);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.1);
+    OcclusionLFRatio(1.0);
+}
+
+SoundStreamProperties()
+{
+    Name("rhn_amb_wind");
+    Group("ambientenv");
+    Inherit("ambientfx_template");
+    Gain(0.55);
+    Stream("rhn");
+    SegmentList()
+    {
+        Segment("rhn_amb_wind", 1.0);
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("rhn_amb_catacomb");
+    Group("ambientenv");
+    Inherit("ambientfx_template");
+    Stream("rhn");
+    Gain(0.4);
+    SegmentList()
+    {
+        Segment("rhn_amb_catacomb", 1.0);
+    }
+}

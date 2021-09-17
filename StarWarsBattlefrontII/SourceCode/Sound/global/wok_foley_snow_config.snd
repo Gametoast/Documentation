@@ -1,0 +1,154 @@
+//-All Snow Foley--------------------------------------------------------------
+// all_inf
+
+// soldier movement
+//-jump land roll squat--------------------------------------------------------
+
+//SoundProperties()
+//{
+//    Name("wok_inf_soldier_getup_snow")
+//    Group("body_movement");
+//    Inherit("wookie_movement_template");
+//    SampleList()
+//    {
+//        Sample("mvt_wookiee_getup_snow", 1.0);
+//    }
+//}
+
+SoundProperties()
+{
+    Name("wok_inf_soldier_jump_snow")
+    Group("body_movement");
+    Inherit("wookie_movement_template");
+    SampleList()
+    {
+        Sample("mvt_wookiee_jump_snow", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("wok_inf_soldier_land_snow")
+    Group("body_movement");
+    Inherit("wookie_movement_template");
+    SampleList()
+    {
+        Sample("mvt_wookiee_land_snow", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("wok_inf_soldier_lgBF_snow")
+    Group("body_movement");
+    Inherit("wookie_movement_template");
+    SampleList()
+    {
+        Sample("mvt_wookiee_snow_lgBF_01", 0.33);
+        Sample("mvt_wookiee_snow_lgBF_02", 0.33);
+        Sample("mvt_wookiee_snow_smBf", 0.33);
+    }
+}
+
+//SoundProperties()
+//{
+//    Name("wok_inf_soldier_lie_snow")
+//    Group("body_movement");
+//    Inherit("wookie_movement_template");
+//    SampleList()
+//    {
+//        Sample("mvt_wookiee_lie_snow", 1.0);
+//    }
+//}
+
+SoundProperties()
+{
+    Name("wok_inf_soldier_roll_snow")
+    Group("body_movement");
+    Inherit("wookie_movement_template");
+    SampleList()
+    {
+        Sample("mvt_wookiee_roll_snow", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("wok_inf_soldier_squat_snow")
+    Group("body_movement");
+    Inherit("wookie_movement_template");
+    SampleList()
+    {
+        Sample("mvt_wookiee_squat", 1.0);
+    }
+}
+
+
+//-Footsteps run walk----------------------------------------------------------
+
+SoundProperties()
+{
+    Name("wok_inf_soldier_run_snow_left")
+    Group("body_movement");
+    Inherit("wookie_movement_template");
+    SampleList()
+    {
+        Sample("mvt_wookiee_run_snow_L01", 1.0);
+        Sample("mvt_wookiee_run_snow_L02", 1.0);
+        Sample("mvt_wookiee_run_snow_L03", 1.0);
+        Sample("mvt_wookiee_run_snow_L04", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("wok_inf_soldier_run_snow_right")
+    Group("body_movement");
+    Inherit("wookie_movement_template");
+    SampleList()
+    {
+        Sample("mvt_wookiee_run_snow_R01", 1.0);
+        Sample("mvt_wookiee_run_snow_R02", 1.0);
+        Sample("mvt_wookiee_run_snow_R03", 1.0);
+        Sample("mvt_wookiee_run_snow_R04", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("wok_inf_soldier_walk_snow_left")
+    Group("body_movement");
+    Inherit("wookie_movement_template");
+    SampleList()
+    {
+        Sample("mvt_wookiee_walk_snow_L01", 1.0);
+        Sample("mvt_wookiee_walk_snow_L02", 1.0);
+        Sample("mvt_wookiee_walk_snow_L03", 1.0);
+        Sample("mvt_wookiee_walk_snow_L04", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("wok_inf_soldier_walk_snow_right")
+    Group("body_movement");
+    Inherit("wookie_movement_template");
+    SampleList()
+    {
+        Sample("mvt_wookiee_walk_snow_R01", 1.0);
+        Sample("mvt_wookiee_walk_snow_R02", 1.0);
+        Sample("mvt_wookiee_walk_snow_R03", 1.0);
+        Sample("mvt_wookiee_walk_snow_R04", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("wok_inf_soldier_stop_snow")
+    Group("body_movement");
+    Inherit("wookie_movement_template");
+    SampleList()
+    {
+        Sample("mvt_wookiee_stop_snow", 1.0);
+    }
+}

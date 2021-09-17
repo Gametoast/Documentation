@@ -1,0 +1,724 @@
+
+//  --------------------------------------------------- Objective VO ----------------------------------------------------------
+
+SoundStreamProperties()
+{
+    Name("UTA_obj_01");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("uta_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROUTA0001", 1.0, 0.0, 0.0); //  Troopers, you'll be making your insertion on the western landing platform of level 10.  Medon has made attempts to clear the landing area, but it's already under attack, so you'll be coming in hot.  Move in, destroy the power generators in the Western sector, secure Hangar 10, then move on to destroy the Eastern sector's power generators, securing the entire level.
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("UTA_obj_02");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("uta_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROUTA0002", 1.0, 0.0, 0.0); //  The droids have mined the highway!  Clear 'em out so we can move our tanks in!
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("UTA_obj_03");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("uta_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROUTA0003", 1.0, 0.0, 0.0); //  Mines cleared, move on towards the western sector.
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("UTA_obj_04");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("uta_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROUTA0004", 1.0, 0.0, 0.0); //  Those two generators are powering the droids in this sector, take them down!
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("UTA_obj_05");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("uta_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROUTA0005", 1.0, 0.0, 0.0); //  Nice work, now take out the other generator!
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("UTA_obj_06");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("uta_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROUTA0006", 1.0, 0.0, 0.0); //  Primary power sources down, critical reserve systems kicking in.  That ought to keep those clankers out of here...
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("UTA_obj_07");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("uta_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROUTA0007", 1.0, 0.0, 0.0); //  Hold your position, men!  If this hangar goes, we could lose the whole level!
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("UTA_obj_08");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("uta_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROUTA0008", 1.0, 0.0, 0.0); //  General Kenobi, your landing has been cleared.  Welcome to Utapau.
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("UTA_obj_09");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("uta_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROUTA0009", 1.0, 0.0, 0.0); //  The hangar has fallen, repeat, the hangar has fallen!
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("UTA_obj_10");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("uta_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROUTA0010", 1.0, 0.0, 0.0); //  We're halway home, troops.  Take out the generators on the Eastern landing, and the level is ours.
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("UTA_obj_11");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("uta_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROUTA0011", 1.0, 0.0, 0.0); //  Pretty.  Now take down the other one.
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("UTA_obj_12");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("uta_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROUTA0012", 1.0, 0.0, 0.0); //  Good job, Trooper.  Thanks to you, the war is as good as won!
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("UTA_obj_13");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("uta_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROUTA0013", 1.0, 0.0, 0.0); //  Troopers! Sensors have got a squad of droids tanks coming in from Level 11, including four AATs!  Do NOT let them take back this level!
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("UTA_obj_14");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("uta_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROUTA0014", 1.0, 0.0, 0.0); //  Droid forces neutralized.  Well done, Trooper.
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("UTA_obj_15");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("uta_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROUTA0015", 1.0, 0.0, 0.0); //  There's too many of them!
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("UTA_obj_16");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("uta_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROUTA0016", 1.0, 0.0, 0.0); //  We're being overrun!
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("UTA_obj_17");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("uta_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROUTA0017", 1.0, 0.0, 0.0); //  It's no use...Utapau is lost...and with it, our last best hope of winning this war.
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("UTA_obj_18");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("uta_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROUTA0018", 1.0, 0.0, 0.0); //  Troopers, you'll be making your insertion onto the Lizard Pen of Level 10.  Don't worry, the Veractyls have been cleared off this level, so the Pen is empty.  Medon has made attempts to clear the landing area, but it's already under attack, so you'll be coming in hot.  Once you are deployed, I'll radio in further orders.
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("UTA_obj_19");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("uta_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROUTA0019", 1.0, 0.0, 0.0); //  Secure the building up ahead.
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("UTA_obj_20");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("uta_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROUTA0020", 1.0, 0.0, 0.0); //  Capture this CP, it will serve as an excellent look out point for our mission.
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("UTA_obj_21");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("uta_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROUTA0021", 1.0, 0.0, 0.0); //  Well done, now move down the Highway and make your way to Hangar 10.
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("UTA_obj_22");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("uta_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROUTA0022", 1.0, 0.0, 0.0); //  There is an AAT moving up the highway, destroy that tank before it wipes out the entire squad!
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("UTA_obj_23");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("uta_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROUTA0023", 1.0, 0.0, 0.0); //  The AAT has been destroyed, take over that CP and establish a forward command.
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("UTA_obj_24");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("uta_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROUTA0024", 1.0, 0.0, 0.0); //  There is a CP further down the highway, clear any enemies on the highway and secure the area.
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("UTA_obj_25");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("uta_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROUTA0025", 1.0, 0.0, 0.0); //  The door to Hangar 10 is closed but you can still make your way in through the sides.  Walkers can't fit, so you'll have to do this on foot.
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("UTA_obj_26");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("uta_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROUTA0026", 1.0, 0.0, 0.0); //  There are some AA guns in Hangar 10 that are causing our fly boys quite a bit of trouble.  They need you to destroy those guns in they're going to land the heavy support units.
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("UTA_obj_27");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("uta_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROUTA0027", 1.0, 0.0, 0.0); //  Once you destroy those AA guns, we'll be able to drop some heavy support units down for you.
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("UTA_obj_28");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("uta_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROUTA0028", 1.0, 0.0, 0.0); //  Nice work, destroy the other gun and Hangar 10 will be ours.
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("UTA_obj_29");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("uta_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROUTA0029", 1.0, 0.0, 0.0); //  Stand by for heavy support units soldier.
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("UTA_obj_30");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("uta_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROUTA0030", 1.0, 0.0, 0.0); //  Tanks incoming.
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("UTA_obj_31");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("uta_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROUTA0031", 1.0, 0.0, 0.0); //  This could be tricky.
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("UTA_obj_32");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("uta_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROUTA0032", 1.0, 0.0, 0.0); //  Now soldier, destroy that energy tower!
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("UTA_obj_33");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("uta_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROUTA0033", 1.0, 0.0, 0.0); //  Well done trooper, the tower has been destroyed and this level is as good as ours.
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("UTA_obj_34");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("uta_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROUTA0034", 1.0, 0.0, 0.0); //  For the Republic!  We are victorious!
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("UTA_obj_35");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("uta_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROUTA0035", 1.0, 0.0, 0.0); //  General Obi Wan has been landed on this level, he should be able to help you troopers quite a bit.
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("UTA_obj_36");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("uta_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROUTA0036", 1.0, 0.0, 0.0); //  Soldier, you are wasting both your time and the Republics!  Get back on duty!
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("UTA_obj_37");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("uta_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROUTA0037", 1.0, 0.0, 0.0); //  Trooper, you have your orders, get back to work!
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("UTA_obj_38");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("uta_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROUTA0038", 1.0, 0.0, 0.0); //  Hangar 10 is the last CP you'll need to take over.  It'll be a tough fight, the droids are dug in fairly well in there.
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("UTA_obj_39");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("uta_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROUTA0039", 1.0, 0.0, 0.0); //  Well done Trooper, now secure Hangar 10 and we'll send in a dropship to back you up.
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("UTA_obj_40");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("uta_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROUTA0040", 1.0, 0.0, 0.0); //  By the Galaxy!   General Greivious is inside of Hangar 10!  Take him out before he wipes out our forces!
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("UTA_obj_41");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("uta_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROUTA0041", 1.0, 0.0, 0.0); //  Trooper, General Grievious has revealed himself,  make sure he doesn't leave Level 10 without a few battle scars.
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("UTA_obj_42");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("uta_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROUTA0042", 1.0, 0.0, 0.0); //  Grievious is retreating, well done Trooper.
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("UTA_obj_43");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("uta_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROUTA0043", 1.0, 0.0, 0.0); //  Trooper, Grievious is leaving the battlefield.  We'll let General Obi Wan take care of him now.
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("UTA_obj_44");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("uta_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROUTA0044", 1.0, 0.0, 0.0); //  Hangar 10 is secured.
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("UTA_obj_45");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("uta_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROUTA0045", 1.0, 0.0, 0.0); //  The hangar is ours.
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("UTA_obj_46");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("uta_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROUTA0046", 1.0, 0.0, 0.0); //  There is a two story building just a bit south-west of your position.  Assault that command post.
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("UTA_obj_47");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("uta_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROUTA0047", 1.0, 0.0, 0.0); //  The Highay is secured.
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("UTA_obj_48");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("uta_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROUTA0048", 1.0, 0.0, 0.0); //  We're sending down some backup to help you out.
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("UTA_obj_49");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("uta_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROUTA0049", 1.0, 0.0, 0.0); //  Take out that Power Generator!
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("UTA_obj_50");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("uta_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROUTA0050", 1.0, 0.0, 0.0); //  General kenobi has left the battlefield
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("UTA_obj_51");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("uta_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROUTA0051", 1.0, 0.0, 0.0); //  We have exhausted our reinforcements.  This mission is a failure.
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("UTA_obj_52");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("uta_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROUTA0052", 1.0, 0.0, 0.0); //  Reinforcements are nearly depleted
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("UTA_ObiWan_01");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("uta_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("OBWUTA001", 1.0, 0.0, 0.0); //  This is General Kenobi, awaiting landing pad clearance.
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("UTA_ObiWan_02");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("uta_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("OBWUTA002", 1.0, 0.0, 0.0); //  Look, I don't mean to complain, but I really can't join the battle until the landing pad's been secured.
+
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("UTA_ObiWan_03");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("uta_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("OBWUTA003", 1.0, 0.0, 0.0); //  Well done 501st.  Now let's finish the job.
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("UTA_ObiWan_04");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("uta_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("OBWUTA004", 1.0, 0.0, 0.0); //  Has anyone seen my lightsaber?
+    }
+}

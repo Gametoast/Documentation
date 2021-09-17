@@ -1,0 +1,68 @@
+//-all Foley Effects-----------------------------------------------------------
+
+//-Soldier---------------------------------------------------------------------
+
+FoleyFXSoldier()
+{
+    Name("all_inf_soldier_snow");
+    Class("all_inf_soldier");
+    FootstepLeftWalk("all_inf_soldier_walk_snow_left");
+    FootstepRightWalk("all_inf_soldier_walk_snow_right");
+    FootstepLeftRun("all_inf_soldier_run_snow_left");
+    FootstepRightRun("all_inf_soldier_run_snow_right");
+    FootstepLeftStop("all_inf_soldier_stop_snow");
+    FootstepRightStop("all_inf_soldier_stop_snow");
+    Jump("all_inf_soldier_jump_snow");
+    Land("all_inf_soldier_land_snow");
+    Roll("all_inf_soldier_roll_snow");
+//    Prone("all_inf_soldier_lie_snow");
+    Squat("all_inf_soldier_squat_snow");
+////    Stand("all_inf_soldier_getup_snow");
+    Bodyfall("all_inf_soldier_lgBF_snow");
+}
+
+
+//-imp Foley Effects-----------------------------------------------------------
+
+//-Trooper---------------------------------------------------------------------
+
+FoleyFXSoldier()
+{
+    Name("imp_inf_trooper_snow");
+    Class("imp_inf_trooper");
+    FootstepLeftWalk("imp_inf_trooper_walk_snow_left");
+    FootstepRightWalk("imp_inf_trooper_walk_snow_right");
+    FootstepLeftRun("imp_inf_trooper_run_snow_left");
+    FootstepRightRun("imp_inf_trooper_run_snow_right");
+    FootstepLeftStop("imp_inf_trooper_stop_snow");
+    FootstepRightStop("imp_inf_trooper_stop_snow");
+    Jump("imp_inf_trooper_jump_snow");
+    Land("imp_inf_trooper_land_snow");
+    Roll("imp_inf_trooper_roll_snow");
+//    Prone("imp_inf_trooper_lie_snow");
+    Squat("imp_inf_trooper_squat_snow");
+////    Stand("imp_inf_trooper_getup_snow");
+    Bodyfall("imp_inf_trooper_lgBF_snow");
+}
+
+
+//-Soldier---------------------------------------------------------------------
+
+FoleyFXSoldier()
+{
+    Name("imp_inf_soldier_snow");
+    Class("imp_inf_soldier");
+    FootstepLeftWalk("imp_inf_soldier_walk_snow_left");
+    FootstepRightWalk("imp_inf_soldier_walk_snow_right");
+    FootstepLeftRun("imp_inf_soldier_run_snow_left");
+    FootstepRightRun("imp_inf_soldier_run_snow_right");
+    FootstepLeftStop("imp_inf_soldier_stop_snow");
+    FootstepRightStop("imp_inf_soldier_stop_snow");
+    Jump("imp_inf_soldier_jump_snow");
+    Land("imp_inf_soldier_land_snow");
+    Roll("imp_inf_soldier_roll_snow");
+//    Prone("imp_inf_soldier_lie_snow");
+    Squat("imp_inf_soldier_squat_snow");
+//    Stand("imp_inf_soldier_getup_snow");
+    Bodyfall("imp_inf_soldier_lgBF_snow");
+}

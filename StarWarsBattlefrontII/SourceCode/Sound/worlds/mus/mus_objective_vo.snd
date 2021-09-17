@@ -1,0 +1,373 @@
+
+//  --------------------------------------------------- Objective VO ----------------------------------------------------------
+
+
+
+SoundStreamProperties()
+{
+    Name("MUS_obj_01");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("mus_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("obj01", 1.0, 0.0, 0.0); //    All right, troops, today we stamp out final remnants of the CIS!  Eventually we'll be blowing up a hidden droid factory, but for now we need to infiltrate and secure that nearby mining facility.  Move 'em out!
+        }
+}
+
+SoundStreamProperties()
+{
+    Name("MUS_obj_02");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("mus_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IOMUS0006", 1.0, 0.0, 0.0); //  We've lost the mining facility!
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("MUS_obj_03");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("mus_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("obj03", 1.0, 0.0, 0.0); //  There's an experimental droid prototype on the loose!  Find it and destory it!
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("MUS_obj_04");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("mus_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("obj04", 1.0, 0.0, 0.0); //  That Collection Base looks like a good place to make a stand...capture it!
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("MUS_obj_05");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("mus_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IOMUS0004", 1.0, 0.0, 0.0); //  Any droid we don't destroy today will come back to haunt us tomorrow... wipe 'em out!
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("MUS_inf_01");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("mus_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IIMUS0001", 1.0, 0.0, 0.0); //  We can't call in the orbital strike until the antenna array is cleared!
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("MUS_inf_02");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("mus_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IIMUS0002", 1.0, 0.0, 0.0); //  We never used to have this much trouble with droids...
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("MUS_obj_06");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("mus_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IOMUS0005", 1.0, 0.0, 0.0); //  Thanks to your incompetence, It looks like the Empire's got another droid war on its hands.
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("MUS_obj_08");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("mus_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IOMUS0012", 1.0, 0.0, 0.0); //  Now retrieve the orbital strike beacon and place it on the northern array.
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("MUS_obj_09");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("mus_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IOMUS0010", 1.0, 0.0, 0.0); //  It looks like they're developing a new droid prototype.  Destroy it before they can put it into production
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("MUS_obj_10");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("mus_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IOMUS0007", 1.0, 0.0, 0.0); //  Quickly, repair that console and move your team across the bridges.
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("MUS_obj_11");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("mus_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IOMUS0008", 1.0, 0.0, 0.0); //  Keep moving!
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("MUS_obj_12");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("mus_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IOMUS0009", 1.0, 0.0, 0.0); //  Battle your way onto the collection base and look for entry into the control room
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("MUS_obj_13");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("mus_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IOMUS0011", 1.0, 0.0, 0.0); //  One of our boys got killed bringing the other beacon.  Go out and retrieve it.
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("MUS_obj_14");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("mus_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IOMUS0014", 1.0, 0.0, 0.0); //  Take control of the walkway
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("MUS_obj_15");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("mus_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IOMUS0015", 1.0, 0.0, 0.0); //  Sieze control of the Conference Room
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("MUS_obj_16");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("mus_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IOMUS0016", 1.0, 0.0, 0.0); //  Lets fall back to the collection base and watch the firework show
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("MUS_obj_17");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("mus_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IIMUS0005", 1.0, 0.0, 0.0); //  Watch Out Its raining Geonosians
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("MUS_obj_18");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("mus_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IOMUS0018", 1.0, 0.0, 0.0); //  Kill em all
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("MUS_obj_19");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("mus_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IOMUS0019", 1.0, 0.0, 0.0); //  Move through that door and out onto the collection base
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("MUS_obj_20");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("mus_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IOMUS0020", 1.0, 0.0, 0.0); //  Troop reinforcement support is no longer available.  This mission is a failure.
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("MUS_obj_21");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("mus_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IOMUS0021", 1.0, 0.0, 0.0); //  The console is repaired an the bridge has been raised
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("MUS_obj_22");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("mus_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IOMUS0022", 1.0, 0.0, 0.0); //  Quickly, Go back for the Beacon and continue your mission
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("MUS_obj_23");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("mus_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IOMUS0023", 1.0, 0.0, 0.0); //  Now lets get that beacon to the center antenna
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("MUS_obj_24");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("mus_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IOMUS0024", 1.0, 0.0, 0.0); //  Gizor Dellso has been defeated Mission Accomplished
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("MUS_obj_25");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("mus_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IOMUS0025", 1.0, 0.0, 0.0); //  Take control of the Lava Observation Room
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("MUS_obj_26");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("mus_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IOMUS0026", 1.0, 0.0, 0.0); //  Our reinforcements are running out
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("MUS_obj_27");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("mus_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IOMUS0027", 1.0, 0.0, 0.0); //  The geonosians have been working on a new Droid prototype, We need you to destroy the schematics before it can be put into production and another droid army built
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("MUS_inf_03");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("mus_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IIMUS0003", 1.0, 0.0, 0.0); //  Watch out for snipers!!
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("MUS_inf_04");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("mus_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IIMUS0004", 1.0, 0.0, 0.0); //  Snipers spotted at 2 oclock
+    }
+}
+

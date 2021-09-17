@@ -1,0 +1,104 @@
+// ----- Huge Explosion -----
+// Large Buildings and Vehicles such Techno Union Ships, Shield Generator, ATAT
+SoundProperties()
+{
+    Name("com_weap_obj_huge_exp_near"); // large explosion near
+    Group("Explosion");
+    Inherit("explosion_template");
+    MinDistance(120.0);
+    MuteDistance(450.0);
+    MaxDistance(450.0);
+    RollOff(1.0);
+    PlayInterval(5.0);
+    SampleList()
+    {
+        Sample("exp_obj_huge01", 0.2);
+        Sample("exp_obj_huge02", 0.2);
+        Sample("exp_obj_huge03", 0.2);
+        Sample("exp_obj_huge04", 0.2);
+        Sample("exp_obj_huge05", 0.2);
+    }
+}
+
+SoundProperties()
+{
+    Name("com_weap_obj_huge_exp_near_delay"); // large explosion near
+    Group("Explosion");
+    Inherit("explosion_template");
+    MinDistance(120.0);
+    MuteDistance(450.0);
+    MaxDistance(450.0);
+    GainDev(0.15);
+    RollOff(1.0);
+    SampleList()
+    {
+        Sample("exp_obj_huge01", 0.2);
+        Sample("exp_obj_huge02", 0.2);
+        Sample("exp_obj_huge03", 0.2);
+        Sample("exp_obj_huge04", 0.2);
+        Sample("exp_obj_huge05", 0.2);
+    }
+}
+
+SoundProperties()
+{
+    Name("com_weap_obj_huge_exp_distant"); // huge explosion medium distance
+    Group("Explosion");
+    Inherit("explosion_distant_template");
+    Gain(1.0);
+    RollIn(5.0);
+    RollInDistance(120.0);
+    MinDistance(130.0);
+    MuteDistance(500.0);
+    MaxDistance(500.0);
+    RollOff(1.0);
+    SampleList()
+    {
+        Sample("exp_distant_large01", 0.5);
+        Sample("exp_distant_large02", 0.5);
+    }
+}
+
+SoundProperties()
+{
+    Name("com_weap_obj_huge_exp_verydistant"); // huge explosion large distance
+    Group("Explosion");
+    Inherit("explosion_verydistant_template");
+    Gain(0.9);
+    RollIn(5.0);
+    RollInDistance(170.0);
+    MinDistance(170.0);
+    MuteDistance(550.0);
+    MaxDistance(550.0);
+    RollOff(1.0);
+    PlayInterval(3.0); // stop the mix from clipping like crazy
+    SampleList()
+    {
+        Sample("exp_verydistant_large01", 0.5);
+        Sample("exp_verydistant_large02", 0.5);
+    }
+}
+
+// Huge explosion Layered
+
+SoundLayered()
+{
+    Name("com_weap_obj_huge_exp");
+    Layer("near",   "com_weap_obj_huge_exp_near",        0.0);
+    //Layer("near",   "com_weap_obj_huge_exp_near_delay",        1.0,0.1);
+    Layer("medium", "com_weap_obj_large_exp_distant",     2.0, 0.2);
+    Layer("medium", "com_weap_obj_large_exp_distant",     1.2, 0.2);
+    //Layer("neardebris",   "exp_obj_large_debris",        0.4,0.2);
+    //Layer("neardebris",   "exp_obj_large_debris",        0.8, 0.2);
+    Layer("far",    "com_weap_obj_large_exp_verydistant", 0.8, 0.3);
+        Layer("near",   "com_weap_obj_large_exp_near",        1.5 0.2);
+        Layer("near",   "com_weap_obj_large_exp_near_echo",   1.5, 0.2);
+        Layer("far",    "com_weap_obj_large_exp_verydistant", 1.8, 0.3);
+    Layer("medium", "com_weap_obj_large_exp_distant",     1.5, 0.2);
+        Layer("far",    "com_weap_obj_large_exp_verydistant", 0.8, 0.3);
+            Layer("near",   "com_weap_obj_large_exp_near",        2.0 0.2);
+            Layer("near",   "com_weap_obj_large_exp_near_echo",   2.0, 0.2);
+            Layer("far",    "com_weap_obj_large_exp_verydistant", 2.3, 0.3);
+    Layer("medium", "com_weap_obj_large_exp_distant",     2.5, 0.2);
+    
+}

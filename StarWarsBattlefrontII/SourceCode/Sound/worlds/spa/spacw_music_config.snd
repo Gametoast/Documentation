@@ -1,0 +1,544 @@
+// ----------------------------------------- SPA2 Music -----------------------------------
+
+// ----------------- SPA2 Objective Music ----------------------
+
+SoundStream()
+{
+    Name("rep_spa2_amb_obj1_2_explore");
+    Pitch(1.0);
+    PitchDev(0.0);
+    Gain(1.0);
+    GainDev(0.0);
+    ReverbGain(0.0);
+    Bus("ingamemusic");
+    Looping(1);
+    Pan(0.0);
+    Mode3D(0);
+    CyclePlayback(3);
+    Stream("cw_music");
+    SegmentList()
+    {
+        Segment("CISGen_Veh02_lp", 1.0, 0.0, 0.0);
+        Segment("RepGen_Veh02_lp", 1.0, 0.0, 0.0);
+        Segment("RepCor01_Act02_lp", 1.0, 0.0, 0.0);
+    }
+}
+
+
+SoundStream()
+{
+    Name("rep_spa2_amb_obj3_5_explore");
+    Pitch(1.0);
+    PitchDev(0.0);
+    Gain(1.0);
+    GainDev(0.0);
+    ReverbGain(0.0);
+    Bus("ingamemusic");
+    Looping(1);
+    Pan(0.0);
+    Mode3D(0);
+    CyclePlayback(3);
+    Stream("cw_music");
+    SegmentList()
+    {
+        Segment("RepCor01_Act01_lp", 1.0, 0.0, 0.0);
+        Segment("RepGen_Veh02_lp", 1.0, 0.0, 0.0);
+        Segment("RepGen_Veh04_lp", 1.0, 0.0, 0.0);        
+    }
+}
+
+SoundStream()
+{
+    Name("rep_spa2_amb_obj7_explore");
+    Pitch(1.0);
+    PitchDev(0.0);
+    Gain(1.0);
+    GainDev(0.0);
+    ReverbGain(0.0);
+    Bus("ingamemusic");
+    Looping(1);
+    Pan(0.0);
+    Mode3D(0);
+    CyclePlayback(3);
+    Stream("cw_music");
+    SegmentList()
+    {
+        Segment("CISGeo01_Amb02_lp", 1.0, 0.0, 0.0);
+        Segment("CISMus02_Amb02_lp", 1.0, 0.0, 0.0);
+    }
+}
+
+SoundStream()
+{
+    Name("rep_spa2_amb_action_01");
+    Pitch(1.0);
+    PitchDev(0.0);
+    Gain(1.0);
+    GainDev(0.0);
+    ReverbGain(0.0);
+    Bus("ingamemusic");
+    Looping(1);
+    Pan(0.0);
+    Mode3D(0);
+    CyclePlayback(2);
+    Stream("cw_music");
+    SegmentList()
+    {
+        Segment("RepKam01_Amb01_lp", 1.0, 0.0, 0.0);
+        Segment("RepUta01_Act03_lp", 1.0, 0.0, 0.0);
+    }
+}
+
+
+SoundStream()
+{
+    Name("rep_spa2_ImminentVict_01");
+    Pitch(1.0);
+    PitchDev(0.0);
+    Gain(1.0);
+    GainDev(0.0);
+    ReverbGain(0.0);
+    Bus("ingamemusic");
+    Looping(1);
+    Pan(0.0);
+    Mode3D(0);
+    Stream("cw_music");
+    SegmentList()
+    {
+        Segment("RepCor01_Act04_lp", 1.0, 0.0, 0.0);
+    }
+}
+
+SoundStream()
+{
+    Name("rep_spa2_objComplete_01");
+    Pitch(1.0);
+    PitchDev(0.0);
+    Gain(1.0);
+    GainDev(0.0);
+    ReverbGain(0.0);
+    Bus("ingamemusic");
+    Looping(0);
+    Pan(0.0);
+    Mode3D(0);
+    Stream("cw_music");
+    SegmentList()
+    {
+        Segment("CISGen_PTVict01_nl", 1.0, 0.0, 0.0);
+    }
+}
+
+SoundStream()
+{
+    Name("rep_spa2_objComplete_02");
+    Pitch(1.0);
+    PitchDev(0.0);
+    Gain(1.0);
+    GainDev(0.0);
+    ReverbGain(0.0);
+    Bus("ingamemusic");
+    Looping(0);
+    Pan(0.0);
+    Mode3D(0);
+    Stream("cw_music");
+    SegmentList()
+    {
+        Segment("RepGen_PTVict05_nl", 1.0, 0.0, 0.0);
+    }
+}
+
+SoundStream()
+{
+    Name("rep_spa2_objComplete_03");
+    Pitch(1.0);
+    PitchDev(0.0);
+    Gain(1.0);
+    GainDev(0.0);
+    ReverbGain(0.0);
+    Bus("ingamemusic");
+    Looping(0);
+    Pan(0.0);
+    Mode3D(0);
+    Stream("cw_music");
+    SegmentList()
+    {
+        Segment("RepGen_PTVict02_nl", 1.0, 0.0, 0.0);
+    }
+}
+
+
+
+// ----------------------------------------- SPA3 Music -----------------------------------
+
+// ----------------- SPA3 Objective Music ----------------------
+
+SoundStream()
+{
+    Name("rep_spa3_amb_obj1_explore");
+    Pitch(1.0);
+    PitchDev(0.0);
+    Gain(1.0);
+    GainDev(0.0);
+    ReverbGain(0.0);
+    Bus("ingamemusic");
+    Looping(1);
+    Pan(0.0);
+    Mode3D(0);
+    CyclePlayback(2);
+    Stream("cw_music");
+    SegmentList()
+    {
+        Segment("RepCor01_Act03_lp", 1.0, 0.0, 0.0);
+        Segment("CISGen_Veh03_lp", 1.0, 0.0, 0.0);
+        Segment("RepGen_Veh04_lp", 1.0, 0.0, 0.0);
+    }
+}
+
+SoundStream()
+{
+    Name("rep_spa3_amb_obj4_explore");
+    Pitch(1.0);
+    PitchDev(0.0);
+    Gain(1.0);
+    GainDev(0.0);
+    ReverbGain(0.0);
+    Bus("ingamemusic");
+    Looping(1);
+    Pan(0.0);
+    Mode3D(0);
+    CyclePlayback(3);
+    Stream("cw_music");
+    SegmentList()
+    {
+        Segment("CISJed01_Amb02_lp", 1.0, 0.0, 0.0);
+        Segment("CISKam02_Amb03_lp", 1.0, 0.0, 0.0);
+        Segment("RepThe01_Amb01_lp", 1.0, 0.0, 0.0);
+    }
+}
+
+SoundStream()
+{
+    Name("rep_spa3_amb_obj2_3_explore");
+    Pitch(1.0);
+    PitchDev(0.0);
+    Gain(1.0);
+    GainDev(0.0);
+    ReverbGain(0.0);
+    Bus("ingamemusic");
+    Looping(1);
+    Pan(0.0);
+    Mode3D(0);
+    CyclePlayback(3);
+    Stream("cw_music");
+    SegmentList()
+    {
+        Segment("RepCor01_Act04_lp", 1.0, 0.0, 0.0);
+        Segment("RepCor01_Act03_lp", 1.0, 0.0, 0.0);
+        Segment("RepGen_Veh04_lp", 1.0, 0.0, 0.0);
+    }
+}
+
+SoundStream()
+{
+    Name("rep_spa3_objComplete_01");
+    Pitch(1.0);
+    PitchDev(0.0);
+    Gain(1.0);
+    GainDev(0.0);
+    ReverbGain(0.0);
+    Bus("ingamemusic");
+    Looping(0);
+    Pan(0.0);
+    Mode3D(0);
+    Stream("cw_music");
+    SegmentList()
+    {
+        Segment("RepGen_PTVict02_nl", 1.0, 0.0, 0.0);
+    }
+}
+
+SoundStream()
+{
+    Name("rep_spa3_ImminentVict_01");
+    Pitch(1.0);
+    PitchDev(0.0);
+    Gain(1.0);
+    GainDev(0.0);
+    ReverbGain(0.0);
+    Bus("ingamemusic");
+    Looping(1);
+    Pan(0.0);
+    Mode3D(0);
+    Stream("cw_music");
+    SegmentList()
+    {
+        Segment("CISGen_ImmVict01_lp", 1.0, 0.0, 0.0);
+    }
+}
+
+
+// ----------------- SPA2 REP Music ----------------------
+
+SoundStream()
+{
+    Name("rep_spa2_amb_start");
+    Pitch(1.0);
+    PitchDev(0.0);
+    Gain(1.0);
+    GainDev(0.0);
+    ReverbGain(0.0);
+    Bus("ingamemusic");
+    Looping(1);
+    Pan(0.0);
+    Mode3D(0);
+    CyclePlayback(3);
+    Stream("cw_music");
+    SegmentList()
+    {
+        Segment("RepCor01_Act02_lp", 1.0, 0.0, 0.0);
+        Segment("RepGen_Veh02_lp", 1.0, 0.0, 0.0);
+        Segment("RepCor01_Act03_lp", 1.0, 0.0, 0.0);
+    }
+}
+
+SoundStream()
+{
+    Name("rep_spa2_amb_middle");
+    Pitch(1.0);
+    PitchDev(0.0);
+    Gain(1.0);
+    GainDev(0.0);
+    ReverbGain(0.0);
+    Bus("ingamemusic");
+    Looping(1);
+    Pan(0.0);
+    Mode3D(0);
+    CyclePlayback(3);
+    Stream("cw_music");;
+    SegmentList()
+    {
+        Segment("RepUta01_Amb03_lp", 1.0, 0.0, 0.0);
+        Segment("RepFel01_Amb02_lp", 1.0, 0.0, 0.0);
+        Segment("CISJed01_Amb01_lp", 1.0, 0.0, 0.0);
+        Segment("CISJed01_Amb02_lp", 1.0, 0.0, 0.0);
+    }
+}
+
+SoundStream()
+{
+    Name("rep_spa2_amb_end");
+    Pitch(1.0);
+    PitchDev(0.0);
+    Gain(1.0);
+    GainDev(0.0);
+    ReverbGain(0.0);
+    Bus("ingamemusic");
+    Looping(1);
+    Pan(0.0);
+    Mode3D(0);
+    CyclePlayback(3);
+    Stream("cw_music");;
+    SegmentList()
+    {
+        Segment("RepUta01_Amb03_lp", 1.0, 0.0, 0.0);
+        Segment("RepFel01_Amb02_lp", 1.0, 0.0, 0.0);
+        Segment("CISJed01_Amb01_lp", 1.0, 0.0, 0.0);
+        Segment("CISJed01_Amb02_lp", 1.0, 0.0, 0.0);
+    }
+}
+
+SoundStream()
+{
+    Name("rep_spa2_amb_victory");
+    Pitch(1.0);
+    PitchDev(0.0);
+    Gain(1.0);
+    GainDev(0.0);
+    ReverbGain(0.0);
+    Bus("ingamemusic");
+    Looping(0);
+    Pan(0.0);
+    Mode3D(0);
+    Stream("cw_music");
+    SegmentList()
+    {
+        Segment("rep_victory", 1.0, 0.0, 0.0);
+    }
+}
+
+SoundStream()
+{
+    Name("rep_spa2_amb_defeat");
+    Pitch(1.0);
+    PitchDev(0.0);
+    Gain(1.0);
+    GainDev(0.0);
+    ReverbGain(0.0);
+    Bus("ingamemusic");
+    Looping(0);
+    Pan(0.0);
+    Mode3D(0);
+    Stream("cw_music");
+    SegmentList()
+    {
+        Segment("rep_defeat", 1.0, 0.0, 0.0);
+    }
+}
+
+SoundStream()
+{
+    Name("rep_spa2_amb_vehicle");
+    Pitch(1.0);
+    PitchDev(0.0);
+    Gain(1.0);
+    GainDev(0.0);
+    ReverbGain(0.0);
+    Bus("ingamemusic");
+    Looping(1);
+    Pan(0.0);
+    Mode3D(0);
+    CyclePlayback(3);
+    Stream("cw_music");
+    SegmentList()
+    {
+        Segment("CISFel01_Act02_lp", 1.0, 0.0, 0.0);
+        Segment("CISUta01_Act01_lp", 1.0, 0.0, 0.0);
+        Segment("CISThe01_Act01_lp", 1.0, 0.0, 0.0);
+        Segment("RepUta01_Act01_lp", 1.0, 0.0, 0.0);
+        Segment("RepUta01_Act02_lp", 1.0, 0.0, 0.0);
+        Segment("RepCor01_Act01_lp", 1.0, 0.0, 0.0);
+    }
+}
+
+// ----------------- SPA2 CIS Music ----------------------
+
+SoundStream()
+{
+    Name("cis_spa2_amb_start");
+    Pitch(1.0);
+    PitchDev(0.0);
+    Gain(1.0);
+    GainDev(0.0);
+    ReverbGain(0.0);
+    Bus("ingamemusic");
+    Looping(1);
+    Pan(0.0);
+    Mode3D(0);
+    CyclePlayback(3);
+    Stream("cw_music");
+    SegmentList()
+    {
+        Segment("RepCor01_Act02_lp", 1.0, 0.0, 0.0);
+        Segment("RepGen_Veh02_lp", 1.0, 0.0, 0.0);
+        Segment("RepCor01_Act03_lp", 1.0, 0.0, 0.0);
+    }
+}
+
+SoundStream()
+{
+    Name("cis_spa2_amb_middle");
+    Pitch(1.0);
+    PitchDev(0.0);
+    Gain(1.0);
+    GainDev(0.0);
+    ReverbGain(0.0);
+    Bus("ingamemusic");
+    Looping(1);
+    Pan(0.0);
+    Mode3D(0);
+    CyclePlayback(3);
+    Stream("cw_music");;
+    SegmentList()
+    {
+        Segment("RepUta01_Amb03_lp", 1.0, 0.0, 0.0);
+        Segment("RepFel01_Amb02_lp", 1.0, 0.0, 0.0);
+        Segment("CISJed01_Amb01_lp", 1.0, 0.0, 0.0);
+        Segment("CISJed01_Amb02_lp", 1.0, 0.0, 0.0);
+    }
+}
+
+SoundStream()
+{
+    Name("cis_spa2_amb_end");
+    Pitch(1.0);
+    PitchDev(0.0);
+    Gain(1.0);
+    GainDev(0.0);
+    ReverbGain(0.0);
+    Bus("ingamemusic");
+    Looping(1);
+    Pan(0.0);
+    Mode3D(0);
+    CyclePlayback(3);
+    Stream("cw_music");;
+    SegmentList()
+    {
+        Segment("RepUta01_Amb03_lp", 1.0, 0.0, 0.0);
+        Segment("RepFel01_Amb02_lp", 1.0, 0.0, 0.0);
+        Segment("CISJed01_Amb01_lp", 1.0, 0.0, 0.0);
+        Segment("CISJed01_Amb02_lp", 1.0, 0.0, 0.0);
+    }
+}
+
+SoundStream()
+{
+    Name("cis_spa2_amb_victory");
+    Pitch(1.0);
+    PitchDev(0.0);
+    Gain(1.0);
+    GainDev(0.0);
+    ReverbGain(0.0);
+    Bus("ingamemusic");
+    Looping(0);
+    Pan(0.0);
+    Mode3D(0);
+    Stream("cw_music");
+    SegmentList()
+    {
+        Segment("cis_victory", 1.0, 0.0, 0.0);
+    }
+}
+
+SoundStream()
+{
+    Name("cis_spa2_amb_defeat");
+    Pitch(1.0);
+    PitchDev(0.0);
+    Gain(1.0);
+    GainDev(0.0);
+    ReverbGain(0.0);
+    Bus("ingamemusic");
+    Looping(0);
+    Pan(0.0);
+    Mode3D(0);
+    Stream("cw_music");
+    SegmentList()
+    {
+        Segment("cis_defeat", 1.0, 0.0, 0.0);
+    }
+}
+
+SoundStream()
+{
+    Name("cis_spa2_amb_vehicle");
+    Pitch(1.0);
+    PitchDev(0.0);
+    Gain(1.0);
+    GainDev(0.0);
+    ReverbGain(0.0);
+    Bus("ingamemusic");
+    Looping(1);
+    Pan(0.0);
+    Mode3D(0);
+    CyclePlayback(3);
+    Stream("cw_music");
+    SegmentList()
+    {
+        Segment("CISFel01_Act02_lp", 1.0, 0.0, 0.0);
+        Segment("CISUta01_Act01_lp", 1.0, 0.0, 0.0);
+        Segment("CISThe01_Act01_lp", 1.0, 0.0, 0.0);
+        Segment("RepUta01_Act01_lp", 1.0, 0.0, 0.0);
+        Segment("RepUta01_Act02_lp", 1.0, 0.0, 0.0);
+        Segment("RepCor01_Act01_lp", 1.0, 0.0, 0.0);
+    }
+}

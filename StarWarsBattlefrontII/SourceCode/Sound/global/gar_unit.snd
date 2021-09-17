@@ -1,0 +1,48 @@
+// ----- NabooGuard Rifle Start ----------------------------------------------
+
+SoundProperties()
+{
+    Name("gar_weap_inf_rifle_fire");
+    Group("weapons");
+    Inherit("weapon_template");
+    SampleList()
+    {
+        Sample("wpn_all_blaster_fire", 1.0);
+    }
+}
+
+
+SoundProperties()
+{
+    Name("gar_weap_inf_pistol_fire");
+    Group("weapons");
+    Inherit("weapon_template");
+    SampleList()
+    {
+        Sample("com_cpistol_fire", 1.0);
+    }
+}
+
+
+SoundProperties()
+{
+    Name("gar_weap_inf_commando_pistol_fire");
+    Group("weapons");
+    Inherit("weapon_template");
+    SampleList()
+    {
+        Sample("com_cpistol_fire", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("gar_weap_inf_rocket_launcher_fire");
+    Group("weapons");
+    Inherit("weapon_template");
+    SampleList()
+    {
+        Sample("wpn_all_torplauncher_fire", 1.0);
+    }
+}
+// ----- NabooGuard Rifle End ----------------------------------------------

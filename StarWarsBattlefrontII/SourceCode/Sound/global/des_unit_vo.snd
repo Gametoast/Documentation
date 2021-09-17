@@ -1,0 +1,162 @@
+// ---------------------------------------- Jawa Battlechatter --------------------------------------------------------------
+
+
+SoundStreamProperties()
+{
+    Name("jawa_inf_chatter_AcquiredTarget");
+    Group("jawa_vo");
+    Inherit("battle_chatter_template");
+    Stream("des_unit_vo_slow");
+    SegmentList()
+    {  
+        Segment("jawa_01", 200.0, 10.0, 3.0); // 
+        Segment("jawa_02", 200.0, 10.0, 3.0); //  
+        Segment("jawa_11", 200.0, 10.0, 3.0); // 
+        Segment("jawa_14", 200.0, 10.0, 3.0); // 
+        Segment("jawa_18", 200.0, 10.0, 3.0); // 
+        Segment("jawa_10", 200.0, 10.0, 3.0); // 
+        Segment("jawa_08", 200.0, 10.0, 3.0); //  
+	Segment("jawa_13", 200.0, 10.0, 3.0); //  
+	Segment("jawa_16", 200.0, 10.0, 3.0); //         
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("jawa_inf_chatter_NearbyFriendlySlaughter");
+    Group("jawa_vo");
+    Inherit("battle_chatter_template");
+    Stream("des_unit_vo_slow");
+    SegmentList()
+    {
+	Segment("jawa_07", 200.0, 10.0, 3.0); //  
+	Segment("jawa_06", 200.0, 10.0, 3.0); //  
+	Segment("jawa_09", 200.0, 10.0, 3.0); //  
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("jawa_inf_chatter_KillingSpree4");
+    Group("jawa_vo");
+    Inherit("battle_chatter_template");
+    Stream("des_unit_vo_slow");
+    SegmentList()
+    {
+        Segment("jawa_08", 200.0, 10.0, 3.0); //  
+	Segment("jawa_13", 200.0, 10.0, 3.0); //  
+	Segment("jawa_16", 200.0, 10.0, 3.0); //  
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("jawa_inf_chatter_Grenade");
+    Group("jawa_vo");
+    Inherit("battle_chatter_template");
+    Stream("des_unit_vo_slow");
+    SegmentList()
+    {
+	Segment("jawa_03", 200.0, 10.0, 3.0); //  
+	Segment("jawa_15", 200.0, 10.0, 3.0); //  
+	Segment("jawa_17", 200.0, 10.0, 3.0); //  
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("jawa_inf_chatter_FriendlyFire");
+    Group("jawa_vo");
+    Inherit("battle_chatter_template");
+    Stream("des_unit_vo_slow");
+    SegmentList()
+    {
+	Segment("jawa_04", 200.0, 10.0, 3.0); //  
+	Segment("jawa_05", 200.0, 10.0, 3.0); //  
+	Segment("jawa_12", 200.0, 10.0, 3.0); //  
+    }
+}
+
+
+// ---------------------------------------- Tusken Raider Battlechatter --------------------------------------------------------------
+
+
+SoundStreamProperties()
+{
+    Name("raider_inf_chatter_AcquiredTarget");
+    Group("raider_vo");
+    Inherit("battle_chatter_template");
+    Stream("des_unit_vo_slow");
+    SegmentList()
+    {  
+        Segment("Tusken_03", 200.0, 10.0, 3.0); // 
+        Segment("Tusken_04", 200.0, 10.0, 3.0); //  
+        Segment("Tusken_05", 200.0, 10.0, 3.0); // 
+        Segment("Tusken_08", 200.0, 10.0, 3.0); // 
+        Segment("Tusken_09", 200.0, 10.0, 3.0); // 
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("raider_inf_chatter_NearbyFriendlySlaughter");
+    Group("raider_vo");
+    Inherit("battle_chatter_template");
+    Stream("des_unit_vo_slow");
+    SegmentList()
+    {
+	Segment("Tusken_01", 200.0, 10.0, 3.0); //  
+	Segment("Tusken_06", 200.0, 10.0, 3.0); //  
+	Segment("Tusken_07", 200.0, 10.0, 3.0); //  
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("raider_inf_chatter_KillingSpree4");
+    Group("raider_vo");
+    Inherit("battle_chatter_template");
+    Stream("des_unit_vo_slow");
+    SegmentList()
+    {
+        Segment("Tusken_01", 200.0, 10.0, 3.0); //  
+	Segment("Tusken_02", 200.0, 10.0, 3.0); //  
+	Segment("Tusken_08", 200.0, 10.0, 3.0); //  
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("raider_inf_chatter_Grenade");
+    Group("raider_vo");
+    Inherit("battle_chatter_template");
+    Stream("des_unit_vo_slow");
+    SegmentList()
+    {
+	Segment("Tusken_05", 200.0, 10.0, 3.0); //  
+	Segment("Tusken_04", 200.0, 10.0, 3.0); //  
+	Segment("Tusken_06", 200.0, 10.0, 3.0); //  
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("raider_inf_chatter_FriendlyFire");
+    Group("raider_vo");
+    Inherit("battle_chatter_template");
+    Stream("des_unit_vo_slow");
+    SegmentList()
+    {
+	Segment("Tusken_01", 200.0, 10.0, 3.0); //  
+	Segment("Tusken_07", 200.0, 10.0, 3.0); //  
+	Segment("Tusken_09", 200.0, 10.0, 3.0); //  
+    }
+}

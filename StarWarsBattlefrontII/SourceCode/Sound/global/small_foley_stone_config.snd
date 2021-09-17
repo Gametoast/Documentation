@@ -1,0 +1,154 @@
+//-All stone Foley--------------------------------------------------------------
+// all_inf
+
+// soldier movement
+//-jump land roll squat--------------------------------------------------------
+
+//SoundProperties()
+//{
+//    Name("npc_inf_small_getup_stone")
+//    Group("body_movement");
+//    Inherit("body_movement_template");
+//    SampleList()
+//    {
+//        Sample("mvt_small_getup_stone", 1.0);
+//    }
+//}
+
+SoundProperties()
+{
+    Name("npc_inf_small_jump_stone")
+    Group("body_movement");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("mvt_small_jump_stone", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("npc_inf_small_land_stone")
+    Group("body_movement");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("mvt_small_land_stone", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("npc_inf_small_lgBF_stone")
+    Group("body_movement");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+      Sample("mvt_small_stone_lgBF_01", 0.33);
+      Sample("mvt_small_stone_lgBF_02", 0.33);
+      Sample("mvt_small_stone_smBf", 0.33);
+    }
+}
+
+//SoundProperties()
+//{
+//    Name("npc_inf_small_lie_stone")
+//    Group("body_movement");
+//    Inherit("body_movement_template");
+//    SampleList()
+//    {
+//        Sample("mvt_small_lie_stone", 1.0);
+//    }
+//}
+
+SoundProperties()
+{
+    Name("npc_inf_small_roll_stone")
+    Group("body_movement");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("mvt_small_roll_stone", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("npc_inf_small_squat_stone")
+    Group("body_movement");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("mvt_small_squat", 1.0);
+    }
+}
+
+
+//-Footsteps run walk----------------------------------------------------------
+
+SoundProperties()
+{
+    Name("npc_inf_small_run_stone_left")
+    Group("body_movement");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("mvt_small_run_stone_L01", 1.0);
+        Sample("mvt_small_run_stone_L02", 1.0);
+        Sample("mvt_small_run_stone_L03", 1.0);
+        Sample("mvt_small_run_stone_L04", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("npc_inf_small_run_stone_right")
+    Group("body_movement");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("mvt_small_run_stone_R01", 1.0);
+        Sample("mvt_small_run_stone_R02", 1.0);
+        Sample("mvt_small_run_stone_R03", 1.0);
+        Sample("mvt_small_run_stone_R04", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("npc_inf_small_walk_stone_left")
+    Group("body_movement");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("mvt_small_walk_stone_L01", 1.0);
+        Sample("mvt_small_walk_stone_L02", 1.0);
+        Sample("mvt_small_walk_stone_L03", 1.0);
+        Sample("mvt_small_walk_stone_L04", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("npc_inf_small_walk_stone_right")
+    Group("body_movement");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("mvt_small_walk_stone_R01", 1.0);
+        Sample("mvt_small_walk_stone_R02", 1.0);
+        Sample("mvt_small_walk_stone_R03", 1.0);
+        Sample("mvt_small_walk_stone_R04", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("npc_inf_small_stop_stone")
+    Group("body_movement");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("mvt_small_stop_stone", 1.0);
+    }
+}

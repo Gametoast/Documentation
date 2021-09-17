@@ -1,0 +1,14 @@
+// imp_fly_tiebomber ----------------------------------
+
+
+SoundProperties()
+{
+    Name("imp_weap_fly_tiebomber_bomb_fire");
+    Group("weapons");
+    Inherit("veh_weapon_template");
+    SampleList()
+    {
+        Sample("wpn_tie_bombLauncher_fire", 1.0);
+    }
+}
+

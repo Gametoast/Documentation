@@ -1,0 +1,135 @@
+// ----- Alliance Music -----
+
+Music()
+{
+    Name("all_bes_amb_start");
+    Priority(0.0);
+    FadeInTime(1.0);
+    FadeOutTime(1.0);
+    MinPlaybackTime(5.0);
+    MinInactiveTime(90.0);
+    SoundStream("all_bes_amb_start");
+}
+
+Music()
+{
+    Name("all_bes_amb_middle");
+    Priority(0.0);
+    FadeInTime(1.0);
+    FadeOutTime(1.0);
+    MinPlaybackTime(5.0);
+    MinInactiveTime(30.0);
+    SoundStream("all_bes_amb_middle");
+}
+
+Music()
+{
+    Name("all_bes_amb_end");
+    Priority(0.0);
+    FadeInTime(1.0);
+    FadeOutTime(1.0);
+    MinPlaybackTime(5.0);
+    MinInactiveTime(30.0);
+    SoundStream("all_bes_amb_end");
+}
+
+Music()
+{
+    Name("all_bes_amb_victory");
+    Priority(0.0);
+    FadeInTime(0.0);
+    FadeOutTime(1.0);
+    MinPlaybackTime(5.0);
+    MinInactiveTime(30.0);
+    SoundStream("all_bes_amb_victory");
+}
+
+Music()
+{
+    Name("all_bes_amb_defeat");
+    Priority(0.0);
+    FadeInTime(0.0);
+    FadeOutTime(1.0);
+    MinPlaybackTime(5.0);
+    MinInactiveTime(30.0);
+    SoundStream("all_bes_amb_defeat");
+}
+
+//Music()
+//{
+//    Name("all_vehicle");
+//    Priority(0.5);
+//    FadeInTime(1.0);
+//    FadeOutTime(1.0);
+//    MinPlaybackTime(5.0);
+//    MinInactiveTime(30.0);
+//    SoundStream("all_bes_amb_vehicle");
+//}
+
+// ----- Imperial Music -----
+
+Music()
+{
+    Name("imp_bes_amb_start");
+    Priority(0.0);
+    FadeInTime(1.0);
+    FadeOutTime(1.0);
+    MinPlaybackTime(5.0);
+    MinInactiveTime(90.0);
+    SoundStream("imp_bes_amb_start");
+}
+
+Music()
+{
+    Name("imp_bes_amb_middle");
+    Priority(0.0);
+    FadeInTime(1.0);
+    FadeOutTime(1.0);
+    MinPlaybackTime(5.0);
+    MinInactiveTime(30.0);
+    SoundStream("imp_bes_amb_middle");
+}
+
+Music()
+{
+    Name("imp_bes_amb_end");
+    Priority(0.0);
+    FadeInTime(1.0);
+    FadeOutTime(1.0);
+    MinPlaybackTime(5.0);
+    MinInactiveTime(30.0);
+    SoundStream("imp_bes_amb_end");
+}
+
+Music()
+{
+    Name("imp_bes_amb_victory");
+    Priority(1.0);
+    FadeInTime(0.0);
+    FadeOutTime(1.0);
+    MinPlaybackTime(5.0);
+    MinInactiveTime(60.0);
+    SoundStream("imp_bes_amb_victory");
+}
+
+Music()
+{
+    Name("imp_bes_amb_defeat");
+    Priority(1.0);
+    FadeInTime(0.0);
+    FadeOutTime(1.0);
+    MinPlaybackTime(5.0);
+    MinInactiveTime(60.0);
+    SoundStream("imp_bes_amb_defeat");
+}
+
+//Music()
+//{
+//    Name("imp_vehicle");
+//    Priority(0.5);
+//    FadeInTime(1.0);
+//    FadeOutTime(1.0);
+//    MinPlaybackTime(5.0);
+//    MinInactiveTime(30.0);
+//    SoundStream("imp_bes_amb_vehicle");
+//}

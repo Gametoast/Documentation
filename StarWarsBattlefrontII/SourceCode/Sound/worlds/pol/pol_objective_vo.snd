@@ -1,0 +1,205 @@
+
+//  --------------------------------------------------- Objective VO ----------------------------------------------------------
+
+SoundStreamProperties()
+{
+    Name("POL_obj_01");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("pol_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IOPOL0001", 1.0, 0.0, 0.0); //  Nicely executed, troops.  Now it's time to make our way to the Base Command building on the far side of the facility.  If our intelligence is right, along the way we'll find a Rebel Holodisk containing some very important plans...
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("POL_obj_02");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("pol_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IOPOL0002", 1.0, 0.0, 0.0); //  All right, men, Lord Vader wants this raid done by the book.  Our first objective is the Comm Center, just beyond this hangar.
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("POL_obj_03");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("pol_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IOPOL0003", 1.0, 0.0, 0.0); //  That's the Rebel Holodisk.  Well spotted.    Bring the disk to the Central Hub or the Comm Facility for uplink to our cruisers.
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("POL_obj_04");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("pol_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IOPOL0004", 1.0, 0.0, 0.0); //  It'll take time to realign the Comm Dish and transmit the data from the Holodisk.  You'll have to hold off the Rebels until the transmission is complete.  Do NOT let the Comm Facility fall into enemy hands.
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("POL_obj_05");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("pol_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IOPOL0005", 1.0, 0.0, 0.0); //  Deep within the caverns of this complex, the Rebels have a Databank that holds Imperial encryption codes that can be used to eavesdrop on our ship to ship communications. Make your way to the Caverns and destroy the Databank. 
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("POL_obj_06");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("pol_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IOPOL0006", 1.0, 0.0, 0.0); //  I've got good news and bad news.  The good news is it's time to get off this dreary rock.  The bad news is, the Rebels have taken over the hangars!  You'll have to fight our way out!
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("POL_inf_01");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("pol_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IIPOL0001", 1.0, 0.0, 0.0); //  They've taken the hangars!
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("POL_inf_02");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("pol_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IIPOL0002", 1.0, 0.0, 0.0); //  They're everywhere!
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("POL_inf_03");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("pol_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IIPOL0003", 1.0, 0.0, 0.0); //  Careful of the windows!
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("POL_obj_07");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("pol_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IOPOL0007", 1.0, 0.0, 0.0); //  Our raid is a success!  And even though the holodisk DIDN'T have the plans we're looking for, it WILL lead us to someone who does...
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("POL_obj_08");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("pol_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IOPOL0008", 1.0, 0.0, 0.0); //  This defeat will not sit well with the Emperor.
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("POL_obj_09");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("pol_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IOPOL0009", 1.0, 0.0, 0.0); //  Your reinforcement count is dropping too low. Continue like this and you will fail the mission.
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("POL_obj_10");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("pol_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IOPOL0010", 1.0, 0.0, 0.0); //  There are no more support reinforcements.  We have lost the battle.
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("POL_obj_11");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("pol_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IOPOL0011", 1.0, 0.0, 0.0); //  Our reinforcements are nearly exhausted
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("POL_obj_12");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("pol_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IOPOL0012", 1.0, 0.0, 0.0); //  Nicely executed, troops.  Now it's time to make our way to the Base Command building on the far side of the facility.  If our intelligence is right, we'll find a Rebel Holodisk containing some very important plans there...
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("POL_inf_04");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("pol_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IIPOL0004", 1.0, 0.0, 0.0); //  Don't shoot at the windows, idiot!
+    }
+}
+

@@ -1,0 +1,583 @@
+// main shell music
+SoundStreamProperties()
+{
+    Name("shell_soundtrack");
+    Pitch(1.0);
+    PitchDev(0.0);
+    Gain(1.0);
+    GainDev(0.0);
+    ReverbGain(0.0);
+    Bus("shellmusic");
+    Looping(0);
+    Pan(0.0);
+    Mode3D(0);
+    CyclePlayback(3);
+    Stream("shell_music");
+    SegmentList()
+    {
+        Segment("shell_closing", 0.167);
+        //Segment("shell_ep2_clonewars", 0.167);
+        //Segment("shell_ep5_clash", 0.167);
+        Segment("shell_ep5_imperial_march", 0.167);
+        //Segment("shell_ep6_endor_battle", 0.167);
+        //Segment("fullScalePinkNoiseStereo", 0.167);
+        //Segment("fullScale1KSinWave", 0.167);
+        Segment("shell_ep3_battle_of_heroes", 0.167);
+        Segment("shell_ep1_duel_of_the_fates", 0.167);
+    }
+}
+
+
+// galactic conquest music
+SoundStreamProperties()
+{
+    Name("shell_galacticconquest");
+    Pitch(1.0);
+    PitchDev(0.0);
+    Gain(1.0);
+    GainDev(0.0);
+    ReverbGain(0.0);
+    Bus("shellmusic");
+    Looping(0);
+    Pan(0.0);
+    Mode3D(0);
+    CyclePlayback(1);
+    Stream("shell_music");
+    SegmentList()
+    {
+        Segment("shell_ep1_droid_invasion", 0.167);
+    }
+}
+
+// historical briefing music 
+SoundStreamProperties()
+{
+    Name("shell_droidinvasion");
+    Pitch(1.0);
+    PitchDev(0.0);
+    Gain(1.0);
+    GainDev(0.0);
+    ReverbGain(0.0);
+    Bus("shellmusic");
+    Looping(0);
+    Pan(0.0);
+    Mode3D(0);
+    CyclePlayback(1);
+    Stream("shell_music");
+    SegmentList()
+    {
+        Segment("shell_ep1_droid_invasion", 0.167);
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("shell_clonewars");
+    Pitch(1.0);
+    PitchDev(0.0);
+    Gain(1.0);
+    GainDev(0.0);
+    ReverbGain(0.0);
+    Bus("shellmusic");
+    Looping(0);
+    Pan(0.0);
+    Mode3D(0);
+    CyclePlayback(1);
+    Stream("shell_music");
+    SegmentList()
+    {
+        Segment("shell_ep2_clonewars", 0.167);
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("shell_imperialmarch");
+    Pitch(1.0);
+    PitchDev(0.0);
+    Gain(1.0);
+    GainDev(0.0);
+    ReverbGain(0.0);
+    Bus("shellmusic");
+    Looping(0);
+    Pan(0.0);
+    Mode3D(0);
+    CyclePlayback(1);
+    Stream("shell_music");
+    SegmentList()
+    {
+        Segment("shell_ep5_imperial_march", 0.167);
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("shell_clash");
+    Pitch(1.0);
+    PitchDev(0.0);
+    Gain(1.0);
+    GainDev(0.0);
+    ReverbGain(0.0);
+    Bus("shellmusic");
+    Looping(0);
+    Pan(0.0);
+    Mode3D(0);
+    CyclePlayback(1);
+    Stream("shell_music");
+    SegmentList()
+    {
+        Segment("shell_ep5_clash", 0.167);
+    }
+}
+
+// shell transition sound effects
+SoundProperties()
+{
+    Name("shell_transition_template");
+    Pitch(1.0);
+    PitchDev(0.1);
+    Gain(1.0);
+    GainDev(0.0);
+    ReverbGain(1.0);
+    Bus("shellfx");
+    Looping(0);
+    Mode3D(0);
+}
+
+
+// 1
+SoundProperties()
+{
+    Name("shell_transition1_left");
+    Inherit("shell_transition_template");
+    Pitch(0.99);
+    Pan(-1.0);
+    SampleList()
+    {
+        Sample("whoosh01l", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("shell_transition1_right");
+    Inherit("shell_transition_template");
+    Pan(1.0);
+    SampleList()
+    {
+        Sample("whoosh01r", 1.0);
+    }
+}
+
+SoundLayered()
+{
+    Name("shell_transition1");
+    Layer("shell_transition1_left",  "shell_transition1_left", 0.0, 0.5);
+    Layer("shell_transition1_right", "shell_transition1_right", 0.0, 0.5);
+}
+
+// 2
+SoundProperties()
+{
+    Name("shell_transition2_left");
+    Inherit("shell_transition_template");
+    Pitch(0.99);
+    Pan(-1.0);
+    SampleList()
+    {
+        Sample("whoosh02l", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("shell_transition2_right");
+    Inherit("shell_transition_template");
+    Pan(1.0);
+    SampleList()
+    {
+        Sample("whoosh02r", 1.0);
+    }
+}
+
+SoundLayered()
+{
+    Name("shell_transition2");
+    Layer("shell_transition2_left",  "shell_transition2_left", 0.0, 0.5);
+    Layer("shell_transition2_right", "shell_transition2_right", 0.0, 0.5);
+}
+
+
+// 3
+SoundProperties()
+{
+    Name("shell_transition3_left");
+    Inherit("shell_transition_template");
+    Pitch(0.99);
+    Pan(-1.0);
+    SampleList()
+    {
+        Sample("whoosh03l", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("shell_transition3_right");
+    Inherit("shell_transition_template");
+    Pan(1.0);
+    SampleList()
+    {
+        Sample("whoosh03r", 1.0);
+    }
+}
+
+SoundLayered()
+{
+    Name("shell_transition3");
+    Layer("shell_transition3_left",  "shell_transition3_left", 0.0, 0.5);
+    Layer("shell_transition3_right", "shell_transition3_right", 0.0, 0.5);
+}
+
+
+// 4
+SoundProperties()
+{
+    Name("shell_transition4_left");
+    Inherit("shell_transition_template");
+    Pitch(0.99);
+    Pan(-1.0);
+    SampleList()
+    {
+        Sample("whoosh04l", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("shell_transition4_right");
+    Inherit("shell_transition_template");
+    Pan(1.0);
+    SampleList()
+    {
+        Sample("whoosh04r", 1.0);
+    }
+}
+
+SoundLayered()
+{
+    Name("shell_transition4");
+    Layer("shell_transition4_left",  "shell_transition4_left", 0.0, 0.5);
+    Layer("shell_transition4_right", "shell_transition4_right", 0.0, 0.5);
+}
+
+
+// 5
+SoundProperties()
+{
+    Name("shell_transition5_left");
+    Inherit("shell_transition_template");
+    Pitch(0.99);
+    Pan(-1.0);
+    SampleList()
+    {
+        Sample("whoosh05l", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("shell_transition5_right");
+    Inherit("shell_transition_template");
+    Pan(1.0);
+    SampleList()
+    {
+        Sample("whoosh05r", 1.0);
+    }
+}
+
+SoundLayered()
+{
+    Name("shell_transition5");
+    Layer("shell_transition5_left",  "shell_transition5_left", 0.0, 0.5);
+    Layer("shell_transition5_right", "shell_transition5_right", 0.0, 0.5);
+}
+
+
+// 6
+SoundProperties()
+{
+    Name("shell_transition6_left");
+    Inherit("shell_transition_template");
+    Pitch(0.99);
+    Pan(-1.0);
+    SampleList()
+    {
+        Sample("whoosh06l", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("shell_transition6_right");
+    Inherit("shell_transition_template");
+    Pan(1.0);
+    SampleList()
+    {
+        Sample("whoosh06r", 1.0);
+    }
+}
+
+SoundLayered()
+{
+    Name("shell_transition6");
+    Layer("shell_transition6_left",  "shell_transition6_left", 0.0, 0.5);
+    Layer("shell_transition6_right", "shell_transition6_right", 0.0, 0.5);
+}
+
+
+// 7
+SoundProperties()
+{
+    Name("shell_transition7_left");
+    Inherit("shell_transition_template");
+    Pitch(0.99);
+    Pan(-1.0);
+    SampleList()
+    {
+        Sample("whoosh07l", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("shell_transition7_right");
+    Inherit("shell_transition_template");
+    Pan(1.0);
+    SampleList()
+    {
+        Sample("whoosh07r", 1.0);
+    }
+}
+
+SoundLayered()
+{
+    Name("shell_transition7");
+    Layer("shell_transition7_left",  "shell_transition7_left", 0.0, 0.5);
+    Layer("shell_transition7_right", "shell_transition7_right", 0.0, 0.5);
+}
+
+
+// 8
+SoundProperties()
+{
+    Name("shell_transition8_left");
+    Inherit("shell_transition_template");
+    Pitch(0.99);
+    Pan(-1.0);
+    SampleList()
+    {
+        Sample("whoosh08l", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("shell_transition8_right");
+    Inherit("shell_transition_template");
+    Pan(1.0);
+    SampleList()
+    {
+        Sample("whoosh08r", 1.0);
+    }
+}
+
+SoundLayered()
+{
+    Name("shell_transition8");
+    Layer("shell_transition8_left",  "shell_transition8_left", 0.0, 0.5);
+    Layer("shell_transition8_right", "shell_transition8_right", 0.0, 0.5);
+}
+
+
+// 9
+SoundProperties()
+{
+    Name("shell_transition9_left");
+    Inherit("shell_transition_template");
+    Pitch(0.99);
+    Pan(-1.0);
+    SampleList()
+    {
+        Sample("whoosh09l", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("shell_transition9_right");
+    Inherit("shell_transition_template");
+    Pan(1.0);
+    SampleList()
+    {
+        Sample("whoosh09r", 1.0);
+    }
+}
+
+SoundLayered()
+{
+    Name("shell_transition9");
+    Layer("shell_transition9_left",  "shell_transition9_left", 0.0, 0.5);
+    Layer("shell_transition9_right", "shell_transition9_right", 0.0, 0.5);
+}
+
+
+// 10
+SoundProperties()
+{
+    Name("shell_transition10_left");
+    Inherit("shell_transition_template");
+    Pitch(0.99);
+    Pan(-1.0);
+    SampleList()
+    {
+        Sample("whoosh10l", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("shell_transition10_right");
+    Inherit("shell_transition_template");
+    Pan(1.0);
+    SampleList()
+    {
+        Sample("whoosh10r", 1.0);
+    }
+}
+
+SoundLayered()
+{
+    Name("shell_transition10");
+    Layer("shell_transition10_left",  "shell_transition10_left", 0.0, 0.5);
+    Layer("shell_transition10_right", "shell_transition10_right", 0.0, 0.5);
+}
+
+
+/////// Metagame Galactic Conquest Sound Proeprties //////////////////
+
+
+SoundProperties()
+{
+    Name("cw_two_ships");
+    Inherit("shell_transition_template");
+    Pan(0.0);
+    SampleList()
+    {
+        Sample("cw_2ship", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("gcw_two_ships");
+    Inherit("shell_transition_template");
+    Pan(0.0);
+    SampleList()
+    {
+        Sample("gcw_2ship", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("cis_ship");
+    Inherit("shell_transition_template");
+    Pan(0.0);
+    SampleList()
+    {
+        Sample("cis_ctrl_ship", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("rep_ship");
+    Inherit("shell_transition_template");
+    Pan(0.0);
+    SampleList()
+    {
+        Sample("rep_assault_ship", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("imp_ship");
+    Inherit("shell_transition_template");
+    Pan(0.0);
+    SampleList()
+    {
+        Sample("imp_sd_ship", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("all_ship");
+    Inherit("shell_transition_template");
+    Pan(0.0);
+    SampleList()
+    {
+        Sample("all_moncal_ship", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("ship_explosion");
+    Inherit("shell_transition_template");
+    Pan(0.0);
+    SampleList()
+    {
+        Sample("Ship_exp01", 1.0);
+        Sample("Ship_exp02", 1.0);
+
+    }
+}
+
+//New Metagame sounds
+SoundProperties()
+{
+    Name("meta_zooml");
+    Inherit("shell_transition_template");
+    Pitch(1.0);
+    Pan(-1.0);
+    CyclePlayback(1)
+    SampleList()
+    {
+        Sample("whooshl3", 1.0);
+        Sample("whooshl4", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("meta_zoomr");
+    Inherit("shell_transition_template");
+    Pitch(1.0);
+    Pan(1.0);
+    CyclePlayback(1)
+    SampleList()
+    {
+        Sample("whooshr3", 1.0);
+        Sample("whooshr4", 1.0);
+    }
+}
+
+SoundLayered()
+{
+    Name("meta_zoom_in");
+    Layer("shell_transition10_left",  "meta_zooml", 0.0, 0.5);
+    Layer("shell_transition10_right", "meta_zoomr", 0.0, 0.5);
+}

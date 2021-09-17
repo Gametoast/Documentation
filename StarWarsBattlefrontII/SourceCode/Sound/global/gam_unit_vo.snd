@@ -1,0 +1,50 @@
+// ---------------------------------------- Gamorean Guard Battlechatter --------------------------------------------------------------
+
+
+SoundStreamProperties()
+{
+    Name("wok1_inf_chatter_AcquiredTarget");
+    Group("wok_vo");
+    Inherit("battle_chatter_template");
+    Stream("wok_unit_vo_slow");
+    SegmentList()
+    {  
+        Segment("gamoreanGuard_01", 200.0, 10.0, 3.0); // 
+        Segment("gamoreanGuard_03", 200.0, 10.0, 3.0); //  
+        Segment("gamoreanGuard_05", 200.0, 10.0, 3.0); // 
+        Segment("gamoreanGuard_06", 200.0, 10.0, 3.0); // 
+        Segment("gamoreanGuard_09", 200.0, 10.0, 3.0); // 
+        Segment("gamoreanGuard_10", 200.0, 10.0, 3.0); // 
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("wok1_inf_chatter_NearbyFriendlySlaughter");
+    Group("wok_vo");
+    Inherit("battle_chatter_template");
+    Stream("wok_unit_vo_slow");
+    SegmentList()
+    {
+	Segment("gamoreanGuard_02", 200.0, 10.0, 3.0); //  
+	Segment("gamoreanGuard_08", 200.0, 10.0, 3.0); //  
+	Segment("gamoreanGuard_11", 200.0, 10.0, 3.0); //  
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("wok1_inf_chatter_Grenade");
+    Group("wok_vo");
+    Inherit("battle_chatter_template");
+    Stream("wok_unit_vo_slow");
+    SegmentList()
+    {
+	Segment("gamoreanGuard_04", 200.0, 10.0, 3.0); //  
+	Segment("gamoreanGuard_07", 200.0, 10.0, 3.0); //  
+	Segment("gamoreanGuard_12", 200.0, 10.0, 3.0); //  
+    }
+}
+

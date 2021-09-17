@@ -1,0 +1,338 @@
+
+//  --------------------------------------------------- Objective VO ----------------------------------------------------------
+
+SoundStreamProperties()
+{
+    Name("KAS_obj_01");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("KAS_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROKAS0001", 1.0, 0.0, 0.0); //  This is it, men!  We have to hold this beach head until reinforcments arrive!  No retreats, no excuses!
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("KAS_inf_01");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("kas_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("RIKAS0001", 1.0, 0.0, 0.0); //  We've lost the beach head!
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("KAS_obj_02");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("kas_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROKAS0002", 1.0, 0.0, 0.0); //  Those spiders are killing us!  Take 'em down!
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("KAS_obj_03");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("kas_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROKAS0003", 1.0, 0.0, 0.0); //  Fall back behind the Sea Wall we must protect the Wookie Base
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("KAS_obj_04");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("kas_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROKAS0004", 1.0, 0.0, 0.0); //  They have breached the Sea Wall.  Be prepared to defend the Wookie Base
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("KAS_inf_02");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("kas_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("RIKAS0002", 1.0, 0.0, 0.0); //  Somebody take out those AATs!
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("KAS_obj_05");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("kas_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROKAS0005", 1.0, 0.0, 0.0); //  They have captured the Wookie base, all is lost
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("KAS_obj_06");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("kas_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROKAS0006", 1.0, 0.0, 0.0); //  Reinforcements!  It's about time!  Everyone, fall back to the wookie base.
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("KAS_obj_07");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("kas_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROKAS0007", 1.0, 0.0, 0.0); //  Everyone move out!  We're taking the CIS launching area!
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("KAS_obj_08");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("kas_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROKAS0008", 1.0, 0.0, 0.0); //  Who would have expected the "elite" 501st Legion would let Kashyyyk slip through its fingers?
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("KAS_obj_09");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("kas_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROKAS0009", 1.0, 0.0, 0.0); //  Kashyyyk is lost!  The sorrow of the wookies echoes throughout the galaxy!
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("KAS_obj_10");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("kas_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROKAS0010", 1.0, 0.0, 0.0); //  Kashyyyk is lost!
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("KAS_Yoda_01");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("kas_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("YDAKAS001", 1.0, 0.0, 0.0); //  Yoda this is!  Secure the landing pad you must!
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("KAS_Yoda_02");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("kas_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("YDAKAS002", 1.0, 0.0, 0.0); //  Mmmm, strong their resistance is.
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("KAS_Yoda_03");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("kas_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("YDAKAS003", 1.0, 0.0, 0.0); //  Proud I am to stand by Wookies in their hour of need.
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("KAS_Yoda_04");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("kas_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("YDAKAS004", 1.0, 0.0, 0.0); //  Protect the Wookie base we will
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("KAS_Yoda_05");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("kas_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("YDAKAS005", 1.0, 0.0, 0.0); //  Take over the landing pad we must
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("KAS_Yoda_06");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("kas_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("YDAKAS006", 1.0, 0.0, 0.0); //  Fearless these troopers are, and loyal, yes.
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("KAS_obj_11");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("kas_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROKAS0011", 1.0, 0.0, 0.0); //  They have destroyed the Wooden Gate- prepare for the Assualt
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("KAS_obj_12");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("kas_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROKAS0012", 1.0, 0.0, 0.0); //  We must defend the Wookie Oil Refinery at all costs.  IF not this whole place is going to blow.
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("KAS_obj_13");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("kas_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROKAS0013", 1.0, 0.0, 0.0); //  The have breached the Sea Wall.  Men brace yourselves for the Attack.
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("KAS_obj_14");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("kas_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROKAS0014", 1.0, 0.0, 0.0); //  Way to hold them back men.  Now lets push forward and send them Packin'
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("KAS_obj_15");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("kas_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROKAS0015", 1.0, 0.0, 0.0); //  Nice Work men, we have saved this peaceful planet from Certain Doom
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("KAS_obj_16");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("kas_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROKAS0016", 1.0, 0.0, 0.0); //  They have destroyed the Wookie Oil Refinery, Kashyyyk is Lost
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("KAS_obj_17");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("kas_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROKAS0017", 1.0, 0.0, 0.0); //  Our troops have been depleted.  We have failed the Wookiees
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("KAS_obj_18");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("kas_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROKAS0018", 1.0, 0.0, 0.0); //  We are dangerously close to running out of reinforcements
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("KAS_obj_19");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("kas_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROKAS0019", 1.0, 0.0, 0.0); //  Hold the Beach while we setup our Defenses at the Sea Wall
+    }
+}

@@ -1,0 +1,81 @@
+// REP_hover_Combatspeeder --------------------------
+
+SoundProperties()
+{
+	Name("rep_weap_hover_combatspeeder_cannon_fire");
+	Group("weapons");
+	Inherit("veh_weapon_template");
+    SampleList()
+    {
+        Sample("wpn_cmbtSpdr_blaster_fire", 1.0);
+    }
+}
+
+SoundProperties()
+{
+	Name("rep_weap_hover_combatspeeder_cannon1_fire");
+	Group("weapons");
+	Inherit("veh_weapon_template");
+    SampleList()
+    {
+        Sample("wpn_cmbtSpdr_turret_fire", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("rep_hover_combatspeeder_engine_parameterized");
+	Group("vehicles");
+	Inherit("vehicle_template");
+    SampleList()
+    {
+      Sample("rep_hover_combatspeeder_engine", 1.0);
+
+    }
+}
+
+ParameterGraph()
+{
+    Name("combatspeederengine_speed");
+    ControlPoint(0.0, 0.5);
+    ControlPoint(0.18, 0.6);
+	ControlPoint(0.36, 0.75);
+	ControlPoint(0.53, 0.8);
+	ControlPoint(0.71, 0.9);
+    ControlPoint(1.0, 1.0);
+}
+
+ParameterGraph()
+{
+    Name("combatspeederengine_acceleration");
+    ControlPoint(-0.1, 0.7);
+    ControlPoint(0.0, 0.8);
+    ControlPoint(0.1, 0.85);
+    ControlPoint(0.2, 0.85);
+    ControlPoint(0.3, 0.85);
+    ControlPoint(0.4, 0.85);
+    ControlPoint(0.5, 0.85);
+    ControlPoint(0.6, 0.85);
+    ControlPoint(0.7, 0.9);
+    ControlPoint(0.8, 0.95);
+    ControlPoint(0.9, 0.95);
+    ControlPoint(1.0, 1.0);
+}
+
+SoundLayered()
+{
+    Name("combatspeederengine_layered");
+    Layer("combatspeeder_engine", "rep_hover_combatspeeder_engine_parameterized", 0.0);
+}
+
+SoundParameterized()
+{
+    Name("rep_hover_combatspeeder_engine_parameterized");
+    SoundLayered("combatspeederengine_layered");
+    Layer()
+    {
+        Name("combatspeeder_engine");
+        ParameterGraph("speed",        "combatspeederengine_speed",        "pitch");
+        ParameterGraph("acceleration", "combatspeederengine_acceleration", "gain");
+    }
+}

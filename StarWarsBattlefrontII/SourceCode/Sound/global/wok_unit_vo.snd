@@ -1,0 +1,310 @@
+// ---------------------------------------- Player Commands - WOK 2 --------------------------------------------------------------
+
+
+SoundStreamProperties()
+{
+    Name("wok1_command_follow");
+    Group("wok1_vo");
+    Inherit("player_command_template");
+    Stream("wok_unit_vo_quick");
+    SegmentList()
+    {
+        Segment("crtr_wookiee_die_07", 1.0, 1.0, 0.0); //  
+        Segment("crtr_wookiee_die_08", 1.0, 1.0, 0.0); //  
+        Segment("crtr_wookiee_friendlyFire_03", 1.0, 1.0, 0.0); //  
+        Segment("crtr_wookiee_friendlyFire_04", 1.0, 1.0, 0.0); //  
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("wok1_command_stopFollow");
+    Group("wok1_vo");
+    Inherit("player_command_template");
+    Stream("wok_unit_vo_quick");
+    SegmentList()
+    {
+        Segment("crtr_wookiee_die_07", 1.0, 1.0, 0.0); //  
+        Segment("crtr_wookiee_die_08", 1.0, 1.0, 0.0); //  
+        Segment("crtr_wookiee_friendlyFire_03", 1.0, 1.0, 0.0); //  
+        Segment("crtr_wookiee_friendlyFire_04", 1.0, 1.0, 0.0); //  
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("wok1_command_stopVehicle");
+    Group("wok1_vo");
+    Inherit("player_command_template");
+    Stream("wok_unit_vo_quick");
+    SegmentList()
+    {
+        Segment("crtr_wookiee_die_07", 1.0, 1.0, 0.0); //  
+        Segment("crtr_wookiee_die_08", 1.0, 1.0, 0.0); //  
+        Segment("crtr_wookiee_friendlyFire_03", 1.0, 1.0, 0.0); //  
+        Segment("crtr_wookiee_friendlyFire_04", 1.0, 1.0, 0.0); //   
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("wok1_command_getIn");
+    Group("wok1_vo");
+    Inherit("player_command_template");
+    Stream("wok_unit_vo_quick");
+    SegmentList()
+    {
+        Segment("crtr_wookiee_die_07", 1.0, 1.0, 0.0); //  
+        Segment("crtr_wookiee_die_08", 1.0, 1.0, 0.0); //  
+        Segment("crtr_wookiee_friendlyFire_03", 1.0, 1.0, 0.0); //  
+        Segment("crtr_wookiee_friendlyFire_04", 1.0, 1.0, 0.0); //    
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("wok1_command_getOut");
+    Group("wok1_vo");
+    Inherit("player_command_template");
+    Stream("wok_unit_vo_quick");
+    SegmentList()
+    {
+        Segment("crtr_wookiee_die_07", 1.0, 1.0, 0.0); //  
+        Segment("crtr_wookiee_die_08", 1.0, 1.0, 0.0); //  
+        Segment("crtr_wookiee_friendlyFire_03", 1.0, 1.0, 0.0); //  
+        Segment("crtr_wookiee_friendlyFire_04", 1.0, 1.0, 0.0); //    
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("wok1_response_follow");
+    Group("wok1_vo");
+    Inherit("player_command_template");
+    Stream("wok_unit_vo_quick");
+    SegmentList()
+    {
+        Segment("crtr_wookiee_die_09", 1.0, 1.0, 0.0); //  
+        Segment("crtr_wookiee_FreindlyFire_01", 1.0, 1.0, 0.0); //  
+        Segment("crtr_wookiee_hurt_06", 1.0, 1.0, 0.0); //    
+        Segment("crtr_wookiee_hurt_10", 1.0, 1.0, 0.0); // 
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("wok1_response_stopFollow");
+    Group("wok1_vo");
+    Inherit("player_command_template");
+    Stream("wok_unit_vo_quick");
+    SegmentList()
+    {
+        Segment("crtr_wookiee_die_09", 1.0, 1.0, 0.0); //  
+        Segment("crtr_wookiee_FreindlyFire_01", 1.0, 1.0, 0.0); //  
+        Segment("crtr_wookiee_hurt_06", 1.0, 1.0, 0.0); //    
+        Segment("crtr_wookiee_hurt_10", 1.0, 1.0, 0.0); //       
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("wok1_response_stopVehicle");
+    Group("wok1_vo");
+    Inherit("player_command_template");
+    Stream("wok_unit_vo_quick");
+    SegmentList()
+    {
+        Segment("crtr_wookiee_die_09", 1.0, 1.0, 0.0); //  
+        Segment("crtr_wookiee_FreindlyFire_01", 1.0, 1.0, 0.0); //  
+        Segment("crtr_wookiee_hurt_06", 1.0, 1.0, 0.0); //    
+        Segment("crtr_wookiee_hurt_10", 1.0, 1.0, 0.0); //         
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("wok1_response_getIn");
+    Group("wok1_vo");
+    Inherit("player_command_template");
+    Stream("wok_unit_vo_quick");
+    SegmentList()
+    {
+        Segment("crtr_wookiee_die_09", 1.0, 1.0, 0.0); //  
+        Segment("crtr_wookiee_FreindlyFire_01", 1.0, 1.0, 0.0); //  
+        Segment("crtr_wookiee_hurt_06", 1.0, 1.0, 0.0); //    
+        Segment("crtr_wookiee_hurt_10", 1.0, 1.0, 0.0); //       
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("wok1_response_getOut");
+    Group("wok1_vo");
+    Inherit("player_command_template");
+    Stream("wok_unit_vo_quick");
+    SegmentList()
+    {
+        Segment("crtr_wookiee_die_09", 1.0, 1.0, 0.0); //  
+        Segment("crtr_wookiee_FreindlyFire_01", 1.0, 1.0, 0.0); //  
+        Segment("crtr_wookiee_hurt_06", 1.0, 1.0, 0.0); //    
+        Segment("crtr_wookiee_hurt_10", 1.0, 1.0, 0.0); //        
+    }
+}
+
+// ---------------------------------------- Battle Chatter - WOK 1 --------------------------------------------------------------
+
+
+SoundStreamProperties()
+{
+    Name("wok1_inf_chatter_AcquiredTarget");
+    Group("wok_vo");
+    Inherit("battle_chatter_template");
+    Stream("wok_unit_vo_slow");
+    SegmentList()
+    {  
+        Segment("crtr_wookiee_enemySpotted_02", 200.0, 10.0, 3.0); // 
+        Segment("crtr_wookiee_growl_01", 200.0, 10.0, 3.0); //  
+        Segment("crtr_wookiee_growl_02", 200.0, 10.0, 3.0); // 
+        Segment("crtr_wookiee_roar_01", 200.0, 10.0, 3.0); // 
+        Segment("crtr_wookiee_grunt_05", 200.0, 10.0, 3.0); // 
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("wok1_inf_chatter_NearbyEnemySlaughter");
+    Group("wok_vo");
+    Inherit("battle_chatter_template");
+    Stream("wok_unit_vo_slow");
+    SegmentList()
+    {
+	Segment("crtr_wookiee_roar_01", 200.0, 10.0, 3.0); //  
+	Segment("crtr_wookiee_grunt_05", 200.0, 10.0, 3.0); //  
+	Segment("crtr_wookiee_grunt_02", 200.0, 10.0, 3.0); //  
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("wok1_inf_chatter_NearbyFriendlySlaughter");
+    Group("wok_vo");
+    Inherit("battle_chatter_template");
+    Stream("wok_unit_vo_slow");
+    SegmentList()
+    {
+	Segment("crtr_wookiee_growl_02", 200.0, 10.0, 3.0); //  
+	Segment("crtr_wookiee_die_02", 200.0, 10.0, 3.0); //  
+	Segment("crtr_wookiee_friendlyFire_05", 200.0, 10.0, 3.0); //  
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("wok1_inf_chatter_KillingSpree4");
+    Group("wok_vo");
+    Inherit("battle_chatter_template");
+    Stream("wok_unit_vo_slow");
+    SegmentList()
+    {
+        Segment("crtr_wookiee_badassRoar_01", 200.0, 10.0, 3.0); //  
+	Segment("crtr_wookiee_killedEnemy_01", 200.0, 10.0, 3.0); //  
+	Segment("crtr_wookiee_killedEnemy_02", 200.0, 10.0, 3.0); //  
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("wok1_inf_chatter_KillingSpree8");
+    Group("wok_vo");
+    Inherit("battle_chatter_template");
+    Stream("wok_unit_vo_slow");
+    SegmentList()
+    {
+	Segment("crtr_wookiee_killedEnemy_03", 200.0, 10.0, 3.0); //  
+	Segment("crtr_wookiee_growl_02", 200.0, 10.0, 3.0); //  
+	Segment("crtr_wookiee_hiss_06", 200.0, 10.0, 3.0); //  
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("wok1_inf_chatter_HeadshotKill");
+    Group("wok_vo");
+    Inherit("battle_chatter_template");
+    Stream("wok_unit_vo_slow");
+    SegmentList()
+    {
+	Segment("crtr_wookiee_killedEnemy_02", 200.0, 10.0, 3.0); //  
+	Segment("crtr_wookiee_hurt_05", 200.0, 10.0, 3.0); //  
+	Segment("crtr_wookiee_roar_01", 200.0, 10.0, 3.0); //  
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("wok1_inf_chatter_Grenade");
+    Group("wok_vo");
+    Inherit("battle_chatter_template");
+    Stream("wok_unit_vo_slow");
+    SegmentList()
+    {
+	Segment("crtr_wookiee_friendlyFire_02", 200.0, 10.0, 3.0); //  
+	Segment("crtr_wookiee_hiss_01", 200.0, 10.0, 3.0); //  
+	Segment("crtr_wookiee_hiss_06", 200.0, 10.0, 3.0); //  
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("wok1_inf_chatter_FriendlyFire");
+    Group("wok_vo");
+    Inherit("battle_chatter_template");
+    Stream("wok_unit_vo_slow");
+    SegmentList()
+    {
+	Segment("crtr_wookiee_friendlyFire_01", 200.0, 10.0, 3.0); //  
+	Segment("crtr_wookiee_friendlyFire_03", 200.0, 10.0, 3.0); //  
+	Segment("crtr_wookiee_friendlyFire_04", 200.0, 10.0, 3.0); //  
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("wok1_inf_chatter_RebelsShootDeadBody");
+    Group("wok_vo");
+    Inherit("battle_chatter_template");
+    Stream("wok_unit_vo_slow");
+    SegmentList()
+    {
+	Segment("ccrtr_wookiee_badassRoar_01", 200.0, 10.0, 3.0); //  
+	Segment("crtr_wookiee_hiss_05", 200.0, 10.0, 3.0); //  
+	Segment("crtr_wookiee_hiss_04", 200.0, 10.0, 3.0); //  
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("wok1_inf_chatter_GivePowerup");
+    Group("wok_vo");
+    Inherit("battle_chatter_template");
+    Stream("wok_unit_vo_slow");
+    SegmentList()
+    {
+	Segment("crtr_wookiee_talk_01", 200.0, 10.0, 3.0); //  
+	Segment("crtr_wookiee_talk_02", 200.0, 10.0, 3.0); //  
+	Segment("crtr_wookiee_talk_03", 200.0, 10.0, 3.0); //  
+    }
+}

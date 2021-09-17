@@ -1,0 +1,351 @@
+//
+// Standard Object explosions
+//
+
+SoundProperties()
+{
+    Name("imp_weap_ord_exp_lg_sub");
+    Group("explosion");
+    Inherit("explosion_template");
+    Gain(0.8);
+    MinDistance(15.0);
+    //MinDistance(100.0);
+    MuteDistance(300.0);
+    MaxDistance(300.0);
+    RollOff(2.0);
+    Looping(0);
+    SampleList()
+    {
+        Sample("exp_sub01", 0.167);
+        Sample("exp_sub02", 0.167);
+        Sample("exp_sub03", 0.167);
+        Sample("exp_sub05", 0.167);
+        Sample("exp_sub06", 0.167);
+        Sample("exp_sub07", 0.167);
+        Sample("exp_sub08", 0.167);
+    }
+}
+
+
+SoundProperties()
+{
+    Name("com_veh_laser_imp_exp_core"); // rocket explosion near
+    Group("Explosion");
+    Inherit("explosion_template");
+    MinDistance(50.0);
+    RollOff(2.0);
+    Gain(0.8);
+    SampleList()
+    {
+      Sample("exp_obj_small05", 1.0);
+      Sample("exp_obj_small04", 1.0);
+      Sample("exp_ord_rocket_small03", 1.0);
+      Sample("exp_ord_rocket_small01", 1.0);
+      Sample("exp_ord_grenade01", 1.0);
+      Sample("exp_ord_grenade02", 1.0);
+      Sample("exp_ord_grenade03", 1.0);
+      Sample("exp_sub01", 1.0);
+      Sample("exp_sub02", 1.0);
+      Sample("exp_sub03", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("small_exp_base"); // small explosion medium distance
+    Group("Explosion");
+    Inherit("explosion_template");
+    Gain(0.5);
+    MinDistance(15.0);
+    //MinDistance(100.0);
+    MuteDistance(300.0);
+    MaxDistance(300.0);
+    RollOff(1.0);
+    SampleList()
+    {
+        Sample("exp_verydistant_medium01", 0.5);
+        Sample("exp_verydistant_medium02", 0.5);
+    }
+}
+
+SoundProperties()
+{
+    Name("imp_weap_ord_exp_lg_frequent");
+    Group("Explosion");
+    Inherit("explosion_template");
+    Gain(0.4);
+    MinDistance(15.0);
+    //MinDistance(100.0);
+    MuteDistance(300.0);
+    MaxDistance(300.0);
+    RollOff(3.0);
+    Looping(0);
+    SampleList()
+    {
+        Sample("exp_sub01", 0.167);
+        Sample("exp_sub02", 0.167);
+        Sample("exp_sub03", 0.167);
+        Sample("exp_sub05", 0.167);
+        Sample("exp_sub06", 0.167);
+        Sample("exp_sub07", 0.167);
+        Sample("exp_sub08", 0.167);
+    }
+}
+
+
+
+
+// Elements -------------------------------------------------------------------
+
+
+
+// ----- Medium Exploison -----
+// Used for large vehicle deathsound-primary explosion
+
+SoundProperties()
+{
+    Name("com_weap_obj_med_exp_near"); // medium explosion near
+    Group("Explosion");
+    Inherit("explosion_template");
+    MinDistance(50.0);
+    SampleList()
+    {
+        Sample("exp_obj_med01", 0.2);
+        Sample("exp_obj_med02", 0.2);
+        Sample("exp_obj_med03", 0.2);
+        Sample("exp_obj_med04", 0.2);
+        Sample("exp_obj_med05", 0.2);
+    }
+}
+
+SoundProperties()
+{
+    Name("com_weap_obj_med_exp_near_delay"); // medium explosion near
+    Group("Explosion");
+    Inherit("explosion_template");
+    PlayProbability(0.8);
+    MinDistance(50.0);
+    SampleList()
+    {
+        Sample("exp_obj_med01", 0.2);
+        Sample("exp_obj_med02", 0.2);
+        Sample("exp_obj_med03", 0.2);
+        Sample("exp_obj_med04", 0.2);
+        Sample("exp_obj_med05", 0.2);
+    }
+}
+
+SoundProperties()
+{
+    Name("com_weap_obj_med_exp_distant"); // medium explosion medium distance
+    Group("Explosion");
+    Inherit("explosion_distant_template");
+    Looping(0);
+    SampleList()
+    {
+        Sample("exp_distant_medium01", 0.5);
+        Sample("exp_distant_medium02", 0.5);
+    }
+}
+
+SoundProperties()
+{
+    Name("com_weap_obj_med_exp_verydistant"); // medium explosion large distance
+    Group("Explosion");
+    Inherit("explosion_verydistant_template");
+    PlayInterval(0.5);
+    SampleList()
+    {
+        Sample("exp_verydistant_medium01", 0.5);
+        Sample("exp_verydistant_medium02", 0.5);
+    }
+}
+
+
+// ----- Small Explosion -----
+// Used for small vehicle and object deathsound-primary explosions
+
+SoundProperties()
+{
+    Name("com_weap_obj_small_exp_near"); //  small explosion near
+    Group("Explosion");
+    Inherit("explosion_template");
+    MinDistance(45.0);
+    Gain(0.7);
+    SampleList()
+    {
+        Sample("exp_obj_small01", 0.2);
+        Sample("exp_obj_small02", 0.2);
+        Sample("exp_obj_small03", 0.2);
+        Sample("exp_obj_small04", 0.2);
+        Sample("exp_obj_small05", 0.2);
+    }
+}
+
+SoundProperties()
+{
+    Name("com_weap_obj_small_exp_near_delay"); //  small explosion near
+    Group("Explosion");
+    Inherit("explosion_template");
+    MinDistance(45.0);
+    Gain(0.6);
+    SampleList()
+    {
+        Sample("exp_obj_small01", 0.2);
+        Sample("exp_obj_small02", 0.2);
+        Sample("exp_obj_small03", 0.2);
+        Sample("exp_obj_small04", 0.2);
+        Sample("exp_obj_small05", 0.2);
+    }
+}
+
+SoundProperties()
+{
+    Name("com_weap_obj_small_exp_distant"); // small explosion medium distance
+    Group("Explosion");
+    Inherit("explosion_distant_template");
+    RollInDistance(50.0);
+    MinDistance(50.0);
+    RollOff(3.0);
+    Gain(0.5);
+    SampleList()
+    {
+        Sample("exp_distant_small01", 0.5);
+        Sample("exp_distant_small02", 0.5);
+    }
+}
+
+SoundProperties()
+{
+    Name("com_weap_obj_small_exp_verydistant"); // small explosion large distance
+    Group("Explosion");
+    Inherit("explosion_verydistant_template");
+    RollInDistance(100);
+    MinDistance(100);
+    PlayInterval(0.5);
+    RollOff(3.0);
+    Gain(0.5);
+    SampleList()
+    {
+        Sample("exp_verydistant_medium01", 0.5);
+        Sample("exp_verydistant_medium02", 0.5);
+    }
+}
+
+
+// ----- Debris ------------------------------------------
+// Large Explosion Debris -----
+
+
+SoundProperties()
+{
+    Name("exp_obj_large_debris"); //  large debris
+    Group("Explosion");
+    Inherit("explosion_template");
+    SampleList()
+    {
+
+        Sample("exp_debris_metal_large01", 0.33);
+        Sample("exp_debris_metal_med03", 0.33);
+        Sample("exp_debris_metal_med02", 0.33);
+        Sample("exp_debris_metal_small01", 0.33);
+        Sample("exp_debris_metal_small03", 0.33);
+    }
+}
+
+// Medium Explosion Debris ----
+
+SoundProperties()
+{
+    Name("exp_obj_med_debris"); //  medium debris
+    Group("Explosion");
+    Inherit("explosion_template");
+    SampleList()
+    {
+
+        Sample("exp_obj_debris_med_01", 0.33);
+        Sample("exp_obj_debris_med_02", 0.33);
+        Sample("exp_obj_debris_med_03", 0.33);
+    }
+}
+
+// Small Explosion Debris ----
+
+SoundProperties()
+{
+    Name("exp_obj_small_debris"); //  small debris
+    Group("Explosion");
+    Inherit("explosion_template");
+    SampleList()
+    {
+
+        Sample("exp_obj_debris_small_01", 0.33);
+        Sample("exp_obj_debris_small_02", 0.33);
+        Sample("exp_obj_debris_small_03", 0.33);
+    }
+}
+
+
+// Composite ------------------------------------------------------------------
+
+
+// --- Medium explosion
+
+SoundLayered()
+{
+    Name("com_weap_obj_med_exp");
+    Layer("near",       "com_weap_obj_med_exp_near",        0.0);
+    Layer("near",       "com_weap_obj_med_exp_near_delay",        0.6, 0.1);
+    //Layer("neardebris", "exp_obj_med_debris",               1.0);
+    Layer("medium",     "com_weap_obj_med_exp_distant",     0.3, 0.1);
+    Layer("far",        "com_weap_obj_med_exp_verydistant", 0.5, 0.1);
+}
+
+// --- Small explosion
+
+SoundLayered()
+{
+    Name("com_weap_obj_small_exp");
+    Layer("near",   "com_weap_obj_small_exp_near",        0.0);
+    Layer("near",   "com_weap_obj_small_exp_near_delay",        0.6, 0.1);
+    Layer("medium", "com_weap_obj_small_exp_distant",     0.2, 0.1);
+    Layer("far",    "com_weap_obj_small_exp_verydistant", 0.3, 0.1);
+}
+
+
+SoundLayered()
+{
+    Name("com_veh_laser_imp_exp");
+    Layer("near",   "com_veh_laser_imp_exp_core",        0.0);
+    Layer("near",   "com_veh_laser_imp_exp_core",        0.6, 0.05);
+    Layer("medium", "com_weap_obj_small_exp_distant",     0.2, 0.1);
+    Layer("far",    "com_weap_obj_small_exp_verydistant", 0.3, 0.1);
+}
+
+
+
+
+SoundProperties()
+{
+    Name("com_weap_obj_small_exp_frequent"); //  small explosion near
+    Group("Explosion");
+    Inherit("explosion_template");
+    MinDistance(45.0);
+    Gain(0.6);
+    SampleList()
+    {
+        Sample("exp_obj_small01", 0.2);
+        Sample("exp_obj_small02", 0.2);
+        Sample("exp_obj_small03", 0.2);
+        Sample("exp_obj_small04", 0.2);
+        Sample("exp_obj_small05", 0.2);
+    }
+}
+
+SoundLayered()
+{
+    Name("imp_weap_ord_exp_lg");
+    Layer("near",   "imp_weap_ord_exp_lg_sub",        0.0);
+    Layer("medium", "small_exp_base",     0.2);
+    
+}

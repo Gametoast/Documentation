@@ -1,0 +1,216 @@
+// all_fly_X-wing --------------------------------------
+
+SoundProperties()
+{
+    Name("bes_weap_fly_cloudcar_cannon_fire");
+    Group("weapons");
+    Inherit("veh_weapon_template");
+    Pitch(0.8);
+    SampleList()
+    {
+        Sample("wpn_cloudcar_blaster_fire", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("bes_weap_fly_cloudcar_ptorpedo_fire");
+    Group("weapons");
+    Inherit("veh_weapon_template");
+    SampleList()
+    {
+        Sample("wpn_gunship_rocket_fire", 1.0);
+    }
+}
+
+// cloudcar Engine start------------------------------------------------------------
+
+SoundProperties()
+{
+    Name("all_fly_cloudcar_takeoff");
+    Group("vehicles");
+    Inherit("vehicle_foley_template");
+    SampleList()
+    {
+        Sample("Blastoff_wing", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("all_fly_cloudcar_land");
+    Group("vehicles");
+    Inherit("vehicle_foley_template");
+    SampleList()
+    {
+        Sample("flyer_land", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("cloudcar_engine_low_idle_property");
+    Group("vehicles");
+    Inherit("vehicle_eng_low_template");
+    SampleList()
+    {
+      Sample("eng_cloudcar_low_lp", 1.0);
+
+    }
+}
+
+SoundProperties()
+{
+    Name("cloudcar_engine_med_idle_property");
+    Group("vehicles");
+    Inherit("vehicle_eng_hi-mid_template");
+    SampleList()
+    {
+      Sample("eng_cloudcar_mid_lp", 1.0);
+
+    }
+}
+
+SoundProperties()
+{
+    Name("cloudcar_engine_high_idle_property");
+    Group("vehicles");
+    Inherit("vehicle_eng_hi-mid_template");
+    SampleList()
+    {
+      Sample("eng_cloudCar_hi_lp", 1.0);
+
+    }
+}
+
+SoundProperties()
+{
+    Name("cloudcar_engine_damage_idle_property");
+    Group("vehicles");
+    Inherit("vehicle_template");
+    SampleList()
+    {
+      Sample("eng_chop_a_loop", 1.0);
+
+    }
+}
+
+ParameterGraph()
+{
+    Name("cloudcar_engine_low_idle_speed");
+    ControlPoint(0.0, 0.5);
+    ControlPoint(0.5, 0.7);
+    ControlPoint(1.0, 1.0);
+
+}
+
+ParameterGraph()
+{
+    Name("cloudcar_engine_low_idle_acceleration");
+    ControlPoint(-1.0, 0.6);
+    ControlPoint(0.0, 0.6);
+    ControlPoint(0.5, 0.9);
+    ControlPoint(1.0, 1.0);
+}
+
+ParameterGraph()
+{
+    Name("cloudcar_engine_med_idle_speed");
+    ControlPoint(0.0, 0.5);
+    ControlPoint(0.5, 0.7);
+    ControlPoint(1.0, 1.0);
+}
+
+ParameterGraph()
+{
+    Name("cloudcar_engine_med_idle_acceleration");
+    ControlPoint(-1.0, 0.6);
+    ControlPoint(0.0, 0.6);
+    ControlPoint(0.5, 0.7);
+    ControlPoint(1.0, 1.0);
+}
+
+ParameterGraph()
+{
+    Name("cloudcar_engine_high_idle_speed");
+    ControlPoint(0.0, 0.5);
+    ControlPoint(0.5, 0.5);
+    ControlPoint(1.0, 1.0);
+}
+
+ParameterGraph()
+{
+    Name("cloudcar_engine_high_idle_acceleration");
+    ControlPoint(-1.0, 0.6);
+    ControlPoint(0.0, 0.6);
+    ControlPoint(0.5, 0.9);
+    ControlPoint(1.0, 1.0);
+}
+
+
+ParameterGraph()
+{
+    Name("cloudcar_engine_health");
+    ControlPoint(0.1, 2.0);
+    ControlPoint(0.3, 2.0);
+    ControlPoint(0.4, 1.5);
+    ControlPoint(0.5, 1.0);
+    ControlPoint(0.85, 0.0);
+    ControlPoint(1.0, 0.0);
+}
+
+SoundLayered()
+{
+    Name("cloudcar_engine_layered");
+    Layer("cloudcar_engine_low_idle", "cloudcar_engine_low_idle_property", 0.0);
+    Layer("cloudcar_engine_med_idle", "cloudcar_engine_med_idle_property", 0.0);
+    Layer("cloudcar_engine_high_idle", "cloudcar_engine_high_idle_property", 0.0);
+    Layer("cloudcar_engine_damage", "cloudcar_engine_damage_idle_property", 0.0);
+
+}
+
+SoundParameterized()
+{
+    Name("bes_fly_cloudcar_engine_parameterized");
+    SoundLayered("cloudcar_engine_layered");
+
+Layer()
+    {
+        Name("cloudcar_engine_low_idle");
+        ParameterGraph("speed",        "cloudcar_engine_low_idle_speed", "pitch");
+        ParameterGraph("acceleration", "cloudcar_engine_low_idle_acceleration","gain")
+        ParameterGraph("turnontime",   "engine_turnon_gain",      "gain");
+        ParameterGraph("turnofftime",  "engine_turnoff_gain",     "gain");
+        ParameterGraph("turnontime",   "engine_turnon_pitch",     "pitch");
+        ParameterGraph("turnofftime",  "engine_turnoff_pitch",    "pitch");
+    }
+
+    Layer()
+    {
+        Name("cloudcar_engine_med_idle");
+        ParameterGraph("speed",        "cloudcar_engine_med_idle_speed", "pitch");
+        ParameterGraph("acceleration", "cloudcar_engine_med_idle_acceleration","gain")
+        ParameterGraph("turnontime",   "engine_turnon_gain",      "gain");
+        ParameterGraph("turnofftime",  "engine_turnoff_gain",     "gain");
+        ParameterGraph("turnontime",   "engine_turnon_pitch",     "pitch");
+        ParameterGraph("turnofftime",  "engine_turnoff_pitch",    "pitch");
+    }
+    Layer()
+    {
+        Name("cloudcar_engine_high_idle");
+        ParameterGraph("speed",        "cloudcar_engine_high_idle_speed", "pitch");
+        ParameterGraph("acceleration", "cloudcar_engine_high_idle_acceleration","gain")
+        ParameterGraph("turnontime",   "engine_turnon_gain",      "gain");
+        ParameterGraph("turnofftime",  "engine_turnoff_gain",     "gain");
+        ParameterGraph("turnontime",   "engine_turnon_pitch",     "pitch");
+        ParameterGraph("turnofftime",  "engine_turnoff_pitch",    "pitch");
+    }
+    Layer()
+    {
+        Name("cloudcar_engine_damage");
+        ParameterGraph("health", "cloudcar_engine_health","gain")
+    }
+
+}
+
+//cloudcar Engine End--------------------------------------------------------------

@@ -1,0 +1,335 @@
+
+// ------ Imperial Unit Sound Properties -----------------
+
+// ===== Note: Common jedi sound properties located in global_world.snd
+
+//all_weap_inf_forcepull.odf
+//all_weap_inf_forcepull_ord.odf
+
+
+
+// ========== Start Heroes ===========
+
+// ----- Chewbacca Start -------------------------------------------------
+//all_weap_inf_bowcaster.odf
+//all_weap_inf_bowcaster_ord.odf
+//all_weap_inf_bowcaster_ord_high.odf
+// ----- Chewbacca Fett End ---------------------------------------------------
+
+// ----- Han Solo Stormtrooper Start -------------------------------------------------
+// ----- Han Solo Stormtrooper End ---------------------------------------------------
+
+// ----- Han Solo Tatooine Start -------------------------------------------------
+// ----- Han Solo Tatooine End ---------------------------------------------------
+
+// ----- Leia Start -------------------------------------------------
+// Hero Target Pistol
+// Hero Target Pistol Ordnance
+// ----- Leia End ---------------------------------------------------
+
+// ----- Luke Jedi Start -------------------------------------------------
+// ----- Luke Jedi End ---------------------------------------------------
+
+// ----- Luke Stormtrooper Start -------------------------------------------------
+// ----- Luke Stormtrooper End ---------------------------------------------------
+
+// ----- Luke Tatooine Start -------------------------------------------------
+// ----- Luke Tatooine End ---------------------------------------------------
+
+// ----- Obiwan Old Start -------------------------------------------------
+// ----- Obiwan Old End ---------------------------------------------------
+
+
+
+// ----- Alliance Pain Chatter Start -------------------
+
+SoundProperties()
+{
+    Name("all_inf_com_chatter_wound");
+    Group("all_inf_pain_vo");
+    Inherit("pain_chatter_template");
+    PlayInterval(0.0);
+    PlayIntervalDev(0.0);
+    PlayProbability(0.85);
+    SampleList()
+    {
+        Sample("AICOM401", 0.33);
+        Sample("AICOM402", 0.33);
+        Sample("AICOM403", 0.33);
+    }
+}
+
+SoundProperties()
+{
+    Name("all_inf_com_chatter_death");
+    Group("all_inf_pain_vo");
+    Inherit("pain_chatter_template");
+    PlayInterval(0.0);
+    PlayIntervalDev(0.0);
+    PlayProbability(1.0);
+    SampleList()
+    {
+        Sample("AICOM404", 0.33);
+        Sample("AICOM405", 0.33);
+        Sample("AICOM406", 0.33);
+    }
+}
+
+SoundProperties()
+{
+    Name("all_inf_com_chatter_wound_female");
+    Group("all_inf_pain_vo");
+    Inherit("pain_chatter_template");
+    Pitch(1.3);
+    PitchDev(0.0);
+    PlayInterval(0.0);
+    PlayIntervalDev(0.0);
+    PlayProbability(0.85);
+    SampleList()
+    {
+        Sample("AICOM401", 0.33);
+        Sample("AICOM402", 0.33);
+        Sample("AICOM403", 0.33);
+    }
+}
+
+SoundProperties()
+{
+    Name("all_inf_com_chatter_death_female");
+    Group("all_inf_pain_vo");
+    Inherit("pain_chatter_template");
+    Pitch(1.3);
+    PitchDev(0.0);
+    PlayInterval(0.0);
+    PlayIntervalDev(0.0);
+    PlayProbability(1.0);
+    SampleList()
+    {
+        Sample("AICOM404", 0.33);
+        Sample("AICOM405", 0.33);
+        Sample("AICOM406", 0.33);
+    }
+}
+
+SoundProperties()
+{
+    Name("allfemaleforcechoke");
+    Group("all_inf_pain_vo");
+    Inherit("pain_chatter_template");
+    Looping(1);
+    PlayProbability(1.0);
+    SampleList()
+    {
+        Sample("femalechoke", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("allfemalechoke");
+    Group("all_inf_pain_vo");
+    Inherit("pain_chatter_template");
+    Looping(1);
+    PlayProbability(1.0);
+    SampleList()
+    {
+        Sample("femalechoke", 1.0);
+    }
+}
+
+// ----- Alliance Pain Chatter End -----------------------
+
+
+
+// ----- Alliance Autoturret Dispenser Start ---------------------------------------
+//all_weap_inf_autoturret_fire.odf
+//all_weap_inf_autoturret_dispenser_fire.odf
+//all_weap_inf_autoturret_exp.odf
+//all_weap_inf_autoturret_ord.odf
+// ----- Alliance  Autoturret Dispenser End ---------------------------------------
+
+// ----- Alliance Buff Damage Start ----------------------------------------------
+//all_weap_inf_buff_damage.odf
+//all_weap_inf_buff_damage_ord.odf
+// ----- Alliance Buff Damage End ----------------------------------------------
+
+// ----- Alliance Commando Pistol Start ----------------------------------------------
+
+SoundProperties()
+{
+    Name("all_weap_inf_commando_pistol_fire");
+    Group("weapons");
+    Inherit("weapon_template");
+    SampleList()
+    {
+        Sample("com_cpistol_fire", 1.0);
+    }
+}
+
+
+
+
+// ----- Alliance Commando Pistol End ----------------------------------------------
+
+// ----- Alliance Detpack Start ----------------------------------------------
+//all_weap_inf_detpack_dispenser.odf
+//all_weap_inf_detpack_dispenser_exp.odf
+//all_weap_inf_detpack_dispenser_ord.odf
+
+SoundProperties()
+{
+    Name("all_weap_inf_timebomb_timer");
+    Group("weapons_foley");
+    Inherit("body_movement_template");
+    Rolloff(2.0);
+    SampleList()
+    {
+        Sample("wpn_all_unit_lockon_lp", 1.0);
+    }
+}
+
+
+// ----- Alliance Detpack End ----------------------------------------------
+
+// ----- Alliance Fusioncutter Start ----------------------------------------------
+// Included in global until unit weapons finalized
+// ----- Alliance Fusioncutter End ----------------------------------------------
+
+// ----- Alliance Invisibility Start ----------------------------------------------
+// ----- Alliance Invisibility End ----------------------------------------------
+
+// ----- Alliance Mine Dispenser Start ----------------------------------------------
+// Included in global until unit weapons finalized
+// ----- Alliance Mine Dispenser End ----------------------------------------------
+
+// ----- Alliance Mortar Launcher Start ----------------------------------------------
+
+// ----- Alliance Mortar Launcher  End ----------------------------------------------
+
+// ----- Alliance Pistol Start ----------------------------------------------
+
+SoundProperties()
+{
+    Name("all_weap_inf_pistol_fire");
+    Group("weapons");
+    Inherit("weapon_template");
+    SampleList()
+    {
+        Sample("wpn_all_pistol_fire", 1.0);
+    }
+}
+// ----- Alliance Pistol End ----------------------------------------------
+
+// ----- Alliance Powerup Dispenser Start ----------------------------------------------
+//all_weap_inf_powerup_dispenser.odf
+// ----- Alliance Powerup Dispenser End ----------------------------------------------
+
+// ----- Alliance Remote Droid Start ----------------------------------------------
+//all_weap_inf_remotedroid.odf
+//all_weap_inf_remotedroid_blaster.odf
+//all_weap_inf_remotedroid_blaster_ord.odf
+//all_weap_inf_remotedroid_destruct.odf
+//all_weap_inf_remotedroid_exp1.odf
+//all_weap_inf_remotedroid_exp2.odf
+//all_weap_inf_remotedroid_ord.odf
+//all_weap_inf_orbital_attack_salvo_exp.odf
+//all_weap_inf_orbital_attack_salvo_ord.odf
+// ----- Alliance Remote Droid End ----------------------------------------------
+
+// ----- Alliance Rifle Start ----------------------------------------------
+
+SoundProperties()
+{
+    Name("all_weap_inf_rifle_fire");
+    Group("weapons");
+    Inherit("weapon_template");
+    SampleList()
+    {
+        Sample("wpn_all_blaster_fire", 1.0);
+    }
+}
+
+// ----- Alliance Rifle End ----------------------------------------------
+
+// ----- Alliance Rocket Launcher Start ----------------------------------------------
+SoundProperties()
+{
+    Name("all_weap_inf_rocket_launcher_fire");
+    Group("weapons");
+    Inherit("weapon_template");
+    SampleList()
+    {
+        Sample("wpn_all_torpLauncher_fire", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("all_weap_inf_rocket_launcher_tracking");
+    Group("weapons_foley");
+    Inherit("body_movement_template");
+    Pitch(1.5)
+    looping (1);
+    SampleList()
+    {
+        Sample("com_tracking_loop", 1.0);
+    }
+}
+
+//all_weap_inf_guidedrocket_ord.odf
+// ----- Alliance Rocket Launcher End ----------------------------------------------
+
+// ----- Alliance Shotgun/Blast Cannon Start ----------------------------------------------
+
+
+// ----- Alliance Shotgun End ----------------------------------------------
+
+// ----- Alliance Sniper Rifle Start ----------------------------------------------
+
+
+
+// ----- Alliance Sniper Rifle End ----------------------------------------------
+
+// ----- Alliance Thermal Detonator Start ----------------------------------------------
+//all_weap_inf_thermaldetonator.odf
+//all_weap_inf_thermaldetonator_exp.odf
+//all_weap_inf_thermaldetonator_ord.odf
+// ----- Alliance Thermal Detonator End ----------------------------------------------
+
+
+//AICOM401
+//AICOM402
+//AICOM403
+//AICOM404
+//AICOM405
+//AICOM406
+//wpn_rebel_smlEquip
+//wpn_rebel_medEquip
+//wpn_rebel_lgEquip
+//wpn_rebel_medReload
+//wpn_rebel_lgReload
+//wpn_all_pistol_fire
+//wpn_all_blaster_fire
+//wpn_all_bowcaster_fire
+//wpn_all_sniperrifle_fire
+//wpn_imp_mortar_fire
+//wpn_all_torpLauncher_fire
+//wpn_all_unit_lockon_lp
+//mvt_getup_pistol
+//mvt_jump_pistol
+//mvt_land_pistol
+//mvt_roll_pistol
+//mvt_lie_pistol
+//mvt_squat_pistol
+//mvt_getup_rifle
+//mvt_jump_rifle
+//mvt_land_rifle
+//mvt_roll_rifle
+//mvt_lie_rifle
+//mvt_squat_rifle
+//mvt_getup_bazooka
+//mvt_jump_bazooka
+//mvt_land_bazooka
+//mvt_roll_bazooka
+//mvt_lie_bazooka
+//mvt_squat_bazooka

@@ -1,0 +1,165 @@
+//-cis Foley Effects-----------------------------------------------------------
+
+//-Soldier---------------------------------------------------------------------
+
+FoleyFXSoldier()
+{
+    Name("cis_inf_droid_dirt");
+    Class("cis_inf_droid");
+    FootstepLeftWalk("cis_inf_droid_walk_dirt_left");
+    FootstepRightWalk("cis_inf_droid_walk_dirt_right");
+    FootstepLeftRun("cis_inf_droid_run_dirt_left");
+    FootstepRightRun("cis_inf_droid_run_dirt_right");
+    FootstepLeftStop("cis_inf_droid_stop_dirt");
+    FootstepRightStop("cis_inf_droid_stop_dirt");
+    Jump("cis_inf_droid_jump_dirt");
+    Land("cis_inf_droid_land_dirt");
+    Roll("cis_inf_droid_roll_dirt");
+//    Prone("cis_inf_droid_lie_dirt");
+    Squat("cis_inf_droid_squat_dirt");
+////    Stand("cis_inf_droid_getup_dirt");
+    Bodyfall("cis_inf_droid_lgBF_dirt");
+}
+
+#ifplatform ps2
+FoleyFXSoldier()
+{
+    Name("cis_inf_sbdroid_dirt");
+    Class("cis_inf_sbdroid");
+    FootstepLeftWalk("cis_inf_droid_walk_dirt_left");
+    FootstepRightWalk("cis_inf_droid_walk_dirt_right");
+    FootstepLeftRun("cis_inf_droid_run_dirt_left");
+    FootstepRightRun("cis_inf_droid_run_dirt_right");
+    FootstepLeftStop("cis_inf_droid_stop_dirt");
+    FootstepRightStop("cis_inf_droid_stop_dirt");
+    Jump("cis_inf_droid_jump_dirt");
+    Land("cis_inf_droid_land_dirt");
+    Roll("cis_inf_droid_roll_dirt");
+//    Prone("cis_inf_droid_lie_dirt");
+    Squat("cis_inf_droid_squat_dirt");
+////    Stand("cis_inf_droid_getup_dirt");
+    Bodyfall("cis_inf_droid_lgBF_dirt");
+}
+#endifplatform ps2
+
+#ifplatform xbox pc
+FoleyFXSoldier()
+{
+    Name("cis_inf_sbdroid_dirt");
+    Class("cis_inf_sbdroid");
+    FootstepLeftWalk("cis_inf_sbdroid_walk_dirt_left");
+    FootstepRightWalk("cis_inf_sbdroid_walk_dirt_right");
+    FootstepLeftRun("cis_inf_sbdroid_run_dirt_left");
+    FootstepRightRun("cis_inf_sbdroid_run_dirt_right");
+    FootstepLeftStop("cis_inf_sbdroid_stop_dirt");
+    FootstepRightStop("cis_inf_sbdroid_stop_dirt");
+    Jump("cis_inf_sbdroid_jump_dirt");
+    Land("cis_inf_sbdroid_land_dirt");
+    Roll("cis_inf_sbdroid_roll_dirt");
+//    Prone("cis_inf_sbdroid_lie_dirt");
+    Squat("cis_inf_sbdroid_squat_dirt");
+////    Stand("cis_inf_sbdroid_getup_dirt");
+    Bodyfall("cis_inf_sbdroid_lgBF_dirt");
+}
+#endifplatform xbox pc
+//-rep Foley Effects-----------------------------------------------------------
+
+//-Trooper---------------------------------------------------------------------
+
+FoleyFXSoldier()
+{
+    Name("rep_inf_trooper_dirt");
+    Class("rep_inf_trooper");
+    FootstepLeftWalk("rep_inf_trooper_walk_dirt_left");
+    FootstepRightWalk("rep_inf_trooper_walk_dirt_right");
+    FootstepLeftRun("rep_inf_trooper_run_dirt_left");
+    FootstepRightRun("rep_inf_trooper_run_dirt_right");
+    FootstepLeftStop("rep_inf_trooper_stop_dirt");
+    FootstepRightStop("rep_inf_trooper_stop_dirt");
+    Jump("rep_inf_trooper_jump_dirt");
+    Land("rep_inf_trooper_land_dirt");
+    Roll("rep_inf_trooper_roll_dirt");
+//    Prone("rep_inf_trooper_lie_dirt");
+    Squat("rep_inf_trooper_squat_dirt");
+////    Stand("rep_inf_trooper_getup_dirt");
+    Bodyfall("rep_inf_trooper_lgBF_dirt");
+}
+
+FoleyFXSoldier()
+{
+    Name("rep_inf_soldier_dirt");
+    Class("rep_inf_soldier");
+    FootstepLeftWalk("rep_inf_soldier_walk_dirt_left");
+    FootstepRightWalk("rep_inf_soldier_walk_dirt_right");
+    FootstepLeftRun("rep_inf_soldier_run_dirt_left");
+    FootstepRightRun("rep_inf_soldier_run_dirt_right");
+    FootstepLeftStop("rep_inf_soldier_stop_dirt");
+    FootstepRightStop("rep_inf_soldier_stop_dirt");
+    Jump("rep_inf_soldier_jump_dirt");
+    Land("rep_inf_soldier_land_dirt");
+    Roll("rep_inf_soldier_roll_dirt");
+//    Prone("rep_inf_soldier_lie_dirt");
+    Squat("rep_inf_soldier_squat_dirt");
+////    Stand("rep_inf_soldier_getup_dirt");
+    Bodyfall("rep_inf_soldier_lgBF_dirt");
+}
+
+FoleyFXSoldier()
+{
+    Name("cis_inf_soldier_dirt");
+    Class("cis_inf_soldier");
+    FootstepLeftWalk("cis_inf_soldier_walk_dirt_left");
+    FootstepRightWalk("cis_inf_soldier_walk_dirt_right");
+    FootstepLeftRun("cis_inf_soldier_run_dirt_left");
+    FootstepRightRun("cis_inf_soldier_run_dirt_right");
+    FootstepLeftStop("cis_inf_soldier_stop_dirt");
+    FootstepRightStop("cis_inf_soldier_stop_dirt");
+    Jump("cis_inf_soldier_jump_dirt");
+    Land("cis_inf_soldier_land_dirt");
+    Roll("cis_inf_soldier_roll_dirt");
+//    Prone("cis_inf_soldier_lie_dirt");
+    Squat("cis_inf_soldier_squat_dirt");
+////    Stand("cis_inf_soldier_getup_dirt");
+    Bodyfall("cis_inf_soldier_lgBF_dirt");
+}
+
+
+// Imperial
+
+FoleyFXSoldier()
+{
+    Name("imp_inf_trooper_dirt");
+    Class("imp_inf_trooper");
+    FootstepLeftWalk("rep_inf_trooper_walk_dirt_left");
+    FootstepRightWalk("rep_inf_trooper_walk_dirt_right");
+    FootstepLeftRun("rep_inf_trooper_run_dirt_left");
+    FootstepRightRun("rep_inf_trooper_run_dirt_right");
+    FootstepLeftStop("rep_inf_trooper_stop_dirt");
+    FootstepRightStop("rep_inf_trooper_stop_dirt");
+    Jump("rep_inf_trooper_jump_dirt");
+    Land("rep_inf_trooper_land_dirt");
+    Roll("rep_inf_trooper_roll_dirt");
+//    Prone("rep_inf_trooper_lie_dirt");
+    Squat("rep_inf_trooper_squat_dirt");
+////    Stand("rep_inf_trooper_getup_dirt");
+    Bodyfall("rep_inf_trooper_lgBF_dirt");
+}
+
+FoleyFXSoldier()
+{
+    Name("imp_inf_soldier_dirt");
+    Class("imp_inf_soldier");
+    FootstepLeftWalk("rep_inf_soldier_walk_dirt_left");
+    FootstepRightWalk("rep_inf_soldier_walk_dirt_right");
+    FootstepLeftRun("rep_inf_soldier_run_dirt_left");
+    FootstepRightRun("rep_inf_soldier_run_dirt_right");
+    FootstepLeftStop("rep_inf_soldier_stop_dirt");
+    FootstepRightStop("rep_inf_soldier_stop_dirt");
+    Jump("rep_inf_soldier_jump_dirt");
+    Land("rep_inf_soldier_land_dirt");
+    Roll("rep_inf_soldier_roll_dirt");
+//    Prone("rep_inf_soldier_lie_dirt");
+    Squat("rep_inf_soldier_squat_dirt");
+////    Stand("rep_inf_soldier_getup_dirt");
+    Bodyfall("rep_inf_soldier_lgBF_dirt");
+}

@@ -1,0 +1,61 @@
+// ----- Wookiee Smuggler VO Start ------------------------------------
+
+SoundProperties()
+{
+    Name("wookie_chatter_template");
+    Inherit("pain_chatter_template");
+    PitchDev(0.15);
+    RollOff(2.0);
+}
+
+SoundProperties()
+{
+    Name("all_inf_com_chatter_wound_wookie");
+    Group("all_inf_pain_vo");
+    Inherit("wookie_chatter_template");
+    SampleList()
+    {
+        Sample("crtr_wookiee_hurt", 0.5);
+    }
+}
+
+SoundProperties()
+{
+    Name("all_inf_com_chatter_death_wookie");
+    Group("all_inf_pain_vo");
+    Inherit("wookie_chatter_template");
+    SampleList()
+    {
+        Sample("crtr_wookiee_death", 1.0);
+    }
+}
+
+
+// ----- Start Alliance Bowcaster ------------------------
+
+SoundProperties()
+{
+    Name("all_weap_inf_bowcaster_fire");
+    Group("weapons");
+    Inherit("weapon_template");
+    Gain(1.0);
+    SampleList()
+    {
+        Sample("wpn_all_bowcaster_fire", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("all_weap_inf_bowcaster_charge");
+    Group("weapons");
+    Inherit("weapon_template");
+    Pitch(0.3);
+    RollOff(4.0);
+    SampleList()
+    {
+        Sample("wpn_bowcaster_chargeup", 1.0);
+    }
+}
+
+// ----- End Alliance Bowcaster ---------------------------

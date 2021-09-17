@@ -1,0 +1,322 @@
+// ----- Wookiee Smuggler VO Start ------------------------------------
+
+SoundProperties()
+{
+    Name("wookie_chatter_template");
+    Inherit("pain_chatter_template");
+    PitchDev(0.15);
+    RollOff(2.0);
+}
+
+SoundProperties()
+{
+    Name("all_inf_com_chatter_wound_wookie");
+    Group("all_inf_pain_vo");
+    Inherit("wookie_chatter_template");
+    SampleList()
+    {
+        Sample("crtr_wookiee_hurt", 0.5);
+    }
+}
+
+SoundProperties()
+{
+    Name("all_inf_com_chatter_death_wookie");
+    Group("all_inf_pain_vo");
+    Inherit("wookie_chatter_template");
+    SampleList()
+    {
+        Sample("crtr_wookiee_death", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("all_inf_com_chatter_acquired_wookie");
+    Group("all_inf_pain_vo");
+    Inherit("wookie_chatter_template");
+    SampleList()
+    {
+        Sample("crtr_wookiee_chatter_02", 0.001);
+      Sample("crtr_wookiee_chatter_03", 0.001);
+    }
+}
+
+SoundProperties()
+{
+    Name("all_inf_com_chatter_hide_wookie");
+    Group("all_inf_pain_vo");
+    Inherit("wookie_chatter_template");
+    SampleList()
+    {
+      Sample("crtr_wookiee_chatter_06", 0.5);
+      Sample("crtr_wookiee_chatter_01", 0.5);
+    }
+}
+
+SoundProperties()
+{
+    Name("all_inf_com_chatter_approach_wookie");
+    Group("all_inf_pain_vo");
+    Inherit("wookie_chatter_template");
+    SampleList()
+    {
+      Sample("crtr_wookiee_chatter_02", 0.5);
+      Sample("crtr_wookiee_chatter_03", 0.5);
+    }
+}
+
+SoundProperties()
+{
+    Name("all_inf_com_chatter_flee_wookie");
+    Group("all_inf_pain_vo");
+    Inherit("wookie_chatter_template");
+    SampleList()
+    {
+    Sample("crtr_wookiee_chatter_02", 0.5);
+      Sample("crtr_wookiee_chatter_03", 0.5);
+    }
+}
+
+SoundProperties()
+{
+    Name("all_inf_com_chatter_predamage_wookie");
+    Group("all_inf_pain_vo");
+    Inherit("wookie_chatter_template");
+    SampleList()
+    {
+        Sample("crtr_wookiee_chatter_01", 0.5);
+        Sample("crtr_wookiee_chatter_06", 0.5);
+    }
+}
+
+SoundProperties()
+{
+    Name("all_inf_com_chatter_heard_wookie");
+    Group("all_inf_pain_vo");
+    Inherit("wookie_chatter_template");
+    SampleList()
+    {
+        Sample("crtr_wookiee_chatter_02", 0.5);
+        Sample("crtr_wookiee_chatter_03", 0.5);
+    }
+}
+
+// Wookiee Infantry Tactical VO Start --------------------------------------------
+
+SoundProperties()
+{
+    Name("wok_inf_com_chatter_tac_follow"); // unit follow me
+    Group("all_inf_pain_vo");
+    Inherit("wookie_chatter_template");
+    SampleList()
+    {
+        Sample("crtr_wookiee_chatter_06", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("wok_inf_com_chatter_tac_hold"); // unit stop
+    Group("all_inf_pain_vo");
+    Inherit("wookie_chatter_template");
+    SampleList()
+    {
+        Sample("crtr_wookiee_chatter_02", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("wok_inf_com_chatter_tac_moveout"); // unit disperse
+    Group("all_inf_pain_vo");
+    Inherit("wookie_chatter_template");
+    SampleList()
+    {
+        Sample("crtr_wookiee_chatter_01", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("wok_inf_com_chatter_tac_needgunner"); // vehicle position avaiable
+    Group("all_inf_pain_vo");
+    Inherit("wookie_chatter_template");
+    SampleList()
+    {
+        Sample("crtr_wookiee_chatter_05", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("wok_inf_com_chatter_tac_allclear"); // vehicle move out
+    Group("all_inf_pain_vo");
+    Inherit("wookie_chatter_template");
+    SampleList()
+    {
+        Sample("crtr_wookiee_chatter_01", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("wok_inf_com_chatter_tac_spreadout");  // exit vehicle
+    Group("all_inf_pain_vo");
+    Inherit("wookie_chatter_template");
+    SampleList()
+    {
+        Sample("crtr_wookiee_chatter_03", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("wok_inf_com_chatter_tac_stop"); // vehicle stop
+    Group("all_inf_pain_vo");
+    Inherit("wookie_chatter_template");
+    SampleList()
+    {
+        Sample("crtr_wookiee_chatter_02", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("wok_inf_com_chatter_tac_yes"); // response yes
+    Group("all_inf_pain_vo");
+    Inherit("wookie_chatter_template");
+    PlayProbability(1.0);
+    PlayInterval(0.0);
+    PlayIntervalDev(0.0);
+    SampleList()
+    {
+        Sample("crtr_wookiee_chatter_01", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("wok_inf_com_chatter_tac_no"); // response no
+    Group("all_inf_pain_vo");
+    Inherit("wookie_chatter_template");
+    PlayProbability(1.0);
+    PlayInterval(0.0);
+    PlayIntervalDev(0.0);
+    SampleList()
+    {
+        Sample("crtr_wookiee_chatter_02", 1.0);
+    }
+}
+
+// Wookiee Infantry Tactical VO End -------------------------------------------------
+
+
+// ----- Start Alliance Bowcaster ------------------------
+
+
+
+
+SoundProperties()
+{
+    Name("all_weap_inf_bowcaster_fire");
+    Group("weapons");
+    Inherit("weapon_template");
+    Gain(1.0);
+    SampleList()
+    {
+        Sample("wpn_all_bowcaster_fire", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("all_weap_inf_bowcaster_charge");
+    Group("weapons");
+    Inherit("weapon_template");
+    Pitch(0.3);
+    RollOff(5.0);
+    SampleList()
+    {
+        Sample("wpn_bowcaster_chargeup", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("all_weap_inf_bowcaster_mvt_getup");
+    Group("weapons_foley");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("mvt_getup_rifle", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("all_weap_inf_bowcaster_mvt_jump");
+    Group("weapons_foley");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("mvt_jump_rifle", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("all_weap_inf_bowcaster_mvt_land");
+    Group("weapons_foley");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("mvt_land_rifle", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("all_weap_inf_bowcaster_mvt_roll");
+    Group("weapons_foley");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("mvt_roll_rifle", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("all_weap_inf_bowcaster_mvt_lie");
+    Group("weapons_foley");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("mvt_lie_rifle", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("all_weap_inf_bowcaster_mvt_squat");
+    Group("weapons_foley");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("mvt_squat_rifle", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("all_weap_inf_bowcaster_mvt_stop");
+    Group("weapons_foley");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("mvt_stop_rifle", 1.0);
+    }
+}
+
+// ----- End Alliance Bowcaster ---------------------------

@@ -1,0 +1,161 @@
+// ------ CIS Unit Sound Properties -----------------
+
+
+
+// ----- Start CIS Pain Chatter ------------------------------------
+
+SoundProperties()
+{
+    Name("cis_inf_com_chatter_wound");
+    Group("cis_vo");
+    Inherit("pain_chatter_template");
+    PlayInterval(0.0);
+    PlayIntervalDev(0.0);
+    PlayProbability(0.85);
+    SampleList()
+    {
+        Sample("CICOM401", 0.33, 0.0, 0.0);
+        Sample("CICOM408", 0.33, 0.0, 0.0);
+        Sample("CICOM409", 0.33, 0.0, 0.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("droid_death");
+    Group("cis_vo");
+    Inherit("pain_chatter_template");
+    PlayInterval(0.0);
+    PlayIntervalDev(0.0);
+    PlayProbability(1.0);
+    SampleList()
+    {
+        Sample("drd_droid_hit_01", 0.167);
+        Sample("drd_droid_hit_02", 0.167);
+        Sample("drd_droid_hit_03", 0.167);
+        Sample("drd_droid_hit_04", 0.167);
+        Sample("drd_droid_hit_05", 0.167);
+        Sample("drd_droid_hit_06", 0.167);
+    }
+}
+
+// ----- End CIS Pain Chatter ------------------------------------
+
+
+
+
+// ----- Start CIS Commando Pistol ----------------------
+
+SoundProperties()
+{
+    Name("cis_weap_inf_commando_pistol_fire");
+    Group("weapons");
+    Inherit("weapon_template");
+    SampleList()
+    {
+        Sample("com_cpistol_fire", 1.0);
+    }
+}
+
+// ----- End CIS Commando Pistol -------------------------
+
+
+// ----- Start CIS Rifle ---------------------------------------------
+
+SoundProperties()
+{
+    Name("cis_weap_inf_rifle_fire");
+    Group("weapons");
+    Inherit("weapon_template");
+    SampleList()
+    {
+        Sample("wpn_cis_blaster_fire", 1.0);
+    }
+}
+
+// ----- End CIS Rifle ---------------------------------------------
+
+
+
+
+// ----- Start CIS Rocket Launcher ---------------------------------------------
+
+SoundProperties()
+{
+    Name("cis_weap_inf_rocket_launcher_fire");
+    Group("weapons");
+    Inherit("weapon_template");
+    SampleList()
+    {
+        Sample("wpn_cis_rcktlauncher_fire", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("cis_weap_inf_rocket_launcher_tracking");
+    Group("weapons_foley");
+    Inherit("body_movement_template");
+    looping (1);
+    Pitch(1.5);
+    SampleList()
+    {
+        Sample("com_tracking_loop", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("cis_weap_inf_rocket_launcher_reload");
+    Group("weapons_foley");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("wpn_republic_lgReload", 1.0);
+    }
+}
+
+// ----- End CIS Rocket Launcher ---------------------------------------------
+
+
+// ----- Start CIS Thermal Detonator -------------------------
+// Included in global until unit weapons finalized
+// ----- End CIS Thermal Detonator ---------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,2823 @@
+/////// Start Global Sounds Called in Mission Lua ----
+// ---Zoom Start ---
+SoundProperties()
+{
+    Name("binocularzoomin")
+    Pitch(1.0);
+    PitchDev(0.0);
+    Gain(0.9);
+    GainDev(0.0);
+    ReverbGain(0.0);
+    Bus("soundfx");
+    Looping(0);
+    Pan(0.0);
+    Mode3D(0);
+    Bias(0.0001);
+    Priority(0.7);
+    SampleList()
+    {
+        Sample("wpn_sniperRifle_zoomIn01", 0.5);
+        Sample("wpn_sniperRifle_zoomIn02", 0.5);
+    }
+}
+
+SoundProperties()
+{
+    Name("binocularzoomout")
+    Pitch(1.0);
+    PitchDev(0.0);
+    Gain(0.8);
+    GainDev(0.0);
+    ReverbGain(0.0);
+    Bus("soundfx");
+    Looping(0);
+    Pan(0.0);
+    Mode3D(0);
+    Bias(0.0001);
+    Priority(0.7);
+    SampleList()
+    {
+        Sample("wpn_sniperRifle_zoomOut", 1.0);
+    }
+}
+// ---Zoom End ---
+
+// ---Spawn Display Start ---
+SoundProperties()
+{
+    Name("shell_select_unit");
+    Group("unit_weapon");
+    Inherit("weapon_template");
+    Gain(0.4);
+    Pitch(0.3);
+    PitchDev(0.1);
+    Mode3D(0);
+    Bus("shellfx");
+    SampleList()
+    {
+        Sample("wpn_throw01", 0.2);
+        Sample("wpn_throw02", 0.2);
+        Sample("wpn_throw03", 0.2);
+        Sample("wpn_throw04", 0.2);
+        Sample("wpn_throw05", 0.2);
+    }
+}
+// ---Spawn Display End ---
+/////// End Global Sounds Called in Mission Lua ----
+
+
+
+////// Start Common Weapons Foley -----
+
+SoundProperties()
+{
+    Name("com_weap_inf_equip_sm");
+    Group("weapons_foley");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("com_equip_small", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("com_weap_inf_equip_med");
+    Group("weapons_foley");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("com_equip_medium", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("com_weap_inf_equip_lg");
+    Group("weapons_foley");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("com_equip_large", 1.0);
+    }
+}
+
+// Reload
+
+SoundProperties()
+{
+    Name("com_weap_inf_reload_med");
+    Group("weapons_foley");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("com_reload_medium", 1.0);
+    }
+}
+
+
+SoundProperties()
+{
+    Name("com_weap_inf_reload_lg");
+    Group("weapons_foley");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("com_reload_large", 1.0);
+    }
+}
+
+// ----- Unit Weapons Foley Start----
+//SoundProperties()
+//{
+//    Name("com_weap_inf_pistol_mvt_getup");
+//    Group("weapons_foley");
+//    Inherit("body_movement_template");
+//    SampleList()
+//    {
+//        Sample("mvt_getup_pistol", 1.0);
+//    }
+//}
+
+SoundProperties()
+{
+    Name("com_weap_inf_pistol_mvt_jump");
+    Group("weapons_foley");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("mvt_jump_pistol", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("com_weap_inf_pistol_mvt_land");
+    Group("weapons_foley");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("mvt_land_pistol", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("com_weap_inf_pistol_mvt_roll");
+    Group("weapons_foley");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("mvt_roll_pistol", 1.0);
+    }
+}
+
+//SoundProperties()
+//{
+//    Name("com_weap_inf_pistol_mvt_lie");
+//    Group("weapons_foley");
+//    Inherit("body_movement_template");
+//    SampleList()
+//    {
+//        Sample("mvt_lie_pistol", 1.0);
+//    }
+//}
+
+SoundProperties()
+{
+    Name("com_weap_inf_pistol_mvt_squat");
+    Group("weapons_foley");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("mvt_squat_pistol", 1.0);
+    }
+}
+//Rifle
+//SoundProperties()
+//{
+//    Name("com_weap_inf_rifle_mvt_getup");
+//    Group("weapons_foley");
+//    Inherit("body_movement_template");
+//    SampleList()
+//    {
+//        Sample("mvt_getup_rifle", 1.0);
+//    }
+//}
+
+SoundProperties()
+{
+    Name("com_weap_inf_rifle_mvt_jump");
+    Group("weapons_foley");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("mvt_jump_rifle", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("com_weap_inf_rifle_mvt_land");
+    Group("weapons_foley");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("mvt_land_rifle", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("com_weap_inf_rifle_mvt_roll");
+    Group("weapons_foley");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("mvt_roll_rifle", 1.0);
+    }
+}
+
+//SoundProperties()
+//{
+//    Name("com_weap_inf_rifle_mvt_lie");
+//    Group("weapons_foley");
+//    Inherit("body_movement_template");
+//    SampleList()
+//    {
+//        Sample("mvt_lie_rifle", 1.0);
+//    }
+//}
+
+SoundProperties()
+{
+    Name("com_weap_inf_rifle_mvt_squat");
+    Group("weapons_foley");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("mvt_squat_rifle", 1.0);
+    }
+}
+// Bazooka/Rocket Launcher/Mortar
+//SoundProperties()
+//{
+//    Name("com_weap_inf_bazooka_mvt_getup");
+//    Group("weapons_foley");
+//    Inherit("body_movement_template");
+//    SampleList()
+//    {
+//        Sample("mvt_getup_bazooka", 1.0);
+//    }
+//}
+
+SoundProperties()
+{
+    Name("com_weap_inf_bazooka_mvt_jump");
+    Group("weapons_foley");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("mvt_jump_bazooka", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("com_weap_inf_bazooka_mvt_land");
+    Group("weapons_foley");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("mvt_land_bazooka", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("com_weap_inf_bazooka_mvt_roll");
+    Group("weapons_foley");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("mvt_roll_bazooka", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("com_weap_inf_bazooka_mvt_lie");
+    Group("weapons_foley");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("mvt_lie_bazooka", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("com_weap_inf_bazooka_mvt_squat");
+    Group("weapons_foley");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("mvt_squat_bazooka", 1.0);
+    }
+}
+
+
+
+// ---Unit Weapons Foley End -----------------------------------
+
+
+
+
+// ---Turrets Common Start ---
+SoundProperties()
+{
+    Name("vehicle_equip");
+    Group("vehicle_foley");
+    Inherit("vehicle_foley_template");
+    SampleList()
+    {
+        Sample("wpn_vehicle_weaponEquip", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("turret_whir_pitch_lp");
+    Inherit("turret_template");
+    Looping(1);
+    SampleList()
+    {
+      Sample("wpn_intrcptTnk_trtPtch_lp", 1.0);
+
+    }
+}
+
+SoundProperties()
+{
+    Name("turret_whir_yaw_lp");
+    Inherit("turret_template");
+    Looping(1);
+    SampleList()
+    {
+      Sample("wpn_intrcptTnk_trtYaw_lp", 1.0);
+
+    }
+}
+// ---Turrets Common Stop ---
+
+// ---Mounted Turret Start ---
+
+SoundProperties()
+{
+    Name("com_weap_turret_fire_mini");
+    Group("veh_weapon");
+    Inherit("veh_weapon_template");
+    Pitch(1.0);
+    SampleList()
+    {
+        Sample("wpn_gunship_blaster_fire", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("com_weap_turret_fire_small");
+    Group("veh_weapon");
+    Inherit("veh_weapon_template");
+    SampleList()
+    {
+        Sample("com_weap_turret_fire_small", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("com_weap_turret_fire_big");
+    Group("tur_weapons");
+    Inherit("veh_weapon_template");
+    SampleList()
+    {
+        Sample("wpn_IFT_blaster_fire", 1.0);
+    }
+}
+SoundProperties()
+{
+    Name("all_weap_turret_fire_big");
+    Group("tur_weapons");
+    Inherit("veh_weapon_template");
+    SampleList()
+    {
+        Sample("wpn_IFT_blaster_fire", 1.0);
+    }
+}
+SoundProperties()
+{
+    Name("imp_weap_turret_fire_big");
+    Group("tur_weapons");
+    Inherit("veh_weapon_template");
+    SampleList()
+    {
+        Sample("wpn_IFT_blaster_fire", 1.0);
+    }
+}
+
+
+SoundProperties()
+{
+    Name("com_weap_beam_fire");
+    Group("tur_weapons");
+    Inherit("veh_weapon_template");
+    Gain(1.0);
+    MinDistance(50);
+    RollOff(1.0);
+    SampleList()
+    {
+        Sample("wpn_gunship_laser_fire", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("com_weap_beam_loop");
+    Group("tur_weapons");
+    Inherit("veh_weapon_template");
+    MinDistance(45);  
+    Rolloff(1.0)
+    Pitch(1.2);
+    PitchDev(0.05);
+    SampleList()
+    {
+        Sample("wpn_gunship_laser_lp", 1.0);
+    }
+}
+
+
+
+SoundProperties()
+{
+    Name("com_weap_ground_beam_fire");
+    Group("tur_weapons");
+    Inherit("veh_weapon_template");
+    RollOff(1.0);
+    SampleList()
+    {
+        Sample("wpn_gunship_laser_fire", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("com_weap_ground_beam_loop");
+    Group("tur_weapons");
+    Inherit("veh_weapon_template");
+    Rolloff(1.0)
+    Pitch(1.2);
+    PitchDev(0.05);
+    SampleList()
+    {
+        Sample("wpn_gunship_laser_lp", 1.0);
+    }
+}
+
+
+SoundProperties()
+{
+    Name("com_weap_turret_fire_torpedo");
+    Group("tur_weapons");
+    Inherit("veh_weapon_template");
+    SampleList()
+    {
+        Sample("wpn_ywing_torpedo_fire", 1.0);
+    }
+}
+
+
+
+
+// ---Mounted Turret End ---
+
+
+// Common SHields
+
+//SoundProperties()
+//{
+//    Name("com_shield_hum");
+//    Group("unit_weapon");
+//    Inherit("weapon_template");
+//    Gain(1.0);
+//    RandomPlayPos(1);
+//    PitchDev(0.1);
+//    Looping(1);
+//    MinDistance(20.0);
+//    MuteDistance(50.0);
+//    MaxDistance(50.0);
+//    SampleList()
+//    {
+//      Sample("saber_idle02", 1.0);
+//    }
+//}
+
+
+SoundProperties()
+{
+    Name("shield_impact_small");
+    Group("Ordnance");
+    Inherit("impact_template");
+    Gain(0.6);
+    MinDistance(10.0);
+    MuteDistance(60.0);
+    MaxDistance(60.0);
+    RollOff(3.0);
+    Mode3D(1);
+    Priority(0.8);
+    SampleList()
+    {
+        Sample("imp_ord_shield01", 1.0); //
+        Sample("imp_ord_shield02", 1.0);
+        Sample("imp_ord_shield03", 1.0);
+        Sample("imp_ord_shield04", 1.0);
+   }
+}
+
+SoundProperties()
+{
+    Name("shield_impact_large");
+    Group("explosion");
+    Inherit("explosion_template");
+    MinDistance(15)
+    Rolloff(3.0);
+    SampleList()
+    {
+        Sample("imp_ord_shield01", 1.0); //
+        Sample("imp_ord_shield02", 1.0);
+        Sample("imp_ord_shield03", 1.0);
+        Sample("imp_ord_shield04", 1.0);
+   }
+}
+
+
+// ----- Common Weapons -----------
+// Fusioncutter
+
+SoundProperties()
+{
+    Name("com_weap_inf_fusioncutter_fire");
+    Group("unit_weapon");
+    Inherit("weapon_template");
+    Gain(1.0);
+    RandomPlayPos(1);
+    PitchDev(0.1);
+    Looping(1);
+    MinDistance(10.0);
+    MuteDistance(50.0);
+    MaxDistance(50.0);
+    SampleList()
+    {
+      Sample("wpn_fusionCutter_lp", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("com_weap_inf_rocket_launcher_tracking");
+    Group("weapons_foley");
+    Inherit("body_movement_template");
+    Pitch(1.5)
+    looping (1);
+    SampleList()
+    {
+        Sample("com_tracking_loop", 1.0);
+    }
+}
+
+
+// Sticky Objects
+SoundProperties()
+{
+    Name("com_sticky_stick");
+    Group("unit_weapon");
+    Inherit("weapon_template");
+    MinDIstance(6);
+    MaxDistance(50);
+    MuteDistance(50);
+    Rolloff(2.0);
+    Pitch (0.7);
+    PitchDev(0.0)
+    #ifplatform pc
+    Gain(0.5);
+    #endifplatform pc
+    #ifplatform xbox ps2
+    Gain(0.3);
+    #endifplatform xbox ps2
+    SampleList()
+    {
+        Sample("wpn_snowSpder_towCable_att", 1.0);
+    }
+}
+
+
+//Landmine
+
+SoundProperties()
+{
+    Name("com_weap_mine_activate_beep");
+    Group("unit_weapon");
+    Inherit("weapon_template");
+    MaxDistance(50);
+    MuteDistance(50);
+    Rolloff(2.0);
+    Pitch (0.7);
+    PitchDev(0.0)
+    #ifplatform pc
+    Gain(1.0);
+    #endifplatform pc
+    #ifplatform xbox ps2
+    Gain(0.6);
+    #endifplatform xbox ps2    
+    SampleList()
+    {
+        Sample("wpn_energyRecharge", 1.0);
+    }
+}
+
+//SoundProperties()
+//{
+//    Name("com_weap_mine_land_thump")
+//    Group("body_movement");
+//    Inherit("body_movement_template");
+//    SampleList()
+//    {
+//        Sample("mvt_trooper_land_dirt", 1.0);
+//    }
+//}
+
+
+SoundLayered()
+{
+    Name("com_weap_mine_land");
+    Layer("null", "com_weap_mine_activate_beep", 0.6);
+//    Layer("null", "com_weap_mine_land_thump", 0.3); 
+}
+
+
+
+
+SoundProperties()
+{
+    Name("com_weap_mine_exp");
+    Group("infantry_explosion");
+    Inherit("explosion_template");
+    SampleList()
+    {
+        Sample("exp_sub01", 0.167);
+        Sample("exp_sub02", 0.167);
+        Sample("exp_sub03", 0.167);
+        Sample("exp_sub05", 0.167);
+        Sample("exp_sub06", 0.167);
+        Sample("exp_sub07", 0.167);
+        Sample("exp_sub08", 0.167);
+    }
+}
+
+SoundProperties()
+{
+    Name("com_weap_mine_expire"); // rocket explosion near
+    Group("Explosion");
+    Inherit("explosion_template");
+    MinDistance(1.0)
+    MaxDistance(30)
+    MuteDIstance(30)
+    RollOff(1.0)
+    SampleList()
+    {
+      Sample("mousebot_explo", 0.167);
+    }
+}
+
+
+// General Charge Weapons
+
+// Only used on Hoth Dish Turret
+//SoundProperties()
+//{
+//    Name("com_weap_charge");
+//    Group("unit_weapon");
+//    Inherit("weapon_template");
+//    Pitch(1.3);
+//    Rolloff(5.0);
+//    Looping(1);
+//    SampleList()
+//    {
+//        Sample("wpn_rep_arccaster_fire", 1.0);
+//    }
+//}
+
+SoundProperties()
+{
+    Name("com_weap_energy_depleted");
+    Group("unit_weapon");
+    Inherit("weapon_template");
+    Gain(0.3);
+    Rolloff(5.0);
+    Looping(1);
+    Pitch(1.0);
+    SampleList()
+    {
+        Sample("wpn_energyDepleted", 1.0);
+    }
+}
+
+
+
+SoundProperties()
+{
+    Name("com_weap_vehicle_energy_depleted");
+    Group("unit_weapon");
+    Inherit("weapon_template");
+    Gain(0.3);
+    Rolloff(5.0);
+    looping(1);
+    Pitch(1.0);
+    SampleList()
+    {
+        Sample("wpn_energyDepleted", 1.0);
+    }
+}
+
+//SoundProperties()
+//{
+//    Name("com_weap_vehicle_energy_refilled");
+//    Group("unit_weapon");
+//    Inherit("weapon_template");
+//    Rolloff(5.0);
+//    Gain(0.3);
+//    Pitch(1.0);
+//    SampleList()
+//    {
+//        Sample("wpn_energyRecharge", 1.0);
+//    }
+//}
+
+
+//Timebomb
+SoundProperties()
+{
+    Name("com_weap_remote_charge_fire");
+    Group("unit_weapon");
+    Inherit("weapon_template");
+    Rolloff(5.0);
+    SampleList()
+    {
+       // Sample("wpn_energydepleted", 1.0);
+               Sample("wpn_timebomb_set", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("com_weap_timebomb_fire");
+    Group("unit_weapon");
+    Inherit("weapon_template");
+    Rolloff(5.0);
+    SampleList()
+    {
+        Sample("wpn_timebomb_set", 1.0);
+    }
+}
+
+
+
+SoundProperties()
+{
+    Name("com_weap_inf_timebomb_timer");
+    Group("weapons_foley");
+    Inherit("body_movement_template");
+    Rolloff(2.0);
+    SampleList()
+    {
+        //Sample("wpn_haywireGrenadeArm", 1.0);
+         Sample("wpn_timebomb_set", 1.0);
+
+    }
+}
+
+SoundProperties()
+{
+    Name("timer_countdown");
+    Group("weapons_foley");
+    Inherit("body_movement_template");
+    looping (1);
+    Pitch(3.5);
+    SampleList()
+    {
+       // Sample("ui_load_lp", 1.0);
+        Sample("wpn_timebomb_set", 1.0);
+
+    }
+}
+SoundProperties()
+{
+    Name("com_weap_inf_remotedroid_fire");
+    Group("unit_weapon");
+    Inherit("weapon_template");
+    Rolloff(5.0);
+    SampleList()
+    {
+        Sample("wpn_reconDroid_Launch", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("com_inf_disintegrate");
+    Group("unit_weapon");
+    Inherit("ordnance_template");
+    Gain(1.0);
+    Looping(0);
+    Rolloff(1.0);
+    SampleList()
+    {
+        Sample("disintegrate", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("com_weap_inf_incinerator_fire");
+    Group("weapons");
+    Inherit("weapon_template");
+    Pitch(0.8);
+    Gain(0.4);
+    SampleList()
+    {
+        Sample("rep_inf_jetpack", 1.0);
+    }
+}
+
+
+
+
+// ----- Out of Ammo ----------
+
+SoundProperties()
+{
+    Name("com_weap_inf_ammo_empty");
+    Group("unit_weapon");
+    Inherit("body_movement_template");
+    Gain(1.0);
+    SampleList()
+    {
+        Sample("ifc_NoAmmo", 1.0);
+    }
+}
+
+// ----- Common Weapon Fire Empty -----
+
+SoundProperties()
+{
+    Name("com_weap_inf_weapon_empty");
+    Group("weapons_foley");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("ifc_NoAmmo", 1.0);
+    }
+}
+
+
+
+// ----- Common Ordnance -----
+
+// ----- Ordnance Hums -----
+
+SoundProperties()
+{
+    Name("com_weap_inf_ord_hum_sm"); // standard blaster ordnance hum
+    Group("Ordnance");
+    Inherit("ordnance_template");
+    SampleList()
+    {
+        Sample("ammo_blaster_lp01", 0.5);
+        Sample("ammo_blaster_lp04", 0.5);
+    }
+}
+
+SoundProperties()
+{
+    Name("com_weap_inf_ord_hum_lg"); // turret blaster ordnance hum
+    Group("Ordnance_large");
+    Inherit("ordnance_template");
+    Pitch(0.8);
+    MinDistance(4.0);
+    MuteDistance(60.0);
+    MaxDistance(60.0);
+    ModeDoppler(1);
+    RollOff(5.0);
+    SampleList()
+    {
+        Sample("ammo_blaster_lp02", 0.5);
+        Sample("ammo_blaster_lp03", 0.5);
+    }
+}
+
+
+//SoundProperties()
+//{
+//    Name("com_weap_inf_ord_hum_torpedo"); // torpedo ordnance hum
+//      Group("Ordnance");
+//  Inherit("ordnance_template");
+//  SampleList()
+//    {
+//      Sample("ammo_torpedo_lp01", 0.25);
+//      Sample("ammo_torpedo_lp02", 0.25);
+//      Sample("ammo_torpedo_lp03", 0.25);
+//      Sample("ammo_torpedo_lp04", 0.25);
+//    }
+//}
+
+SoundProperties()
+{
+    Name("com_weap_inf_ord_hum_rocket"); // missle-rocket ordnance
+    Group("Ordnance_large");
+    Inherit("ordnance_template");
+    Gain(1.0);
+    Rolloff(1.5);
+    MinDistance(10.0);
+    MaxDistance(50.0);
+    MuteDistance(50.0);
+    SampleList()
+    {
+        Sample("ammo_rocket_lp02", 0.25);
+        Sample("ammo_rocket_lp03", 0.25);
+        Sample("ammo_rocket_lp05", 0.25);
+        Sample("ammo_rocket_lp06", 0.25);
+    }
+}
+
+// ----- Common Ordnance Impacts -----
+
+// ----- Laser Impacts -----
+
+SoundProperties()
+{
+    Name("imp_weap_ord_exp");
+    Group("Ordnance");
+    Inherit("impact_template");
+    Gain(0.6);
+    MinDistance(10.0);
+    MuteDistance(60.0);
+    MaxDistance(60.0);
+    RollOff(3.0);
+    Mode3D(1);
+    Priority(0.8);
+    SampleList()
+    {
+        Sample("imp_laser_dirt_07", 0.048); //
+        Sample("imp_laser_dirt_09", 0.048);
+        Sample("imp_laser_metal_02", 0.048);
+        Sample("imp_laser_metal_03", 0.048);
+        Sample("imp_laser_metal_05", 0.048);
+        Sample("imp_laser_metal_06", 0.048);
+        Sample("imp_laser_metal_07", 0.048);
+        Sample("imp_laser_metal_08", 0.048);
+        Sample("imp_laser_metal_09", 0.048);
+        Sample("imp_laser_metal_16", 0.048);
+        Sample("imp_laser_metal_18", 0.048);
+        Sample("imp_laser_metal_21", 0.048);
+        Sample("imp_laser_stone_03", 0.048);
+        Sample("imp_laser_stone_04", 0.048);
+        Sample("imp_laser_stone_05", 0.048);
+        Sample("imp_ricco_02", 0.048);
+        Sample("imp_ricco_03", 0.048);
+        Sample("imp_ricco_04", 0.048);
+        Sample("imp_ricco_06", 0.048);
+        Sample("imp_ricco_08", 0.048);
+        Sample("imp_ricco_12", 0.048);
+    }
+}
+
+
+
+
+// ----- Rocket and Torpedo Explosions -applies to all of missile class -----
+
+SoundProperties()
+{
+    Name("com_weap_rocket_small_exp"); // rocket explosion near
+    Group("Explosion");
+    Inherit("explosion_template");
+    MinDistance(40.0)
+    RollOff(4.0)
+    SpaceDistance(4);
+    SampleList()
+    {
+      Sample("exp_ord_rocket_med01", 0.167);
+      Sample("exp_ord_rocket_med02", 0.167);
+      Sample("exp_ord_rocket_med03", 0.167);
+      Sample("exp_ord_rocket_large01", 0.167);
+      Sample("exp_ord_rocket_large02", 0.167);
+      Sample("exp_ord_rocket_large03", 0.167);
+    }
+}
+
+SoundProperties()
+{
+    Name("mace_quake_exp"); // rocket explosion near
+    Group("Explosion");
+    Inherit("explosion_template");
+    MinDistance(25.0)
+    RollOff(2.0)
+    SpaceDistance(4);
+    SampleList()
+    {
+      Sample("exp_ord_rocket_med02", 0.167);
+      Sample("exp_ord_rocket_med03", 0.167);
+      Sample("exp_ord_rocket_large01", 0.167);
+    }
+}
+
+// ------------------ GRENADES ----------------------------------------
+
+// Throw Grenade
+
+SoundProperties()
+{
+    Name("com_weap_throw");
+    Group("unit_weapon");
+    Inherit("weapon_template");
+    Gain(0.9)
+    PitchDev(0.1);
+    Rolloff(3.0);
+    MinDistance(6.0);
+    MuteDistance(30.0);
+    MaxDistance(30.0);
+    SampleList()
+    {
+        Sample("wpn_throw01", 0.2);
+        Sample("wpn_throw02", 0.2);
+        Sample("wpn_throw03", 0.2);
+        Sample("wpn_throw04", 0.2);
+        Sample("wpn_throw05", 0.2);
+    }
+}
+
+SoundProperties()
+{
+    Name("com_weap_melee_swing");
+    Group("unit_weapon");
+    Inherit("weapon_template");
+    Gain(1.0)
+    PitchDev(0.1);
+    Rolloff(1.0);
+    MinDistance(15.0);
+    MuteDistance(30.0);
+    MaxDistance(30.0);
+    SampleList()
+    {
+        Sample("wpn_throw01", 0.2);
+        Sample("wpn_throw02", 0.2);
+        Sample("wpn_throw03", 0.2);
+        Sample("wpn_throw04", 0.2);
+        Sample("wpn_throw05", 0.2);
+    }
+}
+
+
+
+// ----- Bounce -----
+
+SoundProperties()
+{
+    Name("com_weap_inf_grenade_bounce"); // grenade ordnance bounce
+    Group("Ordnance");
+    Inherit("ordnance_template");
+    Pitch(0.7);
+    Gain(0.5);
+    Looping(0);
+    Rolloff(3.0);
+    MinDistance(20.0);
+    MuteDistance(70.0);
+    MaxDistance(70.0);
+    SampleList()
+    {
+        Sample("imp_grenade_dirt_01",  1.0);
+        Sample("imp_grenade_dirt_03",  1.0);
+        Sample("imp_grenade_dirt_04",  1.0);
+        Sample("imp_grenade_stone_01", 1.0);
+        Sample("imp_grenade_stone_03", 1.0);
+        Sample("imp_grenade_stone_04", 1.0);
+        Sample("imp_grenade_wood_03b", 1.0);
+    }
+}
+
+
+SoundProperties()
+{
+    Name("com_weap_inf_rock_bounce"); // grenade ordnance bounce
+    Group("Ordnance");
+    Inherit("ordnance_template");
+    Pitch(0.7);
+    Gain(0.5);
+    Looping(0);
+    Rolloff(3.0);
+    MinDistance(20.0);
+    MuteDistance(70.0);
+    MaxDistance(70.0);
+    SampleList()
+    {
+        Sample("imp_grenade_dirt_01",  1.0);
+        Sample("imp_grenade_dirt_03",  1.0);
+        Sample("imp_grenade_dirt_04",  1.0);
+    }
+}
+// Charge-arm Grenade
+
+
+
+
+/// Vehicle Damage / Sparks
+
+/Fusioncutter and vehicle damage sparks
+
+SoundProperties()
+{
+    Name("com_amb_sparka");
+    Inherit("props_template");
+    Gain(0.8);
+    RandomPlayPos(1);
+    Pitch(2.0);
+    PitchDev(0.0);
+    Looping(1);
+    MinDistance(10.0);
+    MuteDistance(50.0);
+    MaxDistance(50.0);
+    RollOff(1.0);
+    SampleList()
+    {
+      Sample("wpn_fusionCutter_lp", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("com_amb_sparkb");
+    Inherit("props_template");
+    Gain(0.8);
+    RandomPlayPos(1);
+    Pitch(0.7);
+    PitchDev(0.0);
+    Looping(1);
+    MinDistance(10.0);
+    MuteDistance(50.0);
+    MaxDistance(50.0);
+    RollOff(1.0);
+    SampleList()
+    {
+      Sample("wpn_fusionCutter_lp", 1.0);
+    }
+}
+
+
+SoundProperties()
+{
+    Name("com_amb_spark_c");
+    Inherit("props_template");
+    Gain(0.8);
+    Pitch(0.7);
+    PitchDev(0.0);
+    MinDistance(10.0);
+    MuteDistance(50.0);
+    MaxDistance(50.0);
+    RollOff(1.0);
+    SampleList()
+    {
+      Sample("wpn_fusionCutter_lp", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("ball_sparks");
+    Group("prop");
+    Inherit("props_template");
+    Gain(0.7);
+    RandomPlayPos(1);
+    Pitch(0.9);
+    PitchDev(0.1);
+    Looping(1);
+    MinDistance(6.0);
+    MuteDistance(50.0);
+    MaxDistance(50.0);
+    SampleList()
+    {
+      Sample("lightning_small", 1.0);
+      Sample("lightning_med", 1.0);
+      Sample("lightning_large", 1.0);
+
+    }
+}
+
+
+SoundProperties()
+{
+    Name("ball_sparks_large");
+    Group("prop");
+    Inherit("props_template");
+    Gain(0.9);
+    RandomPlayPos(1);
+    Pitch(0.8);
+    PitchDev(0.1);
+    Looping(1);
+    MinDistance(20.0);
+    MuteDistance(50.0);
+    MaxDistance(50.0);
+    SampleList()
+    {
+      Sample("lightning_small", 1.0);
+      Sample("lightning_med", 1.0);
+      Sample("lightning_large", 1.0);
+
+    }
+}
+
+// ----- Crack Grenade Explosion -----
+
+SoundProperties()
+{
+    Name("com_weap_inf_conc_grenade_exp_high"); // crack-concussion grenade near
+    Group("Explosion");
+    Inherit("explosion_template");
+    MinDistance(20.0)
+    SpaceDistance(15);
+    RollOff(3.0)
+    Gain(0.7)
+    SampleList()
+    {
+      Sample("exp_ord_grenade01", 1.0);
+      Sample("exp_ord_grenade02", 1.0);
+      Sample("exp_ord_grenade03", 1.0);
+      Sample("exp_ord_rocket_small01", 1.0);
+      Sample("exp_ord_rocket_small02", 1.0);
+      Sample("exp_ord_rocket_small03", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("com_weap_inf_conc_grenade_exp_low"); // small explosion large distance
+    Group("Explosion");
+    Inherit("explosion_template");
+    MinDistance(40.0)
+    RollOff(6.0)
+    SampleList()
+    {
+        Sample("exp_verydistant_medium01", 0.5);
+        Sample("exp_verydistant_medium02", 0.5);
+    }
+}
+
+
+SoundLayered()
+{
+    Name("com_weap_inf_conc_grenade_exp");
+    Layer("high", "com_weap_inf_conc_grenade_exp_high", 0.0, 0.0);
+    Layer("high_delay", "com_weap_inf_conc_grenade_exp_high", 0.1, 0.0);
+    Layer("low",  "com_weap_inf_conc_grenade_exp_low", 0.0);
+}
+
+
+
+// ----- Ordnance Explosion -----
+
+//SoundProperties()
+//{
+//    Name("com_weap_inf_ordnance_exp_high"); // crack-concussion ordnance near
+//    Group("Explosion");
+//    Inherit("explosion_template");
+//    MinDistance(30.0)
+//    RollOff(6.0)
+//    Gain(0.6)
+//    SampleList()
+//    {
+//      Sample("exp_ord_grenade01", 0.167);
+//      Sample("exp_ord_grenade02", 0.167);
+//      Sample("exp_ord_grenade03", 0.167);
+//      Sample("exp_ord_rocket_small01", 0.167);
+//    }
+//}
+
+//SoundProperties()
+//{
+//    Name("com_weap_inf_ordnance_exp_low"); // small explosion large distance
+//    Group("Explosion");
+//    Inherit("explosion_template");
+//    MinDistance(40.0)
+//    RollOff(6.0)
+//    Gain(0.6)
+//    SampleList()
+//    {
+//        Sample("exp_verydistant_medium01", 0.5);
+//        Sample("exp_verydistant_medium02", 0.5);
+//    }
+//}
+
+
+//SoundLayered()
+//{
+//    Name("com_weap_inf_ordnance_exp");
+//    Layer("high", "com_weap_inf_ordnance_exp_high", 0.0, 0.0);
+//    Layer("high_delay", "com_weap_inf_ordnance_exp_high", 0.1, 0.0);
+//    Layer("high_delay_delay", "com_weap_inf_ordnance_exp_high", 0.2, 0.0);
+//    Layer("low",  "com_weap_inf_ordnance_exp_low", 0.0);
+//}
+
+
+
+
+SoundProperties()
+{
+    Name("com_weap_inf_gas_exp"); // Haywire explosion near
+    Group("Explosion");
+    Inherit("explosion_template");
+    MinDistance(40.0)
+    RollOff(6.0)
+    SpaceDistance(15);
+    SampleList()
+    {
+      Sample("com_weap_inf_gas_exp", 1.0);
+    }
+}
+// ----- Haywire Grenade Explosion -----
+
+//used by rep cis and gungan units
+SoundProperties()
+{
+    Name("com_weap_inf_haywire_exp"); // Haywire explosion near
+    Group("Explosion");
+    Inherit("explosion_template");
+    MinDistance(40.0)
+    RollOff(6.0)
+    SpaceDistance(15);
+    SampleList()
+    {
+      Sample("exp_ord_haywireGrenade", 1.0);
+    }
+}
+
+// ----- Thermal Detonator Explosion -----
+
+SoundProperties()
+{
+    Name("com_weap_thermaldetonator_exp"); // thermal detonator explosion near
+    Group("Explosion");
+    Inherit("explosion_template");
+    MinDistance(40.0)
+    RollOff(6.0)
+    SpaceDistance(15);
+    SampleList()
+    {
+      Sample("exp_ord_thermalDetonator01", 0.5);
+      Sample("exp_ord_thermalDetonator02", 0.5);
+    }
+}
+
+// Detpack Explosion
+SoundLayered()
+{
+    Name("com_weap_detpack_exp");
+    Layer("high", "com_weap_inf_conc_grenade_exp_high", 0.0, 0.0);
+    Layer("high_delay", "com_weap_inf_conc_grenade_exp_high", 0.1, 0.0);
+    Layer("low2",  "com_weap_inf_conc_grenade_exp_low", 0.0);
+    Layer("low", "com_weap_thermaldetonator_exp", 0.0, 0.0);
+}
+
+
+// ----End Explosions --------------------------------------
+
+// Vehicle Collision ---------------------------------------
+SoundProperties()
+{
+    Name("com_veh_collision_lg");
+    Group("Collision");
+    Pitch(0.8);
+    PitchDev(0.1);
+    Gain(0.6);
+    GainDev(0.05);
+    ReverbGain(1.0);
+    Bus("soundfx");
+    Looping(0);
+    Pan(0.0);
+    MinDistance(30.0);
+    MuteDistance(100.0);
+    MaxDistance(100.0);
+    RollOff(5.0);
+    Mode3D(1);
+    Bias(0.0001);
+    Priority(0.7);
+    PlayInterval(0.1);
+    SampleList()
+    {
+      Sample("exp_debris_metal_med03", 0.2);
+      Sample("exp_debris_metal_med02", 0.2);
+      Sample("exp_debris_metal_large01", 0.2);
+      Sample("exp_debris_metal_small01", 0.2);
+      Sample("exp_debris_metal_small03", 0.2);
+    }
+}
+
+SoundProperties()
+{
+    Name("com_veh_collision_sm");
+    Group("Collision");
+    Pitch(2.0);
+    PitchDev(0.1);
+    Gain(0.4);
+    GainDev(0.0);
+    ReverbGain(1.0);
+    Bus("soundfx");
+    Looping(0);
+    Pan(0.0);
+    MinDistance(9.0);
+    MuteDistance(50.0);
+    MaxDistance(50.0);
+    RollOff(4.0);
+    Mode3D(1);
+    Bias(0.0001);
+    Priority(0.7);
+    SampleList()
+    {
+      Sample("exp_debris_metal_med03", 0.2);
+      Sample("exp_debris_metal_med02", 0.2);
+      Sample("exp_debris_metal_large01", 0.2);
+      Sample("exp_debris_metal_small01", 0.2);
+      Sample("exp_debris_metal_small03", 0.2);
+    }
+}
+//----------------------------------------------------------
+
+
+// ---- Fire-Flames ---------------------------------
+
+SoundProperties()
+{
+    Name("com_amb_fire"); // Fire torch loop
+    Group("Props");
+    Inherit("props_template");
+    Pitch(1.5);
+    Looping(1);
+    Gain(0.8);
+    RandomPlayPos(1);
+    RollOff(1.0);
+    MinDistance(8.0);
+    MuteDistance(25.0);
+    MaxDistance(25.0);
+    SampleList()
+    {
+        Sample("emt_torch_lp", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("com_amb_fire_large"); // Fire torch loop
+    Group("Props");
+    Inherit("props_template");
+    Looping(1);
+    Gain(1);
+    RandomPlayPos(1);
+    RollOff(1.0);
+    MinDistance(15.0);
+    MuteDistance(50.0);
+    MaxDistance(50.0);
+    SampleList()
+    {
+        Sample("emt_torch_lp", 1.0);
+    }
+}
+
+
+SoundProperties()
+{
+    Name("com_amb_steam"); // steam jet loop
+    Group("Props");
+    Inherit("props_template");
+    Looping(1);
+    RandomPlayPos(1);
+    RollOff(10.0);
+    Gain(0.2);
+    SampleList()
+    {
+        Sample("emt_steam_lp", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("com_amb_steam_slow"); // steam jet loop low pitch
+    Group("Props");
+    Inherit("props_template");
+    Looping(1);
+    RandomPlayPos(1);
+    Pitch(0.5);
+    RollOff(10.0);
+    SampleList()
+    {
+        Sample("emt_steam_lp", 1.0);
+    }
+}
+
+
+
+SoundProperties()
+{
+    Name("control_panel_a");
+    Group("ambientenv");
+    Inherit("ambientemt_static_template");
+    Looping(1);
+    SampleList()
+    {
+        Sample("emt_telemetry_temple_lp01", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("control_panel_b");
+    Group("ambientenv");
+    Inherit("ambientemt_static_template");
+    Looping(1);
+    SampleList()
+    {
+        Sample("emt_telemetry_temple_lp02", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("control_panel_c");
+    Group("ambientenv");
+    Inherit("ambientemt_static_template");
+    Looping(1);
+    SampleList()
+    {
+        Sample("emt_antennaTelemetry_lp01", 1.0);
+    }
+}
+
+// Neon Lights and Buzzing Objects 
+
+SoundProperties()
+{
+    Name("neon_buzz_low");
+    Group("Ordnance");
+    Inherit("ordnance_template");
+    #ifplatform xbox ps2
+    Gain(0.2);
+    #endifplatform xbox ps2
+    #ifplatform pc
+    Gain(.3)
+    #endifplatform pc
+    Pitch(0.3)
+    MinDistance(8)
+    Rolloff(1)
+    SampleList()
+    {
+        Sample("ammo_blaster_lp01", 1.0);
+    }
+}
+
+
+SoundProperties()
+{
+    Name("neon_buzz");
+    Group("Ordnance");
+    Inherit("ordnance_template");
+    #ifplatform xbox ps2
+    Gain(0.2);
+    #endifplatform xbox ps2
+    #ifplatform pc
+    Gain(.3)
+    #endifplatform pc
+    Pitch(0.5)
+    MinDistance(8)
+    Rolloff(1)
+    SampleList()
+    {
+        Sample("ammo_blaster_lp01", 1.0);
+    }
+}
+
+// CP ------------------------------------------------------
+
+SoundProperties()
+{
+    Name("com_blg_commandpost_goodie");
+    Inherit("commandpost_amb_template");
+    SampleList()
+    {
+        Sample("com_blg_commandpost1", 0.5);
+        Sample("com_blg_commandpost3", 0.5);
+        //Sample("fullScale1KSinWave", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("com_blg_commandpost_baddie");
+    Inherit("commandpost_amb_template");
+    SampleList()
+    {
+        Sample("com_blg_commandpost2", 1.0);
+         //               Sample("fullScale1KSinWave", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("com_blg_commandpost_capture");
+    Inherit("commandpost_capturelost");
+    SampleList()
+    {
+        Sample("com_blg_commandpost_capture", 1.0);
+        //                Sample("fullScale1KSinWave", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("com_blg_commandpost_lost");
+    Inherit("commandpost_capturelost");
+    SampleList()
+    {
+        Sample("com_blg_commandpost_lost", 1.0);
+                     //      Sample("fullScale1KSinWave", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("com_blg_commandpost_charge");
+    Inherit("commandpost_capturelost");
+    Gain(0.3);
+    Looping(1);
+    SampleList()
+    {
+        Sample("com_blg_commandpost_charge", 1.0);
+                        //Sample("fullScale1KSinWave", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("com_blg_commandpost_discharge");
+    Inherit("commandpost_capturelost");
+    Gain(0.3);
+    Looping(1);
+    SampleList()
+    {
+        Sample("com_blg_commandpost_discharge", 1.0);
+                     //   Sample("fullScale1KSinWave", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("com_blg_commandpost_dispute");
+    Inherit("commandpost_capturelost");
+    Gain(0.3);
+    Looping(1);
+    SampleList()
+    {
+        Sample("com_blg_commandpost_dispute", 1.0);
+                        //Sample("fullScale1KSinWave", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("post_hum");
+    Group("ambientenv");
+    Inherit("ambientemt_static_template");
+    Pitch(0.75)
+    PitchDev(0.05)
+    Looping(1);
+    Gain(0.3);
+    SampleList()
+    {
+        Sample("com_blg_commandpost1", 1.0);
+    }
+}
+
+
+// Recon Droid -----------------------------------------------------------------
+
+SoundProperties()
+{
+    Name("remotedroid_engine_lp");
+    Pitch(1.0);
+    PitchDev(0.00);
+    Gain(0.1);
+    GainDev(0.0);
+    ReverbGain(1.0);
+    Bus("soundfx");
+    Looping(1);
+    Pan(0.0);
+    MinDistance(6.0);
+    MuteDistance(50.0);
+    MaxDistance(50.0);
+    RollOff(2.0);
+    Mode3D(1);
+    Bias(0.0001);
+    Priority(0.7);
+    SampleList()
+    {
+    Sample("droid_probe_eng_lp", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("remotedroid_radio"); // radio report layer
+    Pitch(1.0);
+    PitchDev(0.00);
+    Gain(0.2);
+    GainDev(0.0);
+    ReverbGain(1.0);
+    Bus("soundfx");
+    Looping(0);
+    Pan(0.0);
+    MinDistance(6.0);
+    MuteDistance(50.0);
+    MaxDistance(50.0);
+    RollOff(3.0);
+    Mode3D(1);
+    Bias(0.0001);
+    Priority(0.7);
+    PlayInterval(5.0);
+    SampleList()
+    {
+    Sample("droid_probe_beeps_01", 0.2);
+    Sample("droid_probe_beeps_02", 0.2);
+    Sample("droid_probe_beeps_03", 0.2);
+    Sample("droid_probe_beeps_04", 0.2);
+    Sample("droid_probe_beeps_05", 0.2);
+    }
+}
+
+// Jetpack Engine start------------------------------------------------------------
+SoundProperties()
+{
+    Name("rep_weap_jetpack_turnon");
+    Pitch(1.1);
+    PitchDev(0.1);
+    Gain(0.7);
+    GainDev(0.05);
+    ReverbGain(1.0);
+    Bus("soundfx");
+    Looping(0);
+    Pan(0.0);
+    MinDistance(10.0);
+    MuteDistance(50.0);
+    MaxDistance(50.0);
+    RollOff(2.0);
+    Mode3D(1);
+    Bias(0.0001);
+    Priority(0.9);
+    SampleList()
+    {
+        Sample("rep_weap_jetpack_turnon", 1.0);
+    }
+}
+SoundProperties()
+{
+    Name("rep_weap_jetpack_turnoff");
+    Pitch(1.1);
+    PitchDev(0.1);
+    Gain(0.6);
+    GainDev(0.05);
+    ReverbGain(1.0);
+    Bus("soundfx");
+    Looping(0);
+    Pan(0.0);
+    MinDistance(10.0);
+    MuteDistance(50.0);
+    MaxDistance(50.0);
+    RollOff(2.0);
+    Mode3D(1);
+    Bias(0.0001);
+    Priority(0.8);
+    SampleList()
+    {
+        Sample("rep_weap_jetpack_turnoff", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("rep_inf_Jetpack_engine_parameterized");
+    Pitch(1.0);
+    PitchDev(0.1);
+    Gain(0.7);
+    GainDev(0.1);
+    ReverbGain(1.0);
+    Bus("soundfx");
+    Looping(1);
+    Pan(0.0);
+    MinDistance(10.0);
+    MuteDistance(100.0);
+    MaxDistance(100.0);
+    RollOff(2.0);
+    Mode3D(1);
+    Bias(0.0001);
+    Priority(0.8);
+    SampleList()
+    {
+      Sample("rep_inf_jetpack", 1.0);
+
+    }
+}
+
+ParameterGraph()
+{
+        Name("Jetpackengine_speed");
+        ControlPoint(0.0, 0.9);
+         ControlPoint(1.0, 1.0);
+}
+
+ParameterGraph()
+{
+    Name("Jetpackengine_acceleration");
+        ControlPoint(-0.1, 0.5);
+        ControlPoint(0.0, 0.4);
+        ControlPoint(0.1, 0.5);
+        ControlPoint(0.2, 0.6);
+        ControlPoint(0.4, 0.7);
+        ControlPoint(0.6, 0.8);
+        ControlPoint(0.8, 0.9);
+        ControlPoint(1.0, 1.0);
+}
+
+SoundLayered()
+{
+    Name("Jetpackengine_layered");
+    Layer("Jetpack_engine", "rep_inf_Jetpack_engine_parameterized", 0.0);
+}
+
+SoundParameterized()
+{
+    Name("rep_inf_Jetpack_engine_parameterized");
+    SoundLayered("Jetpackengine_layered");
+    Layer()
+    {
+        Name("Jetpack_engine");
+        ParameterGraph("speed",        "Jetpackengine_speed",        "pitch");
+        ParameterGraph("acceleration", "Jetpackengine_acceleration", "gain");
+    }
+}
+
+//Jetpack Engine End--------------------------------------------------------------
+
+// Guided Rocket -----------------------------------------------------------
+
+
+SoundProperties()
+{
+    Name("com_weap_rocket_launcher_fire");
+    Group("weapons");
+    Inherit("weapon_template");
+    SampleList()
+    {
+        Sample("com_weap_rocket_launcher_fire", 1.0);
+    }
+}
+
+
+
+SoundProperties()
+{
+    Name("rep_inf_grocket_engine_property");
+    Pitch(1.0);
+    PitchDev(0.1);
+    Gain(0.7);
+    GainDev(0.1);
+    ReverbGain(1.0);
+    Bus("soundfx");
+    Looping(1);
+    Pan(0.0);
+    MinDistance(25.0);
+    MuteDistance(200.0);
+    MaxDistance(200.0);
+    RollOff(2.0);
+    Mode3D(1);
+    Bias(0.0001);
+    Priority(0.8);
+    SampleList()
+    {
+      Sample("ammo_rocket_lp06", 1.0);
+
+    }
+}
+
+SoundProperties()
+{
+    Name("rep_inf_grocket_proximity_property");
+    Pitch(1.0);
+    PitchDev(0.0);
+    Gain(1.0);
+    GainDev(0.1);
+    ReverbGain(1.0);
+    Bus("soundfx");
+    Looping(1);
+    Pan(0.0);
+    MinDistance(30.0);
+    MuteDistance(100.0);
+    MaxDistance(100.0);
+    RollOff(1.0);
+    Mode3D(1);
+    Bias(0.0001);
+    Priority(0.8);
+    SampleList()
+    {
+      Sample("com_tracking_loop", 1.0);
+
+    }
+}
+
+
+ParameterGraph()
+{
+        Name("grocket_proximity");
+        ControlPoint(0.0, 0.0);
+        ControlPoint(1.0, 1.0);
+}
+ParameterGraph()
+{
+        Name("grocket_proximity_pitch");
+        ControlPoint(0.0, 0.8);
+        ControlPoint(1.0, 1.0);
+}
+
+SoundLayered()
+{
+    Name("grocketengine_layered");
+    Layer("grocket_engine_idle", "rep_inf_grocket_engine_property", 0.0);
+    Layer("grocket_proximity_idle", "rep_inf_grocket_proximity_property", 0.0);
+}
+
+SoundParameterized()
+{
+    Name("rep_inf_grocket_engine_parameterized");
+    SoundLayered("grocketengine_layered");
+    Layer()
+    {
+        Name("grocket_engine_idle");
+        ParameterGraph("speed",        "Jetpackengine_speed",        "pitch");
+        ParameterGraph("acceleration", "Jetpackengine_acceleration", "gain");
+    }
+    Layer()
+    {
+        Name("grocket_proximity_idle");
+        ParameterGraph("proximity", "grocket_proximity_pitch",    "pitch");
+        ParameterGraph("proximity", "grocket_proximity",    "gain");
+    }    
+}
+
+
+// Powerup Sounds ------------------------------------
+
+
+//SoundProperties()
+//{
+//    Name("com_weap_powerupdispenser_fire"); // powerup dispense sound
+//    Group("props");
+//    Inherit("props_template");
+//    Gain(0.65);
+//    SampleList()
+//    {
+//        Sample("wpn_powerDispenser", 1.0);
+//    }
+//}
+
+SoundProperties()
+{
+    Name("com_weap_powerup_pickup"); // power up pick up sound
+    Group("props");
+    Inherit("props_template");
+    Gain(1.0);
+    Rolloff(5.0);
+    SampleList()
+    {
+        Sample("wpn_powerDispense_pickUp", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("com_weap_ammo_pickup"); // ammo
+    Group("props");
+    Inherit("props_template");
+    Gain(1.0);
+    Rolloff(5.0);
+    SampleList()
+    {
+        Sample("wpn_powerDispense_pickUp", 1.0);
+    }
+}
+
+// Start Gonk Sounds ----------------------------------------
+
+SoundProperties()
+{
+    Name("com_item_gonkrecharge"); // gonk powerup sound
+    Group("ambientenv");
+    Inherit("ambientemt_static_template");
+    Looping(0);
+    MinDistance(10.0);
+    RollOff(1.0);
+    SampleList()
+    {
+        Sample("droid_gonk_01", 0.25);
+        Sample("droid_gonk_02", 0.25);
+        Sample("droid_gonk_03", 0.25);
+        Sample("droid_gonk_04", 0.25);
+    }
+}
+
+#ifplatform xbox pc
+SoundProperties()
+{
+    Name("com_item_gonkdeath"); // gonk death sound
+    Group("ambientenv");
+    Inherit("ambientemt_static_template");
+    Looping(0);
+    SampleList()
+    {
+        Sample("droid_gonk_die_01", 0.5);
+        Sample("droid_gonk_die_02", 0.5);
+    }
+}
+#endifplatform xbox pc
+
+// ----- End Gonk ------------------------------------
+
+// ----- Begin FX7 Droid -----------------------------
+
+SoundProperties()
+{
+    Name("droid_fx7_chatter"); // fx7 recharge chatter
+    Group("ambientenv");
+    Inherit("ambientemt_static_template");
+    PitchDev(0.0);
+    Looping(0);
+    MinDistance(8.0);
+    RollOff(1.0);
+    SampleList()
+    {
+        Sample("droid_fx7_chatter_01", 0.25);
+        Sample("droid_fx7_chatter_02", 0.25);
+        Sample("droid_fx7_chatter_03", 0.25);
+        Sample("droid_fx7_chatter_04", 0.25);
+    }
+}
+
+//SoundProperties()
+//{
+//    Name("droid_fx7_hum"); // fx7 hum sound
+//    Group("ambientenv");
+//    Inherit("ambientemt_static_template");
+//    MinDistance(1.0);
+//    RollOff(1.0);
+//    SampleList()
+//    {
+//        Sample("droid_fx7_hum_lp", 1.0);
+//    }
+//}
+
+SoundProperties()
+{
+    Name("droid_fx7_idle_chatter"); // fx7 idle chatter
+    Group("ambientenv");
+    Inherit("ambientemt_static_template");
+    PitchDev(0.2);
+    Looping(0);
+    MinDistance(1.0);
+    MaxDistance(20.0);
+    MuteDistance(20.0);
+    RollOff(1.0);
+    PlayProbability(0.05);
+    SampleList()
+    {
+        Sample("crt_medicalDroid04", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("droid_fx7_recharge"); // fx7 recharge sound
+    Group("ambientenv");
+    Inherit("ambientemt_static_template");
+    PitchDev(0.0);
+    Looping(0);
+    MinDistance(8.0);
+    SampleList()
+    {
+        Sample("droid_fx7_recharge_01", 0.25);
+        Sample("droid_fx7_recharge_02", 0.25);
+        Sample("droid_fx7_recharge_03", 0.25);
+        Sample("droid_fx7_recharge_04", 0.25);
+    }
+}
+
+//SoundProperties()
+//{
+//    Name("droid_fx7_death_chatter"); // fx7 death sound
+//    Group("ambientenv");
+//    Inherit("ambientemt_static_template");
+//    Looping(0);
+//    RollOff(1.0);
+//    SampleList()
+//    {
+//        Sample("droid_fx7death", 1.0);
+//    }
+//}
+
+SoundLayered()
+{
+    Name("health_recharge");
+    Layer("chatter",  "droid_fx7_chatter",        0.5, 0.3);
+    Layer("recharge", "droid_fx7_recharge",     0.0);
+}
+
+//SoundLayered()
+//{
+//    Name("droid_fx7_death");
+//    Layer("chatter",  "droid_fx7_death_chatter",        0.1);
+//    Layer("explosion", "com_weap_obj_small_exp",     0.0);
+//}
+
+// ---- End FX 7 Droid ---------------------
+
+// Start R5 Sounds ----------------------------------------
+
+//SoundProperties()
+//{
+///    Name("vehicle_recharge"); // R5 powerup sound
+//    Group("ambientenv");
+//    Inherit("ambientemt_static_template");
+//    Looping(0);
+//    MinDistance(12.0);
+//    RollOff(1.0);
+//    SampleList()
+//    {
+//        Sample("droid_r5_chatter_01", 0.2);
+//        Sample("droid_r5_chatter_02", 0.2);
+//        Sample("droid_r5_chatter_03", 0.2);
+//        Sample("droid_r5_chatter_04", 0.2);
+//        Sample("droid_r5_chatter_05", 0.2);
+//    }
+//}
+
+//SoundProperties()
+//{
+//    Name("com_item_r5death_chatter"); // R5D4 death sound
+//    Group("ambientenv");
+//    Inherit("ambientemt_static_template");
+//    Looping(0);
+//    RollOff(1.0);
+//    SampleList()
+//    {
+//        Sample("droid_r5_death", 1.0);
+//    }
+//}
+
+//SoundLayered()
+//{
+//    Name("com_item_r5death");
+//    Layer("chatter",  "com_item_r5death_chatter",        0.1);
+//    Layer("explosion", "com_weap_obj_small_exp",     0.0);
+//}
+
+// ----- End R5 D4 Vehicle Repair Droid ------------------------------------
+
+
+// Start R2 R4 Sounds ----------------------------------------
+
+
+SoundProperties()
+{
+    Name("r2_turn_on"); 
+    Group("ambientenv");
+    Inherit("ambientemt_static_template");
+    Looping(0);
+    MinDistance(20.0);
+    MaxDistance(50.0);
+    MuteDistance(50.0);
+    RollOff(1.0);
+    SampleList()
+    {
+        Sample("droid_r2_chatter_01", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("r2_turn_off");
+    Group("ambientenv");
+    Inherit("ambientemt_static_template");
+    Looping(0);
+    MinDistance(20.0);
+    MaxDistance(50.0);
+    MuteDistance(50.0);
+    RollOff(1.0);
+    SampleList()
+    {
+        Sample("Ifc_LowHealth02", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("r2_take_off");
+    Group("ambientenv");
+    Inherit("ambientemt_static_template");
+    Looping(0);
+    MinDistance(20.0);
+    MaxDistance(50.0);
+    MuteDistance(50.0);
+    RollOff(1.0);
+    SampleList()
+    {
+        Sample("Ifc_LowShield03", 1.0);
+
+    }
+}
+
+SoundProperties()
+{
+    Name("r2_land"); 
+    Group("ambientenv");
+    Inherit("ambientemt_static_template");
+    Looping(0);
+    MinDistance(20.0);
+    MaxDistance(50.0);
+    MuteDistance(50.0);
+    RollOff(1.0);
+    SampleList()
+    {
+        Sample("droid_r2_chatter_02", 1.0);
+
+    }
+}
+
+SoundProperties()
+{
+    Name("r2_damage");
+    Group("ambientenv");
+    Inherit("ambientemt_static_template");
+    Looping(0);
+    MinDistance(20.0);
+    MaxDistance(50.0);
+    MuteDistance(50.0);
+    RollOff(1.0);
+    PlayInterval(0.5);
+    SampleList()
+    {
+        Sample("droid_r2_damage", 0.7);
+        Sample("droid_r2_death", 0.3);
+    }
+}
+
+// ----- End R2 R4 Vehicle Repair Droid ------------------------------------
+
+
+// ----------Start Lightsaber ----------
+SoundProperties()
+{
+    Name("com_inf_saber_on")
+    Group("unit_weapon");
+    Inherit("props_template");
+    Gain(0.6);
+    MinDistance(15.0);    
+    SampleList()
+    {
+        Sample("saberon", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("com_inf_saber_off")
+    Group("unit_weapon");
+    Inherit("props_template");
+    Gain(0.6);
+    MinDistance(10.0);
+    SampleList()
+    {
+        Sample("saberoff", 1.0);
+    }
+}
+
+
+//SoundProperties()
+//{
+//    Name("saber_catch")
+//    Group("unit_weapon");
+//    Inherit("props_template");
+//    MinDistance(10.0);
+//    SampleList()
+//    {
+//        Sample("saber_catch", 1.0);
+//    }
+//}
+
+SoundProperties()
+{
+    Name("saber_throw")
+    Group("unit_weapon");
+    Inherit("props_template");
+    Gain(0.6);
+    Pitch(1.05);
+    PitchDev(0.05);
+    MinDistance(12.0);
+    SampleList()
+    {
+        Sample("saber_throw", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("saber_twirl")
+    Group("unit_weapon");
+    Inherit("props_template");
+    Gain(0.6);
+    MinDistance(20.0);
+    Pitch(1.05);
+    PitchDev(0.05);
+    Looping(1);
+    SampleList()
+    {
+        Sample("saber_twirl", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("imp_weap_lightsabre_block")
+    Group("unit_weapon");
+    Inherit("props_template");
+    Gain(0.6);
+    MinDistance(10.0);
+    Pitch(1.15);
+    SampleList()
+    {
+      Sample("ltsaberswing03", 1.0);
+      Sample("ltsaberswing05", 1.0);
+    }
+}
+
+
+SoundProperties()
+{
+    Name("imp_weap_lightsabre_deflect")
+    Group("unit_weapon");
+    Inherit("impact_template");
+    MinDistance(20);
+    PitchDev(0.2)
+    SampleList()
+    {
+      Sample("saber_deflect01", 1.0);
+      Sample("saber_deflect02", 1.0);
+      Sample("saber_deflect03", 1.0);
+
+    }
+}
+
+SoundProperties()
+{
+    Name("imp_weap_lightsabre_hit")
+    Group("unit_weapon");
+    Inherit("impact_template");
+    MinDistance(20);
+    SampleList()
+    {
+      Sample("saber_deflect01", 1.0);
+      Sample("saber_deflect02", 1.0);
+      Sample("saber_deflect03", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("saber_double")
+   // Name("imp_weap_lightsabre")
+    Group("unit_weapon");
+    Inherit("props_template");
+    Gain(0.8);
+    Pitch(1.05);
+    PitchDev(0.05);
+    MinDistance(25.0);
+    SampleList()
+    {
+        Sample("saber_double", 1.0);
+        Sample("ltsaberswing01", 1.0);
+        Sample("ltsaberswing04", 1.0);
+        Sample("ltsaberswing06", 1.0);
+        Sample("ltsaberswingdbl01", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("saber_triple")
+    Group("unit_weapon");
+    Inherit("props_template");
+    Gain(0.8);
+    Pitch(1.05);
+    PitchDev(0.05);
+    MinDistance(25.0);
+    SampleList()
+    {
+        Sample("saber_triple", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("saber_attack_three")
+    Group("unit_weapon");
+    Inherit("props_template");
+    Gain(0.8);
+    Pitch(1.05);
+    PitchDev(0.05);
+    MinDistance(25.0);
+    SampleList()
+    {
+        Sample("ltsaberswingdbl01", 1.0);
+    }
+}
+
+
+SoundProperties()
+{
+    Name("saber_swing")
+    Group("unit_weapon");
+    Inherit("props_template");
+    Gain(0.8);
+    Pitch(1.05);
+    PitchDev(0.05);
+    MinDistance(25.0);
+    SampleList()
+    {
+        Sample("ltsaberswing02", 1.0);
+        Sample("ltsaberswing03", 1.0);
+    }
+}
+
+
+SoundProperties()
+{
+    Name("com_inf_saber_ambient")
+    Group("unit_weapon");
+    Inherit("props_template");
+    Gain(0.5);
+    Pitch(1.0);
+    PitchDev(0.0);
+    MinDistance(6.0);
+    Looping(1);
+    SampleList()
+    {
+       // Sample("saber_idle01", 1.0);
+        Sample("saber_idle02", 1.0);
+    }
+}
+
+
+
+
+// ---------End Lightsaber ----------
+
+
+
+
+ParameterGraph()
+{
+    Name("engine_turnon_gain");
+    ControlPoint(0.0, 0.0);
+    ControlPoint(1.5, 1.0);
+}
+
+ParameterGraph()
+{
+    Name("engine_turnoff_gain");
+    ControlPoint(0.0, 1.0);
+    ControlPoint(3.0, 0.0);
+}
+
+ParameterGraph()
+{
+    Name("engine_turnon_pitch");
+    ControlPoint(0.0, 0.5);
+    ControlPoint(3.0, 1.0);
+}
+
+ParameterGraph()
+{
+    Name("engine_turnoff_pitch");
+    ControlPoint(0.0, 1.0);
+    ControlPoint(2.0, 0.6);
+    ControlPoint(3.0, 0.3);
+}
+
+
+ParameterGraph()
+{
+    Name("engine_health");
+    ControlPoint(0.1, 0.7);
+    ControlPoint(0.3, 0.5);
+    ControlPoint(0.4, 0.4);
+    ControlPoint(0.5, 0.3);
+    ControlPoint(0.75, 0.1);
+    ControlPoint(0.85, 0.05);
+    ControlPoint(0.86, 0.0);
+    ControlPoint(1.0, 0.0);
+}
+
+
+// Start Force Powers ---------------------------------------
+
+SoundProperties()
+{
+    Name("force_charge");
+    Group("weapons");
+    Inherit("weapon_template");
+    SampleList()
+    {
+        Sample("force_charge", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("force_push_fire");
+    Group("weapons");
+    Inherit("weapon_template");
+    MinDistance(20);
+    SampleList()
+    {
+        Sample("force_push_fire", 1.0);
+    }
+}
+
+
+
+SoundProperties()
+{
+    Name("force_push_impact");
+    Group("weapons");
+    Inherit("impact_template");
+    SampleList()
+    {
+        Sample("force_push_impact", 1.0);
+    }
+}
+
+
+SoundProperties()
+{
+    Name("force_pull_fire");
+    Group("weapons");
+    Inherit("weapon_template");
+    MinDistance(20);
+    SampleList()
+    {
+        Sample("force_pull_fire", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("force_pull_impact");
+    Group("weapons");
+    Inherit("impact_template");
+    SampleList()
+    {
+        Sample("force_push_impact", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("force_lightning_charge");
+    Group("weapons");
+    Inherit("weapon_template");
+    SampleList()
+    {
+        Sample("force_lightning_charge", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("force_lightning_fire");
+    Group("weapons");
+    Inherit("weapon_template");
+    SampleList()
+    {
+        Sample("force_lightning_fire01", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("force_lightning_impact");
+    Group("weapons");
+    Inherit("weapon_template");
+    CyclePlayback(1);
+    SampleList()
+    {
+        Sample("force_lightning_ordnance1", 1.0);
+        Sample("force_lightning_ordnance2", 1.0);
+        Sample("force_lightning_ordnance3", 1.0);
+    }
+}
+
+
+SoundProperties()
+{
+    Name("force_saber_throw");
+    Group("weapons");
+    Inherit("weapon_template");
+    SampleList()
+    {
+        Sample("saber_throw", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("force_choke_fire");
+    Group("weapons");
+    Inherit("weapon_template");
+    Gain(0.9);
+    Rolloff(2.5);
+    MinDistance(20.0);
+    MaxDistance(60.0);
+    MuteDistance(60.0);
+    SampleList()
+    {
+        Sample("force_choke_ordnance", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("force_choke_ordnance");
+    Group("Ordnance");
+    Inherit("ordnance_template");
+    Gain(0.5);
+    Rolloff(0.0);
+    MinDistance(10.0);
+    MaxDistance(50.0);
+    MuteDistance(50.0);
+    SampleList()
+    {
+        Sample("force_choke_ordnance", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("force_choke_ordnance");
+    Group("Ordnance");
+    Inherit("ordnance_template");
+    Gain(0.5);
+    Rolloff(0.0);
+    MinDistance(10.0);
+    MaxDistance(50.0);
+    MuteDistance(50.0);
+    SampleList()
+    {
+        Sample("force_choke_ordnance", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("force_choke_impact");
+    Group("weapons");
+    Inherit("impact_template");
+    MinDistance(1.0);
+    MaxDistance(50);
+    MuteDistance(50);
+    Rolloff(3.0);
+    SampleList()
+    {
+        Sample("force_choke_impact01", 1.0);
+        Sample("force_choke_impact02", 1.0);
+        Sample("force_choke_impact03", 1.0);
+    }
+}
+
+// End Force Powers -----------------------------------------
+
+// Start Buff Weapons ---------------------------------------
+
+
+SoundProperties()
+{
+    Name("com_buff_fire");
+    Group("weapon");
+    Inherit("weapon_template");
+    MinDistance(15.0);
+    SampleList()
+    {
+        Sample("com_buff_fire", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("buff_rage_fire");
+    Group("weapon");
+    Inherit("weapon_template");
+    MinDistance(15.0);
+    SampleList()
+    {
+        Sample("buff_rage_fire", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("buff_rage_effect");
+    Group("weapon");
+    Inherit("ordnance_template");
+    MinDistance(15.0);
+    SampleList()
+    {
+        Sample("buff_rage_effect", 1.0);
+    }
+}
+
+// End Buff Weapons -----------------------------------------
+
+SoundProperties()
+{
+    Name("flame_ord");
+    Group("unit_weapon");
+    Inherit("ordnance_template");
+    Gain(1.0);
+    Looping(0);
+    Rolloff(1.0);
+    SampleList()
+    {
+        Sample("emt_torch_lp", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("flame_on");
+    Group("weapons");
+    Inherit("weapon_template");
+    Pitch(1.4);
+    Gain(0.4);
+    SampleList()
+    {
+        Sample("rep_inf_jetpack", 1.0);
+    }
+}
+
+
+SoundProperties()
+{
+    Name("com_weap_triburst_fire");
+    Group("weapons");
+    Inherit("weapon_template");
+    SampleList()
+    {
+        Sample("com_weap_triburst_fire", 1.0);
+    }
+}
+
+
+SoundProperties()
+{
+    Name("com_weap_turret_mortar_fire");
+    Group("weapons");
+    #ifplatform ps2 xbox
+    Gain(1.0)
+    #endifplatform ps2 xbox
+    Pitch(1.15);
+    Inherit("veh_weapon_template");
+    SampleList()
+    {
+        Sample("com_mortar_launcher_fire", 1.0);
+    }
+}

@@ -1,0 +1,47 @@
+
+// ----- Ambient World  ----------
+
+SoundStreamProperties()
+{
+    Name("bes_amb_wind");
+    Group("ambientenv");
+    Inherit("ambientfx_template");
+    Gain(0.6);
+    Stream("bes1");
+    SegmentList()
+    {
+        Segment("bes_amb_wind", 1.0);
+    }
+}
+
+// ----- Ambient Emitters ----------
+
+SoundProperties()
+{
+    Name("com_amb_steam"); // steam jet loop
+    Group("Props");
+    Inherit("props_template");
+    Looping(1);
+    RandomPlayPos(1);
+    RollOff(10.0);
+    Gain(0.2);
+    SampleList()
+    {
+        Sample("emt_steam_lp", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("com_amb_steam_slow"); // steam jet loop low pitch
+    Group("Props");
+    Inherit("props_template");
+    Looping(1);
+    RandomPlayPos(1);
+    Pitch(0.5);
+    RollOff(10.0);
+    SampleList()
+    {
+        Sample("emt_steam_lp", 1.0);
+    }
+}

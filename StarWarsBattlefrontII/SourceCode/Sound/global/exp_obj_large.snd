@@ -1,0 +1,68 @@
+// ----- Large Explosion -----
+// Used for Large vehicle final explosion
+
+SoundProperties()
+{
+    Name("com_weap_obj_large_exp_near"); // large explosion near
+    Group("Explosion");
+    Inherit("explosion_template");
+    SampleList()
+    {
+        Sample("exp_obj_large01", 0.25);
+        Sample("exp_obj_large02", 0.25);
+        Sample("exp_obj_large04", 0.25);
+        Sample("exp_obj_large05", 0.25);
+    }
+}
+
+
+SoundProperties()
+{
+    Name("com_weap_obj_large_exp_near_echo"); // large explosion near
+    Group("Explosion");
+    Inherit("explosion_template");
+    SampleList()
+    {
+        Sample("exp_obj_large01", 0.25);
+        Sample("exp_obj_large02", 0.25);
+        Sample("exp_obj_large04", 0.25);
+        Sample("exp_obj_large05", 0.25);
+    }
+}
+
+
+SoundProperties()
+{
+    Name("com_weap_obj_large_exp_distant"); // large explosion medium distance
+    Group("Explosion");
+    Inherit("explosion_distant_template");
+    SampleList()
+    {
+        Sample("exp_distant_large01", 0.5);
+        Sample("exp_distant_large02", 0.5);
+    }
+}
+
+SoundProperties()
+{
+    Name("com_weap_obj_large_exp_verydistant"); // large explosion large distance
+    Group("Explosion");
+    Inherit("explosion_verydistant_template");
+    SampleList()
+    {
+        Sample("exp_verydistant_large01", 0.5);
+        Sample("exp_verydistant_large02", 0.5);
+    }
+}
+
+// --- Large explosion Layers
+
+SoundLayered()
+{
+    Name("com_weap_obj_large_exp");
+    Layer("near",   "com_weap_obj_large_exp_near",        0.0);
+    Layer("near",   "com_weap_obj_large_exp_near_echo",   1.0, 0.2);
+    Layer("far",    "com_weap_obj_large_exp_verydistant", 0.8, 0.3);
+    Layer("medium", "com_weap_obj_large_exp_distant",     0.5, 0.2);
+}
+

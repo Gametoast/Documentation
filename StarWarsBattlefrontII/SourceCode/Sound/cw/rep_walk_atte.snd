@@ -1,0 +1,241 @@
+// REP_walk_ATTE --------------------------------------
+
+// Pilot Primary Fire
+SoundProperties()
+{
+    Name("rep_weap_walk_atte_cannon_fire");
+    Group("weapons");
+    Inherit("veh_weapon_template");
+    MinDistance(40.0);
+    SampleList()
+    {
+        Sample("wpn_ATTE_frontBlaster_fire", 1.0);
+    }
+}    
+    
+
+// Pilot Secondary Fire
+SoundProperties()
+{
+    Name("rep_weap_walk_atte_recoilless_fire");
+    Group("weapons");
+    Inherit("veh_weapon_template");
+    Pitch(1.3);
+    MinDistance(40.0);
+    SampleList()
+    {
+        Sample("wpn_ATTE_trtBlaster_fire", 1.0);
+    }
+}
+
+// Turret Cannon
+SoundProperties()
+{
+    Name("rep_weap_walk_atte_turret_fire");
+    Group("weapons");
+    Inherit("veh_weapon_template");
+    MinDistance(50.0);
+    SampleList()
+    {
+        Sample("wpn_ATTE_trtBlaster_fire", 1.0);
+    }
+}
+
+// Chain Gun Rear
+SoundProperties()
+{
+    Name("rep_weap_walk_atte_chaingun_spin");
+    Group("weapons");
+    Inherit("veh_weapon_template");
+    #ifplatform pc
+    Gain(0.4);
+    #endifplatform pc
+    #ifplatform xbox
+    Gain(0.3);
+    #endifplatform xbox
+    #ifplatform ps2
+    Gain(0.3);
+    #endifplatform ps2
+    MinDistance(20.0);
+    Pitch(0.55);
+    Looping(1);
+    Rolloff(2.0);
+    SampleList()
+    {
+        Sample("wpn_chaingun_spin", 1.0);
+        
+    }
+}
+
+SoundProperties()
+{
+    Name("rep_weap_walk_atte_chaingun_fire");
+    Group("weapons");
+    Inherit("veh_weapon_template");
+    Pitch(0.7)
+    Looping(1);
+    SampleList()
+    {
+        Sample("vehicle_chaingun_fire", 1.0);
+        //Sample("wpn_chaingun_fire01", 1.0);
+        
+    }
+}
+
+
+// Common AT Walker Steps -----
+
+#ifplatform ps2
+SoundProperties()
+{
+    Name("com_weap_layered_at_step");
+    Pitch(1.5);
+    PitchDev(0.15);
+    Gain(0.7);
+    GainDev(0.0);
+    ReverbGain(1.0);
+    Bus("soundfx");
+    Looping(0);
+    Pan(0.0);
+    MinDistance(25.0);
+    MuteDistance(200.0);
+    MaxDistance(200.0);
+    RollOff(2.0);
+    Mode3D(1);
+    Bias(0.0001);
+    Priority(0.7);
+    CyclePlayback(1);
+    SampleList()
+    {
+        Sample("atst_step01", 0.167);
+        Sample("atst_step02", 0.167);
+        Sample("atst_step03", 0.167);
+        Sample("atst_step04", 0.167);
+        Sample("atst_step05", 0.167);
+        Sample("atst_step06", 0.167);
+    }
+}
+#endifplatform ps2
+
+#ifplatform xbox pc
+SoundProperties()
+{
+    Name("at_step_layer_A");
+    Pitch(1.0);
+    PitchDev(0.15);
+    Gain(0.7);
+    GainDev(0.0);
+    ReverbGain(1.0);
+    Bus("soundfx");
+    Looping(0);
+    Pan(0.0);
+    MinDistance(25.0);
+    MuteDistance(300.0);
+    MaxDistance(300.0);
+    RollOff(2.0);
+    Mode3D(1);
+    Bias(0.0001);
+    Priority(0.7);
+    SampleList()
+    {
+        Sample("fs_walker_layerA01", 0.167);
+        Sample("fs_walker_layerA02", 0.167);
+        Sample("fs_walker_layerA03", 0.167);
+        Sample("fs_walker_layerA04", 0.167);
+        Sample("fs_walker_layerA05", 0.167);
+        Sample("fs_walker_layerA06", 0.167);
+    }
+}
+SoundProperties()
+{
+    Name("at_step_layer_B");
+    Pitch(1.0);
+    PitchDev(0.15);
+    Gain(0.5);
+    GainDev(0.0);
+    ReverbGain(1.0);
+    Bus("soundfx");
+    Looping(0);
+    Pan(0.0);
+    MinDistance(25.0);
+    MuteDistance(300.0);
+    MaxDistance(300.0);
+    RollOff(2.0);
+    Mode3D(1);
+    Bias(0.0001);
+    Priority(0.7);
+    SampleList()
+    {
+        Sample("fs_walker_layerB01", 0.167);
+        Sample("fs_walker_layerB02", 0.167);
+        Sample("fs_walker_layerB03", 0.167);
+        Sample("fs_walker_layerB04", 0.167);
+        Sample("fs_walker_layerB05", 0.167);
+        Sample("fs_walker_layerB06", 0.167);
+    }
+}
+SoundProperties()
+{
+    Name("at_step_layer_C");
+    Pitch(1.0);
+    PitchDev(0.15);
+    Gain(0.5);
+    GainDev(0.0);
+    ReverbGain(1.0);
+    Bus("soundfx");
+    Looping(0);
+    Pan(0.0);
+    MinDistance(25.0);
+    MuteDistance(300.0);
+    MaxDistance(300.0);
+    RollOff(2.0);
+    Mode3D(1);
+    Bias(0.0001);
+    Priority(0.7);
+    SampleList()
+    {
+        Sample("fs_walker_layerC01", 0.167);
+        Sample("fs_walker_layerC02", 0.167);
+        Sample("fs_walker_layerC03", 0.167);
+        Sample("fs_walker_layerC04", 0.167);
+        Sample("fs_walker_layerC05", 0.167);
+        Sample("fs_walker_layerC06", 0.167);
+    }
+}
+
+SoundProperties()
+{
+    Name("at_step_layer_low");
+    Pitch(1.0);
+    PitchDev(0.15);
+    Gain(0.6);
+    GainDev(0.0);
+    ReverbGain(1.0);
+    Bus("soundfx");
+    Looping(0);
+    Pan(0.0);
+    MinDistance(25.0);
+    MuteDistance(350.0);
+    MaxDistance(350.0);
+    RollOff(2.0);
+    Mode3D(1);
+    Bias(0.0001);
+    Priority(0.7);
+    CyclePlayback(1);
+    SampleList()
+    {
+        Sample("fs_walker_low01", 0.33);
+        Sample("fs_walker_low02", 0.33);
+        Sample("fs_walker_low03", 0.33);
+    }
+}
+
+SoundLayered()
+{
+    Name("com_weap_layered_at_step");
+    Layer("steplayer01", "at_step_layer_A", 0.0);
+    Layer("steplayer02", "at_step_layer_B", 0.0);
+    Layer("steplayer03", "at_step_layer_C", 0.0);
+    Layer("steplayer04", "at_step_layer_low", 0.0);
+}
+#ifplatform xbox pc

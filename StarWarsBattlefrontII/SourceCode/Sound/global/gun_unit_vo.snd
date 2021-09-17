@@ -1,0 +1,26 @@
+// ---------------------------------------- Jawa Battlechatter --------------------------------------------------------------
+
+
+SoundStreamProperties()
+{
+    Name("gungan_inf_chatter_AcquiredTarget");
+    Group("gungan_vo");
+    Inherit("battle_chatter_template");
+    Stream("gun_unit_vo_slow");
+    SegmentList()
+    {  
+        Segment("GI1COM007", 200.0, 10.0, 3.0); // 
+        Segment("GI1COM008", 200.0, 10.0, 3.0); // 
+        Segment("GI1COM009", 200.0, 10.0, 3.0); // 
+        Segment("GI1COM010", 200.0, 10.0, 3.0); // 
+        Segment("GI1COM011", 200.0, 10.0, 3.0); // 
+        Segment("GI1COM012", 200.0, 10.0, 3.0); // 
+        Segment("GI1COM013", 200.0, 10.0, 3.0); // 
+        Segment("GI1COM014", 200.0, 10.0, 3.0); // 
+        Segment("GI1COM015", 200.0, 10.0, 3.0); // 
+        Segment("GI1COM016", 200.0, 10.0, 3.0); // 
+        Segment("GI1COM020", 200.0, 10.0, 3.0); // 
+        Segment("GI1COM021", 200.0, 10.0, 3.0); // 
+        Segment("GI1COM023", 200.0, 10.0, 3.0); // 
+    }
+}

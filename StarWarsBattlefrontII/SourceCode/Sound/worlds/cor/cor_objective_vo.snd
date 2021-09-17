@@ -1,0 +1,575 @@
+
+//  --------------------------------------------------- Objective VO ----------------------------------------------------------
+
+SoundStreamProperties()
+{
+    Name("COR_obj_01");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("cor_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROCOR0001", 1.0, 0.0, 0.0); //  All right.  Tonight's mission will be a standard penetration-and-eradication sweep of Target Alpha: the Jedi Temple.  Our initial objective is the so-called Jedi Council Chamber, which will give us access to other targets throughout the building.  Let's keep the chatter low, and move out.
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("COR_obj_02");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("cor_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROCOR0002", 1.0, 0.0, 0.0); //  Access to the Library Complex has been established.  Proceed to the library and destroy the Jedi holobook depository.
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("COR_obj_03");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("cor_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROCOR0003", 1.0, 0.0, 0.0); //  It appears one of the bookcases you destroyed in the library was actually a disguised Stealth Projection device. It's destruction has revealed valuable Jedi Holocrons dispersed about the Temple.  Gather the Holocrons and deliver them to the gunship en route to your location.
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("COR_obj_04");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("cor_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROCOR0004", 1.0, 0.0, 0.0); //  Holocrons secured, resume primary objective.  Eradicate the Jedi.  Leave no survivors.
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("COR_inf_01");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("cor_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("RICOR0001", 1.0, 0.0, 0.0); //  The doors are opening!
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("COR_inf_02");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("cor_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("RICOR0002", 1.0, 0.0, 0.0); //  The Gunship has arrived!
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("COR_inf_03");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("cor_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("RICOR0003", 1.0, 0.0, 0.0); //  I found one over here!
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("COR_obj_05");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("cor_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROCOR0006", 1.0, 0.0, 0.0); //  Primary mission objectives complete... the Jedi Temple has been secured.
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("COR_obj_06");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("cor_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROCOR0007", 1.0, 0.0, 0.0); //  The Jedi were too strong for us...
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("COR_obj_07");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("cor_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROCOR0005", 1.0, 0.0, 0.0); //  Two to go...
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("COR_obj_08");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("cor_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROCOR0008", 1.0, 0.0, 0.0); //  These holobooks contain the sum of jedi knowledge passed down from generations.  We must secure the information in them somehow...
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("COR_obj_09");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("cor_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROCOR0009", 1.0, 0.0, 0.0); //  You are making progress but there are still many holobooks undamaged.
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("COR_obj_10");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("cor_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROCOR0010", 1.0, 0.0, 0.0); //  You're half way there.  Keep it up!
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("COR_obj_11");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("cor_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROCOR0011", 1.0, 0.0, 0.0); //  Just a few more bookcases and this depository is no more.
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("COR_obj_12");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("cor_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROCOR0012", 1.0, 0.0, 0.0); //  Don't let the Jedi get near enough for close combat.  Keep them at range and overwhelm them with concentrated weapon fire and grenades.
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("COR_obj_13");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("cor_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROCOR0013", 1.0, 0.0, 0.0); //  We have successfully hacked the remaining locked doors in the Temple.
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("COR_obj_14");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("cor_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROCOR0014", 1.0, 0.0, 0.0); //  Good progress!  Our hackers have released the door mechanisms to the star chamber.  You know what to do.
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("COR_obj_15");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("cor_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROCOR0015", 1.0, 0.0, 0.0); //  The security doors to the war room are asunder.  Collect the holocron there.
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("COR_obj_16");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("cor_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROCOR0016", 1.0, 0.0, 0.0); //  We have detected one last holocron in the minor hall.  Retrieve this and we may move on to our last objective.
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("COR_obj_17");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("cor_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROCOR0017", 1.0, 0.0, 0.0); //  The gunship is arriving for the holocron pick-up.  The gunship will be exposed for the time it hovers at the veranda so be quick.
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("COR_obj_18");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("cor_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROCOR0018", 1.0, 0.0, 0.0); //  That's five less jedi to trouble us!
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("COR_obj_19");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("cor_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROCOR0019", 1.0, 0.0, 0.0); //  Watch your reinforcement count.  We cannot spare replacements until the temple is clear of Jedi.
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("COR_obj_20");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("cor_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROCOR0020", 1.0, 0.0, 0.0); //  There is only one small group left.  Annihilate them and let's leave this place
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("COR_obj_21");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("cor_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROCOR0021", 1.0, 0.0, 0.0); //  Well done, soldier!  I see a bright future for you.
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("COR_obj_22");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("cor_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROCOR0022", 1.0, 0.0, 0.0); //  Your reinforcement count is dropping too low.  Continue like this and you will fail the mission.
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("COR_obj_23");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("cor_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROCOR0023", 1.0, 0.0, 0.0); //  Excellent!  Now make your way to the library complex.
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("COR_obj_24");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("cor_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROCOR0024", 1.0, 0.0, 0.0); //  This defeat will not sit well with the Chancellor
+        }
+}
+
+SoundStreamProperties()
+{
+    Name("COR_obj_25");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("cor_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROCOR0025", 1.0, 0.0, 0.0); //  Our troops have been destroyed.  This mission is a failure.
+        }
+}
+
+SoundStreamProperties()
+{
+    Name("COR_obj_26");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("cor_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROCOR0026", 1.0, 0.0, 0.0); //  Tonight, the fall of the Jedi is at hand. We have been directed by the highest authority to wipe out the insurgent Jedi Order that threatens our great Empire. Our first Objective is to capture the Council Chamber. Our Commander for this mission, Lord Vader, will be attending to some matters here himself, but do well boys and he may choose the join us.
+        }
+}
+
+SoundStreamProperties()
+{
+    Name("COR_obj_27");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("cor_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROCOR0027", 1.0, 0.0, 0.0); //  The Temple Guards have had there opportunity to surrender, but they side with the insurgents. Show them no mercy!
+        }
+}
+
+SoundStreamProperties()
+{
+    Name("COR_obj_28");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("cor_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROCOR0028", 1.0, 0.0, 0.0); //  Jedi Ambush! Careful men, fight them at range. 
+        }
+}
+
+SoundStreamProperties()
+{
+    Name("COR_obj_29");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("cor_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROCOR0029", 1.0, 0.0, 0.0); //  Well done troops, but we have to double time to the library! The treacherous Temple Guards and Jedi are destroying the Holobooks therein. These tomes have immense value to Command. You must stop them!
+        }
+}
+
+SoundStreamProperties()
+{
+    Name("COR_obj_30");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("cor_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROCOR0030", 1.0, 0.0, 0.0); //  You must stop the destruction of the Holobooks. We are scanning and recording the data held within them. We need at least two minutes to do this.  Make sure at least one Holobookcase survives during this period.
+        }
+}
+
+SoundStreamProperties()
+{
+    Name("COR_obj_31");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("cor_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROCOR0031", 1.0, 0.0, 0.0); //  We have scanned the data and have stowed it safely. Next you must investigate the Mainframe Room. 
+        }
+}
+
+SoundStreamProperties()
+{
+    Name("COR_obj_32");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("cor_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROCOR0032", 1.0, 0.0, 0.0); //  More Jedi to kill. Wipe out these traitors, show no mercy. We are searching the data from the Holobooks for the location of two rumored Holocrons that contain the sum of all Sith and Jedi knowledge. 
+        }
+}
+
+SoundStreamProperties()
+{
+    Name("COR_obj_33");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("cor_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROCOR0033", 1.0, 0.0, 0.0); //  Good timing. We have discovered the locations of the Holocrons. One is located in the Comm Room. Retrieve that and bring it to the Veranda while we fine tune the location of the second one. 
+        }
+}
+
+SoundStreamProperties()
+{
+    Name("COR_obj_34");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("cor_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROCOR0034", 1.0, 0.0, 0.0); //  Nicely done! Lord Vader has finished his...business elsewhere and has decided to join us.  Now, go to the location I have marked for you. We think the last Holocron may be on the person of one of the Jedi. 
+        }
+}
+
+SoundStreamProperties()
+{
+    Name("COR_obj_35");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("cor_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROCOR0035", 1.0, 0.0, 0.0); //  There he is, near the Star Chamber. You must defeat this Jedi, and bring this final Holocron to the Veranda drop off point. 
+        }
+}
+
+SoundStreamProperties()
+{
+    Name("COR_obj_36");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("cor_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROCOR0036", 1.0, 0.0, 0.0); //  We have all the data we need. We would ask you to withdraw while we bombard the Temple from orbit, but instead we are giving  you the honor of killing the Jedi Masters that form the leadership of this isurgency. Perhaps we can save the sudents, so they may serve the Empire one day...
+        }
+}
+
+SoundStreamProperties()
+{
+    Name("COR_obj_37");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("cor_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROCOR0037", 1.0, 0.0, 0.0); //  We're running low on reinforcements
+        }
+}
+
+SoundStreamProperties()
+{
+    Name("COR_obj_38");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("cor_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROCOR0038", 1.0, 0.0, 0.0); //  Excellent progress!  With the last of the holocrons secured we can deal with the remainder of the Jedi here.  Your final task: slaughter the three Jedi Masters who have poisonded the minds of their impressionable students against the Empire.  Let them see what cost rebellion.
+        }
+}
+
+SoundStreamProperties()
+{
+    Name("COR_obj_39");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("cor_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROCOR0039", 1.0, 0.0, 0.0); //  That’s ends the life of one of the Insurgent leaders. There are two more to deal with
+        }
+}
+
+SoundStreamProperties()
+{
+    Name("COR_obj_40");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("cor_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROCOR0040", 1.0, 0.0, 0.0); //  One, just one Jedi Master left.
+        }
+}
+
+SoundStreamProperties()
+{
+    Name("COR_obj_41");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("cor_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROCOR0041", 1.0, 0.0, 0.0); //  It appears one of the bookcases the Jedi destroyed in the library was actually a disguised Stealth Projection device. It's destruction has revealed valuable Jedi and Sith Holocrons dispersed about the Temple.  Gather the Holocrons and deliver them to the gunship en route to your location.
+        }
+}
+
+SoundStreamProperties()
+{
+    Name("COR_obj_42");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("cor_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("ROCOR0042", 1.0, 0.0, 0.0); //  Primary mission objectives complete... the Jedi Temple has been secured... The Jedi leadership is smashed and shattered.
+        }
+}
+
+SoundStreamProperties()
+{
+    Name("COR_inf_04");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("cor_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("RICOR0004", 1.0, 0.0, 0.0); //  Keep alert for Jedi ambushes.
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("COR_inf_05");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("cor_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("RICOR0005", 1.0, 0.0, 0.0); //  Jedi scum!  Die!
+    }
+}

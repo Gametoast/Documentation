@@ -1,0 +1,155 @@
+
+//  --------------------------------------------------- Objective VO ----------------------------------------------------------
+
+SoundStreamProperties()
+{
+    Name("SPA5_obj_01");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IOSB40001", 1.0, 0.0, 0.0); //  The Kaminoans are attempting to send envoys to sympathetic planets, in the hopes of building a rebel coalition.  This will not be tolerated.
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("SPA5_obj_02");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IOSB40002", 1.0, 0.0, 0.0); //  Those transports are being escorted by Republic defense frigates.  Show them no mercy.
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("SPA5_obj_03");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IOSB40003", 1.0, 0.0, 0.0); //  The Transports have been destroyed, well done.
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("SPA5_obj_04");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IOSB40004", 1.0, 0.0, 0.0); //  Their Defense Frigates have been destroyed.
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("SPA5_obj_05");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IOSB40005", 1.0, 0.0, 0.0); //  Their capitol ship is vulnerable, move in and destroy their shield generators.
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("SPA5_obj_06");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IOSB40006", 1.0, 0.0, 0.0); //  Now attack the sensor array.
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("SPA5_obj_07");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IOSB40007", 1.0, 0.0, 0.0); //  The Kaminoans are helpless...destroy their engines and wait for their surrender.
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("SPA5_obj_08");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IOSB40008", 1.0, 0.0, 0.0); //  Kamino's orbital defenses are disabled, commence planetary maneuvers.
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("SPA5_obj_09");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IOSB40009", 1.0, 0.0, 0.0); //  The transports have escaped, now the Empire will never be able to keep a lid on this!
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("SPA5_obj_10");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IOSB40010", 1.0, 0.0, 0.0); //  Our fleet is defeated.  Our failure has handed the Kaminoans their rebellion on a silver platter.
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("SPA5_obj_11");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IOSB40011", 1.0, 0.0, 0.0); //  We have run out of reinforcements.  The battle is lost.
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("SPA5_obj_12");
+    Group("objective_vo");
+    Inherit("vo_template");
+    Stream("spa1_objective_vo_slow");
+    SegmentList()
+    {
+        Segment("IOSB40012", 1.0, 0.0, 0.0); //  Our reinforcements are nearly depleted
+    }
+}

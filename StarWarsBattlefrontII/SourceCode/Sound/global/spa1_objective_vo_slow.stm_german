@@ -1,0 +1,978 @@
+
+// ============================================= Objective VO ==============================================================
+
+//    Our Auto-Turrets have been disabled!
+//..\international\german\AOSB50001.wav
+
+//    Our turrets are down, we need to get them back online!
+//..\international\german\AOSB50002.wav
+
+//    Our interior defenses have fallen
+//..\international\german\AOSB50003.wav
+
+//    Destroy the Victory-2 Star Destroyer!
+//..\international\german\AOSB50004.wav
+
+//    Another of the Victory-2 Destroyers has been destroyed!
+//..\international\german\AOSB50005.wav
+
+//    One of the Victory-2 Destroyers has been destroyed!
+//..\international\german\AOSB50006.wav
+
+//    Their Victory-2 Destroyers have been cleared out!
+//..\international\german\AOSB50007.wav
+
+//    Their Victory-2 Destroyer has been wiped out!
+//..\international\german\AOSB50008.wav
+
+//    Target the Star Destroyer!
+//..\international\german\AOSB50009.wav
+
+//    Destroy the Star Destroyer's Sensor Array!
+//..\international\german\AOSB50010.wav
+
+//    Destroy the Star Destroyer's Shield Generators!
+//..\international\german\AOSB50011.wav
+
+//    Star Destroyer has 1 Shield Generator left.
+//..\international\german\AOSB50012.wav
+
+//    Destroy the Star Destroyer's Engines!
+//..\international\german\AOSB50013.wav
+
+//    Star Destroyer has 1 Engine left.
+//..\international\german\AOSB50014.wav
+
+//    Star Destroyer has 2 Engines left.
+//..\international\german\AOSB50015.wav
+
+//    The Imperials have been defeated, the day is ours!
+//..\international\german\AOSB50016.wav
+
+//    Our engines have been destroyed!
+//..\international\german\AOSB50017.wav
+
+//    The Imperials have destroyed our Sensor Array!
+//..\international\german\AOSB50018.wav
+
+//    Our Life Support systems have been critically damaged!
+//..\international\german\AOSB50019.wav
+
+//    The Imperials may have won this battle, but we've already scored the day's largest victory!
+//..\international\german\AOSB50020.wav
+
+//    Our shields have suffered a critical failure, we need to repair those generators!
+//..\international\german\IOSB50001.wav
+
+//    Our ship's defenses have been destroyed, dispatch a team to repair them!
+//..\international\german\IOSB50002.wav
+
+//    The interior defenses are destroyed, our turrets are vulnerable!
+//..\international\german\IOSB50003.wav
+
+//    Our shields have failed, defeat is imminent.
+//..\international\german\IOSB50004.wav
+
+//    Destroy the Correlian Corvette!
+//..\international\german\IOSB50005.wav
+
+//    Their Corvette is destroyed!
+//..\international\german\IOSB50006.wav
+
+//    One of their Corvettes has been annihilated.
+//..\international\german\IOSB50007.wav
+
+//    Another of their Corvettes has fallen.
+//..\international\german\IOSB50008.wav
+
+//    Their Covettes are no longer a threat to our forces.
+//..\international\german\IOSB50009.wav
+
+//    Target the Mon Calimari Cruiser!
+//..\international\german\IOSB50010.wav
+
+//    Destroy the Alliance Cruiser's Engines!
+//..\international\german\IOSB50011.wav
+
+//    One more engine, and the cruiser is ours for the taking!
+//..\international\german\IOSB50012.wav
+
+//    Just two more engines!
+//..\international\german\IOSB50013.wav
+
+//    The alliance cruiser is down to three engines!
+//..\international\german\IOSB50014.wav
+
+//    Two engines down, four to go!
+//..\international\german\IOSB50015.wav
+
+//    That's one engine down, now take out the rest!
+//..\international\german\IOSB50016.wav
+
+//    Destroy the Mon Calimari Sensor Array!
+//..\international\german\IOSB50017.wav
+
+//    Destroy the Mon Calimari Life Support Systems!
+//..\international\german\IOSB50018.wav
+
+//    Their ship is crippled, finish them off!
+//..\international\german\IOSB50019.wav
+
+//    Our Sensor Array has fallen.
+//..\international\german\IOSB50020.wav
+
+//    Our primary shield generators have been destroyed!
+//..\international\german\IOSB50021.wav
+
+//    We've lost our engines!
+//..\international\german\IOSB50022.wav
+
+//    Vengeance, it seems, will not be ours today...
+//..\international\german\IOSB50023.wav
+
+//    Our Victory-2 Destroyer has been destroyed!
+//..\international\german\IOSB50024.wav
+
+//    Our Victory-2 Destroyers have been destroyed!
+//..\international\german\IOSB50025.wav
+
+//    A Victory-2 Destroyer has been destroyed!
+//..\international\german\IOSB50026.wav
+
+//    The Alliance is within our grasp.
+//..\international\german\IOSB50027.wav
+
+//    Victory is ours men.  Dispatch the 501st to the planet surface, this planet will be under Imperial control within the hour.
+..\international\german\IOSB50028.wav
+
+//     Reinforcements are no longer available.  The battle is lost.
+..\international\german\IOSB50029.wav
+
+//     We only have a few fighters left
+..\international\german\IOSB50030.wav
+
+//        Their heavy transports are trying to go around us, we must not let them jump to hyperspace.  Destroy them!
+..\international\german\IOSB50031.wav
+
+//        Their frigates are harassing our fighters, show them no mercy!
+..\international\german\IOSB50032.wav
+
+//        Gents, their aces are inbound, slaughter their pathetic pilots.
+//..\international\german\IOSB50033.wav
+
+//        Our frigates need to move in to assault their hull, use a TIE bomber to destroy their heavy turrets.
+..\international\german\IOSB50034.wav
+
+//        SIR!  The Rebel ship is powering up their hyperdrive system! If they jump now they'll...
+//..\international\german\IISB50001.wav
+
+//        They'll rip right through us.  They're trying to take us down with them.  Pilots, attack their engines, they can't jump if they haven't any engines!
+//..\international\german\IOSB50035.wav
+
+//        Now gentlemen, destroy their remaining critical systems, those Rebels don’t deserve to breath any longer.
+..\international\german\IOSB50036.wav
+
+//        Leave them to float boys, we have more pressing matter to attend to, on Yavin.
+..\international\german\IOSB50037.wav
+
+//        Their transports we allowed to escape!  We have let them slip through our grasp once again.
+..\international\german\IOSB50038.wav
+
+//        Their engines are still active?  Your failure has doomed us all!  
+..\international\german\IOSB50039.wav
+
+//        Pilots, if they are allowed to make the jump to hyperspace they'll rip right through us.
+..\international\german\IOSB50040.wav
+
+//        Clear their fighters out and be quick about it.   We haven't any time to spare.
+..\international\german\IOSB50041.wav
+
+//        Well done pilots.
+..\international\german\IOSB50042.wav
+
+//        We need to clear a path for our frigates to cover you.  Use a TIE bomber to destroy their heavy turrets.
+..\international\german\IOSB50043.wav
+
+//        Now get after those engines men, they can't jump if they haven't any engines!
+..\international\german\IOSB50044.wav
+
+//        SIR!  The Rebel ship is powering up their hyperdrive system!
+//..\international\german\IISB50002.wav
+
+//        The Rebels are attemping to send their forces off to wreak havoc in other parts of our galaxy.  Destroy them, in the memory of our fallen comrades.
+..\international\german\IOSB50045.wav
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//    Our forward assault ship is under attack.    If we're to save it, you'll have to disable that droid cruiser.
+//..\international\german\ROSB10001.wav
+
+//    Before we can make a frontal assault, we'll have to take out their comm arrays to disrupt ship-to-fighter communications.
+//..\international\german\ROSB10002.wav
+
+//    4 more arrays
+//..\international\german\ROSB10003.wav
+
+//    3 more arrays
+//..\international\german\ROSB10004.wav
+
+//    2 more arrays left
+//..\international\german\ROSB10005.wav
+
+//    Just one more array!
+//..\international\german\ROSB10006.wav
+
+//    Droid comms successfully disrupted, now take out the cruiser's engines and cripple her!
+//..\international\german\ROSB10007.wav
+
+//    One engine down, one to go.
+//..\international\german\ROSB10008.wav
+
+//    Droid cruiser disabled, forward assault ship preparing to deploy fighters.
+//..\international\german\ROSB10009.wav
+
+//    The droids are launching fighters from the rear cruiser, take 'em out!
+//..\international\german\ROSB10010.wav
+
+//    That's one down
+//..\international\german\ROSB10011.wav
+
+//    8 targets remain
+//..\international\german\ROSB10012.wav
+
+//    7 more fighters
+//..\international\german\ROSB10013.wav
+
+//    Just 6 more fighters
+//..\international\german\ROSB10014.wav
+
+//    Halfway there.
+//..\international\german\ROSB10015.wav
+
+//    Four more, hang in there!
+//..\international\german\ROSB10016.wav
+
+//    3 more
+//..\international\german\ROSB10017.wav
+
+//    Just two more to go!
+//..\international\german\ROSB10018.wav
+
+//    One more!
+..\international\german\ROSB10019.wav
+
+//    Well done, men.  The Chancellor should be rescued in no time!
+//..\international\german\ROSB10020.wav
+
+//    Clear the skies of these irritating fighters!
+//..\international\german\ROSB10021.wav
+
+//    Their fighters are on the run!  Press the advantage by taking out the cruiser's comm towers, cutting off their communications.
+//..\international\german\ROSB10022.wav
+
+//    The fighters are in retreat, giving us an opening to destroy the cruiser's engines.
+//..\international\german\ROSB10023.wav
+
+//    The cruiser has been crippled, now take out those communication towers!
+//..\international\german\ROSB10024.wav
+
+//    Your failure has doomed the Chancellor.  I knew we shouldn't have used rookie fliers.
+//..\international\german\ROSB10025.wav
+
+//    Troopers, get to your ships and launch immediately!  Our forward ship is under attack and we must aid them!
+//..\international\german\ROSB10026.wav
+
+//    Destroy the communication arrays on the Droid Cruiser.
+//..\international\german\ROSB10027.wav
+
+//    Destroy the communication array on the Droid Cruiser.
+//..\international\german\ROSB10028.wav
+
+//    Take out the remaining arrays on the Cruiser.
+//..\international\german\ROSB10029.wav
+
+//    Destroy the remaining array
+//..\international\german\ROSB10030.wav
+
+//    4 more arrays!  Stay on target!
+//..\international\german\ROSB10031.wav
+
+//    3 arrays left!
+//..\international\german\ROSB10032.wav
+
+//    Just 2 more arrays
+//..\international\german\ROSB10033.wav
+
+//    The arrays have been destroyed.  Droid communications have been interrupted
+//..\international\german\ROSB10034.wav
+
+//    Good job trooper, droid communication has been disrupted.
+//..\international\german\ROSB10035.wav
+
+//    Alright trooper, you're going to have to land in the enemy hangar and take out their internal systems.
+//..\international\german\ROSB10036.wav
+
+//    Trooper!  Land your ship in the enemy hangar and take out their critical systems.
+//..\international\german\ROSB10037.wav
+
+//    Use your timebombs on the critical systems!
+//..\international\german\ROSB10038.wav
+
+//    Destroy those targets with your timebombs and get outta that ship soldier!
+//..\international\german\ROSB10039.wav
+
+//    Well done trooper, our forward assault ship is in the clear!
+//..\international\german\ROSB10040.wav
+
+//    Good job pilot, you've made the Republic proud.
+//..\international\german\ROSB10041.wav
+
+//    Trooper, you have to destroy those targets!
+//..\international\german\ROSB10042.wav
+
+//    Soldier, stop wasting time, get back on duty and destroy those targets!
+//..\international\german\ROSB10043.wav
+
+//    Pilot! Stop wasting ammo and get to your duties!
+//..\international\german\ROSB10044.wav
+
+//    10 minutes left
+//..\international\german\ROSB10045.wav
+
+//    9 minutes left
+//..\international\german\ROSB10046.wav
+
+//    8 minutes left
+//..\international\german\ROSB10047.wav
+
+//    7 minutes left
+//..\international\german\ROSB10048.wav
+
+//    6 minutes left
+//..\international\german\ROSB10049.wav
+
+//    5 minutes left
+//..\international\german\ROSB10050.wav
+
+//    4 minutes left
+//..\international\german\ROSB10051.wav
+
+//    3 minutes left
+//..\international\german\ROSB10052.wav
+
+//    2 minutes left
+//..\international\german\ROSB10053.wav
+
+//    1 minute left
+//..\international\german\ROSB10054.wav
+
+//    Get out of that hangar and destroy their fighters!
+//..\international\german\ROSB10055.wav
+
+//    reinforcements have been depleted.  We must retreat! 
+..\international\german\ROSB10056.wav
+
+//     Pilots and marines, get to your ships!  The Jedi are depending on you!
+..\international\german\ROSB10057.wav
+
+//     We've got fighters incoming, make them scarce.
+..\international\german\ROSB10058.wav
+
+//     It seems that a Banking Clan ship is serving as a frigate for the Droids, destroy that frigate.
+..\international\german\ROSB10059.wav
+
+//     Pilots, Marines, focus your fire on the main CIS ship.  Drop their shields as quickly as you can.
+..\international\german\ROSB10060.wav
+
+//     Destroy the Droid Communications Array, that should cause enough of a disturbance to allow you to board their ship.
+..\international\german\ROSB10061.wav
+
+//     Well done. Now, fly into their hangar and land. Watch for small arms fire.
+..\international\german\ROSB10062.wav
+
+//     Run into their Command Room and destroy the Life Support Systems.
+//..\international\german\ROSB10063.wav
+
+//     Use your rockets or timebombs to destroy the internal systems.
+..\international\german\ROSB10064.wav
+
+//     As your last objective, grab a fighter and destroy the bridge of the enemy cruiser.
+..\international\german\ROSB10065.wav
+
+//     Well done gents, with flying like that, we'lre well on our way to victory in this war.
+..\international\german\ROSB10066.wav
+
+//     The CIS are too much for us, the day has been lost.
+//..\international\german\ROSB10067.wav
+
+//     We're running out of ships
+..\international\german\ROSB10068.wav
+
+//     Ok Pilot, we’re going to calibrate your controls for the Arc 170.  Fly to the designated ring.
+//..\international\german\ROSB10069.wav
+
+//     Now fly to the second ring, watch your flying.
+//..\international\german\ROSB10070.wav
+
+//     Alright, now fly to the final ring and that will conclude the control calibration.
+//..\international\german\ROSB10071.wav
+
+//     Alright, now fly to the second ring, which will conclude the control calibration.
+//..\international\german\ROSB10072.wav
+
+//     Well done pilot.
+//..\international\german\ROSB10073.wav
+
+//     Pilots, we’re going to toggle you into a different control scheme for a few seconds.
+//..\international\german\ROSB10074.wav
+
+//     This mode has the throttle and roll control on the left analog stick.
+//..\international\german\ROSB10075.wav
+
+//     Turning and Pitch is now on the right analog stick.
+//..\international\german\ROSB10076.wav
+
+//     Now we will change back to the default control scheme for a few moments.
+//..\international\german\ROSB10077.wav
+
+//     This mode has the throttle and roll control on the right analog stick.
+//..\international\german\ROSB10078.wav
+
+//     Turning and Pitch is now on the left analog stick.
+//..\international\german\ROSB10079.wav
+
+//     Alright pilot, make your choice of the two selections.
+//..\international\german\ROSB10080.wav
+
+//     Remember that you can always change your controls in your personal settings
+//..\international\german\ROSB10081.wav
+
+
+
+
+
+
+//    The droids have thrown up a blockade around Kashyyyk.  If we're going to punch through, we'll have to destroy their support ships.
+//..\international\german\ROSB20001.wav
+
+//    That's one frigate down.
+//..\international\german\ROSB20002.wav
+
+//    That's another firgate down.
+//..\international\german\ROSB20003.wav
+
+//    There goes the last of their support ships.  Well done.
+//..\international\german\ROSB20004.wav
+
+//    The droids aren't getting the message; move in and destroy them.
+//..\international\german\ROSB20005.wav
+
+//    Destroy the cruiser's Shield Generators
+//..\international\german\ROSB20006.wav
+
+//    Take out the cruiser's Sensor Array
+//..\international\german\ROSB20007.wav
+
+//    Attack the Droid Cruisers' Engines and cripple their ship.
+//..\international\german\ROSB20008.wav
+
+//    Well done, men.  Now let's get down there and liberate Kashyyyk..
+..\international\german\ROSB20009.wav
+
+//    We can't break through the blockade... Kashyyyk is doomed.
+//..\international\german\ROSB20010.wav
+
+//    The droids have thrown up a blockade around Kashyyyk.  If we're going to punch through, we'll need to weaken their forces in this sector.
+..\international\german\ROSB20011.wav
+
+//    Fighters are inbound, no mercy.
+//..\international\german\ROSB20012.wav
+
+//    Pilots, focus your attacks on their supprot ships.
+..\international\german\ROSB20013.wav
+
+//    Destroy their engines, they must not be allowed to escape.
+//..\international\german\ROSB20014.wav
+
+//    Ok pilots, we're moving onto the planet, destroy their comms and targeting are return to the hangar.  Our backup will mop up the rest.
+//..\international\german\ROSB20015.wav
+
+//    Reinforcements are exhausted.  We have failed.
+..\international\german\ROSB20016.wav
+
+//    Watch your flying!  We're running out of reinforcements
+..\international\german\ROSB20017.wav
+
+//        Their ship guns are pounding our shields, take out those heavy turrets!
+..\international\german\ROSB20018.wav
+
+//        Well done pilot head back to the hangar for your next objective.
+..\international\german\ROSB20019.wav
+
+//        Ok son, we're gonna need to you take that LAAT into the enemy hangar and land it.  It's the only way we're gonna be able to land a force in that ship to destroy the internal systems.
+..\international\german\ROSB20020.wav
+
+//        Okay boys, get to their critical systems room and use your explosives on the fuel and life support systems.
+..\international\german\ROSB20021.wav
+
+//        Alright, this one is easy.  Just grab the Battleplan Holocron and bring it back to our hangar.  Easy right?
+..\international\german\ROSB20022.wav
+
+
+
+
+
+
+//    Okay troops, before we move on to Mustafar proper, Lord Vader wants us to recover those plans for the new Imperial fighter.  To do that you'll have to take out the enemy's hangar shields, zip into the the enemy's hangar, grab the plans, and fly out again, all without getting killed.  Just like in the simulators, right?
+//..\international\german\IOSB30001.wav
+
+//    The shield generators are located on the left and right sides of the hangar.
+//..\international\german\IOSB30002.wav
+
+//    That's one shield generator down, now take out the other one.
+//..\international\german\IOSB30003.wav
+
+//    Well done, gentlemen, now let's board their ship and take back those plans!
+//..\international\german\IOSB30004.wav
+
+//    Alert!  Alert!  Primary shields destroyed, Auxilliary shields activated.
+//..\international\german\IOSB30005.wav
+
+//    Ignore the auxilliary shields, they're not powerful enoough to stop you from entering the hangar.
+//..\international\german\IOSB30006.wav
+
+//    Holocron secured, return to your ship for immediate evac.
+//..\international\german\IOSB30007.wav
+
+//    Well done, Trooper.  Lord Vader is most pleased.
+//..\international\german\IOSB30008.wav
+
+//    You couldn't even get their shields down... perhaps it's time for Lord Vader to re-evaluate the status of the 501st.
+//..\international\german\IOSB30009.wav
+
+//    Your failure to retrieve the stolen fighter plans has set back the Empire's military efforts by nearly a decade.  Report to Lord Vader for "re-assignment."
+//..\international\german\IOSB30010.wav
+
+//    Men, we've come out of hyperspace next to our target.  They have the stolen plans on board and must not be allowed to escape.
+//..\international\german\IOSB30011.wav
+
+//    Droid frigates off the port side of the ship, get to it men!  Destroy those ships!
+//..\international\german\IOSB30012.wav
+
+//    Crush them!
+//..\international\german\IOSB30013.wav
+
+//    Fighters incoming, pilots, be on guard!
+//..\international\german\IOSB30014.wav
+
+//    Well done, now fly into their hangar and get those plans back.
+//..\international\german\IOSB30015.wav
+
+//    The plans are in locked in the ships' shield room, destroy the generator nearby and drop the defense barrier to that room.
+//..\international\german\IOSB30016.wav
+
+//    Soldier reinforcements have bee exhausted.  We have failed.
+..\international\german\IOSB30017.wav
+
+//    Reinforcements are running out
+..\international\german\IOSB30018.wav
+
+//        Sir!  The droids have landed on our ship sir!  We can't launch our fighters!  
+..\international\german\IISB30001.wav
+
+//        Calm down son, get out there and destroy that transport.  Use any means necessary to clear our hangar!
+..\international\german\IOSB30020.wav
+
+//        Alright men, now get into your fighters and give those droids all you've got.  Destroy their incoming fighters and bombers.
+..\international\german\IOSB30021.wav
+
+//        Watch out for the asteroids pilots, they can be destroyed with laser fire, but are still a considerable danger.
+..\international\german\IOSB30022.wav
+
+//        Attack their shields!  Use a bomber to deliver the maximum damage.
+..\international\german\IOSB30023.wav
+
+//        Last bit pilots, you need to get one of their Strike Bombers and return it to our hangar.  Just land in their hangar, grab the ship and land it in our hangar.  You can do it, I know you can.
+..\international\german\IOSB30024.wav
+
+//        Excellent job pilots and marines.  Lord Vader will be most pleased.  
+..\international\german\IOSB30025.wav
+
+//        Your failure will yield more than a bruised ego once Lord Vader hears of this.  You might want to smash into an asteroid and save him the trouble.
+//..\international\german\IOSB30026.wav
+
+
+
+// ==================================== Multiplayer Objective VO ==============================================================
+
+
+//        Destroy the enemy frigate
+..\international\german\IOSMP0001.wav
+
+//        Destroy the 5 critical systems on the enemy ship
+..\international\german\IOSMP0002.wav
+
+//        Their Frigate has been destroyed.
+..\international\german\IOSMP0003.wav
+
+//        Our Frigate has been destroyed!
+..\international\german\IOSMP0004.wav
+
+//        Their engines have been destroyed.
+..\international\german\IOSMP0005.wav
+
+//        Our Engines have been destroyed.
+..\international\german\IOSMP0006.wav
+
+//        Our engines are under attack.
+..\international\german\IOSMP0007.wav
+
+//        Their Life support systems have be destroyed.
+..\international\german\IOSMP0008.wav
+
+//        Our Life Support systems have been destroyed!
+..\international\german\IOSMP0009.wav
+
+//        Their Bridge has been destroyed.
+..\international\german\IOSMP0010.wav
+
+//        Our Bridge has been destroyed!
+..\international\german\IOSMP0011.wav
+
+//        Their Communications Relay has been destroyed.
+..\international\german\IOSMP0012.wav
+
+//        Our Communications Relay has been destroyed!
+..\international\german\IOSMP0013.wav
+
+//        Their Sensors Array has been destroyed.
+..\international\german\IOSMP0014.wav
+
+//        Our Sensors Array has been destroyed.
+..\international\german\IOSMP0015.wav
+
+//        Their shields have been disabled.
+..\international\german\IOSMP0016.wav
+
+//        Our Shields have been disabled.
+..\international\german\IOSMP0017.wav
+
+//        Their Shields are back online
+..\international\german\IOSMP0018.wav
+
+//        Our Shields are back online.
+..\international\german\IOSMP0019.wav
+
+//        Their Auto-Turret defenses have been disabled.
+..\international\german\IOSMP0020.wav
+
+//        Our Auto-Turret defenses have been disabled!
+..\international\german\IOSMP0021.wav
+
+//        Their Turret defenses are back online
+..\international\german\IOSMP0022.wav
+
+//        Our turret defenses are back online.
+..\international\german\IOSMP0023.wav
+
+//        We are victorious, well done men.
+..\international\german\IOSMP0024.wav
+
+//        We have been defeated.
+..\international\german\IOSMP0025.wav
+
+//        5 frigates remaining
+..\international\german\IOSMP0031.wav
+
+//        4 frigates remaining
+..\international\german\IOSMP0032.wav
+
+//        3 frigates remaining
+..\international\german\IOSMP0033.wav
+
+//        2 frigates remaining
+..\international\german\IOSMP0034.wav
+
+//        1 frigate remaining
+..\international\german\IOSMP0035.wav
+
+//        Destroy the enemy frigate
+..\international\german\AOSMP0001.wav
+
+//        Destroy the 5 critical systems on the enemy ship
+..\international\german\AOSMP0002.wav
+
+//        Their Frigate has been destroyed.
+..\international\german\AOSMP0003.wav
+
+//        Our Frigate has been destroyed!
+..\international\german\AOSMP0004.wav
+
+//        Their engines have been destroyed.
+..\international\german\AOSMP0005.wav
+
+//        Our Engines have been destroyed.
+..\international\german\AOSMP0006.wav
+
+//        Our engines are under attack.
+..\international\german\AOSMP0007.wav
+
+//        Their Life support systems have be destroyed.
+..\international\german\AOSMP0008.wav
+
+//        Our Life Support systems have been destroyed!
+..\international\german\AOSMP0009.wav
+
+//        Their Bridge has been destroyed.
+..\international\german\AOSMP0010.wav
+
+//        Our Bridge has been destroyed!
+..\international\german\AOSMP0011.wav
+
+//        Their Communications Relay has been destroyed.
+..\international\german\AOSMP0012.wav
+
+//        Our Communications Relay has been destroyed!
+..\international\german\AOSMP0013.wav
+
+//        Their Sensors Array has been destroyed.
+..\international\german\AOSMP0014.wav
+
+//        Our Sensors Array has been destroyed.
+..\international\german\AOSMP0015.wav
+
+//        Their shields have been disabled.
+..\international\german\AOSMP0016.wav
+
+//        Our Shields have been disabled.
+..\international\german\AOSMP0017.wav
+
+//        Their Shields are back online
+..\international\german\AOSMP0018.wav
+
+//        Our Shields are back online.
+..\international\german\AOSMP0019.wav
+
+//        Their Auto-Turret defenses have been disabled.
+..\international\german\AOSMP0020.wav
+
+//        Our Auto-Turret defenses have been disabled!
+..\international\german\AOSMP0021.wav
+
+//        Their Turret defenses are back online
+..\international\german\AOSMP0022.wav
+
+//        Our turret defenses are back online.
+..\international\german\AOSMP0023.wav
+
+//        The day is ours!  
+..\international\german\AOSMP0024.wav
+
+//        We were simply no match for the Empire.
+..\international\german\AOSMP0025.wav
+
+//        5 frigates remaining
+..\international\german\AOSMP0031.wav
+
+//        4 frigates remaining
+..\international\german\AOSMP0032.wav
+
+//        3 frigates remaining
+..\international\german\AOSMP0033.wav
+
+//        2 frigates remaining
+..\international\german\AOSMP0034.wav
+
+//        1 frigate remaining
+..\international\german\AOSMP0035.wav
+
+//        Destroy the enemy frigate
+..\international\german\ROSMP0001.wav
+
+//        Destroy the 5 critical systems on the enemy ship
+..\international\german\ROSMP0002.wav
+
+//        Their Frigate has been destroyed.
+..\international\german\ROSMP0003.wav
+
+//        Our Frigate has been destroyed!
+..\international\german\ROSMP0004.wav
+
+//        Their engines have been destroyed.
+..\international\german\ROSMP0005.wav
+
+//        Our Engines have been destroyed.
+..\international\german\ROSMP0006.wav
+
+//        Our engines are under attack.
+..\international\german\ROSMP0007.wav
+
+//        Their Life support systems have be destroyed.
+..\international\german\ROSMP0008.wav
+
+//        Our Life Support systems have been destroyed!
+..\international\german\ROSMP0009.wav
+
+//        Their Bridge has been destroyed.
+..\international\german\ROSMP0010.wav
+
+//        Our Bridge has been destroyed!
+..\international\german\ROSMP0011.wav
+
+//        Their Communications Relay has been destroyed.
+..\international\german\ROSMP0012.wav
+
+//        Our Communications Relay has been destroyed!
+..\international\german\ROSMP0013.wav
+
+//        Their Sensors Array has been destroyed.
+..\international\german\ROSMP0014.wav
+
+//        Our Sensors Array has been destroyed.
+..\international\german\ROSMP0015.wav
+
+//        Their shields have been disabled.
+..\international\german\ROSMP0016.wav
+
+//        Our Shields have been disabled.
+..\international\german\ROSMP0017.wav
+
+//        Their Shields are back online
+..\international\german\ROSMP0018.wav
+
+//        Our Shields are back online.
+..\international\german\ROSMP0019.wav
+
+//        Their Auto-Turret defenses have been disabled.
+..\international\german\ROSMP0020.wav
+
+//        Our Auto-Turret defenses have been disabled!
+..\international\german\ROSMP0021.wav
+
+//        Their Turret defenses are back online
+..\international\german\ROSMP0022.wav
+
+//        Our turret defenses are back online.
+..\international\german\ROSMP0023.wav
+
+//        The day is ours!  For the Republic!
+..\international\german\ROSMP0024.wav
+
+//        The battle has been lost.
+..\international\german\ROSMP0025.wav
+
+//        5 frigates remaining
+..\international\german\ROSMP0031.wav
+
+//        4 frigates remaining
+..\international\german\ROSMP0032.wav
+
+//        3 frigates remaining
+..\international\german\ROSMP0033.wav
+
+//        2 frigates remaining
+..\international\german\ROSMP0034.wav
+
+//        1 frigate remaining
+..\international\german\ROSMP0035.wav
+
+//        Destroy the enemy frigate
+..\international\german\COSMP0001.wav
+
+//        Destroy the 5 critical systems on the enemy ship
+..\international\german\COSMP0002.wav
+
+//        Their Frigate has been destroyed.
+..\international\german\COSMP0003.wav
+
+//        Our Frigate has been destroyed!
+..\international\german\COSMP0004.wav
+
+//        Their engines have been destroyed.
+..\international\german\COSMP0005.wav
+
+//        Our Engines have been destroyed.
+..\international\german\COSMP0006.wav
+
+//        Our engines are under attack.
+..\international\german\COSMP0007.wav
+
+//        Their Life support systems have be destroyed.
+..\international\german\COSMP0008.wav
+
+//        Our Life Support systems have been destroyed!
+..\international\german\COSMP0009.wav
+
+//        Their Bridge has been destroyed.
+..\international\german\COSMP0010.wav
+
+//        Our Bridge has been destroyed!
+..\international\german\COSMP0011.wav
+
+//        Their Communications Relay has been destroyed.
+..\international\german\COSMP0012.wav
+
+//        Our Communications Relay has been destroyed!
+..\international\german\COSMP0013.wav
+
+//        Their Sensors Array has been destroyed.
+..\international\german\COSMP0014.wav
+
+//        Our Sensors Array has been destroyed.
+..\international\german\COSMP0015.wav
+
+//        Their shields have been disabled.
+..\international\german\COSMP0016.wav
+
+//        Our Shields have been disabled.
+..\international\german\COSMP0017.wav
+
+//        Their Shields are back online
+..\international\german\COSMP0018.wav
+
+//        Our Shields are back online.
+..\international\german\COSMP0019.wav
+
+//        Their Auto-Turret defenses have been disabled.
+..\international\german\COSMP0020.wav
+
+//        Our Auto-Turret defenses have been disabled!
+..\international\german\COSMP0021.wav
+
+//        Their Turret defenses are back online
+..\international\german\COSMP0022.wav
+
+//        Our turret defenses are back online.
+..\international\german\COSMP0023.wav
+
+//        We have crushed the enemy.   Roger Roger.
+..\international\german\COSMP0024.wav
+
+//        Our forces have been crushed, we must retreat.
+..\international\german\COSMP0025.wav
+
+//        5 frigates remaining
+..\international\german\COSMP0031.wav
+
+//        4 frigates remaining
+..\international\german\COSMP0032.wav
+
+//        3 frigates remaining
+..\international\german\COSMP0033.wav
+
+//        2 frigates remaining
+..\international\german\COSMP0034.wav
+
+//        1 frigate remaining
+..\international\german\COSMP0035.wav

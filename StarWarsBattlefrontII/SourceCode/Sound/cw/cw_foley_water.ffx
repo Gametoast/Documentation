@@ -1,0 +1,158 @@
+//-cis Foley Effects-----------------------------------------------------------
+
+//-Soldier---------------------------------------------------------------------
+
+FoleyFXSoldier()
+{
+    Name("cis_inf_droid_water");
+    Class("cis_inf_droid");
+    FootstepLeftWalk("cis_inf_droid_walk_water_left");
+    FootstepRightWalk("cis_inf_droid_walk_water_right");
+    FootstepLeftRun("cis_inf_droid_run_water_left");
+    FootstepRightRun("cis_inf_droid_run_water_right");
+    FootstepLeftStop("cis_inf_droid_stop_water");
+    FootstepRightStop("cis_inf_droid_stop_water");
+    Jump("cis_inf_droid_jump_water");
+    Land("cis_inf_droid_land_water");
+    Roll("cis_inf_droid_roll_water");
+//    Prone("cis_inf_droid_lie_water");
+    Squat("cis_inf_droid_squat_water");
+////    Stand("cis_inf_droid_getup_water");
+    Bodyfall("cis_inf_droid_lgBF_water");
+}
+#ifplatform ps2
+FoleyFXSoldier()
+{
+    Name("cis_inf_sbdroid_water");
+    Class("cis_inf_sbdroid");
+    FootstepLeftWalk("cis_inf_droid_walk_water_left");
+    FootstepRightWalk("cis_inf_droid_walk_water_right");
+    FootstepLeftRun("cis_inf_droid_run_water_left");
+    FootstepRightRun("cis_inf_droid_run_water_right");
+    FootstepLeftStop("cis_inf_droid_stop_water");
+    FootstepRightStop("cis_inf_droid_stop_water");
+    Jump("cis_inf_droid_jump_water");
+    Land("cis_inf_droid_land_water");
+    Roll("cis_inf_droid_roll_water");
+//    Prone("cis_inf_droid_lie_water");
+    Squat("cis_inf_droid_squat_water");
+////    Stand("cis_inf_droid_getup_water");
+    Bodyfall("cis_inf_droid_lgBF_water");
+}
+#endifplatform ps2
+
+#ifplatform xbox pc
+FoleyFXSoldier()
+{
+    Name("cis_inf_sbdroid_water");
+    Class("cis_inf_sbdroid");    
+    FootstepLeftWalk("cis_inf_sbdroid_walk_water_left");
+    FootstepRightWalk("cis_inf_sbdroid_walk_water_right");
+    FootstepLeftRun("cis_inf_sbdroid_run_water_left");
+    FootstepRightRun("cis_inf_sbdroid_run_water_right");
+    FootstepLeftStop("cis_inf_sbdroid_stop_water");
+    FootstepRightStop("cis_inf_sbdroid_stop_water");
+    Jump("cis_inf_sbdroid_jump_water");
+    Land("cis_inf_sbdroid_land_water");
+    Roll("cis_inf_sbdroid_roll_water");
+//    Prone("cis_inf_sbdroid_lie_water");
+    Squat("cis_inf_sbdroid_squat_water");
+////    Stand("cis_inf_sbdroid_getup_water");
+    Bodyfall("cis_inf_sbdroid_lgBF_water");
+}
+#endifplatform xbox pc
+//-rep Foley Effects-----------------------------------------------------------
+
+//-Trooper---------------------------------------------------------------------
+
+FoleyFXSoldier()
+{
+    Name("rep_inf_trooper_water");
+    Class("rep_inf_trooper");
+    FootstepLeftWalk("rep_inf_trooper_walk_water_left");
+    FootstepRightWalk("rep_inf_trooper_walk_water_right");
+    FootstepLeftRun("rep_inf_trooper_run_water_left");
+    FootstepRightRun("rep_inf_trooper_run_water_right");
+    FootstepLeftStop("rep_inf_trooper_stop_water");
+    FootstepRightStop("rep_inf_trooper_stop_water");
+    Jump("rep_inf_trooper_jump_water");
+    Land("rep_inf_trooper_land_water");
+    Roll("rep_inf_trooper_roll_water");
+//    Prone("rep_inf_trooper_lie_water");
+    Squat("rep_inf_trooper_squat_water");
+////    Stand("rep_inf_trooper_getup_water");
+    Bodyfall("rep_inf_trooper_lgBF_water");
+}
+FoleyFXSoldier()
+{
+    Name("rep_inf_soldier_water");
+    Class("rep_inf_soldier");
+    FootstepLeftWalk("rep_inf_soldier_walk_water_left");
+    FootstepRightWalk("rep_inf_soldier_walk_water_right");
+    FootstepLeftRun("rep_inf_soldier_run_water_left");
+    FootstepRightRun("rep_inf_soldier_run_water_right");
+    FootstepLeftStop("rep_inf_soldier_stop_water");
+    FootstepRightStop("rep_inf_soldier_stop_water");
+    Jump("rep_inf_soldier_jump_water");
+    Land("rep_inf_soldier_land_water");
+    Roll("rep_inf_soldier_roll_water");
+//    Prone("rep_inf_soldier_lie_water");
+    Squat("rep_inf_soldier_squat_water");
+////    Stand("rep_inf_soldier_getup_water");
+    Bodyfall("rep_inf_soldier_lgBF_water");
+}
+
+FoleyFXSoldier()
+{
+    Name("cis_inf_soldier_water");
+    Class("cis_inf_soldier");
+    FootstepLeftWalk("cis_inf_soldier_walk_water_left");
+    FootstepRightWalk("cis_inf_soldier_walk_water_right");
+    FootstepLeftRun("cis_inf_soldier_run_water_left");
+    FootstepRightRun("cis_inf_soldier_run_water_right");
+    FootstepLeftStop("cis_inf_soldier_stop_water");
+    FootstepRightStop("cis_inf_soldier_stop_water");
+    Jump("cis_inf_soldier_jump_water");
+    Land("cis_inf_soldier_land_water");
+    Roll("cis_inf_soldier_roll_water");
+//    Prone("cis_inf_soldier_lie_water");
+    Squat("cis_inf_soldier_squat_water");
+////    Stand("cis_inf_soldier_getup_water");
+    Bodyfall("cis_inf_soldier_lgBF_water");
+}
+FoleyFXSoldier()
+{
+    Name("imp_inf_trooper_water");
+    Class("imp_inf_trooper");
+    FootstepLeftWalk("rep_inf_trooper_walk_water_left");
+    FootstepRightWalk("rep_inf_trooper_walk_water_right");
+    FootstepLeftRun("rep_inf_trooper_run_water_left");
+    FootstepRightRun("rep_inf_trooper_run_water_right");
+    FootstepLeftStop("rep_inf_trooper_stop_water");
+    FootstepRightStop("rep_inf_trooper_stop_water");
+    Jump("rep_inf_trooper_jump_water");
+    Land("rep_inf_trooper_land_water");
+    Roll("rep_inf_trooper_roll_water");
+//    Prone("rep_inf_trooper_lie_water");
+    Squat("rep_inf_trooper_squat_water");
+////    Stand("rep_inf_trooper_getup_water");
+    Bodyfall("rep_inf_trooper_lgBF_water");
+}
+FoleyFXSoldier()
+{
+    Name("imp_inf_soldier_water");
+    Class("imp_inf_soldier");
+    FootstepLeftWalk("rep_inf_soldier_walk_water_left");
+    FootstepRightWalk("rep_inf_soldier_walk_water_right");
+    FootstepLeftRun("rep_inf_soldier_run_water_left");
+    FootstepRightRun("rep_inf_soldier_run_water_right");
+    FootstepLeftStop("rep_inf_soldier_stop_water");
+    FootstepRightStop("rep_inf_soldier_stop_water");
+    Jump("rep_inf_soldier_jump_water");
+    Land("rep_inf_soldier_land_water");
+    Roll("rep_inf_soldier_roll_water");
+//    Prone("rep_inf_soldier_lie_water");
+    Squat("rep_inf_soldier_squat_water");
+////    Stand("rep_inf_soldier_getup_water");
+    Bodyfall("rep_inf_soldier_lgBF_water");
+}

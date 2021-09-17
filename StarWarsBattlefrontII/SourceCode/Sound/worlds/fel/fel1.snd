@@ -1,0 +1,248 @@
+// ----- Soundspace Start ----------------------------------------------
+
+// ----- Soundspace End -----------------------------------------------------
+
+
+
+// ----- Ambient Environment Streams Start ------------------------------
+SoundStreamProperties()
+{
+    Name("fel_amb_wind");
+    Group("ambientenv");
+    Inherit("ambientfx_template");
+    Stream("fel1");
+    Gain(0.7)
+    SegmentList()
+    {
+        Segment("fel_amb_wind", 1.0);
+    }
+}
+
+// ----- Ambient Environment Streams End ---------------------------
+
+
+
+// ----- Prop Ambient Effects Start --------------------------------
+SoundProperties()
+{
+    Name("fel_amb_wildlife")
+    Group("ambient_static");
+    Inherit("pain_chatter_template");
+    #ifplatform pc
+    Gain(0.8);
+    #endifplatform pc
+    #ifplatform xbox
+    Gain(0.6);
+    #endifplatform xbox
+    #ifplatform ps2
+    Gain(0.6);
+    #endifplatform ps2
+    Pitch(1.0);
+    PitchDev(0.1);
+    PlayInterval(0.5);
+    PlayIntervalDev(0.0);
+    PlayProbability(0.6);
+    SampleList()
+    {
+        Sample("fel_amb_wildlife01", 1.0, 0.0, 0.0);
+        Sample("fel_amb_wildlife02", 1.0, 0.0, 0.0);
+        Sample("fel_amb_wildlife03", 1.0, 0.0, 0.0);
+        Sample("fel_amb_wildlife04", 1.0, 0.0, 0.0);
+        Sample("fel_amb_wildlife05", 1.0, 0.0, 0.0);
+        Sample("fel_amb_wildlife06", 1.0, 0.0, 0.0);
+        Sample("fel_amb_wildlife07", 1.0, 0.0, 0.0);
+        Sample("fel_amb_wildlife08", 1.0, 0.0, 0.0);
+        Sample("fel_amb_wildlife09", 1.0, 0.0, 0.0);
+        Sample("fel_amb_wildlife11", 1.0, 0.0, 0.0);
+        Sample("fel_amb_wildlife12", 1.0, 0.0, 0.0);
+        Sample("fel_amb_wildlife13", 1.0, 0.0, 0.0);
+        Sample("fel_amb_wildlife14", 1.0, 0.0, 0.0);
+        Sample("fel_amb_wildlife15", 1.0, 0.0, 0.0);
+        Sample("fel_amb_wildlife16", 1.0, 0.0, 0.0);
+        Sample("fel_amb_wildlife17", 1.0, 0.0, 0.0);
+        Sample("fel_amb_wildlife18", 1.0, 0.0, 0.0);
+        Sample("fel_amb_wildlife19", 1.0, 0.0, 0.0);
+        Sample("fel_amb_wildlife21", 1.0, 0.0, 0.0);
+        Sample("fel_amb_wildlife22", 1.0, 0.0, 0.0);
+        Sample("fel_amb_wildlife23", 1.0, 0.0, 0.0);
+        Sample("fel_amb_wildlife24", 1.0, 0.0, 0.0);
+        Sample("fel_amb_wildlife25", 1.0, 0.0, 0.0);
+    }
+}
+// ----- Prop Ambient Effects End ----------------------------------
+
+
+
+
+// Acklay
+
+SoundProperties()
+{
+    Name("acklaystepleft");
+    Pitch(1.0);
+    PitchDev(0.1);
+    #ifplatform xbox pc
+    Gain(0.6);
+    #endifplatform xbox pc
+    #ifplatform ps2
+    Gain(0.6);
+    #endifplatform ps2
+    GainDev(0.0);
+    ReverbGain(1.0);
+    Bus("soundfx");
+    Looping(0);
+    Pan(0.0);
+    MinDistance(15.0);
+    MuteDistance(100.0);
+    MaxDistance(100.0);
+    RollOff(3.5);
+    Mode3D(1);
+    Bias(0.0001);
+    CyclePlayback(1);
+    Priority(0.7);
+    SampleList()
+    {
+        Sample("mvt_acklay_fs_01", 0.5);
+        Sample("mvt_acklay_fs_03", 0.5);
+        Sample("mvt_acklay_fs_05", 0.5);
+
+    }
+}
+
+SoundProperties()
+{
+    Name("acklaystepright");
+    Pitch(1.0);
+    PitchDev(0.1);
+    #ifplatform xbox pc
+    Gain(0.6);
+    #endifplatform xbox pc
+    #ifplatform ps2
+    Gain(0.6);
+    #endifplatform ps2    
+    GainDev(0.0);
+    ReverbGain(1.0);
+    Bus("soundfx");
+    Looping(0);
+    Pan(0.0);
+    MinDistance(15.0);
+    MuteDistance(100.0);
+    MaxDistance(100.0);
+    RollOff(3.5);
+    Mode3D(1);
+    Bias(0.0001);
+    CyclePlayback(1);
+    Priority(0.7);
+    SampleList()
+    {
+        Sample("mvt_acklay_fs_02", 0.5);
+        Sample("mvt_acklay_fs_04", 0.5);
+        Sample("mvt_acklay_fs_06", 0.5);
+    }
+}
+
+SoundProperties()
+{
+    Name("acklayhurt");
+    Inherit("pain_chatter_template");
+    PitchDev(0.15);
+    MinDistance(25.0);
+    MuteDistance(150.0);
+    MaxDistance(150.0);
+    RollOff(3.5);
+    SampleList()
+    {
+        Sample("crtr_acklay_hurt", 0.33);
+        Sample("crtr_acklay_call_04", 0.33);
+        Sample("crtr_acklay_call_05", 0.33);
+        Sample("crtr_acklay_call_06", 0.33);
+    }
+}
+
+
+SoundProperties()
+{
+    Name("acklaydie");
+    Inherit("pain_chatter_template");
+    PitchDev(0.15);
+    MinDistance(25.0);
+    MuteDistance(150.0);
+    MaxDistance(150.0);
+    SampleList()
+    {
+        Sample("crtr_acklay_death", 0.33);
+        Sample("crtr_acklay_call_06", 0.33);
+    }
+}
+
+
+SoundProperties()
+{
+    Name("acklaychatter");
+    Inherit("pain_chatter_template");
+    PlayInterval(2.0);
+    PlayIntervalDev(1.0);
+    PitchDev(0.15);
+    MinDistance(25.0);
+    MuteDistance(150.0);
+    MaxDistance(150.0);
+    SampleList()
+    {
+        Sample("crtr_acklay_call_01", 0.33);
+        Sample("crtr_acklay_call_02", 0.33);
+        Sample("crtr_acklay_call_03", 0.33);
+        Sample("crtr_acklay_call_04", 0.33);
+        Sample("crtr_acklay_call_05", 0.33);
+        Sample("crtr_acklay_call_06", 0.33);
+    }
+}
+
+SoundProperties()
+{
+    Name("foliage_collision");
+    Pitch(0.9);
+    PitchDev(0.2);
+#ifplatform pc
+    Gain(0.37);
+#endifplatform pc
+#ifplatform xbox
+    Gain(0.6);
+#endifplatform xbox
+#ifplatform pc ps2
+    Gain(0.9);
+#endifplatform pc ps2
+    GainDev(0.05);
+    ReverbGain(1.0);
+    Bus("soundfx");
+    Looping(0);
+    Pan(0.0);
+    MinDistance(1.0);
+    MuteDistance(40.0);
+    MaxDistance(40.0);
+    RollOff(10.0);
+    Mode3D(1);
+    Bias(0.0001);
+    Priority(0.5);
+    SampleList()
+    {
+        Sample("emt_foliageCollision_01", 0.33);
+        Sample("emt_foliageCollision_02", 0.33);
+        Sample("emt_foliageCollision_03", 0.33);
+
+    }
+}
+
+
+
+
+SoundProperties()
+{
+    Name("npc_inf_acklay_water")
+    Group("body_movement");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("mvt_trooper_land_wtr", 1.0);
+
+    }
+}

@@ -1,0 +1,179 @@
+// imp_fly_tiebomber ----------------------------------
+
+
+SoundProperties()
+{
+    Name("imp_weap_fly_tiebomber_bomb_fire");
+    Group("weapons");
+    Inherit("veh_weapon_template");
+    Gain(1.0);
+    Priority(1.0);
+    SampleList()
+    {
+        Sample("wpn_tie_bombLauncher_fire", 1.0);
+    }
+}
+
+//TIE Bomber Ptorp is recoilless cannon
+SoundProperties()
+{
+    Name("imp_weap_fly_tiebomber_ptorpedo_fire");
+    Group("weapons");
+    Inherit("veh_weapon_template");
+    SampleList()
+    {
+        //Sample("wpn_awing_torpedo", 1.0);
+        Sample("wpn_ywing_blaster_fire", 1.0); // This is right, ptorp is recoiless blaster
+    }
+}
+
+SoundProperties()
+{
+    Name("imp_weap_fly_guided_rocket_fire");
+    Group("weapons");
+    Inherit("veh_weapon_template");
+    Gain(1.0);
+    SampleList()
+    {
+        Sample("wpn_hailfire_missile_fire", 1.0);
+    }
+}
+
+
+
+
+// Takeoff
+
+
+// Land
+
+// Turnon
+
+// Turnoff  //Played when the flyer turns off
+
+// Turning Off   // Played when a soldier leaves the flyer
+
+// Shift Up
+
+// Shift Down
+
+// Roll side to side
+
+// Flip/Roll forward/back
+
+SoundProperties()
+{
+    Name("imp_fly_tie_bomber_flip");
+    Group("vehicles");
+    Inherit("flyer_trick_template");
+    Gain(1.0)
+    SampleList()
+    {
+      Sample("tie_bomber_roll", 1.0);
+
+    }
+}
+// Damage
+
+// Boost
+
+// ----- Start TIE BomberEngine Parameter Graphs ----------------------------------------------
+
+//Acceleraton             = 40.0
+//MinSpeed                = 35.0 = .27
+//MidSpeed                = 60.0 = .46
+//MaxSpeed                = 85.0 = .65 Contrails at 93 = .72
+//BoostAcceleration       = 80.0
+//BoostSpeed              = 130.0
+
+ParameterGraph()
+{
+    Name("tiebengine_hi_speed");
+    ControlPoint(0.0, 0.7);
+    ControlPoint(0.46, 0.8);
+    ControlPoint(1.0, 1.0);
+}
+
+ParameterGraph()
+{
+    Name("tiebengine_hi_acceleration");
+    ControlPoint(-0.1, 0.8);
+    ControlPoint(0.0, 0.8);
+    ControlPoint(0.46, 0.9);
+    ControlPoint(1.0, 1.0);
+}
+
+ParameterGraph()
+{
+    Name("tiebengine_mid_acceleration");
+    ControlPoint(-0.1, 1.0);
+    ControlPoint(0.0, 1.0);
+    ControlPoint(0.46, 1.0);
+    ControlPoint(1.0, 1.0);
+}
+
+ParameterGraph()
+{
+    Name("tiebengine_mid_speed");
+    ControlPoint(-0.1, 0.7);
+    ControlPoint(0.0, 0.7);
+    ControlPoint(0.46, 0.8);
+    ControlPoint(1.0, 1.0);
+}
+
+ParameterGraph()
+{
+    Name("tiebengine_lo_acceleration");
+    ControlPoint(-0.1, 1.0);
+    ControlPoint(0.0, 1.0);
+    ControlPoint(0.46, 1.0);
+    ControlPoint(1.0, 1.0);
+}
+
+ParameterGraph()
+{
+    Name("tiebengine_lo_speed");
+    ControlPoint(-0.1, 0.8);
+    ControlPoint(0.0, 0.6);
+    ControlPoint(0.46, 0.7);
+    ControlPoint(1.0, 1.0);
+}
+
+
+SoundLayered()
+{
+    Name("tiebengine_layered");
+    Layer("tieb_engine_hi", "imp_fly_tie_engine_hi", 0.0);
+    Layer("tieb_engine_mid", "imp_fly_tie_engine_mid", 0.0);
+    Layer("tieb_engine_low", "imp_fly_tie_engine_low", 0.0);
+}
+
+SoundParameterized()
+{
+    Name("imp_fly_tieb_engine_parameterized");
+    SoundLayered("tiebengine_layered");
+    Layer()
+    {
+        Name("tieb_engine_hi");
+        ParameterGraph("speed",        "tiebengine_hi_speed",        "pitch");
+        ParameterGraph("acceleration", "tiebengine_hi_acceleration", "gain");
+        ParameterGraph("turnontime",   "engine_turnon_gain",      "gain");
+        ParameterGraph("turnofftime",  "engine_turnoff_gain",     "gain");
+    }
+    Layer()
+    {
+        Name("tieb_engine_mid");
+        ParameterGraph("speed",        "tiebengine_mid_speed",        "pitch");
+        ParameterGraph("acceleration", "tiebengine_mid_acceleration", "gain");
+        ParameterGraph("turnontime",   "engine_turnon_gain",      "gain");
+        ParameterGraph("turnofftime",  "engine_turnoff_gain",     "gain");
+    }
+    Layer()
+    {
+        Name("tieb_engine_low");
+        ParameterGraph("speed",        "tiebengine_lo_speed",        "pitch");
+        ParameterGraph("acceleration", "tiebengine_lo_acceleration", "gain");
+        ParameterGraph("turnontime",   "engine_turnon_gain",      "gain");
+        ParameterGraph("turnofftime",  "engine_turnoff_gain",     "gain");
+    }
+}

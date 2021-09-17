@@ -1,0 +1,91 @@
+// Ambient Environment ----------------------------------------------------------
+
+SoundStreamProperties()
+{
+    Name("kas_amb_forest");
+    Group("ambientenv");
+    Inherit("ambientfx_template");
+    #ifplatform pc
+    Gain(0.4);
+    #endifplatform pc
+    #ifplatform xbox ps2
+    Gain(0.2);
+    #endifplatform xbox ps2    
+    Stream("kas");
+    SegmentList()
+    {
+        Segment("kas_amb_forest", 1.0);
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("kas_amb_waterside");
+    Group("ambientenv");
+    Inherit("ambientfx_template");
+    RandomPlayPos(1);
+    #ifplatform pc
+    Gain(0.6);
+    #endifplatform pc
+    #ifplatform xbox ps2
+    Gain(0.4);
+    #endifplatform xbox ps2    
+    Stream("kas");
+    SegmentList()
+    {
+        Segment("kas_amb_waterside", 1.0);
+    }
+}
+
+// Ambient Emitters -------------------------------------------------------------
+
+SoundProperties()
+{
+    Name("waterlapping");
+    Group("ambientenv");
+    Inherit("ambientemt_static_template");
+    #ifplatform pc
+    Gain(0.4);
+    #endifplatform pc
+    #ifplatform xbox ps2
+    Gain(0.2);
+    #endifplatform xbox ps2
+    Looping(1);
+    RandomPlayPos(1);
+    RollOff(1.0);
+    //Max and Min distance set in wld or lyr file
+    SampleList()
+    {
+        Sample("emt_gentle_lapping_wtr_lp", 1.0);
+    }
+}
+
+
+
+// ----- Start Wookiee Launcher --------------------
+
+
+SoundProperties()
+{
+    Name("wok_weap_inf_rocket_fire");
+    Group("weapons");
+    Inherit("weapon_template");
+    SampleList()
+    {
+        Sample("wpn_cis_rcktlauncher_fire", 1.0);
+    }
+}
+
+
+SoundProperties()
+{
+    Name("wok_weap_inf_grenadelauncher_fire");
+    Group("weapons");
+    Inherit("weapon_template");
+    SampleList()
+    {
+        Sample("wpn_rep_grenadelaunch_fire", 1.0);
+    }
+}
+
+//--

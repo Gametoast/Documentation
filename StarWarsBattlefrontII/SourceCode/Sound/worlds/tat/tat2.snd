@@ -1,0 +1,274 @@
+// Soundspace Start ----------------------------------------------
+
+Space()
+{
+    Name("Default");
+    I3DL2ReverbPreset("noreverb");
+    DirectGain(1.0);
+    DirectHFGain(1.0);
+    RoomGain(0.0);
+    RoomHFGain(0.0);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.5);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.5);
+    OcclusionLFRatio(1.0);
+}
+
+
+#ifplatform xbox pc
+I3DL2ReverbPreset()
+{
+    Name("bar");
+    RoomGain(0.4);
+    RoomHFGain(0.4);
+    RoomRollOff(1.0);
+    DecayTime(2.0);
+    DecayHFRatio(0.14);
+    ERGain(0.3);
+    ERDelay(0.014);
+    ReverbGain(1.0);
+    ReverbDelay(0.021);
+    Diffusion(100.0);
+    Density(100.0);
+    HFReference(5000.0);
+}
+#endifplatform xbox pc
+
+
+#ifplatform ps2
+I3DL2ReverbPreset()
+{
+    Name("bar");
+    RoomGain(0.2);
+    RoomHFGain(0.4);
+    RoomRollOff(0.0);
+    DecayTime(2.0);
+    DecayHFRatio(0.14);
+    ERGain(0.3);
+    ERDelay(0.014);
+    ReverbGain(1.0);
+    ReverbDelay(0.021);
+    Diffusion(100.0);
+    Density(100.0);
+    HFReference(5000.0);
+}
+#endifplatform ps2
+
+
+
+#ifplatform pc
+Space()
+{
+    Name("cantina");
+    I3DL2ReverbPreset("bar");
+    DirectGain(1.0);
+    DirectHFGain(1.0);
+    RoomGain(1.0);
+    RoomHFGain(0.7);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.4);
+    ObstructionLFRatio(0.0);
+    OcclusionHFGain(0.4);
+    OcclusionLFRatio(0.0);
+}
+#endifplatform pc
+    
+#ifplatform xbox
+Space()
+{
+    Name("cantina");
+    I3DL2ReverbPreset("bar");
+    DirectGain(0.9);
+    DirectHFGain(0.9);
+    RoomGain(0.3);
+    RoomHFGain(0.3);
+    RoomHFGain(0.3);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.4);
+    ObstructionLFRatio(0.0);
+    OcclusionHFGain(0.4);
+    OcclusionLFRatio(0.0);
+}
+#endifplatform xbox    
+
+#ifplatform ps2
+Space()
+{
+    Name("cantina");
+    I3DL2ReverbPreset("bar");
+    DirectGain(0.9);
+    DirectHFGain(0.9);
+    RoomGain(0.3);
+    RoomHFGain(0.3);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.1);
+    ObstructionLFRatio(0.0);
+    OcclusionHFGain(0.1);
+    ObstructionLFRatio(0.0);
+}
+#endifplatform ps2
+
+// Soundspace End -----------------------------------------------------
+
+SoundStreamProperties()
+{
+    Name("tat_amb_desert");
+    Group("ambientenv");
+    Inherit("ambientfx_template");
+#ifplatform pc xbox
+    Gain(0.30);
+#endifplatform pc xbox
+#ifplatform ps2
+    Gain(0.35);
+#endifplatform ps2
+    Stream("tat2");
+    SegmentList()
+    {
+        Segment("tat_amb_desert", 1.0);
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("tat_amb_cantina");
+    Group("ambientenv");
+    Inherit("ambientfx_template");
+    Gain(0.85);
+    Stream("tat2");
+    SegmentList()
+    {
+        Segment("tat_amb_cantina", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("tat_inf_jawa_hurt")
+    Group("tat_vo");
+    Inherit("pain_chatter_template");
+    SampleList()
+    {
+        Sample("crtr_jawa_hurt", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("tat_inf_jawa_death")
+    Group("tat_vo");
+    Inherit("pain_chatter_template");
+    SampleList()
+    {
+      Sample("crtr_jawa_death", 1.0);
+    }
+}
+
+
+SoundProperties()
+{
+    Name("tat_inf_jawa_heard")
+    Group("tat_vo");
+    Inherit("pain_chatter_template");
+    SampleList()
+    {
+        Sample("crtr_jawa_chatter_03", 1.0);
+        Sample("crtr_jawa_chatter_06", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("tat_inf_jawa_chatter")
+    Group("tat_vo");
+    Inherit("pain_chatter_template");
+#ifplatform xbox ps2
+    Gain(0.6);
+#endifplatform xbox ps2
+    PlayProbability(0.01);
+    CyclePlayback(1);
+    SampleList()
+    {
+        Sample("crtr_jawa_chatter_01", 1.0);
+        Sample("crtr_jawa_chatter_02", 1.0);
+        Sample("crtr_jawa_chatter_03", 1.0);
+        Sample("crtr_jawa_chatter_04", 1.0);
+        Sample("crtr_jawa_chatter_05", 1.0);
+        Sample("crtr_jawa_chatter_06", 1.0);
+    }
+}
+
+
+SoundProperties()
+{
+    Name("tusken_hurt");
+    Group("tat_inf_pain_vo");
+    Inherit("pain_chatter_template");
+    PlayInterval(0.5);
+    SampleList()
+    {
+        Sample("crtr_tusken_hurt", 1.0);
+        Sample("crtr_tusken_chatter_01", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("tusken_die");
+    Group("tat_inf_pain_vo");
+    Inherit("pain_chatter_template");
+    SampleList()
+    {
+        Sample("crtr_tusken_death", 1.0);
+        Sample("crtr_tusken_chatter_05", 1.0);
+    }
+}
+SoundProperties()
+{
+    Name("tusken_chatter");
+    Group("tat_inf_pain_vo");
+    Inherit("pain_chatter_template");
+    RollOff(3.0);
+    MaxDistance(350.0);
+    SampleList()
+    {
+        Sample("crtr_tusken_chatter_02", 1.0);
+        Sample("crtr_tusken_chatter_03", 1.0);
+        Sample("crtr_tusken_chatter_04", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("tat_weap_tusken_fire");
+    Group("weapons_foley");
+    Inherit("weapon_template");
+    SampleList()
+    {
+        Sample("com_cpistol_fire", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("tat_weap_tuskensniper_fire");
+    Group("weapons_foley");
+    Inherit("weapon_template");
+    SampleList()
+    {
+        Sample("wep_All_sniper_01", 1.0);
+    }
+}
+
+// Reload
+
+SoundProperties()
+{
+    Name("tat_weap_tusken_reload");
+    Group("weapons_foley");
+    Inherit("weapon_template");
+    SampleList()
+    {
+        Sample("com_weap_inf_reload_med", 1.0);
+    }
+}

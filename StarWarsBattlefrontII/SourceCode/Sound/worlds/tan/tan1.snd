@@ -1,0 +1,1020 @@
+// ======= Soundspaces Start ========================================
+// ------- Start I3DL2 Presets --------------------------------------
+
+
+#ifplatform pc
+I3DL2ReverbPreset()
+{
+    Name("plastichall");
+    RoomGain(1.0);
+    RoomHFGain(0.9);
+    RoomRollOff(0.0);
+    DecayTime(3.0);
+    DecayHFRatio(0.8);
+    ERGain(0.4);
+    ERDelay(0.014);
+    ReverbGain(0.4);
+    ReverbDelay(0.021);
+    Diffusion(100.0);
+    Density(100.0);
+    HFReference(5000.0);
+}
+#endifplatform pc
+#ifplatform xbox
+I3DL2ReverbPreset()
+{
+    Name("plastichall");
+    RoomGain(0.3);
+    RoomHFGain(0.4);
+    RoomRollOff(0.0);
+    DecayTime(3.0);
+    DecayHFRatio(0.8);
+    ERGain(0.3);
+    ERDelay(0.014);
+    ReverbGain(0.4);
+    ReverbDelay(0.021);
+    Diffusion(100.0);
+    Density(100.0);
+    HFReference(5000.0);
+}
+#endifplatform xbox
+#ifplatform ps2
+I3DL2ReverbPreset()
+{
+    Name("plastichall");
+    RoomGain(0.2);
+    RoomHFGain(0.4);
+    RoomRollOff(0.0);
+    DecayTime(0.2);
+    DecayHFRatio(0.8);
+    ERGain(0.1);
+    ERDelay(0.014);
+    ReverbGain(0.5);
+    ReverbDelay(0.021);
+    Diffusion(100.0);
+    Density(100.0);
+    HFReference(5000.0);
+}
+#endifplatform ps2
+
+#ifplatform pc
+I3DL2ReverbPreset()
+{
+    Name("podhall");
+    RoomGain(1.0);
+    RoomHFGain(0.9);
+    RoomRollOff(0.0);
+    DecayTime(1.5);
+    DecayHFRatio(0.8);
+    ERGain(0.5);
+    ERDelay(0.1);
+    ReverbGain(0.5);
+    ReverbDelay(0.021);
+    Diffusion(70.0);
+    Density(70.0);
+    HFReference(5000.0);
+}
+#endifplatform pc
+#ifplatform xbox
+I3DL2ReverbPreset()
+{
+    Name("podhall");
+    RoomGain(0.3);
+    RoomHFGain(0.4);
+    RoomRollOff(0.0);
+    DecayTime(1.5);
+    DecayHFRatio(0.8);
+    ERGain(0.5);
+    ERDelay(0.1);
+    ReverbGain(0.5);
+    ReverbDelay(0.021);
+    Diffusion(70.0);
+    Density(70.0);
+    HFReference(5000.0);
+}
+#endifplatform xbox
+#ifplatform ps2
+I3DL2ReverbPreset()
+{
+    Name("podhall");
+    RoomGain(0.1);
+    RoomHFGain(0.4);
+    RoomRollOff(0.0);
+    DecayTime(1.5);
+    DecayHFRatio(0.8);
+    ERGain(0.2);
+    ERDelay(0.1);
+    ReverbGain(0.5);
+    ReverbDelay(0.021);
+    Diffusion(70.0);
+    Density(70.0);
+    HFReference(5000.0);
+}
+#endifplatform ps2
+// ----- End I3DL2 Presets -----------------------------------
+
+// ----- Start Bridge space ------
+#ifplatform pc
+Space()
+{
+    Name("Bridge");
+    I3DL2ReverbPreset("plastichall");
+    DirectGain(1.0);
+    DirectHFGain(1.0);
+    RoomGain(1.0);
+    RoomHFGain(1.0);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.5);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.5);
+    OcclusionLFRatio(1.0);
+}
+#endifplatform pc
+#ifplatform xbox
+Space()
+{
+    Name("Bridge");
+    I3DL2ReverbPreset("plastichall");
+    DirectGain(1.0);
+    DirectHFGain(1.0);
+    RoomGain(1.0);
+    RoomHFGain(1.0);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.5);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.5);
+    OcclusionLFRatio(1.0);
+}
+#endifplatform xbox
+#ifplatform ps2
+Space()
+{
+    Name("Bridge");
+    I3DL2ReverbPreset("plastichall");
+    DirectGain(1.0);
+    DirectHFGain(1.0);
+    RoomGain(1.0);
+    RoomHFGain(1.0);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.5);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.5);
+    OcclusionLFRatio(1.0);
+}
+#endifplatform ps2
+// ----- End Bridge space ------
+
+// ----- Start controlroom space ------
+#ifplatform pc
+Space()
+{
+    Name("controlroom");
+    I3DL2ReverbPreset("plastichall");
+    DirectGain(1.0);
+    DirectHFGain(1.0);
+    RoomGain(1.0);
+    RoomHFGain(1.0);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.5);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.5);
+    OcclusionLFRatio(1.0);
+}
+#endifplatform pc
+#ifplatform xbox
+Space()
+{
+    Name("controlroom");
+    I3DL2ReverbPreset("plastichall");
+    DirectGain(1.0);
+    DirectHFGain(1.0);
+    RoomGain(1.0);
+    RoomHFGain(1.0);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.5);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.5);
+    OcclusionLFRatio(1.0);
+}
+#endifplatform xbox
+#ifplatform ps2
+Space()
+{
+    Name("controlroom");
+    I3DL2ReverbPreset("plastichall");
+    DirectGain(1.0);
+    DirectHFGain(1.0);
+    RoomGain(1.0);
+    RoomHFGain(1.0);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.5);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.5);
+    OcclusionLFRatio(1.0);
+}
+
+#endifplatform ps2
+// ----- End controlroom space ------
+
+// ----- Start confroom space ------
+#ifplatform pc
+Space()
+{
+    Name("confroom");
+    I3DL2ReverbPreset("plastichall");
+    DirectGain(1.0);
+    DirectHFGain(1.0);
+    RoomGain(1.0);
+    RoomHFGain(1.0);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.5);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.5);
+    OcclusionLFRatio(1.0);
+}
+#endifplatform pc
+#ifplatform xbox
+Space()
+{
+    Name("confroom");
+    I3DL2ReverbPreset("plastichall");
+    DirectGain(1.0);
+    DirectHFGain(1.0);
+    RoomGain(1.0);
+    RoomHFGain(1.0);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.5);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.5);
+    OcclusionLFRatio(1.0);
+}
+#endifplatform xbox
+#ifplatform ps2
+Space()
+{
+    Name("confroom");
+    I3DL2ReverbPreset("plastichall");
+    DirectGain(1.0);
+    DirectHFGain(1.0);
+    RoomGain(1.0);
+    RoomHFGain(1.0);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.5);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.5);
+    OcclusionLFRatio(1.0);
+}
+#endifplatform ps2
+// ----- End confroom space ------
+
+// ----- Start podaccessfoyer space ------
+#ifplatform pc
+Space()
+{
+    Name("podaccessfoyer");
+    I3DL2ReverbPreset("podhall");
+    DirectGain(1.0);
+    DirectHFGain(1.0);
+    RoomGain(1.0);
+    RoomHFGain(1.0);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.5);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.5);
+    OcclusionLFRatio(1.0);
+}
+#endifplatform pc
+#ifplatform xbox
+Space()
+{
+    Name("podaccessfoyer");
+    I3DL2ReverbPreset("podhall");
+    DirectGain(1.0);
+    DirectHFGain(1.0);
+    RoomGain(1.0);
+    RoomHFGain(1.0);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.5);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.5);
+    OcclusionLFRatio(1.0);
+}
+#endifplatform xbox
+#ifplatform ps2
+Space()
+{
+    Name("podaccessfoyer");
+    I3DL2ReverbPreset("podhall");
+    DirectGain(1.0);
+    DirectHFGain(1.0);
+    RoomGain(1.0);
+    RoomHFGain(1.0);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.5);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.5);
+    OcclusionLFRatio(1.0);
+}
+#endifplatform ps2
+// ----- End podaccessfoyer space ------
+
+// ----- Start podaccess space ------
+#ifplatform pc
+Space()
+{
+    Name("podaccess");
+    I3DL2ReverbPreset("podhall");
+    DirectGain(1.0);
+    DirectHFGain(1.0);
+    RoomGain(1.0);
+    RoomHFGain(1.0);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.5);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.5);
+    OcclusionLFRatio(1.0);
+}
+#endifplatform pc
+#ifplatform xbox
+Space()
+{
+    Name("podaccess");
+    I3DL2ReverbPreset("podhall");
+    DirectGain(1.0);
+    DirectHFGain(1.0);
+    RoomGain(1.0);
+    RoomHFGain(1.0);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.5);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.5);
+    OcclusionLFRatio(1.0);
+}
+#endifplatform xbox
+#ifplatform ps2
+Space()
+{
+    Name("podaccess");
+    I3DL2ReverbPreset("podhall");
+    DirectGain(1.0);
+    DirectHFGain(1.0);
+    RoomGain(1.0);
+    RoomHFGain(1.0);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.5);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.5);
+    OcclusionLFRatio(1.0);
+}
+#endifplatform ps2
+// ----- End podaccess space ------
+
+// ----- Start reception space ------
+#ifplatform pc
+Space()
+{
+    Name("reception");
+    I3DL2ReverbPreset("plastichall");
+    DirectGain(1.0);
+    DirectHFGain(1.0);
+    RoomGain(1.0);
+    RoomHFGain(1.0);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.5);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.5);
+    OcclusionLFRatio(1.0);
+}
+#endifplatform pc
+#ifplatform xbox
+Space()
+{
+    Name("reception");
+    I3DL2ReverbPreset("plastichall");
+    DirectGain(1.0);
+    DirectHFGain(1.0);
+    RoomGain(1.0);
+    RoomHFGain(1.0);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.5);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.5);
+    OcclusionLFRatio(1.0);
+}
+#endifplatform xbox
+#ifplatform ps2
+Space()
+{
+    Name("reception");
+    I3DL2ReverbPreset("plastichall");
+    DirectGain(1.0);
+    DirectHFGain(1.0);
+    RoomGain(1.0);
+    RoomHFGain(1.0);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.5);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.5);
+    OcclusionLFRatio(1.0);
+}
+#endifplatform ps2
+// ----- End reception space ------
+
+// ----- Start turbinehall space ------
+#ifplatform pc
+Space()
+{
+    Name("turbinehall");
+    I3DL2ReverbPreset("plastichall");
+    DirectGain(1.0);
+    DirectHFGain(1.0);
+    RoomGain(1.0);
+    RoomHFGain(1.0);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.5);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.5);
+    OcclusionLFRatio(1.0);
+}
+#endifplatform pc
+#ifplatform xbox
+Space()
+{
+    Name("turbinehall");
+    I3DL2ReverbPreset("plastichall");
+    DirectGain(1.0);
+    DirectHFGain(1.0);
+    RoomGain(1.0);
+    RoomHFGain(1.0);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.5);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.5);
+    OcclusionLFRatio(1.0);
+}
+#endifplatform xbox
+#ifplatform ps2
+Space()
+{
+    Name("turbinehall");
+    I3DL2ReverbPreset("plastichall");
+    DirectGain(1.0);
+    DirectHFGain(1.0);
+    RoomGain(1.0);
+    RoomHFGain(1.0);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.5);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.5);
+    OcclusionLFRatio(1.0);
+}
+#endifplatform ps2
+// ----- End turbinehall space ------
+
+// ----- Start turbineroom space ------
+#ifplatform pc
+Space()
+{
+    Name("turbineroom");
+    I3DL2ReverbPreset("plastichall");
+    DirectGain(1.0);
+    DirectHFGain(1.0);
+    RoomGain(1.0);
+    RoomHFGain(1.0);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.5);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.5);
+    OcclusionLFRatio(1.0);
+}
+#endifplatform pc
+#ifplatform xbox
+Space()
+{
+    Name("turbineroom");
+    I3DL2ReverbPreset("plastichall");
+    DirectGain(1.0);
+    DirectHFGain(1.0);
+    RoomGain(1.0);
+    RoomHFGain(1.0);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.5);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.5);
+    OcclusionLFRatio(1.0);
+}
+#endifplatform xbox
+#ifplatform ps2
+Space()
+{
+    Name("turbineroom");
+    I3DL2ReverbPreset("plastichall");
+    DirectGain(1.0);
+    DirectHFGain(1.0);
+    RoomGain(1.0);
+    RoomHFGain(1.0);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.5);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.5);
+    OcclusionLFRatio(1.0);
+}
+#endifplatform ps2
+// ----- End turbineroom space ------
+
+// ----- Start turbinestairwell space ------
+#ifplatform pc
+Space()
+{
+    Name("turbinestairwell");
+    I3DL2ReverbPreset("plastichall");
+    DirectGain(1.0);
+    DirectHFGain(1.0);
+    RoomGain(1.0);
+    RoomHFGain(1.0);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.5);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.5);
+    OcclusionLFRatio(1.0);
+}
+#endifplatform pc
+#ifplatform xbox
+Space()
+{
+    Name("turbinestairwell");
+    I3DL2ReverbPreset("plastichall");
+    DirectGain(1.0);
+    DirectHFGain(1.0);
+    RoomGain(1.0);
+    RoomHFGain(1.0);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.5);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.5);
+    OcclusionLFRatio(1.0);
+}
+#endifplatform xbox
+#ifplatform ps2
+Space()
+{
+    Name("turbinestairwell");
+    I3DL2ReverbPreset("plastichall");
+    DirectGain(1.0);
+    DirectHFGain(1.0);
+    RoomGain(1.0);
+    RoomHFGain(1.0);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.5);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.5);
+    OcclusionLFRatio(1.0);
+}
+#endifplatform ps2
+// ----- End turbinestairwell space ------
+
+
+// ----- Start ReceptionHall space ------
+#ifplatform pc
+Space()
+{
+    Name("ReceptionHall");
+    I3DL2ReverbPreset("plastichall");
+    DirectGain(1.0);
+    DirectHFGain(1.0);
+    RoomGain(1.0);
+    RoomHFGain(1.0);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.5);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.5);
+    OcclusionLFRatio(1.0);
+}
+#endifplatform pc
+#ifplatform xbox
+Space()
+{
+    Name("ReceptionHall");
+    I3DL2ReverbPreset("plastichall");
+    DirectGain(1.0);
+    DirectHFGain(1.0);
+    RoomGain(1.0);
+    RoomHFGain(1.0);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.5);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.5);
+    OcclusionLFRatio(1.0);
+}
+#endifplatform xbox
+#ifplatform ps2
+Space()
+{
+    Name("ReceptionHall");
+    I3DL2ReverbPreset("plastichall");
+    DirectGain(1.0);
+    DirectHFGain(1.0);
+    RoomGain(1.0);
+    RoomHFGain(1.0);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.5);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.5);
+    OcclusionLFRatio(1.0);
+}
+#endifplatform ps2
+// ----- End ReceptionHall space ------
+
+// ----- Start podhall2 space ------
+#ifplatform pc
+Space()
+{
+    Name("podhall2");
+    I3DL2ReverbPreset("plastichall");
+    DirectGain(1.0);
+    DirectHFGain(1.0);
+    RoomGain(1.0);
+    RoomHFGain(1.0);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.5);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.5);
+    OcclusionLFRatio(1.0);
+}
+#endifplatform pc
+#ifplatform xbox
+Space()
+{
+    Name("podhall2");
+    I3DL2ReverbPreset("plastichall");
+    DirectGain(1.0);
+    DirectHFGain(1.0);
+    RoomGain(1.0);
+    RoomHFGain(1.0);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.5);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.5);
+    OcclusionLFRatio(1.0);
+}
+#endifplatform xbox
+#ifplatform ps2
+Space()
+{
+    Name("podhall2");
+    I3DL2ReverbPreset("plastichall");
+    DirectGain(1.0);
+    DirectHFGain(1.0);
+    RoomGain(1.0);
+    RoomHFGain(1.0);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.5);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.5);
+    OcclusionLFRatio(1.0);
+}
+#endifplatform ps2
+// ----- End podhall2 space ------
+
+// ----- Start podbay space ------
+#ifplatform pc
+Space()
+{
+    Name("podbay");
+    I3DL2ReverbPreset("plastichall");
+    DirectGain(1.0);
+    DirectHFGain(1.0);
+    RoomGain(1.0);
+    RoomHFGain(1.0);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.5);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.5);
+    OcclusionLFRatio(1.0);
+}
+
+#endifplatform pc
+#ifplatform xbox
+Space()
+{
+    Name("podbay");
+    I3DL2ReverbPreset("plastichall");
+    DirectGain(1.0);
+    DirectHFGain(1.0);
+    RoomGain(1.0);
+    RoomHFGain(1.0);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.5);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.5);
+    OcclusionLFRatio(1.0);
+}
+
+#endifplatform xbox
+#ifplatform ps2
+Space()
+{
+    Name("podbay");
+    I3DL2ReverbPreset("plastichall");
+    DirectGain(1.0);
+    DirectHFGain(1.0);
+    RoomGain(1.0);
+    RoomHFGain(1.0);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.5);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.5);
+    OcclusionLFRatio(1.0);
+}
+
+#endifplatform ps2
+// ----- End podbay space ------
+
+// ----- Start Accesshall space ------
+#ifplatform pc
+Space()
+{
+    Name("Accesshall");
+    I3DL2ReverbPreset("plastichall");
+    DirectGain(1.0);
+    DirectHFGain(1.0);
+    RoomGain(1.0);
+    RoomHFGain(1.0);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.5);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.5);
+    OcclusionLFRatio(1.0);
+}
+#endifplatform pc
+#ifplatform xbox
+Space()
+{
+    Name("Accesshall");
+    I3DL2ReverbPreset("plastichall");
+    DirectGain(1.0);
+    DirectHFGain(1.0);
+    RoomGain(1.0);
+    RoomHFGain(1.0);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.5);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.5);
+    OcclusionLFRatio(1.0);
+}
+#endifplatform xbox
+#ifplatform ps2
+Space()
+{
+    Name("Accesshall");
+    I3DL2ReverbPreset("plastichall");
+    DirectGain(1.0);
+    DirectHFGain(1.0);
+    RoomGain(1.0);
+    RoomHFGain(1.0);
+    RoomRollOffFactor(1.0);
+    ObstructionHFGain(0.5);
+    ObstructionLFRatio(1.0);
+    OcclusionHFGain(0.5);
+    OcclusionLFRatio(1.0);
+}
+#endifplatform ps2
+// ----- End Accesshall space ------
+
+
+// ----- Soundspace End -----------------------------------------------------
+
+
+
+// ----- Ambient Environment Streams Start ------------------------------
+SoundStreamProperties()
+{
+    Name("tan_amb_hum");
+    Group("ambientenv");
+    Inherit("ambientfx_template");
+    Stream("tan1");
+    Gain(1.0);
+    SegmentList()
+    {
+        Segment("tan_amb_hum", 1.0);
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("tan_amb_podhall");
+    Group("ambientenv");
+    Inherit("ambientfx_template");
+    Stream("tan1");
+    Gain(1.0);
+    SegmentList()
+    {
+        Segment("tan_amb_podhall", 1.0);
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("tan_amb_ctrlroom");
+    Group("ambientenv");
+    Inherit("ambientfx_template");
+    Stream("tan1");
+    Gain(1.0);
+    SegmentList()
+    {
+        Segment("tan_amb_ctrlroom", 1.0);
+    }
+}
+
+
+
+
+
+SoundProperties()
+{
+    Name("hoth_rumble")
+    Pitch(1.0);
+    PitchDev(0.0);
+    Gain(0.7);
+    GainDev(0.0);
+    ReverbGain(1.0);
+    Bus("soundfx");
+    Looping(0);
+    Pan(0.0);
+    MinDistance(5.0);
+    MuteDistance(50.0);
+    MaxDistance(50.0);
+    RollOff(0.0);
+    Mode3D(1);
+    Bias(0.0001);
+    Priority(0.8);
+    SampleList()
+    {
+        Sample("rumble1", 0.5);
+        Sample("rumble2", 0.5);
+    }
+}
+
+// ----- Ambient Environment Streams End ---------------------------
+
+
+
+// ----- Prop Ambient Effects Start --------------------------------
+SoundProperties()
+{
+    Name("door_open");
+    Pitch(1.0);
+    PitchDev(0.1);
+    Gain(1.0);
+    GainDev(0.05);
+    ReverbGain(1.0);
+    Bus("soundfx");
+    Looping(0);
+    Pan(0.0);
+    MinDistance(7.0);
+    SpaceDistance(4)
+    MuteDistance(50.0);
+    MaxDistance(50.0);
+    RollOff(1.0);
+    Mode3D(1);
+    Bias(0.0001);
+    Priority(0.8);
+    SampleList()
+    {
+        Sample("door_open", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("door_close");
+    Pitch(1.0);
+    PitchDev(0.1);
+    Gain(1.0);
+    GainDev(0.05);
+    ReverbGain(1.0);
+    Bus("soundfx");
+    Looping(0);
+    Pan(0.0);
+    MinDistance(7.0);
+    SpaceDistance(4)
+    MuteDistance(50.0);
+    MaxDistance(50.0);
+    RollOff(1.0);
+    Mode3D(1);
+    Bias(0.0001);
+    Priority(0.8);
+    SampleList()
+    {
+        Sample("door_close", 1.0);
+    }
+}
+SoundProperties()
+{
+    Name("blast_door_open");
+    Pitch(1.0);
+    PitchDev(0.1);
+    Gain(1.0);
+    GainDev(0.05);
+    ReverbGain(1.0);
+    Bus("soundfx");
+    Looping(0);
+    Pan(0.0);
+    MinDistance(7.0);
+    SpaceDistance(4)
+    MuteDistance(50.0);
+    MaxDistance(50.0);
+    RollOff(1.0);
+    Mode3D(1);
+    Bias(0.0001);
+    Priority(0.8);
+    SampleList()
+    {
+        Sample("blast_door_open_01", 1.0);
+        Sample("blast_door_open_02", 1.0);
+
+    }
+}
+
+SoundProperties()
+{
+    Name("blast_door_close");
+    Pitch(1.0);
+    PitchDev(0.1);
+    Gain(1.0);
+    GainDev(0.05);
+    ReverbGain(1.0);
+    Bus("soundfx");
+    Looping(0);
+    Pan(0.0);
+    MinDistance(7.0);
+    SpaceDistance(4)
+    MuteDistance(50.0);
+    MaxDistance(50.0);
+    RollOff(1.0);
+    Mode3D(1);
+    Bias(0.0001);
+    Priority(0.8);
+    SampleList()
+    {
+        Sample("blast_door_close", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("turbine");
+    Pitch(1.0);
+    PitchDev(0.0);
+    Gain(1.0);
+    GainDev(0.0);
+    ReverbGain(1.0);
+    Bus("soundfx");
+    Looping(1);
+    Pan(0.0);
+    MinDistance(25.0);
+    MuteDistance(60.0);
+    MaxDistance(60.0);
+    RollOff(1.0);
+    Mode3D(1);
+    Bias(0.0001);
+    Priority(0.8);
+    SampleList()
+    {
+        Sample("slideloop1", 1.0);
+    }
+}
+
+
+SoundProperties()
+{
+    Name("electricity");
+    Pitch(1.0);
+    PitchDev(0.1);
+    Gain(0.7);
+    GainDev(0.0);
+    ReverbGain(1.0);
+    Bus("soundfx");
+    Looping(1);
+    Pan(0.0);
+    MinDistance(25.0);
+    MuteDistance(60.0);
+    MaxDistance(60.0);
+    RollOff(1.0);
+    Mode3D(1);
+    Bias(0.0001);
+    Priority(0.8);
+    SampleList()
+    {
+        Sample("electricty_flow", 1.0);
+    }
+}
+
+
+// ----- Prop Ambient Effects End ----------------------------------
+
+
+// ----- tan1 Objective VO Start ---------------------------------------------
+
+// ----- tan1 Objective VO End --------------------------------------------------
+

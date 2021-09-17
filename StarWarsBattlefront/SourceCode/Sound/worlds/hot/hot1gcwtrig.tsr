@@ -1,0 +1,37 @@
+Group()
+{
+    Name("hot_transport1away");
+    Reinforcements(0.75);
+    Alliance("all_vo_transport1away");
+    Empire("");
+    Republic("");
+    CIS("");
+}
+
+Group()
+{
+    Name("hot_transport2away");
+    Reinforcements(0.50);
+    Alliance("all_vo_transport2away");
+    Empire("");
+    Republic("");
+    CIS("");
+}
+
+Group()
+{
+    Name("hot_transportaway");
+    Reinforcements(0.0);
+    Alliance("all_vo_transport3away");
+    Empire("");
+    Republic("");
+    CIS("");
+}
+
+Region()
+{
+    Name("hot_loudspeaker");
+	Group("hot_transport1away");
+	Group("hot_transport2away");
+    Group("hot_transportaway");
+}

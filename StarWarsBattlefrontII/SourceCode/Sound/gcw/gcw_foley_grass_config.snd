@@ -1,0 +1,466 @@
+//-All Grass Foley--------------------------------------------------------------
+// all_inf
+
+// soldier movement
+//-jump land roll squat--------------------------------------------------------
+
+//SoundProperties()
+//{
+//    Name("all_inf_soldier_getup_grass")
+//    Group("body_movement");
+//    Inherit("body_movement_template");
+//    SampleList()
+//    {
+//        Sample("mvt_soldier_getup_grass", 1.0);
+//    }
+//}
+
+SoundProperties()
+{
+    Name("all_inf_soldier_jump_grass")
+    Group("body_movement");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("mvt_soldier_jump_grass", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("all_inf_soldier_land_grass")
+    Group("body_movement");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("mvt_soldier_land_grass", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("all_inf_soldier_lgBF_grass")
+    Group("body_movement");
+    Inherit("body_movement_fall_template");
+    SampleList()
+    {
+      Sample("mvt_soldier_grass_lgBF_01", 0.33);
+      Sample("mvt_soldier_grass_lgBF_02", 0.33);
+      Sample("mvt_soldier_grass_smBf", 0.33);
+    }
+}
+
+//SoundProperties()
+//{
+//    Name("all_inf_soldier_lie_grass")
+//    Group("body_movement");
+//    Inherit("body_movement_template");
+//    SampleList()
+//    {
+//        Sample("mvt_soldier_lie_grass", 1.0);
+//    }
+//}
+
+SoundProperties()
+{
+    Name("all_inf_soldier_roll_grass")
+    Group("body_movement");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("mvt_soldier_roll_grass", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("all_inf_soldier_squat_grass")
+    Group("body_movement");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("mvt_soldier_squat", 1.0);
+    }
+}
+
+
+//-Footsteps run walk----------------------------------------------------------
+
+SoundProperties()
+{
+    Name("all_inf_soldier_run_grass_left")
+    Group("body_movement");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("mvt_soldier_run_grass_L01", 1.0);
+        Sample("mvt_soldier_run_grass_L02", 1.0);
+        Sample("mvt_soldier_run_grass_L03", 1.0);
+        Sample("mvt_soldier_run_grass_L04", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("all_inf_soldier_run_grass_right")
+    Group("body_movement");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("mvt_soldier_run_grass_R01", 1.0);
+        Sample("mvt_soldier_run_grass_R02", 1.0);
+        Sample("mvt_soldier_run_grass_R03", 1.0);
+        Sample("mvt_soldier_run_grass_R04", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("all_inf_soldier_walk_grass_left")
+    Group("body_movement");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("mvt_soldier_walk_grass_L01", 1.0);
+        Sample("mvt_soldier_walk_grass_L02", 1.0);
+        Sample("mvt_soldier_walk_grass_L03", 1.0);
+        Sample("mvt_soldier_walk_grass_L04", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("all_inf_soldier_walk_grass_right")
+    Group("body_movement");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("mvt_soldier_walk_grass_R01", 1.0);
+        Sample("mvt_soldier_walk_grass_R02", 1.0);
+        Sample("mvt_soldier_walk_grass_R03", 1.0);
+        Sample("mvt_soldier_walk_grass_R04", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("all_inf_soldier_stop_grass")
+    Group("body_movement");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("mvt_soldier_stop_grass", 1.0);
+    }
+}
+
+
+//-Imp Grass Foley--------------------------------------------------------------
+// imp_inf
+
+// trooper movement
+//-jump land roll squat--------------------------------------------------------
+
+//SoundProperties()
+//{
+//    Name("imp_inf_trooper_getup_grass")
+//    Group("body_movement");
+//    Inherit("body_movement_template");
+//    SampleList()
+//    {
+//        Sample("mvt_trooper_getup_grass", 1.0);
+//    }
+//}
+
+SoundProperties()
+{
+    Name("imp_inf_trooper_jump_grass")
+    Group("body_movement");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("mvt_trooper_jump_grass", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("imp_inf_trooper_land_grass")
+    Group("body_movement");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("mvt_trooper_land_grass", 1.0);
+    }
+}
+
+
+SoundProperties()
+{
+    Name("imp_inf_trooper_lgBF_grass")
+    Group("body_movement");
+    Inherit("body_movement_fall_template");
+    SampleList()
+    {
+        Sample("mvt_trooper_grass_lgBF_01", 0.25);
+        Sample("mvt_trooper_grass_lgBF_02", 0.25);
+        Sample("mvt_trooper_grass_lgBF_03", 0.25);
+        Sample("mvt_trooper_grass_smBF", 0.25);
+    }
+}
+
+SoundProperties()
+{
+    Name("imp_inf_trooper_lie_grass")
+    Group("body_movement");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("mvt_trooper_lie_grass", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("imp_inf_trooper_roll_grass")
+    Group("body_movement");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("mvt_trooper_roll_grass", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("imp_inf_trooper_squat_grass")
+    Group("body_movement");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("mvt_trooper_squat", 1.0);
+    }
+}
+
+
+//-Footsteps run walk----------------------------------------------------------
+
+SoundProperties()
+{
+    Name("imp_inf_trooper_run_grass_left")
+    Group("body_movement");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("mvt_trooper_run_grass_L01", 1.0);
+        Sample("mvt_trooper_run_grass_L02", 1.0);
+        Sample("mvt_trooper_run_grass_L03", 1.0);
+        Sample("mvt_trooper_run_grass_L04", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("imp_inf_trooper_run_grass_right")
+    Group("body_movement");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("mvt_trooper_run_grass_R01", 1.0);
+        Sample("mvt_trooper_run_grass_R02", 1.0);
+        Sample("mvt_trooper_run_grass_R03", 1.0);
+        Sample("mvt_trooper_run_grass_R04", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("imp_inf_trooper_walk_grass_left")
+    Group("body_movement");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("mvt_trooper_walk_grass_L01", 1.0);
+        Sample("mvt_trooper_walk_grass_L02", 1.0);
+        Sample("mvt_trooper_walk_grass_L03", 1.0);
+        Sample("mvt_trooper_walk_grass_L04", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("imp_inf_trooper_walk_grass_right")
+    Group("body_movement");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("mvt_trooper_walk_grass_R01", 1.0);
+        Sample("mvt_trooper_walk_grass_R02", 1.0);
+        Sample("mvt_trooper_walk_grass_R03", 1.0);
+        Sample("mvt_trooper_walk_grass_R04", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("imp_inf_trooper_stop_grass")
+    Group("body_movement");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("mvt_trooper_stop_grass", 1.0);
+    }
+}
+
+
+// soldier movement
+//-jump land roll squat--------------------------------------------------------
+
+//SoundProperties()
+//{
+//    Name("imp_inf_soldier_getup_grass")
+//    Group("body_movement");
+//    Inherit("body_movement_template");
+//    SampleList()
+//    {
+//        Sample("mvt_soldier_getup_grass", 1.0);
+//    }
+//}
+
+SoundProperties()
+{
+    Name("imp_inf_soldier_jump_grass")
+    Group("body_movement");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("mvt_soldier_jump_grass", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("imp_inf_soldier_land_grass")
+    Group("body_movement");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("mvt_soldier_land_grass", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("imp_inf_soldier_lgBF_grass")
+    Group("body_movement");
+    Inherit("body_movement_fall_template");
+    SampleList()
+    {
+        Sample("mvt_soldier_grass_lgBF_01", 0.33);
+        Sample("mvt_soldier_grass_lgBF_02", 0.33);
+        Sample("mvt_soldier_grass_smBF", 0.33);
+    }
+}
+
+//SoundProperties()
+//{
+//    Name("imp_inf_soldier_lie_grass")
+//    Group("body_movement");
+//    Inherit("body_movement_template");
+//    SampleList()
+//    {
+//        Sample("mvt_soldier_lie_grass", 1.0);
+//    }
+//}
+
+SoundProperties()
+{
+    Name("imp_inf_soldier_roll_grass")
+    Group("body_movement");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("mvt_soldier_roll_grass", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("imp_inf_soldier_squat_grass")
+    Group("body_movement");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("mvt_soldier_squat", 1.0);
+    }
+}
+
+
+//-Footsteps run walk----------------------------------------------------------
+
+SoundProperties()
+{
+    Name("imp_inf_soldier_run_grass_left")
+    Group("body_movement");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("mvt_soldier_run_grass_L01", 1.0);
+        Sample("mvt_soldier_run_grass_L02", 1.0);
+        Sample("mvt_soldier_run_grass_L03", 1.0);
+        Sample("mvt_soldier_run_grass_L04", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("imp_inf_soldier_run_grass_right")
+    Group("body_movement");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("mvt_soldier_run_grass_R01", 1.0);
+        Sample("mvt_soldier_run_grass_R02", 1.0);
+        Sample("mvt_soldier_run_grass_R03", 1.0);
+        Sample("mvt_soldier_run_grass_R04", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("imp_inf_soldier_walk_grass_left")
+    Group("body_movement");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("mvt_soldier_walk_grass_L01", 1.0);
+        Sample("mvt_soldier_walk_grass_L02", 1.0);
+        Sample("mvt_soldier_walk_grass_L03", 1.0);
+        Sample("mvt_soldier_walk_grass_L04", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("imp_inf_soldier_walk_grass_right")
+    Group("body_movement");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("mvt_soldier_walk_grass_R01", 1.0);
+        Sample("mvt_soldier_walk_grass_R02", 1.0);
+        Sample("mvt_soldier_walk_grass_R03", 1.0);
+        Sample("mvt_soldier_walk_grass_R04", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("imp_inf_soldier_stop_grass")
+    Group("body_movement");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("mvt_soldier_stop_grass", 1.0);
+    }
+}
+
