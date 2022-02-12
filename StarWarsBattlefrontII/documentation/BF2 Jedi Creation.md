@@ -1,4 +1,3 @@
-31
 
 # **Star Wars Battlefront II – Jedi Creation**
 
@@ -40,7 +39,7 @@ First thing you need to do is create a &quot;sides&quot; folder. **Into that fol
 
 Then you must create a sub-folder in that with the name of your side – it is not limited to 3 letters, I think, but I will keep with that convention and name my side &quot;JDI&quot;. Within your side folder, several new folders must also be created. These are: effects, munged, msh, odf, and req. As shown:
 
-![](RackMultipart20220212-4-reryv6_html_8470290e4e79142b.png)
+![](images/BF2_JediCreate_SidesFolder_1.jpg)
 
 What&#39;s the point of all these folders? They contain things specific to your side, not found in the Common folder…
 
@@ -58,7 +57,7 @@ Off into the ODF directory we go. An ODF is a soldier&#39;s identity – it defi
 
 Let&#39;s decide on a name for our soldier – how about demojedi? Sure, that may not do it for you, and really I&#39;m not so keen on it either, but this IS a tutorial. So everything that has to do with this soldier will be derived from this name. Also, to prevent confusion, we will prepend the name of the side – so jdi\_demojedi is his name-o. Let&#39;s create his ODF, which is blank for now:
 
-![](RackMultipart20220212-4-reryv6_html_5803cb608acf28dc.png) ![](RackMultipart20220212-4-reryv6_html_93a67e4d802c1e31.png)
+![](images\BF2_JediCreate_SidesFolder_2.jpg) ![](images/file_name_jdi_demojedi.jpg)
 
 _Step 2 – The Soldier&#39;s REQ._
 
@@ -66,25 +65,19 @@ Now that the soldier exists, we must create a REQ file for him, in the &quot;req
 
 So then, in the req folder we create the REQ:
 
-![](RackMultipart20220212-4-reryv6_html_fad264d97b1842f5.png) ![](RackMultipart20220212-4-reryv6_html_baf242ebe318a57d.png)
+![](images\BF2_JediCreate_SidesFolder_3.jpg) ![](images/file_name_jdi_demojedi.jpg)
 
 And what goes in it:
-
+```
 ucft
-
 {
-
-REQN
-
-{
-
-&quot;class&quot;
-
-&quot;jdi\_demojedi&quot;
-
+  REQN
+  {
+    "class"
+    "jdi_demojedi"
+  }
 }
-
-}
+```
 
 All REQ files must begin with &quot;ucft&quot;, and each section is surrounded by curly braces {}. REQN is a section title, and it means require these things. The first line in a REQN section is the type of thing required – &quot;class&quot; means the files come from the ODF folder, and end in &quot;.odf&quot;. So in this case, the REQ makes sure that &quot;ODF/jdi\_demojedi.odf&quot; is included in the side.
 
@@ -92,25 +85,19 @@ _Step 3 – The side&#39;s REQ._
 
 In the base directory of your side goes the main side REQ, called &quot;[side&#39;s name].req&quot; – in our case, &quot;jdi.req&quot;. This file will be a list of which REQ files from the req folder will be included in your final munged side LVL file. Suffice it to say, if a soldier is completely made and has a REQ in the req folder, but that REQ is not included in the side&#39;s REQ, that soldier won&#39;t be available to load in the game. The file:
 
-![](RackMultipart20220212-4-reryv6_html_6ded4ef9704777a8.png) ![](RackMultipart20220212-4-reryv6_html_ad5e96906c72ff24.png)
+![](images/BF2_JediCreate_SidesFolder_4.jpg) ![](images/jdi.req.jpg)
 
 And what&#39;s inside:
-
+```
 ucft
-
 {
-
-REQN
-
-{
-
-&quot;lvl&quot;
-
-&quot;jdi\_demojedi&quot;
-
+  REQN
+  {
+    "lvl"
+    "jdi_demojedi"
+  }
 }
-
-}
+```
 
 The &quot;lvl&quot; line means that the files that are included end in &quot;.req&quot; and comes from the &quot;req&quot; folder. Every .REQ file is munged into an LVL, with the soldier&#39;s LVL (jdi\_demojedi.req -\&gt; jdi\_demojedi.lvl) being included in the final side&#39;s LVL (jdi.req -\&gt; jdi.lvl). The side&#39;s LVL is what is actually loaded by the game, and sub-LVLs inside are accessed to load specific solder classes. You can look in the &quot;assets/sides&quot; folder to see how the shipped game&#39;s sides were organized.
 
@@ -118,11 +105,11 @@ _Step 4 –The side&#39;s munged-data folder._
 
 This is the final step for creating the framework of your side. If you open up your mod&#39;s directory (in our case, data\_SID), then go into the \_BUILD folder, there should be a Sides directory. Inside this directory, we must create the folder where our side&#39;s munged data will go. It has the same name as our side&#39;s main folder (&quot;JDI&quot;), and you will need to copy the clean.bat and munge.bat from one of the other sides&#39; munged-data folders into it. Like so:
 
-![](RackMultipart20220212-4-reryv6_html_bf4eee4cfdbf5378.png)
+![](IMAGES/BF2_JediCreate_SidesFolder_5.jpg)
 
 and then **copy \_BUILD/Sides/ALL/clean.bat and munge.bat** into that folder. **NOT clean.bat and munge.bat from \_BUILD/Sides – those are different!**
 
-![](RackMultipart20220212-4-reryv6_html_bf4eee4cfdbf5378.png) ![](RackMultipart20220212-4-reryv6_html_7296d292b406f891.png)
+![](IMAGES/BF2_JediCreate_SidesFolder_5.jpg) ![](images/CLEAN_MUNGE_BATS.jpg.jpg)
 
 _Step 5 - All ready!_
 
@@ -157,176 +144,103 @@ These assets are all placed in the MSH directory and are reference by the soldie
 _The Basics:_
 
 A Jedi ODF will ALWAYS begin with the following lines, which I have commented so they can hopefully be understood:
-
+```
 // any text following two slashes is a comment
-
 // the section following [GameObjectClass] is for
-
 // MUST include ClassParent, which is used
-
 // by Battlefront 2 to determine which class
-
 // this soldier derives from.
-
 // Alternately to ClassParent, you may use
-
 // ClassLabel = &quot;soldier&quot;
-
 // however, the ODF for &quot;com\_jedi\_default&quot; sets up
-
 // values we like, so we leave this class deriving from it.
-
 [GameObjectClass]
-
-ClassParent = &quot;com\_jedi\_default&quot;
-
+ClassParent = "com_jedi_default"
 // the Properties section defines everything else
-
 // about the soldier
-
 [Properties]
 
 // which type of connections this soldier will follow
-
 // on the AI path graph for the level
+// - soldiers are generally "SOLDIER", but
+// - those that can jet, jetjump, or forcejump are "HOVER"
+AISizeType = "HOVER"
 
-// - soldiers are generally &quot;SOLDIER&quot;, but
-
-// - those that can jet, jetjump, or forcejump are &quot;HOVER&quot;
-
-AISizeType = &quot;HOVER&quot;
-
-// Don&#39;t take damage from collisions with objects in the world
-
-CollisionScale = &quot;0.0 0.0 0.0&quot; // x, y, then z scales
+// Don't take damage from collisions with objects in the world
+CollisionScale = "0.0 0.0 0.0" // x, y, then z scales
 
 // the model (filename ends in .msh, and is located in the // MSH folder) to use for our character
-
 // NOTE: Omit the .msh from the name!
-
-GeometryName = &quot;all\_inf\_tatooinelukeskywalker&quot;
+GeometryName = "all_inf_tatooinelukeskywalker"
 
 // the model to use for our character when he is far away
-
 // (Generally this model is cheaper to render)
-
 // if this line is not present the model will disappear
-
 // when viewed from far away, and this geometry CANNOT
-
 // be the same file as the high-res geometry!
-
-GeometryLowRes = &quot;all\_inf\_tatooinelukeskywalker\_low1&quot;
+GeometryLowRes = "all_inf_tatooinelukeskywalker_low1"
 
 // the next line can be one of 3 choices:
-
 // - Not included (blank), if the model wants to use the
-
-// &quot;human\_sabre&quot; skeleton and animations.
-
-// (Those are Luke Skywalker&#39;s animations, but we
-
+// "human_sabre" skeleton and animations.
+// (Those are Luke Skywalker's animations, but we
 // will be defining our own so we are going to
-
 // use this line anyway).
-
 // - AnimationName if this model uses the basic human
-
 // skeleton, but wants to provide its own animations
-
 // as a set of files in the &quot;munged&quot; folder.
-
 // - SkeletonName if this model wants to use its own
-
 // skeleton in addition to its own animations.
 
-// NOTE – if this model&#39;s animation set does not define
-
-// an animation, such as &quot;stand\_walkforward&quot;,
-
+// NOTE – if this model's animation set does not define
+// an animation, such as "stand_walkforward",
 // the default animation from the current weapon
-
 // will be used instead. For example,
-
 // if he is carrying a rifle, it will use
-
-// human\_rifle\_stand\_walkforward, and if he is
-
+// human_rifle_stand_walkforward, and if he is
 // carrying a lightsaber it will use
-
-// human\_sabre\_stand\_walkforward.
-
+// human_sabre_stand_walkforward.
 // For specialized additional animations
-
 // such as melee attacks, they MUST be defined
-
-// by this model&#39;s animation set.
+// by this model's animation set.
 
 // for the demo, we will be using the base skeleton
-
 // but redefining SOME of the animations
-
-AnimationName = &quot;tat\_luke&quot;
+AnimationName = "tat_luke"
 
 // there may also optionally be a
-
 // SkeletonNameLowRes or an AnimationNameLowRes
-
 // if the low-res animations are different from
-
 // the high-res ones...
 
-// \*\*\*\* The following lines are the default Jedi parameters.
-
+// **** The following lines are the default Jedi parameters.
 // They are fairly straightforward and usually not changed,
-
 // so mess with them if you see fit.
-
 // Force Jump ignores the Jet numbers and just uses the Jump
-
 // numbers, but they still must be defined.
-
 //The initial jump-push given when enabling the jet
-
-JetJump = &quot;10.0&quot;
-
+JetJump = "10.0"
 //The constant push given while the jet is enabled (20 is gravity)
-
-JetPush = &quot;0.0&quot;
-
+JetPush = "0.0"
 // for characters with jet jump, use this acceleration for
-
 // in-air control
-
 JetAcceleration = &quot;10.0&quot;
-
 // the particle effect to show while jetting
-
-JetEffect = &quot;&quot;
-
+JetEffect = ""
 //Additional fuel per second (fuel is 0 to 1)
-
 JetFuelRechargeRate = &quot;0.0&quot;
 
 // optional, tells this character to hover (Darth Vader, Jet Trooper)
-
 // versus jump (Luke Skywalker, Dark Trooper)
-
-//JetType = &quot;hover&quot;
-
+//JetType = "hover"
 // Vader used JetFuel to control how long he can hover,
-
-// even though it&#39;s not visible in the HUD
+// even though it's not visible in the HUD
 
 //Cost per second when hovering (only used for jet-hovers)
-
 //(fuel is 0 to 1)
-
-JetFuelCost = &quot;0.0&quot;
-
+JetFuelCost = "0.0"
 //initial cost when jet jumping(fuel is 0 to 1)
-
-JetFuelInitialCost = &quot;0.0&quot;
+JetFuelInitialCost = "0.0"
 
 //minimum fuel to perform a jet jump(fuel is 0 to 1)
 
@@ -427,6 +341,7 @@ WeaponAmmo = 0
 WeaponChannel = 1
 
 // this is the end of the ODF...
+```
 
 _ **Cloth…** _
 
@@ -796,7 +711,7 @@ When you set up a new animation set, at least for a Jedi, the weapon type is sti
 
 The first step to setting up your animation set is to create a folder for it. In your mod&#39;s &quot;data&quot; folder, there should be a folder called &quot;Animations&quot;, containing a folder called &quot;SoldierAnimationBank&quot;, containing a folder called &quot;template&quot;. What you must do is make a copy of that &quot;template&quot; folder and call it whatever your new animation set will be named. And since you copied the folder, there should be a &quot;munge.bat&quot; batch file inside it. Like so:
 
-![](RackMultipart20220212-4-reryv6_html_f1f55951a8c8010.png) ![](RackMultipart20220212-4-reryv6_html_fad4b345667f5243.png)
+![](images/BF2_JediCreate_SidesFolder_6.jpg) ![](images/munge.jpg)
 
 Unfortunately, you must edit munge.bat so it will munge your animations to the right directory. So, open it in Notepad (remember to make it non-Read-Only if you have to!) and you should see something like this:
 
@@ -812,30 +727,24 @@ If you have the &quot;assets&quot; folder, which contains the entirety of the an
 
 Since this is a tutorial, we will be stealing Luke&#39;s animations and putting them into our own animation set, which – even though it won&#39;t look any different from human\_sabre, will be our own to expand on as we wish. So first we steal Luke&#39;s basepose and stand\_idle\_emote\_full, and put them into our folder. Remember to rename the beginning to &quot;tat\_luke&quot; or whatever your set is called:
 
-![](RackMultipart20220212-4-reryv6_html_f5f958ed6bccae86.png)
+![](images/tat_luke_msh.jpg)
 
 _All that is really necessary for your animation set is a basepose.msh. This determines what your skeleton looks like – for example, the Wookiee and Ewok use human animations, and have only different skeletons, meaning their animation sets consist of simply a basepose (and specialized extra animations if they have any)._
 
 Now that your set has a basepose and an animation, if you double-click munge.bat, it should create some log files, and 3 files that BF2 uses for your animation set in \sides\JDI\munged:
 
-![](RackMultipart20220212-4-reryv6_html_905b8c5506c6ccd1.png)
+![](images/mungedFolder.jpg)
 
 You can open the .anims file in Notepad, and it will list what animations are defined by your set:
-
+```
 ucft
-
 {
-
-ANIM
-
-{
-
-&quot;tat\_luke\_sabre\_stand\_idle\_emote\_full&quot;
-
+   ANIM
+  {
+    "tat_luke_sabre_stand_idle_emote_full"
+  }
 }
-
-}
-
+```
 The name of the files that were created (&quot;tat\_luke.anims&quot;, etc) is what is used in your soldier&#39;s ODF (AnimationName = &quot;tat\_luke&quot;). Keep in mind that these files and your animation set need to have the same name – if &quot;tat\_luke.anims&quot; has inside it obiwan\_sabre\_stand\_idle\_emote\_full, this animation will not be able to be used by the game.
 
 That&#39;s all for creating animations – as you add or remove animations in your set, you need to re-run munge.bat in order to recreate those files in your side&#39;s \munged folder. Then you need to run VisualMunge again and munge your side. Those 3 files are eventually copied into your side&#39;s .LVL file and loaded by the game.
@@ -845,7 +754,7 @@ Keep in mind that you only need to re-run the animation munge.bat if you change 
 _ **The Combo File Header…** _
 
 Each combo file begins with the same information, before we get to the state-definition part. The usual commented example:
-
+```
 // The name an animation is always just the part after
 
 // the class and weapon, because the class comes from your
@@ -981,7 +890,7 @@ InputLock(&quot;All&quot;, &quot;!Thrust&quot;);
 AlignedToThrust();
 
 }
-
+```
 **Additional Notes – These Are Important! (In no particular order)**
 
 - Generally, ground moves are NOT AlignedToThrust, and jumping moves are. Sprint moves may also be aligned, but if they are not you have greater control – see Ki-Adi-Mundi&#39;s sprint attack.
@@ -1034,11 +943,11 @@ I apologize for this part of the documentation, but after all there is an exampl
 
 When you munge now, &quot;jdi.lvl&quot; should contain your character. How do you use it in the game? Well, so you know, it&#39;s in the SIDE folder of your mod&#39;s \_LVL\_PC folder. When you munge, this gets copied into your BF2 directory automagically…
 
-![](RackMultipart20220212-4-reryv6_html_eb31541827ab9b68.png) is copied to your BF2 directory&#39;s ![](RackMultipart20220212-4-reryv6_html_a2659b47f0fbe5b6.png)
+![](images/BF2_JediCreate_SidesFolder_7.jpg) is copied to your BF2 directory&#39;s ![](images/lvl_pc.jpg)
 
 ending up with
 
-![](RackMultipart20220212-4-reryv6_html_950a22523468586f.png)
+![](images/addonSide.jpg)
 
 From there, in your mod&#39;s mission scripts, you can load your character into your level:
 
