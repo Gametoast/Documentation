@@ -1,0 +1,448 @@
+Path Following
+==============
+
+Some docs to remind me, and inform other people about the spline path following
+code in Battlefront2.  
+
+Designer notes
+--------------
+
+It's possible to force the player's flyer to follow a path using the command 
+line switch /playerflyerpathing.
+
+Paths are displayed using the console command DrawEntityPaths.
+
+Path Follower ODFs
+------------------
+
+Any entities which are derived from EntityPathFollower (ask a programmer) can
+follow a designer defined path.  The ODF associated with the entity class can
+contain the following properties to control how an entity follows a path...
+
+PathFollowerClass - 
+A string which is used to determine paths this entity can follow.  If this is 
+not set, the entity will follow any path.
+
+PathFollowerClass_CTF -
+Just like above, but used when they are carrying the flag.  If this is not set,
+they'll just use the normal class above when they get the flag
+
+PathFollowerSpeed - 
+Is multiplied by the default speed of the entity, to determine the entity's 
+speed along the path.  e.g factor of 1.0 will make the entity follow the 
+path at its default speed, 0.5 half its default speed, 2.0 double its 
+default speed.
+
+PathFollowerTurnSpeed - 
+Factor which is multiplied by the speed of the entity when turning at a rate of 
+90 degrees (pi rads) a second.
+
+PathFollowerAcceleration - 
+Changes the speed convergence time of the entity.  If set to 1.0, the entity 
+will take 1 second to reach its desired speed, if set to 2.0 the entity will
+have slower acceleration, taking 2 seconds to reach its desired speed.
+
+PathFollowerRollAcceleration - 
+The angular acceleration of the roll of the entity when turning.  The higher
+the value the quicker the entity will move towards its desired roll value.  
+This value is specified in degrees, e.g a value of 30 will cause the entity
+to accelerate at a rate of 30 degrees a second towards its desired roll angle.
+
+PathFollowerLookAhead - 
+Number of world units the path follower should look ahead along the path to 
+calculate the entity's roll due to turning.
+
+PathFollowerRollTolerance - 
+The stable roll region the entity is trying to roll into.  When rolling an
+entity starts to increase rolling speed until its roll angle is within the
+specified roll tolerance region.  When the tolerance region is entered the
+entity's roll speed decreases until it has stopped in the tolerance region.
+When a high roll acceleration and roll speed are specified it is possbile
+to get the entity to overshoot the tolerance region which causes the entity
+to reverse roll direction in an attempt to stablize in the desired tolerance
+region.  This value is specified in degrees.
+The larger the tolerance region the larger the error around the 
+desired roll angle, the smaller the tolerance region the higher the 
+roll oscillation around the desired roll angle.
+
+PathFollowerRollSpeed - 
+Maximum angluar speed when rolling.  A larger roll speed will decrease the
+stability of the entity when rolling and increase oscillation around the
+desired roll angle.  This value is specified in degrees.
+
+PathFollowerRollAccelerationLag - 
+Amount of time to reach the desired roll acceleration.  A larger lag will 
+result in slower rolling acceleration but will also result in a slower
+response when correcting an overshoot past the desired roll angle.  This
+value is in seconds.
+
+PathFollowerRollTurnFactor - 
+Controls how turn rate affects roll.  A larger value will increase the roll 
+for a turn, a smaller value will decrease the roll for a turn.
+
+PathFollowerRollSpeedFactor - 
+Controls how speed affects roll.  A large value will increase the desired roll 
+angle for a turn, a smaller value will decrease desired roll angle for a turn.
+
+PathFollowerRollDampening - 
+Controls how quickly the roll of the entity will converge to the desired roll 
+along the path.  This is useful for leveling an entity after a turn has been 
+completed.  If this is set to 0 no dampening will occur.
+
+PathFollowerBranchPaths - 
+The default number of paths this entity should randomly select from, to branch 
+to when reaching the end of a path.  This value can be overridden by 
+BranchPaths property of a path point / node.  See the BranchPaths property of 
+a path point / node for more info.
+
+PathFollowerBranchRange - 
+The default range to search for a path to branch to when reaching the end of a 
+path.  This value can be overridden by Range property of a path 
+point / node.  See the Range property of a path point / node for more info.
+
+PathFollowerBranchMaxAngle - 
+The default angle to limit the path search for a new path when reaching the end
+of a path.  This value can be overridden by MaxAngle property of a path 
+point / node.  See the MaxAngle property of a path point / node for more info.
+
+PathFollowerMinBranchDist -
+The default minimum distance we would prefer when searching for a new path.
+We don't normally like new paths that are too close to us because the turn
+to get into that path might get a little funky.
+
+PathFollowerFlyerVsFlyer -
+Whether or not the flyer will engage in combat-related maneuvers, such as veering
+off splines upon damage, turning around to attack, trying to stay near the player.
+If "0", the flyer will mind its own business.  The default value is "1", having 
+these behaviors on.
+
+SquadronFormation - 
+Formations used by this entity.  For example if this entity can fly in the 
+formations "fighterstar" and "figherstrafe" the ODF will contain the following 
+lines...
+
+SquadronFormation = "fighterstar"
+SquadronFormation = "fighterstrafe"
+
+See the section on formation paths for details on how to create a formation.
+
+SquadronSlideTime - 
+Time an entity takes to slide to its desired position within the formation.
+
+SquadronMemberID - 
+The ID of the squadron member.  This is used to limit the entity to certain
+positions within a formation.
+
+SquadronDistance - NOTE : this is specific to flyers
+Distance to search for other flyers to form a squadron.  This defaults to 40
+times the diameter of the bounding sphere of the flyer.
+
+SquadronMaxAngle - NOTE : this is specific to flyers
+Maximum angle to seach for other flyers to form a squadron.  This defaults
+to 90 degrees.  This only ensures the orientation of all flyers are within
+this angle.
+
+
+Default values...
+
+PathFollowerClass               = "" 
+PathFollowerSpeed               = "1.0"
+PathFollowerTurnSpeed           = "0.5"
+PathFollowerAcceleration        = "2.0"
+PathFollowerRollAcceleration    = "45"
+PathFollowerRollLookAhead       = "1.0"
+PathFollowerRollTolerance       = "11.25"
+PathFollowerRollSpeed           = "45"
+PathFollowerRollAccelerationLag = "0.001"
+PathFollowerRollTurnFactor      = "5.0"
+PathFollowerRollSpeedFactor     = "1.0"
+PathFollowerRollDampening       = "0.5"
+PathFollowerBranchPaths		= "0"
+PathFollowerBranchRange		= "{very big number}"
+PathFollowerBranchMaxAngle	= "180"
+PathFollowerMinBranchDist       = "300.0"
+SquadronFormation               = ""
+SquadronSlideTime               = "2.0"
+SquadronMemberID                = ""
+
+
+Flyer ODF properties
+--------------------
+
+FreeFlyTime - 
+Time for a flyer to free fly after aquiring damage from a collision or being 
+shot.
+
+CircleATATFrequency -
+Chance (between 0 and 1) that the flyer will choose to circle an ATAT when
+one is in range.
+
+Default values...
+
+FreeFlyTime = "10.0"
+CircleATATFrequency = "0.25"
+
+
+Branch regions
+--------------
+
+When an entity reaches the end of a path it uses a set of branching parameters,
+like PathFollowerBranchPaths, PathFollowerBranchRange and 
+PathFollowerBranchMaxAngle, to determine which path to branch to next.  It's 
+possible to specify path points / nodes to branch to by creating spherical 
+regions  which enclose a number of path points / nodes.  These regions named 
+must be in the following format...
+
+"entitypathbranch {regionname}"
+
+... for example ...
+
+"entitypathbranch xwingStrafeStarDestroyer"
+
+A branch region can be referenced by a path point / node using the BranchRegion
+property.  For example a path point / node could have the property 
+BranchRegion("xwingStrafeStarDestroyer") which would cause the entity reaching 
+the path point / node to branch to a path point / node within the region 
+"xwingStrafeStarDestroyer".  If no suitable paths are found within the region
+the closest path to the region is chosen.
+
+
+Entity Paths
+------------
+
+Paths for entity's to follow are created using the path mode in the zero editor.
+These paths must be named in the following format...
+
+"entitypath {pathname}"
+
+... for example ...
+
+"entitypath xwingstrafingrun"
+
+Paths and nodes / points on a path can have properties associated with them
+to control how an entity traverses the path and which entities can follow the
+path.
+
+
+Path properties
+---------------
+
+Class - 
+String ID which relates to the entity ODF's PathFollowerClass property.  An 
+entity will only follow a path if...
+
+o the PathFollowerClass property of the entity isn't set
+o the Class property of the path isn't set
+o the Class property of the path is the same as the PathFollowerClass property 
+  of the entity.
+
+Up to 5 class properties can be set on a path allowing 5 different entity 
+classes to follow the path.  To specify additional classes, use another
+property with the name "Class1", "Class2", etc...
+If more than 5 classes are required per path, ask a programmer.
+
+The maximum number of instances of a class can be specified by following 
+the class ID with a numerical value.  For example Class("xwing 3") will
+only allow up to 3 instances of entities which use the "xwing" class to 
+follow the path.
+
+MaxEntities - 
+Sets the maximum number of instances of any class which follow the path
+at the same time.  This overrides the maximum number of instances 
+specified by each Class property.
+
+MaxSquadronSize - 
+Sets the maximum size of a squadron of entities following the path.
+
+PathRoll - 
+When set to 1.0 the entity ignores all roll properties set in it's ODF and 
+rolls depending upon the rotation values of each node / point in the path.  
+When set to 0.0, the roll is determined by the roll properties set in the 
+entity's ODF.
+
+Speed - 
+Is multiplied by the default speed of the entity, to determine the entity's 
+speed along the path.  e.g factor of 1.0 will make the entity follow the 
+path at its default speed, 0.5 half its default speed, 2.0 double its 
+default speed.  The path speed is multiplied by the speed set in the entity's
+ODF to determine the speed along the path.  e.g if the entity speed is 40,
+the entity's PathFollowerSpeed is 0.5 and the path speed is 0.5 the final
+speed is 40 * 0.5 * 0.5 = 10 world units a second.
+
+VarianceX - 
+Varies the position, along the world's (canonical) X axis, of all nodes on 
+the path by the specified value.  The default is 0.0.
+
+VarianceY - 
+Varies the position, along the world's (canonical) Y axis, of all nodes on 
+the path by the specified value.  The default is 0.0.
+
+VarianceZ - 
+Varies the position, along the world's (canonical) Z axis, of all nodes on 
+the path by the specified value.  The default is 0.0.
+
+BranchDifferent - 
+If set to 1.0 the entity will always branch to a different path.  When 
+set to 0.0 it's possible the entity will select the same path to follow 
+again.  The default is 1.0.
+
+SingleDirection - 
+If set to 1.0 as soon as an entity starts following a path all subsequent 
+entities will only follow the path in the same direction.  If the path
+is no longer being followed by any entities it's possible for an entity
+to follow the path in any direction.  The default is 0.0.
+
+Direction - 
+Forces entities to only follow the path in the specified direction 
+when 1.0 is forwards, 0.0 is any direction and -1.0 is backwards.  The
+default is 0.0.
+
+Frequency -
+Increases likelihood of entity selecting this path.  When entities look for a
+new path, each candidate path receives a score [0..1] and a path is chosen from 
+the set of x paths with the highest scores, where x is determined by the node 
+prop 'branchpaths'.  This frequency is a multiplier on the score received.  The 
+default value is 1.0f.
+
+EnableObject -
+If this is set to the name of a destructable object, this path will only be
+enabled when that object is alive.  This way you can have certain paths that
+are only on until the flyers destroy an object, then they turn themselves off.
+This defaults to not set, which means no object and that the path is on all the time.
+
+Name -
+If this is set, it will override the name of the path.  This is mainly so that you
+can use call more than one path by the same name (not supported by the editor for
+the normal names) and then use EnableFlyerPath() to enable them all at once.
+
+
+Lua Script Commands for paths
+-----------------------------
+
+EnableFlyerPath(name,enable) -
+This function allows you to turn a path on/off from the script.  The name should
+be the string name of the path ("landing01"), and enable should be either 0 or 1.
+It will affect all paths by this name, so you can use the Name path property to
+set a group of paths to the same name and toggle them all at the same time.
+
+
+Path node / point properties
+----------------------------
+
+BranchProbability - 
+The probability of an entity branching from the current node to the start of
+another path.  When set to 0 the entity will never branch from the node unless
+the node is at the end of the path.  When set to 1 the entity will always 
+branch from the node which is equivalent to the node being at the end of a 
+path.  The default branch probability is 0.0.
+
+Range - 
+This value controls the range an entity will search to find a new path to 
+branch to.  If this value is set to 100 then only path nodes within 100
+world units will be considered as potential targets for the entity.  If
+no paths are found within the specified range the most "suitable" 
+(combination of closest distance and closest orientation to the entity's
+current orientation) will be chosen.  Finally, if a range isn't set the
+entity will move to the start of the next closest path and will ignore 
+orientation.
+
+BranchRegion - 
+Specifies a spherical entitypathbranch region to branch to.  If this
+value is set, it overrides the Range property of the node.  
+See the section on branch regions for more details.
+
+MaxAngle - 
+Maximum difference between the entity's angle and the path's start angle.
+This value is in degrees and can be in the range 0..180.  For example, 
+when set to 30 the entity will only move to paths start with the same
+orientation within 30 degrees.  The default angle is 180.
+
+BranchPaths - 
+When a range is specified this value controls the number of paths to 
+be randomly selected between when branching to the next path.  For example
+if 5 paths are found within a range of 500 world units and BranchPaths is 
+set to 2, a path will be randomly selected from the 2 most suitable paths
+in the set of 5.  The default branch paths value is 0.
+
+Speed - 
+Used to control the speed of an entity when approaching a node / point. 
+Multiplied with the path speed, entity speed and entity default speed.
+
+VarianceX - 
+Varies the position, along the path's X axis, of all nodes on 
+the path by the specified value.  The default is 0.0.
+
+VarianceY - 
+Varies the position, along the path's Y axis, of all nodes on 
+the path by the specified value.  The default is 0.0.
+
+VarianceZ - 
+Varies the position, along the path's Z axis, of all nodes on 
+the path by the specified value.  The default is 0.0.
+
+LandOnArrival -
+1 or 0.  When the flyer arrives at this node, whether the flyer should attempt
+a landing.  The flyer never actually arrives at the last node in a path, so if
+you want the flyer to land at the end of a path, the node property needs to be
+set on the second to last node in the path.
+
+
+Formation Paths
+---------------
+
+It's possible to get entities to group togther into formations.  The size and
+shape of these formations are defined by formation paths.  Each point in the
+path is a slot in the formation with the exception of a point in the path with 
+the Root property set to 1.
+
+Every 10..20 seconds each entity determines whether any other entities are 
+within 10 times its diameter, are facing in approximately 
+(within 60 degrees) the same direction and have the same allegiance.  If 
+all of these conditions are satisfied the entity that performed the query
+tries to form a squadron with itself as the leader.
+
+Path properties
+---------------
+
+RootIsSlot - 
+Set to 1.0 if the root node / point of the path is a valid position within 
+the formation.  Set to 0.0 if this is simply the root point of the formation
+and not a valid position for an entity to occupy.
+
+
+Path Node / Point properties
+----------------------------
+
+Root - 
+Assign this property to on a node / point to set the node as the root of the 
+formation.  If this isn't set the first node will become the root of the 
+formation.  If this is set on multiple nodes the last node in the path set to
+root becomes the root.
+
+MemberID - 
+The member this node supports.  One member ID can be assigned to each node of 
+the formation.  If this value isn't set the position in the formation can
+be used by any entity.
+
+
+Programmer notes
+----------------
+
+o EntityPathFollower builds catmull-rom splines.
+o EntityPaths are instanced for each path which has "entitypath " as the first
+  characters of its name.
+o New path types can be created by deriving a factory class from 
+  GamePathFactory. 
+
+To implement a path following entity...
+
+1. derive the entity's class from EntityPathFollowerClass 
+2. add EntityPathFollowerClass::SetProperty(id, value) to the derived 
+entity class's SetProperty() function.
+3. derive the entity from EntityPathFollower
+4. call the EntityPathFollower constructor from the derived entity
+5. when path following for the entity is enabled in the entity's Update() 
+function call the base class EntityPathFollower::Update() function then
+update the entity's matrix with the matrix returned from 
+EntityPathFollower::Update().
+6. Sit back and watch for entity follow some paths (ooooh)
