@@ -1,0 +1,109 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=windows-1252"/>
+	<title></title>
+	<meta name="generator" content="LibreOffice 7.2.2.2 (Windows)"/>
+	<meta name="author" content="Sean Soucy"/>
+	<meta name="created" content="2006-01-20T17:29:00"/>
+	<meta name="changedby" content="Sean Soucy"/>
+	<meta name="changed" content="2006-01-20T17:29:00"/>
+	<style type="text/css">
+		@page { size: 8.5in 11in; margin-right: 1.25in; margin-top: 1in; margin-bottom: 1in }
+		p { color: #000000; line-height: 115%; orphans: 2; widows: 2; margin-bottom: 0.1in; direction: ltr; background: transparent }
+		p.western { font-family: "Times New Roman", serif; font-size: 12pt; so-language: en-US }
+		p.cjk { font-family: "Times New Roman", serif; font-size: 12pt }
+		p.ctl { font-family: "Times New Roman", serif; font-size: 12pt; so-language: ar-SA }
+	</style>
+</head>
+<body lang="en-US" text="#000000" link="#000080" vlink="#800000" dir="ltr"><p class="western" style="line-height: 100%; margin-bottom: 0in">
+<font face="Arial, sans-serif"><b>Mesh &amp; Animation Exporting</b></font><font face="Arial, sans-serif">
+</font>
+</p>
+<p style="line-height: 100%; margin-top: 0.19in; margin-bottom: 0.19in">
+<font face="Arial, sans-serif">Mesh<br/>
+Place meshes zeroed in
+world, XZ plane is floor.<br/>
+Freeze all transforms, (Zeroing out
+transform pivot point).<br/>
+Assign a material, (either Lambert or
+Phong), to each mesh.<br/>
+Assign a texture, (only one for enveloped
+objects), to each mesh.<br/>
+Freeze the geometry, (collapse stack,
+delete construction history, whatever you like to call it). </font>
+</p>
+<p style="line-height: 100%; margin-top: 0.19in; margin-bottom: 0.19in">
+<font face="Arial, sans-serif">Bones<br/>
+Place bones with hierarchy
+as children of mesh. Bones can be Skeleton 2D/3D chain bones or
+nulls. (Bones can be geometry as well but shouldn&quot;t be used in
+the mesh.) <br/>
+Place a traversing bone, (usually a null), as parent
+of the mesh. (just called &quot;dummyroot&quot;) This bone defines
+the mesh traversing along the ground. <br/>
+All bones mush have a
+direct parent/child relation. (Chain bone effectors must be linked to
+the last bone in IK chain.) <br/>
+Place a world bone, (usually a
+null), as a parent to the traverse bone, (just called &quot;grounddummy&quot;),
+This will allow you to offset the animation starting point in the
+world. <br/>
+Place hardpoints, (usually nulls or simple geometry),
+wherever needed. Hardpoints are simply bones that have the prefix
+&quot;hp_&quot;. They are used as transform nodes that can be used as
+reference points for placing weapons, event hot spots, etc. </font>
+</p>
+<p style="line-height: 100%; margin-top: 0.19in; margin-bottom: 0.19in">
+<font face="Arial, sans-serif">Rig<br/>
+Rig nodes should not be in
+the hierarchy of the skeleton. Rig elements could be regarded as
+bones or offset child bone transforms otherwise. Use rig controllers
+to drive IK effectors and up vectors. Bones can be animated with IK
+or FK depending on the situation. </font>
+</p>
+<p style="line-height: 100%; margin-top: 0.19in; margin-bottom: 0.19in">
+<font face="Arial, sans-serif">Enveloping<br/>
+Most meshes require
+rigid enveloping meaning only one bone influence for each vertex,
+(this is mostly for soldiers &amp; vehicles). Otherwise, you could
+have up to 3 bones influence each vertex but you must define it as
+&quot;-softskin&quot; in the meshes .option file, (I hope .option
+files are covered elsewhere). ;) </font>
+</p>
+<p style="line-height: 100%; margin-top: 0.19in; margin-bottom: 0.19in">
+<font face="Arial, sans-serif">Animation<br/>
+Do not animate the
+mesh, skeleton 2D/3D chain bone roots or effectors. It will offset
+child bones transforms. The traverse bone must start at the world
+bone, (it will zero the traverse bone transforms.) This is good for
+if you have multiple animations in a scene with different starting
+locations. The traverse bone must have only two keyframes from the
+beginning of the animation to the end of the animation sequence with
+only linear interpolation, (you could use spine interpolation to
+normalize certain overextended motions). </font>
+</p>
+<p style="line-height: 100%; margin-top: 0.19in; margin-bottom: 0.19in">
+<font face="Arial, sans-serif">Exporting The Mesh<br/>
+The enveloped
+mesh with the skeleton mush be exported as the in-game object name
+and the skeleton itself must be exported individually as a basepose,
+(called &quot;basepose.msh&quot;). </font>
+</p>
+<p style="line-height: 100%; margin-top: 0.19in; margin-bottom: 0.19in">
+<font face="Arial, sans-serif">Exporting The Animations<br/>
+Remove
+all meshes from the skeleton hierarchy.<br/>
+Set the start and end
+frame in the playback timeline boxes.<br/>
+Branch select the traverse
+bone.<br/>
+Export the mesh the using the exporter plugin. Be sure to
+have &quot;Export Selected Models Only&quot;, &quot;Export
+Animations&quot; &amp; &quot;Export FK Animation&quot; selected. </font>
+</p>
+<p class="western" style="line-height: 100%; margin-bottom: 0in"><br/>
+
+</p>
+</body>
+</html>
