@@ -1,3 +1,4 @@
+```C#
 // Combo file format and template
 
 //RemapReloadButton("<button>");
@@ -608,4 +609,4 @@ State("ATTACK1")
 		}
 	}
 }
-
+```

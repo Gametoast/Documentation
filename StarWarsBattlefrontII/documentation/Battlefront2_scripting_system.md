@@ -32,12 +32,12 @@ By default, the Event calls all registered Callbacks any time an Actor triggers 
 
 ### Registering an Event Callback
 
-To register a function as a Callback, the script calls one of the Event registration functions. These functions all have names that start with &quot;On&quot; followed by the name of the Event, and optionally by the name of a Filter:
+To register a function as a Callback, the script calls one of the Event registration functions. These functions all have names that start with "On" followed by the name of the Event, and optionally by the name of a Filter:
 
-- &quot; **On&quot; + Event Name**
-- &quot; **On&quot; + Event Name + Filter Name**
+- " **On" + Event Name**
+- " **On" + Event Name + Filter Name**
 
-For example, the registration function for the Command Post Event &quot;BeginCapture&quot; and the Command Post Filter &quot;Team&quot; has the name &quot;OnBeginCaptureTeam&quot;.
+For example, the registration function for the Command Post Event "BeginCapture" and the Command Post Filter "Team" has the name "OnBeginCaptureTeam".
 
 The Event part of the registration function expects a Lua function to call, whether by reference or inline definition. If the Event is instance-specific, it also expects an additional parameter to specify which instance.
 
@@ -53,7 +53,7 @@ Alternatively, the Lua function can appear inline:
 
 OnFinishCaptureTeam(function (post) ... end, 1)
 
-Lua treats functions just like numbers, strings, tables, or any other data type. You can define them anywhere, assign them to variables, pass them as parameters, or return them from functions. In fact, defining a function remembers the values of all local variables in its environment, creating a &quot;closure&quot; or &quot;function object&quot;; this is a very useful and powerful language feature.
+Lua treats functions just like numbers, strings, tables, or any other data type. You can define them anywhere, assign them to variables, pass them as parameters, or return them from functions. In fact, defining a function remembers the values of all local variables in its environment, creating a "closure" or "function object"; this is a very useful and powerful language feature.
 
 ### Inside an Event Callback
 
@@ -81,13 +81,13 @@ This event occurs whenever a character drops a controllable item (such as a remo
 
 ### CharacterLandedFlyer: function (player, flyer)
 
-This event occurs whenever a character lands a flyer. If you wanted to check if the player landed within a region, use IsCharacterInRegion(player, &quot;regionName&quot;). If you want to check if the flyer matches a particular type of flyer, use this:
+This event occurs whenever a character lands a flyer. If you wanted to check if the player landed within a region, use IsCharacterInRegion(player, "regionName"). If you want to check if the flyer matches a particular type of flyer, use this:
 
-if GetEntityClass(flyer) == FindEntityClass(&quot;flyerClassName&quot;) then
-
-\&lt;blah blah insert code here\&gt;
-
+```
+if GetEntityClass(flyer) == FindEntityClass("flyerClassName") then
+<blah blah insert code here>
 end
+```
 
 ### CharacterEnterVehicle: function (player, vehicle)
 
@@ -100,17 +100,13 @@ This event occurs whenever the player presses the OK button in the spawn display
 ### CharacterIssueAICommand: function (player, command\_id)
 
 This event occurs whenever a player issues a command to the AI. The command ID that is passed in must be translated into a string by calling TranslateAICommand(command\_id). This function will return one of the following strings:
-
-&quot;getintovehicle&quot;
-
-&quot;getoutofvehicle&quot;
-
-&quot;waitforpickup&quot;
-
-&quot;followchr&quot;
-
-&quot;stopfollowchr&quot;
-
+```
+"getintovehicle"
+"getoutofvehicle"
+"waitforpickup"
+"followchr"
+"stopfollowchr"
+```
 ## Filters
 
 ### Name: name
@@ -406,20 +402,27 @@ AddShield
 PhysicsActive
 ```
 Door:
-```OpenTrigger
-OpenRatio```
+```
+OpenTrigger
+OpenRatio
+```
 
 RemoteTerminal:
-```RemoteGameObject
+```
+RemoteGameObject
 NextLinkedTerminal
-PrevLinkedTerminal```
+PrevLinkedTerminal
+```
 
 PowerupStation:
-```EffectRegion
-Radius```
+```
+EffectRegion
+Radius
+```
 
 VehicleSpawn:
-```Team
+```
+Team
 CommandPost
 SpawnTime
 DecayTime
@@ -444,7 +447,8 @@ ClassHisAtk
 ClassHisDef
 ```
 EntitySound:
-```Sound
+```
+Sound
 SoundStream
 MinDistance
 MaxDistance
@@ -581,19 +585,19 @@ This function returns the Object with the specified name, or nil if none exists.
 
 This function activates the specified Object, enabling its physics.
 
-SetProperty(…, &quot;PhysicsActive&quot;, 1) does the same thing, but slightly slower and safer.
+SetProperty(…, "PhysicsActive", 1) does the same thing, but slightly slower and safer.
 
 ### DeactivateObject (name object)
 
 This function deactivates the specified Object, disabling its physics.
 
-SetProperty(…, &quot;PhysicsActive&quot;, 0) does the same thing, but slightly slower and safer.
+SetProperty(…, "PhysicsActive", 0) does the same thing, but slightly slower and safer.
 
 ### SetObjectTeam (name or object, team)
 
 This function set the team of the specified Object.
 
-SetProperty(…, &quot;Team&quot;, team) does the same thing, but slightly slower and safer.
+SetProperty(…, "Team", team) does the same thing, but slightly slower and safer.
 
 ### GetObjectTeam (name or object) → team
 
@@ -701,7 +705,7 @@ This filter matches the specified team.
 
 ### SetTeamName (team, name)
 
-This function sets the name of the specified team. The names &quot;neutral&quot;, &quot;neu&quot;, &quot;alliance&quot;, &quot;all&quot;, &quot;empire&quot;, &quot;imp&quot;, &quot;republic&quot;, &quot;rep&quot;, and &quot;cis&quot; map to pre-defined team identifiers; anything else maps to locals. (Yes, this is not very general.)
+This function sets the name of the specified team. The names "neutral", "neu", "alliance", "all", "empire", "imp", "republic", "rep", and "cis" map to pre-defined team identifiers; anything else maps to locals. (Yes, this is not very general.)
 
 ### SetTeamIcon (team, icon)
 
@@ -745,7 +749,7 @@ This function sets the hero class for the specified team.
 
 ### ActivateBonus (team, bonus)
 
-This function activates a bonus for the specified team. Allowed values are &quot;MEDICAL\_SUPPLIES&quot;, &quot;SURPLUS\_SUPPLIES&quot;, &quot;SENSOR\_BOOST&quot;, &quot;HERO&quot;, &quot;RESERVES&quot;, &quot;SABOTAGE&quot;, &quot;SNEAK\_ATTACK&quot;, and &quot;TRAINING&quot;.
+This function activates a bonus for the specified team. Allowed values are "MEDICAL\_SUPPLIES", "SURPLUS\_SUPPLIES", "SENSOR\_BOOST", "HERO", "RESERVES", "SABOTAGE", "SNEAK\_ATTACK", and "TRAINING".
 
 ### SetBleedRate (team, rate)
 
@@ -753,7 +757,7 @@ This function sets the visible bleed rate for the specified team.
 
 ### SetCarrierClass (team, config)
 
-This function sets the carrier vehicle class for the specified team. This vehicle class _must_ have a class label of &quot;carrier&quot;, or derive from one that does. The carrier will carry ground units to vehicle pads.
+This function sets the carrier vehicle class for the specified team. This vehicle class _must_ have a class label of "carrier", or derive from one that does. The carrier will carry ground units to vehicle pads.
 
 # Timer
 
@@ -797,17 +801,17 @@ This function creates a new Timer with the specified name and returns it.
 
 This function deletes the specified Timer. Do not use the timer after destroying it!
 
-&quot;Why?&quot;
+"Why?"
 
-&quot;It would be bad.&quot;
+"It would be bad."
 
-&quot;I&#39;m fuzzy on the whole good/bad thing. What do you mean &#39;bad&#39;?&quot;
+"I&#39;m fuzzy on the whole good/bad thing. What do you mean &#39;bad&#39;?"
 
-&quot;Try to imagine all life as you know it stopping instantaneously and every molecule in your body exploding at the speed of light.&quot;
+"Try to imagine all life as you know it stopping instantaneously and every molecule in your body exploding at the speed of light."
 
-&quot;Total protonic reversal…&quot;
+"Total protonic reversal…"
 
-&quot;Right, that&#39;s bad. Okay, all right, important safety tip. Thanks Egon.&quot;
+"Right, that&#39;s bad. Okay, all right, important safety tip. Thanks Egon."
 
 ### StartTimer (name or timer)
 
@@ -841,7 +845,7 @@ This function returns the name of the specified Timer.
 
 ## Events
 
-### \&lt;Event\&gt;: function (actor, context)
+### <Event>: function (actor, context)
 
 **Actor: any Lua type**
 
@@ -849,7 +853,7 @@ This function returns the name of the specified Timer.
 
 **Instance: N/A**
 
-This event occurs when the script calls Trigger\&lt;Event\&gt; for a previously created Event type. It supports all Lua types as Actor and Context, including nil, Boolean, light user data, number, string, table, function, user data, and thread.
+This event occurs when the script calls Trigger<Event> for a previously created Event type. It supports all Lua types as Actor and Context, including nil, Boolean, light user data, number, string, table, function, user data, and thread.
 
 ## Filters
 
@@ -861,8 +865,8 @@ This filter matches the specified actor.
 
 ### CreateUserEvent (name)
 
-This function creates a new Event with the specified name. It generates the registration functions On\&lt;Event\&gt; and On\&lt;Event\&gt;Match, as well as Trigger\&lt;Event\&gt;, where \&lt;Event\&gt; is the name specified.
+This function creates a new Event with the specified name. It generates the registration functions On<Event> and On<Event>Match, as well as Trigger<Event>, where <Event> is the name specified.
 
-### Trigger\&lt;Event\&gt; (actor, context)
+### Trigger<Event> (actor, context)
 
 This function triggers the specified Event. It passes the actor and context parameters directly to any Callbacks registered for the event.

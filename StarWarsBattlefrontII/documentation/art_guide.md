@@ -11,7 +11,7 @@ Props - 0 - 500 polys
  Vehicles - 1500 - 2000 polys
  Characters - 1500 - 2000 polys
 
-Every object can be exported by itself, but if you want to see it from a distance you will need a low resolution version of the mesh for LOD purposes. Those should be approximately 1/3rd of the original model&#39;s poly count, and a child of the model&#39;s root node. You must declare it a LOD mesh by appending &quot;\_lowrez&quot; to its object name.
+Every object can be exported by itself, but if you want to see it from a distance you will need a low resolution version of the mesh for LOD purposes. Those should be approximately 1/3rd of the original model&#39;s poly count, and a child of the model&#39;s root node. You must declare it a LOD mesh by appending "\_lowrez" to its object name.
 
 Every model also requires collision objects and shadowvolumes to be inserted into the hierarchy. See appendices b and c.
 
@@ -40,10 +40,10 @@ Appendix B
 Shadowvolumes are special meshes that are created to mimic the model in shape and profile to cast shadows onto terrain and other objects. It can also be used for self-shadowing. Follow these steps to create a shadowvolume:
 
 1. Create a low-poly mesh that is slightly smaller in scale than the original model&#39;s mesh. When both the original mesh and the shadowvolume are unhidden, you should not see any of the shadowvolume sticking out of the original model. Try to keep it as low-poly as possible, but pay special attention to the profile from the top down view or whatever angle the sun will be at in relation to the model. The silhouette is what needs the most attention, because this is what gets cast onto other objects. Also, the mesh must be completely closed without any open ends or polygons, and its global center is 0,0,0.
- 2. Once created, name the shadowvolume mesh &quot;shadowvolume&quot;. If there is more than one, name them &quot;shadowvolume&quot;, &quot;shadowvolume1&quot;, &quot;shadowvolume2&quot;, etc.
+ 2. Once created, name the shadowvolume mesh "shadowvolume". If there is more than one, name them "shadowvolume", "shadowvolume1", "shadowvolume2", etc.
  3. Make the shadowvolume mesh a child of the actual mesh to which it is related. This is especially important when there are multiple shadowvolumes and bones and animated parts in the model. If the original mesh is skinned, then the shadowvolumes should be children of their respected bones. Otherwise, they should just be children of the individual objects.
  4. Select the shadowvolume mesh.
- 5. In the Animate menu, select Create -\&gt; Parameter -\&gt; New Custom Parameter.
+ 5. In the Animate menu, select Create -> Parameter -> New Custom Parameter.
  6. In the dialogue box, rename the Parameter Name to shadowvolume. Uncheck the Animatable Characteristic Button.
  7. Hide the shadowvolume mesh before export
 
@@ -53,9 +53,9 @@ Appendix C
 Collision meshes are simple low-poly meshes that are used by the game engine to calculate when and how objects collide with each other. There are 2 types of collision meshes used in SW BattleFront: collision meshes and collision primitives.
 
 Collision Mesh
- 1. This is usually a low-poly yet fairly conforming version of the original mesh. It is most often used for soldier and ordnance collision since those are most obvious ways to see collision mesh correctness. For example, you can see the ordnance collision on an object by shooting at it with any weapon. If the collision is sloppy and covers gaps or is not correctly aligned with the original mesh, then you will see the laser blasts hit empty space or inside the actual geometry of the model. The collision mesh has to be named &quot;collision&quot;, or if there are more than one, &quot;collision&quot;, &quot;collision1&quot;, &quot;collision2&quot;, etc. Multiple collision meshes will all get merged into one when munged. This is very important when considering rule #3. Do make the collision mesh a child of the root node or its corresponding node, and make sure its global center is at 0,0,0.
+ 1. This is usually a low-poly yet fairly conforming version of the original mesh. It is most often used for soldier and ordnance collision since those are most obvious ways to see collision mesh correctness. For example, you can see the ordnance collision on an object by shooting at it with any weapon. If the collision is sloppy and covers gaps or is not correctly aligned with the original mesh, then you will see the laser blasts hit empty space or inside the actual geometry of the model. The collision mesh has to be named "collision", or if there are more than one, "collision", "collision1", "collision2", etc. Multiple collision meshes will all get merged into one when munged. This is very important when considering rule #3. Do make the collision mesh a child of the root node or its corresponding node, and make sure its global center is at 0,0,0.
 
-2. Enabling the Collision Mesh: if the vehicle .MSH file has a corresponding .OPTION file, then it might contain the argument &quot;-nocollision&quot;. This is to prevent generation of a default collision mesh using the model&#39;s full geometry. If you have specified a collision mesh in XSI, you will need to remove this argument from the .OPTION file.
+2. Enabling the Collision Mesh: if the vehicle .MSH file has a corresponding .OPTION file, then it might contain the argument "-nocollision". This is to prevent generation of a default collision mesh using the model&#39;s full geometry. If you have specified a collision mesh in XSI, you will need to remove this argument from the .OPTION file.
 
 3. Collision meshes can NOT be used on moving parts (turrets, bones etc). When the vehicle is munged, all collision mesh nodes are merged into a single non-articulated collision mesh. If a moving part on a vehicle requires collision, it will have to be specified with a primitive.
 
@@ -68,13 +68,13 @@ Collision Mesh
 
 The game now supports the use of new naming conventions in XSI – no more ODF magic required!
 
-The old naming conventions are still valid – naming primitives &quot;p\_name&quot; and mesh &quot;collision\_name&quot; - but if you use these you still need to do soldier/vehicle/etc separation the old way through ODFs.  Nothing old will break, but there&#39;s no reason to do anything new using ODF definitions.
+The old naming conventions are still valid – naming primitives "p\_name" and mesh "collision\_name" - but if you use these you still need to do soldier/vehicle/etc separation the old way through ODFs.  Nothing old will break, but there&#39;s no reason to do anything new using ODF definitions.
 
 **New names:**
 
-**Primitives –     p\_-xxx-name    ----    (&quot;p&quot; underscore hyphen [types] hyphen name)**
+**Primitives –     p\_-xxx-name    ----    ("p" underscore hyphen [types] hyphen name)**
 
-**Mesh –     collision\_-xxx-name    ---    (&quot;collision&quot; underscore hyphen [types] hyphen name)**
+**Mesh –     collision\_-xxx-name    ---    ("collision" underscore hyphen [types] hyphen name)**
 
 **xxx is replaced with the type definitions below…**
 
@@ -92,15 +92,15 @@ The old naming conventions are still valid – naming primitives &quot;p\_name&q
 
 So if you made a cube and wanted it to be used for soldier and vehicle collision, you&#39;d name it
 
-&quot;p\_-sv-SomeName&quot;
+"p\_-sv-SomeName"
 
 Or if you wanted it to be used for ordnance collision only, you&#39;d name it
 
-&quot;p\_-o-SomeName&quot;
+"p\_-o-SomeName"
 
 Typicly ordnance collision needs to be more accurate so you could make a mesh and, you&#39;d name it
 
-&quot;collision\_-o-SomeName&quot;
+"collision\_-o-SomeName"
 
 
 
@@ -109,14 +109,12 @@ Typicly ordnance collision needs to be more accurate so you could make a mesh an
 So how does the new naming stuff work with this?  If you have multiple collision meshes, and you name ANY of your collision meshes with the new scheme, that name will be applied to ALL the parts.
 
 Example:
-
-You have 3 mesh parts, &quot;collision\_1&quot;, &quot;collision\_2&quot;, and &quot;collision\_-s-3&quot;.  They will be merged together, and the resulting goop will be used for soldier collision.
+You have 3 mesh parts, "collision\_1", "collision\_2", and "collision\_-s-3".  They will be merged together, and the resulting goop will be used for soldier collision.
 
   Or
+You have 3 mesh parts, "collision\_1", "collision\_2", and "collision\_3".  They will be merged together, and the resulting goop will be used for all types, **Soldier, Vehicle, Building, Ordnance,** and **Terrain** collisions which can be costly to framerate.
 
-You have 3 mesh parts, &quot;collision\_1&quot;, &quot;collision\_2&quot;, and &quot;collision\_3&quot;.  They will be merged together, and the resulting goop will be used for all types, **Soldier, Vehicle, Building, Ordnance,** and **Terrain** collisions which can be costly to framerate.
-
-Granted any object can still be exported with one mesh collision called &quot;collision\_SomeName&quot;
+Granted any object can still be exported with one mesh collision called "collision\_SomeName"
 
 And it will work just fine, but Typically you will be Using p-collision for the easy parts, and collision mesh for the complicated situations, If you want those frames-per-second back, it&#39;s gotta happen.
 
@@ -138,7 +136,7 @@ The Mesh Exporter is a program/script that takes geometry models created in XSI 
  3. Run the XSI2Mesh Exporter script.
  4. This opens a dialogue box. In this you:
          a. In the Path box, browse or put in the correct path that you would like the .msh to be exported into. Also type in the filename in the filename box.
-         b. Check the first box &quot;Export Selected Models Only&quot;
-         c. Check the &quot;Export Animations&quot; box. ONLY if the model is animated and has a .zaabin or .zaafin file
-         d. Check the &quot;Export Textures&quot; box if the texture is not in the target location of the .msh file.
+         b. Check the first box "Export Selected Models Only"
+         c. Check the "Export Animations" box. ONLY if the model is animated and has a .zaabin or .zaafin file
+         d. Check the "Export Textures" box if the texture is not in the target location of the .msh file.
  5. Another pop-up box will show the progress of the export, once this closes, your export is complete.
