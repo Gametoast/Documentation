@@ -1,35 +1,24 @@
-<html>
-<head>
-<title>SWBF Mod Tools</title>
-</head>
-<body style="font-family:arial">
-<table border=0 width=600 cellpadding=0 cellspacing=0>
-<tr><td>
-<b>MISSION LUA GUIDE</b><br>
-<p>
-In this guide two LUAs will be gone over, first explaining the sections and then explaining the individual lines and their arguments.
-<p>
-Mission LUA scripts define all the of the global properties for a level and are required for each mission. Typically there are two missions per map, 1 Clone Wars Era mission and one Galactic Civil War Era mission. These mission lua scripts are named using the three letter and number level naming convention with a letter added to the end to denote the attacking team. In the case of Mod1, the lua scripts are named Mod1a.lua and Mod1c.lua. They could just as easily be Mod1i and Mod1r as long as the contents of each file define the attacker correctly.
-<p>
-Below is a line by line breakdown of Mod1a.lua with a brief explanation of what each section does.
-Comments about each line are prefaced with >>
-<p>
-Originally there 4 maps per world minimum, one with each team attacking and different vehicle loadouts, unit loadouts, and strategies for each. This meant each world had four mission lua script plus one for the historical campaign denoted with an _h in the name as in mod1a_h.lua
-<p>
+SWBF Mod Tools
 
-A Word About Luas, Reqs, and Lvls<br>
-These file types are intertwined. Reqs are requirements files and define assets required for a mission or object.
-Every REQ generates an LVL when munged. Munging is the what the compile process is called. During the munge req files are
-read and the assets compiled into LVLs that are then compiled inside other LVLs. These LVLs and sub-lvls are loaded and referenced in the mission lua script as it relates to loading assets for a given level. This same structure with added file types applies to
-art and sound in the game.
-<p>
-<pre>
+**MISSION LUA GUIDE**  
+
+In this guide two LUAs will be gone over, first explaining the sections and then explaining the individual lines and their arguments.
+
+Mission LUA scripts define all the of the global properties for a level and are required for each mission. Typically there are two missions per map, 1 Clone Wars Era mission and one Galactic Civil War Era mission. These mission lua scripts are named using the three letter and number level naming convention with a letter added to the end to denote the attacking team. In the case of Mod1, the lua scripts are named Mod1a.lua and Mod1c.lua. They could just as easily be Mod1i and Mod1r as long as the contents of each file define the attacker correctly.
+
+Below is a line by line breakdown of Mod1a.lua with a brief explanation of what each section does. Comments about each line are prefaced with >>
+
+Originally there 4 maps per world minimum, one with each team attacking and different vehicle loadouts, unit loadouts, and strategies for each. This meant each world had four mission lua script plus one for the historical campaign denoted with an \_h in the name as in mod1a\_h.lua
+
+A Word About Luas, Reqs, and Lvls  
+These file types are intertwined. Reqs are requirements files and define assets required for a mission or object. Every REQ generates an LVL when munged. Munging is the what the compile process is called. During the munge req files are read and the assets compiled into LVLs that are then compiled inside other LVLs. These LVLs and sub-lvls are loaded and referenced in the mission lua script as it relates to loading assets for a given level. This same structure with added file types applies to art and sound in the game.
+
 mod1a.lua Start
 >>
 >> Note about Mission lua naming conventions:
 >> The mission luas must always following the three-letter, 1 number, 1 letter naming convention.
 >> COmments always appear prefaced by --
-
+```LUA
 ---------------------------------------------------------------------------
 -- FUNCTION:    ScriptInit
 -- PURPOSE:     This function is only run once
@@ -47,11 +36,11 @@ function ScriptInit()
 --  These variables do not change
     local ATT = 1
     local DEF = 2
->>
->> The above section defines the script and the two teams and which is declared as the attacker.
->> The attacker on a map is always team 1, and the name of the mission lua script reflects the
->> attacker. In this case the Alliance is the attacker but it could just as easily be the Empire.
->>
+-->>
+-->> The above section defines the script and the two teams and which is declared as the attacker.
+-->> The attacker on a map is always team 1, and the name of the mission lua script reflects the
+-->> attacker. In this case the Alliance is the attacker but it could just as easily be the Empire.
+-->>
 
 
     AddMissionObjective(IMP, "red", "level.mod1.objectives.1");
@@ -61,11 +50,11 @@ function ScriptInit()
     AddMissionObjective(ALL, "orange", "level.mod1.objectives.2");
     AddMissionObjective(ALL, "orange", "level.mod1.objectives.3");
 
->>
->> The above section defines the localization strings for mission objectives.
->> These are localization strings that are stored in the localization file which references
->> the actual text that appears in the game. See the localization guide for more details.
->>
+-->>
+-->> The above section defines the localization strings for mission objectives.
+-->> These are localization strings that are stored in the localization file which references
+-->> the actual text that appears in the game. See the localization guide for more details.
+-->>
 
     ReadDataFile("sound\\tat.lvl;tat1gcw")
     ReadDataFile("SIDE\\all.lvl",
@@ -82,19 +71,19 @@ function ScriptInit()
    --     "gam_inf_gamorreanguard")
 
 
->>
->> All ReadDataFile lines reference LVL files that contain assets that need to be loaded and
->> the specific assets to be loaded by the level. First the sound.lvl is loaded and the sound assets
->> for the specific era. In mods, for legal reasons the sound lvls that shipped with the game cannot
->> be distributed, but if you would like to add sounds to the game functionality has been provided to
->> build your own sound lvls in order to put sounds into your levels.
+-->>
+-->> All ReadDataFile lines reference LVL files that contain assets that need to be loaded and
+-->> the specific assets to be loaded by the level. First the sound.lvl is loaded and the sound assets
+-->> for the specific era. In mods, for legal reasons the sound lvls that shipped with the game cannot
+-->> be distributed, but if you would like to add sounds to the game functionality has been provided to
+-->> build your own sound lvls in order to put sounds into your levels.
 
     SetAttackingTeam(ATT);
 
->>
->> The SetAttacking Team line denotes which team is the attacker.SetDefendingTeam(DEF); may also
->> be called.
->>
+-->>
+-->> The SetAttacking Team line denotes which team is the attacker.SetDefendingTeam(DEF); may also
+-->> be called.
+-->>
 
 --      Alliance Stats
     SetTeamName(ALL, "Alliance")
@@ -117,9 +106,9 @@ function ScriptInit()
     SetHeroClass(IMP, "imp_inf_darthvader")
 
 
->>
->> The team stats define the team names, team icon, unit hero classes and their loadouts.
->>
+-->>
+-->> The team stats define the team names, team icon, unit hero classes and their loadouts.
+-->>
 
 --  Attacker Stats
     SetUnitCount(ATT, 16)
@@ -139,9 +128,9 @@ function ScriptInit()
     AddBleedThreshold(DEF, 10, 1.5)
     AddBleedThreshold(DEF, 1, 3.0)
 
->>
->> The attacker and defender stats set the team total units counts, the bleed thresholds and their triggers
->>
+-->>
+-->> The attacker and defender stats set the team total units counts, the bleed thresholds and their triggers
+-->>
 
 
 --  Local Stats
@@ -151,9 +140,9 @@ function ScriptInit()
  --   SetTeamAsEnemy(3, ATT)
  --   SetTeamAsEnemy(3, DEF)
 
->>
->> Local stats sets up the 3 team on maps where there is an NPC team.
->>
+-->>
+-->> Local stats sets up the 3 team on maps where there is an NPC team.
+-->>
 
 --  Level Stats
     ClearWalkers()
@@ -178,14 +167,14 @@ function ScriptInit()
   --  SetMaxFlyHeight(90)
   --  SetMaxPlayerFlyHeight(90)
 
->>
->> Level stats declare various memory pools settings that need to be adjusted on
->> an as needed basis as indicated by debug errors.
->> Walker type memory allocations are declared in this section as well.
->> The level world lvl to be loaded for a world is declared in this section as well
->> as level-specific properties that need declaring such as the addition of a death
->> region and the type of combat environment.
->>
+-->>
+-->> Level stats declare various memory pools settings that need to be adjusted on
+-->> an as needed basis as indicated by debug errors.
+-->> Walker type memory allocations are declared in this section as well.
+-->> The level world lvl to be loaded for a world is declared in this section as well
+-->> as level-specific properties that need declaring such as the addition of a death
+-->> region and the type of combat environment.
+-->>
 
 
 --  Sound Stats
@@ -268,25 +257,25 @@ function ScriptInit()
     --SetPlanetaryBonusVoiceOver(ALL, ALL, 7, "all_bonus_all_training");--advanced training
     --SetPlanetaryBonusVoiceOver(ALL, IMP, 7, "all_bonus_imp_training");--advanced training
 
->>
->> Sound stats declares all of the sound assets loaded for a level as well as mission-specific
->> sound properties. It addresses first sound type meaning stream or static effects, then begins
->> pointing to assets within those streams and LVLs. This includes victory and defeat tracks, global
->> sound effects, amibient streams, ambient emitters, command post voiceovers, bleed rate voiceovers,
->> planetary bonus voiceovers for galactic conquest and for multiplayer heros.
->>
->> The global sounds and music are called as it relates to the mission and the sounds assets were
->> built for each level and mesured to fit into memory. On the PC there should be an excess of free
->> memory to add sounds and if these streams are not called the call can be replaced with one to a
->> stream or static lvl you have created. Each command post can have specific voiceovers or common
->> ones can be used.
->>
->> For legal reasons the sounds and music that shipped with the game cannot be used in mods without
->> the mods being licensed so artists get paid for their work, and this includes all sounds that
->> shipped with the game. Keep in mind sounds added to mods must also abide by the licensing
->> agreement attached to the mod tools. Questions regarding usage can forwarded to the address in
->> the agreement.
->>
+-->>
+-->> Sound stats declares all of the sound assets loaded for a level as well as mission-specific
+-->> sound properties. It addresses first sound type meaning stream or static effects, then begins
+-->> pointing to assets within those streams and LVLs. This includes victory and defeat tracks, global
+-->> sound effects, amibient streams, ambient emitters, command post voiceovers, bleed rate voiceovers,
+-->> planetary bonus voiceovers for galactic conquest and for multiplayer heros.
+-->>
+-->> The global sounds and music are called as it relates to the mission and the sounds assets were
+-->> built for each level and mesured to fit into memory. On the PC there should be an excess of free
+-->> memory to add sounds and if these streams are not called the call can be replaced with one to a
+-->> stream or static lvl you have created. Each command post can have specific voiceovers or common
+-->> ones can be used.
+-->>
+-->> For legal reasons the sounds and music that shipped with the game cannot be used in mods without
+-->> the mods being licensed so artists get paid for their work, and this includes all sounds that
+-->> shipped with the game. Keep in mind sounds added to mods must also abide by the licensing
+-->> agreement attached to the mod tools. Questions regarding usage can forwarded to the address in
+-->> the agreement.
+-->>
 
 
 
@@ -306,25 +295,25 @@ function ScriptInit()
     AddCameraShot(0.971737, -0.118739, -0.202524, -0.024747, -16.591295, -1.371236, 147.933029);
     AddCameraShot(0.894918, 0.098682, -0.432560, 0.047698, -20.577391, -10.683214, 128.752563);
 
->>
->> The Camera stats section defines the coordinate for the screenshots that appear in the game using
->> in game coordinates. Using free cam mode in the SPTEST.exe supplied, modders can navigate to a spot
->> and dump the coordinates to a file called cameracoordinates.txt by typing dumpcamera in the console.
->>
+-->>
+-->> The Camera stats section defines the coordinate for the screenshots that appear in the game using
+-->> in game coordinates. Using free cam mode in the SPTEST.exe supplied, modders can navigate to a spot
+-->> and dump the coordinates to a file called cameracoordinates.txt by typing dumpcamera in the console.
+-->>
 
 
 end
 
->>
->> The end of the lua function
->>
-End of Mod1a.lua script
-</pre>
-<p>
-This next lua was from Geonosis which had an active third team, the Geonosians. It also had every vehicle
-class and serves as a good sample to go through line by line. This script is geo1r.lua
-<p>
-<pre>
+-->>
+-->> The end of the lua function
+-->>
+--End of Mod1a.lua script
+```
+
+
+This next lua was from Geonosis which had an active third team, the Geonosians. It also had every vehicle class and serves as a good sample to go through line by line. This script is geo1r.lua
+
+```LUA
 ---------------------------------------------------------------------------
 -- FUNCTION:    ScriptInit
 -- PURPOSE:     This function is only run once
@@ -335,7 +324,7 @@ class and serves as a good sample to go through line by line. This script is geo
 --              it is called from C to start the mission.
 ---------------------------------------------------------------------------
 
->> The header comments are self explanatory
+-->> The header comments are self explanatory
 
 
 
@@ -348,70 +337,70 @@ function ScriptInit()
     local DEF = 2
 
 
->> The script is initialized and the teams defined. On geo the Republic was the
->> attacker.
+-->> The script is initialized and the teams defined. On geo the Republic was the
+-->> attacker.
 
-        AddMissionObjective(CIS, "orange", "level.geo1.objectives.1r");
+    AddMissionObjective(CIS, "orange", "level.geo1.objectives.1r");
     AddMissionObjective(CIS, "red", "level.geo1.objectives.2r");
     AddMissionObjective(CIS, "red", "level.geo1.objectives.3r");
     AddMissionObjective(REP, "orange", "level.geo1.objectives.1r");
     AddMissionObjective(REP, "red", "level.geo1.objectives.4r");
     AddMissionObjective(REP, "red", "level.geo1.objectives.5r");
 
->> Mission objective strings serve as markers to the actual text to be used in
->> game which resides in a localization file that is prepped for each language.
->> If there is no info in the localization file that matches the strings in the
->> lua, what you see above will be displayed in game. The argument itself sets
->> the objects per team, color, and string. Use the multilanguage tool that
->> shipped with the tools by doubleclicking edit_pc_addon_localize.bat in the datamod/
->> directory to use the tool. The scopes and keys in the sample should provide enough
->> information to rename or add new scopes for your mods.
+-->> Mission objective strings serve as markers to the actual text to be used in
+-->> game which resides in a localization file that is prepped for each language.
+-->> If there is no info in the localization file that matches the strings in the
+-->> lua, what you see above will be displayed in game. The argument itself sets
+-->> the objects per team, color, and string. Use the multilanguage tool that
+-->> shipped with the tools by doubleclicking edit\_pc\_addon\_localize.bat in the datamod/
+-->> directory to use the tool. The scopes and keys in the sample should provide enough
+-->> information to rename or add new scopes for your mods.
 
 
 SetTeamAggressiveness(CIS, 1.0)
 SetTeamAggressiveness(REP, 1.0)
 
->> SetTeamAgressiveness is obsolete and is unused. Difficulty is determined in code
->> using the difficulty settings in game or on a server.
->>
+-->> SetTeamAgressiveness is obsolete and is unused. Difficulty is determined in code
+-->> using the difficulty settings in game or on a server.
+-->>
 
 
     ReadDataFile("sound\\geo.lvl;geo1cw");
 
->> ReadDataFile loads the geo.lvl sound file in the path specified and then loads just
->> the geo1cw segment. This line loads the static sound effects for the game. In mods
->> the addon directory is always referenced as DC: something which stands for downloadable
->> content and tells the game to look in the addon folder path under the mod directory.
->> The path for new sounds would be ReadDataFile("dc:sound\\mod.lvl") (or whatever three letter
->> abbreviation exists for your world.
->>
+-->> ReadDataFile loads the geo.lvl sound file in the path specified and then loads just
+-->> the geo1cw segment. This line loads the static sound effects for the game. In mods
+-->> the addon directory is always referenced as DC: something which stands for downloadable
+-->> content and tells the game to look in the addon folder path under the mod directory.
+-->> The path for new sounds would be ReadDataFile("dc:sound\\mod.lvl") (or whatever three letter
+-->> abbreviation exists for your world.
+-->>
 
     ReadDataFile("SIDE\\rep.lvl",
-        "rep_bldg_forwardcenter",
-        "rep_fly_assault_dome",
-        "rep_fly_gunship",
-        "rep_fly_gunship_dome",
-        "rep_fly_jedifighter_dome",
-        "rep_inf_basic",
-        "rep_inf_jet_trooper",
-        "rep_inf_macewindu",
-        "rep_walk_atte")
+                "rep_bldg_forwardcenter",
+                "rep_fly_assault_dome",
+                "rep_fly_gunship",
+                "rep_fly_gunship_dome",
+                "rep_fly_jedifighter_dome",
+                "rep_inf_basic",
+                "rep_inf_jet_trooper",
+                "rep_inf_macewindu",
+                "rep_walk_atte")
     ReadDataFile("SIDE\\cis.lvl",
-        "cis_fly_droidfighter_dome",
-        "cis_fly_fedcoreship_dome",
-        "cis_fly_geofighter",
-        "cis_fly_techounion_dome",
-        "cis_inf_basic",
-        "cis_inf_countdooku",
-        "cis_inf_droideka",
-        "cis_tread_hailfire",
-        "cis_walk_spider")
+                "cis_fly_droidfighter_dome",
+                "cis_fly_fedcoreship_dome",
+                "cis_fly_geofighter",
+                "cis_fly_techounion_dome",
+                "cis_inf_basic",
+                "cis_inf_countdooku",
+                "cis_inf_droideka",
+                "cis_tread_hailfire",
+                "cis_walk_spider")
     ReadDataFile("SIDE\\geo.lvl",
-        "gen_inf_geonosian")
+                "gen_inf_geonosian")
 
->>
->> These ReadDataFiles segments load the side-speciifc assets for all three teams.
->> the assets being referenced relate to the geometry of the units.
+-->>
+-->> These ReadDataFiles segments load the side-speciifc assets for all three teams.
+-->> the assets being referenced relate to the geometry of the units.
 
 
 --  Level Stats
@@ -433,19 +422,19 @@ SetTeamAggressiveness(REP, 1.0)
     SetSpawnDelay(10.0, 0.25)
 
 
->> Level stats define memory pools when necessary as indicated by messages genereated
->> in the SPTEST.exe console or log file. Walkers are a special case and need to be
->> handled carefully because they are memory muncher.
->> The SetMemoryPoolSize("EntityWalker", -2) line may be obsolete, but it used to be called
->> as a flag requirement for the command walkers, in this case the ATTE.
->> The AddWalkerType argument first declares the walker class by leg pairs, where 0 is a
->> special class for droideka, which are actually vehicles.
->> The memory pool classes are numerous and if they are not set or not set high enough
->> messages will be generated in the console or log.
->> Carrier class applies to the Gunship, TaunTaun to the TaunTauns and Kaadu class.
->> Aimers apply to anything with an aimer, vehicles, weapons, units, turrets, etc.
->> The things that aim, the more memory required.
->> SetSpawnDelay is the spawn delay and deviation.
+-->> Level stats define memory pools when necessary as indicated by messages genereated
+-->> in the SPTEST.exe console or log file. Walkers are a special case and need to be
+-->> handled carefully because they are memory muncher.
+-->> The SetMemoryPoolSize("EntityWalker", -2) line may be obsolete, but it used to be called
+-->> as a flag requirement for the command walkers, in this case the ATTE.
+-->> The AddWalkerType argument first declares the walker class by leg pairs, where 0 is a
+-->> special class for droideka, which are actually vehicles.
+-->> The memory pool classes are numerous and if they are not set or not set high enough
+-->> messages will be generated in the console or log.
+-->> Carrier class applies to the Gunship, TaunTaun to the TaunTauns and Kaadu class.
+-->> Aimers apply to anything with an aimer, vehicles, weapons, units, turrets, etc.
+-->> The things that aim, the more memory required.
+-->> SetSpawnDelay is the spawn delay and deviation.
 
 
 --    Republic Stats
@@ -470,9 +459,9 @@ SetTeamAggressiveness(REP, 1.0)
     SetHeroClass(CIS, "cis_inf_countdooku")
 
 
->> The team stats declares the unit loadouts per class as well as call the team icon and
->> set the team name. The unit loadout counts must add up to the total counts in the SetUnitCount
->> arguments below. Each mission can have a maximum of five unit classes and one hero class unit.
+-->> The team stats declares the unit loadouts per class as well as call the team icon and
+-->> set the team name. The unit loadout counts must add up to the total counts in the SetUnitCount
+-->> arguments below. Each mission can have a maximum of five unit classes and one hero class unit.
 
 --  Attacker Stats
     SetUnitCount(ATT, 32)
@@ -499,14 +488,14 @@ SetTeamAggressiveness(REP, 1.0)
     SetTeamAsFriend(3, DEF)
 
 
->> Attacker and defender stats define the overall unit count per team. For singleplayer missions
->> you could even have hundreds of units on the field.
->> The bleed thresholds are based on the sum of the command post values owned by each team. If
->> the bleed threshold is breached, the team begins to bleed reinforcements at the rate in seconds
->> specified. Also in this section are declarations for who is freindly and who is foe. In this
->> case the Republic is the attacker so the locals (team 3) are being declared as the enemy. The
->> locals in this case the Geonosians. AI will not attack friends and will attack enemies as long
->> the relationship is declared.
+-->> Attacker and defender stats define the overall unit count per team. For singleplayer missions
+-->> you could even have hundreds of units on the field.
+-->> The bleed thresholds are based on the sum of the command post values owned by each team. If
+-->> the bleed threshold is breached, the team begins to bleed reinforcements at the rate in seconds
+-->> specified. Also in this section are declarations for who is freindly and who is foe. In this
+-->> case the Republic is the attacker so the locals (team 3) are being declared as the enemy. The
+-->> locals in this case the Geonosians. AI will not attack friends and will attack enemies as long
+-->> the relationship is declared.
 
 
     ReadDataFile("GEO\\geo1.lvl")
@@ -517,10 +506,10 @@ SetTeamAggressiveness(REP, 1.0)
     SetMaxPlayerFlyHeight(50)
 
 
->> ReadDataFile here is calling the world.lvl and it's assets here.
->> SetDenseEnvironment affects AI behavior so they are tuned for urban
->> or open combat. SetMinFlyHeight declarations are in meters and you should always
->> make sure your values meet your terrain heights.
+-->> ReadDataFile here is calling the world.lvl and it's assets here.
+-->> SetDenseEnvironment affects AI behavior so they are tuned for urban
+-->> or open combat. SetMinFlyHeight declarations are in meters and you should always
+-->> make sure your values meet your terrain heights.
 
 
 --  Birdies
@@ -528,9 +517,9 @@ SetTeamAggressiveness(REP, 1.0)
     --SetBirdType(0.0,10.0,"dragon")
     --SetBirdFlockMinHeight(90.0)
 
->> If birds are on a level this is where they would be set up.
->> Look at the assets for Kashyyyk as an example of how to implement birds, which req files
->> to include th references in, where to store the assets and configure their properties.
+-->> If birds are on a level this is where they would be set up.
+-->> Look at the assets for Kashyyyk as an example of how to implement birds, which req files
+-->> to include th references in, where to store the assets and configure their properties.
 
 
 --  Sound
@@ -540,12 +529,12 @@ SetTeamAggressiveness(REP, 1.0)
     OpenAudioStream("sound\\geo.lvl",  "geo1cw");
     OpenAudioStream("sound\\geo.lvl",  "geo1cw");
 
->> These lines open audio streams in the sound levels loaded previously. In the above case
->> the music is opened first. then the voiceovers, then the tactical voiceovers which are in a
->> separate stream so there is less lag in hearing the VO when many sounds are being triggered,
->> then two streams are opened for ambient environment streams because in geo there are two and in
->> an case where you have more than one ambient environment stream two streams need to be opened
->> so both can be heard at the same time if the player ever encounters them at the same time.
+-->> These lines open audio streams in the sound levels loaded previously. In the above case
+-->> the music is opened first. then the voiceovers, then the tactical voiceovers which are in a
+-->> separate stream so there is less lag in hearing the VO when many sounds are being triggered,
+-->> then two streams are opened for ambient environment streams because in geo there are two and in
+-->> an case where you have more than one ambient environment stream two streams need to be opened
+-->> so both can be heard at the same time if the player ever encounters them at the same time.
 
 
     SetBleedingVoiceOver(REP, REP, "rep_off_com_report_us_overwhelmed", 1)
@@ -553,17 +542,17 @@ SetTeamAggressiveness(REP, 1.0)
     SetBleedingVoiceOver(CIS, REP, "cis_off_com_report_enemy_losing",   1)
     SetBleedingVoiceOver(CIS, CIS, "cis_off_com_report_us_overwhelmed", 1)
 
->> These lines set the voiceover calls for each team and circumstance. In the first line
->> the REP is saying the REP are losing reinforcements, as denoted by REP, REP. The
->> "rep_off_com_report_us_overwhelmed" calls a soundstreamproperty in a config file (cw_vo.snd)
->> which plays a sound included in cw_vo.sfx. In the case of addons, all new files are added using
->> .asfx files rather than ,sfx files. See the TAT3 assets as a the best reference for mods.
+-->> These lines set the voiceover calls for each team and circumstance. In the first line
+-->> the REP is saying the REP are losing reinforcements, as denoted by REP, REP. The
+-->> "rep_off_com_report_us_overwhelmed" calls a soundstreamproperty in a config file (cw_vo.snd)
+-->> which plays a sound included in cw_vo.sfx. In the case of addons, all new files are added using
+-->> .asfx files rather than ,sfx files. See the TAT3 assets as a the best reference for mods.
 
     SetOutOfBoundsVoiceOver(1, "repleaving");
     SetOutOfBoundsVoiceOver(2, "cisleaving");
 
->> These lines call the sound property for when a unit crosses the boundary and hence leaves the
->> battlefield. The numbers represent team number.
+-->> These lines call the sound property for when a unit crosses the boundary and hence leaves the
+-->> battlefield. The numbers represent team number.
 
     SetAmbientMusic(REP, 1.0, "rep_GEO_amb_start",  0,1)
     SetAmbientMusic(REP, 0.99, "rep_GEO_amb_middle", 1,1)
@@ -572,14 +561,14 @@ SetTeamAggressiveness(REP, 1.0)
     SetAmbientMusic(CIS, 0.99, "cis_GEO_amb_middle", 1,1)
     SetAmbientMusic(CIS, 0.1,"cis_GEO_amb_end",    2,1)
 
->> These lines set the repeating music that is played throughout the game and the trigger
->> for when the different subset of tracks is called. First the team that hears is declared,
->> then the reinforcement count as a percent. So above the first lines plays start music
->> according to the interval defined in the soundstreamproperty in geocw_music.snd The music will
->> repeat until the next threshold is breached, in this case the middle music begins at 99%
->> reinforcements. The next argument sets to 1 to assign a started bleeding sound set
->> to 0 to assign a stopped bleeding sound. The final argument flags the declaration to look
->> for the first argument as a percentage, if set to zero it will look for an explicit count.
+-->> These lines set the repeating music that is played throughout the game and the trigger
+-->> for when the different subset of tracks is called. First the team that hears is declared,
+-->> then the reinforcement count as a percent. So above the first lines plays start music
+-->> according to the interval defined in the soundstreamproperty in geocw_music.snd The music will
+-->> repeat until the next threshold is breached, in this case the middle music begins at 99%
+-->> reinforcements. The next argument sets to 1 to assign a started bleeding sound set
+-->> to 0 to assign a stopped bleeding sound. The final argument flags the declaration to look
+-->> for the first argument as a percentage, if set to zero it will look for an explicit count.
 
 
     SetVictoryMusic(REP, "rep_geo_amb_victory")
@@ -587,7 +576,7 @@ SetTeamAggressiveness(REP, 1.0)
     SetVictoryMusic(CIS, "cis_geo_amb_victory")
     SetDefeatMusic (CIS, "cis_geo_amb_defeat")
 
->> These lines set the victory and defeat music for each team
+-->> These lines set the victory and defeat music for each team
 
     SetSoundEffect("ScopeDisplayZoomIn",  "binocularzoomin");
     SetSoundEffect("ScopeDisplayZoomOut", "binocularzoomout");
@@ -599,7 +588,7 @@ SetTeamAggressiveness(REP, 1.0)
     SetSoundEffect("SpawnDisplaySpawnPointAccept", "shell_menu_enter");
     SetSoundEffect("SpawnDisplayBack",             "shell_menu_exit");
 
->> These lines call global sound properties for zooming and shell sounds
+-->> These lines call global sound properties for zooming and shell sounds
 
 
     SetPlanetaryBonusVoiceOver(CIS, CIS, 0, "CIS_bonus_CIS_medical");
@@ -636,10 +625,10 @@ SetTeamAggressiveness(REP, 1.0)
     SetPlanetaryBonusVoiceOver(REP, REP, 7, "REP_bonus_REP_training");--advanced training
     SetPlanetaryBonusVoiceOver(REP, CIS, 7, "REP_bonus_CIS_training");--advanced training
 
->> The above lines set the calls to the voiceovers for the planetary bonuses in
->> Galactic Conquest. They are triggered when the bonus is activated in game or if
->> forced by using the comment lines below. The arguments above are as follows:
->> SetPlanetaryBonusVoiceOver(playerTeam,bonusNum,streamSoundName);
+-->> The above lines set the calls to the voiceovers for the planetary bonuses in
+-->> Galactic Conquest. They are triggered when the bonus is activated in game or if
+-->> forced by using the comment lines below. The arguments above are as follows:
+-->> SetPlanetaryBonusVoiceOver(playerTeam,bonusNum,streamSoundName);
 
     --ActivateBonus(CIS, "SNEAK_ATTACK")
     --ActivateBonus(REP, "SNEAK_ATTACK")
@@ -656,13 +645,6 @@ AddCameraShot(0.906778, 0.081875, -0.411906, 0.037192, 26.373968, -59.937874, 12
 AddCameraShot(0.994219, 0.074374, 0.077228, -0.005777, 90.939568, -49.293945, -69.571136);
 end
 
->> The above lines were explained previously with mod1a.
-</pre>
-<p>
-The game assets were provided with the tools for the creation of new maps with the exception
-of sounds for size as well as licensing reasons. These levels will not run as is using the
-add on functionality but you may look at them as examples for reference. This will be especially
-useful when it comes to mission luas.
-</td></tr></table>
-</body>
-</html>
+-->> The above lines were explained previously with mod1a.
+```
+The game assets were provided with the tools for the creation of new maps with the exception of sounds for size as well as licensing reasons. These levels will not run as is using the add on functionality but you may look at them as examples for reference. This will be especially useful when it comes to mission luas.
