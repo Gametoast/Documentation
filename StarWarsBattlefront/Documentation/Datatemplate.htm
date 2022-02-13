@@ -1,0 +1,63 @@
+<html>
+<head>
+<title>SWBF Mod Tools</title>
+</head>
+<body style="font-family:arial">
+<b>The Mod Add On Build File Structure </b>
+<p>
+Included in the toolkit are sample mods set up with common assets that shipped with the game as working examples for reference. The mod tools working directory is outlined below.
+<p>
+<b>Detailed Description of Files</b>
+<p>
+<b>/BFBuilder</b> - main working directory
+<br>&nbsp;&nbsp;&nbsp;&nbsp;<b>/AddOn</b> - created upon first munge, copy your compiled mods from here to your SWBF Addon folder
+<br>&nbsp;&nbsp;&nbsp;&nbsp;<b>/Assets</b> - Folders of assets used to create worlds that shipped with game, XSI Addon, SPTEST.exe
+<br>&nbsp;&nbsp;&nbsp;&nbsp;<b>/Data</b> - directory of common assets from shipped game, needed for munge
+<br>&nbsp;&nbsp;&nbsp;&nbsp;<b>/DataMod1</b> - Sample mod working directory
+<br>&nbsp;&nbsp;&nbsp;&nbsp;<b>/DataMod2</b> - Sample mod working directory
+<br>&nbsp;&nbsp;&nbsp;&nbsp;<b>/Documentation</b> - Help files
+<br>&nbsp;&nbsp;&nbsp;&nbsp;<b>/ToolsFL</b>  - Executables required to munge and compile.
+<p>
+
+<b>/DataTEMPLATE</b><br>
+<br>&nbsp;&nbsp;&nbsp;&nbsp;<b>/_BUILD_PC/</b> - munged and precompiled files, also where munge and clean are executed
+<br>&nbsp;&nbsp;&nbsp;&nbsp;<b>/_LVL_PC/</b>  - compiled files game ready which are copied to /Data/Addon for copying to game folder
+<br>&nbsp;&nbsp;&nbsp;&nbsp;<b>/_SOURCE_PC/</b>  - files required by munge for localization and movie data that plays when level is selected
+<br>&nbsp;&nbsp;&nbsp;&nbsp;<b>/addme/</b>  - The addme.lua script which adds the mission to the mission list
+<br>&nbsp;&nbsp;&nbsp;&nbsp;<b>/Build/</b>  - Zeroedit files
+<br>&nbsp;&nbsp;&nbsp;&nbsp;<b>/Common/</b>  - where supplemental common assets reside
+<br>&nbsp;&nbsp;&nbsp;&nbsp;<b>/Shell/</b>  - where add on movie files are stored
+<br>&nbsp;&nbsp;&nbsp;&nbsp;<b>/Sides/</b>  - where supplemental sides assets are stored
+<br>&nbsp;&nbsp;&nbsp;&nbsp;<b>/Sound/</b>  - where supplemental sound assets are stored and configured
+<br>&nbsp;&nbsp;&nbsp;&nbsp;<b>/Worlds/</b>  - where world folders are stored
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>/ModWorldName/</b>  - where individual world assets are stored
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>/Effects/</b>  - where world-specific particle effects are stored
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>/MSH/</b>  - where object mesh files are stored
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>/munged/</b>  - where pre-munged assets such as animations are stored
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>/ODF/</b>  - where world-specific ODFs are stored
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>/World1/</b>  - where the Zeroedit saved files are stored
+<br>&nbsp;&nbsp;&nbsp;&nbsp;<b>/config.ini</b> - editor config file
+<br>&nbsp;&nbsp;&nbsp;&nbsp;<b>/edit_pc_addon_localize.bat</b> - launches localization tool for add on level
+<br>&nbsp;&nbsp;&nbsp;&nbsp;<b>/soundmunge.bat</b> - used to compile sound
+<br>&nbsp;&nbsp;&nbsp;&nbsp;<b>/soundmungedir.bat</b> - used to compile sound
+<br>&nbsp;&nbsp;&nbsp;&nbsp;<b>/Zeroeditor.exe</b> - the level editor
+<p>
+It is important to understand how the worlds are built so they may be debugged, so this section will provide an overview on the location of assets and how they are assembled into a functional world.
+<p>
+<b>Process Overview</b><br>
+Functional worlds typically consist of a vertex heightmap terrain, object models, command post objects, unit spawn points, vehicle spawn pads, barriers, regions, ai path plans, map boundaries, and in some cases invisible collision objects.
+<p>
+<b>Objects</b><br>
+Models are built with Softimage XSI and exported using a proprietary Add On that provides additional functionality such as shadow collision, transparent and animated textures. The models are exported to mesh (MSH) files that are reference by text files called Object Definition Files. Object definition files define all of the properties of an object so that it functions properly in game as well as in the map editor.
+<p>
+<b>Map Editor</b><br>
+Zeroedit is the map editor which manipulates level objects. Once models have been properly prepared they can imported into a world and positioned accordingly. When a world is saved, different objects are saved in different files in the WORLD folder.
+<p>
+<b>Munge and Compile</b><br>
+All of the assets and the text files defining how they are used are compiled in a two step process that is collectively called a MUNGE. When a mod is munged numerous batch files are executed in order and compile the assets into the _BUILD_PC folder. The _BUILD_PC folder does not contain the final compiled binaries, but rather pre-compiled assets that are not the raw assets. These precompiled raw assets are needed to build one another, so when all of the pre-compiled assets have been created they are finally compiled into the LVL files that are used by the game. The _LVL_PC directory structure is where the final data is stored to be used by the game as an Add On.
+<p>To compile a world, simply run MUNGE.BAT located in the _Build_PC folder for the add on. When the munge is complete, the compiled files will be copied to BFBuilder/Addon/Mod# where mod# is the name specified for the new world. Before every munge it is a good idea to "do a clean" by running CLEAN.BAT. This will delete all of the munged files in _Build_PC and _LVL_PC to ensure they are rebuilt.
+
+</body>
+</html>
+
+
