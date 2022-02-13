@@ -144,7 +144,7 @@ These assets are all placed in the MSH directory and are reference by the soldie
 _The Basics:_
 
 A Jedi ODF will ALWAYS begin with the following lines, which I have commented so they can hopefully be understood:
-```
+```C#
 // any text following two slashes is a comment
 // the section following [GameObjectClass] is for
 // MUST include ClassParent, which is used
@@ -312,7 +312,7 @@ which our demo model does because Luke loves his skirt, then you will need to do
 
 Firstly, you need to create a cloth ODF for the cloth, in the ODFs directory. The ODF name is simply the name of the cloth piece with ".odf" appended – in our case, "all\_inf\_tatooinelukeskywalker\_cloth.odf". Inside, you will find…
 
-```
+```C#
 // \*\*\*\*\*\* A cloth ODF \*\*\*\*\*\*\*
 // Top section, same as any other ODF
 [GameObjectClass]
@@ -329,7 +329,7 @@ AttachedMesh = "all_inf_tatooinelukeskywalker"
 
 Secondly, in our soldier's ODF, you need to tell it that it uses this cloth ODF, which gives us this line in our ODF above:
 
-```ClothODF = "all\_inf_tatooinelukeskywalker_cloth"```
+```ClothODF = "all_inf_tatooinelukeskywalker_cloth"```
 
 And that's it! Assuming your artist did the right thing and attached the cloth where it needed to be, as well as put in cloth collision for it (XSI primitives in the .msh, named c\_whateverNameIWant) it should function.
 
@@ -338,7 +338,7 @@ _Note: A soldier may have as many cloth ODFs as you wish – each one simply nee
 There are other properties that you may have in a cloth ODF – we have rarely had occasion to use them, but they are:
 
 _(Note that [parameter] means a number, like 20.4, not [20.4])_
-```
+```C#
 // ---list of optional cloth parameters---
 
 // Angle of the wind, phi and theta
@@ -390,7 +390,7 @@ Unfortunately, Luke is a plain old human, and he isn't too fond of hippie hairdo
 Tentacles are pretty simple, really. The artist needs to include bones named bone\_string1 through bone\_string# (maximum is 45) and make sure they are in the base pose and properly parented to each other. Then you, the all-powerful demigod of character creation, need to tweak the soldier's ODF slightly:
 
 Straight from Aayla (Aalya? I always forget…) we have:
-```
+```C#
 // NumTentacles \* BonesPerTentacle = total bones, bone\_string1 to N
 // Note that the max tentacles is 9, and the max bones is 5.
 // However if you have one long tentacle, as long as the bone number
@@ -426,7 +426,7 @@ In the case of this demo, I&#39;ll be stealing Luke's saber from the Alliance si
 
 Now, what goes into the ODF…?
 
-```
+```C#
 [WeaponClass]
 
 // this is always "melee" for a lightsaber
@@ -514,7 +514,7 @@ LightSaberTrailColor = "82 255 7 128"
 // as an example.
 ```
 And that's the end of the ODF. Almost. There's also a way to make a blade without all that nonsense, and with a whole new set of nonsense. If you just want a blade to come off a character's bone or hardpoint without creating your own geometry, you can do the following…please note that ONLY Darth Maul uses this, because he was one of the first Jedi created. This method is very difficult, and if you can, have an artist create your invisible handle instead.
-```
+```C#
 // Rather than saying GeometryName and FirePointName, you can simply
 // use the following ("simply", that is): AttachedFirePoint
 // The first parameter is the bone name.
@@ -617,7 +617,7 @@ Keep in mind that you only need to re-run the animation munge.bat if you change 
 _ **The Combo File Header…** _
 
 Each combo file begins with the same information, before we get to the state-definition part. The usual commented example:
-```
+```C#
 // The name an animation is always just the part after
 // the class and weapon, because the class comes from your
 // soldier ODF, and the weapon comes from the type of weapon
@@ -670,7 +670,7 @@ OffhandAnimation("stand_useforce", "FIRE2");
 OffhandAnimation("stand_useforce", "CHARGE");
 ```
 For the rest of this, due to time constraints I will simply be including notes that go along with combo.txt, or things that are not included in combo.txt.
-```
+```C#
 // Sabre-throw stuff....
 // This is the animation to use when we throw the sabre.
 // human_sabre_stand_throw_full is present by default, so
@@ -683,7 +683,7 @@ ThrowAnimation("stand_throw");
 // your character catches the sabre. Normally
 // it's just a state that plays the catch animation
 // then goes back to IDLE.
-State("CATCH\_SABRE")
+State("CATCH_SABRE")
 {
     Posture("Stand");
     // Sound("saber_catch");
