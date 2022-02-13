@@ -6,15 +6,15 @@ While the BFBuilder.hta application makes it possible to quickly and easily buil
 
 The map template used to by BFBuilder to create new worlds was designed to meet the minimum in game requirements to run a world with the exception of the sky. The sky template and assets come from Geonosis, which makes use of all of the object type that can exist in the sky.  
 
-The template world was created manually without the use of the BFBuilder application. How is was created is detailed in the Mod1 Tutorial. [View the Mod1 Tutorial](mod1tut.htm)
+The template world was created manually without the use of the BFBuilder application. How is was created is detailed in the Mod1 Tutorial. [View the Mod1 Tutorial](mod1tut.md)
 
 The Template contains these minimum requirements:  
-1 Terrain with a base texture (a blank base texture is used)  
-2 Command Posts, one owned by each team  
-2 Capture regions, one for each command post  
-2 Control regions, one for each command post  
-2 Unit Spawn Paths, one for each command post  
-1 Properly configured mission lua script for each era (2 luas)  
+1. Terrain with a base texture (a blank base texture is used)  
+1. Command Posts, one owned by each team  
+1. Capture regions, one for each command post  
+1. Control regions, one for each command post  
+1. Unit Spawn Paths, one for each command post  
+1. Properly configured mission lua script for each era (2 luas)  
 
 Mod2 expands on the demonstration of minimum functionality by taking default world created by BFBuilder and adding Water, Vehicles, Props, Barriers, Path Plans, Map Boundaries, and global ambient sound.
 

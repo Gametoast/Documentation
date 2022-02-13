@@ -6,7 +6,7 @@ MOD1 SAMPLE MAP
 Mod1 was the first map created as a sample that utilizes the minimum assets required for a functional world. The Mod1 sample map was created by first building the DATATEMPLATE directory and file structure so modders had a template that could be modified to accommodate new worlds. For other mods, the DATATEMPLATE directory can be copied and renamed to match the world name. For example DATATEMPLATE could be renamed to DATADan1 for Dantooine, or in the case of the Mod1 sample DATAMod1 for Modification1. Once the template has been copied and the folder renamed, individual files required to compile the level need to be changed to reflect the new level name and folder names.
 
 Below is a list of the files and folders to be changed. Those prefaced with a (+) are mandatory, the rest are optional.
-
+```
 \\BFBuilder\\DataTEMPLATE\\ - copy and rename folder
 \\BFBuilder\\Data%COPY%\\soundmunge.bat - edit mod references if necessary
 \\BFBuilder\\Data%COPY%\\\_BUILD\_PC\\clean.bat - edit mod reference if necessary
@@ -34,6 +34,7 @@ Below is a list of the files and folders to be changed. Those prefaced with a (+
 +\\BFBuilder\\Data%COPY%\\Sound\\worlds\\mod\\mod1gcw.req - rename file
 \\BFBuilder\\Data%COPY%\\Worlds\\Modification\\ - rename folder
 +\\BFBuilder\\Data%COPY%\\Worlds\\Modification\\mod1.req - rename file and edit mod1 references
+```
 
 When all of the changes have been made a new world can be saved within the folder Data%COPY%/Worlds/Modification/World1, where TEMPLATE and Modification are reflective of the new world name such as DataDAN1/Worlds/Dantooine/World1. To save a new world into this folder, an existing world can be opened and saved under a new name or a new world can be created and saved without first opening an existing world. When creating the DATAMOD1 sample Mod1, the world was created from scratch.
 

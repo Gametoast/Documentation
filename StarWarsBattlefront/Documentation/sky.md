@@ -32,7 +32,6 @@ SunInfo()
     BackDegree(0.000000);
 }
 
-
 DomeInfo()
 {
     Texture("SKY_Geonosis.tga");
@@ -41,7 +40,6 @@ DomeInfo()
     Filter(1);
     Threshold(150);
     Intensity(50);
-
     Softness(1);
     SoftnessParam(60);
 
@@ -49,14 +47,10 @@ DomeInfo()
     {
         TerrainBumpTexture("geo1_bump", 1.0);
     }
-
-
-
     DomeModel()
     {
         Geometry("geo_sky_dome");
     }
-
     DomeModel()
     {
         Geometry("geo_sky_arena");
@@ -75,7 +69,6 @@ DomeInfo()
         Offset(10.0);
         MovementScale(0.995);
     }
-
     LowResTerrain()
     {
         Texture("geo1");
@@ -87,7 +80,6 @@ DomeInfo()
         DetailTextureScale(0.25);
     }
 }
-
 
 //Big rep flyer
 SkyObject()

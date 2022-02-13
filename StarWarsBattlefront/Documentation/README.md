@@ -37,3 +37,6 @@ Assets for worlds and sides that shipped with the game are included in the asset
 Documentation assembled and written by Chris Fusco aka psych0fred  
 Special thanks to Paul Baker, Chris McGee, and Juan Sanchez for their contribution to the documentation  
 Kudos to Mike Zaimont for his awesome work on the editor and XSI plugin, Nathan Mates for building the invaluable SPTEST.exe, and Carey Chico for providing his valuable knowledge and support.
+
+Converted html to markdown with:
+https://codebeautify.org/html-to-markdown

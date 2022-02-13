@@ -3,7 +3,7 @@ SWBF Mod Tools
 **FLYTHROUGH MOVIES FOR STAR WARS BATTLEFRONT**
 
 VIDEO ASSET DEVELOPMENT AND COMPRESSION:  
-Star Wars Battlefront flythroughs, the short video clip showcasing the level in the map select screen, are captured and edited as .avi�s and then compressed into .bik�s using Bink Video by RAD Game Tools INC. The flythroughs are titled using the naming convention of �map1fly.bik� where �map1� is the name of the map. The .bik�s are following the recommended compression guidelines listed on the Rad Game Tools website at: [http://www.radgametools.com/binkhcwb.htm](http://www.radgametools.com/binkhcwb.htm). These guidelines are a helpful reference, but of course results will vary depending on the content makeup of the video clip. Experimentation to achieve the delicate balance of good image quality at a low file size is the name of the game.
+Star Wars Battlefront flythroughs, the short video clip showcasing the level in the map select screen, are captured and edited as .avi's and then compressed into .bik's using Bink Video by RAD Game Tools INC. The flythroughs are titled using the naming convention of 'map1fly.bik' where 'map1' is the name of the map. The .bik's are following the recommended compression guidelines listed on the Rad Game Tools website at: [http://www.radgametools.com/binkhcwb.htm](http://www.radgametools.com/binkhcwb.htm). These guidelines are a helpful reference, but of course results will vary depending on the content makeup of the video clip. Experimentation to achieve the delicate balance of good image quality at a low file size is the name of the game.
 
 As a starting point, here are the settings used on average for the flythroughs on Star Wars Battlefront:
 
