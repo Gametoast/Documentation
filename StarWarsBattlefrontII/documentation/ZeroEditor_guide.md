@@ -45,109 +45,63 @@ This guide will walk through the various modes and mode tools of Zeroedit while 
  The visibility bar provides levels of visibility in 500 meter increments (500-5000 on the 10 bar scale). In solid mode if the visibility range is too high to render all of the object on screen the editor will slow to a crawl or even crash, so it is best to start with the visibility low and increase it as necessary. This is less of a problem when working in WIRE mode since the terrain and it&#39;s textures are not being rendered.
 
 **ZeroEdit Keyboard / Mouse Commands**
-
+```
 Ctrl + S Save
-
 Ctrl + L Load
-
 Ctrl + Z Undo
-
 TAB Toggle between Mouselook and Edit
-
 Arrow Up Rotate view up
-
 Arrow Down Rotate view down
-
 Arrow Left Turn view left
-
 Arrow Right Turn view right
-
 NumPad (8)Arrow Up Move view forward
-
 NumPad (2)Arrow Down Move view back
-
 NumPad (4)Arrow Left Move view left
-
 NumPad (6)Arrow Right Move view right
-
 NumPad (7) Home Move view left and forward
-
 NumPad (9) PgUp Move view right and forward
-
 NumPad (1) End Move view Left and back
-
 NumPad Arrow Up Move view right and back
-
-, (\&lt;) slow key and mouse movement
-
-. (\&gt;) speed key and mouse movement
+, (<) slow key and mouse movement
+. (>) speed key and mouse movement
 
 With MOUSELOOK on, cursor disappears and you can not select anything, used to position the camera in the world.
-
 Alt + I Toggle behavior of Mouselook up and down
-
 Mouse Forward Look up
-
 Mouse Back Look down
-
 Mouse Left Look / Turn Left
-
 Mouse Right Look / Turn right
-
 W Move Forward
-
 S Move Back
-
 A Strafe to the left
-
 D Strafe to the right
-
 F Move up
-
 V Move down
 
 With MOUSELOOK off, your cursor appears and you can select menus and manipulate the world
-
 Left Click Select or Place
-
 Right Click Deselect
-
 Mouse Forward Move cursor up the screen/Move cursor + item forward in the world
-
 Mouse Back Move cursor down the screen/Move cursor + item back in the world
-
 Mouse Left Move cursor left on the screen/Move cursor + item left in the world
-
 Mouse Right Move cursor right on the screen/Move cursor + item right in the world
-
 Mouse Right Move cursor right on the screen/Move cursor + item right in the world
-
 F Move cursor + item up in the world
-
 V Move cursor + item down in the world
 
 When in OBJECT mode
-
 Left Mouse Button X axis
-
 Right Mouse Button Y axis
-
 Middle Mouse Button Z axis
-
 C + L/R/M Mouse Button Translate (move)
-
 X + L/R/M Mouse Button Rotate around Object Center
-
 Z + L/R/M Mouse Button Rotate around Object Root
 
 When in REGION or BARRIER mode
-
 C + L/R/M Mouse Button Scale Object in the X axis
-
 X + L/R/M Mouse Button Scale Object in the Y axis
-
 Z + L/R/M Mouse Button Scale Object in the Y axis
-
+```
 **EDIT MODES**
 
 **HEIGHT MODE**
@@ -163,7 +117,7 @@ SHAPE
  Shape controls determine the brush shape. Brush shapes include SQUARE, which produces a solid brush with a hard edge; CIRCLE which produces a solid circle with a hard edge. If a circle is small it may look like a square due to the 8 meter grid tile size of the terrain. CONE looks and functions much like the CIRCLE shape but applies a blend like gradient to the terrain between the foreground height and background height that makes the terrain form a cone. Like circle, the smaller the cone the weaker the effect. BELL is much like CONE but instead of a blend gradient that results in a cone shape one that results in a bell shape is applied. RAMP shape uses the foreground height and background height to generate a rectangular ramp under the terrain brush.
 
 ROTATION AND PRESSURE
- Rotation and pressure apply to the brush rotation and &quot;paint&quot; pressure. Brush ROTATION can be edited in degrees while PRESSURE is a percentage. Typically pressure is left at the default of 20 but increasing pressure is useful when manipulating terrain in RAISE mode.
+ Rotation and pressure apply to the brush rotation and "paint" pressure. Brush ROTATION can be edited in degrees while PRESSURE is a percentage. Typically pressure is left at the default of 20 but increasing pressure is useful when manipulating terrain in RAISE mode.
 
 TERRAIN HEIGHT
  Terrain height is a subset of controls that affect chosen height settings and allows for the selection of an area of terrain for copying and pasting. Two height settings are stored and attached to the height tools at all times, the foreground height and the background height. The foreground height is attached to the left mouse button and background to the right mouse button when PICK is active under Terrain Height. The height selected using the PICK tool is only for terrain vertices and PICK cannot be used on objects. MARQUEE allows for the selection of a rectangle of terrain that can then be copied using Ctrl-C. When an area of terrain is copied, the copy appears at the tip of the mouse arrow and superimposed over the terrain until the muse is clicked and it is placed in it&#39;s new location. Copied terrain can be pasted repeatedly. Right clicking will deselect the terrain. FOREGROUND and BACKGROUND input boxes allow for manually entering values but in coming up with values the world size and scope must be taken into account. While the default map size 256 x 256 meters with an 8 meter grid of squares, it does have max and min height settings in the mission lua that affect units and flyers.
@@ -227,94 +181,58 @@ ALPHA
 
 Foliage properties are written to the prop (prp) file. The format is below for two types, the first utilizes a mesh called editor\_grasspatch.msh which appears in the editor as a white disk. The second layer utilizes the most typical type of foliage used is the second example which also has multiple types of foliage in a single layer.
 
+```C
 Layer(0)
-
 {
-
-SpreadFactor(0.1);
-
-Mesh()
-
-{
-
-GrassPatch(&quot;nab\_prop\_grass.odf&quot;, 50);
-
-File(&quot;editor\_grasspatch.msh&quot;, 50);
-
-Frequency(100);
-
-Scale(1);
-
-Stiffness(0.0);
-
-}
-
+    SpreadFactor(0.1);
+    Mesh()
+    {
+        GrassPatch("nab_prop_grass.odf", 50);
+        File("editor_grasspatch.msh", 50);
+        Frequency(100);
+        Scale(1);
+        Stiffness(0.0);
+    }
 }
 
 Layer(1)
-
 {
+    SpreadFactor(0.4);
+    Mesh()
+    {
+        File("end_prop_fern5.msh", 30);
+        Frequency(20);
+        Scale(1);
+        Stiffness(0.0);
+        CollisionSound("foliage_collision");
+        ColorVariation(0.2);
+    }
 
-SpreadFactor(0.4);
-
-Mesh()
-
-{
-
-File(&quot;end\_prop\_fern5.msh&quot;, 30);
-
-Frequency(20);
-
-Scale(1);
-
-Stiffness(0.0);
-
-CollisionSound(&quot;foliage\_collision&quot;);
-
-ColorVariation(0.2);
+    Mesh()
+    {
+        File("end_prop_treeclump_1.msh", 50);
+        Frequency(80);
+        Scale(1);
+        Stiffness(0.0);
+        CollisionSound("foliage_collision");
+        ColorVariation(0.2);
+    }
 
 }
-
-Mesh()
-
-{
-
-File(&quot;end\_prop\_treeclump\_1.msh&quot;, 50);
-
-Frequency(80);
-
-Scale(1);
-
-Stiffness(0.0);
-
-CollisionSound(&quot;foliage\_collision&quot;);
-
-ColorVariation(0.2);
-
-}
-
-}
-
+```
 The spreadfactor determines the density of the foliage on a particular tile. The lower the number the more dense. The number that appears in the File line at the end of the mesh or object specifies the view distance where the foliage fades in or out in meters. The frequency represents the percent of that particular layer that is made up of that individual mesh. In the above samples for layer 1, one mesh constitutes 20% percent of the foliage and the other 80% on a given tile when painted. Scale scales the foliage object. Stiffness determines how stiff an object is. If set to 0 the foliage tends to tilt with the terrain, but if set higher it becomes more erect and straight, such as when a tree would be planted on a hill and you want the tree to be pointed towards the sky rather that at angle. Collision sound is a sound hook that triggers a sound when something collides with the foliage. ColorVariation provides a color deviation in the foliage so it does not all appear as the same object.
 
 There is another type of foliage in the game that does not utilize the EDIT FOLIAGE mode but rather the PATH EDIT mode but it will be described here. This type of foliage is referred to as Hell Bushes and they are created by defining a path that functions like a string of popcorn where the popcorn are object meshes. The density of the objects along the string are determined by the distance property defined in the PRP file using syntax like that below. Examples of Hell Bushes in the game are the bushes that encircle Yavin 1.
-
+```C
 TreeLine()
-
 {
-
-Path(&quot;jungle1&quot;)
-
-{
-
-Distance(28);
-
-BorderOdf(&quot;end\_prop\_treebill.odf&quot;);
-
+    Path("jungle1")
+    {
+        Distance(28);
+        BorderOdf("end_prop_treebill.odf");
+    }
 }
-
-}
-
+```
 **OBJECT EDIT MODE**
  Object edit mode allows for importing and in some cases configuring instance properties of objects created with Softimage XSI and defined using Object Definition Files (ODF). Once an object has been set up and loaded into the world&#39;s ODF directory the editor can be launched and the object will be found if it&#39;s name is typed into the ODF File input box. Once imported an object can be placed using the ACTION MODE: PLACE. From there the object can be moved and manipulated.
 
@@ -368,7 +286,7 @@ TAPE MEASURE
  PATH EDIT MODE comes with a tape measure that can be used to measure distances in meters.
 
 **REGIONS EDIT MODE**
- There are many types of regions. Examine the assets that came with these tools to examine their properties. In general they are Capture Regions, Control Regions, SoundStream Regions, SoundTrigger Regions, SoundSpace Regions, Shadow Regions, Death Regions... and probably more. Capture and control are explained in the Mod1 tutorial. As an example it explains that the RegionID property is arbitrary for use in the editor only while the Properties field is what defines the effect the region has in game. Capture and Control Regions simply need to be referenced to be functional. Other regions, such as SoundStream regions have properties and parameters that need to be more elaborately defined. Mod2 contains a simple example of how a SoundStream region is set up. The RegionID is arbitrary, but the properties always begins with SoundStream then the name of a SoundStreamProperty, then a number. The number represents a calculated rolloff point (1 over the number is the number of meters the sound rolloff begins) and this understood by the game engine. Similarly SoundTrigger Regions are regions that play a sound when a unit enters them. An example of this is the &quot;Transport One is Away&quot; announcement inside the bunkers and hangar on Hoth. SoundSpace Regions call soundspace properties that affect what kind of reverb and occlusion the sound heard within a region exhibit. Shadow Regions apply lighting properties different from those of the outdoor world. This basically blocks the sun virtually because the sun and ambient light pass through objects and a solution for blocking light in addition to lighting is needed. Death Regions are just regions that kill a unit of entered. These are used to kill units that fall into traps or spaces that cannot be escaped. They are simply named and defined in the mission lua to function. One other is a Rain or No Rain region such as those used on Kamino to block rain from appearing indoors.
+ There are many types of regions. Examine the assets that came with these tools to examine their properties. In general they are Capture Regions, Control Regions, SoundStream Regions, SoundTrigger Regions, SoundSpace Regions, Shadow Regions, Death Regions... and probably more. Capture and control are explained in the Mod1 tutorial. As an example it explains that the RegionID property is arbitrary for use in the editor only while the Properties field is what defines the effect the region has in game. Capture and Control Regions simply need to be referenced to be functional. Other regions, such as SoundStream regions have properties and parameters that need to be more elaborately defined. Mod2 contains a simple example of how a SoundStream region is set up. The RegionID is arbitrary, but the properties always begins with SoundStream then the name of a SoundStreamProperty, then a number. The number represents a calculated rolloff point (1 over the number is the number of meters the sound rolloff begins) and this understood by the game engine. Similarly SoundTrigger Regions are regions that play a sound when a unit enters them. An example of this is the "Transport One is Away" announcement inside the bunkers and hangar on Hoth. SoundSpace Regions call soundspace properties that affect what kind of reverb and occlusion the sound heard within a region exhibit. Shadow Regions apply lighting properties different from those of the outdoor world. This basically blocks the sun virtually because the sun and ambient light pass through objects and a solution for blocking light in addition to lighting is needed. Death Regions are just regions that kill a unit of entered. These are used to kill units that fall into traps or spaces that cannot be escaped. They are simply named and defined in the mission lua to function. One other is a Rain or No Rain region such as those used on Kamino to block rain from appearing indoors.
 
 REGION ACTIONS
  Regions are declared first as groups because they can share properties. To create a region NEW REGION must first be selected in ACTION mode and then the terrain clicked for it to be placed. Once placed, a region can be selected when in SELECT mode and it&#39;s properties set and adjusted. Regions can only be BOXes, SPHEREs, and CYLINDERs, in some cases such as sound, must be of a certain shape to function. Regions can also be snapped to grid tiles using the SNAP TO toggle.

@@ -2,7 +2,7 @@
 
 These notes go over what is different in Visual Munge for Star Wars Battlefront II when creating a Space level.
 
-![](RackMultipart20220212-4-ixchf_html_f4e4a8f481cf919.jpg)
+![](images/getting_started_space_visualMunge.jpg)
 
 You&#39;ll see a different List of Game Modes when you check the Space Map box.
 

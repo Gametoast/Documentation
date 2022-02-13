@@ -787,13 +787,11 @@ SetupTeams{
         sniper = { "jdi_demojedi", 1, 4},
         officer = {"rep_inf_ep3_officer",1, 4},
         special = { "rep_inf_ep3_jettrooper",1, 4},
-    }
-},
+    },
 
---[then CIS section]
-```
+    --[then CIS section]
 }
-
+```
 For a more complete description of what the SetupTeams or SetHeroClass functions do, please see the LUA guide that's supposed to have been written by someone else. (^.^)
 
 **Extra console commands:**

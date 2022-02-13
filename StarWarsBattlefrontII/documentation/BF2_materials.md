@@ -2,7 +2,7 @@
 
 This document explains the key features to understanding material parameters and their affect on the rendering system. In order to use any of these materials you first select the polygons that you want to tag in XSI and then select EditFlags. You should a dialog box similar to the one shown below.
 
-![](RackMultipart20220212-4-17326en_html_effbb3c539fafbf5.gif)
+![](images/bf2_materials_1.jpg)
 
 # Common Parameters
 

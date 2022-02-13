@@ -34,7 +34,7 @@ What does this mean? A few things…
 
 - Layers in the editor are now of infinitely more significance than before. Rules have changed, national boundaries have shifted, and the fundamental harmonics of existence have been rearranged in subtle but alluring ways.
 
-- A new button is present nearish the top of the editor: ![](RackMultipart20220212-4-1y2dxs2_html_737aeb99997333b4.png)
+- A new button is present nearish the top of the editor: ![](images/zeroEditor_gameModes_1.jpg)
 
 - The world REQs (\*.req) for every world is now moved into that world&#39;s folder (ex. tat\tat1.req became tat\world1\tat1.req).
 
@@ -50,11 +50,11 @@ Layers are now separate entities, rather than mere constructs of convenience wit
 
 - Open the editor. Add, delete, rename or otherwise modify the layers you wish to.
 
-- Click ![](RackMultipart20220212-4-1y2dxs2_html_737aeb99997333b4.png)
+- Click ![](images/zeroEditor_gameModes_1.jpg)
 
 - Set up any Game Modes you wish to (discussed later).
 
-- In the Game Modes window, click ![](RackMultipart20220212-4-1y2dxs2_html_9a8eceef57a56daf.png) , select the World REQ, and click Open. If there are no errors reported, it succeeded. **Do this for each World REQ if your World has multiple REQs.** This step rewrites all .REQ and .MRQ files, which need to be checked in again, and may create new ones which need to be added to Perforce.
+- In the Game Modes window, click ![](images/zeroEditor_gameModes_2.jpg) , select the World REQ, and click Open. If there are no errors reported, it succeeded. **Do this for each World REQ if your World has multiple REQs.** This step rewrites all .REQ and .MRQ files, which need to be checked in again, and may create new ones which need to be added to Perforce.
 
 - Save the World. (Don&#39;t forget not to kill the villain – let him escape so you may foil his plot again another day.)
 
@@ -82,9 +82,9 @@ So, how does one go about creating and using an original Game Mode? Have at it!
 
 - As with layer creation and deletion, check out at least the World file (\*.WLD), the Layer Index file (\*.LDX), the World REQ (\*.REQ), and any Mode REQs (\*.MRQ) for your world.
 
-- Click ![](RackMultipart20220212-4-1y2dxs2_html_737aeb99997333b4.png) . You now see:
+- Click ![](images/zeroEditor_gameModes_1.jpg) . You now see:
 
-![](RackMultipart20220212-4-1y2dxs2_html_229c5c64410da0a1.png)
+![](images/zeroEditor_gameModes_3.jpg)
 
 -- the Common layers - the list of Game Modes – the layers in the current Game Mode --
 
@@ -98,7 +98,7 @@ So, how does one go about creating and using an original Game Mode? Have at it!
 
 **To Remove a Layer From a Game Mode:** Select the Game Mode from the listbox. Select the layer from the layer list and click Remove.
 
-**\*\*\*Once all your Modes are set up:** As with layer editing, click ![](RackMultipart20220212-4-1y2dxs2_html_9a8eceef57a56daf.png) , select the World REQ, and click Open. If there are no errors reported, it succeeded. **Do this for each World REQ if your World has multiple REQs.** This step rewrites all .REQ and .MRQ files, which need to be checked in again, and may create new ones which need to be added to Perforce. **Don&#39;t forget to save your World! And to munge. :^)**
+**\*\*\*Once all your Modes are set up:** As with layer editing, click ![](images/zeroEditor_gameModes_2.jpg) , select the World REQ, and click Open. If there are no errors reported, it succeeded. **Do this for each World REQ if your World has multiple REQs.** This step rewrites all .REQ and .MRQ files, which need to be checked in again, and may create new ones which need to be added to Perforce. **Don&#39;t forget to save your World! And to munge. :^)**
 
 **To use a Game Mode in-game:** Choose a mission LUA and open it. In our example, we are going to add the Conquest Game Mode to Hoth, in hot1g\_c.lua.
 

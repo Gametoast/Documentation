@@ -36,13 +36,13 @@ To begin, browse to your \BF2\_ModTools\data\_BUILD folder, and run the program 
 
 The first time you run ModTools VisualMunge.exe, it will try to automatically detect your Battlefront II install folder. If it fails to auto-detect, you&#39;ll get a pop-up dialog asking you to enter your Battlefront II directory. The dialog will look like this:
 
-![](RackMultipart20220212-4-1ry6aw9_html_fc59938a98c0787d.jpg)
+![](images/getting_started_visualMungeOptions.jpg)
 
 If this popup should rear it&#39;s ugly head, simply browse to your \Star Wars Battlefront II\GameData directory, and click ok. It is very important that VisualMunge knows this path, as this is where your mod data will be copied to for being run in the game.
 
 Once that it all taken care of, and out of the way, here is an image of the interface you should now be looking at:
 
-![](RackMultipart20220212-4-1ry6aw9_html_d8b40f696d37302f.jpg)
+![](images/getting_started_visualMunge.jpg)
 
 The first thing you&#39;ll need to do to put you on the path of getting your very own Battlefront II map up and running, and choose a 3-letter name for your mod. I&#39;ll use ABC as the example for this document. _Note: the 3-letter name thing is unfortunately required by many systems in the game, so this was something we were unable to change._
 
@@ -54,7 +54,7 @@ What this has now done, is create a mod directory under your BF2\_ModTools direc
 
 Once VisualMunge is done working it&#39;s magic (copying and modifying files) you&#39;ll get a pop-up message that looks like this:
 
-![](RackMultipart20220212-4-1ry6aw9_html_74627ffe4f1246e9.jpg)
+![](images/getting_started_how_sweet.jpg)
 
 This means that all the copying, and modifying is done, and you&#39;ll now need to:
 
@@ -170,7 +170,7 @@ Click on the **Object** edit mode button.
 
 On the left side of the screen, you&#39;ll see:
 
-![](RackMultipart20220212-4-1ry6aw9_html_23a894f4e70088b0.jpg)
+![](images/getting_started_odfBrowse.jpg)
 
 Click the **Browse** button. Browse to the following location: **\BF2\_ModTools\data\_abc\common\odfs** , and select **com\_bldg\_controlezone**
 
@@ -190,7 +190,7 @@ The **Label** field isn&#39;t really important, so you can just leave it blank.
 
 Notice also, that once the CP is selected, you&#39;ll notice some new information has appeared in the **Object Instance** box on the right side of the Zero interface.
 
-![](RackMultipart20220212-4-1ry6aw9_html_b8495b3b9491a525.gif)
+![](images/getting_started_zeObjectMenu.jpg)
 
 The fields we want to modify are the **CaptureRegion, ControlRegion,** and **SpawnPath** fields **.**
 
@@ -210,7 +210,7 @@ On the **Edit Mode** toolbar, click on the **Region** button. Notice the interfa
 
 On the left side of the Zero Editor interface, you&#39;ll now see the following tool panel:
 
-F ![](RackMultipart20220212-4-1ry6aw9_html_40f62a0e08713302.jpg) irst, click on the **New Group** button. Then click on the **Cylinder** button under the **Shape** section. This will allow you to place a cylindrical region in your level. As with Object Mode, simply move your cursor to where you want to place your region (the regions should be placed in the same location as the CP that they are going to be used for), and left-click.
+F ![](images/getting_started_zeEditRegions.jpg) first, click on the **New Group** button. Then click on the **Cylinder** button under the **Shape** section. This will allow you to place a cylindrical region in your level. As with Object Mode, simply move your cursor to where you want to place your region (the regions should be placed in the same location as the CP that they are going to be used for), and left-click.
 
 Once your region is placed in the world, click on **Select Region** under the **Action** section. Move your cursor over the region you just placed and click on it to select it.
 
@@ -362,19 +362,19 @@ The first thing you need to understand about adding vehicles to your level is th
 
 First, you&#39;ll need to go to **Object** edit mode. Once in object edit mode, click on **Browse** as pictured below:
 
-![](RackMultipart20220212-4-1ry6aw9_html_23a894f4e70088b0.jpg)
+![](images/getting_started_odfBrowse.jpg)
 
 This will open the browse window. Browse to **\BF2\_ModTools\data\_ABC\common\odfs\com\_item\_vehicle\_spawn.odf**
 
 Once you select this object, you will be brought back to the Object edit mode. To place the vehicle spawn, click on **Place** and simply click on the terrain where you want to place your vehicle spawn. You should now have an object in your level that looks like this:
 
-![](RackMultipart20220212-4-1ry6aw9_html_8e148b67a962553c.jpg)
+![](images/getting_started_ze_veh_spawn.jpg)
 
 This is your vehicle spawn. The arrow indicates which direction the vehicle will be facing when it spawns in.
 
 Select your vehicle spawn (click **Select** and then click on the vehicle spawn) and you&#39;ll see the **Object Instance** box appear to the right. It looks something (exactly like, actually) this:
 
-T ![](RackMultipart20220212-4-1ry6aw9_html_5892569761cf91b6.jpg) he first parameter, **ControlZone** refers to what CP this vehicle is associated to. The value that should be entered here is the name of the CP, **NOT THE NAME OF THE CONTROL REGION,** that you want this vehicle to be associated to. For example, cp1, or cp5. **NOT** cp1\_control, or cp5\_control.
+T ![](images/getting_started_zeObjectInstance.jpg) The first parameter, **ControlZone** refers to what CP this vehicle is associated to. The value that should be entered here is the name of the CP, **NOT THE NAME OF THE CONTROL REGION,** that you want this vehicle to be associated to. For example, cp1, or cp5. **NOT** cp1\_control, or cp5\_control.
 
 The second parameter specifies how many of these vehicles you want to spawn from this vehicle spawn. I recommend always keeping this set to 1, and just add more vehicle spawns if you want more vehicles at a given CP.
 
@@ -396,7 +396,7 @@ Additionally, you can use a vehicle spawn to spawn vehicles for both eras, you j
 
 ### Distributing your new level/mod
 
-O ![](RackMultipart20220212-4-1ry6aw9_html_57ffa2d222a05ddc.jpg) nce you have spent endless hours perfecting your new creation, to distribute your new level to other Battlefront II players, all you have to do is go to your mod folder in your Battlefront II folder; **\Star Wars Battlefront II\GameData\Addon\ABC,** zip all the data in there up, and SHIP IT! _Note: you want your zip file to contain ONLY the path info from_ _ **Addon** _ _forward, so in winzip, your file should look like this(pay particular attention to the Path section):_
+ ![](images/getting_started_zip_it.jpg) Once you have spent endless hours perfecting your new creation, to distribute your new level to other Battlefront II players, all you have to do is go to your mod folder in your Battlefront II folder; **\Star Wars Battlefront II\GameData\Addon\ABC,** zip all the data in there up, and SHIP IT! _Note: you want your zip file to contain ONLY the path info from_ _ **Addon** _ _forward, so in winzip, your file should look like this(pay particular attention to the Path section):_
 
 ### BF2\_modtools.exe
 

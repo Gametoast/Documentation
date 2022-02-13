@@ -43,11 +43,11 @@ And what you CAN&#39;T do:
 
 Click the well-hidden Animation Mode button
 
-![](RackMultipart20220212-4-10f6tiv_html_34fec33eee3b2e0e.png)
+![](images/procedural_animation_mode_1.jpg)
 
 (at the bottom of the Object Mode menu) to enter Animation Mode:
 
-![](RackMultipart20220212-4-10f6tiv_html_5957713333c83bd6.png)
+![](images/procedural_animation_mode_2.jpg)
 
 To go back to Object Mode, either click on the Back To Object Mode button in the top-center, or click the Object Mode button (which is lazy and never moves from its usual spot.)
 
@@ -55,7 +55,7 @@ To go back to Object Mode, either click on the Back To Object Mode button in the
 
 ## **The Helpful Display Options Menu**
 
-![](RackMultipart20220212-4-10f6tiv_html_289da2dc249c828f.png)
+![](images/procedural_animation_mode_3.jpg)
 
 This menu provides a few important functions:
 
@@ -67,11 +67,11 @@ This menu provides a few important functions:
 
 **Toggle Graph** – turn on or off the graphs of the objects X, Y and Z positions / rotations throughout the animation&#39;s runtime. Example graph of an object moving from (0,0,0) to (10,20,30) over 10 seconds – **NOTICE THE GRAPH LABELS showing different maximum values. Scaling can be confusing….**
 
-![](RackMultipart20220212-4-10f6tiv_html_36cb2d680aa81720.png)
+![](images/procedural_animation_mode_4.jpg)
 
 ## **II. The Animation side menu**
 
-![](RackMultipart20220212-4-10f6tiv_html_4843a52067d4724d.png)
+![](images/procedural_animation_mode_5.jpg)
 
 **The name of the currently selected animation.**
 
@@ -105,23 +105,23 @@ This menu provides a few important functions:
 
 Below are some graphs from 0 to 10 sec, position going from 0 to 10, with a keyframe at each end. This shows what effect the different transition types have.
 
-![](RackMultipart20220212-4-10f6tiv_html_c4cd8c2205545fb4.png)
+![](images/procedural_animation_mode_transition_pop.jpg)
 
 &quot;Pop&quot; type
 
-![](RackMultipart20220212-4-10f6tiv_html_e6e5c4ece5a33786.png)
+![](images/procedural_animation_mode_transition_linear.jpg)
 
 &quot;Linear&quot; type
 
-![](RackMultipart20220212-4-10f6tiv_html_f144e29ccc5a2f55.png)
+![](images/procedural_animation_mode_transition_spline.jpg)
 
 &quot;Spline&quot; type with slopes 0 (at first key) and 0 (at next key).
 
-![](RackMultipart20220212-4-10f6tiv_html_30c12a1c284ffba2.png)
+![](images/procedural_animation_mode_transition_spline_2.jpg)
 
 &quot;Spline&quot; type with slopes 3.5 (at first key) and 0 (at next key).
 
-![](RackMultipart20220212-4-10f6tiv_html_98a652fd4f9974e5.png)
+![](images/procedural_animation_mode_transition_spline_3.jpg)
 
 &quot;Spline&quot; type with slopes 0 (at first key) and 3.5 (at next key).
 
@@ -160,7 +160,7 @@ If Loop is off (the default for any new animation), then once the animation reac
 
 Remember I said, &quot;position and rotation are usually considered separate&quot;? Well, this is the reason for the &quot;usually&quot;. If Local Translation is on, then the Position keyframes change depending on which way the object is facing. Consider the following example, where an object moves forward 10 units while rotating 90 degrees:
 
-![](RackMultipart20220212-4-10f6tiv_html_174ae36a7c0d0f22.png) With Local Translation off. ![](RackMultipart20220212-4-10f6tiv_html_eb43a3d402a157b3.png) With LT on.
+![](images/procedural_animation_mode_lt_off.jpg) With Local Translation off. ![](images/procedural_animation_mode_lt_on.jpg) With LT on.
 
 Thus, with Local Translation on, the direction an object moves is determined by its rotation. This is useful for animating spaceships, cars, and objects that continually move in one direction (&quot;forward&quot;) while turning.
 
@@ -184,7 +184,7 @@ This panel contains the Name of the currently selected group. Add/delete group b
 
 So here&#39;s how you use this panel for your animations.
 
-C ![](RackMultipart20220212-4-10f6tiv_html_f76dbd96a3910cc4.gif) lick the top Add to add an animation group, and then give it a descriptive name.
+C ![](images/procedural_animation_mode_save_anim.jpg) lick the top Add to add an animation group, and then give it a descriptive name.
 
 Click the Animation/Object Pairs Add button to add an animation/object pair to the currently selected group. You must add a new pair before you can edit it.
 
@@ -213,7 +213,7 @@ The Obj List shows the children for a selected hierarchy
 
 So how do you use this? Simple!
 
-C ![](RackMultipart20220212-4-10f6tiv_html_d9b53e91181627e7.gif) lick on the Add button below the Hier List, a new hierarchy will appear in the Hier List.
+C ![](images/procedural_animation_mode_heir.jpg) lick on the Add button below the Hier List, a new hierarchy will appear in the Hier List.
 
 Click on the word Rootobj and type in the name of the parent object that is assigned in an animation group.
 

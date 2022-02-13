@@ -26,8 +26,8 @@ ClassLabels
 Appendix
 
 ODF ClassLabels
-
-animatedbuilding
+```
+ animatedbuilding
  animatedprop
  armedbuilding
  armedbuildingdynamic
@@ -89,7 +89,7 @@ animatedbuilding
  walkerdroid
  water
  weapon
-
+```
 **ODF Hierarchy**
 
 We used a hierarchy system in Battlefront II that allowed us to keep commonly used functions within one ODF file. This benefit to this system is that it allowed us to make sweeping changes to everything linked to this one file in one shot.
