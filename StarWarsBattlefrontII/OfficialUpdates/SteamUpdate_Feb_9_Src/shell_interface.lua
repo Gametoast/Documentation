@@ -141,10 +141,8 @@ if(gPlatformStr == "PC") then
 		
 	else
 		ScriptCB_DoFile("ifs_mpgs_pclogin")
-		--ScriptCB_DoFile("ifs_missionselect_pcMulti")
 	end 
     
-	--ScriptCB_DoFile("ifs_mpgs_pclogin")
     ScriptCB_DoFile("ifs_missionselect_pcMulti")
 else
     ScriptCB_DoFile("ifs_mpgs_login")   
@@ -235,14 +233,13 @@ else
 end 
 ScriptCB_DoFile("ifs_opt_mp_listtags")
 ScriptCB_DoFile("ifs_opt_mp")
-
 if(gPlatformStr == "PC") then
     --ScriptCB_DoFile("ifs_opt_pckeyboard")
     ScriptCB_DoFile("ifs_opt_pccontrols")
     ScriptCB_DoFile("ifs_opt_pcvideo")
-	ScriptCB_DoFile("controller_presets")
-	ScriptCB_DoFile("ifs_opt_controller_common")
-	ScriptCB_DoFile("ifs_opt_pccontroller")
+    ScriptCB_DoFile("controller_presets")
+    ScriptCB_DoFile("ifs_opt_controller_common")
+    ScriptCB_DoFile("ifs_opt_pccontroller")
 else
     ScriptCB_DoFile("controller_presets")
     ScriptCB_DoFile("ifs_opt_controller_mode")
