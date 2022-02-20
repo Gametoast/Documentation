@@ -1,0 +1,27 @@
+[GameObjectClass]		
+
+ClassLabel		=	"flag"
+GeometryName	=	"dea_icon_disk.msh"
+
+[Properties]		
+
+Lighting			= "Dynamic"
+
+IconTexture			= ""
+MapTexture			= ""
+MapScale			= ""
+
+GeometryName			= "dea_icon_disk"
+CarriedGeometryName		= "dea_icon_disk_carried"
+SoldierAttachBone 		= "bone_l_hand"
+
+PickupSound			= "health_recharge defer"
+DropSound			= ""
+AmbientSound			= ""
+
+LifeSpan			= 50.0
+
+LightODF			= "flaglight"
+
+[InstanceProperties]
+

@@ -1,0 +1,72 @@
+Version(3);
+SaveType(0);
+
+Camera("camera")
+{
+	Rotation(0.914, 0.380, 0.128, -0.053);
+	Position(-1011.604, 963.159, -308.448);
+	FieldOfView(55.400);
+	NearPlane(1.000);
+	FarPlane(5000.000);
+	ZoomFactor(1.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(-190.434, 857.785, 771.592,  0.888, 0.248, -0.372, 0.104);
+}
+LightName("spa2_Rumbles.LGT");
+ControllerManager("StandardCtrlMgr");
+
+WorldExtents()
+{
+	Min(0.000000, 0.000000, 0.000000);
+	Max(0.000000, 0.000000, 0.000000);
+}
+
+NextSequence(-4108391);
+
+Object("spa_rum_shield", "spa_rum_shield", 1597672943)
+{
+	ChildRotation(0.000, -1.000, 0.000, 0.000);
+	ChildPosition(-930.000, 0.000, -2559.000);
+	SeqNo(1597672943);
+	Team(0);
+	NetworkId(-1);
+	Layer(12);
+}
+
+Object("spa_rum_caves", "spa_rum_caves", 2048978775)
+{
+	ChildRotation(0.000, -1.000, 0.000, 0.000);
+	ChildPosition(-922.000, 0.000, -2542.000);
+	SeqNo(2048978775);
+	Team(0);
+	NetworkId(-1);
+	Layer(12);
+}
+
+Object("spa_rum_engines", "spa_rum_engines", -1178268587)
+{
+	ChildRotation(0.000, -1.000, 0.000, 0.000);
+	ChildPosition(-912.000, 0.000, -2558.000);
+	SeqNo(-1178268587);
+	Team(0);
+	NetworkId(-1);
+	Layer(12);
+}
+
+Object("spa_rum_caves_subtle", "spa_rum_caves_subtle", -621829953)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-907.000, 0.000, -2544.000);
+	SeqNo(-621829953);
+	Team(0);
+	NetworkId(-1);
+	Layer(12);
+}

@@ -1,0 +1,20 @@
+Version(1);
+RegionCount(2);
+
+Region("shadow directional=0 directional1=0 colortop=103,103,103 colorbottom=55,55,55", 0)
+{
+	Layer(14);
+	Position(-1018.444397, -136.511597, -220.755600);
+	Rotation(0.924904, 0.000000, -0.380202, 0.000000);
+	Size(69.291565, 17.129486, 112.931290);
+	Name("CIS_SHDW1");
+}
+
+Region("shadow directional=0 directional1=0 colortop=98,98,98 colorbottom=56,56,56", 0)
+{
+	Layer(14);
+	Position(-446.712433, 7.636556, 1250.980591);
+	Rotation(0.985604, 0.000000, 0.169073, 0.000000);
+	Size(58.964050, 19.142576, 77.141739);
+	Name("rep_shdw1");
+}

@@ -1,0 +1,30 @@
+[OrdnanceClass]
+//This area defines the ordnances class and the effects associated with it.
+ClassLabel 		= "bolt"
+
+
+
+[Properties]
+//ExplosionName		= "hoth_weap_bldg_ioncannon_exp"
+
+OrdnanceEffect		= "red_blaster_bolt"
+ImpactEffect		= "com_sfx_explosion_sm"
+LaserLength			= "10.0"
+LaserWidth			= "1.0"
+
+//*RANGE*  (Velocity * Lifespan = range)
+//"LifeSpan" is the amount of time in seconds the ordnance will be in play
+//"Velocity" is the speed at which the ordance travels in the direction fired
+LifeSpan 		= "2.5"
+Velocity 		= "250.0"
+Gravity			= "1.0"
+Rebound			= "0.0"
+
+//*DAMAGE* (Damage * Soak = DamageDealt)
+//"MaxDamage" is the unmodified amount of damage the ordnance can inflict.
+//"AreaOfEffect" is the blast radius in meters from the center.
+//"Soak", all three kinds, indicates the ordnances effectiveness against it's target
+MaxDamage 		= "200.0"
+ArmorScale		= "2.0"
+ShieldScale		= "0.5"
+HealthScale		= "1.0"

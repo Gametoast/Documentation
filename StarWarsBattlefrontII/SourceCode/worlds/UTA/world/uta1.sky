@@ -1,0 +1,36 @@
+SkyInfo()
+{
+	Enable(1);
+
+	PS2()
+	{
+		NearSceneRange(0.100000, 40.000000, 55.000000);
+		NearSplitScreenRange(0.100000, 35.000000, 50.000000);
+		FarSceneRange(400.000000);
+	}
+	PC()
+	{
+		NearSceneRange(55, 70.0, 70.0, 120.0);
+		FarSceneRange(400.000000, 600.0);
+		
+	}
+	XBOX()
+	{
+		NearSceneRange(0.100000, 55.000000, 75.000000);
+		NearSplitScreenRange(0.100000, 35.000000, 50.000000);
+		FarSceneRange(600.000000);
+		
+	}
+}
+
+DomeInfo()
+{
+	
+	Softness(1);
+	SoftnessParam(60);
+
+	DomeModel()
+	{	
+		Geometry("uta1_sky_dome");
+	}
+}

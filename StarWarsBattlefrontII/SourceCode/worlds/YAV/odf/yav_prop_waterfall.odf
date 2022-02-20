@@ -1,0 +1,14 @@
+[GameObjectClass]		
+
+ClassLabel		=	"prop"
+GeometryName	=	"yav_prop_Waterfall.msh"
+
+
+[Properties]		
+
+GeometryName    =   "yav_prop_Waterfall"
+Emitter     =   "waterfall_bottom_side hp_waterfallbottom_right"
+Emitter     =   "waterfall_bottom_side hp_waterfallbottom_left"
+Emitter     =   "waterfall_bottom_center hp_waterfallbottom_center"
+
+FoleyFXGroup="stone_foley"

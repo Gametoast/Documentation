@@ -1,0 +1,29 @@
+[GameObjectClass]		
+
+ClassLabel		=	"flag"
+GeometryName	=	"myg1_icon_crystal.msh"
+
+[Properties]		
+
+Lighting			= "Dynamic"
+
+IconTexture			= ""
+MapTexture			= ""
+MapScale			= ""
+
+GeometryName	=	"myg1_icon_crystal"
+
+CarriedGeometryName =   "myg1_icon_crystal"
+CarriedOffset		= "0.0 2.5 0.0"
+CarriedColorize		= 1
+
+PickupSound			= "health_recharge defer"
+DropSound			= ""
+AmbientSound		= ""
+
+LifeSpan			= 50.0
+
+LightODF			= "flaglight"
+
+[InstanceProperties]
+

@@ -1,0 +1,82 @@
+Version(1);
+RegionCount(9);
+
+Region("CP2CONCAPTURE", 2)
+{
+	Layer(7);
+	Position(79.409065, 9.783792, 10.562078);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(15.091835, 10.000000, 10.859605);
+	Name("CP2CONCAPTURE");
+}
+
+Region("CP3CONCAPTURE", 2)
+{
+	Layer(7);
+	Position(223.489105, 4.214567, -3.198340);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(11.529648, 10.000000, 0.100000);
+	Name("CP3CONCAPTURE");
+}
+
+Region("CP1CONCAPTURE", 2)
+{
+	Layer(7);
+	Position(177.895248, 13.200285, -183.426437);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(6.168976, 4.923273, 7.220695);
+	Name("CP1CONCAPTURE");
+}
+
+Region("CP4CONCAPTURE", 0)
+{
+	Layer(7);
+	Position(63.822193, 15.388657, 72.621719);
+	Rotation(0.993949, 0.000000, -0.109841, 0.000000);
+	Size(21.525541, 4.442255, 11.599277);
+	Name("CP4CONCAPTURE");
+}
+
+Region("CP5CONCAPTURE", 0)
+{
+	Layer(7);
+	Position(117.005836, 32.058533, 166.814178);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(8.312973, 10.000000, 6.488632);
+	Name("CP5CONCAPTURE");
+}
+
+Region("CP1CONCONTROL", 0)
+{
+	Layer(7);
+	Position(115.768822, 7.932411, -176.654922);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(85.778053, 26.993746, 68.278061);
+	Name("CP1CONCONTROL");
+}
+
+Region("cp4concontrol", 0)
+{
+	Layer(7);
+	Position(61.926979, 7.139763, 96.431770);
+	Rotation(0.999205, 0.000000, -0.039873, 0.000000);
+	Size(41.028595, 19.211040, 23.502996);
+	Name("cp4concontrol");
+}
+
+Region("cp3concon", 0)
+{
+	Layer(7);
+	Position(230.455673, 10.624463, -30.671827);
+	Rotation(0.998236, 0.000000, -0.059752, 0.000000);
+	Size(10.000000, 10.000000, 10.000000);
+	Name("cp3concon");
+}
+
+Region("CP5SpawnRegion", 0)
+{
+	Position(88.938866, 34.423534, 207.954193);
+	Rotation(0.979113, 0.000000, -0.203480, 0.000000);
+	Size(21.907715, 2.171967, 28.816429);
+	Name("CP5SpawnRegion");
+}

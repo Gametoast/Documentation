@@ -1,0 +1,25 @@
+[GameObjectClass]
+ClassLabel			= "flag"
+GeometryName		= "yav_icon_bomb.msh"
+
+[Properties]
+Lighting			= "Dynamic"
+
+IconTexture			= ""
+MapTexture			= ""
+MapScale			= ""
+
+GeometryName			= "yav_icon_bomb"
+CarriedGeometryName 		= "yav_icon_bomb_carried"
+SoldierAttachBone 		= "bone_l_thigh"
+
+PickupSound			= "health_recharge defer"
+DropSound			= ""
+AmbientSound			= ""
+
+LifeSpan			= 50.0
+
+LightODF			= "flaglight"
+
+[InstanceProperties]
+

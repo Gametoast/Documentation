@@ -1,0 +1,227 @@
+Version(1);
+RegionCount(25);
+
+Region("EmbassyCapture", 2)
+{
+	Layer(6);
+	Position(119.120132, 11.700291, 24.960985);
+	Rotation(0.992343, -0.001978, 0.123336, -0.008384);
+	Size(3.664304, 14.471819, 8.450932);
+	Name("EmbassyCapture");
+}
+
+Region("PlazaControl", 0)
+{
+	Layer(6);
+	Position(-128.949036, 12.243259, 10.524719);
+	Rotation(0.961292, 0.000000, -0.275609, 0.000000);
+	Size(43.988556, 12.170541, 34.025780);
+	Name("Region 1");
+}
+
+Region("InsertionControl", 2)
+{
+	Layer(6);
+	Position(-0.052094, 12.343636, 95.303467);
+	Rotation(1.000002, 0.000000, 0.000000, 0.000000);
+	Size(14.413910, 10.000000, 19.749184);
+	Name("Region 2");
+}
+
+Region("PlazaCapture", 2)
+{
+	Layer(6);
+	Position(-103.971603, 9.485006, 67.986191);
+	Rotation(0.991939, 0.000000, -0.126771, 0.000000);
+	Size(5.590134, 5.692703, 2.869558);
+	Name("Region 4");
+}
+
+Region("EmbassyControl", 0)
+{
+	Layer(6);
+	Position(125.921509, 2.441734, 20.238077);
+	Rotation(1.000002, 0.000000, 0.000000, 0.000000);
+	Size(32.453438, 10.000000, 34.367279);
+	Name("Region 5");
+}
+
+Region("PalaceControl", 0)
+{
+	Layer(6);
+	Position(-0.541416, 4.554498, -77.062683);
+	Rotation(1.000002, 0.000000, 0.000000, 0.000000);
+	Size(30.632065, 10.000000, 30.087357);
+	Name("Region 7");
+}
+
+Region("water", 0)
+{
+	Layer(6);
+	Position(-2.427292, -9.367059, 108.207191);
+	Rotation(1.000002, 0.000000, 0.000000, 0.000000);
+	Size(166.848373, 10.000000, 118.883545);
+	Name("Region 8");
+}
+
+Region("waterfall", 0)
+{
+	Layer(6);
+	Position(10.438709, 19.201221, 214.585327);
+	Rotation(1.000002, 0.000000, 0.000000, 0.000000);
+	Size(134.501846, 10.000000, 18.644318);
+	Name("Region 9");
+}
+
+Region("OfficeControl", 0)
+{
+	Layer(6);
+	Position(-71.782196, 11.416967, -94.555855);
+	Rotation(1.000002, 0.000000, 0.000000, 0.000000);
+	Size(10.000000, 10.000000, 10.000000);
+	Name("Region 10");
+}
+
+Region("guardcontrol", 0)
+{
+	Layer(6);
+	Position(31.921227, 4.601838, -100.590225);
+	Rotation(1.000023, 0.000000, 0.000021, 0.000000);
+	Size(129.640457, 12.725052, 15.443349);
+	Name("guardcontrol");
+}
+
+Region("GuardPostCapture", 0)
+{
+	Layer(6);
+	Position(87.911652, 8.762357, -69.612999);
+	Rotation(1.000002, 0.000000, 0.000000, 0.000000);
+	Size(15.674850, 6.311043, 12.719788);
+	Name("Region 12");
+}
+
+Region("OfficeCapture", 0)
+{
+	Layer(6);
+	Position(-72.152473, 18.364555, -112.546303);
+	Rotation(1.000002, 0.000000, 0.000000, 0.000000);
+	Size(16.302612, 3.285849, 7.906128);
+	Name("Region 13");
+}
+
+Region("ambush_trigger_plaza", 2)
+{
+	Layer(6);
+	Position(-105.089722, 10.653328, 67.491837);
+	Rotation(0.990273, 0.000000, -0.139213, 0.000000);
+	Size(7.552529, 6.961064, 19.925200);
+	Name("ambush_trigger_plaza");
+}
+
+Region("ambush_trigger_uppereast", 2)
+{
+	Layer(6);
+	Position(-74.411728, 12.013739, 20.267139);
+	Rotation(0.866075, -0.004984, 0.499832, -0.008294);
+	Size(3.074879, 4.920244, 21.718857);
+	Name("ambush_trigger_uppereast");
+}
+
+Region("ambush_trigger_embassy", 2)
+{
+	Layer(6);
+	Position(106.833557, 12.641837, 67.025139);
+	Rotation(0.993129, 0.000000, 0.117153, 0.000000);
+	Size(7.225739, 4.880831, 20.146851);
+	Name("ambush_trigger_embassy");
+}
+
+Region("ambush_trigger_upperwest", 2)
+{
+	Layer(6);
+	Position(87.925117, 12.595991, 28.864401);
+	Rotation(0.970386, 0.000000, 0.241650, 0.000000);
+	Size(0.100000, 5.059036, 42.655838);
+	Name("ambush_trigger_upperwest");
+}
+
+Region("cp_trigger_right", 0)
+{
+	Layer(6);
+	Position(-150.631714, 18.724638, -1.499598);
+	Rotation(0.849775, 0.000000, -0.527179, 0.000000);
+	Size(25.006821, 24.808023, 52.943329);
+	Name("cp_trigger_right");
+}
+
+Region("cp_trigger_left", 0)
+{
+	Layer(6);
+	Position(135.704620, 28.562824, -15.712986);
+	Rotation(0.985728, 0.000000, -0.168410, 0.000000);
+	Size(41.029243, 23.276129, 24.527912);
+	Name("cp_trigger_left");
+}
+
+Region("cp_trigger_center", 0)
+{
+	Layer(6);
+	Position(-0.195088, 22.516560, -61.911541);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(38.185703, 19.674389, 18.640434);
+	Name("cp_trigger_center");
+}
+
+Region("ambush_trigger_centerleft", 2)
+{
+	Layer(6);
+	Position(27.783525, 11.586237, -13.298304);
+	Rotation(0.991860, 0.000000, -0.127726, 0.000000);
+	Size(6.682268, 6.379659, 24.470322);
+	Name("ambush_trigger_centerleft");
+}
+
+Region("ambush_trigger_centerright", 2)
+{
+	Layer(6);
+	Position(-29.157278, 7.013542, -14.330395);
+	Rotation(0.990254, 0.000000, 0.139433, 0.000000);
+	Size(6.452787, 10.000000, 26.397209);
+	Name("ambush_trigger_centerright");
+}
+
+Region("distraction", 2)
+{
+	Layer(6);
+	Position(0.252368, 53.992188, -51.127857);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(10.000000, 10.000000, 10.000000);
+	Name("distraction");
+}
+
+Region("plaza1cap", 2)
+{
+	Layer(6);
+	Position(-120.106293, 12.923010, -19.030151);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(10.000000, 10.000000, 10.000000);
+	Name("plaza1cap");
+}
+
+Region("plazatrigger", 0)
+{
+	Layer(6);
+	Position(83.007996, 20.968342, 1.914854);
+	Rotation(0.971322, 0.000000, -0.237769, 0.000000);
+	Size(29.650040, 18.656895, 166.154480);
+	Name("plazatrigger");
+}
+
+Region("turrettalk", 0)
+{
+	Layer(6);
+	Position(-0.115704, 26.382555, -54.270958);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(25.206932, 24.205750, 84.674706);
+	Name("turrettalk");
+}

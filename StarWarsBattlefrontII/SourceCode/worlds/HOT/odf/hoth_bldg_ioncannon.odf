@@ -1,0 +1,39 @@
+[GameObjectClass]
+ClassLabel = "armedbuilding"
+GeometryName = "hoth_bldg_ioncannon.msh"
+
+[Properties]
+BUILDINGSECTION = "BODY"
+Label = "Ion Cannon"
+GeometryName = "hoth_bldg_ioncannon"
+
+
+BUILDINGSECTION = "TURRET1"
+
+//TurretNodeName = "turret_x"
+Controllable = "0"
+AutoFire = "1"
+
+//PCMaxTurnSpeed	= "20.0"
+//PCMaxPitchSpeed	= "20.0"
+
+
+TURRETSECTION = "TURRET1"
+
+WeaponName = "hoth_weap_bldg_ioncannon"
+AimerNodeName = "cannon_base"
+AimerPitchLimits = "0.0 0.0"
+AimerYawLimits = "0.0 0.0"
+MaxTurnSpeed = "0.0"
+MaxPitchSpeed = "0.0"
+//PCMaxTurnSpeed	= "20.0"
+//PCMaxPitchSpeed	= "20.0"
+
+
+BarrelNodeName = "barrel"
+BarrelLength = "12.0"
+
+FirePointName = "hp_fire"
+
+FoleyFXGroup  = "metal_foley"
+

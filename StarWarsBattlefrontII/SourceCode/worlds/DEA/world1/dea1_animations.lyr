@@ -1,0 +1,126 @@
+Version(3);
+SaveType(0);
+
+Camera("camera")
+{
+	Rotation(0.743, 0.240, -0.595, 0.192);
+	Position(-114.471, 70.493, 61.167);
+	FieldOfView(55.400);
+	NearPlane(1.000);
+	FarPlane(5000.000);
+	ZoomFactor(1.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(-152.774, 79.858, 25.642,  0.295, 0.249, -0.705, 0.595);
+}
+LightName("dea1_animations.LGT");
+ControllerManager("StandardCtrlMgr");
+
+WorldExtents()
+{
+	Min(0.000000, 0.000000, 0.000000);
+	Max(0.000000, 0.000000, 0.000000);
+}
+
+NextSequence(-3705784);
+
+Object("bridge1", "dea1_prop_bridge_part1", 661889329)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-129.004, 50.002, 68.003);
+	SeqNo(661889329);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("TakBridgeRight", "dea1_prop_open_bridge", 1180452259)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-173.990, 52.000, 202.469);
+	SeqNo(1180452259);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("bridge2", "dea1_prop_bridge_part2", 1401009570)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-128.999, 49.999, 67.997);
+	SeqNo(1401009570);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("dea1_prop_bridge_base", "dea1_prop_bridge_base", 1848802150)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-129.012, 50.041, 67.979);
+	SeqNo(1848802150);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("TakBridgeLeft", "dea1_prop_open_bridge", 2085189266)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(-168.986, 52.004, 203.204);
+	SeqNo(2085189266);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("Panel-Chasm", "dea1_prop_panel", -1938882326)
+{
+	ChildRotation(0.260, 0.000, -0.966, 0.000);
+	ChildPosition(-122.568, 49.751, 76.181);
+	SeqNo(-1938882326);
+	Team(0);
+	NetworkId(-1);
+	Label("Panel-Chasm");
+	Layer(2);
+}
+
+Object("Panel-Tak", "dea1_prop_panel", -1904012042)
+{
+	ChildRotation(0.708, 0.000, -0.706, 0.000);
+	ChildPosition(-169.089, 52.000, 194.615);
+	SeqNo(-1904012042);
+	Team(0);
+	NetworkId(-1);
+	Label("Panel-Tak");
+	Layer(2);
+}
+
+Object("Panel-Tak2", "dea1_prop_panel", -1851652820)
+{
+	ChildRotation(0.501, -0.498, -0.507, -0.494);
+	ChildPosition(-168.960, 52.045, 211.202);
+	SeqNo(-1851652820);
+	Team(0);
+	NetworkId(-1);
+	Label("Panel-Tak");
+	Layer(2);
+}
+
+Object("Panel-trash", "dea1_prop_panel", -1214794547)
+{
+	ChildRotation(0.708, 0.000, 0.706, 0.000);
+	ChildPosition(-131.907, 41.573, 210.566);
+	SeqNo(-1214794547);
+	Team(0);
+	NetworkId(-1);
+	Label("Panel-trash");
+	Layer(2);
+}

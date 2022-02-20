@@ -1,0 +1,23 @@
+[GameObjectClass]		
+
+ClassLabel		=	"Grasspatch"
+GeometryName	=	"editor_grasspatch.msh"
+
+
+[Properties]		
+
+MinSize = "0.9"
+MaxSize = "1.4"
+Offset = "0.0 -0.1 0.0"
+Alpha = "0.9"
+NumParticles = "10"
+MaxDistance = "24"
+Texture = "fel1_prop_foliages_ab"
+NumParts = "1"
+RadiusFadeMin = "3.0"
+RadiusFadeMax = "6.0"
+
+DarknessMin = "0.3"
+DarknessMax = "0.5"
+
+MaxScatterBirds = "4"

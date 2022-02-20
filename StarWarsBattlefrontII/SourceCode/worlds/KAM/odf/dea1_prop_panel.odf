@@ -1,0 +1,33 @@
+[GameObjectClass]       
+
+ClassLabel		= "destructablebuilding"
+GeometryName    	= "dea1_prop_panel.msh"
+
+
+[Properties]        
+
+GeometryName    =   "dea1_prop_panel"
+DestroyedGeometryName   = "dea1_prop_panel_dest"
+ExplosionName       = "com_inf_rechargedroid_exp"
+MaxHealth       = 50	
+CurHealth	    = 50
+
+
+--1
+
+DamageStartPercent      = 99
+DamageStopPercent           = 75
+DamageEffect            = "com_sfx_vehiclesmoke"
+DamageEffectScale           = 2
+DamageInheritVelocity       = 0.0
+DamageAttachPoint           = "hp_panel"
+
+DamageStartPercent      = 74
+DamageStopPercent           = 0
+DamageEffect            = "com_sfx_vehiclespark"
+DamageEffectScale           = 3.5
+DamageInheritVelocity       = 0.0
+DamageAttachPoint           = "hp_panel"
+--1
+
+BuildingSound    = "control_panel_b"

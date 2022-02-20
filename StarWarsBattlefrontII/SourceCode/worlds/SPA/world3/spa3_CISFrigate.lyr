@@ -1,0 +1,97 @@
+Version(3);
+SaveType(0);
+
+Camera("camera")
+{
+	Rotation(0.999, 0.018, -0.026, 0.000);
+	Position(449.180, 67.056, -1820.871);
+	FieldOfView(55.400);
+	NearPlane(1.000);
+	FarPlane(5000.000);
+	ZoomFactor(1.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(311.798, 193.000, -985.990,  0.354, 0.146, -0.854, 0.354);
+}
+LightName("spa3_CISFrigate.LGT");
+ControllerManager("StandardCtrlMgr");
+
+WorldExtents()
+{
+	Min(0.000000, 0.000000, 0.000000);
+	Max(0.000000, 0.000000, 0.000000);
+}
+
+NextSequence(-1726375);
+
+Object("cis_obj04", "cis_bldg_boxturret", 617802397)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(37.000, 215.590, -810.000);
+	SeqNo(617802397);
+	Team(2);
+	NetworkId(-1);
+	Label("cis_obj04");
+	Layer(16);
+}
+
+Object("cis_obj05", "cis_bldg_boxturret", 678848818)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(39.000, 164.823, -317.000);
+	SeqNo(678848818);
+	Team(2);
+	NetworkId(-1);
+	Layer(16);
+}
+
+Object("cis_obj01", "cis_bldg_boxturret", 1957359559)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(40.000, 160.593, -176.000);
+	SeqNo(1957359559);
+	Team(2);
+	NetworkId(-1);
+	Label("cis_obj01");
+	Layer(16);
+}
+
+Object("cis_obj02", "cis_bldg_boxturret", -1460699267)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(37.000, 215.578, -977.000);
+	SeqNo(-1460699267);
+	Team(2);
+	NetworkId(-1);
+	Label("cis_obj02");
+	Layer(16);
+}
+
+Object("CIS_mini01", "spa2_prop_minifedcruiser", -232543661)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(299.000, -164.000, -279.000);
+	SeqNo(-232543661);
+	Team(2);
+	NetworkId(-1);
+	Label("CIS_mini01");
+	Layer(16);
+}
+
+Object("cis_obj03", "cis_bldg_boxturret", -104996061)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(37.000, 215.576, -887.000);
+	SeqNo(-104996061);
+	Team(2);
+	NetworkId(-1);
+	Label("cis_obj03");
+	Layer(16);
+}

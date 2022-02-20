@@ -1,0 +1,473 @@
+Version(3);
+SaveType(0);
+
+Camera("camera")
+{
+	Rotation(0.072, 0.012, -0.985, 0.158);
+	Position(89.764, 175.597, -382.350);
+	FieldOfView(55.400);
+	NearPlane(1.000);
+	FarPlane(5000.000);
+	ZoomFactor(1.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(1417.499, -4.862, -766.937,  0.350, 0.090, -0.903, 0.232);
+}
+LightName("spa3_HangarWars.LGT");
+ControllerManager("StandardCtrlMgr");
+
+WorldExtents()
+{
+	Min(0.000000, 0.000000, 0.000000);
+	Max(0.000000, 0.000000, 0.000000);
+}
+
+NextSequence(-1726375);
+
+Object("Engine1", "cis_fedcruiser_destruct1", 112235547)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(88.349, 98.126, -1267.669);
+	SeqNo(112235547);
+	Team(2);
+	NetworkId(-1);
+	Label("Engine1");
+	Layer(6);
+}
+
+Object("rep_turrchair2", "spa_veh_turret_chair", 186932327)
+{
+	ChildRotation(0.827, 0.000, -0.562, 0.000);
+	ChildPosition(1378.778, -79.653, -532.613);
+	SeqNo(186932327);
+	Team(0);
+	NetworkId(-1);
+	Label("rep_turrchair2");
+	Layer(6);
+	RemoteGameObject("REP_gun02");
+	NextLinkedTerminal("rep_turrchair3");
+	PrevLinkedTerminal("rep_turrchair1");
+}
+
+Object("REP_gun02", "tur_bldg_spa_rep_beam", 280558342)
+{
+	ChildRotation(0.710, 0.000, -0.704, 0.000);
+	ChildPosition(1398.402, -51.051, -1115.666);
+	SeqNo(280558342);
+	Team(0);
+	NetworkId(-1);
+	Label("REP_gun02");
+	Layer(6);
+}
+
+Object("rep_assultship_destruct_sensorprop", "rep_assultship_destruct_sensorprop", 317841560)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(1395.537, 54.723, -338.017);
+	SeqNo(317841560);
+	Team(0);
+	NetworkId(-1);
+	Layer(6);
+}
+
+Object("rep_turrchair1", "spa_veh_turret_chair", 454608545)
+{
+	ChildRotation(0.915, 0.000, 0.404, 0.000);
+	ChildPosition(1363.016, -79.653, -535.372);
+	SeqNo(454608545);
+	Team(0);
+	NetworkId(-1);
+	Label("rep_turrchair1");
+	Layer(6);
+	RemoteGameObject("REP_gun01");
+	NextLinkedTerminal("rep_turrchair2");
+	PrevLinkedTerminal("rep_turrchair6");
+}
+
+Object("sensors_rep", "rep_assultship_destruct_sensorrly", 586051244)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(1395.546, 54.746, -338.000);
+	SeqNo(586051244);
+	Team(1);
+	NetworkId(-1);
+	Label("sensors_rep");
+	Layer(6);
+}
+
+Object("rep_turrchair4", "spa_veh_turret_chair", 602281207)
+{
+	ChildRotation(0.352, 0.000, -0.936, 0.000);
+	ChildPosition(1376.339, -79.653, -521.981);
+	SeqNo(602281207);
+	Team(0);
+	NetworkId(-1);
+	Label("rep_turrchair4");
+	Layer(6);
+	RemoteGameObject("REP_gun04");
+	NextLinkedTerminal("rep_turrchair5");
+	PrevLinkedTerminal("rep_turrchair3");
+}
+
+Object("CIS_turrchair5", "spa_veh_turret_chair", 610629215)
+{
+	ChildRotation(0.710, 0.000, -0.704, 0.000);
+	ChildPosition(44.776, 105.921, -826.155);
+	SeqNo(610629215);
+	Team(0);
+	NetworkId(-1);
+	Label("CIS_turrchair5");
+	Layer(6);
+	RemoteGameObject("CIS_Gun5");
+	NextLinkedTerminal("CIS_turrchair6");
+	PrevLinkedTerminal("CIS_turrchair4");
+}
+
+Object("bridge_rep", "rep_assultship_destruct_towers", 625010998)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(1397.000, 93.940, -408.000);
+	SeqNo(625010998);
+	Team(1);
+	NetworkId(-1);
+	Label("bridge_rep");
+	Layer(6);
+}
+
+Object("rep_turrchair6", "spa_veh_turret_chair", 773090248)
+{
+	ChildRotation(-0.115, 0.000, -0.993, 0.000);
+	ChildPosition(1367.573, -79.712, -520.103);
+	SeqNo(773090248);
+	Team(0);
+	NetworkId(-1);
+	Label("rep_turrchair6");
+	Layer(6);
+	RemoteGameObject("REP_gun06");
+	NextLinkedTerminal("rep_turrchair1");
+	PrevLinkedTerminal("rep_turrchair5");
+}
+
+Object("rep_turrchair5", "spa_veh_turret_chair", 1033323699)
+{
+	ChildRotation(0.995, 0.000, -0.099, 0.000);
+	ChildPosition(1371.721, -79.653, -538.957);
+	SeqNo(1033323699);
+	Team(0);
+	NetworkId(-1);
+	Label("rep_turrchair5");
+	Layer(6);
+	RemoteGameObject("REP_gun05");
+	NextLinkedTerminal("rep_turrchair6");
+	PrevLinkedTerminal("rep_turrchair4");
+}
+
+Object("CIS_turrchair3", "spa_veh_turret_chair", 1226821939)
+{
+	ChildRotation(0.932, 0.000, 0.362, 0.000);
+	ChildPosition(29.271, 105.928, -833.542);
+	SeqNo(1226821939);
+	Team(0);
+	NetworkId(-1);
+	Label("CIS_turrchair3");
+	Layer(6);
+	RemoteGameObject("CIS_Gun3");
+	NextLinkedTerminal("CIS_turrchair4");
+	PrevLinkedTerminal("CIS_turrchair2");
+}
+
+Object("CIS_turrchair6", "spa_veh_turret_chair", 1261312560)
+{
+	ChildRotation(0.710, 0.000, 0.704, 0.000);
+	ChildPosition(25.828, 105.902, -825.447);
+	SeqNo(1261312560);
+	Team(0);
+	NetworkId(-1);
+	Label("CIS_turrchair6");
+	Layer(6);
+	RemoteGameObject("CIS_Gun6");
+	NextLinkedTerminal("CIS_turrchair1");
+	PrevLinkedTerminal("CIS_turrchair5");
+}
+
+Object("REP_gun04", "tur_bldg_spa_rep_beam", 1285098498)
+{
+	ChildRotation(0.711, 0.000, -0.703, 0.000);
+	ChildPosition(1398.402, -28.846, -790.820);
+	SeqNo(1285098498);
+	Team(0);
+	NetworkId(-1);
+	Label("REP_gun04");
+	Layer(6);
+}
+
+Object("life_ext_rep", "rep_assultship_destruct_lifesupport", 1539318599)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(1398.138, -101.248, -1078.000);
+	SeqNo(1539318599);
+	Team(1);
+	NetworkId(-1);
+	Label("life_ext_rep");
+	Layer(6);
+}
+
+Object("bridge_cis", "cis_fedcruiser_destruct4", 1783123108)
+{
+	ChildRotation(0.001, 0.000, -1.000, 0.000);
+	ChildPosition(39.175, 198.780, -729.637);
+	SeqNo(1783123108);
+	Team(2);
+	NetworkId(-1);
+	Label("bridge_cis");
+	Layer(6);
+}
+
+Object("cis_fedcruiser_destruct_sensorprop", "cis_fedcruiser_destruct_sensorprop", 1863994178)
+{
+	ChildRotation(0.704, -0.710, 0.000, 0.000);
+	ChildPosition(40.000, 193.041, -1249.607);
+	SeqNo(1863994178);
+	Team(0);
+	NetworkId(-1);
+	Layer(6);
+}
+
+Object("comms_cis", "spa2_prop_antenna_destruct", 1899719323)
+{
+	ChildRotation(0.001, 0.000, -1.000, 0.000);
+	ChildPosition(39.175, 161.585, -480.715);
+	SeqNo(1899719323);
+	Team(2);
+	NetworkId(-1);
+	Label("comms_cis");
+	Layer(6);
+}
+
+Object("Engine3", "rep_assultship_destruct_engines", -2116802990)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(1398.100, -83.664, -667.298);
+	SeqNo(-2116802990);
+	Team(1);
+	NetworkId(-1);
+	Label("Engine3");
+	Layer(6);
+}
+
+Object("REP_gun01", "tur_bldg_spa_rep_chaingun", -1833406605)
+{
+	ChildRotation(0.709, 0.000, -0.705, 0.000);
+	ChildPosition(1398.402, -60.165, -1237.010);
+	SeqNo(-1833406605);
+	Team(0);
+	NetworkId(-1);
+	Label("REP_gun01");
+	Layer(6);
+}
+
+Object("CIS_Gun5", "tur_bldg_spa_cis_chaingun", -1810357586)
+{
+	ChildRotation(0.713, 0.000, 0.701, 0.000);
+	ChildPosition(79.934, 163.349, -413.378);
+	SeqNo(-1810357586);
+	Team(0);
+	NetworkId(-1);
+	Label("CIS_Gun5");
+	Layer(6);
+}
+
+Object("CIS_Gun4", "tur_bldg_spa_cis_recoilless", -1669653103)
+{
+	ChildRotation(0.712, 0.000, 0.702, 0.000);
+	ChildPosition(76.469, 160.395, -583.418);
+	SeqNo(-1669653103);
+	Team(0);
+	NetworkId(-1);
+	Label("CIS_Gun4");
+	Layer(6);
+}
+
+Object("comms_rep", "rep_assultship_destruct_commarray", -1544821873)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(1396.000, -18.000, -639.000);
+	SeqNo(-1544821873);
+	Team(1);
+	NetworkId(-1);
+	Label("comms_rep");
+	Layer(6);
+}
+
+Object("CIS_turrchair2", "spa_veh_turret_chair", -1332371326)
+{
+	ChildRotation(0.349, 0.000, -0.937, 0.000);
+	ChildPosition(40.246, 105.909, -818.011);
+	SeqNo(-1332371326);
+	Team(0);
+	NetworkId(-1);
+	Label("CIS_turrchair2");
+	Layer(6);
+	RemoteGameObject("CIS_Gun2");
+	NextLinkedTerminal("CIS_turrchair3");
+	PrevLinkedTerminal("CIS_turrchair1");
+}
+
+Object("life_ext_cis", "cis_fedcruiser_destruct_lifesupport", -1253846364)
+{
+	ChildRotation(1.000, -0.030, 0.000, 0.000);
+	ChildPosition(40.542, 16.324, -150.556);
+	SeqNo(-1253846364);
+	Team(2);
+	NetworkId(-1);
+	Label("life_ext_cis");
+	Layer(6);
+}
+
+Object("REP_gun03", "tur_bldg_spa_rep_beam", -1126565776)
+{
+	ChildRotation(0.710, 0.000, -0.704, 0.000);
+	ChildPosition(1398.402, -40.474, -972.485);
+	SeqNo(-1126565776);
+	Team(0);
+	NetworkId(-1);
+	Label("REP_gun03");
+	Layer(6);
+}
+
+Object("CIS_turrchair4", "spa_veh_turret_chair", -1097461982)
+{
+	ChildRotation(-0.236, 0.000, -0.972, 0.000);
+	ChildPosition(29.792, 105.962, -817.336);
+	SeqNo(-1097461982);
+	Team(0);
+	NetworkId(-1);
+	Label("CIS_turrchair4");
+	Layer(6);
+	RemoteGameObject("CIS_Gun4");
+	NextLinkedTerminal("CIS_turrchair5");
+	PrevLinkedTerminal("CIS_turrchair3");
+}
+
+Object("sensors_cis", "cis_fedcruiser_destruct_sensorrly", -1081567877)
+{
+	ChildRotation(0.704, -0.710, 0.000, 0.000);
+	ChildPosition(40.000, 193.041, -1249.607);
+	SeqNo(-1081567877);
+	Team(2);
+	NetworkId(-1);
+	Label("sensors_cis");
+	Layer(6);
+}
+
+Object("CIS_Gun3", "tur_bldg_spa_cis_recoilless", -1081417036)
+{
+	ChildRotation(0.711, 0.000, 0.703, 0.000);
+	ChildPosition(72.960, 215.263, -817.118);
+	SeqNo(-1081417036);
+	Team(0);
+	NetworkId(-1);
+	Label("CIS_Gun3");
+	Layer(6);
+}
+
+Object("REP_gun05", "tur_bldg_spa_rep_chaingun", -1013789344)
+{
+	ChildRotation(0.715, 0.000, -0.699, 0.000);
+	ChildPosition(1282.360, -41.018, -611.610);
+	SeqNo(-1013789344);
+	Team(0);
+	NetworkId(-1);
+	Label("REP_gun05");
+	Layer(6);
+}
+
+Object("CIS_Gun1", "tur_bldg_spa_cis_chaingun", -818950058)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(38.598, 412.267, -1172.330);
+	SeqNo(-818950058);
+	Team(0);
+	NetworkId(-1);
+	Label("CIS_Gun1");
+	Layer(6);
+}
+
+Object("CIS_Gun6", "tur_bldg_spa_cis_chaingun", -739797585)
+{
+	ChildRotation(0.709, 0.000, 0.706, 0.000);
+	ChildPosition(39.865, 161.746, -198.761);
+	SeqNo(-739797585);
+	Team(0);
+	NetworkId(-1);
+	Label("CIS_Gun6");
+	Layer(6);
+}
+
+Object("CIS_Gun2", "tur_bldg_spa_cis_recoilless", -711022073)
+{
+	ChildRotation(0.712, 0.000, 0.703, 0.000);
+	ChildPosition(38.976, 214.965, -1007.555);
+	SeqNo(-711022073);
+	Team(0);
+	NetworkId(-1);
+	Label("CIS_Gun2");
+	Layer(6);
+}
+
+Object("Engine2", "cis_fedcruiser_destruct2", -630874653)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(-11.014, 98.018, -1268.462);
+	SeqNo(-630874653);
+	Team(2);
+	NetworkId(-1);
+	Label("Engine2");
+	Layer(6);
+}
+
+Object("rep_turrchair3", "spa_veh_turret_chair", -533633551)
+{
+	ChildRotation(0.553, 0.000, 0.833, 0.000);
+	ChildPosition(1360.877, -79.653, -526.230);
+	SeqNo(-533633551);
+	Team(0);
+	NetworkId(-1);
+	Label("rep_turrchair3");
+	Layer(6);
+	RemoteGameObject("REP_gun03");
+	NextLinkedTerminal("rep_turrchair4");
+	PrevLinkedTerminal("rep_turrchair2");
+}
+
+Object("REP_gun06", "tur_bldg_spa_rep_chaingun", -400562619)
+{
+	ChildRotation(0.713, 0.000, -0.701, 0.000);
+	ChildPosition(1264.659, -38.704, -500.818);
+	SeqNo(-400562619);
+	Team(0);
+	NetworkId(-1);
+	Label("REP_gun06");
+	Layer(6);
+}
+
+Object("CIS_turrchair1", "spa_veh_turret_chair", -96758673)
+{
+	ChildRotation(0.937, 0.000, -0.350, 0.000);
+	ChildPosition(40.147, 105.962, -833.426);
+	SeqNo(-96758673);
+	Team(0);
+	NetworkId(-1);
+	Label("CIS_turrchair1");
+	Layer(6);
+	RemoteGameObject("CIS_Gun1");
+	NextLinkedTerminal("CIS_turrchair2");
+	PrevLinkedTerminal("CIS_turrchair6");
+}

@@ -1,0 +1,95 @@
+Version(1);
+NextID(1);
+
+Layer("[Base]", 0, 8)
+{
+	Description("");
+}
+
+Layer("Design", 1, 0)
+{
+	Description("");
+}
+
+Layer("SoundRegions", 2, 0)
+{
+	Description("");
+}
+
+Layer("Collision", 3, 0)
+{
+	Description("");
+}
+
+Layer("CTF", 4, 0)
+{
+	Description("");
+}
+
+Layer("1flag", 6, 0)
+{
+	Description("");
+}
+
+Layer("con", 5, 0)
+{
+	Description("");
+}
+
+Layer("hunt", 7, 0)
+{
+	Description("");
+}
+
+Layer("turrets", 8, 0)
+{
+	Description("");
+}
+
+Layer("tdm", 9, 0)
+{
+	Description("");
+}
+
+
+GameMode("Common")
+{
+	Layer(0);
+	Layer(1);
+	Layer(2);
+	Layer(3);
+}
+
+GameMode("ctf")
+{
+	Layer(4);
+	Layer(8);
+}
+
+GameMode("1flag")
+{
+	Layer(6);
+	Layer(8);
+}
+
+GameMode("con")
+{
+	Layer(5);
+	Layer(8);
+}
+
+GameMode("hunt")
+{
+	Layer(7);
+}
+
+GameMode("hero1flag")
+{
+	Layer(6);
+}
+
+GameMode("tdm")
+{
+	Layer(9);
+}
+

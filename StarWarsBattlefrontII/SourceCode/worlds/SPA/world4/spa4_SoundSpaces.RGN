@@ -1,0 +1,29 @@
+Version(1);
+RegionCount(3);
+
+Region("Soundspace hangar", 0)
+{
+	Layer(10);
+	Position(-895.553345, -72.686172, 397.106354);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(44.121277, 25.309677, 67.396484);
+	Name("ImpHangar-SS");
+}
+
+Region("Soundspace commandroom", 0)
+{
+	Layer(10);
+	Position(-959.842773, -84.373848, 396.293365);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(21.070251, 7.675331, 20.438385);
+	Name("ImpCommandRoom-SS");
+}
+
+Region("Soundspace hangar", 0)
+{
+	Layer(10);
+	Position(-245.918259, -314.751099, 1822.939941);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(113.929558, 18.218094, 78.240601);
+	Name("CISHangar-SS");
+}

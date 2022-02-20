@@ -1,0 +1,131 @@
+[GameObjectClass]       
+
+ClassLabel      =   "destructablebuilding"
+GeometryName    =   "uta1_bldg_tower.msh"
+
+[Properties]        
+
+GeometryName    	= "uta1_bldg_tower"
+MaxHealth       	= "15000.0"
+ExplosionName           = "uta1_bldg_tower_destruct_exp"
+DestroyedGeometryName   = "uta1_bldg_tower_destroyed"
+
+//  DAMAGE STATES  =============================================================
+DamageStartPercent	= 85.0
+DamageStopPercent	= 70.0
+DamageEffect            = "uta_bldg_tower_damage1"
+DamageInheritVelocity	= 0.0
+DamageAttachPoint	= "hp_damage"
+
+DamageStartPercent	= 70.0
+DamageStopPercent	= 55.0
+DamageEffect            = "uta_bldg_tower_damage2"
+DamageInheritVelocity	= 0.0
+DamageAttachPoint	= "hp_damage"
+
+DamageStartPercent	= 55.0
+DamageStopPercent	= 40.0
+DamageEffect            = "uta_bldg_tower_damage3"
+DamageInheritVelocity	= 0.0
+DamageAttachPoint	= "hp_damage"
+
+DamageStartPercent	= 40.0
+DamageStopPercent	= 25.0
+DamageEffect            = "uta_bldg_tower_damage4"
+DamageInheritVelocity	= 0.0
+DamageAttachPoint	= "hp_damage"
+
+DamageStartPercent	= 25.0
+DamageStopPercent	= 10.0
+DamageEffect            = "uta_bldg_tower_damage5"
+DamageInheritVelocity	= 0.0
+DamageAttachPoint	= "hp_damage"
+
+DamageStartPercent	= 10.0
+DamageStopPercent	= 1.0
+DamageEffect            = "uta_bldg_tower_damage6"
+DamageInheritVelocity	= 0.0
+DamageAttachPoint	= "hp_damage"
+
+//  DESTROYED CHUNKS  ==========================================================
+CHUNKSECTION            = "CHUNK1"
+ChunkGeometryName       = "uta1_bldg_tower_destroyed_chunk1"
+ChunkNodeName           = ""
+ChunkTerrainCollisions      = "3"
+ChunkTerrainEffect      = "dirtspray"
+ChunkPhysics            = "FULL"
+ChunkOmega         	= "3.0 1.0 4.0"
+ChunkSpeed         	= "9.0"
+
+CHUNKSECTION            = "CHUNK2"
+ChunkGeometryName       = "uta1_bldg_tower_destroyed_chunk2"
+ChunkNodeName           = ""
+ChunkTerrainCollisions      = "3"
+ChunkTerrainEffect      = "dirtspray"
+ChunkPhysics            = "FULL"
+ChunkOmega         	= "3.0 1.0 4.0"
+ChunkSpeed         	= "9.0"
+
+CHUNKSECTION            = "CHUNK3"
+ChunkGeometryName       = "uta1_bldg_tower_destroyed_chunk3"
+ChunkNodeName           = ""
+ChunkTerrainCollisions      = "3"
+ChunkTerrainEffect      = "dirtspray"
+ChunkPhysics            = "FULL"
+ChunkOmega         	= "3.0 1.0 4.0"
+ChunkSpeed         	= "9.0"
+
+CHUNKSECTION            = "CHUNK4"
+ChunkGeometryName       = "uta1_bldg_tower_destroyed_chunk4"
+ChunkNodeName           = ""
+ChunkTerrainCollisions      = "3"
+ChunkTerrainEffect      = "dirtspray"
+ChunkPhysics            = "FULL"
+ChunkOmega         	= "3.0 1.0 4.0"
+ChunkSpeed         	= "9.0"
+
+CHUNKSECTION            = "CHUNK5"
+ChunkGeometryName       = "uta1_bldg_tower_destroyed_chunk5"
+ChunkNodeName           = ""
+ChunkTerrainCollisions      = "3"
+ChunkTerrainEffect      = "dirtspray"
+ChunkPhysics            = "FULL"
+ChunkOmega         	= "3.0 1.0 4.0"
+ChunkSpeed         	= "9.0"
+
+CHUNKSECTION            = "CHUNK6"
+ChunkGeometryName       = "uta1_bldg_tower_destroyed_chunk6"
+ChunkNodeName           = ""
+ChunkTerrainCollisions      = "3"
+ChunkTerrainEffect      = "dirtspray"
+ChunkPhysics            = "FULL"
+ChunkOmega         	= "3.0 1.0 4.0"
+ChunkSpeed         	= "9.0"
+
+CHUNKSECTION            = "CHUNK7"
+ChunkGeometryName       = "uta1_bldg_tower_destroyed_chunk7"
+ChunkNodeName           = ""
+ChunkTerrainCollisions      = "3"
+ChunkTerrainEffect      = "dirtspray"
+ChunkPhysics            = "FULL"
+ChunkOmega         	= "3.0 1.0 4.0"
+ChunkSpeed         	= "9.0"
+
+CHUNKSECTION            = "CHUNK8"
+ChunkGeometryName       = "uta1_bldg_tower_destroyed_chunk8"
+ChunkNodeName           = ""
+ChunkTerrainCollisions      = "3"
+ChunkTerrainEffect      = "dirtspray"
+ChunkPhysics            = "FULL"
+ChunkOmega         	= "3.0 1.0 4.0"
+ChunkSpeed         	= "9.0"
+
+
+AttachOdf = "uta1_bldg_tower_flicker"
+
+AttachToHardPoint = "hp_tower0"
+AttachToHardPoint = "hp_tower1"
+AttachToHardPoint = "hp_tower2"
+AttachToHardPoint = "hp_tower3"
+AttachToHardPoint = "hp_tower4"
+AttachToHardPoint = "hp_tower5"

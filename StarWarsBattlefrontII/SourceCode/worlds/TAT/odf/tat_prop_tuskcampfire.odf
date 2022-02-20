@@ -1,0 +1,20 @@
+[GameObjectClass]
+
+ClassLabel		=	"prop"
+GeometryName	=	"tat1_prop_tuskcampfire.msh"
+
+
+[Properties]
+
+GeometryName	=	"tat1_prop_tuskcampfire"
+
+
+AttachEffect = "torchflame"
+
+AttachToHardPoint = "hp_smoke"
+
+AttachOdf 		= "yellowlight_nocone"
+
+AttachToHardPoint 	= "hp_light_a"
+
+SoundProperty = "com_amb_fire"

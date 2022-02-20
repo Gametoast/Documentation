@@ -1,0 +1,98 @@
+SkyInfo()
+{
+	Enable(1);
+
+	PS2()
+	{
+		NearSceneRange(0.100000, 70.000000, 100.000000);
+		NearSplitScreenRange(0.100000, 50.000000, 60.000000);
+		FarSceneRange(3000.000000);
+	}
+	PC()
+	{
+		NearSceneRange(100.0, 150.0, 150.0, 200.0);
+		FarSceneRange(200.000000, 1000.0);
+	}
+	XBOX()
+	{
+		NearSceneRange(0.200000, 90.000000, 130.000000);
+		NearSplitScreenRange(0.200000, 70.000000, 100.000000);
+		FarSceneRange(3000.000000);
+	}
+}
+
+DomeInfo()
+{
+	Texture("SKY_Tatooine2.tga");
+	Angle(-90.000000);
+	Ambient(255.000000, 255.000000, 255.000000);
+	Filter(1);
+	Threshold(150);	
+	Intensity(50);	
+	TerrainColorDarkening();
+
+	Softness(1);
+	SoftnessParam(60);
+
+	XBOX()
+	{
+		TerrainBumpTexture("tat2_bump", 1.0);
+	}
+	PC()
+	{
+		TerrainBumpTexture("tat2_bump", 1.0);
+	}
+
+	DomeModel()
+	{	
+		Geometry("tat2_sky_dome");
+	}
+	
+	LowResTerrain()
+	{
+		Texture("tat2");
+		PatchResolution(4);
+		MaxDistance(3000);
+	}
+	
+}
+
+SkyObject()
+{
+	Geometry("rep_fly_assault_DOME");
+	NumObjects(2);
+	Height(350, 500);
+	VelocityZ(30, 50);
+	Distance(2500);
+	InDirectionFactor(2.5);
+}
+ 
+SkyObject()
+{
+	Geometry("cis_fly_fedlander_DOME");
+	NumObjects(2);
+	Height(350, 500);
+	VelocityZ(30, 50);
+	Distance(2500);
+	InDirectionFactor(2.5);
+}
+
+SkyObject()
+{
+	Geometry("all_fly_moncalamari_DOME");
+	NumObjects(2);
+	Height(350, 500);
+	VelocityZ(30, 50);
+	Distance(2500);
+	InDirectionFactor(2.5);
+}
+
+SkyObject()
+{
+	Geometry("imp_fly_destroyer_DOME");
+	NumObjects(2);
+	Height(350, 500);
+	VelocityZ(30, 50);
+	Distance(2500);
+	InDirectionFactor(2.5);
+}

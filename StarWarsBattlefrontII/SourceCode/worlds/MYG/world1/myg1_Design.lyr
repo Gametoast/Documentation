@@ -1,0 +1,183 @@
+Version(3);
+SaveType(0);
+
+Camera("camera")
+{
+	Rotation(0.933, 0.352, -0.066, 0.025);
+	Position(-69.366, 55.252, -191.732);
+	FieldOfView(55.400);
+	NearPlane(1.000);
+	FarPlane(1000.000);
+	ZoomFactor(1.000);
+	Bookmark(-83.834, 426.399, -92.195,  0.501, 0.492, -0.508, 0.499);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+}
+LightName("myg1_Design.LGT");
+ControllerManager("StandardCtrlMgr");
+
+WorldExtents()
+{
+	Min(0.000000, 0.000000, 0.000000);
+	Max(0.000000, 0.000000, 0.000000);
+}
+
+NextSequence(-1447548);
+
+Object("ammo8", "com_item_weaponrecharge", 23966101)
+{
+	ChildRotation(0.239, 0.000, -0.971, 0.000);
+	ChildPosition(-144.254, 0.042, 169.735);
+	SeqNo(23966101);
+	Team(0);
+	NetworkId(-1);
+	Label("ammo1");
+	Layer(1);
+	EffectRegion("");
+	Radius("5.0");
+}
+
+Object("com_item_healthrecharge2", "com_item_healthrecharge", 33566395)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-141.426, -0.051, 169.699);
+	SeqNo(33566395);
+	Team(0);
+	NetworkId(-1);
+	Layer(1);
+	EffectRegion("");
+	Radius("5.0");
+}
+
+Object("ammo9", "com_item_weaponrecharge", 447351599)
+{
+	ChildRotation(0.980, 0.000, -0.199, 0.000);
+	ChildPosition(-109.763, 0.000, -303.988);
+	SeqNo(447351599);
+	Team(0);
+	NetworkId(-1);
+	Label("ammo1");
+	Layer(1);
+	EffectRegion("");
+	Radius("5.0");
+}
+
+Object("ammo6", "com_item_weaponrecharge", 1415972234)
+{
+	ChildRotation(0.697, 0.000, 0.717, 0.000);
+	ChildPosition(-34.531, 4.009, 10.435);
+	SeqNo(1415972234);
+	Team(0);
+	NetworkId(-1);
+	Label("ammo1");
+	Layer(1);
+	EffectRegion("");
+	Radius("5.0");
+}
+
+Object("ammo5", "com_item_weaponrecharge", 2044916157)
+{
+	ChildRotation(0.746, 0.000, -0.666, 0.000);
+	ChildPosition(-89.407, -0.007, 27.660);
+	SeqNo(2044916157);
+	Team(0);
+	NetworkId(-1);
+	Label("ammo1");
+	Layer(1);
+	EffectRegion("");
+	Radius("5.0");
+}
+
+Object("ammo4", "com_item_weaponrecharge", -2066016877)
+{
+	ChildRotation(0.413, 0.000, -0.911, 0.000);
+	ChildPosition(-59.099, 5.011, -39.348);
+	SeqNo(-2066016877);
+	Team(0);
+	NetworkId(-1);
+	Label("ammo1");
+	Layer(1);
+	EffectRegion("");
+	Radius("5.0");
+}
+
+Object("com_item_healthrecharge1", "com_item_healthrecharge", -1539912978)
+{
+	ChildRotation(0.765, 0.000, -0.644, 0.000);
+	ChildPosition(-34.675, 3.995, 8.078);
+	SeqNo(-1539912978);
+	Team(0);
+	NetworkId(-1);
+	Layer(1);
+	EffectRegion("");
+	Radius("5.0");
+}
+
+Object("com_item_healthrecharge", "com_item_healthrecharge", -1328005880)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-60.342, 4.995, -37.070);
+	SeqNo(-1328005880);
+	Team(0);
+	NetworkId(-1);
+	Layer(1);
+	EffectRegion("");
+	Radius("5.0");
+}
+
+Object("ammo7", "com_item_weaponrecharge", -1125119926)
+{
+	ChildRotation(0.101, 0.000, -0.995, 0.000);
+	ChildPosition(-158.558, 0.994, -38.592);
+	SeqNo(-1125119926);
+	Team(0);
+	NetworkId(-1);
+	Label("ammo1");
+	Layer(1);
+	EffectRegion("");
+	Radius("5.0");
+}
+
+Object("ammo10", "com_item_weaponrecharge", -353579211)
+{
+	ChildRotation(-0.287, 0.000, -0.958, 0.000);
+	ChildPosition(-104.695, -0.001, -241.614);
+	SeqNo(-353579211);
+	Team(0);
+	NetworkId(-1);
+	Label("ammo1");
+	Layer(1);
+	EffectRegion("");
+	Radius("5.0");
+}
+
+Object("com_item_healthrecharge3", "com_item_healthrecharge", -194322630)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-106.495, -0.044, -243.737);
+	SeqNo(-194322630);
+	Team(0);
+	NetworkId(-1);
+	Layer(1);
+	EffectRegion("");
+	Radius("5.0");
+}
+
+Object("com_item_healthrecharge4", "com_item_healthrecharge", -75647253)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-153.152, 0.962, -21.313);
+	SeqNo(-75647253);
+	Team(0);
+	NetworkId(-1);
+	Layer(1);
+	EffectRegion("");
+	Radius("5.0");
+}

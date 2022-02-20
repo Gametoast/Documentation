@@ -1,0 +1,125 @@
+[GameObjectClass]		
+
+ClassLabel		=	"destructablebuilding"
+GeometryName	=	"rep_walk_atte_busted.msh"
+
+
+[Properties]		
+
+GeometryName	=	"rep_walk_atte_busted"
+
+//DestroyedGeometryName	= "com_item_weaponrecharge_dst"
+ExplosionName		= "rep_walk_atte_exp"
+MaxHealth	=	10
+
+FoleyFXGroup    = "metal_foley"
+
+DamageStartPercent      = 60.0
+DamageStopPercent       = 30.0
+DamageEffect            = "com_sfx_vehiclespark"
+DamageAttachPoint       = "hp_damage_3"
+
+DamageStartPercent      = 40.0
+DamageStopPercent       = 20.0
+DamageEffect            = "com_sfx_vehiclesmoke"
+DamageEffectScale       = 2.0
+DamageInheritVelocity       = 0.0
+DamageAttachPoint       = "hp_damage_1"
+
+DamageStartPercent      = 19.0
+DamageStopPercent       = 0.1
+DamageEffect            = "com_sfx_vehicleflame"
+DamageEffectScale       = 2.0
+DamageInheritVelocity       = 0.0
+DamageAttachPoint       = "hp_damage_1"
+
+DamageStartPercent      = 40.0
+DamageStopPercent       = 20.0
+DamageEffect            = "com_sfx_vehiclesmoke"
+DamageEffectScale       = 2.5
+DamageInheritVelocity       = 0.0
+DamageAttachPoint       = "hp_damage_2"
+
+DamageStartPercent      = 19.0
+DamageStopPercent       = 0.1
+DamageEffect            = "com_sfx_vehicleflame"
+DamageEffectScale       = 2.5
+DamageInheritVelocity       = 0.0
+DamageAttachPoint       = "hp_damage_2"
+
+CHUNKSECTION        = "CHUNK1"
+ChunkGeometryName   = "rep_walk_atte_chunk1"
+ChunkNodeName       = ""
+ChunkTerrainCollisions  = "0"
+ChunkTerrainEffect  = "com_sfx_explosion_lg"
+ChunkPhysics        = "FULL"
+ChunkOmega      = "1.0 4.0 0.5"
+ChunkBounciness     = 0.45
+ChunkStickiness     = 0.25
+ChunkSpeed      = "11.0"
+ChunkUpFactor       = "14.00"
+ChunkTrailEffect    = "com_sfx_chunktrail_sm"
+
+CHUNKSECTION        = "CHUNK2"
+ChunkGeometryName   = "rep_walk_atte_chunk2"
+ChunkNodeName       = ""
+ChunkTerrainCollisions  = "6"
+ChunkTerrainEffect  = "dirtspray"
+ChunkPhysics        = "FULL"
+ChunkOmega      = "2.0 1.5 3.0"
+ChunkBounciness     = 0.45
+ChunkStickiness     = 0.25
+ChunkSpeed      = "10.0"
+ChunkUpFactor       = "2.00"
+ChunkTrailEffect    = "com_sfx_chunktrail_sm"
+
+CHUNKSECTION        = "CHUNK3"
+ChunkGeometryName   = "rep_walk_atte_chunk3"
+ChunkNodeName       = ""
+ChunkTerrainCollisions  = "5"
+ChunkTerrainEffect  = "dirtspray"
+ChunkTrailEffect    = "com_sfx_chunktrail_sm"
+ChunkPhysics        = "FULL"
+ChunkOmega      = "2.0 2.0 2.0"
+ChunkSpeed      = "14.0"
+ChunkUpFactor       = "5.00"
+
+CHUNKSECTION        = "CHUNK4"
+ChunkGeometryName   = "rep_walk_atte_chunk4"
+ChunkNodeName       = ""
+ChunkTerrainCollisions  = "3"
+ChunkTerrainEffect  = "dirtspray"
+ChunkPhysics        = "FULL"
+ChunkOmega      = "2.0 2.0 1.5"
+ChunkBounciness     = 0.55
+ChunkStickiness     = 0.25
+ChunkSpeed      = "10.0"
+ChunkUpFactor       = "1.00"
+ChunkTrailEffect    = "com_sfx_chunktrail_sm"
+
+CHUNKSECTION        = "CHUNK5"
+ChunkGeometryName   = "rep_walk_atte_chunk5"
+ChunkNodeName       = ""
+ChunkTerrainCollisions  = "3"
+ChunkTerrainEffect  = "dirtspray"
+ChunkPhysics        = "FULL"
+ChunkOmega      = "2.0 0.5 2.0"
+ChunkBounciness     = 0.45
+ChunkStickiness     = 0.25
+ChunkSpeed      = "6.0"
+ChunkUpFactor       = "2.00"
+ChunkTrailEffect    = "com_sfx_chunktrail_sm"
+
+ChunkSmokeEffect    = "com_sfx_smokeplume"
+ChunkSmokeNodeName  = "hp_smoke1"
+
+
+CHUNKSECTION        = "CHUNK6"
+ChunkGeometryName   = "rep_walk_atte_chunk6"
+ChunkNodeName       = ""
+ChunkTerrainCollisions  = "3"
+ChunkTerrainEffect  = "com_sfx_explosion_lg"
+ChunkTrailEffect    = "com_sfx_chunktrail_sm"
+ChunkPhysics        = "FULL"
+ChunkOmega      = "1.0 5.0 1.0"
+ChunkSpeed      = "12.0"

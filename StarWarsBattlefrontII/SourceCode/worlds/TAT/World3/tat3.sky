@@ -1,0 +1,40 @@
+SkyInfo()
+{
+	Enable(1);
+	FogColor(0, 0, 0);
+	FogRange(20.000000, 40.000000);
+
+	PC()
+	{
+		NearSceneRange(20.000000, 70.000000, 30.000000, 80.000000);
+		FarSceneRange(0.0, 0.0);
+	}
+	XBOX()
+	{
+		NearSceneRange(0.2, 30.000000, 70.000000);
+		FarSceneRange(0.0);
+	}
+	PS2()
+	{
+		NearSceneRange(0.2, 20.000000, 60.000000);
+		FarSceneRange(0.0);
+	}
+}
+
+DomeInfo()
+{
+	Angle(-90.000000);
+	Ambient(255.000000, 255.000000, 255.000000);
+	Filter(1);
+	Threshold(50);	
+	Intensity(50);
+
+	Softness(1);
+	SoftnessParam(60);
+
+	DomeModel()
+	{	
+		Geometry("tat3_sky");
+	}
+	
+}

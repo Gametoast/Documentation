@@ -1,0 +1,144 @@
+SkyInfo()
+{
+	Enable(1);
+
+	PS2()
+	{
+		NearSceneRange(0.1, 150.0, 200.0);
+		FarSceneRange(1000.0);
+	}
+	XBOX()
+	{
+		NearSceneRange(0.5, 180.0, 250.0);
+		FarSceneRange(0.0);
+	}
+	PC()
+	{
+		NearSceneRange(180.0, 250.0, 200.0, 270.0);
+		FarSceneRange(0.0);
+	}
+}
+
+DomeInfo()
+{
+	Texture("cor1_sky.tga");
+	Angle(-90.000000);
+	Ambient(255.000000, 255.000000, 255.000000);
+	Filter(1);
+	Threshold(50);	
+	Intensity(50);
+	Softness(1);
+	SoftnessParam(60);
+
+
+	DomeModel()
+	{	
+		Geometry("cor1_sky_dome");
+	}
+
+	DomeModel()
+	{	
+		Geometry("cor1_sky_buildings_1");
+
+	}
+
+	DomeModel()
+	{	
+		Geometry("");
+	}
+	DomeModel()
+	{	
+		Geometry("");
+	}
+
+	DomeModel()
+	{	
+		Geometry("");
+	}
+
+
+	Stars()
+	{
+		RandomSeed(1);
+		TwinkleFactor(0.5);
+		TwinkleFrequency(0.1);
+		Color(255, 255, 255, 255);
+		EnableBottom(1);
+		XBOX()
+		{
+			NumStars(1000);
+			BrightStarPercent(70.0);
+			AlphaMin(15);
+			ColorSaturation(0.5);
+		}
+		PC()
+		{
+			NumStars(8000);
+			BrightStarPercent(70.0);
+			AlphaMin(15);
+			ColorSaturation(.75);
+		}
+		PS2()
+		{
+			NumStars(1000);
+			StarTexture("fx_star");
+			BrightStarPercent(10.0);
+			AlphaMin(10);
+			ColorSaturation(0.2);
+		}
+	
+
+	}
+
+}
+
+
+//Big rep flyer
+SkyObject()
+{
+	Geometry("rep_fly_assault_DOME");
+	NumObjects(2);
+	Height(200, 300);
+	VelocityZ(20, 50);
+	Distance(1500);
+	InDirectionFactor(2);
+}
+
+//Rep fighters
+SkyObject()
+{
+	Geometry("rep_fly_gunship_DOME");
+	NumObjects(20);
+	Height(80, 140);
+	VelocityZ(80, 120);
+	VelocityY(-10, 10);
+	Distance(600);
+	InDirectionFactor(0.5);
+}
+
+//CIS fighters
+SkyObject()
+{
+	Geometry("cis_fly_droidfighter_DOME");
+	NumObjects(20);
+	Height(80, 140);
+	VelocityZ(80, 100);
+	VelocityY(-10, 10);
+	Distance(300);
+	InDirectionFactor(0.5);
+}
+
+//CIS rockets
+SkyObject()
+{
+	Geometry("");
+	NumObjects(8);
+	Height(0, 0);
+	VelocityY(10, 12);
+	Acceleration(0.0, 2.0, 0.0);
+	Distance(1000);
+	LifeTime(80.0);
+}
+
+
+EnvTexture("");

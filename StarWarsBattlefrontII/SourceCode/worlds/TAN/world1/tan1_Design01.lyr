@@ -1,0 +1,346 @@
+Version(3);
+SaveType(0);
+
+Camera("camera")
+{
+	Rotation(0.710, 0.281, -0.601, 0.238);
+	Position(-243.152, 54.465, -154.881);
+	FieldOfView(55.400);
+	NearPlane(1.000);
+	FarPlane(5000.000);
+	ZoomFactor(1.000);
+	Bookmark(-317.325, 246.197, -115.678,  0.707, 0.707, 0.001, -0.001);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+}
+LightName("tan1_Design01.LGT");
+ControllerManager("StandardCtrlMgr");
+
+WorldExtents()
+{
+	Min(0.000000, 0.000000, 0.000000);
+	Max(0.000000, 0.000000, 0.000000);
+}
+
+NextSequence(-3705784);
+
+Object("tan4_prop_barrel_12", "tan4_prop_barrel_01", 404539620)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-223.842, 11.000, -91.111);
+	SeqNo(404539620);
+	Team(0);
+	NetworkId(-1);
+	Layer(3);
+}
+
+Object("tan4_prop_barrel_11", "tan4_prop_barrel_01", 549072390)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-244.548, 11.000, -91.403);
+	SeqNo(549072390);
+	Team(0);
+	NetworkId(-1);
+	Layer(3);
+}
+
+Object("com_item_weaponrecharge2", "com_item_weaponrecharge", 1175038125)
+{
+	ChildRotation(0.946, 0.000, -0.324, 0.000);
+	ChildPosition(-273.522, 2.060, -164.362);
+	SeqNo(1175038125);
+	Team(0);
+	NetworkId(-1);
+	Layer(3);
+	EffectRegion("");
+	Radius("5.0");
+}
+
+Object("com_item_weaponrecharge5", "com_item_weaponrecharge", 1266625663)
+{
+	ChildRotation(0.971, 0.000, 0.238, 0.000);
+	ChildPosition(-309.103, 2.052, -172.713);
+	SeqNo(1266625663);
+	Team(0);
+	NetworkId(-1);
+	Layer(3);
+	EffectRegion("");
+	Radius("5.0");
+}
+
+Object("com_item_healthrecharge", "com_item_healthrecharge", 1374381378)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-293.668, 2.015, -203.349);
+	SeqNo(1374381378);
+	Team(0);
+	NetworkId(-1);
+	Layer(3);
+	EffectRegion("");
+	Radius("5.0");
+}
+
+Object("com_item_healthrecharge0", "com_item_healthrecharge", 1421923531)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-210.650, 11.006, -157.424);
+	SeqNo(1421923531);
+	Team(0);
+	NetworkId(-1);
+	Layer(3);
+	EffectRegion("");
+	Radius("5.0");
+}
+
+Object("tan4_prop_barrel_15", "tan4_prop_barrel_01", 1594041194)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-297.403, 2.000, -146.568);
+	SeqNo(1594041194);
+	Team(0);
+	NetworkId(-1);
+	Layer(3);
+}
+
+Object("com_item_weaponrecharge4", "com_item_weaponrecharge", 1764536110)
+{
+	ChildRotation(0.370, 0.000, -0.929, 0.000);
+	ChildPosition(-227.358, 5.041, -107.459);
+	SeqNo(1764536110);
+	Team(0);
+	NetworkId(-1);
+	Layer(3);
+	EffectRegion("");
+	Radius("5.0");
+}
+
+Object("com_item_healthrecharge1", "com_item_healthrecharge", 1824605474)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-283.670, 1.967, -71.124);
+	SeqNo(1824605474);
+	Team(0);
+	NetworkId(-1);
+	Layer(3);
+	EffectRegion("");
+	Radius("5.0");
+}
+
+Object("tan4_prop_barrel_17", "tan4_prop_barrel_01", 2105549700)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-298.026, 2.000, -145.848);
+	SeqNo(2105549700);
+	Team(0);
+	NetworkId(-1);
+	Layer(3);
+}
+
+Object("tan4_prop_barrel_5", "tan4_prop_barrel_01", 2136046080)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-242.404, 5.000, -156.991);
+	SeqNo(2136046080);
+	Team(0);
+	NetworkId(-1);
+	Layer(3);
+}
+
+Object("tan4_prop_barrel_10", "tan4_prop_barrel_01", -1849858379)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-243.157, 11.000, -90.318);
+	SeqNo(-1849858379);
+	Team(0);
+	NetworkId(-1);
+	Layer(3);
+}
+
+Object("com_item_healthrecharge2", "com_item_healthrecharge", -1615412720)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-280.457, 2.058, -159.309);
+	SeqNo(-1615412720);
+	Team(0);
+	NetworkId(-1);
+	Layer(3);
+	EffectRegion("");
+	Radius("5.0");
+}
+
+Object("com_item_healthrecharge3", "com_item_healthrecharge", -1614761319)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-378.223, 3.950, -146.499);
+	SeqNo(-1614761319);
+	Team(0);
+	NetworkId(-1);
+	Layer(3);
+	EffectRegion("");
+	Radius("5.0");
+}
+
+Object("tan4_prop_barrel_14", "tan4_prop_barrel_01", -1592613092)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-225.808, 11.000, -89.927);
+	SeqNo(-1592613092);
+	Team(0);
+	NetworkId(-1);
+	Layer(3);
+}
+
+Object("tan4_prop_barrel_6", "tan4_prop_barrel_01", -1539308595)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-242.784, 5.000, -158.115);
+	SeqNo(-1539308595);
+	Team(0);
+	NetworkId(-1);
+	Layer(3);
+}
+
+Object("tan4_prop_barrel_4", "tan4_prop_barrel_01", -1488823504)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-243.063, 5.000, -156.301);
+	SeqNo(-1488823504);
+	Team(0);
+	NetworkId(-1);
+	Layer(3);
+}
+
+Object("tan4_prop_barrel_8", "tan4_prop_barrel_01", -1191692110)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-230.476, 5.000, -110.593);
+	SeqNo(-1191692110);
+	Team(0);
+	NetworkId(-1);
+	Layer(3);
+}
+
+Object("tan4_prop_barrel_3", "tan4_prop_barrel_01", -1119896165)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-236.361, 5.000, -155.618);
+	SeqNo(-1119896165);
+	Team(0);
+	NetworkId(-1);
+	Layer(3);
+}
+
+Object("tan4_prop_barrel_7", "tan4_prop_barrel_01", -992515723)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-232.638, 5.000, -111.413);
+	SeqNo(-992515723);
+	Team(0);
+	NetworkId(-1);
+	Layer(3);
+}
+
+Object("com_item_healthrecharge4", "com_item_healthrecharge", -834981159)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-313.366, 2.032, -101.777);
+	SeqNo(-834981159);
+	Team(0);
+	NetworkId(-1);
+	Layer(3);
+	EffectRegion("");
+	Radius("5.0");
+}
+
+Object("tan4_prop_barrel_9", "tan4_prop_barrel_01", -773256926)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-231.485, 5.000, -111.401);
+	SeqNo(-773256926);
+	Team(0);
+	NetworkId(-1);
+	Layer(3);
+}
+
+Object("com_item_healthrecharge5", "com_item_healthrecharge", -596201009)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-259.511, 1.993, -140.512);
+	SeqNo(-596201009);
+	Team(0);
+	NetworkId(-1);
+	Layer(3);
+	EffectRegion("");
+	Radius("5.0");
+}
+
+Object("tan4_prop_barrel_01", "tan4_prop_barrel_01", -523265032)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-235.263, 5.000, -155.355);
+	SeqNo(-523265032);
+	Team(0);
+	NetworkId(-1);
+	Layer(3);
+}
+
+Object("tan4_prop_barrel_16", "tan4_prop_barrel_01", -373638860)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-298.413, 2.000, -146.934);
+	SeqNo(-373638860);
+	Team(0);
+	NetworkId(-1);
+	Layer(3);
+}
+
+Object("tan4_prop_barrel_2", "tan4_prop_barrel_01", -317521241)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-236.776, 5.000, -156.507);
+	SeqNo(-317521241);
+	Team(0);
+	NetworkId(-1);
+	Layer(3);
+}
+
+Object("tan4_prop_barrel_13", "tan4_prop_barrel_01", -287216421)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-225.074, 11.000, -91.003);
+	SeqNo(-287216421);
+	Team(0);
+	NetworkId(-1);
+	Layer(3);
+}
+
+Object("com_item_weaponrecharge3", "com_item_weaponrecharge", -270934605)
+{
+	ChildRotation(-0.418, 0.000, -0.908, 0.000);
+	ChildPosition(-377.783, 4.115, -117.545);
+	SeqNo(-270934605);
+	Team(0);
+	NetworkId(-1);
+	Layer(3);
+	EffectRegion("");
+	Radius("5.0");
+}
+
+Object("com_item_weaponrecharge0", "com_item_weaponrecharge", -165148967)
+{
+	ChildRotation(0.425, 0.000, -0.905, 0.000);
+	ChildPosition(-267.147, 2.048, -123.349);
+	SeqNo(-165148967);
+	Team(0);
+	NetworkId(-1);
+	Layer(3);
+	EffectRegion("");
+	Radius("5.0");
+}

@@ -1,0 +1,27 @@
+[GameObjectClass]		
+
+ClassLabel		=	"flag"
+GeometryName	=	"tan4_icon_disk.msh"
+
+[Properties]		
+
+Lighting			= "Dynamic"
+
+IconTexture			= ""
+MapTexture			= ""
+MapScale			= ""
+
+GeometryName			= "tan4_icon_disk"
+CarriedGeometryName		= "tan_icon_disk_carried"
+SoldierAttachBone 		= "bone_l_hand"
+
+PickupSound			= "health_recharge defer"
+DropSound			= ""
+AmbientSound			= ""
+
+LifeSpan			= 50.0
+
+LightODF			= "flaglight"
+
+[InstanceProperties]
+

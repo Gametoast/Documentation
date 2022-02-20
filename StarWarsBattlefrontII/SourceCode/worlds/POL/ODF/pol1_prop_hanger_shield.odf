@@ -1,0 +1,18 @@
+[GameObjectClass]		
+
+ClassLabel		=	"armedbuilding"
+GeometryName	=	"pol1_prop_hanger_shield.msh"
+
+
+[Properties]		
+
+GeometryName	=	"pol1_prop_hanger_shield"
+MaxHealth           = "999999.0"
+AddHealth         = "50000.0"
+RespawnTime				= "999999"
+VehicleCollision = "CLEAR"
+SoldierCollision = "CLEAR"
+
+FoleyFXGroup    = "stone_foley"
+
+BuildingSound = "shield_hum"

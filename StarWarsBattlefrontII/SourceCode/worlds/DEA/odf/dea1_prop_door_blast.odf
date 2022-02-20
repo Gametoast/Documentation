@@ -1,0 +1,20 @@
+[GameObjectClass]       
+
+ClassLabel  =   "door"
+GeometryName    =   "dea1_prop_door_blast.msh"
+
+
+[Properties]        
+
+GeometryName    =   "dea1_prop_door_blast"
+AnimationName     = "dea1_prop_door_blast"
+
+Animation         =     "open"
+
+AnimationTrigger  =     "hp_bdoor 16.0"
+
+
+OpenSound       = "big_door_open"
+CloseSound      = "big_door_close"
+LockedSound     = "vehicle_equip"
+FoleyFXGroup    = "metal_foley"

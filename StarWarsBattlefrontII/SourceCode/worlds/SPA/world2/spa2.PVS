@@ -1,0 +1,144 @@
+Sector("sector")
+{
+	Base(636.894470);
+	Height(42.000000);
+	Point(-501.250977, 920.355774);
+	Point(-501.425171, 1078.650391);
+	Point(-245.582321, 1071.765259);
+	Point(-246.416962, 920.206116);
+	Object("cis_fedcruiser_shield_blue");
+	Object("com_item_weaponrecharge4");
+	Object("CIS5");
+	Object("cis14");
+	Object("CP1");
+	Object("cis_fedcruiser_hallway2");
+	Object("com_item_healthrecharge5");
+	Object("CIS7");
+	Object("com_item_healthrecharge3");
+	Object("com_item_healthrecharge4");
+	Object("cis16");
+	Object("cis15");
+	Object("cis11");
+	Object("cis13");
+	Object("com_item_weaponrecharge5");
+	Object("CIS8");
+}
+Sector("Sector-1")
+{
+	Base(639.345215);
+	Height(20.000000);
+	Point(-382.620544, 936.986023);
+	Point(-382.564209, 881.337830);
+	Point(-339.698669, 881.097351);
+	Point(-340.084656, 936.876587);
+	Object("tur_bldg_chaingun_roof");
+	Object("spa_prop_doorwaysignr");
+	Object("spa_prop_doorwaysignB");
+	Object("spa_prop_doorwaysignB1");
+	Object("CIS_turrchair4");
+	Object("cis_fedcruiser_door2");
+	Object("spa_prop_doorwaysigng");
+	Object("spa_prop_liquidgen");
+	Object("CIS_turrchair1");
+	Object("CIS_turrchair2");
+	Object("cis_fedcruiser_commandroom0");
+	Object("lockedcis02");
+	Object("lockedcis01");
+	Object("cis_fedcruiser_door1");
+	Object("spa_prop_doorwaysignr1");
+	Object("tur_bldg_chaingun_roof1");
+	Object("cis_fedcruiser_door3");
+	Object("CIS_turrchair3");
+}
+Sector("Sector-2")
+{
+	Base(641.193787);
+	Height(20.000000);
+	Point(-376.307129, 916.876587);
+	Point(-415.464478, 918.272888);
+	Point(-416.384552, 880.484131);
+	Point(-376.416534, 881.019165);
+	Object("engine_cis");
+	Object("cis_fedcruiser_commandroom_engine");
+	Object("cis_fedcruiser_door3");
+}
+Sector("Sector-4")
+{
+	Base(923.072998);
+	Height(45.000000);
+	Point(-1389.872192, -1255.618042);
+	Point(-1322.442139, -1192.775269);
+	Point(-1398.888184, -1112.008423);
+	Point(-1465.013184, -1175.151611);
+	Object("com_item_weaponrecharge");
+	Object("rep_assultship_hallway");
+	Object("spa2_prop_crate23");
+	Object("ARC6");
+	Object("com_item_healthrecharge0");
+	Object("com_item_healthrecharge");
+	Object("com_item_weaponrecharge1");
+	Object("spa2_prop_crate22");
+	Object("ARC7");
+	Object("rep_door02");
+	Object("CP4");
+	Object("ARC1");
+	Object("com_item_weaponrecharge0");
+	Object("spa2_prop_crate14");
+	Object("ARC25");
+	Object("rep_door01");
+	Object("imp_cap_stardestroyer_shield");
+	Object("spa2_prop_crate21");
+	Object("com_item_healthrecharge1");
+	Object("spa2_prop_crate13");
+}
+Portal("Portal")
+{
+	Rotation(0.710893, 0.000000, 0.703300, 0.000000);
+	Position(-256.626526, 657.104004, 993.610718);
+	Width(126.000000);
+	Height(26.000000);
+	Sector1("sector");
+}
+Portal("Portal-1")
+{
+	Rotation(0.710893, 0.000000, 0.703300, 0.000000);
+	Position(-474.256042, 656.402344, 993.257446);
+	Width(126.000000);
+	Height(26.000000);
+	Sector1("sector");
+}
+Portal("Portal-2")
+{
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Position(-351.212250, 649.717285, 930.575867);
+	Width(5.000000);
+	Height(5.000000);
+	Sector1("Sector-1");
+	Sector2("sector");
+}
+Portal("Portal-3")
+{
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Position(-372.772491, 649.951111, 930.485474);
+	Width(5.000000);
+	Height(5.000000);
+	Sector1("Sector-1");
+	Sector2("sector");
+}
+Portal("Portal-4")
+{
+	Rotation(0.703845, 0.000000, 0.710354, 0.000000);
+	Position(-379.814087, 649.791504, 902.667725);
+	Width(5.000000);
+	Height(5.000000);
+	Sector1("Sector-2");
+	Sector2("Sector-1");
+}
+Portal("Portal-5")
+{
+	Rotation(0.913073, 0.003883, 0.407673, -0.009183);
+	Position(-1362.801392, 946.095703, -1154.792725);
+	Width(100.400002);
+	Height(26.000000);
+	Sector1("Sector-4");
+}

@@ -1,0 +1,17 @@
+[GameObjectClass]       
+ClassLabel      = "prop"
+GeometryName        = "dea1_prop_trashwall2.msh"
+
+
+[Properties]        
+
+
+GeometryName        = "dea1_prop_trashwall2"
+
+
+
+StartMovementSound = "bridge_extend"
+StopMovementSound  = "bridge_retract"
+SoundProperty      = "trash_hum"
+SoundOffset        = "25 -10 100"
+//UnbuiltHoloOdf = "com_holo_wall"

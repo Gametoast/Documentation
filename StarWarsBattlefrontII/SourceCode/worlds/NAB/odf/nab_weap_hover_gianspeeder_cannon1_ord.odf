@@ -1,0 +1,30 @@
+[OrdnanceClass]
+ClassLabel          = "bolt"
+
+[Properties]
+ExplosionName       = "com_weap_ord_exp"
+ImpactEffect        = "com_sfx_explosion_sm"
+LaserTexture        = "com_sfx_laser_green"
+LaserLength         = "4.0"
+LaserWidth          = "0.3"
+LaserGlowColor      = "61 252 56 100"
+LightColor                  = "61 252 56 150"
+LightRadius                 = "5.0"
+
+LifeSpan            = "5.0"
+Velocity            = "70.0"
+Gravity             = "1.0"
+Rebound             = "0.0"
+
+
+MaxDamage           = "300.0"
+
+VehicleScale            = "0.25"
+ShieldScale         = "1.0"
+PersonScale         = "1.0"
+AnimalScale         = "1.0"
+DroidScale          = "1.0"
+BuildingScale           = "0.5"
+
+OrdnanceSound  = "com_weap_inf_ord_hum_lg"
+CollisionSound = "imp_weap_ord_exp"

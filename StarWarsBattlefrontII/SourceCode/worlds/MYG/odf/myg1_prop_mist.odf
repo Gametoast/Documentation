@@ -1,0 +1,26 @@
+[GameObjectClass]		
+
+ClassLabel		=	"dusteffect"
+GeometryName	=	"geo_prop_dust.msh"
+
+
+[Properties]		
+
+MinPos = "-120 0 -60"
+MaxPos = "120 10 60"
+MinVel = "-1 0 1"
+MaxVel = "-1 2 1"
+MinSize = "30"
+MaxSize = "50"
+MinLifeTime = "2"
+MaxLifeTime = "4"
+Alpha = "0.06"
+NumParticles = "100"
+MaxDistance = "1000"
+Texture = "brownmist"
+HeightScale = "0.4"
+RadiusFadeMin = "250"
+RadiusFadeMax = "300"
+
+CameraDistance = "40"
+SpawnSound = ""

@@ -1,0 +1,118 @@
+Version(1);
+RegionCount(14);
+
+Region("mapbounds", 0)
+{
+	Position(5.876080, 36.931816, 21.489508);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(200.000000, 200.000000, 200.000000);
+	Name("mapbounds");
+}
+
+Region("shadow directional=0.1 directional1=0.1 colortop=47,251,245 colorbottom=63,216,173", 0)
+{
+	Position(-102.983292, 12.373661, 14.077789);
+	Rotation(1.000034, 0.000000, 0.000000, 0.000000);
+	Size(22.583740, 9.999999, 5.655905);
+	Name("shadow");
+}
+
+Region("shadow colortop=215,252,255 colorbottom=131,137,146", 0)
+{
+	Position(-119.030807, 15.670307, 30.438282);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(5.104317, 7.094167, 8.081486);
+	Name("SHADOW_1");
+	NextIsGrouped();
+}
+
+Region("shadow colortop=215,252,255 colorbottom=131,137,146", 0)
+{
+	Position(-102.008430, 15.582655, 29.995268);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(5.036430, 7.400513, 7.026554);
+	Name("REgion5");
+	NextIsGrouped();
+}
+
+Region("shadow colortop=215,252,255 colorbottom=131,137,146", 0)
+{
+	Position(-84.924835, 16.389767, 29.716793);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(4.604149, 6.819979, 6.979015);
+	Name("SHADOW_CAVE");
+}
+
+Region("shadow directional=0.1 directional1=0.1 colortop=102,129,134 colorbottom=87,105,111", 0)
+{
+	Position(-102.662743, 17.911865, 69.453400);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(20.148575, 6.661704, 26.703842);
+	Name("CAVE");
+	NextIsGrouped();
+}
+
+Region("shadow directional=0.1 directional1=0.1 colortop=102,129,134 colorbottom=87,105,111", 0)
+{
+	Position(-121.268181, 24.504917, 105.353897);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(15.352592, 14.615118, 22.939217);
+	Name("CAVE SHADOW_2");
+	NextIsGrouped();
+}
+
+Region("shadow directional=0.1 directional1=0.1 colortop=102,129,134 colorbottom=87,105,111", 0)
+{
+	Position(-109.275826, 30.063025, 149.184128);
+	Rotation(0.926630, 0.000000, -0.376074, 0.000000);
+	Size(19.548288, 16.608444, 4.156380);
+	Name("cave_2");
+}
+
+Region("shadow directional=0.1 directional1=0.1 colortop=146,199,209 colorbottom=79,111,128", 0)
+{
+	Position(-98.886925, 24.525143, 136.862930);
+	Rotation(0.922861, 0.000000, -0.385145, 0.000000);
+	Size(12.536192, 5.621324, 4.093620);
+	Name("CAVE3");
+}
+
+Region("shadow directional=0.1 directional1=0.1 colortop=102,129,134 colorbottom=87,105,111", 0)
+{
+	Position(-94.334534, 34.040695, 158.131638);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(10.000000, 10.000000, 10.000000);
+	Name("CYL");
+}
+
+Region("shadow directional=0.1 directional1=0.1 colortop=170,253,251 colorbottom=70,103,108", 2)
+{
+	Position(-145.257782, 19.582590, 103.243706);
+	Rotation(0.999553, 0.000000, -0.029908, 0.000000);
+	Size(6.303857, 4.981880, 4.424894);
+	Name("CYLINDER2");
+}
+
+Region("shadow directional=0.1 directional1=0.1 colortop=113,158,166 colorbottom=65,89,90", 0)
+{
+	Position(-86.162872, 27.383190, 125.066345);
+	Rotation(0.925781, 0.000000, -0.378109, 0.000000);
+	Size(10.000000, 3.254921, 10.000000);
+	Name("garage");
+}
+
+Region("shadow directional=0.1 directional1=0.1 colortop=31,248,215 colorbottom=63,92,89", 0)
+{
+	Position(-89.140106, 22.164375, 127.249298);
+	Rotation(0.917138, 0.000000, -0.398569, 0.000000);
+	Size(7.885082, 1.341723, 17.169147);
+	Name("garage2");
+}
+
+Region("", 0)
+{
+	Position(-103.979965, 34.563263, 65.626610);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(10.000000, 10.000000, 10.000000);
+	Name("REgion4");
+}

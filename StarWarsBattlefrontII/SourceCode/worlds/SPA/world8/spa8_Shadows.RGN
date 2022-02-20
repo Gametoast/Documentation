@@ -1,0 +1,20 @@
+Version(1);
+RegionCount(2);
+
+Region("shadow directional=0 directional1=0 colortop=122,122,122 colorbottom=64,64,64", 0)
+{
+	Layer(10);
+	Position(25.611191, -17.808163, 1217.615967);
+	Rotation(0.996250, 0.000000, 0.086635, 0.000000);
+	Size(80.274269, 15.979433, 52.479084);
+	Name("all_shdw1");
+}
+
+Region("shadow directional=0 directional1=0 colortop=112,112,112 colorbottom=64,64,64", 0)
+{
+	Layer(10);
+	Position(-540.644165, 17.626141, -1426.233521);
+	Rotation(0.992331, 0.000000, 0.123663, 0.000000);
+	Size(80.253395, 17.364006, 57.892895);
+	Name("imp_shdw1");
+}

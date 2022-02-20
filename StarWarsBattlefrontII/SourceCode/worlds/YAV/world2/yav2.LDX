@@ -1,0 +1,44 @@
+Version(1);
+NextID(1);
+
+Layer("[Base]", 0, 8)
+{
+	Description("");
+}
+
+Layer("Design001", 1, 0)
+{
+	Description("");
+}
+
+Layer("Buildings01", 2, 0)
+{
+	Description("");
+}
+
+Layer("SoundRegions", 3, 0)
+{
+	Description("");
+}
+
+Layer("SoundSpaces", 4, 0)
+{
+	Description("");
+}
+
+Layer("invisocube", 5, 0)
+{
+	Description("");
+}
+
+
+GameMode("Common")
+{
+	Layer(0);
+	Layer(1);
+	Layer(2);
+	Layer(3);
+	Layer(4);
+	Layer(5);
+}
+

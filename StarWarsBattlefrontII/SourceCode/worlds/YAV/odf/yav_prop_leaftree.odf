@@ -1,0 +1,30 @@
+[GameObjectClass]		
+
+ClassLabel		=	"prop"
+GeometryName	=	"yav_prop_leaftree1.msh"
+
+
+[Properties]		
+
+GeometryName	=	"yav_prop_leaftree1"
+
+AttachOdf = "yav_prop_leafpatch"
+
+
+AttachToHardPoint = "hp_branch_6"
+AttachToHardPoint = "hp_branch_7"
+AttachToHardPoint = "hp_branch_9"
+AttachToHardPoint = "hp_branch_11"
+AttachToHardPoint = "hp_branch_2"
+AttachToHardPoint = "hp_branch_3"
+
+AttachOdf = "yav_prop_leafpatch2"
+
+AttachToHardPoint = "hp_branch_15"
+AttachToHardPoint = "hp_branch_17"
+AttachToHardPoint = "hp_branch_12"
+
+AttachOdf = "yav_prop_godray"
+AttachToHardPoint = "hp_branch_2"
+AttachToHardPoint = "hp_branch_7"
+AttachToHardPoint = "hp_branch_11"

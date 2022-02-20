@@ -1,0 +1,73 @@
+[GameObjectClass]		
+
+ClassLabel		=	"destructablebuilding"
+GeometryName	=	"yav_bldg_blastdoor.msh"
+
+
+
+[Properties]		
+
+GeometryName	=	"yav_bldg_blastdoor"
+DestroyedGeometryName 	= "yav_bldg_blastdoor_dest"
+MaxHealth       = 99999999
+
+
+ExplosionName = "yav_prop_blastdoor_exp"
+
+/// Chunks
+
+CHUNKSECTION 		= "CHUNK1"
+ChunkGeometryName 	= "yav_bldg_blastdoor_chunk1"
+ChunkNodeName 		= ""
+ChunkTerrainCollisions 	= "4"
+//ChunkTerrainEffect 	= "com_sfx_explosion_lg"
+ChunkPhysics 		= "FULL"
+ChunkOmega 		= "-2.0 0.3 2.5"
+ChunkSpeed		= "17.0"
+ChunkUpFactor		= "0.00"
+ChunkTrailEffect        = "com_sfx_chunktrail_sm"
+
+
+CHUNKSECTION 		= "CHUNK2"
+ChunkGeometryName 	= "yav_bldg_blastdoor_chunk2"
+ChunkNodeName 		= ""
+ChunkTerrainCollisions 	= "4"
+//ChunkTerrainEffect 	= "com_sfx_explosion_lg"
+ChunkPhysics 		= "FULL"
+ChunkOmega 		= "2.5 0.1 2.0"
+ChunkSpeed		= "12.0"
+ChunkUpFactor		= "0.00"
+ChunkTrailEffect        = "com_sfx_chunktrail_sm"
+
+CHUNKSECTION 		= "CHUNK3"
+ChunkGeometryName 	= "yav_bldg_blastdoor_chunk3"
+ChunkNodeName 		= ""
+ChunkTerrainCollisions 	= "2"
+//ChunkTerrainEffect 	= "com_sfx_explosion_lg"
+ChunkPhysics 		= "FULL"
+ChunkOmega 		= "1.1 0.3 1.9"
+ChunkSpeed		= "15.0"
+ChunkUpFactor		= "1.0"
+ChunkTrailEffect        = "com_sfx_chunktrail_sm"
+
+CHUNKSECTION 		= "CHUNK4"
+ChunkGeometryName 	= "yav_bldg_blastdoor_chunk4"
+ChunkNodeName 		= ""
+ChunkTerrainCollisions 	= "1"
+//ChunkTerrainEffect 	= "com_sfx_explosion_lg"
+ChunkPhysics 		= "FULL"
+ChunkOmega 		= "-2.0 0.1 2.5"
+ChunkSpeed		= "16.0"
+ChunkUpFactor		= "0.00"
+ChunkTrailEffect        = "com_sfx_chunktrail_sm"
+
+CHUNKSECTION 		= "CHUNK5"
+ChunkGeometryName 	= "yav_bldg_blastdoor_chunk5"
+ChunkNodeName 		= ""
+ChunkTerrainCollisions 	= "2"
+//ChunkTerrainEffect 	= "com_sfx_explosion_lg"
+ChunkPhysics 		= "FULL"
+ChunkOmega 		= "0.5 0.2 0.5"
+ChunkSpeed		= "15.0"
+ChunkUpFactor		= "1.00"
+ChunkTrailEffect        = "com_sfx_chunktrail_sm"

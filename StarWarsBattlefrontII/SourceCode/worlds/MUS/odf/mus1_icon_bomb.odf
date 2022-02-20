@@ -1,0 +1,24 @@
+[GameObjectClass]
+ClassLabel			= "flag"
+GeometryName		= "mus1_icon_bomb.msh"
+
+[Properties]
+Lighting			= "Dynamic"
+
+IconTexture			= "flag_deathstar"
+MapTexture			= "flag_icon"
+MapScale			= "0.75"
+
+GeometryName			= "mus1_icon_bomb"
+CarriedGeometryName 		= "mus_icon_bomb_carried"
+SoldierAttachBone		= "bone_pelvis"
+
+PickupSound			= "health_recharge defer"
+DropSound			= ""
+AmbientSound			= ""
+
+LifeSpan			= 15.0
+
+LightODF			= "flaglight"
+
+[InstanceProperties]

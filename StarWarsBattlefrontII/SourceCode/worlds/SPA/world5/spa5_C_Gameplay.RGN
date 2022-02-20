@@ -1,0 +1,20 @@
+Version(1);
+RegionCount(2);
+
+Region("CAM_CP2Control", 0)
+{
+	Layer(4);
+	Position(-996.878906, 2.879367, -303.918823);
+	Rotation(0.790507, 0.000000, 0.612532, 0.000000);
+	Size(19.281582, 16.110641, 56.011219);
+	Name("CAM_CP2Control");
+}
+
+Region("CAM_CP1Control", 0)
+{
+	Layer(4);
+	Position(663.530029, 266.572174, -101.021240);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(28.533997, 13.282578, 50.163162);
+	Name("CAM_CP1Control");
+}

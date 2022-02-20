@@ -1,0 +1,210 @@
+Version(3);
+SaveType(0);
+
+Camera("camera")
+{
+	Rotation(0.954, 0.301, -0.013, 0.004);
+	Position(50.240, 83.789, -198.585);
+	FieldOfView(55.400);
+	NearPlane(1.000);
+	FarPlane(2000.000);
+	ZoomFactor(1.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(86.405, 226.377, 0.665,  0.708, 0.706, 0.000, 0.000);
+}
+LightName("yavin1_CommonDesign.LGT");
+ControllerManager("StandardCtrlMgr");
+
+WorldExtents()
+{
+	Min(0.000000, 0.000000, 0.000000);
+	Max(0.000000, 0.000000, 0.000000);
+}
+
+NextSequence(-5670208);
+
+Object("Health_LandingZone1", "com_item_healthrecharge", 230119319)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(32.000, -63.418, 18.000);
+	SeqNo(230119319);
+	Team(0);
+	NetworkId(-1);
+	Layer(8);
+	EffectRegion("");
+	Radius("5.0");
+}
+
+Object("tower11", "tur_bldg_tower", 692488970)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(51.000, -63.674, 12.672);
+	SeqNo(692488970);
+	Team(0);
+	NetworkId(-1);
+	Layer(8);
+}
+
+Object("Health_Bazaar", "com_item_healthrecharge", 874724942)
+{
+	ChildRotation(0.846, 0.000, -0.533, 0.000);
+	ChildPosition(89.805, -70.850, 55.394);
+	SeqNo(874724942);
+	Team(0);
+	NetworkId(-1);
+	Layer(8);
+	EffectRegion("");
+	Radius("5.0");
+}
+
+Object("Ammo_WrtRidge1", "com_item_weaponrecharge", 1291979069)
+{
+	ChildRotation(0.966, 0.000, -0.259, 0.000);
+	ChildPosition(116.579, -70.806, 27.006);
+	SeqNo(1291979069);
+	Team(0);
+	NetworkId(-1);
+	Layer(8);
+	EffectRegion("");
+	Radius("5.0");
+}
+
+Object("Ammo_WrtRidge8", "com_item_weaponrecharge", 1507545277)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(32.243, -63.785, 32.951);
+	SeqNo(1507545277);
+	Team(0);
+	NetworkId(-1);
+	Layer(8);
+	EffectRegion("");
+	Radius("5.0");
+}
+
+Object("tower9", "tur_bldg_tower", 1607520254)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(33.030, -64.007, 26.682);
+	SeqNo(1607520254);
+	Team(0);
+	NetworkId(-1);
+	Layer(8);
+}
+
+Object("Health_MiniTemple", "com_item_healthrecharge", 1835566385)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(59.441, -47.855, 279.201);
+	SeqNo(1835566385);
+	Team(0);
+	NetworkId(-1);
+	Layer(8);
+	EffectRegion("");
+	Radius("5.0");
+}
+
+Object("tower6", "tur_bldg_tower", -1897841845)
+{
+	ChildRotation(-0.051, 0.000, -0.999, 0.000);
+	ChildPosition(97.819, -32.903, 368.135);
+	SeqNo(-1897841845);
+	Team(0);
+	NetworkId(-1);
+	Layer(8);
+}
+
+Object("Health_Temple", "com_item_healthrecharge", -1714914263)
+{
+	ChildRotation(0.971, 0.000, -0.237, 0.000);
+	ChildPosition(106.785, -24.964, 441.304);
+	SeqNo(-1714914263);
+	Team(0);
+	NetworkId(-1);
+	Layer(8);
+	EffectRegion("");
+	Radius("5.0");
+}
+
+Object("tower4", "tur_bldg_tower", -1304954330)
+{
+	ChildRotation(0.129, 0.000, -0.992, 0.000);
+	ChildPosition(51.940, -47.468, 285.860);
+	SeqNo(-1304954330);
+	Team(0);
+	NetworkId(-1);
+	Layer(8);
+}
+
+Object("tower1", "tur_bldg_tower", -908458092)
+{
+	ChildRotation(0.088, 0.000, -0.996, 0.000);
+	ChildPosition(162.467, -32.991, 366.026);
+	SeqNo(-908458092);
+	Team(0);
+	NetworkId(-1);
+	Layer(8);
+}
+
+Object("tower7", "tur_bldg_tower", -907118172)
+{
+	ChildRotation(-0.277, 0.000, -0.961, 0.000);
+	ChildPosition(131.281, -32.765, 340.817);
+	SeqNo(-907118172);
+	Team(0);
+	NetworkId(-1);
+	Layer(8);
+}
+
+Object("Ammo_WrtRidge6", "com_item_weaponrecharge", -695468252)
+{
+	ChildRotation(0.793, 0.000, 0.609, 0.000);
+	ChildPosition(60.000, -47.935, 276.000);
+	SeqNo(-695468252);
+	Team(0);
+	NetworkId(-1);
+	Layer(8);
+	EffectRegion("");
+	Radius("5.0");
+}
+
+Object("Ammo_WrtRidge7", "com_item_weaponrecharge", -554548770)
+{
+	ChildRotation(0.717, 0.033, -0.695, 0.050);
+	ChildPosition(73.377, -70.720, 24.761);
+	SeqNo(-554548770);
+	Team(0);
+	NetworkId(-1);
+	Layer(8);
+	EffectRegion("");
+	Radius("5.0");
+}
+
+Object("Health_LandingZone", "com_item_healthrecharge", -536634055)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(81.298, -70.852, 20.288);
+	SeqNo(-536634055);
+	Team(0);
+	NetworkId(-1);
+	Layer(8);
+	EffectRegion("");
+	Radius("5.0");
+}
+
+Object("tower5", "tur_bldg_tower", -303839242)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(219.781, -40.793, 264.287);
+	SeqNo(-303839242);
+	Team(0);
+	NetworkId(-1);
+	Layer(8);
+}

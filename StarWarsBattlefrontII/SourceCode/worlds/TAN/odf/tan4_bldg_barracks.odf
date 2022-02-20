@@ -1,0 +1,32 @@
+[GameObjectClass]
+ClassLabel = "prop"
+GeometryName = "tan4_bldg_barracks.msh"
+
+[Properties]
+Label = "bridge"
+GeometryName = "tan4_bldg_barracks"
+
+
+AttachEffect = "prop_steampipe"
+
+AttachToHardPoint = "hp_steampipe_a"
+AttachToHardPoint = "hp_steampipe_b"
+AttachToHardPoint = "hp_steampipe_c"
+AttachToHardPoint = "hp_steampipe_d"
+AttachToHardPoint = "hp_steampipe_e"
+
+
+AttachEffect = "prop_steamgrate"
+
+AttachToHardPoint = "hp_steamgrate_a"
+AttachToHardPoint = "hp_steamgrate_b"
+
+
+AttachEffect = "prop_torturedroid"
+
+AttachToHardPoint = "hp_sparks"
+
+AttachOdf       = "flicker_white_light_barracks"
+AttachToHardpoint   = "hp_light_flicker_01"
+
+FoleyFXGroup    = "metal_foley"

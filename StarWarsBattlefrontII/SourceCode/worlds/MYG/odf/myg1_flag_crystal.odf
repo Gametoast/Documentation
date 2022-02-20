@@ -1,0 +1,27 @@
+[GameObjectClass]		
+
+ClassLabel		=	"flag"
+GeometryName	=	"myg1_icon_crystal.msh"
+
+[Properties]		
+
+Lighting			= "Dynamic"
+
+IconTexture			= ""
+MapTexture			= ""
+MapScale			= ""
+
+GeometryName			= "myg1_icon_crystal"
+CarriedGeometryName		= "myg_icon_powercrystal_carried"
+SoldierAttachBone		= "bone_pelvis"
+
+PickupSound			= "health_recharge defer"
+DropSound			= ""
+AmbientSound			= ""
+
+LifeSpan			= 50.0
+
+LightODF			= "flaglight"
+
+[InstanceProperties]
+

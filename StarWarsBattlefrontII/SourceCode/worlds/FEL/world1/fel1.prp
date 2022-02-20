@@ -1,0 +1,75 @@
+Layer(0)
+{
+    SpreadFactor(0.2);
+    Mesh()
+	{	
+		File("fel1_prop_foliage_b.msh", 100);
+		Frequency(70);
+		Scale(1);
+		Lighting(1);
+		Stiffness(0.0);
+		AIVisibilityFactor(0.2,0.5);
+	}
+}
+
+Layer(1)
+{
+    SpreadFactor(0.7);
+    Mesh()
+    {	
+		File("fel1_bldg_pitcher_bush.msh", 100);
+		Frequency(70);
+		Scale(1.0);
+		Stiffness(0.1);
+		ColorVariation(0.4);
+		UseCollision(1);
+		Lighting(1);
+		AIVisibilityFactor(1.0,1.0);
+		Sound("fel_amb_wildlife", 8.0, 2.0);
+		CollisionSound("foliage_collision");
+    }
+}
+
+Layer(2)
+{
+    SpreadFactor(0.3);
+    Mesh()
+    {	
+		File("fel1_prop_foliage_d.msh", 100);
+		Frequency(60);
+		Scale(1.0);
+		Stiffness(0.0);
+		CollisionSound("foliage_collision");
+		AIVisibilityFactor(1.0,1.0);
+    }
+}
+
+Layer(3)
+{
+    SpreadFactor(0.2);
+    Mesh()
+    {
+        GrassPatch("fel1_prop_thick_bush.odf", 95);
+        File("editor_prop_bush.msh", 95);
+        Frequency(95);
+        Scale(0.45);
+        Lighting(1);
+        Stiffness(0.0);
+        Sound("fel_amb_wildlife", 8.0, 2.0);
+        CollisionSound("foliage_collision");
+	AIVisibilityFactor(0.1,0.25);
+    }
+}
+
+TreeLine()
+{
+   	Path("jungle1")
+   	{
+        Distance(20);
+        BorderOdf("fel1_prop_hellbush");
+    	}
+}
+
+
+
+

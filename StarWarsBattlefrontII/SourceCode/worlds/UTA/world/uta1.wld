@@ -1,0 +1,341 @@
+Version(3);
+SaveType(0);
+
+Camera("camera")
+{
+	Rotation(0.578, 0.040, 0.813, -0.056);
+	Position(-137.367, 61.057, -198.303);
+	FieldOfView(55.400);
+	NearPlane(1.000);
+	FarPlane(5000.000);
+	ZoomFactor(1.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(-67.232, 9.591, -286.461,  0.621, 0.088, -0.771, 0.109);
+}
+LightName("uta1.LGT");
+TerrainName("uta1.ter");
+SkyName("uta1.sky");
+ScriptName("DummyScript.dll");
+ControllerManager("StandardCtrlMgr");
+
+WorldExtents()
+{
+	Min(0.000000, 0.000000, 0.000000);
+	Max(0.000000, 0.000000, 0.000000);
+}
+
+NextSequence(-779144);
+
+Object("uta1_bldg_overbridge_pillars1", "uta1_bldg_overbridge_pillars", 26917570)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-204.000, 12.391, -206.054);
+	SeqNo(26917570);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("uta1_bldg_macy_up_pillars02", "uta1_bldg_macy_up_pillars02", 74252053)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-20.000, 1.000, 30.000);
+	SeqNo(74252053);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("uta1_bldg_rails_top1_hanger", "uta1_bldg_rails_top1_hanger", 109049010)
+{
+	ChildRotation(0.992, 0.000, -0.123, 0.000);
+	ChildPosition(55.485, 17.805, -200.711);
+	SeqNo(109049010);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("uta1_bldg_building02_pillar_L", "uta1_bldg_building02_pillar_L", 119862203)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-20.000, 0.940, 30.000);
+	SeqNo(119862203);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("uta1_bldg_cave_facade", "uta1_bldg_cave_facade", 215601926)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-20.000, 1.000, 30.000);
+	SeqNo(215601926);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("uta1_bldg_cliffs1", "uta1_bldg_cliffs1", 295018133)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-20.000, 1.000, 30.000);
+	SeqNo(295018133);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("uta1_bldg_macy_up_pillars04", "uta1_bldg_macy_up_pillars04", 527681086)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-20.000, 1.000, 30.000);
+	SeqNo(527681086);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("Uta1_bldg_building02", "Uta1_bldg_building02", 867868106)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-20.000, 0.940, 30.000);
+	SeqNo(867868106);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("uta1_bldg_ct_zone_hanger", "uta1_bldg_ct_zone_hanger", 981389171)
+{
+	ChildRotation(0.992, 0.000, -0.123, 0.000);
+	ChildPosition(55.485, 17.805, -200.711);
+	SeqNo(981389171);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("uta1_bldg_rails_bt1_hanger", "uta1_bldg_rails_bt1_hanger", 1294342070)
+{
+	ChildRotation(0.992, 0.000, -0.123, 0.000);
+	ChildPosition(55.485, 17.805, -200.711);
+	SeqNo(1294342070);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("uta1_bldg_macy_terrace", "uta1_bldg_macy_terrace", 1449172277)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-20.000, 1.000, 30.000);
+	SeqNo(1449172277);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("uta1_bldg_catwalk", "uta1_bldg_catwalk", 1620141228)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-20.000, 1.000, 30.000);
+	SeqNo(1620141228);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("uta1_bldg_rails01_hanger", "uta1_bldg_rails01_hanger", 1639832090)
+{
+	ChildRotation(0.992, 0.000, -0.123, 0.000);
+	ChildPosition(55.485, 17.805, -200.711);
+	SeqNo(1639832090);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("uta1_bldg_city_floor", "uta1_bldg_city_floor", 1780290187)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-20.000, 1.000, 30.000);
+	SeqNo(1780290187);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("uta1_bldg_macy_up_pillars03", "uta1_bldg_macy_up_pillars03", 1862352867)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-20.000, 1.000, 30.000);
+	SeqNo(1862352867);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("uta1_bldg_macy_collision4", "uta1_bldg_macy_collision4", 1917030929)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-20.000, 1.000, 30.000);
+	SeqNo(1917030929);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("uta1_bldg_macy_collision1", "uta1_bldg_macy_collision1", 2010496261)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-20.000, 1.000, 30.000);
+	SeqNo(2010496261);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("uta1_bldg_pillars_hanger", "uta1_bldg_pillars_hanger", 2011106052)
+{
+	ChildRotation(0.992, 0.000, -0.123, 0.000);
+	ChildPosition(55.485, 17.805, -200.711);
+	SeqNo(2011106052);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("uta1_bldg_beams_hanger2", "uta1_bldg_beams_hanger", 2091883969)
+{
+	ChildRotation(0.993, 0.000, -0.122, 0.000);
+	ChildPosition(55.610, 17.805, -201.000);
+	SeqNo(2091883969);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("uta1_bldg_macy_base_pillars", "uta1_bldg_macy_base_pillars", -1760484827)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-20.000, 1.000, 30.000);
+	SeqNo(-1760484827);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("uta1_bldg_building01", "uta1_bldg_building01", -1721338140)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-20.000, 1.000, 30.000);
+	SeqNo(-1721338140);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("uta1_bldg_overbridge1", "uta1_bldg_overbridge", -1663612991)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-204.000, 12.391, -206.054);
+	SeqNo(-1663612991);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("uta1_bldg_lizardpen_roof", "uta1_bldg_lizardpen_roof", -1514754251)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-20.000, 1.000, 30.000);
+	SeqNo(-1514754251);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("uta1_bldg_macy_collision2", "uta1_bldg_macy_collision2", -1391237810)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-20.000, 1.000, 30.000);
+	SeqNo(-1391237810);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("uta1_bldg_sphere_hanger_wings", "uta1_bldg_sphere_hanger_wings", -1352301459)
+{
+	ChildRotation(0.992, 0.000, -0.123, 0.000);
+	ChildPosition(55.485, 17.805, -200.711);
+	SeqNo(-1352301459);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("uta1_bldg_beams_hanger", "uta1_bldg_beams_hanger", -1228599908)
+{
+	ChildRotation(0.992, 0.000, -0.123, 0.000);
+	ChildPosition(52.356, 17.805, -188.303);
+	SeqNo(-1228599908);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("uta1_bldg_cliffs", "uta1_bldg_cliffs", -1126234432)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-20.000, 1.000, 30.000);
+	SeqNo(-1126234432);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("uta1_bldg_catwalk2", "uta1_bldg_catwalk2", -1109820939)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-20.000, 1.000, 30.000);
+	SeqNo(-1109820939);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("Uta1_bldg_macy", "Uta1_bldg_macy", -820562722)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-20.000, 1.000, 30.000);
+	SeqNo(-820562722);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("uta1_bldg_beams_hanger3", "uta1_bldg_beams_hanger", -721859392)
+{
+	ChildRotation(0.993, 0.000, -0.122, 0.000);
+	ChildPosition(49.048, 17.805, -174.964);
+	SeqNo(-721859392);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("uta1_bldg_lizardpen", "uta1_bldg_lizardpen", -604475412)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-20.000, 1.000, 30.000);
+	SeqNo(-604475412);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("uta1_bldg_turtleshell", "uta1_bldg_turtleshell", -410070556)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-20.000, 1.000, 30.000);
+	SeqNo(-410070556);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("uta1_bldg_macy_up_pillars01", "uta1_bldg_macy_up_pillars01", -132576477)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-20.000, 1.000, 30.000);
+	SeqNo(-132576477);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("uta1_bldg_macy_collision3", "uta1_bldg_macy_collision3", -37662365)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-20.000, 1.000, 30.000);
+	SeqNo(-37662365);
+	Team(0);
+	NetworkId(-1);
+}

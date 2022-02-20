@@ -1,0 +1,20 @@
+Version(1);
+RegionCount(2);
+
+Region("ctf_imp_home", 2)
+{
+	Layer(13);
+	Position(-548.125122, 6.993818, -1429.264526);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(4.500000, 2.000000, 4.500000);
+	Name("ctf_imp_home");
+}
+
+Region("ctf_all_home", 2)
+{
+	Layer(13);
+	Position(33.040520, -29.497639, 1214.951904);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(4.500000, 2.000000, 4.500000);
+	Name("ctf_all_home");
+}

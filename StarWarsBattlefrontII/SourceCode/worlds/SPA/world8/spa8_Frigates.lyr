@@ -1,0 +1,182 @@
+Version(3);
+SaveType(0);
+
+Camera("camera")
+{
+	Rotation(0.756, 0.443, -0.415, 0.243);
+	Position(1349.858, 3031.450, -564.093);
+	FieldOfView(55.400);
+	NearPlane(1.000);
+	FarPlane(10000.000);
+	ZoomFactor(1.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(-105.701, 454.844, 3230.084,  0.124, 0.023, -0.975, 0.180);
+}
+LightName("spa8_frigates.LGT");
+ControllerManager("StandardCtrlMgr");
+
+WorldExtents()
+{
+	Min(0.000000, 0.000000, 0.000000);
+	Max(0.000000, 0.000000, 0.000000);
+}
+
+NextSequence(-4108391);
+
+Object("all_frig1_tur1", "all_bldg_frigateturret", 222143018)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(-1080.378, 41.431, 80.308);
+	SeqNo(222143018);
+	Team(2);
+	NetworkId(-1);
+	Layer(12);
+}
+
+Object("all_frig3_tur3", "all_bldg_frigateturret", 531035372)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(939.000, -46.586, 1229.526);
+	SeqNo(531035372);
+	Team(2);
+	NetworkId(-1);
+	Layer(12);
+}
+
+Object("all_frig1_tur3", "all_bldg_frigateturret", 702979307)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(-1107.913, 46.742, 230.397);
+	SeqNo(702979307);
+	Team(2);
+	NetworkId(-1);
+	Layer(12);
+}
+
+Object("all_frig3_tur1", "all_bldg_frigateturret", 1247257517)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(959.187, -54.435, 1078.038);
+	SeqNo(1247257517);
+	Team(2);
+	NetworkId(-1);
+	Layer(12);
+}
+
+Object("imp_frig1", "spa1_prop_minidestroyer2", 1282647006)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(246.179, -150.948, -696.471);
+	SeqNo(1282647006);
+	Team(1);
+	NetworkId(-1);
+	Layer(12);
+}
+
+Object("imp_frig3", "spa1_prop_minidestroyer2", 1619680715)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-1682.000, -43.000, -1073.000);
+	SeqNo(1619680715);
+	Team(1);
+	NetworkId(-1);
+	Layer(12);
+}
+
+Object("imp_frig1_tur3", "imp_bldg_frigateturret", 1732349134)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(282.770, -141.885, -647.152);
+	SeqNo(1732349134);
+	Team(1);
+	NetworkId(-1);
+	Layer(12);
+}
+
+Object("imp_frig1_tur2", "imp_bldg_frigateturret", 1738697551)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(210.345, -143.219, -640.572);
+	SeqNo(1738697551);
+	Team(1);
+	NetworkId(-1);
+	Layer(12);
+}
+
+Object("all_frig3", "spa1_prop_correliancruiser", 1922853522)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(961.344, -92.893, 1240.276);
+	SeqNo(1922853522);
+	Team(2);
+	NetworkId(-1);
+	Layer(12);
+}
+
+Object("imp_frig3_tur3", "imp_bldg_frigateturret", -2023956624)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-1645.563, -36.391, -1018.168);
+	SeqNo(-2023956624);
+	Team(1);
+	NetworkId(-1);
+	Layer(12);
+}
+
+Object("imp_frig1_tur1", "imp_bldg_frigateturret", -1673196537)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(246.444, -146.325, -485.920);
+	SeqNo(-1673196537);
+	Team(1);
+	NetworkId(-1);
+	Layer(12);
+}
+
+Object("imp_frig3_tur1", "imp_bldg_frigateturret", -1271256802)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-1681.889, -40.832, -856.935);
+	SeqNo(-1271256802);
+	Team(1);
+	NetworkId(-1);
+	Layer(12);
+}
+
+Object("all_frig3_tur2", "all_bldg_frigateturret", -681072369)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(978.249, -45.971, 1225.512);
+	SeqNo(-681072369);
+	Team(2);
+	NetworkId(-1);
+	Layer(12);
+}
+
+Object("all_frig1_tur2", "all_bldg_frigateturret", -556225677)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(-1057.766, 46.819, 228.990);
+	SeqNo(-556225677);
+	Team(2);
+	NetworkId(-1);
+	Layer(12);
+}
+
+Object("all_frig1", "spa1_prop_correliancruiser", -224151516)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(-1079.073, 0.000, 240.316);
+	SeqNo(-224151516);
+	Team(2);
+	NetworkId(-1);
+	Layer(12);
+}

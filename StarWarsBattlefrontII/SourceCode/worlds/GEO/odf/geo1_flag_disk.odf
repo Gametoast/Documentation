@@ -1,0 +1,29 @@
+[GameObjectClass]		
+
+ClassLabel		=	"flag"
+GeometryName	=	"geo_icon_disk.msh"
+
+[Properties]		
+
+Lighting			= "Dynamic"
+
+IconTexture			= ""
+MapTexture			= ""
+MapScale			= ""
+
+GeometryName	=	"geo_icon_disk"
+
+CarriedGeometryName =   "geo_icon_disk"
+CarriedOffset		= "0.0 2.5 0.0"
+CarriedColorize		= 1
+
+PickupSound			= "health_recharge defer"
+DropSound			= ""
+AmbientSound		= ""
+
+LifeSpan			= 50.0
+
+LightODF			= "flaglight"
+
+[InstanceProperties]
+

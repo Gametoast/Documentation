@@ -1,0 +1,20 @@
+Version(1);
+RegionCount(2);
+
+Region("cis1_hangar_rgn", 0)
+{
+	Layer(4);
+	Position(-1017.660828, -136.991974, -221.710358);
+	Rotation(0.922715, 0.000000, 0.385495, 0.000000);
+	Size(110.000000, 16.000000, 60.000000);
+	Name("cis1_hangar_rgn");
+}
+
+Region("rep2_hangar_rgn", 0)
+{
+	Layer(4);
+	Position(-459.082153, 11.379074, 1222.927734);
+	Rotation(0.985604, 0.000000, 0.169073, 0.000000);
+	Size(50.000000, 15.000000, 40.000000);
+	Name("rep2_hangar_rgn");
+}

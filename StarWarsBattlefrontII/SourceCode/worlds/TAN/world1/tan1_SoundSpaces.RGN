@@ -1,0 +1,129 @@
+Version(1);
+RegionCount(14);
+
+Region("soundspace bridge", 0)
+{
+	Layer(12);
+	Position(-373.016876, 6.806091, -134.286743);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(18.123535, 10.299532, 21.058449);
+	Name("Bridge");
+}
+
+Region("soundspace controlroom", 0)
+{
+	Layer(12);
+	Position(-333.465759, 7.144597, -149.133118);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(23.177765, 8.612010, 20.549652);
+	Name("controlroom");
+}
+
+Region("soundspace confroom", 0)
+{
+	Layer(12);
+	Position(-333.355621, 3.594679, -109.202568);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(22.657867, 6.599213, 17.898582);
+	Name("confroom");
+}
+
+Region("soundspace podaccessfoyer", 0)
+{
+	Layer(12);
+	Position(-304.053955, 6.465235, -163.565399);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(7.655304, 6.655883, 12.600052);
+	Name("podaccessfoyer");
+}
+
+Region("soundspace podaccess", 0)
+{
+	Layer(12);
+	Position(-283.756287, 5.987600, -180.396927);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(13.693420, 7.913974, 29.978027);
+	Name("podaccess");
+}
+
+Region("soundspace reception", 0)
+{
+	Layer(12);
+	Position(-280.225861, 1.402173, -130.967102);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(24.627289, 11.082783, 13.363564);
+	Name("reception");
+}
+
+Region("soundspace turbinehall", 0)
+{
+	Layer(12);
+	Position(-259.784027, 6.787426, -166.816849);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(11.062683, 5.788518, 23.066666);
+	Name("turbinehall");
+}
+
+Region("soundspace turbineroom", 0)
+{
+	Layer(12);
+	Position(-227.872437, 10.538611, -121.892105);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(22.533447, 8.773792, 39.272949);
+	Name("turbineroom");
+}
+
+Region("soundspace turbinestairwell", 0)
+{
+	Layer(12);
+	Position(-241.657898, 11.260931, -75.611122);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(15.994827, 9.019232, 9.636354);
+	Name("turbinestairwell");
+}
+
+Region("soundspace ReceptionHall", 0)
+{
+	Layer(12);
+	Position(-277.402954, -1.526514, -113.928329);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(28.027405, 10.000000, 4.716278);
+	Name("ReceptionHall");
+}
+
+Region("soundspace podhall2", 0)
+{
+	Layer(12);
+	Position(-255.695038, 6.334189, -91.156776);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(6.305878, 5.724086, 27.962891);
+	Name("podhall2");
+}
+
+Region("soundspace podbay", 0)
+{
+	Layer(12);
+	Position(-278.622406, 6.162066, -87.840439);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(22.324860, 6.681759, 22.645432);
+	Name("podbay");
+}
+
+Region("soundspace Accesshall", 0)
+{
+	Layer(12);
+	Position(-280.448120, 6.774264, -147.462479);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(30.217255, 7.567235, 4.615814);
+	Name("Accesshall");
+	NextIsGrouped();
+}
+
+Region("soundspace Accesshall", 0)
+{
+	Layer(12);
+	Position(-306.800140, 1.057378, -127.073143);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(4.175171, 10.000000, 19.070656);
+	Name("AccessHall2");
+}

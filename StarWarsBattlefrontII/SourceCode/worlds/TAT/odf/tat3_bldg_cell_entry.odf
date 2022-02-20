@@ -1,0 +1,36 @@
+[GameObjectClass]       
+
+ClassLabel      =   "prop"
+GeometryName    =   "tat3_bldg_cell_entry.msh"
+
+
+[Properties]        
+
+GeometryName    =   "tat3_bldg_cell_entry"
+
+
+AttachEffect = "prop_steampipe"
+
+AttachToHardPoint = "hp_steam_1"
+AttachToHardPoint = "hp_steam_2"
+AttachToHardPoint = "hp_steam_3"
+AttachToHardPoint = "hp_steam_4"
+AttachToHardPoint = "hp_steam_5"
+AttachToHardPoint = "hp_steam_6"
+AttachToHardPoint = "hp_steam_7"
+AttachToHardPoint = "hp_steam_8"
+//AttachToHardPoint = "hp_steam_9"
+
+AttachOdf = "tat3_light_reservoir_02"
+AttachToHardPoint = "hp_light_a"
+AttachToHardPoint = "hp_light_c"
+AttachToHardPoint = "hp_light_d"
+AttachToHardPoint = "hp_light_e"
+AttachToHardPoint = "hp_light_f"
+AttachToHardPoint = "hp_light_g"
+AttachToHardPoint = "hp_light_h"
+
+AttachOdf = "tat3_prop_static_light"
+AttachToHardPoint = "hp_light_b"
+AttachToHardPoint = "hp_light_i"
+

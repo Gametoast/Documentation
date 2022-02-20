@@ -1,0 +1,58 @@
+Version(1);
+RegionCount(6);
+
+Region("Soundstream imp_amb_hangar 1.0", 1)
+{
+    Layer(9);
+    Position(-895.553345, -72.686172, 397.106354);
+    Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+    Size(84.536682, 0.000000, 0.000000);
+    Name("ImpHangar-SR");
+}
+
+Region("Soundstream imp_amb_commandroom", 1)
+{
+    Layer(9);
+    Position(-959.842773, -84.373848, 396.293365);
+    Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+    Size(30.441288, 0.000000, 0.000000);
+    Name("ImpCommandRoom");
+}
+
+Region("Soundstream cis_amb_hangar 1.0", 1)
+{
+    Layer(9);
+    Position(-245.918259, -314.751099, 1822.939941);
+    Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+    Size(139.503860, 0.000000, 0.000000);
+    Name("CisHangar-SR");
+}
+
+Region("soundstream cw_amb_space 1.0", 1)
+{
+    Layer(9);
+    Position(-621.417969, 7.399796, 437.691254);
+    Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+    Size(3990.652832, 10.000000, 0.100000);
+    Name("space_amb");
+}
+
+
+Region("Soundtrigger imp_loudspeaker", 0)
+{
+    Layer(9);
+    Position(-895.553345, -72.686172, 397.106354);
+    Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+    Size(44.121277, 25.309677, 67.396484);
+    Name("ImpHangar-SS");
+}
+
+
+Region("Soundtrigger cis_loudspeaker", 0)
+{
+    Layer(9);
+    Position(-245.918259, -314.751099, 1822.939941);
+    Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+    Size(113.929558, 18.218094, 78.240601);
+    Name("CISHangar-SS");
+}

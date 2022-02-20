@@ -1,0 +1,20 @@
+Version(1);
+RegionCount(2);
+
+Region("rep_ctf_home", 1)
+{
+	Layer(13);
+	Position(-899.000, 774.000, -2194.000);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(15.000000, 15.000000, 15.000000);
+	Name("rep_ctf_home");
+}
+
+Region("cis_ctf_home", 1)
+{
+	Layer(13);
+	Position(-373.000, 769.000, 1296.000);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(15.000000, 15.000000, 15.000000);
+	Name("cis_ctf_home");
+}

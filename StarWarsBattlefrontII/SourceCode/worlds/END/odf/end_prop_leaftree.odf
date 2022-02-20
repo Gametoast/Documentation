@@ -1,0 +1,30 @@
+[GameObjectClass]		
+
+ClassLabel		=	"prop"
+GeometryName	=	"end_prop_leaftree1.msh"
+
+
+[Properties]		
+
+GeometryName	=	"end_prop_leaftree1"
+
+AttachOdf = "end_prop_leafpatch"
+
+
+AttachToHardPoint = "hp_branch_6 120.0"
+AttachToHardPoint = "hp_branch_7 90.0"
+AttachToHardPoint = "hp_branch_9 120.0"
+AttachToHardPoint = "hp_branch_11 120.0"
+AttachToHardPoint = "hp_branch_2 120.0"
+AttachToHardPoint = "hp_branch_3 100.0"
+
+AttachOdf = "end_prop_leafpatch2"
+
+AttachToHardPoint = "hp_branch_15 100.0"
+AttachToHardPoint = "hp_branch_17 90.0"
+AttachToHardPoint = "hp_branch_12 80.0"
+
+AttachOdf = "end_prop_godray"
+AttachToHardPoint = "hp_branch_2"
+AttachToHardPoint = "hp_branch_7"
+AttachToHardPoint = "hp_branch_11"

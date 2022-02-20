@@ -1,0 +1,16 @@
+[GameObjectClass]
+
+ClassLabel      =   "animatedprop"
+GeometryName    =   "tat3_bldg_jabba.msh"
+
+
+[Properties]
+
+GeometryName    =   "tat3_bldg_jabba"
+AnimationName   =   "tat3_bldg_jabba"
+Animation       =   "idle"
+Animation       =   "grab"
+
+SoundProperty = "jabba_amb"
+
+AnimationTrigger    =   "grab hp_hotspot 3.0"

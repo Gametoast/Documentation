@@ -1,0 +1,62 @@
+Version(3);
+SaveType(0);
+
+Camera("camera")
+{
+	Rotation(0.500, 0.265, -0.729, 0.386);
+	Position(821.204, 282.979, 88.852);
+	FieldOfView(55.400);
+	NearPlane(1.000);
+	FarPlane(5000.000);
+	ZoomFactor(1.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(639.646, 233.826, -16.656,  0.854, 0.354, 0.354, -0.146);
+}
+LightName("spa1_RumbleRegions.LGT");
+ControllerManager("StandardCtrlMgr");
+
+WorldExtents()
+{
+	Min(0.000000, 0.000000, 0.000000);
+	Max(0.000000, 0.000000, 0.000000);
+}
+
+NextSequence(-3705784);
+
+Object("spa_rum_caves", "spa_rum_caves", 852662697)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(941.000, 22.000, 79.000);
+	SeqNo(852662697);
+	Team(0);
+	NetworkId(-1);
+	Layer(9);
+}
+
+Object("spa_rum_shield", "spa_rum_shield", 1146485388)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(938.305, 23.225, 78.670);
+	SeqNo(1146485388);
+	Team(0);
+	NetworkId(-1);
+	Layer(9);
+}
+
+Object("spa_rum_engines", "spa_rum_engines", -1995110288)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(939.358, 22.613, 77.173);
+	SeqNo(-1995110288);
+	Team(0);
+	NetworkId(-1);
+	Layer(9);
+}

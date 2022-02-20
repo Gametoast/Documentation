@@ -1,0 +1,110 @@
+Version(1);
+RegionCount(12);
+
+Region("Soundspace engineroom", 0)
+{
+    Layer(7);
+    Position(-3.357288, -25.247412, 1259.845215);
+    Rotation(0.996955, 0.000000, 0.078277, 0.000000);
+    Size(14.546356, 5.408525, 20.492144);
+    Name("AllEngineroom");
+}
+
+Region("Soundspace shieldgenroom", 2)
+{
+    Layer(7);
+    Position(-36.336205, -32.106571, 1225.187988);
+    Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+    Size(10.000000, 16.855030, 10.784668);
+    Name("allShieldgenroom");
+}
+
+Region("Soundspace serverroom", 0)
+{
+    Layer(7);
+    Position(-15.049706, -22.950342, 1186.047119);
+    Rotation(0.997619, 0.000000, 0.069113, 0.000000);
+    Size(14.336975, 5.804697, 16.864941);
+    Name("Allserverroom-SS");
+}
+
+Region("Soundspace commandroom", 0)
+{
+    Layer(7);
+    Position(-3.160233, -25.598583, 1219.527832);
+    Rotation(0.996848, 0.000000, 0.079388, 0.000000);
+    Size(21.043579, 6.660427, 19.925779);
+    Name("AllCommandRoom-SS");
+}
+
+Region("Soundspace Hangar", 0)
+{
+    Layer(7);
+    Position(60.842529, -19.202925, 1218.152710);
+    Rotation(0.996080, 0.000000, 0.088505, 0.000000);
+    Size(42.007339, 17.314911, 61.320255);
+    Name("AllHangar-SS");
+}
+
+Region("Soundtrigger all_loudspeaker", 0)
+{
+    Layer(7);
+    Position(59.085190, -19.202925, 1218.152710);
+    Rotation(0.996052, 0.000000, 0.089155, 0.000000);
+    Size(41.432709, 17.314911, 61.320274);
+    Name("AllHangar-SPKR");
+}
+
+Region("Soundspace Hangar", 0)
+{
+    Layer(7);
+    Position(-579.505859, 17.428391, -1422.192993);
+    Rotation(0.991794, 0.000000, 0.128111, 0.000000);
+    Size(46.992416, 17.453827, 62.624916);
+    Name("ImpHangar-SS");
+}
+
+Region("Soundpsace serverroom", 0)
+{
+    Layer(7);
+    Position(-498.031647, 7.816953, -1402.310791);
+    Rotation(0.991639, 0.000000, 0.129218, 0.000000);
+    Size(15.044785, 6.976384, 16.979479);
+    Name("ImpServeroom-SS");
+}
+
+Region("Soundspace shieldgenroom", 2)
+{
+    Layer(7);
+    Position(-480.789612, -0.137012, -1444.512817);
+    Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+    Size(10.000000, 17.803164, 10.904053);
+    Name("Impshieldgenroom-SS");
+}
+
+Region("Soundspace commandroom", 0)
+{
+    Layer(7);
+    Position(-512.737793, 8.532787, -1435.349243);
+    Rotation(0.990604, 0.000000, 0.136926, 0.000000);
+    Size(22.043556, 8.064339, 21.439968);
+    Name("ImpCommandRoom-SS");
+}
+
+Region("Soundspace engineroom", 0)
+{
+    Layer(7);
+    Position(-516.901550, 7.623239, -1473.359497);
+    Rotation(0.990401, 0.000000, 0.138463, 0.000000);
+    Size(14.150192, 6.095483, 19.501118);
+    Name("ImpengineRoom");
+}
+
+Region("Soundtrigger imp_loudspeaker", 0)
+{
+    Layer(7);
+    Position(-572.967773, 16.120247, -1414.621094);
+    Rotation(0.991697, 0.000000, 0.128653, 0.000000);
+    Size(40.957031, 21.045010, 65.988548);
+    Name("ImpHangar-SPKR");
+}

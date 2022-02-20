@@ -1,0 +1,438 @@
+Version(3);
+SaveType(0);
+
+Camera("camera")
+{
+	Rotation(0.830, 0.492, 0.227, -0.134);
+	Position(-520.744, 66.504, -1428.453);
+	FieldOfView(55.400);
+	NearPlane(1.000);
+	FarPlane(10000.000);
+	ZoomFactor(1.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(741.536, 1357.152, -1802.419,  0.671, 0.348, -0.581, 0.301);
+}
+LightName("spa8_capitalShips.LGT");
+ControllerManager("StandardCtrlMgr");
+
+WorldExtents()
+{
+	Min(0.000000, 0.000000, 0.000000);
+	Max(0.000000, 0.000000, 0.000000);
+}
+
+NextSequence(-4108391);
+
+Object("imp_cap1_engine1", "imp_cap_dest_engine_1", 18021525)
+{
+	ChildRotation(0.992, 0.000, 0.130, 0.000);
+	ChildPosition(-589.497, 17.845, -2372.397);
+	SeqNo(18021525);
+	Team(1);
+	NetworkId(-1);
+	Layer(3);
+}
+
+Object("imp_cap1_engine3", "imp_cap_dest_engine_1", 310453245)
+{
+	ChildRotation(0.992, 0.000, 0.130, 0.000);
+	ChildPosition(15.163, 19.845, -2375.868);
+	SeqNo(310453245);
+	Team(1);
+	NetworkId(-1);
+	Layer(3);
+}
+
+Object("all_cap1_engine6", "all_cap_rebelcruiser_destruct6", 322003489)
+{
+	ChildRotation(1.000, 0.000, 0.012, 0.000);
+	ChildPosition(-570.000, -17.000, 2186.000);
+	SeqNo(322003489);
+	Team(2);
+	NetworkId(-1);
+	Layer(3);
+}
+
+Object("all_cap1_sensor_prop", "rep_assultship_destruct_sensorprop", 399086758)
+{
+	ChildRotation(0.705, 0.070, 0.702, 0.071);
+	ChildPosition(-278.096, 139.330, 2732.440);
+	SeqNo(399086758);
+	Team(2);
+	NetworkId(-1);
+	Layer(3);
+}
+
+Object("imp_cap1_bigtur2", "spa1_prop_imp_shipturret", 451781063)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(24.206, 87.142, -2001.246);
+	SeqNo(451781063);
+	Team(1);
+	NetworkId(-1);
+	Layer(3);
+}
+
+Object("all_cap1_engine1", "all_cap_rebelcruiser_destruct5", 626132936)
+{
+	ChildRotation(1.000, 0.000, 0.012, 0.000);
+	ChildPosition(-8.928, -8.217, 2163.165);
+	SeqNo(626132936);
+	Team(2);
+	NetworkId(-1);
+	Layer(3);
+}
+
+Object("imp_cap1_shield_ext_r", "imp_cap_stardestroyer_destruct3", 633979275)
+{
+	ChildRotation(1.000, 0.000, -0.029, 0.000);
+	ChildPosition(-174.536, 404.842, -2303.351);
+	SeqNo(633979275);
+	Team(1);
+	NetworkId(-1);
+	Layer(3);
+	CaptureRegion("");
+	ControlRegion("");
+	KillRegion("");
+	SpawnPath("");
+	AllyPath("");
+	AllyCount("65536");
+	Radius("0.0");
+	ValueBleed("10");
+	Value_ATK_Alliance("20");
+	Value_ATK_CIS("10");
+	Value_ATK_Empire("10");
+	Value_ATK_Republic("10");
+	Value_DEF_Alliance("20");
+	Value_DEF_CIS("10");
+	Value_DEF_Empire("10");
+	Value_DEF_Republic("10");
+	Value_DEF_Locals("10");
+	VO_All_AllCapture("");
+	VO_All_AllLost("");
+	VO_All_AllInDispute("");
+	VO_All_AllSaved("");
+	VO_All_AllInfo("");
+	VO_All_ImpCapture("");
+	VO_All_ImpLost("");
+	VO_All_ImpInDispute("");
+	VO_All_ImpSaved("");
+	VO_All_ImpInfo("");
+	VO_Imp_AllCapture("");
+	VO_Imp_AllLost("");
+	VO_Imp_AllInDispute("");
+	VO_Imp_AllSaved("");
+	VO_Imp_AllInfo("");
+	VO_Imp_ImpCapture("");
+	VO_Imp_ImpLost("");
+	VO_Imp_ImpInDispute("");
+	VO_Imp_ImpSaved("");
+	VO_Imp_ImpInfo("");
+	VO_Rep_RepCapture("");
+	VO_Rep_RepLost("");
+	VO_Rep_RepInDispute("");
+	VO_Rep_RepSaved("");
+	VO_Rep_RepInfo("");
+	VO_Rep_CISCapture("");
+}
+
+Object("all_cap1_engine5", "all_cap_rebelcruiser_destruct4", 700514380)
+{
+	ChildRotation(1.000, 0.000, 0.012, 0.000);
+	ChildPosition(-379.601, -114.336, 2799.528);
+	SeqNo(700514380);
+	Team(2);
+	NetworkId(-1);
+	Layer(3);
+}
+
+Object("imp_cap1_sensor", "rep_assultship_destruct_sensorrly", 798278236)
+{
+	ChildRotation(1.000, 0.000, -0.009, 0.000);
+	ChildPosition(-306.007, 89.787, -962.996);
+	SeqNo(798278236);
+	Team(1);
+	NetworkId(-1);
+	Layer(3);
+}
+
+Object("all_cap1_bridge", "all_cap_rebelcruiser_dest_tower", 1093988852)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(-323.000, 162.000, 681.000);
+	SeqNo(1093988852);
+	Team(2);
+	NetworkId(-1);
+	Layer(3);
+}
+
+Object("imp_cap1_comms", "rep_assultship_destruct_commarray", 1188043061)
+{
+	ChildRotation(0.793, 0.000, -0.609, 0.000);
+	ChildPosition(-289.300, 242.347, -2225.819);
+	SeqNo(1188043061);
+	Team(1);
+	NetworkId(-1);
+	Layer(3);
+}
+
+Object("all_cap1_bigtur2", "spa1_prop_all_shipturret", 1263117845)
+{
+	ChildRotation(0.152, 0.000, -0.988, 0.000);
+	ChildPosition(-627.615, -3.334, 891.989);
+	SeqNo(1263117845);
+	Team(2);
+	NetworkId(-1);
+	Layer(3);
+}
+
+Object("imp_cap1_engine2", "imp_cap_dest_engine_1", 1640998520)
+{
+	ChildRotation(0.992, 0.000, 0.130, 0.000);
+	ChildPosition(-290.790, 4.846, -2424.405);
+	SeqNo(1640998520);
+	Team(1);
+	NetworkId(-1);
+	Layer(3);
+}
+
+Object("imp_cap1_body4", "imp_cap_stardestroyer4", 1645229445)
+{
+	ChildRotation(0.992, 0.000, 0.130, 0.000);
+	ChildPosition(-554.513, 19.038, -1478.744);
+	SeqNo(1645229445);
+	Team(1);
+	NetworkId(-1);
+	Layer(3);
+}
+
+Object("imp_cap1_body3", "imp_cap_stardestroyer3", -1808105450)
+{
+	ChildRotation(0.992, 0.000, 0.130, 0.000);
+	ChildPosition(-554.514, 19.038, -1478.746);
+	SeqNo(-1808105450);
+	Team(1);
+	NetworkId(-1);
+	Layer(3);
+}
+
+Object("all_cap1_engine4", "all_cap_rebelcruiser_destruct3", -1768052825)
+{
+	ChildRotation(1.000, 0.000, 0.012, 0.000);
+	ChildPosition(-400.481, 22.653, 2772.501);
+	SeqNo(-1768052825);
+	Team(2);
+	NetworkId(-1);
+	Layer(3);
+}
+
+Object("all_cap1_bigtur1", "spa1_prop_all_shipturret", -1756023547)
+{
+	ChildRotation(-0.221, 0.000, -0.975, 0.000);
+	ChildPosition(7.191, -3.552, 876.235);
+	SeqNo(-1756023547);
+	Team(2);
+	NetworkId(-1);
+	Layer(3);
+}
+
+Object("imp_cap1_body1", "imp_cap_stardestroyer1", -1713915761)
+{
+	ChildRotation(0.992, 0.000, 0.130, 0.000);
+	ChildPosition(-554.514, 19.038, -1478.740);
+	SeqNo(-1713915761);
+	Team(1);
+	NetworkId(-1);
+	Layer(3);
+}
+
+Object("imp_cap1_sensor_prop", "rep_assultship_destruct_sensorprop", -1644441191)
+{
+	ChildRotation(1.000, 0.000, -0.009, 0.000);
+	ChildPosition(-306.009, 89.787, -962.997);
+	SeqNo(-1644441191);
+	Team(1);
+	NetworkId(-1);
+	Layer(3);
+}
+
+Object("all_cap1_comms", "rep_assultship_destruct_commarray", -1180352437)
+{
+	ChildRotation(0.708, 0.000, 0.706, 0.000);
+	ChildPosition(-306.512, 155.581, 1555.364);
+	SeqNo(-1180352437);
+	Team(2);
+	NetworkId(-1);
+	Layer(3);
+}
+
+Object("all_cap1_sensor", "rep_assultship_destruct_sensorrly", -1174581787)
+{
+	ChildRotation(0.705, 0.070, 0.702, 0.071);
+	ChildPosition(-278.096, 139.330, 2732.440);
+	SeqNo(-1174581787);
+	Team(2);
+	NetworkId(-1);
+	Layer(3);
+}
+
+Object("all_cap1_body2", "all_cap_rebelcruiser2", -1067777193)
+{
+	ChildRotation(1.000, 0.000, 0.012, 0.000);
+	ChildPosition(-305.080, -17.005, 1452.000);
+	SeqNo(-1067777193);
+	Team(2);
+	NetworkId(-1);
+	Layer(3);
+}
+
+Object("all_cap1_body", "all_cap_rebelcruiser", -996836029)
+{
+	ChildRotation(1.000, 0.000, 0.012, 0.000);
+	ChildPosition(-305.080, -17.005, 1452.000);
+	SeqNo(-996836029);
+	Team(2);
+	NetworkId(-1);
+	Layer(3);
+}
+
+Object("imp_cap1_life_ext", "rep_assultship_destruct_lifesupport", -982507416)
+{
+	ChildRotation(0.992, 0.000, 0.130, 0.000);
+	ChildPosition(-292.899, -105.221, -1897.022);
+	SeqNo(-982507416);
+	Team(1);
+	NetworkId(-1);
+	Layer(3);
+}
+
+Object("all_cap1_engine2", "all_cap_rebelcruiser_destruct1", -955179844)
+{
+	ChildRotation(1.000, 0.000, 0.012, 0.000);
+	ChildPosition(-146.981, 24.764, 2762.149);
+	SeqNo(-955179844);
+	Team(2);
+	NetworkId(-1);
+	Layer(3);
+}
+
+Object("imp_cap1_body2", "imp_cap_stardestroyer2", -720010725)
+{
+	ChildRotation(0.992, 0.000, 0.130, 0.000);
+	ChildPosition(-554.513, 19.038, -1478.741);
+	SeqNo(-720010725);
+	Team(1);
+	NetworkId(-1);
+	Layer(3);
+}
+
+Object("all_cap_rebelcruiser_door1", "all_cap_rebelcruiser_door", -686714309)
+{
+	ChildRotation(-0.080, 0.000, -0.997, 0.000);
+	ChildPosition(-709.404, -28.383, 1216.605);
+	SeqNo(-686714309);
+	Team(0);
+	NetworkId(-1);
+	Layer(3);
+}
+
+Object("all_cap1_engine3", "all_cap_rebelcruiser_destruct2", -667793255)
+{
+	ChildRotation(1.000, 0.000, 0.012, 0.000);
+	ChildPosition(-163.725, -115.708, 2793.886);
+	SeqNo(-667793255);
+	Team(2);
+	NetworkId(-1);
+	Layer(3);
+}
+
+Object("imp_cap1_bigtur1", "spa1_prop_imp_shipturret", -498126177)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-616.336, 88.565, -2011.375);
+	SeqNo(-498126177);
+	Team(1);
+	NetworkId(-1);
+	Layer(3);
+}
+
+Object("imp_cap1_bridge", "imp_cap_stardestroyer_dest_tower", -355225852)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-281.000, 405.000, -2288.000);
+	SeqNo(-355225852);
+	Team(1);
+	NetworkId(-1);
+	Layer(3);
+}
+
+Object("all_cap1_life_ext", "rep_assultship_destruct_lifesupport", -280180570)
+{
+	ChildRotation(0.708, 0.000, 0.706, 0.000);
+	ChildPosition(-297.610, -66.312, 292.699);
+	SeqNo(-280180570);
+	Team(2);
+	NetworkId(-1);
+	Layer(3);
+}
+
+Object("imp_cap1_shield_ext_l", "imp_cap_stardestroyer_destruct3", -103137648)
+{
+	ChildRotation(0.525, 0.000, 0.851, 0.000);
+	ChildPosition(-388.715, 403.842, -2302.956);
+	SeqNo(-103137648);
+	Team(1);
+	NetworkId(-1);
+	Layer(3);
+	CaptureRegion("");
+	ControlRegion("");
+	KillRegion("");
+	SpawnPath("");
+	AllyPath("");
+	AllyCount("65536");
+	Radius("0.0");
+	ValueBleed("10");
+	Value_ATK_Alliance("20");
+	Value_ATK_CIS("10");
+	Value_ATK_Empire("10");
+	Value_ATK_Republic("10");
+	Value_DEF_Alliance("20");
+	Value_DEF_CIS("10");
+	Value_DEF_Empire("10");
+	Value_DEF_Republic("10");
+	Value_DEF_Locals("10");
+	VO_All_AllCapture("");
+	VO_All_AllLost("");
+	VO_All_AllInDispute("");
+	VO_All_AllSaved("");
+	VO_All_AllInfo("");
+	VO_All_ImpCapture("");
+	VO_All_ImpLost("");
+	VO_All_ImpInDispute("");
+	VO_All_ImpSaved("");
+	VO_All_ImpInfo("");
+	VO_Imp_AllCapture("");
+	VO_Imp_AllLost("");
+	VO_Imp_AllInDispute("");
+	VO_Imp_AllSaved("");
+	VO_Imp_AllInfo("");
+	VO_Imp_ImpCapture("");
+	VO_Imp_ImpLost("");
+	VO_Imp_ImpInDispute("");
+	VO_Imp_ImpSaved("");
+	VO_Imp_ImpInfo("");
+	VO_Rep_RepCapture("");
+	VO_Rep_RepLost("");
+	VO_Rep_RepInDispute("");
+	VO_Rep_RepSaved("");
+	VO_Rep_RepInfo("");
+	VO_Rep_CISCapture("");
+}

@@ -1,0 +1,27 @@
+[GameObjectClass]		
+
+ClassLabel		=	"prop"
+GeometryName	=	"nab_prop_trees2.msh"
+
+
+[Properties]		
+
+GeometryName	=	"nab_prop_trees2"
+
+VehicleCollisionOnly	=	"p_collision_vehicle"
+VehicleCollision = "CollisionMesh"
+
+AttachOdf = "nab_prop_leafpatch"
+
+AttachToHardPoint = "hp_branch_1"
+AttachToHardPoint = "hp_branch_2"
+AttachToHardPoint = "hp_branch_3"
+AttachToHardPoint = "hp_branch_4"
+AttachToHardPoint = "hp_branch_5"
+
+DenyFlyerLand = "1"
+
+
+
+
+

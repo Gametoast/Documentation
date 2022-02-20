@@ -1,0 +1,25 @@
+[GameObjectClass]
+ClassLabel			= "flag"
+GeometryName		= "fel1_icon_powercell.msh"
+
+[Properties]
+Lighting			= "Dynamic"
+
+IconTexture			= ""
+MapTexture			= ""
+MapScale			= ""
+
+GeometryName			= "fel1_icon_powercell"
+CarriedGeometryName 		= "fel_icon_powercell_carried"
+SoldierAttachBone 		= "bone_pelvis"
+
+PickupSound			= "health_recharge defer"
+DropSound			= ""
+AmbientSound			= ""
+
+LifeSpan			= 50.0
+
+LightODF			= "flaglight"
+
+[InstanceProperties]
+

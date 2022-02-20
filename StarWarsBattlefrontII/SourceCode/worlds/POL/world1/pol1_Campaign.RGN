@@ -1,0 +1,182 @@
+Version(1);
+RegionCount(20);
+
+Region("CP2CaptureCamp", 0)
+{
+	Layer(9);
+	Position(-61.062683, 28.074348, -25.183847);
+	Rotation(0.924863, 0.000000, 0.380369, 0.000000);
+	Size(12.844835, 5.492996, 15.816357);
+	Name("Region 1");
+}
+
+Region("CP1CaptureCamp", 2)
+{
+	Layer(9);
+	Position(-95.805054, 35.295494, -59.576553);
+	Rotation(0.390111, 0.000000, -0.920768, 0.000000);
+	Size(6.031288, 2.931409, 7.341125);
+	Name("CP1CaptureCamp");
+}
+
+Region("CP4CaptureCamp", 2)
+{
+	Layer(9);
+	Position(66.577560, 22.811764, -61.522270);
+	Rotation(0.929641, 0.000000, 0.368492, 0.000000);
+	Size(7.546694, 10.000000, 6.499427);
+	Name("CP4CaptureCamp");
+}
+
+Region("Deathregion1", 2)
+{
+	Layer(9);
+	Position(67.246651, -1.463682, -61.453396);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(39.382301, 10.000000, 10.000000);
+	Name("REgion60");
+}
+
+Region("CP2Control", 0)
+{
+	Layer(9);
+	Position(-53.407764, 23.330257, -17.708220);
+	Rotation(0.930767, 0.000000, 0.365632, 0.000000);
+	Size(8.284271, 7.620105, 7.342490);
+	Name("Region200");
+}
+
+Region("TankControl2", 0)
+{
+	Layer(9);
+	Position(-87.497589, 25.385303, 124.775688);
+	Rotation(0.922946, 0.000000, -0.384979, 0.000000);
+	Size(11.047228, 4.581598, 18.254009);
+	Name("TankControl2");
+}
+
+Region("CP3CaptureCamp", 2)
+{
+	Layer(9);
+	Position(109.449409, 16.671085, 51.303562);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(2.426796, 8.386684, 4.569172);
+	Name("Region0");
+}
+
+Region("ambush_trigger_1 ", 0)
+{
+	Layer(9);
+	Position(-55.332069, 25.247396, -48.363270);
+	Rotation(0.987715, 0.000000, -0.156310, 0.000000);
+	Size(10.892670, 15.463829, 42.827919);
+	Name("ambush_trigger_1");
+}
+
+Region("ambush_trigger_2", 0)
+{
+	Layer(9);
+	Position(-96.803917, 30.025055, -60.948196);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(34.472176, 8.761417, 34.527763);
+	Name("ambush_trigger_2");
+}
+
+Region("ambush_trigger_3", 0)
+{
+	Layer(9);
+	Position(-101.298920, 30.143913, -5.064115);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(26.750740, 10.000000, 8.663197);
+	Name("ambush_trigger_3");
+}
+
+Region("ambush_trigger_4", 0)
+{
+	Layer(9);
+	Position(-96.773918, 27.608505, 109.671669);
+	Rotation(0.922666, 0.000000, 0.385624, 0.000000);
+	Size(10.000000, 15.422787, 41.953331);
+	Name("ambush_trigger_4");
+}
+
+Region("ambush_trigger_5", 0)
+{
+	Layer(9);
+	Position(99.725502, 16.681953, 105.117973);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(18.140518, 10.000000, 17.276024);
+	Name("ambush_trigger_5");
+}
+
+Region("ambush_trigger_7", 0)
+{
+	Layer(9);
+	Position(104.939354, 19.317577, 50.241432);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(36.253410, 24.073776, 41.686714);
+	Name("ambush_trigger_7");
+}
+
+Region("ambush_trigger_8", 0)
+{
+	Layer(9);
+	Position(18.531178, 28.064974, -62.744244);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(10.005177, 7.921797, 38.293594);
+	Name("ambush_trigger_8");
+}
+
+Region("ambush_trigger_10", 0)
+{
+	Layer(9);
+	Position(101.264061, 17.560913, -11.349391);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(34.894051, 28.545631, 17.542625);
+	Name("ambush_trigger_10");
+}
+
+Region("TankControl", 0)
+{
+	Layer(9);
+	Position(97.254211, -15.818794, 102.214691);
+	Rotation(0.999967, 0.000000, 0.009802, 0.000000);
+	Size(16.386784, 35.375877, 10.774538);
+	Name("TankControl");
+}
+
+Region("fakecapture", 0)
+{
+	Layer(9);
+	Position(108.274979, -32.513451, 51.025295);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(10.000000, 10.000000, 10.000000);
+	Name("fakecapture");
+}
+
+Region("fakecapture2", 0)
+{
+	Layer(9);
+	Position(68.831741, 9.863472, -62.627743);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(2.871132, 1.739412, 2.447353);
+	Name("fakecapture2");
+}
+
+Region("TankControl1", 0)
+{
+	Layer(9);
+	Position(-60.367275, 26.953197, -24.538029);
+	Rotation(0.925873, 0.000000, 0.377851, 0.000000);
+	Size(12.298897, 6.317894, 16.707293);
+	Name("TankControl1");
+}
+
+Region("", 0)
+{
+	Layer(9);
+	Position(-25.500652, 39.289799, 76.821899);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(10.000000, 10.000000, 10.000000);
+	Name("Region2");
+}

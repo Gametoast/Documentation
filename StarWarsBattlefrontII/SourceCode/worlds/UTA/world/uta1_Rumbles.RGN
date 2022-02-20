@@ -1,0 +1,20 @@
+Version(1);
+RegionCount(2);
+
+Region("rumble uta_rum_caves hangar", 2)
+{
+	Layer(13);
+	Position(-40.849800, -126.271767, -67.334869);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(221.035004, 57.136639, 3.023323);
+	Name("uta_vel_bot_rum");
+}
+
+Region("rumble uta_rum_wind hangar", 2)
+{
+	Layer(13);
+	Position(-33.402267, -46.473511, -79.972427);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(248.906677, 26.651901, 10.000000);
+	Name("uta_vel_top_rum");
+}

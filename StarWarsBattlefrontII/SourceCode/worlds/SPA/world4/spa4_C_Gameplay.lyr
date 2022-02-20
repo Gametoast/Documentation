@@ -1,0 +1,1172 @@
+Version(3);
+SaveType(6);
+
+Camera("camera")
+{
+	Rotation(0.187, 0.067, -0.923, 0.330);
+	Position(-208.732, -293.283, 1887.952);
+	FieldOfView(55.400);
+	NearPlane(1.000);
+	FarPlane(5000.000);
+	ZoomFactor(1.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(-897.158, -81.350, 399.401,  0.594, 0.291, 0.674, -0.330);
+}
+GameTime(726926);
+ControllerManager("StandardCtrlMgr");
+
+WorldExtents()
+{
+	Min(0.000000, 0.000000, 0.000000);
+	Max(0.000000, 0.000000, 0.000000);
+}
+
+NextSequence(-3705784);
+
+Object("spa_prop_doorwaysignr1", "spa_prop_doorwaysignr", 16477310)
+{
+	ChildRotation(0.710, 0.000, 0.705, 0.000);
+	ChildPosition(-980.216, -82.995, 395.389);
+	SeqNo(16477310);
+	Team(0);
+	NetworkId(-1);
+	Layer(4);
+}
+
+Object("CIS_06", "com_item_vehicle_spawn", 172543671)
+{
+	ChildRotation(0.717, 0.000, -0.697, 0.000);
+	ChildPosition(-202.920, -331.363, 1821.383);
+	SeqNo(172543671);
+	Team(2);
+	NetworkId(-1);
+	Label("CIS_06");
+	Layer(4);
+	ControlZone("CAM_cp2");
+	SpawnCount("3");
+	SpawnTime("5");
+	ExpireTimeEnemy("20.0");
+	ExpireTimeField("40.0");
+	DecayTime("10.0");
+	ClassNeutral("");
+	ClassAllATK("");
+	ClassCISATK("");
+	ClassImpATK("");
+	ClassRepATK("");
+	ClassLocATK("");
+	ClassHisATK("");
+	ClassAllDEF("");
+	ClassCISDEF("cis_fly_tridroidfighter");
+	ClassImpDEF("");
+	ClassRepDEF("");
+	ClassLocDEF("");
+	ClassHisDEF("");
+	ClassLocals("");
+}
+
+Object("cis_gunship", "com_item_vehicle_spawn", 367445897)
+{
+	ChildRotation(0.793, 0.000, -0.609, 0.000);
+	ChildPosition(-893.189, -86.083, 398.683);
+	SeqNo(367445897);
+	Team(2);
+	NetworkId(-1);
+	Label("cis_gunship");
+	Layer(4);
+	ControlZone("");
+	SpawnCount("1");
+	SpawnTime("3600");
+	ExpireTimeEnemy("20.0");
+	ExpireTimeField("40.0");
+	DecayTime("10.0");
+	ClassNeutral("");
+	ClassAllATK("");
+	ClassCISATK("");
+	ClassImpATK("");
+	ClassRepATK("");
+	ClassLocATK("");
+	ClassHisATK("");
+	ClassAllDEF("");
+	ClassCISDEF("cis_fly_droidgunship");
+	ClassImpDEF("");
+	ClassRepDEF("");
+	ClassLocDEF("");
+	ClassHisDEF("");
+	ClassLocals("");
+}
+
+Object("cis_bomber", "com_item_vehicle_spawn", 404587728)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(-260.471, -331.363, 1809.340);
+	SeqNo(404587728);
+	Team(1);
+	NetworkId(-1);
+	Label("cis_bomber");
+	Layer(4);
+	ControlZone("CAM_cp2");
+	SpawnCount("1");
+	SpawnTime("5");
+	ExpireTimeEnemy("20.0");
+	ExpireTimeField("40.0");
+	DecayTime("10.0");
+	ClassNeutral("");
+	ClassAllATK("");
+	ClassCISATK("");
+	ClassImpATK("");
+	ClassRepATK("");
+	ClassLocATK("");
+	ClassHisATK("");
+	ClassAllDEF("");
+	ClassCISDEF("cis_fly_greviousfighter");
+	ClassImpDEF("");
+	ClassRepDEF("");
+	ClassLocDEF("");
+	ClassHisDEF("");
+	ClassLocals("");
+}
+
+Object("Imp_chair04", "spa_veh_turret_chair", 497466704)
+{
+	ChildRotation(0.709, 0.000, -0.705, 0.000);
+	ChildPosition(-954.586, -86.982, 395.423);
+	SeqNo(497466704);
+	Team(1);
+	NetworkId(-1);
+	Label("Imp_chair04");
+	Layer(4);
+	RemoteGameObject("Imp_gun04");
+	NextLinkedTerminal("Imp_chair05");
+	PrevLinkedTerminal("Imp_chair03");
+}
+
+Object("land_box01", "all_bldg_target", 547991889)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-914.000, -86.715, 395.000);
+	SeqNo(547991889);
+	Team(0);
+	NetworkId(-1);
+	Label("land_box01");
+	Layer(4);
+}
+
+Object("CIS_05", "com_item_vehicle_spawn", 548567808)
+{
+	ChildRotation(0.717, 0.000, -0.697, 0.000);
+	ChildPosition(-202.920, -331.363, 1805.384);
+	SeqNo(548567808);
+	Team(2);
+	NetworkId(-1);
+	Label("CIS_05");
+	Layer(4);
+	ControlZone("CAM_cp2");
+	SpawnCount("3");
+	SpawnTime("5");
+	ExpireTimeEnemy("20.0");
+	ExpireTimeField("40.0");
+	DecayTime("10.0");
+	ClassNeutral("");
+	ClassAllATK("");
+	ClassCISATK("");
+	ClassImpATK("");
+	ClassRepATK("");
+	ClassLocATK("");
+	ClassHisATK("");
+	ClassAllDEF("");
+	ClassCISDEF("cis_fly_tridroidfighter");
+	ClassImpDEF("");
+	ClassRepDEF("");
+	ClassLocDEF("");
+	ClassHisDEF("");
+	ClassLocals("");
+}
+
+Object("spa_prop_doorwaysignr", "spa_prop_doorwaysignr", 588034855)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(-967.025, -83.004, 413.740);
+	SeqNo(588034855);
+	Team(0);
+	NetworkId(-1);
+	Layer(4);
+}
+
+Object("shield_object", "all_bldg_target", 880416016)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-247.000, -269.000, 1203.000);
+	SeqNo(880416016);
+	Team(0);
+	NetworkId(-1);
+	Label("shield_object");
+	Layer(4);
+}
+
+Object("Imp_chair03", "spa_veh_turret_chair", 891419521)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(-962.345, -86.980, 404.186);
+	SeqNo(891419521);
+	Team(1);
+	NetworkId(-1);
+	Label("Imp_chair03");
+	Layer(4);
+	RemoteGameObject("Imp_gun03");
+	NextLinkedTerminal("Imp_chair04");
+	PrevLinkedTerminal("Imp_chair02");
+}
+
+Object("Imp_chair05", "spa_veh_turret_chair", 929459724)
+{
+	ChildRotation(0.917, 0.000, -0.399, 0.000);
+	ChildPosition(-956.234, -87.042, 389.771);
+	SeqNo(929459724);
+	Team(1);
+	NetworkId(-1);
+	Label("Imp_chair05");
+	Layer(4);
+	RemoteGameObject("Imp_gun05");
+	NextLinkedTerminal("imp_chair06");
+	PrevLinkedTerminal("Imp_chair04");
+}
+
+Object("CP2", "com_bldg_controlzone_CTF", 936874919)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(-242.783, -327.639, 1754.922);
+	SeqNo(936874919);
+	Team(0);
+	NetworkId(-1);
+	Label("CAM_cp2");
+	Layer(4);
+	CaptureRegion("");
+	ControlRegion("CAM_cp2Control");
+	SpawnPath("");
+	TurretPath("");
+	AllyPath("");
+	AllyCount("65536");
+	Radius("0.0");
+	ValueBleed_Alliance("0");
+	ValueBleed_CIS("0");
+	ValueBleed_Empire("0");
+	ValueBleed_Republic("0");
+	ValueBleed_Neutral("0");
+	ValueBleed_Locals("0");
+	Value_ATK_Alliance("10");
+	Value_ATK_CIS("10");
+	Value_ATK_Empire("10");
+	Value_ATK_Republic("10");
+	Value_ATK_Locals("0");
+	Value_DEF_Alliance("10");
+	Value_DEF_CIS("10");
+	Value_DEF_Empire("10");
+	Value_DEF_Republic("10");
+	Value_DEF_Locals("10");
+	VO_All_AllCapture("");
+	VO_All_AllLost("");
+	VO_All_AllInDispute("");
+	VO_All_AllSaved("");
+	VO_All_AllInfo("");
+	VO_All_ImpCapture("");
+	VO_All_ImpLost("");
+	VO_All_ImpInDispute("");
+	VO_All_ImpSaved("");
+	VO_All_ImpInfo("");
+	VO_Imp_AllCapture("");
+	VO_Imp_AllLost("");
+	VO_Imp_AllInDispute("");
+	VO_Imp_AllSaved("");
+	VO_Imp_AllInfo("");
+	VO_Imp_ImpCapture("");
+	VO_Imp_ImpLost("");
+	VO_Imp_ImpInDispute("");
+	VO_Imp_ImpSaved("");
+	VO_Imp_ImpInfo("");
+	VO_Rep_RepCapture("");
+	VO_Rep_RepLost("");
+	VO_Rep_RepInDispute("");
+	VO_Rep_RepSaved("");
+	VO_Rep_RepInfo("");
+	VO_Rep_CISCapture("");
+	VO_Rep_CISLost("");
+	VO_Rep_CISInDispute("");
+	VO_Rep_CISSaved("");
+	VO_Rep_CISInfo("");
+	VO_CIS_RepCapture("");
+	VO_CIS_RepLost("");
+	VO_CIS_RepInDispute("");
+	VO_CIS_RepSaved("");
+	VO_CIS_RepInfo("");
+	VO_CIS_CISCapture("");
+	VO_CIS_CISLost("");
+	VO_CIS_CISInDispute("");
+	VO_CIS_CISSaved("");
+	VO_CIS_CISInfo("");
+	SoldierBan("");
+	HoverBan("");
+	SmallBan("");
+	MediumBan("");
+	HugeBan("");
+	FlyerBan("");
+	AISpawnWeight("");
+	HUDIndex("");
+	HUDIndexDisplay("1");
+}
+
+Object("Imp_gun04", "tur_bldg_spa_imp_recoilless", 975419153)
+{
+	ChildRotation(0.709, 0.000, 0.705, 0.000);
+	ChildPosition(-848.000, -40.000, 472.000);
+	SeqNo(975419153);
+	Team(0);
+	NetworkId(-1);
+	Label("Imp_gun04");
+	Layer(4);
+}
+
+Object("CIS_03", "com_item_vehicle_spawn", 1020498296)
+{
+	ChildRotation(0.718, 0.000, -0.696, 0.000);
+	ChildPosition(-231.859, -331.363, 1832.863);
+	SeqNo(1020498296);
+	Team(2);
+	NetworkId(-1);
+	Label("CIS_03");
+	Layer(4);
+	ControlZone("CP2");
+	SpawnCount("1");
+	SpawnTime("5");
+	ExpireTimeEnemy("20.0");
+	ExpireTimeField("40.0");
+	DecayTime("10.0");
+	ClassNeutral("");
+	ClassAllATK("");
+	ClassCISATK("");
+	ClassImpATK("");
+	ClassRepATK("");
+	ClassLocATK("");
+	ClassHisATK("");
+	ClassAllDEF("");
+	ClassCISDEF("cis_fly_tridroidfighter");
+	ClassImpDEF("");
+	ClassRepDEF("");
+	ClassLocDEF("");
+	ClassHisDEF("");
+	ClassLocals("");
+}
+
+Object("CAM_cp2", "com_bldg_controlzone_CTF", 1059832107)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-245.494, -327.716, 1762.231);
+	SeqNo(1059832107);
+	Team(2);
+	NetworkId(-1);
+	Label("CAM_cp2");
+	Layer(4);
+	CaptureRegion("");
+	ControlRegion("CAM_cp2Control");
+	SpawnPath("CAM_cp2Spawn");
+	TurretPath("");
+	AllyPath("");
+	AllyCount("65536");
+	Radius("0.0");
+	ValueBleed_Alliance("0");
+	ValueBleed_CIS("0");
+	ValueBleed_Empire("0");
+	ValueBleed_Republic("0");
+	ValueBleed_Neutral("0");
+	ValueBleed_Locals("0");
+	Value_ATK_Alliance("10");
+	Value_ATK_CIS("10");
+	Value_ATK_Empire("10");
+	Value_ATK_Republic("10");
+	Value_ATK_Locals("0");
+	Value_DEF_Alliance("10");
+	Value_DEF_CIS("10");
+	Value_DEF_Empire("10");
+	Value_DEF_Republic("10");
+	Value_DEF_Locals("10");
+	VO_All_AllCapture("all_off_com_report_captured_commandpost");
+	VO_All_AllLost("all_off_com_report_lost_commandpost");
+	VO_All_AllInDispute("");
+	VO_All_AllSaved("");
+	VO_All_AllInfo("");
+	VO_All_ImpCapture("all_off_com_report_enemyCaptured_commandpost");
+	VO_All_ImpLost("");
+	VO_All_ImpInDispute("");
+	VO_All_ImpSaved("");
+	VO_All_ImpInfo("");
+	VO_Imp_AllCapture("imp_off_com_report_enemyCaptured_commandpost");
+	VO_Imp_AllLost("");
+	VO_Imp_AllInDispute("");
+	VO_Imp_AllSaved("");
+	VO_Imp_AllInfo("");
+	VO_Imp_ImpCapture("imp_off_com_report_captured_commandpost");
+	VO_Imp_ImpLost("imp_off_com_report_lost_commandpost");
+	VO_Imp_ImpInDispute("");
+	VO_Imp_ImpSaved("");
+	VO_Imp_ImpInfo("");
+	VO_Rep_RepCapture("rep_off_com_report_captured_commandpost");
+	VO_Rep_RepLost("rep_off_com_report_lost_commandpost");
+	VO_Rep_RepInDispute("");
+	VO_Rep_RepSaved("");
+	VO_Rep_RepInfo("");
+	VO_Rep_CISCapture("rep_off_com_report_enemyCaptured_commandpost");
+	VO_Rep_CISLost("");
+	VO_Rep_CISInDispute("");
+	VO_Rep_CISSaved("");
+	VO_Rep_CISInfo("");
+	VO_CIS_RepCapture("cis_off_com_report_enemyCaptured_commandpost");
+	VO_CIS_RepLost("");
+	VO_CIS_RepInDispute("");
+	VO_CIS_RepSaved("");
+	VO_CIS_RepInfo("");
+	VO_CIS_CISCapture("cis_off_com_report_captured_commandpost");
+	VO_CIS_CISLost("cis_off_com_report_lost_commandpost");
+	VO_CIS_CISInDispute("");
+	VO_CIS_CISSaved("");
+	VO_CIS_CISInfo("");
+	SoldierBan("");
+	HoverBan("");
+	SmallBan("");
+	MediumBan("");
+	HugeBan("");
+	FlyerBan("");
+	AISpawnWeight("");
+	HUDIndex("2");
+	HUDIndexDisplay("1");
+}
+
+Object("spa1_prop_fuelpod", "spa1_prop_fuelpod", 1068046160)
+{
+	ChildRotation(0.725, 0.000, -0.689, 0.000);
+	ChildPosition(-918.158, -86.763, 385.802);
+	SeqNo(1068046160);
+	Team(0);
+	NetworkId(-1);
+	Layer(4);
+}
+
+Object("spa2_prop_crate3", "spa2_prop_crate1", 1169683774)
+{
+	ChildRotation(0.791, 0.000, -0.612, 0.000);
+	ChildPosition(-920.311, -86.763, 389.908);
+	SeqNo(1169683774);
+	Team(0);
+	NetworkId(-1);
+	Layer(4);
+}
+
+Object("spa_prop_doorwaysignB", "spa_prop_doorwaysignB", 1331743626)
+{
+	ChildRotation(0.709, 0.000, -0.706, 0.000);
+	ChildPosition(-939.208, -83.051, 385.940);
+	SeqNo(1331743626);
+	Team(0);
+	NetworkId(-1);
+	Layer(4);
+}
+
+Object("spa2_prop_crate2", "spa2_prop_crate1", 1347752594)
+{
+	ChildRotation(0.760, 0.000, -0.650, 0.000);
+	ChildPosition(-914.049, -86.754, 375.564);
+	SeqNo(1347752594);
+	Team(0);
+	NetworkId(-1);
+	Layer(4);
+}
+
+Object("CIS_04", "com_item_vehicle_spawn", 1431905490)
+{
+	ChildRotation(0.716, 0.000, -0.698, 0.000);
+	ChildPosition(-286.552, -331.363, 1789.383);
+	SeqNo(1431905490);
+	Team(2);
+	NetworkId(-1);
+	Label("CIS_04");
+	Layer(4);
+	ControlZone("CAM_cp2");
+	SpawnCount("1");
+	SpawnTime("5");
+	ExpireTimeEnemy("20.0");
+	ExpireTimeField("40.0");
+	DecayTime("10.0");
+	ClassNeutral("");
+	ClassAllATK("");
+	ClassCISATK("");
+	ClassImpATK("");
+	ClassRepATK("");
+	ClassLocATK("");
+	ClassHisATK("");
+	ClassAllDEF("");
+	ClassCISDEF("cis_fly_tridroidfighter");
+	ClassImpDEF("");
+	ClassRepDEF("");
+	ClassLocDEF("");
+	ClassHisDEF("");
+	ClassLocals("");
+}
+
+Object("CIS_10", "com_item_vehicle_spawn", 1654625727)
+{
+	ChildRotation(0.716, 0.000, -0.698, 0.000);
+	ChildPosition(-340.407, -331.363, 1850.173);
+	SeqNo(1654625727);
+	Team(2);
+	NetworkId(-1);
+	Label("CIS_10");
+	Layer(4);
+	ControlZone("CAM_cp2");
+	SpawnCount("2");
+	SpawnTime("5");
+	ExpireTimeEnemy("20.0");
+	ExpireTimeField("40.0");
+	DecayTime("10.0");
+	ClassNeutral("");
+	ClassAllATK("");
+	ClassCISATK("");
+	ClassImpATK("");
+	ClassRepATK("");
+	ClassLocATK("");
+	ClassHisATK("");
+	ClassAllDEF("");
+	ClassCISDEF("cis_fly_droidfighter_sc");
+	ClassImpDEF("");
+	ClassRepDEF("");
+	ClassLocDEF("");
+	ClassHisDEF("");
+	ClassLocals("");
+}
+
+Object("spa1_prop_fuelpod1", "spa1_prop_fuelpod", 1693110448)
+{
+	ChildRotation(0.958, 0.000, 0.286, 0.000);
+	ChildPosition(-906.627, -86.763, 416.860);
+	SeqNo(1693110448);
+	Team(0);
+	NetworkId(-1);
+	Layer(4);
+}
+
+Object("spa_prop_doorwaysignB1", "spa_prop_doorwaysignB", 1767289361)
+{
+	ChildRotation(0.710, 0.000, -0.705, 0.000);
+	ChildPosition(-939.208, -83.051, 407.508);
+	SeqNo(1767289361);
+	Team(0);
+	NetworkId(-1);
+	Layer(4);
+}
+
+Object("Imp_chair01", "spa_veh_turret_chair", 1822655339)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-962.350, -86.982, 386.663);
+	SeqNo(1822655339);
+	Team(1);
+	NetworkId(-1);
+	Label("Imp_chair01");
+	Layer(4);
+	RemoteGameObject("Imp_gun01");
+	NextLinkedTerminal("Imp_chair02");
+	PrevLinkedTerminal("Imp_chair06");
+}
+
+Object("spa_prop_liquidgen", "spa_prop_liquidgen", 1953287527)
+{
+	ChildRotation(0.924, 0.000, -0.383, 0.000);
+	ChildPosition(-962.463, -86.201, 395.528);
+	SeqNo(1953287527);
+	Team(0);
+	NetworkId(-1);
+	Layer(4);
+}
+
+Object("IMP_01", "com_item_vehicle_spawn", 2049775929)
+{
+	ChildRotation(0.713, 0.000, 0.701, 0.000);
+	ChildPosition(-872.798, -86.214, 375.160);
+	SeqNo(2049775929);
+	Team(1);
+	NetworkId(-1);
+	Label("IMP_01");
+	Layer(4);
+	ControlZone("CAM_cp1");
+	SpawnCount("4");
+	SpawnTime("5");
+	ExpireTimeEnemy("20.0");
+	ExpireTimeField("40.0");
+	DecayTime("10.0");
+	ClassNeutral("");
+	ClassAllATK("");
+	ClassCISATK("");
+	ClassImpATK("imp_fly_tiefighter_sc");
+	ClassRepATK("");
+	ClassLocATK("");
+	ClassHisATK("");
+	ClassAllDEF("");
+	ClassCISDEF("");
+	ClassImpDEF("");
+	ClassRepDEF("");
+	ClassLocDEF("");
+	ClassHisDEF("");
+	ClassLocals("");
+}
+
+Object("CIS_09", "com_item_vehicle_spawn", 2135669245)
+{
+	ChildRotation(0.716, 0.000, -0.698, 0.000);
+	ChildPosition(-340.407, -331.363, 1834.173);
+	SeqNo(2135669245);
+	Team(2);
+	NetworkId(-1);
+	Label("CIS_09");
+	Layer(4);
+	ControlZone("CP2");
+	SpawnCount("2");
+	SpawnTime("5");
+	ExpireTimeEnemy("20.0");
+	ExpireTimeField("40.0");
+	DecayTime("10.0");
+	ClassNeutral("");
+	ClassAllATK("");
+	ClassCISATK("");
+	ClassImpATK("");
+	ClassRepATK("");
+	ClassLocATK("");
+	ClassHisATK("");
+	ClassAllDEF("");
+	ClassCISDEF("cis_fly_greviousfighter");
+	ClassImpDEF("");
+	ClassRepDEF("");
+	ClassLocDEF("");
+	ClassHisDEF("");
+	ClassLocals("");
+}
+
+Object("IMP_03", "com_item_vehicle_spawn", -2091597819)
+{
+	ChildRotation(0.714, 0.000, 0.700, 0.000);
+	ChildPosition(-872.000, -86.041, 399.000);
+	SeqNo(-2091597819);
+	Team(1);
+	NetworkId(-1);
+	Label("IMP_03");
+	Layer(4);
+	ControlZone("CAM_cp1");
+	SpawnCount("4");
+	SpawnTime("5");
+	ExpireTimeEnemy("20.0");
+	ExpireTimeField("40.0");
+	DecayTime("10.0");
+	ClassNeutral("");
+	ClassAllATK("");
+	ClassCISATK("");
+	ClassImpATK("imp_fly_tiebomber_sc");
+	ClassRepATK("");
+	ClassLocATK("");
+	ClassHisATK("");
+	ClassAllDEF("");
+	ClassCISDEF("");
+	ClassImpDEF("");
+	ClassRepDEF("");
+	ClassLocDEF("");
+	ClassHisDEF("");
+	ClassLocals("");
+}
+
+Object("Imp_gun03", "tur_bldg_spa_imp_chaingun", -2025906103)
+{
+	ChildRotation(0.708, 0.000, 0.706, 0.000);
+	ChildPosition(-859.597, -38.714, 744.242);
+	SeqNo(-2025906103);
+	Team(0);
+	NetworkId(-1);
+	Label("Imp_gun03");
+	Layer(4);
+}
+
+Object("CIS_11", "com_item_vehicle_spawn", -1722540012)
+{
+	ChildRotation(0.716, 0.000, -0.698, 0.000);
+	ChildPosition(-340.407, -331.363, 1866.173);
+	SeqNo(-1722540012);
+	Team(2);
+	NetworkId(-1);
+	Label("CIS_11");
+	Layer(4);
+	ControlZone("CP2");
+	SpawnCount("2");
+	SpawnTime("5");
+	ExpireTimeEnemy("20.0");
+	ExpireTimeField("40.0");
+	DecayTime("10.0");
+	ClassNeutral("");
+	ClassAllATK("");
+	ClassCISATK("");
+	ClassImpATK("");
+	ClassRepATK("");
+	ClassLocATK("");
+	ClassHisATK("");
+	ClassAllDEF("");
+	ClassCISDEF("cis_fly_greviousfighter");
+	ClassImpDEF("");
+	ClassRepDEF("");
+	ClassLocDEF("");
+	ClassHisDEF("");
+	ClassLocals("");
+}
+
+Object("CAM_cp1", "com_bldg_controlzone_CTF", -1709163549)
+{
+	ChildRotation(0.929, 0.000, -0.371, 0.000);
+	ChildPosition(-936.378, -86.725, 396.098);
+	SeqNo(-1709163549);
+	Team(0);
+	NetworkId(-1);
+	Label("CAM_cp1");
+	Layer(4);
+	CaptureRegion("");
+	ControlRegion("CAM_cp1Control");
+	SpawnPath("CAM_cp1Spawn");
+	TurretPath("");
+	AllyPath("");
+	AllyCount("65536");
+	Radius("0.0");
+	ValueBleed_Alliance("0");
+	ValueBleed_CIS("0");
+	ValueBleed_Empire("0");
+	ValueBleed_Republic("0");
+	ValueBleed_Neutral("0");
+	ValueBleed_Locals("0");
+	Value_ATK_Alliance("10");
+	Value_ATK_CIS("10");
+	Value_ATK_Empire("10");
+	Value_ATK_Republic("10");
+	Value_ATK_Locals("0");
+	Value_DEF_Alliance("10");
+	Value_DEF_CIS("10");
+	Value_DEF_Empire("10");
+	Value_DEF_Republic("10");
+	Value_DEF_Locals("10");
+	VO_All_AllCapture("all_off_com_report_captured_commandpost");
+	VO_All_AllLost("all_off_com_report_lost_commandpost");
+	VO_All_AllInDispute("");
+	VO_All_AllSaved("");
+	VO_All_AllInfo("");
+	VO_All_ImpCapture("all_off_com_report_enemyCaptured_commandpost");
+	VO_All_ImpLost("");
+	VO_All_ImpInDispute("");
+	VO_All_ImpSaved("");
+	VO_All_ImpInfo("");
+	VO_Imp_AllCapture("imp_off_com_report_enemyCaptured_commandpost");
+	VO_Imp_AllLost("");
+	VO_Imp_AllInDispute("");
+	VO_Imp_AllSaved("");
+	VO_Imp_AllInfo("");
+	VO_Imp_ImpCapture("imp_off_com_report_captured_commandpost");
+	VO_Imp_ImpLost("imp_off_com_report_lost_commandpost");
+	VO_Imp_ImpInDispute("");
+	VO_Imp_ImpSaved("");
+	VO_Imp_ImpInfo("");
+	VO_Rep_RepCapture("rep_off_com_report_captured_commandpost");
+	VO_Rep_RepLost("rep_off_com_report_lost_commandpost");
+	VO_Rep_RepInDispute("");
+	VO_Rep_RepSaved("");
+	VO_Rep_RepInfo("");
+	VO_Rep_CISCapture("rep_off_com_report_enemyCaptured_commandpost");
+	VO_Rep_CISLost("");
+	VO_Rep_CISInDispute("");
+	VO_Rep_CISSaved("");
+	VO_Rep_CISInfo("");
+	VO_CIS_RepCapture("cis_off_com_report_enemyCaptured_commandpost");
+	VO_CIS_RepLost("");
+	VO_CIS_RepInDispute("");
+	VO_CIS_RepSaved("");
+	VO_CIS_RepInfo("");
+	VO_CIS_CISCapture("cis_off_com_report_captured_commandpost");
+	VO_CIS_CISLost("cis_off_com_report_lost_commandpost");
+	VO_CIS_CISInDispute("");
+	VO_CIS_CISSaved("");
+	VO_CIS_CISInfo("");
+	SoldierBan("");
+	HoverBan("");
+	SmallBan("");
+	MediumBan("");
+	HugeBan("");
+	FlyerBan("");
+	AISpawnWeight("");
+	HUDIndex("1");
+	HUDIndexDisplay("1");
+}
+
+Object("CAM_cp3", "com_bldg_controlzone_CTF", -1672084872)
+{
+	ChildRotation(0.929, 0.000, -0.371, 0.000);
+	ChildPosition(-936.378, -86.725, 396.098);
+	SeqNo(-1672084872);
+	Team(1);
+	NetworkId(-1);
+	Label("CAM_cp3");
+	Layer(4);
+	CaptureRegion("");
+	ControlRegion("");
+	SpawnPath("CAM_cp3Spawn");
+	TurretPath("");
+	AllyPath("");
+	AllyCount("65536");
+	Radius("0.0");
+	ValueBleed_Alliance("0");
+	ValueBleed_CIS("0");
+	ValueBleed_Empire("0");
+	ValueBleed_Republic("0");
+	ValueBleed_Neutral("0");
+	ValueBleed_Locals("0");
+	Value_ATK_Alliance("0");
+	Value_ATK_CIS("0");
+	Value_ATK_Empire("0");
+	Value_ATK_Republic("0");
+	Value_ATK_Locals("0");
+	Value_DEF_Alliance("0");
+	Value_DEF_CIS("0");
+	Value_DEF_Empire("0");
+	Value_DEF_Republic("0");
+	Value_DEF_Locals("0");
+	VO_All_AllCapture("all_off_com_report_captured_commandpost");
+	VO_All_AllLost("all_off_com_report_lost_commandpost");
+	VO_All_AllInDispute("");
+	VO_All_AllSaved("");
+	VO_All_AllInfo("");
+	VO_All_ImpCapture("all_off_com_report_enemyCaptured_commandpost");
+	VO_All_ImpLost("");
+	VO_All_ImpInDispute("");
+	VO_All_ImpSaved("");
+	VO_All_ImpInfo("");
+	VO_Imp_AllCapture("imp_off_com_report_enemyCaptured_commandpost");
+	VO_Imp_AllLost("");
+	VO_Imp_AllInDispute("");
+	VO_Imp_AllSaved("");
+	VO_Imp_AllInfo("");
+	VO_Imp_ImpCapture("imp_off_com_report_captured_commandpost");
+	VO_Imp_ImpLost("imp_off_com_report_lost_commandpost");
+	VO_Imp_ImpInDispute("");
+	VO_Imp_ImpSaved("");
+	VO_Imp_ImpInfo("");
+	VO_Rep_RepCapture("rep_off_com_report_captured_commandpost");
+	VO_Rep_RepLost("rep_off_com_report_lost_commandpost");
+	VO_Rep_RepInDispute("");
+	VO_Rep_RepSaved("");
+	VO_Rep_RepInfo("");
+	VO_Rep_CISCapture("rep_off_com_report_enemyCaptured_commandpost");
+	VO_Rep_CISLost("");
+	VO_Rep_CISInDispute("");
+	VO_Rep_CISSaved("");
+	VO_Rep_CISInfo("");
+	VO_CIS_RepCapture("cis_off_com_report_enemyCaptured_commandpost");
+	VO_CIS_RepLost("");
+	VO_CIS_RepInDispute("");
+	VO_CIS_RepSaved("");
+	VO_CIS_RepInfo("");
+	VO_CIS_CISCapture("cis_off_com_report_captured_commandpost");
+	VO_CIS_CISLost("cis_off_com_report_lost_commandpost");
+	VO_CIS_CISInDispute("");
+	VO_CIS_CISSaved("");
+	VO_CIS_CISInfo("");
+	SoldierBan("");
+	HoverBan("");
+	SmallBan("");
+	MediumBan("");
+	HugeBan("");
+	FlyerBan("");
+	AISpawnWeight("");
+	HUDIndex("1");
+	HUDIndexDisplay("1");
+}
+
+Object("IMP_04", "com_item_vehicle_spawn", -1522188912)
+{
+	ChildRotation(0.713, 0.000, 0.701, 0.000);
+	ChildPosition(-872.000, -86.214, 423.169);
+	SeqNo(-1522188912);
+	Team(1);
+	NetworkId(-1);
+	Label("IMP_04");
+	Layer(4);
+	ControlZone("CAM_cp1");
+	SpawnCount("4");
+	SpawnTime("5");
+	ExpireTimeEnemy("20.0");
+	ExpireTimeField("40.0");
+	DecayTime("10.0");
+	ClassNeutral("");
+	ClassAllATK("");
+	ClassCISATK("");
+	ClassImpATK("imp_fly_tieinterceptor");
+	ClassRepATK("");
+	ClassLocATK("");
+	ClassHisATK("");
+	ClassAllDEF("");
+	ClassCISDEF("");
+	ClassImpDEF("");
+	ClassRepDEF("");
+	ClassLocDEF("");
+	ClassHisDEF("");
+	ClassLocals("");
+}
+
+Object("spa_prop_doorwaysignr2", "spa_prop_doorwaysignr", -1479199271)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-966.627, -83.022, 376.966);
+	SeqNo(-1479199271);
+	Team(0);
+	NetworkId(-1);
+	Layer(4);
+}
+
+Object("spa2_prop_crate4", "spa2_prop_crate1", -1278396457)
+{
+	ChildRotation(0.752, 0.000, 0.659, 0.000);
+	ChildPosition(-914.668, -86.765, 406.963);
+	SeqNo(-1278396457);
+	Team(0);
+	NetworkId(-1);
+	Layer(4);
+}
+
+Object("Imp_gun02", "tur_bldg_spa_imp_recoilless", -1200196355)
+{
+	ChildRotation(0.709, 0.000, 0.705, 0.000);
+	ChildPosition(-859.393, -40.373, 1038.108);
+	SeqNo(-1200196355);
+	Team(0);
+	NetworkId(-1);
+	Label("Imp_gun02");
+	Layer(4);
+}
+
+Object("CIS_01", "com_item_vehicle_spawn", -1086873179)
+{
+	ChildRotation(0.718, 0.000, -0.696, 0.000);
+	ChildPosition(-231.859, -331.363, 1864.862);
+	SeqNo(-1086873179);
+	Team(2);
+	NetworkId(-1);
+	Label("CIS_01");
+	Layer(4);
+	ControlZone("CP2");
+	SpawnCount("1");
+	SpawnTime("5");
+	ExpireTimeEnemy("20.0");
+	ExpireTimeField("40.0");
+	DecayTime("10.0");
+	ClassNeutral("");
+	ClassAllATK("");
+	ClassCISATK("");
+	ClassImpATK("");
+	ClassRepATK("");
+	ClassLocATK("");
+	ClassHisATK("");
+	ClassAllDEF("");
+	ClassCISDEF("cis_fly_tridroidfighter");
+	ClassImpDEF("");
+	ClassRepDEF("");
+	ClassLocDEF("");
+	ClassHisDEF("");
+	ClassLocals("");
+}
+
+Object("CIS_02", "com_item_vehicle_spawn", -1052088246)
+{
+	ChildRotation(0.718, 0.000, -0.696, 0.000);
+	ChildPosition(-231.859, -331.363, 1848.863);
+	SeqNo(-1052088246);
+	Team(2);
+	NetworkId(-1);
+	Label("CIS_02");
+	Layer(4);
+	ControlZone("CAM_cp2");
+	SpawnCount("2");
+	SpawnTime("5");
+	ExpireTimeEnemy("20.0");
+	ExpireTimeField("40.0");
+	DecayTime("10.0");
+	ClassNeutral("");
+	ClassAllATK("");
+	ClassCISATK("");
+	ClassImpATK("");
+	ClassRepATK("");
+	ClassLocATK("");
+	ClassHisATK("");
+	ClassAllDEF("");
+	ClassCISDEF("cis_fly_droidfighter_sc");
+	ClassImpDEF("");
+	ClassRepDEF("");
+	ClassLocDEF("");
+	ClassHisDEF("");
+	ClassLocals("");
+}
+
+Object("spa1_prop_fuelpod3", "spa1_prop_fuelpod", -964881711)
+{
+	ChildRotation(0.540, 0.000, 0.842, 0.000);
+	ChildPosition(-905.819, -86.763, 364.759);
+	SeqNo(-964881711);
+	Team(0);
+	NetworkId(-1);
+	Layer(4);
+}
+
+Object("Imp_gun06", "tur_bldg_spa_imp_chaingun", -953209622)
+{
+	ChildRotation(0.707, 0.000, 0.707, 0.000);
+	ChildPosition(-847.675, -80.476, 488.166);
+	SeqNo(-953209622);
+	Team(0);
+	NetworkId(-1);
+	Label("Imp_gun06");
+	Layer(4);
+}
+
+Object("Imp_chair06", "spa_veh_turret_chair", -745173607)
+{
+	ChildRotation(-0.398, 0.000, -0.917, 0.000);
+	ChildPosition(-968.208, -87.040, 401.245);
+	SeqNo(-745173607);
+	Team(1);
+	NetworkId(-1);
+	Label("Imp_chair06");
+	Layer(4);
+	RemoteGameObject("Imp_gun06");
+	NextLinkedTerminal("Imp_chair01");
+	PrevLinkedTerminal("Imp_chair05");
+}
+
+Object("CIS_07", "com_item_vehicle_spawn", -742720630)
+{
+	ChildRotation(0.716, 0.000, -0.698, 0.000);
+	ChildPosition(-286.552, -331.363, 1837.382);
+	SeqNo(-742720630);
+	Team(2);
+	NetworkId(-1);
+	Label("CIS_07");
+	Layer(4);
+	ControlZone("CP2");
+	SpawnCount("1");
+	SpawnTime("5");
+	ExpireTimeEnemy("20.0");
+	ExpireTimeField("40.0");
+	DecayTime("10.0");
+	ClassNeutral("");
+	ClassAllATK("");
+	ClassCISATK("");
+	ClassImpATK("");
+	ClassRepATK("");
+	ClassLocATK("");
+	ClassHisATK("");
+	ClassAllDEF("");
+	ClassCISDEF("cis_fly_tridroidfighter");
+	ClassImpDEF("");
+	ClassRepDEF("");
+	ClassLocDEF("");
+	ClassHisDEF("");
+	ClassLocals("");
+}
+
+Object("Imp_gun05", "tur_bldg_spa_imp_recoilless", -706481862)
+{
+	ChildRotation(0.708, 0.000, 0.706, 0.000);
+	ChildPosition(-829.000, -42.000, 288.000);
+	SeqNo(-706481862);
+	Team(0);
+	NetworkId(-1);
+	Label("Imp_gun05");
+	Layer(4);
+}
+
+Object("spa2_prop_crate1", "spa2_prop_crate1", -653479202)
+{
+	ChildRotation(-0.057, 0.000, -0.998, 0.000);
+	ChildPosition(-918.769, -86.766, 418.112);
+	SeqNo(-653479202);
+	Team(0);
+	NetworkId(-1);
+	Layer(4);
+}
+
+Object("CIS_08", "com_item_vehicle_spawn", -639132642)
+{
+	ChildRotation(0.716, 0.000, -0.698, 0.000);
+	ChildPosition(-340.407, -331.363, 1818.173);
+	SeqNo(-639132642);
+	Team(2);
+	NetworkId(-1);
+	Label("CIS_08");
+	Layer(4);
+	ControlZone("CAM_cp2");
+	SpawnCount("2");
+	SpawnTime("5");
+	ExpireTimeEnemy("20.0");
+	ExpireTimeField("40.0");
+	DecayTime("10.0");
+	ClassNeutral("");
+	ClassAllATK("");
+	ClassCISATK("");
+	ClassImpATK("");
+	ClassRepATK("");
+	ClassLocATK("");
+	ClassHisATK("");
+	ClassAllDEF("");
+	ClassCISDEF("cis_fly_tridroidfighter");
+	ClassImpDEF("");
+	ClassRepDEF("");
+	ClassLocDEF("");
+	ClassHisDEF("");
+	ClassLocals("");
+}
+
+Object("Imp_gun01", "tur_bldg_spa_imp_beam", -560118498)
+{
+	ChildRotation(0.707, 0.000, 0.707, 0.000);
+	ChildPosition(-833.934, -44.276, 1249.070);
+	SeqNo(-560118498);
+	Team(0);
+	NetworkId(-1);
+	Label("Imp_gun01");
+	Layer(4);
+}
+
+Object("Imp_chair02", "spa_veh_turret_chair", -286435369)
+{
+	ChildRotation(0.709, 0.000, 0.705, 0.000);
+	ChildPosition(-970.109, -86.982, 395.423);
+	SeqNo(-286435369);
+	Team(1);
+	NetworkId(-1);
+	Label("Imp_chair02");
+	Layer(4);
+	RemoteGameObject("Imp_gun02");
+	NextLinkedTerminal("Imp_chair03");
+	PrevLinkedTerminal("Imp_chair01");
+}
+
+Object("spa1_prop_fuelpod2", "spa1_prop_fuelpod", -32047076)
+{
+	ChildRotation(0.614, 0.000, 0.789, 0.000);
+	ChildPosition(-919.184, -86.763, 416.110);
+	SeqNo(-32047076);
+	Team(0);
+	NetworkId(-1);
+	Layer(4);
+}

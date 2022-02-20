@@ -1,0 +1,128 @@
+Version(1);
+NextID(1);
+
+Layer("[Base]", 0, 10)
+{
+	Description("");
+}
+
+Layer("Conquest", 3, 0)
+{
+	Description("");
+}
+
+Layer("Buildings01", 4, 0)
+{
+	Description("");
+}
+
+Layer("SoundRegions", 1, 0)
+{
+	Description("");
+}
+
+Layer("Roids01", 2, 0)
+{
+	Description("");
+}
+
+Layer("Damage01", 5, 0)
+{
+	Description("");
+}
+
+Layer("pol1_rumble", 6, 0)
+{
+	Description("");
+}
+
+Layer("CTF", 7, 0)
+{
+	Description("");
+}
+
+Layer("Common_Design", 8, 0)
+{
+	Description("");
+}
+
+Layer("Campaign", 9, 0)
+{
+	Description("");
+}
+
+Layer("Temp", 10, 0)
+{
+	Description("");
+}
+
+Layer("TDM", 11, 0)
+{
+	Description("");
+}
+
+Layer("SoundEmitters", 12, 0)
+{
+	Description("");
+}
+
+Layer("SoundSpaces", 13, 0)
+{
+	Description("");
+}
+
+Layer("1Flag", 14, 0)
+{
+	Description("");
+}
+
+Layer("death", 15, 0)
+{
+	Description("");
+}
+
+
+GameMode("Common")
+{
+	Layer(0);
+	Layer(1);
+	Layer(2);
+	Layer(4);
+	Layer(5);
+	Layer(6);
+	Layer(10);
+	Layer(12);
+	Layer(13);
+	Layer(15);
+}
+
+GameMode("Conquest")
+{
+	Layer(3);
+	Layer(8);
+}
+
+GameMode("CTF")
+{
+	Layer(7);
+	Layer(8);
+}
+
+GameMode("Campaign")
+{
+	Layer(8);
+	Layer(9);
+}
+
+GameMode("TDM")
+{
+	Layer(8);
+	Layer(11);
+}
+
+GameMode("1Flag")
+{
+	Layer(8);
+	Layer(14);
+}
+

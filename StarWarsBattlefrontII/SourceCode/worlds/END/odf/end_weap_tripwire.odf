@@ -1,0 +1,26 @@
+[GameObjectClass]		
+
+ClassLabel		=	"trap"
+GeometryName	=	"end_weap_tripwire.msh"
+
+
+[Properties]		
+GeometryName	=	"end_weap_tripwire"
+UnbuiltGeometryName	= "end_weap_tripwire"
+DestroyedGeometryName	= "end_weap_tripwire"
+TriggerCollision		= "1"
+RayTriggerWidth		= "4.7"
+RayTriggerMinSpeed	= "20.0"
+DeathOnCollision		= "1"
+HideUnbuiltModel		= "1"
+
+AnimationName 	= 	"end_weap_tripwire"
+TriggerAnimation	=	"trigger"
+BuildAnimation	=	"idle"
+BuildPoint		=	"hp_active"
+BuildModelOdf	=	"com_prop_buildzone"
+TriggerTeam		=	"imp"
+ResetTeam		=	"all"
+
+MaxHealth		=	1000.0
+

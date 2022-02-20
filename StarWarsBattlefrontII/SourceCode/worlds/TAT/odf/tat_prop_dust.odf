@@ -1,0 +1,21 @@
+[GameObjectClass]		
+
+ClassLabel		=	"dusteffect"
+GeometryName	=	"tat_prop_dust.msh"
+
+
+[Properties]		
+
+MinPos = "-40 0 -40"
+MaxPos = "30 15 30"
+MinVel = "2 0 2"
+MaxVel = "10 1 10"
+MinSize = "15"
+MaxSize = "20"
+MinLifeTime = "2"
+MaxLifeTime = "3"
+Alpha = "0.2"
+NumParticles = "80"
+MaxDistance = "150"
+Texture = "browndust"
+SpawnSound = ""

@@ -1,0 +1,132 @@
+Version(3);
+SaveType(0);
+
+Camera("camera")
+{
+	Rotation(0.531, 0.097, 0.828, -0.152);
+	Position(-284.289, 68.457, 224.824);
+	FieldOfView(55.400);
+	NearPlane(1.000);
+	FarPlane(5000.000);
+	ZoomFactor(1.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(-152.774, 79.858, 25.642,  0.295, 0.249, -0.705, 0.595);
+}
+LightName("dea1_light_region.LGT");
+ControllerManager("StandardCtrlMgr");
+
+WorldExtents()
+{
+	Min(0.000000, 0.000000, 0.000000);
+	Max(0.000000, 0.000000, 0.000000);
+}
+
+NextSequence(-3705784);
+
+Object("dea1_bldg_reactor_collision03", "dea1_bldg_reactor_collision03", 26466361)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-171.000, 50.000, 154.000);
+	SeqNo(26466361);
+	Team(0);
+	NetworkId(-1);
+	Layer(5);
+}
+
+Object("dea1_bldg_f_hanger_collision03", "dea1_bldg_f_hanger_collision03", 216963337)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-171.000, 50.000, 154.000);
+	SeqNo(216963337);
+	Team(0);
+	NetworkId(-1);
+	Layer(5);
+}
+
+Object("dea1_bldg_t_hanger_collision04", "dea1_bldg_t_hanger_collision04", 1018967464)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-171.000, 50.000, 154.000);
+	SeqNo(1018967464);
+	Team(0);
+	NetworkId(-1);
+	Layer(5);
+}
+
+Object("dea1_bldg_f_hanger_collision01", "dea1_bldg_f_hanger_collision01", 1025234880)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-171.000, 50.000, 154.000);
+	SeqNo(1025234880);
+	Team(0);
+	NetworkId(-1);
+	Layer(5);
+}
+
+Object("dea1_bldg_t_hanger_collision02", "dea1_bldg_t_hanger_collision02", 1207167187)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-171.000, 50.000, 154.000);
+	SeqNo(1207167187);
+	Team(0);
+	NetworkId(-1);
+	Layer(5);
+}
+
+Object("dea1_bldg_t_hanger_collision01", "dea1_bldg_t_hanger_collision01", 1693834611)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-171.000, 50.000, 154.000);
+	SeqNo(1693834611);
+	Team(0);
+	NetworkId(-1);
+	Layer(5);
+}
+
+Object("dea1_bldg_froom_spinner", "dea1_bldg_froom_spinner", -2133765013)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-171.000, 50.000, 154.000);
+	SeqNo(-2133765013);
+	Team(0);
+	NetworkId(-1);
+	Layer(5);
+}
+
+Object("dea1_bldg_f_hanger_collision02", "dea1_bldg_f_hanger_collision02", -2028813260)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-171.000, 50.000, 154.000);
+	SeqNo(-2028813260);
+	Team(0);
+	NetworkId(-1);
+	Layer(5);
+}
+
+Object("dea1_bldg_reactor_collision04", "dea1_bldg_reactor_collision04", -1099979239)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-171.000, 50.000, 154.000);
+	SeqNo(-1099979239);
+	Team(0);
+	NetworkId(-1);
+	Layer(5);
+}
+
+Object("dea1_bldg_t_hanger_collision03", "dea1_bldg_t_hanger_collision03", -104291539)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-171.000, 50.000, 154.000);
+	SeqNo(-104291539);
+	Team(0);
+	NetworkId(-1);
+	Layer(5);
+}

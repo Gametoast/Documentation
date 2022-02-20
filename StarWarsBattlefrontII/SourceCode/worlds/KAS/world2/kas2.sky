@@ -1,0 +1,195 @@
+SkyInfo()
+{
+	Enable(1);
+	FogColor(104,106,108,128);
+	PS2()
+	{
+		FogRange(0, 0);
+		NearSceneRange(0.5, 85.0, 100.0);
+		FarSceneRange(5000.0);
+		SplitOptions()
+		{
+			PropClusterEnable(1);
+			PropClusterFadeAdj(0.6);
+			PropClusterDensity(0.1);
+		}
+	}
+	XBOX()
+	{
+		FogRange(-100.0, 600.0);
+		NearSceneRange(0.5, 85.0, 100.0);
+		FarSceneRange(5000.0);
+		NearSplitScreenRange(0.2, 110.0, 160.0);
+		FarSplitScreenRange(0.0);
+		SplitOptions()
+		{
+			FogRange(5.0, 140.0);
+			PropClusterEnable(0);
+		}
+	}
+	PC()
+	{
+		NearSceneRange(30.0, 160.0, 40.0, 200.0);
+		FarSceneRange(5000.0, 5000.0);
+
+		FarSceneRange(5000.0);
+		FogRange(-100.0, 600.0);
+	}
+	
+}
+
+
+DomeInfo()
+{
+	Softness(1);
+	SoftnessParam(60);
+
+	PS2()
+	{
+		DomeModel()
+		{	
+			Geometry("kas2_sky_dome");
+		}
+	}
+	
+	XBOX()
+	{
+		TerrainBumpTexture("kas2_bump", 1.0);
+		
+		DomeModel()
+		{	
+			Geometry("kas2_sky_dome");
+		}
+		DomeModel()
+		{	
+			Geometry("kas2_sky_clouds");
+			rotationspeed(0.004, 0,1.0,0);
+			
+		
+		}
+		DomeModel()
+		{	
+			Geometry("kas2_sky_clouds2");
+			rotationspeed(0.003, 0,1.0,0);
+				Effect("spa_sfx_skydomeexplosions", "hp_sky_1", 1.0);
+			Effect("spa_sfx_skydomeexplosions", "hp_sky_2", 1.0);
+			Effect("spa_sfx_skydomeexplosions", "hp_sky_3", 3.0);
+			Effect("spa_sfx_skydomeexplosions", "hp_sky_4", 1.0);
+			Effect("spa_sfx_skydomeexplosions", "hp_sky_5", 1.0);
+			Effect("spa_sfx_skydomeexplosions", "hp_sky_6", 2.0);
+			Effect("spa_sfx_skydomeexplosions", "hp_sky_7", 1.0);
+			Effect("spa_sfx_skydomeexplosions", "hp_sky_8", 2.0);
+			Effect("spa_sfx_skydomeexplosions", "hp_sky_9", 1.0);
+			Effect("spa_sfx_skydomeexplosions", "hp_sky_10", 1.0);
+			Effect("spa_sfx_skydomeexplosions", "hp_sky_11", 3.0);
+			Effect("spa_sfx_skydomeexplosions", "hp_sky_12", 1.0);
+			Effect("spa_sfx_skydomeexplosions", "hp_sky_13", 1.0);
+			Effect("spa_sfx_skydomeexplosions", "hp_sky_14", 1.0);
+			Effect("spa_sfx_skydomeexplosions", "hp_sky_15", 2.0);
+		
+	
+		}
+	}
+	
+	PC()
+	{
+		TerrainBumpTexture("kas2_bump", 1.0);
+
+		DomeModel()
+		{	
+			Geometry("kas2_sky_dome");
+		}
+		DomeModel()
+		{	
+			Geometry("kas2_sky_clouds");
+			rotationspeed(0.004, 0,1.0,0);
+			
+		
+		}
+		DomeModel()
+		{	
+			Geometry("kas2_sky_clouds2");
+			rotationspeed(0.003, 0,1.0,0);
+				Effect("spa_sfx_skydomeexplosions", "hp_sky_1", 1.0);
+			Effect("spa_sfx_skydomeexplosions", "hp_sky_2", 1.0);
+			Effect("spa_sfx_skydomeexplosions", "hp_sky_3", 3.0);
+			Effect("spa_sfx_skydomeexplosions", "hp_sky_4", 1.0);
+			Effect("spa_sfx_skydomeexplosions", "hp_sky_5", 1.0);
+			Effect("spa_sfx_skydomeexplosions", "hp_sky_6", 2.0);
+			Effect("spa_sfx_skydomeexplosions", "hp_sky_7", 1.0);
+			Effect("spa_sfx_skydomeexplosions", "hp_sky_8", 2.0);
+			Effect("spa_sfx_skydomeexplosions", "hp_sky_9", 1.0);
+			Effect("spa_sfx_skydomeexplosions", "hp_sky_10", 1.0);
+			Effect("spa_sfx_skydomeexplosions", "hp_sky_11", 3.0);
+			Effect("spa_sfx_skydomeexplosions", "hp_sky_12", 1.0);
+			Effect("spa_sfx_skydomeexplosions", "hp_sky_13", 1.0);
+			Effect("spa_sfx_skydomeexplosions", "hp_sky_14", 1.0);
+			Effect("spa_sfx_skydomeexplosions", "hp_sky_15", 2.0);
+		
+	
+		}
+	}
+
+	
+	LowResTerrain()
+	{
+		Texture("kas2");
+		PatchResolution(8);
+		PC()
+		{
+			MaxDistance(1500);
+			DetailTexture("kas2_far_detail");
+			DetailTextureScale(0.5);
+		}
+		XBOX()
+		{
+			DetailTexture("kas2_far_detail");
+			DetailTextureScale(0.5);
+		}
+
+	}
+}
+
+
+SkyObject()
+{
+	Geometry("rep_fly_cat_dome");
+	NumObjects(3);
+	Height(80, 140);
+	VelocityZ(60, 100);
+	VelocityY(-10, 10);
+	Distance(300);
+	InDirectionFactor(0.5);
+}
+
+SkyObject()
+{
+	Geometry("rep_fly_cat_dome");
+	NumObjects(3);
+	Height(80, 120);
+	VelocityZ(80, 100);
+	VelocityY(-10, 10);
+	Distance(200);
+	InDirectionFactor(0.5);
+}
+SkyObject()
+{
+	Geometry("cis_fly_gunship_dome");
+	NumObjects(3);
+	Height(90, 140);
+	VelocityZ(60, 100);
+	VelocityY(-10, 10);
+	Distance(350);
+	InDirectionFactor(0.5);
+}
+
+SkyObject()
+{
+	Geometry("rcis_fly_gunship_dome");
+	NumObjects(3);
+	Height(80, 200);
+	VelocityZ(80, 100);
+	VelocityY(-10, 10);
+	Distance(100);
+	InDirectionFactor(0.5);
+}

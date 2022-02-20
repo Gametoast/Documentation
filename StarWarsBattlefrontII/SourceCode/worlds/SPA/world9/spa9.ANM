@@ -1,0 +1,103 @@
+Animation("list1", 210.00, 0, 0)
+{
+	AddPositionKey(0.00, 0.00, 0.00, 0.00, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
+	AddPositionKey(209.90, -200.00, -1000.00, 500.00, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
+	AddPositionKey(210.00, -5000.00, 0.00, 0.00, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
+	AddRotationKey(0.00, 0.00, 0.00, 0.00, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
+	AddRotationKey(90.00, 30.00, -10.00, 0.00, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
+}
+
+Animation("list2", 180.00, 0, 0)
+{
+	AddPositionKey(0.00, 0.00, 0.00, 0.00, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
+	AddPositionKey(179.90, 400.00, -1400.00, 0.00, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
+	AddPositionKey(180.00, -5050.00, 0.00, 0.00, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
+	AddRotationKey(0.00, 0.00, 0.00, 0.00, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
+	AddRotationKey(90.00, 10.00, 20.00, -10.00, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
+}
+
+Animation("list3", 210.00, 0, 0)
+{
+	AddPositionKey(0.00, 0.00, 0.00, 0.00, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
+	AddPositionKey(209.90, 0.00, -2000.00, 1200.00, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
+	AddPositionKey(210.00, -5100.00, 0.00, 0.00, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
+	AddRotationKey(0.00, 0.00, 0.00, 0.00, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
+	AddRotationKey(60.00, 30.00, 0.00, -20.00, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
+}
+
+Animation("fan", 0.50, 1, 0)
+{
+	AddPositionKey(0.00, 0.00, 0.00, 0.00, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
+	AddPositionKey(0.50, 0.00, 0.00, 0.00, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
+	AddRotationKey(0.00, 0.00, 0.00, 0.00, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
+	AddRotationKey(0.50, 0.00, 360.00, 0.00, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
+}
+
+Animation("sensorspin", 1.00, 1, 0)
+{
+	AddPositionKey(0.00, 0.00, 0.00, 0.00, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
+	AddRotationKey(0.00, 0.00, 0.00, 0.00, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
+	AddRotationKey(1.00, 0.00, 360.00, 0.00, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
+}
+
+AnimationGroup("all_frig1_dest", 0, 0)
+{
+	Animation("list2", "all_frig1");
+}
+
+AnimationGroup("all_frig2_dest", 0, 0)
+{
+	Animation("list2", "all_frig2");
+}
+
+AnimationGroup("imp_frig1_dest", 0, 0)
+{
+	Animation("list2", "imp_frig1");
+}
+
+AnimationGroup("imp_frig2_dest", 0, 0)
+{
+	Animation("list1", "imp_frig2");
+}
+
+AnimationGroup("all_frig3_dest", 0, 0)
+{
+	Animation("list3", "all_frig3");
+}
+
+AnimationGroup("Fanspins", 1, 0)
+{
+	Animation("fan", "imp_cap1_shieldfan");
+	Animation("fan", "all_cap1_shieldfan");
+}
+
+AnimationGroup("sensors", 1, 0)
+{
+	Animation("sensorspin", "all_cap1_sensor_prop");
+	Animation("sensorspin", "imp_cap1_sensor_prop");
+}
+
+Hierarchy("all_frig1")
+{
+	Obj("all_frig1_tur2");
+	Obj("all_frig1_tur1");
+}
+
+Hierarchy("all_frig2")
+{
+	Obj("all_frig2_tur1");
+	Obj("all_frig2_tur2");
+}
+
+Hierarchy("imp_frig1")
+{
+	Obj("imp_frig1_tur2");
+	Obj("imp_frig1_tur1");
+}
+
+Hierarchy("imp_frig2")
+{
+	Obj("imp_frig2_tur1");
+	Obj("imp_frig2_tur2");
+}
+

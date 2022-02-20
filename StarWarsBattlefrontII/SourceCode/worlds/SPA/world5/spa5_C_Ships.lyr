@@ -1,0 +1,432 @@
+Version(3);
+SaveType(6);
+
+Camera("camera")
+{
+	Rotation(0.959, 0.252, -0.124, 0.033);
+	Position(-977.777, 47.647, -396.302);
+	FieldOfView(55.400);
+	NearPlane(1.000);
+	FarPlane(5000.000);
+	ZoomFactor(1.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+}
+GameTime(153164);
+ControllerManager("StandardCtrlMgr");
+
+WorldExtents()
+{
+	Min(0.000000, 0.000000, 0.000000);
+	Max(0.000000, 0.000000, 0.000000);
+}
+
+NextSequence(-3705784);
+
+Object("rep_mt04", "rep_bldg_moncal_roundturret", 244689599)
+{
+	ChildRotation(0.708, 0.000, 0.706, 0.000);
+	ChildPosition(-2530.923, 332.079, -776.010);
+	SeqNo(244689599);
+	Team(2);
+	NetworkId(-1);
+	Label("rep_mt04");
+	Layer(3);
+}
+
+Object("com_item_healthrecharge3", "com_item_healthrecharge", 283425038)
+{
+	ChildRotation(0.883, 0.000, 0.469, 0.000);
+	ChildPosition(-1034.307, -11.752, -296.275);
+	SeqNo(283425038);
+	Team(0);
+	NetworkId(-1);
+	Layer(3);
+	EffectRegion("");
+	Radius("5.0");
+}
+
+Object("rep_mt01", "rep_bldg_moncal_roundturret", 306084962)
+{
+	ChildRotation(0.708, 0.000, 0.706, 0.000);
+	ChildPosition(-2412.923, 332.079, -778.010);
+	SeqNo(306084962);
+	Team(2);
+	NetworkId(-1);
+	Label("rep_mt01");
+	Layer(3);
+}
+
+Object("mini02", "spa1_prop_correliancruiser", 341376101)
+{
+	ChildRotation(0.710, 0.000, 0.704, 0.000);
+	ChildPosition(-1328.000, 218.000, -838.000);
+	SeqNo(341376101);
+	Team(2);
+	NetworkId(-1);
+	Label("mini02");
+	Layer(3);
+}
+
+Object("com_item_healthrecharge0", "com_item_healthrecharge", 416119498)
+{
+	ChildRotation(0.369, 0.000, -0.929, 0.000);
+	ChildPosition(688.232, 254.578, -117.895);
+	SeqNo(416119498);
+	Team(0);
+	NetworkId(-1);
+	Layer(3);
+	EffectRegion("");
+	Radius("5.0");
+}
+
+Object("imp_cap_stardestroyer0", "imp_cap_stardestroyer", 539966046)
+{
+	ChildRotation(0.000, -1.000, 0.000, 0.000);
+	ChildPosition(849.971, 264.767, 165.416);
+	SeqNo(539966046);
+	Team(0);
+	NetworkId(-1);
+	Layer(3);
+}
+
+Object("com_item_weaponrecharge00", "com_item_weaponrecharge", 716787476)
+{
+	ChildRotation(0.883, 0.000, 0.469, 0.000);
+	ChildPosition(-1016.991, -11.754, -287.111);
+	SeqNo(716787476);
+	Team(0);
+	NetworkId(-1);
+	Layer(3);
+	EffectRegion("");
+	Radius("5.0");
+}
+
+Object("com_item_healthrecharge10", "com_item_healthrecharge", 760001254)
+{
+	ChildRotation(0.883, 0.000, 0.469, 0.000);
+	ChildPosition(-1012.112, -11.753, -330.439);
+	SeqNo(760001254);
+	Team(0);
+	NetworkId(-1);
+	Layer(3);
+	EffectRegion("");
+	Radius("5.0");
+}
+
+Object("critsys", "spa2_prop_antenna_destruct", 923277128)
+{
+	ChildRotation(0.726, 0.000, -0.687, 0.000);
+	ChildPosition(-1215.000, 106.000, -200.000);
+	SeqNo(923277128);
+	Team(2);
+	NetworkId(-1);
+	Label("critsys");
+	Layer(3);
+}
+
+Object("rep_mt02", "rep_bldg_moncal_roundturret", 959973994)
+{
+	ChildRotation(0.708, 0.000, 0.706, 0.000);
+	ChildPosition(-2408.923, 332.079, -692.010);
+	SeqNo(959973994);
+	Team(2);
+	NetworkId(-1);
+	Label("rep_mt02");
+	Layer(3);
+}
+
+Object("imp_cap_stardestroyer4", "imp_cap_stardestroyer4", 1196967640)
+{
+	ChildRotation(1.000, 0.000, -0.009, 0.001);
+	ChildPosition(702.150, 269.193, -151.597);
+	SeqNo(1196967640);
+	Team(0);
+	NetworkId(-1);
+	Layer(3);
+}
+
+Object("com_item_weaponrecharge2", "com_item_weaponrecharge", 1405119731)
+{
+	ChildRotation(0.883, 0.000, 0.469, 0.000);
+	ChildPosition(-1043.885, -11.754, -309.855);
+	SeqNo(1405119731);
+	Team(0);
+	NetworkId(-1);
+	Layer(3);
+	EffectRegion("");
+	Radius("5.0");
+}
+
+Object("imp_cap_stardestroyer_hallway", "imp_cap_stardestroyer_hallway", 1588232333)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(689.971, 264.767, -96.584);
+	SeqNo(1588232333);
+	Team(0);
+	NetworkId(-1);
+	Layer(3);
+}
+
+Object("com_item_weaponrecharge", "com_item_weaponrecharge", 1605634411)
+{
+	ChildRotation(0.368, 0.000, -0.930, 0.000);
+	ChildPosition(670.358, 254.577, -56.052);
+	SeqNo(1605634411);
+	Team(0);
+	NetworkId(-1);
+	Layer(3);
+	EffectRegion("");
+	Radius("5.0");
+}
+
+Object("rep_assultship_hallway", "rep_assultship_hallway", 1775637712)
+{
+	ChildRotation(-0.123, 0.000, -0.992, 0.000);
+	ChildPosition(-998.389, -11.796, -305.753);
+	SeqNo(1775637712);
+	Team(0);
+	NetworkId(-1);
+	Layer(3);
+}
+
+Object("com_item_weaponrecharge10", "com_item_weaponrecharge", 1796158190)
+{
+	ChildRotation(0.883, 0.000, 0.469, 0.000);
+	ChildPosition(-957.336, -11.754, -282.254);
+	SeqNo(1796158190);
+	Team(0);
+	NetworkId(-1);
+	Layer(3);
+	EffectRegion("");
+	Radius("5.0");
+}
+
+Object("rep_m01", "spa2_prop_minirepassaultship", 1896053300)
+{
+	ChildRotation(0.708, 0.000, 0.706, 0.000);
+	ChildPosition(-2502.923, 244.083, -734.010);
+	SeqNo(1896053300);
+	Team(2);
+	NetworkId(-1);
+	Label("rep_m01");
+	Layer(3);
+}
+
+Object("mini03", "spa1_prop_correliancruiser", -1845710803)
+{
+	ChildRotation(0.709, 0.000, 0.705, 0.000);
+	ChildPosition(-1988.029, 620.358, -492.645);
+	SeqNo(-1845710803);
+	Team(2);
+	NetworkId(-1);
+	Label("mini03");
+	Layer(3);
+}
+
+Object("rep_m02", "spa2_prop_minirepassaultship", -1803984284)
+{
+	ChildRotation(0.708, 0.000, 0.706, 0.000);
+	ChildPosition(-2139.923, 501.083, 267.989);
+	SeqNo(-1803984284);
+	Team(2);
+	NetworkId(-1);
+	Label("rep_m02");
+	Layer(3);
+}
+
+Object("rep_mt08", "rep_bldg_moncal_roundturret", -1789211602)
+{
+	ChildRotation(0.708, 0.000, 0.706, 0.000);
+	ChildPosition(-2166.923, 589.079, 309.989);
+	SeqNo(-1789211602);
+	Team(2);
+	NetworkId(-1);
+	Label("rep_mt08");
+	Layer(3);
+}
+
+Object("rep_cap_assultship1", "rep_cap_assultship", -1627912644)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(-881.627, -12.208, -198.959);
+	SeqNo(-1627912644);
+	Team(0);
+	NetworkId(-1);
+	Layer(3);
+}
+
+Object("com_item_weaponrecharge1", "com_item_weaponrecharge", -1432897126)
+{
+	ChildRotation(0.368, 0.000, -0.930, 0.000);
+	ChildPosition(673.869, 254.577, -146.845);
+	SeqNo(-1432897126);
+	Team(0);
+	NetworkId(-1);
+	Layer(3);
+	EffectRegion("");
+	Radius("5.0");
+}
+
+Object("com_item_weaponrecharge0", "com_item_weaponrecharge", -1432581897)
+{
+	ChildRotation(0.369, 0.000, -0.930, 0.000);
+	ChildPosition(688.368, 254.577, -84.687);
+	SeqNo(-1432581897);
+	Team(0);
+	NetworkId(-1);
+	Layer(3);
+	EffectRegion("");
+	Radius("5.0");
+}
+
+Object("com_item_healthrecharge00", "com_item_healthrecharge", -1337696770)
+{
+	ChildRotation(0.883, 0.000, 0.469, 0.000);
+	ChildPosition(-993.157, -11.752, -278.878);
+	SeqNo(-1337696770);
+	Team(0);
+	NetworkId(-1);
+	Layer(3);
+	EffectRegion("");
+	Radius("5.0");
+}
+
+Object("imp_cap_stardestroyer3", "imp_cap_stardestroyer3", -1280710317)
+{
+	ChildRotation(1.000, 0.000, -0.009, 0.001);
+	ChildPosition(702.130, 269.192, -151.621);
+	SeqNo(-1280710317);
+	Team(0);
+	NetworkId(-1);
+	Layer(3);
+}
+
+Object("com_item_healthrecharge2", "com_item_healthrecharge", -849704238)
+{
+	ChildRotation(0.368, 0.000, -0.930, 0.000);
+	ChildPosition(680.846, 254.578, -68.768);
+	SeqNo(-849704238);
+	Team(0);
+	NetworkId(-1);
+	Layer(3);
+	EffectRegion("");
+	Radius("5.0");
+}
+
+Object("rep_mt03", "rep_bldg_moncal_roundturret", -791710706)
+{
+	ChildRotation(0.708, 0.000, 0.706, 0.000);
+	ChildPosition(-2532.923, 332.079, -692.010);
+	SeqNo(-791710706);
+	Team(2);
+	NetworkId(-1);
+	Label("rep_mt03");
+	Layer(3);
+}
+
+Object("rep_mt07", "rep_bldg_moncal_roundturret", -737602659)
+{
+	ChildRotation(0.708, 0.000, 0.706, 0.000);
+	ChildPosition(-2163.923, 589.079, 225.990);
+	SeqNo(-737602659);
+	Team(2);
+	NetworkId(-1);
+	Label("rep_mt07");
+	Layer(3);
+}
+
+Object("com_item_healthrecharge1", "com_item_healthrecharge", -640173007)
+{
+	ChildRotation(0.369, 0.000, -0.929, 0.000);
+	ChildPosition(632.460, 254.578, -58.137);
+	SeqNo(-640173007);
+	Team(0);
+	NetworkId(-1);
+	Layer(3);
+	EffectRegion("");
+	Radius("5.0");
+}
+
+Object("rep_mt05", "rep_bldg_moncal_roundturret", -598928126)
+{
+	ChildRotation(0.708, 0.000, 0.706, 0.000);
+	ChildPosition(-2067.923, 588.079, 225.990);
+	SeqNo(-598928126);
+	Team(2);
+	NetworkId(-1);
+	Label("rep_mt05");
+	Layer(3);
+}
+
+Object("rep_mt06", "rep_bldg_moncal_roundturret", -575756194)
+{
+	ChildRotation(0.708, 0.000, 0.706, 0.000);
+	ChildPosition(-2065.929, 588.079, 310.989);
+	SeqNo(-575756194);
+	Team(2);
+	NetworkId(-1);
+	Label("rep_mt06");
+	Layer(3);
+}
+
+Object("imp_cap_stardestroyer10", "imp_cap_stardestroyer1", -499783801)
+{
+	ChildRotation(1.000, 0.000, -0.009, 0.001);
+	ChildPosition(702.111, 269.190, -151.633);
+	SeqNo(-499783801);
+	Team(0);
+	NetworkId(-1);
+	Layer(3);
+}
+
+Object("mini04", "spa1_prop_correliancruiser", -427081023)
+{
+	ChildRotation(0.709, 0.000, 0.705, 0.000);
+	ChildPosition(-1861.029, 310.767, 461.416);
+	SeqNo(-427081023);
+	Team(2);
+	NetworkId(-1);
+	Label("mini04");
+	Layer(3);
+}
+
+Object("mini05", "spa1_prop_correliancruiser", -383987651)
+{
+	ChildRotation(0.709, 0.000, 0.705, 0.000);
+	ChildPosition(-2277.029, 398.467, -56.584);
+	SeqNo(-383987651);
+	Team(2);
+	NetworkId(-1);
+	Label("mini05");
+	Layer(3);
+}
+
+Object("imp_cap_stardestroyer2", "imp_cap_stardestroyer2", -163682268)
+{
+	ChildRotation(1.000, 0.000, -0.009, 0.001);
+	ChildPosition(702.106, 269.191, -151.641);
+	SeqNo(-163682268);
+	Team(0);
+	NetworkId(-1);
+	Layer(3);
+}
+
+Object("mini01", "spa1_prop_correliancruiser", -22372306)
+{
+	ChildRotation(0.709, 0.000, 0.705, 0.000);
+	ChildPosition(-842.029, 438.704, 340.416);
+	SeqNo(-22372306);
+	Team(2);
+	NetworkId(-1);
+	Label("mini01");
+	Layer(3);
+}

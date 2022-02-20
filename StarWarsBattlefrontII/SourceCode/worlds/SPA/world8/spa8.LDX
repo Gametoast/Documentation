@@ -1,0 +1,111 @@
+Version(1);
+NextID(1);
+
+Layer("[Base]", 0, 8)
+{
+	Description("");
+}
+
+Layer("capitalShips", 3, 0)
+{
+	Description("");
+}
+
+Layer("cmn_paths", 2, 2)
+{
+	Description("");
+}
+
+Layer("ass_paths", 4, 0)
+{
+	Description("");
+}
+
+Layer("cmn_hangar", 6, 0)
+{
+	Description("");
+}
+
+Layer("SoundSpace", 7, 17)
+{
+	Description("");
+}
+
+Layer("SoundRegions", 8, 17)
+{
+	Description("");
+}
+
+Layer("Shadows", 10, 17)
+{
+	Description("");
+}
+
+Layer("frigates", 12, 0)
+{
+	Description("");
+}
+
+Layer("ctf_flags", 13, 17)
+{
+	Description("");
+}
+
+Layer("ctf_spawn", 9, 17)
+{
+	Description("");
+}
+
+Layer("ass_hangar", 5, 17)
+{
+	Description("");
+}
+
+Layer("ass_spawn", 14, 17)
+{
+	Description("");
+}
+
+Layer("1flag_flags", 1, 0)
+{
+	Description("");
+}
+
+Layer("1flag_paths", 11, 2)
+{
+	Description("");
+}
+
+
+GameMode("Common")
+{
+	Layer(0);
+	Layer(2);
+	Layer(3);
+	Layer(6);
+	Layer(7);
+	Layer(8);
+	Layer(10);
+	Layer(12);
+}
+
+GameMode("CTF")
+{
+	Layer(9);
+	Layer(13);
+}
+
+GameMode("ass")
+{
+	Layer(4);
+	Layer(5);
+	Layer(14);
+}
+
+GameMode("1flag")
+{
+	Layer(1);
+	Layer(9);
+	Layer(11);
+}
+

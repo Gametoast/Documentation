@@ -1,0 +1,84 @@
+Version(3);
+SaveType(0);
+
+Camera("camera")
+{
+	Rotation(0.915, 0.392, -0.083, 0.036);
+	Position(-44.975, 82.277, -101.841);
+	FieldOfView(55.400);
+	NearPlane(1.000);
+	FarPlane(2500.000);
+	ZoomFactor(1.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(-15.337, 83.421, 23.660,  -0.460, -0.222, -0.774, 0.374);
+}
+LightName("mus1_CTF.LGT");
+ControllerManager("StandardCtrlMgr");
+
+WorldExtents()
+{
+	Min(0.000000, 0.000000, 0.000000);
+	Max(0.000000, 0.000000, 0.000000);
+}
+
+NextSequence(-3705784);
+
+Object("", "com_bldg_ctfbase", 479067099)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-29.933, 70.096, -117.275);
+	SeqNo(479067099);
+	Team(0);
+	NetworkId(-1);
+	Layer(4);
+}
+
+Object("FLAG2", "com_item_flag", 509889180)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(74.000, 69.000, 19.000);
+	SeqNo(509889180);
+	Team(1);
+	NetworkId(-1);
+	Label("FLAG2");
+	Layer(4);
+}
+
+Object("home2", "com_bldg_ctfbase", 1559566067)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(75.643, 67.000, 18.760);
+	SeqNo(1559566067);
+	Team(1);
+	NetworkId(-1);
+	Layer(4);
+}
+
+Object("FLAG1", "com_item_flag", 1646399654)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-29.948, 71.000, -117.257);
+	SeqNo(1646399654);
+	Team(2);
+	NetworkId(-1);
+	Label("FLAG1");
+	Layer(4);
+}
+
+Object("Home", "com_bldg_ctfbase", -791872708)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-29.933, 70.096, -117.275);
+	SeqNo(-791872708);
+	Team(2);
+	NetworkId(-1);
+	Layer(4);
+}

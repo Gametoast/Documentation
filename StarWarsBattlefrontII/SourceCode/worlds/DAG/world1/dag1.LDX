@@ -1,0 +1,101 @@
+Version(1);
+NextID(1);
+
+Layer("[Base]", 0, 8)
+{
+	Description("");
+}
+
+Layer("SoundRegions", 3, 2)
+{
+	Description("");
+}
+
+Layer("trees_01", 1, 0)
+{
+	Description("");
+}
+
+Layer("Rock_group", 6, 0)
+{
+	Description("");
+}
+
+Layer("flag_cps", 2, 0)
+{
+	Description("");
+}
+
+Layer("conquest", 4, 0)
+{
+	Description("");
+}
+
+Layer("SoundSpaces", 5, 2)
+{
+	Description("");
+}
+
+Layer("xwing", 7, 0)
+{
+	Description("");
+}
+
+Layer("gunship", 8, 0)
+{
+	Description("");
+}
+
+Layer("SoundEmitters", 9, 2)
+{
+	Description("");
+}
+
+Layer("ctf", 11, 0)
+{
+	Description("");
+}
+
+Layer("1flag", 10, 0)
+{
+	Description("");
+}
+
+
+GameMode("Common")
+{
+	Layer(0);
+	Layer(1);
+	Layer(3);
+	Layer(5);
+	Layer(6);
+	Layer(9);
+}
+
+GameMode("ctf")
+{
+	Layer(2);
+	Layer(11);
+}
+
+GameMode("conquest")
+{
+	Layer(4);
+}
+
+GameMode("cw")
+{
+	Layer(8);
+}
+
+GameMode("gcw")
+{
+	Layer(7);
+}
+
+GameMode("1flag")
+{
+	Layer(2);
+	Layer(10);
+}
+

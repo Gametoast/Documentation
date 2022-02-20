@@ -1,0 +1,132 @@
+Version(3);
+SaveType(0);
+
+Camera("camera")
+{
+	Rotation(0.902, 0.172, 0.389, -0.074);
+	Position(-74.536, 48.887, 909.803);
+	FieldOfView(55.400);
+	NearPlane(1.000);
+	FarPlane(5000.000);
+	ZoomFactor(1.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+}
+LightName("spa9_1flag_flags.LGT");
+ControllerManager("StandardCtrlMgr");
+
+WorldExtents()
+{
+	Min(0.000000, 0.000000, 0.000000);
+	Max(0.000000, 0.000000, 0.000000);
+}
+
+NextSequence(-2477958);
+
+Object("cmn_flag", "com_icon_spaceflag", 122338621)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-75.000000, 20.000000, -160.000000);
+	SeqNo(122338621);
+	Team(0);
+	NetworkId(-1);
+	Layer(1);
+}
+
+Object("all_cap1_ind4r", "spa_prop_doorwaysignR", 415987963)
+{
+	ChildRotation(0.069, 0.000, -0.998, 0.000);
+	ChildPosition(32.851, -23.712, 1067.011);
+	SeqNo(415987963);
+	Team(0);
+	NetworkId(-1);
+	Layer(1);
+}
+
+Object("imp_cap1_ind5r", "spa_prop_doorwaysignR", 883750944)
+{
+	ChildRotation(0.797, 0.000, 0.604, 0.000);
+	ChildPosition(27.131, 8.740, -1599.271);
+	SeqNo(883750944);
+	Team(0);
+	NetworkId(-1);
+	Layer(1);
+}
+
+Object("all_frig3", "all_prop_blockaderunner", 1144393197)
+{
+	ChildRotation(0.707, 0.000, 0.707, 0.000);
+	ChildPosition(-49.000, -82.000, -158.000);
+	SeqNo(1144393197);
+	Team(0);
+	NetworkId(-1);
+	Layer(1);
+}
+
+Object("imp_cap1_ind3r", "spa_prop_doorwaysignR", 1517168692)
+{
+	ChildRotation(0.599, 0.000, -0.801, 0.000);
+	ChildPosition(62.440, 8.739, -1589.428);
+	SeqNo(1517168692);
+	Team(0);
+	NetworkId(-1);
+	Layer(1);
+}
+
+Object("all_cap_marker", "com_prop_ctfdrop_space", 1743125208)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-584.000, 467.000, -2221.000);
+	SeqNo(1743125208);
+	Team(2);
+	NetworkId(-1);
+	Layer(1);
+}
+
+Object("all_cap1_ind3r", "spa_prop_doorwaysignR", -1838510371)
+{
+	ChildRotation(0.662, 0.000, 0.750, 0.000);
+	ChildPosition(12.767, -23.706, 1056.144);
+	SeqNo(-1838510371);
+	Team(0);
+	NetworkId(-1);
+	Layer(1);
+}
+
+Object("imp_cap_marker", "com_prop_ctfdrop_space", -1615605760)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(538.000, 165.000, 1212.000);
+	SeqNo(-1615605760);
+	Team(1);
+	NetworkId(-1);
+	Layer(1);
+}
+
+Object("imp_cap1_ind4r", "spa_prop_doorwaysignR", -1219254827)
+{
+	ChildRotation(0.992, 0.000, -0.130, 0.000);
+	ChildPosition(48.288, 8.734, -1607.274);
+	SeqNo(-1219254827);
+	Team(0);
+	NetworkId(-1);
+	Layer(1);
+}
+
+Object("all_cap1_ind5r", "spa_prop_doorwaysignR", -999507432)
+{
+	ChildRotation(0.754, 0.000, -0.657, 0.000);
+	ChildPosition(49.353, -23.715, 1051.386);
+	SeqNo(-999507432);
+	Team(0);
+	NetworkId(-1);
+	Layer(1);
+}

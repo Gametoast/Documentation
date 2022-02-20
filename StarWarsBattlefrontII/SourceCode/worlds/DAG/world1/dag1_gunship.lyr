@@ -1,0 +1,42 @@
+Version(3);
+SaveType(0);
+
+Camera("camera")
+{
+	Rotation(1.000, 0.000, 0.000, 0.000);
+	Position(0.000, 0.000, 0.000);
+	FieldOfView(55.400);
+	NearPlane(1.000);
+	FarPlane(500.000);
+	ZoomFactor(1.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(-30.043, 7.803, 76.911,  0.854, 0.354, 0.354, -0.146);
+}
+LightName("dag1_gunship.LGT");
+ControllerManager("StandardCtrlMgr");
+
+WorldExtents()
+{
+	Min(0.000000, 0.000000, 0.000000);
+	Max(0.000000, 0.000000, 0.000000);
+}
+
+NextSequence(-3705784);
+
+Object("dag1_prop_destroyed_gunship", "dag1_prop_destroyed_gunship", -799743029)
+{
+	ChildRotation(0.922, 0.194, 0.333, -0.031);
+	ChildPosition(65.154, 0.330, 2.508);
+	SeqNo(-799743029);
+	Team(0);
+	NetworkId(-1);
+	Layer(8);
+}

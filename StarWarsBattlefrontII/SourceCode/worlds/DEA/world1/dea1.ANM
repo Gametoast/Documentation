@@ -1,0 +1,260 @@
+Animation("bridge2", 1.00, 0, 0)
+{
+	AddPositionKey(0.00, 0.00, 0.00, 0.00, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
+	AddPositionKey(1.00, -2.06, 0.00, 3.41, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
+	AddRotationKey(0.00, 0.00, 0.00, 0.00, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
+}
+
+Animation("bridge1", 1.00, 0, 0)
+{
+	AddPositionKey(0.00, 0.00, -0.01, 0.00, 1, 5.00, 0.00, 0.00, 5.00, 0.00, 0.00);
+	AddPositionKey(1.00, 2.08, -0.01, -3.44, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
+	AddRotationKey(0.00, 0.00, 0.00, 0.00, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
+}
+
+Animation("bridge1close", 1.00, 0, 0)
+{
+	AddPositionKey(0.00, 2.08, -0.01, -3.44, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
+	AddPositionKey(1.00, 0.00, -0.01, 0.00, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
+}
+
+Animation("bridge2close", 1.00, 0, 0)
+{
+	AddPositionKey(0.00, -2.06, 0.00, 3.41, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
+	AddPositionKey(1.00, 0.00, 0.00, 0.00, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
+}
+
+Animation("TakBridgeOpen1", 3.50, 0, 0)
+{
+	AddPositionKey(0.00, 0.00, 0.00, 0.00, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
+	AddPositionKey(1.00, 0.00, 0.00, 0.00, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
+	AddPositionKey(2.00, 0.00, -2.49, 0.00, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
+	AddPositionKey(3.00, 0.00, -2.88, 0.00, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
+	AddPositionKey(3.50, 0.00, -2.88, -10.67, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
+	AddRotationKey(0.00, 0.00, 0.00, 0.00, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
+	AddRotationKey(1.00, 0.00, 0.00, -90.00, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
+}
+
+Animation("TakBridgeClose1", 3.50, 0, 0)
+{
+	AddPositionKey(0.00, 0.00, -2.88, -10.67, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
+	AddPositionKey(0.50, 0.00, -2.88, 0.00, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
+	AddPositionKey(1.00, 0.00, -2.49, 0.00, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
+	AddPositionKey(2.00, 0.00, 0.00, 0.00, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
+	AddRotationKey(0.00, 0.00, 0.00, -90.00, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
+	AddRotationKey(2.00, 0.00, 0.00, -90.00, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
+	AddRotationKey(3.00, 0.00, 0.00, 0.00, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
+}
+
+Animation("CTFBridgeOpen1", 3.00, 0, 0)
+{
+	AddPositionKey(0.00, 0.00, 0.00, 0.00, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
+	AddPositionKey(2.00, 0.00, 0.00, 0.00, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
+	AddPositionKey(3.00, 0.00, 0.00, 6.28, 2, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
+	AddRotationKey(0.00, 0.00, 0.00, 0.00, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
+	AddRotationKey(2.00, 90.00, 0.00, 0.00, 2, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
+}
+
+Animation("CTFBridgeClose1", 3.00, 0, 0)
+{
+	AddPositionKey(0.00, 0.00, 0.00, 6.28, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
+	AddPositionKey(1.00, 0.00, 0.00, 0.00, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
+	AddRotationKey(0.00, 90.00, 0.00, 0.00, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
+	AddRotationKey(1.00, 90.00, 0.00, 0.00, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
+	AddRotationKey(3.00, 0.00, 0.00, 0.00, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
+}
+
+Animation("land01", 8.00, 0, 0)
+{
+	AddPositionKey(0.00, 0.00, 0.00, 0.00, 2, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
+	AddPositionKey(8.00, 0.61, -2.08, 16.87, 2, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
+	AddRotationKey(0.00, 0.00, 0.00, 0.00, 2, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
+	AddRotationKey(8.00, -5.00, 0.00, 0.00, 2, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
+}
+
+Animation("land02", 60.00, 1, 0)
+{
+	AddPositionKey(0.00, 0.61, -2.08, 16.87, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
+	AddPositionKey(60.00, 0.61, -2.08, 16.87, 2, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
+	AddRotationKey(0.00, -5.00, 0.00, 0.00, 2, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
+	AddRotationKey(15.00, -2.50, -2.00, -2.00, 2, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
+	AddRotationKey(30.00, 0.00, 0.00, 0.00, 2, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
+	AddRotationKey(45.00, -2.50, 2.00, 2.00, 2, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
+	AddRotationKey(60.00, -5.00, 0.00, 0.00, 2, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
+}
+
+Animation("land03", 5.00, 0, 0)
+{
+	AddPositionKey(0.00, 0.61, -2.08, 16.87, 2, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
+	AddPositionKey(1.00, 0.61, -4.09, 16.87, 2, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
+	AddPositionKey(3.00, 0.61, -6.75, 16.87, 2, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
+	AddPositionKey(5.00, 0.61, -8.93, 16.88, 2, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
+	AddRotationKey(0.00, -5.00, 0.00, 0.00, 2, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
+	AddRotationKey(2.00, -7.00, 0.00, 0.00, 2, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
+	AddRotationKey(4.00, 2.00, 0.00, 0.00, 2, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
+	AddRotationKey(5.00, 0.00, 0.00, 0.00, 2, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
+}
+
+Animation("panelpop", 1.00, 1, 0)
+{
+	AddPositionKey(0.00, 0.00, 0.93, 3.57, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
+	AddPositionKey(1.00, 0.00, 0.93, 3.57, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
+	AddRotationKey(0.00, 0.00, 0.00, 0.00, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
+}
+
+Animation("Y-wing", 30.00, 0, 0)
+{
+	AddPositionKey(0.00, 0.00, 0.00, 0.00, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
+	AddPositionKey(5.00, 0.00, 0.00, 42.35, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
+	AddPositionKey(10.00, 3.37, -4.25, 42.35, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
+	AddPositionKey(15.00, 3.37, -4.25, 42.35, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
+	AddPositionKey(25.00, -3.79, 0.00, 42.35, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
+	AddPositionKey(30.00, -3.79, 0.00, -233.78, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
+	AddRotationKey(0.00, 0.00, 0.00, 0.00, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
+	AddRotationKey(5.00, 0.00, 0.00, 0.00, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
+	AddRotationKey(10.00, 0.00, -90.00, 0.00, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
+	AddRotationKey(15.00, 0.00, -90.00, 0.00, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
+	AddRotationKey(23.00, 0.00, -200.00, 0.00, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
+	AddRotationKey(25.00, 0.00, -180.00, 0.00, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
+}
+
+Animation("ctr_lower", 3.00, 0, 0)
+{
+	AddPositionKey(0.00, 0.00, 0.00, 0.00, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
+	AddPositionKey(3.00, 0.00, -30.00, 0.00, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
+	AddRotationKey(0.00, 0.00, 0.00, 0.00, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
+	AddRotationKey(3.00, 0.00, -180.00, 0.00, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
+}
+
+Animation("brd_hang_lower", 3.00, 0, 0)
+{
+	AddPositionKey(0.00, 0.00, 0.00, 0.00, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
+	AddRotationKey(0.00, 0.00, 0.00, 0.00, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
+	AddRotationKey(3.00, 0.00, 0.00, 30.00, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
+}
+
+Animation("brd_fcr_lower", 3.00, 0, 0)
+{
+	AddPositionKey(0.00, 0.00, 0.00, 0.00, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
+	AddRotationKey(0.00, 0.00, 0.00, 0.00, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
+	AddRotationKey(3.00, 0.00, 0.00, -30.00, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
+}
+
+Animation("spiner", 1.00, 1, 0)
+{
+	AddPositionKey(0.00, 0.00, 0.00, 0.00, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
+	AddRotationKey(0.00, 0.00, 0.00, 0.00, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
+	AddRotationKey(1.00, 0.00, -360.00, 0.00, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
+}
+
+Animation("idle", 2.00, 1, 0)
+{
+	AddPositionKey(0.00, 0.00, 0.00, 0.00, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
+	AddPositionKey(2.00, 0.00, 0.00, 0.00, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
+	AddRotationKey(0.00, 0.00, 0.00, 0.00, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
+}
+
+Animation("trash01", 20.00, 1, 0)
+{
+	AddPositionKey(0.00, 0.00, 0.00, 0.00, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
+	AddPositionKey(8.00, 0.00, 0.00, -5.40, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
+	AddPositionKey(12.00, 0.00, 0.00, -5.40, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
+	AddPositionKey(20.00, 0.00, 0.00, 0.00, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
+}
+
+Animation("trash02", 20.00, 1, 0)
+{
+	AddPositionKey(0.00, 0.00, 0.00, 0.00, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
+	AddPositionKey(8.00, 0.00, 0.00, 5.40, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
+	AddPositionKey(12.00, 0.00, 0.00, 5.40, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
+	AddPositionKey(20.00, 0.00, 0.00, 0.00, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
+}
+
+AnimationGroup("bridgeopen", 0, 0)
+{
+	Animation("bridge1", "bridge1");
+	Animation("bridge2", "bridge2");
+}
+
+AnimationGroup("bridgeclose", 0, 0)
+{
+	Animation("bridge2close", "bridge2");
+	Animation("bridge1close", "bridge1");
+}
+
+AnimationGroup("TakBridgeOpen", 0, 0)
+{
+	Animation("TakBridgeOpen1", "TakBridgeRight");
+	Animation("TakBridgeOpen1", "TakBridgeLeft");
+}
+
+AnimationGroup("TakBridgeClose", 0, 0)
+{
+	Animation("TakBridgeClose1", "TakBridgeLeft");
+	Animation("TakBridgeClose1", "TakBridgeRight");
+}
+
+AnimationGroup("CTFBridgeOpen", 0, 0)
+{
+	Animation("CTFBridgeOpen1", "TakBridgeLeft");
+	Animation("CTFBridgeOpen1", "TakBridgeRight");
+}
+
+AnimationGroup("CTFBridgeClose", 0, 0)
+{
+	Animation("CTFBridgeClose1", "TakBridgeLeft");
+	Animation("CTFBridgeClose1", "TakBridgeRight");
+}
+
+AnimationGroup("incoming01", 0, 0)
+{
+	Animation("land01", "Trans01");
+}
+
+AnimationGroup("incoming02", 0, 0)
+{
+	Animation("land02", "Trans01");
+}
+
+AnimationGroup("incoming03", 0, 0)
+{
+	Animation("land03", "Trans01");
+}
+
+AnimationGroup("panel", 0, 0)
+{
+	Animation("panelpop", "hackbox");
+}
+
+AnimationGroup("enemylander", 0, 0)
+{
+	Animation("Y-wing", "Trans02");
+}
+
+AnimationGroup("brd_main_lower", 0, 0)
+{
+	Animation("ctr_lower", "brd_plat");
+}
+
+AnimationGroup("spiner", 1, 0)
+{
+	Animation("spiner", "dea1_bldg_froom_spinner");
+}
+
+AnimationGroup("idle_group", 1, 0)
+{
+	Animation("idle", "obj6_shuttle");
+}
+
+AnimationGroup("Trash", 1, 0)
+{
+	Animation("trash01", "trashwall2");
+	Animation("trash02", "trashwall1");
+}
+
+Hierarchy("brd_plat")
+{
+	Obj("brd_hang");
+	Obj("brd_fcr");
+}
+

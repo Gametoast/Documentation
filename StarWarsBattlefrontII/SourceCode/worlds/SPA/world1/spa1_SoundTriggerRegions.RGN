@@ -1,0 +1,20 @@
+Version(1);
+RegionCount(2);
+
+Region("soundtrigger all_loudspeaker", 0)
+{
+    Layer(10);
+    Position(-1962.846680, -139.641693, 232.236145);
+    Rotation(0.652645, 0.000000, 0.757664, 0.000000);
+    Size(43.923767, 19.392929, 59.843983);
+    Name("AllHangar");
+}
+
+Region("soundtrigger imp_loudspeaker", 0)
+{
+    Layer(10);
+    Position(698.004272, 230.667923, 79.118652);
+    Rotation(0.999985, 0.000000, 0.009945, 0.000000);
+    Size(40.809265, 18.934456, 59.705246);
+    Name("IMPHangar");
+}

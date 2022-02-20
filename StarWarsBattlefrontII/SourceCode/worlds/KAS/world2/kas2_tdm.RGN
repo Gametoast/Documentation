@@ -1,0 +1,38 @@
+Version(1);
+RegionCount(4);
+
+Region("flag2_home", 2)
+{
+	Layer(6);
+	Position(117.135612, 40.290607, 175.134506);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(0.100000, 10.000000, 2.500000);
+	Name("flag1_home");
+}
+
+Region("flag1_home", 2)
+{
+	Layer(6);
+	Position(178.788879, 18.733425, -184.274673);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(0.645601, 7.613615, 2.500000);
+	Name("flag2_home");
+}
+
+Region("cp4tdmcontrol", 0)
+{
+	Layer(6);
+	Position(18.541187, 13.953205, 42.412193);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(10.972002, 10.000000, 18.924366);
+	Name("cp4tdmcontrol");
+}
+
+Region("cp1tdmcontrol", 0)
+{
+	Layer(6);
+	Position(233.212830, 11.662574, -32.105850);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(10.887695, 10.000000, 12.650116);
+	Name("cp1tdmcontrol");
+}

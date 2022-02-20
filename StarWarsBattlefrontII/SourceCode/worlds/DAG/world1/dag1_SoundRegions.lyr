@@ -1,0 +1,45 @@
+Version(3);
+SaveType(0);
+
+Camera("camera")
+{
+	Rotation(1.000, 0.000, 0.000, 0.000);
+	Position(0.000, 0.000, 0.000);
+	FieldOfView(55.400);
+	NearPlane(1.000);
+	FarPlane(500.000);
+	ZoomFactor(1.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(-30.043, 7.803, 76.911,  0.854, 0.354, 0.354, -0.146);
+}
+LightName("dag1_SoundRegions.LGT");
+ControllerManager("StandardCtrlMgr");
+
+WorldExtents()
+{
+	Min(0.000000, 0.000000, 0.000000);
+	Max(0.000000, 0.000000, 0.000000);
+}
+
+NextSequence(-3705784);
+
+Object("VaderBreathEmitter", "com_snd_amb_static", -1967974462)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(5.886, -2.287, 47.951);
+	SeqNo(-1967974462);
+	Team(0);
+	NetworkId(-1);
+	Layer(3);
+	Sound("vader_breath");
+	MinDistance("15.0");
+	MaxDistance("50.0");
+}

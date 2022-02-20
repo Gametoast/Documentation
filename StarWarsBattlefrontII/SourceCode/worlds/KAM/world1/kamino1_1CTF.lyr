@@ -1,0 +1,73 @@
+Version(3);
+SaveType(0);
+
+Camera("camera")
+{
+	Rotation(0.997, 0.046, 0.057, -0.003);
+	Position(38.269, 52.700, -0.824);
+	FieldOfView(55.400);
+	NearPlane(1.000);
+	FarPlane(3500.000);
+	ZoomFactor(1.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(-28.661, 65.801, -28.755,  0.805, 0.482, -0.297, 0.178);
+}
+LightName("kamino1_1CTF.LGT");
+ControllerManager("StandardCtrlMgr");
+
+WorldExtents()
+{
+	Min(0.000000, 0.000000, 0.000000);
+	Max(0.000000, 0.000000, 0.000000);
+}
+
+NextSequence(-1211604);
+
+Object("Home", "com_bldg_ctfbase", -1182839882)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-14.708, 61.117, -102.271);
+	SeqNo(-1182839882);
+	Team(0);
+	NetworkId(-1);
+	Layer(9);
+}
+
+Object("cap2", "com_bldg_ctfbase", -877180414)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(92.784, 54.000, -142.960);
+	SeqNo(-877180414);
+	Team(2);
+	NetworkId(-1);
+	Layer(9);
+}
+
+Object("cap1", "com_bldg_ctfbase", -868720949)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-211.988, 69.471, -31.132);
+	SeqNo(-868720949);
+	Team(1);
+	NetworkId(-1);
+	Layer(9);
+}
+
+Object("Flag", "com_item_flag", -208626906)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-15.000, 65.000, -102.000);
+	SeqNo(-208626906);
+	Team(0);
+	NetworkId(-1);
+	Label("Flag");
+	Layer(9);
+}

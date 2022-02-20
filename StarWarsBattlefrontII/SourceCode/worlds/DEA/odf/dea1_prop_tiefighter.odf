@@ -1,0 +1,21 @@
+[GameObjectClass]       
+
+ClassLabel      =   "prop"
+GeometryName    =   "dea1_prop_tiefighter.msh"
+
+
+[Properties]        
+
+GeometryName    =   "dea1_prop_tiefighter"
+
+SoldierCollision    =   "p_collision_arms"
+SoldierCollision    =   "p_collision_cockpit"
+SoldierCollision    =   "p_collision_wingL"
+SoldierCollision    =   "p_collision_wingR"
+
+OrdnanceCollision   =   "p_collision_arms"
+OrdnanceCollision   =   "p_collision_cockpit"
+OrdnanceCollision   =   "p_collision_wingL"
+OrdnanceCollision   =   "p_collision_wingR"
+
+FoleyFXGroup    = "metal_foley"

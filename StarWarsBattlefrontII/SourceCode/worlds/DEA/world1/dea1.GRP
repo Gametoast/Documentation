@@ -1,0 +1,14 @@
+Version(1);
+NextID(1);
+
+Group("[Base]", 0, 8)
+{
+	Layer("[Base]", 0);
+	Layer("Design", 1);
+	Layer("reflection_region", 4);
+	Layer("light_region", 5);
+	Layer("SoundRegions", 6);
+	Layer("SoundSpaces", 7);
+	Layer("animations", 2);
+}
+

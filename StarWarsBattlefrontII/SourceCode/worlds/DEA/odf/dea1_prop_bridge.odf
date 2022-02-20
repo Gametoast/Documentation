@@ -1,0 +1,19 @@
+[GameObjectClass]       
+
+ClassLabel  =   "door"
+GeometryName    =   "dea1_prop_bridge.msh"
+
+
+[Properties]        
+
+GeometryName    =   "dea1_prop_bridge"
+AnimationName     = "dea1_prop_bridge"
+
+Animation         =     "expand"
+
+AnimationTrigger  =     "hp_bridgetrigger 5.0"
+
+
+OpenSound = "bridge_retract"
+CloseSound = "bridge_extend"
+FoleyFXGroup    = "metal_foley"

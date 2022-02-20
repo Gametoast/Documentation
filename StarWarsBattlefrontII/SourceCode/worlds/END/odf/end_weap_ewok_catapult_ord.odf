@@ -1,0 +1,21 @@
+[OrdnanceClass]
+//This area defines the ordnances class
+ClassLabel 		= "shell"
+
+[Properties]
+GeometryName		= "end_inf_ewok"
+ExplosionName		= "end_weap_ewok_catapult_exp"
+TrailEffect			= "com_sfx_weap_rockettrail"
+
+LifeSpan 		= "15.0"
+Velocity 		= "30.0"
+Gravity		= "1.5"
+Rebound		= "0.75"
+
+MaxDamage 		= "250.0"
+ArmorScale		= "1.0"
+ShieldScale		= "1.0"
+HealthScale		= "1.0"
+
+//OrdnanceSound		= "com_weap_launcher_missile_dumbfire"
+//LockedOnSound		= "com_weap_launcher_missile_guided"

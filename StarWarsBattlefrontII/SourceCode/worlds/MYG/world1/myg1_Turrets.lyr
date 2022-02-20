@@ -1,0 +1,118 @@
+Version(3);
+SaveType(0);
+
+Camera("camera")
+{
+	Rotation(-0.279, -0.173, -0.803, 0.498);
+	Position(-127.989, 63.826, -52.006);
+	FieldOfView(55.400);
+	NearPlane(1.000);
+	FarPlane(500.000);
+	ZoomFactor(1.000);
+	Bookmark(-83.834, 426.399, -92.195,  0.501, 0.492, -0.508, 0.499);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+}
+LightName("myg1_Turrets.LGT");
+ControllerManager("StandardCtrlMgr");
+
+WorldExtents()
+{
+	Min(0.000000, 0.000000, 0.000000);
+	Max(0.000000, 0.000000, 0.000000);
+}
+
+NextSequence(-1447548);
+
+Object("newobjturret1", "tur_bldg_recoilless_lg", 572556069)
+{
+	ChildRotation(-0.261, 0.000, -0.965, 0.000);
+	ChildPosition(-69.000, 1.000, 70.000);
+	SeqNo(572556069);
+	Team(0);
+	NetworkId(-1);
+	Label("newobjturret1");
+	Layer(5);
+}
+
+Object("tur_bldg_recoilless_lg", "tur_bldg_recoilless_lg", 638393594)
+{
+	ChildRotation(0.947, 0.000, -0.320, 0.000);
+	ChildPosition(-17.000, 0.000, -291.000);
+	SeqNo(638393594);
+	Team(0);
+	NetworkId(-1);
+	Layer(5);
+}
+
+Object("objturret2", "tur_bldg_recoilless_lg", 933210733)
+{
+	ChildRotation(0.020, 0.000, -1.000, 0.000);
+	ChildPosition(-35.659, 3.900, -127.828);
+	SeqNo(933210733);
+	Team(0);
+	NetworkId(-1);
+	Label("objturret2");
+	Layer(5);
+}
+
+Object("objturret3", "tur_bldg_recoilless_lg", 1907297372)
+{
+	ChildRotation(-0.216, 0.000, -0.976, 0.000);
+	ChildPosition(-18.551, 6.116, -28.393);
+	SeqNo(1907297372);
+	Team(0);
+	NetworkId(-1);
+	Label("objturret3");
+	Layer(5);
+}
+
+Object("objturret1", "tur_bldg_recoilless_lg", 2075483797)
+{
+	ChildRotation(-0.214, 0.000, -0.977, 0.000);
+	ChildPosition(-94.389, 4.000, -127.041);
+	SeqNo(2075483797);
+	Team(0);
+	NetworkId(-1);
+	Label("objturret1");
+	Layer(5);
+}
+
+Object("newobjturret2", "tur_bldg_recoilless_lg", -1876101744)
+{
+	ChildRotation(0.237, 0.000, -0.972, 0.000);
+	ChildPosition(-88.000, 1.000, 67.000);
+	SeqNo(-1876101744);
+	Team(0);
+	NetworkId(-1);
+	Label("newobjturret2");
+	Layer(5);
+}
+
+Object("tur_bldg_recoilless_lg1", "tur_bldg_recoilless_lg", -1035486038)
+{
+	ChildRotation(0.940, 0.000, 0.342, 0.000);
+	ChildPosition(-118.159, 0.000, -302.010);
+	SeqNo(-1035486038);
+	Team(0);
+	NetworkId(-1);
+	Layer(5);
+}
+
+Object("turret1", "tur_bldg_recoilless_lg", -5072089)
+{
+	ChildRotation(-0.340, 0.000, -0.940, 0.000);
+	ChildPosition(-157.699, 2.040, -29.332);
+	SeqNo(-5072089);
+	Team(0);
+	NetworkId(-1);
+	Label("turret1");
+	Layer(5);
+}

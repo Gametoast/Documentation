@@ -1,0 +1,96 @@
+Version(1);
+RegionCount(10);
+
+Region("rumble spa_rum_caves_subtle hangar", 0)
+{
+	Layer(12);
+	Position(-1394.550659, 946.936829, -1185.383667);
+	Rotation(0.930695, 0.000000, -0.365821, 0.000000);
+	Size(45.677124, 21.476379, 61.497463);
+	Name("r_hang_rum");
+}
+
+Region("rumble spa_rum_caves hangar", 0)
+{
+	Layer(12);
+	Position(-365.493713, 653.919128, 972.486084);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(108.370697, 26.087524, 89.311646);
+	Name("c_hang_rum");
+}
+
+Region("rumble spa_rum_engines hangar", 2)
+{
+	Layer(12);
+	Position(-1294.273193, 939.962952, -1530.723877);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(205.420654, 47.970642, 10.000000);
+	Name("r_eng01_rum");
+}
+
+Region("rumble spa_rum_engines hangar", 1)
+{
+	Layer(12);
+	Position(-1053.110840, 652.761841, -59.662098);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(35.918274, 47.158264, 10.000000);
+	Name("r_eng02_rum");
+	NextIsGrouped();
+}
+
+Region("rumble spa_rum_engines hangar", 1)
+{
+	Layer(12);
+	Position(-1097.003174, 666.529541, 59.786587);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(67.235840, 10.000000, 10.000000);
+	Name("Region1");
+	NextIsGrouped();
+}
+
+Region("rumble spa_rum_engines hangar", 1)
+{
+	Layer(12);
+	Position(-924.474487, 651.125549, -92.293762);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(60.135986, 10.000000, 10.000000);
+	Name("Region2");
+	NextIsGrouped();
+}
+
+Region("rumble spa_rum_engines hangar", 1)
+{
+	Layer(12);
+	Position(-835.970337, 664.715027, 1.607319);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(67.772583, 10.000000, 10.000000);
+	Name("Region3");
+}
+
+Region("rumble spa_rum_engines hangar", 1)
+{
+	Layer(12);
+	Position(-316.501160, 640.679199, 1404.750366);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(52.414169, 10.000000, 10.000000);
+	Name("c_eng01_rum");
+	NextIsGrouped();
+}
+
+Region("rumble spa_rum_engines hangar", 1)
+{
+	Layer(12);
+	Position(-414.623840, 641.844116, 1407.601929);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(53.074371, 10.000000, 10.000000);
+	Name("Region0");
+}
+
+Region("rumble spa_rum_engines hangar", 1)
+{
+	Layer(12);
+	Position(-1214.595459, 509.177856, 2754.716064);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(56.341614, 10.000000, 76.869873);
+	Name("c_eng02_rum");
+}

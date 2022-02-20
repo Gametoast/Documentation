@@ -1,0 +1,63 @@
+Version(3);
+SaveType(0);
+
+Camera("camera")
+{
+	Rotation(-0.145, -0.085, -0.851, 0.498);
+	Position(69.971, 129.270, 22.550);
+	FieldOfView(55.400);
+	NearPlane(1.000);
+	FarPlane(500.000);
+	ZoomFactor(1.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(129.947, 262.571, -91.390,  0.828, 0.558, -0.050, 0.034);
+}
+LightName("fel1_1CTF.LGT");
+ControllerManager("StandardCtrlMgr");
+
+WorldExtents()
+{
+	Min(0.000000, 0.000000, 0.000000);
+	Max(0.000000, 0.000000, 0.000000);
+}
+
+NextSequence(-3400502);
+
+Object("com_bldg_ctfbase", "com_bldg_ctfbase", 767417689)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-80.419, 17.398, 33.483);
+	SeqNo(767417689);
+	Team(1);
+	NetworkId(-1);
+	Layer(4);
+}
+
+Object("com_bldg_ctfbase1", "com_bldg_ctfbase", 2119969734)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(132.889, 38.192, -62.224);
+	SeqNo(2119969734);
+	Team(2);
+	NetworkId(-1);
+	Layer(4);
+}
+
+Object("Flag", "com_item_flag", -1890885669)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(60.000, 10.774, 79.000);
+	SeqNo(-1890885669);
+	Team(0);
+	NetworkId(-1);
+	Label("Flag");
+	Layer(4);
+}

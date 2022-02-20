@@ -1,0 +1,63 @@
+Version(1);
+NextID(1);
+
+Layer("[Base]", 0, 10)
+{
+	Description("");
+}
+
+Layer("Design01", 1, 0)
+{
+	Description("");
+}
+
+Layer("Sound", 2, 0)
+{
+	Description("");
+}
+
+Layer("hunt", 3, 0)
+{
+	Description("");
+}
+
+Layer("1flag", 4, 0)
+{
+	Description("");
+}
+
+Layer("conquest", 5, 0)
+{
+	Description("");
+}
+
+Layer("turrets", 6, 0)
+{
+	Description("");
+}
+
+
+GameMode("Common")
+{
+	Layer(0);
+	Layer(1);
+	Layer(2);
+}
+
+GameMode("conquest")
+{
+	Layer(5);
+	Layer(6);
+}
+
+GameMode("hunt")
+{
+	Layer(3);
+}
+
+GameMode("1flag")
+{
+	Layer(4);
+	Layer(6);
+}
+

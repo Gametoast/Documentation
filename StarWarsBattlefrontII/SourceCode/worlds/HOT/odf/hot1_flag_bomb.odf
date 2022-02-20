@@ -1,0 +1,27 @@
+[GameObjectClass]		
+
+ClassLabel		=	"flag"
+GeometryName	=	"hoth_prop_bomb.msh"
+
+[Properties]		
+
+Lighting			= "Dynamic"
+
+IconTexture			= ""
+MapTexture			= ""
+MapScale			= ""
+
+GeometryName	=	"hoth_prop_bomb"
+CarriedGeometryName 		= "hot_icon_bomb_carried"
+SoldierAttachBone		= "bone_pelvis"
+
+PickupSound			= "health_recharge defer"
+DropSound			= ""
+AmbientSound		= ""
+
+LifeSpan			= 50.0
+
+LightODF			= "flaglight"
+
+[InstanceProperties]
+

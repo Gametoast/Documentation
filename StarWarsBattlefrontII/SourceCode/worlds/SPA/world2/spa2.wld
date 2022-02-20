@@ -1,0 +1,98 @@
+Version(3);
+SaveType(0);
+
+Camera("camera")
+{
+	Rotation(0.752, 0.166, -0.623, 0.138);
+	Position(-370.455, 654.073, 901.780);
+	FieldOfView(55.400);
+	NearPlane(1.000);
+	FarPlane(5000.000);
+	ZoomFactor(1.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(-190.434, 857.785, 771.592,  0.888, 0.248, -0.372, 0.104);
+}
+LightName("spa2.LGT");
+TerrainName("spa2.ter");
+SkyName("spa2.sky");
+ScriptName("DummyScript.dll");
+ControllerManager("StandardCtrlMgr");
+
+WorldExtents()
+{
+	Min(0.000000, 0.000000, 0.000000);
+	Max(0.000000, 0.000000, 0.000000);
+}
+
+NextSequence(-4108391);
+
+Object("tur_bldg_chaingun_roof", "tur_bldg_chaingun_roof", 406572083)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-373.000, 651.681, 896.458);
+	SeqNo(406572083);
+	Team(2);
+	NetworkId(-1);
+}
+
+Object("spa_prop_doorwaysignr", "spa_prop_doorwaysignr", 709498468)
+{
+	ChildRotation(0.705, 0.000, -0.709, 0.000);
+	ChildPosition(-343.008, 652.221, 902.408);
+	SeqNo(709498468);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("spa_prop_doorwaysignB", "spa_prop_doorwaysignB", 997037684)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(-372.819, 652.305, 930.221);
+	SeqNo(997037684);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("spa_prop_doorwaysignB1", "spa_prop_doorwaysignB", 1073473557)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(-351.240, 652.305, 930.221);
+	SeqNo(1073473557);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("spa_prop_doorwaysigng", "spa_prop_doorwaysigng", 1315423453)
+{
+	ChildRotation(0.711, 0.000, 0.703, 0.000);
+	ChildPosition(-380.010, 652.220, 902.481);
+	SeqNo(1315423453);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("spa_prop_doorwaysignr1", "spa_prop_doorwaysignr", -1092514197)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-361.588, 652.224, 889.119);
+	SeqNo(-1092514197);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tur_bldg_chaingun_roof1", "tur_bldg_chaingun_roof", -722229639)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-349.842, 651.681, 896.458);
+	SeqNo(-722229639);
+	Team(2);
+	NetworkId(-1);
+}

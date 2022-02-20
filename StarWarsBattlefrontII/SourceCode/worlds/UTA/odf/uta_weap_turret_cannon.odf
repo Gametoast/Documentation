@@ -1,0 +1,59 @@
+[WeaponClass]
+ClassLabel          = "cannon"
+
+[Properties]
+
+MuzzleFlash         = "med_muzzle_flash"
+Discharge           = "med_smoke_effect"
+
+RoundsPerClip           = "0"
+
+HeatPerShot         = "0.075"
+HeatRecoverRate         = "0.5"
+HeatThreshold           = "0.02"
+
+MinRange            = "10"
+OptimalRange            = "800"
+MaxRange            = "1500"
+
+WEAPONSECTION           = 1
+FireSound               = "rep_weap_fly_gunship_cannon_fire"
+//ReloadSound           = "cannonreload"
+//ChangeModeSound       = "com_weap_inf_launcher_modechange"
+//FireEmptySound        = "com_weap_inf_weapon_empty"
+
+OrdnanceName            = "uta_weap_turret_cannon_ord"
+
+RecoilLengthLight           = "0.1"
+RecoilStrengthLight         = "1"
+
+RecoilLengthHeavy           = "0.05"
+RecoilStrengthHeavy         = "1"
+
+
+ZoomMin             	= "2.0"
+ZoomMax             	= "8.0"
+ZoomRate            	= "2.0"
+
+ShotDelay           = "1.25 2.25"
+
+LockOnRange         	= "0.0"
+LockTime            	= "0.5"
+MinSpread           	= "1.5"
+MaxSpread           	= "2.5"
+AutoAimSize         	= "30.0"
+
+TargetEnemy         	= "1"
+TargetNeutral           = "0"
+TargetFriendly          = "0"
+
+TargetPerson            = "0"
+TargetAnimal            = "0"
+TargetDroid         	= "0"
+TargetVehicle           = "1"
+TargetBuilding          = "0"
+
+SalvoCount          = "4"
+SalvoDelay          = ".15"
+
+FoleyFXGroup    =       "metal_foley"

@@ -1,0 +1,21 @@
+[GameObjectClass]       
+
+ClassLabel  =   "door"
+GeometryName    =   "tan4_prop_door_minus_darkside.msh"
+
+
+[Properties]        
+
+GeometryName    =   "tan4_prop_door_minus_darkside"
+AnimationName     = "tan_prop_door"
+
+Animation         =     "open"
+
+AnimationTrigger  =     "hp_door 3"
+
+OrdnanceCollision = "p_door"
+
+OpenSound       = "door_open"
+CloseSound      = "door_close"
+LockedSound     = "vehicle_equip"
+FoleyFXGroup    = "metal_foley"

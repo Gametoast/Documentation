@@ -1,0 +1,24 @@
+[GameObjectClass]       
+
+ClassLabel		= "destructablebuilding"
+GeometryName    	= "dea1_prop_panel.msh"
+
+
+[Properties]        
+
+GeometryName    =   "dea1_prop_panel"
+MapTexture = "rechargedroid_icon"
+MapScale        = "1"
+UnbuiltHoloOdf = "com_holo_build"
+
+GeometryName	=	"dea1_prop_panel"
+UnbuiltGeometryName   = "dea1_prop_panel"
+--DestroyedGeometryName   = "dea1_prop_panel"
+
+MaxHealth       = 300
+
+//AttachOdf = "mus1_light_panel_red"
+//AttachToHardPoint = "hp_light"
+
+//AttachEffect = "prop_panelspark"
+//AttachToHardPoint = "hp_panel"

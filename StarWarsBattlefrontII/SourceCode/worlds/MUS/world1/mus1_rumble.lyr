@@ -1,0 +1,52 @@
+Version(3);
+SaveType(0);
+
+Camera("camera")
+{
+	Rotation(0.632, 0.333, 0.620, -0.326);
+	Position(-85.892, 156.874, -5.922);
+	FieldOfView(55.400);
+	NearPlane(1.000);
+	FarPlane(2500.000);
+	ZoomFactor(1.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(7.101, 84.248, -13.548,  0.130, 0.008, -0.990, 0.062);
+}
+LightName("mus1_rumble.LGT");
+ControllerManager("StandardCtrlMgr");
+
+WorldExtents()
+{
+	Min(0.000000, 0.000000, 0.000000);
+	Max(0.000000, 0.000000, 0.000000);
+}
+
+NextSequence(-3705784);
+
+Object("mus1_rum_trap", "mus1_rum_trap", -945806330)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-51.000, 64.000, 29.000);
+	SeqNo(-945806330);
+	Team(0);
+	NetworkId(-1);
+	Layer(6);
+}
+
+Object("mus1_rum_walkway", "mus1_rum_walkway", -75142190)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-72.000, 69.000, 29.000);
+	SeqNo(-75142190);
+	Team(0);
+	NetworkId(-1);
+	Layer(6);
+}

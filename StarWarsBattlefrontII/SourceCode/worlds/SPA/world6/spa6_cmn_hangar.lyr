@@ -1,0 +1,832 @@
+Version(3);
+SaveType(0);
+
+Camera("camera")
+{
+	Rotation(0.621, 0.596, -0.367, 0.352);
+	Position(-466.236, 278.525, 1269.870);
+	FieldOfView(55.400);
+	NearPlane(1.000);
+	FarPlane(10000.000);
+	ZoomFactor(1.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(-624.112, 53.715, 940.821,  0.954, 0.103, 0.278, -0.030);
+}
+LightName("spa6_cmn_hangar.LGT");
+ControllerManager("StandardCtrlMgr");
+
+WorldExtents()
+{
+	Min(0.000000, 0.000000, 0.000000);
+	Max(0.000000, 0.000000, 0.000000);
+}
+
+NextSequence(-2423802);
+
+Object("rep_cap2_rechargeammo2", "com_item_weaponrecharge", 739918)
+{
+	ChildRotation(-0.248, 0.000, -0.969, 0.000);
+	ChildPosition(-505.933, -3.270, 1230.054);
+	SeqNo(739918);
+	Team(0);
+	NetworkId(-1);
+	Layer(4);
+	EffectRegion("");
+	Radius("5.0");
+}
+
+Object("cis_cap1_commandroom", "cis_fedcruiser_commandroom", 75956254)
+{
+	ChildRotation(0.384, -0.001, -0.923, 0.000);
+	ChildPosition(-962.892, -144.675, -159.915);
+	SeqNo(75956254);
+	Team(0);
+	NetworkId(-1);
+	Layer(4);
+}
+
+Object("rep_cap2_rechargehealth1", "com_item_healthrecharge", 213266624)
+{
+	ChildRotation(-0.247, 0.000, -0.969, 0.000);
+	ChildPosition(-437.551, -3.247, 1248.763);
+	SeqNo(213266624);
+	Team(0);
+	NetworkId(-1);
+	Layer(4);
+	EffectRegion("");
+	Radius("5.0");
+}
+
+Object("cis_cap1_gun1", "tur_bldg_spa_cis_beam", 241640332)
+{
+	ChildRotation(0.933, 0.000, 0.360, 0.000);
+	ChildPosition(-499.000, -90.000, 292.000);
+	SeqNo(241640332);
+	Team(0);
+	NetworkId(-1);
+	Layer(4);
+}
+
+Object("cis_cap1_turrchair6", "spa_veh_turret_chair", 245931026)
+{
+	ChildRotation(-0.394, 0.000, -0.919, 0.000);
+	ChildPosition(-965.185, -144.639, -149.987);
+	SeqNo(245931026);
+	Team(0);
+	NetworkId(-1);
+	Layer(4);
+	RemoteGameObject("cis_cap1_gun6");
+	NextLinkedTerminal("cis_cap1_turrchair1");
+	PrevLinkedTerminal("cis_cap1_turrchair5");
+}
+
+Object("rep_cap2_turrchair3", "spa_veh_turret_chair", 255385918)
+{
+	ChildRotation(0.886, 0.000, 0.464, 0.000);
+	ChildPosition(-448.131, 0.368, 1277.457);
+	SeqNo(255385918);
+	Team(0);
+	NetworkId(-1);
+	Layer(4);
+	RemoteGameObject("rep_cap2_gun3");
+	NextLinkedTerminal("rep_cap2_turrchair4");
+	PrevLinkedTerminal("rep_cap2_turrchair2");
+}
+
+Object("cis_cap1_life_ext", "cis_fedcruiser_destruct_lifesupport", 353816083)
+{
+	ChildRotation(0.925, -0.028, 0.379, 0.011);
+	ChildPosition(-476.594, -234.857, 314.258);
+	SeqNo(353816083);
+	Team(2);
+	NetworkId(-1);
+	Layer(4);
+}
+
+Object("rep_cap2_door5", "cis_fedcruiser_door1", 438660055)
+{
+	ChildRotation(0.985, 0.000, 0.170, 0.000);
+	ChildPosition(-458.271, 0.571, 1264.768);
+	SeqNo(438660055);
+	Team(0);
+	NetworkId(-1);
+	Layer(4);
+}
+
+Object("rep_cap2_gun6", "tur_bldg_spa_rep_beam", 474135418)
+{
+	ChildRotation(0.867, 0.000, -0.498, 0.000);
+	ChildPosition(-700.000, 92.000, 1481.000);
+	SeqNo(474135418);
+	Team(0);
+	NetworkId(-1);
+	Layer(4);
+}
+
+Object("cis_cap1_rechargehealth3", "com_item_healthrecharge", 524227296)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-1063.745, -148.544, -247.191);
+	SeqNo(524227296);
+	Team(0);
+	NetworkId(-1);
+	Layer(4);
+	EffectRegion("");
+	Radius("5.0");
+}
+
+Object("cis_cap1_gun2", "tur_bldg_spa_cis_chaingun", 706381650)
+{
+	ChildRotation(-0.386, 0.000, -0.922, 0.000);
+	ChildPosition(-671.000, -87.367, 123.000);
+	SeqNo(706381650);
+	Team(0);
+	NetworkId(-1);
+	Layer(4);
+}
+
+Object("cis_cap1_rechargeammo1", "com_item_weaponrecharge", 715792413)
+{
+	ChildRotation(0.912, 0.000, 0.410, 0.000);
+	ChildPosition(-972.802, -144.445, -164.332);
+	SeqNo(715792413);
+	Team(0);
+	NetworkId(-1);
+	Layer(4);
+	EffectRegion("");
+	Radius("5.0");
+}
+
+Object("cis_cap1_door4", "cis_fedcruiser_door1", 934166153)
+{
+	ChildRotation(0.926, 0.000, -0.377, 0.000);
+	ChildPosition(-969.047, -144.441, -139.981);
+	SeqNo(934166153);
+	Team(0);
+	NetworkId(-1);
+	Layer(4);
+}
+
+Object("rep_cap2_door1", "cis_fedcruiser_door1", 1054452445)
+{
+	ChildRotation(0.820, 0.000, -0.573, 0.000);
+	ChildPosition(-421.565, 0.654, 1281.396);
+	SeqNo(1054452445);
+	Team(0);
+	NetworkId(-1);
+	Layer(4);
+}
+
+Object("cis_cap1_rechargeammo2", "com_item_weaponrecharge", 1154715060)
+{
+	ChildRotation(0.912, 0.000, 0.410, 0.000);
+	ChildPosition(-970.426, -148.522, -192.627);
+	SeqNo(1154715060);
+	Team(0);
+	NetworkId(-1);
+	Layer(4);
+	EffectRegion("");
+	Radius("5.0");
+}
+
+Object("rep_cap2_commandroom", "rep_assultship_commandroom", 1218529435)
+{
+	ChildRotation(0.166, 0.000, -0.986, 0.001);
+	ChildPosition(-442.320, 0.398, 1278.446);
+	SeqNo(1218529435);
+	Team(0);
+	NetworkId(-1);
+	Layer(4);
+}
+
+Object("rep_cap2_gun2", "tur_bldg_spa_rep_chaingun", 1301846215)
+{
+	ChildRotation(0.502, 0.000, 0.865, 0.000);
+	ChildPosition(-58.526, 40.541, 1078.743);
+	SeqNo(1301846215);
+	Team(0);
+	NetworkId(-1);
+	Layer(4);
+}
+
+Object("rep_cap2_ind5b", "spa_prop_doorwaysignB", 1329319042)
+{
+	ChildRotation(0.986, 0.000, 0.169, 0.000);
+	ChildPosition(-458.160, 4.394, 1265.085);
+	SeqNo(1329319042);
+	Team(0);
+	NetworkId(-1);
+	Layer(4);
+}
+
+Object("rep_cap2_shielddoor", "imp_cap_stardestroyer_shield", 1344236111)
+{
+	ChildRotation(0.817, 0.000, -0.577, 0.000);
+	ChildPosition(-475.421, -2.120, 1185.378);
+	SeqNo(1344236111);
+	Team(1);
+	NetworkId(-1);
+	Layer(4);
+}
+
+Object("rep_cap2_life_ext", "rep_assultship_destruct_lifesupport", 1395091305)
+{
+	ChildRotation(0.877, 0.000, -0.480, 0.000);
+	ChildPosition(38.130, -21.225, 1014.130);
+	SeqNo(1395091305);
+	Team(1);
+	NetworkId(-1);
+	Layer(4);
+}
+
+Object("rep_cap2_gun4", "tur_bldg_spa_rep_chaingun", 1449726600)
+{
+	ChildRotation(0.354, 0.000, -0.935, 0.000);
+	ChildPosition(-398.000, 40.000, 1175.000);
+	SeqNo(1449726600);
+	Team(0);
+	NetworkId(-1);
+	Layer(4);
+}
+
+Object("rep_cap2_rechargeammo3", "com_item_weaponrecharge", 1632394220)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-441.637, 0.596, 1267.485);
+	SeqNo(1632394220);
+	Team(0);
+	NetworkId(-1);
+	Layer(4);
+	EffectRegion("");
+	Radius("5.0");
+}
+
+Object("cis_cap1_turrchair5", "spa_veh_turret_chair", 1703576405)
+{
+	ChildRotation(0.926, 0.000, -0.377, 0.000);
+	ChildPosition(-952.969, -144.669, -162.277);
+	SeqNo(1703576405);
+	Team(0);
+	NetworkId(-1);
+	Layer(4);
+	RemoteGameObject("cis_cap1_gun5");
+	NextLinkedTerminal("cis_cap1_turrchair6");
+	PrevLinkedTerminal("cis_cap1_turrchair4");
+}
+
+Object("rep_cap2_door3", "cis_fedcruiser_door1", 1818741503)
+{
+	ChildRotation(0.986, 0.000, 0.167, 0.000);
+	ChildPosition(-434.574, 0.628, 1300.592);
+	SeqNo(1818741503);
+	Team(0);
+	NetworkId(-1);
+	Layer(4);
+}
+
+Object("cis_cap1_turrchair2", "spa_veh_turret_chair", 1839015165)
+{
+	ChildRotation(0.711, 0.000, -0.703, 0.000);
+	ChildPosition(-949.965, -144.644, -154.316);
+	SeqNo(1839015165);
+	Team(0);
+	NetworkId(-1);
+	Layer(4);
+	RemoteGameObject("cis_cap1_gun2");
+	NextLinkedTerminal("cis_cap1_turrchair3");
+	PrevLinkedTerminal("cis_cap1_turrchair1");
+}
+
+Object("cis_cap1_shielddoor", "cis_fedcruiser_hallway", 1873373913)
+{
+	ChildRotation(0.384, 0.000, -0.923, 0.000);
+	ChildPosition(-1017.100, -152.956, -220.145);
+	SeqNo(1873373913);
+	Team(2);
+	NetworkId(-1);
+	Layer(4);
+}
+
+Object("cis_cap1_turrchair4", "spa_veh_turret_chair", 1890272898)
+{
+	ChildRotation(-0.002, 0.000, -1.000, 0.000);
+	ChildPosition(-957.036, -144.634, -147.245);
+	SeqNo(1890272898);
+	Team(0);
+	NetworkId(-1);
+	Layer(4);
+	RemoteGameObject("cis_cap1_gun4");
+	NextLinkedTerminal("cis_cap1_turrchair5");
+	PrevLinkedTerminal("cis_cap1_turrchair3");
+}
+
+Object("cis_cap1_gun4", "tur_bldg_spa_cis_chaingun", 1929165255)
+{
+	ChildRotation(0.927, 0.000, -0.375, 0.000);
+	ChildPosition(-1053.998, -35.471, -262.968);
+	SeqNo(1929165255);
+	Team(0);
+	NetworkId(-1);
+	Layer(4);
+}
+
+Object("rep_cap2_turrchair6", "spa_veh_turret_chair", 1965866848)
+{
+	ChildRotation(0.581, 0.000, 0.814, 0.000);
+	ChildPosition(-449.731, 0.309, 1286.390);
+	SeqNo(1965866848);
+	Team(0);
+	NetworkId(-1);
+	Layer(4);
+	RemoteGameObject("rep_cap2_gun6");
+	NextLinkedTerminal("rep_cap2_turrchair1");
+	PrevLinkedTerminal("rep_cap2_turrchair5");
+}
+
+Object("rep_cap2_deftur1", "tur_bldg_chaingun_roof", 1966917035)
+{
+	ChildRotation(0.307, 0.000, -0.952, 0.000);
+	ChildPosition(-424.865, 3.903, 1289.172);
+	SeqNo(1966917035);
+	Team(1);
+	NetworkId(-1);
+	Layer(4);
+}
+
+Object("cis_cap1_deftur2", "tur_bldg_chaingun_roof", 1997851016)
+{
+	ChildRotation(0.259, 0.000, -0.966, 0.000);
+	ChildPosition(-959.015, -141.255, -141.386);
+	SeqNo(1997851016);
+	Team(2);
+	NetworkId(-1);
+	Layer(4);
+}
+
+Object("cis_cap1_rechargehealth2", "com_item_healthrecharge", 2066469685)
+{
+	ChildRotation(0.912, 0.000, 0.410, 0.000);
+	ChildPosition(-989.893, -148.567, -173.750);
+	SeqNo(2066469685);
+	Team(0);
+	NetworkId(-1);
+	Layer(4);
+	EffectRegion("");
+	Radius("5.0");
+}
+
+Object("cis_cap1_engine2", "cis_fedcruiser_destruct2", 2117256800)
+{
+	ChildRotation(0.390, 0.000, -0.921, 0.000);
+	ChildPosition(-1303.510, -153.166, -439.753);
+	SeqNo(2117256800);
+	Team(2);
+	NetworkId(-1);
+	Layer(4);
+}
+
+Object("cis_cap1_rechargeammo3", "com_item_weaponrecharge", -2130273263)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-1044.266, -148.460, -265.798);
+	SeqNo(-2130273263);
+	Team(0);
+	NetworkId(-1);
+	Layer(4);
+	EffectRegion("");
+	Radius("5.0");
+}
+
+Object("cis_cap1_gun6", "tur_bldg_spa_cis_beam", -2090797740)
+{
+	ChildRotation(0.391, 0.000, -0.920, 0.000);
+	ChildPosition(-1336.886, -105.004, -539.050);
+	SeqNo(-2090797740);
+	Team(0);
+	NetworkId(-1);
+	Layer(4);
+}
+
+Object("cis_cap1_door1", "cis_fedcruiser_door1", -2078316627)
+{
+	ChildRotation(0.926, 0.000, 0.378, 0.000);
+	ChildPosition(-967.254, -144.415, -181.260);
+	SeqNo(-2078316627);
+	Team(0);
+	NetworkId(-1);
+	Layer(4);
+}
+
+Object("rep_cap2_comms", "rep_assultship_destruct_commarray", -2048761664)
+{
+	ChildRotation(0.877, 0.000, -0.480, 0.000);
+	ChildPosition(-334.048, 62.005, 1246.883);
+	SeqNo(-2048761664);
+	Team(1);
+	NetworkId(-1);
+	Layer(4);
+}
+
+Object("cis_cap1_sensor", "cis_fedcruiser_destruct_sensorprop", -1969164148)
+{
+	ChildRotation(0.659, -0.651, 0.265, 0.268);
+	ChildPosition(-1254.108, -58.146, -462.490);
+	SeqNo(-1969164148);
+	Team(2);
+	NetworkId(-1);
+	Layer(4);
+}
+
+Object("rep_cap2_gun5", "tur_bldg_spa_rep_chaingun", -1954213017)
+{
+	ChildRotation(0.502, 0.000, 0.865, 0.000);
+	ChildPosition(-739.000, 28.000, 1182.000);
+	SeqNo(-1954213017);
+	Team(0);
+	NetworkId(-1);
+	Layer(4);
+}
+
+Object("cis_cap1_liquidgen", "spa_prop_liquidgen", -1871294766)
+{
+	ChildRotation(0.392, 0.000, -0.920, 0.000);
+	ChildPosition(-958.961, -144.399, -155.939);
+	SeqNo(-1871294766);
+	Team(2);
+	NetworkId(-1);
+	Layer(4);
+}
+
+Object("rep_cap2_sensor2", "rep_assultship_destruct_sensorrly", -1826584477)
+{
+	ChildRotation(0.877, 0.000, -0.480, 0.000);
+	ChildPosition(-588.684, 134.742, 1407.314);
+	SeqNo(-1826584477);
+	Team(1);
+	NetworkId(-1);
+	Layer(4);
+}
+
+Object("cis_cap1_gun5", "tur_bldg_spa_cis_chaingun", -1729996268)
+{
+	ChildRotation(0.922, 0.000, 0.387, 0.000);
+	ChildPosition(-1224.986, 161.358, -425.350);
+	SeqNo(-1729996268);
+	Team(0);
+	NetworkId(-1);
+	Layer(4);
+}
+
+Object("cis_cap1_ind2b", "spa_prop_doorwaysignB", -1709323880)
+{
+	ChildRotation(0.925, 0.000, 0.380, 0.000);
+	ChildPosition(-982.342, -140.696, -165.902);
+	SeqNo(-1709323880);
+	Team(0);
+	NetworkId(-1);
+	Layer(4);
+}
+
+Object("rep_cap2_gun3", "tur_bldg_spa_rep_chaingun", -1572677225)
+{
+	ChildRotation(0.502, 0.000, 0.865, 0.000);
+	ChildPosition(-267.032, 57.540, 1209.589);
+	SeqNo(-1572677225);
+	Team(0);
+	NetworkId(-1);
+	Layer(4);
+}
+
+Object("cis_fedcruiser_shield_blue", "cis_fedcruiser_shield_blue", -1571562293)
+{
+	ChildRotation(0.384, 0.000, -0.923, 0.000);
+	ChildPosition(-1017.100, -152.956, -220.145);
+	SeqNo(-1571562293);
+	Team(0);
+	NetworkId(-1);
+	Layer(4);
+}
+
+Object("cis_cap1_comms", "spa2_prop_antenna_destruct", -1452502958)
+{
+	ChildRotation(0.391, 0.000, -0.920, 0.000);
+	ChildPosition(-711.015, -89.600, 81.774);
+	SeqNo(-1452502958);
+	Team(2);
+	NetworkId(-1);
+	Layer(4);
+}
+
+Object("rep_cap2_deftur2", "tur_bldg_chaingun_roof", -1382002936)
+{
+	ChildRotation(-0.029, 0.000, -1.000, 0.000);
+	ChildPosition(-449.255, 3.867, 1297.605);
+	SeqNo(-1382002936);
+	Team(1);
+	NetworkId(-1);
+	Layer(4);
+}
+
+Object("cis_cap1_turrchair3", "spa_veh_turret_chair", -1381050585)
+{
+	ChildRotation(0.708, 0.000, 0.706, 0.000);
+	ChildPosition(-967.643, -144.617, -157.852);
+	SeqNo(-1381050585);
+	Team(0);
+	NetworkId(-1);
+	Layer(4);
+	RemoteGameObject("cis_cap1_gun3");
+	NextLinkedTerminal("cis_cap1_turrchair4");
+	PrevLinkedTerminal("cis_cap1_turrchair2");
+}
+
+Object("rep_cap2_ind4b", "spa_prop_doorwaysignB", -1348140414)
+{
+	ChildRotation(0.986, 0.000, 0.169, 0.000);
+	ChildPosition(-437.790, 4.398, 1257.983);
+	SeqNo(-1348140414);
+	Team(0);
+	NetworkId(-1);
+	Layer(4);
+}
+
+Object("cis_cap1_door3", "cis_fedcruiser_door1", -1331589425)
+{
+	ChildRotation(0.927, 0.000, -0.374, 0.000);
+	ChildPosition(-942.706, -144.525, -166.412);
+	SeqNo(-1331589425);
+	Team(0);
+	NetworkId(-1);
+	Layer(4);
+}
+
+Object("cis_cap1_turrchair1", "spa_veh_turret_chair", -1263833216)
+{
+	ChildRotation(1.000, 0.000, -0.001, 0.000);
+	ChildPosition(-960.572, -144.646, -164.923);
+	SeqNo(-1263833216);
+	Team(0);
+	NetworkId(-1);
+	Layer(4);
+	RemoteGameObject("cis_cap1_gun1");
+	NextLinkedTerminal("cis_cap1_turrchair2");
+	PrevLinkedTerminal("cis_cap1_turrchair6");
+}
+
+Object("rep_cap2_liquidgen", "spa_prop_liquidgen", -1211496961)
+{
+	ChildRotation(0.502, 0.000, 0.865, 0.000);
+	ChildPosition(-440.534, 0.600, 1283.894);
+	SeqNo(-1211496961);
+	Team(1);
+	NetworkId(-1);
+	Layer(4);
+}
+
+Object("cis_cap1_engine1", "cis_fedcruiser_destruct1", -1186476950)
+{
+	ChildRotation(0.390, 0.000, -0.921, 0.000);
+	ChildPosition(-1232.690, -153.058, -509.502);
+	SeqNo(-1186476950);
+	Team(2);
+	NetworkId(-1);
+	Layer(4);
+}
+
+Object("rep_cap2_rechargeammo1", "com_item_weaponrecharge", -1166676190)
+{
+	ChildRotation(-0.247, 0.000, -0.969, 0.000);
+	ChildPosition(-462.935, -3.296, 1257.107);
+	SeqNo(-1166676190);
+	Team(0);
+	NetworkId(-1);
+	Layer(4);
+	EffectRegion("");
+	Radius("5.0");
+}
+
+Object("rep_cap2_rechargehealth3", "com_item_healthrecharge", -955178116)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-449.201, 0.582, 1270.195);
+	SeqNo(-955178116);
+	Team(0);
+	NetworkId(-1);
+	Layer(4);
+	EffectRegion("");
+	Radius("5.0");
+}
+
+Object("cis_cap1_deftur1", "tur_bldg_chaingun_roof", -853173257)
+{
+	ChildRotation(0.524, 0.000, -0.852, 0.000);
+	ChildPosition(-942.884, -141.273, -157.416);
+	SeqNo(-853173257);
+	Team(2);
+	NetworkId(-1);
+	Layer(4);
+}
+
+Object("rep_cap2_door2", "cis_fedcruiser_door1", -836094357)
+{
+	ChildRotation(0.818, 0.000, -0.575, 0.000);
+	ChildPosition(-456.570, 0.603, 1293.605);
+	SeqNo(-836094357);
+	Team(0);
+	NetworkId(-1);
+	Layer(4);
+}
+
+Object("rep_cap2_gun1", "tur_bldg_spa_rep_beam", -815889951)
+{
+	ChildRotation(0.502, 0.000, 0.865, 0.000);
+	ChildPosition(167.000, 21.000, 933.000);
+	SeqNo(-815889951);
+	Team(0);
+	NetworkId(-1);
+	Layer(4);
+}
+
+Object("rep_cap2_door4", "cis_fedcruiser_door1", -747288914)
+{
+	ChildRotation(0.986, 0.000, 0.166, 0.000);
+	ChildPosition(-437.893, 0.590, 1257.732);
+	SeqNo(-747288914);
+	Team(0);
+	NetworkId(-1);
+	Layer(4);
+}
+
+Object("cis_cap1_rechargehealth1", "com_item_healthrecharge", -662925232)
+{
+	ChildRotation(0.912, 0.000, 0.410, 0.000);
+	ChildPosition(-966.594, -144.568, -170.722);
+	SeqNo(-662925232);
+	Team(0);
+	NetworkId(-1);
+	Layer(4);
+	EffectRegion("");
+	Radius("5.0");
+}
+
+Object("rep_cap2_rechargehealth2", "com_item_healthrecharge", -612643611)
+{
+	ChildRotation(-0.248, 0.000, -0.969, 0.000);
+	ChildPosition(-421.720, -3.275, 1195.858);
+	SeqNo(-612643611);
+	Team(0);
+	NetworkId(-1);
+	Layer(4);
+	EffectRegion("");
+	Radius("5.0");
+}
+
+Object("rep_cap2_defense", "spa1_prop_impterminal", -565848852)
+{
+	ChildRotation(0.985, 0.000, 0.174, 0.000);
+	ChildPosition(-445.823, 0.549, 1266.723);
+	SeqNo(-565848852);
+	Team(1);
+	NetworkId(-1);
+	Layer(4);
+}
+
+Object("cis_cap1_ind1b", "spa_prop_doorwaysignB", -561457787)
+{
+	ChildRotation(0.921, 0.000, 0.388, 0.000);
+	ChildPosition(-967.141, -140.733, -181.197);
+	SeqNo(-561457787);
+	Team(0);
+	NetworkId(-1);
+	Layer(4);
+}
+
+Object("rep_cap2_turrchair4", "spa_veh_turret_chair", -536563649)
+{
+	ChildRotation(-0.147, 0.000, -0.989, 0.000);
+	ChildPosition(-443.463, 0.368, 1292.792);
+	SeqNo(-536563649);
+	Team(0);
+	NetworkId(-1);
+	Layer(4);
+	RemoteGameObject("rep_cap2_gun4");
+	NextLinkedTerminal("rep_cap2_turrchair5");
+	PrevLinkedTerminal("rep_cap2_turrchair3");
+}
+
+Object("rep_cap2_sensor", "rep_assultship_destruct_sensorprop", -465432494)
+{
+	ChildRotation(0.877, 0.000, -0.480, 0.000);
+	ChildPosition(-588.674, 134.719, 1407.297);
+	SeqNo(-465432494);
+	Team(1);
+	NetworkId(-1);
+	Layer(4);
+}
+
+Object("cis_cap1_defense", "spa1_prop_impterminal", -445466275)
+{
+	ChildRotation(0.926, 0.000, 0.378, 0.000);
+	ChildPosition(-972.056, -144.486, -169.227);
+	SeqNo(-445466275);
+	Team(2);
+	NetworkId(-1);
+	Layer(4);
+}
+
+Object("cis_cap1_door5", "cis_fedcruiser_door1", -389708457)
+{
+	ChildRotation(0.926, 0.000, 0.378, 0.000);
+	ChildPosition(-946.260, -144.482, -143.707);
+	SeqNo(-389708457);
+	Team(0);
+	NetworkId(-1);
+	Layer(4);
+}
+
+Object("cis_cap1_door2", "cis_fedcruiser_door1", -298429950)
+{
+	ChildRotation(0.926, 0.000, 0.378, 0.000);
+	ChildPosition(-982.444, -144.471, -165.992);
+	SeqNo(-298429950);
+	Team(0);
+	NetworkId(-1);
+	Layer(4);
+}
+
+Object("rep_cap2_turrchair2", "spa_veh_turret_chair", -273733233)
+{
+	ChildRotation(0.457, 0.000, -0.889, 0.000);
+	ChildPosition(-433.174, 0.368, 1289.170);
+	SeqNo(-273733233);
+	Team(0);
+	NetworkId(-1);
+	Layer(4);
+	RemoteGameObject("rep_cap2_gun2");
+	NextLinkedTerminal("rep_cap2_turrchair3");
+	PrevLinkedTerminal("rep_cap2_turrchair1");
+}
+
+Object("rep_cap2_turrchair1", "spa_veh_turret_chair", -245094366)
+{
+	ChildRotation(0.997, 0.000, -0.082, 0.000);
+	ChildPosition(-439.260, 0.414, 1274.378);
+	SeqNo(-245094366);
+	Team(0);
+	NetworkId(-1);
+	Layer(4);
+	RemoteGameObject("rep_cap2_gun1");
+	NextLinkedTerminal("rep_cap2_turrchair2");
+	PrevLinkedTerminal("rep_cap2_turrchair6");
+}
+
+Object("cis_cap1_sensor2", "cis_fedcruiser_destruct_sensorrly", -209589162)
+{
+	ChildRotation(0.659, -0.651, 0.265, 0.268);
+	ChildPosition(-1254.108, -58.146, -462.490);
+	SeqNo(-209589162);
+	Team(2);
+	NetworkId(-1);
+	Layer(4);
+}
+
+Object("cis_cap1_gun3", "tur_bldg_spa_cis_beam", -108566610)
+{
+	ChildRotation(0.930, 0.000, 0.368, 0.000);
+	ChildPosition(-896.000, -36.000, -104.000);
+	SeqNo(-108566610);
+	Team(0);
+	NetworkId(-1);
+	Layer(4);
+}
+
+Object("rep_cap2_hangar", "rep_assultship_hallway", -21607673)
+{
+	ChildRotation(0.167, 0.000, -0.986, 0.000);
+	ChildPosition(-466.382, -3.244, 1207.949);
+	SeqNo(-21607673);
+	Team(0);
+	NetworkId(-1);
+	Layer(4);
+}
+
+Object("rep_cap2_turrchair5", "spa_veh_turret_chair", -2423803)
+{
+	ChildRotation(0.824, 0.000, -0.566, 0.000);
+	ChildPosition(-431.584, 0.368, 1279.816);
+	SeqNo(-2423803);
+	Team(0);
+	NetworkId(-1);
+	Layer(4);
+	RemoteGameObject("rep_cap2_gun5");
+	NextLinkedTerminal("rep_cap2_turrchair6");
+	PrevLinkedTerminal("rep_cap2_turrchair4");
+}

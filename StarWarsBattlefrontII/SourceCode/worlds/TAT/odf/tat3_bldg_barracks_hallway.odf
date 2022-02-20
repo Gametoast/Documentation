@@ -1,0 +1,18 @@
+[GameObjectClass]       
+
+ClassLabel      =   "prop"
+GeometryName    =   "tat3_bldg_barracks_hallway.msh"
+
+
+[Properties]        
+
+GeometryName    =   "tat3_bldg_barracks_hallway"
+
+AttachEffect = "prop_steamgrate"
+AttachToHardPoint = "hp_steamgrate"
+
+AttachOdf = "tat3_light_torture_2"
+AttachToHardPoint = "hp_light_g1"
+AttachToHardPoint = "hp_light_g2"
+
+FoleyFXGroup    = "stone_foley"

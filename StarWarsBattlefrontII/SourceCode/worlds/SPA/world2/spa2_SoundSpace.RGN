@@ -1,0 +1,40 @@
+Version(1);
+RegionCount(4);
+
+Region("Soundspace hangar", 0)
+{
+    Layer(7);
+    Position(-1396.977783, 944.525574, -1179.737793);
+    Rotation(0.932530, 0.000000, -0.361129, 0.000000);
+    Size(42.544678, 19.529602, 59.470001);
+    Name("RepHangar2");
+}
+
+Region("Soundspace hangar", 0)
+{
+    Layer(7);
+    Position(-365.979492, 655.549744, 992.889465);
+    Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+    Size(109.476028, 17.214783, 63.921997);
+    Name("CisHangar1");
+}
+
+Region("Soundspace commandroom", 0)
+{
+    Layer(7);
+    Position(-359.958252, 652.122803, 909.640564);
+    Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+    Size(20.033630, 5.314331, 22.385803);
+    Name("CISCommandRoom");
+}
+
+Region("Soundspace engineroom", 0)
+{
+    Layer(7);
+    Position(-398.726898, 651.545532, 900.090759);
+    Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+    Size(18.788055, 5.155884, 15.211182);
+    Name("CISEngineRoom");
+}
+
+

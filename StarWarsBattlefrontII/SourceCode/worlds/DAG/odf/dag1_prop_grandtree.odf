@@ -1,0 +1,20 @@
+[GameObjectClass]		
+
+ClassLabel		=	"prop"
+GeometryName	=	"dag1_prop_grandtree.msh"
+
+
+[Properties]		
+
+GeometryName	=	"dag1_prop_grandtree"
+
+AttachOdf = "dag1_prop_leafpatch"
+
+AttachToHardPoint = "hp_branch3"
+AttachToHardPoint = "hp_branch4"
+AttachToHardPoint = "hp_branch5"
+
+
+FoleyFXGroup    = "wood_foley"
+
+

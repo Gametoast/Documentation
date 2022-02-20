@@ -1,0 +1,35 @@
+[WeaponClass]
+ClassLabel 			= "cannon"
+
+[Properties]
+Label				= "T47 Laser Cannons"
+IconTexture			= "HUD_all_lascannon_icon"
+
+OrdnanceName 		= "nab_weap_hover_gianspeeder_cannon_ord"
+MuzzleFlash			= "med_muzzle_flash"
+Discharge			= "med_smoke_effect"
+ReticuleTexture			= "reticule_rifle"
+
+RoundsPerClip 			= "0"
+ShotDelay 			= "0.3"
+//ReloadTime 			= "2.0"
+TriggerSingle			= "0"
+
+HeatRecoverRate			= "0.3"
+HeatThreshold			= "0.2"
+HeatPerShot			= "0.45"
+
+LockOnRange			= "80.0"
+LockTime 			= "0.5"
+AutoAimSize			= "0.5"
+
+RecoilLengthLight    	   	= "0.1"
+RecoilLengthHeavy     	  	= "0.15"
+RecoilStrengthLight    	 	= "1"
+RecoilStrengthHeavy     	= "1"
+
+FireSound      			= "all_weap_hover_combatspeeder_cannon_fire"
+WeaponChange			= "vehicle_equip"
+
+ModeTexture			= "HUD_weap_fullauto"
+

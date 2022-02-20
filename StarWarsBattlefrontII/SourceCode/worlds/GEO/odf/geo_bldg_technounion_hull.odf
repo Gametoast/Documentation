@@ -1,0 +1,36 @@
+[GameObjectClass]       
+
+ClassLabel      =   "prop"
+GeometryName    =   "geo_bldg_technounion_hull.msh"
+
+
+[Properties]        
+
+GeometryName    =   "geo_bldg_technounion_hull"
+
+AttachEffect = "smoke_billow"
+
+
+AttachToHardPoint = "hp_smoke"
+
+
+AttachEffect = "com_sfx_vehicleflame"
+
+
+AttachToHardPoint = "hp_fire"
+AttachToHardPoint = "hp_fire1"
+
+AttachOdf = "geo_bldg_godray"
+
+
+AttachToHardPoint = "hp_god 20_0"
+
+VehicleCollision = "CLEAR"
+VehicleCollisionOnly = "p_vehicle"
+VehicleCollisionOnly = "p_vehicle_2"
+VehicleCollisionOnly = "p_vehicle_3"
+VehicleCollisionOnly = "p_vehicle_4"
+
+UseVCollForFlyers = 1
+
+

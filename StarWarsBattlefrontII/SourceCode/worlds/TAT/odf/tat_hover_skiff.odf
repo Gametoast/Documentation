@@ -1,0 +1,305 @@
+[GameObjectClass]
+
+ClassLabel          = "hover"
+GeometryName    =   "all_hover_skiff.msh"
+
+[Properties]
+GeometryName    =   "all_hover_skiff"
+ForceMode           = "1"
+ExplosionName       = "tat_hover_skiff_exp"
+
+WakeEffect      = "dustwake"
+
+FLYERSECTION        = "BODY"
+VehicleType         = "light"
+
+PilotPosition       = "hp_pilot"
+PilotAnimation      = "man_minigun"
+
+AnimationName           = "tat_hover_skiff"
+FinAnimation            = "tat_skiff_9pose"
+
+MapTexture          = "combatspeeder_icon"
+HealthTexture       = "HUD_tat_skiff_icon"
+MapScale            = 1.5
+
+CollisionScale      = 30.0
+
+
+MaxHealth       = 4200.0
+HealthType      = "vehicle"
+//HitLocation       = "p_crithit 0"
+
+SetAltitude     = 1.0
+GravityScale        = 4.0
+LiftSpring      = 10.0
+LiftDamp        = 3.0
+
+Acceleration        = 5.0
+Deceleration        = 8.0
+Traction        = 30.0
+ForwardSpeed        = 16.0
+ReverseSpeed        = 12.0
+StrafeSpeed     = 4.0
+
+AddSpringBody = "-1.8 -0.7 1.7 2.0"
+BodySpringLength = 1.0
+AddSpringBody = "1.8 -0.7 1.7 2.0"
+BodySpringLength = 1.0
+
+AddSpringBody = "0.0 0.3 -2.0 3.0"
+BodySpringLength = 1.0
+BodyOmegaXSpringFactor = 2
+
+VelocitySpring = 5
+VelocityDamp = 2.5
+OmegaXSpring = 4.0
+OmegaXDamp = 2.2
+OmegaZSpring = 6.0
+OmegaZDamp = 2.2
+
+\\\\\\ ---------COLLISION -----------\\\\\\\
+
+SoldierCollision    = "CollisionMesh"
+SoldierCollision    = "p_soldiercube"
+SoldierCollision    = "p_soldiercube1"
+
+
+OrdnanceCollision   = "CollisionMesh"
+OrdnanceCollision   = "p_gun1"
+OrdnanceCollision   = "p_gun2"
+OrdnanceCollision   = "p_gun3"
+OrdnanceCollision   = "p_gunplace1"
+OrdnanceCollision   = "p_gunplace2"
+OrdnanceCollision   = "p_gunplace3"
+OrdnanceCollision   = "p_fin1"
+OrdnanceCollision   = "p_fin2"
+
+VehicleCollision    = "p_vehiclesphere1"
+VehicleCollision    = "p_vehiclesphere2"
+
+
+SpinRate            = 1.7
+TurnRate            = 1.7
+TurnFilter          = 2.0
+PitchRate           = 1.5
+StrafeRollAngle         = 0.01
+ThrustPitchAngle        = 0.01
+BankAngle           = -0.01
+BankFilter          = 3//low is slow - How quickly the bank returns to level
+LevelSpring         = 7.0//low is slow - the force the restores level
+LevelDamp           = 1.0//low is slow - the force that reduces the momentum of the rotation
+
+PCPitchRate         = 15.0
+PCSpinRate      = 15.0
+PCTurnRate      = 25.0
+
+
+EyePointOffset      = "0.0 3.0 2.0"
+TrackCenter         = "0.0 1.0 -2.0"
+TrackOffset         = "0.0 1.0 8.0"
+TiltValue           = "0.0"
+
+PitchLimits         = "-12 8"
+YawLimits       = "-90 90"
+
+
+FLYERSECTION        = "TURRET1"
+
+ForceMode           = "1"
+ThirdPersonFOV      = "58"
+
+EyePointOffset      = "0.0 1.0 2.0"
+TrackCenter         = "0.0 1.5 -3.0"
+TiltValue       = "3.0"
+
+PitchRate                       = 0.8
+PitchFilter                     = 2.75
+TurnRate                        = 6.3
+TurnFilter                      = 2.75
+//PCTurnRate          = 20.0
+
+
+
+FirePointName       = "hp_firel"
+YawLimits       = "65.0 115.0"
+PitchLimits         = "-45.0 45.0"
+
+//MaxTurnSpeed      = "0.85"
+//MaxPitchSpeed         = "0.75"
+
+//EyePointOffset        = "0.0 0.3 0.0"
+//TrackOffset       = "0.0 0.2 3.5"
+//TiltValue         = "10"
+
+PilotPosition       = "hp_activel"
+Pilot9Pose      = "minigun_9pose"
+
+WeaponName          = "com_weap_bldg_gunturret"
+WeaponAmmo          = "1"   //"2"
+
+TurretNodeName      = "gunl"
+
+FireSound              = "com_weap_turret_fire_small"
+TurretYawSound         = "turret_whir_yaw_lp"
+TurretYawSoundPitch    = "0.7"
+TurretPitchSound       = "turret_whir_pitch_lp"
+TurretPitchSoundPitch  = "0.7"
+TurretAmbientSound     = "
+TurretActivateSound    = "vehicle_equip"
+TurretDeactivateSound  = ""
+TurretStartSound       = ""
+TurretStopSound        = ""
+
+FLYERSECTION        = "TURRET2"
+
+ForceMode           = "1"
+ThirdPersonFOV      = "58"
+
+EyePointOffset      = "0.0 1.0 2.0"
+TrackCenter         = "0.0 1.5 -3.0"
+TiltValue       = "3.0"
+
+
+FirePointName       = "hp_fire"
+YawLimits       = "-25.0 25.0"
+PitchLimits         = "-45.0 45.0"
+
+PitchRate               = 0.8
+PitchFilter             = 2.75
+TurnRate                = 6.3
+TurnFilter              = 2.75
+//PCTurnRate      = 20.0
+
+
+//MaxTurnSpeed      = "0.85"
+//MaxPitchSpeed     = "0.75"
+
+//EyePointOffset        = "0.0 0.3 0.0"
+//TrackOffset       = "0.0 0.2 3.5"
+//TiltValue     = "10"
+
+PilotPosition       = "hp_active"
+Pilot9Pose      = "minigun_9pose"
+
+WeaponName      = "com_weap_bldg_gunturret"
+WeaponAmmo      = "1"   //"2"
+
+TurretNodeName      = "gun"
+
+FireSound              = "com_weap_turret_fire_small"
+TurretYawSound         = "turret_whir_yaw_lp"
+TurretYawSoundPitch    = "0.7"
+TurretPitchSound       = "turret_whir_pitch_lp"
+TurretPitchSoundPitch  = "0.7"
+TurretAmbientSound     = ""
+TurretActivateSound    = "vehicle_equip"
+TurretDeactivateSound  = ""
+TurretStartSound       = ""
+TurretStopSound        = ""
+
+FLYERSECTION        = "TURRET3"
+
+ForceMode           = "1"
+ThirdPersonFOV      = "58"
+EyePointOffset      = "0.0 1.0 2.0"
+TrackCenter         = "0.0 1.5 -3.0"
+TiltValue       = "3.0"
+
+PitchRate                       = 0.8
+PitchFilter                     = 2.75
+TurnRate                        = 6.3
+TurnFilter                      = 2.75
+//PCTurnRate          = 20.0
+
+FirePointName       = "hp_firer"
+YawLimits       = "-115.0 -65.0"
+PitchLimits         = "-45.0 45.0"
+
+//MaxTurnSpeed      = "0.85"
+//MaxPitchSpeed     = "0.75"
+
+//EyePointOffset        = "0.0 0.3 0.0"
+//TrackOffset       = "0.0 0.2 3.5"
+//TiltValue     = "10"
+
+PilotPosition       = "hp_activer"
+Pilot9Pose      = "minigun_9pose"
+
+WeaponName          = "com_weap_bldg_gunturret"
+WeaponAmmo          = "1"   //"2"
+
+TurretNodeName      = "gunr"
+AvailableForAnyTeam = 1
+
+FireSound              = "com_weap_turret_fire_small"
+TurretYawSound         = "turret_whir_yaw_lp"
+TurretYawSoundPitch    = "0.7"
+TurretPitchSound       = "turret_whir_pitch_lp"
+TurretPitchSoundPitch  = "0.7"
+TurretAmbientSound     = ""
+TurretActivateSound    = "vehicle_equip"
+TurretDeactivateSound  = ""
+TurretStartSound       = ""
+TurretStopSound        = ""
+
+
+CHUNKSECTION        = "CHUNK1"
+ChunkGeometryName   = "skiff_chunk1"
+ChunkNodeName       = ""
+ChunkTerrainCollisions  = "3"
+ChunkTerrainEffect  = "dirtspray"
+ChunkPhysics        = "FULL"
+ChunkOmega      = "2.0 2.0 1.5"
+ChunkBounciness         = 0.45
+ChunkStickiness         = 0.25
+ChunkSpeed      = "7.0"
+ChunkUpFactor       = "1.50"
+ChunkTrailEffect        = "com_sfx_chunktrail_sm"
+
+ChunkSmokeEffect    = "com_sfx_smokeplume"
+ChunkSmokeNodeName  = "hp_smoke1"
+
+
+CHUNKSECTION        = "CHUNK2"
+ChunkGeometryName   = "skiff_chunk2"
+ChunkNodeName       = ""
+ChunkTerrainCollisions  = "7"
+ChunkTerrainEffect  = "dirtspray"
+ChunkPhysics        = "FULL"
+ChunkOmega      = "2.0 2.5 2.0"
+ChunkBounciness         = 0.45
+ChunkStickiness         = 0.25
+ChunkSpeed      = "8.0"
+ChunkUpFactor       = "3.00"
+ChunkTrailEffect        = "com_sfx_chunktrail_sm"
+
+CHUNKSECTION        = "CHUNK3"
+ChunkGeometryName   = "skiff_chunk3"
+ChunkNodeName       = ""
+ChunkTerrainCollisions  = "5"
+ChunkTerrainEffect  = "dirtspray"
+ChunkTrailEffect        = "com_sfx_chunktrail_sm"
+ChunkPhysics        = "FULL"
+ChunkOmega      = "2.0 2.0 1.5"
+ChunkBounciness         = 0.45
+ChunkStickiness         = 0.25
+ChunkSpeed      = "12.0"
+
+EngineSound     = "all_hover_skiff_engine_parameterized"
+TurnOnSound     = ""
+TurningOffSound = ""
+TurnOffSound    = ""
+TurnOffTime     = ""
+HurtSound       = ""
+DeathSound      = "imp_weap_ord_exp_lg"
+Music           = ""
+ImpMusic        = ""
+AllMusic        = ""
+MusicSpeed      = ""
+MusicDelay      = ""
+GroundedSound   = ""
+GroundedHeight  = ""
+BoostSound      = ""
+FoleyFXGroup    = "metal_foley"
+

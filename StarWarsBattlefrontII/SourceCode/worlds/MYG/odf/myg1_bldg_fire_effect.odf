@@ -1,0 +1,19 @@
+[GameObjectClass]       
+
+ClassLabel      =   "prop"
+GeometryName    =   "myg1_bldg_fire_effect.msh"
+
+
+[Properties]        
+
+GeometryName    =   "myg1_bldg_fire_effect"
+
+
+FoleyFXGroup    = "metal_foley"
+
+
+
+
+AttachEffect = "myg_sfx_fire""
+
+AttachToHardPoint = "hp_fire_01"

@@ -1,0 +1,67 @@
+Version(1);
+RegionCount(7);
+
+Region("Soundstream kas_amb_forest 1.3", 1)
+{
+	Layer(3);
+	Position(375.221649, -6.539852, -257.724213);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(306.729370, 10.000000, 0.100000);
+	Name("Forest");
+	NextIsGrouped();
+}
+
+Region("Soundstream kas_amb_forest 1.3", 1)
+{
+	Layer(3);
+	Position(299.094482, 41.585632, 389.698853);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(355.621735, 10.000000, 10.000000);
+	Name("Forest2");
+}
+
+Region("SoundStream kas_amb_waterside 1.5", 1)
+{
+	Layer(3);
+	Position(-223.442871, 1.929840, -55.569569);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(501.527008, 10.000000, 0.100000);
+	Name("Waterside");
+}
+
+Region("SoundSpace Hut", 2)
+{
+	Layer(3);
+	Position(38.863773, 29.748377, 101.854851);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(5.781372, 4.291471, 6.622772);
+	Name("Hut1");
+}
+
+Region("SoundSpace Hut", 2)
+{
+	Layer(3);
+	Position(157.864853, 16.292994, -7.059389);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(5.902176, 3.817606, 6.801681);
+	Name("Hut2");
+}
+
+Region("SoundSpace Hut", 2)
+{
+	Layer(3);
+	Position(129.047485, 16.313688, -115.142632);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(4.340927, 3.651370, 7.945671);
+	Name("Hut3");
+	NextIsGrouped();
+}
+
+Region("SoundSpace Hut", 2)
+{
+	Layer(3);
+	Position(154.423935, 53.310944, -192.657730);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(9.075485, 3.750954, 0.100000);
+	Name("Hut4");
+}

@@ -1,0 +1,62 @@
+Version(3);
+SaveType(0);
+
+Camera("camera")
+{
+	Rotation(0.854, 0.354, 0.354, -0.146);
+	Position(-133.075, 110.960, -349.500);
+	FieldOfView(55.400);
+	NearPlane(1.000);
+	FarPlane(1000.000);
+	ZoomFactor(1.000);
+	Bookmark(-126.751, 19.839, -266.134,  0.917, 0.287, 0.265, -0.083);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(-39.141, 26.640, -282.578,  0.653, 0.653, 0.271, -0.271);
+}
+LightName("end1_turrets.LGT");
+ControllerManager("StandardCtrlMgr");
+
+WorldExtents()
+{
+	Min(0.000000, 0.000000, 0.000000);
+	Max(0.000000, 0.000000, 0.000000);
+}
+
+NextSequence(-672965);
+
+Object("Pala 24", "tur_bldg_laser", 1203716960)
+{
+	ChildRotation(-0.001, 0.000, -1.000, 0.000);
+	ChildPosition(172.158, -0.907, 175.696);
+	SeqNo(1203716960);
+	Team(0);
+	NetworkId(-1);
+	Layer(6);
+}
+
+Object("Pala 8", "tur_bldg_laser", -1698373736)
+{
+	ChildRotation(0.676, 0.000, -0.737, 0.000);
+	ChildPosition(199.000, -5.035, 32.000);
+	SeqNo(-1698373736);
+	Team(0);
+	NetworkId(-1);
+	Layer(6);
+}
+
+Object("Pala 18", "tur_bldg_laser", -607994647)
+{
+	ChildRotation(-0.409, 0.000, -0.912, 0.000);
+	ChildPosition(144.029, -1.150, 164.876);
+	SeqNo(-607994647);
+	Team(0);
+	NetworkId(-1);
+	Layer(6);
+}

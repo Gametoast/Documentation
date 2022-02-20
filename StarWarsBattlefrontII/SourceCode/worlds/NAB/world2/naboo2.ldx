@@ -1,0 +1,107 @@
+Version(1);
+NextID(1);
+
+Layer("[Base]", 0, 8)
+{
+	Description("");
+}
+
+Layer("Conquest", 1, 0)
+{
+	Description("");
+}
+
+Layer("Reflections", 2, 0)
+{
+	Description("");
+}
+
+Layer("SoundRegions", 3, 0)
+{
+	Description("");
+}
+
+Layer("Collision", 4, 2)
+{
+	Description("");
+}
+
+Layer("SoundEmitters", 5, 0)
+{
+	Description("");
+}
+
+Layer("Campaign", 6, 0)
+{
+	Description("");
+}
+
+Layer("CommonDesign", 7, 0)
+{
+	Description("");
+}
+
+Layer("CTF", 8, 0)
+{
+	Description("");
+}
+
+Layer("TDM", 9, 0)
+{
+	Description("");
+}
+
+Layer("1Flag", 10, 0)
+{
+	Description("");
+}
+Layer("hunt", 11, 0)
+{
+	Description("");
+}
+
+
+GameMode("Common")
+{
+	Layer(0);
+	Layer(2);
+	Layer(3);
+	Layer(4);
+	Layer(5);
+}
+
+GameMode("Conquest")
+{
+	Layer(1);
+	Layer(7);
+}
+
+GameMode("Campaign")
+{
+	Layer(6);
+	Layer(7);
+}
+
+GameMode("CTF")
+{
+	Layer(7);
+	Layer(8);
+}
+
+GameMode("TDM")
+{
+	Layer(7);
+	Layer(9);
+}
+
+GameMode("1Flag")
+{
+	Layer(7);
+	Layer(10);
+}
+GameMode("hunt")
+{
+	Layer(7);
+	Layer(11);
+}
+

@@ -1,0 +1,343 @@
+
+Hub("Hub0")
+{
+	Pos(762.847839, -256.000000, 77.367386);
+	Radius(15.000000);
+}
+
+Hub("Hub1")
+{
+	Pos(767.191711, -256.000000, 116.498123);
+	Radius(8.613367);
+}
+
+Hub("Hub2")
+{
+	Pos(765.836121, -256.000000, 52.620663);
+	Radius(5.000000);
+}
+
+Hub("Hub3")
+{
+	Pos(741.901184, -256.000000, 67.083748);
+	Radius(2.500000);
+}
+
+Hub("Hub4")
+{
+	Pos(747.251953, -256.000000, 64.355560);
+	Radius(2.500000);
+}
+
+Hub("Hub5")
+{
+	Pos(747.685547, -256.000000, 92.576126);
+	Radius(2.500000);
+}
+
+Hub("Hub6")
+{
+	Pos(742.320740, -256.000000, 88.136864);
+	Radius(2.500000);
+}
+
+Hub("Hub7")
+{
+	Pos(733.109741, -256.000000, 67.682152);
+	Radius(2.500000);
+}
+
+Hub("Hub8")
+{
+	Pos(732.216492, -256.000000, 87.787483);
+	Radius(2.500000);
+}
+
+Hub("Hub9")
+{
+	Pos(692.843811, -256.000000, 79.530373);
+	Radius(28.000000);
+}
+
+Hub("Hub10")
+{
+	Pos(-1972.714966, -256.000000, 167.299164);
+	Radius(15.000000);
+}
+
+Hub("Hub11")
+{
+	Pos(-2000.747437, -256.000000, 165.145157);
+	Radius(5.000000);
+}
+
+Hub("Hub12")
+{
+	Pos(-1936.528809, -256.000000, 157.239853);
+	Radius(5.000000);
+}
+
+Hub("Hub13")
+{
+	Pos(-1981.492065, -256.000000, 188.253738);
+	Radius(2.500000);
+}
+
+Hub("Hub14")
+{
+	Pos(-1984.352173, -256.000000, 182.311737);
+	Radius(2.500000);
+}
+
+Hub("Hub15")
+{
+	Pos(-1960.132935, -256.000000, 184.970337);
+	Radius(2.500000);
+}
+
+Hub("Hub16")
+{
+	Pos(-1958.602783, -256.000000, 180.443298);
+	Radius(2.500000);
+}
+
+Hub("Hub17")
+{
+	Pos(-1959.459229, -256.000000, 191.069702);
+	Radius(2.500000);
+}
+
+Hub("Hub18")
+{
+	Pos(-1981.049805, -256.000000, 194.265808);
+	Radius(2.500000);
+}
+
+Hub("Hub19")
+{
+	Pos(-1989.632446, -256.000000, 196.386734);
+	Radius(2.500000);
+}
+
+Hub("Hub20")
+{
+	Pos(-1950.876221, -256.000000, 190.293076);
+	Radius(2.500000);
+}
+
+Hub("Hub21")
+{
+	Pos(-1949.114990, -256.000000, 202.494049);
+	Radius(2.500000);
+}
+
+Hub("Hub22")
+{
+	Pos(-1987.985840, -256.000000, 208.381912);
+	Radius(2.500000);
+}
+
+Hub("Hub23")
+{
+	Pos(-1983.689941, -256.000000, 244.237457);
+	Radius(20.000000);
+}
+
+Hub("Hub24")
+{
+	Pos(-1942.232056, -256.000000, 236.721313);
+	Radius(20.000000);
+}
+
+Connection("Connection1")
+{
+	Start("Hub0");
+	End("Hub2");
+	Flag(1);
+	Dynamic(1);
+}
+
+Connection("Connection2")
+{
+	Start("Hub0");
+	End("Hub4");
+	Flag(1);
+}
+
+Connection("Connection4")
+{
+	Start("Hub5");
+	End("Hub6");
+	Flag(1);
+}
+
+Connection("Connection5")
+{
+	Start("Hub4");
+	End("Hub3");
+	Flag(1);
+}
+
+Connection("Connection6")
+{
+	Start("Hub3");
+	End("Hub7");
+	Flag(1);
+}
+
+Connection("Connection7")
+{
+	Start("Hub7");
+	End("Hub9");
+	Flag(1);
+}
+
+Connection("Connection8")
+{
+	Start("Hub8");
+	End("Hub9");
+	Flag(1);
+}
+
+Connection("Connection9")
+{
+	Start("Hub8");
+	End("Hub6");
+	Flag(1);
+}
+
+Connection("Connection0")
+{
+	Start("Hub1");
+	End("Hub0");
+	Flag(1);
+	Dynamic(1);
+}
+
+Connection("Connection10")
+{
+	Start("Hub24");
+	End("Hub21");
+	Flag(1);
+}
+
+Connection("Connection11")
+{
+	Start("Hub21");
+	End("Hub20");
+	Flag(1);
+}
+
+Connection("Connection12")
+{
+	Start("Hub20");
+	End("Hub17");
+	Flag(1);
+}
+
+Connection("Connection13")
+{
+	Start("Hub17");
+	End("Hub15");
+	Flag(1);
+	Dynamic(1);
+}
+
+Connection("Connection14")
+{
+	Start("Hub15");
+	End("Hub16");
+	Flag(1);
+}
+
+Connection("Connection15")
+{
+	Start("Hub16");
+	End("Hub10");
+	Flag(1);
+}
+
+Connection("Connection16")
+{
+	Start("Hub10");
+	End("Hub12");
+	Flag(1);
+}
+
+Connection("Connection17")
+{
+	Start("Hub10");
+	End("Hub11");
+	Flag(1);
+}
+
+Connection("Connection18")
+{
+	Start("Hub10");
+	End("Hub14");
+	Flag(1);
+}
+
+Connection("Connection19")
+{
+	Start("Hub14");
+	End("Hub13");
+	Flag(1);
+}
+
+Connection("Connection20")
+{
+	Start("Hub13");
+	End("Hub18");
+	Flag(1);
+	Dynamic(1);
+}
+
+Connection("Connection21")
+{
+	Start("Hub18");
+	End("Hub19");
+	Flag(1);
+}
+
+Connection("Connection22")
+{
+	Start("Hub19");
+	End("Hub22");
+	Flag(1);
+}
+
+Connection("Connection23")
+{
+	Start("Hub22");
+	End("Hub23");
+	Flag(1);
+}
+
+Connection("Connection24")
+{
+	Start("Hub23");
+	End("Hub24");
+	Flag(1);
+}
+
+Connection("Connection25")
+{
+	Start("Hub5");
+	End("Hub0");
+	Flag(1);
+}
+
+Connection("Connection26")
+{
+	Start("Hub18");
+	End("Hub17");
+	Flag(1);
+}
+
+Connection("Connection27")
+{
+	Start("Hub8");
+	End("Hub7");
+	Flag(1);
+}

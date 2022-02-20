@@ -1,0 +1,64 @@
+SkyInfo()
+{
+	FogColor(128, 128, 128);
+	FogRange(1800.000000, 3000.000000);
+	NearSceneRange(0.7, 100.0, 150.0);
+	FarSceneRange(350.0);
+	AmbientColor(100, 100, 100);
+	VehicleAmbientColor(80,80,80);
+	Enable(1);
+	FogRamp(3);
+}
+
+SunInfo()
+{
+	Angle(150.000000, 0.000000);
+	Color(70, 78, 80);
+	Texture("");
+	Degree(0.000000);
+	BackAngle(210, 0.000000);
+	BackColor(0, 0, 0);
+	BackDegree(0.000000);
+}
+
+DomeInfo()
+{
+	Texture("sky_yav2");
+	Angle(-90.000000);
+	Ambient(255.000000, 255.000000, 255.000000);
+	Filter(1);
+	Threshold(150);	
+	Intensity(50);
+
+	Softness(1);
+	SoftnessParam(60);
+
+	DomeModel()
+	{	
+		Geometry("sky_yav2");
+	}
+	DomeModel()
+	{	
+		Geometry("sky_yav2_planet");
+		Offset(100.0);
+		MovementScale(0.995);
+	}
+
+	DomeModel()
+	{	
+		Geometry("sky_yav2_mountains");
+		Offset(100.0);
+		MovementScale(0.995);
+	}
+	
+		LowResTerrain()
+	{
+		Texture("yav2");
+		PatchResolution(2);
+		FogNear(400.0);
+		FogFar(800.0);
+		FogColor(80,80,80, 128);
+	}
+	
+
+}

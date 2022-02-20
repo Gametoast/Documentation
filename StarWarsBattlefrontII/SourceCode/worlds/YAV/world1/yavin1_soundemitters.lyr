@@ -1,0 +1,307 @@
+Version(3);
+SaveType(0);
+
+Camera("camera")
+{
+    Rotation(0.892, 0.439, 0.095, -0.047);
+    Position(196.628, 189.482, -9.346);
+    FieldOfView(55.400);
+    NearPlane(1.000);
+    FarPlane(2000.000);
+    ZoomFactor(1.000);
+    Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+    Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+    Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+    Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+    Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+    Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+    Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+    Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+    Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+    Bookmark(144.952, 146.943, 289.263,  -0.033, -0.023, -0.817, 0.575);
+}
+TerrainName("yavin1.ter");
+SkyName("yavin1.sky");
+ScriptName("DummyScript.dll");
+ControllerManager("StandardCtrlMgr");
+
+WorldExtents()
+{
+    Min(0.000000, 0.000000, 0.000000);
+    Max(0.000000, 0.000000, 0.000000);
+}
+
+NextSequence(-5670208);
+
+Object("TempleTelemetry4", "com_snd_amb_static", 175401759)
+{
+    ChildRotation(0.019, 0.000, -1.000, 0.000);
+    ChildPosition(139.408, -28.175, 457.235);
+    SeqNo(175401759);
+    Team(0);
+    NetworkId(-1);
+    Layer(5);
+    Sound("control_panel_a");
+    MinDistance("2.0");
+    MaxDistance("15.0");
+}
+
+Object("stream2", "com_snd_amb_static", 363910493)
+{
+    ChildRotation(1.000, 0.000, 0.000, 0.000);
+    ChildPosition(121.662, -72.031, -4.114);
+    SeqNo(363910493);
+    Team(0);
+    NetworkId(-1);
+    Layer(5);
+    Sound("stream1");
+    MinDistance("16.0");
+    MaxDistance("100.0");
+}
+
+Object("minifall3", "com_snd_amb_static", 616696097)
+{
+    ChildRotation(1.000, 0.000, 0.000, 0.000);
+    ChildPosition(108.889, -70.921, 58.439);
+    SeqNo(616696097);
+    Team(0);
+    NetworkId(-1);
+    Layer(5);
+    Sound("minifall");
+    MinDistance("10.0");
+    MaxDistance("150.0");
+}
+
+Object("TempleTelemetry6", "com_snd_amb_static", 772721217)
+{
+    ChildRotation(0.711, 0.000, 0.703, 0.000);
+    ChildPosition(116.468, -31.512, 429.157);
+    SeqNo(772721217);
+    Team(0);
+    NetworkId(-1);
+    Layer(5);
+    Sound("control_panel_a");
+    MinDistance("2.0");
+    MaxDistance("15.0");
+}
+
+Object("minifall1", "com_snd_amb_static", 873393632)
+{
+    ChildRotation(1.000, 0.000, 0.000, 0.000);
+    ChildPosition(108.862, -71.425, 35.104);
+    SeqNo(873393632);
+    Team(0);
+    NetworkId(-1);
+    Layer(5);
+    Sound("minifall");
+    MinDistance("16.0");
+    MaxDistance("150.0");
+}
+
+Object("Waterfall", "com_snd_amb_streaming", 989139552)
+{
+    ChildRotation(1.000, 0.000, 0.000, 0.000);
+    ChildPosition(181.200, -68.402, -24.373);
+    SeqNo(989139552);
+    Team(0);
+    NetworkId(-1);
+    Layer(5);
+    Sound("waterfall1");
+    MinDistance("25.0");
+    MaxDistance("200.0");
+}
+
+Object("TempleTelemetry3", "com_snd_amb_static", 1045581575)
+{
+    ChildRotation(-0.001, 0.000, -1.000, 0.000);
+    ChildPosition(148.271, -28.077, 456.742);
+    SeqNo(1045581575);
+    Team(0);
+    NetworkId(-1);
+    Layer(5);
+    Sound("Control_panel_b");
+    MinDistance("2.0");
+    MaxDistance("15.0");
+}
+
+Object("TempleTelemetry5", "com_snd_amb_static", 1192107136)
+{
+    ChildRotation(0.019, 0.000, -1.000, 0.000);
+    ChildPosition(118.257, -25.863, 432.261);
+    SeqNo(1192107136);
+    Team(0);
+    NetworkId(-1);
+    Layer(5);
+    Sound("control_panel_a");
+    MinDistance("5.0");
+    MaxDistance("25.0");
+}
+
+Object("minifall", "com_snd_amb_static", 1641291909)
+{
+    ChildRotation(1.000, 0.000, 0.000, 0.000);
+    ChildPosition(121.489, -71.347, 47.072);
+    SeqNo(1641291909);
+    Team(0);
+    NetworkId(-1);
+    Layer(5);
+    Sound("minifall");
+    MinDistance("16.0");
+    MaxDistance("150.0");
+}
+
+Object("TempleTelemetry01", "com_snd_amb_static", 1642184129)
+{
+    ChildRotation(0.660, 0.000, 0.751, 0.000);
+    ChildPosition(110.087, -26.528, 445.452);
+    SeqNo(1642184129);
+    Team(0);
+    NetworkId(-1);
+    Layer(5);
+    Sound("control_panel_a");
+    MinDistance("2.0");
+    MaxDistance("20.0");
+}
+
+Object("stream3", "com_snd_amb_static", 1706637741)
+{
+    ChildRotation(1.000, 0.000, 0.000, 0.000);
+    ChildPosition(214.000, -71.000, 8.994);
+    SeqNo(1706637741);
+    Team(0);
+    NetworkId(-1);
+    Layer(5);
+    Sound("stream1");
+    MinDistance("16.0");
+    MaxDistance("150.0");
+}
+
+Object("TempleTelemetry10", "com_snd_amb_static", 2132852035)
+{
+    ChildRotation(0.718, 0.000, -0.696, 0.000);
+    ChildPosition(142.776, -30.573, 428.441);
+    SeqNo(2132852035);
+    Team(0);
+    NetworkId(-1);
+    Layer(5);
+    Sound("control_panel_b");
+    MinDistance("2.0");
+    MaxDistance("15.0");
+}
+
+Object("minifall2", "com_snd_amb_static", -2083208273)
+{
+    ChildRotation(1.000, 0.000, 0.000, 0.000);
+    ChildPosition(97.038, -71.654, 46.887);
+    SeqNo(-2083208273);
+    Team(0);
+    NetworkId(-1);
+    Layer(5);
+    Sound("minifall");
+    MinDistance("16.0");
+    MaxDistance("150.0");
+}
+
+Object("TempleTelemetry9", "com_snd_amb_static", -1568615670)
+{
+    ChildRotation(0.019, 0.000, -1.000, 0.000);
+    ChildPosition(141.668, -26.043, 432.079);
+    SeqNo(-1568615670);
+    Team(0);
+    NetworkId(-1);
+    Layer(5);
+    Sound("control_panel_a");
+    MinDistance("5.0");
+    MaxDistance("20.0");
+}
+
+Object("stream4", "com_snd_amb_static", -1553973370)
+{
+    ChildRotation(1.000, 0.000, 0.000, 0.000);
+    ChildPosition(162.595, -69.000, 10.607);
+    SeqNo(-1553973370);
+    Team(0);
+    NetworkId(-1);
+    Layer(5);
+    Sound("stream1");
+    MinDistance("16.0");
+    MaxDistance("150.0");
+}
+
+Object("TempleTelemetry7", "com_snd_amb_static", -1380609933)
+{
+    ChildRotation(-0.001, 0.000, -1.000, 0.000);
+    ChildPosition(123.890, -30.824, 430.751);
+    SeqNo(-1380609933);
+    Team(0);
+    NetworkId(-1);
+    Layer(5);
+    Sound("control_panel_b");
+    MinDistance("2.0");
+    MaxDistance("15.0");
+}
+
+Object("TempleTelemetry02", "com_snd_amb_static", -1245853979)
+{
+    ChildRotation(-0.111, 0.000, -0.994, 0.000);
+    ChildPosition(116.418, -26.349, 449.387);
+    SeqNo(-1245853979);
+    Team(0);
+    NetworkId(-1);
+    Layer(5);
+    Sound("control_panel_b");
+    MinDistance("2.0");
+    MaxDistance("20.0");
+}
+
+Object("TempleTelemetry8", "com_snd_amb_static", -1111262890)
+{
+    ChildRotation(0.029, 0.000, -1.000, 0.000);
+    ChildPosition(134.603, -30.824, 431.271);
+    SeqNo(-1111262890);
+    Team(0);
+    NetworkId(-1);
+    Layer(5);
+    Sound("control_panel_a");
+    MinDistance("1.0");
+    MaxDistance("10.0");
+}
+
+Object("stream1", "com_snd_amb_static", -751090540)
+{
+    ChildRotation(1.000, 0.000, 0.000, 0.000);
+    ChildPosition(73.101, -71.830, -14.212);
+    SeqNo(-751090540);
+    Team(0);
+    NetworkId(-1);
+    Layer(5);
+    Sound("stream1");
+    MinDistance("16.0");
+    MaxDistance("150.0");
+}
+
+Object("TempleTelemetry02", "com_snd_amb_static", -720265310)
+{
+    ChildRotation(-0.021, 0.000, -1.000, 0.000);
+    ChildPosition(127.835, -26.018, 449.359);
+    SeqNo(-720265310);
+    Team(0);
+    NetworkId(-1);
+    Layer(5);
+    Sound("control_panel_a");
+    MinDistance("2.0");
+    MaxDistance("20.0");
+}
+
+Object("stream", "com_snd_amb_static", -616571332)
+{
+    ChildRotation(1.000, 0.000, 0.000, 0.000);
+    ChildPosition(9.815, -71.670, -11.868);
+    SeqNo(-616571332);
+    Team(0);
+    NetworkId(-1);
+    Layer(5);
+    Sound("stream1");
+    MinDistance("16.0");
+    MaxDistance("150.0");
+}

@@ -1,0 +1,29 @@
+Version(1);
+RegionCount(3);
+
+Region("flag_home", 0)
+{
+	Layer(4);
+	Position(43.559536, 15.414223, -12.066981);
+	Rotation(0.998766, 0.000000, 0.049765, 0.000000);
+	Size(2.282284, 10.951710, 2.521754);
+	Name("flag_home");
+}
+
+Region("flag_capture1", 2)
+{
+	Layer(4);
+	Position(132.819809, 35.380901, -62.208172);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(2.500000, 10.000000, 2.500000);
+	Name("flag_capture1");
+}
+
+Region("flag_capture2", 2)
+{
+	Layer(4);
+	Position(-80.055748, 17.562550, 33.469891);
+	Rotation(0.998793, 0.000157, -0.000001, 0.049432);
+	Size(2.500000, 10.000000, 2.500000);
+	Name("flag_capture2");
+}

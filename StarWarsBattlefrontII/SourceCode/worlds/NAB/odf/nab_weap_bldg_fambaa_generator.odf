@@ -1,0 +1,24 @@
+[WeaponClass]
+ClassLabel 			= "repair"
+
+[Properties]
+MuzzleFlashEffect		= "com_sfx_repair"
+
+RoundsPerClip 			= "0"
+ReloadTime 			= "0.0"
+
+//FireSound			= "com_weap_arc"
+//FireEmptySound			= "com_weap_inf_weapon_empty"
+FireLoopSound			= ""
+ReloadSound			= ""
+ChargeSound			= ""
+ChangeModeSound			= ""
+WeaponChangeSound		= ""
+
+ShotDelay 			= 0.1
+TriggerSingle			= "0"
+
+LockOnRange			= 50.0
+LockOnAngle			= 30.0
+
+BuildingAmmo			= 1

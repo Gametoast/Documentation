@@ -1,0 +1,26 @@
+
+[GameObjectClass]		
+
+ClassLabel		=	"prop"
+GeometryName	=	"mus1_prop_beam.msh"
+
+
+[Properties]		
+
+GeometryName	=	"mus1_prop_beam"
+
+AttachEffect = "mus_sfx_sparks"
+AttachToHardPoint = "hp_spark1 1.0 30.0"
+
+
+
+AttachEffect = "halo"
+AttachToHardPoint = "hp_light1"
+
+
+AttachEffect = "halo"
+AttachToHardPoint = "hp_light2"
+
+
+AttachEffect = "halo"
+AttachToHardPoint = "hp_light3"

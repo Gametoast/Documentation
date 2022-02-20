@@ -1,0 +1,77 @@
+SkyInfo()
+{
+	Enable(1);
+
+	PS2()
+	{
+		NearSceneRange(1.750000, 100.000000, 150.000000);
+		FarSceneRange(0.0);
+		NearSplitScreenRange(0.5, 60.000000, 70.000000);
+		FarSplitScreenRange(0.0);
+	}
+	PC()
+	{
+		NearSceneRange(60.000000, 180.000000,   80.000000, 220.000000);
+		FarSceneRange(0.0);
+	}
+	XBOX()
+	{
+		NearSceneRange(0.5, 100.000000, 150.000000);
+		FarSceneRange(0.0);
+		NearSplitScreenRange(0.5, 80.000000, 100.000000);
+		FarSplitScreenRange(0.0);
+	}
+}
+
+DomeInfo()
+{
+	Texture("SKY_naboo2.tga");
+	Angle(-90.000000);
+	Ambient(255.000000, 255.000000, 255.000000);
+	Softness(1);
+	SoftnessParam(60);
+
+	XBOX()
+	{
+		TerrainBumpTexture("nab2_bump_1", 1.0);
+	}
+	PC()
+	{
+		TerrainBumpTexture("nab2_bump_1", 1.0);
+	}
+
+	DomeModel()
+	{	
+		Geometry("nab2_sky_dome");
+	}
+
+	Stars()
+	{
+		RandomSeed(1);
+		TwinkleFactor(0.5);
+		TwinkleFrequency(0.1);
+		Color(255, 255, 255, 255);
+		XBOX()
+		{
+			NumStars(1000);
+			BrightStarPercent(90.0);
+			AlphaMin(15);
+			ColorSaturation(0.5);
+		}
+		PC()
+		{
+			NumStars(8000);
+			BrightStarPercent(70.0);
+			AlphaMin(15);
+			ColorSaturation(.75);
+		}
+		PS2()
+		{
+			NumStars(1000);
+			StarTexture("fx_star");
+			BrightStarPercent(10.0);
+			AlphaMin(10);
+			ColorSaturation(0.2);
+		}
+	}
+}

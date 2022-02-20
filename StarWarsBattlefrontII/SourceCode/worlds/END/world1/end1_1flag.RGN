@@ -1,0 +1,20 @@
+Version(1);
+RegionCount(2);
+
+Region("team2_capture", 2)
+{
+	Layer(4);
+	Position(-168.694504, 4.605146, -348.773193);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(2.500000, 10.000000, 2.500000);
+	Name("team2_capture");
+}
+
+Region("team1_capture", 2)
+{
+	Layer(4);
+	Position(15.252934, 1.566537, -65.118195);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(2.500000, 10.000000, 2.500000);
+	Name("team1_capture");
+}

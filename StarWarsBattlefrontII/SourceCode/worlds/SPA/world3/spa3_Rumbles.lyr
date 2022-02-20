@@ -1,0 +1,76 @@
+Version(3);
+SaveType(0);
+
+Camera("camera")
+{
+	Rotation(0.868, 0.147, -0.467, 0.079);
+	Position(1500.095, 252.028, -1880.282);
+	FieldOfView(55.400);
+	NearPlane(1.000);
+	FarPlane(5000.000);
+	ZoomFactor(1.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(311.798, 193.000, -985.990,  0.354, 0.146, -0.854, 0.354);
+}
+LightName("spa3_Rumbles.LGT");
+ControllerManager("StandardCtrlMgr");
+
+WorldExtents()
+{
+	Min(0.000000, 0.000000, 0.000000);
+	Max(0.000000, 0.000000, 0.000000);
+}
+
+NextSequence(-1726375);
+
+Object("spa_rum_shield", "spa_rum_shield", 1415583601)
+{
+	ChildRotation(0.000, -1.000, 0.000, 0.000);
+	ChildPosition(2776.000, -256.000, -129.000);
+	SeqNo(1415583601);
+	Team(1);
+	NetworkId(-1);
+	Label("rep_turrchair4");
+	Layer(15);
+}
+
+Object("spa_rum_caves_subtle", "spa_rum_caves_subtle", 2141735365)
+{
+	ChildRotation(0.000, -1.000, 0.000, 0.000);
+	ChildPosition(2776.000, -256.000, -129.000);
+	SeqNo(2141735365);
+	Team(1);
+	NetworkId(-1);
+	Label("rep_turrchair4");
+	Layer(15);
+}
+
+Object("spa_rum_caves", "spa_rum_caves", -1396141380)
+{
+	ChildRotation(0.000, -1.000, 0.000, 0.000);
+	ChildPosition(2776.000, -256.000, -129.000);
+	SeqNo(-1396141380);
+	Team(1);
+	NetworkId(-1);
+	Label("rep_turrchair4");
+	Layer(15);
+}
+
+Object("spa_rum_engines", "spa_rum_engines", -514761080)
+{
+	ChildRotation(0.000, -1.000, 0.000, 0.000);
+	ChildPosition(2776.000, -256.000, -129.000);
+	SeqNo(-514761080);
+	Team(1);
+	NetworkId(-1);
+	Label("rep_turrchair4");
+	Layer(15);
+}

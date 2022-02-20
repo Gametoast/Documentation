@@ -1,0 +1,29 @@
+Version(1);
+RegionCount(3);
+
+Region("SoundStream kam_amb_rain 1", 1)
+{
+	Layer(1);
+	Position(-22.718430, 69.000000, -117.347366);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(429.820068, 10.000000, 14.373039);
+	Name("GlobalAmb-SR");
+}
+
+Region("SoundStream kam_amb_rain_interior 1.2", 1)
+{
+	Layer(1);
+	Position(149.036743, 56.401432, -196.602722);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(106.831421, 0.100000, 0.100000);
+	Name("ACmdRm-SR");
+}
+
+Region("SoundStream kam_amb_rain_interior 1.25", 1)
+{
+	Layer(1);
+	Position(-190.218262, 72.031158, -33.653934);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(108.683594, 0.100000, 0.100000);
+	Name("BCmdRm-SR");
+}

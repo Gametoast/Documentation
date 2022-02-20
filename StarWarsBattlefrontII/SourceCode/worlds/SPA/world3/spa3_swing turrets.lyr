@@ -1,0 +1,98 @@
+Version(3);
+SaveType(0);
+
+Camera("camera")
+{
+	Rotation(0.995, 0.054, -0.088, 0.005);
+	Position(1364.639, -73.580, -492.792);
+	FieldOfView(55.400);
+	NearPlane(1.000);
+	FarPlane(5000.000);
+	ZoomFactor(1.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(1369.285, -38.811, -522.561,  0.595, 0.595, -0.382, 0.382);
+}
+LightName("spa3_swing turrets.LGT");
+ControllerManager("StandardCtrlMgr");
+
+WorldExtents()
+{
+	Min(0.000000, 0.000000, 0.000000);
+	Max(0.000000, 0.000000, 0.000000);
+}
+
+NextSequence(-1726375);
+
+Object("rep_at04", "rep_bldg_moncal_roundturret", 415187194)
+{
+	ChildRotation(0.708, 0.000, -0.706, 0.000);
+	ChildPosition(1343.256, -13.724, -585.842);
+	SeqNo(415187194);
+	Team(1);
+	NetworkId(-1);
+	Label("rep_at04");
+	Layer(14);
+}
+
+Object("rep_at01", "rep_bldg_moncal_roundturret", 883207343)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(1342.923, 1.818, -333.996);
+	SeqNo(883207343);
+	Team(1);
+	NetworkId(-1);
+	Label("rep_at01");
+	Layer(14);
+}
+
+Object("rep_at06", "rep_bldg_moncal_roundturret", -1950597445)
+{
+	ChildRotation(0.709, 0.000, -0.705, 0.000);
+	ChildPosition(1395.796, -23.268, -709.782);
+	SeqNo(-1950597445);
+	Team(1);
+	NetworkId(-1);
+	Label("rep_at06");
+	Layer(14);
+}
+
+Object("rep_at02", "rep_bldg_moncal_roundturret", -1578116583)
+{
+	ChildRotation(0.708, 0.000, -0.706, 0.000);
+	ChildPosition(1337.939, -3.581, -422.498);
+	SeqNo(-1578116583);
+	Team(1);
+	NetworkId(-1);
+	Label("rep_at02");
+	Layer(14);
+}
+
+Object("rep_at03", "rep_bldg_moncal_roundturret", -1506893307)
+{
+	ChildRotation(0.708, 0.000, -0.706, 0.000);
+	ChildPosition(1340.863, -8.878, -504.830);
+	SeqNo(-1506893307);
+	Team(1);
+	NetworkId(-1);
+	Label("rep_at03");
+	Layer(14);
+}
+
+Object("rep_at05", "rep_bldg_moncal_roundturret", -807717301)
+{
+	ChildRotation(0.708, 0.000, -0.706, 0.000);
+	ChildPosition(1344.857, -18.538, -671.993);
+	SeqNo(-807717301);
+	Team(1);
+	NetworkId(-1);
+	Label("rep_at05");
+	Layer(14);
+}

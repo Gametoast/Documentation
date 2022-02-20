@@ -1,0 +1,108 @@
+Version(1);
+NextID(1);
+
+Layer("[Base]", 0, 8)
+{
+	Description("");
+}
+
+Layer("Conquest", 1, 0)
+{
+	Description("");
+}
+
+Layer("Temple01", 2, 8)
+{
+	Description("");
+}
+
+Layer("SoundRegions", 3, 0)
+{
+	Description("");
+}
+
+Layer("SoundSpaces", 4, 0)
+{
+	Description("");
+}
+
+Layer("CTF", 5, 0)
+{
+	Description("");
+}
+
+Layer("CommonDesign", 6, 0)
+{
+	Description("");
+}
+
+Layer("Campaign", 8, 0)
+{
+	Description("");
+}
+
+Layer("tdm", 7, 0)
+{
+	Description("");
+}
+
+Layer("gunship", 9, 0)
+{
+	Description("");
+}
+
+Layer("1Flag", 10, 0)
+{
+	Description("");
+}
+
+Layer("hunt", 11, 0)
+{
+	Description("");
+}
+
+
+GameMode("Common")
+{
+	Layer(0);
+	Layer(2);
+	Layer(3);
+	Layer(4);
+	Layer(9);
+}
+
+GameMode("CTF")
+{
+	Layer(5);
+	Layer(6);
+}
+
+GameMode("Conquest")
+{
+	Layer(1);
+	Layer(6);
+}
+
+GameMode("Campaign")
+{
+	Layer(6);
+	Layer(8);
+}
+
+GameMode("tdm")
+{
+	Layer(6);
+	Layer(7);
+}
+
+GameMode("1Flag")
+{
+	Layer(6);
+	Layer(10);
+}
+
+GameMode("hunt")
+{
+	Layer(11);
+}
+

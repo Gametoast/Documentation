@@ -1,0 +1,20 @@
+Version(1);
+NextID(1);
+
+Group("[Base]", 0, 8)
+{
+	Layer("[Base]", 0);
+	Layer("SoundRegions", 3);
+	Layer("Design", 1);
+	Layer("Buildings", 2);
+	Layer("Rubble", 4);
+	Layer("Turrets", 5);
+	Layer("CTF", 7);
+	Layer("CP-Assault", 8);
+	Layer("CP-Conquest", 10);
+	Layer("Platforms", 11);
+	Layer("Con-VehicleSpawns", 12);
+	Layer("flags", 15);
+	Layer("Shields", 6);
+}
+

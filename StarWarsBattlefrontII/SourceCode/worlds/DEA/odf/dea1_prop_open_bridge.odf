@@ -1,0 +1,21 @@
+[GameObjectClass]       
+
+ClassLabel      =   "prop"
+GeometryName    =   "dea1_prop_open_bridge.msh"
+
+
+[Properties]        
+
+GeometryName    =   "dea1_prop_open_bridge"
+
+FoleyFXGroup    = "metal_foley"
+
+
+StartMovementSound = "bridge_extend"
+StopMovementSound  = "bridge_retract"
+//SoundProperty      = "trash_hum"
+//SoundWhenMoving = 1
+//SoundOffset        = "25 -10 100"
+//UnbuiltHoloOdf = "com_holo_wall"
+
+

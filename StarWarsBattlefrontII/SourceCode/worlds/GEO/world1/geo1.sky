@@ -1,0 +1,165 @@
+SkyInfo()
+{
+	Enable(1);
+	FogColor(0,0,0);
+	FogRange(0.0, 0.0);
+
+	PS2()
+	{
+		NearSceneRange(0.2, 180.0, 200.0);
+		FarSceneRange(500.0);
+
+		NearSplitScreenRange(0.5, 180.0, 200.0);
+		FarSplitScreenRange(500.0);
+
+	}
+	PC()
+	{
+		NearSceneRange(50.0, 220.0, 60.0, 300.0);
+		FarSceneRange(450.000000, 1000.0);
+	}
+	XBOX()
+	{
+		NearSceneRange(0.5, 210.0, 680.0);
+		FarSceneRange(700.0);
+		NearSplitScreenRange(0.5, 180.0, 200.0);
+		FarSplitScreenRange(700.0);
+
+	}
+}
+
+SunInfo()
+{
+	Angle(140.000005, -10.000011);
+	Color(120, 120, 120);
+	Texture("");
+	Degree(90.000011);
+	BackAngle(180.000022, 0.000000);
+	BackColor(128, 128, 128);
+	BackDegree(0.000000);
+}
+
+
+DomeInfo()
+{
+	Texture("geo_sky.tga");
+	Angle(190.000005);
+	Ambient(128.000038, 128.000038, 128.000038);
+	Softness(1);
+	SoftnessParam(60);
+	
+		
+	DomeModel()
+	{	
+		Geometry("geo_sky_dome");
+		Offset(0.0);
+		MovementScale(0.995);
+	}
+	DomeModel()
+	{	
+		Geometry("geo_sky_dome_rim");
+		Offset(0.0);
+		MovementScale(0.995);
+	}
+
+	DomeModel()
+	{	
+		Geometry("geo_sky_dome_arena");
+		Offset(0.0);
+		MovementScale(0.995);
+	}
+
+	DomeModel()
+	{	
+		Geometry("geo_sky_spire");
+		Offset(0.0);
+		MovementScale(0.995);
+	}
+
+	DomeModel()
+	{	
+		Geometry("geo_sky_dome_2");
+		Offset(0.0);
+		MovementScale(0.995);
+	}
+
+	DomeModel()
+	{	
+		Geometry("geo_sky_explosions");
+		rotationspeed(0.003, 0,1.0,0);
+		Effect("spa_sfx_skydomeexplosions", "hp_sky_1", 1.0);
+		
+	
+		Effect("spa_sfx_skydomeexplosions", "hp_sky_4", 1.0);
+		Effect("spa_sfx_skydomeexplosions", "hp_sky_5", 1.0);
+
+		Effect("spa_sfx_skydomeexplosions", "hp_sky_7", 1.0);
+		Effect("spa_sfx_skydomeexplosions", "hp_sky_8", 1.0);
+		Effect("spa_sfx_skydomeexplosions", "hp_sky_9", 1.0);
+		Effect("spa_sfx_skydomeexplosions", "hp_sky_10", 1.0);
+		Effect("spa_sfx_skydomeexplosions", "hp_sky_11", 1.0);
+		Effect("spa_sfx_skydomeexplosions", "hp_sky_12", 1.0);
+
+		Effect("spa_sfx_skydomeexplosions", "hp_sky_14", 1.0);
+		Effect("spa_sfx_skydomeexplosions", "hp_sky_15", 1.0);
+		
+	
+	}
+	
+ 	LowResTerrain()
+	{
+		Texture("geo1");
+		PatchResolution(8);
+	}
+}
+
+
+//Big rep flyer
+SkyObject()
+{
+	Geometry("rep_fly_assault_DOME");
+	NumObjects(2);
+	Height(200, 300);
+	VelocityZ(20, 50);
+	Distance(1500);
+	InDirectionFactor(2);
+}
+
+//Rep fighters
+SkyObject()
+{
+	Geometry("rep_fly_gunship_DOME");
+	NumObjects(20);
+	Height(80, 140);
+	VelocityZ(80, 120);
+	VelocityY(-10, 10);
+	Distance(600);
+	InDirectionFactor(0.5);
+}
+
+//CIS fighters
+SkyObject()
+{
+	Geometry("cis_fly_droidfighter_DOME");
+	NumObjects(20);
+	Height(80, 140);
+	VelocityZ(80, 100);
+	VelocityY(-10, 10);
+	Distance(300);
+	InDirectionFactor(0.5);
+}
+
+//CIS rockets
+SkyObject()
+{
+	Geometry("cis_fly_techounion_DOME");
+	NumObjects(8);
+	Height(0, 0);
+	VelocityY(10, 12);
+	Acceleration(0.0, 2.0, 0.0);
+	Distance(1000);
+	LifeTime(80.0);
+}
+
+
+

@@ -1,0 +1,26 @@
+[GameObjectClass]		
+
+ClassLabel		=	"prop"
+GeometryName	=	"kam_bldg_interior_pod_room_a.msh"
+
+[Properties]		
+
+GeometryName	=	"kam_bldg_interior_pod_room_a"
+FoleyFXGroup	=	"metal_foley"
+
+
+AttachEffect = "Kam_sfx_glasstube"
+
+AttachToHardPoint = "hp_glasstube_fx"
+AttachToHardPoint = "hp_glasstube_fx_01"
+AttachToHardPoint = "hp_glasstube_fx_02"
+AttachToHardPoint = "hp_glasstube_fx_03"
+AttachToHardPoint = "hp_glasstube_fx_04"
+AttachToHardPoint = "hp_glasstube_fx_05"
+
+
+AttachEffect = "Kam_sfx_glasspurpletube"
+
+AttachToHardPoint = "hp_purpletube_fx"
+AttachToHardPoint = "hp_purpletube_fx1"
+AttachToHardPoint = "hp_purpletube_fx2"

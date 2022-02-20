@@ -1,0 +1,21 @@
+[GameObjectClass]       
+
+ClassLabel  =   "door"
+GeometryName    =   "dea1_prop_garbage_room_door.msh"
+
+
+[Properties]        
+
+GeometryName    =   "dea1_prop_garbage_room_door"
+AnimationName     = "dea1_prop_garbage_room_door"
+
+Animation         =     "open"
+
+AnimationTrigger  =     "hp_exittrigger 1.0"
+
+OrdnanceCollision = "p_door"
+
+OpenSound       = "door_open"
+CloseSound      = "door_close"
+LockedSound     = "vehicle_equip"
+FoleyFXGroup    = "metal_foley"

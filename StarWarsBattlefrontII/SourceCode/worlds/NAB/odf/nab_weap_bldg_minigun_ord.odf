@@ -1,0 +1,29 @@
+[OrdnanceClass]
+//This area defines the ordnances class and the effects associated with it.
+ClassLabel 		= "shell"
+
+
+
+[Properties]
+ExplosionName		= "nab_weap_bldg_minigun_exp"
+GeometryName		= "com_weap_inf_grenadethermal"
+OrdnanceEffect		= "thermal_detonator"
+TrailEffect		= "com_sfx_weap_rockettrail"
+
+//*RANGE*  (Velocity * Lifespan = range)
+//"LifeSpan" is the amount of time in seconds the ordnance will be in play
+//"Velocity" is the speed at which the ordance travels in the direction fired
+LifeSpan 		= "5.0"
+Velocity 		= "80.0"
+//Gravity		= "4.0"
+Gravity			= "1.0"
+Rebound			= "0.75"
+
+//*DAMAGE* (Damage * Soak = DamageDealt)
+//"MaxDamage" is the unmodified amount of damage the ordnance can inflict.
+//"AreaOfEffect" is the blast radius in meters from the center.
+//"Soak", all three kinds, indicates the ordnances effectiveness against it's target
+MaxDamage 		= "10.0"
+ArmorScale		= "0.5"
+ShieldScale		= "1.0"
+HealthScale		= "1.0"

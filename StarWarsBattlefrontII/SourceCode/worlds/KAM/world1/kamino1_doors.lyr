@@ -1,0 +1,62 @@
+Version(3);
+SaveType(0);
+
+Camera("camera")
+{
+	Rotation(0.997, 0.046, 0.057, -0.003);
+	Position(38.269, 52.700, -0.824);
+	FieldOfView(55.400);
+	NearPlane(1.000);
+	FarPlane(3500.000);
+	ZoomFactor(1.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(-28.661, 65.801, -28.755,  0.805, 0.482, -0.297, 0.178);
+}
+LightName("kamino1_doors.LGT");
+ControllerManager("StandardCtrlMgr");
+
+WorldExtents()
+{
+	Min(0.000000, 0.000000, 0.000000);
+	Max(0.000000, 0.000000, 0.000000);
+}
+
+NextSequence(-1211604);
+
+Object("kam_bldg_blast_door1", "kam_bldg_blast_door", 462551003)
+{
+	ChildRotation(1.000, 0.000, 0.030, 0.000);
+	ChildPosition(118.205, 51.496, -195.062);
+	SeqNo(462551003);
+	Team(0);
+	NetworkId(-1);
+	Layer(12);
+}
+
+Object("kam_bldg_blast_door", "kam_bldg_blast_door", 1339359841)
+{
+	ChildRotation(0.690, 0.000, 0.724, 0.000);
+	ChildPosition(146.687, 51.460, -228.395);
+	SeqNo(1339359841);
+	Team(0);
+	NetworkId(-1);
+	Layer(12);
+}
+
+Object("kam_bldg_blast_door2", "kam_bldg_blast_door", 1808053177)
+{
+	ChildRotation(0.697, 0.000, 0.717, 0.000);
+	ChildPosition(150.690, 51.501, -165.528);
+	SeqNo(1808053177);
+	Team(0);
+	NetworkId(-1);
+	Layer(12);
+}

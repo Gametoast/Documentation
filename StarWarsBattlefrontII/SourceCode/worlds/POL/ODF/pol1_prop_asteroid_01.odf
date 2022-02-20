@@ -1,0 +1,20 @@
+[GameObjectClass]       
+
+ClassLabel      =   "asteroid"
+GeometryName    =   "pol1_prop_asteroid_01.msh"
+
+
+[Properties]        
+
+GeometryName    =   "pol1_prop_asteroid_01"
+
+MinSpeed	=   0.0
+MaxSpeed	=   0.0
+MinOmega	=   0.05
+MaxOmega	=   0.1
+collidable  =   0
+MaxHealth	= 10000000.0
+
+// explosions
+//ExplosionDestruct = "spa1_sfx_asteroid_destroy_exp"
+//ExplosionBreak	  = "spa1_sfx_asteroid_break_exp"

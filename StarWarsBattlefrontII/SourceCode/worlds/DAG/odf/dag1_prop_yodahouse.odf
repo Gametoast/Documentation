@@ -1,0 +1,25 @@
+[GameObjectClass]       
+
+ClassLabel      =   "prop"
+GeometryName    =   "dag1_prop_yodahouse.msh"
+
+
+[Properties]        
+
+GeometryName    =   "dag1_prop_yodahouse"
+
+
+
+AttachOdf = "dag1_light_Cavern_1"
+AttachToHardPoint = "hp_light"
+
+Attacheffect = "com_sfx_chunksmolder"
+AttachToHardPoint = "hp_smoke"
+
+Attacheffect = "com_sfx_chunksmolder"
+AttachToHardPoint = "hp_smoke1"
+
+
+FoleyFXGroup    = "dirt_foley"
+
+

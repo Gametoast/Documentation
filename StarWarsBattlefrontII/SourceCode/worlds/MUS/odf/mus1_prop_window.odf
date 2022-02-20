@@ -1,0 +1,22 @@
+[GameObjectClass]       
+
+ClassLabel  =   "door"
+GeometryName    =   "mus1_prop_window.msh"
+
+
+[Properties]        
+
+GeometryName    =   "mus1_prop_window"
+AnimationName     = "mus1_prop_window"
+
+Animation         =     "open"
+
+AnimationTrigger  =     "hp_window 10"
+
+OrdnanceCollision = "p_shield"
+OrdnanceCollision = "p_leftwindow"
+OrdnanceCollision = "p_rightwindow"
+
+OpenSound = "window_open"
+CloseSound = "window_close"
+FoleyFXGroup    = "metal_foley"

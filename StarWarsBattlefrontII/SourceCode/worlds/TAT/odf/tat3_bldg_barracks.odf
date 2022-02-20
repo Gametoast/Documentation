@@ -1,0 +1,18 @@
+[GameObjectClass]       
+
+ClassLabel      =   "prop"
+GeometryName    =   "tat3_bldg_barracks.msh"
+
+
+[Properties]        
+
+GeometryName    =   "tat3_bldg_barracks"
+
+AttachOdf = "tat3_light_reservoir_02"
+AttachToHardPoint = "hp_light_o1"
+AttachToHardPoint = "hp_light_o2"
+AttachToHardPoint = "hp_light_o3"
+AttachToHardPoint = "hp_light_o4"
+
+
+FoleyFXGroup    = "stone_foley"

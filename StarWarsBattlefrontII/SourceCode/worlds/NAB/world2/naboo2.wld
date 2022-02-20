@@ -1,0 +1,6140 @@
+Version(3);
+SaveType(0);
+
+Camera("camera")
+{
+	Rotation(0.477, 0.117, -0.846, 0.207);
+	Position(70.509, 40.682, 87.475);
+	FieldOfView(55.400);
+	NearPlane(1.000);
+	FarPlane(5000.000);
+	ZoomFactor(1.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(15.321, 228.489, 50.401,  -0.001, -0.001, -0.738, 0.675);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+}
+LightName("naboo2.LGT");
+TerrainName("naboo2.ter");
+SkyName("naboo2.sky");
+ScriptName("DummyScript.dll");
+ControllerManager("StandardCtrlMgr");
+
+WorldExtents()
+{
+	Min(0.000000, 0.000000, 0.000000);
+	Max(0.000000, 0.000000, 0.000000);
+}
+
+NextSequence(-212167);
+
+Object("b04_29", "nab2_bldg_b_04", 24507)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(-44.099, 7.679, -80.439);
+	SeqNo(24507);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("b33_17", "nab2_bldg_b_33", 2670573)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(43.979, 7.780, -48.342);
+	SeqNo(2670573);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_prop_wall", "nab2_prop_wall", 19527345)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(155.902, 7.819, -16.439);
+	SeqNo(19527345);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tall_615", "nab2_prop_leaftree_tall", 19965530)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-79.545, 9.384, 87.416);
+	SeqNo(19965530);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("leaftree967", "nab2_prop_leaftree", 24901155)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-54.079, 8.148, 4.059);
+	SeqNo(24901155);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_prop_w_planter", "nab2_prop_w_planter", 28617807)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(50.683, 15.745, -52.555);
+	SeqNo(28617807);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("vine45", "nab2_prop_vine1", 31021764)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(175.143, 7.584, -104.128);
+	SeqNo(31021764);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("lamp329", "nab2_prop_lampost1", 33269816)
+{
+	ChildRotation(0.724, 0.000, 0.690, 0.000);
+	ChildPosition(-140.253, 7.964, -86.262);
+	SeqNo(33269816);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_bldg_gate", "nab2_bldg_gate", 46304567)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-0.099, 7.821, -100.440);
+	SeqNo(46304567);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tall_599", "nab2_prop_leaftree_tall", 49988988)
+{
+	ChildRotation(0.961, 0.000, -0.276, 0.000);
+	ChildPosition(-70.134, 8.603, 52.439);
+	SeqNo(49988988);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_bldg_rotunda_bridge", "nab2_bldg_rotunda_bridge", 54087195)
+{
+	ChildRotation(0.866, 0.000, 0.500, 0.000);
+	ChildPosition(-0.099, 7.923, 95.562);
+	SeqNo(54087195);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("5", "nab2_prop_I_planter", 54334489)
+{
+	ChildRotation(0.992, 0.000, -0.130, 0.000);
+	ChildPosition(-135.456, 7.878, 70.021);
+	SeqNo(54334489);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab_prop_flowers", "nab_prop_flowers", 60617982)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(36.494, 9.507, 31.137);
+	SeqNo(60617982);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("leaftree1010", "nab2_prop_leaftree", 63102557)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(121.672, 8.095, -63.294);
+	SeqNo(63102557);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_prop_w_planter0", "nab2_prop_w_planter", 73976092)
+{
+	ChildRotation(0.707, 0.000, 0.707, 0.000);
+	ChildPosition(-158.881, 14.645, -55.817);
+	SeqNo(73976092);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("5", "nab2_prop_I_planter", 89078955)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(11.941, 7.731, -22.008);
+	SeqNo(89078955);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("5", "nab2_prop_I_planter", 90321149)
+{
+	ChildRotation(0.707, 0.000, 0.707, 0.000);
+	ChildPosition(155.669, 7.870, -21.731);
+	SeqNo(90321149);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("leaftree63", "nab2_prop_leaftree", 94960235)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(99.779, 8.180, 57.300);
+	SeqNo(94960235);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_prop_w_planter1", "nab2_prop_w_planter", 98241845)
+{
+	ChildRotation(0.898, 0.000, 0.440, 0.000);
+	ChildPosition(-84.828, 17.491, 27.572);
+	SeqNo(98241845);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("5", "nab2_prop_I_planter", 100914395)
+{
+	ChildRotation(0.980, 0.000, 0.198, 0.000);
+	ChildPosition(-38.480, 7.990, -3.557);
+	SeqNo(100914395);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_prop_pillar", "nab2_prop_pillar", 107051633)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(151.902, 7.935, -0.439);
+	SeqNo(107051633);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_bldg_b_05", "nab2_bldg_b_05", 107410446)
+{
+	ChildRotation(0.707, 0.000, 0.707, 0.000);
+	ChildPosition(-120.524, 7.935, -112.462);
+	SeqNo(107410446);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("lamp305", "nab2_prop_lampost1", 107739573)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(136.660, 7.852, -36.436);
+	SeqNo(107739573);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_bldg_b_03", "nab2_bldg_b_03", 119791554)
+{
+	ChildRotation(0.924, 0.000, 0.382, 0.000);
+	ChildPosition(-160.100, 7.975, -100.440);
+	SeqNo(119791554);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("7", "nab2_prop_I_planter", 130044950)
+{
+	ChildRotation(0.709, 0.000, -0.705, 0.000);
+	ChildPosition(-12.099, 7.779, -40.355);
+	SeqNo(130044950);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("door27", "nab2_prop_door", 131103629)
+{
+	ChildRotation(0.708, 0.000, 0.706, 0.000);
+	ChildPosition(163.934, 7.676, -102.819);
+	SeqNo(131103629);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("leaftree982", "nab2_prop_leaftree", 138656575)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-35.204, 9.440, 30.624);
+	SeqNo(138656575);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab_prop_flowers0", "nab_prop_flowers", 149391019)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(12.194, 8.148, -20.749);
+	SeqNo(149391019);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("lamp58", "nab2_prop_lampost1", 154387214)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(148.968, 7.933, 3.442);
+	SeqNo(154387214);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_bldg_rot0", "nab2_bldg_rot", 154742778)
+{
+	ChildRotation(-0.259, 0.000, -0.966, 0.000);
+	ChildPosition(-0.099, 11.975, 95.562);
+	SeqNo(154742778);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab_prop_flowers1", "nab_prop_flowers", 163537092)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(38.901, 8.331, -4.746);
+	SeqNo(163537092);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("b31_13", "nab2_bldg_b_31", 171934482)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(87.902, 7.695, -48.616);
+	SeqNo(171934482);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tall_611", "nab2_prop_leaftree_tall", 176827732)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(73.591, 8.535, 77.040);
+	SeqNo(176827732);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab_prop_flowers2", "nab_prop_flowers", 179522621)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-128.156, 8.330, 41.177);
+	SeqNo(179522621);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("arch2", "nab2_bldg_arch", 189247137)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(0.000, 7.826, -15.000);
+	SeqNo(189247137);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_prop_w_planter2", "nab2_prop_w_planter", 192824187)
+{
+	ChildRotation(0.707, 0.000, 0.707, 0.000);
+	ChildPosition(-31.076, 15.764, -84.135);
+	SeqNo(192824187);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab_prop_flowers3", "nab_prop_flowers", 196602779)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(148.182, 8.218, 27.894);
+	SeqNo(196602779);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab_prop_flowers4", "nab_prop_flowers", 197106090)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-67.359, 8.358, 12.902);
+	SeqNo(197106090);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tall_621", "nab2_prop_leaftree_tall", 205616381)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-166.983, 16.852, 9.360);
+	SeqNo(205616381);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab_prop_flowers5", "nab_prop_flowers", 214249898)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(82.671, 8.305, 28.164);
+	SeqNo(214249898);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_prop_wall0", "nab2_prop_wall", 216533403)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(-168.100, 7.917, -36.439);
+	SeqNo(216533403);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_prop_w_planter3", "nab2_prop_w_planter", 218807817)
+{
+	ChildRotation(0.707, 0.000, 0.707, 0.000);
+	ChildPosition(-118.895, 14.239, -44.182);
+	SeqNo(218807817);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("vine46", "nab2_prop_vine1", 219619131)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(168.352, 7.176, -24.115);
+	SeqNo(219619131);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("5", "nab2_prop_I_planter", 226133431)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-11.968, 7.732, -93.461);
+	SeqNo(226133431);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("lamp326", "nab2_prop_lampost1", 229426484)
+{
+	ChildRotation(0.710, 0.000, 0.704, 0.000);
+	ChildPosition(73.206, 7.964, -103.713);
+	SeqNo(229426484);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("5", "nab2_prop_I_planter", 232102514)
+{
+	ChildRotation(0.993, 0.000, 0.119, 0.000);
+	ChildPosition(126.670, 7.802, 49.956);
+	SeqNo(232102514);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tall_623", "nab2_prop_leaftree_tall", 240134295)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-167.105, 16.811, 20.603);
+	SeqNo(240134295);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab_prop_flowers6", "nab_prop_flowers", 243674953)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(41.901, 8.298, 20.561);
+	SeqNo(243674953);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("vine52", "nab2_prop_vine1", 250864967)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-140.018, 7.480, -87.863);
+	SeqNo(250864967);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_bldg_rot1", "nab2_bldg_rot", 255755002)
+{
+	ChildRotation(0.866, 0.000, 0.500, 0.000);
+	ChildPosition(-0.099, 11.975, 95.562);
+	SeqNo(255755002);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_bldg_rot2", "nab2_bldg_rot", 268163794)
+{
+	ChildRotation(0.966, 0.000, -0.259, 0.000);
+	ChildPosition(-0.099, 11.975, 95.562);
+	SeqNo(268163794);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tall_587", "nab2_prop_leaftree_tall", 269475663)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-38.099, 12.975, 105.562);
+	SeqNo(269475663);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab_prop_flowers7", "nab_prop_flowers", 280217472)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(30.959, 9.533, 28.509);
+	SeqNo(280217472);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_bldg_b_030", "nab2_bldg_b_03", 283147184)
+{
+	ChildRotation(0.924, 0.000, 0.382, 0.000);
+	ChildPosition(-122.100, 7.975, -136.440);
+	SeqNo(283147184);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("b31_14", "nab2_bldg_b_31", 292821020)
+{
+	ChildRotation(0.707, 0.000, 0.707, 0.000);
+	ChildPosition(32.078, 7.859, -120.442);
+	SeqNo(292821020);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_prop_w_planter4", "nab2_prop_w_planter", 294573430)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(-118.014, 17.740, -15.720);
+	SeqNo(294573430);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tall_606", "nab2_prop_leaftree_tall", 294721262)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-19.954, 8.595, 25.323);
+	SeqNo(294721262);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("leaftree963", "nab2_prop_leaftree", 295129128)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(38.518, 8.376, -4.735);
+	SeqNo(295129128);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_prop_treebill", "nab2_prop_treebill", 296577443)
+{
+	ChildRotation(-0.104, 0.000, -0.995, 0.000);
+	ChildPosition(-57.301, 15.970, -66.034);
+	SeqNo(296577443);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("5", "nab2_prop_I_planter", 303307969)
+{
+	ChildRotation(0.925, 0.000, 0.380, 0.000);
+	ChildPosition(103.915, 7.990, 7.517);
+	SeqNo(303307969);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("bill5", "nab2_bldg_billboards", 305405571)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(152.902, 6.975, -146.440);
+	SeqNo(305405571);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab_prop_flowers8", "nab_prop_flowers", 308957256)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-132.658, 8.202, -85.562);
+	SeqNo(308957256);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("lamp282", "nab2_prop_lampost1", 316846000)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-164.100, 7.935, 7.561);
+	SeqNo(316846000);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("bench1", "nab2_prop_bench", 326536464)
+{
+	ChildRotation(0.924, 0.000, -0.383, 0.000);
+	ChildPosition(-111.067, 7.900, 19.641);
+	SeqNo(326536464);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("lamp325", "nab2_prop_lampost1", 328300809)
+{
+	ChildRotation(0.710, 0.000, 0.704, 0.000);
+	ChildPosition(120.593, 7.932, -118.509);
+	SeqNo(328300809);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_prop_wall1", "nab2_prop_wall", 336672555)
+{
+	ChildRotation(0.707, 0.000, 0.707, 0.000);
+	ChildPosition(39.901, 7.917, -140.440);
+	SeqNo(336672555);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_bldg_columnade_section", "nab2_bldg_columnade_section", 342180857)
+{
+	ChildRotation(0.966, 0.000, -0.259, 0.000);
+	ChildPosition(-0.099, 7.975, 95.562);
+	SeqNo(342180857);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tower34_8", "nab2_bldg_b_tower_34", 343581945)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(20.000, 8.000, -140.602);
+	SeqNo(343581945);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("5", "nab2_prop_I_planter", 343623161)
+{
+	ChildRotation(0.980, 0.000, -0.199, 0.000);
+	ChildPosition(38.598, 7.977, -4.755);
+	SeqNo(343623161);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab_prop_flowers9", "nab_prop_flowers", 346026050)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-12.099, 8.290, -40.439);
+	SeqNo(346026050);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_prop_w_planter5", "nab2_prop_w_planter", 363235312)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(150.920, 14.496, -48.222);
+	SeqNo(363235312);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_bldg_rot3", "nab2_bldg_rot", 375695606)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(-0.099, 11.975, 95.562);
+	SeqNo(375695606);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab_prop_flowers10", "nab_prop_flowers", 379976523)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-107.229, 8.494, 16.521);
+	SeqNo(379976523);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_bldg_columnade_tower", "nab2_bldg_columnade_tower", 381013013)
+{
+	ChildRotation(0.992, 0.000, 0.130, 0.000);
+	ChildPosition(-0.099, 7.975, 95.562);
+	SeqNo(381013013);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("lamp289", "nab2_prop_lampost1", 383093761)
+{
+	ChildRotation(0.974, 0.000, 0.228, 0.000);
+	ChildPosition(74.240, 7.918, 59.281);
+	SeqNo(383093761);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("b33_8", "nab2_bldg_b_33", 392376743)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-0.099, 7.925, -151.440);
+	SeqNo(392376743);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("leaftree84", "nab2_prop_leaftree", 396638852)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(126.552, 8.976, -29.272);
+	SeqNo(396638852);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_prop_w_planter6", "nab2_prop_w_planter", 407902111)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(-64.109, 14.375, -89.580);
+	SeqNo(407902111);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_prop_pillar0", "nab2_prop_pillar", 414175766)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(39.901, 7.928, -136.440);
+	SeqNo(414175766);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("lamp328", "nab2_prop_lampost1", 416965073)
+{
+	ChildRotation(-0.410, 0.000, -0.912, 0.000);
+	ChildPosition(-115.761, 7.917, -92.045);
+	SeqNo(416965073);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("waterstar1", "nab2_bldg_palaceR_03", 430140644)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(0.901, 10.975, -151.440);
+	SeqNo(430140644);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("leaftree987", "nab2_prop_leaftree", 447439168)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(34.417, 8.481, 30.219);
+	SeqNo(447439168);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("leaftree969", "nab2_prop_leaftree", 448373447)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-83.602, 7.910, 28.274);
+	SeqNo(448373447);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tall_566", "nab2_prop_leaftree_tall", 448964927)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(25.850, 13.017, 110.471);
+	SeqNo(448964927);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_prop_w_planter7", "nab2_prop_w_planter", 454296706)
+{
+	ChildRotation(0.383, 0.000, -0.924, 0.000);
+	ChildPosition(-95.499, 13.859, -72.192);
+	SeqNo(454296706);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tall_610", "nab2_prop_leaftree_tall", 462716422)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(52.503, 8.692, 41.081);
+	SeqNo(462716422);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("leaftree14", "nab2_prop_leaftree", 464000423)
+{
+	ChildRotation(-0.262, 0.000, -0.965, 0.000);
+	ChildPosition(-128.069, 8.106, 41.076);
+	SeqNo(464000423);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("leaftree943", "nab2_prop_leaftree", 468539853)
+{
+	ChildRotation(0.709, 0.000, -0.705, 0.000);
+	ChildPosition(11.770, 7.684, -56.462);
+	SeqNo(468539853);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("vinne31", "nab2_prop_vine2", 473792569)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(72.064, 7.180, -72.479);
+	SeqNo(473792569);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_prop_pillar1", "nab2_prop_pillar", 475753596)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(151.902, 7.935, 7.561);
+	SeqNo(475753596);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_prop_pillar2", "nab2_prop_pillar", 492018472)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(151.902, 7.929, -8.439);
+	SeqNo(492018472);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_prop_w_planter8", "nab2_prop_w_planter", 493883456)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(180.503, 14.230, -92.436);
+	SeqNo(493883456);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("leaftree975", "nab2_prop_leaftree", 505109527)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(42.085, 8.211, 20.571);
+	SeqNo(505109527);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("lamp304", "nab2_prop_lampost1", 508326681)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(151.141, 7.928, -36.217);
+	SeqNo(508326681);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_prop_treebill0", "nab2_prop_treebill", 522613649)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(-100.703, 19.883, 236.586);
+	SeqNo(522613649);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("leaftree12", "nab2_prop_leaftree", 525975182)
+{
+	ChildRotation(0.868, 0.000, -0.496, 0.000);
+	ChildPosition(-121.720, 8.142, 43.223);
+	SeqNo(525975182);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_prop_fountain", "nab2_prop_fountain", 535294115)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(131.902, 7.790, -111.440);
+	SeqNo(535294115);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tall_616", "nab2_prop_leaftree_tall", 542190060)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-150.072, 9.433, 87.379);
+	SeqNo(542190060);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("b33_15", "nab2_bldg_b_33", 542340597)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(71.998, 7.846, -120.518);
+	SeqNo(542340597);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tower34_22", "nab2_bldg_b_tower_34", 544946703)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(16.169, 7.575, 191.534);
+	SeqNo(544946703);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_prop_w_planter9", "nab2_prop_w_planter", 546264695)
+{
+	ChildRotation(0.708, 0.000, 0.706, 0.000);
+	ChildPosition(48.756, 14.766, -128.131);
+	SeqNo(546264695);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_prop_wall2", "nab2_prop_wall", 547967240)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(51.901, 7.902, -144.440);
+	SeqNo(547967240);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("L_planter_2", "nab2_prop_L_planter", 548189532)
+{
+	ChildRotation(0.924, 0.000, -0.383, 0.000);
+	ChildPosition(-106.558, 7.935, 11.508);
+	SeqNo(548189532);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab_prop_flowers11", "nab_prop_flowers", 554461265)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-43.471, 8.293, 22.777);
+	SeqNo(554461265);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("door23", "nab2_prop_door", 560939717)
+{
+	ChildRotation(0.708, 0.000, 0.706, 0.000);
+	ChildPosition(107.753, 7.440, -56.604);
+	SeqNo(560939717);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_prop_w_planter10", "nab2_prop_w_planter", 575729694)
+{
+	ChildRotation(0.866, 0.000, 0.500, 0.000);
+	ChildPosition(-92.117, 18.289, 34.229);
+	SeqNo(575729694);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("lamp44", "nab2_prop_lampost1", 581385685)
+{
+	ChildRotation(0.709, 0.000, 0.705, 0.000);
+	ChildPosition(-6.099, 7.765, -128.441);
+	SeqNo(581385685);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_prop_wall3", "nab2_prop_wall", 584310865)
+{
+	ChildRotation(0.707, 0.000, 0.707, 0.000);
+	ChildPosition(-168.100, 7.897, -92.439);
+	SeqNo(584310865);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("lamp21", "nab2_prop_lampost1", 586407139)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(102.721, 7.896, -78.571);
+	SeqNo(586407139);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("bench2", "nab2_prop_bench", 587029873)
+{
+	ChildRotation(-0.131, 0.000, -0.991, 0.000);
+	ChildPosition(-119.156, 7.905, 38.683);
+	SeqNo(587029873);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("lamp297", "nab2_prop_lampost1", 599475803)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(-96.042, 7.953, -104.481);
+	SeqNo(599475803);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("leaftree1018", "nab2_prop_leaftree", 600709917)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(126.704, 7.993, 49.793);
+	SeqNo(600709917);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_prop_fountain0", "nab2_prop_fountain", 605161670)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-132.100, 7.815, -20.439);
+	SeqNo(605161670);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("lamp281", "nab2_prop_lampost1", 605873240)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-164.100, 7.935, 23.561);
+	SeqNo(605873240);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_prop_w_planter11", "nab2_prop_w_planter", 612440515)
+{
+	ChildRotation(0.707, 0.000, 0.707, 0.000);
+	ChildPosition(137.026, 14.506, -32.247);
+	SeqNo(612440515);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("lamp330", "nab2_prop_lampost1", 620515297)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-118.801, 7.784, -56.665);
+	SeqNo(620515297);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("leaftree1004", "nab2_prop_leaftree", 626039219)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-132.235, 7.475, -37.890);
+	SeqNo(626039219);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("balcony16", "nab2_bldg_balcony", 627950680)
+{
+	ChildRotation(0.992, 0.000, -0.130, 0.000);
+	ChildPosition(22.222, 18.671, -18.047);
+	SeqNo(627950680);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tall_617", "nab2_prop_leaftree_tall", 628710351)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(13.986, 7.823, -8.551);
+	SeqNo(628710351);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_bldg_i_20", "nab2_bldg_i_20", 628738135)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(48.063, 7.782, -80.262);
+	SeqNo(628738135);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("leaftree996", "nab2_prop_leaftree", 635548796)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(104.102, 8.471, 7.788);
+	SeqNo(635548796);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_prop_w_planter12", "nab2_prop_w_planter", 637260772)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-0.099, 16.975, -149.440);
+	SeqNo(637260772);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("lamp266", "nab2_prop_lampost1", 647659022)
+{
+	ChildRotation(0.929, 0.000, 0.371, 0.000);
+	ChildPosition(21.901, 11.975, 73.562);
+	SeqNo(647659022);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("5", "nab2_prop_I_planter", 654823604)
+{
+	ChildRotation(0.708, 0.000, 0.706, 0.000);
+	ChildPosition(-163.316, 7.921, -34.218);
+	SeqNo(654823604);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_prop_treebill1", "nab2_prop_treebill", 655443421)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-116.197, 14.028, -139.983);
+	SeqNo(655443421);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("hang02", "nab2_prop_lampost_hang", 656977563)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(0.067, 22.503, 21.727);
+	SeqNo(656977563);
+	Team(0);
+	NetworkId(-1);
+	Label("hang02");
+}
+
+Object("palace_small1", "nab2_bldg_palaceR_02", 665370275)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(52.042, 28.116, -203.481);
+	SeqNo(665370275);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_prop_wall4", "nab2_prop_wall", 673271166)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(164.648, 7.740, -64.439);
+	SeqNo(673271166);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("b32_15", "nab2_bldg_b_32", 679113568)
+{
+	ChildRotation(-0.383, 0.000, -0.924, 0.000);
+	ChildPosition(106.287, 7.731, -16.792);
+	SeqNo(679113568);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_prop_treebill2", "nab2_prop_treebill", 685562951)
+{
+	ChildRotation(0.707, 0.000, 0.707, 0.000);
+	ChildPosition(-172.209, 7.017, -34.704);
+	SeqNo(685562951);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("vinne23", "nab2_prop_vine2", 695553982)
+{
+	ChildRotation(0.708, 0.000, 0.706, 0.000);
+	ChildPosition(6.901, 8.975, -151.440);
+	SeqNo(695553982);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("door29", "nab2_prop_door", 699641163)
+{
+	ChildRotation(0.708, 0.000, -0.706, 0.000);
+	ChildPosition(27.480, 7.795, -103.065);
+	SeqNo(699641163);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_prop_wall5", "nab2_prop_wall", 712101579)
+{
+	ChildRotation(0.707, 0.000, 0.707, 0.000);
+	ChildPosition(-155.125, 8.005, 83.292);
+	SeqNo(712101579);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("leaftree992", "nab2_prop_leaftree", 729158207)
+{
+	ChildRotation(0.383, 0.000, -0.924, 0.000);
+	ChildPosition(-2.380, 8.030, 16.664);
+	SeqNo(729158207);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("lamp283", "nab2_prop_lampost1", 730817071)
+{
+	ChildRotation(0.908, 0.000, -0.418, 0.000);
+	ChildPosition(-88.677, 7.975, 32.682);
+	SeqNo(730817071);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tall_595", "nab2_prop_leaftree_tall", 738751240)
+{
+	ChildRotation(0.969, 0.000, 0.247, 0.000);
+	ChildPosition(70.253, 8.628, 52.843);
+	SeqNo(738751240);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("door28", "nab2_prop_door", 754286098)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(-158.095, 7.795, 78.820);
+	SeqNo(754286098);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("leaftree976", "nab2_prop_leaftree", 759654508)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(53.199, 8.170, 28.937);
+	SeqNo(759654508);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("door17", "nab2_prop_door", 762301472)
+{
+	ChildRotation(0.708, 0.000, -0.706, 0.000);
+	ChildPosition(68.069, 7.820, -56.815);
+	SeqNo(762301472);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_bldg_columnade_tower0", "nab2_bldg_columnade_tower", 774155657)
+{
+	ChildRotation(0.991, 0.000, -0.131, 0.000);
+	ChildPosition(-0.099, 7.975, 95.562);
+	SeqNo(774155657);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("b32_12", "nab2_bldg_b_32", 802523952)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-132.122, 7.704, -51.917);
+	SeqNo(802523952);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("fece_45", "nab2_bldg_fence_01", 807431977)
+{
+	ChildRotation(0.707, 0.000, 0.707, 0.000);
+	ChildPosition(151.902, 7.975, -4.439);
+	SeqNo(807431977);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("lamp271", "nab2_prop_lampost1", 815859146)
+{
+	ChildRotation(0.973, 0.000, -0.231, 0.000);
+	ChildPosition(-68.576, 7.927, 49.747);
+	SeqNo(815859146);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_bldg_rot_floor", "nab2_bldg_rot_floor", 819984764)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-0.099, 11.975, 95.562);
+	SeqNo(819984764);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("lamp278", "nab2_prop_lampost1", 824235508)
+{
+	ChildRotation(0.745, 0.000, 0.667, 0.000);
+	ChildPosition(5.527, 7.957, 13.672);
+	SeqNo(824235508);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("balcony15", "nab2_bldg_balcony", 829046560)
+{
+	ChildRotation(0.131, 0.000, -0.991, 0.000);
+	ChildPosition(-22.245, 18.566, -18.322);
+	SeqNo(829046560);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("b31_11", "nab2_bldg_b_31", 831641352)
+{
+	ChildRotation(0.707, 0.000, 0.707, 0.000);
+	ChildPosition(120.079, 7.774, -40.439);
+	SeqNo(831641352);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_prop_w_planter13", "nab2_prop_w_planter", 833545630)
+{
+	ChildRotation(-0.456, 0.000, -0.890, 0.000);
+	ChildPosition(94.227, 17.787, 20.095);
+	SeqNo(833545630);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_prop_pillar3", "nab2_prop_pillar", 855339716)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-155.071, 7.975, 87.231);
+	SeqNo(855339716);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("lamp60", "nab2_prop_lampost1", 857716515)
+{
+	ChildRotation(0.993, 0.000, 0.120, 0.000);
+	ChildPosition(29.901, 11.975, 87.562);
+	SeqNo(857716515);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("5", "nab2_prop_I_planter", 862374935)
+{
+	ChildRotation(0.709, 0.000, -0.705, 0.000);
+	ChildPosition(11.901, 7.762, -40.355);
+	SeqNo(862374935);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab_prop_flowers12", "nab_prop_flowers", 871556997)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(11.972, 8.162, -93.860);
+	SeqNo(871556997);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("balcony19", "nab2_bldg_balcony", 873917682)
+{
+	ChildRotation(0.707, 0.000, 0.707, 0.000);
+	ChildPosition(-132.132, 15.493, -40.391);
+	SeqNo(873917682);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("vine36", "nab2_prop_vine1", 875635605)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-12.099, 5.816, -10.439);
+	SeqNo(875635605);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("bench6", "nab2_prop_bench", 887119483)
+{
+	ChildRotation(0.362, 0.000, -0.932, 0.000);
+	ChildPosition(149.902, 7.975, 35.561);
+	SeqNo(887119483);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("vinne28", "nab2_prop_vine2", 891234748)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-31.806, 6.777, -64.146);
+	SeqNo(891234748);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("balcony10", "nab2_bldg_balcony", 892927633)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(143.830, 15.518, -108.448);
+	SeqNo(892927633);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("5", "nab2_prop_I_planter", 899008350)
+{
+	ChildRotation(0.964, 0.000, -0.267, 0.000);
+	ChildPosition(42.139, 7.974, 20.672);
+	SeqNo(899008350);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("leaftree1017", "nab2_prop_leaftree", 900126288)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(139.517, 8.046, -127.216);
+	SeqNo(900126288);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("lamp230", "nab2_prop_lampost1", 901719093)
+{
+	ChildRotation(0.709, 0.000, -0.705, 0.000);
+	ChildPosition(11.901, 7.920, -32.438);
+	SeqNo(901719093);
+	Team(2);
+	NetworkId(-1);
+}
+
+Object("lamp310", "nab2_prop_lampost1", 911143499)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-158.923, 7.861, -60.459);
+	SeqNo(911143499);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_prop_wall6", "nab2_prop_wall", 916618493)
+{
+	ChildRotation(0.707, 0.000, 0.707, 0.000);
+	ChildPosition(71.901, 7.907, -140.440);
+	SeqNo(916618493);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab_prop_flowers13", "nab_prop_flowers", 934053823)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(126.643, 8.446, 50.126);
+	SeqNo(934053823);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("vine54", "nab2_prop_vine1", 942548042)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(120.878, 6.722, -119.920);
+	SeqNo(942548042);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("b32_14", "nab2_bldg_b_32", 952391982)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(155.880, 7.697, -107.918);
+	SeqNo(952391982);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("lamp296", "nab2_prop_lampost1", 954379478)
+{
+	ChildRotation(0.420, 0.000, -0.908, 0.000);
+	ChildPosition(88.633, 7.852, 30.736);
+	SeqNo(954379478);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tall_600", "nab2_prop_leaftree_tall", 955534672)
+{
+	ChildRotation(0.971, 0.000, -0.238, 0.000);
+	ChildPosition(-72.383, 8.634, 56.318);
+	SeqNo(955534672);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_prop_pillar4", "nab2_prop_pillar", 956286273)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(158.902, 7.702, 18.561);
+	SeqNo(956286273);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab_prop_flowers14", "nab_prop_flowers", 957077046)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(11.901, 8.091, -56.355);
+	SeqNo(957077046);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_bldg_rot4", "nab2_bldg_rot", 958680007)
+{
+	ChildRotation(-0.500, 0.000, -0.866, 0.000);
+	ChildPosition(-0.099, 11.975, 95.562);
+	SeqNo(958680007);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("L_planter_3", "nab2_prop_L_planter", 972620938)
+{
+	ChildRotation(0.610, 0.000, -0.793, 0.000);
+	ChildPosition(-126.156, 7.975, 46.177);
+	SeqNo(972620938);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("7", "nab2_prop_I_planter", 992798380)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(-11.847, 7.779, -56.410);
+	SeqNo(992798380);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_prop_treebill3", "nab2_prop_treebill", 1011836339)
+{
+	ChildRotation(0.835, 0.000, -0.550, 0.000);
+	ChildPosition(193.007, 18.940, -97.728);
+	SeqNo(1011836339);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("vinne26", "nab2_prop_vine2", 1017080195)
+{
+	ChildRotation(0.992, 0.000, 0.130, 0.000);
+	ChildPosition(-27.570, 5.926, -39.942);
+	SeqNo(1017080195);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("5", "nab2_prop_I_planter", 1037212522)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-12.028, 7.990, -7.765);
+	SeqNo(1037212522);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("5", "nab2_prop_I_planter", 1041995129)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(11.941, 7.735, -93.477);
+	SeqNo(1041995129);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("door16", "nab2_prop_door", 1050118424)
+{
+	ChildRotation(0.710, 0.000, 0.704, 0.000);
+	ChildPosition(-28.099, 7.971, -111.974);
+	SeqNo(1050118424);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_prop_w_planter14", "nab2_prop_w_planter", 1050993501)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(150.953, 14.626, -40.851);
+	SeqNo(1050993501);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tall_624", "nab2_prop_leaftree_tall", 1056553136)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-66.667, 16.564, -119.371);
+	SeqNo(1056553136);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tower34_23", "nab2_bldg_b_tower_34", 1056555773)
+{
+	ChildRotation(0.707, 0.000, 0.707, 0.000);
+	ChildPosition(-156.100, 6.975, 178.562);
+	SeqNo(1056555773);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab_prop_flowers15", "nab_prop_flowers", 1059566886)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-12.099, 8.194, -56.439);
+	SeqNo(1059566886);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_bldg_canal_wall", "nab2_bldg_canal_wall", 1063311807)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(54.901, 7.975, 188.562);
+	SeqNo(1063311807);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_bldg_rot_reflection", "nab2_bldg_rot_reflection", 1063892552)
+{
+	ChildRotation(0.707, 0.000, 0.707, 0.000);
+	ChildPosition(-0.099, 11.975, 95.562);
+	SeqNo(1063892552);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab_prop_flowers16", "nab_prop_flowers", 1071005293)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(155.792, 8.623, -21.842);
+	SeqNo(1071005293);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_prop_w_planter15", "nab2_prop_w_planter", 1081085250)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-84.062, 13.296, -103.349);
+	SeqNo(1081085250);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("leaftree940", "nab2_prop_leaftree", 1083483505)
+{
+	ChildRotation(0.709, 0.000, -0.705, 0.000);
+	ChildPosition(-12.230, 7.981, -56.462);
+	SeqNo(1083483505);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_bldg_b_033", "nab2_bldg_b_03", 1084120050)
+{
+	ChildRotation(0.384, 0.000, -0.923, 0.000);
+	ChildPosition(178.927, 7.735, -72.439);
+	SeqNo(1084120050);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("leaftree1014", "nab2_prop_leaftree", 1086900252)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(156.101, 8.635, 13.047);
+	SeqNo(1086900252);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("5", "nab2_prop_I_planter", 1099708288)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(11.939, 7.990, -7.717);
+	SeqNo(1099708288);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_prop_treebill4", "nab2_prop_treebill", 1112670403)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-76.283, 15.310, -138.189);
+	SeqNo(1112670403);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("leaftree991", "nab2_prop_leaftree", 1114726231)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(3.016, 8.229, 16.527);
+	SeqNo(1114726231);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab_prop_flowers17", "nab_prop_flowers", 1117786812)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-53.858, 8.643, 3.771);
+	SeqNo(1117786812);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_prop_w_planter16", "nab2_prop_w_planter", 1118627907)
+{
+	ChildRotation(0.953, 0.000, 0.302, 0.000);
+	ChildPosition(-64.550, 18.041, 5.494);
+	SeqNo(1118627907);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("vinne24", "nab2_prop_vine2", 1131881414)
+{
+	ChildRotation(0.707, 0.000, 0.707, 0.000);
+	ChildPosition(-7.099, 6.975, -151.440);
+	SeqNo(1131881414);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab_prop_flowers18", "nab_prop_flowers", 1139979683)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-12.487, 8.294, -21.176);
+	SeqNo(1139979683);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tall_627", "nab2_prop_leaftree_tall", 1150110098)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-10.298, 13.260, 133.798);
+	SeqNo(1150110098);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("leaftree1008", "nab2_prop_leaftree", 1150971300)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(65.452, 7.179, -74.062);
+	SeqNo(1150971300);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab_prop_flowers19", "nab_prop_flowers", 1152665712)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(139.355, 8.365, -127.463);
+	SeqNo(1152665712);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tower34_24", "nab2_bldg_b_tower_34", 1159391474)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(82.885, 20.849, -115.390);
+	SeqNo(1159391474);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_bldg_rotunda_stair", "nab2_bldg_rotunda_stair", 1173180936)
+{
+	ChildRotation(0.992, 0.000, -0.130, 0.000);
+	ChildPosition(23.983, 7.939, -24.600);
+	SeqNo(1173180936);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("lamp288", "nab2_prop_lampost1", 1195734423)
+{
+	ChildRotation(0.708, 0.000, 0.706, 0.000);
+	ChildPosition(5.901, 7.748, -121.441);
+	SeqNo(1195734423);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("vine37", "nab2_prop_vine1", 1199173559)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-0.099, 10.816, 66.562);
+	SeqNo(1199173559);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_prop_w_planter17", "nab2_prop_w_planter", 1209197917)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(80.206, 14.578, -65.702);
+	SeqNo(1209197917);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("leaftree960", "nab2_prop_leaftree", 1216170615)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-135.390, 8.975, 70.544);
+	SeqNo(1216170615);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_bldg_columnade_section0", "nab2_bldg_columnade_section", 1229403105)
+{
+	ChildRotation(0.966, 0.000, 0.259, 0.000);
+	ChildPosition(-0.099, 7.975, 95.562);
+	SeqNo(1229403105);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab_prop_flowers20", "nab_prop_flowers", 1232866873)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-107.912, 8.327, 6.962);
+	SeqNo(1232866873);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_prop_pillar5", "nab2_prop_pillar", 1233097849)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(71.901, 7.922, -136.440);
+	SeqNo(1233097849);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_bldg_b_050", "nab2_bldg_b_05", 1234326367)
+{
+	ChildRotation(0.707, 0.000, 0.707, 0.000);
+	ChildPosition(-164.855, 7.197, 99.014);
+	SeqNo(1234326367);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("lamp244", "nab2_prop_lampost1", 1249248874)
+{
+	ChildRotation(0.709, 0.000, -0.705, 0.000);
+	ChildPosition(11.901, 7.914, -48.354);
+	SeqNo(1249248874);
+	Team(2);
+	NetworkId(-1);
+}
+
+Object("lamp240", "nab2_prop_lampost1", 1251856260)
+{
+	ChildRotation(0.708, 0.000, -0.706, 0.000);
+	ChildPosition(-12.099, 7.920, -64.355);
+	SeqNo(1251856260);
+	Team(2);
+	NetworkId(-1);
+}
+
+Object("nab2_prop_w_planter18", "nab2_prop_w_planter", 1257547990)
+{
+	ChildRotation(0.866, 0.000, -0.500, 0.000);
+	ChildPosition(99.015, 18.307, 46.372);
+	SeqNo(1257547990);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("lamp55", "nab2_prop_lampost1", 1261900771)
+{
+	ChildRotation(-0.422, 0.000, -0.907, 0.000);
+	ChildPosition(124.491, 7.920, -5.088);
+	SeqNo(1261900771);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_bldg_rot_reflection0", "nab2_bldg_rot_reflection", 1270159706)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-0.099, 11.975, 95.562);
+	SeqNo(1270159706);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_bldg_rot_reflection1", "nab2_bldg_rot_reflection", 1282971379)
+{
+	ChildRotation(-0.500, 0.000, -0.866, 0.000);
+	ChildPosition(-0.099, 11.975, 95.562);
+	SeqNo(1282971379);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tall_596", "nab2_prop_leaftree_tall", 1292762069)
+{
+	ChildRotation(0.966, 0.000, 0.257, 0.000);
+	ChildPosition(71.988, 8.599, 55.988);
+	SeqNo(1292762069);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_prop_w_planter19", "nab2_prop_w_planter", 1310524567)
+{
+	ChildRotation(0.979, 0.000, 0.205, 0.000);
+	ChildPosition(-46.769, 18.026, -5.103);
+	SeqNo(1310524567);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tall_576", "nab2_prop_leaftree_tall", 1315606677)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-26.038, 13.063, 80.454);
+	SeqNo(1315606677);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("lamp285", "nab2_prop_lampost1", 1317110505)
+{
+	ChildRotation(0.708, 0.000, 0.706, 0.000);
+	ChildPosition(5.901, 7.729, -114.441);
+	SeqNo(1317110505);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_bldg_b_035", "nab2_bldg_b_03", 1321257739)
+{
+	ChildRotation(0.924, 0.000, 0.383, 0.000);
+	ChildPosition(100.877, 7.496, -120.440);
+	SeqNo(1321257739);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tall_581", "nab2_prop_leaftree_tall", 1332670372)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(27.901, 12.975, 123.562);
+	SeqNo(1332670372);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("palace_small8", "nab2_bldg_palaceR_02", 1339696838)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-67.958, 9.587, -231.481);
+	SeqNo(1339696838);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_prop_pillar6", "nab2_prop_pillar", 1346091444)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(151.902, 7.788, -16.439);
+	SeqNo(1346091444);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_bldg_rotunda_bridge0", "nab2_bldg_rotunda_bridge", 1348032589)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-0.099, 7.924, 95.562);
+	SeqNo(1348032589);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_bldg_rot_reflection2", "nab2_bldg_rot_reflection", 1352484944)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(-0.099, 11.975, 95.562);
+	SeqNo(1352484944);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("leaftree986", "nab2_prop_leaftree", 1373098411)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(39.570, 9.046, 32.919);
+	SeqNo(1373098411);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_bldg_rotunda_footbridge", "nab2_bldg_rotunda_footbridge", 1374485935)
+{
+	ChildRotation(0.866, 0.000, -0.500, 0.000);
+	ChildPosition(-0.099, 7.975, 95.562);
+	SeqNo(1374485935);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("palace_small10", "nab2_bldg_palaceR_02", 1377204445)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(171.902, -34.025, -4.439);
+	SeqNo(1377204445);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("vinne25", "nab2_prop_vine2", 1377862415)
+{
+	ChildRotation(0.999, 0.000, -0.050, 0.000);
+	ChildPosition(27.397, 7.935, -39.271);
+	SeqNo(1377862415);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("b33_16", "nab2_bldg_b_33", 1379550364)
+{
+	ChildRotation(0.707, 0.000, 0.707, 0.000);
+	ChildPosition(-16.196, 7.751, -120.362);
+	SeqNo(1379550364);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tall_577", "nab2_prop_leaftree_tall", 1388067480)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-15.003, 13.049, 69.381);
+	SeqNo(1388067480);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_prop_pillar7", "nab2_prop_pillar", 1406097465)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(160.648, 7.737, -64.439);
+	SeqNo(1406097465);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("lamp295", "nab2_prop_lampost1", 1415128570)
+{
+	ChildRotation(0.984, 0.000, 0.179, 0.000);
+	ChildPosition(99.903, 7.895, 50.423);
+	SeqNo(1415128570);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_prop_w_planter20", "nab2_prop_w_planter", 1423493516)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(-145.338, 14.823, -60.521);
+	SeqNo(1423493516);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("lamp301", "nab2_prop_lampost1", 1423987481)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(148.730, 7.814, -12.296);
+	SeqNo(1423987481);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tall_588", "nab2_prop_leaftree_tall", 1426018875)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-28.099, 12.975, 123.562);
+	SeqNo(1426018875);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab_prop_flowers21", "nab_prop_flowers", 1438078870)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(103.678, 8.564, 7.183);
+	SeqNo(1438078870);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_prop_w_planter21", "nab2_prop_w_planter", 1449193017)
+{
+	ChildRotation(0.707, 0.000, 0.707, 0.000);
+	ChildPosition(-30.278, 14.562, -59.897);
+	SeqNo(1449193017);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("5", "nab2_prop_I_planter", 1458249282)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-147.764, 7.944, -85.645);
+	SeqNo(1458249282);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_prop_pillar8", "nab2_prop_pillar", 1460223627)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-168.100, 7.940, -88.439);
+	SeqNo(1460223627);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_prop_w_planter22", "nab2_prop_w_planter", 1474629419)
+{
+	ChildRotation(0.609, 0.000, 0.793, 0.000);
+	ChildPosition(-22.578, 18.376, -24.906);
+	SeqNo(1474629419);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_prop_w_planter23", "nab2_prop_w_planter", 1476803185)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(147.843, 15.399, -94.844);
+	SeqNo(1476803185);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("leaftree942", "nab2_prop_leaftree", 1479432131)
+{
+	ChildRotation(0.709, 0.000, -0.705, 0.000);
+	ChildPosition(11.770, 7.809, -72.462);
+	SeqNo(1479432131);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("vine5", "nab2_prop_vine1", 1481398267)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(158.994, 8.001, 18.255);
+	SeqNo(1481398267);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_prop_w_planter24", "nab2_prop_w_planter", 1481588660)
+{
+	ChildRotation(0.609, 0.000, -0.793, 0.000);
+	ChildPosition(23.063, 18.123, -25.413);
+	SeqNo(1481588660);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("vine39", "nab2_prop_vine1", 1481602801)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(11.982, 7.520, -19.186);
+	SeqNo(1481602801);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_prop_w_planter25", "nab2_prop_w_planter", 1490512633)
+{
+	ChildRotation(0.866, 0.000, 0.500, 0.000);
+	ChildPosition(-99.511, 18.361, 47.283);
+	SeqNo(1490512633);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("lamp333", "nab2_prop_lampost1", 1492868420)
+{
+	ChildRotation(0.987, 0.000, 0.159, 0.000);
+	ChildPosition(79.396, 8.000, 71.851);
+	SeqNo(1492868420);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_prop_pillar9", "nab2_prop_pillar", 1499296452)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(159.902, 7.702, 15.561);
+	SeqNo(1499296452);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_bldg_canal_wall0", "nab2_bldg_canal_wall", 1499866161)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(-72.099, 7.975, 188.562);
+	SeqNo(1499866161);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("lamp23", "nab2_prop_lampost1", 1500150268)
+{
+	ChildRotation(0.708, 0.000, -0.706, 0.000);
+	ChildPosition(-12.099, 7.924, -32.355);
+	SeqNo(1500150268);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("lamp290", "nab2_prop_lampost1", 1501924549)
+{
+	ChildRotation(0.668, 0.000, 0.744, 0.000);
+	ChildPosition(-5.669, 7.935, 13.650);
+	SeqNo(1501924549);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("lamp284", "nab2_prop_lampost1", 1504552919)
+{
+	ChildRotation(0.989, 0.000, -0.151, 0.000);
+	ChildPosition(-99.135, 7.975, 50.630);
+	SeqNo(1504552919);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("lamp319", "nab2_prop_lampost1", 1506672039)
+{
+	ChildRotation(0.707, 0.000, 0.707, 0.000);
+	ChildPosition(-68.359, 7.886, -89.417);
+	SeqNo(1506672039);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("vine40", "nab2_prop_vine1", 1515734414)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-11.623, 18.946, -20.885);
+	SeqNo(1515734414);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab_prop_flowers22", "nab_prop_flowers", 1528485678)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-38.622, 8.723, -3.456);
+	SeqNo(1528485678);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("5", "nab2_prop_I_planter", 1528791777)
+{
+	ChildRotation(0.896, 0.000, 0.444, 0.000);
+	ChildPosition(-83.569, 7.990, 28.139);
+	SeqNo(1528791777);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("b31_8", "nab2_bldg_b_31", 1541056921)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(167.902, 7.880, -40.439);
+	SeqNo(1541056921);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_bldg_columnade_tower1", "nab2_bldg_columnade_tower", 1545634885)
+{
+	ChildRotation(0.793, 0.000, 0.609, 0.000);
+	ChildPosition(-0.099, 7.975, 95.562);
+	SeqNo(1545634885);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_prop_wall7", "nab2_prop_wall", 1551061197)
+{
+	ChildRotation(0.707, 0.000, 0.707, 0.000);
+	ChildPosition(-168.100, 7.915, -28.439);
+	SeqNo(1551061197);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("lamp62", "nab2_prop_lampost1", 1552851509)
+{
+	ChildRotation(0.987, 0.000, -0.159, 0.000);
+	ChildPosition(-30.099, 11.975, 87.562);
+	SeqNo(1552851509);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("lamp56", "nab2_prop_lampost1", 1555679069)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(151.284, 7.926, -44.152);
+	SeqNo(1555679069);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_prop_w_planter26", "nab2_prop_w_planter", 1565538249)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(-145.412, 14.876, -44.552);
+	SeqNo(1565538249);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tall_573", "nab2_prop_leaftree_tall", 1572062601)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-15.270, 19.623, 120.144);
+	SeqNo(1572062601);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_bldg_b_036", "nab2_bldg_b_03", 1575450543)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(175.902, 7.752, -112.440);
+	SeqNo(1575450543);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("b04_3", "nab2_bldg_b_04", 1611503749)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(-104.100, 7.935, -20.439);
+	SeqNo(1611503749);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("leaftree970", "nab2_prop_leaftree", 1625215851)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-100.328, 8.111, 57.021);
+	SeqNo(1625215851);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_bldg_b_051", "nab2_bldg_b_05", 1631566325)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(135.902, 7.975, -142.440);
+	SeqNo(1631566325);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_prop_w_planter27", "nab2_prop_w_planter", 1631590905)
+{
+	ChildRotation(0.925, 0.000, 0.380, 0.000);
+	ChildPosition(120.324, 15.865, -1.547);
+	SeqNo(1631590905);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("leaftree988", "nab2_prop_leaftree", 1641569799)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(29.904, 9.262, 27.485);
+	SeqNo(1641569799);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tall_619", "nab2_prop_leaftree_tall", 1652248040)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-10.014, 7.823, -8.551);
+	SeqNo(1652248040);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("b31_12", "nab2_bldg_b_31", 1652266693)
+{
+	ChildRotation(0.707, 0.000, 0.707, 0.000);
+	ChildPosition(-175.923, 7.882, -56.440);
+	SeqNo(1652266693);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_bldg_canal_home", "nab2_bldg_canal_home", 1652382017)
+{
+	ChildRotation(0.866, 0.000, -0.500, 0.000);
+	ChildPosition(-0.099, 7.975, 95.562);
+	SeqNo(1652382017);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("vine47", "nab2_prop_vine1", 1657131406)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-131.876, 7.813, -64.643);
+	SeqNo(1657131406);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_prop_w_planter28", "nab2_prop_w_planter", 1659473424)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(70.746, 14.662, -120.846);
+	SeqNo(1659473424);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab_prop_flowers23", "nab_prop_flowers", 1660119637)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(53.193, 8.364, 2.351);
+	SeqNo(1660119637);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_prop_w_planter29", "nab2_prop_w_planter", 1663688614)
+{
+	ChildRotation(0.708, 0.000, 0.706, 0.000);
+	ChildPosition(101.281, 15.937, -100.928);
+	SeqNo(1663688614);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab_prop_flowers24", "nab_prop_flowers", 1667775121)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-12.147, 8.158, -93.424);
+	SeqNo(1667775121);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("lamp331", "nab2_prop_lampost1", 1669835470)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-118.914, 7.784, -47.991);
+	SeqNo(1669835470);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_prop_pillar10", "nab2_prop_pillar", 1677386547)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-168.100, 7.923, -80.439);
+	SeqNo(1677386547);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tower34_17", "nab2_bldg_b_tower_34", 1683139956)
+{
+	ChildRotation(0.708, 0.000, -0.706, 0.000);
+	ChildPosition(-28.049, 7.754, -108.423);
+	SeqNo(1683139956);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("lamp36", "nab2_prop_lampost1", 1693475286)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(-104.229, 7.908, 11.521);
+	SeqNo(1693475286);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("lamp291", "nab2_prop_lampost1", 1700024539)
+{
+	ChildRotation(0.959, 0.000, -0.285, 0.000);
+	ChildPosition(60.642, 7.935, 6.986);
+	SeqNo(1700024539);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("vinne34", "nab2_prop_vine2", 1704782674)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-159.389, 7.533, -19.391);
+	SeqNo(1704782674);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("lamp235", "nab2_prop_lampost1", 1706433608)
+{
+	ChildRotation(0.709, 0.000, -0.705, 0.000);
+	ChildPosition(11.901, 7.935, -64.355);
+	SeqNo(1706433608);
+	Team(2);
+	NetworkId(-1);
+}
+
+Object("nab2_prop_w_planter30", "nab2_prop_w_planter", 1716085244)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(155.878, 14.704, -26.937);
+	SeqNo(1716085244);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("lamp276", "nab2_prop_lampost1", 1726007264)
+{
+	ChildRotation(0.985, 0.000, 0.170, 0.000);
+	ChildPosition(-37.271, 7.882, 19.186);
+	SeqNo(1726007264);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("lamp279", "nab2_prop_lampost1", 1726095134)
+{
+	ChildRotation(0.968, 0.000, 0.250, 0.000);
+	ChildPosition(68.300, 7.934, 49.684);
+	SeqNo(1726095134);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("leaftree998", "nab2_prop_leaftree", 1730252407)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-11.964, 8.000, -21.492);
+	SeqNo(1730252407);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab_prop_flowers25", "nab_prop_flowers", 1735216660)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-12.099, 8.352, -8.439);
+	SeqNo(1735216660);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_prop_pillar11", "nab2_prop_pillar", 1737837377)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-155.136, 8.008, 79.847);
+	SeqNo(1737837377);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("lamp315", "nab2_prop_lampost1", 1744668928)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(49.056, 7.962, -124.541);
+	SeqNo(1744668928);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_prop_w_planter31", "nab2_prop_w_planter", 1745590893)
+{
+	ChildRotation(0.446, 0.000, -0.895, 0.000);
+	ChildPosition(-94.222, 17.814, 19.618);
+	SeqNo(1745590893);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("vine23", "nab2_prop_vine1", 1750300224)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-11.565, 6.519, -20.885);
+	SeqNo(1750300224);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("leaftree981", "nab2_prop_leaftree", 1754268974)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-30.069, 9.187, 28.529);
+	SeqNo(1754268974);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("vine43", "nab2_prop_vine1", 1757362323)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(147.193, 8.629, -134.303);
+	SeqNo(1757362323);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_prop_w_planter32", "nab2_prop_w_planter", 1763379843)
+{
+	ChildRotation(0.924, 0.000, 0.382, 0.000);
+	ChildPosition(-113.187, 14.446, -94.054);
+	SeqNo(1763379843);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_prop_w_planter33", "nab2_prop_w_planter", 1763492326)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(-123.964, 15.182, -65.692);
+	SeqNo(1763492326);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("leaftree990", "nab2_prop_leaftree", 1767790362)
+{
+	ChildRotation(0.500, 0.000, -0.866, 0.000);
+	ChildPosition(-66.835, 7.727, 53.465);
+	SeqNo(1767790362);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("lamp322", "nab2_prop_lampost1", 1770588570)
+{
+	ChildRotation(-0.383, 0.000, -0.924, 0.000);
+	ChildPosition(168.589, 7.918, -75.203);
+	SeqNo(1770588570);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_prop_pillar12", "nab2_prop_pillar", 1776126489)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(71.901, 7.919, -144.440);
+	SeqNo(1776126489);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_prop_w_planter34", "nab2_prop_w_planter", 1780296268)
+{
+	ChildRotation(0.866, 0.000, -0.500, 0.000);
+	ChildPosition(95.309, 18.444, 40.228);
+	SeqNo(1780296268);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("leaftree947", "nab2_prop_leaftree", 1784353351)
+{
+	ChildRotation(0.709, 0.000, -0.705, 0.000);
+	ChildPosition(-12.230, 8.033, -40.462);
+	SeqNo(1784353351);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_prop_w_planter35", "nab2_prop_w_planter", 1787637247)
+{
+	ChildRotation(0.707, 0.000, 0.707, 0.000);
+	ChildPosition(-118.786, 14.836, -60.145);
+	SeqNo(1787637247);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("lamp84", "nab2_prop_lampost1", 1793836920)
+{
+	ChildRotation(1.000, 0.000, -0.006, 0.000);
+	ChildPosition(72.889, 7.887, -78.564);
+	SeqNo(1793836920);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_bldg_rot5", "nab2_bldg_rot", 1797329722)
+{
+	ChildRotation(0.966, 0.000, 0.259, 0.000);
+	ChildPosition(-0.099, 11.975, 95.562);
+	SeqNo(1797329722);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab_prop_flowers26", "nab_prop_flowers", 1803378798)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(99.712, 8.408, 57.521);
+	SeqNo(1803378798);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("bench7", "nab2_prop_bench", 1822337946)
+{
+	ChildRotation(-0.130, 0.000, -0.992, 0.000);
+	ChildPosition(-127.026, 7.928, 36.547);
+	SeqNo(1822337946);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_prop_w_planter36", "nab2_prop_w_planter", 1827499188)
+{
+	ChildRotation(0.707, 0.000, 0.707, 0.000);
+	ChildPosition(-143.810, 16.088, 35.849);
+	SeqNo(1827499188);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_prop_wall8", "nab2_prop_wall", 1837071603)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(159.902, 7.897, 19.561);
+	SeqNo(1837071603);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("bill6", "nab2_bldg_billboards", 1841895951)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-121.075, 23.882, -167.263);
+	SeqNo(1841895951);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_prop_w_planter37", "nab2_prop_w_planter", 1847722177)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-60.161, 13.416, -102.686);
+	SeqNo(1847722177);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("5", "nab2_prop_I_planter", 1849850587)
+{
+	ChildRotation(0.831, 0.000, -0.556, 0.000);
+	ChildPosition(99.516, 7.969, 57.430);
+	SeqNo(1849850587);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab_prop_flowers27", "nab_prop_flowers", 1852461689)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-30.720, 9.597, 28.576);
+	SeqNo(1852461689);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_bldg_canal_wall1", "nab2_bldg_canal_wall", 1861746598)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-134.100, 7.975, 82.562);
+	SeqNo(1861746598);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_bldg_rotunda_footbridge0", "nab2_bldg_rotunda_footbridge", 1864611723)
+{
+	ChildRotation(0.866, 0.000, 0.500, 0.000);
+	ChildPosition(-0.099, 7.975, 95.562);
+	SeqNo(1864611723);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tall_572", "nab2_prop_leaftree_tall", 1867422892)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-0.211, 19.568, 124.100);
+	SeqNo(1867422892);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("lamp24", "nab2_prop_lampost1", 1873753783)
+{
+	ChildRotation(0.708, 0.000, -0.706, 0.000);
+	ChildPosition(-12.099, 7.907, -48.355);
+	SeqNo(1873753783);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_prop_w_planter38", "nab2_prop_w_planter", 1885865585)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(93.800, 16.706, -90.794);
+	SeqNo(1885865585);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("leaftree985", "nab2_prop_leaftree", 1888968302)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(43.636, 8.809, 35.975);
+	SeqNo(1888968302);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_prop_wall9", "nab2_prop_wall", 1896586196)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(59.901, 7.918, -144.440);
+	SeqNo(1896586196);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("bench5", "nab2_prop_bench", 1903614979)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(123.758, 7.889, -21.398);
+	SeqNo(1903614979);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("door4", "nab2_prop_door", 1904994771)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(58.875, 7.879, -52.303);
+	SeqNo(1904994771);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tall_618", "nab2_prop_leaftree_tall", 1908882052)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(9.986, 8.233, -8.551);
+	SeqNo(1908882052);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab_prop_flowers28", "nab_prop_flowers", 1913857739)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-131.884, 8.151, -65.972);
+	SeqNo(1913857739);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("leaftree941", "nab2_prop_leaftree", 1915233669)
+{
+	ChildRotation(0.709, 0.000, -0.705, 0.000);
+	ChildPosition(11.901, 7.929, -40.355);
+	SeqNo(1915233669);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("vinne", "nab2_prop_vine2", 1922930792)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(128.156, 11.365, -66.652);
+	SeqNo(1922930792);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_prop_w_planter39", "nab2_prop_w_planter", 1934074196)
+{
+	ChildRotation(0.707, 0.000, 0.707, 0.000);
+	ChildPosition(137.089, 14.579, -47.950);
+	SeqNo(1934074196);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("lamp287", "nab2_prop_lampost1", 1935216350)
+{
+	ChildRotation(0.708, 0.000, -0.706, 0.000);
+	ChildPosition(-6.099, 7.759, -121.439);
+	SeqNo(1935216350);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("vinne30", "nab2_prop_vine2", 1935567286)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-120.056, 6.288, -52.242);
+	SeqNo(1935567286);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("vinne35", "nab2_prop_vine2", 1936684103)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-160.192, 7.071, 50.948);
+	SeqNo(1936684103);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_bldg_rot_reflection3", "nab2_bldg_rot_reflection", 1937001338)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(-0.099, 11.975, 95.562);
+	SeqNo(1937001338);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab_prop_flowers29", "nab_prop_flowers", 1937068954)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-163.589, 8.264, -34.180);
+	SeqNo(1937068954);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_prop_w_planter40", "nab2_prop_w_planter", 1946300821)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(-37.929, 16.627, -94.818);
+	SeqNo(1946300821);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_prop_w_planter41", "nab2_prop_w_planter", 1948854446)
+{
+	ChildRotation(0.708, 0.000, 0.706, 0.000);
+	ChildPosition(-143.814, 16.110, -3.833);
+	SeqNo(1948854446);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tower34_4", "nab2_bldg_b_tower_34", 1960000956)
+{
+	ChildRotation(0.383, 0.000, -0.924, 0.000);
+	ChildPosition(-92.100, 7.719, -68.439);
+	SeqNo(1960000956);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_prop_wall10", "nab2_prop_wall", 1960433570)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(43.901, 7.918, -144.440);
+	SeqNo(1960433570);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tall_578", "nab2_prop_leaftree_tall", 1966464760)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(27.825, 13.260, 67.562);
+	SeqNo(1966464760);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_prop_pillar13", "nab2_prop_pillar", 1977089024)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(160.648, 7.702, -56.439);
+	SeqNo(1977089024);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("5", "nab2_prop_I_planter", 1977715277)
+{
+	ChildRotation(0.939, 0.000, -0.343, 0.000);
+	ChildPosition(53.359, 7.987, 28.711);
+	SeqNo(1977715277);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("lamp59", "nab2_prop_lampost1", 1991306030)
+{
+	ChildRotation(0.799, 0.000, 0.602, 0.000);
+	ChildPosition(7.901, 11.975, 65.561);
+	SeqNo(1991306030);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_bldg_b_052", "nab2_bldg_b_05", 1991762917)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-144.079, 7.906, -96.863);
+	SeqNo(1991762917);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_prop_pillar14", "nab2_prop_pillar", 1992425765)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(159.902, 7.702, 7.561);
+	SeqNo(1992425765);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_prop_wall11", "nab2_prop_wall", 1997605302)
+{
+	ChildRotation(0.707, 0.000, 0.707, 0.000);
+	ChildPosition(-168.100, 7.910, -76.439);
+	SeqNo(1997605302);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_prop_w_planter42", "nab2_prop_w_planter", 2012187408)
+{
+	ChildRotation(0.991, 0.000, -0.134, 0.000);
+	ChildPosition(27.055, 17.963, -6.732);
+	SeqNo(2012187408);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_prop_w_planter43", "nab2_prop_w_planter", 2014121668)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-124.377, 14.900, -39.043);
+	SeqNo(2014121668);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tall_593", "nab2_prop_leaftree_tall", 2027055553)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-15.117, 13.037, 121.432);
+	SeqNo(2027055553);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("vine38", "nab2_prop_vine1", 2037603534)
+{
+	ChildRotation(0.992, 0.000, 0.130, 0.000);
+	ChildPosition(118.299, 21.734, 55.597);
+	SeqNo(2037603534);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("7", "nab2_prop_I_planter", 2039713999)
+{
+	ChildRotation(0.709, 0.000, -0.705, 0.000);
+	ChildPosition(11.901, 7.711, -56.355);
+	SeqNo(2039713999);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_prop_wall12", "nab2_prop_wall", 2043700733)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(155.902, 7.890, 7.561);
+	SeqNo(2043700733);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("leaftree1012", "nab2_prop_leaftree", 2045695178)
+{
+	ChildRotation(0.131, 0.000, -0.991, 0.000);
+	ChildPosition(69.983, 7.697, 58.599);
+	SeqNo(2045695178);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_bldg_rot_reflection4", "nab2_bldg_rot_reflection", 2056796458)
+{
+	ChildRotation(-0.259, 0.000, -0.966, 0.000);
+	ChildPosition(-0.099, 11.975, 95.562);
+	SeqNo(2056796458);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_bldg_b_037", "nab2_bldg_b_03", 2063480451)
+{
+	ChildRotation(0.924, 0.000, 0.382, 0.000);
+	ChildPosition(-122.100, 7.856, -98.440);
+	SeqNo(2063480451);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tall_602", "nab2_prop_leaftree_tall", 2066486959)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-52.963, 8.595, 41.177);
+	SeqNo(2066486959);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_bldg_canal_home0", "nab2_bldg_canal_home", 2071932744)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-0.099, 7.975, 95.562);
+	SeqNo(2071932744);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("leaftree1009", "nab2_prop_leaftree", 2073067461)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(54.209, 7.982, -63.193);
+	SeqNo(2073067461);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("door14", "nab2_prop_door", 2080999087)
+{
+	ChildRotation(0.924, 0.000, -0.382, 0.000);
+	ChildPosition(-90.253, 7.962, -66.548);
+	SeqNo(2080999087);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("door22", "nab2_prop_door", 2081026536)
+{
+	ChildRotation(0.708, 0.000, -0.706, 0.000);
+	ChildPosition(-0.099, 10.975, -151.440);
+	SeqNo(2081026536);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_prop_w_planter44", "nab2_prop_w_planter", 2086318680)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(-80.118, 14.555, -89.460);
+	SeqNo(2086318680);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_prop_fountain1", "nab2_prop_fountain", 2102321425)
+{
+	ChildRotation(0.924, 0.000, -0.383, 0.000);
+	ChildPosition(128.902, 7.744, 18.561);
+	SeqNo(2102321425);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("B19_4", "nab2_bldg_b_19", 2109826893)
+{
+	ChildRotation(1.000, 0.000, -0.008, 0.000);
+	ChildPosition(-79.245, 7.689, -112.638);
+	SeqNo(2109826893);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_prop_pillar15", "nab2_prop_pillar", 2118120182)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(39.901, 7.904, -144.440);
+	SeqNo(2118120182);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("lamp323", "nab2_prop_lampost1", 2124471411)
+{
+	ChildRotation(0.999, 0.000, -0.046, 0.000);
+	ChildPosition(136.657, 7.918, -80.356);
+	SeqNo(2124471411);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("leaftree946", "nab2_prop_leaftree", 2129155968)
+{
+	ChildRotation(0.708, 0.000, -0.706, 0.000);
+	ChildPosition(-12.230, 8.134, -72.462);
+	SeqNo(2129155968);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tall_575", "nab2_prop_leaftree_tall", 2130467174)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-29.894, 13.089, 95.322);
+	SeqNo(2130467174);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_prop_fountain2", "nab2_prop_fountain", 2134279358)
+{
+	ChildRotation(0.924, 0.000, -0.383, 0.000);
+	ChildPosition(-104.100, 7.769, -80.439);
+	SeqNo(2134279358);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_bldg_canal_wall2", "nab2_bldg_canal_wall", -2128070548)
+{
+	ChildRotation(0.709, 0.000, -0.705, 0.000);
+	ChildPosition(129.902, 7.975, 103.562);
+	SeqNo(-2128070548);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_prop_w_planter45", "nab2_prop_w_planter", -2114517635)
+{
+	ChildRotation(0.976, 0.000, -0.218, 0.000);
+	ChildPosition(45.653, 18.054, -5.464);
+	SeqNo(-2114517635);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("5", "nab2_prop_I_planter", -2111170802)
+{
+	ChildRotation(0.707, 0.000, 0.707, 0.000);
+	ChildPosition(147.902, 7.935, 27.561);
+	SeqNo(-2111170802);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_prop_treebill5", "nab2_prop_treebill", -2093281915)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(93.857, 10.528, -197.758);
+	SeqNo(-2093281915);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_bldg_canal_wall3", "nab2_bldg_canal_wall", -2092316870)
+{
+	ChildRotation(0.709, 0.000, -0.705, 0.000);
+	ChildPosition(129.902, 7.975, 135.562);
+	SeqNo(-2092316870);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_prop_wall13", "nab2_prop_wall", -2089501556)
+{
+	ChildRotation(0.707, 0.000, 0.707, 0.000);
+	ChildPosition(160.648, 7.721, -60.439);
+	SeqNo(-2089501556);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_prop_pillar16", "nab2_prop_pillar", -2086280384)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-168.100, 7.975, -24.439);
+	SeqNo(-2086280384);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_prop_wall14", "nab2_prop_wall", -2083071923)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(151.902, 7.813, -12.439);
+	SeqNo(-2083071923);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_prop_w_planter46", "nab2_prop_w_planter", -2082694361)
+{
+	ChildRotation(0.707, 0.000, 0.707, 0.000);
+	ChildPosition(-147.739, 16.733, 76.071);
+	SeqNo(-2082694361);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab_prop_flowers30", "nab_prop_flowers", -2059647366)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(11.901, 8.251, -40.439);
+	SeqNo(-2059647366);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_bldg_canal_home1", "nab2_bldg_canal_home", -2048968190)
+{
+	ChildRotation(0.866, 0.000, 0.500, 0.000);
+	ChildPosition(-0.099, 7.975, 95.562);
+	SeqNo(-2048968190);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab_prop_flowers31", "nab_prop_flowers", -2044741012)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(156.181, 8.694, 13.224);
+	SeqNo(-2044741012);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab_prop_flowers32", "nab_prop_flowers", -2043299242)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-12.099, 8.300, -72.439);
+	SeqNo(-2043299242);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_prop_w_planter47", "nab2_prop_w_planter", -2042492148)
+{
+	ChildRotation(0.707, 0.000, 0.707, 0.000);
+	ChildPosition(-147.833, 16.759, 62.957);
+	SeqNo(-2042492148);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("lamp299", "nab2_prop_lampost1", -2040170749)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-149.422, 7.898, 3.667);
+	SeqNo(-2040170749);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_bldg_rotunda_corner_right", "nab2_bldg_rotunda_corner_right", -2012356613)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-0.099, 7.975, 95.562);
+	SeqNo(-2012356613);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tall_597", "nab2_prop_leaftree_tall", -1989939009)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(2.155, 8.593, 13.219);
+	SeqNo(-1989939009);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("vine42", "nab2_prop_vine1", -1988326637)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(35.621, 7.975, -104.119);
+	SeqNo(-1988326637);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_prop_w_planter48", "nab2_prop_w_planter", -1982188253)
+{
+	ChildRotation(0.954, 0.000, -0.299, 0.000);
+	ChildPosition(63.637, 18.071, 4.930);
+	SeqNo(-1982188253);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_bldg_canal_wall4", "nab2_bldg_canal_wall", -1974602785)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(-9.099, 7.975, 188.562);
+	SeqNo(-1974602785);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_prop_treebill6", "nab2_prop_treebill", -1969146396)
+{
+	ChildRotation(0.528, 0.000, -0.849, 0.000);
+	ChildPosition(-92.825, 18.919, -35.819);
+	SeqNo(-1969146396);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_prop_w_planter49", "nab2_prop_w_planter", -1968590027)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(48.310, 15.189, -89.652);
+	SeqNo(-1968590027);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tower34_10", "nab2_bldg_b_tower_34", -1963576847)
+{
+	ChildRotation(0.708, 0.000, 0.706, 0.000);
+	ChildPosition(-149.100, 7.910, -4.439);
+	SeqNo(-1963576847);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_prop_treebill7", "nab2_prop_treebill", -1961275432)
+{
+	ChildRotation(0.500, 0.000, -0.866, 0.000);
+	ChildPosition(185.484, 13.071, -72.934);
+	SeqNo(-1961275432);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("leaftree966", "nab2_prop_leaftree", -1959822559)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-38.903, 8.271, -3.086);
+	SeqNo(-1959822559);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("lamp268", "nab2_prop_lampost1", -1942605883)
+{
+	ChildRotation(0.925, 0.000, -0.380, 0.000);
+	ChildPosition(-22.099, 11.975, 73.562);
+	SeqNo(-1942605883);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("lamp316", "nab2_prop_lampost1", -1940874567)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(49.051, 7.929, -116.475);
+	SeqNo(-1940874567);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab_prop_flowers34", "nab_prop_flowers", -1939880922)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-43.200, 9.581, 35.183);
+	SeqNo(-1939880922);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("leaftree1003", "nab2_prop_leaftree", -1938555747)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-163.289, 7.785, -34.158);
+	SeqNo(-1938555747);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_prop_w_planter50", "nab2_prop_w_planter", -1934075030)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(95.540, 14.739, -65.763);
+	SeqNo(-1934075030);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tower34_3", "nab2_bldg_b_tower_34", -1929640614)
+{
+	ChildRotation(0.924, 0.000, 0.382, 0.000);
+	ChildPosition(116.879, 7.925, -5.487);
+	SeqNo(-1929640614);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("lamp45", "nab2_prop_lampost1", -1926613494)
+{
+	ChildRotation(0.709, 0.000, 0.705, 0.000);
+	ChildPosition(5.901, 7.701, -128.441);
+	SeqNo(-1926613494);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("5", "nab2_prop_I_planter", -1922258833)
+{
+	ChildRotation(0.900, 0.000, -0.435, 0.000);
+	ChildPosition(82.757, 7.960, 28.319);
+	SeqNo(-1922258833);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tall_604", "nab2_prop_leaftree_tall", -1918929372)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-73.578, 8.573, 76.866);
+	SeqNo(-1918929372);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_bldg_canal_wall5", "nab2_bldg_canal_wall", -1917943573)
+{
+	ChildRotation(0.708, 0.000, 0.706, 0.000);
+	ChildPosition(-157.100, 7.975, 103.562);
+	SeqNo(-1917943573);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("vinne29", "nab2_prop_vine2", -1914506251)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-112.247, 7.576, -109.034);
+	SeqNo(-1914506251);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tall_601", "nab2_prop_leaftree_tall", -1899851573)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-50.358, 8.534, 43.576);
+	SeqNo(-1899851573);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("leaftree978", "nab2_prop_leaftree", -1895421264)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(12.206, 8.051, -93.895);
+	SeqNo(-1895421264);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("leaftree1015", "nab2_prop_leaftree", -1884023639)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(155.766, 8.420, -21.913);
+	SeqNo(-1884023639);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_prop_pillar17", "nab2_prop_pillar", -1881291504)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-168.100, 7.894, -72.439);
+	SeqNo(-1881291504);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_prop_w_planter51", "nab2_prop_w_planter", -1878701569)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(88.081, 14.302, -65.668);
+	SeqNo(-1878701569);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_prop_treebill8", "nab2_prop_treebill", -1866227936)
+{
+	ChildRotation(0.653, 0.000, 0.757, 0.000);
+	ChildPosition(-169.416, 8.214, 77.309);
+	SeqNo(-1866227936);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("lamp294", "nab2_prop_lampost1", -1857733691)
+{
+	ChildRotation(0.326, 0.000, -0.945, 0.000);
+	ChildPosition(-60.665, 7.935, 8.070);
+	SeqNo(-1857733691);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_bldg_canal_wall6", "nab2_bldg_canal_wall", -1856306415)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(-104.100, 7.975, 188.562);
+	SeqNo(-1856306415);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_prop_wall15", "nab2_prop_wall", -1824983472)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(159.902, 7.923, 11.561);
+	SeqNo(-1824983472);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tall_613", "nab2_prop_leaftree_tall", -1814807790)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(79.396, 9.418, 87.504);
+	SeqNo(-1814807790);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tall_574", "nab2_prop_leaftree_tall", -1813255308)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-25.945, 13.061, 110.307);
+	SeqNo(-1813255308);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_prop_w_planter52", "nab2_prop_w_planter", -1812000692)
+{
+	ChildRotation(0.838, 0.000, 0.545, 0.000);
+	ChildPosition(-101.866, 18.186, 56.784);
+	SeqNo(-1812000692);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_bldg_rotunda_bridge1", "nab2_bldg_rotunda_bridge", -1800014504)
+{
+	ChildRotation(0.866, 0.000, -0.500, 0.000);
+	ChildPosition(-0.788, 7.950, 95.913);
+	SeqNo(-1800014504);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_prop_treebill9", "nab2_prop_treebill", -1798462700)
+{
+	ChildRotation(0.911, 0.000, -0.413, 0.000);
+	ChildPosition(75.107, 9.538, -134.250);
+	SeqNo(-1798462700);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_prop_treebill10", "nab2_prop_treebill", -1788450949)
+{
+	ChildRotation(0.707, 0.000, 0.707, 0.000);
+	ChildPosition(-173.075, 2.530, -85.744);
+	SeqNo(-1788450949);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("leaftree984", "nab2_prop_leaftree", -1788063161)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-44.084, 9.299, 36.322);
+	SeqNo(-1788063161);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("b04_30", "nab2_bldg_b_04", -1777294733)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(87.902, 7.705, -105.009);
+	SeqNo(-1777294733);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_bldg_rot_reflection5", "nab2_bldg_rot_reflection", -1774230175)
+{
+	ChildRotation(0.966, 0.000, 0.259, 0.000);
+	ChildPosition(-0.099, 11.975, 95.562);
+	SeqNo(-1774230175);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab_prop_flowers35", "nab_prop_flowers", -1761620415)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-147.954, 8.253, -85.591);
+	SeqNo(-1761620415);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("vine41", "nab2_prop_vine1", -1748977950)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-12.099, 6.975, -95.439);
+	SeqNo(-1748977950);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("lamp312", "nab2_prop_lampost1", -1748078702)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-159.020, 7.929, -52.634);
+	SeqNo(-1748078702);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_prop_fountain6", "nab2_prop_fountain", -1747910520)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-0.167, 7.632, -117.565);
+	SeqNo(-1747910520);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_prop_w_planter53", "nab2_prop_w_planter", -1741456480)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(-50.931, 16.595, -94.811);
+	SeqNo(-1741456480);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_bldg_gate1", "nab2_bldg_gate", -1734740535)
+{
+	ChildRotation(0.739, 0.000, 0.674, 0.000);
+	ChildPosition(-7.099, 7.975, -18.439);
+	SeqNo(-1734740535);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab_prop_flowers36", "nab_prop_flowers", -1730252243)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-53.718, 8.286, 30.027);
+	SeqNo(-1730252243);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_bldg_rot6", "nab2_bldg_rot", -1712022946)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(-0.099, 11.975, 95.562);
+	SeqNo(-1712022946);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("5", "nab2_prop_I_planter", -1703764950)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(139.504, 7.845, -127.308);
+	SeqNo(-1703764950);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_prop_w_planter54", "nab2_prop_w_planter", -1701176940)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(163.832, 15.298, -95.092);
+	SeqNo(-1701176940);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("bench8", "nab2_prop_bench", -1696017684)
+{
+	ChildRotation(0.966, 0.000, 0.259, 0.000);
+	ChildPosition(-67.693, 8.907, -10.299);
+	SeqNo(-1696017684);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("leaftree997", "nab2_prop_leaftree", -1691392647)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(11.801, 8.165, -22.188);
+	SeqNo(-1691392647);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("leaftree23", "nab2_prop_leaftree", -1690750108)
+{
+	ChildRotation(0.966, 0.000, 0.257, 0.000);
+	ChildPosition(-106.229, 8.975, 5.521);
+	SeqNo(-1690750108);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab_prop_flowers37", "nab_prop_flowers", -1684169601)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-83.797, 8.605, 28.167);
+	SeqNo(-1684169601);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_bldg_b_038", "nab2_bldg_b_03", -1667991181)
+{
+	ChildRotation(0.783, 0.000, -0.622, 0.000);
+	ChildPosition(124.907, 7.895, 78.543);
+	SeqNo(-1667991181);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("6", "nab2_prop_I_planter", -1666335777)
+{
+	ChildRotation(0.709, 0.000, -0.705, 0.000);
+	ChildPosition(11.901, 7.746, -72.355);
+	SeqNo(-1666335777);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("5", "nab2_prop_I_planter", -1663585112)
+{
+	ChildRotation(0.964, 0.000, 0.267, 0.000);
+	ChildPosition(-53.839, 7.990, 3.819);
+	SeqNo(-1663585112);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("lamp324", "nab2_prop_lampost1", -1662569605)
+{
+	ChildRotation(0.712, 0.000, -0.702, 0.000);
+	ChildPosition(128.020, 7.784, -89.068);
+	SeqNo(-1662569605);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_prop_w_planter55", "nab2_prop_w_planter", -1662373513)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(-97.271, 14.976, -48.700);
+	SeqNo(-1662373513);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_prop_treebill11", "nab2_prop_treebill", -1653868161)
+{
+	ChildRotation(0.109, 0.000, -0.994, 0.000);
+	ChildPosition(63.383, 20.170, -49.317);
+	SeqNo(-1653868161);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("7", "nab2_prop_I_planter", -1645558230)
+{
+	ChildRotation(0.708, 0.000, -0.706, 0.000);
+	ChildPosition(-12.099, 7.770, -72.355);
+	SeqNo(-1645558230);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("leaftree974", "nab2_prop_leaftree", -1645554737)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(30.884, 8.274, 14.728);
+	SeqNo(-1645554737);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab_prop_flowers38", "nab_prop_flowers", -1641176511)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-135.221, 8.340, 69.559);
+	SeqNo(-1641176511);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_prop_pillar18", "nab2_prop_pillar", -1634022792)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(55.901, 7.935, -144.440);
+	SeqNo(-1634022792);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("lamp265", "nab2_prop_lampost1", -1632753025)
+{
+	ChildRotation(0.992, 0.000, -0.130, 0.000);
+	ChildPosition(29.901, 11.975, 103.562);
+	SeqNo(-1632753025);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_prop_pillar19", "nab2_prop_pillar", -1629914645)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(159.902, 7.836, -16.439);
+	SeqNo(-1629914645);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("door24", "nab2_prop_door", -1627334349)
+{
+	ChildRotation(0.924, 0.000, -0.382, 0.000);
+	ChildPosition(115.795, 7.697, -18.077);
+	SeqNo(-1627334349);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_bldg_canal_wall7", "nab2_bldg_canal_wall", -1623001682)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(134.902, 7.975, 82.562);
+	SeqNo(-1623001682);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_bldg_b_039", "nab2_bldg_b_03", -1612048883)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(159.902, 7.975, -127.440);
+	SeqNo(-1612048883);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("door15", "nab2_prop_door", -1611263332)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-25.099, 7.958, -108.974);
+	SeqNo(-1611263332);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_bldg_b_053", "nab2_bldg_b_05", -1608639849)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(67.186, 7.192, 200.757);
+	SeqNo(-1608639849);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_bldg_rot_reflection6", "nab2_bldg_rot_reflection", -1603740916)
+{
+	ChildRotation(0.966, 0.000, -0.259, 0.000);
+	ChildPosition(-0.099, 11.975, 95.562);
+	SeqNo(-1603740916);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("lamp292", "nab2_prop_lampost1", -1587275423)
+{
+	ChildRotation(0.959, 0.000, -0.284, 0.000);
+	ChildPosition(45.532, 7.935, -1.593);
+	SeqNo(-1587275423);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_bldg_rot7", "nab2_bldg_rot", -1583496165)
+{
+	ChildRotation(0.500, 0.000, -0.866, 0.000);
+	ChildPosition(-0.099, 11.975, 95.562);
+	SeqNo(-1583496165);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("lamp280", "nab2_prop_lampost1", -1583284921)
+{
+	ChildRotation(0.866, 0.000, -0.500, 0.000);
+	ChildPosition(-125.156, 7.884, 48.177);
+	SeqNo(-1583284921);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("b04_27", "nab2_bldg_b_04", -1571583004)
+{
+	ChildRotation(0.707, 0.000, 0.707, 0.000);
+	ChildPosition(-162.100, 7.868, 67.392);
+	SeqNo(-1571583004);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_prop_treebill12", "nab2_prop_treebill", -1568929811)
+{
+	ChildRotation(0.421, 0.000, -0.907, 0.000);
+	ChildPosition(154.721, 15.771, 54.258);
+	SeqNo(-1568929811);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_bldg_canal_wall8", "nab2_bldg_canal_wall", -1565924148)
+{
+	ChildRotation(0.708, 0.000, 0.706, 0.000);
+	ChildPosition(-157.100, 7.975, 167.562);
+	SeqNo(-1565924148);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_prop_wall16", "nab2_prop_wall", -1545827775)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(172.648, 7.715, -64.439);
+	SeqNo(-1545827775);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("vine33", "nab2_prop_vine1", -1519900779)
+{
+	ChildRotation(0.992, 0.000, 0.130, 0.000);
+	ChildPosition(128.902, 19.636, 52.746);
+	SeqNo(-1519900779);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_prop_w_planter56", "nab2_prop_w_planter", -1485112025)
+{
+	ChildRotation(0.899, 0.000, -0.438, 0.000);
+	ChildPosition(84.482, 17.505, 26.891);
+	SeqNo(-1485112025);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_bldg_rotunda_corner_left", "nab2_bldg_rotunda_corner_left", -1481739620)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-0.099, 7.975, 95.562);
+	SeqNo(-1481739620);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("lamp317", "nab2_prop_lampost1", -1471700918)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-72.098, 7.922, -102.786);
+	SeqNo(-1471700918);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_prop_w_planter57", "nab2_prop_w_planter", -1467247380)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(80.404, 16.640, -90.701);
+	SeqNo(-1467247380);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_bldg_canal_wall9", "nab2_bldg_canal_wall", -1462342453)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(-40.099, 7.975, 188.562);
+	SeqNo(-1462342453);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab_prop_flowers39", "nab_prop_flowers", -1443128839)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-112.229, 8.577, 11.521);
+	SeqNo(-1443128839);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("lamp320", "nab2_prop_lampost1", -1429287085)
+{
+	ChildRotation(0.691, 0.000, -0.723, 0.000);
+	ChildPosition(151.314, 7.897, -94.595);
+	SeqNo(-1429287085);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("bill9", "nab2_bldg_billboards", -1428587752)
+{
+	ChildRotation(0.708, 0.000, 0.706, 0.000);
+	ChildPosition(-173.115, 13.947, 162.955);
+	SeqNo(-1428587752);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("5", "nab2_prop_I_planter", -1426583486)
+{
+	ChildRotation(0.946, 0.000, -0.324, 0.000);
+	ChildPosition(66.928, 7.941, 12.071);
+	SeqNo(-1426583486);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_prop_wall17", "nab2_prop_wall", -1410591266)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(159.902, 7.804, -20.439);
+	SeqNo(-1410591266);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_prop_w_planter58", "nab2_prop_w_planter", -1403320047)
+{
+	ChildRotation(0.707, 0.000, 0.707, 0.000);
+	ChildPosition(136.996, 14.513, -39.893);
+	SeqNo(-1403320047);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_prop_w_planter59", "nab2_prop_w_planter", -1401006633)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(150.999, 14.390, -32.910);
+	SeqNo(-1401006633);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_bldg_b_0310", "nab2_bldg_b_03", -1390156546)
+{
+	ChildRotation(0.708, 0.000, -0.706, 0.000);
+	ChildPosition(159.902, 7.924, 26.561);
+	SeqNo(-1390156546);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_prop_w_planter60", "nab2_prop_w_planter", -1389956288)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-140.437, 14.740, -39.244);
+	SeqNo(-1389956288);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_prop_wall18", "nab2_prop_wall", -1386508008)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(67.901, 7.918, -144.440);
+	SeqNo(-1386508008);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_bldg_canal_wall10", "nab2_bldg_canal_wall", -1381540441)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-166.100, 7.975, 82.562);
+	SeqNo(-1381540441);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("vine6", "nab2_prop_vine1", -1381304589)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(122.168, 8.105, -24.126);
+	SeqNo(-1381304589);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_bldg_rot8", "nab2_bldg_rot", -1380399586)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-0.099, 11.975, 95.562);
+	SeqNo(-1380399586);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("vine44", "nab2_prop_vine1", -1366301571)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(133.414, 8.351, -134.179);
+	SeqNo(-1366301571);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("b33_14", "nab2_bldg_b_33", -1333691371)
+{
+	ChildRotation(0.708, 0.000, -0.706, 0.000);
+	ChildPosition(15.998, 7.673, -120.518);
+	SeqNo(-1333691371);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_bldg_canal_wall11", "nab2_bldg_canal_wall", -1330454080)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(22.901, 7.975, 188.562);
+	SeqNo(-1330454080);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("leaftree983", "nab2_prop_leaftree", -1326964535)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-39.868, 8.953, 33.798);
+	SeqNo(-1326964535);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("leaftree21", "nab2_prop_leaftree", -1324822556)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-106.229, 8.975, 16.521);
+	SeqNo(-1324822556);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("leaftree961", "nab2_prop_leaftree", -1314847136)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(82.850, 8.314, 27.905);
+	SeqNo(-1314847136);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("door25", "nab2_prop_door", -1314308435)
+{
+	ChildRotation(0.924, 0.000, -0.382, 0.000);
+	ChildPosition(103.953, 7.650, -7.271);
+	SeqNo(-1314308435);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_bldg_rot_reflection7", "nab2_bldg_rot_reflection", -1312602216)
+{
+	ChildRotation(0.866, 0.000, 0.500, 0.000);
+	ChildPosition(-0.099, 11.975, 95.562);
+	SeqNo(-1312602216);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("bill", "nab2_bldg_billboards", -1310394915)
+{
+	ChildRotation(0.715, 0.000, 0.699, 0.000);
+	ChildPosition(-188.425, 25.718, 44.865);
+	SeqNo(-1310394915);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("vine30", "nab2_prop_vine1", -1305528485)
+{
+	ChildRotation(0.992, 0.000, 0.130, 0.000);
+	ChildPosition(125.169, 8.628, 53.715);
+	SeqNo(-1305528485);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_bldg_rot9", "nab2_bldg_rot", -1300355978)
+{
+	ChildRotation(0.866, 0.000, -0.500, 0.000);
+	ChildPosition(-0.099, 11.975, 95.562);
+	SeqNo(-1300355978);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("lamp293", "nab2_prop_lampost1", -1292796548)
+{
+	ChildRotation(0.971, 0.000, 0.239, 0.000);
+	ChildPosition(-45.850, 7.935, -0.046);
+	SeqNo(-1292796548);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_prop_pillar20", "nab2_prop_pillar", -1280610571)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(47.901, 7.915, -144.440);
+	SeqNo(-1280610571);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tall_583", "nab2_prop_leaftree_tall", -1276381800)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(10.022, 13.172, 57.349);
+	SeqNo(-1276381800);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tall_594", "nab2_prop_leaftree_tall", -1263219593)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-0.134, 13.022, 125.369);
+	SeqNo(-1263219593);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_prop_w_planter61", "nab2_prop_w_planter", -1249931985)
+{
+	ChildRotation(0.707, 0.000, 0.707, 0.000);
+	ChildPosition(48.658, 14.399, -120.202);
+	SeqNo(-1249931985);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_prop_w_planter62", "nab2_prop_w_planter", -1242833277)
+{
+	ChildRotation(0.386, 0.000, -0.923, 0.000);
+	ChildPosition(148.511, 15.686, 36.413);
+	SeqNo(-1242833277);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_prop_w_planter63", "nab2_prop_w_planter", -1240453604)
+{
+	ChildRotation(0.707, 0.000, 0.707, 0.000);
+	ChildPosition(-158.839, 14.600, -64.187);
+	SeqNo(-1240453604);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_bldg_rotunda_stair0", "nab2_bldg_rotunda_stair", -1239576871)
+{
+	ChildRotation(0.787, 0.000, 0.617, 0.000);
+	ChildPosition(-120.293, 7.975, 71.480);
+	SeqNo(-1239576871);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab_prop_flowers40", "nab_prop_flowers", -1221928940)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-36.998, 9.577, 31.856);
+	SeqNo(-1221928940);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("b33_11", "nab2_bldg_b_33", -1213393552)
+{
+	ChildRotation(0.710, 0.000, 0.704, 0.000);
+	ChildPosition(-32.197, 7.724, -60.362);
+	SeqNo(-1213393552);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_prop_treebill13", "nab2_prop_treebill", -1202496859)
+{
+	ChildRotation(0.682, 0.000, -0.731, 0.000);
+	ChildPosition(156.608, 20.867, 157.328);
+	SeqNo(-1202496859);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tall_586", "nab2_prop_leaftree_tall", -1190332277)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-38.234, 13.210, 85.335);
+	SeqNo(-1190332277);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_prop_w_planter64", "nab2_prop_w_planter", -1188753398)
+{
+	ChildRotation(0.991, 0.000, 0.137, 0.000);
+	ChildPosition(-27.603, 17.963, -6.493);
+	SeqNo(-1188753398);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_prop_w_planter65", "nab2_prop_w_planter", -1178793908)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-28.517, 14.895, -102.970);
+	SeqNo(-1178793908);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tower34_11", "nab2_bldg_b_tower_34", -1171749183)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(55.901, 13.290, -164.523);
+	SeqNo(-1171749183);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("lamp270", "nab2_prop_lampost1", -1162118013)
+{
+	ChildRotation(0.932, 0.000, 0.362, 0.000);
+	ChildPosition(-22.099, 11.975, 117.562);
+	SeqNo(-1162118013);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_prop_fountain4", "nab2_prop_fountain", -1161324726)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(-0.109, 10.603, 95.505);
+	SeqNo(-1161324726);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("lamp275", "nab2_prop_lampost1", -1154920990)
+{
+	ChildRotation(0.943, 0.000, -0.334, 0.000);
+	ChildPosition(47.699, 7.916, 24.409);
+	SeqNo(-1154920990);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("lamp65", "nab2_prop_lampost1", -1136360724)
+{
+	ChildRotation(-0.383, 0.000, -0.924, 0.000);
+	ChildPosition(117.339, 7.952, 2.308);
+	SeqNo(-1136360724);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_bldg_canal_wall12", "nab2_bldg_canal_wall", -1110474699)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(85.902, 7.975, 188.562);
+	SeqNo(-1110474699);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("5", "nab2_prop_I_planter", -1110417167)
+{
+	ChildRotation(0.987, 0.000, -0.159, 0.000);
+	ChildPosition(30.353, 7.983, 14.981);
+	SeqNo(-1110417167);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("lamp321", "nab2_prop_lampost1", -1108482383)
+{
+	ChildRotation(0.737, 0.000, -0.676, 0.000);
+	ChildPosition(142.448, 7.920, -104.240);
+	SeqNo(-1108482383);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("lamp334", "nab2_prop_lampost1", -1094840889)
+{
+	ChildRotation(0.939, 0.000, 0.343, 0.000);
+	ChildPosition(59.859, 7.860, 38.803);
+	SeqNo(-1094840889);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("5", "nab2_prop_I_planter", -1086477279)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-12.059, 7.854, -21.912);
+	SeqNo(-1086477279);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("leaftree995", "nab2_prop_leaftree", -1081435679)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(154.304, 7.871, -12.675);
+	SeqNo(-1081435679);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_prop_pillar21", "nab2_prop_pillar", -1081100108)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(168.648, 7.752, -64.439);
+	SeqNo(-1081100108);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tower34_9", "nab2_bldg_b_tower_34", -1069104090)
+{
+	ChildRotation(0.708, 0.000, 0.706, 0.000);
+	ChildPosition(-149.100, 7.894, 35.561);
+	SeqNo(-1069104090);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("5", "nab2_prop_I_planter", -1067659279)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-131.976, 7.990, -66.205);
+	SeqNo(-1067659279);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_bldg_rot_reflection8", "nab2_bldg_rot_reflection", -1057938906)
+{
+	ChildRotation(0.259, 0.000, -0.966, 0.000);
+	ChildPosition(-0.099, 11.975, 95.562);
+	SeqNo(-1057938906);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_prop_pillar22", "nab2_prop_pillar", -1055423691)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(63.901, 7.928, -144.440);
+	SeqNo(-1055423691);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab_prop_flowers41", "nab_prop_flowers", -1047832368)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(11.901, 8.390, -8.439);
+	SeqNo(-1047832368);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_prop_w_planter66", "nab2_prop_w_planter", -1047710941)
+{
+	ChildRotation(0.792, 0.000, 0.610, 0.000);
+	ChildPosition(-102.654, 18.034, 68.881);
+	SeqNo(-1047710941);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tall_608", "nab2_prop_leaftree_tall", -1039476428)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(19.697, 8.606, 26.104);
+	SeqNo(-1039476428);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("lamp274", "nab2_prop_lampost1", -1037369188)
+{
+	ChildRotation(-0.210, 0.000, -0.978, 0.000);
+	ChildPosition(36.388, 7.926, 17.607);
+	SeqNo(-1037369188);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_prop_treebill14", "nab2_prop_treebill", -1033295811)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-34.818, 13.323, -138.938);
+	SeqNo(-1033295811);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab_prop_flowers42", "nab_prop_flowers", -1015587259)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-30.548, 8.787, 16.881);
+	SeqNo(-1015587259);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("hang03", "nab2_prop_lampost_hang", -1014202453)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(63.860, 21.967, 58.863);
+	SeqNo(-1014202453);
+	Team(0);
+	NetworkId(-1);
+	Label("hang03");
+}
+
+Object("nab2_prop_w_planter67", "nab2_prop_w_planter", -1010278727)
+{
+	ChildRotation(0.925, 0.000, -0.380, 0.000);
+	ChildPosition(74.517, 17.997, 20.512);
+	SeqNo(-1010278727);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("5", "nab2_prop_I_planter", -995256476)
+{
+	ChildRotation(0.707, 0.000, 0.707, 0.000);
+	ChildPosition(155.945, 7.972, 13.221);
+	SeqNo(-995256476);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_prop_treebill15", "nab2_prop_treebill", -992118002)
+{
+	ChildRotation(0.999, 0.000, 0.039, 0.000);
+	ChildPosition(44.000, 7.000, -148.000);
+	SeqNo(-992118002);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("vine49", "nab2_prop_vine1", -991813484)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(64.556, 7.077, -76.178);
+	SeqNo(-991813484);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_bldg_canal_wall13", "nab2_bldg_canal_wall", -978622891)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(116.902, 7.975, 188.562);
+	SeqNo(-978622891);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("5", "nab2_prop_I_planter", -976107127)
+{
+	ChildRotation(0.964, 0.000, 0.267, 0.000);
+	ChildPosition(-43.293, 7.946, 22.585);
+	SeqNo(-976107127);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("B19_3", "nab2_bldg_b_19", -966292336)
+{
+	ChildRotation(0.713, 0.000, 0.701, 0.000);
+	ChildPosition(-160.100, 7.885, 22.561);
+	SeqNo(-966292336);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("lamp303", "nab2_prop_lampost1", -965679127)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(136.772, 7.848, -44.589);
+	SeqNo(-965679127);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_bldg_rot10", "nab2_bldg_rot", -965512404)
+{
+	ChildRotation(0.707, 0.000, 0.707, 0.000);
+	ChildPosition(-0.099, 11.975, 95.562);
+	SeqNo(-965512404);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab_prop_flowers43", "nab_prop_flowers", -949842549)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(52.901, 8.344, 28.561);
+	SeqNo(-949842549);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab_prop_flowers44", "nab_prop_flowers", -948900882)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-100.728, 8.357, 57.012);
+	SeqNo(-948900882);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("lamp269", "nab2_prop_lampost1", -948545279)
+{
+	ChildRotation(0.993, 0.000, 0.120, 0.000);
+	ChildPosition(-30.099, 11.975, 103.562);
+	SeqNo(-948545279);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_prop_fountain3", "nab2_prop_fountain", -935440939)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(158.902, 7.661, -85.439);
+	SeqNo(-935440939);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_bldg_i_200", "nab2_bldg_i_20", -934780908)
+{
+	ChildRotation(0.707, 0.000, 0.707, 0.000);
+	ChildPosition(127.730, 7.659, -80.271);
+	SeqNo(-934780908);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab_prop_flowers45", "nab_prop_flowers", -932424625)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-132.083, 8.240, -38.628);
+	SeqNo(-932424625);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_prop_w_planter68", "nab2_prop_w_planter", -932180772)
+{
+	ChildRotation(0.786, 0.000, -0.618, 0.000);
+	ChildPosition(115.969, 15.836, 80.424);
+	SeqNo(-932180772);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_prop_treebill16", "nab2_prop_treebill", -931303041)
+{
+	ChildRotation(0.992, 0.000, 0.130, 0.000);
+	ChildPosition(-136.186, 7.765, -112.552);
+	SeqNo(-931303041);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab_prop_flowers46", "nab_prop_flowers", -923556268)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-122.156, 8.379, 43.177);
+	SeqNo(-923556268);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("lamp61", "nab2_prop_lampost1", -914435863)
+{
+	ChildRotation(0.811, 0.000, 0.585, 0.000);
+	ChildPosition(-8.099, 11.975, 125.562);
+	SeqNo(-914435863);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("door26", "nab2_prop_door", -907648756)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(151.095, 7.676, -116.321);
+	SeqNo(-907648756);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tall_612", "nab2_prop_leaftree_tall", -907627259)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(70.145, 8.610, 77.791);
+	SeqNo(-907627259);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab_prop_flowers47", "nab_prop_flowers", -902539110)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(67.133, 8.306, 11.738);
+	SeqNo(-902539110);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tall_569", "nab2_prop_leaftree_tall", -899438525)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(26.013, 13.074, 80.350);
+	SeqNo(-899438525);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tall_570", "nab2_prop_leaftree_tall", -898546697)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(14.957, 13.015, 69.311);
+	SeqNo(-898546697);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("vine48", "nab2_prop_vine1", -883993067)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(54.642, 6.848, -61.388);
+	SeqNo(-883993067);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_prop_w_planter69", "nab2_prop_w_planter", -871116618)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(38.731, 15.225, -80.534);
+	SeqNo(-871116618);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tower34_21", "nab2_bldg_b_tower_34", -866639837)
+{
+	ChildRotation(0.924, 0.000, 0.382, 0.000);
+	ChildPosition(109.879, 7.848, -112.488);
+	SeqNo(-866639837);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("lamp298", "nab2_prop_lampost1", -861223897)
+{
+	ChildRotation(0.707, 0.000, 0.707, 0.000);
+	ChildPosition(-48.100, 7.929, -104.441);
+	SeqNo(-861223897);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("vine24", "nab2_prop_vine1", -855290570)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(19.901, 7.816, -103.440);
+	SeqNo(-855290570);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("leaftree1013", "nab2_prop_leaftree", -829436672)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(67.319, 7.999, 53.329);
+	SeqNo(-829436672);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_prop_treebill17", "nab2_prop_treebill", -828021770)
+{
+	ChildRotation(0.427, 0.000, -0.904, 0.000);
+	ChildPosition(172.006, 7.577, -56.954);
+	SeqNo(-828021770);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("vine35", "nab2_prop_vine1", -823203597)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(11.901, 6.816, -10.439);
+	SeqNo(-823203597);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_prop_w_planter70", "nab2_prop_w_planter", -811442507)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(26.408, 15.330, -52.533);
+	SeqNo(-811442507);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("lamp263", "nab2_prop_lampost1", -804055432)
+{
+	ChildRotation(0.784, 0.000, -0.621, 0.000);
+	ChildPosition(7.901, 11.975, 125.562);
+	SeqNo(-804055432);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_prop_pillar23", "nab2_prop_pillar", -799007225)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-168.100, 7.912, -40.439);
+	SeqNo(-799007225);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("leaftree971", "nab2_prop_leaftree", -772794941)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-53.644, 7.904, 29.518);
+	SeqNo(-772794941);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("leaftree972", "nab2_prop_leaftree", -767706377)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-43.491, 8.051, 22.622);
+	SeqNo(-767706377);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tall_607", "nab2_prop_leaftree_tall", -760805013)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(20.563, 8.612, 22.523);
+	SeqNo(-760805013);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_prop_w_planter71", "nab2_prop_w_planter", -758713933)
+{
+	ChildRotation(0.866, 0.000, -0.500, 0.000);
+	ChildPosition(91.760, 18.359, 33.583);
+	SeqNo(-758713933);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("fece_44", "nab2_bldg_fence_01", -758381646)
+{
+	ChildRotation(0.707, 0.000, 0.707, 0.000);
+	ChildPosition(-168.100, 7.975, -84.439);
+	SeqNo(-758381646);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("leaftree968", "nab2_prop_leaftree", -753570013)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-66.979, 7.741, 12.908);
+	SeqNo(-753570013);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_prop_w_planter72", "nab2_prop_w_planter", -739086985)
+{
+	ChildRotation(0.376, 0.000, -0.927, 0.000);
+	ChildPosition(137.776, 15.524, 47.144);
+	SeqNo(-739086985);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_prop_pillar24", "nab2_prop_pillar", -724651447)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-168.100, 7.958, -32.439);
+	SeqNo(-724651447);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_prop_w_planter73", "nab2_prop_w_planter", -705351163)
+{
+	ChildRotation(0.793, 0.000, -0.609, 0.000);
+	ChildPosition(101.955, 18.013, 68.062);
+	SeqNo(-705351163);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab_prop_fireworks", "nab_prop_fireworks", -702204389)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(42.000, 9.604, 187.000);
+	SeqNo(-702204389);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("vine51", "nab2_prop_vine1", -695207469)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(120.030, 5.991, -61.168);
+	SeqNo(-695207469);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("balcony18", "nab2_bldg_balcony", -685396717)
+{
+	ChildRotation(0.794, 0.000, 0.608, 0.000);
+	ChildPosition(-113.830, 18.732, 73.446);
+	SeqNo(-685396717);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("vinne33", "nab2_prop_vine2", -678951108)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-96.221, 7.782, -45.147);
+	SeqNo(-678951108);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("bench9", "nab2_prop_bench", -675702910)
+{
+	ChildRotation(0.955, 0.000, 0.297, 0.000);
+	ChildPosition(-79.735, 8.957, -1.666);
+	SeqNo(-675702910);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("b31_10", "nab2_bldg_b_31", -664565467)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(-72.099, 7.712, -72.616);
+	SeqNo(-664565467);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("bill4", "nab2_bldg_billboards", -663302914)
+{
+	ChildRotation(0.711, 0.000, 0.703, 0.000);
+	ChildPosition(-198.100, 7.785, -88.439);
+	SeqNo(-663302914);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("leaftree989", "nab2_prop_leaftree", -653968230)
+{
+	ChildRotation(0.707, 0.000, 0.707, 0.000);
+	ChildPosition(-70.033, 8.099, 58.667);
+	SeqNo(-653968230);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_prop_wall19", "nab2_prop_wall", -648840843)
+{
+	ChildRotation(0.707, 0.000, 0.707, 0.000);
+	ChildPosition(151.902, 7.935, 3.561);
+	SeqNo(-648840843);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("5", "nab2_prop_I_planter", -644621732)
+{
+	ChildRotation(0.831, 0.000, 0.556, 0.000);
+	ChildPosition(-100.422, 7.990, 57.164);
+	SeqNo(-644621732);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("bill11", "nab2_bldg_billboards", -643773655)
+{
+	ChildRotation(0.708, 0.000, -0.706, 0.000);
+	ChildPosition(135.260, 7.847, 138.571);
+	SeqNo(-643773655);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("5", "nab2_prop_I_planter", -643007946)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(-132.159, 7.906, -38.172);
+	SeqNo(-643007946);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_bldg_columnade_tower2", "nab2_bldg_columnade_tower", -641034820)
+{
+	ChildRotation(0.793, 0.000, -0.609, 0.000);
+	ChildPosition(-0.099, 7.975, 95.562);
+	SeqNo(-641034820);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_bldg_canal_wall14", "nab2_bldg_canal_wall", -630515256)
+{
+	ChildRotation(0.707, 0.000, 0.707, 0.000);
+	ChildPosition(-157.100, 7.975, 135.562);
+	SeqNo(-630515256);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_bldg_canal_wall15", "nab2_bldg_canal_wall", -625288581)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(129.902, 7.975, 167.562);
+	SeqNo(-625288581);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tall_571", "nab2_prop_leaftree_tall", -617008189)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-0.091, 13.029, 65.496);
+	SeqNo(-617008189);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("balcony20", "nab2_bldg_balcony", -616118088)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-144.052, 15.439, -52.388);
+	SeqNo(-616118088);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("5", "nab2_prop_I_planter", -601483240)
+{
+	ChildRotation(0.939, 0.000, 0.343, 0.000);
+	ChildPosition(-53.809, 7.966, 29.924);
+	SeqNo(-601483240);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tall_579", "nab2_prop_leaftree_tall", -598036090)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(37.901, 12.975, 85.562);
+	SeqNo(-598036090);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("leaftree13", "nab2_prop_leaftree", -597267865)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-130.180, 8.009, 47.308);
+	SeqNo(-597267865);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_prop_w_planter74", "nab2_prop_w_planter", -595996641)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(139.779, 14.016, -133.211);
+	SeqNo(-595996641);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("leaftree962", "nab2_prop_leaftree", -580836630)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(53.216, 8.250, 2.348);
+	SeqNo(-580836630);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_bldg_b_054", "nab2_bldg_b_05", -579625833)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(183.902, 7.975, 31.561);
+	SeqNo(-579625833);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("leaftree993", "nab2_prop_leaftree", -578497420)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(147.968, 7.800, 27.551);
+	SeqNo(-578497420);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("hang01", "nab2_prop_lampost_hang", -576272532)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-64.215, 22.166, 58.416);
+	SeqNo(-576272532);
+	Team(0);
+	NetworkId(-1);
+	Label("hang01");
+}
+
+Object("nab2_bldg_b_055", "nab2_bldg_b_05", -565525876)
+{
+	ChildRotation(0.383, 0.000, -0.924, 0.000);
+	ChildPosition(152.358, 7.897, 45.863);
+	SeqNo(-565525876);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_prop_w_planter75", "nab2_prop_w_planter", -558588310)
+{
+	ChildRotation(0.924, 0.000, 0.382, 0.000);
+	ChildPosition(-118.498, 14.558, -88.733);
+	SeqNo(-558588310);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_prop_w_planter76", "nab2_prop_w_planter", -548451330)
+{
+	ChildRotation(0.558, 0.000, 0.830, 0.000);
+	ChildPosition(112.803, 17.677, 52.195);
+	SeqNo(-548451330);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab_prop_flowers48", "nab_prop_flowers", -533121293)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(11.901, 8.221, -72.439);
+	SeqNo(-533121293);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("leaftree64", "nab2_prop_leaftree", -503642753)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(67.020, 8.062, 11.845);
+	SeqNo(-503642753);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_bldg_canal_wall16", "nab2_bldg_canal_wall", -498933156)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(-136.100, 7.975, 188.562);
+	SeqNo(-498933156);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tall_605", "nab2_prop_leaftree_tall", -493461724)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-20.792, 8.604, 21.678);
+	SeqNo(-493461724);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("5", "nab2_prop_I_planter", -487529339)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-132.640, 7.919, -85.572);
+	SeqNo(-487529339);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_bldg_columnade_tower3", "nab2_bldg_columnade_tower", -487425961)
+{
+	ChildRotation(0.924, 0.000, 0.383, 0.000);
+	ChildPosition(-0.099, 7.975, 95.562);
+	SeqNo(-487425961);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_bldg_palace", "nab2_bldg_palace", -484812840)
+{
+	ChildRotation(1.000, 0.000, 0.001, 0.000);
+	ChildPosition(-0.099, 11.775, -203.440);
+	SeqNo(-484812840);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tall_625", "nab2_prop_leaftree_tall", -482687673)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-71.639, 16.576, -119.581);
+	SeqNo(-482687673);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab_prop_flowers49", "nab_prop_flowers", -478226928)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(30.300, 8.401, 14.898);
+	SeqNo(-478226928);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tall_580", "nab2_prop_leaftree_tall", -475831941)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(37.901, 12.975, 105.562);
+	SeqNo(-475831941);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_prop_treebill18", "nab2_prop_treebill", -472942441)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(162.814, 8.162, -1.631);
+	SeqNo(-472942441);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("5", "nab2_prop_I_planter", -468405159)
+{
+	ChildRotation(0.989, 0.000, 0.149, 0.000);
+	ChildPosition(-30.701, 7.966, 16.508);
+	SeqNo(-468405159);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tall_620", "nab2_prop_leaftree_tall", -467267834)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-14.014, 7.823, -8.551);
+	SeqNo(-467267834);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("arch1", "nab2_bldg_arch", -462368900)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-0.099, 7.787, -100.440);
+	SeqNo(-462368900);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_bldg_rot_wallout", "nab2_bldg_rot_wallout", -454613579)
+{
+	ChildRotation(0.966, 0.000, -0.259, 0.000);
+	ChildPosition(-0.099, 7.975, 95.562);
+	SeqNo(-454613579);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_prop_pillar25", "nab2_prop_pillar", -449068803)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-168.100, 7.931, -96.440);
+	SeqNo(-449068803);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_prop_pillar26", "nab2_prop_pillar", -425741008)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(159.902, 7.823, -24.439);
+	SeqNo(-425741008);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab_prop_flowers50", "nab_prop_flowers", -424128359)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(41.923, 9.508, 34.583);
+	SeqNo(-424128359);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_bldg_b_0311", "nab2_bldg_b_03", -419097378)
+{
+	ChildRotation(0.707, 0.000, 0.707, 0.000);
+	ChildPosition(119.884, 7.495, -128.422);
+	SeqNo(-419097378);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("lamp300", "nab2_prop_lampost1", -409173387)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-149.872, 7.927, 27.475);
+	SeqNo(-409173387);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_bldg_columnade_tower4", "nab2_bldg_columnade_tower", -408353895)
+{
+	ChildRotation(0.924, 0.000, -0.383, 0.000);
+	ChildPosition(-0.099, 7.975, 95.562);
+	SeqNo(-408353895);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_prop_w_planter77", "nab2_prop_w_planter", -402289668)
+{
+	ChildRotation(0.922, 0.000, 0.387, 0.000);
+	ChildPosition(-75.579, 18.013, 21.008);
+	SeqNo(-402289668);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tall_622", "nab2_prop_leaftree_tall", -396699451)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-166.663, 16.823, 14.960);
+	SeqNo(-396699451);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_bldg_rot11", "nab2_bldg_rot", -395136206)
+{
+	ChildRotation(0.259, 0.000, -0.966, 0.000);
+	ChildPosition(-0.099, 11.975, 95.562);
+	SeqNo(-395136206);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tall_626", "nab2_prop_leaftree_tall", -392121529)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-77.382, 16.410, -119.542);
+	SeqNo(-392121529);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab_prop_flowers51", "nab_prop_flowers", -375580732)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-130.156, 8.262, 47.177);
+	SeqNo(-375580732);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("balcony12", "nab2_bldg_balcony", -370471036)
+{
+	ChildRotation(0.707, 0.000, 0.707, 0.000);
+	ChildPosition(155.939, 15.541, -96.339);
+	SeqNo(-370471036);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tall_603", "nab2_prop_leaftree_tall", -352133638)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-70.112, 8.514, 77.830);
+	SeqNo(-352133638);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tall_628", "nab2_prop_leaftree_tall", -348267598)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(10.074, 13.272, 133.864);
+	SeqNo(-348267598);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("lamp264", "nab2_prop_lampost1", -347605196)
+{
+	ChildRotation(0.932, 0.000, -0.362, 0.000);
+	ChildPosition(21.901, 11.975, 117.562);
+	SeqNo(-347605196);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("5", "nab2_prop_I_planter", -329105435)
+{
+	ChildRotation(0.939, 0.000, 0.343, 0.000);
+	ChildPosition(-66.999, 7.990, 13.109);
+	SeqNo(-329105435);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_prop_w_planter78", "nab2_prop_w_planter", -326552824)
+{
+	ChildRotation(0.866, 0.000, 0.500, 0.000);
+	ChildPosition(-96.046, 18.270, 40.893);
+	SeqNo(-326552824);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_bldg_b_056", "nab2_bldg_b_05", -325087883)
+{
+	ChildRotation(0.708, 0.000, -0.706, 0.000);
+	ChildPosition(189.902, 7.693, -96.440);
+	SeqNo(-325087883);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_prop_w_planter79", "nab2_prop_w_planter", -318271139)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(-72.162, 14.429, -89.790);
+	SeqNo(-318271139);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_prop_w_planter80", "nab2_prop_w_planter", -317060120)
+{
+	ChildRotation(0.835, 0.000, -0.550, 0.000);
+	ChildPosition(101.227, 17.480, 55.967);
+	SeqNo(-317060120);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_bldg_rot_wallout0", "nab2_bldg_rot_wallout", -315996108)
+{
+	ChildRotation(0.966, 0.000, 0.259, 0.000);
+	ChildPosition(-0.099, 7.975, 95.562);
+	SeqNo(-315996108);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_prop_w_planter81", "nab2_prop_w_planter", -311142306)
+{
+	ChildRotation(0.565, 0.000, -0.825, 0.000);
+	ChildPosition(-112.756, 17.719, 51.602);
+	SeqNo(-311142306);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("vine50", "nab2_prop_vine1", -306635470)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(110.880, 7.269, -76.071);
+	SeqNo(-306635470);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_prop_w_planter82", "nab2_prop_w_planter", -301407070)
+{
+	ChildRotation(0.708, 0.000, -0.706, 0.000);
+	ChildPosition(-118.039, 17.740, -27.720);
+	SeqNo(-301407070);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("lamp327", "nab2_prop_lampost1", -289805848)
+{
+	ChildRotation(0.710, 0.000, 0.704, 0.000);
+	ChildPosition(36.075, 7.932, -103.516);
+	SeqNo(-289805848);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("leaftree1005", "nab2_prop_leaftree", -285443424)
+{
+	ChildRotation(0.866, 0.000, 0.500, 0.000);
+	ChildPosition(-131.908, 7.813, -66.459);
+	SeqNo(-285443424);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("leaftree973", "nab2_prop_leaftree", -282683777)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-30.833, 7.676, 16.337);
+	SeqNo(-282683777);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("leaftree22", "nab2_prop_leaftree", -273886806)
+{
+	ChildRotation(0.797, 0.000, 0.604, 0.000);
+	ChildPosition(-112.229, 8.425, 11.521);
+	SeqNo(-273886806);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_bldg_rot_reflection9", "nab2_bldg_rot_reflection", -273628398)
+{
+	ChildRotation(0.866, 0.000, -0.500, 0.000);
+	ChildPosition(-0.099, 11.975, 95.562);
+	SeqNo(-273628398);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("lamp267", "nab2_prop_lampost1", -269434572)
+{
+	ChildRotation(0.790, 0.000, -0.613, 0.000);
+	ChildPosition(-8.099, 11.975, 65.561);
+	SeqNo(-269434572);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_prop_w_planter83", "nab2_prop_w_planter", -263973046)
+{
+	ChildRotation(0.707, 0.000, 0.707, 0.000);
+	ChildPosition(48.660, 14.719, -112.551);
+	SeqNo(-263973046);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("vinne27", "nab2_prop_vine2", -263877196)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(151.720, 8.062, 27.190);
+	SeqNo(-263877196);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_bldg_rotunda_stair1", "nab2_bldg_rotunda_stair", -254273538)
+{
+	ChildRotation(0.131, 0.000, -0.991, 0.000);
+	ChildPosition(-23.882, 7.974, -24.622);
+	SeqNo(-254273538);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("leaftree994", "nab2_prop_leaftree", -250351907)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(155.044, 7.935, 3.659);
+	SeqNo(-250351907);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_prop_w_planter84", "nab2_prop_w_planter", -249119702)
+{
+	ChildRotation(0.708, 0.000, -0.706, 0.000);
+	ChildPosition(74.706, 16.828, -101.301);
+	SeqNo(-249119702);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_prop_w_planter85", "nab2_prop_w_planter", -246455353)
+{
+	ChildRotation(0.707, 0.000, 0.707, 0.000);
+	ChildPosition(-158.895, 14.478, -48.477);
+	SeqNo(-246455353);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("leaftree1011", "nab2_prop_leaftree", -241261372)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(110.744, 7.887, -73.985);
+	SeqNo(-241261372);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tower34_25", "nab2_bldg_b_tower_34", -235419938)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(27.519, 7.894, -100.422);
+	SeqNo(-235419938);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("7", "nab2_prop_I_planter", -222661096)
+{
+	ChildRotation(0.709, 0.000, -0.705, 0.000);
+	ChildPosition(-12.099, 7.779, -40.355);
+	SeqNo(-222661096);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("5", "nab2_prop_I_planter", -214426354)
+{
+	ChildRotation(0.966, 0.000, -0.257, 0.000);
+	ChildPosition(53.146, 7.945, 2.245);
+	SeqNo(-214426354);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_prop_fountain5", "nab2_prop_fountain", -213792907)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(57.577, 7.744, -121.702);
+	SeqNo(-213792907);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tall_568", "nab2_prop_leaftree_tall", -209982697)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(29.779, 12.883, 95.443);
+	SeqNo(-209982697);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tall_598", "nab2_prop_leaftree_tall", -209387281)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-2.375, 8.566, 13.135);
+	SeqNo(-209387281);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("lamp318", "nab2_prop_lampost1", -209213957)
+{
+	ChildRotation(0.707, 0.000, 0.707, 0.000);
+	ChildPosition(-76.161, 7.911, -89.469);
+	SeqNo(-209213957);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_prop_treebill19", "nab2_prop_treebill", -201822562)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-171.213, 6.490, -116.718);
+	SeqNo(-201822562);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_bldg_rot_reflection10", "nab2_bldg_rot_reflection", -193926104)
+{
+	ChildRotation(0.500, 0.000, -0.866, 0.000);
+	ChildPosition(-0.099, 11.975, 95.562);
+	SeqNo(-193926104);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_prop_w_planter86", "nab2_prop_w_planter", -179557627)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(-139.552, 15.063, -65.703);
+	SeqNo(-179557627);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_prop_treebill20", "nab2_prop_treebill", -172809778)
+{
+	ChildRotation(0.540, 0.000, 0.842, 0.000);
+	ChildPosition(107.998, 19.639, -39.509);
+	SeqNo(-172809778);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("leaftree977", "nab2_prop_leaftree", -165004698)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-11.612, 7.758, -93.577);
+	SeqNo(-165004698);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("leaftree1006", "nab2_prop_leaftree", -161894684)
+{
+	ChildRotation(0.500, 0.000, -0.866, 0.000);
+	ChildPosition(-132.645, 7.801, -85.760);
+	SeqNo(-161894684);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("vine14", "nab2_prop_vine1", -149785398)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(122.749, 16.091, -80.699);
+	SeqNo(-149785398);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("lamp277", "nab2_prop_lampost1", -144614274)
+{
+	ChildRotation(0.304, 0.000, -0.953, 0.000);
+	ChildPosition(-48.566, 8.078, 26.031);
+	SeqNo(-144614274);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("bill7", "nab2_bldg_billboards", -130875268)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(191.902, 7.329, -24.439);
+	SeqNo(-130875268);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("door10", "nab2_prop_door", -121928152)
+{
+	ChildRotation(-0.383, 0.000, -0.924, 0.000);
+	ChildPosition(107.902, 7.676, -114.440);
+	SeqNo(-121928152);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("vinne32", "nab2_prop_vine2", -113670675)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-88.488, 6.520, -75.020);
+	SeqNo(-113670675);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("lamp286", "nab2_prop_lampost1", -100374538)
+{
+	ChildRotation(0.708, 0.000, 0.706, 0.000);
+	ChildPosition(-6.099, 7.752, -114.441);
+	SeqNo(-100374538);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tall_567", "nab2_prop_leaftree_tall", -98913077)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(15.094, 13.059, 121.503);
+	SeqNo(-98913077);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("leaftree1007", "nab2_prop_leaftree", -88332396)
+{
+	ChildRotation(0.924, 0.000, 0.383, 0.000);
+	ChildPosition(-147.894, 8.221, -85.717);
+	SeqNo(-88332396);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tall_585", "nab2_prop_leaftree_tall", -71063266)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-28.099, 12.975, 67.562);
+	SeqNo(-71063266);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("lamp272", "nab2_prop_lampost1", -61936247)
+{
+	ChildRotation(0.976, 0.000, -0.218, 0.000);
+	ChildPosition(-74.088, 7.927, 59.217);
+	SeqNo(-61936247);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tall_584", "nab2_prop_leaftree_tall", -59692302)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-10.099, 12.975, 57.561);
+	SeqNo(-59692302);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_prop_w_planter87", "nab2_prop_w_planter", -54177974)
+{
+	ChildRotation(0.711, 0.000, 0.703, 0.000);
+	ChildPosition(-174.798, 17.523, -20.281);
+	SeqNo(-54177974);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tall_609", "nab2_prop_leaftree_tall", -44366230)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(49.689, 8.692, 44.047);
+	SeqNo(-44366230);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("b33_13", "nab2_bldg_b_33", -5851343)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(-96.100, 7.712, -48.439);
+	SeqNo(-5851343);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("nab2_prop_w_planter88", "nab2_prop_w_planter", -4319367)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(131.369, 14.509, -27.017);
+	SeqNo(-4319367);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("5", "nab2_prop_I_planter", -212168)
+{
+	ChildRotation(0.992, 0.000, -0.130, 0.000);
+	ChildPosition(-135.456, 7.878, 70.021);
+	SeqNo(-212168);
+	Team(0);
+	NetworkId(-1);
+}

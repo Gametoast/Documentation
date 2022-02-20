@@ -1,0 +1,80 @@
+DomeInfo()
+{
+ 	DomeModel()
+  	{	
+  		Geometry("spa1_sky");
+		rotationspeed(0.0001,0.0,1.0,0);
+  	}
+	DomeModel()
+  	{	
+  		Geometry("spa1_sky_horizon");
+  	}
+  	DomeModel()
+  	{	
+  		Geometry("spa1_sky_ nebula22");
+  	}
+	
+  	DomeModel()
+  	{	
+  		Geometry("spa1_sky_Yavin");
+  	}
+	DomeModel()
+  	{	
+  		Geometry("spa1_sky_planetislands");
+  	}
+	DomeModel()
+  	{	
+  		Geometry("spa1_sky_planetclouds");
+	}
+  	DomeModel()
+  	{	
+  		Geometry("spa1_sky_planethaze");
+	}
+	
+	DomeModel()
+  	{	
+  		Geometry("spa3_sky_explosions");
+		rotationspeed(0.001, 0,1.0,0);
+	 	Effect("spa_sfx_skydomeexplosions", "hp_1", 1.0);
+		Effect("spa_sfx_skydomeexplosions", "hp_3", 3.0);
+		Effect("spa_sfx_skydomeexplosions", "hp_4", 1.0);
+		Effect("spa_sfx_skydomeexplosions", "hp_5", 1.0);
+		Effect("spa_sfx_skydomeexplosions", "hp_7", 1.0);
+		Effect("spa_sfx_skydomeexplosions", "hp_9", 1.0);
+		Effect("spa_sfx_skydomeexplosions", "hp_11", 3.0);
+		Effect("spa_sfx_skydomeexplosions", "hp_13", 1.0);
+	
+	}
+	Stars()
+	{
+		RandomSeed(1);
+		TwinkleFactor(0.5);
+		TwinkleFrequency(0.1);
+		Color(255, 255, 255, 255);
+		EnableBottom(1);
+		XBOX()
+		{
+			NumStars(1000);
+			BrightStarPercent(70.0);
+			AlphaMin(15);
+			ColorSaturation(0.5);
+		}
+		PC()
+		{
+			NumStars(8000);
+			BrightStarPercent(70.0);
+			AlphaMin(15);
+			ColorSaturation(.75);
+		}
+		PS2()
+		{
+			NumStars(700);
+			StarTexture("fx_star");
+			BrightStarPercent(10.0);
+			AlphaMin(10);
+			ColorSaturation(0.2);
+		}
+	}
+
+
+}

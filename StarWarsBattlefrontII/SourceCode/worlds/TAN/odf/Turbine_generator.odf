@@ -1,0 +1,13 @@
+[GameObjectClass]		
+
+ClassLabel		=	"commandpost"
+GeometryName	=	"HOTH_prop_generator.msh"
+
+
+[Properties]		
+
+GeometryName	=	"HOTH_prop_generator"
+FoleyFXGroup    = "metal_foley"
+DestroyedGeometryName	= "com_item_weaponrecharge_dst"
+ExplosionName		= "com_inf_rechargedroid_exp"
+MaxHealth	=	300

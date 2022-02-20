@@ -1,0 +1,14 @@
+[GameObjectClass]		
+
+ClassLabel		= "prop"
+GeometryName		= "nab2_prop_lampost_hang.msh"
+
+
+[Properties]		
+
+GeometryName		= "nab2_prop_lampost_hang"
+VehicleCollisionOnly	= "p_vehicle"
+
+AttachDynamic		= "1"
+AttachEffect		= "light_hang"
+AttachToHardpoint	= "hp_light"

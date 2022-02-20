@@ -1,0 +1,28 @@
+[GameObjectClass]		
+
+ClassLabel			= "flag"
+GeometryName			= "kam_bldg_embryo.msh"
+
+[Properties]		
+
+Lighting			= "Dynamic"
+
+IconTexture			= ""
+MapTexture			= ""
+MapScale			= ""
+
+GeometryName			= "kam_bldg_embryo"
+
+CarriedGeometryName		= "kam_icon_embryo_carried"
+SoldierAttachBone		= "bone_pelvis"
+
+PickupSound			= "health_recharge defer"
+DropSound			= ""
+AmbientSound			= ""
+
+LifeSpan			= 50.0
+
+LightODF			= "flaglight"
+
+[InstanceProperties]
+

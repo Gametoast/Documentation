@@ -1,0 +1,16 @@
+Layer(0)
+{
+	SpreadFactor(0.1);
+	Mesh()
+	{
+		GrassPatch("kas_prop_grass_tall.odf", 50);
+		File("editor_grasspatch.msh", 40);
+		Frequency(100);
+		Scale(1);
+		Stiffness(0.0);
+	        ColorVariation(0.1);
+	        AIVisibilityFactor(0.3,0.7);
+	}
+}
+
+

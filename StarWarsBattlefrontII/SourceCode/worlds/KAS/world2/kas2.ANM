@@ -1,0 +1,38 @@
+Animation("gatedown", 2.50, 0, 0)
+{
+	AddPositionKey(0.00, 0.00, 0.00, 0.00, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
+	AddPositionKey(2.50, 0.00, -10.74, 0.00, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
+}
+
+Animation("gateup", 2.50, 0, 0)
+{
+	AddPositionKey(0.00, 0.00, -10.74, 0.00, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
+	AddPositionKey(2.50, 0.00, 0.00, 0.00, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
+}
+
+Animation("woodgate", 0.10, 0, 0)
+{
+	AddPositionKey(0.00, 0.00, 0.00, 0.00, 0, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
+	AddPositionKey(0.10, 0.00, -300.05, -1000.27, 0, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
+}
+
+AnimationGroup("thegatedown", 0, 0)
+{
+	Animation("gatedown", "gate01");
+}
+
+AnimationGroup("thegateup", 0, 0)
+{
+	Animation("gateup", "gate01");
+}
+
+AnimationGroup("woodgate", 0, 0)
+{
+	Animation("woodgate", "woodgate");
+}
+
+AnimationGroup("gatepanel", 0, 0)
+{
+	Animation("woodgate", "gatepanel");
+}
+

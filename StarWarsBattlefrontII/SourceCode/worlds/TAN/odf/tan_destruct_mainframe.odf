@@ -1,0 +1,18 @@
+[GameObjectClass]		
+
+ClassLabel		=	"destructablebuilding"
+GeometryName	=	"HOTH_prop_command_mainframe.msh"
+
+
+[Properties]		
+
+[Properties]		
+
+GeometryName	=	"HOTH_prop_command_mainframe"
+DestroyedGeometryName	= "com_item_weaponrecharge_dst"
+ExplosionName		= "com_inf_rechargedroid_exp"
+MaxHealth	=	50
+
+
+FoleyFXGroup    = "metal_foley"
+SoundProperty   = "control_panel_c"

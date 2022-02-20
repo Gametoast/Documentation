@@ -1,0 +1,29 @@
+Version(1);
+RegionCount(3);
+
+Region("CAM_cp1Control", 0)
+{
+	Layer(4);
+	Position(-903.845703, -73.766006, 397.292664);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(35.820740, 15.965405, 53.623291);
+	Name("CAM_cp1Control");
+}
+
+Region("CAM_cp2Control", 0)
+{
+	Layer(4);
+	Position(-246.562820, -320.431213, 1818.368774);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(100.031403, 20.528320, 74.710571);
+	Name("CAM_cp2Control");
+}
+
+Region("Pickupreg", 0)
+{
+	Layer(4);
+	Position(-262.996490, -329.223389, 1809.421265);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(0.100000, 0.100000, 0.100000);
+	Name("Pickupreg");
+}

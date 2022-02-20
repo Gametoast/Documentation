@@ -1,0 +1,38 @@
+Version(1);
+RegionCount(4);
+
+Region("Flag2Def1Control", 0)
+{
+	Layer(7);
+	Position(128.995743, -28.238770, 395.194550);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(16.114746, 6.556334, 29.374695);
+	Name("Flag2Def1Control");
+}
+
+Region("Flag1Def1Control", 0)
+{
+	Layer(7);
+	Position(93.417267, -53.466053, -67.436264);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(22.217350, 13.968647, 23.539911);
+	Name("Flag1Def1Control");
+}
+
+Region("Flag2Capture", 2)
+{
+	Layer(7);
+	Position(128.968979, -30.136003, 418.896667);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(0.100000, 3.559623, 1.953217);
+	Name("Flag2Capture");
+}
+
+Region("Flag1Capture", 2)
+{
+	Layer(7);
+	Position(95.067680, -48.413815, -64.908440);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(0.100000, 5.373550, 2.212833);
+	Name("Flag1Capture");
+}

@@ -1,0 +1,30 @@
+Version(1);
+RegionCount(3);
+
+Region("soundstream uta_amb_wind 2", 1)
+{
+	Layer(3);
+	Position(-16.736328, 24.471699, 19.296503);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(460.797485, 72.429657, 68.066208);
+	Name("GlobalAmb");
+}
+
+Region("soundstream amb_hangar 1.3", 1)
+{
+	Layer(3);
+	Position(-196.091156, 18.375362, -326.951538);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(189.473770, 10.000000, 0.100000);
+	Name("Region2");
+	NextIsGrouped();
+}
+
+Region("soundstream amb_hangar 1.3", 1)
+{
+	Layer(3);
+	Position(126.467102, 2.812317, -185.719238);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(163.330856, 10.000000, 10.000000);
+	Name("Region6");
+}

@@ -1,0 +1,92 @@
+Version(1);
+RegionCount(10);
+
+Region("SoundSpace hangar", 0)
+{
+	Layer(7);
+	Position(-797.987427, 663.666260, -1873.388428);
+	Rotation(0.638847, 0.000000, -0.769334, 0.000000);
+	Size(58.160858, 14.969673, 42.005169);
+	Name("RepHangar-SS");
+}
+
+Region("SoundSpace hangar", 0)
+{
+	Layer(7);
+	Position(-365.979492, 655.549744, 992.889465);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(109.476028, 17.214783, 63.921997);
+	Name("CisHangar-SS");
+}
+
+Region("SoundSpace CommandRoom", 0)
+{
+	Layer(7);
+	Position(-359.958252, 652.122803, 909.640564);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(20.033630, 5.314331, 22.385803);
+	Name("CISCmdRoom-SS");
+}
+
+Region("SoundSpace Shieldgenroom", 2)
+{
+	Layer(7);
+	Position(-361.219208, 644.162415, 876.836487);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(15.600555, 17.629395, 0.100000);
+	Name("CISSHieldGenRoom-SS");
+}
+
+Region("SoundSpace CommandRoom", 0)
+{
+	Layer(7);
+	Position(-859.265442, 659.226074, -1889.812622);
+	Rotation(0.995215, 0.000000, -0.097751, 0.000000);
+	Size(22.562866, 6.213318, 20.372086);
+	Name("repcmdroom-SS");
+}
+
+Region("SoundSpace serverroom", 0)
+{
+	Layer(7);
+	Position(-325.887085, 652.725281, 902.426392);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(17.128601, 4.938110, 14.908020);
+	Name("CISServerRoom-SS");
+}
+
+Region("Soundspace engineroom", 0)
+{
+	Layer(7);
+	Position(-398.726898, 651.545532, 900.090759);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(18.788055, 5.155884, 15.211182);
+	Name("CISEngineRoom-SS");
+}
+
+Region("SoundSpace serverroom", 0)
+{
+	Layer(7);
+	Position(-857.381409, 658.302551, -1926.206665);
+	Rotation(0.994995, 0.000000, -0.099925, 0.000000);
+	Size(14.376221, 5.481445, 17.455534);
+	Name("Rep_serverroom-SS");
+}
+
+Region("Soundspace engineroom", 0)
+{
+	Layer(7);
+	Position(-871.252258, 657.351440, -1855.063232);
+	Rotation(0.994995, 0.000000, -0.099925, 0.000000);
+	Size(13.973022, 6.087585, 18.063387);
+	Name("Rep_engineroom-SS");
+}
+
+Region("SoundSpace Shieldgenroom", 2)
+{
+	Layer(7);
+	Position(-890.664063, 647.187073, -1896.370850);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(10.000000, 20.519897, 10.000000);
+	Name("Rep_shieldgenroom-SS");
+}

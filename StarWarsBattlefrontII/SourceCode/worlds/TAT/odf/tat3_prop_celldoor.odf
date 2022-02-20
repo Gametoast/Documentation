@@ -1,0 +1,21 @@
+[GameObjectClass]       
+
+ClassLabel  =   "door"
+GeometryName    =   "tat3_prop_celldoor.msh"
+
+
+[Properties]        
+
+GeometryName    =   "tat3_prop_celldoor"
+AnimationName     = "tat3_prop_celldoor"
+
+Animation         =     "open"
+
+AnimationTrigger  =     "hp_doorradius 2.0"
+
+OrdnanceCollision = "p_door"
+
+OpenSound = "door_open"
+CloseSound = "door_close"
+FoleyFXGroup    = "stone_foley"
+

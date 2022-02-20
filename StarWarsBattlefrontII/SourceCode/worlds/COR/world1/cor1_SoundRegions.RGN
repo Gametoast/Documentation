@@ -1,0 +1,95 @@
+Version(1);
+RegionCount(10);
+
+Region("SoundStream cor_amb_interior 1.1", 1)
+{
+	Layer(3);
+	Position(2.669091, 17.900082, 78.704178);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(67.828636, 0.000000, 0.000000);
+	Name("LongHall-SR");
+	NextIsGrouped();
+}
+
+Region("SoundStream cor_amb_interior 1.1", 1)
+{
+	Layer(3);
+	Position(-49.879753, 21.302334, 32.938423);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(22.262394, 0.000000, 0.000000);
+	Name("ShortHall-SR");
+	NextIsGrouped();
+}
+
+Region("SoundStream cor_amb_interior 1.1", 1)
+{
+	Layer(3);
+	Position(5.704313, 20.462250, 11.857201);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(67.350632, 0.000000, 0.000000);
+	Name("MainHall-SR");
+}
+
+Region("soundstream cor_amb_security 1.25", 1)
+{
+	Layer(3);
+	Position(85.740059, 16.697840, 12.450505);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(14.321564, 12.746010, 0.100000);
+	Name("Security-SR");
+}
+
+Region("soundstream cor_amb_core 1.4", 1)
+{
+	Layer(3);
+	Position(78.275673, 23.467751, 43.994423);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(40.808205, 0.000000, 0.000000);
+	Name("Records-SR");
+}
+
+Region("soundstream cor_amb_library 2", 1)
+{
+	Layer(3);
+	Position(70.760750, 20.438669, 83.634689);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(49.413399, 0.000000, 0.000000);
+	Name("lIBRARY-sr");
+}
+
+Region("soundstream cor_amb_council 1.25", 1)
+{
+	Layer(3);
+	Position(1.746583, 17.533699, -19.526838);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(19.447870, 0.000000, 0.000000);
+	Name("JediCouncil-SR");
+	NextIsGrouped();
+}
+
+Region("soundstream cor_amb_council 1.25", 1)
+{
+	Layer(3);
+	Position(-49.075314, 3.626735, 62.781288);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(27.008286, 10.000000, 0.100000);
+	Name("Briefing-SR");
+}
+
+Region("soundstream cor_amb_maproom 1.1", 1)
+{
+	Layer(3);
+	Position(-42.549366, 8.473082, 110.923874);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(12.809571, 0.000000, 0.000000);
+	Name("Maproom-SR");
+}
+
+Region("soundstream cor_amb_exterior 1.1", 1)
+{
+	Layer(3);
+	Position(21.741096, 70.545540, 12.644836);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(395.229645, 21.636780, 0.100000);
+	Name("Global-SR");
+}

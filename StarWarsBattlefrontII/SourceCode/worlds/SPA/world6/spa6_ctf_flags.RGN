@@ -1,0 +1,39 @@
+Version(1);
+RegionCount(4);
+
+Region("cis_ctf_home", 1)
+{
+	Layer(6);
+	Position(-825.000000, -57.000000, -45.000000);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(6.000000, 6.000000, 6.000000);
+	Name("cis_ctf_home");
+}
+
+Region("rep_ctf_home", 1)
+{
+	Layer(6);
+	Position(-474.000000, 152.000000, 1333.000000);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(6.000000, 6.000000, 6.000000);
+	Name("rep_ctf_home");
+	NextIsGrouped();
+}
+
+Region("rep_ctf_cap", 1)
+{
+	Layer(6);
+	Position(-1253.000000, -196.000000, -1343.000000);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(6.000000, 6.000000, 6.000000);
+	Name("rep_ctf_cap");
+}
+
+Region("cis_ctf_cap", 1)
+{
+	Layer(6);
+	Position(-1081.000000, -15.000000, -281.000000);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(6.000000, 6.000000, 6.000000);
+	Name("cis_ctf_cap");
+}

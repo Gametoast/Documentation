@@ -1,0 +1,257 @@
+Version(3);
+SaveType(0);
+
+Camera("camera")
+{
+	Rotation(0.933, 0.348, -0.090, 0.034);
+	Position(-71.664, 167.016, -183.600);
+	FieldOfView(55.400);
+	NearPlane(1.000);
+	FarPlane(500.000);
+	ZoomFactor(1.000);
+	Bookmark(-83.834, 426.399, -92.195,  0.501, 0.492, -0.508, 0.499);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(-105.633, 24.298, -87.169,  0.961, 0.225, -0.158, 0.037);
+}
+LightName("myg1_Shields.LGT");
+ControllerManager("StandardCtrlMgr");
+
+WorldExtents()
+{
+	Min(0.000000, 0.000000, 0.000000);
+	Max(0.000000, 0.000000, 0.000000);
+}
+
+NextSequence(-1447548);
+
+Object("force_shield_01", "myg1_prop_shield_generator2", 1066339894)
+{
+	ChildRotation(-0.294, 0.000, -0.956, 0.000);
+	ChildPosition(-121.000, 0.000, -51.000);
+	SeqNo(1066339894);
+	Team(2);
+	NetworkId(-1);
+	Label("force_shield_01");
+	Layer(6);
+	CaptureRegion("");
+	ControlRegion("");
+	KillRegion("");
+	SpawnPath("");
+	AllyPath("");
+	AllyCount("65536");
+	Radius("0.0");
+	ValueBleed("10");
+	Value_ATK_Alliance("100");
+	Value_ATK_CIS("10");
+	Value_ATK_Empire("10");
+	Value_ATK_Republic("10");
+	Value_DEF_Alliance("10");
+	Value_DEF_CIS("10");
+	Value_DEF_Empire("10");
+	Value_DEF_Republic("10");
+	Value_DEF_Locals("10");
+	VO_All_AllCapture("");
+	VO_All_AllLost("");
+	VO_All_AllInDispute("");
+	VO_All_AllSaved("");
+	VO_All_AllInfo("");
+	VO_All_ImpCapture("");
+	VO_All_ImpLost("");
+	VO_All_ImpInDispute("");
+	VO_All_ImpSaved("");
+	VO_All_ImpInfo("");
+	VO_Imp_AllCapture("");
+	VO_Imp_AllLost("");
+	VO_Imp_AllInDispute("");
+	VO_Imp_AllSaved("");
+	VO_Imp_AllInfo("");
+	VO_Imp_ImpCapture("");
+	VO_Imp_ImpLost("");
+	VO_Imp_ImpInDispute("");
+	VO_Imp_ImpSaved("");
+	VO_Imp_ImpInfo("");
+	VO_Rep_RepCapture("");
+	VO_Rep_RepLost("");
+	VO_Rep_RepInDispute("");
+	VO_Rep_RepSaved("");
+	VO_Rep_RepInfo("");
+	VO_Rep_CISCapture("");
+}
+
+Object("myg1_prop_shield_generator3", "myg1_prop_shield_generator1", 1622313717)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(10.000, 4.000, -9.000);
+	SeqNo(1622313717);
+	Team(0);
+	NetworkId(-1);
+	Layer(6);
+}
+
+Object("myg1_prop_shield_generator2", "myg1_prop_shield_generator1", -2038351231)
+{
+	ChildRotation(0.253, 0.000, -0.967, 0.000);
+	ChildPosition(-113.000, 0.000, 19.000);
+	SeqNo(-2038351231);
+	Team(0);
+	NetworkId(-1);
+	Layer(6);
+}
+
+Object("force_shield_02", "myg1_prop_shield_generator2", -2018475321)
+{
+	ChildRotation(0.969, 0.000, 0.247, 0.000);
+	ChildPosition(-113.000, 0.000, 19.000);
+	SeqNo(-2018475321);
+	Team(2);
+	NetworkId(-1);
+	Label("force_shield_02");
+	Layer(6);
+	CaptureRegion("");
+	ControlRegion("");
+	KillRegion("");
+	SpawnPath("");
+	AllyPath("");
+	AllyCount("65536");
+	Radius("0.0");
+	ValueBleed("10");
+	Value_ATK_Alliance("0");
+	Value_ATK_CIS("10");
+	Value_ATK_Empire("10");
+	Value_ATK_Republic("10");
+	Value_DEF_Alliance("10");
+	Value_DEF_CIS("10");
+	Value_DEF_Empire("10");
+	Value_DEF_Republic("10");
+	Value_DEF_Locals("10");
+	VO_All_AllCapture("");
+	VO_All_AllLost("");
+	VO_All_AllInDispute("");
+	VO_All_AllSaved("");
+	VO_All_AllInfo("");
+	VO_All_ImpCapture("");
+	VO_All_ImpLost("");
+	VO_All_ImpInDispute("");
+	VO_All_ImpSaved("");
+	VO_All_ImpInfo("");
+	VO_Imp_AllCapture("");
+	VO_Imp_AllLost("");
+	VO_Imp_AllInDispute("");
+	VO_Imp_AllSaved("");
+	VO_Imp_AllInfo("");
+	VO_Imp_ImpCapture("");
+	VO_Imp_ImpLost("");
+	VO_Imp_ImpInDispute("");
+	VO_Imp_ImpSaved("");
+	VO_Imp_ImpInfo("");
+	VO_Rep_RepCapture("");
+	VO_Rep_RepLost("");
+	VO_Rep_RepInDispute("");
+	VO_Rep_RepSaved("");
+	VO_Rep_RepInfo("");
+	VO_Rep_CISCapture("");
+}
+
+Object("generator_03", "myg1_prop_shield_generator", -1449514022)
+{
+	ChildRotation(0.011, 0.000, -1.000, 0.000);
+	ChildPosition(21.000, 4.000, -5.000);
+	SeqNo(-1449514022);
+	Team(2);
+	NetworkId(-1);
+	Label("generator_03");
+	Layer(6);
+}
+
+Object("generator_01", "myg1_prop_shield_generator", -1078632657)
+{
+	ChildRotation(-0.298, 0.000, -0.955, 0.000);
+	ChildPosition(-113.433, 0.000, -41.272);
+	SeqNo(-1078632657);
+	Team(2);
+	NetworkId(-1);
+	Label("generator_01");
+	Layer(6);
+}
+
+Object("myg1_prop_shield_generator1", "myg1_prop_shield_generator1", -894971368)
+{
+	ChildRotation(0.956, 0.000, -0.293, 0.000);
+	ChildPosition(-121.000, 0.000, -51.000);
+	SeqNo(-894971368);
+	Team(0);
+	NetworkId(-1);
+	Layer(6);
+}
+
+Object("generator_02", "myg1_prop_shield_generator", -293988606)
+{
+	ChildRotation(0.260, 0.000, -0.966, 0.000);
+	ChildPosition(-102.343, 0.000, 17.226);
+	SeqNo(-293988606);
+	Team(2);
+	NetworkId(-1);
+	Label("generator_02");
+	Layer(6);
+}
+
+Object("force_shield_03", "myg1_prop_shield_generator2", -272079491)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(10.000, 4.000, -9.000);
+	SeqNo(-272079491);
+	Team(2);
+	NetworkId(-1);
+	Label("force_shield_03");
+	Layer(6);
+	CaptureRegion("");
+	ControlRegion("");
+	KillRegion("");
+	SpawnPath("");
+	AllyPath("");
+	AllyCount("65536");
+	Radius("0.0");
+	ValueBleed("10");
+	Value_ATK_Alliance("100");
+	Value_ATK_CIS("10");
+	Value_ATK_Empire("10");
+	Value_ATK_Republic("10");
+	Value_DEF_Alliance("10");
+	Value_DEF_CIS("10");
+	Value_DEF_Empire("10");
+	Value_DEF_Republic("10");
+	Value_DEF_Locals("10");
+	VO_All_AllCapture("");
+	VO_All_AllLost("");
+	VO_All_AllInDispute("");
+	VO_All_AllSaved("");
+	VO_All_AllInfo("");
+	VO_All_ImpCapture("");
+	VO_All_ImpLost("");
+	VO_All_ImpInDispute("");
+	VO_All_ImpSaved("");
+	VO_All_ImpInfo("");
+	VO_Imp_AllCapture("");
+	VO_Imp_AllLost("");
+	VO_Imp_AllInDispute("");
+	VO_Imp_AllSaved("");
+	VO_Imp_AllInfo("");
+	VO_Imp_ImpCapture("");
+	VO_Imp_ImpLost("");
+	VO_Imp_ImpInDispute("");
+	VO_Imp_ImpSaved("");
+	VO_Imp_ImpInfo("");
+	VO_Rep_RepCapture("");
+	VO_Rep_RepLost("");
+	VO_Rep_RepInDispute("");
+	VO_Rep_RepSaved("");
+	VO_Rep_RepInfo("");
+	VO_Rep_CISCapture("");
+}

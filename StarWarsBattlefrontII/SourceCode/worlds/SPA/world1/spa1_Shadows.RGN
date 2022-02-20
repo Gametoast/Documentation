@@ -1,0 +1,20 @@
+Version(1);
+RegionCount(2);
+
+Region("shadow directional=0 directional1=0 colortop=100,100,100 colorbottom=77,77,77", 0)
+{
+	Layer(2);
+	Position(730.458130, 221.450867, 79.773102);
+	Rotation(0.999962, 0.000000, 0.009867, 0.000000);
+	Size(80.459045, 25.680111, 55.090229);
+	Name("imp_shadow1");
+}
+
+Region("shadow directional=0 directional1=0 colortop=69,69,69 colorbottom=36,36,36", 0)
+{
+	Layer(2);
+	Position(-1972.736694, -144.825439, 186.113953);
+	Rotation(0.651371, 0.000000, 0.758759, 0.000000);
+	Size(91.284103, 22.741722, 52.518085);
+	Name("all_shadow1");
+}

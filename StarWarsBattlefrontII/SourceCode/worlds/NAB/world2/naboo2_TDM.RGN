@@ -1,0 +1,20 @@
+Version(1);
+RegionCount(2);
+
+Region("Team2Control", 0)
+{
+	Layer(9);
+	Position(-130.870453, 9.542444, 18.779713);
+	Rotation(0.958266, 0.000000, -0.285878, 0.000000);
+	Size(10.000000, 10.000000, 15.235327);
+	Name("Team2CPControl");
+}
+
+Region("Team1Control", 0)
+{
+	Layer(9);
+	Position(113.996368, 13.411865, 30.296829);
+	Rotation(0.966492, 0.000000, 0.256780, 0.000000);
+	Size(10.000008, 10.000000, 13.003374);
+	Name("Team1Control");
+}

@@ -1,0 +1,56 @@
+SkyInfo()
+{
+	Enable(1);
+
+	FogColor(95,111,126);
+	WorldFogRange(-1.7, -5.0);
+
+	PS2()
+	{
+		NearSceneRange(0.2, 20.0, 60.0);
+		NearSplitScreenRange(0.5, 20.0, 60.0);
+		FarSceneRange(0.0);
+		SplitOptions()
+		{
+			PropClusterEnable(1);
+			PropClusterFadeAdj(0.6);
+			PropClusterDensity(0.1);
+		}
+	}
+	XBOX()
+	{
+		NearSceneRange(0.5, 20.0, 80.0);
+		NearSplitScreenRange(0.5, 20.0, 60.0);
+		FarSceneRange(0.0);
+	}
+	PC()
+	{
+		NearSceneRange(20.0, 30.0, 60.0, 80.0);
+		FarSceneRange(0.0);
+	}
+	
+}
+
+DomeInfo()
+{
+	Texture("dag1_Skydome.tga");
+	Angle(-90.000000);
+	Ambient(255.000000, 255.000000, 255.000000);
+	Softness(1);
+	SoftnessParam(60);
+
+	DomeModel()
+	{	
+		Geometry("dag1_skydome.msh");
+	}
+	DomeModel()
+	{	
+		Geometry("");
+		Offset(100.0);
+		MovementScale(0.995);
+	}
+
+	
+	
+}
+

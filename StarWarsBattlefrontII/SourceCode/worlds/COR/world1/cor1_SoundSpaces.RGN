@@ -1,0 +1,206 @@
+Version(1);
+RegionCount(22);
+
+Region("soundspace mainhall", 0)
+{
+	Layer(4);
+	Position(2.669091, 17.900082, 78.704178);
+	Rotation(0.710427, 0.000000, 0.703806, 0.000000);
+	Size(58.501987, 19.082300, 28.294010);
+	Name("Mainhall");
+}
+
+Region("soundspace Library", 0)
+{
+	Layer(4);
+	Position(70.767967, 18.181705, 83.738243);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(40.694778, 14.857746, 22.265106);
+	Name("Library");
+	NextIsGrouped();
+}
+
+Region("soundspace Library", 0)
+{
+	Layer(4);
+	Position(43.156689, 13.941825, 109.266380);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(12.201546, 9.134912, 2.626457);
+	Name("Library2");
+}
+
+Region("soundspace longhall", 0)
+{
+	Layer(4);
+	Position(5.704313, 20.462250, 11.857201);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(65.111176, 14.020477, 9.948092);
+	Name("longhall");
+	NextIsGrouped();
+}
+
+Region("soundspace shorthall", 0)
+{
+	Layer(4);
+	Position(-49.879753, 21.302334, 32.938423);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(10.000000, 14.709493, 13.221292);
+	Name("Shorthall");
+}
+
+Region("soundspace Jedicouncil", 2)
+{
+	Layer(4);
+	Position(1.746583, 17.533699, -19.526838);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(15.408350, 10.703045, 4.729445);
+	Name("Jedicouncil");
+}
+
+Region("soundspace LZEntry", 0)
+{
+	Layer(4);
+	Position(2.549170, 19.112797, 140.032578);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(28.409428, 17.205765, 9.455124);
+	Name("LZEntry");
+}
+
+Region("soundspace computercore", 0)
+{
+	Layer(4);
+	Position(78.357140, 23.467751, 42.880108);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(35.432392, 9.578184, 17.605736);
+	Name("computercore");
+}
+
+Region("soundspace coreaccess", 0)
+{
+	Layer(4);
+	Position(77.552498, 17.636015, 25.001738);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(2.677333, 2.671029, 3.404779);
+	Name("coreaccess");
+}
+
+Region("soundspace Maproom", 1)
+{
+	Layer(4);
+	Position(-42.549366, 8.473082, 110.923874);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(4.783260, 9.749139, 6.603630);
+	Name("Maproom");
+}
+
+Region("soundspace maphall", 0)
+{
+	Layer(4);
+	Position(-25.956017, 4.087840, 110.997147);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(5.594261, 2.683072, 4.170174);
+	Name("Maphall");
+}
+
+Region("soundspace Briefingroom", 2)
+{
+	Layer(4);
+	Position(-51.302044, 13.841871, 62.492176);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(8.082130, 17.043699, 15.423593);
+	Name("Briefingroom2");
+	NextIsGrouped();
+}
+
+Region("soundspace Briefingroom", 2)
+{
+	Layer(4);
+	Position(-48.673882, 14.993145, 62.377220);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(8.058731, 15.903880, 15.407909);
+	Name("Briefingroom");
+}
+
+Region("soundspace Briefingentry", 0)
+{
+	Layer(4);
+	Position(-25.669077, 4.124668, 63.059296);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(6.408775, 2.869020, 4.201736);
+	Name("Briefingentry");
+}
+
+Region("soundspace Jedicouncilstairs", 0)
+{
+	Layer(4);
+	Position(1.679307, 12.446620, 0.416184);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(12.906885, 6.792319, 4.657605);
+	Name("Jedicouncilstairs1");
+	NextIsGrouped();
+}
+
+Region("soundspace Jedicouncil", 0)
+{
+	Layer(4);
+	Position(12.800266, 11.920589, -3.293180);
+	Rotation(0.945981, 0.000000, 0.324222, 0.000000);
+	Size(6.628940, 6.830995, 4.305195);
+	Name("Jedicouncilstairs2");
+	NextIsGrouped();
+}
+
+Region("soundspace Jedicouncil", 0)
+{
+	Layer(4);
+	Position(-10.409485, 13.216116, -4.513599);
+	Rotation(0.952887, 0.000000, -0.303341, 0.000000);
+	Size(6.000000, 6.000000, 4.000000);
+	Name("Jedicouncilstairs3");
+}
+
+Region("soundspace securityroom", 0)
+{
+	Layer(4);
+	Position(82.808060, 20.129974, 12.196416);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(12.998131, 5.458357, 12.392206);
+	Name("Securityroom");
+}
+
+Region("soundspace Outside", 0)
+{
+	Layer(4);
+	Position(-47.458538, 23.754190, 133.425201);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(21.108421, 21.214195, 54.279732);
+	Name("Outside1-SS");
+}
+
+Region("soundspace Outside", 0)
+{
+	Layer(4);
+	Position(79.486237, 23.577633, 114.924507);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(18.247276, 9.089190, 8.896599);
+	Name("Outside3-SS");
+	NextIsGrouped();
+}
+
+Region("soundspace Outside", 0)
+{
+	Layer(4);
+	Position(6.714510, 12.320522, 172.459137);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(34.787445, 24.012638, 28.816650);
+	Name("Region0");
+}
+
+Region("soundspace coreaccess", 0)
+{
+	Layer(4);
+	Position(77.313026, 16.345192, 60.682678);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(47.010292, 15.006260, 0.929378);
+	Name("Coreaccess2");
+}

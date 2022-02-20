@@ -1,0 +1,162 @@
+Version(3);
+SaveType(0);
+
+Camera("camera")
+{
+	Rotation(0.953, 0.301, -0.036, 0.011);
+	Position(-63.009, 32.840, -107.899);
+	FieldOfView(55.400);
+	NearPlane(1.000);
+	FarPlane(500.000);
+	ZoomFactor(1.000);
+	Bookmark(-83.834, 426.399, -92.195,  0.501, 0.492, -0.508, 0.499);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+}
+LightName("myg1_Platforms.LGT");
+ControllerManager("StandardCtrlMgr");
+
+WorldExtents()
+{
+	Min(0.000000, 0.000000, 0.000000);
+	Max(0.000000, 0.000000, 0.000000);
+}
+
+NextSequence(-1447548);
+
+Object("myg1_bldg_tower_platform_10", "myg1_bldg_tower_platform_08", 260720644)
+{
+	ChildRotation(-0.019, 0.000, -1.000, 0.000);
+	ChildPosition(-76.675, 1.973, -276.673);
+	SeqNo(260720644);
+	Team(0);
+	NetworkId(-1);
+	Layer(11);
+}
+
+Object("myg1_bldg_ramp_platform_5", "myg1_bldg_ramp_platform_01", 347573681)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-50.992, 0.000, -282.310);
+	SeqNo(347573681);
+	Team(0);
+	NetworkId(-1);
+	Layer(11);
+}
+
+Object("myg1_bldg_ramp_platform_02", "myg1_bldg_ramp_platform_02", 557727278)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-63.843, 0.000, -265.092);
+	SeqNo(557727278);
+	Team(0);
+	NetworkId(-1);
+	Layer(11);
+}
+
+Object("myg1_bldg_tower_platform_03R", "myg1_bldg_tower_platform_03R", 752673671)
+{
+	ChildRotation(0.264, 0.000, -0.965, 0.000);
+	ChildPosition(-41.871, 0.000, -291.405);
+	SeqNo(752673671);
+	Team(0);
+	NetworkId(-1);
+	Layer(11);
+}
+
+Object("myg1_bldg_ramp_platform_4", "myg1_bldg_ramp_platform_02", 838160692)
+{
+	ChildRotation(0.823, 0.000, 0.568, 0.000);
+	ChildPosition(-70.305, 0.000, -274.193);
+	SeqNo(838160692);
+	Team(0);
+	NetworkId(-1);
+	Layer(11);
+}
+
+Object("myg1_bldg_tower_platform_20", "myg1_bldg_tower_platform_08", 843586906)
+{
+	ChildRotation(0.812, 0.000, -0.584, 0.000);
+	ChildPosition(-50.880, 1.973, -276.611);
+	SeqNo(843586906);
+	Team(0);
+	NetworkId(-1);
+	Layer(11);
+}
+
+Object("myg1_bldg_ramp_platform_3", "myg1_bldg_ramp_platform_02", 1365992309)
+{
+	ChildRotation(0.582, 0.000, 0.813, 0.000);
+	ChildPosition(-57.300, 0.000, -274.229);
+	SeqNo(1365992309);
+	Team(0);
+	NetworkId(-1);
+	Layer(11);
+}
+
+Object("myg1_bldg_tower_platform_19", "myg1_bldg_tower_platform_08", -2081450849)
+{
+	ChildRotation(0.591, 0.000, 0.807, 0.000);
+	ChildPosition(-50.964, 0.000, -288.329);
+	SeqNo(-2081450849);
+	Team(0);
+	NetworkId(-1);
+	Layer(11);
+}
+
+Object("myg1_bldg_tower_platform_17", "myg1_bldg_tower_platform_08", -2057014915)
+{
+	ChildRotation(1.000, 0.000, -0.013, 0.000);
+	ChildPosition(-76.713, 0.000, -288.562);
+	SeqNo(-2057014915);
+	Team(0);
+	NetworkId(-1);
+	Layer(11);
+}
+
+Object("myg1_bldg_tower_platform_06", "myg1_bldg_tower_platform_06", -1422933276)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-63.843, 0.000, -259.193);
+	SeqNo(-1422933276);
+	Team(0);
+	NetworkId(-1);
+	Layer(11);
+}
+
+Object("myg1_bldg_tower_platform_18", "myg1_bldg_tower_platform_03", -1330585388)
+{
+	ChildRotation(1.000, 0.000, -0.020, 0.000);
+	ChildPosition(-85.849, 0.000, -291.899);
+	SeqNo(-1330585388);
+	Team(0);
+	NetworkId(-1);
+	Layer(11);
+}
+
+Object("myg1_bldg_ramp_platform_6", "myg1_bldg_ramp_platform_01", -618183243)
+{
+	ChildRotation(1.000, 0.000, -0.011, 0.000);
+	ChildPosition(-76.611, 0.000, -282.659);
+	SeqNo(-618183243);
+	Team(0);
+	NetworkId(-1);
+	Layer(11);
+}
+
+Object("myg1_bldg_tower_platform_05", "myg1_bldg_tower_platform_05", -429164183)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-63.843, 2.000, -271.925);
+	SeqNo(-429164183);
+	Team(0);
+	NetworkId(-1);
+	Layer(11);
+}

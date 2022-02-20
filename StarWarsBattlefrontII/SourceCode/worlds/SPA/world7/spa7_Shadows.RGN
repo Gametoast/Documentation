@@ -1,0 +1,29 @@
+Version(1);
+RegionCount(3);
+
+Region("shadow directional=0 directional1=0 colortop=114,114,114 colorbottom=56,56,56", 0)
+{
+	Layer(10);
+	Position(-364.858551, 655.207642, 992.338745);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(111.135460, 19.197998, 70.979370);
+	Name("cis_shdw1");
+}
+
+Region("shadow directional=0 directional1=0 colortop=122,122,122 colorbottom=53,53,53", 0)
+{
+	Layer(10);
+	Position(-830.942871, 663.867493, -1883.772217);
+	Rotation(0.995942, 0.000000, -0.090000, 0.000000);
+	Size(79.847351, 19.913757, 50.741875);
+	Name("rep_shdw1");
+}
+
+Region("shadow directional=0 directional1=0 colortop=106,106,106 colorbottom=55,55,55", 0)
+{
+	Layer(10);
+	Position(-362.943176, 649.624634, 896.075378);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(53.235077, 10.000000, 34.206421);
+	Name("cis_shdw2");
+}

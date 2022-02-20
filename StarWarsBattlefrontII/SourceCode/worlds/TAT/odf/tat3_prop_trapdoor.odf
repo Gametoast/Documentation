@@ -1,0 +1,18 @@
+[GameObjectClass]       
+
+ClassLabel  =   "animatedprop"
+GeometryName    =   "tat3_prop_trapdoor.msh"
+
+
+[Properties]        
+
+GeometryName    =   "tat3_prop_trapdoor"
+AnimationName     = "tat3_prop_trapdoor"
+
+Animation         =     "idle"
+Animation         =     "open"
+
+AnimationTrigger  =     "open hp_trapradius 1.0 trap_open"
+
+
+FoleyFXGroup    = "metal_foley"

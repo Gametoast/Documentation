@@ -1,0 +1,122 @@
+Version(1);
+RegionCount(13);
+
+Region("soundspace LHall", 0)
+{
+	Layer(7);
+	Position(-43.672787, 72.521858, -79.817078);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(14.806694, 5.480531, 9.053406);
+	Name("Entryhall1");
+	NextIsGrouped();
+}
+
+Region("soundspace LHall", 0)
+{
+	Layer(7);
+	Position(-46.525330, 69.219360, -63.541584);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(9.936829, 6.869408, 9.116821);
+	Name("LHall");
+}
+
+Region("soundspace Entryhall2", 0)
+{
+	Layer(7);
+	Position(-15.818227, 72.079445, -75.886726);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(14.962842, 4.658432, 13.399010);
+	Name("Entryhall2");
+}
+
+Region("soundspace controlhall", 0)
+{
+	Layer(7);
+	Position(-62.395679, 71.910912, -47.223988);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(7.051033, 6.107090, 19.763721);
+	Name("Controlhall");
+}
+
+Region("soundspace controlroom", 0)
+{
+	Layer(7);
+	Position(-41.284607, 73.075676, -41.415581);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(13.361679, 5.828621, 12.057083);
+	Name("controlroom");
+}
+
+Region("soundspace Controlcenter", 0)
+{
+	Layer(7);
+	Position(-14.042956, 72.965515, -16.581264);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(14.315844, 8.184685, 47.172695);
+	Name("controlcenter");
+}
+
+Region("soundspace Lavacontrolroom", 0)
+{
+	Layer(7);
+	Position(-61.250870, 72.324150, -18.760071);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(20.318924, 6.658005, 10.090099);
+	Name("lavacontrolroom");
+}
+
+Region("soundspace Lavahall", 0)
+{
+	Layer(7);
+	Position(-12.104039, 69.647667, 41.370335);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(16.952362, 4.040718, 3.642567);
+	Name("lavahall");
+}
+
+Region("soundspace controlaccess", 0)
+{
+	Layer(7);
+	Position(-55.826618, 70.843964, -41.039639);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(1.787960, 3.509834, 2.700245);
+	Name("Controllaccess");
+}
+
+Region("Soundspace lavaAccess", 0)
+{
+	Layer(7);
+	Position(-36.148506, 65.677673, -19.031069);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(8.631382, 5.999313, 3.818670);
+	Name("LavaAccess");
+}
+
+Region("Soundspace Outside", 0)
+{
+	Layer(7);
+	Position(-70.363472, 68.254875, 27.291637);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(43.228432, 10.000000, 33.801884);
+	Name("OutsideLava");
+	NextIsGrouped();
+}
+
+Region("Soundspace Outside", 0)
+{
+	Layer(7);
+	Position(59.179955, 69.077560, -42.597309);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(59.897720, 94.045464, 45.347027);
+	Name("OutsideOverlook");
+	NextIsGrouped();
+}
+
+Region("Soundspace Outside", 0)
+{
+	Layer(7);
+	Position(-33.610786, 76.612961, -188.253738);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(123.171112, 79.012001, 99.974541);
+	Name("OutsideLZ");
+}

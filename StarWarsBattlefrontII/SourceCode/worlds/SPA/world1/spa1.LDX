@@ -1,0 +1,136 @@
+Version(1);
+NextID(1);
+
+Layer("[Base]", 0, 8)
+{
+	Description("");
+}
+
+Layer("CapitalShips", 3, 0)
+{
+	Description("");
+}
+
+Layer("turrets", 4, 0)
+{
+	Description("");
+}
+
+Layer("asteroids", 5, 0)
+{
+	Description("");
+}
+
+Layer("Flight Paths", 6, 0)
+{
+	Description("");
+}
+
+Layer("Bomber Paths", 1, 2)
+{
+	Description("");
+}
+
+Layer("Shadows", 2, 0)
+{
+	Description("");
+}
+
+Layer("SoundSpaces", 7, 0)
+{
+	Description("");
+}
+
+Layer("SoundRegions", 8, 0)
+{
+	Description("");
+}
+
+Layer("RumbleRegions", 9, 0)
+{
+	Description("");
+}
+
+Layer("SoundTriggerRegions", 10, 0)
+{
+	Description("");
+}
+
+Layer("transports", 11, 0)
+{
+	Description("");
+}
+
+Layer("CTF", 12, 0)
+{
+	Description("");
+}
+
+Layer("SwingAssault", 13, 0)
+{
+	Description("");
+}
+
+Layer("Campaign_Turrets", 14, 2)
+{
+	Description("");
+}
+
+Layer("MP_turrets", 15, 0)
+{
+	Description("");
+}
+
+Layer("Campaign_flyers", 16, 0)
+{
+	Description("");
+}
+
+Layer("MP_flyers", 17, 0)
+{
+	Description("");
+}
+
+Layer("Assault Paths", 18, 0)
+{
+	Description("");
+}
+
+
+GameMode("Common")
+{
+	Layer(0);
+	Layer(1);
+	Layer(2);
+	Layer(3);
+	Layer(4);
+	Layer(5);
+	Layer(6);
+	Layer(7);
+	Layer(8);
+	Layer(9);
+	Layer(10);
+	Layer(18);
+}
+
+GameMode("Campaign")
+{
+	Layer(11);
+	Layer(14);
+	Layer(16);
+}
+
+GameMode("Assault")
+{
+	Layer(13);
+	Layer(15);
+	Layer(17);
+}
+
+GameMode("CTF")
+{
+	Layer(12);
+	Layer(15);
+	Layer(17);
+}
+

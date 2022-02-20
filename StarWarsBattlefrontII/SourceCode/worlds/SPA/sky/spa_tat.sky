@@ -1,0 +1,65 @@
+DomeInfo()
+{
+ 	DomeModel()
+  	{	
+  		Geometry("spa1_sky");
+		rotationspeed(0.0001,0.0,1.0,0);
+  	}
+	DomeModel()
+  	{	
+  		Geometry("spa9_sky_horizon");
+	}
+  	DomeModel()
+  	{	
+  		Geometry("spa9_sky_nebula1");
+  	}
+  	DomeModel()
+  	{	
+  		Geometry("spa9_sky_tatooine");
+  	}
+	DomeModel()
+  	{	
+  		Geometry("spa9_sky_landmass");
+  	}
+	DomeModel()
+  	{	
+  		Geometry("spa9_sky_planetclouds");
+	}
+  	DomeModel()
+  	{	
+  		Geometry("spa9_sky_planethaze");
+	}
+
+	Stars()
+	{
+		RandomSeed(1);
+		TwinkleFactor(0.5);
+		TwinkleFrequency(0.1);
+		Color(255, 255, 255, 255);
+		EnableBottom(1);
+		XBOX()
+		{
+			NumStars(1000);
+			BrightStarPercent(70.0);
+			AlphaMin(15);
+			ColorSaturation(0.5);
+		}
+		PC()
+		{
+			NumStars(8000);
+			BrightStarPercent(70.0);
+			AlphaMin(15);
+			ColorSaturation(.75);
+		}
+		PS2()
+		{
+			NumStars(700);
+			StarTexture("fx_star");
+			BrightStarPercent(10.0);
+			AlphaMin(10);
+			ColorSaturation(0.2);
+		}
+	}
+
+
+}

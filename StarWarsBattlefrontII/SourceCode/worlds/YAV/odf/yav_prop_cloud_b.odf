@@ -1,0 +1,24 @@
+[GameObjectClass]		
+
+ClassLabel		=	"dusteffect"
+GeometryName	=	"yav_prop_cloud_b.msh"
+
+
+[Properties]		
+
+MinPos = "-300 -20 -300"
+MaxPos = "300 60 300"
+MinVel = "0 0 0"
+MaxVel = "10 1.5 10"
+MinSize = "100"
+MaxSize = "110"
+MinLifeTime = "10"
+MaxLifeTime = "15"
+Alpha = "0.3"
+NumParticles = "80"
+MaxDistance = "2500"
+Texture = "yav_prop_cloud"
+RadiusFadeMin = "250"
+RadiusFadeMax = "350"
+HeightScale = "0.3"
+SpawnSound = ""

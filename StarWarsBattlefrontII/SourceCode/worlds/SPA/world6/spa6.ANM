@@ -1,0 +1,89 @@
+Animation("flag_loop", 180.00, 1, 1)
+{
+	AddPositionKey(0.00, 0.00, 0.00, 0.00, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
+	AddPositionKey(180.00, 0.00, 0.00, 11000.00, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
+	AddRotationKey(0.00, 0.00, 0.00, 0.00, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
+	AddRotationKey(180.00, 0.00, -360.00, 0.00, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
+}
+
+Animation("fan", 0.50, 1, 0)
+{
+	AddPositionKey(0.00, 0.00, 0.00, 0.00, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
+	AddPositionKey(0.50, 0.00, 0.00, 0.00, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
+	AddRotationKey(0.00, 0.00, 0.00, 0.00, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
+	AddRotationKey(0.50, 0.00, 360.00, 0.00, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
+}
+
+Animation("sensorspin", 1.00, 1, 0)
+{
+	AddPositionKey(0.00, 0.00, 0.00, 0.00, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
+	AddRotationKey(0.00, 0.00, 0.00, 0.00, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
+	AddRotationKey(1.00, 0.00, 360.00, 0.00, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
+}
+
+Animation("rep_loop", 256.00, 1, 1)
+{
+	AddPositionKey(0.00, 0.00, 0.00, 0.00, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
+	AddPositionKey(256.00, 0.00, 0.00, 6000.00, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
+	AddRotationKey(0.00, 0.00, 0.00, 0.00, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
+	AddRotationKey(20.00, 0.00, 0.00, 0.00, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
+	AddRotationKey(50.00, 0.00, -90.00, 0.00, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
+	AddRotationKey(70.00, 0.00, -90.00, 0.00, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
+	AddRotationKey(100.00, 0.00, -180.00, 0.00, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
+	AddRotationKey(150.00, 0.00, -180.00, 0.00, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
+	AddRotationKey(180.00, 0.00, -270.00, 0.00, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
+	AddRotationKey(200.00, 0.00, -270.00, 0.00, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
+	AddRotationKey(230.00, 0.00, -360.00, 0.00, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
+	AddRotationKey(256.00, 0.00, -360.00, 0.00, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
+}
+
+Animation("cis_loop", 260.00, 1, 1)
+{
+	AddPositionKey(0.00, 0.00, 0.00, 0.00, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
+	AddPositionKey(260.00, 0.00, 0.00, 5000.00, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
+	AddRotationKey(0.00, 0.00, 0.00, 0.00, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
+	AddRotationKey(70.00, 0.00, 0.00, 0.00, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
+	AddRotationKey(120.00, 0.00, 180.00, 0.00, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
+	AddRotationKey(200.00, 0.00, 180.00, 0.00, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
+	AddRotationKey(250.00, 0.00, 360.00, 0.00, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
+	AddRotationKey(260.00, 0.00, 360.00, 0.00, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
+}
+
+AnimationGroup("rep_loop", 1, 0)
+{
+	Animation("rep_loop", "rep_frig3");
+}
+
+AnimationGroup("Fanspins", 1, 0)
+{
+	Animation("fan", "rep_cap1_room_shieldgen_prop");
+	Animation("fan", "rep_cap2_room_shieldgen_prop");
+	Animation("fan", "cis_cap1_room_shieldgen_prop");
+}
+
+AnimationGroup("sensors", 1, 0)
+{
+	Animation("sensorspin", "rep_cap1_sensor");
+	Animation("sensorspin", "rep_cap2_sensor");
+	Animation("sensorspin", "cis_cap1_sensor");
+}
+
+AnimationGroup("cis_loop", 1, 0)
+{
+	Animation("cis_loop", "cis_frig3");
+}
+
+Hierarchy("rep_frig3")
+{
+	Obj("rep_frig3_tur1");
+	Obj("rep_frig3_tur2");
+	Obj("rep_frig3_tur3");
+}
+
+Hierarchy("cis_frig3")
+{
+	Obj("cis_frig3_tur1");
+	Obj("cis_frig3_tur2");
+	Obj("cis_frig3_tur3");
+}
+

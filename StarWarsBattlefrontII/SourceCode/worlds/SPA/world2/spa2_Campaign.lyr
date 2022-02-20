@@ -1,0 +1,65 @@
+Version(3);
+SaveType(0);
+
+Camera("camera")
+{
+	Rotation(0.972, 0.235, -0.012, 0.003);
+	Position(-369.713, 691.437, 446.513);
+	FieldOfView(55.400);
+	NearPlane(1.000);
+	FarPlane(5000.000);
+	ZoomFactor(1.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(-1069.269, 555.734, 2603.306,  0.160, 0.004, -0.987, 0.025);
+}
+LightName("spa2_Campaign.LGT");
+ControllerManager("StandardCtrlMgr");
+
+WorldExtents()
+{
+	Min(0.000000, 0.000000, 0.000000);
+	Max(0.000000, 0.000000, 0.000000);
+}
+
+NextSequence(-4108391);
+
+Object("comms_cis", "spa2_prop_antenna_destruct", 946425482)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-365.000, 705.000, 657.000);
+	SeqNo(946425482);
+	Team(2);
+	NetworkId(-1);
+	Label("comms_cis");
+	Layer(9);
+}
+
+Object("shi-ject", "all_bldg_target", 1660618619)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-364.870, 706.670, 439.067);
+	SeqNo(1660618619);
+	Team(0);
+	NetworkId(-1);
+	Label("shi-ject");
+	Layer(9);
+}
+
+Object("Hangarobj", "all_bldg_target", -366706765)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-365.000, 643.458, 993.211);
+	SeqNo(-366706765);
+	Team(0);
+	NetworkId(-1);
+	Label("Hangarobj");
+	Layer(9);
+}

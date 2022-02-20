@@ -1,0 +1,248 @@
+Version(3);
+SaveType(0);
+
+Camera("camera")
+{
+	Rotation(-0.096, -0.020, -0.975, 0.200);
+	Position(-403.244, 20.076, 386.389);
+	FieldOfView(55.400);
+	NearPlane(1.000);
+	FarPlane(5000.000);
+	ZoomFactor(1.000);
+	Bookmark(-252.996, 639.127, 3.342,  0.707, 0.707, 0.006, -0.006);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+}
+LightName("hoth_Conquest.LGT");
+ControllerManager("StandardCtrlMgr");
+
+WorldExtents()
+{
+	Min(0.000000, 0.000000, 0.000000);
+	Max(0.000000, 0.000000, 0.000000);
+}
+
+NextSequence(-16362439);
+
+Object("HOTH_prop_hangar_lift_platform3", "HOTH_prop_hangar_lift_platform", 261230302)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-424.582, -0.738, 220.133);
+	SeqNo(261230302);
+	Team(0);
+	NetworkId(-1);
+	Layer(8);
+}
+
+Object("largehanger10", "HOTH_bldg_large_hangars", 693294635)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-375.000, -0.843, 217.382);
+	SeqNo(693294635);
+	Team(0);
+	NetworkId(-1);
+	Layer(8);
+}
+
+Object("hoth_prop_collapse280", "hoth_prop_collapse", 772341391)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(-486.172, 2.837, 414.380);
+	SeqNo(772341391);
+	Team(0);
+	NetworkId(-1);
+	Layer(8);
+}
+
+Object("wagsd", "HOTH_prop_millenium_falcon_gear", 867229852)
+{
+	ChildRotation(0.953, 0.000, -0.304, 0.000);
+	ChildPosition(-508.049, 1.784, 115.780);
+	SeqNo(867229852);
+	Team(0);
+	NetworkId(-1);
+	Label("wasgsg");
+	Layer(8);
+}
+
+Object("falconl7", "HOTH_prop_millenium_falcon_gear", 948501075)
+{
+	ChildRotation(0.953, 0.000, -0.304, 0.000);
+	ChildPosition(-513.489, 1.781, 116.272);
+	SeqNo(948501075);
+	Team(0);
+	NetworkId(-1);
+	Label("falconl2");
+	Layer(8);
+}
+
+Object("trenchturrets50", "hoth_prop_trench_turrets", 1464599445)
+{
+	ChildRotation(0.709, 0.000, 0.705, 0.000);
+	ChildPosition(-348.087, -2.978, 384.253);
+	SeqNo(1464599445);
+	Team(0);
+	NetworkId(-1);
+	Layer(8);
+}
+
+Object("falconl6", "HOTH_prop_millenium_falcon_gear", 1753570733)
+{
+	ChildRotation(0.953, 0.000, -0.304, 0.000);
+	ChildPosition(-513.089, 1.781, 127.583);
+	SeqNo(1753570733);
+	Team(0);
+	NetworkId(-1);
+	Label("falconl2");
+	Layer(8);
+}
+
+Object("trenchshort70", "hoth_prop_trench_short", 1790535338)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-401.217, -2.799, 388.213);
+	SeqNo(1790535338);
+	Team(0);
+	NetworkId(-1);
+	Layer(8);
+}
+
+Object("corner200", "HOTH_bldg_corner_natural", 1985109267)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-500.624, 3.034, 414.079);
+	SeqNo(1985109267);
+	Team(0);
+	NetworkId(-1);
+	Layer(8);
+}
+
+Object("hoth_prop_collapse30", "hoth_prop_collapse", 2026785672)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(-441.554, 3.522, 143.339);
+	SeqNo(2026785672);
+	Team(0);
+	NetworkId(-1);
+	Layer(8);
+}
+
+Object("hangercenter10", "HOTH_bldg_hangar_center", -2002122697)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-375.176, -0.867, 217.728);
+	SeqNo(-2002122697);
+	Team(0);
+	NetworkId(-1);
+	Layer(8);
+}
+
+Object("hoth_bldg_tunnel_exit0", "hoth_bldg_tunnel_exit", -1980646225)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(-466.915, 3.039, 429.283);
+	SeqNo(-1980646225);
+	Team(0);
+	NetworkId(-1);
+	Layer(8);
+}
+
+Object("hoth_prop_collapse29", "hoth_prop_collapse", -1891003005)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(-464.491, 3.564, 142.635);
+	SeqNo(-1891003005);
+	Team(0);
+	NetworkId(-1);
+	Layer(8);
+}
+
+Object("HOTH_Prop_hangar_bridge1", "HOTH_Prop_hangar_bridge", -1610476213)
+{
+	ChildRotation(0.961, 0.000, 0.276, 0.000);
+	ChildPosition(-519.766, -0.660, 123.854);
+	SeqNo(-1610476213);
+	Team(0);
+	NetworkId(-1);
+	Layer(8);
+}
+
+Object("falconl8", "HOTH_prop_millenium_falcon_gear", -1537184579)
+{
+	ChildRotation(0.953, 0.000, -0.303, 0.000);
+	ChildPosition(-517.876, 1.781, 124.181);
+	SeqNo(-1537184579);
+	Team(0);
+	NetworkId(-1);
+	Label("falconl2");
+	Layer(8);
+}
+
+Object("falconl9", "HOTH_prop_millenium_falcon_gear", -1509037655)
+{
+	ChildRotation(0.953, 0.000, -0.303, 0.000);
+	ChildPosition(-506.709, 1.781, 120.828);
+	SeqNo(-1509037655);
+	Team(0);
+	NetworkId(-1);
+	Label("falconl2");
+	Layer(8);
+}
+
+Object("trenchturrets40", "hoth_prop_trench_turrets", -1430434481)
+{
+	ChildRotation(0.683, 0.000, -0.731, 0.000);
+	ChildPosition(-369.802, -0.958, 327.767);
+	SeqNo(-1430434481);
+	Team(0);
+	NetworkId(-1);
+	Layer(8);
+}
+
+Object("corner190", "HOTH_bldg_corner_natural", -835237828)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(-455.235, 3.126, 429.266);
+	SeqNo(-835237828);
+	Team(0);
+	NetworkId(-1);
+	Layer(8);
+}
+
+Object("hangenter10", "HOTH_bldg_hangar_entry", -762909971)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-377.551, -0.816, 217.559);
+	SeqNo(-762909971);
+	Team(0);
+	NetworkId(-1);
+	Layer(8);
+}
+
+Object("hoth_prop_collapse281", "hoth_prop_collapse", -522287822)
+{
+	ChildRotation(0.738, 0.000, 0.675, 0.000);
+	ChildPosition(-427.331, 2.963, 188.473);
+	SeqNo(-522287822);
+	Team(0);
+	NetworkId(-1);
+	Layer(8);
+}
+
+Object("falcon1", "HOTH_prop_millenium_falcon", -497712758)
+{
+	ChildRotation(-0.308, 0.000, -0.951, 0.000);
+	ChildPosition(-517.046, 1.633, 128.277);
+	SeqNo(-497712758);
+	Team(0);
+	NetworkId(-1);
+	Label("falcon");
+	Layer(8);
+}

@@ -1,0 +1,132 @@
+[GameObjectClass]
+
+ClassLabel		=	"trap"
+GeometryName	=	"logs.msh"
+//TriggerSound    = "end_weap_treetrap_trigger"
+
+[Properties]
+GeometryName	=	"logs"
+UnbuiltGeometryName	= "log_gate"
+DestroyedGeometryName	= "log_gate"
+BuildPoint		=	"hp_active"
+BuildModelOdf	=	"com_prop_buildzone"
+BuiltCollision	=	"1"
+UnbuiltHoloOdf = "com_holo_trap"
+
+AnimationName 	= 	"log_gate"
+TriggerAnimation	=	"trigger"
+TriggerRadius	=	"20.0"
+TriggerOffset	=	"0.0 0.0 -45.0"
+TriggerTeam		=	"imp"
+
+MaxHealth		=	1000.0
+
+CHUNKSECTION 		= "CHUNK1"
+ChunkGeometryName 	= "log1"
+ChunkNodeName = "hp_log"
+ChunkTerrainCollisions 	= "255"
+ChunkPhysics 		= "SIMPLE"
+ChunkVelocityFactor 	= 0.0
+ChunkSpeed 			= 0.0
+ChunkBounciness		= 0.7
+ChunkSimpleFriction	= 0.12
+ChunkDeathSpeed		= 3.0
+//ChunkInitialCollisionSound = "end_log_collision"
+//ChunkScrapeCollisionSound  = "end_log_roll"
+
+CHUNKSECTION 		= "CHUNK2"
+ChunkGeometryName 	= "log2"
+ChunkNodeName = "hp_log2"
+ChunkTerrainCollisions 	= "255"
+ChunkPhysics 		= "SIMPLE"
+ChunkVelocityFactor 	= 0.0
+ChunkSpeed 			= 0.0
+ChunkBounciness		= 0.7
+ChunkSimpleFriction	= 0.12
+ChunkDeathSpeed		= 3.0
+//ChunkInitialCollisionSound = "end_log_collision"
+//ChunkScrapeCollisionSound  = "end_log_roll"
+
+CHUNKSECTION 		= "CHUNK3"
+ChunkGeometryName 	= "log1"
+ChunkNodeName = "hp_log3"
+ChunkTerrainCollisions 	= "255"
+ChunkPhysics 		= "SIMPLE"
+ChunkVelocityFactor 	= 0.0
+ChunkSpeed 			= 0.0
+ChunkBounciness		= 0.7
+ChunkSimpleFriction	= 0.12
+ChunkDeathSpeed		= 3.0
+//ChunkInitialCollisionSound = "end_log_collision"
+//ChunkScrapeCollisionSound  = "end_log_roll"
+
+CHUNKSECTION 		= "CHUNK4"
+ChunkGeometryName 	= "log2"
+ChunkNodeName = "hp_log4"
+ChunkTerrainCollisions 	= "255"
+ChunkPhysics 		= "SIMPLE"
+ChunkVelocityFactor 	= 0.0
+ChunkSpeed 			= 0.0
+ChunkBounciness		= 0.7
+ChunkSimpleFriction	= 0.12
+ChunkDeathSpeed		= 3.0
+//ChunkInitialCollisionSound = "end_log_collision"
+//ChunkScrapeCollisionSound  = "end_log_roll"
+
+CHUNKSECTION 		= "CHUNK5"
+ChunkGeometryName 	= "log1"
+ChunkNodeName = "hp_log5"
+ChunkTerrainCollisions 	= "255"
+ChunkPhysics 		= "SIMPLE"
+ChunkVelocityFactor 	= 0.0
+ChunkSpeed 			= 0.0
+ChunkBounciness		= 0.7
+ChunkSimpleFriction	= 0.12
+ChunkDeathSpeed		= 3.0
+//ChunkInitialCollisionSound = "end_log_collision"
+//ChunkScrapeCollisionSound  = "end_log_roll"
+
+CHUNKSECTION 		= "CHUNK6"
+ChunkGeometryName 	= "log1"
+ChunkNodeName = "hp_log6"
+ChunkTerrainCollisions 	= "255"
+ChunkPhysics 		= "SIMPLE"
+ChunkVelocityFactor 	= 0.0
+ChunkSpeed 			= 0.0
+ChunkBounciness		= 0.7
+ChunkSimpleFriction	= 0.12
+ChunkDeathSpeed		= 3.0
+
+CHUNKSECTION 		= "CHUNK7"
+ChunkGeometryName 	= "log2"
+ChunkNodeName = "hp_log7"
+ChunkTerrainCollisions 	= "255"
+ChunkPhysics 		= "SIMPLE"
+ChunkVelocityFactor 	= 0.0
+ChunkSpeed 			= 0.0
+ChunkBounciness		= 0.7
+ChunkSimpleFriction	= 0.12
+ChunkDeathSpeed		= 3.0
+
+CHUNKSECTION 		= "CHUNK8"
+ChunkGeometryName 	= "log1"
+ChunkNodeName = "hp_log8"
+ChunkTerrainCollisions 	= "255"
+ChunkPhysics 		= "SIMPLE"
+ChunkVelocityFactor 	= 0.0
+ChunkSpeed 			= 0.0
+ChunkBounciness		= 0.7
+ChunkSimpleFriction	= 0.12
+ChunkDeathSpeed		= 3.0
+
+CHUNKSECTION 		= "CHUNK9"
+ChunkGeometryName 	= "log2"
+ChunkNodeName = "hp_log1"
+ChunkTerrainCollisions 	= "255"
+ChunkPhysics 		= "SIMPLE"
+ChunkVelocityFactor 	= 0.0
+ChunkSpeed 			= 0.0
+ChunkBounciness		= 0.7
+ChunkSimpleFriction	= 0.12
+ChunkDeathSpeed		= 3.0
+

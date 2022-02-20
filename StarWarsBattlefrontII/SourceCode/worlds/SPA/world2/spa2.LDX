@@ -1,0 +1,86 @@
+Version(1);
+NextID(12);
+
+Layer("[Base]", 0, 8)
+{
+	Description("");
+}
+
+Layer("capitalShips", 3, 0)
+{
+	Description("");
+}
+
+Layer("Fighters", 1, 17)
+{
+	Description("");
+}
+
+Layer("RepPaths", 2, 17)
+{
+	Description("");
+}
+
+Layer("CisPaths", 4, 17)
+{
+	Description("");
+}
+
+Layer("Turrets", 5, 17)
+{
+	Description("");
+}
+
+Layer("Design", 6, 0)
+{
+	Description("");
+}
+
+Layer("SoundSpace", 7, 17)
+{
+	Description("");
+}
+
+Layer("SoundRegions", 8, 17)
+{
+	Description("");
+}
+
+Layer("Campaign", 9, 17)
+{
+	Description("");
+}
+
+Layer("Shadows", 10, 17)
+{
+	Description("");
+}
+
+Layer("flightschool", 11, 17)
+{
+	Description("");
+}
+
+Layer("Rumbles", 12, 2)
+{
+	Description("");
+}
+
+
+GameMode("Common")
+{
+	Layer(0);
+	Layer(1);
+	Layer(2);
+	Layer(3);
+	Layer(4);
+	Layer(5);
+	Layer(6);
+	Layer(7);
+	Layer(8);
+	Layer(9);
+	Layer(10);
+	Layer(11);
+	Layer(12);
+}
+

@@ -1,0 +1,20 @@
+[GameObjectClass]
+
+ClassLabel      =   "animatedprop"
+GeometryName    =   "tat3_bldg_rancor.msh"
+
+
+[Properties]
+
+GeometryName    =   "tat3_bldg_rancor"
+AnimationName   =   "tat3_bldg_rancor"
+Animation       =   "idle"
+Animation       =   "grab"
+
+AnimationTrigger    =   "grab hp_hotspot 2.0"
+AttachTrigger   =   "hp_active 1.5 grab thrown_flail 2.5 hp_hotspot die"
+SoundProperty  = "rancor_amb"
+
+DenyFlyerLand = "1"
+TrackDeathOnAttach = "1"
+KillSoldierSound  = "rancor_belch"

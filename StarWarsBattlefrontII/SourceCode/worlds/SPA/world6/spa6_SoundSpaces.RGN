@@ -1,0 +1,92 @@
+Version(1);
+RegionCount(10);
+
+Region("Soundspace EngineRoom", 0)
+{
+	Layer(13);
+	Position(-929.087585, -141.925262, -179.954025);
+	Rotation(0.924904, 0.000000, -0.380202, 0.000000);
+	Size(13.630005, 5.503616, 19.503332);
+	Name("CISEngineRoom-SS");
+}
+
+Region("Soundspace serverroom", 0)
+{
+	Layer(13);
+	Position(-981.013855, -139.767151, -128.674561);
+	Rotation(0.924904, 0.000000, -0.380202, 0.000000);
+	Size(14.440979, 7.080521, 16.589432);
+	Name("CISServerroom-SS");
+}
+
+Region("Soundspace CommandRoom", 0)
+{
+	Layer(13);
+	Position(-961.943054, -140.681961, -156.551178);
+	Rotation(0.923712, 0.000000, -0.383122, 0.000000);
+	Size(21.067078, 7.185013, 20.495680);
+	Name("CISCommandRoom-SS");
+}
+
+Region("Soundspace shieldgenroom", 2)
+{
+	Layer(13);
+	Position(-937.126953, -150.762955, -134.566803);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(11.556885, 17.239639, 10.000000);
+	Name("CISShieldGenRoom-SS");
+}
+
+Region("Soundspace hangar", 0)
+{
+	Layer(13);
+	Position(-1004.844177, -134.298355, -248.604752);
+	Rotation(0.925328, 0.000000, -0.379201, 0.000000);
+	Size(74.808716, 20.621605, 115.020020);
+	Name("CISHangar-SS");
+}
+
+Region("Soundspace hangar", 0)
+{
+	Layer(13);
+	Position(-453.409271, 10.466241, 1218.693726);
+	Rotation(0.986989, 0.000000, 0.160929, 0.000000);
+	Size(57.535217, 20.590891, 42.175991);
+	Name("RepHangar-SS");
+}
+
+Region("Soundspace EngineRoom", 0)
+{
+	Layer(13);
+	Position(-399.886261, 2.566698, 1274.192017);
+	Rotation(0.987488, 0.000000, 0.157722, 0.000000);
+	Size(22.870422, 6.975093, 12.891104);
+	Name("Rep_Engineroom-ss");
+}
+
+Region("Soundspace  shieldgenroom", 2)
+{
+	Layer(13);
+	Position(-430.351379, -5.837650, 1312.371948);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(10.000000, 18.382164, 10.000000);
+	Name("Rep_shieldgenroom-SS");
+}
+
+Region("Soundspace serverroom", 0)
+{
+	Layer(13);
+	Position(-473.678680, 4.824584, 1299.644043);
+	Rotation(0.985285, 0.000000, 0.171118, 0.000000);
+	Size(18.059509, 5.668911, 13.767559);
+	Name("Rep_Serverroom-SS");
+}
+
+Region("Soundspace CommandRoom", 0)
+{
+	Layer(13);
+	Position(-440.916748, 3.447165, 1281.168335);
+	Rotation(0.986212, 0.000000, 0.165518, 0.000000);
+	Size(19.238159, 5.850013, 21.136229);
+	Name("Re_commandroom-SS");
+}

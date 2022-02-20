@@ -1,0 +1,184 @@
+Version(1);
+RegionCount(19);
+
+Region("rainshadow", 0)
+{
+	Position(-42.181923, 70.971138, -47.833267);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(42.208794, 10.000000, 40.877014);
+	Name("Region20");
+	NextIsGrouped();
+}
+
+Region("rainshadow", 0)
+{
+	Position(-10.676032, 64.028961, 25.472565);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(17.938032, 10.000000, 33.929279);
+	Name("Region35");
+	NextIsGrouped();
+}
+
+Region("rainshadow", 0)
+{
+	Position(-10.697985, 66.979431, 41.416847);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(16.962847, 10.000000, 7.228535);
+	Name("Region36");
+}
+
+
+Region("shadow directional=0 directional1=0 colortop=120,120,109 colorbottom=13,13,13", 0)
+{
+ 	Position(-42.181923, 70.971138, -47.833267);
+   	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+   	Size(42.208794, 10.000000, 40.877014);
+   	Name("Region43");
+   	NextIsGrouped();
+}
+   
+Region("shadow directional=0 directional1=0 colortop=120,120,109 colorbottom=13,13,13", 0)
+{
+  	Position(-13.593983, 71.162979, 13.269255);
+   	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+ 	Size(14.095684, 10.000000, 34.379330);
+   	Name("Region44");
+   	NextIsGrouped();
+}
+   
+Region("shadow directional=0 directional1=0 colortop=120,120,109 colorbottom=13,13,13", 0)
+{
+ 	Position(-5.187917, 66.666710, 40.744160);
+   	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+ 	Size(10.000000, 10.000000, 8.011330);
+   	Name("Region45");
+}
+
+Region("mapbounds", 0)
+{
+	Position(1.690828, 418.334961, -37.532116);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(141.328247, 10.000000, 140.280731);
+	Name("map");
+}
+
+Region("hallway_light_1", 0)
+{
+	Position(-13.904483, 70.690483, -70.185448);
+	Rotation(1.000005, 0.000000, 0.000079, 0.000000);
+	Size(2.725317, 3.303123, 3.783001);
+	Name("Region39");
+}
+
+Region("shadow directional=0.5 directional1=0.5 colorbottom=255,255,255", 0)
+{
+	Position(-13.897364, 71.782837, -99.590042);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(4.433853, 4.731918, 11.068832);
+	Name("Region37");
+	NextIsGrouped();
+}
+
+Region("shadow directional=0.5 directional1=0.5 colorbottom=255,255,255", 0)
+{
+	Position(-45.558292, 72.248695, -98.744377);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(4.516044, 4.342506, 11.090370);
+	Name("Region40");
+}
+
+Region("walkway dir 2", 0)
+{
+	Position(12.413122, 68.203079, -37.551235);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(0.909168, 3.340503, 49.992477);
+	Name("walkway dir 2");
+}
+
+Region("shadow directional=0 directional1=0 colortop=129,104,92 colorbottom=27,27,27", 0)
+{
+	Position(-29.121277, 75.656494, -123.130081);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(19.225006, 6.399632, 15.605362);
+	Name("Region41");
+}
+
+Region("hall2", 0)
+{
+	Position(-46.067532, 70.869919, -70.197617);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(2.435574, 2.870949, 3.777893);
+	Name("Region42");
+}
+
+Region("shadow directional=0 directional1=0 colortop=48,48,48 colorbottom=163,163,163", 0)
+{
+	Position(4.637238, 74.330376, -42.262619);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(8.559446, 10.000000, 43.619843);
+	Name("Region43");
+}
+
+Region("shadow colortop=255,255,255", 0)
+{
+	Position(10.133730, 69.876244, -82.040886);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(2.064566, 2.635002, 0.747277);
+	Name("walkway top 1");
+}
+
+Region("shadow colortop=255,255,255", 0)
+{
+	Position(10.133730, 69.876244, -72.058739);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(2.064566, 2.635002, 0.747277);
+	Name("walkway top 2");
+}
+
+Region("shadow colortop=255,255,255", 0)
+{
+	Position(10.133730, 69.876244, -65.027672);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(2.064566, 2.635002, 0.747277);
+	Name("walkway top 3");
+}
+
+Region("shadow colortop=255,255,255", 0)
+{
+	Position(10.133730, 69.876244, -56.115463);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(2.064566, 2.635002, 0.747277);
+	Name("walkway top 4");
+}
+
+Region("shadow colortop=255,255,255", 0)
+{
+	Position(10.133730, 69.876244, -48.057137);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(2.064566, 2.635002, 0.747277);
+	Name("walkway top 5");
+}
+
+Region("shadow colortop=255,255,255", 0)
+{
+	Position(10.133730, 69.876244, -39.996033);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(2.064566, 2.635002, 0.747277);
+	Name("walkway top 6");
+}
+
+Region("shadow colortop=255,255,255", 0)
+{
+	Position(10.133730, 69.250885, -32.062431);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(2.064566, 3.367828, 0.747277);
+	Name("walkway top 7");
+}
+
+Region("walkway dir 1", 0)
+{
+	Position(8.080621, 68.203079, -37.551235);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(0.909168, 3.340503, 49.992477);
+	Name("walkway dir 1");
+}

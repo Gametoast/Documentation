@@ -1,0 +1,43 @@
+[GameObjectClass]
+ClassLabel 			= "armedbuilding"
+GeometryName 		= "end_bldg_minigun_turret.msh"
+
+[Properties]
+BUILDINGSECTION 		= "BODY"
+
+Label 			= "Minigun Turret"
+StatusTexture 		= "HUD_all_minigun_icon"
+IconTexture			= "HUD_all_lascannon_icon"
+MapTexture 			= "turret_icon"
+MapScale 			= "1.2"
+GeometryName 		= "end_bldg_minigun_turret"
+ExplosionName		=	"end_bldg_minigun_turret_exp"
+DestroyedGeometryName 	= "end_bldg_minigun_turret_dest"
+RespawnTime 		= 50.0
+MaxHealth 			= "500.0"
+
+BUILDINGSECTION 		= "TURRET1"
+
+YawLimits 			= "-180 180"
+PitchLimits 		= "-30.0 40.0"
+
+PCMaxTurnSpeed		= "20.0"
+PCMaxStrafeSpeed	= "20.0"
+MaxTurnSpeed 		= "10.0"
+MaxPitchSpeed 		= "10.0"
+
+EyePointOffset 		= "0.0 1.3 0.0"
+TrackOffset 		= "0.0 1.2 3.5"
+
+PilotPosition 		= "hp_active"
+PilotAnimation 		= "man_minigun"	//"standing" "man_gun" "ride" "drive"
+
+WeaponName 			= "end_weap_bldg_minigun"
+WeaponAmmo 			= "5"	//"2"
+
+TurretNodeName 		= "turret_y"
+
+//FireSound       = "com_weap_inf_blaster_red3"
+//ReloadSound     = "laserreload"
+
+

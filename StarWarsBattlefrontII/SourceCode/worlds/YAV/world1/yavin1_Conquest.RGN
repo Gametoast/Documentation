@@ -1,0 +1,119 @@
+Version(1);
+RegionCount(13);
+
+Region("TempleControl", 0)
+{
+	Layer(1);
+	Position(130.571655, -26.489597, 398.856415);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(21.373108, 6.784279, 50.168335);
+	Name("TempleControl");
+}
+
+Region("LandingZoneCapture", 2)
+{
+	Layer(1);
+	Position(92.819458, -49.641953, -69.321434);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(5.678062, 4.857488, 12.269373);
+	Name("Region 1");
+}
+
+Region("BazaarCapture", 2)
+{
+	Layer(1);
+	Position(108.931160, -72.387787, 46.590656);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(16.473244, 14.636616, 9.790478);
+	Name("Region 2");
+}
+
+Region("BazaarControl", 0)
+{
+	Layer(1);
+	Position(116.383247, -67.427567, 50.758385);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(22.846603, 10.000000, 28.085842);
+	Name("Region 3");
+}
+
+Region("TFlankCapture", 0)
+{
+	Layer(1);
+	Position(45.751484, -43.166805, 272.884979);
+	Rotation(0.998232, 0.000000, 0.059611, 0.000000);
+	Size(9.837365, 10.000000, 10.308716);
+	Name("Region 4");
+}
+
+Region("ReflectingPoolControl", 0)
+{
+	Layer(1);
+	Position(387.556396, -30.948036, -67.169853);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(32.645355, 6.009941, 29.557701);
+	Name("Region 5");
+}
+
+Region("ReflectingPoolCapture", 0)
+{
+	Layer(1);
+	Position(201.940979, -40.224442, 244.448166);
+	Rotation(0.703958, 0.006206, 0.710174, 0.007672);
+	Size(15.805307, 4.357746, 8.833654);
+	Name("Region 6");
+}
+
+Region("LandingZoneControl", 0)
+{
+	Layer(1);
+	Position(49.156700, -58.788017, -27.655773);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(39.445984, 30.347343, 62.886272);
+	Name("Region 7");
+}
+
+Region("TempleCapture", 0)
+{
+	Layer(1);
+	Position(127.672546, -26.162416, 441.145538);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(16.871073, 5.834931, 7.581849);
+	Name("Region 8");
+}
+
+Region("CP1Capture", 2)
+{
+	Layer(1);
+	Position(108.130234, -61.672596, 131.416428);
+	Rotation(0.999975, 0.009841, 0.000000, 0.000000);
+	Size(10.575783, 9.999996, 6.675231);
+	Name("Region 9");
+}
+
+Region("Viaduct_Capture01", 0)
+{
+	Layer(1);
+	Position(200.515488, -53.128429, 148.043289);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(2.436615, 4.532215, 2.340439);
+	Name("Region0");
+}
+
+Region("ViaDuctControl", 0)
+{
+	Layer(1);
+	Position(220.117783, -48.633278, 137.869644);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(18.649506, 18.026524, 28.188889);
+	Name("ViaDuctControl");
+}
+
+Region("PoolControl", 0)
+{
+	Layer(1);
+	Position(229.647980, -46.215904, 278.537170);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(19.000381, 27.063297, 16.317749);
+	Name("PoolControl");
+}

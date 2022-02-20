@@ -1,0 +1,40 @@
+[GameObjectClass]       
+
+ClassLabel      =   "prop"
+GeometryName    =   "tat3_bldg_torture_main_2.msh"
+
+
+[Properties]        
+
+GeometryName    =   "tat3_bldg_torture_main_2"
+
+AttachEffect = "prop_steampipe"
+
+AttachToHardPoint = "hp_steam_1"
+
+AttachEffect = "prop_steampipe"
+
+AttachToHardPoint = "hp_steam_2"
+
+
+AttachOdf = "tat3_light_02"
+AttachToHardPoint = "hp_light_a"
+
+AttachEffect = "prop_fan"
+AttachToHardPoint = "hp_fan"
+
+AttachEffect = "prop_torturedroid"
+AttachToHardPoint = "hp_spark"
+
+AttachOdf = "tat3_light_torture_2"
+AttachToHardPoint = "hp_static_pipe4"
+
+
+AttachOdf = "tat3_prop_flare02_light"
+AttachToHardPoint = "hp_flare8"
+
+
+AttachOdf = "tat3_prop_flare02_light"
+AttachToHardPoint = "hp_flare10"
+
+FoleyFXGroup    = "stone_foley"

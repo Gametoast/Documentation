@@ -1,0 +1,314 @@
+Version(3);
+SaveType(0);
+
+Camera("camera")
+{
+	Rotation(0.354, 0.146, -0.854, 0.354);
+	Position(728.811, 348.254, -636.326);
+	FieldOfView(55.400);
+	NearPlane(1.000);
+	FarPlane(5000.000);
+	ZoomFactor(1.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(725.273, 308.196, 68.972,  0.354, 0.146, -0.854, 0.354);
+}
+LightName("spa1_MP_turrets.LGT");
+ControllerManager("StandardCtrlMgr");
+
+WorldExtents()
+{
+	Min(0.000000, 0.000000, 0.000000);
+	Max(0.000000, 0.000000, 0.000000);
+}
+
+NextSequence(-3705784);
+
+Object("ALL_turrchair3", "spa_veh_turret_chair", 224542439)
+{
+	ChildRotation(0.935, 0.000, 0.356, 0.000);
+	ChildPosition(-1978.697, -148.233, 159.822);
+	SeqNo(224542439);
+	Team(0);
+	NetworkId(-1);
+	Label("ALL_turrchair3");
+	Layer(15);
+	RemoteGameObject("all_RT03");
+	NextLinkedTerminal("ALL_turrchair4");
+	PrevLinkedTerminal("ALL_turrchair2");
+}
+
+Object("mpit10", "imp_bldg_frigateturret", 349527132)
+{
+	ChildRotation(0.708, 0.000, -0.707, 0.000);
+	ChildPosition(641.620, 429.194, 961.130);
+	SeqNo(349527132);
+	Team(1);
+	NetworkId(-1);
+	Label("mpit1");
+	Layer(15);
+}
+
+Object("ALL_turrchair5", "spa_veh_turret_chair", 770315559)
+{
+	ChildRotation(0.911, 0.000, -0.413, 0.000);
+	ChildPosition(-1967.046, -148.204, 160.671);
+	SeqNo(770315559);
+	Team(0);
+	NetworkId(-1);
+	Label("ALL_turrchair5");
+	Layer(15);
+	RemoteGameObject("all_RT05");
+	NextLinkedTerminal("ALL_turrchair6");
+	PrevLinkedTerminal("ALL_turrchair4");
+}
+
+Object("ALL_turrchair4", "spa_veh_turret_chair", 830991380)
+{
+	ChildRotation(-0.221, 0.000, -0.975, 0.000);
+	ChildPosition(-1976.778, -148.001, 173.579);
+	SeqNo(830991380);
+	Team(0);
+	NetworkId(-1);
+	Label("ALL_turrchair4");
+	Layer(15);
+	RemoteGameObject("all_RT04");
+	NextLinkedTerminal("ALL_turrchair5");
+	PrevLinkedTerminal("ALL_turrchair3");
+}
+
+Object("mpit5", "imp_bldg_boxturret", 863735706)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(643.482, 263.066, 9.435);
+	SeqNo(863735706);
+	Team(1);
+	NetworkId(-1);
+	Label("mpit1");
+	Layer(15);
+}
+
+Object("ALL_turrchair2", "spa_veh_turret_chair", 911624132)
+{
+	ChildRotation(0.354, 0.000, -0.935, 0.000);
+	ChildPosition(-1967.889, -148.201, 172.391);
+	SeqNo(911624132);
+	Team(0);
+	NetworkId(-1);
+	Label("ALL_turrchair2");
+	Layer(15);
+	RemoteGameObject("all_RT02");
+	NextLinkedTerminal("ALL_turrchair3");
+	PrevLinkedTerminal("ALL_turrchair1");
+}
+
+Object("mpit3", "imp_bldg_boxturret", 972170623)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(640.389, 262.523, 171.355);
+	SeqNo(972170623);
+	Team(1);
+	NetworkId(-1);
+	Label("mpit1");
+	Layer(15);
+}
+
+Object("mpat6", "all_bldg_moncal_roundturret", 1436303026)
+{
+	ChildRotation(0.707, 0.000, 0.707, 0.000);
+	ChildPosition(-2591.527, 47.016, -141.859);
+	SeqNo(1436303026);
+	Team(2);
+	NetworkId(-1);
+	Label("mpat6");
+	Layer(15);
+}
+
+Object("mpit4", "imp_bldg_boxturret", 1439987641)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(635.226, 261.691, 90.403);
+	SeqNo(1439987641);
+	Team(1);
+	NetworkId(-1);
+	Label("mpit1");
+	Layer(15);
+}
+
+Object("mpit1", "imp_bldg_boxturret", 1553168281)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(666.931, 266.273, 993.506);
+	SeqNo(1553168281);
+	Team(1);
+	NetworkId(-1);
+	Label("mpit1");
+	Layer(15);
+}
+
+Object("mpat11", "all_bldg_frigateturret", 1590309478)
+{
+	ChildRotation(0.707, 0.000, 0.707, 0.000);
+	ChildPosition(-2547.562, 372.871, -805.091);
+	SeqNo(1590309478);
+	Team(2);
+	NetworkId(-1);
+	Label("mpat9");
+	Layer(15);
+}
+
+Object("mpat8", "all_bldg_moncal_roundturret", 1613711973)
+{
+	ChildRotation(0.707, 0.000, 0.707, 0.000);
+	ChildPosition(-3497.527, 1.271, -197.473);
+	SeqNo(1613711973);
+	Team(2);
+	NetworkId(-1);
+	Label("mpat8");
+	Layer(15);
+}
+
+Object("mpat3", "all_bldg_moncal_roundturret", 1630555685)
+{
+	ChildRotation(0.707, 0.000, 0.707, 0.000);
+	ChildPosition(-1211.527, -80.486, -265.473);
+	SeqNo(1630555685);
+	Team(2);
+	NetworkId(-1);
+	Label("mpat3");
+	Layer(15);
+}
+
+Object("mpat12", "all_bldg_frigateturret", 1636851055)
+{
+	ChildRotation(0.708, 0.000, 0.706, 0.000);
+	ChildPosition(-2595.941, 383.609, -829.653);
+	SeqNo(1636851055);
+	Team(2);
+	NetworkId(-1);
+	Label("mpat9");
+	Layer(15);
+}
+
+Object("ALL_turrchair1", "spa_veh_turret_chair", 1860248557)
+{
+	ChildRotation(0.975, 0.000, -0.222, 0.000);
+	ChildPosition(-1969.816, -148.255, 158.553);
+	SeqNo(1860248557);
+	Team(0);
+	NetworkId(-1);
+	Label("ALL_turrchair1");
+	Layer(15);
+	RemoteGameObject("all_RT01");
+	NextLinkedTerminal("ALL_turrchair2");
+	PrevLinkedTerminal("ALL_turrchair6");
+}
+
+Object("mpit11", "imp_bldg_frigateturret", 1905752684)
+{
+	ChildRotation(0.708, 0.000, -0.706, 0.000);
+	ChildPosition(641.868, 429.036, 929.192);
+	SeqNo(1905752684);
+	Team(1);
+	NetworkId(-1);
+	Label("mpit1");
+	Layer(15);
+}
+
+Object("mpit7", "imp_bldg_boxturret", 2046599853)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(645.669, 263.077, -591.991);
+	SeqNo(2046599853);
+	Team(1);
+	NetworkId(-1);
+	Label("mpit1");
+	Layer(15);
+}
+
+Object("mpat5", "all_bldg_moncal_roundturret", -1708306635)
+{
+	ChildRotation(0.708, 0.000, 0.706, 0.000);
+	ChildPosition(-2361.333, 43.445, -140.770);
+	SeqNo(-1708306635);
+	Team(2);
+	NetworkId(-1);
+	Label("mpat5");
+	Layer(15);
+}
+
+Object("mpit12", "imp_bldg_frigateturret", -1688900090)
+{
+	ChildRotation(0.708, 0.000, -0.707, 0.000);
+	ChildPosition(801.706, 441.232, 945.028);
+	SeqNo(-1688900090);
+	Team(1);
+	NetworkId(-1);
+	Label("mpit1");
+	Layer(15);
+}
+
+Object("mpat10", "all_bldg_frigateturret", -1456560031)
+{
+	ChildRotation(0.707, 0.000, 0.707, 0.000);
+	ChildPosition(-2546.810, 375.014, -850.425);
+	SeqNo(-1456560031);
+	Team(2);
+	NetworkId(-1);
+	Label("mpat9");
+	Layer(15);
+}
+
+Object("mpit9", "imp_bldg_boxturret", -1242346704)
+{
+	ChildRotation(0.708, 0.000, -0.706, 0.000);
+	ChildPosition(646.637, 224.273, -11.031);
+	SeqNo(-1242346704);
+	Team(1);
+	NetworkId(-1);
+	Label("mpit1");
+	Layer(15);
+}
+
+Object("ALL_turrchair6", "spa_veh_turret_chair", -615015448)
+{
+	ChildRotation(-0.412, 0.000, -0.911, 0.000);
+	ChildPosition(-1979.559, -148.061, 171.452);
+	SeqNo(-615015448);
+	Team(0);
+	NetworkId(-1);
+	Label("ALL_turrchair6");
+	Layer(15);
+	RemoteGameObject("all_RT06");
+	NextLinkedTerminal("ALL_turrchair1");
+	PrevLinkedTerminal("ALL_turrchair5");
+}
+
+Object("mpat7", "all_bldg_moncal_roundturret", -603600611)
+{
+	ChildRotation(0.707, 0.000, 0.707, 0.000);
+	ChildPosition(-3499.527, 1.095, -92.472);
+	SeqNo(-603600611);
+	Team(2);
+	NetworkId(-1);
+	Label("mpat7");
+	Layer(15);
+}
+
+Object("mpat1", "all_bldg_moncal_roundturret", -379878666)
+{
+	ChildRotation(0.707, 0.000, 0.707, 0.000);
+	ChildPosition(-1222.527, -79.905, -8.473);
+	SeqNo(-379878666);
+	Team(2);
+	NetworkId(-1);
+	Label("mpat1");
+	Layer(15);
+}

@@ -1,0 +1,108 @@
+Version(10);
+PathCount(2);
+
+Path("CAM_CP1Spawn")
+{
+	Data(0);
+	PathType(0);
+	PathSpeedType(0);
+	PathTime(0.000000);
+	OffsetPath(0);
+	Layer(4);
+	SplineType("Hermite");
+
+	Properties(0)
+	{
+	}
+
+	Nodes(2)
+	{
+		Node()
+		{
+			Position(675.351990, 254.913422, -90.659264);
+			Knot(0.000000);
+			Data(0);
+			Time(1.000000);
+			PauseTime(0.000000);
+			Rotation(0.721784, 0.000000, -0.692119, 0.000000);
+			Properties(0)
+			{
+			}
+		}
+
+		Node()
+		{
+			Position(673.793945, 254.913422, -109.581230);
+			Knot(0.000000);
+			Data(0);
+			Time(1.000000);
+			PauseTime(0.000000);
+			Rotation(0.721784, 0.000000, -0.692119, 0.000000);
+			Properties(0)
+			{
+			}
+		}
+
+	}
+
+}
+
+Path("CAM_CP2Spawn")
+{
+	Data(0);
+	PathType(0);
+	PathSpeedType(0);
+	PathTime(0.000000);
+	OffsetPath(0);
+	Layer(4);
+	SplineType("Hermite");
+
+	Properties(0)
+	{
+	}
+
+	Nodes(3)
+	{
+		Node()
+		{
+			Position(-964.148621, -11.469330, -288.456055);
+			Knot(0.000000);
+			Data(1);
+			Time(1.000000);
+			PauseTime(0.000000);
+			Rotation(0.050154, 0.000000, -0.998741, 0.000000);
+			Properties(0)
+			{
+			}
+		}
+
+		Node()
+		{
+			Position(-996.521790, -11.469330, -300.346130);
+			Knot(0.000000);
+			Data(1);
+			Time(1.000000);
+			PauseTime(0.000000);
+			Rotation(0.050154, 0.000000, -0.998741, 0.000000);
+			Properties(0)
+			{
+			}
+		}
+
+		Node()
+		{
+			Position(-1026.094971, -11.469330, -304.091949);
+			Knot(0.000000);
+			Data(1);
+			Time(1.000000);
+			PauseTime(0.000000);
+			Rotation(0.050154, 0.000000, -0.998741, 0.000000);
+			Properties(0)
+			{
+			}
+		}
+
+	}
+
+}
+

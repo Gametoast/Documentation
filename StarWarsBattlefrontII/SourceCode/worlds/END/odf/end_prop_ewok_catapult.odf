@@ -1,0 +1,36 @@
+[GameObjectClass]		
+
+ClassLabel		=	"armedbuilding"
+GeometryName	=	"end_prop_ewok_catapult.msh"
+
+
+[Properties]		
+BUILDINGSECTION 		= "BODY"
+
+Label 			= "Minigun Turret"
+StatusTexture 		= "HUD_all_minigun_icon"
+IconTexture			= "HUD_all_lascannon_icon"
+MapTexture 			= "turret_icon"
+MapScale 			= "1.2"
+GeometryName	=	"end_prop_ewok_catapult"
+
+//ExplosionName		= "com_weap_bldg_gunturret_exp"
+//DestroyedGeometryName 	= "com_weap_gunturret_hulk"
+//RespawnTime 		= 50.0
+MaxHealth 			= "500.0"
+
+BUILDINGSECTION 		= "TURRET1"
+FirePointName		= "hp_fire"
+WeaponName 			= "end_weap_ewok_catapult"
+WeaponAmmo 			= "600"	//"2"
+YawLimits 			= "0 0"
+PitchLimits 		= "-40.0 0.0"
+//MaxTurnSpeed 		= "0.85"
+MaxPitchSpeed 		= "0.75"
+EyePointOffset 		= "0.0 1.8 0.0"
+TrackOffset 		= "1.0 1.8 12.0"
+TurretNodeName 		= "end_prop_ewok_catapult_arm"	
+Virtual			= "1"
+
+
+

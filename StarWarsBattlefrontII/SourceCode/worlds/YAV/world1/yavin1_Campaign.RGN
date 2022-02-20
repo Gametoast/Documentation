@@ -1,0 +1,173 @@
+Version(1);
+RegionCount(19);
+
+Region("TempleControlCamp", 0)
+{
+	Layer(12);
+	Position(128.783905, -26.489597, 404.541138);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(21.373108, 6.784279, 23.838593);
+	Name("Region 0");
+}
+
+Region("BazaarCaptureCamp", 2)
+{
+	Layer(12);
+	Position(108.931160, -72.387787, 46.590656);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(0.100000, 14.636616, 7.540600);
+	Name("BazaarCaptureCamp");
+}
+
+Region("BazaarControlCamp", 2)
+{
+	Layer(12);
+	Position(109.438667, -78.768753, 48.707207);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(23.457832, 15.056709, 52.299057);
+	Name("Region 3");
+}
+
+Region("ReflectingPoolControlCamp", 0)
+{
+	Layer(12);
+	Position(387.556396, -30.948036, -67.169853);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(32.645355, 6.009941, 29.557701);
+	Name("Region 5");
+}
+
+Region("LandingZoneControlCamp", 2)
+{
+	Layer(12);
+	Position(44.903675, -58.537281, 2.293224);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(36.525589, 15.736938, 24.385143);
+	Name("Region 7");
+}
+
+Region("RPCapture", 2)
+{
+	Layer(12);
+	Position(200.820663, -47.745071, 245.046799);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(9.156937, 16.971287, 11.456063);
+	Name("RPCapture");
+}
+
+Region("SunTempleTrigger", 2)
+{
+	Layer(12);
+	Position(58.173862, -65.494659, 266.765686);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(46.520332, 53.941212, 12.459015);
+	Name("SunTempleTrigger");
+}
+
+Region("temple_door_trigger", 0)
+{
+	Layer(12);
+	Position(129.917618, -29.601400, 377.901184);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(17.851593, 3.673201, 1.551666);
+	Name("temple_door_trigger");
+}
+
+Region("ViaDuctCapture", 2)
+{
+	Layer(12);
+	Position(201.660553, -56.137753, 145.858521);
+	Rotation(0.999761, -0.002931, -0.010395, -0.019346);
+	Size(4.137863, 2.951626, 10.587842);
+	Name("ViaDuctCapture");
+}
+
+Region("FountainAmbushCOntrol", 2)
+{
+	Layer(12);
+	Position(187.122406, -58.580605, 80.558228);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(10.000000, 5.864483, 10.000000);
+	Name("FountainAmbushCOntrol");
+}
+
+Region("AltRouteTrigger", 0)
+{
+	Layer(12);
+	Position(234.831421, -56.224384, 47.773193);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(35.410355, 16.062405, 17.123917);
+	Name("AltRouteTrigger");
+}
+
+Region("ViaDuctTrigger", 2)
+{
+	Layer(12);
+	Position(200.896011, -53.253193, 137.204254);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(27.728500, 10.000000, 6.046265);
+	Name("ViaDuctTrigger");
+}
+
+Region("ReflectingPoolTrigger", 2)
+{
+	Layer(12);
+	Position(201.370392, -34.723923, 245.736908);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(10.000000, 10.000000, 36.035767);
+	Name("ReflectingPoolTrigger");
+}
+
+Region("TempleAmbushTrigger", 0)
+{
+	Layer(12);
+	Position(131.221329, -35.009682, 357.077911);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(41.516983, 19.415998, 29.303711);
+	Name("TempleAmbushTrigger");
+}
+
+Region("ReflectingPoolControl", 0)
+{
+	Layer(12);
+	Position(168.411636, -35.188606, 249.523865);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(11.341949, 10.000000, 13.726532);
+	Name("ReflectingPoolControl");
+}
+
+Region("TFlankSpawnControl", 0)
+{
+	Layer(12);
+	Position(131.286942, -37.148071, 365.402222);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(50.377899, 20.541229, 35.750305);
+	Name("TFlankSpawnControl");
+}
+
+Region("fakecapture", 0)
+{
+	Layer(12);
+	Position(106.267891, -370.483032, 45.851482);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(4.829987, 10.000000, 5.011791);
+	Name("fakecapture");
+}
+
+Region("fakecapture1", 0)
+{
+	Layer(12);
+	Position(204.621826, -94.908363, 148.171143);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(4.075272, 6.625568, 3.746216);
+	Name("fakecapture1");
+}
+
+Region("fakecapture2", 0)
+{
+	Layer(12);
+	Position(198.672562, -94.359421, 249.000641);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(4.015350, 6.732918, 3.717331);
+	Name("fakecapture2");
+}

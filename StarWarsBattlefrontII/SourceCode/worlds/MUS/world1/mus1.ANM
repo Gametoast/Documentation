@@ -1,0 +1,47 @@
+Animation("bridge_drop", 3.00, 0, 0)
+{
+	AddPositionKey(0.00, 0.00, 0.00, 0.00, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
+	AddPositionKey(2.70, 0.00, -6.70, 0.00, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
+	AddPositionKey(3.00, 0.00, -7.00, 0.00, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
+}
+
+Animation("Bridge_raise", 4.00, 0, 0)
+{
+	AddPositionKey(0.00, 0.00, -7.00, 0.00, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
+	AddPositionKey(0.42, 0.00, -6.50, 0.00, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
+	AddPositionKey(3.75, 0.00, -0.20, 0.00, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
+	AddPositionKey(4.00, 0.00, 0.00, 0.00, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
+}
+
+Animation("stir", 12.00, 1, 0)
+{
+	AddRotationKey(0.00, 0.00, 0.00, 0.00, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
+	AddRotationKey(12.00, 0.00, -360.00, 0.00, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
+}
+
+AnimationGroup("Lava_bridge_raise", 0, 0)
+{
+	Animation("Bridge_raise", "Lavatrap");
+}
+
+AnimationGroup("lava_bridge_drop", 0, 0)
+{
+	Animation("bridge_drop", "Lavatrap");
+}
+
+AnimationGroup("stir", 1, 0)
+{
+	Animation("stir", "stir40");
+	Animation("stir", "stir30");
+	Animation("stir", "stir20");
+	Animation("stir", "stir10");
+	Animation("stir", "stir31");
+	Animation("stir", "stir21");
+	Animation("stir", "stir11");
+	Animation("stir", "stir41");
+	Animation("stir", "stir4");
+	Animation("stir", "stir3");
+	Animation("stir", "stir2");
+	Animation("stir", "stir1");
+}
+

@@ -1,0 +1,82 @@
+SkyInfo()
+{
+	Enable(1);
+	FogColor(80,100,80,128);
+	FogRange(-10.0, 62.0);
+	EnableFadeAdjustWithZoom(0);
+
+	PS2()
+	{
+		NearSceneRange(0.1, 28.0,52.0);
+		NearSplitScreenRange(0.3, 28.0, 52.0);
+		FarSceneRange(0.0);
+
+		SplitOptions()
+		{
+			PropClusterEnable(0);
+			PropClusterFadeAdj(0.6);
+			PropClusterDensity(0.1);
+		}
+	}
+	PC()
+	{
+		NearSceneRange(45.000000, 85.000000, 65.000000, 110.000000);
+		FarSceneRange(10.0, 20.0);
+		ReflectionFogColor(57, 66, 68);
+	}
+	XBOX()
+	{
+		NearSceneRange(0.1, 30.0, 58.0);
+		NearSplitScreenRange(0.1, 25.0, 46.0);
+		FarSceneRange(0.0);
+		ReflectionFogColor(57, 66, 68);
+	}
+}
+
+
+DomeInfo()
+{
+	Texture("fel1_sky_dome.tga");
+	Angle(-90.000000);
+	Ambient(255.000000, 255.000000, 255.000000);
+	Softness(1);
+	SoftnessParam(65);
+
+	
+	DomeModel()
+	{
+		Geometry("fel1_sky_dome");
+	}
+
+	DomeModel()
+	{	
+		Geometry("fel1_sky_clouds1");
+		rotationspeed(0.002, 0,1.0,0);
+		
+	
+	}
+	
+	DomeModel()
+	{	
+		Geometry("fel_sky_dome_trees");
+		Offset(190.0);
+	
+	}
+	
+	
+}
+
+
+
+
+WaterInfo()
+{
+	TopColor(0, 0, 0);
+	BottomColor(0, 0, 0);
+	TopRange(50.000000);
+	BottomRange(30.000000);
+	BottomDrop(5.000000);
+	Enabled(0);
+}
+
+EnvTexture("");

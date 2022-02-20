@@ -1,0 +1,19 @@
+[GameObjectClass]		
+ClassLabel		= "destructablebuilding"
+GeometryName		= "dea1_prop_grate.msh"
+
+
+[Properties]		
+\\MapTexture 		= "turret_icon"
+MapScale 		= "1.2"
+GeometryName		= "dea1_prop_grate"
+DestroyedGeometryName	= "dea1_prop_grate_dest"
+\\UnbuiltGeometryName	= "com_prop_buildzone"
+ExplosionName		= "com_inf_rechargedroid_exp"
+ExplosionOffset             = "0.3896 1.1067 0.0"
+MaxHealth 		= "2.0"
+
+RespawnTime		= "999999.9"
+
+
+\\UnbuiltHoloOdf = "com_holo_wall"

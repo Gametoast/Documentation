@@ -1,0 +1,92 @@
+Version(1);
+RegionCount(10);
+
+Region("Soundspace hangar", 0)
+{
+	Layer(12);
+	Position(1307.928467, -65.560280, -544.679626);
+	Rotation(0.625372, 0.000000, -0.780326, 0.000000);
+	Size(54.834503, 23.402596, 41.940380);
+	Name("RepHangar3");
+}
+
+Region("Soundspace hangar", 0)
+{
+	Layer(12);
+	Position(40.064465, 115.483292, -911.424011);
+	Rotation(0.000767, 0.000000, -1.000000, 0.000000);
+	Size(109.476028, 17.214783, 63.921997);
+	Name("CisHangar1");
+}
+
+Region("Soundspace commandroom", 0)
+{
+	Layer(12);
+	Position(34.170963, 109.785645, -828.165955);
+	Rotation(0.000767, 0.000000, -1.000000, 0.000000);
+	Size(20.033630, 5.314331, 22.385803);
+	Name("CISCommandRoom");
+}
+
+Region("Soundspace shieldgenroom", 2)
+{
+	Layer(12);
+	Position(35.482250, 97.759903, -795.363892);
+	Rotation(0.000767, 0.000000, -1.000000, 0.000000);
+	Size(15.600555, 17.629395, 0.100000);
+	Name("CISSHieldGenRoom");
+}
+
+Region("Soundspace commandroom", 0)
+{
+	Layer(12);
+	Position(1366.550049, -75.463737, -529.396240);
+	Rotation(0.621561, 0.000000, -0.783365, 0.000000);
+	Size(21.068298, 5.850250, 21.101503);
+	Name("ciscommandroom2");
+}
+
+Region("Soundspace engineroom", 0)
+{
+	Layer(12);
+	Position(1380.908203, -76.238213, -564.518860);
+	Rotation(0.621561, 0.000000, -0.783365, 0.000000);
+	Size(17.975830, 4.793640, 13.028809);
+	Name("cisengineroom2");
+}
+
+Region("Soundspace serverroom", 0)
+{
+	Layer(12);
+	Position(1364.999878, -74.323509, -495.779388);
+	Rotation(0.621561, 0.000000, -0.783366, 0.000000);
+	Size(16.466064, 4.580444, 14.745605);
+	Name("cisserverroom2");
+}
+
+Region("Soundspace shieldgenroom", 2)
+{
+	Layer(12);
+	Position(1399.996704, -86.773216, -522.839539);
+	Rotation(0.621561, 0.000000, -0.783366, 0.000000);
+	Size(10.000000, 17.086365, 10.000000);
+	Name("cisshieldgenroom2");
+}
+
+Region("Soundspace serverroom", 0)
+{
+	Layer(12);
+	Position(0.110905, 110.756996, -820.899536);
+	Rotation(0.000767, 0.000000, -1.000000, 0.000000);
+	Size(17.128601, 4.938110, 14.908020);
+	Name("CISServerRoom");
+}
+
+Region("Soundspace engineroom", 0)
+{
+	Layer(12);
+	Position(72.954216, 109.132935, -818.675659);
+	Rotation(0.000767, 0.000000, -1.000000, 0.000000);
+	Size(18.788055, 5.155884, 15.211182);
+	Name("CISEngineRoom");
+}

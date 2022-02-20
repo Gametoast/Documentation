@@ -1,0 +1,50 @@
+[GameObjectClass]
+
+ClassLabel      =   "destructablebuilding"
+GeometryName    =   "Cor1_prop_librarystack.msh"
+
+
+[Properties]        
+
+GeometryName    =   "Cor1_prop_librarystack"
+DestroyedGeometryName   = "Cor1_prop_librarystack_dest"
+ExplosionName       = "com_inf_rechargedroid_exp"
+MaxHealth       = 6300
+
+AINoRepair		= 1
+
+DamageStartPercent      = 95.0
+DamageStopPercent           = 50.0
+DamageEffect            = "com_sfx_vehiclespark"
+DamageEffectScale           = 1.5
+DamageInheritVelocity       = 0.0
+DamageAttachPoint           = "hp_damage2"
+
+DamageStartPercent      = 90.0
+DamageStopPercent           = 0.0
+DamageEffect            = "com_sfx_vehiclesmoke"
+DamageEffectScale           = 1.5
+DamageInheritVelocity       = 0.0
+DamageAttachPoint           = "hp_damage1"
+
+DamageStartPercent      = 70.0
+DamageStopPercent           = 30.0
+DamageEffect            = "com_sfx_vehicleflame"
+DamageEffectScale           = .1
+DamageInheritVelocity       = 0.0
+DamageAttachPoint           = "hp_damage3"
+
+DamageStartPercent      = 40.0
+DamageStopPercent           = 5.0
+DamageEffect            = "com_sfx_vehicleflame"
+DamageEffectScale           = .2
+DamageInheritVelocity       = 0.0
+DamageAttachPoint           = "hp_damage4"
+ 
+FoleyFXGroup    = "stone_foley"
+BuildingSound    = ""
+
+
+TargetPointOffset = "0 -2 0"
+
+

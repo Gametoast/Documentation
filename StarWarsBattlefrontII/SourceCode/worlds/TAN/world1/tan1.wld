@@ -1,0 +1,379 @@
+Version(3);
+SaveType(0);
+
+Camera("camera")
+{
+	Rotation(0.512, 0.512, 0.488, -0.488);
+	Position(-267.012, 73.208, -120.364);
+	FieldOfView(55.400);
+	NearPlane(1.000);
+	FarPlane(5000.000);
+	ZoomFactor(1.000);
+	Bookmark(-317.325, 246.197, -115.678,  0.707, 0.707, 0.001, -0.001);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+}
+LightName("tan1.LGT");
+TerrainName("tan1.ter");
+SkyName("tan1.sky");
+ScriptName("DummyScript.dll");
+ControllerManager("StandardCtrlMgr");
+
+WorldExtents()
+{
+	Min(0.000000, 0.000000, 0.000000);
+	Max(0.000000, 0.000000, 0.000000);
+}
+
+NextSequence(-3705784);
+
+Object("tan4_bldg_corridor_c", "tan4_bldg_corridor_c", 124401174)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-277.000, 2.000, -140.000);
+	SeqNo(124401174);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tan4_bldg_turbine_r_body", "tan4_bldg_turbine_r_body", 141934927)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-228.294, 9.299, -129.061);
+	SeqNo(141934927);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tan4_bldg_pillar2", "tan4_bldg_pillar", 199703248)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-214.000, 11.000, -124.000);
+	SeqNo(199703248);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tan1_stars", "tan1_stars", 280489975)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-285.000, 8.000, -141.000);
+	SeqNo(280489975);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tan4_bldg_conf", "tan4_bldg_conf", 344180289)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-277.000, 2.000, -140.000);
+	SeqNo(344180289);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("turbineconsole", "tan4_bldg_turbine_console", 429711271)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-239.327, 4.963, -124.095);
+	SeqNo(429711271);
+	Team(2);
+	NetworkId(-1);
+	Label("turbineconsole");
+}
+
+Object("tan4_bldg_pillar", "tan4_bldg_pillar", 564782390)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-214.000, 11.000, -138.000);
+	SeqNo(564782390);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tan4_bldg_engine_a", "tan4_bldg_engine_a", 579658916)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-277.000, 2.000, -140.000);
+	SeqNo(579658916);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tan4_bldg_engine", "tan4_bldg_engine", 737025398)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-277.000, 2.000, -140.000);
+	SeqNo(737025398);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tan4_bldg_airlock", "tan4_bldg_airlock", 738521963)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-277.000, 2.000, -140.000);
+	SeqNo(738521963);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tan4_bldg_corridor_01", "tan4_bldg_corridor_01", 815507058)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-277.000, 2.000, -140.000);
+	SeqNo(815507058);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tan4_bldg_engine_c", "tan4_bldg_engine_c", 940779710)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-277.000, 2.000, -140.000);
+	SeqNo(940779710);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tan4_bldg_frontdeck_b", "tan4_bldg_frontdeck_b", 1118499775)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-277.000, 2.000, -140.000);
+	SeqNo(1118499775);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tan4_bldg_corridor_01_a", "tan4_bldg_corridor_01_a", 1131656109)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-277.000, 2.000, -140.000);
+	SeqNo(1131656109);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tan4_bldg_pod_02_a", "tan4_bldg_pod_02_a", 1252119300)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-277.000, 2.000, -140.000);
+	SeqNo(1252119300);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tan4_bldg_corridor_02", "tan4_bldg_corridor_02", 1314121547)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-277.000, 2.000, -140.000);
+	SeqNo(1314121547);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tan4_bldg_pod_a", "tan4_bldg_pod_a", 1388395354)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-277.000, 2.000, -140.000);
+	SeqNo(1388395354);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tan4_bldg_corridor_b", "tan4_bldg_corridor_b", 1502675190)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-277.000, 2.000, -140.000);
+	SeqNo(1502675190);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tan4_bldg_pod_020", "tan4_bldg_pod_02", 1743757952)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-277.000, 2.000, -140.000);
+	SeqNo(1743757952);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tan4_bldg_corridor_a", "tan4_bldg_corridor_a", 1954982598)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-277.000, 2.000, -140.000);
+	SeqNo(1954982598);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tan4_bldg_pod_b", "tan4_bldg_pod_b", -2046178345)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-277.000, 2.000, -140.000);
+	SeqNo(-2046178345);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tan4_bldg_pod_d", "tan4_bldg_pod_d", -2030695139)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-277.000, 2.000, -140.000);
+	SeqNo(-2030695139);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tan4_bldg_pod_c", "tan4_bldg_pod_c", -1855338735)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-277.000, 2.000, -140.000);
+	SeqNo(-1855338735);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tan4_bldg_corridor_01_b", "tan4_bldg_corridor_01_b", -1726510495)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-277.000, 2.000, -140.000);
+	SeqNo(-1726510495);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tan4_bldg_corridor_02_b", "tan4_bldg_corridor_02_b", -1572407359)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-277.000, 2.000, -140.000);
+	SeqNo(-1572407359);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tan4_bldg_tech", "tan4_bldg_tech", -1488848775)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-277.000, 2.000, -140.000);
+	SeqNo(-1488848775);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tan4_bldg_turbine_l_body", "tan4_bldg_turbine_l_body", -1406731454)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-236.026, 9.196, -129.000);
+	SeqNo(-1406731454);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tan4_bldg_frontdeck_a", "tan4_bldg_frontdeck_a", -1398291995)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-277.000, 2.000, -140.000);
+	SeqNo(-1398291995);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tan4_bldg_engine_b", "tan4_bldg_engine_b", -1180310429)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-277.000, 2.000, -140.000);
+	SeqNo(-1180310429);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tan4_bldg_barracks", "tan4_bldg_barracks", -1169935753)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-277.000, 2.000, -140.000);
+	SeqNo(-1169935753);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tan4_bldg_corridor_02_c", "tan4_bldg_corridor_02_c", -747920826)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-277.000, 2.000, -140.000);
+	SeqNo(-747920826);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tan4_bldg_frontdeck", "tan4_bldg_frontdeck", -544340478)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-277.000, 2.000, -140.000);
+	SeqNo(-544340478);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("turbinebase", "tan4_bldg_turbine_base", -470976542)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-232.000, 4.000, -129.000);
+	SeqNo(-470976542);
+	Team(0);
+	NetworkId(-1);
+	Label("turbinebase");
+}
+
+Object("tan4_bldg_corridor_02_a", "tan4_bldg_corridor_02_a", -285106434)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-277.000, 2.000, -140.000);
+	SeqNo(-285106434);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tan4_bldg_pod", "tan4_bldg_pod", -272764811)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-277.000, 2.000, -140.000);
+	SeqNo(-272764811);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tan4_bldg_pod_e", "tan4_bldg_pod_e", -216256489)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-277.000, 2.000, -140.000);
+	SeqNo(-216256489);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tan4_bldg_corridor", "tan4_bldg_corridor", -106352369)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-277.000, 2.000, -140.000);
+	SeqNo(-106352369);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tan4_bldg_pod_02_b", "tan4_bldg_pod_02_b", -93879511)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-277.000, 2.000, -140.000);
+	SeqNo(-93879511);
+	Team(0);
+	NetworkId(-1);
+}

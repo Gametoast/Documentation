@@ -1,0 +1,15 @@
+[GameObjectClass]		
+
+ClassLabel		=	"destructablebuilding"
+GeometryName	=	"hoth_prop_bomb.msh"
+
+
+[Properties]		
+
+GeometryName	=	"hoth_prop_bomb"
+
+DestroyedGeometryName	= "com_item_weaponrecharge_dst"
+ExplosionName		= "com_inf_rechargedroid_exp"
+MaxHealth	=	120
+
+FoleyFXGroup    = "metal_foley"

@@ -1,0 +1,142 @@
+Version(3);
+SaveType(0);
+
+Camera("camera")
+{
+	Rotation(0.131, 0.007, -0.990, 0.050);
+	Position(-1086.447, 114.054, 225.517);
+	FieldOfView(55.400);
+	NearPlane(1.000);
+	FarPlane(5000.000);
+	ZoomFactor(1.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+}
+LightName("spa5_TURRETS.LGT");
+ControllerManager("StandardCtrlMgr");
+
+WorldExtents()
+{
+	Min(0.000000, 0.000000, 0.000000);
+	Max(0.000000, 0.000000, 0.000000);
+}
+
+NextSequence(-3705784);
+
+Object("REP_TURR5", "rep_bldg_moncal_roundturret", 241371700)
+{
+	ChildRotation(0.711, 0.000, 0.703, 0.000);
+	ChildPosition(-863.289, 51.386, -248.498);
+	SeqNo(241371700);
+	Team(2);
+	NetworkId(-1);
+	Label("REP_TURR1");
+	Layer(1);
+}
+
+Object("REP_TURR9", "rep_bldg_moncal_roundturret", 570809949)
+{
+	ChildRotation(0.712, 0.000, 0.703, 0.000);
+	ChildPosition(-1043.000, 62.746, -256.000);
+	SeqNo(570809949);
+	Team(2);
+	NetworkId(-1);
+	Label("REP_TURR1");
+	Layer(1);
+}
+
+Object("REP_TURR2", "rep_bldg_moncal_roundturret", 626895953)
+{
+	ChildRotation(0.709, 0.000, 0.705, 0.000);
+	ChildPosition(-478.568, 24.046, -197.739);
+	SeqNo(626895953);
+	Team(2);
+	NetworkId(-1);
+	Label("REP_TURR1");
+	Layer(1);
+}
+
+Object("REP_TURR1", "rep_bldg_moncal_roundturret", 648584156)
+{
+	ChildRotation(0.708, 0.000, 0.706, 0.000);
+	ChildPosition(-314.876, 11.757, -198.193);
+	SeqNo(648584156);
+	Team(2);
+	NetworkId(-1);
+	Label("REP_TURR1");
+	Layer(1);
+}
+
+Object("REP_TURR8", "rep_bldg_moncal_roundturret", 717802489)
+{
+	ChildRotation(0.705, 0.092, 0.697, 0.092);
+	ChildPosition(-785.377, 29.450, -117.693);
+	SeqNo(717802489);
+	Team(2);
+	NetworkId(-1);
+	Label("REP_TURR1");
+	Layer(1);
+}
+
+Object("REP_TURR4", "rep_bldg_moncal_roundturret", 1217918162)
+{
+	ChildRotation(0.710, 0.000, 0.704, 0.000);
+	ChildPosition(-762.816, 42.367, -198.589);
+	SeqNo(1217918162);
+	Team(2);
+	NetworkId(-1);
+	Label("REP_TURR1");
+	Layer(1);
+}
+
+Object("REP_TURR10", "rep_bldg_moncal_roundturret", 1846618205)
+{
+	ChildRotation(0.711, 0.000, 0.704, 0.000);
+	ChildPosition(-1043.091, 64.510, -144.004);
+	SeqNo(1846618205);
+	Team(2);
+	NetworkId(-1);
+	Label("REP_TURR1");
+	Layer(1);
+}
+
+Object("REP_TURR7", "rep_bldg_moncal_roundturret", -1726740842)
+{
+	ChildRotation(0.702, -0.092, 0.700, -0.092);
+	ChildPosition(-784.077, 29.739, -279.303);
+	SeqNo(-1726740842);
+	Team(2);
+	NetworkId(-1);
+	Label("REP_TURR1");
+	Layer(1);
+}
+
+Object("REP_TURR6", "rep_bldg_moncal_roundturret", -1047460161)
+{
+	ChildRotation(0.710, 0.000, 0.704, 0.000);
+	ChildPosition(-864.668, 52.053, -148.797);
+	SeqNo(-1047460161);
+	Team(2);
+	NetworkId(-1);
+	Label("REP_TURR1");
+	Layer(1);
+}
+
+Object("REP_TURR3", "rep_bldg_moncal_roundturret", -186622693)
+{
+	ChildRotation(0.709, 0.000, 0.705, 0.000);
+	ChildPosition(-629.357, 34.442, -198.756);
+	SeqNo(-186622693);
+	Team(2);
+	NetworkId(-1);
+	Label("REP_TURR1");
+	Layer(1);
+}

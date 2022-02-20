@@ -1,0 +1,6010 @@
+Version(3);
+SaveType(0);
+
+Camera("camera")
+{
+	Rotation(0.707, 0.707, 0.000, 0.000);
+	Position(8.255, 827.640, -2.902);
+	FieldOfView(55.400);
+	NearPlane(1.000);
+	FarPlane(5000.000);
+	ZoomFactor(1.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(116.332, 9.810, -60.548,  0.653, 0.653, 0.271, -0.271);
+}
+LightName("tat2.LGT");
+TerrainName("tat2.ter");
+SkyName("tat2.sky");
+ScriptName("DummyScript.dll");
+ControllerManager("StandardCtrlMgr");
+
+WorldExtents()
+{
+	Min(0.000000, 0.000000, 0.000000);
+	Max(0.000000, 0.000000, 0.000000);
+}
+
+NextSequence(-3705784);
+
+Object("tat2_bldg_wall_column", "tat2_bldg_wall_column", 8345818)
+{
+	ChildRotation(0.908, 0.000, -0.420, 0.000);
+	ChildPosition(-31.724, 0.016, 51.692);
+	SeqNo(8345818);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_medium1", "tat2_bldg_medium1", 31518914)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(78.318, 6.759, 83.875);
+	SeqNo(31518914);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_medium10", "tat2_bldg_medium1", 32390710)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(119.987, 0.000, -0.906);
+	SeqNo(32390710);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_dockingbay_02", "tat2_bldg_dockingbay_02", 36250246)
+{
+	ChildRotation(-0.500, 0.000, -0.866, 0.000);
+	ChildPosition(-73.000, 0.000, -21.000);
+	SeqNo(36250246);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_tower_dome1", "tat2_bldg_tower_dome1", 37648201)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-19.272, 18.051, 128.203);
+	SeqNo(37648201);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_wall01", "tat2_bldg_wall01", 54189927)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(26.951, -0.305, 76.047);
+	SeqNo(54189927);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_shop1", "tat2_bldg_shop1", 60888415)
+{
+	ChildRotation(0.793, 0.000, -0.609, 0.000);
+	ChildPosition(-62.030, 0.000, 40.004);
+	SeqNo(60888415);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_small1", "tat2_bldg_small1", 74326165)
+{
+	ChildRotation(0.942, 0.000, 0.335, 0.000);
+	ChildPosition(-13.800, 0.000, 42.191);
+	SeqNo(74326165);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_small2", "tat2_bldg_small2", 81997946)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-146.007, 0.000, -4.036);
+	SeqNo(81997946);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_entry1", "tat2_bldg_entry1", 82463408)
+{
+	ChildRotation(0.708, 0.000, -0.706, 0.000);
+	ChildPosition(86.460, 0.001, 32.262);
+	SeqNo(82463408);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_entry10", "tat2_bldg_entry1", 82587622)
+{
+	ChildRotation(0.708, 0.000, 0.706, 0.000);
+	ChildPosition(-47.587, 0.000, 114.979);
+	SeqNo(82587622);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_small3", "tat2_bldg_small3", 84740628)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(88.456, 4.589, 36.661);
+	SeqNo(84740628);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("vap19", "tat_prop_evaporator", 92479093)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(58.012, -0.001, -90.994);
+	SeqNo(92479093);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_tower3", "tat2_bldg_tower3", 98031926)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-162.027, 0.000, 37.222);
+	SeqNo(98031926);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_entry11", "tat2_bldg_entry1", 102186851)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(128.001, 0.000, -29.902);
+	SeqNo(102186851);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_large1", "tat2_bldg_large1", 114047635)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(153.020, 0.000, -68.378);
+	SeqNo(114047635);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_tower30", "tat2_bldg_tower3", 117021617)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(73.047, 0.000, -122.927);
+	SeqNo(117021617);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_wall_4M", "tat2_bldg_wall_4M", 117475940)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(53.395, 0.007, 88.833);
+	SeqNo(117475940);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("vap7", "tat_prop_evaporator", 137789972)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(26.085, -0.010, 57.762);
+	SeqNo(137789972);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_small31", "tat2_bldg_small3", 151806372)
+{
+	ChildRotation(0.920, 0.000, 0.391, 0.000);
+	ChildPosition(-44.638, -0.075, 28.353);
+	SeqNo(151806372);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_small32", "tat2_bldg_small3", 157882011)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-85.041, 0.000, 63.993);
+	SeqNo(157882011);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_gate", "tat2_bldg_gate", 158288899)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(80.042, -0.010, -97.707);
+	SeqNo(158288899);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_wall_column0", "tat2_bldg_wall_column", 160789904)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(81.899, 6.944, 8.621);
+	SeqNo(160789904);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_entry12", "tat2_bldg_entry1", 183681766)
+{
+	ChildRotation(0.708, 0.000, 0.706, 0.000);
+	ChildPosition(89.132, 0.001, 52.226);
+	SeqNo(183681766);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_dome1", "tat2_bldg_dome1", 187408044)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-104.048, 4.950, 77.983);
+	SeqNo(187408044);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_wall010", "tat2_bldg_wall01", 196700162)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(93.994, -0.305, -14.919);
+	SeqNo(196700162);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_wall_4M0", "tat2_bldg_wall_4M", 197285835)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(42.886, 0.006, 98.820);
+	SeqNo(197285835);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_dome10", "tat2_bldg_dome1", 197787164)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-67.042, 4.000, 65.001);
+	SeqNo(197787164);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_small33", "tat2_bldg_small3", 200209889)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(42.003, 0.000, -31.944);
+	SeqNo(200209889);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("billboard clump6", "tat2_bldg_billboard_clump", 212857119)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(-92.376, 0.002, 140.704);
+	SeqNo(212857119);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_wall011", "tat2_bldg_wall01", 218467682)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(44.001, -0.305, -27.943);
+	SeqNo(218467682);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_tower_dome10", "tat2_bldg_tower_dome1", 224013552)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-153.010, 17.999, 2.961);
+	SeqNo(224013552);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("vap34", "tat_prop_evaporator", 224213612)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-8.028, -0.056, 15.476);
+	SeqNo(224213612);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_prop_prop2", "tat2_prop_prop2", 225942113)
+{
+	ChildRotation(0.131, 0.000, -0.991, 0.000);
+	ChildPosition(-34.291, 0.935, -29.913);
+	SeqNo(225942113);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_small20", "tat2_bldg_small2", 234608568)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(32.042, 0.000, -111.947);
+	SeqNo(234608568);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_medium12", "tat2_bldg_medium1", 235942050)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-148.017, 0.000, 16.963);
+	SeqNo(235942050);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_wall_column1", "tat2_bldg_wall_column", 236741660)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(54.365, 0.000, -75.582);
+	SeqNo(236741660);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_stair1", "tat2_bldg_stair1", 237893507)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(117.980, 0.000, 12.092);
+	SeqNo(237893507);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_wall_column2", "tat2_bldg_wall_column", 241044885)
+{
+	ChildRotation(0.904, 0.000, -0.428, 0.000);
+	ChildPosition(-28.473, 0.000, 48.994);
+	SeqNo(241044885);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_wall_4M1", "tat2_bldg_wall_4M", 245502387)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(57.423, 0.007, 57.708);
+	SeqNo(245502387);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_medium13", "tat2_bldg_medium1", 246321602)
+{
+	ChildRotation(0.707, 0.000, 0.707, 0.000);
+	ChildPosition(-91.782, 0.000, -93.021);
+	SeqNo(246321602);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_prop_prop20", "tat2_prop_prop2", 250976687)
+{
+	ChildRotation(0.707, 0.000, 0.707, 0.000);
+	ChildPosition(38.075, -0.543, -50.464);
+	SeqNo(250976687);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_small34", "tat2_bldg_small3", 251692030)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-148.983, 0.000, -52.036);
+	SeqNo(251692030);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_billboard20", "tat2_bldg_billboard2", 253586078)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(16.204, 0.000, 164.113);
+	SeqNo(253586078);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_wall012", "tat2_bldg_wall01", 255155502)
+{
+	ChildRotation(0.866, 0.000, 0.500, 0.000);
+	ChildPosition(-25.604, -0.305, 83.628);
+	SeqNo(255155502);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_wall013", "tat2_bldg_wall01", 255474938)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(9.954, -0.305, 71.039);
+	SeqNo(255474938);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_dome2", "tat2_bldg_dome2", 265016844)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(14.009, 5.000, -42.957);
+	SeqNo(265016844);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_entry13", "tat2_bldg_entry1", 266637799)
+{
+	ChildRotation(0.707, 0.000, 0.707, 0.000);
+	ChildPosition(105.979, 0.000, 15.087);
+	SeqNo(266637799);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("vap28", "tat_prop_evaporator", 269575377)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-29.690, -0.033, 74.730);
+	SeqNo(269575377);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_small10", "tat2_bldg_small1", 270471903)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-18.163, 0.000, 76.403);
+	SeqNo(270471903);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_small35", "tat2_bldg_small3", 275411086)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(0.038, 0.000, -101.963);
+	SeqNo(275411086);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_tent1", "tat2_bldg_tent1", 293282694)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(-48.039, 0.000, 58.011);
+	SeqNo(293282694);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("vap20", "tat_prop_evaporator", 299276175)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(35.256, 0.003, -48.660);
+	SeqNo(299276175);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_dockingbay_04", "tat2_bldg_dockingbay_04", 310369405)
+{
+	ChildRotation(-0.500, 0.000, -0.866, 0.000);
+	ChildPosition(-73.000, 0.000, -21.000);
+	SeqNo(310369405);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_wall_column3", "tat2_bldg_wall_column", 314578861)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(59.956, 0.000, 65.063);
+	SeqNo(314578861);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_tower_dome11", "tat2_bldg_tower_dome1", 332384611)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-119.016, 17.999, 13.977);
+	SeqNo(332384611);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_tower4", "tat2_bldg_tower4", 343061899)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-140.272, 14.594, -27.599);
+	SeqNo(343061899);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_entry14", "tat2_bldg_entry1", 345534830)
+{
+	ChildRotation(-0.131, 0.000, -0.991, 0.000);
+	ChildPosition(46.984, 0.000, 8.058);
+	SeqNo(345534830);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_dome3", "tat2_bldg_dome3", 351326527)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-144.379, 12.410, 67.428);
+	SeqNo(351326527);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_large10", "tat2_bldg_large1", 352944563)
+{
+	ChildRotation(-0.383, 0.000, -0.924, 0.000);
+	ChildPosition(-121.971, 0.000, -78.023);
+	SeqNo(352944563);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_small11", "tat2_bldg_small1", 355473441)
+{
+	ChildRotation(0.992, 0.000, 0.130, 0.000);
+	ChildPosition(-53.029, 0.000, 37.009);
+	SeqNo(355473441);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_wall014", "tat2_bldg_wall01", 362572553)
+{
+	ChildRotation(0.527, 0.000, 0.850, 0.000);
+	ChildPosition(-40.943, -0.305, 28.287);
+	SeqNo(362572553);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_small12", "tat2_bldg_small1", 362971431)
+{
+	ChildRotation(0.924, 0.000, -0.383, 0.000);
+	ChildPosition(-27.017, 0.000, 12.022);
+	SeqNo(362971431);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_tower40", "tat2_bldg_tower4", 368579293)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-112.395, 0.000, -120.148);
+	SeqNo(368579293);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_wall_column4", "tat2_bldg_wall_column", 368899493)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(27.352, 0.051, 86.047);
+	SeqNo(368899493);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("vap12", "tat_prop_evaporator", 382784642)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(115.644, 0.117, -41.008);
+	SeqNo(382784642);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_prop_prop21", "tat2_prop_prop2", 387213640)
+{
+	ChildRotation(0.966, 0.000, -0.259, 0.000);
+	ChildPosition(-118.642, 0.935, -36.470);
+	SeqNo(387213640);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_far_clumps6", "tat2_bldg_far_clumps", 394680345)
+{
+	ChildRotation(0.707, 0.000, 0.707, 0.000);
+	ChildPosition(105.000, 0.000, -186.000);
+	SeqNo(394680345);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_tower_dome12", "tat2_bldg_tower_dome1", 415878561)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(118.021, 17.999, -71.906);
+	SeqNo(415878561);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_tent10", "tat2_bldg_tent1", 422024707)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(125.017, 0.000, -62.903);
+	SeqNo(422024707);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_small36", "tat2_bldg_small3", 425146574)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-143.696, 11.284, 51.347);
+	SeqNo(425146574);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_two_stories1", "tat2_bldg_two_stories1", 431342520)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(111.958, 0.000, -106.733);
+	SeqNo(431342520);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_tower1", "tat2_bldg_tower1", 438810617)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-99.652, 0.000, 112.703);
+	SeqNo(438810617);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_arch1", "tat2_bldg_arch1", 445031607)
+{
+	ChildRotation(0.924, 0.000, 0.382, 0.000);
+	ChildPosition(-52.542, 0.000, 112.235);
+	SeqNo(445031607);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_dome30", "tat2_bldg_dome3", 451181982)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(86.125, 11.571, 5.941);
+	SeqNo(451181982);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_wall015", "tat2_bldg_wall01", 459249058)
+{
+	ChildRotation(0.707, 0.000, 0.707, 0.000);
+	ChildPosition(-69.052, -0.305, 85.000);
+	SeqNo(459249058);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_prop_prop22", "tat2_prop_prop2", 461630854)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(72.781, -0.272, -0.088);
+	SeqNo(461630854);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_entry2", "tat2_bldg_entry2", 463966040)
+{
+	ChildRotation(0.707, 0.000, 0.707, 0.000);
+	ChildPosition(-75.055, 0.000, 91.997);
+	SeqNo(463966040);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_wall016", "tat2_bldg_wall01", 469019688)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-105.034, -0.305, 50.983);
+	SeqNo(469019688);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_wall_40M", "tat2_bldg_wall_40M", 475362096)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(39.936, 0.000, 105.053);
+	SeqNo(475362096);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_small37", "tat2_bldg_small3", 479938602)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(65.940, 0.000, 96.066);
+	SeqNo(479938602);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_small13", "tat2_bldg_small1", 481872643)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(24.948, 0.000, 82.046);
+	SeqNo(481872643);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_small22", "tat2_bldg_small2", 484896590)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-139.394, 0.000, -85.827);
+	SeqNo(484896590);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_tower10", "tat2_bldg_tower1", 488927047)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-19.206, 0.024, 128.148);
+	SeqNo(488927047);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_small38", "tat2_bldg_small3", 496072226)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-22.013, 0.000, 117.097);
+	SeqNo(496072226);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_small23", "tat2_bldg_small2", 520152725)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-110.027, 0.000, 34.981);
+	SeqNo(520152725);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_dome31", "tat2_bldg_dome3", 521843050)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(85.024, 7.003, -76.922);
+	SeqNo(521843050);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_small24", "tat2_bldg_small2", 523289758)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(-104.048, 0.000, 77.983);
+	SeqNo(523289758);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("vent pipes4", "tat2_prop_prop1", 526879195)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(-34.609, 0.000, 110.988);
+	SeqNo(526879195);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_prop_prop23", "tat2_prop_prop2", 530872347)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(38.891, 0.577, -14.282);
+	SeqNo(530872347);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_wall_column5", "tat2_bldg_wall_column", 532170827)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(0.912, 0.000, -62.527);
+	SeqNo(532170827);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_medium14", "tat2_bldg_medium1", 556256283)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(125.012, 0.000, -52.903);
+	SeqNo(556256283);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_wall_column6", "tat2_bldg_wall_column", 556404383)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-130.821, 0.000, -46.979);
+	SeqNo(556404383);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_dome32", "tat2_bldg_dome3", 559747280)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(24.948, 6.000, 82.046);
+	SeqNo(559747280);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("vap", "tat_prop_evaporator", 560369328)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-99.372, -0.025, -76.438);
+	SeqNo(560369328);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_wall017", "tat2_bldg_wall01", 593963871)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-102.050, -0.305, 81.984);
+	SeqNo(593963871);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_dome11", "tat2_bldg_dome1", 606213238)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(120.026, 4.000, -80.905);
+	SeqNo(606213238);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_small39", "tat2_bldg_small3", 606982080)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-147.003, 0.000, -13.036);
+	SeqNo(606982080);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_wall_column7", "tat2_bldg_wall_column", 608885851)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(90.274, 6.891, 4.383);
+	SeqNo(608885851);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_dome20", "tat2_bldg_dome2", 614122139)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(80.013, 4.000, -53.925);
+	SeqNo(614122139);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_wall_column8", "tat2_bldg_wall_column", 615736933)
+{
+	ChildRotation(0.924, 0.000, -0.383, 0.000);
+	ChildPosition(139.974, 0.000, 25.103);
+	SeqNo(615736933);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_wall_column9", "tat2_bldg_wall_column", 619028918)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(66.841, 0.000, 14.764);
+	SeqNo(619028918);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_wall_column10", "tat2_bldg_wall_column", 622544992)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(36.725, 0.001, -83.209);
+	SeqNo(622544992);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_medium15", "tat2_bldg_medium1", 631407656)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(40.931, 0.000, 117.053);
+	SeqNo(631407656);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_billboard21", "tat2_bldg_billboard2", 646585828)
+{
+	ChildRotation(0.866, 0.000, -0.500, 0.000);
+	ChildPosition(-191.000, 0.000, 145.000);
+	SeqNo(646585828);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_medium16", "tat2_bldg_medium1", 651119153)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(-60.052, 0.000, 86.004);
+	SeqNo(651119153);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_crashed_spaceship", "tat2_bldg_crashed_spaceship", 663784653)
+{
+	ChildRotation(0.794, 0.000, 0.608, 0.000);
+	ChildPosition(-22.986, -1.000, -51.975);
+	SeqNo(663784653);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_entry15", "tat2_bldg_entry1", 670428232)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(111.677, 0.000, 46.885);
+	SeqNo(670428232);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_tower31", "tat2_bldg_tower3", 692035166)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-156.967, 0.000, -85.040);
+	SeqNo(692035166);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_entry16", "tat2_bldg_entry1", 716649009)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-139.355, 0.006, 50.989);
+	SeqNo(716649009);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_prop_prop24", "tat2_prop_prop2", 719065960)
+{
+	ChildRotation(0.708, 0.000, -0.706, 0.000);
+	ChildPosition(-135.620, -1.411, 24.928);
+	SeqNo(719065960);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_far_clumps4", "tat2_bldg_far_clumps", 725127343)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(107.000, 0.000, 193.000);
+	SeqNo(725127343);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_tower32", "tat2_bldg_tower3", 727085275)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(125.124, 0.000, 99.357);
+	SeqNo(727085275);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_wall_column11", "tat2_bldg_wall_column", 728358110)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(43.967, -0.001, -50.394);
+	SeqNo(728358110);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("vent pipes14", "tat2_prop_prop1", 731314117)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-24.364, 0.000, 62.866);
+	SeqNo(731314117);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_two_stories15", "tat2_bldg_two_stories1", 738574331)
+{
+	ChildRotation(0.924, 0.000, 0.383, 0.000);
+	ChildPosition(152.310, 0.000, -16.640);
+	SeqNo(738574331);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_tower41", "tat2_bldg_tower4", 754850456)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(46.044, 0.000, -115.352);
+	SeqNo(754850456);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_wall_column12", "tat2_bldg_wall_column", 759609657)
+{
+	ChildRotation(0.707, 0.000, 0.707, 0.000);
+	ChildPosition(-20.062, 0.000, 105.023);
+	SeqNo(759609657);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_wall018", "tat2_bldg_wall01", 767540462)
+{
+	ChildRotation(0.707, 0.000, 0.707, 0.000);
+	ChildPosition(-51.054, -0.305, 88.009);
+	SeqNo(767540462);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_billboard1", "tat2_bldg_billboard1", 776282705)
+{
+	ChildRotation(0.868, 0.000, 0.497, 0.000);
+	ChildPosition(173.069, 0.003, -45.072);
+	SeqNo(776282705);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_tower11", "tat2_bldg_tower1", 782893945)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-28.271, 0.000, 81.954);
+	SeqNo(782893945);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_arch10", "tat2_bldg_arch1", 790526783)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(-64.325, 0.001, -94.748);
+	SeqNo(790526783);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_entry17", "tat2_bldg_entry1", 790835571)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(9.366, 0.006, -27.329);
+	SeqNo(790835571);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_wall_column13", "tat2_bldg_wall_column", 803282343)
+{
+	ChildRotation(0.707, 0.000, 0.707, 0.000);
+	ChildPosition(52.816, -0.001, -76.905);
+	SeqNo(803282343);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("vent pipes10", "tat2_prop_prop1", 811963974)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-76.250, 0.000, -88.156);
+	SeqNo(811963974);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_dome33", "tat2_bldg_dome3", 815115645)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-121.048, 5.000, 78.975);
+	SeqNo(815115645);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_dome12", "tat2_bldg_dome1", 834189367)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-137.774, 4.420, 29.259);
+	SeqNo(834189367);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_wall_column14", "tat2_bldg_wall_column", 834856986)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(0.776, 0.000, -84.368);
+	SeqNo(834856986);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_small25", "tat2_bldg_small2", 839209018)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-30.961, 0.000, -102.978);
+	SeqNo(839209018);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_wall_40M0", "tat2_bldg_wall_40M", 839791959)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(140.003, 0.000, -34.896);
+	SeqNo(839791959);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_medium17", "tat2_bldg_medium1", 845803009)
+{
+	ChildRotation(0.383, 0.000, -0.924, 0.000);
+	ChildPosition(78.066, -0.003, 50.408);
+	SeqNo(845803009);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_wall_column15", "tat2_bldg_wall_column", 849022500)
+{
+	ChildRotation(0.924, 0.000, 0.383, 0.000);
+	ChildPosition(13.502, -0.001, -20.220);
+	SeqNo(849022500);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_wall019", "tat2_bldg_wall01", 850732536)
+{
+	ChildRotation(0.707, 0.000, 0.707, 0.000);
+	ChildPosition(-118.054, -0.305, 90.976);
+	SeqNo(850732536);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_wall0110", "tat2_bldg_wall01", 852104009)
+{
+	ChildRotation(0.924, 0.000, 0.383, 0.000);
+	ChildPosition(-23.019, -0.305, 16.024);
+	SeqNo(852104009);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_prop_prop25", "tat2_prop_prop2", 863101899)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(-19.260, 0.935, 72.223);
+	SeqNo(863101899);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_arch11", "tat2_bldg_arch1", 867909315)
+{
+	ChildRotation(0.708, 0.000, -0.706, 0.000);
+	ChildPosition(79.973, 0.001, -98.017);
+	SeqNo(867909315);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("bill 4", "tat2_bldg_billboard4", 868020149)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(23.758, 0.000, -118.626);
+	SeqNo(868020149);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("vent pipes6", "tat2_prop_prop1", 880274733)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(101.398, 0.000, 23.000);
+	SeqNo(880274733);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_small14", "tat2_bldg_small1", 886564542)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(96.991, 0.000, -8.917);
+	SeqNo(886564542);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_wall_column16", "tat2_bldg_wall_column", 889877604)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(2.080, 0.000, -85.645);
+	SeqNo(889877604);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_wall_column17", "tat2_bldg_wall_column", 898003474)
+{
+	ChildRotation(0.866, 0.000, -0.500, 0.000);
+	ChildPosition(-93.733, 0.000, -50.992);
+	SeqNo(898003474);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("billboard clump14", "tat2_bldg_billboard_clump", 899944710)
+{
+	ChildRotation(0.707, 0.000, 0.707, 0.000);
+	ChildPosition(-100.000, 0.000, -132.000);
+	SeqNo(899944710);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_medium18", "tat2_bldg_medium1", 915504744)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(42.992, 0.000, -8.944);
+	SeqNo(915504744);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_small311", "tat2_bldg_small3", 929962034)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(149.003, 0.000, -32.592);
+	SeqNo(929962034);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_large11", "tat2_bldg_large1", 956661025)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-145.007, 0.000, -63.232);
+	SeqNo(956661025);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_dome21", "tat2_bldg_dome2", 960507442)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(28.965, 6.870, 47.048);
+	SeqNo(960507442);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_dome13", "tat2_bldg_dome1", 961243847)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-121.031, 4.000, 44.175);
+	SeqNo(961243847);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_wall_40M1", "tat2_bldg_wall_40M", 962986597)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(139.983, 0.000, 5.103);
+	SeqNo(962986597);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_small312", "tat2_bldg_small3", 969760237)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-20.960, 0.000, -105.973);
+	SeqNo(969760237);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_wall_column18", "tat2_bldg_wall_column", 984729648)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(50.838, 0.000, 68.364);
+	SeqNo(984729648);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_entry18", "tat2_bldg_entry1", 1009717938)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(111.409, 0.000, 27.203);
+	SeqNo(1009717938);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("vap16", "tat_prop_evaporator", 1013413715)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(98.617, -0.038, -47.719);
+	SeqNo(1013413715);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_tent11", "tat2_bldg_tent1", 1014146072)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(31.957, 0.000, 64.050);
+	SeqNo(1014146072);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_small313", "tat2_bldg_small3", 1024147654)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(44.037, 0.000, -100.941);
+	SeqNo(1024147654);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_tower_dome14", "tat2_bldg_tower_dome1", 1027382850)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-26.967, 17.999, -89.976);
+	SeqNo(1027382850);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_tower_dome15", "tat2_bldg_tower_dome1", 1036223080)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(151.944, 17.999, -2.564);
+	SeqNo(1036223080);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_arch12", "tat2_bldg_arch1", 1040716439)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(64.245, 0.001, 51.381);
+	SeqNo(1040716439);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("billboard clump8", "tat2_bldg_billboard_clump", 1044584202)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(-166.000, 0.000, 60.000);
+	SeqNo(1044584202);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_tower42", "tat2_bldg_tower4", 1053134401)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(95.237, 0.000, 66.505);
+	SeqNo(1053134401);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_wall_4M2", "tat2_bldg_wall_4M", 1060010448)
+{
+	ChildRotation(0.793, 0.000, -0.609, 0.000);
+	ChildPosition(-106.546, 0.007, -86.175);
+	SeqNo(1060010448);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_tower12", "tat2_bldg_tower1", 1063719729)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-26.967, 0.000, -89.976);
+	SeqNo(1063719729);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_small314", "tat2_bldg_small3", 1071124466)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(-150.870, 7.005, 75.285);
+	SeqNo(1071124466);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_wall_column19", "tat2_bldg_wall_column", 1087567920)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(46.998, 0.000, -12.773);
+	SeqNo(1087567920);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_far_clumps1", "tat2_bldg_far_clumps", 1088197716)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(-219.000, 0.000, -79.000);
+	SeqNo(1088197716);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("box", "tat2_prop_prop4", 1092430566)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(5.373, 0.086, -86.338);
+	SeqNo(1092430566);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_wall0111", "tat2_bldg_wall01", 1106036744)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(41.996, -0.305, -17.944);
+	SeqNo(1106036744);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_dome14", "tat2_bldg_dome1", 1107443153)
+{
+	ChildRotation(0.942, 0.000, 0.335, 0.000);
+	ChildPosition(-16.826, 4.000, 54.833);
+	SeqNo(1107443153);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_small315", "tat2_bldg_small3", 1117648304)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-21.044, 0.000, 87.107);
+	SeqNo(1117648304);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_small316", "tat2_bldg_small3", 1126355042)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(86.929, 0.000, -117.573);
+	SeqNo(1126355042);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("bill3", "tat2_bldg_billboard3", 1133648524)
+{
+	ChildRotation(0.500, 0.000, 0.866, 0.000);
+	ChildPosition(173.821, 0.001, -110.922);
+	SeqNo(1133648524);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_tower_dome16", "tat2_bldg_tower_dome1", 1134127510)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-151.445, 30.003, 75.115);
+	SeqNo(1134127510);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_entry19", "tat2_bldg_entry1", 1146929641)
+{
+	ChildRotation(0.707, 0.000, 0.707, 0.000);
+	ChildPosition(-121.055, 0.000, 92.974);
+	SeqNo(1146929641);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_wall0112", "tat2_bldg_wall01", 1169480292)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-121.040, -0.305, 62.975);
+	SeqNo(1169480292);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_small317", "tat2_bldg_small3", 1173718339)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-72.367, 4.285, -94.820);
+	SeqNo(1173718339);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_entry20", "tat2_bldg_entry2", 1177324297)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-24.033, 0.000, 74.447);
+	SeqNo(1177324297);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_large12", "tat2_bldg_large1", 1178275586)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(-146.653, 0.011, 70.436);
+	SeqNo(1178275586);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_dome34", "tat2_bldg_dome3", 1181339195)
+{
+	ChildRotation(0.992, 0.000, 0.130, 0.000);
+	ChildPosition(-38.039, 4.000, 58.016);
+	SeqNo(1181339195);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_medium19", "tat2_bldg_medium1", 1195241894)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-121.029, 0.000, 39.975);
+	SeqNo(1195241894);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_wall_column20", "tat2_bldg_wall_column", 1209508102)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(15.678, 0.000, 89.084);
+	SeqNo(1209508102);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_tower33", "tat2_bldg_tower3", 1213629553)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(31.973, 0.000, 30.050);
+	SeqNo(1213629553);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("vent pipes15", "tat2_prop_prop1", 1213662002)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-77.774, 0.000, 80.723);
+	SeqNo(1213662002);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_small318", "tat2_bldg_small3", 1216737262)
+{
+	ChildRotation(0.942, 0.000, 0.335, 0.000);
+	ChildPosition(-28.322, 0.000, 52.635);
+	SeqNo(1216737262);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_entry110", "tat2_bldg_entry1", 1217104542)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(106.010, 0.000, -48.912);
+	SeqNo(1217104542);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("vent pipes", "tat2_prop_prop1", 1225709593)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(3.740, 0.000, -59.366);
+	SeqNo(1225709593);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_wall_40M2", "tat2_bldg_wall_40M", 1226648976)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(59.946, 0.000, 85.063);
+	SeqNo(1226648976);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_wall_column21", "tat2_bldg_wall_column", 1238992892)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(18.253, 0.001, -83.320);
+	SeqNo(1238992892);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_wall0113", "tat2_bldg_wall01", 1244823937)
+{
+	ChildRotation(0.793, 0.000, -0.609, 0.000);
+	ChildPosition(-59.030, -0.305, 40.006);
+	SeqNo(1244823937);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_dome22", "tat2_bldg_dome2", 1249817347)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(42.990, 4.326, -4.944);
+	SeqNo(1249817347);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_stair10", "tat2_bldg_stair1", 1258606953)
+{
+	ChildRotation(0.943, 0.000, 0.334, 0.000);
+	ChildPosition(-15.039, 0.000, 46.942);
+	SeqNo(1258606953);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("vap15", "tat_prop_evaporator", 1283344075)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(98.419, -0.062, -83.580);
+	SeqNo(1283344075);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("vap27", "tat_prop_evaporator", 1288345323)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-2.909, -0.087, -20.757);
+	SeqNo(1288345323);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_wall0114", "tat2_bldg_wall01", 1297613916)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-124.050, -0.305, 84.101);
+	SeqNo(1297613916);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_entry111", "tat2_bldg_entry1", 1298346186)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(47.999, 0.000, -22.941);
+	SeqNo(1298346186);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_prop_prop26", "tat2_prop_prop2", 1300141227)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(29.118, 0.935, 81.335);
+	SeqNo(1300141227);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_tower34", "tat2_bldg_tower3", 1303777938)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(151.036, 0.000, -103.889);
+	SeqNo(1303777938);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("vap17", "tat_prop_evaporator", 1316264162)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(97.599, 0.147, -15.420);
+	SeqNo(1316264162);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_gate0", "tat2_bldg_gate", 1316628312)
+{
+	ChildRotation(0.924, 0.000, 0.382, 0.000);
+	ChildPosition(-52.389, -0.010, 112.066);
+	SeqNo(1316628312);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_dome23", "tat2_bldg_dome2", 1316703807)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-105.037, 4.918, 56.983);
+	SeqNo(1316703807);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_medium110", "tat2_bldg_medium1", 1321544967)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(80.013, 0.000, -53.710);
+	SeqNo(1321544967);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_small15", "tat2_bldg_small1", 1324370664)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(105.982, 0.000, 10.087);
+	SeqNo(1324370664);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_small27", "tat2_bldg_small2", 1327490443)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-96.958, 0.000, -107.010);
+	SeqNo(1327490443);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_tent12", "tat2_bldg_tent1", 1330272154)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(95.025, 0.000, -73.128);
+	SeqNo(1330272154);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_wall_column22", "tat2_bldg_wall_column", 1347026151)
+{
+	ChildRotation(-0.383, 0.000, -0.924, 0.000);
+	ChildPosition(25.713, 0.000, -22.604);
+	SeqNo(1347026151);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("billboard clump2", "tat2_bldg_billboard_clump", 1349638312)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(130.354, -0.001, 59.527);
+	SeqNo(1349638312);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_wall_column23", "tat2_bldg_wall_column", 1353917529)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-75.265, -0.182, -90.446);
+	SeqNo(1353917529);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_small320", "tat2_bldg_small3", 1356923272)
+{
+	ChildRotation(0.966, 0.000, -0.259, 0.000);
+	ChildPosition(37.979, 0.000, 18.053);
+	SeqNo(1356923272);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_arch13", "tat2_bldg_arch1", 1377404650)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-143.143, -0.053, 88.634);
+	SeqNo(1377404650);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_medium111", "tat2_bldg_medium1", 1384477150)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-11.959, 0.000, -107.969);
+	SeqNo(1384477150);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_small28", "tat2_bldg_small2", 1396497593)
+{
+	ChildRotation(0.385, 0.000, -0.923, 0.000);
+	ChildPosition(-58.018, -0.002, 106.525);
+	SeqNo(1396497593);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_small29", "tat2_bldg_small2", 1403194496)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-108.910, 0.000, -97.679);
+	SeqNo(1403194496);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_tower_dome17", "tat2_bldg_tower_dome1", 1405897171)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-13.017, 19.998, 11.029);
+	SeqNo(1405897171);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_two_stories14", "tat2_bldg_two_stories1", 1416120919)
+{
+	ChildRotation(0.707, 0.000, 0.707, 0.000);
+	ChildPosition(150.714, 0.000, -87.416);
+	SeqNo(1416120919);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("vent pipes9", "tat2_prop_prop1", 1422541400)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(60.252, 0.000, -68.141);
+	SeqNo(1422541400);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_small210", "tat2_bldg_small2", 1423367650)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(88.396, 0.000, 36.649);
+	SeqNo(1423367650);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("bill 5", "tat2_bldg_billboard4", 1424129465)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-122.443, 0.000, 149.806);
+	SeqNo(1424129465);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("vap35", "tat_prop_evaporator", 1428820171)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(71.545, -0.049, -35.557);
+	SeqNo(1428820171);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_medium112", "tat2_bldg_medium1", 1436194195)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(11.957, 0.000, 64.040);
+	SeqNo(1436194195);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_wall_40M3", "tat2_bldg_wall_40M", 1440067220)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-139.992, 0.000, -35.032);
+	SeqNo(1440067220);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_small16", "tat2_bldg_small1", 1444045139)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-143.708, 0.000, 43.561);
+	SeqNo(1444045139);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_small17", "tat2_bldg_small1", 1450815505)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-74.052, 0.000, 85.997);
+	SeqNo(1450815505);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_arch14", "tat2_bldg_arch1", 1455707837)
+{
+	ChildRotation(0.708, 0.000, 0.706, 0.000);
+	ChildPosition(64.091, -0.040, 26.161);
+	SeqNo(1455707837);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_wall_column24", "tat2_bldg_wall_column", 1465541595)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(50.953, 0.042, 71.592);
+	SeqNo(1465541595);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_tower35", "tat2_bldg_tower3", 1466071665)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(58.930, 0.000, 118.062);
+	SeqNo(1466071665);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_small18", "tat2_bldg_small1", 1468514556)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-121.052, 0.000, 87.975);
+	SeqNo(1468514556);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_tent13", "tat2_bldg_tent1", 1482218346)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(19.966, 0.000, 45.044);
+	SeqNo(1482218346);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_small321", "tat2_bldg_small3", 1491035491)
+{
+	ChildRotation(0.924, 0.000, -0.382, 0.000);
+	ChildPosition(-127.473, -0.677, -69.166);
+	SeqNo(1491035491);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_fourways", "tat2_bldg_fourways", 1492111290)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(96.009, 0.000, 29.055);
+	SeqNo(1492111290);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_tent14", "tat2_bldg_tent1", 1494942128)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(83.037, 0.000, 36.442);
+	SeqNo(1494942128);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_billboard23", "tat2_bldg_billboard2", 1498246074)
+{
+	ChildRotation(0.707, 0.000, 0.707, 0.000);
+	ChildPosition(189.107, 0.005, 0.040);
+	SeqNo(1498246074);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_wall0115", "tat2_bldg_wall01", 1517694400)
+{
+	ChildRotation(0.707, 0.000, 0.707, 0.000);
+	ChildPosition(-105.053, -0.305, 89.982);
+	SeqNo(1517694400);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_small322", "tat2_bldg_small3", 1522008819)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-111.954, 0.000, -113.017);
+	SeqNo(1522008819);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_wall0116", "tat2_bldg_wall01", 1552440579)
+{
+	ChildRotation(0.707, 0.000, 0.707, 0.000);
+	ChildPosition(76.986, -0.305, 2.073);
+	SeqNo(1552440579);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_wall_column25", "tat2_bldg_wall_column", 1553067940)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(66.825, 0.000, 1.217);
+	SeqNo(1553067940);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_wall0117", "tat2_bldg_wall01", 1561484723)
+{
+	ChildRotation(0.707, 0.000, 0.707, 0.000);
+	ChildPosition(18.950, -0.305, 79.043);
+	SeqNo(1561484723);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("vap4", "tat_prop_evaporator", 1576569573)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(6.909, -0.070, 88.321);
+	SeqNo(1576569573);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_small19", "tat2_bldg_small1", 1581309202)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-67.042, -1.000, 65.001);
+	SeqNo(1581309202);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_medium113", "tat2_bldg_medium1", 1584398218)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(102.849, 0.000, 51.720);
+	SeqNo(1584398218);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("billboard clump7", "tat2_bldg_billboard_clump", 1589801513)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(-155.000, 0.000, 130.000);
+	SeqNo(1589801513);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_entry21", "tat2_bldg_entry2", 1590653239)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(90.991, 0.000, -8.920);
+	SeqNo(1590653239);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_small211", "tat2_bldg_small2", 1594285778)
+{
+	ChildRotation(0.707, 0.000, 0.707, 0.000);
+	ChildPosition(-144.730, 7.013, 67.215);
+	SeqNo(1594285778);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_dome15", "tat2_bldg_dome1", 1600288545)
+{
+	ChildRotation(0.992, 0.000, 0.130, 0.000);
+	ChildPosition(-53.029, 5.000, 37.009);
+	SeqNo(1600288545);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_small212", "tat2_bldg_small2", 1606321950)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-121.048, 0.000, 78.975);
+	SeqNo(1606321950);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_dome16", "tat2_bldg_dome1", 1608201003)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-79.032, 4.000, 43.996);
+	SeqNo(1608201003);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_entry22", "tat2_bldg_entry2", 1608414795)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(82.019, 0.000, -65.785);
+	SeqNo(1608414795);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_entry112", "tat2_bldg_entry1", 1617450007)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-15.442, 0.000, 107.214);
+	SeqNo(1617450007);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_small323", "tat2_bldg_small3", 1619702214)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-33.955, 0.000, -113.979);
+	SeqNo(1619702214);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_billboard50", "tat2_bldg_billboard5", 1620789569)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(151.160, 0.000, 104.137);
+	SeqNo(1620789569);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_small213", "tat2_bldg_small2", 1625223699)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(-105.037, 0.000, 56.983);
+	SeqNo(1625223699);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("billboard clump1", "tat2_bldg_billboard_clump", 1634167425)
+{
+	ChildRotation(0.866, 0.000, -0.500, 0.000);
+	ChildPosition(169.229, 0.000, 48.302);
+	SeqNo(1634167425);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_medium114", "tat2_bldg_medium1", 1653138816)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(87.947, 0.000, -99.099);
+	SeqNo(1653138816);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_medium115", "tat2_bldg_medium1", 1661944467)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(27.954, 0.000, 70.047);
+	SeqNo(1661944467);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_dome24", "tat2_bldg_dome2", 1667821066)
+{
+	ChildRotation(0.916, 0.001, 0.400, -0.005);
+	ChildPosition(-32.916, 4.887, 26.412);
+	SeqNo(1667821066);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_tower43", "tat2_bldg_tower4", 1669230112)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(165.473, 14.662, -35.556);
+	SeqNo(1669230112);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_wall_40M4", "tat2_bldg_wall_40M", 1670355603)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(0.035, 0.000, -94.963);
+	SeqNo(1670355603);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_dome35", "tat2_bldg_dome3", 1678758418)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(119.000, 6.827, -28.906);
+	SeqNo(1678758418);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_medium116", "tat2_bldg_medium1", 1680694684)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(69.001, 0.000, -28.931);
+	SeqNo(1680694684);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_medium117", "tat2_bldg_medium1", 1688220150)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-122.960, 0.000, -102.092);
+	SeqNo(1688220150);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("vap10", "tat_prop_evaporator", 1694427963)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(135.983, 0.117, 20.813);
+	SeqNo(1694427963);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_wall_column26", "tat2_bldg_wall_column", 1697727049)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(67.612, 0.101, -32.933);
+	SeqNo(1697727049);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_small110", "tat2_bldg_small1", 1717322452)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-116.022, 0.000, 24.978);
+	SeqNo(1717322452);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_stair11", "tat2_bldg_stair1", 1724193133)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(-67.055, 0.000, 91.001);
+	SeqNo(1724193133);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_billboard51", "tat2_bldg_billboard5", 1725877811)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(5.000, 0.000, -136.000);
+	SeqNo(1725877811);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_dome25", "tat2_bldg_dome2", 1728738741)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-52.041, 4.000, 63.009);
+	SeqNo(1728738741);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("billboard clump9", "tat2_bldg_billboard_clump", 1748057361)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(-176.644, 0.000, 13.141);
+	SeqNo(1748057361);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("vap3", "tat_prop_evaporator", 1748508232)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-112.092, -0.002, 95.652);
+	SeqNo(1748508232);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("vap", "tat_prop_evaporator", 1756405855)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-126.752, -0.019, 24.735);
+	SeqNo(1756405855);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("vent pipes5", "tat2_prop_prop1", 1761627028)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(36.453, 0.000, 56.625);
+	SeqNo(1761627028);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_medium118", "tat2_bldg_medium1", 1772956305)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(92.012, 0.000, -52.919);
+	SeqNo(1772956305);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_dome36", "tat2_bldg_dome3", 1781788267)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-4.050, 6.999, 79.032);
+	SeqNo(1781788267);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_small111", "tat2_bldg_small1", 1795221188)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(88.018, 0.000, -64.921);
+	SeqNo(1795221188);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_small324", "tat2_bldg_small3", 1801337470)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-85.052, 0.000, 85.992);
+	SeqNo(1801337470);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_wall_column27", "tat2_bldg_wall_column", 1813958300)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-138.771, 0.109, 99.669);
+	SeqNo(1813958300);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_wall_column28", "tat2_bldg_wall_column", 1818921080)
+{
+	ChildRotation(0.707, 0.000, 0.707, 0.000);
+	ChildPosition(99.974, 0.000, 25.083);
+	SeqNo(1818921080);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_medium119", "tat2_bldg_medium1", 1824348718)
+{
+	ChildRotation(0.708, 0.000, -0.706, 0.000);
+	ChildPosition(-79.032, 0.000, 43.996);
+	SeqNo(1824348718);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_small112", "tat2_bldg_small1", 1828699357)
+{
+	ChildRotation(0.991, 0.000, -0.130, 0.000);
+	ChildPosition(41.984, 0.000, 7.056);
+	SeqNo(1828699357);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_medium120", "tat2_bldg_medium1", 1832525423)
+{
+	ChildRotation(0.707, 0.000, 0.707, 0.000);
+	ChildPosition(-52.042, 0.000, 64.009);
+	SeqNo(1832525423);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_wall_column29", "tat2_bldg_wall_column", 1838377427)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(66.847, 0.000, 9.164);
+	SeqNo(1838377427);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_wall_column30", "tat2_bldg_wall_column", 1848605663)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(-58.811, 0.000, 59.941);
+	SeqNo(1848605663);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_stair12", "tat2_bldg_stair1", 1853705665)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(84.000, 0.000, -62.654);
+	SeqNo(1853705665);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("billboard clump3", "tat2_bldg_billboard_clump", 1859203502)
+{
+	ChildRotation(0.708, 0.000, -0.706, 0.000);
+	ChildPosition(100.069, 0.001, 89.303);
+	SeqNo(1859203502);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_small325", "tat2_bldg_small3", 1859963518)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(13.946, 0.000, 86.040);
+	SeqNo(1859963518);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("box1", "tat2_prop_prop4", 1866978685)
+{
+	ChildRotation(0.732, 0.000, -0.682, 0.000);
+	ChildPosition(-64.987, 0.086, 14.554);
+	SeqNo(1866978685);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_arch15", "tat2_bldg_arch1", 1870425830)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(113.981, 0.000, 10.091);
+	SeqNo(1870425830);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_tower13", "tat2_bldg_tower1", 1873905620)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-153.010, 0.000, 2.961);
+	SeqNo(1873905620);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_wall_column31", "tat2_bldg_wall_column", 1883302022)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-140.021, 0.000, 24.966);
+	SeqNo(1883302022);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_tower14", "tat2_bldg_tower1", 1894329188)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-119.016, 0.000, 13.977);
+	SeqNo(1894329188);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_wall0118", "tat2_bldg_wall01", 1895997690)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-118.019, -0.305, 18.977);
+	SeqNo(1895997690);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_wall_column32", "tat2_bldg_wall_column", 1897116455)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(-32.018, 0.001, 114.670);
+	SeqNo(1897116455);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_wall0119", "tat2_bldg_wall01", 1912687023)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(43.987, -0.305, 1.057);
+	SeqNo(1912687023);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("vap6", "tat_prop_evaporator", 1917453785)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(53.002, 0.004, 48.979);
+	SeqNo(1917453785);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("vent pipes8", "tat2_prop_prop1", 1917883734)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(94.068, 0.000, -62.828);
+	SeqNo(1917883734);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("vap32", "tat_prop_evaporator", 1935864800)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-52.594, -0.021, 43.567);
+	SeqNo(1935864800);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat_bldg_barge", "tat_bldg_barge", 1951398889)
+{
+	ChildRotation(0.278, 0.000, -0.961, 0.000);
+	ChildPosition(-81.759, 2.144, -11.494);
+	SeqNo(1951398889);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("billboard clump5", "tat2_bldg_billboard_clump", 1963939559)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(-11.812, 0.001, 146.938);
+	SeqNo(1963939559);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_wall0120", "tat2_bldg_wall01", 1964727596)
+{
+	ChildRotation(0.707, 0.000, 0.707, 0.000);
+	ChildPosition(-81.042, -0.305, 65.994);
+	SeqNo(1964727596);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_wall0121", "tat2_bldg_wall01", 1967605685)
+{
+	ChildRotation(0.966, 0.000, -0.259, 0.000);
+	ChildPosition(10.980, -0.305, 17.040);
+	SeqNo(1967605685);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("com_item_healthrecharge", "com_item_healthrecharge", 1975107259)
+{
+	ChildRotation(0.316, 0.000, -0.949, 0.000);
+	ChildPosition(30.544, 0.000, 64.364);
+	SeqNo(1975107259);
+	Team(0);
+	NetworkId(-1);
+	EffectRegion("");
+	Radius("5.0");
+}
+
+Object("tat2_bldg_entry23", "tat2_bldg_entry2", 1979249370)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(-85.110, 0.001, 59.716);
+	SeqNo(1979249370);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_medium121", "tat2_bldg_medium1", 1983419797)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(-138.105, 0.000, 33.087);
+	SeqNo(1983419797);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_gate1", "tat2_bldg_gate", 1984490582)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-142.842, -0.010, 88.634);
+	SeqNo(1984490582);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_wall0122", "tat2_bldg_wall01", 2020012541)
+{
+	ChildRotation(0.707, 0.000, 0.707, 0.000);
+	ChildPosition(-61.043, -0.305, 67.004);
+	SeqNo(2020012541);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_wall_4M3", "tat2_bldg_wall_4M", 2032541770)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(55.286, 0.007, 79.492);
+	SeqNo(2032541770);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_dome26", "tat2_bldg_dome2", 2039274783)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-112.052, 5.000, 87.979);
+	SeqNo(2039274783);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_stair13", "tat2_bldg_stair1", 2041934778)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(26.951, 0.000, 75.047);
+	SeqNo(2041934778);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_dome37", "tat2_bldg_dome3", 2048614498)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-107.032, 5.000, 44.982);
+	SeqNo(2048614498);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("bill5", "tat2_bldg_billboard3", 2050351235)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-52.888, 0.000, 151.020);
+	SeqNo(2050351235);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_wall_column33", "tat2_bldg_wall_column", 2061130153)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(40.044, 0.000, -35.145);
+	SeqNo(2061130153);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_medium122", "tat2_bldg_medium1", 2071376991)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-155.423, 0.000, -39.720);
+	SeqNo(2071376991);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_two_stories10", "tat2_bldg_two_stories1", 2076372466)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(18.218, 0.000, -27.479);
+	SeqNo(2076372466);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_small326", "tat2_bldg_small3", 2080589596)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(71.607, -0.593, 43.116);
+	SeqNo(2080589596);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_tower15", "tat2_bldg_tower1", 2084611555)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-109.969, 0.000, -84.017);
+	SeqNo(2084611555);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_arch16", "tat2_bldg_arch1", 2093593792)
+{
+	ChildRotation(0.708, 0.000, 0.706, 0.000);
+	ChildPosition(95.900, 0.001, -94.895);
+	SeqNo(2093593792);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("box3", "tat2_prop_prop4", 2098036959)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(-35.570, 0.086, 86.812);
+	SeqNo(2098036959);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_wall_column34", "tat2_bldg_wall_column", 2099547059)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-143.335, 0.000, 83.000);
+	SeqNo(2099547059);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_small113", "tat2_bldg_small1", 2099914147)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(86.065, 6.890, 6.249);
+	SeqNo(2099914147);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("vap31", "tat_prop_evaporator", 2106691849)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-34.785, 0.117, 15.843);
+	SeqNo(2106691849);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("billboard clump4", "tat2_bldg_billboard_clump", 2120353191)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(39.749, 0.001, 132.781);
+	SeqNo(2120353191);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_small214", "tat2_bldg_small2", 2120779291)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(70.935, 0.000, 106.068);
+	SeqNo(2120779291);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_prop_prop27", "tat2_prop_prop2", 2136329836)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(1.004, 0.935, -65.547);
+	SeqNo(2136329836);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_tower_dome18", "tat2_bldg_tower_dome1", 2137904496)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(87.995, 3.364, -95.233);
+	SeqNo(2137904496);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_wall_column35", "tat2_bldg_wall_column", -2144703566)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(8.614, 0.000, -45.435);
+	SeqNo(-2144703566);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_billboard25", "tat2_bldg_billboard2", -2144514718)
+{
+	ChildRotation(0.999, 0.000, -0.050, 0.000);
+	ChildPosition(-26.127, 0.000, 187.585);
+	SeqNo(-2144514718);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_tent15", "tat2_bldg_tent1", -2128340356)
+{
+	ChildRotation(0.130, 0.000, -0.992, 0.000);
+	ChildPosition(-47.028, 0.000, 36.012);
+	SeqNo(-2128340356);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_medium124", "tat2_bldg_medium1", -2121075004)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(17.932, 0.000, 116.042);
+	SeqNo(-2121075004);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_arch17", "tat2_bldg_arch1", -2116006797)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(112.014, 0.000, -56.909);
+	SeqNo(-2116006797);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("com_item_weaponrecharge", "com_item_weaponrecharge", -2112679116)
+{
+	ChildRotation(0.651, 0.000, 0.759, 0.000);
+	ChildPosition(94.040, -0.014, -77.372);
+	SeqNo(-2112679116);
+	Team(0);
+	NetworkId(-1);
+	EffectRegion("");
+	Radius("5.0");
+}
+
+Object("tat2_bldg_small327", "tat2_bldg_small3", -2095344163)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-121.043, 0.000, 69.975);
+	SeqNo(-2095344163);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_wall_column36", "tat2_bldg_wall_column", -2085609348)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(140.013, 0.000, -54.896);
+	SeqNo(-2085609348);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_small328", "tat2_bldg_small3", -2052498962)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-143.957, 0.000, -106.033);
+	SeqNo(-2052498962);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_wall_column37", "tat2_bldg_wall_column", -2048123834)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(-23.784, 0.001, 114.063);
+	SeqNo(-2048123834);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_wall_4M4", "tat2_bldg_wall_4M", -2041075402)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(-137.770, 0.008, -47.013);
+	SeqNo(-2041075402);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("billboard clump21", "tat2_bldg_billboard_clump", -2036724232)
+{
+	ChildRotation(0.707, 0.000, 0.707, 0.000);
+	ChildPosition(104.181, 0.001, -126.743);
+	SeqNo(-2036724232);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_stair14", "tat2_bldg_stair1", -2035500607)
+{
+	ChildRotation(0.708, 0.000, 0.706, 0.000);
+	ChildPosition(120.016, 0.000, -60.905);
+	SeqNo(-2035500607);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_large13", "tat2_bldg_large1", -2034565052)
+{
+	ChildRotation(0.707, 0.000, 0.707, 0.000);
+	ChildPosition(86.766, 0.003, 8.829);
+	SeqNo(-2034565052);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("vent pipes12", "tat2_prop_prop1", -2016811184)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-48.791, 0.000, -12.326);
+	SeqNo(-2016811184);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_small329", "tat2_bldg_small3", -1998782879)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-151.036, 0.000, 55.961);
+	SeqNo(-1998782879);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_wall_column38", "tat2_bldg_wall_column", -1992618970)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(88.775, 6.925, 10.632);
+	SeqNo(-1992618970);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_wall0123", "tat2_bldg_wall01", -1966012877)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-105.045, -0.305, 71.983);
+	SeqNo(-1966012877);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_entry113", "tat2_bldg_entry1", -1965607295)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(126.983, 0.000, 7.097);
+	SeqNo(-1965607295);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_tower16", "tat2_bldg_tower1", -1963052937)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(75.958, 0.000, 59.071);
+	SeqNo(-1963052937);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("vent pipes2", "tat2_prop_prop1", -1951467977)
+{
+	ChildRotation(0.707, 0.000, 0.707, 0.000);
+	ChildPosition(-71.254, 0.000, 49.394);
+	SeqNo(-1951467977);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_wall0124", "tat2_bldg_wall01", -1941945153)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(23.012, -0.305, -48.927);
+	SeqNo(-1941945153);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_large14", "tat2_bldg_large1", -1935161209)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(85.024, 0.000, -76.226);
+	SeqNo(-1935161209);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("vap21", "tat_prop_evaporator", -1931028306)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-20.055, 0.117, -90.047);
+	SeqNo(-1931028306);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_small215", "tat2_bldg_small2", -1928689893)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(37.939, 0.000, 99.052);
+	SeqNo(-1928689893);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_dome27", "tat2_bldg_dome2", -1927758125)
+{
+	ChildRotation(0.966, 0.000, -0.259, 0.000);
+	ChildPosition(9.977, 4.000, 23.040);
+	SeqNo(-1927758125);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_wall0125", "tat2_bldg_wall01", -1912641377)
+{
+	ChildRotation(0.707, 0.000, 0.707, 0.000);
+	ChildPosition(-115.046, -0.305, 75.978);
+	SeqNo(-1912641377);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_small114", "tat2_bldg_small1", -1900016348)
+{
+	ChildRotation(0.924, 0.000, 0.382, 0.000);
+	ChildPosition(-0.026, 0.000, 30.035);
+	SeqNo(-1900016348);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_wall_4M5", "tat2_bldg_wall_4M", -1888570695)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(35.220, 0.007, 102.826);
+	SeqNo(-1888570695);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_tent16", "tat2_bldg_tent1", -1885080650)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(122.989, 0.000, -6.905);
+	SeqNo(-1885080650);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_arch18", "tat2_bldg_arch1", -1874761611)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(125.006, 0.000, -40.903);
+	SeqNo(-1874761611);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_small330", "tat2_bldg_small3", -1874189371)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-72.349, 4.282, -100.834);
+	SeqNo(-1874189371);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_wall_4M6", "tat2_bldg_wall_4M", -1856764315)
+{
+	ChildRotation(0.924, 0.000, -0.383, 0.000);
+	ChildPosition(-111.989, 0.007, -80.770);
+	SeqNo(-1856764315);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_small331", "tat2_bldg_small3", -1853714835)
+{
+	ChildRotation(0.924, 0.000, 0.383, 0.000);
+	ChildPosition(-4.031, 0.000, 39.032);
+	SeqNo(-1853714835);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_wall_40M5", "tat2_bldg_wall_40M", -1843073474)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(59.965, 0.000, 45.064);
+	SeqNo(-1843073474);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("billboard clump19", "tat2_bldg_billboard_clump", -1842125960)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(177.825, 0.000, -85.430);
+	SeqNo(-1842125960);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_small216", "tat2_bldg_small2", -1826744480)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(-144.021, 5.636, 51.550);
+	SeqNo(-1826744480);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_wall_column39", "tat2_bldg_wall_column", -1823679847)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(90.285, 6.918, 8.573);
+	SeqNo(-1823679847);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("vap", "tat_prop_evaporator", -1819501320)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-80.187, -0.013, -83.036);
+	SeqNo(-1819501320);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_arch19", "tat2_bldg_arch1", -1812928788)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-143.928, 0.000, 59.154);
+	SeqNo(-1812928788);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_wall0126", "tat2_bldg_wall01", -1806111520)
+{
+	ChildRotation(0.707, 0.000, 0.707, 0.000);
+	ChildPosition(-41.052, -0.305, 84.014);
+	SeqNo(-1806111520);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_large15", "tat2_bldg_large1", -1805862741)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(116.968, 0.000, 37.091);
+	SeqNo(-1805862741);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_entry114", "tat2_bldg_entry1", -1797646102)
+{
+	ChildRotation(0.707, 0.000, 0.707, 0.000);
+	ChildPosition(93.086, 0.001, 52.234);
+	SeqNo(-1797646102);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("vap33", "tat_prop_evaporator", -1796727109)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-37.999, -0.032, 51.430);
+	SeqNo(-1796727109);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_wall_4M7", "tat2_bldg_wall_4M", -1786802734)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(57.445, 0.007, 61.696);
+	SeqNo(-1786802734);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_wall_column40", "tat2_bldg_wall_column", -1783229958)
+{
+	ChildRotation(0.866, 0.000, -0.500, 0.000);
+	ChildPosition(-88.622, 0.000, -53.767);
+	SeqNo(-1783229958);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_wall_column41", "tat2_bldg_wall_column", -1782557732)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-102.934, 0.000, 41.967);
+	SeqNo(-1782557732);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_small332", "tat2_bldg_small3", -1768894083)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(71.467, 6.759, 78.917);
+	SeqNo(-1768894083);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_small333", "tat2_bldg_small3", -1754901722)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-133.985, 0.000, -48.985);
+	SeqNo(-1754901722);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("box5", "tat2_prop_prop4", -1753370862)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(54.990, 0.086, -72.758);
+	SeqNo(-1753370862);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_tower_dome19", "tat2_bldg_tower_dome1", -1744944776)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-112.047, 16.919, 75.979);
+	SeqNo(-1744944776);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_small334", "tat2_bldg_small3", -1740697939)
+{
+	ChildRotation(0.992, 0.000, 0.130, 0.000);
+	ChildPosition(-38.039, 0.000, 58.016);
+	SeqNo(-1740697939);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_tower_dome110", "tat2_bldg_tower_dome1", -1736333312)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-25.971, 17.999, -81.976);
+	SeqNo(-1736333312);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_small115", "tat2_bldg_small1", -1736215106)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(42.999, 0.000, -22.943);
+	SeqNo(-1736215106);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_entry24", "tat2_bldg_entry2", -1735651523)
+{
+	ChildRotation(0.383, 0.000, -0.924, 0.000);
+	ChildPosition(-10.456, 0.000, 8.302);
+	SeqNo(-1735651523);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_wall_column43", "tat2_bldg_wall_column", -1731826495)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(96.245, 0.276, 47.719);
+	SeqNo(-1731826495);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_wall0127", "tat2_bldg_wall01", -1730727648)
+{
+	ChildRotation(0.707, 0.000, 0.707, 0.000);
+	ChildPosition(18.009, -0.305, -43.955);
+	SeqNo(-1730727648);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_tower36", "tat2_bldg_tower3", -1719077629)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-40.650, 0.000, 115.218);
+	SeqNo(-1719077629);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_tower44", "tat2_bldg_tower4", -1716766658)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(1.535, 6.351, 120.521);
+	SeqNo(-1716766658);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_large16", "tat2_bldg_large1", -1709230383)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(86.998, 0.000, -23.922);
+	SeqNo(-1709230383);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_wall_column44", "tat2_bldg_wall_column", -1697359077)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(66.858, 0.000, 5.015);
+	SeqNo(-1697359077);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_wall_column45", "tat2_bldg_wall_column", -1696240182)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(38.851, 0.000, -34.000);
+	SeqNo(-1696240182);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_dome28", "tat2_bldg_dome2", -1694241226)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(7.957, 4.000, 64.038);
+	SeqNo(-1694241226);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_wall_column46", "tat2_bldg_wall_column", -1675506451)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(2.234, 0.000, -61.166);
+	SeqNo(-1675506451);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("can2", "tat2_prop_prop3", -1674825667)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-57.469, 0.000, -39.793);
+	SeqNo(-1674825667);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_small335", "tat2_bldg_small3", -1669765277)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(27.933, 0.000, 112.047);
+	SeqNo(-1669765277);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("can", "tat2_prop_prop3", -1654200453)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-4.264, 0.000, -81.380);
+	SeqNo(-1654200453);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_small116", "tat2_bldg_small1", -1645516394)
+{
+	ChildRotation(0.912, 0.001, 0.409, -0.005);
+	ChildPosition(-32.967, -0.088, 26.412);
+	SeqNo(-1645516394);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_wall0128", "tat2_bldg_wall01", -1643025257)
+{
+	ChildRotation(0.942, 0.000, 0.335, 0.000);
+	ChildPosition(-25.043, -0.305, 54.132);
+	SeqNo(-1643025257);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_dome38", "tat2_bldg_dome3", -1632784323)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(96.991, 4.000, -8.917);
+	SeqNo(-1632784323);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_wall0129", "tat2_bldg_wall01", -1626153867)
+{
+	ChildRotation(0.924, 0.000, -0.382, 0.000);
+	ChildPosition(-7.031, -0.305, 40.031);
+	SeqNo(-1626153867);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_billboard211", "tat2_bldg_billboard5", -1621509622)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-176.000, 0.000, -157.000);
+	SeqNo(-1621509622);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_wall_column47", "tat2_bldg_wall_column", -1610561630)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-140.002, 0.000, -15.033);
+	SeqNo(-1610561630);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_two_stories11", "tat2_bldg_two_stories1", -1608179397)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-140.360, 0.000, -27.756);
+	SeqNo(-1608179397);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_small117", "tat2_bldg_small1", -1605676503)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-147.516, 0.000, 81.602);
+	SeqNo(-1605676503);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_wall0130", "tat2_bldg_wall01", -1604385575)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(76.980, -0.305, 14.072);
+	SeqNo(-1604385575);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_tower17", "tat2_bldg_tower1", -1602819758)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-87.958, 0.000, -106.006);
+	SeqNo(-1602819758);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_dome39", "tat2_bldg_dome3", -1600789250)
+{
+	ChildRotation(0.924, 0.000, 0.383, 0.000);
+	ChildPosition(-115.971, 6.980, -79.020);
+	SeqNo(-1600789250);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_wall_column48", "tat2_bldg_wall_column", -1599301862)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-88.143, 0.000, 87.983);
+	SeqNo(-1599301862);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_small336", "tat2_bldg_small3", -1595556036)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-17.066, 0.000, 112.025);
+	SeqNo(-1595556036);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("vap", "tat_prop_evaporator", -1591799590)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-49.987, -0.058, -89.853);
+	SeqNo(-1591799590);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_tower_dome111", "tat2_bldg_tower_dome1", -1569636476)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(113.664, 9.849, 40.277);
+	SeqNo(-1569636476);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_entry25", "tat2_bldg_entry2", -1565443103)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-44.494, 0.000, -86.187);
+	SeqNo(-1565443103);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_tower_dome112", "tat2_bldg_tower_dome1", -1553791596)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-87.958, 17.999, -106.006);
+	SeqNo(-1553791596);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_tent18", "tat2_bldg_tent1", -1550575921)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(-3.046, 0.000, 70.032);
+	SeqNo(-1550575921);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_dome17", "tat2_bldg_dome1", -1544414062)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-143.669, 14.511, 51.253);
+	SeqNo(-1544414062);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_small338", "tat2_bldg_small3", -1531985291)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-139.142, 6.000, -85.514);
+	SeqNo(-1531985291);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_wall_column49", "tat2_bldg_wall_column", -1528766567)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(76.009, 0.067, -46.977);
+	SeqNo(-1528766567);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("billboard clump17", "tat2_bldg_billboard_clump", -1520302719)
+{
+	ChildRotation(0.707, 0.000, 0.707, 0.000);
+	ChildPosition(57.228, 0.001, -140.988);
+	SeqNo(-1520302719);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_small339", "tat2_bldg_small3", -1506101930)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-134.960, 0.000, -101.029);
+	SeqNo(-1506101930);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_entry26", "tat2_bldg_entry2", -1477758492)
+{
+	ChildRotation(-0.383, 0.000, -0.924, 0.000);
+	ChildPosition(-134.312, 0.000, -21.471);
+	SeqNo(-1477758492);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_entry115", "tat2_bldg_entry1", -1475898783)
+{
+	ChildRotation(0.707, 0.000, 0.707, 0.000);
+	ChildPosition(-45.055, 0.000, 91.012);
+	SeqNo(-1475898783);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_wall_column50", "tat2_bldg_wall_column", -1471632342)
+{
+	ChildRotation(-0.383, 0.000, -0.924, 0.000);
+	ChildPosition(23.159, 0.000, -20.226);
+	SeqNo(-1471632342);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_dome18", "tat2_bldg_dome1", -1455987668)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-121.037, 5.000, 56.975);
+	SeqNo(-1455987668);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_wall_column51", "tat2_bldg_wall_column", -1448770071)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-69.327, -0.207, -90.443);
+	SeqNo(-1448770071);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_billboard26", "tat2_bldg_billboard2", -1443919500)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(85.920, 0.000, 130.546);
+	SeqNo(-1443919500);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_wall_column52", "tat2_bldg_wall_column", -1437426915)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(30.340, 0.001, -83.308);
+	SeqNo(-1437426915);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_entry27", "tat2_bldg_entry2", -1435841606)
+{
+	ChildRotation(0.912, 0.001, 0.409, -0.005);
+	ChildPosition(-35.485, -0.064, 31.474);
+	SeqNo(-1435841606);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_wall_column53", "tat2_bldg_wall_column", -1432508705)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-139.982, 0.000, -55.032);
+	SeqNo(-1432508705);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_wall0131", "tat2_bldg_wall01", -1430084592)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-113.024, -0.305, 28.980);
+	SeqNo(-1430084592);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("box4", "tat2_prop_prop4", -1429989620)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(82.518, 0.086, -15.081);
+	SeqNo(-1429989620);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("billboard clump11", "tat2_bldg_billboard_clump", -1421649045)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(-176.000, 0.000, -53.000);
+	SeqNo(-1421649045);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_wall_40M6", "tat2_bldg_wall_40M", -1421311549)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(-80.061, 0.000, 104.994);
+	SeqNo(-1421311549);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_tent19", "tat2_bldg_tent1", -1420763718)
+{
+	ChildRotation(-0.259, 0.000, -0.966, 0.000);
+	ChildPosition(14.981, 0.000, 14.042);
+	SeqNo(-1420763718);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_wall_column54", "tat2_bldg_wall_column", -1418597476)
+{
+	ChildRotation(0.924, 0.000, 0.382, 0.000);
+	ChildPosition(10.778, 0.000, -22.597);
+	SeqNo(-1418597476);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("vap13", "tat_prop_evaporator", -1407849044)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(131.861, -0.002, -61.756);
+	SeqNo(-1407849044);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_wall_column55", "tat2_bldg_wall_column", -1406804875)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(24.151, 0.001, -83.371);
+	SeqNo(-1406804875);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_large17", "tat2_bldg_large1", -1405517174)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(0.466, 0.000, 119.858);
+	SeqNo(-1405517174);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_medium126", "tat2_bldg_medium1", -1402558260)
+{
+	ChildRotation(0.966, 0.000, -0.259, 0.000);
+	ChildPosition(11.984, 0.000, 8.041);
+	SeqNo(-1402558260);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_dome19", "tat2_bldg_dome1", -1396899976)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-45.053, 5.000, 86.012);
+	SeqNo(-1396899976);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_small217", "tat2_bldg_small2", -1395704291)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-80.070, 0.000, -99.635);
+	SeqNo(-1395704291);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_wall0132", "tat2_bldg_wall01", -1377464190)
+{
+	ChildRotation(0.991, 0.000, -0.130, 0.000);
+	ChildPosition(36.976, -0.305, 23.053);
+	SeqNo(-1377464190);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_tower45", "tat2_bldg_tower4", -1377291883)
+{
+	ChildRotation(0.966, 0.000, 0.259, 0.000);
+	ChildPosition(150.784, 0.000, 18.172);
+	SeqNo(-1377291883);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_small340", "tat2_bldg_small3", -1362683215)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-147.026, 0.000, 35.963);
+	SeqNo(-1362683215);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("vap18", "tat_prop_evaporator", -1352473440)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(72.602, -0.030, -71.515);
+	SeqNo(-1352473440);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_wall_column56", "tat2_bldg_wall_column", -1350937601)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(47.093, 0.000, -5.049);
+	SeqNo(-1350937601);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_tent110", "tat2_bldg_tent1", -1335418245)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-127.052, 0.000, 87.972);
+	SeqNo(-1335418245);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_tent111", "tat2_bldg_tent1", -1320089129)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-127.027, 0.000, 35.973);
+	SeqNo(-1320089129);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_small218", "tat2_bldg_small2", -1313480868)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(137.192, 0.000, -103.865);
+	SeqNo(-1313480868);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_tower18", "tat2_bldg_tower1", -1307828028)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(41.974, 0.000, 27.055);
+	SeqNo(-1307828028);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("bill tower", "tat2_bldg_billboard1", -1305577787)
+{
+	ChildRotation(0.697, 0.000, -0.717, 0.000);
+	ChildPosition(-169.561, 0.007, -48.702);
+	SeqNo(-1305577787);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("vap14", "tat_prop_evaporator", -1304357941)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(127.988, -0.008, -83.376);
+	SeqNo(-1304357941);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_tower_dome113", "tat2_bldg_tower_dome1", -1303411994)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(88.386, 7.264, 36.518);
+	SeqNo(-1303411994);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_wall_40M7", "tat2_bldg_wall_40M", -1296865543)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-140.011, 0.000, 4.967);
+	SeqNo(-1296865543);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_dockingbay_01", "tat2_bldg_dockingbay_01", -1296460597)
+{
+	ChildRotation(-0.500, 0.000, -0.866, 0.000);
+	ChildPosition(-73.000, 0.000, -21.000);
+	SeqNo(-1296460597);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_wall_column57", "tat2_bldg_wall_column", -1292919866)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(101.593, 0.154, 47.720);
+	SeqNo(-1292919866);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_dome29", "tat2_bldg_dome2", -1284021861)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-72.360, 9.284, -95.305);
+	SeqNo(-1284021861);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_small118", "tat2_bldg_small1", -1280183870)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(17.961, 0.000, 56.043);
+	SeqNo(-1280183870);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_tower46", "tat2_bldg_tower4", -1274377200)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-136.965, 0.000, 115.732);
+	SeqNo(-1274377200);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_tower19", "tat2_bldg_tower1", -1272612716)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(118.021, 0.000, -71.906);
+	SeqNo(-1272612716);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_medium127", "tat2_bldg_medium1", -1267501190)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(-142.770, 0.000, 99.506);
+	SeqNo(-1267501190);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_tower37", "tat2_bldg_tower3", -1246897414)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(12.952, 0.000, 75.040);
+	SeqNo(-1246897414);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("vap9", "tat_prop_evaporator", -1240993166)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(76.909, -0.045, 15.777);
+	SeqNo(-1240993166);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_tent112", "tat2_bldg_tent1", -1231165359)
+{
+	ChildRotation(0.939, 0.004, -0.344, -0.017);
+	ChildPosition(-37.222, -0.074, 22.183);
+	SeqNo(-1231165359);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_medium128", "tat2_bldg_medium1", -1230332943)
+{
+	ChildRotation(-0.430, 0.000, -0.903, 0.000);
+	ChildPosition(-16.826, 0.000, 54.833);
+	SeqNo(-1230332943);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_wall0133", "tat2_bldg_wall01", -1229220628)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(21.463, -0.305, -37.546);
+	SeqNo(-1229220628);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_tent113", "tat2_bldg_tent1", -1219822834)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(109.000, 0.000, -27.911);
+	SeqNo(-1219822834);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_wall0134", "tat2_bldg_wall01", -1201659506)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-118.024, -0.305, 29.977);
+	SeqNo(-1201659506);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_small341", "tat2_bldg_small3", -1199454258)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-33.816, 0.000, 117.794);
+	SeqNo(-1199454258);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("vap30", "tat_prop_evaporator", -1197005750)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-67.866, -0.010, 23.033);
+	SeqNo(-1197005750);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_shop10", "tat2_bldg_shop1", -1192463418)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(-104.043, 0.000, 68.983);
+	SeqNo(-1192463418);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_wall_column58", "tat2_bldg_wall_column", -1186092929)
+{
+	ChildRotation(0.707, 0.000, 0.707, 0.000);
+	ChildPosition(-100.061, 0.000, 104.984);
+	SeqNo(-1186092929);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_far_clumps7", "tat2_bldg_far_clumps", -1185481453)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(-224.000, 0.000, 96.000);
+	SeqNo(-1185481453);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_entry116", "tat2_bldg_entry1", -1172555979)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(12.961, 0.000, 56.040);
+	SeqNo(-1172555979);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_tower38", "tat2_bldg_tower3", -1156929484)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(83.814, 0.000, 110.426);
+	SeqNo(-1156929484);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_wall0135", "tat2_bldg_wall01", -1155408903)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(112.006, -0.305, -40.909);
+	SeqNo(-1155408903);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_tower_dome114", "tat2_bldg_tower_dome1", -1145106547)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(75.958, 17.999, 59.071);
+	SeqNo(-1145106547);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_tower110", "tat2_bldg_tower1", -1133352225)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(98.738, 0.000, -104.059);
+	SeqNo(-1133352225);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_small119", "tat2_bldg_small1", -1130350597)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-107.032, 0.000, 44.982);
+	SeqNo(-1130350597);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_shop11", "tat2_bldg_shop1", -1126040652)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(-36.051, 0.000, 82.016);
+	SeqNo(-1126040652);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_medium129", "tat2_bldg_medium1", -1123090874)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(132.968, 0.000, 37.099);
+	SeqNo(-1123090874);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_dome310", "tat2_bldg_dome3", -1107796631)
+{
+	ChildRotation(0.924, 0.000, 0.381, 0.000);
+	ChildPosition(-124.356, 11.666, -80.643);
+	SeqNo(-1107796631);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_large18", "tat2_bldg_large1", -1107351693)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(-70.090, 0.000, 128.532);
+	SeqNo(-1107351693);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_small120", "tat2_bldg_small1", -1102521808)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(121.983, 0.000, 7.094);
+	SeqNo(-1102521808);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_small121", "tat2_bldg_small1", -1094807246)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(111.010, 0.000, -48.910);
+	SeqNo(-1094807246);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("can1", "tat2_prop_prop3", -1092069489)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-55.372, 0.000, -37.882);
+	SeqNo(-1092069489);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_wall_column59", "tat2_bldg_wall_column", -1086586169)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(13.566, 0.001, -83.292);
+	SeqNo(-1086586169);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_wall_column60", "tat2_bldg_wall_column", -1080526592)
+{
+	ChildRotation(0.924, 0.000, -0.383, 0.000);
+	ChildPosition(59.936, 0.000, 105.062);
+	SeqNo(-1080526592);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_dome210", "tat2_bldg_dome2", -1079543676)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(37.939, 5.000, 99.052);
+	SeqNo(-1079543676);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_fourways0", "tat2_bldg_fourways", -1076977414)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(80.614, 0.000, 28.963);
+	SeqNo(-1076977414);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_wall0137", "tat2_bldg_wall01", -1068536120)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-107.029, -0.305, 39.982);
+	SeqNo(-1068536120);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_billboard_clump28", "tat2_bldg_billboard_clump2", -1067242264)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(97.000, 0.000, 132.000);
+	SeqNo(-1067242264);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_tower111", "tat2_bldg_tower1", -1046984172)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(151.944, 0.000, -2.564);
+	SeqNo(-1046984172);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_wall_column62", "tat2_bldg_wall_column", -1037903126)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-82.810, 0.000, 58.409);
+	SeqNo(-1037903126);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_wall_40M8", "tat2_bldg_wall_40M", -998328526)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(40.034, 0.000, -94.944);
+	SeqNo(-998328526);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_tower112", "tat2_bldg_tower1", -990884683)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-151.360, 12.005, 75.083);
+	SeqNo(-990884683);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_tower_dome115", "tat2_bldg_tower_dome1", -986671663)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(98.867, 17.999, -104.059);
+	SeqNo(-986671663);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_entry117", "tat2_bldg_entry1", -986362875)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-139.347, 0.000, 43.070);
+	SeqNo(-986362875);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_small342", "tat2_bldg_small3", -985175395)
+{
+	ChildRotation(0.966, 0.000, -0.259, 0.000);
+	ChildPosition(9.977, 0.000, 23.040);
+	SeqNo(-985175395);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_small343", "tat2_bldg_small3", -981523638)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(56.708, 0.000, 54.019);
+	SeqNo(-981523638);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_wall_column63", "tat2_bldg_wall_column", -979008710)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(12.314, 0.000, 89.047);
+	SeqNo(-979008710);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("vent pipes11", "tat2_prop_prop1", -969076051)
+{
+	ChildRotation(0.793, 0.000, -0.609, 0.000);
+	ChildPosition(-113.952, 0.000, -42.729);
+	SeqNo(-969076051);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_dome211", "tat2_bldg_dome2", -965849411)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-86.965, 3.951, -92.962);
+	SeqNo(-965849411);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_small219", "tat2_bldg_small2", -944826176)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(23.009, 0.000, -42.953);
+	SeqNo(-944826176);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_small344", "tat2_bldg_small3", -943064909)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-78.042, 0.000, 65.996);
+	SeqNo(-943064909);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_wall_column64", "tat2_bldg_wall_column", -942882679)
+{
+	ChildRotation(0.707, 0.000, 0.707, 0.000);
+	ChildPosition(-59.964, 0.000, -94.992);
+	SeqNo(-942882679);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_small122", "tat2_bldg_small1", -913514498)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(74.997, 0.000, -20.928);
+	SeqNo(-913514498);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_wall_column65", "tat2_bldg_wall_column", -906478298)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-138.350, 0.000, 52.996);
+	SeqNo(-906478298);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_stair15", "tat2_bldg_stair1", -896331877)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-117.025, 0.000, 30.978);
+	SeqNo(-896331877);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_small345", "tat2_bldg_small3", -885711971)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(113.769, 6.672, 40.404);
+	SeqNo(-885711971);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_fourways1", "tat2_bldg_fourways", -883120438)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(104.987, 0.000, -0.914);
+	SeqNo(-883120438);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_entry28", "tat2_bldg_entry2", -879056810)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(23.957, 0.000, 64.046);
+	SeqNo(-879056810);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("bill clump 11", "tat2_bldg_billboard_clump3", -859733951)
+{
+	ChildRotation(0.718, 0.000, -0.696, 0.000);
+	ChildPosition(155.000, 0.000, 134.000);
+	SeqNo(-859733951);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_gate2", "tat2_bldg_gate", -855294864)
+{
+	ChildRotation(0.707, 0.000, 0.707, 0.000);
+	ChildPosition(64.304, 0.068, 51.042);
+	SeqNo(-855294864);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("billboard clump12", "tat2_bldg_billboard_clump", -855213297)
+{
+	ChildRotation(-0.383, 0.000, -0.924, 0.000);
+	ChildPosition(-160.382, 0.001, -108.261);
+	SeqNo(-855213297);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_entry118", "tat2_bldg_entry1", -847246663)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(-67.040, 0.000, 60.001);
+	SeqNo(-847246663);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_billboard27", "tat2_bldg_billboard2", -844973900)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(-158.829, 0.000, -11.866);
+	SeqNo(-844973900);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_medium130", "tat2_bldg_medium1", -825114577)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(54.953, 0.000, 70.061);
+	SeqNo(-825114577);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_wall_40M9", "tat2_bldg_wall_40M", -824057186)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(140.022, 0.000, -74.895);
+	SeqNo(-824057186);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_wall0138", "tat2_bldg_wall01", -822618607)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(97.981, -0.305, 11.083);
+	SeqNo(-822618607);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_far_clumps3", "tat2_bldg_far_clumps", -814476206)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(-117.000, 0.000, 189.000);
+	SeqNo(-814476206);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_far_clumps5", "tat2_bldg_far_clumps", -807861205)
+{
+	ChildRotation(0.707, 0.000, 0.707, 0.000);
+	ChildPosition(-74.000, 0.000, -183.000);
+	SeqNo(-807861205);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("vap22", "tat_prop_evaporator", -806599899)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-1.293, -0.014, -59.685);
+	SeqNo(-806599899);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_tent114", "tat2_bldg_tent1", -799089482)
+{
+	ChildRotation(0.707, 0.000, 0.707, 0.000);
+	ChildPosition(64.998, 0.000, -22.933);
+	SeqNo(-799089482);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_wall_column66", "tat2_bldg_wall_column", -794116616)
+{
+	ChildRotation(0.707, 0.000, 0.707, 0.000);
+	ChildPosition(100.033, 0.000, -94.914);
+	SeqNo(-794116616);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_tower113", "tat2_bldg_tower1", -776955216)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-112.047, -0.039, 75.979);
+	SeqNo(-776955216);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("vent pipes3", "tat2_prop_prop1", -772191479)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(-97.815, 0.000, 92.426);
+	SeqNo(-772191479);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_wall_column67", "tat2_bldg_wall_column", -769235897)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-88.136, 0.000, 84.127);
+	SeqNo(-769235897);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_small359", "tat2_bldg_small3", -769193826)
+{
+	ChildRotation(0.924, 0.000, 0.382, 0.000);
+	ChildPosition(-124.356, 6.687, -80.622);
+	SeqNo(-769193826);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_small221", "tat2_bldg_small2", -769104303)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-90.766, 0.000, 117.016);
+	SeqNo(-769104303);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("vent pipes7", "tat2_prop_prop1", -763957123)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(129.727, 0.000, -46.152);
+	SeqNo(-763957123);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_wall_column68", "tat2_bldg_wall_column", -760457805)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-143.450, 0.000, 80.208);
+	SeqNo(-760457805);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_small346", "tat2_bldg_small3", -749047466)
+{
+	ChildRotation(0.924, 0.000, -0.383, 0.000);
+	ChildPosition(-20.012, 0.000, 2.025);
+	SeqNo(-749047466);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_tower114", "tat2_bldg_tower1", -748423440)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-25.971, 0.000, -81.976);
+	SeqNo(-748423440);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_two_stories12", "tat2_bldg_two_stories1", -742521585)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(165.503, 0.000, -35.463);
+	SeqNo(-742521585);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_cantina", "tat2_bldg_cantina", -734672507)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(57.157, 0.000, -56.510);
+	SeqNo(-734672507);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_wall_column69", "tat2_bldg_wall_column", -733076415)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-71.168, 0.000, 90.042);
+	SeqNo(-733076415);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_tower2", "tat2_bldg_tower2", -732736850)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-13.017, 0.000, 11.029);
+	SeqNo(-732736850);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_wall_40M10", "tat2_bldg_wall_40M", -729091741)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(-0.063, 0.000, 105.033);
+	SeqNo(-729091741);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_large19", "tat2_bldg_large1", -727507809)
+{
+	ChildRotation(0.708, 0.000, -0.706, 0.000);
+	ChildPosition(68.145, 0.000, -100.452);
+	SeqNo(-727507809);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("com_item_weaponrecharge0", "com_item_weaponrecharge", -720213999)
+{
+	ChildRotation(0.498, 0.000, -0.867, 0.000);
+	ChildPosition(41.535, 1.001, -63.149);
+	SeqNo(-720213999);
+	Team(0);
+	NetworkId(-1);
+	EffectRegion("");
+	Radius("5.0");
+}
+
+Object("tat2_bldg_shop12", "tat2_bldg_shop1", -705093031)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(111.018, 0.000, -64.910);
+	SeqNo(-705093031);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_wall_40M11", "tat2_bldg_wall_40M", -701479773)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(-39.965, 0.000, -94.983);
+	SeqNo(-701479773);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_far_clumps", "tat2_bldg_far_clumps", -700015053)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(218.000, 0.000, 109.000);
+	SeqNo(-700015053);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_tower_dome116", "tat2_bldg_tower_dome1", -697089433)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-99.713, 17.787, 112.858);
+	SeqNo(-697089433);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_tower39", "tat2_bldg_tower3", -696812675)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-54.741, 0.000, -102.453);
+	SeqNo(-696812675);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("vent pipes13", "tat2_prop_prop1", -694634329)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(-115.862, 0.000, 18.449);
+	SeqNo(-694634329);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_entry119", "tat2_bldg_entry1", -679007794)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-139.350, 0.000, 47.007);
+	SeqNo(-679007794);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_tent115", "tat2_bldg_tent1", -674210872)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(48.992, 0.000, -8.941);
+	SeqNo(-674210872);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_wall0139", "tat2_bldg_wall01", -670067687)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(113.022, -0.305, -72.908);
+	SeqNo(-670067687);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_two_stories13", "tat2_bldg_two_stories1", -668182680)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-67.101, 0.000, -119.445);
+	SeqNo(-668182680);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_tower47", "tat2_bldg_tower4", -667723031)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-45.786, 0.000, 132.492);
+	SeqNo(-667723031);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("vent pipes1", "tat2_prop_prop1", -654489186)
+{
+	ChildRotation(0.463, 0.000, -0.886, 0.000);
+	ChildPosition(1.169, 0.000, 23.511);
+	SeqNo(-654489186);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_wall_column70", "tat2_bldg_wall_column", -630628687)
+{
+	ChildRotation(0.924, 0.000, 0.383, 0.000);
+	ChildPosition(140.032, 0.000, -94.895);
+	SeqNo(-630628687);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_gate3", "tat2_bldg_gate", -630014280)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-143.625, -0.010, 59.128);
+	SeqNo(-630014280);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("bill7", "tat2_bldg_billboard3", -620242912)
+{
+	ChildRotation(0.609, 0.000, -0.793, 0.000);
+	ChildPosition(-179.000, 0.000, -88.000);
+	SeqNo(-620242912);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_dome311", "tat2_bldg_dome3", -618637553)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(65.001, 3.500, -28.933);
+	SeqNo(-618637553);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_entry29", "tat2_bldg_entry2", -610677502)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(129.986, 0.000, -0.901);
+	SeqNo(-610677502);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_shop13", "tat2_bldg_shop1", -601790761)
+{
+	ChildRotation(0.708, 0.000, 0.706, 0.000);
+	ChildPosition(72.636, 0.000, 28.906);
+	SeqNo(-601790761);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_dome212", "tat2_bldg_dome2", -598218622)
+{
+	ChildRotation(0.924, 0.000, 0.382, 0.000);
+	ChildPosition(-20.012, 4.000, 2.025);
+	SeqNo(-598218622);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_small347", "tat2_bldg_small3", -596017279)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-100.053, 0.000, 87.985);
+	SeqNo(-596017279);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_jawa_junky", "tat2_bldg_jawa_junky", -592239752)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-7.611, -0.402, -71.769);
+	SeqNo(-592239752);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_small222", "tat2_bldg_small2", -581198207)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-121.037, 0.000, 56.975);
+	SeqNo(-581198207);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_gate4", "tat2_bldg_gate", -569778269)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(-64.321, 0.034, -94.708);
+	SeqNo(-569778269);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_prop_prop28", "tat2_prop_prop2", -557479630)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(95.088, -0.270, -20.452);
+	SeqNo(-557479630);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_wall_column71", "tat2_bldg_wall_column", -556537841)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(-132.088, 0.000, -45.868);
+	SeqNo(-556537841);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("billboard clump16", "tat2_bldg_billboard_clump", -543634902)
+{
+	ChildRotation(0.708, 0.000, 0.706, 0.000);
+	ChildPosition(-46.000, 0.000, -128.000);
+	SeqNo(-543634902);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_wall_column72", "tat2_bldg_wall_column", -537424716)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-102.909, 0.000, 47.963);
+	SeqNo(-537424716);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("billboard clump", "tat2_bldg_billboard_clump", -530358451)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(165.933, 0.000, 13.117);
+	SeqNo(-530358451);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_wall0140", "tat2_bldg_wall01", -530178868)
+{
+	ChildRotation(0.924, 0.000, -0.382, 0.000);
+	ChildPosition(-22.014, -0.305, 6.024);
+	SeqNo(-530178868);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("vap", "tat_prop_evaporator", -520095315)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-126.560, -0.031, -50.553);
+	SeqNo(-520095315);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_wall_column73", "tat2_bldg_wall_column", -518485030)
+{
+	ChildRotation(0.707, 0.000, 0.707, 0.000);
+	ChildPosition(20.034, 0.000, -94.953);
+	SeqNo(-518485030);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat_prop_evaporator", "tat_prop_evaporator", -511166230)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-19.775, -0.043, -3.863);
+	SeqNo(-511166230);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_wall0141", "tat2_bldg_wall01", -508052184)
+{
+	ChildRotation(0.707, 0.000, 0.707, 0.000);
+	ChildPosition(-13.049, -0.305, 78.027);
+	SeqNo(-508052184);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("vap", "tat_prop_evaporator", -505049588)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-134.129, -0.011, 79.752);
+	SeqNo(-505049588);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_billboard210", "tat2_bldg_billboard2", -501573498)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-150.448, 0.000, 151.244);
+	SeqNo(-501573498);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_small348", "tat2_bldg_small3", -497537005)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(65.955, 0.000, 66.066);
+	SeqNo(-497537005);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_tower310", "tat2_bldg_tower3", -496573966)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-130.979, 0.000, -61.028);
+	SeqNo(-496573966);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("vap2", "tat_prop_evaporator", -478922829)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-65.793, -0.028, 93.263);
+	SeqNo(-478922829);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_small349", "tat2_bldg_small3", -478230712)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-148.023, 0.000, 28.963);
+	SeqNo(-478230712);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_wall_40M12", "tat2_bldg_wall_40M", -476691634)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(-120.061, 0.000, 104.975);
+	SeqNo(-476691634);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("com_item_weaponrecharge1", "com_item_weaponrecharge", -463863539)
+{
+	ChildRotation(0.324, 0.000, -0.946, 0.000);
+	ChildPosition(122.769, 0.008, -38.159);
+	SeqNo(-463863539);
+	Team(0);
+	NetworkId(-1);
+	EffectRegion("");
+	Radius("5.0");
+}
+
+Object("tat2_bldg_small350", "tat2_bldg_small3", -457986945)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(52.946, 0.000, 84.059);
+	SeqNo(-457986945);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_tower48", "tat2_bldg_tower4", -451311675)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-37.969, 0.000, -85.982);
+	SeqNo(-451311675);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_entry120", "tat2_bldg_entry1", -449673658)
+{
+	ChildRotation(0.707, 0.000, 0.707, 0.000);
+	ChildPosition(85.174, 0.001, 52.197);
+	SeqNo(-449673658);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_wall_column74", "tat2_bldg_wall_column", -448455222)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(68.462, 0.000, 25.198);
+	SeqNo(-448455222);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_entry121", "tat2_bldg_entry1", -445672095)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(26.937, 0.006, -27.476);
+	SeqNo(-445672095);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("vap11", "tat_prop_evaporator", -440994682)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(129.164, -0.029, -18.465);
+	SeqNo(-440994682);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_prop_prop29", "tat2_prop_prop2", -432216975)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(92.061, 0.376, -65.917);
+	SeqNo(-432216975);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_tower_dome117", "tat2_bldg_tower_dome1", -431494143)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-28.341, 17.999, 81.975);
+	SeqNo(-431494143);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_wall_40M13", "tat2_bldg_wall_40M", -420350905)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(120.032, 0.000, -94.905);
+	SeqNo(-420350905);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_wall_column75", "tat2_bldg_wall_column", -417974304)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(28.983, 0.000, 84.722);
+	SeqNo(-417974304);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_tower311", "tat2_bldg_tower3", -411450594)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(145.308, 0.000, 33.995);
+	SeqNo(-411450594);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_billboard55", "tat2_bldg_billboard5", -401620056)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-187.000, 0.000, 98.000);
+	SeqNo(-401620056);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_wall_column76", "tat2_bldg_wall_column", -399414640)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(90.473, 0.000, -6.766);
+	SeqNo(-399414640);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_far_clumps2", "tat2_bldg_far_clumps", -397141033)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(218.000, 0.000, -73.000);
+	SeqNo(-397141033);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_wall0142", "tat2_bldg_wall01", -396777180)
+{
+	ChildRotation(0.793, 0.000, -0.609, 0.000);
+	ChildPosition(-42.040, -0.305, 60.014);
+	SeqNo(-396777180);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_wall_column77", "tat2_bldg_wall_column", -394535123)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(139.993, 0.000, -14.896);
+	SeqNo(-394535123);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_wall_40M14", "tat2_bldg_wall_40M", -388132005)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(68.373, 0.000, 45.672);
+	SeqNo(-388132005);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_large110", "tat2_bldg_large1", -387930882)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(14.041, 0.000, -108.956);
+	SeqNo(-387930882);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_dome312", "tat2_bldg_dome3", -387715666)
+{
+	ChildRotation(0.942, 0.000, 0.335, 0.000);
+	ChildPosition(-13.800, 5.000, 42.191);
+	SeqNo(-387715666);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_tent116", "tat2_bldg_tent1", -383241238)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(-110.022, 0.000, 24.981);
+	SeqNo(-383241238);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("billboard clump18", "tat2_bldg_billboard_clump", -378302395)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(144.962, 0.000, -135.249);
+	SeqNo(-378302395);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_small351", "tat2_bldg_small3", -378189117)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(146.983, 0.000, 5.107);
+	SeqNo(-378189117);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_small223", "tat2_bldg_small2", -367943477)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(13.009, 0.000, -42.958);
+	SeqNo(-367943477);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("can3", "tat2_prop_prop3", -359869812)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-68.309, 0.000, 7.135);
+	SeqNo(-359869812);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_large111", "tat2_bldg_large1", -358776964)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(74.947, 0.000, 83.070);
+	SeqNo(-358776964);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_small352", "tat2_bldg_small3", -355696754)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-102.064, 0.000, -87.666);
+	SeqNo(-355696754);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_stair16", "tat2_bldg_stair1", -354381511)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(-60.044, 0.000, 69.005);
+	SeqNo(-354381511);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_tower49", "tat2_bldg_tower4", -351641230)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(50.940, 0.000, 97.058);
+	SeqNo(-351641230);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_wall_column78", "tat2_bldg_wall_column", -351332436)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(59.975, 0.000, 25.064);
+	SeqNo(-351332436);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("vap29", "tat_prop_evaporator", -334598624)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-66.814, -0.015, 71.725);
+	SeqNo(-334598624);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_entry122", "tat2_bldg_entry1", -324869641)
+{
+	ChildRotation(0.707, 0.000, 0.707, 0.000);
+	ChildPosition(85.119, 6.932, 11.278);
+	SeqNo(-324869641);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("vap8", "tat_prop_evaporator", -310687966)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(57.015, -0.062, 20.319);
+	SeqNo(-310687966);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_medium131", "tat2_bldg_medium1", -305473577)
+{
+	ChildRotation(0.924, 0.000, -0.382, 0.000);
+	ChildPosition(-65.492, 0.000, 110.907);
+	SeqNo(-305473577);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_wall_column79", "tat2_bldg_wall_column", -298397993)
+{
+	ChildRotation(0.707, 0.000, 0.707, 0.000);
+	ChildPosition(19.937, 0.000, 105.043);
+	SeqNo(-298397993);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_small123", "tat2_bldg_small1", -297182293)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-45.053, 0.000, 86.012);
+	SeqNo(-297182293);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_wall0143", "tat2_bldg_wall01", -289345335)
+{
+	ChildRotation(0.788, 0.000, -0.615, 0.000);
+	ChildPosition(-47.470, -0.305, 32.106);
+	SeqNo(-289345335);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_small354", "tat2_bldg_small3", -286161067)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-81.301, 0.000, 111.776);
+	SeqNo(-286161067);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_small355", "tat2_bldg_small3", -266835077)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(71.633, -0.610, 49.170);
+	SeqNo(-266835077);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("vap25", "tat_prop_evaporator", -261227647)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(25.250, 0.117, 25.428);
+	SeqNo(-261227647);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_wall0144", "tat2_bldg_wall01", -258834878)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(12.006, -0.305, -36.958);
+	SeqNo(-258834878);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_dome313", "tat2_bldg_dome3", -232830401)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(70.985, 4.000, 5.070);
+	SeqNo(-232830401);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("billboard clump10", "tat2_bldg_billboard_clump", -230411181)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(174.904, 0.000, 94.338);
+	SeqNo(-230411181);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("bill6", "tat2_bldg_billboard3", -225861217)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(42.009, 0.000, 158.703);
+	SeqNo(-225861217);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_medium132", "tat2_bldg_medium1", -224222351)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(70.983, 0.000, 8.070);
+	SeqNo(-224222351);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_wall_column80", "tat2_bldg_wall_column", -223174483)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(62.442, 0.000, -32.977);
+	SeqNo(-223174483);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_wall0145", "tat2_bldg_wall01", -208522733)
+{
+	ChildRotation(0.707, 0.000, 0.707, 0.000);
+	ChildPosition(-31.050, -0.305, 81.019);
+	SeqNo(-208522733);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_small356", "tat2_bldg_small3", -202996976)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-154.285, 0.000, -20.180);
+	SeqNo(-202996976);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_wall0146", "tat2_bldg_wall01", -190364809)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(-109.047, -0.305, 75.981);
+	SeqNo(-190364809);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_wall_column81", "tat2_bldg_wall_column", -188949788)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-87.369, 0.000, 58.580);
+	SeqNo(-188949788);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_small224", "tat2_bldg_small2", -179234289)
+{
+	ChildRotation(0.708, 0.000, -0.706, 0.000);
+	ChildPosition(-28.651, 0.007, 122.013);
+	SeqNo(-179234289);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_small124", "tat2_bldg_small1", -178273960)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-143.752, 0.000, 51.562);
+	SeqNo(-178273960);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_large112", "tat2_bldg_large1", -167048871)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(29.965, 0.000, 47.049);
+	SeqNo(-167048871);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_gate5", "tat2_bldg_gate", -166567735)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(95.862, -0.010, -94.754);
+	SeqNo(-166567735);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_wall_column82", "tat2_bldg_wall_column", -160411197)
+{
+	ChildRotation(0.707, 0.000, 0.707, 0.000);
+	ChildPosition(60.034, 0.000, -94.934);
+	SeqNo(-160411197);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_entry123", "tat2_bldg_entry1", -157072985)
+{
+	ChildRotation(0.924, 0.000, -0.383, 0.000);
+	ChildPosition(-3.024, 0.000, 26.033);
+	SeqNo(-157072985);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_wall_column83", "tat2_bldg_wall_column", -151253978)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(8.511, 0.000, -40.456);
+	SeqNo(-151253978);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("vap24", "tat_prop_evaporator", -149883521)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(18.114, 0.117, -1.145);
+	SeqNo(-149883521);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_small125", "tat2_bldg_small1", -148208970)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-112.052, 0.000, 87.979);
+	SeqNo(-148208970);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_tent117", "tat2_bldg_tent1", -142404301)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(-75.029, 0.000, 37.998);
+	SeqNo(-142404301);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_medium133", "tat2_bldg_medium1", -134304396)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-72.287, 0.000, -98.456);
+	SeqNo(-134304396);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_wall_column84", "tat2_bldg_wall_column", -133669338)
+{
+	ChildRotation(0.707, 0.000, 0.707, 0.000);
+	ChildPosition(71.147, 0.001, 15.974);
+	SeqNo(-133669338);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_large113", "tat2_bldg_large1", -130859321)
+{
+	ChildRotation(0.707, 0.000, 0.707, 0.000);
+	ChildPosition(-4.051, 0.000, 80.032);
+	SeqNo(-130859321);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_tower_dome118", "tat2_bldg_tower_dome1", -126453299)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(41.974, 17.999, 27.055);
+	SeqNo(-126453299);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_wall0147", "tat2_bldg_wall01", -125826366)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-122.045, -0.305, 73.974);
+	SeqNo(-125826366);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("vap23", "tat_prop_evaporator", -121224360)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-44.047, -0.017, -58.336);
+	SeqNo(-121224360);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_tower_dome119", "tat2_bldg_tower_dome1", -119937060)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-109.969, 17.999, -84.017);
+	SeqNo(-119937060);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_dome213", "tat2_bldg_dome2", -114379211)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(115.987, 4.000, -0.908);
+	SeqNo(-114379211);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_wall0148", "tat2_bldg_wall01", -100833541)
+{
+	ChildRotation(0.707, 0.000, 0.707, 0.000);
+	ChildPosition(-80.052, -0.305, 85.995);
+	SeqNo(-100833541);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_wall_40M15", "tat2_bldg_wall_40M", -99084301)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(119.974, 0.000, 25.093);
+	SeqNo(-99084301);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_dockingbay_03", "tat2_bldg_dockingbay_03", -95904680)
+{
+	ChildRotation(-0.500, 0.000, -0.866, 0.000);
+	ChildPosition(-73.000, 0.000, -21.000);
+	SeqNo(-95904680);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_wall_column85", "tat2_bldg_wall_column", -93230375)
+{
+	ChildRotation(0.707, 0.000, 0.707, 0.000);
+	ChildPosition(-19.965, 0.000, -94.973);
+	SeqNo(-93230375);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_small357", "tat2_bldg_small3", -91278025)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(118.017, 0.000, -63.906);
+	SeqNo(-91278025);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("vap5", "tat_prop_evaporator", -86238892)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(37.819, -0.023, 92.247);
+	SeqNo(-86238892);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_wall_column86", "tat2_bldg_wall_column", -83221351)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(90.399, 0.000, -10.971);
+	SeqNo(-83221351);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_small358", "tat2_bldg_small3", -76059012)
+{
+	ChildRotation(0.924, 0.000, 0.383, 0.000);
+	ChildPosition(-21.021, 0.000, 20.025);
+	SeqNo(-76059012);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_medium134", "tat2_bldg_medium1", -71865212)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(154.009, 0.000, -48.889);
+	SeqNo(-71865212);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_stair17", "tat2_bldg_stair1", -70050405)
+{
+	ChildRotation(0.707, 0.000, 0.707, 0.000);
+	ChildPosition(69.999, 0.000, -24.930);
+	SeqNo(-70050405);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_dome314", "tat2_bldg_dome3", -69208217)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-85.041, 4.000, 63.993);
+	SeqNo(-69208217);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_wall_4M8", "tat2_bldg_wall_4M", -60588685)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-131.881, 0.007, -53.651);
+	SeqNo(-60588685);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_two_stories16", "tat2_bldg_two_stories1", -58081276)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-116.769, 0.000, 117.536);
+	SeqNo(-58081276);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_prop_prop210", "tat2_prop_prop2", -55232236)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(-102.992, -0.877, 45.382);
+	SeqNo(-55232236);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("vap36", "tat_prop_evaporator", -49797239)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-56.621, 0.000, -67.648);
+	SeqNo(-49797239);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_dome315", "tat2_bldg_dome3", -46693209)
+{
+	ChildRotation(0.924, 0.000, 0.383, 0.000);
+	ChildPosition(-122.974, 6.948, -72.023);
+	SeqNo(-46693209);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("vap26", "tat_prop_evaporator", -45400906)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(0.728, -0.035, 60.743);
+	SeqNo(-45400906);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("vap1", "tat_prop_evaporator", -39960942)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-95.459, -0.041, 74.101);
+	SeqNo(-39960942);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_entry210", "tat2_bldg_entry2", -34265282)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(-104.944, 0.000, 33.741);
+	SeqNo(-34265282);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_wall_column87", "tat2_bldg_wall_column", -31149003)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-53.765, -0.370, 90.016);
+	SeqNo(-31149003);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_medium135", "tat2_bldg_medium1", -23909161)
+{
+	ChildRotation(0.707, 0.000, 0.707, 0.000);
+	ChildPosition(118.026, 0.000, -80.906);
+	SeqNo(-23909161);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("box2", "tat2_prop_prop4", -20966906)
+{
+	ChildRotation(0.707, 0.000, 0.707, 0.000);
+	ChildPosition(-120.847, 0.086, 25.126);
+	SeqNo(-20966906);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_wall_column88", "tat2_bldg_wall_column", -10372088)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(42.696, 0.001, -83.387);
+	SeqNo(-10372088);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat2_bldg_large114", "tat2_bldg_large1", -6091040)
+{
+	ChildRotation(0.707, 0.000, 0.707, 0.000);
+	ChildPosition(119.000, 0.000, -28.906);
+	SeqNo(-6091040);
+	Team(0);
+	NetworkId(-1);
+}

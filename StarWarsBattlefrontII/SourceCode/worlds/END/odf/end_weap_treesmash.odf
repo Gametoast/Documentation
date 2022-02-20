@@ -1,0 +1,28 @@
+[GameObjectClass]
+
+ClassLabel		=	"trap"
+GeometryName	=	"end_weap_treesmash.msh"
+
+
+[Properties]
+GeometryName	=	"end_weap_treesmash"
+UnbuiltGeometryName	= "end_weap_treesmash"
+DestroyedGeometryName	= "end_weap_treesmash"
+BuiltCollision	=	"1"
+UnbuiltHoloOdf = "com_holo_trap"
+
+AnimationName 	= 	"end_weap_treesmash"
+TriggerAnimation	=	"trigger"
+BuildAnimation	=	"reset"
+BuildPoint		=	"hp_active"
+BuildModelOdf	=	"com_prop_buildzone"
+TriggerTeam		=	"imp"
+ResetTeam		=	"all"
+MinEnemyRadius	=	4.0
+DeathTime		=	0.666
+DeathEffect		=	"com_sfx_explosion_lg"
+DeathEffectOffset	=	"0.0 7.5 0.0"
+//iggerSound        = "end_weap_treetrap"
+
+MaxHealth		=	1000.0
+HideHealthBar		= "1"

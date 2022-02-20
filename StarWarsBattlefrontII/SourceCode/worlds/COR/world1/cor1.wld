@@ -1,0 +1,162 @@
+Version(3);
+SaveType(0);
+
+Camera("camera")
+{
+	Rotation(-0.192, 0.003, -0.981, -0.014);
+	Position(-135.652, 39.858, 61.592);
+	FieldOfView(55.400);
+	NearPlane(1.000);
+	FarPlane(5000.000);
+	ZoomFactor(1.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(-46.271, 14.103, 110.088,  0.317, 0.213, -0.767, 0.516);
+}
+LightName("cor1.LGT");
+TerrainName("cor1.ter");
+SkyName("cor1.sky");
+ScriptName("DummyScript.dll");
+ControllerManager("StandardCtrlMgr");
+
+WorldExtents()
+{
+	Min(0.000000, 0.000000, 0.000000);
+	Max(0.000000, 0.000000, 0.000000);
+}
+
+NextSequence(-3705784);
+
+Object("cor1_prop_chair_1", "cor1_prop_chair_1", 358753656)
+{
+	ChildRotation(1.000, 0.000, 0.010, 0.000);
+	ChildPosition(1.556, 2.982, 59.964);
+	SeqNo(358753656);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("com_inv_col_65", "com_inv_col_64", 614051026)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-65.435, 0.000, 139.000);
+	SeqNo(614051026);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("com_inv_col_8", "com_inv_col_8", 776362313)
+{
+	ChildRotation(0.913, 0.000, -0.407, 0.000);
+	ChildPosition(-24.885, -4.224, 184.037);
+	SeqNo(776362313);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("com_inv_col_68", "com_inv_col_32", 835828923)
+{
+	ChildRotation(0.943, 0.000, -0.333, 0.000);
+	ChildPosition(-66.589, 0.016, 162.473);
+	SeqNo(835828923);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("com_inv_col_69", "com_inv_col_32", 1277966947)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-22.530, 0.000, 200.033);
+	SeqNo(1277966947);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("com_inv_col_76", "com_inv_col_16", 1437328822)
+{
+	ChildRotation(0.969, 0.000, 0.247, 0.000);
+	ChildPosition(-59.778, 4.082, 127.229);
+	SeqNo(1437328822);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("com_inv_col_64", "com_inv_col_64", -2026680645)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(102.872, 0.000, 185.657);
+	SeqNo(-2026680645);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("com_inv_col_77", "com_inv_col_16", -1407009069)
+{
+	ChildRotation(0.989, 0.000, -0.149, 0.000);
+	ChildPosition(-44.074, 3.864, 151.638);
+	SeqNo(-1407009069);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("com_inv_col_72", "com_inv_col_32", -1095269418)
+{
+	ChildRotation(1.000, 0.000, 0.020, 0.000);
+	ChildPosition(63.007, -1.331, 195.539);
+	SeqNo(-1095269418);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("com_inv_col_70", "com_inv_col_32", -1053049387)
+{
+	ChildRotation(0.964, 0.000, -0.266, 0.000);
+	ChildPosition(-17.339, 3.969, 215.493);
+	SeqNo(-1053049387);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("com_inv_col_78", "com_inv_col_32", -887185638)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(15.838, 4.080, 217.924);
+	SeqNo(-887185638);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("com_inv_col_32", "com_inv_col_32", -383821151)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-35.923, 2.931, 166.580);
+	SeqNo(-383821151);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("com_inv_col_79", "com_inv_col_32", -244619196)
+{
+	ChildRotation(0.953, 0.000, -0.304, 0.000);
+	ChildPosition(37.112, -1.510, 209.934);
+	SeqNo(-244619196);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("com_inv_col_71", "com_inv_col_32", -122428084)
+{
+	ChildRotation(0.950, 0.000, 0.313, 0.000);
+	ChildPosition(41.366, 3.000, 202.719);
+	SeqNo(-122428084);
+	Team(0);
+	NetworkId(-1);
+}
+

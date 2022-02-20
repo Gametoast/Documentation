@@ -1,0 +1,56 @@
+
+[GameObjectClass]       
+
+ClassLabel      =   "destructablebuilding"
+GeometryName    =   "tan4_bldg_turbine_console.msh"
+
+
+[Properties]        
+
+MapTexture              = "rechargedroid_icon"
+MapScale                = "1"
+UnbuiltHoloOdf          = "com_holo_build"
+
+GeometryName            = "tan4_bldg_turbine_console"
+DestroyedGeometryName   = "tan4_bldg_turbine_console_destroyed"
+ExplosionName           = "tan4_prop_console_exp"
+MaxHealth               = 55
+
+TargetPointOffset   = "0 0 1.5"
+
+DamageStartPercent      = 100.0
+DamageStopPercent       = 80.0
+DamageEffect            = "tan1_sfx_turbine"
+DamageEffectScale       = 0.6
+DamageInheritVelocity   = 0.0
+DamageAttachPoint       = "hp_turbinefx"
+DamageEffectSound       = "turbine"
+
+DamageStartPercent      = 80.0
+DamageStopPercent       = 50.0
+DamageEffect            = "tan1_sfx_turbine_damage1"
+DamageEffectScale       = 0.6
+DamageInheritVelocity   = 0.0
+DamageAttachPoint       = "hp_turbinefx"
+DamageEffectSound       = "turbine"
+
+DamageStartPercent      = 50.0
+DamageStopPercent       = 30.0
+DamageEffect            = "tan1_sfx_turbine_damage2"
+DamageEffectScale       = 0.6
+DamageInheritVelocity   = 0.0
+DamageAttachPoint       = "hp_turbinefx"
+DamageEffectSound       = "turbine"
+
+DamageStartPercent      = 30.0
+DamageStopPercent       = 0.010
+DamageEffect            = "tan1_sfx_turbine_damage3"
+DamageEffectScale       = 0.6
+DamageInheritVelocity   = 0.0
+DamageAttachPoint       = "hp_turbinefx"
+DamageEffectSound       = "turbine"
+
+FoleyFXGroup    = "metal_foley"
+
+BuildingSound = "control_panel_b"
+

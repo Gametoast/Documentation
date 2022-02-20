@@ -1,0 +1,629 @@
+Version(3);
+SaveType(0);
+
+Camera("camera")
+{
+	Rotation(0.253, 0.090, -0.908, 0.321);
+	Position(-26.140, 7.815, -47.087);
+	FieldOfView(55.400);
+	NearPlane(1.000);
+	FarPlane(2500.000);
+	ZoomFactor(1.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(-15.477, -10.622, -124.439,  1.000, 0.000, 0.000, 0.000);
+}
+LightName("tat3.LGT");
+TerrainName("tat3.ter");
+SkyName("tat3.sky");
+ScriptName("DummyScript.dll");
+ControllerManager("StandardCtrlMgr");
+
+WorldExtents()
+{
+	Min(0.000000, 0.000000, 0.000000);
+	Max(0.000000, 0.000000, 0.000000);
+}
+
+NextSequence(-3705784);
+
+Object("", "tat3_bldg_rancor_pit", 11984423)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-90.000, 4.000, -125.000);
+	SeqNo(11984423);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "tat3_prop_skew", 40521855)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-45.852, 1.312, -125.167);
+	SeqNo(40521855);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "tat3_bldg_torture_pipes", 119323562)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-90.000, 4.000, -125.000);
+	SeqNo(119323562);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "tat3_prop_table", 290379127)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-42.460, 1.327, -125.243);
+	SeqNo(290379127);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "tat3_prop_celldoor", 381284742)
+{
+	ChildRotation(0.952, 0.000, -0.305, 0.000);
+	ChildPosition(-34.157, -5.974, -161.848);
+	SeqNo(381284742);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "tat3_bldg_torture_rubbish", 410417424)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-90.000, 4.000, -125.000);
+	SeqNo(410417424);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat3_bldg_corridor_crates2", "tat3_bldg_corridor_crates2", 547566340)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-90.000, 4.000, -125.000);
+	SeqNo(547566340);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat3_bldg_barracks_hallway", "tat3_bldg_barracks_hallway", 574386589)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-90.000, 4.000, -125.000);
+	SeqNo(574386589);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "tat3_bldg_barracks", 597164573)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-90.000, 4.000, -125.000);
+	SeqNo(597164573);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "tat3_bldg_reservoir_grate", 641789779)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-90.000, 4.000, -125.000);
+	SeqNo(641789779);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "tat3_prop_celldoor", 671522903)
+{
+	ChildRotation(0.708, 0.000, 0.706, 0.000);
+	ChildPosition(-25.000, -12.053, -128.043);
+	SeqNo(671522903);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "tat3_prop_celldoor", 702560345)
+{
+	ChildRotation(0.311, 0.000, -0.951, 0.000);
+	ChildPosition(-34.221, -5.910, -186.112);
+	SeqNo(702560345);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "tat3_prop_celldoor", 744370307)
+{
+	ChildRotation(0.877, 0.000, 0.481, 0.000);
+	ChildPosition(-14.578, -6.111, -167.327);
+	SeqNo(744370307);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "tat3_prop_celldoor", 806501271)
+{
+	ChildRotation(-0.001, 0.000, -1.000, 0.000);
+	ChildPosition(-27.071, -6.025, -188.141);
+	SeqNo(806501271);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "tat3_bldg_reservoir_grate", 933918516)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-90.000, 4.000, -125.000);
+	SeqNo(933918516);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "tat3_prop_mod", 944556962)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-21.202, -9.535, -52.869);
+	SeqNo(944556962);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat3_prop_pal_crates2", "tat3_prop_pal_crates2", 962076404)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-90.000, 4.000, -125.000);
+	SeqNo(962076404);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "tat3_bldg_torturedroid", 1025547731)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-59.762, -9.066, -57.447);
+	SeqNo(1025547731);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat3_prop_pal_crates3", "tat3_prop_pal_crates3", 1043309725)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-90.000, 4.000, -125.000);
+	SeqNo(1043309725);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "tat3_bldg_corridor_grates", 1068567051)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-90.000, 4.000, -125.000);
+	SeqNo(1068567051);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "tat3_prop_mod", 1155689941)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(-82.817, 1.596, -97.881);
+	SeqNo(1155689941);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "tat3_prop_tauntaun_head", 1195577742)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(-69.795, 5.000, -97.250);
+	SeqNo(1195577742);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat3_prop_pal_crates4", "tat3_prop_pal_crates4", 1224529882)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-90.000, 4.000, -125.000);
+	SeqNo(1224529882);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "tat3_prop_trapdoor", 1282958706)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-90.000, 4.000, -131.000);
+	SeqNo(1282958706);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "tat3_prop_mod", 1293777364)
+{
+	ChildRotation(0.708, 0.000, 0.706, 0.000);
+	ChildPosition(-59.380, 0.895, -139.909);
+	SeqNo(1293777364);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "tat3_prop_wall_light03", 1304028919)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-53.457, 3.969, -117.067);
+	SeqNo(1304028919);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "tat3_prop_wall_light02", 1506273757)
+{
+	ChildRotation(0.708, 0.000, -0.707, 0.000);
+	ChildPosition(-60.646, 3.017, -96.931);
+	SeqNo(1506273757);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "tat3_prop_tauntaun_head", 1789446320)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(-59.771, 5.000, -97.248);
+	SeqNo(1789446320);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("carbonite", "tat3_prop_carbonite", 1955887913)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(-64.714, 2.850, -95.412);
+	SeqNo(1955887913);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "tat3_prop_mod", 2059514907)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-43.219, 1.868, -98.717);
+	SeqNo(2059514907);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "tat3_bldg_jabba_pal", -2109454548)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-90.000, 4.000, -125.000);
+	SeqNo(-2109454548);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat3_bldg_keepers_collision1", "tat3_bldg_keepers_collision1", -2061452817)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-90.000, 4.000, -125.000);
+	SeqNo(-2061452817);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat3_bldg_torture_pipes_1", "tat3_bldg_torture_pipes_1", -2007495603)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-90.000, 4.000, -125.000);
+	SeqNo(-2007495603);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat3_bldg_cell_corridor", "tat3_bldg_cell_corridor", -2004148990)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-90.000, 4.000, -125.000);
+	SeqNo(-2004148990);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "tat3_prop_mod", -1840230193)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-75.425, 1.554, -107.053);
+	SeqNo(-1840230193);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "tat3_bldg_cell_entry", -1766694478)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-90.000, 4.000, -125.000);
+	SeqNo(-1766694478);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "tat3_prop_celldoor", -1749873556)
+{
+	ChildRotation(-0.303, 0.000, -0.953, 0.000);
+	ChildPosition(-19.822, -6.029, -186.133);
+	SeqNo(-1749873556);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat3_bldg_torture_main_2", "tat3_bldg_torture_main_2", -1703699148)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-90.000, 4.000, -125.000);
+	SeqNo(-1703699148);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "tat3_prop_celldoor", -1683420585)
+{
+	ChildRotation(-0.001, 0.000, -1.000, 0.000);
+	ChildPosition(-56.079, -4.594, -177.123);
+	SeqNo(-1683420585);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "tat3_prop_mod", -1675563278)
+{
+	ChildRotation(0.708, 0.000, -0.706, 0.000);
+	ChildPosition(-46.167, 1.625, -102.789);
+	SeqNo(-1675563278);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "tat3_prop_celldoor", -1640834827)
+{
+	ChildRotation(-0.001, 0.000, -1.000, 0.000);
+	ChildPosition(-73.215, -4.489, -177.086);
+	SeqNo(-1640834827);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat3_bldg_jabba_pal_02", "tat3_bldg_jabba_pal_02", -1627796075)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-90.000, 4.000, -125.000);
+	SeqNo(-1627796075);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "tat3_prop_mod", -1622393254)
+{
+	ChildRotation(0.708, 0.000, -0.706, 0.000);
+	ChildPosition(-8.666, -9.420, -99.205);
+	SeqNo(-1622393254);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "tat3_bldg_torture_grate", -1575736799)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-90.000, 4.000, -125.000);
+	SeqNo(-1575736799);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "tat3_bldg_SKY", -1463350450)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-89.000, 4.000, -125.000);
+	SeqNo(-1463350450);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat3_prop_pal_crates1", "tat3_prop_pal_crates1", -1421324296)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-90.000, 4.000, -125.000);
+	SeqNo(-1421324296);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat3_bldg_torture_main_3", "tat3_bldg_torture_main_3", -1343377701)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-90.000, 4.000, -125.000);
+	SeqNo(-1343377701);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "tat3_bldg_torture_main", -1284561347)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-90.000, 4.000, -125.000);
+	SeqNo(-1284561347);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat3_bldg_corridor_crates3", "tat3_bldg_corridor_crates3", -1147292157)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-90.000, 4.000, -125.000);
+	SeqNo(-1147292157);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "tat3_bldg_reservoir", -1077757683)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-90.000, 4.000, -125.000);
+	SeqNo(-1077757683);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "tat3_prop_celldoor", -1048442811)
+{
+	ChildRotation(0.956, 0.000, 0.294, 0.000);
+	ChildPosition(-19.892, -6.024, -161.811);
+	SeqNo(-1048442811);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat3_bldg_corridor_crates", "tat3_bldg_corridor_crates", -1021515551)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-90.000, 4.000, -125.000);
+	SeqNo(-1021515551);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "tat3_bldg_keeper", -925638585)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-90.000, 4.000, -125.000);
+	SeqNo(-925638585);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "tat3_prop_mod", -731000675)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-32.236, -9.458, -73.502);
+	SeqNo(-731000675);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "tat3_prop_keep_crates", -642500742)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-91.000, 4.000, -123.000);
+	SeqNo(-642500742);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "tat3_prop_pal_crates", -595473978)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-90.000, 4.000, -125.000);
+	SeqNo(-595473978);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "tat3_prop_celldoor", -594966738)
+{
+	ChildRotation(0.009, 0.000, -1.000, 0.000);
+	ChildPosition(-87.512, -1.334, -180.466);
+	SeqNo(-594966738);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "tat3_prop_wall_light01", -586030859)
+{
+	ChildRotation(0.643, -0.296, -0.641, -0.296);
+	ChildPosition(-70.486, 1.728, -96.948);
+	SeqNo(-586030859);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat3_bldg_cell_hallway", "tat3_bldg_cell_hallway", -583355722)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-90.000, 4.000, -125.000);
+	SeqNo(-583355722);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "tat3_prop_celldoor", -483316753)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-73.201, -4.508, -170.502);
+	SeqNo(-483316753);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "tat3_prop_mod", -469870484)
+{
+	ChildRotation(-0.412, 0.000, -0.911, 0.000);
+	ChildPosition(-19.152, -5.355, -147.726);
+	SeqNo(-469870484);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "tat3_prop_mod", -271187488)
+{
+	ChildRotation(0.708, 0.000, 0.706, 0.000);
+	ChildPosition(-45.768, 1.661, -145.781);
+	SeqNo(-271187488);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "tat3_prop_celldoor", -257183789)
+{
+	ChildRotation(-0.480, 0.000, -0.877, 0.000);
+	ChildPosition(-14.643, -5.957, -180.656);
+	SeqNo(-257183789);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("tat3_bldg_cell_spiralstairs", "tat3_bldg_cell_spiralstairs", -183949418)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-90.000, 4.000, -125.000);
+	SeqNo(-183949418);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "tat3_prop_bed", -100961940)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-52.204, 0.228, -125.492);
+	SeqNo(-100961940);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "tat3_prop_organ", -51767169)
+{
+	ChildRotation(-0.259, 0.000, -0.966, 0.000);
+	ChildPosition(-70.925, 0.356, -117.381);
+	SeqNo(-51767169);
+	Team(0);
+	NetworkId(-1);
+}

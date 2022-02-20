@@ -1,0 +1,84 @@
+Version(1);
+NextID(1);
+
+Layer("[Base]", 0, 8)
+{
+	Description("");
+}
+
+Layer("Design", 1, 0)
+{
+	Description("");
+}
+
+Layer("SoundRegions", 2, 0)
+{
+	Description("");
+}
+
+Layer("SoundEmitters", 3, 0)
+{
+	Description("");
+}
+
+Layer("SoundSpaces", 4, 0)
+{
+	Description("");
+}
+
+Layer("Shadows", 5, 0)
+{
+	Description("");
+}
+
+Layer("hunt", 6, 0)
+{
+	Description("");
+}
+
+Layer("con", 7, 0)
+{
+	Description("");
+}
+
+Layer("ctf", 9, 0)
+{
+	Description("");
+}
+
+Layer("1flag", 10, 0)
+{
+	Description("");
+}
+
+
+GameMode("Common")
+{
+	Layer(0);
+	Layer(1);
+	Layer(2);
+	Layer(3);
+	Layer(4);
+	Layer(5);
+}
+
+GameMode("hunt")
+{
+	Layer(6);
+}
+
+GameMode("con")
+{
+	Layer(7);
+}
+
+GameMode("ctf")
+{
+	Layer(9);
+}
+
+GameMode("1flag")
+{
+	Layer(10);
+}
+

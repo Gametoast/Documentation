@@ -1,0 +1,82 @@
+[GameObjectClass]       
+
+ClassLabel      =   "armedbuilding"
+GeometryName    =   "uta1_bldg_turret.msh"
+
+
+[Properties]        
+Pilottype               = "self"
+BUILDINGSECTION             = "BODY"
+GeometryName    =   "uta1_bldg_turret"
+MaxHealth       	= "5000.0"
+ExplosionName           = "uta1_bldg_turret_exp"
+DestroyedGeometryName   = "uta1_bldg_turret_destroyed"
+
+PilotType = self
+BUILDINGSECTION         = "TURRET1"
+Pilottype               = "self"
+TurretNodeName          = "aimer_y"
+
+PitchLimits             = "-30 20"
+YawLimits               = "-20 20"
+
+WeaponName              = "uta_weap_turret_cannon"
+WeaponAmmo              = "0"
+RespawnTime			= "99999"
+
+TURRETSECTION       = "TURRET1"
+
+AimerNodeName           = "aimer_x"
+PitchLimits             = "-30 20"
+YawLimits               = "-20 20"
+
+
+BarrelNodeName          = "barrel"
+BarrelRecoil            = "0.5"
+FirePointName           = "hp_fire1"
+
+NextBarrel              = "-"
+
+BarrelNodeName          = "barrel1"
+BarrelRecoil            = "0.5"
+FirePointName           = "hp_fire3"
+
+
+
+TurretYawSound         = "turret_whir_yaw_lp"
+TurretYawSoundPitch    = "0.7"
+TurretPitchSound       = "turret_whir_pitch_lp"
+TurretPitchSoundPitch   = "0.7"
+TurretAmbientSound     = ""
+TurretActivateSound    = "vehicle_equip"
+TurretDeactivateSound  = "vehicle_equip"
+TurretStartSound       = ""
+TurretStopSound        = ""
+
+DamageStartPercent      = 60.0
+DamageStopPercent       = 5.0
+DamageEffect            = "com_sfx_vehicleflame"
+DamageAttachPoint       = "hp_fire_0"
+
+DamageStartPercent      = 60.0
+DamageStopPercent       = 5.0
+DamageEffect            = "com_sfx_smokeplume"
+DamageAttachPoint       = "hp_smoke_0"
+
+DamageStartPercent      = 35.0
+DamageStopPercent       = 0.0
+DamageEffect            = "com_sfx_vehicleflame"
+DamageAttachPoint       = "hp_fire_1"
+
+DamageStartPercent      = 30.0
+DamageStopPercent       = 0.0
+DamageEffect            = "com_sfx_smokeplume"
+DamageAttachPoint       = "hp_smoke_1"
+
+
+
+
+
+
+FoleyFXGroup    = "metal_foley"
+

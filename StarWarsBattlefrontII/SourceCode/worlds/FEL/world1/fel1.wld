@@ -1,0 +1,4356 @@
+Version(3);
+SaveType(0);
+
+Camera("camera")
+{
+	Rotation(0.999, 0.007, 0.054, -0.000);
+	Position(-106.341, 38.520, -12.200);
+	FieldOfView(55.400);
+	NearPlane(1.000);
+	FarPlane(5000.000);
+	ZoomFactor(1.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(-9.407, 47.997, 68.631,  0.755, 0.615, 0.176, -0.143);
+}
+LightName("fel1.LGT");
+TerrainName("fel1.ter");
+SkyName("fel1.sky");
+ScriptName("DummyScript.dll");
+ControllerManager("StandardCtrlMgr");
+
+WorldExtents()
+{
+	Min(0.000000, 0.000000, 0.000000);
+	Max(0.000000, 0.000000, 0.000000);
+}
+
+NextSequence(-3400502);
+
+Object("ptch_L131", "fel1_bldg_pitcher_L", 4366935)
+{
+	ChildRotation(0.752, 0.004, 0.609, 0.252);
+	ChildPosition(156.021, 21.070, 12.154);
+	SeqNo(4366935);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("ptchr_clump499", "fel1_bldg_pitcher_clump", 17694737)
+{
+	ChildRotation(0.905, 0.325, 0.222, 0.165);
+	ChildPosition(-79.523, 14.699, -57.412);
+	SeqNo(17694737);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("fel1_prop_rock_group19", "fel1_prop_rock_group01", 38565651)
+{
+	ChildRotation(-0.259, 0.000, -0.966, 0.000);
+	ChildPosition(-42.568, 9.771, -19.010);
+	SeqNo(38565651);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("ptch_clump30", "fel1_bldg_pitcher_clump", 39138273)
+{
+	ChildRotation(0.873, 0.000, -0.488, 0.000);
+	ChildPosition(12.503, 18.335, 0.684);
+	SeqNo(39138273);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("seg9", "fel1_bldg_segmented", 43144617)
+{
+	ChildRotation(0.778, 0.000, 0.628, 0.000);
+	ChildPosition(51.614, 17.821, 44.591);
+	SeqNo(43144617);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("whsk_clump1096", "fel1_bldg_whisker_clump01", 44059903)
+{
+	ChildRotation(0.997, -0.027, 0.069, 0.030);
+	ChildPosition(142.403, 17.871, 29.982);
+	SeqNo(44059903);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("Short6", "fel1_bldg_mtn_accessoryShort", 57349771)
+{
+	ChildRotation(0.436, 0.208, -0.852, -0.204);
+	ChildPosition(20.857, -6.482, 50.963);
+	SeqNo(57349771);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("pch_C149", "fel1_bldg_pitcher_C", 59325532)
+{
+	ChildRotation(-0.279, 0.000, -0.960, 0.000);
+	ChildPosition(-61.518, 10.178, -39.689);
+	SeqNo(59325532);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("ptch_m4", "fel1_bldg_pitcher_M", 71939993)
+{
+	ChildRotation(1.000, 0.000, -0.031, 0.000);
+	ChildPosition(77.344, 19.231, 7.030);
+	SeqNo(71939993);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("bldr21", "fel1_bldg_bladder", 96246364)
+{
+	ChildRotation(0.825, 0.000, -0.565, 0.000);
+	ChildPosition(47.930, 20.944, -45.733);
+	SeqNo(96246364);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("whsk_clump40", "fel1_bldg_whisker_clump01", 103237716)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(53.827, 18.807, 32.138);
+	SeqNo(103237716);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("bldr193", "fel1_bldg_bladder", 116727259)
+{
+	ChildRotation(0.853, 0.000, -0.523, 0.000);
+	ChildPosition(-117.918, 9.658, -22.639);
+	SeqNo(116727259);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("red_bush12", "fel1_bldg_red_bush", 120925412)
+{
+	ChildRotation(-0.278, 0.000, -0.961, 0.000);
+	ChildPosition(-151.465, 10.009, -30.810);
+	SeqNo(120925412);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("whsk_clump10940", "fel1_bldg_whisker_clump01", 142072884)
+{
+	ChildRotation(0.683, -0.028, 0.728, 0.043);
+	ChildPosition(161.548, 17.228, 79.854);
+	SeqNo(142072884);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("whsk_clump55", "fel1_bldg_whisker_clump01", 144716775)
+{
+	ChildRotation(0.997, 0.080, 0.000, 0.000);
+	ChildPosition(58.422, 17.939, 46.031);
+	SeqNo(144716775);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("ptchr_clump509", "fel1_bldg_pitcher_clump", 145528151)
+{
+	ChildRotation(-0.496, 0.000, -0.868, 0.000);
+	ChildPosition(-115.414, 9.593, 5.986);
+	SeqNo(145528151);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("red_bush3567", "fel1_bldg_red_bush", 145910841)
+{
+	ChildRotation(0.973, -0.021, 0.098, 0.208);
+	ChildPosition(-18.428, 15.802, -25.027);
+	SeqNo(145910841);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("ptchr_clump495", "fel1_bldg_pitcher_clump", 145951828)
+{
+	ChildRotation(0.995, -0.091, 0.011, -0.041);
+	ChildPosition(-3.990, 26.031, 129.546);
+	SeqNo(145951828);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("ptch_m6", "fel1_bldg_pitcher_M", 147036111)
+{
+	ChildRotation(0.557, 0.000, 0.831, 0.000);
+	ChildPosition(55.176, 19.522, 34.194);
+	SeqNo(147036111);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("bldr22", "fel1_bldg_bladder", 147950315)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(98.159, 18.869, 0.504);
+	SeqNo(147950315);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("whsk_clump22", "fel1_bldg_whisker_clump01", 153543075)
+{
+	ChildRotation(0.859, 0.077, 0.506, -0.013);
+	ChildPosition(33.774, 23.994, -67.468);
+	SeqNo(153543075);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("ptchr_clump479", "fel1_bldg_pitcher_clump", 154723472)
+{
+	ChildRotation(-0.013, 0.007, -0.961, -0.276);
+	ChildPosition(-74.834, 17.911, -63.072);
+	SeqNo(154723472);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("fel1_prop_rock_group11", "fel1_prop_rock_group01", 157864293)
+{
+	ChildRotation(-0.238, -0.071, -0.969, 0.007);
+	ChildPosition(-69.182, 9.489, -38.214);
+	SeqNo(157864293);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("whsk_clump1070", "fel1_bldg_whisker_clump01", 168213842)
+{
+	ChildRotation(0.992, 0.053, 0.079, 0.085);
+	ChildPosition(152.072, 21.434, 1.284);
+	SeqNo(168213842);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("ptchr_clump488", "fel1_bldg_pitcher_clump", 173858085)
+{
+	ChildRotation(0.763, 0.142, -0.604, 0.179);
+	ChildPosition(172.458, 25.607, 34.709);
+	SeqNo(173858085);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("Tall4", "fel1_bldg_mtn_accessoryTall", 180160920)
+{
+	ChildRotation(0.310, 0.210, -0.927, -0.017);
+	ChildPosition(82.222, -1.962, 84.581);
+	SeqNo(180160920);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("pch_C21", "fel1_bldg_pitcher_C", 185287282)
+{
+	ChildRotation(0.921, 0.112, -0.341, -0.150);
+	ChildPosition(71.315, 16.846, 50.966);
+	SeqNo(185287282);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("ptch_S9", "fel1_bldg_pitcher_S", 198769077)
+{
+	ChildRotation(0.969, 0.236, 0.063, 0.036);
+	ChildPosition(-127.639, 16.009, -60.316);
+	SeqNo(198769077);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("bldr123", "fel1_bldg_bladder", 206685997)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-133.112, 10.260, 11.777);
+	SeqNo(206685997);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("seg5", "fel1_bldg_segmented", 211125761)
+{
+	ChildRotation(0.059, 0.000, -0.998, 0.000);
+	ChildPosition(65.026, 18.440, 45.642);
+	SeqNo(211125761);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("bldr130", "fel1_bldg_bladder", 219898067)
+{
+	ChildRotation(0.973, 0.039, 0.224, 0.027);
+	ChildPosition(-77.788, 9.673, -43.519);
+	SeqNo(219898067);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("ptch_S57", "fel1_bldg_pitcher_S", 220719600)
+{
+	ChildRotation(-0.152, 0.131, -0.954, -0.223);
+	ChildPosition(16.251, 16.605, 32.107);
+	SeqNo(220719600);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("pch_C111", "fel1_bldg_pitcher_C", 223566420)
+{
+	ChildRotation(0.369, 0.128, -0.919, -0.060);
+	ChildPosition(-47.908, 10.480, -33.170);
+	SeqNo(223566420);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("fel1_prop_rock_group4", "fel1_prop_rock_group01", 251447113)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-105.013, 8.771, 2.794);
+	SeqNo(251447113);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("ptch_L61", "fel1_bldg_pitcher_L", 259491744)
+{
+	ChildRotation(0.950, 0.032, -0.293, 0.105);
+	ChildPosition(0.086, 19.288, -30.304);
+	SeqNo(259491744);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("whsk_clump23", "fel1_bldg_whisker_clump01", 260951944)
+{
+	ChildRotation(0.993, -0.120, -0.002, -0.020);
+	ChildPosition(58.000, 22.918, -79.392);
+	SeqNo(260951944);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("bldr186", "fel1_bldg_bladder", 273073512)
+{
+	ChildRotation(0.784, 0.099, 0.611, 0.052);
+	ChildPosition(-92.245, 9.730, -48.074);
+	SeqNo(273073512);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("seg25", "fel1_bldg_segmented", 283154844)
+{
+	ChildRotation(0.917, 0.157, -0.354, 0.099);
+	ChildPosition(5.447, 12.031, 22.245);
+	SeqNo(283154844);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("whsk_clump27", "fel1_bldg_whisker_clump01", 308915566)
+{
+	ChildRotation(0.460, 0.000, -0.888, 0.000);
+	ChildPosition(-141.956, 9.955, 9.989);
+	SeqNo(308915566);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("red_bush16", "fel1_bldg_red_bush", 309255032)
+{
+	ChildRotation(0.332, -0.013, -0.942, 0.038);
+	ChildPosition(-133.674, 11.422, 30.403);
+	SeqNo(309255032);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("ptch_S31", "fel1_bldg_pitcher_S", 319679406)
+{
+	ChildRotation(0.913, 0.000, -0.408, 0.000);
+	ChildPosition(30.236, 19.169, 8.691);
+	SeqNo(319679406);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("spring18", "fel1_bldg_spring01", 320694028)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-31.063, 11.925, 45.483);
+	SeqNo(320694028);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("spring15", "fel1_bldg_spring01", 322756093)
+{
+	ChildRotation(1.000, -0.018, 0.000, 0.000);
+	ChildPosition(-20.549, 12.130, 43.187);
+	SeqNo(322756093);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("whsk_clump86", "fel1_bldg_whisker_clump01", 325103423)
+{
+	ChildRotation(-0.489, 0.000, -0.872, 0.000);
+	ChildPosition(24.102, 18.305, 16.434);
+	SeqNo(325103423);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("seg8", "fel1_bldg_segmented", 326098430)
+{
+	ChildRotation(0.557, 0.000, -0.831, 0.000);
+	ChildPosition(28.625, 17.468, 21.736);
+	SeqNo(326098430);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("seg22", "fel1_bldg_segmented", 344075107)
+{
+	ChildRotation(0.765, 0.000, -0.644, 0.000);
+	ChildPosition(18.848, 18.035, 7.010);
+	SeqNo(344075107);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("pch_C82", "fel1_bldg_pitcher_C", 344523560)
+{
+	ChildRotation(0.661, 0.000, 0.750, 0.000);
+	ChildPosition(144.473, 19.124, 16.875);
+	SeqNo(344523560);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("ptchr_clump467", "fel1_bldg_pitcher_clump", 353528824)
+{
+	ChildRotation(0.130, 0.000, -0.991, 0.000);
+	ChildPosition(129.544, 21.982, -113.096);
+	SeqNo(353528824);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("ptchr_clump498", "fel1_bldg_pitcher_clump", 356065683)
+{
+	ChildRotation(0.917, 0.221, 0.326, 0.060);
+	ChildPosition(-134.207, 14.537, -57.527);
+	SeqNo(356065683);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("whsk_clump44", "fel1_bldg_whisker_clump01", 363476217)
+{
+	ChildRotation(0.950, -0.264, -0.148, 0.080);
+	ChildPosition(-90.741, 24.985, 51.959);
+	SeqNo(363476217);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("seg13", "fel1_bldg_segmented", 371476016)
+{
+	ChildRotation(0.969, 0.000, 0.247, 0.000);
+	ChildPosition(19.522, 21.538, -52.767);
+	SeqNo(371476016);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("bldr2", "fel1_bldg_bladder", 391064488)
+{
+	ChildRotation(0.873, 0.000, 0.488, 0.000);
+	ChildPosition(51.986, 18.766, -14.462);
+	SeqNo(391064488);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("seg16", "fel1_bldg_segmented", 397065485)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(62.695, 18.468, 32.245);
+	SeqNo(397065485);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("whsk_clump10961", "fel1_bldg_whisker_clump01", 400883688)
+{
+	ChildRotation(1.000, 0.000, 0.010, 0.000);
+	ChildPosition(108.000, 19.863, -102.000);
+	SeqNo(400883688);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("spring13", "fel1_bldg_spring01", 417004510)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-22.654, 11.969, 62.641);
+	SeqNo(417004510);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("spring2", "fel1_bldg_spring01", 423662725)
+{
+	ChildRotation(0.929, 0.013, -0.369, 0.005);
+	ChildPosition(-12.542, 11.998, 59.556);
+	SeqNo(423662725);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("seg19", "fel1_bldg_segmented", 430505717)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(10.766, 22.996, -54.298);
+	SeqNo(430505717);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("ptchr_clump473", "fel1_bldg_pitcher_clump", 444409059)
+{
+	ChildRotation(0.983, -0.169, -0.005, 0.069);
+	ChildPosition(67.023, 23.270, 139.924);
+	SeqNo(444409059);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("whsk_clump69", "fel1_bldg_whisker_clump01", 462482441)
+{
+	ChildRotation(-0.155, -0.047, -0.970, 0.180);
+	ChildPosition(24.163, 17.925, 128.072);
+	SeqNo(462482441);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("bldr181", "fel1_bldg_bladder", 466658461)
+{
+	ChildRotation(0.905, 0.081, -0.418, 0.008);
+	ChildPosition(-16.919, 9.998, 5.327);
+	SeqNo(466658461);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("seg49", "fel1_bldg_segmented", 467028533)
+{
+	ChildRotation(0.992, 0.000, -0.130, 0.000);
+	ChildPosition(27.795, 10.749, 83.745);
+	SeqNo(467028533);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("fel1_bldg_segmented", "fel1_bldg_segmented", 471407475)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(53.715, 18.666, -8.452);
+	SeqNo(471407475);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("red_bush36", "fel1_bldg_red_bush", 486895458)
+{
+	ChildRotation(0.878, 0.000, -0.479, 0.000);
+	ChildPosition(112.182, 16.651, 60.680);
+	SeqNo(486895458);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("whsk_clump49", "fel1_bldg_whisker_clump01", 503557265)
+{
+	ChildRotation(0.745, 0.000, 0.667, 0.000);
+	ChildPosition(95.508, 18.899, 16.360);
+	SeqNo(503557265);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("fel1_bld_post1", "fel1_bld_post", 506583107)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(120.945, 38.137, -67.538);
+	SeqNo(506583107);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("whsk_clump10965", "fel1_bldg_whisker_clump01", 511535012)
+{
+	ChildRotation(1.000, 0.010, 0.000, -0.020);
+	ChildPosition(-27.137, 11.809, 73.039);
+	SeqNo(511535012);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("whsk_clump1098", "fel1_bldg_whisker_clump01", 519623538)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(140.428, 16.922, 63.682);
+	SeqNo(519623538);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("ptch_L4", "fel1_bldg_pitcher_L", 519644710)
+{
+	ChildRotation(0.463, -0.025, -0.880, -0.103);
+	ChildPosition(-158.747, 10.347, -6.926);
+	SeqNo(519644710);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("pch_C24", "fel1_bldg_pitcher_C", 530487585)
+{
+	ChildRotation(0.980, 0.000, 0.199, 0.000);
+	ChildPosition(89.623, 18.844, 32.890);
+	SeqNo(530487585);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("ptch_L58", "fel1_bldg_pitcher_L", 538106800)
+{
+	ChildRotation(0.953, 0.125, 0.274, 0.036);
+	ChildPosition(98.695, 19.101, 14.112);
+	SeqNo(538106800);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("whsk_clump53", "fel1_bldg_whisker_clump01", 549630075)
+{
+	ChildRotation(0.840, 0.028, 0.541, 0.021);
+	ChildPosition(140.833, 18.285, 16.076);
+	SeqNo(549630075);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("whsk_clump113", "fel1_bldg_whisker_clump01", 559856441)
+{
+	ChildRotation(0.978, 0.198, -0.017, -0.058);
+	ChildPosition(-102.192, 10.868, -48.650);
+	SeqNo(559856441);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("whsk_clump19", "fel1_bldg_whisker_clump01", 610034656)
+{
+	ChildRotation(0.974, -0.079, 0.189, 0.098);
+	ChildPosition(-11.556, 18.497, -31.808);
+	SeqNo(610034656);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("ptch_m8", "fel1_bldg_pitcher_M", 621431148)
+{
+	ChildRotation(0.939, 0.000, -0.343, 0.000);
+	ChildPosition(51.701, 25.261, -59.249);
+	SeqNo(621431148);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("fel1_prop_rock_group16", "fel1_prop_rock_group01", 629046224)
+{
+	ChildRotation(0.997, 0.000, 0.079, 0.000);
+	ChildPosition(-115.814, 9.698, -25.522);
+	SeqNo(629046224);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("seg21", "fel1_bldg_segmented", 636148881)
+{
+	ChildRotation(0.936, 0.000, -0.352, 0.000);
+	ChildPosition(46.705, 18.573, 29.282);
+	SeqNo(636148881);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("bldr34", "fel1_bldg_bladder", 637781456)
+{
+	ChildRotation(0.956, 0.000, -0.295, 0.000);
+	ChildPosition(62.051, 18.731, -23.285);
+	SeqNo(637781456);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("ptch_m5", "fel1_bldg_pitcher_M", 644310203)
+{
+	ChildRotation(-0.019, 0.000, -1.000, 0.000);
+	ChildPosition(73.723, 19.184, -19.299);
+	SeqNo(644310203);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("ptch_S107", "fel1_bldg_pitcher_S", 651831870)
+{
+	ChildRotation(0.958, 0.000, -0.286, 0.000);
+	ChildPosition(-133.782, 9.699, -40.827);
+	SeqNo(651831870);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("pch_C72", "fel1_bldg_pitcher_C", 656694894)
+{
+	ChildRotation(0.811, 0.000, -0.585, 0.000);
+	ChildPosition(100.013, 19.147, -2.444);
+	SeqNo(656694894);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("pch_C114", "fel1_bldg_pitcher_C", 660118495)
+{
+	ChildRotation(0.402, 0.000, -0.916, 0.000);
+	ChildPosition(138.782, 18.528, 16.250);
+	SeqNo(660118495);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("whsk_clump380", "fel1_bldg_whisker_clump01", 676564220)
+{
+	ChildRotation(0.983, 0.036, -0.151, 0.095);
+	ChildPosition(150.715, 22.087, -5.951);
+	SeqNo(676564220);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("pch_C5501", "fel1_bldg_pitcher_C", 682898529)
+{
+	ChildRotation(0.560, 0.000, 0.828, 0.000);
+	ChildPosition(108.295, 17.775, 113.942);
+	SeqNo(682898529);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("pch_C69", "fel1_bldg_pitcher_C", 684702027)
+{
+	ChildRotation(0.811, 0.000, -0.585, 0.000);
+	ChildPosition(68.765, 19.684, -30.881);
+	SeqNo(684702027);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("ptch_S36", "fel1_bldg_pitcher_S", 691569382)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(66.511, 19.215, -20.003);
+	SeqNo(691569382);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("ptchr_clump484", "fel1_bldg_pitcher_clump", 712377122)
+{
+	ChildRotation(0.906, 0.017, -0.382, 0.181);
+	ChildPosition(177.735, 24.893, 0.995);
+	SeqNo(712377122);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("pch_C132", "fel1_bldg_pitcher_C", 803544206)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-41.898, 11.992, -37.776);
+	SeqNo(803544206);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("ptchr_clump18", "fel1_bldg_pitcher_clump", 810032071)
+{
+	ChildRotation(0.994, 0.099, 0.032, 0.029);
+	ChildPosition(137.759, 17.130, 38.271);
+	SeqNo(810032071);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("bldr56", "fel1_bldg_bladder", 813551135)
+{
+	ChildRotation(0.461, 0.000, -0.887, 0.000);
+	ChildPosition(-126.930, 11.557, 29.495);
+	SeqNo(813551135);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("bldr61", "fel1_bldg_bladder", 825830228)
+{
+	ChildRotation(-0.498, 0.000, -0.867, 0.000);
+	ChildPosition(102.365, 15.983, 81.519);
+	SeqNo(825830228);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("bldr164", "fel1_bldg_bladder", 833578996)
+{
+	ChildRotation(0.156, 0.128, -0.979, 0.020);
+	ChildPosition(-28.971, 12.079, -26.237);
+	SeqNo(833578996);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("ptchr_clump490", "fel1_bldg_pitcher_clump", 837881999)
+{
+	ChildRotation(-0.291, -0.061, -0.923, 0.245);
+	ChildPosition(-17.802, 29.092, 128.385);
+	SeqNo(837881999);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("bldr179", "fel1_bldg_bladder", 861198915)
+{
+	ChildRotation(0.422, 0.006, -0.905, -0.055);
+	ChildPosition(-132.078, 9.564, -38.160);
+	SeqNo(861198915);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("whsk_clump67", "fel1_bldg_whisker_clump01", 871229652)
+{
+	ChildRotation(0.460, 0.000, -0.888, 0.000);
+	ChildPosition(-137.199, 10.957, 21.908);
+	SeqNo(871229652);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("ptchr_clump32", "fel1_bldg_pitcher_clump", 888090344)
+{
+	ChildRotation(0.980, 0.000, -0.198, 0.000);
+	ChildPosition(12.467, 18.821, -14.050);
+	SeqNo(888090344);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("bldr18", "fel1_bldg_bladder", 913382458)
+{
+	ChildRotation(0.883, -0.063, 0.448, 0.124);
+	ChildPosition(80.250, 18.842, -2.068);
+	SeqNo(913382458);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("ptchr_clump512", "fel1_bldg_pitcher_clump", 927234003)
+{
+	ChildRotation(-0.041, 0.000, -0.999, 0.000);
+	ChildPosition(34.902, 12.122, 86.849);
+	SeqNo(927234003);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("whsk_clump58", "fel1_bldg_whisker_clump01", 927996605)
+{
+	ChildRotation(0.735, 0.125, -0.665, 0.034);
+	ChildPosition(-39.785, 10.434, -31.495);
+	SeqNo(927996605);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("Tall", "fel1_bldg_mtn_accessoryTall", 929759769)
+{
+	ChildRotation(0.771, -0.100, 0.625, -0.065);
+	ChildPosition(131.247, 9.942, -49.316);
+	SeqNo(929759769);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("bldr65", "fel1_bldg_bladder", 932426071)
+{
+	ChildRotation(0.768, 0.013, 0.640, -0.015);
+	ChildPosition(96.156, 15.081, 79.999);
+	SeqNo(932426071);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("seg23", "fel1_bldg_segmented", 949739116)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(43.089, 24.038, -71.225);
+	SeqNo(949739116);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("ptchr_clump510", "fel1_bldg_pitcher_clump", 959721913)
+{
+	ChildRotation(0.958, 0.038, -0.285, -0.011);
+	ChildPosition(-34.502, 11.722, 32.571);
+	SeqNo(959721913);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("bldr20", "fel1_bldg_bladder", 963130822)
+{
+	ChildRotation(0.873, 0.000, 0.488, 0.000);
+	ChildPosition(38.444, 18.843, 7.681);
+	SeqNo(963130822);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("bldr35", "fel1_bldg_bladder", 968685628)
+{
+	ChildRotation(0.982, 0.000, -0.189, 0.000);
+	ChildPosition(73.930, 18.949, -26.310);
+	SeqNo(968685628);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("red_bush352", "fel1_bldg_red_bush", 985641552)
+{
+	ChildRotation(0.744, -0.013, 0.668, 0.015);
+	ChildPosition(106.614, 16.498, 83.456);
+	SeqNo(985641552);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("bldr196", "fel1_bldg_bladder", 987187389)
+{
+	ChildRotation(0.937, 0.027, 0.341, -0.075);
+	ChildPosition(-36.234, 10.300, 11.499);
+	SeqNo(987187389);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("seg28", "fel1_bldg_segmented", 987760154)
+{
+	ChildRotation(0.927, 0.155, -0.308, 0.146);
+	ChildPosition(-19.519, 11.197, -4.242);
+	SeqNo(987760154);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("seg7", "fel1_bldg_segmented", 991087043)
+{
+	ChildRotation(0.831, 0.006, -0.556, 0.008);
+	ChildPosition(38.357, 16.719, 46.870);
+	SeqNo(991087043);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("ptch_S7", "fel1_bldg_pitcher_S", 1008206767)
+{
+	ChildRotation(0.913, 0.000, -0.408, 0.000);
+	ChildPosition(-46.186, 9.981, -35.362);
+	SeqNo(1008206767);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("red_bush353", "fel1_bldg_red_bush", 1011661807)
+{
+	ChildRotation(0.238, 0.000, -0.971, 0.000);
+	ChildPosition(121.049, 16.977, 56.693);
+	SeqNo(1011661807);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("seg14", "fel1_bldg_segmented", 1015074525)
+{
+	ChildRotation(0.974, 0.000, -0.228, 0.000);
+	ChildPosition(43.532, 18.391, 21.627);
+	SeqNo(1015074525);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("bldr17", "fel1_bldg_bladder", 1017198549)
+{
+	ChildRotation(0.089, 0.000, -0.996, 0.000);
+	ChildPosition(65.855, 19.011, 24.590);
+	SeqNo(1017198549);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("whsk_clump60", "fel1_bldg_whisker_clump01", 1035216508)
+{
+	ChildRotation(0.980, 0.089, -0.008, 0.179);
+	ChildPosition(-23.873, 13.345, -32.216);
+	SeqNo(1035216508);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("red_bush20", "fel1_bldg_red_bush", 1036445739)
+{
+	ChildRotation(0.598, 0.000, -0.801, 0.000);
+	ChildPosition(-21.621, 18.157, 110.047);
+	SeqNo(1036445739);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("seg20", "fel1_bldg_segmented", 1039214564)
+{
+	ChildRotation(0.842, 0.005, -0.539, 0.008);
+	ChildPosition(1.527, 18.684, -14.705);
+	SeqNo(1039214564);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("spring20", "fel1_bldg_spring01", 1045105488)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-4.248, 11.954, 80.883);
+	SeqNo(1045105488);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("seg33", "fel1_bldg_segmented", 1047295040)
+{
+	ChildRotation(0.379, 0.111, -0.918, 0.046);
+	ChildPosition(-33.256, 10.850, -24.756);
+	SeqNo(1047295040);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("pch_C48", "fel1_bldg_pitcher_C", 1054079731)
+{
+	ChildRotation(0.682, 0.000, 0.731, 0.000);
+	ChildPosition(30.878, 19.243, 5.442);
+	SeqNo(1054079731);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("ptch_S25", "fel1_bldg_pitcher_S", 1058781730)
+{
+	ChildRotation(0.460, 0.000, -0.888, 0.000);
+	ChildPosition(-119.997, 12.170, 36.854);
+	SeqNo(1058781730);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("whsk_clump78", "fel1_bldg_whisker_clump01", 1060732004)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(94.405, 18.848, 3.977);
+	SeqNo(1060732004);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("bldr187", "fel1_bldg_bladder", 1077200824)
+{
+	ChildRotation(0.655, 0.111, -0.743, -0.084);
+	ChildPosition(-91.858, 11.331, -51.584);
+	SeqNo(1077200824);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("spiral_stairl1", "fel1_bldg_spiral_stairl", 1080089269)
+{
+	ChildRotation(0.986, 0.000, 0.170, 0.000);
+	ChildPosition(133.379, 18.921, -60.455);
+	SeqNo(1080089269);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("seg46", "fel1_bldg_segmented", 1088926185)
+{
+	ChildRotation(0.925, 0.000, 0.380, 0.000);
+	ChildPosition(-50.000, 9.461, -1.000);
+	SeqNo(1088926185);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("ptch_L24", "fel1_bldg_pitcher_L", 1095004089)
+{
+	ChildRotation(0.955, 0.000, 0.295, 0.000);
+	ChildPosition(19.886, 19.020, -16.844);
+	SeqNo(1095004089);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("fel1_prop_rock_group17", "fel1_prop_rock_group01", 1116805845)
+{
+	ChildRotation(0.853, 0.060, -0.511, 0.080);
+	ChildPosition(-18.352, 9.609, 7.361);
+	SeqNo(1116805845);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("ptchr_clump24", "fel1_bldg_pitcher_clump", 1122630554)
+{
+	ChildRotation(-0.408, 0.000, -0.913, 0.000);
+	ChildPosition(60.522, 19.246, -9.752);
+	SeqNo(1122630554);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("red_bush351", "fel1_bldg_red_bush", 1125107173)
+{
+	ChildRotation(0.809, -0.120, 0.575, 0.011);
+	ChildPosition(102.084, 15.626, 85.497);
+	SeqNo(1125107173);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("whsk_clump95", "fel1_bldg_whisker_clump01", 1142589167)
+{
+	ChildRotation(0.772, 0.000, 0.636, 0.000);
+	ChildPosition(109.828, 16.786, 67.899);
+	SeqNo(1142589167);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("ptch_S113", "fel1_bldg_pitcher_S", 1146335109)
+{
+	ChildRotation(0.794, 0.340, 0.491, 0.116);
+	ChildPosition(99.467, 15.408, 124.744);
+	SeqNo(1146335109);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("whsk_clump2", "fel1_bldg_whisker_clump01", 1159541712)
+{
+	ChildRotation(0.460, 0.000, -0.888, 0.000);
+	ChildPosition(-136.232, 11.747, 33.376);
+	SeqNo(1159541712);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("ptch_S110", "fel1_bldg_pitcher_S", 1188982283)
+{
+	ChildRotation(0.839, -0.068, 0.538, 0.051);
+	ChildPosition(-14.417, 18.508, -26.866);
+	SeqNo(1188982283);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("ptchr_clump464", "fel1_bldg_pitcher_clump", 1190142375)
+{
+	ChildRotation(0.870, 0.095, -0.480, 0.062);
+	ChildPosition(84.917, 9.172, 117.074);
+	SeqNo(1190142375);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("pch_C126", "fel1_bldg_pitcher_C", 1198221787)
+{
+	ChildRotation(0.051, 0.149, -0.987, 0.008);
+	ChildPosition(119.947, 18.888, -15.261);
+	SeqNo(1198221787);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("whsk_clump79", "fel1_bldg_whisker_clump01", 1203270407)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(70.377, 18.917, -6.098);
+	SeqNo(1203270407);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("whsk_clump3", "fel1_bldg_whisker_clump01", 1205228207)
+{
+	ChildRotation(0.460, 0.000, -0.888, 0.000);
+	ChildPosition(-124.875, 11.280, 45.853);
+	SeqNo(1205228207);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("bldr192", "fel1_bldg_bladder", 1208501657)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-113.373, 9.714, -22.009);
+	SeqNo(1208501657);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("Short4", "fel1_bldg_mtn_accessoryShort", 1216375941)
+{
+	ChildRotation(-0.326, 0.157, -0.931, 0.053);
+	ChildPosition(131.639, 22.094, -53.505);
+	SeqNo(1216375941);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("whsk_clump48", "fel1_bldg_whisker_clump01", 1225259735)
+{
+	ChildRotation(0.990, 0.000, 0.140, 0.000);
+	ChildPosition(99.682, 18.788, 11.098);
+	SeqNo(1225259735);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("ptchr_clump486", "fel1_bldg_pitcher_clump", 1241580776)
+{
+	ChildRotation(0.949, 0.044, -0.273, 0.153);
+	ChildPosition(176.030, 26.767, 63.569);
+	SeqNo(1241580776);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("seg1", "fel1_bldg_segmented", 1279777127)
+{
+	ChildRotation(0.892, 0.000, 0.452, 0.000);
+	ChildPosition(11.785, 18.641, -9.128);
+	SeqNo(1279777127);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("ptchr_clump21", "fel1_bldg_pitcher_clump", 1295692638)
+{
+	ChildRotation(0.277, 0.000, -0.961, 0.000);
+	ChildPosition(82.966, 19.000, 11.748);
+	SeqNo(1295692638);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("whsk_clump5", "fel1_bldg_whisker_clump01", 1304618786)
+{
+	ChildRotation(0.538, 0.009, -0.843, -0.013);
+	ChildPosition(-146.956, 9.854, -27.820);
+	SeqNo(1304618786);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("seg35", "fel1_bldg_segmented", 1310319156)
+{
+	ChildRotation(0.818, 0.099, -0.565, 0.037);
+	ChildPosition(4.770, 18.273, -7.409);
+	SeqNo(1310319156);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("pch_C41", "fel1_bldg_pitcher_C", 1319711374)
+{
+	ChildRotation(0.759, 0.113, -0.625, 0.143);
+	ChildPosition(19.766, 16.807, 35.123);
+	SeqNo(1319711374);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("seg24", "fel1_bldg_segmented", 1326702211)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(87.377, 18.600, 16.806);
+	SeqNo(1326702211);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("whsk_clump33", "fel1_bldg_whisker_clump01", 1347792577)
+{
+	ChildRotation(0.614, 0.000, -0.789, 0.000);
+	ChildPosition(33.076, 18.947, 4.608);
+	SeqNo(1347792577);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("pch_C93", "fel1_bldg_pitcher_C", 1354779729)
+{
+	ChildRotation(0.462, 0.000, -0.887, 0.000);
+	ChildPosition(-123.737, 12.071, 32.282);
+	SeqNo(1354779729);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("seg30", "fel1_bldg_segmented", 1365933667)
+{
+	ChildRotation(0.676, 0.245, -0.677, -0.157);
+	ChildPosition(43.109, 10.763, 57.937);
+	SeqNo(1365933667);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("ptchr_clump477", "fel1_bldg_pitcher_clump", 1383756891)
+{
+	ChildRotation(0.980, 0.199, 0.002, -0.010);
+	ChildPosition(-90.705, 17.156, -60.520);
+	SeqNo(1383756891);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("fel1_prop_rock_group3", "fel1_prop_rock_group01", 1392299441)
+{
+	ChildRotation(0.466, -0.061, -0.875, 0.114);
+	ChildPosition(-110.769, 10.506, 10.296);
+	SeqNo(1392299441);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("ptch_L56", "fel1_bldg_pitcher_L", 1407386657)
+{
+	ChildRotation(-0.396, 0.290, -0.840, 0.232);
+	ChildPosition(-99.175, 19.434, 54.019);
+	SeqNo(1407386657);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("fel1_prop_rock_group8", "fel1_prop_rock_group01", 1411881499)
+{
+	ChildRotation(-0.211, 0.583, -0.309, -0.721);
+	ChildPosition(-5.310, 10.000, 40.027);
+	SeqNo(1411881499);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("seg37", "fel1_bldg_segmented", 1418231556)
+{
+	ChildRotation(0.746, -0.083, 0.655, -0.086);
+	ChildPosition(21.433, 11.132, 83.155);
+	SeqNo(1418231556);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("bldr154", "fel1_bldg_bladder", 1421367619)
+{
+	ChildRotation(0.525, 0.000, -0.851, 0.000);
+	ChildPosition(-137.203, 9.724, -28.202);
+	SeqNo(1421367619);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("pch_C18", "fel1_bldg_pitcher_C", 1430377811)
+{
+	ChildRotation(0.489, 0.000, -0.872, 0.000);
+	ChildPosition(28.184, 18.767, 10.576);
+	SeqNo(1430377811);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("seg44", "fel1_bldg_segmented", 1431836429)
+{
+	ChildRotation(0.539, 0.104, 0.828, -0.114);
+	ChildPosition(-34.579, 10.559, 17.302);
+	SeqNo(1431836429);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("ptchr_clump483", "fel1_bldg_pitcher_clump", 1440868023)
+{
+	ChildRotation(-0.389, 0.239, -0.889, -0.024);
+	ChildPosition(179.192, 24.818, -41.993);
+	SeqNo(1440868023);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("ptchr_clump462", "fel1_bldg_pitcher_clump", 1444633833)
+{
+	ChildRotation(-0.071, 0.008, -0.993, 0.090);
+	ChildPosition(53.699, 16.037, 120.891);
+	SeqNo(1444633833);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("whsk_clump10941", "fel1_bldg_whisker_clump01", 1445603988)
+{
+	ChildRotation(0.847, -0.015, 0.511, -0.148);
+	ChildPosition(30.547, 16.920, 129.929);
+	SeqNo(1445603988);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("ptchr_clump11", "fel1_bldg_pitcher_clump", 1458544371)
+{
+	ChildRotation(0.461, 0.000, -0.887, 0.000);
+	ChildPosition(-113.044, 12.028, 43.781);
+	SeqNo(1458544371);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("ptch_S35", "fel1_bldg_pitcher_S", 1485662112)
+{
+	ChildRotation(-0.209, 0.000, -0.978, 0.000);
+	ChildPosition(54.655, 19.290, -16.511);
+	SeqNo(1485662112);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("seg4", "fel1_bldg_segmented", 1486673917)
+{
+	ChildRotation(0.892, 0.000, 0.452, 0.000);
+	ChildPosition(9.179, 18.792, -31.849);
+	SeqNo(1486673917);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("spring21", "fel1_bldg_spring01", 1487282987)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-21.598, 11.947, 82.901);
+	SeqNo(1487282987);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("whsk_clump63", "fel1_bldg_whisker_clump01", 1497370712)
+{
+	ChildRotation(0.928, 0.015, -0.370, 0.037);
+	ChildPosition(47.408, 18.755, 24.291);
+	SeqNo(1497370712);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("pch_C553", "fel1_bldg_pitcher_C", 1503080706)
+{
+	ChildRotation(-0.134, 0.000, -0.991, 0.000);
+	ChildPosition(142.141, 17.442, 105.880);
+	SeqNo(1503080706);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("whsk_clump10958", "fel1_bldg_whisker_clump01", 1518572010)
+{
+	ChildRotation(0.984, 0.179, -0.015, 0.000);
+	ChildPosition(-123.629, 12.097, -50.323);
+	SeqNo(1518572010);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("spring8", "fel1_bldg_spring01", 1522815211)
+{
+	ChildRotation(0.998, 0.000, 0.000, -0.070);
+	ChildPosition(-30.955, 12.300, 86.110);
+	SeqNo(1522815211);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("pch_C87", "fel1_bldg_pitcher_C", 1528244106)
+{
+	ChildRotation(0.690, 0.000, -0.724, 0.000);
+	ChildPosition(142.086, 18.896, 18.235);
+	SeqNo(1528244106);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("ptchr_clump472", "fel1_bldg_pitcher_clump", 1534360222)
+{
+	ChildRotation(0.024, 0.082, -0.965, 0.249);
+	ChildPosition(50.853, 22.015, 141.531);
+	SeqNo(1534360222);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("pch_C171", "fel1_bldg_pitcher_C", 1543857146)
+{
+	ChildRotation(0.571, -0.110, 0.799, -0.154);
+	ChildPosition(-72.374, 24.309, 46.102);
+	SeqNo(1543857146);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("ptchr_clump501", "fel1_bldg_pitcher_clump", 1559287810)
+{
+	ChildRotation(0.911, 0.026, 0.404, 0.072);
+	ChildPosition(-144.676, 10.949, -49.302);
+	SeqNo(1559287810);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("pch_C99", "fel1_bldg_pitcher_C", 1563256855)
+{
+	ChildRotation(0.461, 0.000, -0.888, 0.000);
+	ChildPosition(-105.732, 13.839, 46.635);
+	SeqNo(1563256855);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("fel1_bldg_fungal_root3", "fel1_bldg_fungal_root", 1563609053)
+{
+	ChildRotation(0.561, 0.000, -0.828, 0.000);
+	ChildPosition(-31.926, 11.872, 53.947);
+	SeqNo(1563609053);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("ptch_L16", "fel1_bldg_pitcher_L", 1587745138)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(34.000, 19.000, 25.000);
+	SeqNo(1587745138);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("whsk_clump6", "fel1_bldg_whisker_clump01", 1590859939)
+{
+	ChildRotation(0.974, 0.000, -0.228, 0.000);
+	ChildPosition(-138.998, 10.130, -14.523);
+	SeqNo(1590859939);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("whsk_clump35", "fel1_bldg_whisker_clump01", 1604907050)
+{
+	ChildRotation(0.977, 0.041, -0.209, 0.001);
+	ChildPosition(64.932, 18.919, -24.871);
+	SeqNo(1604907050);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("red_bush355", "fel1_bldg_red_bush", 1613246586)
+{
+	ChildRotation(-0.383, 0.000, -0.924, 0.000);
+	ChildPosition(143.701, 17.178, 35.782);
+	SeqNo(1613246586);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("pch_C5505", "fel1_bldg_pitcher_C", 1613997303)
+{
+	ChildRotation(0.851, 0.041, 0.476, 0.219);
+	ChildPosition(4.245, 14.302, 8.992);
+	SeqNo(1613997303);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("pch_C34", "fel1_bldg_pitcher_C", 1624868533)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(78.736, 23.135, -50.371);
+	SeqNo(1624868533);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("pch_C116", "fel1_bldg_pitcher_C", 1631623698)
+{
+	ChildRotation(0.799, 0.000, 0.602, 0.000);
+	ChildPosition(147.547, 19.491, 26.528);
+	SeqNo(1631623698);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("seg15", "fel1_bldg_segmented", 1651841941)
+{
+	ChildRotation(0.831, 0.000, -0.556, 0.000);
+	ChildPosition(33.261, 19.941, -54.419);
+	SeqNo(1651841941);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("whsk_clump109", "fel1_bldg_whisker_clump01", 1654942527)
+{
+	ChildRotation(0.510, 0.000, 0.860, 0.000);
+	ChildPosition(138.048, 16.912, 64.311);
+	SeqNo(1654942527);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("pch_C174", "fel1_bldg_pitcher_C", 1669047789)
+{
+	ChildRotation(0.800, 0.000, -0.600, 0.000);
+	ChildPosition(107.077, 17.030, 69.315);
+	SeqNo(1669047789);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("whsk_clump64", "fel1_bldg_whisker_clump01", 1671578214)
+{
+	ChildRotation(0.460, 0.000, -0.888, 0.000);
+	ChildPosition(-141.020, 9.758, -2.859);
+	SeqNo(1671578214);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("red_bush6", "fel1_bldg_red_bush", 1674586027)
+{
+	ChildRotation(0.848, 0.000, 0.530, 0.000);
+	ChildPosition(-57.268, 11.948, -50.886);
+	SeqNo(1674586027);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("ptch_m17", "fel1_bldg_pitcher_M", 1704268734)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(73.173, 19.436, -24.162);
+	SeqNo(1704268734);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("pch_C80", "fel1_bldg_pitcher_C", 1716306211)
+{
+	ChildRotation(0.645, 0.000, -0.764, 0.000);
+	ChildPosition(47.193, 16.821, 49.346);
+	SeqNo(1716306211);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("whsk_clump54", "fel1_bldg_whisker_clump01", 1719088643)
+{
+	ChildRotation(0.943, 0.000, -0.334, 0.000);
+	ChildPosition(102.000, 16.637, 73.445);
+	SeqNo(1719088643);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("ptchr_clump471", "fel1_bldg_pitcher_clump", 1739613811)
+{
+	ChildRotation(0.996, -0.080, -0.002, 0.030);
+	ChildPosition(33.090, 22.564, 143.780);
+	SeqNo(1739613811);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("fel1_prop_rock_group13", "fel1_prop_rock_group01", 1739825725)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(36.435, 20.342, -50.476);
+	SeqNo(1739825725);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("ptch_S92", "fel1_bldg_pitcher_S", 1749622661)
+{
+	ChildRotation(0.544, 0.094, 0.824, 0.128);
+	ChildPosition(120.449, 19.920, -10.399);
+	SeqNo(1749622661);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("whsk_clump87", "fel1_bldg_whisker_clump01", 1760051591)
+{
+	ChildRotation(0.512, 0.000, -0.859, 0.000);
+	ChildPosition(142.244, 16.902, 75.336);
+	SeqNo(1760051591);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("ptchr_clump487", "fel1_bldg_pitcher_clump", 1771885966)
+{
+	ChildRotation(0.969, 0.000, 0.000, 0.247);
+	ChildPosition(168.118, 26.655, 103.459);
+	SeqNo(1771885966);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("bldr8", "fel1_bldg_bladder", 1792131243)
+{
+	ChildRotation(0.873, 0.000, 0.487, 0.000);
+	ChildPosition(76.577, 18.927, -28.011);
+	SeqNo(1792131243);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("ptch_clump2", "fel1_bldg_pitcher_clump", 1795328685)
+{
+	ChildRotation(0.743, -0.103, 0.661, 0.010);
+	ChildPosition(160.084, 22.777, -12.290);
+	SeqNo(1795328685);
+	Team(0);
+	NetworkId(-1);
+	Label("ccccccccccccccccccc");
+}
+
+Object("bldr156", "fel1_bldg_bladder", 1810154494)
+{
+	ChildRotation(0.802, -0.133, 0.568, 0.126);
+	ChildPosition(-14.528, 17.928, -22.136);
+	SeqNo(1810154494);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("pch_C95", "fel1_bldg_pitcher_C", 1812513078)
+{
+	ChildRotation(0.955, 0.030, -0.274, -0.105);
+	ChildPosition(-134.890, 10.385, -18.864);
+	SeqNo(1812513078);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("bldr64", "fel1_bldg_bladder", 1819573974)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(97.690, 15.149, 81.972);
+	SeqNo(1819573974);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("whsk_clump10954", "fel1_bldg_whisker_clump01", 1838600518)
+{
+	ChildRotation(0.985, 0.159, -0.010, -0.059);
+	ChildPosition(23.835, 21.969, -56.364);
+	SeqNo(1838600518);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("ptchr_clump513", "fel1_bldg_pitcher_clump", 1842586965)
+{
+	ChildRotation(0.606, 0.000, -0.795, 0.000);
+	ChildPosition(-88.723, 10.029, 0.859);
+	SeqNo(1842586965);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("bldr145", "fel1_bldg_bladder", 1865618441)
+{
+	ChildRotation(0.991, 0.053, 0.108, 0.053);
+	ChildPosition(-52.174, 9.743, -31.822);
+	SeqNo(1865618441);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("bldr175", "fel1_bldg_bladder", 1868060005)
+{
+	ChildRotation(0.678, 0.145, -0.717, -0.070);
+	ChildPosition(-66.386, 13.568, -57.758);
+	SeqNo(1868060005);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("red_bush18", "fel1_bldg_red_bush", 1870433783)
+{
+	ChildRotation(0.461, 0.000, -0.887, 0.000);
+	ChildPosition(-125.857, 11.239, 40.841);
+	SeqNo(1870433783);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("ptch_S112", "fel1_bldg_pitcher_S", 1874195793)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-108.207, 13.523, 51.502);
+	SeqNo(1874195793);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("bldr59", "fel1_bldg_bladder", 1875151794)
+{
+	ChildRotation(0.284, 0.000, -0.959, 0.000);
+	ChildPosition(-122.720, 11.284, 24.029);
+	SeqNo(1875151794);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("whsk_clump112", "fel1_bldg_whisker_clump01", 1893716111)
+{
+	ChildRotation(0.996, 0.089, -0.007, 0.010);
+	ChildPosition(-50.981, 10.666, -46.231);
+	SeqNo(1893716111);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("ptchr_clump511", "fel1_bldg_pitcher_clump", 1896201479)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(3.196, 12.133, 77.174);
+	SeqNo(1896201479);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("whsk_clump61", "fel1_bldg_whisker_clump01", 1897465951)
+{
+	ChildRotation(0.808, 0.040, 0.588, -0.004);
+	ChildPosition(-118.993, 10.101, -43.517);
+	SeqNo(1897465951);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("bldr160", "fel1_bldg_bladder", 1909757492)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-9.230, 19.315, -26.726);
+	SeqNo(1909757492);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("bldr51", "fel1_bldg_bladder", 1941957900)
+{
+	ChildRotation(0.547, 0.000, -0.837, 0.000);
+	ChildPosition(-120.844, 11.590, 29.737);
+	SeqNo(1941957900);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("ptch_m2", "fel1_bldg_pitcher_M", 1990517155)
+{
+	ChildRotation(0.913, 0.000, 0.408, 0.000);
+	ChildPosition(31.369, 18.896, 17.825);
+	SeqNo(1990517155);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("whsk_clump18", "fel1_bldg_whisker_clump01", 1990757231)
+{
+	ChildRotation(0.986, -0.010, -0.169, 0.002);
+	ChildPosition(2.698, 19.022, -24.563);
+	SeqNo(1990757231);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("fel1_prop_rock_group9", "fel1_prop_rock_group01", 1999334330)
+{
+	ChildRotation(0.986, 0.000, -0.169, 0.000);
+	ChildPosition(18.236, 9.601, 75.753);
+	SeqNo(1999334330);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("whsk_clump57", "fel1_bldg_whisker_clump01", 1999516751)
+{
+	ChildRotation(0.817, 0.132, -0.554, -0.088);
+	ChildPosition(-83.753, 10.531, -49.131);
+	SeqNo(1999516751);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("pch_C45", "fel1_bldg_pitcher_C", 2021859285)
+{
+	ChildRotation(0.913, 0.000, -0.408, 0.000);
+	ChildPosition(35.152, 18.875, 18.457);
+	SeqNo(2021859285);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("fel1_prop_rock_group2", "fel1_prop_rock_group01", 2023298702)
+{
+	ChildRotation(0.990, 0.000, 0.140, 0.000);
+	ChildPosition(-106.000, 9.878, -42.567);
+	SeqNo(2023298702);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("ptchr_clump27", "fel1_bldg_pitcher_clump", 2031596020)
+{
+	ChildRotation(0.675, 0.000, -0.738, 0.000);
+	ChildPosition(80.369, 18.823, 32.941);
+	SeqNo(2031596020);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("ptch_S45", "fel1_bldg_pitcher_S", 2032913356)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(87.013, 18.720, 34.472);
+	SeqNo(2032913356);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("ptch_S21", "fel1_bldg_pitcher_S", 2033444799)
+{
+	ChildRotation(0.943, -0.139, 0.247, -0.174);
+	ChildPosition(-23.366, 13.850, 104.531);
+	SeqNo(2033444799);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("ptchr_clump468", "fel1_bldg_pitcher_clump", 2033499984)
+{
+	ChildRotation(0.866, 0.108, -0.440, 0.212);
+	ChildPosition(181.683, 23.786, -96.961);
+	SeqNo(2033499984);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("whsk_clump34", "fel1_bldg_whisker_clump01", 2035765691)
+{
+	ChildRotation(0.863, 0.000, 0.504, 0.000);
+	ChildPosition(60.233, 18.910, -13.868);
+	SeqNo(2035765691);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("ptchr_clump507", "fel1_bldg_pitcher_clump", 2039626817)
+{
+	ChildRotation(0.962, -0.207, -0.129, -0.119);
+	ChildPosition(-37.360, 20.345, 104.091);
+	SeqNo(2039626817);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("fel1_prop_rock_group15", "fel1_prop_rock_group01", 2051574055)
+{
+	ChildRotation(0.814, 0.000, 0.581, 0.000);
+	ChildPosition(108.835, 16.589, 72.713);
+	SeqNo(2051574055);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("pch_C42", "fel1_bldg_pitcher_C", 2061021351)
+{
+	ChildRotation(0.681, 0.233, -0.687, 0.101);
+	ChildPosition(13.335, 13.061, 39.621);
+	SeqNo(2061021351);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("whsk_clump77", "fel1_bldg_whisker_clump01", 2061796081)
+{
+	ChildRotation(0.953, 0.000, -0.303, 0.000);
+	ChildPosition(84.646, 18.479, -3.769);
+	SeqNo(2061796081);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("pch_C5", "fel1_bldg_pitcher_C", 2072595510)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(33.343, 19.085, -10.852);
+	SeqNo(2072595510);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("seg2", "fel1_bldg_segmented", 2076493764)
+{
+	ChildRotation(0.892, 0.000, 0.452, 0.000);
+	ChildPosition(27.337, 18.210, -13.017);
+	SeqNo(2076493764);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("ptch_S89", "fel1_bldg_pitcher_S", 2079605249)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(133.341, 19.246, 5.155);
+	SeqNo(2079605249);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("ptchr_clump481", "fel1_bldg_pitcher_clump", 2089963174)
+{
+	ChildRotation(0.089, 0.000, -0.996, 0.000);
+	ChildPosition(102.160, 20.012, -112.474);
+	SeqNo(2089963174);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("seg11", "fel1_bldg_segmented", 2098835892)
+{
+	ChildRotation(0.277, 0.000, -0.961, 0.000);
+	ChildPosition(-4.225, 18.790, -26.764);
+	SeqNo(2098835892);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("seg27", "fel1_bldg_segmented", 2105649780)
+{
+	ChildRotation(0.934, 0.148, -0.326, 0.000);
+	ChildPosition(-15.865, 10.845, 0.058);
+	SeqNo(2105649780);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("red_bush22", "fel1_bldg_red_bush", 2114703249)
+{
+	ChildRotation(0.209, -0.416, -0.876, 0.128);
+	ChildPosition(-42.506, 19.031, 90.668);
+	SeqNo(2114703249);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("red_bush34", "fel1_bldg_red_bush", 2120995093)
+{
+	ChildRotation(0.896, -0.026, 0.442, 0.031);
+	ChildPosition(163.253, 20.649, 23.349);
+	SeqNo(2120995093);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("fel1_bldg_segmented0", "fel1_bldg_segmented", 2123339016)
+{
+	ChildRotation(0.808, 0.000, -0.589, 0.000);
+	ChildPosition(55.340, 18.839, -21.161);
+	SeqNo(2123339016);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("ptchr_clump496", "fel1_bldg_pitcher_clump", 2138704316)
+{
+	ChildRotation(0.943, -0.313, -0.086, -0.070);
+	ChildPosition(-21.778, 25.488, 117.487);
+	SeqNo(2138704316);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("red_bush3560", "fel1_bldg_red_bush", -2128941002)
+{
+	ChildRotation(0.903, 0.000, -0.429, 0.000);
+	ChildPosition(143.933, 17.538, 52.105);
+	SeqNo(-2128941002);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("ptchr_clump22", "fel1_bldg_pitcher_clump", -2125664124)
+{
+	ChildRotation(0.644, 0.000, -0.765, 0.000);
+	ChildPosition(93.505, 18.934, -6.632);
+	SeqNo(-2125664124);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("seg42", "fel1_bldg_segmented", -2101120540)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-68.591, 9.644, -4.237);
+	SeqNo(-2101120540);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("ptch_m16", "fel1_bldg_pitcher_M", -2091485416)
+{
+	ChildRotation(-0.415, -0.091, -0.904, -0.042);
+	ChildPosition(66.000, 22.000, -79.000);
+	SeqNo(-2091485416);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("bldr195", "fel1_bldg_bladder", -2088832028)
+{
+	ChildRotation(0.887, 0.000, -0.462, 0.000);
+	ChildPosition(-65.418, 9.989, -10.211);
+	SeqNo(-2088832028);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("spring16", "fel1_bldg_spring01", -2087829928)
+{
+	ChildRotation(0.996, 0.000, 0.000, -0.090);
+	ChildPosition(-35.407, 11.840, 24.784);
+	SeqNo(-2087829928);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("bldr158", "fel1_bldg_bladder", -2076621052)
+{
+	ChildRotation(0.770, -0.093, 0.563, 0.287);
+	ChildPosition(-15.347, 17.204, -18.831);
+	SeqNo(-2076621052);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("ptchr_clump485", "fel1_bldg_pitcher_clump", -2072672908)
+{
+	ChildRotation(0.658, 0.126, -0.734, 0.113);
+	ChildPosition(177.858, 27.181, 87.330);
+	SeqNo(-2072672908);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("whsk_clump1090", "fel1_bldg_whisker_clump01", -2064339653)
+{
+	ChildRotation(0.941, -0.135, 0.309, 0.028);
+	ChildPosition(122.332, 18.953, 115.328);
+	SeqNo(-2064339653);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("seg34", "fel1_bldg_segmented", -2047951536)
+{
+	ChildRotation(0.710, 0.092, -0.692, 0.092);
+	ChildPosition(-51.167, 9.676, -37.224);
+	SeqNo(-2047951536);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("whsk_clump80", "fel1_bldg_whisker_clump01", -2040273442)
+{
+	ChildRotation(-0.040, 0.001, -0.999, 0.010);
+	ChildPosition(87.759, 18.871, -12.215);
+	SeqNo(-2040273442);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("bldr33", "fel1_bldg_bladder", -2035749679)
+{
+	ChildRotation(0.652, 0.000, -0.758, 0.000);
+	ChildPosition(78.426, 18.824, -21.448);
+	SeqNo(-2035749679);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("bldr46", "fel1_bldg_bladder", -1991967518)
+{
+	ChildRotation(0.452, 0.168, -0.872, 0.087);
+	ChildPosition(-104.967, 14.526, 49.109);
+	SeqNo(-1991967518);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("ptch_m18", "fel1_bldg_pitcher_M", -1972737396)
+{
+	ChildRotation(0.989, 0.109, -0.011, 0.099);
+	ChildPosition(15.751, 14.125, 37.941);
+	SeqNo(-1972737396);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("whsk_clump01", "fel1_bldg_whisker_clump01", -1970558581)
+{
+	ChildRotation(0.460, 0.000, -0.888, 0.000);
+	ChildPosition(-144.040, 9.951, -12.274);
+	SeqNo(-1970558581);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("bldr9", "fel1_bldg_bladder", -1960911627)
+{
+	ChildRotation(0.943, 0.000, 0.334, 0.000);
+	ChildPosition(46.172, 20.068, -41.729);
+	SeqNo(-1960911627);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("fel1_prop_rock_group18", "fel1_prop_rock_group01", -1944461743)
+{
+	ChildRotation(0.868, 0.000, -0.496, 0.000);
+	ChildPosition(-47.657, 9.651, -22.233);
+	SeqNo(-1944461743);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("whsk_clump1097", "fel1_bldg_whisker_clump01", -1931422831)
+{
+	ChildRotation(0.926, 0.000, 0.379, 0.000);
+	ChildPosition(144.171, 18.235, 24.766);
+	SeqNo(-1931422831);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("red_bush13", "fel1_bldg_red_bush", -1931392210)
+{
+	ChildRotation(0.460, 0.000, -0.888, 0.000);
+	ChildPosition(-153.554, 9.713, -2.284);
+	SeqNo(-1931392210);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("red_bush", "fel1_bldg_red_bush", -1927838691)
+{
+	ChildRotation(-0.199, -0.032, -0.978, -0.053);
+	ChildPosition(22.760, 25.479, -69.422);
+	SeqNo(-1927838691);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("bldr40", "fel1_bldg_bladder", -1924973804)
+{
+	ChildRotation(0.892, 0.000, 0.451, 0.000);
+	ChildPosition(109.276, 16.825, 64.316);
+	SeqNo(-1924973804);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("whsk_clump870", "fel1_bldg_whisker_clump01", -1919953427)
+{
+	ChildRotation(0.728, 0.010, 0.681, 0.076);
+	ChildPosition(156.462, 21.304, 6.585);
+	SeqNo(-1919953427);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("whsk_clump872", "fel1_bldg_whisker_clump01", -1915435449)
+{
+	ChildRotation(0.269, 0.058, -0.948, 0.160);
+	ChildPosition(147.477, 17.116, 101.331);
+	SeqNo(-1915435449);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("pch_C123", "fel1_bldg_pitcher_C", -1911617780)
+{
+	ChildRotation(0.939, 0.000, -0.343, 0.000);
+	ChildPosition(135.972, 19.255, 5.358);
+	SeqNo(-1911617780);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("ptchr_clump492", "fel1_bldg_pitcher_clump", -1907052616)
+{
+	ChildRotation(0.784, 0.000, 0.621, 0.000);
+	ChildPosition(-148.566, 10.277, -39.248);
+	SeqNo(-1907052616);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("ptchr_clump28", "fel1_bldg_pitcher_clump", -1901231888)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(78.736, 18.692, 41.362);
+	SeqNo(-1901231888);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("ptchr_clump31", "fel1_bldg_pitcher_clump", -1898515136)
+{
+	ChildRotation(0.986, 0.000, 0.169, 0.000);
+	ChildPosition(23.373, 19.243, 1.413);
+	SeqNo(-1898515136);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("bldr45", "fel1_bldg_bladder", -1886020632)
+{
+	ChildRotation(0.604, 0.064, -0.790, 0.083);
+	ChildPosition(-94.223, 21.534, 53.554);
+	SeqNo(-1886020632);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("fel1_prop_supply_box3", "fel1_prop_supply_box", -1883233540)
+{
+	ChildRotation(0.576, 0.000, -0.818, 0.000);
+	ChildPosition(135.515, 38.214, -74.944);
+	SeqNo(-1883233540);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("ptchr_clump466", "fel1_bldg_pitcher_clump", -1862638048)
+{
+	ChildRotation(0.997, 0.000, 0.000, 0.080);
+	ChildPosition(158.615, 23.300, -103.854);
+	SeqNo(-1862638048);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("ptch_L1301", "fel1_bldg_pitcher_L", -1857139912)
+{
+	ChildRotation(0.626, -0.128, -0.764, 0.093);
+	ChildPosition(114.152, 18.868, 115.855);
+	SeqNo(-1857139912);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("red_bush24", "fel1_bldg_red_bush", -1855290722)
+{
+	ChildRotation(0.984, 0.000, 0.179, 0.000);
+	ChildPosition(134.794, 16.695, 81.735);
+	SeqNo(-1855290722);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("ptchr_clump44", "fel1_bldg_pitcher_clump", -1851337556)
+{
+	ChildRotation(0.609, -0.074, 0.788, 0.049);
+	ChildPosition(138.723, 18.749, 24.484);
+	SeqNo(-1851337556);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("ptch_S55", "fel1_bldg_pitcher_S", -1850084348)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(79.071, 18.948, -24.339);
+	SeqNo(-1850084348);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("pch_C5504", "fel1_bldg_pitcher_C", -1844372376)
+{
+	ChildRotation(0.454, 0.000, -0.891, 0.000);
+	ChildPosition(22.302, 19.186, -38.976);
+	SeqNo(-1844372376);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("bldr146", "fel1_bldg_bladder", -1839287044)
+{
+	ChildRotation(0.031, 0.000, -1.000, 0.000);
+	ChildPosition(-70.758, 9.986, -47.195);
+	SeqNo(-1839287044);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("pch_C20", "fel1_bldg_pitcher_C", -1809904877)
+{
+	ChildRotation(0.718, 0.000, -0.696, 0.000);
+	ChildPosition(63.791, 16.757, 52.384);
+	SeqNo(-1809904877);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("ptchr_clump497", "fel1_bldg_pitcher_clump", -1805599961)
+{
+	ChildRotation(0.941, 0.242, 0.233, 0.035);
+	ChildPosition(-116.634, 15.938, -60.746);
+	SeqNo(-1805599961);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("pch_C49", "fel1_bldg_pitcher_C", -1803330601)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(35.771, 24.955, -73.317);
+	SeqNo(-1803330601);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("whsk_clump10960", "fel1_bldg_whisker_clump01", -1800405185)
+{
+	ChildRotation(0.771, 0.000, -0.636, 0.000);
+	ChildPosition(96.000, 19.922, -100.000);
+	SeqNo(-1800405185);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("bldr47", "fel1_bldg_bladder", -1792001658)
+{
+	ChildRotation(0.445, 0.228, -0.858, 0.118);
+	ChildPosition(-94.372, 19.439, 47.250);
+	SeqNo(-1792001658);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("ptch_S94", "fel1_bldg_pitcher_S", -1784268723)
+{
+	ChildRotation(0.989, 0.000, -0.150, 0.000);
+	ChildPosition(136.720, 18.577, 11.253);
+	SeqNo(-1784268723);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("ptch_S100", "fel1_bldg_pitcher_S", -1783253910)
+{
+	ChildRotation(0.315, 0.000, -0.949, 0.000);
+	ChildPosition(-76.987, 19.917, 21.277);
+	SeqNo(-1783253910);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("bldr11", "fel1_bldg_bladder", -1783220246)
+{
+	ChildRotation(0.997, 0.070, 0.001, -0.010);
+	ChildPosition(32.023, 22.851, -61.799);
+	SeqNo(-1783220246);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("ptchr_clump35", "fel1_bldg_pitcher_clump", -1768373594)
+{
+	ChildRotation(0.070, 0.000, -0.998, 0.000);
+	ChildPosition(62.463, 18.935, 17.211);
+	SeqNo(-1768373594);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("spring11", "fel1_bldg_spring01", -1762994647)
+{
+	ChildRotation(0.996, 0.002, 0.080, -0.030);
+	ChildPosition(-37.744, 12.050, 63.956);
+	SeqNo(-1762994647);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("red_bush3561", "fel1_bldg_red_bush", -1745585792)
+{
+	ChildRotation(0.852, -0.026, -0.521, -0.043);
+	ChildPosition(55.956, 15.386, 113.710);
+	SeqNo(-1745585792);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("whsk_clump10955", "fel1_bldg_whisker_clump01", -1731902279)
+{
+	ChildRotation(-0.352, 0.005, -0.931, -0.098);
+	ChildPosition(41.860, 20.796, -51.656);
+	SeqNo(-1731902279);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("whsk_clump108", "fel1_bldg_whisker_clump01", -1727230966)
+{
+	ChildRotation(0.984, 0.000, 0.178, 0.000);
+	ChildPosition(137.833, 16.945, 80.444);
+	SeqNo(-1727230966);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("whsk_clump46", "fel1_bldg_whisker_clump01", -1721983352)
+{
+	ChildRotation(0.999, 0.000, 0.000, 0.040);
+	ChildPosition(-38.372, 9.879, -17.407);
+	SeqNo(-1721983352);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("ptch_clump43", "fel1_bldg_pitcher_clump", -1715484387)
+{
+	ChildRotation(0.872, 0.018, -0.486, -0.060);
+	ChildPosition(158.739, 22.383, 2.172);
+	SeqNo(-1715484387);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("whsk_clump66", "fel1_bldg_whisker_clump01", -1705035030)
+{
+	ChildRotation(0.460, 0.000, -0.888, 0.000);
+	ChildPosition(-150.099, 9.521, 6.036);
+	SeqNo(-1705035030);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("seg41", "fel1_bldg_segmented", -1698294107)
+{
+	ChildRotation(0.660, 0.000, 0.751, 0.000);
+	ChildPosition(-92.872, 9.719, -16.236);
+	SeqNo(-1698294107);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("whsk_clump94", "fel1_bldg_whisker_clump01", -1676483851)
+{
+	ChildRotation(0.803, 0.000, -0.596, 0.000);
+	ChildPosition(141.014, 16.922, 56.826);
+	SeqNo(-1676483851);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("Short2", "fel1_bldg_mtn_accessoryShort", -1675746932)
+{
+	ChildRotation(0.646, -0.274, 0.643, -0.306);
+	ChildPosition(-11.104, -5.689, 94.912);
+	SeqNo(-1675746932);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("bldr41", "fel1_bldg_bladder", -1674256805)
+{
+	ChildRotation(0.916, 0.000, -0.400, 0.000);
+	ChildPosition(-131.834, 11.715, 26.096);
+	SeqNo(-1674256805);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("ptchr_clump34", "fel1_bldg_pitcher_clump", -1663519547)
+{
+	ChildRotation(0.796, 0.000, -0.605, 0.000);
+	ChildPosition(54.234, 19.028, 21.320);
+	SeqNo(-1663519547);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("pch_C86", "fel1_bldg_pitcher_C", -1655418398)
+{
+	ChildRotation(0.237, 0.000, -0.971, 0.000);
+	ChildPosition(131.848, 18.756, 8.159);
+	SeqNo(-1655418398);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("bldr38", "fel1_bldg_bladder", -1654975553)
+{
+	ChildRotation(0.771, 0.000, -0.636, 0.000);
+	ChildPosition(90.998, 19.005, 4.450);
+	SeqNo(-1654975553);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("ptchr_clump20", "fel1_bldg_pitcher_clump", -1644944169)
+{
+	ChildRotation(0.964, 0.000, 0.267, 0.000);
+	ChildPosition(82.557, 18.891, 5.806);
+	SeqNo(-1644944169);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("ptchr_clump25", "fel1_bldg_pitcher_clump", -1635987743)
+{
+	ChildRotation(0.896, 0.000, 0.444, 0.000);
+	ChildPosition(66.236, 18.948, 0.417);
+	SeqNo(-1635987743);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("ptchr_clump478", "fel1_bldg_pitcher_clump", -1626077986)
+{
+	ChildRotation(0.233, 0.069, -0.949, -0.202);
+	ChildPosition(-105.993, 16.981, -65.061);
+	SeqNo(-1626077986);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("bldr116", "fel1_bldg_bladder", -1613166386)
+{
+	ChildRotation(0.794, 0.239, 0.542, 0.138);
+	ChildPosition(-62.197, 12.939, -55.874);
+	SeqNo(-1613166386);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("bldr183", "fel1_bldg_bladder", -1606543463)
+{
+	ChildRotation(0.985, 0.168, 0.020, 0.040);
+	ChildPosition(43.813, 16.473, 49.220);
+	SeqNo(-1606543463);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("red_bush340", "fel1_bldg_red_bush", -1606299965)
+{
+	ChildRotation(0.790, 0.000, -0.613, 0.000);
+	ChildPosition(109.735, 17.058, 108.497);
+	SeqNo(-1606299965);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("ptchr_clump508", "fel1_bldg_pitcher_clump", -1570631538)
+{
+	ChildRotation(0.952, -0.130, -0.154, -0.231);
+	ChildPosition(-61.207, 26.622, 62.972);
+	SeqNo(-1570631538);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("ptch_L57", "fel1_bldg_pitcher_L", -1568143311)
+{
+	ChildRotation(0.892, 0.000, -0.452, 0.000);
+	ChildPosition(94.466, 18.873, 8.418);
+	SeqNo(-1568143311);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("fel1_prop_rock_group5", "fel1_prop_rock_group01", -1545801832)
+{
+	ChildRotation(-0.065, -0.860, 0.026, -0.506);
+	ChildPosition(-30.287, 10.081, 15.597);
+	SeqNo(-1545801832);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("fel1_bld_post2", "fel1_bld_post", -1543924747)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-136.000, 9.800, 3.000);
+	SeqNo(-1543924747);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("fel1_bldg_fungal_root2", "fel1_bldg_fungal_root", -1541195599)
+{
+	ChildRotation(0.921, 0.000, 0.389, 0.000);
+	ChildPosition(-51.483, 13.302, 17.328);
+	SeqNo(-1541195599);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("ptchr_clump470", "fel1_bldg_pitcher_clump", -1535812731)
+{
+	ChildRotation(0.977, -0.188, 0.011, -0.098);
+	ChildPosition(6.000, 25.747, 136.000);
+	SeqNo(-1535812731);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("ptchr_clump465", "fel1_bldg_pitcher_clump", -1528782817)
+{
+	ChildRotation(0.989, 0.066, 0.012, 0.128);
+	ChildPosition(120.410, 20.849, -108.218);
+	SeqNo(-1528782817);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("whsk_clump100", "fel1_bldg_whisker_clump01", -1521632723)
+{
+	ChildRotation(0.282, -0.142, -0.947, 0.062);
+	ChildPosition(66.447, 11.889, 107.340);
+	SeqNo(-1521632723);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("red_bush14", "fel1_bldg_red_bush", -1519799933)
+{
+	ChildRotation(0.460, 0.000, -0.888, 0.000);
+	ChildPosition(-143.064, 9.613, 3.463);
+	SeqNo(-1519799933);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("destroyed_walker10", "fel1_bldg_destroyed_walker", -1505674428)
+{
+	ChildRotation(0.914, 0.017, 0.340, 0.221);
+	ChildPosition(0.791, 12.933, 11.025);
+	SeqNo(-1505674428);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("seg26", "fel1_bldg_segmented", -1489440884)
+{
+	ChildRotation(0.997, 0.047, -0.017, 0.060);
+	ChildPosition(0.184, 10.479, 19.124);
+	SeqNo(-1489440884);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("ptch_L6", "fel1_bldg_pitcher_L", -1460639723)
+{
+	ChildRotation(0.512, -0.321, -0.794, -0.074);
+	ChildPosition(-55.415, 24.703, 72.620);
+	SeqNo(-1460639723);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("bldr39", "fel1_bldg_bladder", -1455872477)
+{
+	ChildRotation(0.852, 0.000, -0.523, 0.000);
+	ChildPosition(112.158, 16.850, 61.938);
+	SeqNo(-1455872477);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("fel1_bldg_fungal_root", "fel1_bldg_fungal_root", -1445645339)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-16.454, 9.638, 62.143);
+	SeqNo(-1445645339);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("whsk_clump65", "fel1_bldg_whisker_clump01", -1435144406)
+{
+	ChildRotation(0.462, -0.017, -0.886, -0.031);
+	ChildPosition(-153.811, 9.987, -12.934);
+	SeqNo(-1435144406);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("fel1_prop_rock_group14", "fel1_prop_rock_group01", -1409125948)
+{
+	ChildRotation(0.995, 0.000, -0.103, 0.000);
+	ChildPosition(56.982, 9.750, 89.788);
+	SeqNo(-1409125948);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("whsk_clump41", "fel1_bldg_whisker_clump01", -1406364192)
+{
+	ChildRotation(0.966, 0.000, -0.257, 0.000);
+	ChildPosition(23.367, 18.652, 9.723);
+	SeqNo(-1406364192);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("pch_C175", "fel1_bldg_pitcher_C", -1394816515)
+{
+	ChildRotation(0.994, 0.000, -0.110, 0.000);
+	ChildPosition(112.043, 17.070, 64.128);
+	SeqNo(-1394816515);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("whsk_clump1080", "fel1_bldg_whisker_clump01", -1379255737)
+{
+	ChildRotation(0.456, 0.310, -0.815, 0.176);
+	ChildPosition(165.310, 21.761, 46.522);
+	SeqNo(-1379255737);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("pch_C552", "fel1_bldg_pitcher_C", -1377000963)
+{
+	ChildRotation(-0.004, -0.066, -0.988, -0.141);
+	ChildPosition(148.851, 21.356, -1.484);
+	SeqNo(-1377000963);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("seg32", "fel1_bldg_segmented", -1357620221)
+{
+	ChildRotation(0.555, 0.064, -0.829, 0.031);
+	ChildPosition(-32.814, 10.084, -15.486);
+	SeqNo(-1357620221);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("fel1_prop_supply_box7", "fel1_prop_supply_box", -1355122358)
+{
+	ChildRotation(0.173, 0.023, -0.984, 0.044);
+	ChildPosition(-128.048, 10.580, 15.094);
+	SeqNo(-1355122358);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("pch_C158", "fel1_bldg_pitcher_C", -1351169778)
+{
+	ChildRotation(-0.279, 0.000, -0.960, 0.000);
+	ChildPosition(73.514, 19.456, -32.746);
+	SeqNo(-1351169778);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("bldr155", "fel1_bldg_bladder", -1348864402)
+{
+	ChildRotation(0.134, 0.087, -0.985, -0.070);
+	ChildPosition(-133.278, 9.640, -26.268);
+	SeqNo(-1348864402);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("fel1_bld_post", "fel1_bld_post", -1347344317)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-130.376, 10.550, 14.848);
+	SeqNo(-1347344317);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("pch_C100", "fel1_bldg_pitcher_C", -1336933885)
+{
+	ChildRotation(0.460, 0.000, -0.888, 0.000);
+	ChildPosition(-117.067, 12.334, 34.058);
+	SeqNo(-1336933885);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("bldr4", "fel1_bldg_bladder", -1332268073)
+{
+	ChildRotation(0.532, 0.000, 0.847, 0.000);
+	ChildPosition(26.194, 18.816, -5.078);
+	SeqNo(-1332268073);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("bldr60", "fel1_bldg_bladder", -1329639652)
+{
+	ChildRotation(0.717, 0.000, -0.697, 0.000);
+	ChildPosition(-117.774, 11.798, 31.823);
+	SeqNo(-1329639652);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("whsk_clump10957", "fel1_bldg_whisker_clump01", -1324906690)
+{
+	ChildRotation(0.989, 0.128, -0.017, -0.079);
+	ChildPosition(-111.879, 10.413, -45.985);
+	SeqNo(-1324906690);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("whsk_clump1081", "fel1_bldg_whisker_clump01", -1322851853)
+{
+	ChildRotation(0.991, -0.095, -0.074, 0.057);
+	ChildPosition(140.584, 18.329, 111.430);
+	SeqNo(-1322851853);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("pch_C2", "fel1_bldg_pitcher_C", -1311107760)
+{
+	ChildRotation(0.796, 0.000, -0.605, 0.000);
+	ChildPosition(21.506, 19.158, -14.940);
+	SeqNo(-1311107760);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("fel1_prop_supply_box2", "fel1_prop_supply_box", -1309436157)
+{
+	ChildRotation(0.578, 0.000, -0.816, 0.000);
+	ChildPosition(123.347, 16.875, 61.630);
+	SeqNo(-1309436157);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("seg", "fel1_bldg_segmented", -1309221822)
+{
+	ChildRotation(0.324, 0.029, -0.945, 0.041);
+	ChildPosition(3.974, 17.648, -34.769);
+	SeqNo(-1309221822);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("ptchr_clump6", "fel1_bldg_pitcher_clump", -1287044042)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-70.219, 10.070, -40.325);
+	SeqNo(-1287044042);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("ptch_C4", "fel1_bldg_pitcher_C", -1273835496)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(25.048, 19.134, -16.841);
+	SeqNo(-1273835496);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("ptchr_clump475", "fel1_bldg_pitcher_clump", -1263978518)
+{
+	ChildRotation(0.960, -0.115, -0.246, 0.070);
+	ChildPosition(19.131, 24.627, 140.473);
+	SeqNo(-1263978518);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("ptch_L1304", "fel1_bldg_pitcher_L", -1255517994)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(149.772, 24.110, 120.515);
+	SeqNo(-1255517994);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("spring6", "fel1_bldg_spring01", -1216666986)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-14.616, 11.901, 75.469);
+	SeqNo(-1216666986);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("pch_C29", "fel1_bldg_pitcher_C", -1210628085)
+{
+	ChildRotation(0.515, 0.000, -0.857, 0.000);
+	ChildPosition(85.913, 18.839, 36.781);
+	SeqNo(-1210628085);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("destroyed_gunship", "fel1_bldg_destroyed_gunship", -1205348341)
+{
+	ChildRotation(0.750, 0.000, -0.661, 0.000);
+	ChildPosition(31.703, 19.197, -38.562);
+	SeqNo(-1205348341);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("pch_C98", "fel1_bldg_pitcher_C", -1200865800)
+{
+	ChildRotation(0.460, 0.000, -0.888, 0.000);
+	ChildPosition(-117.578, 11.573, 41.586);
+	SeqNo(-1200865800);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("whsk_clump82", "fel1_bldg_whisker_clump01", -1198971767)
+{
+	ChildRotation(0.980, 0.106, -0.025, 0.167);
+	ChildPosition(50.913, 23.316, -53.006);
+	SeqNo(-1198971767);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("red_bush35", "fel1_bldg_red_bush", -1193354074)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(164.504, 20.009, 59.506);
+	SeqNo(-1193354074);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("whsk_clump32", "fel1_bldg_whisker_clump01", -1181392791)
+{
+	ChildRotation(0.952, 0.000, 0.305, 0.000);
+	ChildPosition(30.765, 19.012, -5.220);
+	SeqNo(-1181392791);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("whsk_clump107", "fel1_bldg_whisker_clump01", -1181056932)
+{
+	ChildRotation(-0.478, 0.000, -0.878, 0.000);
+	ChildPosition(143.549, 16.926, 82.272);
+	SeqNo(-1181056932);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("whsk_clump47", "fel1_bldg_whisker_clump01", -1163344104)
+{
+	ChildRotation(0.952, 0.000, -0.305, 0.000);
+	ChildPosition(70.283, 17.039, 48.317);
+	SeqNo(-1163344104);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("ptchr_clump482", "fel1_bldg_pitcher_clump", -1161712238)
+{
+	ChildRotation(0.923, 0.161, 0.340, -0.080);
+	ChildPosition(89.348, 20.257, -106.903);
+	SeqNo(-1161712238);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("seg43", "fel1_bldg_segmented", -1161198796)
+{
+	ChildRotation(0.999, 0.000, 0.000, -0.040);
+	ChildPosition(-8.719, 10.077, 41.120);
+	SeqNo(-1161198796);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("pch_C64", "fel1_bldg_pitcher_C", -1143993638)
+{
+	ChildRotation(-0.411, 0.000, -0.912, 0.000);
+	ChildPosition(13.378, 19.108, -32.678);
+	SeqNo(-1143993638);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("pch_C139", "fel1_bldg_pitcher_C", -1125647260)
+{
+	ChildRotation(-0.394, 0.028, -0.916, 0.064);
+	ChildPosition(-77.896, 18.116, 13.420);
+	SeqNo(-1125647260);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("ptch_S39", "fel1_bldg_pitcher_S", -1124182102)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(23.007, 19.006, 21.936);
+	SeqNo(-1124182102);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("bldr147", "fel1_bldg_bladder", -1115830645)
+{
+	ChildRotation(0.031, 0.000, -1.000, 0.000);
+	ChildPosition(-75.868, 9.611, -47.024);
+	SeqNo(-1115830645);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("whsk_clump21", "fel1_bldg_whisker_clump01", -1115674875)
+{
+	ChildRotation(0.922, 0.096, 0.375, 0.029);
+	ChildPosition(21.487, 19.248, -42.543);
+	SeqNo(-1115674875);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("spring23", "fel1_bldg_spring01", -1107662507)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-21.904, 12.066, 52.364);
+	SeqNo(-1107662507);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("whsk_clump114", "fel1_bldg_whisker_clump01", -1104478263)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(38.492, 21.643, -55.079);
+	SeqNo(-1104478263);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("pch_C56", "fel1_bldg_pitcher_C", -1100712098)
+{
+	ChildRotation(-0.193, 0.117, -0.973, 0.051);
+	ChildPosition(134.983, 18.181, 26.783);
+	SeqNo(-1100712098);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("ptch_L1305", "fel1_bldg_pitcher_L", -1095947488)
+{
+	ChildRotation(0.968, -0.237, 0.019, 0.078);
+	ChildPosition(108.768, 21.624, 131.550);
+	SeqNo(-1095947488);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("ptch_S26", "fel1_bldg_pitcher_S", -1091927153)
+{
+	ChildRotation(0.256, 0.000, -0.967, 0.000);
+	ChildPosition(-128.103, 11.916, 34.422);
+	SeqNo(-1091927153);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("pch_C19", "fel1_bldg_pitcher_C", -1088975407)
+{
+	ChildRotation(-0.463, 0.000, -0.886, 0.000);
+	ChildPosition(55.581, 18.400, 45.902);
+	SeqNo(-1088975407);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("ptch_L17", "fel1_bldg_pitcher_L", -1087076125)
+{
+	ChildRotation(0.994, 0.000, 0.110, 0.000);
+	ChildPosition(60.843, 19.482, -21.211);
+	SeqNo(-1087076125);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("ptch_S86", "fel1_bldg_pitcher_S", -1076692402)
+{
+	ChildRotation(0.847, 0.102, 0.518, 0.062);
+	ChildPosition(60.785, 17.438, 50.024);
+	SeqNo(-1076692402);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("bldr185", "fel1_bldg_bladder", -1076576727)
+{
+	ChildRotation(0.916, 0.076, 0.391, -0.039);
+	ChildPosition(-88.119, 10.153, -48.816);
+	SeqNo(-1076576727);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("bldr36", "fel1_bldg_bladder", -1070328083)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(86.988, 18.805, -15.159);
+	SeqNo(-1070328083);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("fel1_bldg_fungal_root1", "fel1_bldg_fungal_root", -1044435238)
+{
+	ChildRotation(0.989, 0.000, 0.000, -0.149);
+	ChildPosition(-43.141, 12.372, 41.086);
+	SeqNo(-1044435238);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("ptchr_clump474", "fel1_bldg_pitcher_clump", -1041361044)
+{
+	ChildRotation(0.961, -0.214, -0.167, -0.047);
+	ChildPosition(80.583, 23.382, 138.884);
+	SeqNo(-1041361044);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("ptchr_clump500", "fel1_bldg_pitcher_clump", -1025487103)
+{
+	ChildRotation(0.969, 0.129, -0.173, 0.123);
+	ChildPosition(-40.089, 12.038, -40.956);
+	SeqNo(-1025487103);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("seg48", "fel1_bldg_segmented", -1017238145)
+{
+	ChildRotation(0.984, 0.000, -0.179, 0.000);
+	ChildPosition(111.069, 16.122, 78.636);
+	SeqNo(-1017238145);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("ptch_S115", "fel1_bldg_pitcher_S", -1013809270)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(73.480, 26.818, -63.060);
+	SeqNo(-1013809270);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("fel1_prop_supply_box", "fel1_prop_supply_box", -1000367326)
+{
+	ChildRotation(0.653, -0.036, -0.757, -0.009);
+	ChildPosition(-128.895, 9.961, 9.517);
+	SeqNo(-1000367326);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("whsk_clump10950", "fel1_bldg_whisker_clump01", -986901055)
+{
+	ChildRotation(0.984, -0.030, -0.160, 0.075);
+	ChildPosition(155.524, 17.035, 88.653);
+	SeqNo(-986901055);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("seg18", "fel1_bldg_segmented", -974679533)
+{
+	ChildRotation(-0.170, -0.010, -0.985, 0.002);
+	ChildPosition(50.692, 18.882, 12.207);
+	SeqNo(-974679533);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("ptchr_clump503", "fel1_bldg_pitcher_clump", -974525074)
+{
+	ChildRotation(0.815, 0.116, 0.567, -0.029);
+	ChildPosition(69.774, 19.921, -91.499);
+	SeqNo(-974525074);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("ptch_L331", "fel1_bldg_pitcher_L", -964674250)
+{
+	ChildRotation(0.995, 0.000, -0.103, 0.000);
+	ChildPosition(131.126, 18.817, 111.786);
+	SeqNo(-964674250);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("bldr63", "fel1_bldg_bladder", -943469996)
+{
+	ChildRotation(0.561, 0.000, 0.828, 0.000);
+	ChildPosition(108.198, 16.532, 82.154);
+	SeqNo(-943469996);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("whsk_clump31", "fel1_bldg_whisker_clump01", -929127632)
+{
+	ChildRotation(0.992, 0.000, -0.128, -0.014);
+	ChildPosition(47.092, 18.779, 9.263);
+	SeqNo(-929127632);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("seg47", "fel1_bldg_segmented", -926536506)
+{
+	ChildRotation(0.942, 0.013, 0.333, -0.038);
+	ChildPosition(87.450, 18.087, 29.351);
+	SeqNo(-926536506);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("red_bush356", "fel1_bldg_red_bush", -918325561)
+{
+	ChildRotation(0.136, 0.000, -0.991, 0.000);
+	ChildPosition(146.853, 18.733, 21.110);
+	SeqNo(-918325561);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("fel1_bldg_segmented1", "fel1_bldg_segmented", -916830753)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(69.203, 18.923, -14.340);
+	SeqNo(-916830753);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("ptch_S95", "fel1_bldg_pitcher_S", -915143810)
+{
+	ChildRotation(0.682, 0.000, 0.731, 0.000);
+	ChildPosition(132.468, 18.734, -10.766);
+	SeqNo(-915143810);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("ptchr_clump505", "fel1_bldg_pitcher_clump", -908228244)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(10.592, 19.101, -38.760);
+	SeqNo(-908228244);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("ptch_L1303", "fel1_bldg_pitcher_L", -907009851)
+{
+	ChildRotation(0.942, -0.291, 0.050, -0.161);
+	ChildPosition(84.666, 18.024, 133.577);
+	SeqNo(-907009851);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("ptchr_clump460", "fel1_bldg_pitcher_clump", -877098993)
+{
+	ChildRotation(0.878, 0.051, -0.466, 0.097);
+	ChildPosition(159.584, 17.404, 69.973);
+	SeqNo(-877098993);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("pch_C102", "fel1_bldg_pitcher_C", -877022636)
+{
+	ChildRotation(0.668, 0.000, 0.744, 0.000);
+	ChildPosition(-114.424, 12.138, 33.561);
+	SeqNo(-877022636);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("whsk_clump29", "fel1_bldg_whisker_clump01", -870112400)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(46.086, 18.896, 18.294);
+	SeqNo(-870112400);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("pch_C551", "fel1_bldg_pitcher_C", -857587857)
+{
+	ChildRotation(0.969, 0.000, -0.247, 0.000);
+	ChildPosition(136.604, 17.529, 40.756);
+	SeqNo(-857587857);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("seg12", "fel1_bldg_segmented", -855272467)
+{
+	ChildRotation(0.847, 0.000, 0.532, 0.000);
+	ChildPosition(55.470, 18.699, -27.294);
+	SeqNo(-855272467);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("whsk_clump10962", "fel1_bldg_whisker_clump01", -838389224)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(46.940, 18.931, -21.503);
+	SeqNo(-838389224);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("ptch_L18", "fel1_bldg_pitcher_L", -818937745)
+{
+	ChildRotation(0.969, 0.000, 0.247, 0.000);
+	ChildPosition(23.771, 18.927, -5.847);
+	SeqNo(-818937745);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("whsk_clump940", "fel1_bldg_whisker_clump01", -815314588)
+{
+	ChildRotation(0.295, 0.250, -0.902, 0.192);
+	ChildPosition(166.645, 21.507, 27.792);
+	SeqNo(-815314588);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("whsk_clump1092", "fel1_bldg_whisker_clump01", -811250672)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(104.217, 16.398, 80.340);
+	SeqNo(-811250672);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("whsk_clump81", "fel1_bldg_whisker_clump01", -804385311)
+{
+	ChildRotation(0.999, 0.040, 0.001, -0.020);
+	ChildPosition(72.480, 18.937, -27.278);
+	SeqNo(-804385311);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("ptch_S114", "fel1_bldg_pitcher_S", -793710292)
+{
+	ChildRotation(0.982, 0.167, 0.025, 0.089);
+	ChildPosition(92.260, 10.495, 120.188);
+	SeqNo(-793710292);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("Short5", "fel1_bldg_mtn_accessoryShort", -792911330)
+{
+	ChildRotation(0.516, -0.167, 0.839, 0.021);
+	ChildPosition(83.629, -4.891, 115.215);
+	SeqNo(-792911330);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("pch_C155", "fel1_bldg_pitcher_C", -792568836)
+{
+	ChildRotation(-0.270, 0.238, -0.930, -0.069);
+	ChildPosition(-17.027, 17.347, -29.927);
+	SeqNo(-792568836);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("red_bush17", "fel1_bldg_red_bush", -784401520)
+{
+	ChildRotation(0.447, 0.077, -0.890, -0.039);
+	ChildPosition(-113.404, 11.776, 38.398);
+	SeqNo(-784401520);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("bldr62", "fel1_bldg_bladder", -744420933)
+{
+	ChildRotation(-0.225, 0.000, -0.974, 0.000);
+	ChildPosition(106.649, 16.755, 72.454);
+	SeqNo(-744420933);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("fel1_prop_rock_group12", "fel1_prop_rock_group01", -726254455)
+{
+	ChildRotation(0.045, 0.000, -0.999, 0.000);
+	ChildPosition(71.375, 18.735, -12.225);
+	SeqNo(-726254455);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("bldr194", "fel1_bldg_bladder", -720477297)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-68.000, 9.971, -10.000);
+	SeqNo(-720477297);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("ptch_S8", "fel1_bldg_pitcher_S", -706710418)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-9.607, 19.671, -28.465);
+	SeqNo(-706710418);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("ptch_L5", "fel1_bldg_pitcher_L", -704876721)
+{
+	ChildRotation(0.090, 0.000, -0.996, 0.000);
+	ChildPosition(-124.985, 11.074, 19.209);
+	SeqNo(-704876721);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("red_bush24", "fel1_bldg_red_bush", -702501539)
+{
+	ChildRotation(0.999, 0.000, 0.052, 0.000);
+	ChildPosition(165.951, 23.224, 37.780);
+	SeqNo(-702501539);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("pch_C153", "fel1_bldg_pitcher_C", -673838553)
+{
+	ChildRotation(0.127, 0.000, -0.992, 0.000);
+	ChildPosition(-39.053, 10.512, -23.814);
+	SeqNo(-673838553);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("ptch_L22", "fel1_bldg_pitcher_L", -657846015)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(43.942, 24.782, -78.998);
+	SeqNo(-657846015);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("Short3", "fel1_bldg_mtn_accessoryShort", -652655914)
+{
+	ChildRotation(0.626, -0.294, 0.695, -0.199);
+	ChildPosition(-80.387, 3.110, 17.660);
+	SeqNo(-652655914);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("bldr6", "fel1_bldg_bladder", -636569569)
+{
+	ChildRotation(0.998, 0.000, 0.000, -0.070);
+	ChildPosition(59.525, 19.368, -28.567);
+	SeqNo(-636569569);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("whsk_clump39", "fel1_bldg_whisker_clump01", -628271789)
+{
+	ChildRotation(0.964, 0.000, 0.267, 0.000);
+	ChildPosition(61.303, 18.851, 27.214);
+	SeqNo(-628271789);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("bldr176", "fel1_bldg_bladder", -625061852)
+{
+	ChildRotation(0.743, 0.033, 0.666, 0.054);
+	ChildPosition(-66.000, 9.851, -38.456);
+	SeqNo(-625061852);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("whsk_clump85", "fel1_bldg_whisker_clump01", -609877344)
+{
+	ChildRotation(0.704, 0.000, 0.710, 0.000);
+	ChildPosition(33.371, 18.750, 0.309);
+	SeqNo(-609877344);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("seg3", "fel1_bldg_segmented", -595980426)
+{
+	ChildRotation(0.925, 0.000, -0.380, 0.000);
+	ChildPosition(10.535, 19.700, -46.691);
+	SeqNo(-595980426);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("bldr48", "fel1_bldg_bladder", -590747710)
+{
+	ChildRotation(-0.464, 0.000, -0.886, 0.000);
+	ChildPosition(113.527, 16.737, 62.378);
+	SeqNo(-590747710);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("ptchr_clump494", "fel1_bldg_pitcher_clump", -576894464)
+{
+	ChildRotation(0.990, 0.000, 0.000, 0.139);
+	ChildPosition(-107.627, 12.758, 58.755);
+	SeqNo(-576894464);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("bldr180", "fel1_bldg_bladder", -553223087)
+{
+	ChildRotation(0.726, 0.000, 0.688, 0.000);
+	ChildPosition(-121.722, 9.683, -41.089);
+	SeqNo(-553223087);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("Short1", "fel1_bldg_mtn_accessoryShort", -546261015)
+{
+	ChildRotation(0.302, 0.048, -0.945, -0.115);
+	ChildPosition(136.609, 21.512, -66.864);
+	SeqNo(-546261015);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("fel1_red_bsh31", "fel1_bldg_red_bush", -545219240)
+{
+	ChildRotation(0.461, 0.000, -0.887, 0.000);
+	ChildPosition(-133.287, 10.642, 19.511);
+	SeqNo(-545219240);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("fel1_prop_rock_group10", "fel1_prop_rock_group01", -529062446)
+{
+	ChildRotation(0.069, 0.000, -0.998, 0.000);
+	ChildPosition(117.438, 16.854, 51.744);
+	SeqNo(-529062446);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("ptch_m22", "fel1_bldg_pitcher_M", -515185656)
+{
+	ChildRotation(0.993, 0.000, 0.000, 0.120);
+	ChildPosition(15.586, 16.888, 29.202);
+	SeqNo(-515185656);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("ptch_S14", "fel1_bldg_pitcher_S", -504371498)
+{
+	ChildRotation(0.639, 0.000, -0.769, 0.000);
+	ChildPosition(140.840, 18.572, 31.784);
+	SeqNo(-504371498);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("whsk_clump38", "fel1_bldg_whisker_clump01", -492628920)
+{
+	ChildRotation(0.898, 0.000, 0.440, 0.000);
+	ChildPosition(138.225, 16.854, 88.642);
+	SeqNo(-492628920);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("bldr54", "fel1_bldg_bladder", -492535027)
+{
+	ChildRotation(0.018, 0.000, -1.000, 0.000);
+	ChildPosition(-121.834, 11.732, 32.232);
+	SeqNo(-492535027);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("red_bush11", "fel1_bldg_red_bush", -488006549)
+{
+	ChildRotation(0.701, -0.003, 0.712, 0.037);
+	ChildPosition(-142.359, 9.623, -41.307);
+	SeqNo(-488006549);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("bldr3", "fel1_bldg_bladder", -473520435)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(50.787, 18.942, -19.933);
+	SeqNo(-473520435);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("whsk_clump30", "fel1_bldg_whisker_clump01", -470992718)
+{
+	ChildRotation(0.971, 0.000, 0.238, 0.000);
+	ChildPosition(57.852, 18.971, 14.525);
+	SeqNo(-470992718);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("seg29", "fel1_bldg_segmented", -465199379)
+{
+	ChildRotation(0.997, 0.060, -0.032, 0.038);
+	ChildPosition(49.092, 10.379, 60.414);
+	SeqNo(-465199379);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("ptch_S58", "fel1_bldg_pitcher_S", -433343269)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(25.468, 18.659, 27.099);
+	SeqNo(-433343269);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("pch_C11", "fel1_bldg_pitcher_C", -428014835)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(61.309, 19.173, -15.748);
+	SeqNo(-428014835);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("ptch_L13", "fel1_bldg_pitcher_L", -428001568)
+{
+	ChildRotation(0.422, -0.147, -0.893, 0.058);
+	ChildPosition(141.836, 16.968, 68.072);
+	SeqNo(-428001568);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("pch_C173", "fel1_bldg_pitcher_C", -425167970)
+{
+	ChildRotation(-0.335, 0.000, -0.942, 0.000);
+	ChildPosition(27.382, 18.890, 17.994);
+	SeqNo(-425167970);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("ptch_L33", "fel1_bldg_pitcher_L", -419003797)
+{
+	ChildRotation(0.986, 0.000, 0.166, 0.000);
+	ChildPosition(131.147, 16.960, 84.211);
+	SeqNo(-419003797);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("ptchr_clump491", "fel1_bldg_pitcher_clump", -411227811)
+{
+	ChildRotation(-0.091, -0.168, -0.981, 0.044);
+	ChildPosition(-69.455, 29.793, 64.292);
+	SeqNo(-411227811);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("pch_C73", "fel1_bldg_pitcher_C", -409070586)
+{
+	ChildRotation(0.811, 0.000, -0.585, 0.000);
+	ChildPosition(100.061, 19.166, 4.758);
+	SeqNo(-409070586);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("fel1_prop_supply_box6", "fel1_prop_supply_box", -399058461)
+{
+	ChildRotation(0.705, 0.000, -0.710, 0.000);
+	ChildPosition(-135.000, 9.692, 0.317);
+	SeqNo(-399058461);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("red_bush241", "fel1_bldg_red_bush", -390951154)
+{
+	ChildRotation(0.600, 0.000, -0.800, 0.000);
+	ChildPosition(134.650, 17.762, 109.652);
+	SeqNo(-390951154);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("red_bush15", "fel1_bldg_red_bush", -384273994)
+{
+	ChildRotation(0.012, 0.000, -1.000, 0.000);
+	ChildPosition(-147.614, 10.208, -20.526);
+	SeqNo(-384273994);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("ptch_S87", "fel1_bldg_pitcher_S", -382983929)
+{
+	ChildRotation(0.502, 0.000, -0.865, 0.000);
+	ChildPosition(77.289, 18.044, 45.393);
+	SeqNo(-382983929);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("seg40", "fel1_bldg_segmented", -367262637)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-93.487, 9.708, -0.107);
+	SeqNo(-367262637);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("ptch_L25", "fel1_bldg_pitcher_L", -351101299)
+{
+	ChildRotation(0.647, 0.134, 0.727, 0.185);
+	ChildPosition(13.782, 27.061, -65.888);
+	SeqNo(-351101299);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("seg17", "fel1_bldg_segmented", -349372044)
+{
+	ChildRotation(0.999, -0.050, 0.000, 0.000);
+	ChildPosition(27.688, 17.572, 4.104);
+	SeqNo(-349372044);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("whsk_clump83", "fel1_bldg_whisker_clump01", -345126857)
+{
+	ChildRotation(0.759, 0.000, 0.651, 0.000);
+	ChildPosition(69.793, 18.815, 42.780);
+	SeqNo(-345126857);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("pch_C94", "fel1_bldg_pitcher_C", -339591801)
+{
+	ChildRotation(0.460, 0.000, -0.888, 0.000);
+	ChildPosition(-146.877, 9.844, -3.651);
+	SeqNo(-339591801);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("spring19", "fel1_bldg_spring01", -332566728)
+{
+	ChildRotation(0.991, -0.017, -0.002, -0.130);
+	ChildPosition(-37.333, 12.779, 71.130);
+	SeqNo(-332566728);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("whsk_clump1091", "fel1_bldg_whisker_clump01", -326523560)
+{
+	ChildRotation(0.907, 0.025, -0.417, 0.054);
+	ChildPosition(91.465, 14.551, 84.572);
+	SeqNo(-326523560);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("fel1_prop_supply_box1", "fel1_prop_supply_box", -321278667)
+{
+	ChildRotation(0.959, -0.084, -0.270, 0.023);
+	ChildPosition(-118.000, 9.597, 8.000);
+	SeqNo(-321278667);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("pch_C154", "fel1_bldg_pitcher_C", -320266287)
+{
+	ChildRotation(-0.279, 0.000, -0.960, 0.000);
+	ChildPosition(-32.129, 12.027, -29.526);
+	SeqNo(-320266287);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("whsk_clump72", "fel1_bldg_whisker_clump01", -301731833)
+{
+	ChildRotation(0.989, 0.000, -0.149, 0.000);
+	ChildPosition(47.190, 18.729, 35.922);
+	SeqNo(-301731833);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("bldr177", "fel1_bldg_bladder", -295225676)
+{
+	ChildRotation(0.986, 0.013, 0.138, 0.095);
+	ChildPosition(-20.318, 9.859, 2.437);
+	SeqNo(-295225676);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("seg36", "fel1_bldg_segmented", -271834215)
+{
+	ChildRotation(0.996, -0.070, -0.003, 0.050);
+	ChildPosition(12.648, 12.416, 96.416);
+	SeqNo(-271834215);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("pch_C40", "fel1_bldg_pitcher_C", -271319807)
+{
+	ChildRotation(0.215, 0.111, -0.970, 0.019);
+	ChildPosition(12.370, 15.971, 24.829);
+	SeqNo(-271319807);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("ptchr_clump502", "fel1_bldg_pitcher_clump", -268197506)
+{
+	ChildRotation(0.929, 0.160, 0.334, 0.025);
+	ChildPosition(79.768, 20.033, -102.147);
+	SeqNo(-268197506);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("whsk_clump1093", "fel1_bldg_whisker_clump01", -263590559)
+{
+	ChildRotation(0.887, 0.000, -0.462, 0.000);
+	ChildPosition(116.177, 16.873, 60.086);
+	SeqNo(-263590559);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("ptch_L132", "fel1_bldg_pitcher_L", -261710704)
+{
+	ChildRotation(0.907, -0.112, -0.356, 0.196);
+	ChildPosition(154.583, 18.175, 96.560);
+	SeqNo(-261710704);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("bldr198", "fel1_bldg_bladder", -240623616)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-92.503, 10.006, -21.922);
+	SeqNo(-240623616);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("ptch_S11", "fel1_bldg_pitcher_S", -223035918)
+{
+	ChildRotation(0.997, 0.028, -0.052, -0.041);
+	ChildPosition(50.965, 23.653, -77.796);
+	SeqNo(-223035918);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("ptch_S28", "fel1_bldg_pitcher_S", -208474710)
+{
+	ChildRotation(0.461, 0.000, -0.888, 0.000);
+	ChildPosition(-137.541, 10.010, 5.648);
+	SeqNo(-208474710);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("ptchr_clump23", "fel1_bldg_pitcher_clump", -206549354)
+{
+	ChildRotation(0.984, 0.000, -0.177, 0.000);
+	ChildPosition(84.382, 18.814, 0.613);
+	SeqNo(-206549354);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("ptchr_clump489", "fel1_bldg_pitcher_clump", -202092786)
+{
+	ChildRotation(0.971, -0.178, -0.156, 0.020);
+	ChildPosition(42.031, 21.769, 143.834);
+	SeqNo(-202092786);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("bldr178", "fel1_bldg_bladder", -194707529)
+{
+	ChildRotation(0.853, 0.000, 0.522, 0.000);
+	ChildPosition(-136.215, 9.586, -38.517);
+	SeqNo(-194707529);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("red_bush30", "fel1_bldg_red_bush", -182191203)
+{
+	ChildRotation(0.461, 0.000, -0.888, 0.000);
+	ChildPosition(-125.164, 11.380, 26.507);
+	SeqNo(-182191203);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("bldr197", "fel1_bldg_bladder", -177043489)
+{
+	ChildRotation(0.808, 0.000, -0.589, 0.000);
+	ChildPosition(-95.705, 9.673, -20.173);
+	SeqNo(-177043489);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("whsk_clump10964", "fel1_bldg_whisker_clump01", -171580431)
+{
+	ChildRotation(0.983, -0.139, 0.017, -0.119);
+	ChildPosition(2.896, 22.410, 125.824);
+	SeqNo(-171580431);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("ptch_S82", "fel1_bldg_pitcher_S", -167809347)
+{
+	ChildRotation(0.934, 0.000, 0.358, 0.000);
+	ChildPosition(147.891, 18.272, 29.923);
+	SeqNo(-167809347);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("ptchr_clump506", "fel1_bldg_pitcher_clump", -148776586)
+{
+	ChildRotation(0.965, -0.140, -0.159, -0.156);
+	ChildPosition(-47.980, 19.712, 83.337);
+	SeqNo(-148776586);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("destroyed_walker11", "fel1_bldg_destroyed_walker", -144084048)
+{
+	ChildRotation(0.889, -0.048, 0.455, -0.028);
+	ChildPosition(0.007, 11.458, 69.375);
+	SeqNo(-144084048);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("whsk_clump10956", "fel1_bldg_whisker_clump01", -140137431)
+{
+	ChildRotation(0.999, 0.000, 0.000, -0.050);
+	ChildPosition(-31.000, 13.000, -39.000);
+	SeqNo(-140137431);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("ptch_S27", "fel1_bldg_pitcher_S", -133874411)
+{
+	ChildRotation(0.458, -0.115, -0.879, -0.060);
+	ChildPosition(-47.710, 22.301, 95.313);
+	SeqNo(-133874411);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("bldr184", "fel1_bldg_bladder", -132410255)
+{
+	ChildRotation(0.598, 0.000, 0.802, 0.000);
+	ChildPosition(68.088, 18.928, 27.114);
+	SeqNo(-132410255);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("Tall1", "fel1_bldg_mtn_accessoryTall", -130154019)
+{
+	ChildRotation(0.984, -0.008, 0.035, -0.175);
+	ChildPosition(117.713, 11.900, -62.268);
+	SeqNo(-130154019);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("whsk_clump1099", "fel1_bldg_whisker_clump01", -121964214)
+{
+	ChildRotation(0.945, 0.050, -0.323, -0.005);
+	ChildPosition(159.919, 20.497, 17.353);
+	SeqNo(-121964214);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("red_bush36", "fel1_bldg_red_bush", -103092157)
+{
+	ChildRotation(0.996, -0.058, 0.014, -0.060);
+	ChildPosition(151.936, 22.166, -15.275);
+	SeqNo(-103092157);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("bldr43", "fel1_bldg_bladder", -92411212)
+{
+	ChildRotation(0.395, 0.101, -0.912, 0.044);
+	ChildPosition(-104.143, 14.071, 42.946);
+	SeqNo(-92411212);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("whsk_clump70", "fel1_bldg_whisker_clump01", -82756023)
+{
+	ChildRotation(0.969, -0.090, -0.217, -0.082);
+	ChildPosition(59.709, 15.026, 118.146);
+	SeqNo(-82756023);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("whsk_clump10959", "fel1_bldg_whisker_clump01", -81287318)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(83.000, 19.951, -92.000);
+	SeqNo(-81287318);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("ptch_L1302", "fel1_bldg_pitcher_L", -73401680)
+{
+	ChildRotation(0.935, -0.337, -0.050, -0.094);
+	ChildPosition(98.000, 17.000, 138.000);
+	SeqNo(-73401680);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("red_bush354", "fel1_bldg_red_bush", -39809706)
+{
+	ChildRotation(0.991, -0.055, 0.108, 0.057);
+	ChildPosition(135.483, 17.999, 31.707);
+	SeqNo(-39809706);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("ptch_S32", "fel1_bldg_pitcher_S", -39792790)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(56.010, 19.662, 27.440);
+	SeqNo(-39792790);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("bldr191", "fel1_bldg_bladder", -30607344)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-114.828, 9.747, -42.997);
+	SeqNo(-30607344);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("bldr182", "fel1_bldg_bladder", -17230713)
+{
+	ChildRotation(0.821, 0.127, 0.548, 0.097);
+	ChildPosition(53.346, 17.197, 48.794);
+	SeqNo(-17230713);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("ptch_S40", "fel1_bldg_pitcher_S", -15955441)
+{
+	ChildRotation(0.913, 0.000, -0.408, 0.000);
+	ChildPosition(31.163, 19.078, -14.479);
+	SeqNo(-15955441);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("ptchr_clump504", "fel1_bldg_pitcher_clump", -14464420)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(146.445, 22.905, -113.815);
+	SeqNo(-14464420);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("seg", "fel1_bldg_segmented", -7469660)
+{
+	ChildRotation(0.543, 0.000, 0.840, 0.000);
+	ChildPosition(45.258, 21.585, -51.999);
+	SeqNo(-7469660);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("seg45", "fel1_bldg_segmented", -6863069)
+{
+	ChildRotation(0.787, -0.006, 0.612, -0.082);
+	ChildPosition(29.729, 14.177, 118.131);
+	SeqNo(-6863069);
+	Team(0);
+	NetworkId(-1);
+}

@@ -1,0 +1,131 @@
+Sector("sector")
+{
+	Base(11.943401);
+	Height(43.760002);
+	Point(75.770401, 88.073692);
+	Point(142.041229, 89.404747);
+	Point(141.673920, 6.601616);
+	Point(75.892639, 6.260409);
+}
+Sector("Sector-1")
+{
+	Base(5.914289);
+	Height(16.080000);
+	Point(115.296921, 119.427063);
+	Point(116.240585, 86.498520);
+	Point(85.648514, 86.963066);
+	Point(85.503494, 119.661293);
+	Object("Pol_bldg_Hanger_dockingbay");
+}
+Sector("Sector-2")
+{
+	Base(10.105492);
+	Height(33.520000);
+	Point(-124.277855, 68.119293);
+	Point(-148.850449, 111.681458);
+	Point(-141.718506, 143.012268);
+	Point(-131.944778, 156.907654);
+	Point(-96.094284, 169.795532);
+	Point(-80.077881, 163.953323);
+	Point(-83.967461, 138.897736);
+	Point(-74.478806, 138.544235);
+	Point(-62.138592, 126.270378);
+	Point(-90.209145, 98.600609);
+	Point(-100.907539, 108.571350);
+	Point(-105.034782, 104.927902);
+	Point(-102.819580, 87.418594);
+	Point(-98.668549, 74.538574);
+	Point(-89.456970, 68.666458);
+	Object("Pol_prop_shore_walls");
+	Object("pol1_bldg_cavern_dockingstation");
+	Object("Pol_prop_cavern_2");
+	Object("Pol_bldg_interior_building");
+}
+Portal("Portal")
+{
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Position(108.740509, 16.010675, 87.199753);
+	Width(9.480000);
+	Height(8.360000);
+	Sector1("sector");
+}
+Portal("Portal-1")
+{
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Position(84.513412, 13.895549, 19.841740);
+	Width(3.080000);
+	Height(5.000000);
+	Sector1("sector");
+}
+Portal("Portal-2")
+{
+	Rotation(0.917138, 0.398569, 0.000000, 0.000000);
+	Position(116.389679, 27.147728, 16.790144);
+	Width(3.240000);
+	Height(6.440000);
+	Sector1("sector");
+}
+Portal("Portal-3")
+{
+	Rotation(0.917138, 0.398569, 0.000000, 0.000000);
+	Position(108.826202, 27.088345, 16.111158);
+	Width(8.520000);
+	Height(6.440000);
+	Sector1("sector");
+}
+Portal("Portal-4")
+{
+	Rotation(0.928648, 0.370961, 0.000000, 0.000000);
+	Position(101.632370, 27.217682, 16.733730);
+	Width(3.560000);
+	Height(5.960000);
+	Sector1("sector");
+}
+Portal("Portal-5")
+{
+	Rotation(0.710858, -0.006870, -0.703265, -0.007226);
+	Position(118.414627, 29.080654, 1.597348);
+	Width(7.240000);
+	Height(8.200000);
+	Sector1("sector");
+}
+Portal("Portal-6")
+{
+	Rotation(0.710893, 0.000000, -0.703300, 0.000000);
+	Position(99.398384, 28.168909, 1.371059);
+	Width(7.400000);
+	Height(8.040000);
+	Sector1("sector");
+}
+Portal("Portal-7")
+{
+	Rotation(0.703845, 0.000000, 0.710353, 0.000000);
+	Position(85.663071, 12.943683, 103.656845);
+	Width(30.760000);
+	Height(12.360001);
+	Sector1("Sector-1");
+}
+Portal("Portal-8")
+{
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Position(108.933365, 14.940397, 87.933731);
+	Width(7.880000);
+	Height(5.480000);
+	Sector1("Sector-1");
+}
+Portal("Portal-9")
+{
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Position(-107.205307, 16.426155, 69.733826);
+	Width(33.960003);
+	Height(14.440000);
+	Sector1("Sector-2");
+}
+Portal("Portal-10")
+{
+	Rotation(0.924904, 0.000000, -0.380202, 0.000000);
+	Position(-76.804382, 26.842499, 113.889412);
+	Width(24.839998);
+	Height(9.000000);
+	Sector1("Sector-2");
+}

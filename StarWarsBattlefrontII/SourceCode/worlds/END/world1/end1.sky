@@ -1,0 +1,93 @@
+SkyInfo()
+{
+	Enable(1);
+
+	PS2()
+	{
+		FogRange(90.0, 350.0);
+		FogColor(144,153,156);
+		NearSceneRange(0.700000, 90.000000, 150.000000);
+		NearSplitScreenRange(0.700000, 90.000000, 130.000000);
+		FarSceneRange(0.000000);
+		SplitOptions()
+		{
+			PropClusterEnable(1);
+			PropClusterFadeAdj(0.6);
+			PropClusterDensity(0.1);
+		}
+
+	}
+	XBOX()
+	{
+		FogRange(90.0, 450.0);
+		FogColor(170,170,170);
+		NearSceneRange(0.700000, 100.000000, 130.000000);
+		NearSplitScreenRange(0.700000, 50.000000, 70.0);
+		FarSceneRange(400.000000);
+		SplitOptions()
+		{
+			FogRange(90.0, 450.0);
+			FarSceneRange(200.0);
+		}	
+	}
+	PC()
+	{
+		FogRange(90.0, 450.0);
+		FogColor(170,170,170);
+		NearSceneRange(110.0, 140.0, 140.0, 260.0);
+		FarSceneRange(160.000000, 400.0);
+	}
+}
+
+
+DomeInfo()
+{
+	Texture("sky_endor.tga");
+	Angle(-90.000000);
+	Ambient(255.000000, 255.000000, 255.000000);
+	TerrainColorDarkening();
+
+	Softness(1);
+	SoftnessParam(60);
+	
+
+	DomeModel()
+	{	
+		Geometry("end1_sky_dome");
+	}
+	DomeModel()
+	{	
+		Geometry("end_sky_dome_sat");
+		Offset(130.0);
+		MovementScale(0.992);
+	}
+	DomeModel()
+	{	
+		Geometry("end_sky_dome_trees");
+		Offset(95.0);
+		MovementScale(0.992);
+	}
+	DomeModel()
+	{	
+		Geometry("end_sky_dome_death");
+		Offset(130.0);
+		MovementScale(0.992);
+	}
+	LowResTerrain()
+	{
+		Texture("end1_lowresterrain");
+		PatchResolution(5);
+		TextureScale(19.0);
+	}
+}
+
+FlatInfo()
+{
+	Height(0.000000, 0.000000);
+	Texture("");
+	Color(128, 128, 128, 255);
+	Modulate(0);
+	TextureSpeed(0.000000, 0.000000);
+	TileSize(100.000000);
+}
+

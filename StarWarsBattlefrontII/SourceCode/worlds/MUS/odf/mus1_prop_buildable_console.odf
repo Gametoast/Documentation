@@ -1,0 +1,110 @@
+
+[GameObjectClass]       
+
+ClassLabel      =   "destructablebuilding"
+GeometryName    =   "mus1_prop_console.msh"
+
+
+[Properties]        
+
+MapTexture = "rechargedroid_icon"
+MapScale        = "0.75"
+//UnbuiltHoloOdf = "com_holo_health"
+
+GeometryName    =   "mus1_prop_console"
+//UnbuiltGeometryName   = "com_prop_buildzone"
+DestroyedGeometryName   = "mus1_prop_console_destroyed"
+ExplosionName       = "com_inf_rechargedroid_exp"
+MaxHealth       = 80
+
+//--1
+
+DamageStartPercent      = 24
+DamageStopPercent           = 0
+DamageEffect            = "com_sfx_vehicleflame
+DamageEffectScale           = 1.0
+DamageInheritVelocity       = 0.0
+DamageAttachPoint           = "hp_damage1"
+
+DamageStartPercent      = 90
+DamageStopPercent           = 25.0
+DamageEffect            = "com_sfx_vehiclesmoke
+DamageEffectScale           = 2
+DamageInheritVelocity       = 0.0
+DamageAttachPoint           = "hp_damage1"
+
+DamageStartPercent      = 100
+DamageStopPercent           = 0
+DamageEffect            = "com_sfx_vehiclespark"
+DamageEffectScale           = 1.5
+DamageInheritVelocity       = 0.0
+DamageAttachPoint           = "hp_damage1"
+//--1
+
+DamageStartPercent      = 24
+DamageStopPercent           = 0
+DamageEffect            = "com_sfx_vehicleflame
+DamageEffectScale           = 1.0
+DamageInheritVelocity       = 0.0
+DamageAttachPoint           = "hp_damage1"
+
+DamageStartPercent      = 90
+DamageStopPercent           = 25.0
+DamageEffect            = "com_sfx_vehiclesmoke"
+DamageEffectScale           = 2
+DamageInheritVelocity       = 0.0
+DamageAttachPoint           = "hp_damage1"
+
+DamageStartPercent      = 100
+DamageStopPercent           = 0
+DamageEffect            = "com_sfx_vehiclespark"
+DamageEffectScale           = 1.5
+DamageInheritVelocity       = 0.0
+DamageAttachPoint           = "hp_damage1"
+//--1
+
+DamageStartPercent      = 24
+DamageStopPercent           = 0
+DamageEffect            = "com_sfx_vehicleflame
+DamageEffectScale           = 1.0
+DamageInheritVelocity       = 0.0
+DamageAttachPoint           = "hp_damage1"
+
+DamageStartPercent      = 90
+DamageStopPercent           = 25.0
+DamageEffect            = "com_sfx_vehiclesmoke"
+DamageEffectScale           = 2
+DamageInheritVelocity       = 0.0
+DamageAttachPoint           = "hp_damage1"
+
+DamageStartPercent      = 100
+DamageStopPercent           = 0
+DamageEffect            = "com_sfx_vehiclespark"
+DamageEffectScale           = 1.5
+DamageInheritVelocity       = 0.0
+DamageAttachPoint           = "hp_damage1"
+//--4
+
+DamageStartPercent      = 24
+DamageStopPercent           = 0
+DamageEffect            = "com_sfx_vehicleflame
+DamageEffectScale           = 1.0
+DamageInheritVelocity       = 0.0
+DamageAttachPoint           = "hp_damage4
+
+DamageStartPercent      = 90
+DamageStopPercent           = 25.0
+DamageEffect            = "com_sfx_vehiclesmoke"
+DamageEffectScale           = 2
+DamageInheritVelocity       = 0.0
+DamageAttachPoint           = "hp_damage"
+
+DamageStartPercent      = 100
+DamageStopPercent           = 0
+DamageEffect            = "com_sfx_vehiclespark"
+DamageEffectScale           = 1.5
+DamageInheritVelocity       = 0.0
+DamageAttachPoint           = "hp_damage1"
+
+BuildingSound    = "control_panel_c"
+

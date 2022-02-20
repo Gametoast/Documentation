@@ -1,0 +1,531 @@
+Version(3);
+SaveType(0);
+
+Camera("camera")
+{
+	Rotation(0.138, 0.138, -0.693, 0.693);
+	Position(-330.342, 116.622, -103.889);
+	FieldOfView(55.400);
+	NearPlane(1.000);
+	FarPlane(5000.000);
+	ZoomFactor(1.000);
+	Bookmark(-317.325, 246.197, -115.678,  0.707, 0.707, 0.001, -0.001);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(-30.272, 115.992, 26.232,  0.801, 0.430, -0.367, 0.197);
+}
+LightName("tan1_Props.LGT");
+ControllerManager("StandardCtrlMgr");
+
+WorldExtents()
+{
+	Min(0.000000, 0.000000, 0.000000);
+	Max(0.000000, 0.000000, 0.000000);
+}
+
+NextSequence(-3705784);
+
+Object("tan4_bldg_techbottles2", "tan4_bldg_techbottles", 16258549)
+{
+	ChildRotation(0.924, 0.000, 0.383, 0.000);
+	ChildPosition(-341.015, 3.764, -151.030);
+	SeqNo(16258549);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("HOTH_prop_command_console_A5", "HOTH_prop_command_console_A", 192765876)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(-318.595, 2.109, -128.589);
+	SeqNo(192765876);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("hoth_prop_crate_14", "hoth_prop_crate_2", 303318440)
+{
+	ChildRotation(0.841, 0.000, 0.541, 0.000);
+	ChildPosition(-283.554, 2.005, -148.607);
+	SeqNo(303318440);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("HOTH_prop_command_console_A6", "HOTH_prop_command_console_A", 361325361)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(-322.141, 2.109, -128.582);
+	SeqNo(361325361);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("techroom2", "tan4_prop_door", 405492372)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(-312.000, 2.000, -138.000);
+	SeqNo(405492372);
+	Team(0);
+	NetworkId(-1);
+	Label("techroom2");
+	Layer(2);
+}
+
+Object("hoth_prop_crate_16", "hoth_prop_crate_2", 412582894)
+{
+	ChildRotation(-0.267, 0.000, -0.964, 0.000);
+	ChildPosition(-283.059, 3.025, -149.211);
+	SeqNo(412582894);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("hoth_prop_crate_15", "hoth_prop_crate_2", 575820822)
+{
+	ChildRotation(0.976, 0.000, -0.218, 0.000);
+	ChildPosition(-282.541, 2.004, -149.495);
+	SeqNo(575820822);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("HOTH_prop_command_console_A4", "HOTH_prop_command_console_A", 780691344)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-325.550, 2.016, -164.193);
+	SeqNo(780691344);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("hoth_prop_crate_2", "hoth_prop_crate_2", 952150556)
+{
+	ChildRotation(0.982, 0.000, 0.189, 0.000);
+	ChildPosition(-260.016, 2.031, -141.902);
+	SeqNo(952150556);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("tan4_prop_door5", "tan4_prop_door", 1076113971)
+{
+	ChildRotation(0.000, 0.000, 0.000, -1.000);
+	ChildPosition(-277.000, 2.000, -143.000);
+	SeqNo(1076113971);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("techroom1", "tan4_prop_door", 1137469625)
+{
+	ChildRotation(0.708, 0.000, -0.706, 0.000);
+	ChildPosition(-311.985, 2.000, -155.000);
+	SeqNo(1137469625);
+	Team(0);
+	NetworkId(-1);
+	Label("techroom1");
+	Layer(2);
+}
+
+Object("hoth_prop_crate_17", "hoth_prop_crate_2", 1236423107)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-289.259, 2.004, -116.536);
+	SeqNo(1236423107);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("spinny6", "tan4_bldg_techbottles_shaft", 1325202197)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-341.083, 3.733, -138.138);
+	SeqNo(1325202197);
+	Team(0);
+	NetworkId(-1);
+	Label("spinny6");
+	Layer(2);
+}
+
+Object("hoth_prop_crate_18", "hoth_prop_crate_2", 1375963550)
+{
+	ChildRotation(0.759, 0.000, 0.651, 0.000);
+	ChildPosition(-288.822, 2.004, -115.267);
+	SeqNo(1375963550);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("tan4_prop_door_minus_darkside", "tan4_prop_door_minus_darkside", 1542081534)
+{
+	ChildRotation(0.708, 0.000, -0.707, 0.000);
+	ChildPosition(-312.000, 2.000, -119.000);
+	SeqNo(1542081534);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("hoth_prop_crate_7", "hoth_prop_crate_2", 1635267740)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-242.258, 4.996, -107.878);
+	SeqNo(1635267740);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("tan4_bldg_techbottles20", "tan4_bldg_techbottles", 1651942002)
+{
+	ChildRotation(0.992, 0.000, 0.124, 0.000);
+	ChildPosition(-341.105, 3.738, -138.146);
+	SeqNo(1651942002);
+	Team(0);
+	NetworkId(-1);
+	Label("spinny1");
+	Layer(2);
+}
+
+Object("tan4_bldg_techbottles0", "tan4_bldg_techbottles", 1801018149)
+{
+	ChildRotation(0.614, 0.000, 0.789, 0.000);
+	ChildPosition(-341.103, 3.738, -142.072);
+	SeqNo(1801018149);
+	Team(0);
+	NetworkId(-1);
+	Label("spinny1");
+	Layer(2);
+}
+
+Object("blasteng2", "tan4_prop_blastdoor", 1840718524)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(-249.459, 5.000, -76.433);
+	SeqNo(1840718524);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("HOTH_prop_command_console_A3", "HOTH_prop_command_console_A", 1842046883)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-322.213, 2.016, -164.216);
+	SeqNo(1842046883);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("spinny1", "tan4_bldg_techbottles_shaft", 1893163693)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-341.009, 3.759, -154.958);
+	SeqNo(1893163693);
+	Team(0);
+	NetworkId(-1);
+	Label("spinny1");
+	Layer(2);
+}
+
+Object("rpodroom1f", "tan4_prop_door", 2070506432)
+{
+	ChildRotation(0.000, -1.000, 0.000, 0.000);
+	ChildPosition(-277.000, 2.000, -152.155);
+	SeqNo(2070506432);
+	Team(0);
+	NetworkId(-1);
+	Label("rpodroom1f");
+	Layer(2);
+}
+
+Object("tan4_prop_door4", "tan4_prop_door", 2130373788)
+{
+	ChildRotation(0.708, 0.000, 0.706, 0.000);
+	ChildPosition(-303.001, 2.000, -126.000);
+	SeqNo(2130373788);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("hoth_prop_crate_20", "hoth_prop_crate_2", 2143879684)
+{
+	ChildRotation(0.847, 0.000, -0.531, 0.000);
+	ChildPosition(-253.972, 5.000, -116.446);
+	SeqNo(2143879684);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("blastdoor", "tan4_prop_door_charred", -2121546986)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-253.492, 4.966, -175.046);
+	SeqNo(-2121546986);
+	Team(0);
+	NetworkId(-1);
+	Label("blastdoor");
+	Layer(2);
+}
+
+Object("blastbar1", "tan4_prop_blastdoor", -2116132842)
+{
+	ChildRotation(0.709, 0.000, -0.705, 0.000);
+	ChildPosition(-276.418, 2.000, -118.581);
+	SeqNo(-2116132842);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("spinny3", "tan4_bldg_techbottles_shaft", -1695424949)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-340.994, 3.759, -151.022);
+	SeqNo(-1695424949);
+	Team(0);
+	NetworkId(-1);
+	Label("spinny1");
+	Layer(2);
+}
+
+Object("spinny5", "tan4_bldg_techbottles_shaft", -1672232860)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-341.094, 3.733, -140.125);
+	SeqNo(-1672232860);
+	Team(0);
+	NetworkId(-1);
+	Label("spinny5");
+	Layer(2);
+}
+
+Object("lpodroom1", "tan4_prop_door", -1562908125)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-277.000, 2.000, -110.000);
+	SeqNo(-1562908125);
+	Team(0);
+	NetworkId(-1);
+	Label("lpodroom1");
+	Layer(2);
+}
+
+Object("rpodroom1", "tan4_prop_door", -1547744368)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(-277.000, 2.000, -151.928);
+	SeqNo(-1547744368);
+	Team(0);
+	NetworkId(-1);
+	Label("rpodroom1");
+	Layer(2);
+}
+
+Object("tan4_bldg_techbottles10", "tan4_bldg_techbottles", -1046289042)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-341.113, 3.738, -140.125);
+	SeqNo(-1046289042);
+	Team(0);
+	NetworkId(-1);
+	Label("spinny1");
+	Layer(2);
+}
+
+Object("rpodroom2", "tan4_prop_door", -978573836)
+{
+	ChildRotation(0.708, 0.000, 0.706, 0.000);
+	ChildPosition(-296.120, 2.000, -171.098);
+	SeqNo(-978573836);
+	Team(0);
+	NetworkId(-1);
+	Label("rpodroom2");
+	Layer(2);
+}
+
+Object("engine01", "tan4_prop_door", -745194570)
+{
+	ChildRotation(0.707, 0.000, 0.707, 0.000);
+	ChildPosition(-249.000, 5.000, -155.000);
+	SeqNo(-745194570);
+	Team(0);
+	NetworkId(-1);
+	Label("engine01");
+	Layer(2);
+}
+
+Object("HOTH_prop_command_console_A7", "HOTH_prop_command_console_A", -743419987)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(-325.743, 2.109, -128.567);
+	SeqNo(-743419987);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("lpodroom3", "tan4_prop_door", -709509279)
+{
+	ChildRotation(0.708, 0.000, -0.706, 0.000);
+	ChildPosition(-257.947, 5.000, -94.974);
+	SeqNo(-709509279);
+	Team(0);
+	NetworkId(-1);
+	Label("lpodroom3");
+	Layer(2);
+}
+
+Object("hoth_prop_crate_21", "hoth_prop_crate_2", -677124621)
+{
+	ChildRotation(0.913, 0.000, 0.408, 0.000);
+	ChildPosition(-254.491, 5.000, -115.210);
+	SeqNo(-677124621);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("tan4_prop_door1", "tan4_prop_door", -672687870)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-277.000, 2.000, -143.000);
+	SeqNo(-672687870);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("hoth_prop_crate_19", "hoth_prop_crate_2", -533532732)
+{
+	ChildRotation(0.939, 0.000, 0.343, 0.000);
+	ChildPosition(-288.997, 3.006, -116.003);
+	SeqNo(-533532732);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("hoth_prop_crate_9", "hoth_prop_crate_2", -515414543)
+{
+	ChildRotation(0.853, 0.000, 0.522, 0.000);
+	ChildPosition(-243.356, 4.996, -108.881);
+	SeqNo(-515414543);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("HOTH_prop_command_console_A2", "HOTH_prop_command_console_A", -494835932)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-318.845, 2.016, -164.295);
+	SeqNo(-494835932);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("tan4_bldg_techbottles", "tan4_bldg_techbottles", -386218248)
+{
+	ChildRotation(-0.500, 0.000, -0.866, 0.000);
+	ChildPosition(-341.014, 3.765, -154.956);
+	SeqNo(-386218248);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("blasteng1", "tan4_prop_blastdoor", -381995352)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(-249.507, 5.000, -102.964);
+	SeqNo(-381995352);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("hoth_prop_crate_22", "hoth_prop_crate_2", -282819102)
+{
+	ChildRotation(0.969, 0.000, -0.247, 0.000);
+	ChildPosition(-254.311, 6.018, -115.960);
+	SeqNo(-282819102);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("spinny4", "tan4_bldg_techbottles_shaft", -270032759)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-341.099, 3.733, -142.074);
+	SeqNo(-270032759);
+	Team(0);
+	NetworkId(-1);
+	Label("spinny4");
+	Layer(2);
+}
+
+Object("lpodroom2", "tan4_prop_door", -204920428)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-297.000, 2.000, -110.000);
+	SeqNo(-204920428);
+	Team(0);
+	NetworkId(-1);
+	Label("lpodroom2");
+	Layer(2);
+}
+
+Object("hoth_prop_crate_23", "hoth_prop_crate_2", -91549181)
+{
+	ChildRotation(0.949, 0.000, 0.314, 0.000);
+	ChildPosition(-242.727, 6.000, -108.380);
+	SeqNo(-91549181);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("spinny2", "tan4_bldg_techbottles_shaft", -30017733)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-341.004, 3.759, -153.009);
+	SeqNo(-30017733);
+	Team(0);
+	NetworkId(-1);
+	Label("spinny1");
+	Layer(2);
+}
+
+Object("tan4_bldg_techbottles1", "tan4_bldg_techbottles", -24335487)
+{
+	ChildRotation(-0.500, 0.000, -0.866, 0.000);
+	ChildPosition(-341.024, 3.785, -153.010);
+	SeqNo(-24335487);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}

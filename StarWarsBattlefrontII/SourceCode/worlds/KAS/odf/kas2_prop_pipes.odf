@@ -1,0 +1,108 @@
+
+[GameObjectClass]       
+
+ClassLabel      =   "destructablebuilding"
+GeometryName    =   "kas_prop_pipes.msh"
+
+
+[Properties]        
+
+MapTexture = "rechargedroid_icon"
+MapScale        = "1"
+UnbuiltHoloOdf = "com_holo_build"
+
+GeometryName    =   "kas_prop_pipes"
+UnbuiltGeometryName   = "kas_prop_pipes_destroyed"
+DestroyedGeometryName   = "kas_prop_pipes_destroyed"
+ExplosionName       = "com_inf_rechargedroid_exp"
+MaxHealth       = 150
+
+//--1
+
+DamageStartPercent      = 35
+DamageStopPercent           = 0
+DamageEffect            = "com_sfx_vehicleflame"
+DamageEffectScale           = .6
+DamageInheritVelocity       = 0.0
+DamageAttachPoint           = "hp_damage1"
+
+DamageStartPercent      = 90
+DamageStopPercent           = 25.0
+DamageEffect            = "com_sfx_vehiclesmoke
+DamageEffectScale           = 2
+DamageInheritVelocity       = 0.0
+DamageAttachPoint           = "hp_damage1"
+
+DamageStartPercent      = 100
+DamageStopPercent           = 51
+DamageEffect            = "com_sfx_vehiclespark"
+DamageEffectScale           = 1.5
+DamageInheritVelocity       = 0.0
+DamageAttachPoint           = "hp_damage1"
+--1
+
+DamageStartPercent      = 12
+DamageStopPercent           = 0
+DamageEffect            = "com_sfx_vehicleflame"
+DamageEffectScale           = .6
+DamageInheritVelocity       = 0.0
+DamageAttachPoint           = "hp_damage2"
+
+DamageStartPercent      = 90
+DamageStopPercent           = 25.0
+DamageEffect            = "com_sfx_vehiclesmoke"
+DamageEffectScale           = 3
+DamageInheritVelocity       = 0.0
+DamageAttachPoint           = "hp_damage2"
+
+DamageStartPercent      = 50
+DamageStopPercent           = 11
+DamageEffect            = "com_sfx_vehiclespark"
+DamageEffectScale           = 1.5
+DamageInheritVelocity       = 0.0
+DamageAttachPoint           = "hp_damage2"
+//--1
+
+DamageStartPercent      = 18
+DamageStopPercent           = 0
+DamageEffect            = "com_sfx_vehicleflame"
+DamageEffectScale           = .6
+DamageInheritVelocity       = 0.0
+DamageAttachPoint           = "hp_damage3"
+
+DamageStartPercent      = 90
+DamageStopPercent           = 25.0
+DamageEffect            = "com_sfx_vehiclesmoke"
+DamageEffectScale           = 3
+DamageInheritVelocity       = 0.0
+DamageAttachPoint           = "hp_damage3"
+
+DamageStartPercent      = 100
+DamageStopPercent           = 76
+DamageEffect            = "com_sfx_vehiclespark"
+DamageEffectScale           = 1.5
+DamageInheritVelocity       = 0.0
+DamageAttachPoint           = "hp_damage3"
+
+//--4
+
+DamageStartPercent      = 24
+DamageStopPercent           = 0
+DamageEffect            = "com_sfx_vehicleflame"
+DamageEffectScale           = .6
+DamageInheritVelocity       = 0.0
+DamageAttachPoint           = "hp_damage4"
+
+DamageStartPercent      = 90
+DamageStopPercent           = 25.0
+DamageEffect            = "com_sfx_vehiclesmoke"
+DamageEffectScale           = 2
+DamageInheritVelocity       = 0.0
+DamageAttachPoint           = "hp_damage4"
+
+DamageStartPercent      = 100
+DamageStopPercent           = 51
+DamageEffect            = "com_sfx_vehiclespark"
+DamageEffectScale           = 1.5
+DamageInheritVelocity       = 0.0
+DamageAttachPoint           = "hp_damage4"

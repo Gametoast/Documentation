@@ -1,0 +1,392 @@
+Version(3);
+SaveType(0);
+
+Camera("camera")
+{
+	Rotation(0.977, 0.167, 0.129, -0.022);
+	Position(115.615, 54.597, -141.771);
+	FieldOfView(55.400);
+	NearPlane(1.000);
+	FarPlane(1000.000);
+	ZoomFactor(1.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(228.179, 192.780, 80.914,  0.390, 0.093, -0.891, 0.213);
+}
+LightName("kamino1_campaign.LGT");
+ControllerManager("StandardCtrlMgr");
+
+WorldExtents()
+{
+	Min(0.000000, 0.000000, 0.000000);
+	Max(0.000000, 0.000000, 0.000000);
+}
+
+NextSequence(-1211604);
+
+Object("ambush", "tur_bldg_chaingun_roof", 139411642)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-91.147, 74.287, -52.295);
+	SeqNo(139411642);
+	Team(0);
+	NetworkId(-1);
+	Label("ambush");
+	Layer(6);
+}
+
+Object("com_item_healthrecharge19", "com_item_healthrecharge", 313235170)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(88.120, 51.463, -167.787);
+	SeqNo(313235170);
+	Team(0);
+	NetworkId(-1);
+	Layer(6);
+	EffectRegion("");
+	Radius("5.0");
+}
+
+Object("transport4", "com_item_vehicle_spawn", 410506880)
+{
+	ChildRotation(0.439, 0.000, -0.899, 0.000);
+	ChildPosition(128.000, 106.000, 8.000);
+	SeqNo(410506880);
+	Team(1);
+	NetworkId(-1);
+	Label("transport4");
+	Layer(6);
+	ControlZone("boba");
+	SpawnCount("1");
+	SpawnTime("0");
+	ExpireTimeEnemy("99999");
+	ExpireTimeField("99999");
+	DecayTime("9999999");
+	ClassNeutral("");
+	ClassAllATK("");
+	ClassCISATK("");
+	ClassImpATK("uta_fly_ride_gunship");
+	ClassRepATK("");
+	ClassLocATK("");
+	ClassHisATK("");
+	ClassAllDEF("");
+	ClassCISDEF("");
+	ClassImpDEF("");
+	ClassRepDEF("uta_fly_ride_gunship");
+	ClassLocDEF("");
+	ClassHisDEF("");
+	ClassLocals("");
+}
+
+Object("tur_bldg_chaingun_roof", "tur_bldg_chaingun_roof", 534784321)
+{
+	ChildRotation(0.646, 0.000, -0.763, 0.000);
+	ChildPosition(92.720, 55.442, -188.760);
+	SeqNo(534784321);
+	Team(2);
+	NetworkId(-1);
+	Layer(6);
+}
+
+Object("tur_bldg_chaingun_roof10", "tur_bldg_chaingun_roof", 950915475)
+{
+	ChildRotation(0.820, 0.000, 0.572, 0.000);
+	ChildPosition(-132.762, 73.305, -41.031);
+	SeqNo(950915475);
+	Team(2);
+	NetworkId(-1);
+	Layer(6);
+}
+
+Object("tur_bldg_chaingun_roof6", "tur_bldg_chaingun_roof", 1031305406)
+{
+	ChildRotation(0.353, 0.000, -0.936, 0.000);
+	ChildPosition(50.480, 56.488, -169.462);
+	SeqNo(1031305406);
+	Team(2);
+	NetworkId(-1);
+	Layer(6);
+}
+
+Object("ambush", "tur_bldg_chaingun_roof", 1132161664)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-91.147, 74.287, -52.295);
+	SeqNo(1132161664);
+	Team(0);
+	NetworkId(-1);
+	Label("amush");
+	Layer(6);
+}
+
+Object("HELP", "tur_bldg_chaingun_roof", 1226019545)
+{
+	ChildRotation(0.572, 0.000, 0.820, 0.000);
+	ChildPosition(-63.581, 66.832, -85.045);
+	SeqNo(1226019545);
+	Team(2);
+	NetworkId(-1);
+	Label("0");
+	Layer(6);
+}
+
+Object("tur_bldg_chaingun_roof7", "tur_bldg_chaingun_roof", 1336611196)
+{
+	ChildRotation(0.901, 0.000, -0.434, 0.000);
+	ChildPosition(47.887, 56.479, -211.901);
+	SeqNo(1336611196);
+	Team(2);
+	NetworkId(-1);
+	Layer(6);
+}
+
+Object("transport1", "com_item_vehicle_spawn", 1612493568)
+{
+	ChildRotation(0.936, 0.000, -0.353, 0.000);
+	ChildPosition(109.000, 125.000, 11.000);
+	SeqNo(1612493568);
+	Team(1);
+	NetworkId(-1);
+	Label("transport1");
+	Layer(6);
+	ControlZone("boba");
+	SpawnCount("1");
+	SpawnTime("0");
+	ExpireTimeEnemy("99999");
+	ExpireTimeField("99999");
+	DecayTime("9999999");
+	ClassNeutral("");
+	ClassAllATK("");
+	ClassCISATK("");
+	ClassImpATK("uta_fly_ride_gunship");
+	ClassRepATK("");
+	ClassLocATK("");
+	ClassHisATK("");
+	ClassAllDEF("");
+	ClassCISDEF("");
+	ClassImpDEF("");
+	ClassRepDEF("uta_fly_ride_gunship");
+	ClassLocDEF("");
+	ClassHisDEF("");
+	ClassLocals("");
+}
+
+Object("dna1", "kam_flag_embryo", 1739149725)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-199.000, 72.000, -32.000);
+	SeqNo(1739149725);
+	Team(0);
+	NetworkId(-1);
+	Label("dna1");
+	Layer(6);
+}
+
+Object("tur_bldg_chaingun_roof9", "tur_bldg_chaingun_roof", 2002719951)
+{
+	ChildRotation(0.524, 0.000, 0.852, 0.000);
+	ChildPosition(-132.114, 73.266, -28.662);
+	SeqNo(2002719951);
+	Team(2);
+	NetworkId(-1);
+	Layer(6);
+}
+
+Object("transport3", "imp_trans", 2099224878)
+{
+	ChildRotation(0.934, 0.016, -0.356, 0.015);
+	ChildPosition(31.000, 78.338, 81.000);
+	SeqNo(2099224878);
+	Team(0);
+	NetworkId(-1);
+	Label("transport3");
+	Layer(6);
+}
+
+Object("com_item_weaponrecharge18", "com_item_weaponrecharge", 2108565105)
+{
+	ChildRotation(0.304, 0.000, -0.953, 0.000);
+	ChildPosition(116.639, 51.463, -138.314);
+	SeqNo(2108565105);
+	Team(0);
+	NetworkId(-1);
+	Layer(6);
+	EffectRegion("");
+	Radius("5.0");
+}
+
+Object("tur_bldg_chaingun_roof2", "tur_bldg_chaingun_roof", -1612681236)
+{
+	ChildRotation(0.790, 0.000, -0.613, 0.000);
+	ChildPosition(92.120, 55.436, -198.010);
+	SeqNo(-1612681236);
+	Team(2);
+	NetworkId(-1);
+	Layer(6);
+}
+
+Object("kam_bldg_blast_door3", "kam_bldg_blast_door", -1273567853)
+{
+	ChildRotation(0.704, 0.000, -0.710, 0.000);
+	ChildPosition(-192.014, 69.282, -63.290);
+	SeqNo(-1273567853);
+	Team(0);
+	NetworkId(-1);
+	Layer(6);
+}
+
+Object("tur_bldg_chaingun_roof12", "tur_bldg_chaingun_roof", -1074609552)
+{
+	ChildRotation(0.009, 0.000, -1.000, 0.000);
+	ChildPosition(-188.724, 73.424, 20.470);
+	SeqNo(-1074609552);
+	Team(2);
+	NetworkId(-1);
+	Layer(6);
+}
+
+Object("hackhere1", "dea1_prop_panel", -956830454)
+{
+	ChildRotation(0.708, 0.000, 0.706, 0.000);
+	ChildPosition(-97.442, 69.272, -32.906);
+	SeqNo(-956830454);
+	Team(0);
+	NetworkId(-1);
+	Label("hackhere1");
+	Layer(6);
+}
+
+Object("tur_bldg_chaingun_roof11", "tur_bldg_chaingun_roof", -909384653)
+{
+	ChildRotation(0.524, 0.000, 0.852, 0.000);
+	ChildPosition(-190.010, 78.654, -18.812);
+	SeqNo(-909384653);
+	Team(2);
+	NetworkId(-1);
+	Layer(6);
+}
+
+Object("boba", "com_bldg_invisible_controlzone", -880573772)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-54.740, 69.391, 48.644);
+	SeqNo(-880573772);
+	Team(0);
+	NetworkId(-1);
+	Label("boba");
+	Layer(6);
+	CaptureRegion("");
+	ControlRegion("Flyer");
+	SpawnPath("boba");
+	TurretPath("");
+	AllyPath("");
+	AllyCount("65536");
+	Radius("0.0");
+	ValueBleed("10");
+	Value_ATK_Alliance("10");
+	Value_ATK_CIS("10");
+	Value_ATK_Empire("10");
+	Value_ATK_Republic("10");
+	Value_DEF_Alliance("10");
+	Value_DEF_CIS("10");
+	Value_DEF_Empire("10");
+	Value_DEF_Republic("10");
+	Value_DEF_Locals("10");
+	VO_All_AllCapture("all_off_com_report_captured_commandpost");
+	VO_All_AllLost("all_off_com_report_lost_commandpost");
+	VO_All_AllInDispute("");
+	VO_All_AllSaved("");
+	VO_All_AllInfo("");
+	VO_All_ImpCapture("all_off_com_report_enemyCaptured_commandpost");
+	VO_All_ImpLost("");
+	VO_All_ImpInDispute("");
+	VO_All_ImpSaved("");
+	VO_All_ImpInfo("");
+	VO_Imp_AllCapture("imp_off_com_report_enemyCaptured_commandpost");
+	VO_Imp_AllLost("");
+	VO_Imp_AllInDispute("");
+	VO_Imp_AllSaved("");
+	VO_Imp_AllInfo("");
+	VO_Imp_ImpCapture("imp_off_com_report_captured_commandpost");
+	VO_Imp_ImpLost("imp_off_com_report_lost_commandpost");
+	VO_Imp_ImpInDispute("");
+	VO_Imp_ImpSaved("");
+	VO_Imp_ImpInfo("");
+	VO_Rep_RepCapture("rep_off_com_report_captured_commandpost");
+	VO_Rep_RepLost("rep_off_com_report_lost_commandpost");
+	VO_Rep_RepInDispute("");
+	VO_Rep_RepSaved("");
+	VO_Rep_RepInfo("");
+	VO_Rep_CISCapture("rep_off_com_report_enemyCaptured_commandpost");
+	VO_Rep_CISLost("");
+	VO_Rep_CISInDispute("");
+	VO_Rep_CISSaved("");
+	VO_Rep_CISInfo("");
+	VO_CIS_RepCapture("cis_off_com_report_enemyCaptured_commandpost");
+	VO_CIS_RepLost("");
+	VO_CIS_RepInDispute("");
+	VO_CIS_RepSaved("");
+	VO_CIS_RepInfo("");
+	VO_CIS_CISCapture("cis_off_com_report_captured_commandpost");
+	VO_CIS_CISLost("cis_off_com_report_lost_commandpost");
+	VO_CIS_CISInDispute("");
+	VO_CIS_CISSaved("");
+	VO_CIS_CISInfo("");
+	SoldierBan("");
+	HoverBan("");
+	SmallBan("");
+	MediumBan("");
+	HugeBan("");
+	FlyerBan("");
+	AISpawnWeight("");
+	HUDIndex("");
+	HUDIndexDisplay("0");
+}
+
+Object("transport2", "com_item_vehicle_spawn", -693843643)
+{
+	ChildRotation(-0.362, 0.000, -0.932, 0.000);
+	ChildPosition(-58.000, 62.000, -315.000);
+	SeqNo(-693843643);
+	Team(1);
+	NetworkId(-1);
+	Label("transport2");
+	Layer(6);
+	ControlZone("boba");
+	SpawnCount("1");
+	SpawnTime("0");
+	ExpireTimeEnemy("99999");
+	ExpireTimeField("99999");
+	DecayTime("9999999");
+	ClassNeutral("");
+	ClassAllATK("");
+	ClassCISATK("");
+	ClassImpATK("uta_fly_ride_gunship");
+	ClassRepATK("");
+	ClassLocATK("");
+	ClassHisATK("");
+	ClassAllDEF("");
+	ClassCISDEF("");
+	ClassImpDEF("");
+	ClassRepDEF("uta_fly_ride_gunship");
+	ClassLocDEF("");
+	ClassHisDEF("");
+	ClassLocals("");
+}
+
+Object("tur_bldg_chaingun_roof8", "tur_bldg_chaingun_roof", -2583508)
+{
+	ChildRotation(0.853, 0.000, 0.522, 0.000);
+	ChildPosition(-191.179, 78.672, -45.606);
+	SeqNo(-2583508);
+	Team(2);
+	NetworkId(-1);
+	Layer(6);
+}

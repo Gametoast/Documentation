@@ -1,0 +1,340 @@
+Version(3);
+SaveType(0);
+
+Camera("camera")
+{
+	Rotation(0.828, 0.055, 0.558, -0.037);
+	Position(76.695, 18.360, 84.864);
+	FieldOfView(55.400);
+	NearPlane(1.000);
+	FarPlane(5000.000);
+	ZoomFactor(1.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 9.440,  1.000, 0.000, 0.000, 0.000);
+}
+LightName("cor1_hunt.LGT");
+ControllerManager("StandardCtrlMgr");
+
+WorldExtents()
+{
+	Min(0.000000, 0.000000, 0.000000);
+	Max(0.000000, 0.000000, 0.000000);
+}
+
+NextSequence(-3705784);
+
+Object("LibCase11", "Cor1_prop_librarystack", 300607798)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(63.000, 15.001, 79.785);
+	SeqNo(300607798);
+	Team(0);
+	NetworkId(-1);
+	Label("LibCase11");
+	Layer(11);
+}
+
+Object("LibCase3", "Cor1_prop_librarystack", 520274071)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(71.000, 7.006, 72.568);
+	SeqNo(520274071);
+	Team(0);
+	NetworkId(-1);
+	Label("LibCase3");
+	Layer(11);
+}
+
+Object("LibCase13", "Cor1_prop_librarystack", 694818496)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(79.000, 15.000, 99.777);
+	SeqNo(694818496);
+	Team(0);
+	NetworkId(-1);
+	Label("LibCase13");
+	Layer(11);
+}
+
+Object("LibCase1", "Cor1_prop_librarystack", 879454625)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(55.000, 7.006, 72.529);
+	SeqNo(879454625);
+	Team(0);
+	NetworkId(-1);
+	Label("LibCase1");
+	Layer(11);
+}
+
+Object("LibCase8", "Cor1_prop_librarystack", 1201154552)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(79.000, 7.006, 99.807);
+	SeqNo(1201154552);
+	Team(0);
+	NetworkId(-1);
+	Label("LibCase8");
+	Layer(11);
+}
+
+Object("LibCase9", "Cor1_prop_librarystack", 1758598886)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(87.000, 7.006, 92.573);
+	SeqNo(1758598886);
+	Team(0);
+	NetworkId(-1);
+	Label("LibCase9");
+	Layer(11);
+}
+
+Object("LibCase10", "Cor1_prop_librarystack", 2110326127)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(55.000, 15.001, 72.553);
+	SeqNo(2110326127);
+	Team(0);
+	NetworkId(-1);
+	Label("LibCase10");
+	Layer(11);
+}
+
+Object("LibCase14", "Cor1_prop_librarystack", -2106767059)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(87.000, 14.950, 92.522);
+	SeqNo(-2106767059);
+	Team(0);
+	NetworkId(-1);
+	Label("LibCase14");
+	Layer(11);
+}
+
+Object("LibCase12", "Cor1_prop_librarystack", -1948980272)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(71.000, 14.972, 92.543);
+	SeqNo(-1948980272);
+	Team(0);
+	NetworkId(-1);
+	Label("LibCase12");
+	Layer(11);
+}
+
+Object("LibCase2", "Cor1_prop_librarystack", -1853962921)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(62.994, 7.006, 79.791);
+	SeqNo(-1853962921);
+	Team(0);
+	NetworkId(-1);
+	Label("LibCase2");
+	Layer(11);
+}
+
+Object("Team2CP", "com_bldg_invisible_controlzone", -1429899164)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(1.665, 11.000, -19.422);
+	SeqNo(-1429899164);
+	Team(2);
+	NetworkId(-1);
+	Label("Team2CP");
+	Layer(11);
+	CaptureRegion("");
+	ControlRegion("");
+	SpawnPath("Team2Spawn");
+	TurretPath("");
+	AllyPath("");
+	AllyCount("65536");
+	Radius("0.0");
+	ValueBleed("10");
+	Value_ATK_Alliance("10");
+	Value_ATK_CIS("10");
+	Value_ATK_Empire("10");
+	Value_ATK_Republic("10");
+	Value_DEF_Alliance("10");
+	Value_DEF_CIS("10");
+	Value_DEF_Empire("10");
+	Value_DEF_Republic("10");
+	Value_DEF_Locals("10");
+	VO_All_AllCapture("all_off_com_report_captured_commandpost");
+	VO_All_AllLost("all_off_com_report_lost_commandpost");
+	VO_All_AllInDispute("");
+	VO_All_AllSaved("");
+	VO_All_AllInfo("");
+	VO_All_ImpCapture("all_off_com_report_enemyCaptured_commandpost");
+	VO_All_ImpLost("");
+	VO_All_ImpInDispute("");
+	VO_All_ImpSaved("");
+	VO_All_ImpInfo("");
+	VO_Imp_AllCapture("imp_off_com_report_enemyCaptured_commandpost");
+	VO_Imp_AllLost("");
+	VO_Imp_AllInDispute("");
+	VO_Imp_AllSaved("");
+	VO_Imp_AllInfo("");
+	VO_Imp_ImpCapture("imp_off_com_report_captured_commandpost");
+	VO_Imp_ImpLost("imp_off_com_report_lost_commandpost");
+	VO_Imp_ImpInDispute("");
+	VO_Imp_ImpSaved("");
+	VO_Imp_ImpInfo("");
+	VO_Rep_RepCapture("rep_off_com_report_captured_commandpost");
+	VO_Rep_RepLost("rep_off_com_report_lost_commandpost");
+	VO_Rep_RepInDispute("");
+	VO_Rep_RepSaved("");
+	VO_Rep_RepInfo("");
+	VO_Rep_CISCapture("rep_off_com_report_enemyCaptured_commandpost");
+	VO_Rep_CISLost("");
+	VO_Rep_CISInDispute("");
+	VO_Rep_CISSaved("");
+	VO_Rep_CISInfo("");
+	VO_CIS_RepCapture("cis_off_com_report_enemyCaptured_commandpost");
+	VO_CIS_RepLost("");
+	VO_CIS_RepInDispute("");
+	VO_CIS_RepSaved("");
+	VO_CIS_RepInfo("");
+	VO_CIS_CISCapture("cis_off_com_report_captured_commandpost");
+	VO_CIS_CISLost("cis_off_com_report_lost_commandpost");
+	VO_CIS_CISInDispute("");
+	VO_CIS_CISSaved("");
+	VO_CIS_CISInfo("");
+	SoldierBan("");
+	HoverBan("");
+	SmallBan("");
+	MediumBan("");
+	HugeBan("");
+	FlyerBan("");
+	AISpawnWeight("");
+	HUDIndex("");
+	HUDIndexDisplay("0");
+}
+
+Object("Team1CP", "com_bldg_invisible_controlzone", -1364684408)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(4.000, 3.000, 170.000);
+	SeqNo(-1364684408);
+	Team(1);
+	NetworkId(-1);
+	Label("Team1CP");
+	Layer(11);
+	CaptureRegion("");
+	ControlRegion("");
+	SpawnPath("Team1Spawn");
+	TurretPath("");
+	AllyPath("");
+	AllyCount("65536");
+	Radius("0.0");
+	ValueBleed("10");
+	Value_ATK_Alliance("10");
+	Value_ATK_CIS("10");
+	Value_ATK_Empire("10");
+	Value_ATK_Republic("10");
+	Value_DEF_Alliance("10");
+	Value_DEF_CIS("10");
+	Value_DEF_Empire("10");
+	Value_DEF_Republic("10");
+	Value_DEF_Locals("10");
+	VO_All_AllCapture("all_off_com_report_captured_commandpost");
+	VO_All_AllLost("all_off_com_report_lost_commandpost");
+	VO_All_AllInDispute("");
+	VO_All_AllSaved("");
+	VO_All_AllInfo("");
+	VO_All_ImpCapture("all_off_com_report_enemyCaptured_commandpost");
+	VO_All_ImpLost("");
+	VO_All_ImpInDispute("");
+	VO_All_ImpSaved("");
+	VO_All_ImpInfo("");
+	VO_Imp_AllCapture("imp_off_com_report_enemyCaptured_commandpost");
+	VO_Imp_AllLost("");
+	VO_Imp_AllInDispute("");
+	VO_Imp_AllSaved("");
+	VO_Imp_AllInfo("");
+	VO_Imp_ImpCapture("imp_off_com_report_captured_commandpost");
+	VO_Imp_ImpLost("imp_off_com_report_lost_commandpost");
+	VO_Imp_ImpInDispute("");
+	VO_Imp_ImpSaved("");
+	VO_Imp_ImpInfo("");
+	VO_Rep_RepCapture("rep_off_com_report_captured_commandpost");
+	VO_Rep_RepLost("rep_off_com_report_lost_commandpost");
+	VO_Rep_RepInDispute("");
+	VO_Rep_RepSaved("");
+	VO_Rep_RepInfo("");
+	VO_Rep_CISCapture("rep_off_com_report_enemyCaptured_commandpost");
+	VO_Rep_CISLost("");
+	VO_Rep_CISInDispute("");
+	VO_Rep_CISSaved("");
+	VO_Rep_CISInfo("");
+	VO_CIS_RepCapture("cis_off_com_report_enemyCaptured_commandpost");
+	VO_CIS_RepLost("");
+	VO_CIS_RepInDispute("");
+	VO_CIS_RepSaved("");
+	VO_CIS_RepInfo("");
+	VO_CIS_CISCapture("cis_off_com_report_captured_commandpost");
+	VO_CIS_CISLost("cis_off_com_report_lost_commandpost");
+	VO_CIS_CISInDispute("");
+	VO_CIS_CISSaved("");
+	VO_CIS_CISInfo("");
+	SoldierBan("");
+	HoverBan("");
+	SmallBan("");
+	MediumBan("");
+	HugeBan("");
+	FlyerBan("");
+	AISpawnWeight("");
+	HUDIndex("");
+	HUDIndexDisplay("0");
+}
+
+Object("LibCase6", "Cor1_prop_librarystack", -1128187090)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(63.000, 7.006, 99.705);
+	SeqNo(-1128187090);
+	Team(0);
+	NetworkId(-1);
+	Label("LibCase6");
+	Layer(11);
+}
+
+Object("LibCase7", "Cor1_prop_librarystack", -838435045)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(71.000, 7.006, 92.518);
+	SeqNo(-838435045);
+	Team(0);
+	NetworkId(-1);
+	Label("LibCase7");
+	Layer(11);
+}
+
+Object("LibCase4", "Cor1_prop_librarystack", -640760235)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(87.000, 7.005, 79.655);
+	SeqNo(-640760235);
+	Team(0);
+	NetworkId(-1);
+	Label("LibCase4");
+	Layer(11);
+}
+
+Object("LibCase5", "Cor1_prop_librarystack", -315850455)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(54.888, 7.006, 92.542);
+	SeqNo(-315850455);
+	Team(0);
+	NetworkId(-1);
+	Label("LibCase5");
+	Layer(11);
+}

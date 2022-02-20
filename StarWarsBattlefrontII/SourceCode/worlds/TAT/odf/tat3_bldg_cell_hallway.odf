@@ -1,0 +1,42 @@
+[GameObjectClass]       
+
+ClassLabel      =   "prop"
+GeometryName    =   "tat3_bldg_cell_hallway.msh"
+
+
+[Properties]        
+
+GeometryName    =   "tat3_bldg_cell_hallway"
+
+
+AttachEffect = "prop_steampipe"
+
+AttachToHardPoint = "hp_steam_1"
+AttachToHardPoint = "hp_steam_2"
+AttachToHardPoint = "hp_steam_3"
+
+
+AttachEffect = "prop_steamgrate"
+
+AttachToHardPoint = "hp_steam_a"
+AttachToHardPoint = "hp_steam_b"
+
+
+AttachOdf = "tat3_light_reservoir_03"
+
+AttachToHardPoint = "hp_light_7"
+
+
+AttachOdf = "tat3_light_l_blue"
+
+AttachToHardPoint = "hp_light_14"
+AttachToHardPoint = "hp_light_15"
+AttachToHardPoint = "hp_light_16"
+
+AttachToHardPoint = "hp_light_24"
+AttachToHardPoint = "hp_light_25"
+AttachToHardPoint = "hp_light_26"
+AttachToHardPoint = "hp_light_27"
+
+FoleyFXGroup    = "stone_foley"
+

@@ -1,0 +1,21 @@
+Version(1);
+NextID(1);
+
+Group("[Base]", 0, 8)
+{
+	Layer("[Base]", 0);
+	Layer("capitalShips", 1);
+	Layer("frigates", 2);
+	Layer("cmn_hangar", 4);
+	Layer("ctf_spawn", 5);
+	Layer("ctf_flags", 6);
+	Layer("tdm_spawn", 7);
+	Layer("obj_hangar", 8);
+	Layer("obj_spawn", 9);
+	Layer("paths_cis", 10);
+	Layer("paths_rep", 11);
+	Layer("1flag_flags", 3);
+	Layer("SoundRegions", 12);
+	Layer("SoundSpaces", 13);
+}
+

@@ -1,0 +1,88 @@
+Version(1);
+NextID(1);
+
+Layer("[Base]", 0, 8)
+{
+	Description("");
+}
+
+Layer("Gen-CP", 1, 2)
+{
+	Description("");
+}
+
+Layer("Objects01", 2, 0)
+{
+	Description("");
+}
+
+Layer("SoundRegions", 3, 0)
+{
+	Description("");
+}
+
+Layer("SoundEmitters", 4, 0)
+{
+	Description("");
+}
+
+Layer("Rocks", 5, 0)
+{
+	Description("");
+}
+
+Layer("tdm", 6, 2)
+{
+	Description("");
+}
+
+Layer("Conquest", 7, 2)
+{
+	Description("");
+}
+
+Layer("hunt", 8, 0)
+{
+	Description("");
+}
+
+Layer("xl", 10, 0)
+{
+	Description("");
+}
+
+
+GameMode("Common")
+{
+	Layer(0);
+	Layer(2);
+	Layer(3);
+	Layer(4);
+	Layer(5);
+}
+
+GameMode("obj")
+{
+	Layer(1);
+}
+
+GameMode("tdm")
+{
+	Layer(6);
+}
+
+GameMode("con")
+{
+	Layer(7);
+}
+
+GameMode("hunt")
+{
+	Layer(8);
+}
+
+GameMode("xl")
+{
+	Layer(10);
+}
+

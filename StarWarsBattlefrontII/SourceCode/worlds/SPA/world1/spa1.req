@@ -1,0 +1,114 @@
+ucft
+{
+    REQN
+    {
+        "config"
+    }
+
+    REQN
+    {
+        "texture"
+        "spa1_map"
+    }
+
+    REQN
+    {
+        "texture"
+        "platform=xbox"
+    }
+
+    REQN
+    {
+        "texture"
+        "platform=pc"
+    }
+
+    REQN
+    {
+        "class"
+		"spa_prop_jagged_asteroid_large_stop"
+		"spa_prop_jagged_asteroid_medium_stop"
+		"spa_prop_jagged_asteroid_large"
+		"spa_prop_jagged_asteroid_medium"
+		"spa_rum_caves"
+		"spa_rum_engines"
+		"spa_rum_shield"
+    }
+
+    REQN
+    {
+        "path"
+        "spa1"
+    }
+    REQN
+    {
+        "congraph"
+        "spa1"
+    }
+    REQN
+    {
+        "envfx"
+        "spa1"
+    }
+    REQN
+    {
+        "world"
+		"spa1"
+		"spa1_Bomber Paths"
+		"spa1_Shadows"
+		"spa1_CapitalShips"
+		"spa1_turrets"
+		"spa1_asteroids"
+		"spa1_Flight Paths"
+		"spa1_SoundSpaces"
+		"spa1_SoundRegions"
+		"spa1_RumbleRegions"
+		"spa1_SoundTriggerRegions"
+    }
+    REQN
+    {
+        "prop"
+        "spa1"
+    }
+    REQN
+    {
+        "boundary"
+        "spa1"
+
+    }
+    REQN
+    {
+        "config"
+        "flyerspray"
+        "walkerstomp"
+        "hailfire_wake"
+        "dustwake"
+      "spa1_sfx_asteroid_shatter"
+      "spa1_sfx_engine_exp_destruct2"
+      "spa1_sfx_shipflames_lg"
+      "spa1_sfx_weap_laser_exp_lg"
+      "spa_sfx_turret_exp"
+    }
+
+    REQN
+    {
+        "class"
+    "spa1_prop_asteroid_01"
+    "spa1_prop_asteroid_02"
+    "spa1_prop_asteroid_03"
+    "spa1_prop_asteroid_01a"
+    }
+
+	REQN
+	{
+		"lvl"
+		"spa1_Campaign"
+		"spa1_Assault"
+		"spa1_CTF"
+	}
+	REQN
+	{
+		"povs"
+		"spa1"	
+	}
+}

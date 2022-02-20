@@ -1,0 +1,78 @@
+[GameObjectClass]       
+
+ClassLabel      =   "destructablebuilding"
+GeometryName    =   "hoth_prop_correliancruiser.msh"
+
+
+[Properties]        
+
+GeometryName    =   "hoth_prop_correliancruiser"
+
+MaxHealth       	= "30000.0"
+ExplosionName           = "spa_prop_frigate_destruct_exp"
+DestroyedGeometryName   = "spa1_prop_correliancruiser_dest"
+
+MapTexture              = "hud_blockaderunner_icon"
+MapScale                = 5
+
+AttachOdf = "spa1_prop_engine_light"
+
+AttachToHardPoint = "hp_light_a"
+AttachToHardPoint = "hp_light_b"
+AttachToHardPoint = "hp_light_c"
+
+AttachEffect = "spa1_sfx_engineheatshimmer_18diam"
+AttachToHardPoint = "hp_light_a"
+
+AttachEffect = "spa1_sfx_engineheatshimmer_12diam"
+AttachToHardPoint = "hp_light_b"
+
+AttachEffect = "spa1_sfx_engineheatshimmer_12diam"
+AttachToHardPoint = "hp_light_c"
+
+CHUNKSECTION        = "CHUNK1"
+ChunkGeometryName   = "hoth_prop_correliancruiser_chunk1"
+ChunkNodeName       = ""
+ChunkTerrainCollisions  = "0"
+ChunkTerrainEffect  = ""
+ChunkPhysics        = "FULL"
+ChunkOmega      = "0.03 0.01 0.01"
+ChunkSpeed      = "0.03"
+ChunkUpFactor       = "3.0"
+ChunkLifetime	= "1e+37"
+
+CHUNKSECTION        = "CHUNK2"
+ChunkGeometryName   = "hoth_prop_correliancruiser_chunk2"
+ChunkNodeName       = ""
+ChunkTerrainCollisions  = "0"
+ChunkTerrainEffect  = ""
+ChunkPhysics        = "FULL"
+ChunkOmega      = "0.01 0.01 -0.02"
+ChunkSpeed      = "1"
+ChunkUpFactor       = "1.0"
+ChunkLifetime	= "1e+37"
+
+CHUNKSECTION        = "CHUNK3"
+ChunkGeometryName   = "hoth_prop_correliancruiser_chunk3"
+ChunkNodeName       = ""
+ChunkTerrainCollisions  = "0"
+ChunkTerrainEffect  = ""
+ChunkPhysics        = "FULL"
+ChunkOmega      = "-0.05 0.00 0.02"
+ChunkSpeed      = "6"
+ChunkUpFactor       = "5.00"
+ChunkLifetime	= "1e+37"
+
+CHUNKSECTION        = "CHUNK4"
+ChunkGeometryName   = "hoth_prop_correliancruiser_chunk4"
+ChunkNodeName       = ""
+ChunkTerrainCollisions  = "0"
+ChunkTerrainEffect  = ""
+ChunkPhysics        = "FULL"
+ChunkOmega      = "-0.07 0.01 -0.02"
+ChunkSpeed      = "5"
+ChunkUpFactor       = "20.0"
+ChunkLifetime	= "1e+37"
+
+FoleyFXGroup    = "metal_foley"
+SoundProperty    = "sm_engine_amb"

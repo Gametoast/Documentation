@@ -1,0 +1,282 @@
+Version(3);
+SaveType(0);
+
+Camera("camera")
+{
+	Rotation(0.764, 0.280, 0.546, -0.200);
+	Position(-1710.672, 337.561, 156.629);
+	FieldOfView(55.400);
+	NearPlane(1.000);
+	FarPlane(10000.000);
+	ZoomFactor(1.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(-624.112, 53.715, 940.821,  0.954, 0.103, 0.278, -0.030);
+}
+LightName("spa6_capitalShips.LGT");
+ControllerManager("StandardCtrlMgr");
+
+WorldExtents()
+{
+	Min(0.000000, 0.000000, 0.000000);
+	Max(0.000000, 0.000000, 0.000000);
+}
+
+NextSequence(-2423802);
+
+Object("rep_cap2_tur4", "rep_bldg_moncal_roundturret", 406825457)
+{
+	ChildRotation(-0.500, 0.000, -0.866, 0.000);
+	ChildPosition(-199.218, 23.426, 1355.780);
+	SeqNo(406825457);
+	Team(1);
+	NetworkId(-1);
+	Layer(1);
+}
+
+Object("rep_cap_body4", "rep_cap_assultship4", 746725289)
+{
+	ChildRotation(0.877, 0.000, -0.481, 0.000);
+	ChildPosition(-309.853, -2.797, 1233.931);
+	SeqNo(746725289);
+	Team(1);
+	NetworkId(-1);
+	Layer(1);
+}
+
+Object("rep_cap2_engine", "rep_assultship_destruct_engines", 806874579)
+{
+	ChildRotation(0.876, 0.000, -0.482, 0.000);
+	ChildPosition(-310.732, -3.456, 1233.931);
+	SeqNo(806874579);
+	Team(1);
+	NetworkId(-1);
+	Layer(1);
+}
+
+Object("cis_cap1_body3", "cis_fly_fedcruiser3", 863120961)
+{
+	ChildRotation(0.384, 0.000, -0.923, 0.000);
+	ChildPosition(-827.609, -207.932, -30.629);
+	SeqNo(863120961);
+	Team(2);
+	NetworkId(-1);
+	Layer(1);
+}
+
+Object("cis_cap1_body4", "cis_fly_fedcruiser4", 989264075)
+{
+	ChildRotation(0.384, 0.000, -0.923, 0.000);
+	ChildPosition(-827.485, -207.902, -30.538);
+	SeqNo(989264075);
+	Team(2);
+	NetworkId(-1);
+	Layer(1);
+}
+
+Object("cis_cap1_body2", "cis_fly_fedcruiser2", 1446321097)
+{
+	ChildRotation(0.384, 0.000, -0.923, 0.000);
+	ChildPosition(-827.689, -207.937, -30.732);
+	SeqNo(1446321097);
+	Team(2);
+	NetworkId(-1);
+	Layer(1);
+}
+
+Object("rep_cap2_tur1", "rep_bldg_moncal_roundturret", 2084522198)
+{
+	ChildRotation(-0.500, 0.000, -0.866, 0.000);
+	ChildPosition(44.659, 32.327, 1009.048);
+	SeqNo(2084522198);
+	Team(1);
+	NetworkId(-1);
+	Layer(1);
+}
+
+Object("rep_cap2_tur5", "rep_bldg_moncal_roundturret", -2104387350)
+{
+	ChildRotation(0.055, 0.000, -0.998, 0.000);
+	ChildPosition(-522.586, 41.446, 1208.175);
+	SeqNo(-2104387350);
+	Team(1);
+	NetworkId(-1);
+	Layer(1);
+}
+
+Object("cis_cap1_biggun1", "cis_prop_shipturret", -1989554778)
+{
+	ChildRotation(-0.391, 0.000, -0.920, 0.000);
+	ChildPosition(-864.157, -145.519, -196.821);
+	SeqNo(-1989554778);
+	Team(2);
+	NetworkId(-1);
+	Layer(1);
+}
+
+Object("rep_cap_body2", "rep_cap_assultship2", -1882480767)
+{
+	ChildRotation(0.877, 0.000, -0.481, 0.000);
+	ChildPosition(-309.853, -2.797, 1233.931);
+	SeqNo(-1882480767);
+	Team(1);
+	NetworkId(-1);
+	Layer(1);
+}
+
+Object("cis_cap1_body1", "cis_fly_fedcruiser", -1826434737)
+{
+	ChildRotation(0.384, 0.000, -0.923, 0.000);
+	ChildPosition(-827.792, -207.942, -30.832);
+	SeqNo(-1826434737);
+	Team(2);
+	NetworkId(-1);
+	Layer(1);
+}
+
+Object("cis_cap1_biggun4", "cis_prop_shipturret", -1785147675)
+{
+	ChildRotation(0.952, 0.000, -0.305, 0.000);
+	ChildPosition(-1178.223, -147.068, -248.801);
+	SeqNo(-1785147675);
+	Team(2);
+	NetworkId(-1);
+	Layer(1);
+}
+
+Object("rep_cap2_biggun2", "rep_prop_shipturret", -1672363503)
+{
+	ChildRotation(0.243, 0.000, -0.970, 0.000);
+	ChildPosition(-607.983, 58.724, 1295.912);
+	SeqNo(-1672363503);
+	Team(1);
+	NetworkId(-1);
+	Layer(1);
+}
+
+Object("cis_cap1_bridge", "cis_fedcruiser_destruct4", -1588473033)
+{
+	ChildRotation(0.390, 0.000, -0.921, 0.000);
+	ChildPosition(-887.532, -52.200, -94.488);
+	SeqNo(-1588473033);
+	Team(2);
+	NetworkId(-1);
+	Layer(1);
+}
+
+Object("cis_cap1_biggun2", "cis_prop_shipturret", -1581951907)
+{
+	ChildRotation(-0.347, 0.000, -0.938, 0.000);
+	ChildPosition(-1043.000, -147.000, -382.000);
+	SeqNo(-1581951907);
+	Team(2);
+	NetworkId(-1);
+	Layer(1);
+}
+
+Object("rep_cap_body3", "rep_cap_assultship3", -1577980505)
+{
+	ChildRotation(0.877, 0.000, -0.481, 0.000);
+	ChildPosition(-309.853, -2.797, 1233.931);
+	SeqNo(-1577980505);
+	Team(1);
+	NetworkId(-1);
+	Layer(1);
+}
+
+Object("rep_cap2_bridge", "rep_assultship_destruct_towers", -1561302386)
+{
+	ChildRotation(0.877, 0.000, -0.480, 0.000);
+	ChildPosition(-530.452, 172.526, 1373.315);
+	SeqNo(-1561302386);
+	Team(1);
+	NetworkId(-1);
+	Layer(1);
+}
+
+Object("cis_cap1_tur4", "cis_bldg_boxturret", -1344913714)
+{
+	ChildRotation(0.940, 0.000, -0.341, 0.000);
+	ChildPosition(-1006.869, -35.031, -173.139);
+	SeqNo(-1344913714);
+	Team(2);
+	NetworkId(-1);
+	Layer(1);
+}
+
+Object("cis_cap1_tur2", "cis_bldg_boxturret", -873393929)
+{
+	ChildRotation(0.927, 0.000, 0.374, 0.000);
+	ChildPosition(-589.337, -85.951, 206.767);
+	SeqNo(-873393929);
+	Team(2);
+	NetworkId(-1);
+	Layer(1);
+}
+
+Object("rep_cap2_tur3", "rep_bldg_moncal_roundturret", -853157449)
+{
+	ChildRotation(-0.500, 0.000, -0.866, 0.000);
+	ChildPosition(-374.883, 19.202, 1082.962);
+	SeqNo(-853157449);
+	Team(1);
+	NetworkId(-1);
+	Layer(1);
+}
+
+Object("rep_cap_body1", "rep_cap_assultship", -608309321)
+{
+	ChildRotation(0.877, 0.000, -0.481, 0.000);
+	ChildPosition(-309.853, -2.797, 1233.931);
+	SeqNo(-608309321);
+	Team(1);
+	NetworkId(-1);
+	Layer(1);
+}
+
+Object("rep_cap2_tur2", "rep_bldg_moncal_roundturret", -490154413)
+{
+	ChildRotation(-0.500, 0.000, -0.866, 0.000);
+	ChildPosition(-170.285, 50.842, 1146.347);
+	SeqNo(-490154413);
+	Team(1);
+	NetworkId(-1);
+	Layer(1);
+}
+
+Object("cis_cap1_tur1", "cis_bldg_boxturret", -369671067)
+{
+	ChildRotation(0.925, 0.000, 0.381, 0.000);
+	ChildPosition(-446.068, -95.687, 349.336);
+	SeqNo(-369671067);
+	Team(2);
+	NetworkId(-1);
+	Layer(1);
+}
+
+Object("cis_cap1_tur3", "cis_bldg_boxturret", -301826918)
+{
+	ChildRotation(-0.369, 0.000, -0.929, 0.000);
+	ChildPosition(-935.210, -35.641, -170.077);
+	SeqNo(-301826918);
+	Team(2);
+	NetworkId(-1);
+	Layer(1);
+}
+
+Object("cis_cap1_biggun3", "cis_prop_shipturret", -18420359)
+{
+	ChildRotation(0.993, 0.000, -0.122, 0.000);
+	ChildPosition(-1000.000, -146.000, -60.000);
+	SeqNo(-18420359);
+	Team(2);
+	NetworkId(-1);
+	Layer(1);
+}

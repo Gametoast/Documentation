@@ -1,0 +1,29 @@
+Version(1);
+RegionCount(3);
+
+Region("Team2capture", 1)
+{
+	Layer(12);
+	Position(1209.000, 684.000, -705.000);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(20.000000, 20.000000, 20.000000);
+	Name("Team1capture");
+}
+
+Region("Team1capture", 1)
+{
+	Layer(12);
+	Position(-2590.000, 104.193, -154.000);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(20.000000, 20.000000, 20.000000);
+	Name("Team2capture");
+}
+
+Region("home_1flag", 1)
+{
+	Layer(12);
+	Position(-410.000, 838.000, 861.000);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(20.000000, 20.000000, 20.000000);
+	Name("home_1flag");
+}

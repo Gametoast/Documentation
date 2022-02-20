@@ -1,0 +1,101 @@
+Version(1);
+RegionCount(11);
+
+Region("RiderControl", 2)
+{
+	Layer(2);
+	Position(-22.162716, 138.599884, 33.663158);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(249.190811, 288.452576, 121.998932);
+	Name("RiderControl");
+}
+
+Region("CAM_CP4Capture", 0)
+{
+	Layer(2);
+	Position(-199.686737, 22.013126, -206.056396);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(12.182306, 3.431789, 8.170532);
+	Name("CAM_CP4Capture");
+}
+
+Region("CAM_CP4Control", 0)
+{
+	Layer(2);
+	Position(-186.466019, 21.366394, -204.249634);
+	Rotation(0.999266, 0.000000, 0.038571, 0.000000);
+	Size(26.004494, 10.000000, 17.053473);
+	Name("CAM_CP4Control");
+}
+
+Region("CAM_CP2Control", 0)
+{
+	Layer(2);
+	Position(-73.047043, 6.701809, -215.127823);
+	Rotation(0.999528, 0.000000, -0.031236, 0.000000);
+	Size(22.963531, 10.000000, 15.861988);
+	Name("CAM_CP2Control");
+}
+
+Region("CAM_CP6Control", 0)
+{
+	Layer(2);
+	Position(68.532143, 4.714314, -230.699234);
+	Rotation(0.992805, 0.000000, -0.119746, 0.000000);
+	Size(20.397942, 6.904169, 9.825070);
+	Name("CAM_CP6Control");
+}
+
+Region("CAM_CP5Capture", 2)
+{
+	Layer(2);
+	Position(-40.938122, 11.070234, -273.210785);
+	Rotation(0.994995, 0.000000, 0.099925, 0.000000);
+	Size(0.100000, 10.912149, 11.566297);
+	Name("CAM_CP5Capture");
+}
+
+Region("CAM_CP5Control", 0)
+{
+	Layer(2);
+	Position(-41.101833, 12.424652, -283.985168);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(10.000000, 10.000000, 23.017700);
+	Name("CAM_CP5Control");
+}
+
+Region("CAM_CP3Capture", 2)
+{
+	Layer(2);
+	Position(60.542931, 4.691204, -222.095566);
+	Rotation(0.992805, 0.000000, -0.119746, 0.000000);
+	Size(14.507210, 3.914773, 10.000001);
+	Name("CAM_CP3Capture");
+}
+
+Region("Supportregion", 0)
+{
+	Layer(2);
+	Position(47.901505, 16.799431, -171.110657);
+	Rotation(0.992425, 0.000000, -0.122938, 0.000000);
+	Size(34.225430, 18.446386, 5.541326);
+	Name("Supportregion");
+}
+
+Region("2Supportregion", 0)
+{
+	Layer(2);
+	Position(-10.487234, 3.530281, -239.903076);
+	Rotation(0.994995, 0.000000, -0.099925, 0.000000);
+	Size(3.765166, 31.445713, 38.404053);
+	Name("2Supportregion");
+}
+
+Region("rumble uta_rum_gen REQUIRED", 2)
+{
+	Layer(2);
+	Position(-124.509689, 15.270311, -215.745514);
+	Rotation(0.999801, -0.019940, 0.000000, 0.000000);
+	Size(0.100000, 17.773937, 13.108958);
+	Name("Region1");
+}

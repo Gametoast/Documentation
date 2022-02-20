@@ -1,0 +1,62 @@
+Version(3);
+SaveType(6);
+
+Camera("camera")
+{
+	Rotation(0.715, -0.010, 0.699, 0.010);
+	Position(-811.742, -360.751, 2182.331);
+	FieldOfView(55.400);
+	NearPlane(1.000);
+	FarPlane(5000.000);
+	ZoomFactor(1.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(-889.512, 47.707, 1642.307,  0.496, 0.095, -0.848, 0.163);
+}
+GameTime(673929);
+ControllerManager("StandardCtrlMgr");
+
+WorldExtents()
+{
+	Min(0.000000, 0.000000, 0.000000);
+	Max(0.000000, 0.000000, 0.000000);
+}
+
+NextSequence(-3705784);
+
+Object("spa_rum_engines", "spa_rum_engines", 526548433)
+{
+	ChildRotation(0.000, -1.000, 0.000, 0.000);
+	ChildPosition(631.000, -256.000, 585.000);
+	SeqNo(526548433);
+	Team(0);
+	NetworkId(-1);
+	Layer(8);
+}
+
+Object("spa_rum_caves", "spa_rum_caves", 1084240699)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(631.000, -256.000, 570.000);
+	SeqNo(1084240699);
+	Team(0);
+	NetworkId(-1);
+	Layer(8);
+}
+
+Object("spa_rum_wash", "spa_rum_wash", -1297036835)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(640.000, -256.000, 582.000);
+	SeqNo(-1297036835);
+	Team(0);
+	NetworkId(-1);
+	Layer(8);
+}

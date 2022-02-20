@@ -1,0 +1,19 @@
+[GameObjectClass]
+ClassLabel = "prop"
+GeometryName = "geo_bldg_bunker_1.msh"
+
+[Properties]
+
+GeometryName = "geo_bldg_bunker_1"
+
+FoleyFXGroup    = "stone_foley"
+
+AttachEffect = "geo2_sfx_bunkerdust"
+
+AttachToHardPoint = "hp_dust"
+
+
+AttachOdf = "geo_prop_godray"
+AttachToHardPoint = "hp_godray_1"
+
+

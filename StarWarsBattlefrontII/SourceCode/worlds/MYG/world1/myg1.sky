@@ -1,0 +1,79 @@
+SkyInfo()
+{
+	Enable(1);
+	FogColor(194,197,199);
+	FogRange(0.5, 600.0);
+	
+
+	PS2()
+	{
+		NearSceneRange(0.5, 50.0,80.0);
+		NearSplitScreenRange(0.5, 50.0, 80.0);
+		FarSceneRange(300.0);
+	}
+	XBOX()
+	{
+		NearSceneRange(0.5, 60.0, 100.0);
+		FarSceneRange(1000.0);
+		NearSplitScreenRange(0.1, 50.0, 80.0);
+		SplitOptions()
+		{
+			FarSceneRange(0.0);
+			FogRange(5.0, 70.0);
+			EnableFadeAdjustWithZoom(0);
+		}
+	}
+	PC()
+	{
+		NearSceneRange(0.5, 60.0, 100.0);
+		FarSceneRange(1000.0);
+
+	}
+
+	
+}
+
+
+DomeInfo()
+{
+	Texture("myg1_sky_dome.tga");
+	Softness(1);
+	SoftnessParam(60);
+	DomeModel()
+	{	
+		Geometry("myg1_sky_dome");
+	}
+	DomeModel()
+	{	
+		Geometry("myg1_sky_mountains_01");
+		MovementScale(0.995);
+	}
+	
+}
+
+
+
+EnvTexture("");
+
+SkyObject()
+{
+	Geometry("cis_fly_gunship_dome");
+	NumObjects(4);
+	Height(90, 160);
+	VelocityZ(60, 100);
+	VelocityY(-10, 10);
+	Distance(350);
+	InDirectionFactor(0.5);
+}
+
+SkyObject()
+{
+	Geometry("rep_fly_gunship_dome");
+	NumObjects(4);
+	Height(90, 160);
+	VelocityZ(60, 100);
+	VelocityY(-10, 10);
+	Distance(350);
+	InDirectionFactor(0.5);
+}
+

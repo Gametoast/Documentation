@@ -1,0 +1,16 @@
+[GameObjectClass]       
+
+ClassLabel      =   "prop"
+GeometryName    =   "dea1_bridge_part2.msh"
+
+
+[Properties]        
+
+GeometryName    =   "dea1_bridge_part2"
+
+FoleyFXGroup    = "metal_foley"
+
+StartMovementSound = "bridge_extend"
+StopMovementSound  = "bridge_retract"
+SoundProperty      = "trash_hum"
+SOundWhenMoving = 1

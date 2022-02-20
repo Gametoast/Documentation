@@ -1,0 +1,330 @@
+[GameObjectClass]
+ClassLabel          = "hover"
+GeometryName        = "rep_hover_gian_speeder.msh"
+
+[Properties]
+FLYERSECTION        = "BODY"
+
+VehicleType         = "light"
+AISizeType          = "MEDIUM"
+
+MapTexture          = "combatspeeder_icon"
+HealthTexture       = "HUD_combat_speeder_icon"
+MapScale            = 1.5
+
+GeometryName        = "rep_hover_gian_speeder"
+//FirstPerson         = "REP\repcmspd;rep_1st_cockpit_combatspeeder"
+ExplosionName       = "nab_hover_gianspeeder_exp"
+
+MaxHealth           = 5400.0
+HealthType          = "vehicle"
+
+DamageStartPercent      = 65.0
+DamageStopPercent       = 30.0
+DamageEffect            = "com_sfx_vehiclespark"
+DamageEffectScale       = 0.4
+DamageInheritVelocity   = 0.5
+DamageAttachPoint       = "hp_damage_3"
+
+DamageStartPercent      = 65.0
+DamageStopPercent       = 30.0
+DamageEffect            = "com_sfx_vehiclespark"
+DamageEffectScale       = 0.4
+DamageInheritVelocity   = 0.5
+DamageAttachPoint       = "hp_damage_4"
+
+DamageStartPercent      = 65.0
+DamageStopPercent       = 30.0
+DamageEffect            = "com_sfx_vehiclespark"
+DamageEffectScale       = 0.4
+DamageInheritVelocity   = 0.5
+DamageAttachPoint       = "hp_damage_5"
+
+DamageStartPercent      = 50.0
+DamageStopPercent       = 20.0
+DamageEffect            = "com_sfx_vehiclesmoke"
+DamageEffectScale       = 0.4
+DamageInheritVelocity   = 0.5
+DamageAttachPoint       = "hp_damage_1"
+
+//DamageStartPercent      = 19.0
+//DamageStopPercent       = 0.0
+//DamageEffect            = "com_sfx_vehicleflame"
+//DamageEffectScale       = 0.4
+//DamageInheritVelocity   = 0.5
+//DamageAttachPoint       = "hp_damage_1"
+
+DamageStartPercent      = 50.0
+DamageStopPercent       = 20.0
+DamageEffect            = "com_sfx_vehiclesmoke"
+DamageEffectScale       = 0.4
+DamageInheritVelocity   = 0.5
+DamageAttachPoint       = "hp_damage_2"
+
+//DamageStartPercent      = 19.0
+//DamageStopPercent       = 0.0
+//DamageEffect            = "com_sfx_vehicleflame"
+//DamageEffectScale       = 0.4
+//DamageInheritVelocity   = 0.5
+//DamageAttachPoint       = "hp_damage_2"
+
+
+CollisionScale          = 1.5
+CollisionThreshold      = 5.0
+
+SetAltitude         = 0.5
+GravityScale        = 4.0
+LiftSpring          = 10.0
+LiftDamp            = 3.0
+
+Acceleration            = 5.0
+Deceleration            = 9.0
+Traction            = 20.0
+ForwardSpeed            = 18.0
+ReverseSpeed            = 14.0
+StrafeSpeed         = 8.0
+
+
+SpinRate            = 1.7
+TurnRate            = 1.7
+TurnFilter          = 5.0
+PitchRate           = 0.5
+PitchFilter         = 1.0
+PitchDamp           = 1.0
+
+AddSpringBody = "-1.8 1.4 1.7 2.5"
+BodySpringLength = 1.0
+AddSpringBody = "1.8 1.4 1.7 2.5"
+BodySpringLength = 1.0
+
+AddSpringBody = "0.0 2.4 -2.0 3.5"
+BodySpringLength = 1.0
+BodyOmegaXSpringFactor = 2
+
+VelocitySpring = 5
+VelocityDamp = 2.5
+OmegaXSpring = 3.0
+OmegaXDamp = 3.0
+OmegaZSpring = 5.0
+OmegaZDamp = 1.5
+
+StrafeRollAngle         = 0.01
+ThrustPitchAngle        = 0.0
+BankAngle           = -0.01
+BankFilter          = 3//low is slow - How quickly the bank returns to level
+LevelSpring         = 2.0//low is slow - the force the restores level
+LevelDamp           = 1.0//low is slow - the force that reduces the momentum of the rotation
+
+//PCPitchRate           = 10.0
+//PCSpinRate            = 15.0
+//PCTurnRate            = 20.0
+//TurnFilter            = 8.0
+//PitchRate         = 1.5
+//LevelSpring           = 10.0
+//LevelDamp         = 3.0
+
+//EyePointOffset    = "0.75 1.25 -1.5"
+//TrackOffset       = "0.0 0.0 1.0"
+//TiltValue         = "15.0"
+
+EyePointOffset          = "0.0 2.5 4"
+TrackCenter         = "0.0 2.0 -5"
+TrackOffset             = "0.0 0.5 5"
+TiltValue           = "3.0"
+
+AutoAimSize         = 1.0
+
+PitchLimits             = "-7 25"
+YawLimits           = "-90 90"
+
+PilotPosition       = "hp_pilot"
+PilotAnimation      = "drive"
+
+
+
+VehiclePosition         = "common.vehicleposition.pilot"
+
+WeaponName          = "nab_weap_hover_gianspeeder_cannon1"
+WeaponAmmo          = 1
+
+AimerNodeName       = "gun_left"
+AimerPitchLimits        = "-25.0 90.0"
+AimerYawLimits          = "-25.0 15.0"
+BarrelNodeName      = "barrel_left"
+BarrelRecoil        = "0.2"
+FirePointName       = "hp_fire_2"
+
+NextAimer           = "-"
+
+AimerNodeName       = "gun_right"
+AimerPitchLimits        = "-25.0 90.0"
+AimerYawLimits          = "-15.0 25.0"
+BarrelNodeName      = "barrel_right"
+BarrelRecoil        = "0.2"
+FirePointName       = "hp_fire_3"
+
+FLYERSECTION        = "TURRET1"
+
+VehiclePosition         = "common.vehiclepositions.gunner"
+//FirstPerson             = "all\allsccam;all_1st_cockpit_securitycam"
+CockpitTension          = 25
+EyePointOffset          = "0.0 2.0 4.0"
+TrackCenter         = "0.0 2.0 -1.0"
+TrackOffset             = "0.0 0.0 1.5"
+TiltValue           = "5.0"
+
+
+PitchLimits             = "-15.0 10.0"
+YawLimits           = "-80 80"
+PCPitchRate             = 15.0
+PCTurnRate          = 20.0
+
+WeaponName          = "nab_weap_hover_gianspeeder_cannon"
+WeaponAmmo          = 0
+
+TurnRate            = 1.5
+TurnFilter          = 5.0
+PitchRate           = 0.5
+//PitchFilter           = 10.0
+PitchDamp           = 1.0
+HierarchyLevel          = 1
+TurretNodeName      = "turret_body"
+AimerPitchLimits        = "-0 0"
+AimerYawLimits          = "-80.0 80.0"
+
+
+NextAimer           = "-"
+
+AimerNodeName       = "turret_aimer"
+AimerPitchLimits        = "-20 70"
+AimerYawLimits      = "-0.0 0.0"
+
+BarrelNodeName      = "turret_barrel"
+BarrelRecoil        = "0.25"
+FirePointName       = "hp_fire_1"
+
+PilotPosition       = "hp_gunner"
+PilotAnimation      = "drive"
+
+
+TurretYawSound         = "turret_whir_yaw_lp"
+TurretYawSoundPitch    = "0.7"
+TurretPitchSound       = "turret_whir_pitch_lp"
+TurretPitchSoundPitch   = "0.7"
+TurretAmbientSound     = ""
+TurretActivateSound    = "vehicle_equip"
+TurretDeactivateSound  = ""
+TurretStartSound       = ""
+TurretStopSound        = ""
+
+//FLYERSECTION      = "TURRET2"
+
+//EyePointOffset        = "0.0 1.0 2.0"
+//TrackOffset       = "0.0 0.0 7.0"
+//TiltValue         = "15.0"
+
+//PitchLimits       = "-25.0 10.0"
+//YawLimits             = "-80 80"
+//PCPitchRate       = 20.0
+//PCTurnRate            = 20.0
+
+//PilotPosition         = "hp_passanger_1"
+//PilotAnimation        = "drive"
+
+//FLYERSECTION      = "TURRET3"
+
+//EyePointOffset        = "0.0 1.0 2.0"
+//TrackOffset       = "0.0 0.0 7.0"
+//TiltValue         = "15.0"
+
+//PitchLimits       = "-25.0 10.0"
+//YawLimits             = "-80 80"
+//PCPitchRate       = 20.0
+//PCTurnRate            = 20.0
+
+//PilotPosition         = "hp_passenger_2"
+//PilotAnimation        = "drive"
+
+
+// ----------   COLLISION  ---------------
+
+VehicleCollision        = "p_vehiclesphere1"
+VehicleCollision        = "p_vehiclesphere2"
+
+SoldierCollision        = "CollisionMesh"
+SoldierCollision        = "p_turret"
+SoldierCollision        = "p_barrel"
+
+OrdnanceCollision       = "CollisionMesh"
+OrdnanceCollision       = "p_turret"
+OrdnanceCollision       = "p_barrel"
+
+CHUNKSECTION        = "CHUNK1"
+ChunkGeometryName   = "rep_hover_gianspeeder_chunk1"
+ChunkNodeName       = ""
+ChunkTerrainCollisions  = "4"
+ChunkTerrainEffect  = "dirtspray"
+ChunkPhysics        = "FULL"
+ChunkOmega      = "1.0 4.0 1.5"
+ChunkBounciness         = 0.5
+ChunkStickiness         = 0.25
+ChunkSpeed      = "10.0"
+ChunkUpFactor       = "13.00"
+ChunkTrailEffect        = "com_sfx_chunktrail_sm"
+
+CHUNKSECTION        = "CHUNK2"
+ChunkGeometryName   = "rep_hover_gianspeeder_chunk2"
+ChunkNodeName       = ""
+ChunkTerrainCollisions  = "2"
+ChunkTerrainEffect  = "dirtspray"
+ChunkPhysics        = "FULL"
+ChunkOmega      = "2.0 0.5 2.0"
+ChunkBounciness         = 0.4
+ChunkStickiness         = 0.25
+ChunkSpeed      = "8.0"
+ChunkUpFactor       = "2.00"
+ChunkTrailEffect        = "com_sfx_chunktrail_sm"
+
+ChunkSmokeEffect    = "com_sfx_smokeplume"
+ChunkSmokeNodeName  = "hp_smoke_2"
+
+
+CHUNKSECTION        = "CHUNK3"
+ChunkGeometryName   = "rep_hover_gianspeeder_chunk3"
+ChunkNodeName       = ""
+ChunkTerrainCollisions  = "5"
+ChunkTerrainEffect  = "dirtspray"
+ChunkTrailEffect        = "com_sfx_chunktrail_sm"
+ChunkPhysics        = "FULL"
+ChunkOmega      = "3.0 2.0 2.0"
+ChunkSpeed      = "14.0"
+ChunkBounciness         = 0.5
+ChunkStickiness         = 0.25
+
+
+CHUNKSECTION        = "CHUNK4"
+ChunkGeometryName   = "rep_hover_gianspeeder_chunk4"
+ChunkNodeName       = ""
+ChunkTerrainCollisions  = "3"
+ChunkTerrainEffect  = "dirtspray"
+ChunkTrailEffect        = "com_sfx_chunktrail_sm"
+ChunkPhysics        = "FULL"
+ChunkOmega      = "3.0 1.0 2.0"
+ChunkSpeed      = "9.0"
+ChunkBounciness         = 0.3
+ChunkStickiness         = 0.45
+
+ChunkSmokeEffect    = "com_sfx_smokeplume"
+ChunkSmokeNodeName  = "hp_smoke_4"
+
+
+EngineSound     = "all_hover_combatspeeder_engine_parameterized"
+HurtSound       = ""
+DeathSound          = "imp_weap_ord_exp_lg"
+TurnOnSound     = ""
+TurnOffSound    = ""
+MusicSpeed          = "0.15"
+MusicDelay          = "3.0"
+CISMusic            ="cis_vehicle"
+GroundedSound   = ""
+GroundedHeight  = ""

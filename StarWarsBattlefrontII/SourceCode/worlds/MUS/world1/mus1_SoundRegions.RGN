@@ -1,0 +1,20 @@
+Version(1);
+RegionCount(2);
+
+Region("soundstream mus_amb_lava_far 1", 1)
+{
+	Layer(3);
+	Position(-25.209255, 196.795227, -38.461372);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(626.855164, 20.000000, 0.100000);
+	Name("GlobalAmb");
+}
+
+Region("soundstream mus_amb_lava 1.25", 1)
+{
+	Layer(3);
+	Position(-32.753605, 68.422539, -21.872688);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(87.931396, 10.000000, 0.100000);
+	Name("InteriorAmb");
+}

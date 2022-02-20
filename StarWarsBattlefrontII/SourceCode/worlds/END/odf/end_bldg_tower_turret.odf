@@ -1,0 +1,53 @@
+[GameObjectClass]
+ClassLabel 			= "armedbuilding"
+GeometryName 		= "end_bldg_watchtower.msh"
+
+[Properties]
+BUILDINGSECTION 		= "BODY"
+
+Label 			= "Minigun Turret"
+StatusTexture 		= "HUD_all_minigun_icon"
+IconTexture		= "HUD_all_lascannon_icon"
+MapTexture 		= "turret_icon"
+MapScale 		= "1.2"
+GeometryName 		= "end_bldg_watchtower"
+ExplosionName		= "end_bldg_tower_turret_exp"
+DestroyedGeometryName 	= "end_bldg_minigun_turret_dest"
+RespawnTime 		= 50.0
+MaxHealth 		= "300.0"
+
+BUILDINGSECTION 	= "TURRET1"
+
+YawLimits 		= "-180 180"
+PitchLimits 		= "-10.0 35.0"
+PCPitchTurnFactor 	= "20.0"
+PCYawTurnFactor 	= "20.0"
+EyePointOffset 		= "0.0 3.0 0.5"
+TrackOffset 		= "0.0 -1.0 3.5"
+TiltValue		= 5
+TurretNodeName 		= "cube_y"
+PilotPosition 		= "hp_active"
+PilotAnimation 		= "man_gun"
+
+//TurretMoveSound         = "turretwhir"
+TurretMoveSoundStartEndPitch = ""
+TurretMoveSoundStartEndTime  = ""
+
+	TURRETSECTION = "TURRET1"
+
+	WeaponName = "end_weap_bldg_tower_minigun"
+	WeaponAmmo = "5"	//"2"
+	MaxTurnSpeed = "1.0"
+	MaxPitchSpeed = "0.5"
+	AimerNodeName = "gun"
+PCTurnSpeed	 	= "20.0"
+PCPitchSpeed	 	= "20.0"
+
+	BarrelNodeName = "barrel"
+	BarrelLength = "2.0"
+	BarrelRecoil = "0.0"
+
+CHUNKSECTION = "CHUNK1"
+ChunkGeometryName = "end_bldg_watchtower_hulk"
+ChunkPhysics = "STATIC"
+

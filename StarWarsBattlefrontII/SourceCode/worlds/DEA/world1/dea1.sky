@@ -1,0 +1,36 @@
+SkyInfo()
+{
+	Enable(1);
+
+	PC()
+	{
+		NearSceneRange(60.000000, 100.000000, 80.000000, 160.000000);
+		FarSceneRange(0.0, 0.0);
+	}
+	XBOX()
+	{
+		NearSceneRange(0.1, 120.000000, 180.000000);
+		NearSplitScreenRange(0.7, 120.000000, 140.000000);
+		FarSceneRange(0.0);
+	}
+	PS2()
+	{
+		NearSceneRange(0.1, 120.000000, 180.000000);
+		NearSplitScreenRange(0.7, 120.000000, 140.000000);
+		FarSceneRange(0.0);
+	}
+}
+
+
+DomeInfo()
+{
+	Texture("dea1_sky_dome.tga");
+	
+	Softness(1);
+	SoftnessParam(60);
+
+DomeModel()
+	{	
+		Geometry("dea1_sky_dome");
+	}
+}

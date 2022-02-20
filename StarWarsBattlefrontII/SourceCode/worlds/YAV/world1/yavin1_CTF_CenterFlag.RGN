@@ -1,0 +1,47 @@
+Version(1);
+RegionCount(5);
+
+Region("Team2Capture", 2)
+{
+	Layer(9);
+	Position(108.286644, -70.449493, 45.720184);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(1.110771, 6.672672, 3.265686);
+	Name("Team2Capture");
+}
+
+Region("Team1Capture", 2)
+{
+	Layer(9);
+	Position(134.403931, -43.219727, 270.695740);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(2.087082, 10.000000, 2.994064);
+	Name("Team1Capture");
+}
+
+Region("HomeRegion", 2)
+{
+	Layer(9);
+	Position(98.979126, -57.827110, 184.967194);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(0.100000, 10.000000, 2.182999);
+	Name("HomeRegion");
+}
+
+Region("Team2Control", 0)
+{
+	Layer(9);
+	Position(224.686493, -35.268890, 218.322052);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(10.000000, 10.000000, 10.000000);
+	Name("Team2Control");
+}
+
+Region("Team1Control", 0)
+{
+	Layer(9);
+	Position(227.893188, -55.349533, 103.578903);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(10.000000, 10.000000, 10.000000);
+	Name("Team1Control");
+}

@@ -1,0 +1,20 @@
+[GameObjectClass]       
+
+ClassLabel  =   "door"
+GeometryName    =   "tan4_prop_blastdoor.msh"
+
+
+[Properties]        
+
+GeometryName    =   "tan4_prop_blastdoor"
+AnimationName     = "tan4_prop_blastdoor"
+
+Animation         =     "open"
+
+AnimationTrigger  =     "hp_door 4"
+
+OrdnanceCollision = "p_blastdoor"
+
+OpenSound = "blast_door_open"
+CloseSound = "blast_door_close"
+FoleyFXGroup    = "metal_foley"

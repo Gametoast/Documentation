@@ -1,0 +1,62 @@
+Version(3);
+SaveType(0);
+
+Camera("camera")
+{
+	Rotation(0.671, 0.666, -0.230, 0.228);
+	Position(-316.296, 32.825, -51.403);
+	FieldOfView(55.400);
+	NearPlane(1.000);
+	FarPlane(5000.000);
+	ZoomFactor(1.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(-235.000, 79.702, 27.000,  0.354, 0.146, -0.854, 0.354);
+}
+LightName("uta1_Rumbles.LGT");
+ControllerManager("StandardCtrlMgr");
+
+WorldExtents()
+{
+	Min(0.000000, 0.000000, 0.000000);
+	Max(0.000000, 0.000000, 0.000000);
+}
+
+NextSequence(-779144);
+
+Object("uta_rum_caves", "uta_rum_caves", 174521332)
+{
+	ChildRotation(0.000, -1.000, 0.000, 0.000);
+	ChildPosition(-315.000, 0.000, -53.000);
+	SeqNo(174521332);
+	Team(0);
+	NetworkId(-1);
+	Layer(13);
+}
+
+Object("uta_rum_wind", "uta_rum_wind", 202812149)
+{
+	ChildRotation(0.000, -1.000, 0.000, 0.000);
+	ChildPosition(-315.000, 0.000, -53.000);
+	SeqNo(202812149);
+	Team(0);
+	NetworkId(-1);
+	Layer(13);
+}
+
+Object("uta_rum_gen", "uta_rum_gen", 1767247609)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-317.000, 0.016, -51.000);
+	SeqNo(1767247609);
+	Team(0);
+	NetworkId(-1);
+	Layer(13);
+}

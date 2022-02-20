@@ -1,0 +1,38 @@
+Version(1);
+NextID(2);
+
+Layer("[Base]", 0, 8)
+{
+	Description("");
+}
+
+Layer("C_Ships", 3, 0)
+{
+	Description("");
+}
+
+Layer("C_Gameplay", 4, 0)
+{
+	Description("");
+}
+
+Layer("TURRETS", 1, 0)
+{
+	Description("");
+}
+
+Layer("Flightpaths", 2, 0)
+{
+	Description("");
+}
+
+
+GameMode("Common")
+{
+	Layer(0);
+	Layer(1);
+	Layer(2);
+	Layer(3);
+	Layer(4);
+}
+

@@ -1,0 +1,352 @@
+Version(3);
+SaveType(0);
+
+Camera("camera")
+{
+	Rotation(0.578, 0.040, 0.813, -0.056);
+	Position(-137.367, 61.057, -198.303);
+	FieldOfView(55.400);
+	NearPlane(1.000);
+	FarPlane(5000.000);
+	ZoomFactor(1.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(-67.232, 9.591, -286.461,  0.621, 0.088, -0.771, 0.109);
+}
+LightName("uta1_props.LGT");
+ControllerManager("StandardCtrlMgr");
+
+WorldExtents()
+{
+	Min(0.000000, 0.000000, 0.000000);
+	Max(0.000000, 0.000000, 0.000000);
+}
+
+NextSequence(-779144);
+
+Object("uta1_bldg_windmill0", "uta1_bldg_windmill", 100118868)
+{
+	ChildRotation(0.976, 0.000, 0.216, 0.000);
+	ChildPosition(-121.133, 50.038, -128.093);
+	SeqNo(100118868);
+	Team(0);
+	NetworkId(-1);
+	Layer(5);
+}
+
+Object("Uta1_bldg_windmill7", "uta1_bldg_windmill", 119528738)
+{
+	ChildRotation(0.940, 0.000, -0.342, 0.000);
+	ChildPosition(115.000, 29.000, -108.000);
+	SeqNo(119528738);
+	Team(0);
+	NetworkId(-1);
+	Layer(5);
+}
+
+Object("uta1_bldg_hanger_light_small10", "uta1_bldg_hanger_light_small", 156493941)
+{
+	ChildRotation(0.208, 0.000, -0.978, 0.000);
+	ChildPosition(70.947, 3.000, -164.202);
+	SeqNo(156493941);
+	Team(0);
+	NetworkId(-1);
+	Layer(5);
+}
+
+Object("Uta1_bldg_windmill1", "uta1_bldg_windmill", 199213997)
+{
+	ChildRotation(0.985, 0.000, 0.174, 0.000);
+	ChildPosition(-99.037, -11.962, -147.100);
+	SeqNo(199213997);
+	Team(0);
+	NetworkId(-1);
+	Layer(5);
+}
+
+Object("fan13", "uta1_bldg_windmill_blades", 253930333)
+{
+	ChildRotation(0.924, 0.000, 0.382, 0.000);
+	ChildPosition(-181.000, 22.000, -86.000);
+	SeqNo(253930333);
+	Team(0);
+	NetworkId(-1);
+	Layer(5);
+}
+
+Object("uta1_bldg_hanger_light_small", "uta1_bldg_hanger_light_small", 603650422)
+{
+	ChildRotation(-0.466, 0.000, -0.885, 0.000);
+	ChildPosition(22.474, 4.570, -164.889);
+	SeqNo(603650422);
+	Team(0);
+	NetworkId(-1);
+	Layer(5);
+}
+
+Object("fan08", "uta1_bldg_windmill_blades", 617656871)
+{
+	ChildRotation(0.999, 0.000, 0.044, 0.000);
+	ChildPosition(-44.000, 59.000, -146.000);
+	SeqNo(617656871);
+	Team(0);
+	NetworkId(-1);
+	Layer(5);
+}
+
+Object("Uta1_bldg_windmill4", "uta1_bldg_windmill", 902937416)
+{
+	ChildRotation(0.996, 0.000, -0.087, 0.000);
+	ChildPosition(-27.000, 36.000, -154.000);
+	SeqNo(902937416);
+	Team(0);
+	NetworkId(-1);
+	Layer(5);
+}
+
+Object("Uta1_bldg_windmill15", "uta1_bldg_windmill", 1058652261)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-70.000, -17.000, -163.000);
+	SeqNo(1058652261);
+	Team(0);
+	NetworkId(-1);
+	Layer(5);
+}
+
+Object("Uta1_prop_crate_stack0", "Uta1_prop_crate_stack", 1228627446)
+{
+	ChildRotation(0.327, 0.000, -0.945, 0.000);
+	ChildPosition(77.194, 1.075, -186.245);
+	SeqNo(1228627446);
+	Team(0);
+	NetworkId(-1);
+	Layer(5);
+}
+
+Object("fan04", "uta1_bldg_windmill_blades", 1433051853)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-70.000, -17.000, -163.000);
+	SeqNo(1433051853);
+	Team(0);
+	NetworkId(-1);
+	Layer(5);
+}
+
+Object("fan01", "uta1_bldg_windmill_blades", 1617172034)
+{
+	ChildRotation(0.976, 0.000, 0.216, 0.000);
+	ChildPosition(-121.132, 50.038, -128.093);
+	SeqNo(1617172034);
+	Team(0);
+	NetworkId(-1);
+	Layer(5);
+}
+
+Object("Uta1_prop_crate_stack", "Uta1_prop_crate_stack", 1724125177)
+{
+	ChildRotation(0.755, 0.000, -0.656, 0.000);
+	ChildPosition(28.463, 1.076, -202.721);
+	SeqNo(1724125177);
+	Team(0);
+	NetworkId(-1);
+	Layer(5);
+}
+
+Object("Uta1_bldg_windmill12", "uta1_bldg_windmill", 1964839385)
+{
+	ChildRotation(0.999, 0.000, 0.044, 0.000);
+	ChildPosition(-44.000, 59.000, -146.000);
+	SeqNo(1964839385);
+	Team(0);
+	NetworkId(-1);
+	Layer(5);
+}
+
+Object("fan12", "uta1_bldg_windmill_blades", 2003900568)
+{
+	ChildRotation(0.992, 0.000, 0.130, 0.000);
+	ChildPosition(-96.000, 44.000, -142.000);
+	SeqNo(2003900568);
+	Team(0);
+	NetworkId(-1);
+	Layer(5);
+}
+
+Object("uta1_prop_crate_stack2", "Uta1_prop_crate_stack", -2137478551)
+{
+	ChildRotation(0.326, 0.000, -0.945, 0.000);
+	ChildPosition(27.309, 1.075, -197.749);
+	SeqNo(-2137478551);
+	Team(0);
+	NetworkId(-1);
+	Layer(5);
+}
+
+Object("uta1_prop_crate_stack1", "Uta1_prop_crate_stack", -2132080974)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(28.463, 1.075, -205.049);
+	SeqNo(-2132080974);
+	Team(0);
+	NetworkId(-1);
+	Layer(5);
+}
+
+Object("fan03", "uta1_bldg_windmill_blades", -2012804786)
+{
+	ChildRotation(0.996, 0.000, -0.087, 0.000);
+	ChildPosition(-27.000, 36.000, -154.000);
+	SeqNo(-2012804786);
+	Team(0);
+	NetworkId(-1);
+	Layer(5);
+}
+
+Object("uta1_bldg_hanger_light_small0", "uta1_bldg_hanger_light_small", -1928604746)
+{
+	ChildRotation(0.156, 0.000, -0.988, 0.000);
+	ChildPosition(67.616, 4.500, -153.410);
+	SeqNo(-1928604746);
+	Team(0);
+	NetworkId(-1);
+	Layer(5);
+}
+
+Object("uta1_bldg_hanger_light_small1", "uta1_bldg_hanger_light_small", -1872974370)
+{
+	ChildRotation(-0.411, 0.000, -0.912, 0.000);
+	ChildPosition(24.576, 3.000, -175.921);
+	SeqNo(-1872974370);
+	Team(0);
+	NetworkId(-1);
+	Layer(5);
+}
+
+Object("uta1_prop_crate_stack10", "Uta1_prop_crate_stack", -1504450710)
+{
+	ChildRotation(0.003, 0.000, -1.000, 0.000);
+	ChildPosition(77.194, 1.075, -189.940);
+	SeqNo(-1504450710);
+	Team(0);
+	NetworkId(-1);
+	Layer(5);
+}
+
+Object("uta1_prop_deskandchair11", "uta1_prop_deskandchair", -1460518135)
+{
+	ChildRotation(0.453, 0.000, -0.891, 0.000);
+	ChildPosition(75.471, 1.000, -177.926);
+	SeqNo(-1460518135);
+	Team(0);
+	NetworkId(-1);
+	Layer(5);
+}
+
+Object("uta1_prop_deskandchair40", "uta1_prop_deskandchair", -1454370895)
+{
+	ChildRotation(-0.295, 0.000, -0.955, 0.000);
+	ChildPosition(30.988, 1.075, -179.920);
+	SeqNo(-1454370895);
+	Team(0);
+	NetworkId(-1);
+	Layer(5);
+}
+
+Object("Uta1_bldg_windmill3", "uta1_bldg_windmill", -1409937761)
+{
+	ChildRotation(0.992, 0.000, 0.130, 0.000);
+	ChildPosition(-96.000, 44.000, -142.000);
+	SeqNo(-1409937761);
+	Team(0);
+	NetworkId(-1);
+	Layer(5);
+}
+
+Object("fan02", "uta1_bldg_windmill_blades", -1346572233)
+{
+	ChildRotation(0.985, 0.000, 0.174, 0.000);
+	ChildPosition(-99.037, -11.962, -147.100);
+	SeqNo(-1346572233);
+	Team(0);
+	NetworkId(-1);
+	Layer(5);
+}
+
+Object("fan10", "uta1_bldg_windmill_blades", -963042203)
+{
+	ChildRotation(0.940, 0.000, -0.342, 0.000);
+	ChildPosition(115.000, 29.000, -108.000);
+	SeqNo(-963042203);
+	Team(0);
+	NetworkId(-1);
+	Layer(5);
+}
+
+Object("uta1_bldg_hanger_light2", "uta1_bldg_hanger_light", -851915134)
+{
+	ChildRotation(0.708, 0.000, 0.706, 0.000);
+	ChildPosition(57.000, 6.624, -178.329);
+	SeqNo(-851915134);
+	Team(0);
+	NetworkId(-1);
+	Layer(5);
+}
+
+Object("uta1_bldg_hanger_light1", "uta1_bldg_hanger_light", -498054162)
+{
+	ChildRotation(0.501, 0.000, -0.866, 0.000);
+	ChildPosition(44.000, 6.624, -181.329);
+	SeqNo(-498054162);
+	Team(0);
+	NetworkId(-1);
+	Layer(5);
+}
+
+Object("Uta1_bldg_windmill2", "uta1_bldg_windmill", -315633752)
+{
+	ChildRotation(0.924, 0.000, 0.382, 0.000);
+	ChildPosition(-181.000, 22.000, -86.000);
+	SeqNo(-315633752);
+	Team(0);
+	NetworkId(-1);
+	Layer(5);
+}
+
+Object("uta1_bldg_hanger_light", "uta1_bldg_hanger_light", -227044085)
+{
+	ChildRotation(0.991, -0.035, -0.129, -0.013);
+	ChildPosition(57.000, 7.200, -208.000);
+	SeqNo(-227044085);
+	Team(0);
+	NetworkId(-1);
+	Layer(5);
+}
+
+Object("fan07", "uta1_bldg_windmill_blades", -166901972)
+{
+	ChildRotation(0.999, 0.000, 0.044, 0.000);
+	ChildPosition(-59.000, 38.000, -158.000);
+	SeqNo(-166901972);
+	Team(0);
+	NetworkId(-1);
+	Layer(5);
+}
+
+Object("Uta1_bldg_windmill10", "uta1_bldg_windmill", -779145)
+{
+	ChildRotation(0.999, 0.000, 0.044, 0.000);
+	ChildPosition(-59.000, 38.000, -158.000);
+	SeqNo(-779145);
+	Team(0);
+	NetworkId(-1);
+	Layer(5);
+}

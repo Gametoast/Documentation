@@ -1,0 +1,150 @@
+Version(3);
+SaveType(0);
+
+Camera("camera")
+{
+	Rotation(0.500, 0.265, -0.729, 0.386);
+	Position(821.204, 282.979, 88.852);
+	FieldOfView(55.400);
+	NearPlane(1.000);
+	FarPlane(5000.000);
+	ZoomFactor(1.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(639.646, 233.826, -16.656,  0.854, 0.354, 0.354, -0.146);
+}
+LightName("spa1_transports.LGT");
+ControllerManager("StandardCtrlMgr");
+
+WorldExtents()
+{
+	Min(0.000000, 0.000000, 0.000000);
+	Max(0.000000, 0.000000, 0.000000);
+}
+
+NextSequence(-3705784);
+
+Object("mini01", "spa1_prop_correliancruiser", 370764761)
+{
+	ChildRotation(0.709, 0.000, 0.705, 0.000);
+	ChildPosition(-982.123, 406.312, 424.157);
+	SeqNo(370764761);
+	Team(2);
+	NetworkId(-1);
+	Label("mini01");
+	Layer(11);
+}
+
+Object("mini04", "spa1_prop_correliancruiser", 575158268)
+{
+	ChildRotation(0.710, 0.000, 0.704, 0.000);
+	ChildPosition(-2238.377, 366.075, 224.925);
+	SeqNo(575158268);
+	Team(2);
+	NetworkId(-1);
+	Label("mini04");
+	Layer(11);
+}
+
+Object("mini02", "spa1_prop_correliancruiser", 832332956)
+{
+	ChildRotation(0.710, 0.000, 0.704, 0.000);
+	ChildPosition(-1468.094, 185.608, -754.259);
+	SeqNo(832332956);
+	Team(2);
+	NetworkId(-1);
+	Label("mini02");
+	Layer(11);
+}
+
+Object("All_Tur02", "spa1_prop_all_shipturret", 855318261)
+{
+	ChildRotation(0.994, -0.001, 0.112, -0.005);
+	ChildPosition(-1772.524, -126.402, 239.541);
+	SeqNo(855318261);
+	Team(2);
+	NetworkId(-1);
+	Label("All_Tur02");
+	Layer(11);
+}
+
+Object("mini05", "spa1_prop_correliancruiser", 1106665353)
+{
+	ChildRotation(0.709, 0.000, 0.705, 0.000);
+	ChildPosition(-1199.926, 102.830, -452.669);
+	SeqNo(1106665353);
+	Team(2);
+	NetworkId(-1);
+	Label("mini05");
+	Layer(11);
+}
+
+Object("spa1_prop_imp_shipturret", "spa1_prop_imp_shipturret", 1289143240)
+{
+	ChildRotation(0.708, 0.061, -0.701, 0.062);
+	ChildPosition(677.809, 266.784, -659.997);
+	SeqNo(1289143240);
+	Team(1);
+	NetworkId(-1);
+	Layer(11);
+}
+
+Object("All_Tur03", "spa1_prop_all_shipturret", 1478507539)
+{
+	ChildRotation(-0.119, 0.005, -0.993, -0.001);
+	ChildPosition(-1768.000, -123.000, -497.000);
+	SeqNo(1478507539);
+	Team(2);
+	NetworkId(-1);
+	Label("All_Tur03");
+	Layer(11);
+}
+
+Object("spa1_prop_imp_shipturret1", "spa1_prop_imp_shipturret", 1481635296)
+{
+	ChildRotation(0.708, 0.061, -0.701, 0.062);
+	ChildPosition(677.809, 266.720, -525.000);
+	SeqNo(1481635296);
+	Team(1);
+	NetworkId(-1);
+	Layer(11);
+}
+
+Object("cor02", "all_prop_blockaderunner", 1938188022)
+{
+	ChildRotation(0.707, 0.000, 0.707, 0.000);
+	ChildPosition(-2619.771, 228.397, 486.209);
+	SeqNo(1938188022);
+	Team(2);
+	NetworkId(-1);
+	Layer(11);
+}
+
+Object("IMP_mini02", "spa1_prop_minidestroyer2", 1982130712)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(845.254, 414.009, -986.280);
+	SeqNo(1982130712);
+	Team(1);
+	NetworkId(-1);
+	Label("IMP_mini02");
+	Layer(11);
+}
+
+Object("mini03", "spa1_prop_correliancruiser", -775817691)
+{
+	ChildRotation(0.709, 0.000, 0.705, 0.000);
+	ChildPosition(-2128.123, 743.425, -408.904);
+	SeqNo(-775817691);
+	Team(2);
+	NetworkId(-1);
+	Label("mini03");
+	Layer(11);
+}

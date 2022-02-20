@@ -1,0 +1,45 @@
+
+[GameObjectClass]       
+
+ClassLabel      =   "destructablebuilding"
+GeometryName    =   "tan4_prop_Console.msh"
+
+
+[Properties]        
+
+MapTexture              = "rechargedroid_icon"
+MapScale                = "1"
+UnbuiltHoloOdf          = "com_holo_build"
+
+GeometryName            =   "tan4_prop_Console"
+DestroyedGeometryName   = "tan4_prop_Console_dest"
+ExplosionName           = "tan4_prop_console_exp"
+MaxHealth               = 55
+
+BuildingSound = "post_hum"
+
+DamageStartPercent      = 90.0
+DamageStopPercent       = 60.0
+DamageEffect            = "tan_sfx_console_damage1"
+DamageEffectScale       = 0.6
+DamageInheritVelocity   = 0.0
+DamageAttachPoint       = "hp_damage"
+DamageEffectSound       = "post_hum"
+
+DamageStartPercent      = 60.0
+DamageStopPercent       = 30.0
+DamageEffect            = "tan_sfx_console_damage2"
+DamageEffectScale       = 0.6
+DamageInheritVelocity   = 0.0
+DamageAttachPoint       = "hp_damage"
+DamageEffectSound       = "post_hum"
+
+DamageStartPercent      = 30.0
+DamageStopPercent       = 0.010
+DamageEffect            = "tan_sfx_console_damage3"
+DamageEffectScale       = 0.6
+DamageInheritVelocity   = 0.0
+DamageAttachPoint       = "hp_damage"
+DamageEffectSound       = "post_hum"
+
+FoleyFXGroup    = "metal_foley"

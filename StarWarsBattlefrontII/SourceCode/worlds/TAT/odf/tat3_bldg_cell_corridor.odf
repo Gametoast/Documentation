@@ -1,0 +1,45 @@
+[GameObjectClass]       
+
+ClassLabel      =   "prop"
+GeometryName    =   "tat3_bldg_cell_corridor.msh"
+
+
+[Properties]        
+
+GeometryName    =   "tat3_bldg_cell_corridor"
+
+
+AttachEffect = "prop_steamgrate"
+
+AttachToHardPoint = "hp_steam_c"
+AttachToHardPoint = "hp_steam_d"
+AttachToHardPoint = "hp_steam_e"
+AttachToHardPoint = "hp_steam_f"
+
+
+AttachOdf = "tat3_light_reservoir_03"
+
+AttachToHardPoint = "hp_light_1"
+AttachToHardPoint = "hp_light_2"
+AttachToHardPoint = "hp_light_3"
+AttachToHardPoint = "hp_light_4"
+AttachToHardPoint = "hp_light_5"
+AttachToHardPoint = "hp_light_6"
+AttachToHardPoint = "hp_light_10"
+AttachToHardPoint = "hp_light_11"
+AttachToHardPoint = "hp_light_12"
+AttachToHardPoint = "hp_light_13"
+
+
+AttachOdf = "tat3_light_l_blue"
+
+AttachToHardPoint = "hp_light_17"
+AttachToHardPoint = "hp_light_18"
+AttachToHardPoint = "hp_light_19"
+AttachToHardPoint = "hp_light_20"
+AttachToHardPoint = "hp_light_21"
+AttachToHardPoint = "hp_light_22"
+AttachToHardPoint = "hp_light_23"
+
+FoleyFXGroup    = "stone_foley"
+

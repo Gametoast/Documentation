@@ -1,0 +1,30 @@
+[GameObjectClass]       
+
+ClassLabel      =   "prop"
+GeometryName    =   "nab2_prop_fountain.msh"
+
+
+[Properties]        
+
+GeometryName    =   "nab2_prop_fountain"
+
+
+
+AttachEffect = "fountain_halo"
+AttachToHardPoint = "hp_light1"
+
+AttachEffect = "fountain_halo"
+AttachToHardPoint = "hp_light2"
+
+AttachEffect = "fountain_halo"
+AttachToHardPoint = "hp_light3"
+
+AttachEffect = "fountain_halo"
+AttachToHardPoint = "hp_light4"
+
+AttachEffect = "nab_sfx_fountain"
+AttachToHardPoint = "hp_water"
+
+
+SoundProperty   = "fountain"
+FoleyFXGroup    = "stone_foley"

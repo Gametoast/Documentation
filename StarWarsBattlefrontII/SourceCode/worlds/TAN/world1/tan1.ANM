@@ -1,0 +1,60 @@
+Animation("Left_TurbineSpin", 0.10, 1, 0)
+{
+	AddRotationKey(0.00, 0.00, 0.00, 0.00, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
+	AddRotationKey(0.50, -359.00, 0.00, 0.00, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
+}
+
+Animation("Right_Turbine", 0.10, 1, 0)
+{
+	AddRotationKey(0.00, 0.00, 0.00, 0.00, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
+	AddRotationKey(0.50, 359.00, 0.00, 0.00, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
+}
+
+Animation("spinny", 1.20, 1, 0)
+{
+	AddRotationKey(0.00, 0.00, 0.00, 0.00, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
+	AddRotationKey(1.20, 0.00, -360.00, 0.00, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
+}
+
+Animation("spinny2", 1.20, 1, 0)
+{
+	AddRotationKey(0.00, 0.00, 0.00, 0.00, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
+	AddRotationKey(1.20, 0.00, 360.00, 0.00, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
+}
+
+AnimationGroup("Turbine Animation", 1, 0)
+{
+	Animation("Right_Turbine", "tan4_bldg_turbine_r_body");
+	Animation("Left_TurbineSpin", "tan4_bldg_turbine_l_body");
+}
+
+AnimationGroup("spinny1", 1, 0)
+{
+	Animation("spinny", "spinny1");
+}
+
+AnimationGroup("spinny2", 1, 0)
+{
+	Animation("spinny2", "spinny2");
+}
+
+AnimationGroup("spinny3", 1, 0)
+{
+	Animation("spinny", "spinny3");
+}
+
+AnimationGroup("spinny4", 1, 0)
+{
+	Animation("spinny2", "spinny4");
+}
+
+AnimationGroup("spinny5", 1, 0)
+{
+	Animation("spinny", "spinny5");
+}
+
+AnimationGroup("spinny6", 1, 0)
+{
+	Animation("spinny2", "spinny6");
+}
+

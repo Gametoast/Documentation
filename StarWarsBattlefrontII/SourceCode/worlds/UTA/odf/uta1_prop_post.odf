@@ -1,0 +1,20 @@
+[GameObjectClass]       
+
+ClassLabel      =   "prop"
+GeometryName    =   "uta1_prop_post.msh"
+
+
+[Properties]        
+
+GeometryName    =   "uta1_prop_post"
+
+
+AttachOdf = "uta1_post_flare"
+AttachToHardPoint = "hp_light_post_flare"
+
+AttachEffect = "uta1_post_spot"
+AttachToHardPoint = "hp_light_post_spot"
+
+Soundproperty   =   "neon_buzz"
+
+

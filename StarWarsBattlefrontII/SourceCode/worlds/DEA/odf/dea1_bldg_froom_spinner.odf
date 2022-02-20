@@ -1,0 +1,24 @@
+[GameObjectClass]       
+
+ClassLabel      =   "prop"
+GeometryName    =   "dea1_bldg_froom_spinner.msh"
+
+
+[Properties]        
+
+GeometryName    =   "dea1_bldg_froom_spinner"
+
+Attacheffect = "dea_sfx_deathstarlaser"	//CHOCO PARTY!!!!
+AttachtoHardpoint = "hp_spinner 30.0"
+
+Attacheffect = "dea_sfx_spinner"
+AttachDynamic = "1"
+AttachtoHardpoint = "hp_spinner"
+
+
+
+
+FoleyFXGroup    = "metal_foley"
+SoundProperty = "energy_loop"
+
+

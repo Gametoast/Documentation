@@ -1,0 +1,403 @@
+Version(3);
+SaveType(0);
+
+Camera("camera")
+{
+	Rotation(0.993, 0.116, 0.010, -0.001);
+	Position(16.129, 47.371, -83.688);
+	FieldOfView(55.400);
+	NearPlane(1.000);
+	FarPlane(5000.000);
+	ZoomFactor(1.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(-8.723, 94.864, 54.170,  0.749, 0.346, 0.512, -0.237);
+}
+LightName("cor1_tdm.LGT");
+ControllerManager("StandardCtrlMgr");
+
+WorldExtents()
+{
+	Min(0.000000, 0.000000, 0.000000);
+	Max(0.000000, 0.000000, 0.000000);
+}
+
+NextSequence(-3705784);
+
+Object("CP2Death", "com_bldg_controlzone", 528300130)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(2.000, -8.000, -20.000);
+	SeqNo(528300130);
+	Team(2);
+	NetworkId(-1);
+	Label("CP2Death");
+	Layer(7);
+	CaptureRegion("");
+	ControlRegion("");
+	SpawnPath("CP2SpawnPathDeath");
+	AllyPath("");
+	AllyCount("65536");
+	Radius("0.0");
+	ValueBleed_Alliance("10");
+	ValueBleed_CIS("10");
+	ValueBleed_Empire("10");
+	ValueBleed_Republic("10");
+	ValueBleed_Neutral("0");
+	ValueBleed_Locals("0");
+	Value_ATK_Alliance("10");
+	Value_ATK_CIS("10");
+	Value_ATK_Empire("10");
+	Value_ATK_Republic("10");
+	Value_ATK_Locals("10");
+	Value_DEF_Alliance("10");
+	Value_DEF_CIS("10");
+	Value_DEF_Empire("10");
+	Value_DEF_Republic("10");
+	Value_DEF_Locals("10");
+	VO_All_AllCapture("all_off_com_report_captured_commandpost");
+	VO_All_AllLost("all_off_com_report_lost_commandpost");
+	VO_All_AllInDispute("");
+	VO_All_AllSaved("");
+	VO_All_AllInfo("");
+	VO_All_ImpCapture("all_off_com_report_enemyCaptured_commandpost");
+	VO_All_ImpLost("");
+	VO_All_ImpInDispute("");
+	VO_All_ImpSaved("");
+	VO_All_ImpInfo("");
+	VO_Imp_AllCapture("imp_off_com_report_enemyCaptured_commandpost");
+	VO_Imp_AllLost("");
+	VO_Imp_AllInDispute("");
+	VO_Imp_AllSaved("");
+	VO_Imp_AllInfo("");
+	VO_Imp_ImpCapture("imp_off_com_report_captured_commandpost");
+	VO_Imp_ImpLost("imp_off_com_report_lost_commandpost");
+	VO_Imp_ImpInDispute("");
+	VO_Imp_ImpSaved("");
+	VO_Imp_ImpInfo("");
+	VO_Rep_RepCapture("rep_off_com_report_captured_commandpost");
+	VO_Rep_RepLost("rep_off_com_report_lost_commandpost");
+	VO_Rep_RepInDispute("");
+	VO_Rep_RepSaved("");
+	VO_Rep_RepInfo("");
+	VO_Rep_CISCapture("rep_off_com_report_enemyCaptured_commandpost");
+	VO_Rep_CISLost("");
+	VO_Rep_CISInDispute("");
+	VO_Rep_CISSaved("");
+	VO_Rep_CISInfo("");
+	VO_CIS_RepCapture("cis_off_com_report_enemyCaptured_commandpost");
+	VO_CIS_RepLost("");
+	VO_CIS_RepInDispute("");
+	VO_CIS_RepSaved("");
+	VO_CIS_RepInfo("");
+	VO_CIS_CISCapture("cis_off_com_report_captured_commandpost");
+	VO_CIS_CISLost("cis_off_com_report_lost_commandpost");
+	VO_CIS_CISInDispute("");
+	VO_CIS_CISSaved("");
+	VO_CIS_CISInfo("");
+	SoldierBan("");
+	HoverBan("");
+	SmallBan("");
+	MediumBan("");
+	HugeBan("");
+	FlyerBan("");
+}
+
+Object("CP1Death", "com_bldg_controlzone", -1016563431)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(2.000, -19.000, 165.000);
+	SeqNo(-1016563431);
+	Team(1);
+	NetworkId(-1);
+	Label("CP1Death");
+	Layer(7);
+	CaptureRegion("");
+	ControlRegion("");
+	SpawnPath("CP1SpawnPathDeath");
+	AllyPath("");
+	AllyCount("65536");
+	Radius("0.0");
+	ValueBleed_Alliance("10");
+	ValueBleed_CIS("10");
+	ValueBleed_Empire("10");
+	ValueBleed_Republic("10");
+	ValueBleed_Neutral("0");
+	ValueBleed_Locals("0");
+	Value_ATK_Alliance("10");
+	Value_ATK_CIS("10");
+	Value_ATK_Empire("10");
+	Value_ATK_Republic("10");
+	Value_ATK_Locals("10");
+	Value_DEF_Alliance("10");
+	Value_DEF_CIS("10");
+	Value_DEF_Empire("10");
+	Value_DEF_Republic("10");
+	Value_DEF_Locals("10");
+	VO_All_AllCapture("all_off_com_report_captured_commandpost");
+	VO_All_AllLost("all_off_com_report_lost_commandpost");
+	VO_All_AllInDispute("");
+	VO_All_AllSaved("");
+	VO_All_AllInfo("");
+	VO_All_ImpCapture("all_off_com_report_enemyCaptured_commandpost");
+	VO_All_ImpLost("");
+	VO_All_ImpInDispute("");
+	VO_All_ImpSaved("");
+	VO_All_ImpInfo("");
+	VO_Imp_AllCapture("imp_off_com_report_enemyCaptured_commandpost");
+	VO_Imp_AllLost("");
+	VO_Imp_AllInDispute("");
+	VO_Imp_AllSaved("");
+	VO_Imp_AllInfo("");
+	VO_Imp_ImpCapture("imp_off_com_report_captured_commandpost");
+	VO_Imp_ImpLost("imp_off_com_report_lost_commandpost");
+	VO_Imp_ImpInDispute("");
+	VO_Imp_ImpSaved("");
+	VO_Imp_ImpInfo("");
+	VO_Rep_RepCapture("rep_off_com_report_captured_commandpost");
+	VO_Rep_RepLost("rep_off_com_report_lost_commandpost");
+	VO_Rep_RepInDispute("");
+	VO_Rep_RepSaved("");
+	VO_Rep_RepInfo("");
+	VO_Rep_CISCapture("rep_off_com_report_enemyCaptured_commandpost");
+	VO_Rep_CISLost("");
+	VO_Rep_CISInDispute("");
+	VO_Rep_CISSaved("");
+	VO_Rep_CISInfo("");
+	VO_CIS_RepCapture("cis_off_com_report_enemyCaptured_commandpost");
+	VO_CIS_RepLost("");
+	VO_CIS_RepInDispute("");
+	VO_CIS_RepSaved("");
+	VO_CIS_RepInfo("");
+	VO_CIS_CISCapture("cis_off_com_report_captured_commandpost");
+	VO_CIS_CISLost("cis_off_com_report_lost_commandpost");
+	VO_CIS_CISInDispute("");
+	VO_CIS_CISSaved("");
+	VO_CIS_CISInfo("");
+	SoldierBan("");
+	HoverBan("");
+	SmallBan("");
+	MediumBan("");
+	HugeBan("");
+	FlyerBan("");
+}
+
+
+
+Object("Cor1_prop_non_librarystack7", "Cor1_prop_non_librarystack", 194657419)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(71.000, 15.001, 72.097);
+	SeqNo(194657419);
+	Team(0);
+	NetworkId(-1);
+	Layer(5);
+}
+
+Object("Cor1_prop_non_librarystack19", "Cor1_prop_non_librarystack", 480891491)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(87.000, 15.000, 92.594);
+	SeqNo(480891491);
+	Team(0);
+	NetworkId(-1);
+	Layer(5);
+}
+
+Object("Cor1_prop_non_librarystack1", "Cor1_prop_non_librarystack", 644828843)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(63.055, 7.006, 79.309);
+	SeqNo(644828843);
+	Team(0);
+	NetworkId(-1);
+	Layer(5);
+}
+
+
+
+Object("Cor1_prop_non_librarystack10", "Cor1_prop_non_librarystack", 1118269944)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(55.000, 7.006, 92.594);
+	SeqNo(1118269944);
+	Team(0);
+	NetworkId(-1);
+	Layer(5);
+}
+
+
+
+Object("Cor1_prop_non_librarystack12", "Cor1_prop_non_librarystack", 1228486221)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(71.000, 7.005, 92.594);
+	SeqNo(1228486221);
+	Team(0);
+	NetworkId(-1);
+	Layer(5);
+}
+
+Object("Cor1_prop_non_librarystack3", "Cor1_prop_non_librarystack", 1351724157)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(79.055, 7.006, 79.310);
+	SeqNo(1351724157);
+	Team(0);
+	NetworkId(-1);
+	Layer(5);
+}
+
+Object("Cor1_prop_non_librarystack", "Cor1_prop_non_librarystack", 1502825712)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(55.000, 7.005, 72.097);
+	SeqNo(1502825712);
+	Team(0);
+	NetworkId(-1);
+	Layer(5);
+}
+
+Object("Cor1_prop_non_librarystack18", "Cor1_prop_non_librarystack", 1712833064)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(79.055, 15.000, 99.808);
+	SeqNo(1712833064);
+	Team(0);
+	NetworkId(-1);
+	Layer(5);
+}
+
+Object("Cor1_prop_non_librarystack14", "Cor1_prop_non_librarystack", 1753394022)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(87.000, 7.006, 92.594);
+	SeqNo(1753394022);
+	Team(0);
+	NetworkId(-1);
+	Layer(5);
+}
+
+Object("Cor1_prop_non_librarystack15", "Cor1_prop_non_librarystack", 1853592923)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(55.000, 15.001, 92.594);
+	SeqNo(1853592923);
+	Team(0);
+	NetworkId(-1);
+	Layer(5);
+}
+
+Object("Cor1_prop_non_librarystack9", "Cor1_prop_non_librarystack", -2131756589)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(87.000, 15.000, 72.097);
+	SeqNo(-2131756589);
+	Team(0);
+	NetworkId(-1);
+	Layer(5);
+}
+
+Object("Cor1_prop_non_librarystack2", "Cor1_prop_non_librarystack", -2032955581)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(71.000, 7.006, 72.097);
+	SeqNo(-2032955581);
+	Team(0);
+	NetworkId(-1);
+	Layer(5);
+}
+
+
+
+Object("Cor1_prop_non_librarystack11", "Cor1_prop_non_librarystack", -1460659908)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(63.055, 7.006, 99.806);
+	SeqNo(-1460659908);
+	Team(0);
+	NetworkId(-1);
+	Layer(5);
+}
+
+Object("Cor1_prop_non_librarystack5", "Cor1_prop_non_librarystack", -1401265425)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(55.000, 15.000, 72.097);
+	SeqNo(-1401265425);
+	Team(0);
+	NetworkId(-1);
+	Layer(5);
+}
+
+Object("Cor1_prop_non_librarystack13", "Cor1_prop_non_librarystack", -1348492849)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(79.055, 7.006, 99.806);
+	SeqNo(-1348492849);
+	Team(0);
+	NetworkId(-1);
+	Layer(5);
+}
+
+
+Object("Cor1_prop_non_librarystack16", "Cor1_prop_non_librarystack", -1137213124)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(63.055, 15.000, 99.806);
+	SeqNo(-1137213124);
+	Team(0);
+	NetworkId(-1);
+	Layer(5);
+}
+
+
+
+Object("Cor1_prop_non_librarystack6", "Cor1_prop_non_librarystack", -859246030)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(63.055, 15.000, 79.309);
+	SeqNo(-859246030);
+	Team(0);
+	NetworkId(-1);
+	Layer(5);
+}
+
+Object("Cor1_prop_non_librarystack8", "Cor1_prop_non_librarystack", -470435362)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(79.055, 15.000, 79.309);
+	SeqNo(-470435362);
+	Team(0);
+	NetworkId(-1);
+	Layer(5);
+}
+
+Object("Cor1_prop_non_librarystack4", "Cor1_prop_non_librarystack", -228041793)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(87.000, 7.006, 72.097);
+	SeqNo(-228041793);
+	Team(0);
+	NetworkId(-1);
+	Layer(5);
+}
+
+Object("Cor1_prop_non_librarystack17", "Cor1_prop_non_librarystack", -103123284)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(71.000, 15.000, 92.594);
+	SeqNo(-103123284);
+	Team(0);
+	NetworkId(-1);
+	Layer(5);
+}
+
+

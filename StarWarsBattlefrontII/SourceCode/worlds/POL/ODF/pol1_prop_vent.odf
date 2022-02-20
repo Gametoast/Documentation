@@ -1,0 +1,15 @@
+[GameObjectClass]       
+
+ClassLabel      =   "prop"
+GeometryName    =   "pol1_prop_vent.msh"
+
+
+[Properties]        
+
+GeometryName    =   "pol1_prop_vent"
+
+FoleyFXGroup    = "metal_foley"
+
+AttachEffect = "pol_sfx_steamgrate"
+
+AttachToHardPoint = "hp_ventsmoke"

@@ -1,0 +1,299 @@
+Version(1);
+RegionCount(33);
+
+Region("Soundspace DockingBay1", 0)
+{
+	Layer(13);
+	Position(100.589149, 14.769772, 103.358658);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(15.125931, 4.829742, 15.582977);
+	Name("DockingBay1");
+}
+
+Region("Soundspace Hangar1", 0)
+{
+	Layer(13);
+	Position(108.264145, 29.330864, 50.473145);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(33.567268, 17.023268, 37.694798);
+	Name("Hangar1");
+}
+
+Region("Soundspace Hangar1Control", 0)
+{
+	Layer(13);
+	Position(110.212029, 30.673632, 5.077282);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(17.711739, 10.000000, 7.629601);
+	Name("Hangar1Control");
+}
+
+Region("Soundspace Hanger1CatwalkUpper", 0)
+{
+	Layer(13);
+	Position(108.841835, 27.813133, -16.220631);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(3.644028, 3.952066, 13.708116);
+	Name("Hanger1CatwalkUpper");
+}
+
+Region("Soundspace Hangar1CatwalkLower", 0)
+{
+	Layer(13);
+	Position(87.242355, 15.734511, -2.670786);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(4.643356, 3.441368, 22.662319);
+	Name("Hangar1CatwalkLower");
+}
+
+Region("Soundspace RadarBldg", 2)
+{
+	Layer(13);
+	Position(67.040268, -27.896280, -60.857773);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(34.399467, 63.672710, 36.803570);
+	Name("RadarBldg");
+}
+
+Region("Soundspace Airlock1", 0)
+{
+	Layer(13);
+	Position(104.642517, 24.664906, -37.296432);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(10.067307, 7.604792, 12.204107);
+	Name("Airlock1");
+}
+
+Region("Soundspace Airlock2", 0)
+{
+	Layer(13);
+	Position(25.402811, 24.546776, -82.795959);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(9.318528, 9.492374, 8.366638);
+	Name("Airlock2");
+}
+
+Region("Soundspace Airlock3", 0)
+{
+	Layer(13);
+	Position(26.049480, 27.285936, -51.291229);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(10.337077, 8.066784, 7.975941);
+	Name("Airlock3");
+}
+
+Region("Soundspace RadarCatwalk1", 0)
+{
+	Layer(13);
+	Position(-10.928399, 28.397020, -50.000748);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(28.200001, 4.020000, 3.602962);
+	Name("RadarCatwalk1");
+}
+
+Region("Soundspace RadarCatwalk2", 0)
+{
+	Layer(13);
+	Position(-10.487597, 27.635096, -82.103348);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(28.000000, 4.000000, 3.769142);
+	Name("RadarCatwalk2");
+}
+
+Region("Soundspace Skylounge", 0)
+{
+	Layer(13);
+	Position(-47.116833, 28.311129, -66.748955);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(15.978603, 5.018286, 21.361431);
+	Name("Skylounge");
+}
+
+Region("Soundspace SkyboxHall1", 0)
+{
+	Layer(13);
+	Position(-71.234573, 28.164717, -71.726402);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(8.616646, 4.897438, 6.519443);
+	Name("SkyboxHall1");
+}
+
+Region("Soundspace Lounge2Hall", 0)
+{
+	Layer(13);
+	Position(-68.815132, 28.895708, -57.579113);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(6.159355, 3.961386, 3.594094);
+	Name("Lounge2Hall");
+}
+
+Region("Soundspace Hangar2", 0)
+{
+	Layer(13);
+	Position(-55.422066, 27.802727, -20.252420);
+	Rotation(0.922877, 0.000000, -0.385129, 0.000000);
+	Size(15.100000, 5.565192, 15.500000);
+	Name("Hangar2");
+}
+
+Region("Soundspace Hangar2Access", 0)
+{
+	Layer(13);
+	Position(-69.995438, 28.931862, -33.198509);
+	Rotation(0.925114, 0.000000, -0.379706, 0.000000);
+	Size(5.128280, 4.266254, 17.952719);
+	Name("Hangar2Access");
+}
+
+Region("Soundspace MineLanding", 0)
+{
+	Layer(13);
+	Position(-102.570473, 23.792912, 5.868752);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(22.646179, 7.764803, 11.552729);
+	Name("MineLanding");
+}
+
+Region("Soundspace MineLandingAccess", 0)
+{
+	Layer(13);
+	Position(-103.811539, 28.509987, -17.568663);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(21.953384, 4.828979, 12.527852);
+	Name("MineLandingAccess");
+}
+
+Region("Soundspace MineLoungeHall2", 0)
+{
+	Layer(13);
+	Position(-107.922958, 28.861668, -40.935383);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(6.312935, 4.771162, 11.821297);
+	Name("MineLoungeHall2");
+}
+
+Region("Soundspace MineLandingHall1", 0)
+{
+	Layer(13);
+	Position(-93.449326, 28.714647, -32.935204);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(3.258530, 3.814327, 5.835239);
+	Name("MineLandingHall1");
+}
+
+Region("Soundspace Skyboxlanding2", 0)
+{
+	Layer(13);
+	Position(-90.915314, 29.796343, -51.980759);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(12.039200, 2.865170, 9.076542);
+	Name("Skyboxlanding2");
+}
+
+Region("Soundspace Skylounge1", 0)
+{
+	Layer(13);
+	Position(-83.450439, 29.691162, -65.449875);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(4.430084, 3.201681, 12.760563);
+	Name("Skylounge1");
+}
+
+Region("Soundspace HangarBox", 0)
+{
+	Layer(13);
+	Position(-85.721146, 28.302498, -38.181335);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(4.692299, 4.835905, 6.538280);
+	Name("HangarBox");
+}
+
+Region("Soundspace HangarBox2", 0)
+{
+	Layer(13);
+	Position(-71.474060, 29.430197, -50.048336);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(8.634926, 3.725088, 4.070000);
+	Name("HangarBox2");
+}
+
+Region("Soundspace HangarBox2", 0)
+{
+	Layer(13);
+	Position(-76.359612, 29.699129, -41.312733);
+	Rotation(0.921067, 0.000000, 0.389405, 0.000000);
+	Size(10.759361, 4.147617, 5.289009);
+	Name("HangarBox2b");
+}
+
+Region("Soundspace Skybox", 0)
+{
+	Layer(13);
+	Position(-97.136566, 34.135544, -60.575581);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(12.203796, 5.528740, 11.897152);
+	Name("Skybox");
+}
+
+Region("Soundspace Cavern1", 0)
+{
+	Layer(13);
+	Position(-101.452156, 18.992773, 41.349712);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(21.514984, 6.467018, 29.265881);
+	Name("Cavern1");
+}
+
+Region("Soundspace Cavern2", 0)
+{
+	Layer(13);
+	Position(-114.867821, 20.326794, 96.738113);
+	Rotation(0.996165, 0.000000, -0.087757, 0.000000);
+	Size(14.043991, 8.605375, 30.895798);
+	Name("Cavern2");
+}
+
+Region("Soundspace Cavern3", 0)
+{
+	Layer(13);
+	Position(-129.561249, 31.730909, 129.585480);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(20.564713, 15.993290, 33.897095);
+	Name("Cavern3");
+}
+
+Region("Soundspace Cavern5", 0)
+{
+	Layer(13);
+	Position(-100.045761, 31.616241, 161.949539);
+	Rotation(0.999392, -0.004304, 0.034558, 0.008539);
+	Size(20.618496, 15.535891, 14.346208);
+	Name("Cavern5");
+}
+
+Region("Soundspace Cavern4", 0)
+{
+	Layer(13);
+	Position(-105.714737, 29.597919, 146.640961);
+	Rotation(0.924904, 0.000000, -0.380202, 0.000000);
+	Size(11.741594, 17.859995, 10.000007);
+	Name("Cavern4");
+}
+
+Region("Soundspace Hangar3", 0)
+{
+	Layer(13);
+	Position(-88.197060, 25.685696, 126.874352);
+	Rotation(0.924904, 0.000000, -0.380202, 0.000000);
+	Size(16.232033, 5.838814, 17.082911);
+	Name("Hangar3");
+}
+
+Region("Soundspace RadarCore", 2)
+{
+	Layer(13);
+	Position(66.419441, 29.687078, -60.684368);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(22.639595, 6.803076, 10.000000);
+	Name("RadarCore");
+}

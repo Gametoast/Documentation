@@ -1,0 +1,74 @@
+Version(1);
+RegionCount(8);
+
+Region("Soundstream dea_amb_hangarcontrol 1.2", 1)
+{
+	Layer(6);
+	Position(-23.064564, 63.470444, 67.237427);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(16.657335, 0.000000, 0.000000);
+	Name("HngCtl-SR");
+}
+
+Region("soundstream dea_amb_hangar 1.2", 1)
+{
+	Layer(6);
+	Position(-65.139091, 50.892437, 41.165943);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(48.023335, 0.100000, 0.100000);
+	Name("HngA-SR");
+}
+
+Region("soundstream dea_amb_tractor 1.2", 1)
+{
+	Layer(6);
+	Position(-189.600327, 54.007782, 332.764221);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(138.701431, 0.100000, 0.100000);
+	Name("TrcB-SR");
+}
+
+Region("soundstream dea_amb_firecontrol 1.2", 1)
+{
+	Layer(6);
+	Position(-177.435822, 45.755409, 153.044281);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(49.947910, 0.100000, 0.749490);
+	Name("GunRoom-SR");
+}
+
+Region("soundstream dea_amb_conf 1.2", 1)
+{
+	Layer(6);
+	Position(-175.071594, 59.605560, 57.597202);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(17.841410, 0.100000, 0.100000);
+	Name("Conf-SR");
+}
+
+Region("soundstream dea_amb_deathstar 1.5", 1)
+{
+	Layer(6);
+	Position(-177.236053, 59.455383, 166.109283);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(368.385315, 10.000000, 169.645767);
+	Name("Global");
+}
+
+Region("soundstream dea_amb_hangar 1.3", 1)
+{
+	Layer(6);
+	Position(-144.883026, 56.755211, 19.990593);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(36.081463, 10.619261, 0.100000);
+	Name("HngB-SR");
+}
+
+Region("soundstream dea_amb_chasm 1.5", 1)
+{
+	Layer(6);
+	Position(-104.884361, 58.194695, 107.396149);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(28.388550, 0.100000, 0.100000);
+	Name("chasm");
+}

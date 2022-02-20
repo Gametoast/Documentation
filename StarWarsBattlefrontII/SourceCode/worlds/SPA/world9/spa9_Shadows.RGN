@@ -1,0 +1,29 @@
+Version(1);
+RegionCount(3);
+
+Region("reflection", 0)
+{
+	Layer(10);
+	Position(26.096519, 15.193975, -1530.000000);
+	Rotation(0.990219, 0.000000, -0.139519, 0.000000);
+	Size(53.160393, 10.271757, 41.060818);
+	Name("imp_reflect1");
+}
+
+Region("shadow directional=0 directional1=0 colortop=134,134,138 colorbottom=78,78,78", 0)
+{
+	Layer(10);
+	Position(34.631081, 9.009747, -1561.913452);
+	Rotation(0.991561, 0.000000, -0.129638, 0.000000);
+	Size(53.774109, 26.288128, 77.389435);
+	Name("imp_shdw1");
+}
+
+Region("shadow directional=0 directional1=0 colortop=120,120,120 colorbottom=70,70,70", 0)
+{
+	Layer(10);
+	Position(25.528740, -17.777164, 1020.375549);
+	Rotation(0.998414, 0.000000, 0.056479, 0.000000);
+	Size(51.059532, 17.521919, 77.651672);
+	Name("all_shadow1");
+}

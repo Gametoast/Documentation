@@ -1,0 +1,14 @@
+[GameObjectClass]		
+
+ClassLabel		=	"destructablebuilding"
+GeometryName	=	"HOTH_prop_crate_small.msh"
+FoleyFXGroup    =   "metal_foley"
+
+[Properties]		
+
+GeometryName	=	"HOTH_prop_crate_small"
+
+DestroyedGeometryName  = "HOTH_prop_crate_small"
+ExplosionName       = "com_inf_rechargedroid_exp"
+MaxHealth       = "5000"
+FoleyFXGroup    = "metal_foley"

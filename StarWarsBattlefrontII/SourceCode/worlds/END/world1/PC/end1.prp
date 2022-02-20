@@ -1,0 +1,120 @@
+Layer(0)
+{
+	SpreadFactor(0.2);
+//	Mesh()
+//	{
+//		GrassPatch("end_fern.odf", 70);
+//		File("editor_grasspatch.msh", 80);
+//		Frequency(50);
+//		Scale(1);
+//		Stiffness(0.0);
+//	        CollisionSound("foliage_collision");
+//	        ColorVariation(0.2);
+//		AIVisibilityFactor(0.7,1.0);
+//	}
+	Mesh()
+	{
+		File("end_prop_fern5.msh", 100);
+		Frequency(50);
+		Scale(1);
+		Stiffness(0.0);
+		CollisionSound("foliage_collision");
+	 	ColorVariation(0.2);
+		AIVisibilityFactor(0.7,1.0);
+	}
+	Mesh()
+	{
+		File("end_prop_fern5.msh", 150);
+		Frequency(70);
+		Scale(1);
+		Stiffness(0.0);
+		CollisionSound("foliage_collision");
+	 	ColorVariation(0.2);
+		AIVisibilityFactor(0.7,1.0);
+	}
+	Mesh()
+	{
+		GrassPatch("end_prop_grass.odf", 40);
+		File("editor_grasspatch.msh", 80);
+		Frequency(50);
+		Scale(1);
+		Stiffness(0.0);
+	        CollisionSound("foliage_collision");
+	        ColorVariation(0.2);
+		AIVisibilityFactor(0.40,0.9);
+	}
+}
+
+Layer(1)
+{
+	SpreadFactor(0.4);
+ 	Mesh()
+	{
+		File("end_prop_fern5.msh", 30);
+		Frequency(20);
+		Scale(1);
+		Stiffness(0.0);
+		CollisionSound("foliage_collision");
+	        ColorVariation(0.2);
+		AIVisibilityFactor(0.7,1.0);
+	}
+
+ 	Mesh()
+	{
+		File("end_prop_treeclump_1.msh", 50);
+		Frequency(50);
+		Scale(1);
+		Stiffness(0.0);
+		CollisionSound("foliage_collision");
+	        ColorVariation(0.2);
+		AIVisibilityFactor(0.35,0.6);
+	}
+}
+
+Layer(2)
+{
+	SpreadFactor(0.4);
+
+ 	Mesh()
+	{
+		File("end_prop_foliage5.msh", 150);
+		Frequency(50);
+		Scale(1);
+		Stiffness(0.0);
+		CollisionSound("foliage_collision");
+	        ColorVariation(0.1);
+		FadeDist(10.0);
+		AIVisibilityFactor(0.2,0.4);
+	}
+ 	Mesh()
+	{
+		File("end_prop_foliage6.msh", 200);
+		Frequency(50);
+		Scale(1);
+		Stiffness(0.5);
+		CollisionSound("foliage_collision");
+	        ColorVariation(0.1);
+		FadeDist(10.0);
+		AIVisibilityFactor(0.1,0.2);
+	}
+ 	Mesh()
+	{
+		File("end_prop_foliage7.msh", 180);
+		Frequency(50);
+		Scale(1);
+		Stiffness(0.5);
+		CollisionSound("foliage_collision");
+	        ColorVariation(0.1);
+		FadeDist(10.0);
+		AIVisibilityFactor(0.1,0.2);
+	}
+}
+
+TreeLine()
+{
+	Path("jungle1")
+	{
+		Distance(28);
+		BorderOdf("end_prop_treebill.odf");
+	}
+}

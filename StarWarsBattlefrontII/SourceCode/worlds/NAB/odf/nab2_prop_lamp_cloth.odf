@@ -1,0 +1,9 @@
+[GameObjectClass]       
+ClassLabel          = "cloth"
+
+[Properties]
+AttachedMesh	= "nab2_prop_lampost1"
+WindSpeed	= 4.0
+
+Dampening	= 0.35		//Default 0.5. More Stiff 1.0, More Loose/Strechy 0.0.
+Drag       	= -2.0		//Default -2.0

@@ -1,0 +1,218 @@
+Version(1);
+RegionCount(23);
+
+Region("SoundStream imp_amb_hangar 1.0", 1)
+{
+    Layer(8);
+    Position(26.490320, 17.067734, -1526.937744);
+    Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+    Size(74.150864, 0.000000, 0.000000);
+    Name("ImpHangar-SR");
+}
+
+Region("soundtrigger imp_loudspeaker", 0)
+{
+    Layer(8);
+    Position(30.951509, 16.939463, -1530.767578);
+    Rotation(0.802084, 0.000000, 0.597258, 0.000000);
+    Size(42.220825, 20.675354, 55.972271);
+    Name("ImpHangar-SPKR");
+}
+
+Region("soundtrigger all_loudspeaker", 0)
+{
+    Layer(8);
+    Position(22.936657, -19.509888, 985.689514);
+    Rotation(0.998806, 0.000000, 0.049002, 0.000000);
+    Size(51.410259, 16.837448, 39.103374);
+    Name("AllHangar-SPKR");
+}
+
+Region("soundstream imp_amb_commandroom 1.0", 1)
+{
+    Layer(8);
+    Position(44.359608, 8.880085, -1587.428223);
+    Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+    Size(30.131947, 0.000000, 0.000000);
+    Name("ImpCommandRoom-SR");
+}
+
+Region("soundstream imp_amb_shieldgenroom 1.0", 1)
+{
+    Layer(8);
+    Position(51.186153, -2.321706, -1620.574097);
+    Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+    Size(23.824898, 0.000000, 0.000000);
+    Name("ImpShieldGenRoom-SR");
+}
+
+Region("soundstream imp_amb_engineroom 1.0", 1)
+{
+    Layer(8);
+    Position(8.125568, 8.401364, -1605.328735);
+    Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+    Size(24.262081, 0.000000, 0.000000);
+    Name("ImpEngineRoom-SR");
+}
+
+Region("soundstream imp_amb_serverroom 1.0", 1)
+{
+    Layer(8);
+    Position(79.412712, 10.382624, -1584.150513);
+    Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+    Size(23.334883, 0.000000, 0.000000);
+    Name("ImpServerroom-SR");
+}
+
+Region("soundstream all_amb_hangar 1.2", 1)
+{
+    Layer(8);
+    Position(21.253784, -17.367065, 985.195007);
+    Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+    Size(75.948471, 0.000000, 0.000000);
+    Name("AllHangar-SR");
+}
+
+Region("Soundstream all_amb_commandroom 1.0", 1)
+{
+    Layer(8);
+    Position(26.208454, -23.610613, 1046.088867);
+    Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+    Size(30.327591, 0.000000, 0.000000);
+    Name("AllCommandRoom-SR");
+}
+
+Region("Soundstream all_amb_serverroom 1.2", 1)
+{
+    Layer(8);
+    Position(-7.343021, -24.240360, 1056.498169);
+    Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+    Size(22.824492, 0.000000, 0.000000);
+    Name("AllServerroom-SR");
+}
+
+Region("Soundstream all_amb_enginerroom 1.2", 1)
+{
+    Layer(8);
+    Position(66.862129, -26.187325, 1048.773438);
+    Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+    Size(27.483683, 0.000000, 0.000000);
+    Name("AllEngineRoon-SR");
+}
+
+Region("Soundstream all_amb_shieldgenroom 1.2", 1)
+{
+    Layer(8);
+    Position(30.823914, -36.186348, 1079.444946);
+    Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+    Size(23.303457, 0.000000, 0.000000);
+    Name("AllShieldGenRoom-SR");
+}
+
+Region("rumble spa_rum_caves", 0)
+{
+    Layer(8);
+    Position(24.302195, -16.962105, 984.842346);
+    Rotation(0.998453, 0.000000, 0.056226, 0.000000);
+    Size(70.582359, 16.400494, 41.087475);
+    Name("AllRumbleRegion");
+    NextIsGrouped();
+}
+
+Region("rumble spa_rum_caves", 0)
+{
+    Layer(8);
+    Position(21.381893, 17.584419, -1531.447144);
+    Rotation(0.991215, 0.000000, -0.132431, 0.000000);
+    Size(72.717773, 24.061960, 43.140434);
+    Name("ImpRumble");
+    NextIsGrouped();
+}
+
+Region("rumble spa_rum_caves", 0)
+{
+    Layer(8);
+    Position(-7.616946, -21.807194, 1056.315063);
+    Rotation(0.998800, 0.000000, 0.049670, 0.000000);
+    Size(16.457268, 6.609006, 15.243782);
+    Name("AllRumble2");
+    NextIsGrouped();
+}
+
+Region("rumble spa_rum_caves", 0)
+{
+    Layer(8);
+    Position(27.063358, -25.465553, 1047.786255);
+    Rotation(0.998247, 0.000000, 0.059359, 0.000000);
+    Size(17.692368, 10.000000, 22.565281);
+    Name("AllRumble3");
+    NextIsGrouped();
+}
+
+Region("rumble spa_rum_caves", 0)
+{
+    Layer(8);
+    Position(31.686085, -34.604454, 1081.508423);
+    Rotation(0.998161, 0.000596, 0.059786, 0.009953);
+    Size(17.362835, 17.867455, 14.342896);
+    Name("AllRumble4");
+    NextIsGrouped();
+}
+
+Region("rumble spa_rum_caves", 0)
+{
+    Layer(8);
+    Position(64.298721, -26.670387, 1049.157837);
+    Rotation(0.998793, 0.000000, 0.049816, 0.000000);
+    Size(18.938524, 10.000000, 14.214302);
+    Name("AllRummble5");
+    NextIsGrouped();
+}
+
+Region("rumble spa_rum_caves", 0)
+{
+    Layer(8);
+    Position(81.103386, 10.463231, -1584.243042);
+    Rotation(0.991561, 0.000000, -0.129638, 0.000000);
+    Size(17.565369, 6.074351, 14.526192);
+    Name("ImpRumble2");
+    NextIsGrouped();
+}
+
+Region("rumble spa_rum_caves", 0)
+{
+    Layer(8);
+    Position(43.625237, 9.949190, -1590.979858);
+    Rotation(0.991930, 0.000000, -0.127179, 0.000000);
+    Size(21.350067, 8.041453, 18.509388);
+    Name("ImpRumble3");
+    NextIsGrouped();
+}
+
+Region("rumble spa_rum_caves", 0)
+{
+    Layer(8);
+    Position(50.477150, 1.435658, -1620.652588);
+    Rotation(0.991774, 0.000000, -0.128055, 0.000000);
+    Size(17.079590, 21.339890, 14.056593);
+    Name("ImpRumble4");
+    NextIsGrouped();
+}
+
+Region("rumble spa_rum_caves", 0)
+{
+    Layer(8);
+    Position(7.907344, 6.950422, -1604.926514);
+    Rotation(0.991828, 0.000000, -0.127615, 0.000000);
+    Size(18.941010, 5.439041, 13.964480);
+    Name("ImpRumble5");
+}
+
+Region("soundstream gcw_amb_space 1.0", 1)
+{
+    Layer(8);
+    Position(-307.186371, -590.828064, -309.327637);
+    Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+    Size(4343.149902, 0.100000, 0.100000);
+    Name("space_amb");
+}

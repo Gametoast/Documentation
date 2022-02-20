@@ -1,0 +1,166 @@
+Version(1);
+RegionCount(17);
+
+Region("DamageRegion damagerate=900 personscale=100 animalscale=100 droidscale=100 vehiclescale=100", 0)
+{
+	Layer(1);
+	Position(-68.986443, 31.280537, -22.385223);
+	Rotation(0.999959, 0.000000, -0.009735, 0.000000);
+	Size(57.173496, 28.117367, 77.889671);
+	Name("Region7");
+}
+
+Region("DamageRegion damagerate=1000 personscale=200 animalscale=200 droidscale=200 vehiclescale=200", 0)
+{
+	Layer(1);
+	Position(57.152374, -10.928261, -215.440475);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(186.813049, 77.110649, 127.296104);
+	Name("Region8");
+}
+
+Region("DamageRegion damagerate=900 personscale=100 animalscale=100 droidscale=100 vehiclescale=100", 0)
+{
+	Layer(1);
+	Position(-58.782871, 57.467518, -152.528671);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(62.086105, 10.000000, 10.000000);
+	Name("Region19");
+}
+
+Region("DamageRegion damagerate=1000 personscale=200 animalscale=200 droidscale=200 vehiclescale=200", 0)
+{
+	Layer(1);
+	Position(-60.516949, 29.308228, 7.505398);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(51.492508, 30.296307, 49.029144);
+	Name("Region14");
+	NextIsGrouped();
+}
+
+Region("DamageRegion damagerate=1000 personscale=200 animalscale=200 droidscale=200 vehiclescale=200", 0)
+{
+	Layer(1);
+	Position(100.162041, -259.667297, -80.158974);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(262.530304, 288.976959, 259.994537);
+	Name("Region13");
+}
+
+Region("rainshadow", 0)
+{
+	Layer(1);
+	Position(-33.669903, 66.379471, -75.579704);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(42.902115, 10.000000, 66.351204);
+	Name("Region3");
+	NextIsGrouped();
+}
+
+Region("rainshadow", 0)
+{
+	Layer(1);
+	Position(-14.225115, 65.591827, 9.874409);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(11.571301, 10.000000, 25.459373);
+	Name("Region11");
+	NextIsGrouped();
+}
+
+Region("rainshadow", 0)
+{
+	Layer(1);
+	Position(2.035240, 66.245567, -54.187946);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(10.500700, 10.000000, 45.423012);
+	Name("Region5");
+	NextIsGrouped();
+}
+
+Region("rainshadow", 0)
+{
+	Layer(1);
+	Position(24.510296, 65.955772, 18.775078);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(32.876797, 10.000000, 29.355188);
+	Name("Region4");
+	NextIsGrouped();
+}
+
+Region("rainshadow", 0)
+{
+	Layer(1);
+	Position(55.731480, 60.818062, 18.470560);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(31.573402, 10.000000, 20.497187);
+	Name("Region6");
+	NextIsGrouped();
+}
+
+Region("rainshadow", 0)
+{
+	Layer(1);
+	Position(65.261024, 57.201935, 33.610130);
+	Rotation(0.980044, -0.153985, 0.124134, 0.020058);
+	Size(21.186291, 5.382389, 9.999996);
+	Name("Region9");
+	NextIsGrouped();
+}
+
+Region("rainshadow", 0)
+{
+	Layer(1);
+	Position(67.417137, 53.923676, 2.665547);
+	Rotation(0.984484, 0.108188, -0.137475, 0.015192);
+	Size(19.072071, 9.999973, 10.000004);
+	Name("Region10");
+	NextIsGrouped();
+}
+
+Region("rainshadow", 0)
+{
+	Layer(1);
+	Position(59.318878, 63.767921, 19.441057);
+	Rotation(0.981912, 0.017628, 0.013497, -0.188071);
+	Size(10.000000, 10.000000, 10.000000);
+	Name("Region15");
+}
+
+Region("DamageRegion damagerate=1 personscale=50 animalscale=50 droidscale=50 vehiclescale=200", 0)
+{
+	Layer(1);
+	Position(-54.243397, 71.067177, -111.410561);
+	Rotation(0.913119, 0.000000, -0.407694, 0.000000);
+	Size(2.646095, 4.445877, 2.732809);
+	Name("Region0");
+	NextIsGrouped();
+}
+
+Region("DamageRegion damagerate=1 personscale=50 animalscale=50 droidscale=50 vehiclescale=200", 0)
+{
+	Layer(1);
+	Position(-37.627209, 65.847595, -111.274841);
+	Rotation(0.913298, 0.000000, 0.407379, 0.000000);
+	Size(2.519581, 11.560867, 2.578626);
+	Name("Region1");
+	NextIsGrouped();
+}
+
+Region("DamageRegion damagerate=1 personscale=50 animalscale=50 droidscale=50 vehiclescale=200", 0)
+{
+	Layer(1);
+	Position(-21.846413, 68.322746, -111.823174);
+	Rotation(0.925420, 0.000000, 0.378955, 0.000000);
+	Size(2.502060, 10.000000, 2.712044);
+	Name("Region2");
+	NextIsGrouped();
+}
+
+Region("DamageRegion damagerate=1 personscale=50 animalscale=50 droidscale=50 vehiclescale=200", 0)
+{
+	Layer(1);
+	Position(-5.140272, 72.854042, -111.674675);
+	Rotation(0.906566, -0.024623, 0.421127, -0.013881);
+	Size(2.804462, 10.000000, 2.440476);
+	Name("Region12");
+}

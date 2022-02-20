@@ -1,0 +1,43 @@
+SkyInfo()
+{
+	Enable(1);
+
+	PS2()
+	{
+		NearSceneRange(0.5, 60.0, 110.0);
+		NearSplitScreenRange(1.0, 60.0, 110.0);
+		FarSceneRange(150.000000);
+	
+	}
+	XBOX()
+	{
+		NearSceneRange(0.5, 60.0, 110.0);
+		NearSplitScreenRange(1.0, 60.0, 110.0);
+		FarSceneRange(150.000000);
+	}
+	PC()
+	{
+		NearSceneRange(60.0, 80.0, 80.0, 110.0);
+		FarSceneRange(400.000000, 2000.0);
+	}
+
+}
+
+
+DomeInfo()
+{
+	Texture("tan1_sky.tga");
+	Angle(-90.000000);
+	Ambient(255.000000, 255.000000, 255.000000);
+	TerrainColorDarkening();
+
+	Softness(1);
+	SoftnessParam(60);
+
+
+	DomeModel()
+	{	
+		Geometry("tan1_sky_dome");
+	}
+
+}

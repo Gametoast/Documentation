@@ -1,0 +1,53 @@
+[GameObjectClass]       
+
+ClassLabel      =   "prop"
+GeometryName    =   "tat3_bldg_torture_main.msh"
+
+
+[Properties]        
+
+GeometryName    =   "tat3_bldg_torture_main"
+
+
+AttachEffect = "prop_steampipe"
+
+AttachToHardPoint = "hp_steam_3"
+
+AttachEffect = "prop_steamgrate"
+AttachToHardPoint = "hp_steamgrate_1"
+
+AttachEffect = "prop_steamgrate"
+AttachToHardPoint = "hp_steamgrate_2"
+
+
+AttachOdf = "tat3_prop_flare02_light"
+AttachToHardPoint = "hp_flare"
+
+AttachOdf = "tat3_prop_flare02_light"
+AttachToHardPoint = "hp_flare1"
+
+AttachOdf = "tat3_prop_flare02_light"
+AttachToHardPoint = "hp_flare2"
+
+AttachOdf = "tat3_prop_flare02_light"
+AttachToHardPoint = "hp_flare3"
+
+
+AttachOdf = "tat3_prop_flare02_light"
+AttachToHardPoint = "hp_flare4"
+
+
+AttachOdf = "tat3_prop_flare02_light"
+AttachToHardPoint = "hp_flare5"
+
+
+AttachOdf = "tat3_prop_flare02_light"
+AttachToHardPoint = "hp_flare6"
+
+
+AttachOdf = "tat3_prop_flare02_light"
+AttachToHardPoint = "hp_flare7"
+
+
+
+FoleyFXGroup    = "stone_foley"

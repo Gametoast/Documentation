@@ -1,0 +1,89 @@
+Version(3);
+SaveType(0);
+
+Camera("camera")
+{
+	Rotation(0.779, 0.627, -0.015, 0.012);
+	Position(-62.240, 160.193, -203.254);
+	FieldOfView(55.400);
+	NearPlane(1.000);
+	FarPlane(500.000);
+	ZoomFactor(1.000);
+	Bookmark(-83.834, 426.399, -92.195,  0.501, 0.492, -0.508, 0.499);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+}
+LightName("myg1.LGT");
+TerrainName("myg1.ter");
+SkyName("myg1.sky");
+ScriptName("DummyScript.dll");
+ControllerManager("StandardCtrlMgr");
+
+WorldExtents()
+{
+	Min(0.000000, 0.000000, 0.000000);
+	Max(0.000000, 0.000000, 0.000000);
+}
+
+NextSequence(-1447548);
+
+Object("myg1_bldg_sky_mountains", "myg1_bldg_sky_mountains", 801952904)
+{
+	ChildRotation(0.902, 0.000, 0.432, 0.000);
+	ChildPosition(-253.548, -13.923, -210.312);
+	SeqNo(801952904);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("myg1_bldg_sky_mountains4", "myg1_bldg_sky_mountains", 1326348482)
+{
+	ChildRotation(-0.081, 0.000, -0.997, 0.000);
+	ChildPosition(152.913, -11.200, -58.503);
+	SeqNo(1326348482);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("myg1_bldg_sky_mountains2", "myg1_bldg_sky_mountains", -1731882419)
+{
+	ChildRotation(-0.356, 0.000, -0.935, 0.000);
+	ChildPosition(12.000, -13.615, 224.000);
+	SeqNo(-1731882419);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("myg1_bldg_sky_mountains5", "myg1_bldg_sky_mountains", -961088412)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(224.040, -4.701, 208.993);
+	SeqNo(-961088412);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("myg1_bldg_sky_mountains3", "myg1_bldg_sky_mountains", -731263318)
+{
+	ChildRotation(0.305, 0.000, -0.952, 0.000);
+	ChildPosition(-309.463, -11.932, -27.444);
+	SeqNo(-731263318);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("myg1_bldg_sky_mountains1", "myg1_bldg_sky_mountains", -424417052)
+{
+	ChildRotation(1.000, 0.000, 0.013, 0.000);
+	ChildPosition(107.866, -9.285, -220.589);
+	SeqNo(-424417052);
+	Team(0);
+	NetworkId(-1);
+}

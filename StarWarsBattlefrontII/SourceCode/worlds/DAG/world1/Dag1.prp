@@ -1,0 +1,63 @@
+Layer(0)
+{
+	SpreadFactor(0.3);
+	Mesh()
+	{
+		GrassPatch("dag1_prop_grass.odf", 60);
+		File("editor_grasspatch.msh", 50);
+		Frequency(100);
+		Scale(1);
+		Stiffness(0.0);
+		Sound("dag_amb_wildlife", 5.0, 1.0);
+		CollisionSound("foliage_collision");
+	}
+	Mesh()
+	{
+		GrassPatch("dag1_prop_grass.odf", 50);
+		File("editor_grasspatch.msh", 40);
+		Frequency(100);
+		Scale(1);
+		Stiffness(0.0);
+		Sound("dag_amb_wildlife", 8.0, 2.0);
+		CollisionSound("foliage_collision");
+	}
+
+}
+
+
+TreeLine()
+{
+	Path("hell_bush")
+	{
+		Distance(28);
+		BorderOdf("dag1_prop_hellbush.odf");
+	}
+	Path("hell_bush")
+	{
+		Flip();
+		Distance(28);
+		BorderOdf("dag1_prop_hellbush_2.odf");
+	}
+	Path("jungle3")
+	{
+		Distance(28);
+		BorderOdf("yav_prop_treebillboard.odf");
+	}
+	Path("jungle4")
+	{
+		Distance(28);
+		BorderOdf("yav_prop_treebillboard.odf");
+	}
+	Path("jungle5")
+	{
+		Distance(28);
+		BorderOdf("yav_prop_treebillboard.odf");
+	}
+	Path("jungle6")
+	{
+		Distance(28);
+		BorderOdf("yav_prop_treebillboard.odf");
+	}
+}
+
+

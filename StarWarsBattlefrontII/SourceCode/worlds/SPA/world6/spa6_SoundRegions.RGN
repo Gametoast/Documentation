@@ -1,0 +1,119 @@
+Version(1);
+RegionCount(13);
+
+Region("Soundstream shieldgenroom 1.5", 1)
+{
+    Layer(12);
+    Position(-937.126953, -145.971634, -134.566803);
+    Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+    Size(23.138376, 0.000000, 0.000000);
+    Name("CISShieldGen-SR");
+}
+
+Region("Soundstream hangar 1.2", 1)
+{
+    Layer(12);
+    Position(-1017.084961, -134.298355, -226.986786);
+    Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+    Size(135.317627, 0.000000, 0.000000);
+    Name("CISHangar-SR");
+}
+
+Region("Soundstream serverroom 1.4", 1)
+{
+    Layer(12);
+    Position(-981.013855, -139.767151, -128.674561);
+    Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+    Size(23.205950, 0.000000, 0.000000);
+    Name("CISServerroom-SR");
+}
+
+Region("Soundstream Enginenroom 1.3", 1)
+{
+    Layer(12);
+    Position(-929.087585, -141.925262, -179.954025);
+    Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+    Size(24.522261, 0.000000, 0.000000);
+    Name("CISEngineroom-SR");
+}
+
+Region("Soundstream commandroom 1.4", 1)
+{
+    Layer(12);
+    Position(-961.943054, -140.681961, -156.551178);
+    Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+    Size(30.357546, 0.000000, 0.000000);
+    Name("CISCommandroom-SR");
+}
+
+Region("Soundstream rep_amb_hangar", 1)
+{
+    Layer(12);
+    Position(-453.409271, 10.466241, 1218.693726);
+    Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+    Size(74.350258, 0.000000, 0.000000);
+    Name("RepHangar-SR");
+}
+
+Region("soundstream cw-space_amb 1.0", 1)
+{
+    Layer(12);
+    Position(-548.077637, 106.113327, 438.063110);
+    Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+    Size(3477.957275, 10.000000, 10.000000);
+    Name("space_amb");
+}
+
+Region("Soundstream rep_amb_shieldgenroom", 1)
+{
+    Layer(12);
+    Position(-430.351379, -5.837650, 1312.371948);
+    Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+    Size(23.292757, 0.000000, 0.000000);
+    Name("Rep_shieldgeneroomero");
+}
+
+Region("Soundstream rep_amb_engineroom 1.2", 1)
+{
+    Layer(12);
+    Position(-399.886261, 2.566698, 1274.192017);
+    Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+    Size(27.264107, 0.000000, 0.000000);
+    Name("Rep_Engineroom-SR");
+}
+
+Region("Soundstream rep_amb_commandroom 1.2", 1)
+{
+    Layer(12);
+    Position(-440.916748, 3.447165, 1281.168335);
+    Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+    Size(29.273096, 0.000000, 0.000000);
+    Name("Rep_commandroom-SR");
+}
+
+Region("Soundstream rep_amb_serverroom 1.2", 1)
+{
+    Layer(12);
+    Position(-473.678680, 4.824584, 1299.644043);
+    Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+    Size(23.505728, 0.000000, 0.000000);
+    Name("Rep_serverroom-SR");
+}
+
+Region("Soundtrigger rep_loudspeaker", 0)
+{
+    Layer(12);
+    Position(-461.629242, 9.631384, 1217.045410);
+    Rotation(0.986288, 0.000000, 0.165095, 0.000000);
+    Size(55.209656, 19.626667, 46.984303);
+    Name("RepHangar-spkr");
+}
+
+Region("Soundtrigger cis_loudspeaker", 0)
+{
+    Layer(12);
+    Position(-1019.630493, -137.933777, -221.206116);
+    Rotation(0.929882, 0.000000, 0.367883, 0.000000);
+    Size(112.590820, 18.158890, 73.371643);
+    Name("CISHangar-SPKR");
+}

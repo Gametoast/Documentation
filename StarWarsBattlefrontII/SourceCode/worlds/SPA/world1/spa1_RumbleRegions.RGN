@@ -1,0 +1,148 @@
+Version(1);
+RegionCount(15);
+
+Region("rumble spa_rum_caves hangar", 0)
+{
+	Layer(9);
+	Position(-1965.130737, -137.856842, 207.635696);
+	Rotation(0.768892, 0.000000, -0.639388, 0.000000);
+	Size(59.879059, 22.583261, 66.115242);
+	Name("AllHangar");
+}
+
+Region("rumble spa_rum_caves hangar", 0)
+{
+	Layer(9);
+	Position(720.692932, 229.692871, 80.249451);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(59.814980, 22.339518, 82.025970);
+	Name("IMPHangar");
+}
+
+Region("rumble spa_rum_engines hangar", 1)
+{
+	Layer(9);
+	Position(965.131714, 231.102829, -973.456604);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(104.892578, 67.103088, 10.000000);
+	Name("i_eng01_rum");
+	NextIsGrouped();
+}
+
+Region("rumble spa_rum_engines hangar", 1)
+{
+	Layer(9);
+	Position(1283.564819, 221.850433, -976.096008);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(10.000000, 125.693375, 10.000000);
+	Name("i_eng02_rum");
+	NextIsGrouped();
+}
+
+Region("rumble spa_rum_engines hangar", 1)
+{
+	Layer(9);
+	Position(1560.607178, 225.996552, -839.785400);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(10.000000, 116.441589, 10.000000);
+	Name("i_eng03_rum");
+	NextIsGrouped();
+}
+
+Region("rumble spa_rum_engines hangar", 1)
+{
+	Layer(9);
+	Position(-2895.650635, -106.236778, -467.069244);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(10.000000, 86.734276, 10.000000);
+	Name("a_eng01_rum");
+	NextIsGrouped();
+}
+
+Region("rumble spa_rum_engines hangar", 1)
+{
+	Layer(9);
+	Position(-3003.698975, -129.689301, -396.680817);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(10.000000, 78.469330, 10.000000);
+	Name("a_eng02_rum");
+	NextIsGrouped();
+}
+
+Region("rumble spa_rum_engines hangar", 1)
+{
+	Layer(9);
+	Position(-3558.412354, -93.600266, -280.280396);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(10.000000, 67.921814, 10.000000);
+	Name("a_eng03_rum");
+	NextIsGrouped();
+}
+
+Region("rumble spa_rum_engines hangar", 1)
+{
+	Layer(9);
+	Position(-3604.684082, -227.313156, -249.845963);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(10.000000, 62.731087, 10.000000);
+	Name("a_eng04_rum");
+	NextIsGrouped();
+}
+
+Region("rumble spa_rum_engines hangar", 1)
+{
+	Layer(9);
+	Position(-3595.284424, -230.999390, -36.931068);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(10.000000, 56.744339, 10.000000);
+	Name("a_eng05_rum");
+	NextIsGrouped();
+}
+
+Region("rumble spa_rum_engines hangar", 1)
+{
+	Layer(9);
+	Position(-3547.328857, -95.307579, -20.520332);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(10.000000, 67.821800, 10.000000);
+	Name("a_eng06_rum");
+	NextIsGrouped();
+}
+
+Region("rumble spa_rum_engines hangar", 1)
+{
+	Layer(9);
+	Position(-3023.765625, -124.839050, 104.110893);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(10.000000, 59.077461, 10.000000);
+	Name("a_eng07_rum");
+	NextIsGrouped();
+}
+
+Region("rumble spa_rum_engines hangar", 1)
+{
+	Layer(9);
+	Position(-2922.312256, -115.697479, 160.812469);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(59.888672, 10.000000, 10.000000);
+	Name("a_eng08_rum");
+}
+
+Region("rumble spa_rum_shield hangar", 2)
+{
+	Layer(9);
+	Position(793.047241, 216.329056, 77.372009);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(5.690247, 10.000000, 0.347780);
+	Name("i_shield_rum");
+	NextIsGrouped();
+}
+
+Region("rumble spa_rum_shield hangar", 2)
+{
+	Layer(9);
+	Position(-1977.590210, -144.368256, 135.647614);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(0.100000, 10.000000, 5.888397);
+	Name("a_shield_rum");
+}

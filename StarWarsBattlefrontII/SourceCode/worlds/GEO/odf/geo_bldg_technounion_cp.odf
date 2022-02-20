@@ -1,0 +1,293 @@
+[GameObjectClass]
+ClassLabel				=	"commandpost"
+GeometryName			=	"geo_bldg_technounion.msh"
+
+
+[Properties]
+
+SwitchClassRadius = 15.0
+
+BUILDINGSECTION 		= "BODY"
+Label 					= "Control Zone"
+MapTexture 				= "hud_dest_icon"
+MapScale 				= 3.0
+
+GeometryName			="geo_bldg_technounion"
+\\DestroyedGeometryName 		= "geo_bldg_technounion_hulk"
+MaxHealth 			= "20000.0"
+
+ExplosionName			= "geo_bldg_technounion_exp"
+ExplosionOffset      		= "0.0 35.18 0.0"
+
+AnimationName			="geo_bldg_technounion"
+IdleAnimation			="idle"
+DeathAnimation			= "destroy"
+
+DamageStartPercent	= 85.0
+--DamageStopPercent		= 0.0
+--DamageEffect			= "com_sfx_vehiclespark"
+--DamageEffectScale		= 1.5
+--DamageInheritVelocity	= 0.0
+--DamageAttachPoint		= "hp_damage2"
+
+--DamageStartPercent		= 70.0
+--DamageStopPercent		= 0.0
+--DamageEffect			= "com_sfx_vehiclesmoke"
+--DamageEffectScale		= 1.5
+--DamageInheritVelocity	= 0.0
+--DamageAttachPoint		= "hp_damage1"
+
+--DamageStartPercent		= 55.0
+--DamageStopPercent		= 0.0
+--DamageEffect			= "com_sfx_vehicleflame"
+--DamageEffectScale		= 1.5
+--DamageInheritVelocity	= 0.0
+--DamageAttachPoint		= "hp_damage3"
+
+--DamageStartPercent		= 40.0
+--DamageStopPercent		= 0.0
+--DamageEffect			= "com_sfx_vehicleflame"
+--DamageEffectScale		= 1.5
+--DamageInheritVelocity	= 0.0
+--DamageAttachPoint		= "hp_damage1"
+
+--DamageStartPercent	= 25.0
+--DamageStopPercent		= 0.0
+--DamageEffect			= "com_sfx_vehicleflame"
+--DamageEffectScale		= 1.5
+--DamageInheritVelocity	= 0.0
+--DamageAttachPoint		= "hp_damage2"
+
+EnableDeathExplosions = "1"
+
+DeathEffect	= "super_explosion hp_explode1"
+DeathEffect	= "super_explosion hp_explode2"
+DeathEffect	= "super_explosion hp_explode3"
+DeathEffect	= "super_explosion hp_explode4"
+DeathEffect	= "super_explosion hp_explode5"
+
+VehicleCollision 		= "p_vehicle"
+
+SoldierCollision 		= "CollisionMesh"
+SoldierCollision 		= "p_collision"
+SoldierCollision 		= "p_collision6"
+SoldierCollision 		= "p_collision7"
+SoldierCollision 		= "p_collision8"
+SoldierCollision 		= "p_collision9"
+SoldierCollision 		= "p_collision10"
+SoldierCollision 		= "p_collision11"
+SoldierCollision 		= "p_collision12"
+SoldierCollision 		= "p_collision13"
+SoldierCollision 		= "p_collision14"
+SoldierCollision 		= "p_collision22"
+SoldierCollision 		= "p_collision23"
+SoldierCollision 		= "p_collision24"
+SoldierCollision 		= "p_collision27"
+SoldierCollision 		= "p_collision28"
+
+OrdnanceCollision 		= "CollisionMesh"
+OrdnanceCollision 		= "p_collision"
+OrdnanceCollision 		= "p_collision6"
+OrdnanceCollision 		= "p_collision7"
+OrdnanceCollision 		= "p_collision8"
+OrdnanceCollision 		= "p_collision9"
+OrdnanceCollision 		= "p_collision10"
+OrdnanceCollision 		= "p_collision11"
+OrdnanceCollision 		= "p_collision12"
+OrdnanceCollision 		= "p_collision13"
+OrdnanceCollision 		= "p_collision14"
+OrdnanceCollision 		= "p_collision22"
+OrdnanceCollision 		= "p_collision23"
+OrdnanceCollision 		= "p_collision24"
+OrdnanceCollision 		= "p_collision27"
+OrdnanceCollision 		= "p_collision28"
+
+CHUNKSECTION 		= "CHUNK1"
+ChunkGeometryName 	= "geo_bldg_technounion_hulk"
+ChunkNodeName 		= ""
+ChunkPhysics 		= "STATIC"
+
+CHUNKSECTION 		= "CHUNK2"
+ChunkGeometryName 	= "geo_bldg_technounion_chunk1"
+ChunkNodeName 		= ""
+ChunkTerrainCollisions 	= "2"
+ChunkTerrainEffect 	= "dirtspray"
+ChunkPhysics 		= "FULL"
+ChunkOmega 		= "3.0 1.0 2.5"
+ChunkBounciness 		= 0.35
+ChunkStickiness 		= 0.55
+ChunkSpeed		= "21.0"
+ChunkUpFactor		= "8.00"
+ChunkTrailEffect 		= "com_sfx_chunktrail_sm"
+ChunkLinearDamping	=	"0.6"
+ChunkAngularDamping	=	"0.5"
+
+
+CHUNKSECTION 		= "CHUNK3"
+ChunkGeometryName 	= "geo_bldg_technounion_chunk2"
+ChunkNodeName 		= ""
+ChunkTerrainCollisions 	= "7"
+ChunkTerrainEffect 	= "dirtspray"
+ChunkPhysics 		= "FULL"
+ChunkOmega 		= "2.5 1.5 2.3"
+ChunkBounciness 		= 0.25
+ChunkStickiness 		= 0.55
+ChunkSpeed		= "28.0"
+ChunkUpFactor		= "11.00"
+ChunkTrailEffect 		= "com_sfx_chunktrail_sm"
+ChunkLinearDamping	=	"0.6"
+ChunkAngularDamping	=	"0.5"
+
+
+CHUNKSECTION 		= "CHUNK4"
+ChunkGeometryName 	= "geo_bldg_technounion_chunk3"
+ChunkNodeName 		= ""
+ChunkTerrainCollisions 	= "0"
+ChunkTerrainEffect 	= "dirtspray"
+ChunkTrailEffect		= "com_sfx_chunktrail_sm"
+ChunkPhysics 		= "FULL"
+ChunkOmega 		= "2.5 0.4 2.5"
+ChunkSpeed		= "15.0"
+ChunkUpFactor		= "3.00"
+ChunkLinearDamping	=	"0.6"
+ChunkAngularDamping	=	"0.5"
+
+
+CHUNKSECTION 		= "CHUNK5"
+ChunkGeometryName 	= "geo_bldg_technounion_chunk4"
+ChunkNodeName 		= ""
+ChunkTerrainCollisions 	= "0"
+ChunkTerrainEffect 	= "com_sfx_explosion_lg"
+ChunkPhysics 		= "FULL"
+ChunkOmega 		= "0.5 0.4 0.5"
+ChunkBounciness 		= 0.05
+ChunkStickiness 		= 0.55
+ChunkSpeed		= "19.0"
+ChunkUpFactor		= "7.00"
+ChunkTrailEffect 		= "com_sfx_chunktrail_sm"
+ChunkLinearDamping	=	"0.6"
+ChunkAngularDamping	=	"0.5"
+
+
+CHUNKSECTION 		= "CHUNK6"
+ChunkGeometryName 	= "geo_bldg_technounion_chunk5"
+ChunkNodeName 		= ""
+ChunkTerrainCollisions 	= "1"
+ChunkTerrainEffect 	= "com_sfx_explosion_lg"
+ChunkPhysics 		= "FULL"
+ChunkOmega 		= "2.2 1.3 2.1"
+ChunkBounciness 		= 0.15
+ChunkStickiness 		= 0.45
+ChunkSpeed		= "23.0"
+ChunkUpFactor		= "1.00"
+ChunkTrailEffect 		= "com_sfx_chunktrail_sm"
+ChunkLinearDamping	=	"0.6"
+ChunkAngularDamping	=	"0.5"
+
+
+CHUNKSECTION 		= "CHUNK7"
+ChunkGeometryName 	= "geo_bldg_technounion_chunk6"
+ChunkNodeName 		= ""
+ChunkTerrainCollisions 	= "8"
+ChunkPhysics 		= "FULL"
+ChunkTerrainEffect 	= "com_sfx_explosion_lg"
+ChunkOmega 		= "0.6 0.5 0.9"
+ChunkBounciness 		= 0.10
+ChunkStickiness 		= 0.25
+ChunkSpeed		= "28.0"
+ChunkUpFactor		= "5.00"
+ChunkTrailEffect 		= "com_sfx_chunktrail_sm"
+ChunkLinearDamping	=	"0.6"
+ChunkAngularDamping	=	"0.5"
+
+
+CHUNKSECTION 		= "CHUNK8"
+ChunkGeometryName 	= "geo_bldg_technounion_chunk7"
+ChunkNodeName 		= ""
+ChunkTerrainCollisions 	= "3"
+ChunkPhysics 		= "FULL"
+ChunkTerrainEffect 	= "com_sfx_explosion_lg"
+ChunkOmega 		= "1.4 0.7 1.1"
+ChunkBounciness 		= 0.15
+ChunkStickiness 		= 0.55
+ChunkSpeed		= "18.0"
+ChunkUpFactor		= "6.00"
+ChunkTrailEffect 		= "com_sfx_chunktrail_sm"
+ChunkLinearDamping	=	"0.6"
+ChunkAngularDamping	=	"0.5"
+
+
+
+[InstanceProperties]
+CaptureRegion = ""
+ControlRegion = ""
+KillRegion = ""
+SpawnPath = ""
+AllyPath = ""
+AllyCount = 65536
+Radius = 0.0
+ValueBleed = 10
+Value_ATK_Alliance = 10
+Value_ATK_CIS = 10
+Value_ATK_Empire = 10
+Value_ATK_Republic = 10
+Value_DEF_Alliance = 10
+Value_DEF_CIS = 10
+Value_DEF_Empire = 10
+Value_DEF_Republic = 10
+Value_DEF_Locals = 10
+VO_All_AllCapture = ""
+VO_All_AllLost = ""
+VO_All_AllInDispute = ""
+VO_All_AllSaved = ""
+VO_All_AllInfo = ""
+VO_All_ImpCapture = ""
+VO_All_ImpLost = ""
+VO_All_ImpInDispute = ""
+VO_All_ImpSaved = ""
+VO_All_ImpInfo = ""
+VO_Imp_AllCapture = ""
+VO_Imp_AllLost = ""
+VO_Imp_AllInDispute = ""
+VO_Imp_AllSaved = ""
+VO_Imp_AllInfo = ""
+VO_Imp_ImpCapture = ""
+VO_Imp_ImpLost = ""
+VO_Imp_ImpInDispute = ""
+VO_Imp_ImpSaved = ""
+VO_Imp_ImpInfo = ""
+VO_Rep_RepCapture = ""
+VO_Rep_RepLost = ""
+VO_Rep_RepInDispute = ""
+VO_Rep_RepSaved = ""
+VO_Rep_RepInfo = ""
+VO_Rep_CISCapture = ""
+VO_Rep_CISLost = ""
+VO_Rep_CISInDispute = ""
+VO_Rep_CISSaved = ""
+VO_Rep_CISInfo = ""
+VO_CIS_RepCapture = ""
+VO_CIS_RepLost = ""
+VO_CIS_RepInDispute = ""
+VO_CIS_RepSaved = ""
+VO_CIS_RepInfo = ""
+VO_CIS_CISCapture = ""
+VO_CIS_CISLost = ""
+VO_CIS_CISInDispute = ""
+VO_CIS_CISSaved = ""
+VO_CIS_CISInfo = ""
+Strategic_Filter1 = ""
+Strategic_Filter2 = ""
+Strategic_Filter3 = ""
+Strategic_Filter4 = ""
+Strategic_Filter5 = ""
+Strategic_Filter6 = ""
+SoldierBan = ""
+HoverBan = ""
+SmallBan = ""
+MediumBan = ""
+HugeBan = ""
+
+CollisionScale 	= 100.0
+
+FoleyFXGroup    = "metal_foley"

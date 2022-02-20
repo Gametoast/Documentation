@@ -1,0 +1,123 @@
+Version(1);
+NextID(1);
+
+Layer("[Base]", 0, 8)
+{
+	Description("");
+}
+
+Layer("C_Ships", 1, 0)
+{
+	Description("");
+}
+
+Layer("C_Gameplay", 2, 0)
+{
+	Description("");
+}
+
+Layer("C_Turrets", 3, 17)
+{
+	Description("");
+}
+
+Layer("Flightpaths", 4, 17)
+{
+	Description("");
+}
+
+Layer("OBJ_turrets", 5, 17)
+{
+	Description("");
+}
+
+Layer("HangarWars", 6, 0)
+{
+	Description("");
+}
+
+Layer("Shadows", 7, 17)
+{
+	Description("");
+}
+
+Layer("2_flag_CTF", 8, 17)
+{
+	Description("");
+}
+
+Layer("swing_camp", 9, 17)
+{
+	Description("");
+}
+
+Layer("swing_obj", 10, 17)
+{
+	Description("");
+}
+
+Layer("SoundRegions", 11, 17)
+{
+	Description("");
+}
+
+Layer("SoundSpaces", 12, 17)
+{
+	Description("");
+}
+
+Layer("SoundEmitters", 13, 17)
+{
+	Description("");
+}
+
+Layer("swing turrets", 14, 17)
+{
+	Description("");
+}
+
+Layer("Rumbles", 15, 17)
+{
+	Description("");
+}
+
+Layer("CISFrigate", 16, 17)
+{
+	Description("");
+}
+
+
+GameMode("Common")
+{
+	Layer(0);
+	Layer(1);
+	Layer(2);
+	Layer(4);
+	Layer(5);
+	Layer(6);
+	Layer(7);
+	Layer(11);
+	Layer(12);
+	Layer(13);
+	Layer(15);
+}
+
+GameMode("ctf")
+{
+	Layer(8);
+	Layer(14);
+}
+
+GameMode("Obj")
+{
+	Layer(10);
+	Layer(14);
+	Layer(16);
+}
+
+GameMode("campaign")
+{
+	Layer(3);
+	Layer(9);
+}
+

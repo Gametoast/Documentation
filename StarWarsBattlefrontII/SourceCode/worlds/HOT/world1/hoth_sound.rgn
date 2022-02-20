@@ -1,0 +1,48 @@
+Version(1);
+RegionCount(5);
+
+Region("SoundStream hot_amb_wind 1.0", 1)
+{
+	Layer(1);
+	Position(-264.079163, -60.926155, -0.116089);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(795.534851, 340.997131, 0.100000);
+	Name("GlbalAmb-SR");
+}
+
+Region("soundstream hot_amb_tunnel 1.3", 1)
+{
+	Layer(1);
+	Position(-443.965271, -11.579986, 160.831024);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(60.766304, 0.000000, 0.000000);
+	Name("MidTunnels-SR");
+}
+
+Region("soundstream hot_amb_tunnel 1.2", 1)
+{
+	Layer(1);
+	Position(-386.048706, 6.602048, 88.352684);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(67.906227, 0.000000, 0.000000);
+	Name("MainTunnels-SR");
+}
+
+Region("SoundStream hot_amb_hangar 1.2", 1)
+{
+	Layer(1);
+	Position(-497.056244, 5.563468, 94.836479);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(64.970520, 0.000000, 0.000000);
+	Name("Hangar-SR");
+	NextIsGrouped();
+}
+
+Region("SoundStream hot_amb_hangar 1.2", 1)
+{
+	Layer(1);
+	Position(-396.895538, 4.850209, 226.192734);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(64.131500, 0.000000, 0.000000);
+	Name("RearHangar-SR");
+}

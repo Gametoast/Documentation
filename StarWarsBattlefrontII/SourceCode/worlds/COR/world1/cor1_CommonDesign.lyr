@@ -1,0 +1,358 @@
+Version(3);
+SaveType(0);
+
+Camera("camera")
+{
+	Rotation(-0.448, -0.062, -0.883, 0.122);
+	Position(37.819, 22.408, 30.585);
+	FieldOfView(55.400);
+	NearPlane(1.000);
+	FarPlane(5000.000);
+	ZoomFactor(1.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 9.440,  1.000, 0.000, 0.000, 0.000);
+}
+LightName("cor1_CommonDesign.LGT");
+ControllerManager("StandardCtrlMgr");
+
+WorldExtents()
+{
+	Min(0.000000, 0.000000, 0.000000);
+	Max(0.000000, 0.000000, 0.000000);
+}
+
+NextSequence(-3705784);
+
+Object("tur_bldg_laser20", "tur_bldg_laser", 211030910)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(24.743, 7.001, 63.513);
+	SeqNo(211030910);
+	Team(0);
+	NetworkId(-1);
+	Layer(6);
+}
+
+Object("com_item_healthrecharge8", "com_item_healthrecharge", 224355803)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-37.314, 3.005, 88.404);
+	SeqNo(224355803);
+	Team(0);
+	NetworkId(-1);
+	Layer(6);
+	EffectRegion("");
+	Radius("5.0");
+}
+
+Object("com_item_healthrecharge", "com_item_healthrecharge", 385737299)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-14.000, 3.000, 51.000);
+	SeqNo(385737299);
+	Team(0);
+	NetworkId(-1);
+	Layer(6);
+	EffectRegion("");
+	Radius("5.0");
+}
+
+Object("com_item_healthrecharge7", "com_item_healthrecharge", 395150524)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(101.000, 15.000, 90.000);
+	SeqNo(395150524);
+	Team(0);
+	NetworkId(-1);
+	Layer(6);
+	EffectRegion("");
+	Radius("5.0");
+}
+
+Object("tur_bldg_laser17", "tur_bldg_laser", 459098157)
+{
+	ChildRotation(0.500, 0.000, -0.866, 0.000);
+	ChildPosition(24.463, 6.988, 117.737);
+	SeqNo(459098157);
+	Team(0);
+	NetworkId(-1);
+	Layer(6);
+}
+
+Object("com_item_healthrecharge6", "com_item_healthrecharge", 521538864)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(88.774, 15.000, 19.107);
+	SeqNo(521538864);
+	Team(0);
+	NetworkId(-1);
+	Layer(6);
+	EffectRegion("");
+	Radius("5.0");
+}
+
+Object("tur_bldg_laser89", "tur_bldg_laser", 639908789)
+{
+	ChildRotation(0.738, 0.000, 0.674, 0.000);
+	ChildPosition(-21.000, 7.000, 95.000);
+	SeqNo(639908789);
+	Team(0);
+	NetworkId(-1);
+	Layer(6);
+}
+
+Object("com_item_weaponrecharge", "com_item_weaponrecharge", 641279217)
+{
+	ChildRotation(1.000, 0.000, 0.010, 0.000);
+	ChildPosition(-6.000, 3.000, 115.000);
+	SeqNo(641279217);
+	Team(0);
+	NetworkId(-1);
+	Layer(6);
+	EffectRegion("");
+	Radius("5.0");
+}
+
+Object("com_item_healthrecharge0", "com_item_healthrecharge", 646604625)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(83.017, 6.879, 96.590);
+	SeqNo(646604625);
+	Team(0);
+	NetworkId(-1);
+	Layer(6);
+	EffectRegion("");
+	Radius("5.0");
+}
+
+Object("com_item_weaponrecharge9", "com_item_weaponrecharge", 740458456)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-62.061, 3.020, 87.396);
+	SeqNo(740458456);
+	Team(0);
+	NetworkId(-1);
+	Layer(6);
+	EffectRegion("");
+	Radius("5.0");
+}
+
+Object("tur_bldg_laser8", "tur_bldg_laser", 822028173)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-50.003, 7.029, 12.905);
+	SeqNo(822028173);
+	Team(0);
+	NetworkId(-1);
+	Layer(6);
+}
+
+Object("com_item_healthrecharge1", "com_item_healthrecharge", 1282272133)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-37.576, 2.889, 116.067);
+	SeqNo(1282272133);
+	Team(0);
+	NetworkId(-1);
+	Layer(6);
+	EffectRegion("");
+	Radius("5.0");
+}
+
+Object("tur_bldg_laser34", "tur_bldg_laser", 1311936970)
+{
+	ChildRotation(-0.001, 0.000, -1.000, 0.000);
+	ChildPosition(11.302, 3.000, 169.978);
+	SeqNo(1311936970);
+	Team(0);
+	NetworkId(-1);
+	Layer(6);
+}
+
+Object("tur_bldg_laser14", "tur_bldg_laser", 1341753592)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(84.831, 14.998, 114.307);
+	SeqNo(1341753592);
+	Team(0);
+	NetworkId(-1);
+	Layer(6);
+}
+
+Object("tur_bldg_laser13", "tur_bldg_laser", 1462647810)
+{
+	ChildRotation(0.711, 0.000, -0.703, 0.000);
+	ChildPosition(82.665, 6.982, 113.244);
+	SeqNo(1462647810);
+	Team(0);
+	NetworkId(-1);
+	Layer(6);
+}
+
+Object("com_item_weaponrecharge0", "com_item_weaponrecharge", 1514054997)
+{
+	ChildRotation(0.921, 0.000, -0.389, 0.000);
+	ChildPosition(-37.195, 3.022, 105.469);
+	SeqNo(1514054997);
+	Team(0);
+	NetworkId(-1);
+	Layer(6);
+	EffectRegion("");
+	Radius("5.0");
+}
+
+Object("tur_bldg_laser16", "tur_bldg_laser", 1729246708)
+{
+	ChildRotation(0.718, 0.000, 0.696, 0.000);
+	ChildPosition(-20.193, 7.003, 34.763);
+	SeqNo(1729246708);
+	Team(0);
+	NetworkId(-1);
+	Layer(6);
+}
+
+Object("com_item_healthrecharge2", "com_item_healthrecharge", 2095006215)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-53.744, 2.999, 66.337);
+	SeqNo(2095006215);
+	Team(0);
+	NetworkId(-1);
+	Layer(6);
+	EffectRegion("");
+	Radius("5.0");
+}
+
+Object("tur_bldg_laser15", "tur_bldg_laser", 2126783735)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(-5.407, 3.000, 169.998);
+	SeqNo(2126783735);
+	Team(0);
+	NetworkId(-1);
+	Layer(6);
+}
+
+Object("com_item_weaponrecharge8", "com_item_weaponrecharge", -1411453757)
+{
+	ChildRotation(0.703, 0.000, -0.711, 0.000);
+	ChildPosition(101.000, 15.000, 82.000);
+	SeqNo(-1411453757);
+	Team(0);
+	NetworkId(-1);
+	Layer(6);
+	EffectRegion("");
+	Radius("5.0");
+}
+
+Object("tur_bldg_laser18", "tur_bldg_laser", -1376662824)
+{
+	ChildRotation(-0.383, 0.000, -0.924, 0.000);
+	ChildPosition(-20.195, 6.976, 121.203);
+	SeqNo(-1376662824);
+	Team(0);
+	NetworkId(-1);
+	Layer(6);
+}
+
+Object("com_item_weaponrecharge1", "com_item_weaponrecharge", -1150690551)
+{
+	ChildRotation(0.697, 0.000, -0.717, 0.000);
+	ChildPosition(88.628, 15.014, 110.945);
+	SeqNo(-1150690551);
+	Team(0);
+	NetworkId(-1);
+	Layer(6);
+	EffectRegion("");
+	Radius("5.0");
+}
+
+Object("tur_bldg_laser19", "tur_bldg_laser", -1057787797)
+{
+	ChildRotation(0.707, 0.000, 0.707, 0.000);
+	ChildPosition(-20.559, 6.963, 78.045);
+	SeqNo(-1057787797);
+	Team(0);
+	NetworkId(-1);
+	Layer(6);
+}
+
+Object("com_item_healthrecharge3", "com_item_healthrecharge", -1010129891)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(10.000, 3.000, 115.000);
+	SeqNo(-1010129891);
+	Team(0);
+	NetworkId(-1);
+	Layer(6);
+	EffectRegion("");
+	Radius("5.0");
+}
+
+Object("com_item_weaponrecharge2", "com_item_weaponrecharge", -479197917)
+{
+	ChildRotation(0.704, 0.000, -0.710, 0.000);
+	ChildPosition(94.000, 7.000, 86.000);
+	SeqNo(-479197917);
+	Team(0);
+	NetworkId(-1);
+	Layer(6);
+	EffectRegion("");
+	Radius("5.0");
+}
+
+Object("com_item_healthrecharge5", "com_item_healthrecharge", -240218433)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(88.594, 15.004, 117.916);
+	SeqNo(-240218433);
+	Team(0);
+	NetworkId(-1);
+	Layer(6);
+	EffectRegion("");
+	Radius("5.0");
+}
+
+Object("com_item_weaponrecharge4", "com_item_weaponrecharge", -182327562)
+{
+	ChildRotation(0.726, 0.000, -0.688, 0.000);
+	ChildPosition(88.498, 15.000, 5.619);
+	SeqNo(-182327562);
+	Team(0);
+	NetworkId(-1);
+	Layer(6);
+	EffectRegion("");
+	Radius("5.0");
+}
+
+Object("com_item_weaponrecharge5", "com_item_weaponrecharge", -175877046)
+{
+	ChildRotation(-0.011, 0.000, -1.000, 0.000);
+	ChildPosition(-14.000, 3.000, 46.000);
+	SeqNo(-175877046);
+	Team(0);
+	NetworkId(-1);
+	Layer(6);
+	EffectRegion("");
+	Radius("5.0");
+}
+
+Object("com_item_weaponrecharge6", "com_item_weaponrecharge", -50212404)
+{
+	ChildRotation(0.887, 0.000, 0.462, 0.000);
+	ChildPosition(-53.716, 3.018, 59.749);
+	SeqNo(-50212404);
+	Team(0);
+	NetworkId(-1);
+	Layer(6);
+	EffectRegion("");
+	Radius("5.0");
+}

@@ -1,0 +1,20 @@
+[GameObjectClass]       
+
+ClassLabel  =   "door"
+GeometryName    =   "kam_bldg_podroom_door.msh"
+
+
+[Properties]        
+
+GeometryName    =   "kam_bldg_podroom_door"
+AnimationName     = "kam_prop_podroom_door"
+Animation         =     "open"
+
+AnimationTrigger  =     "hp_door 4"
+
+OrdnanceCollision = "p_door"
+
+OpenSound = "big_door_open"
+CloseSound = "big_door_close"
+LockedSound = "vehicle_equip"
+FoleyFXGroup    = "metal_foley"

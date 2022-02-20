@@ -1,0 +1,21 @@
+[GameObjectClass]       
+
+ClassLabel  =   "door"
+GeometryName    =   "pol1_prop_door.msh"
+
+
+[Properties]        
+
+GeometryName    =   "pol1_prop_door"
+AnimationName     = "pol1_prop_door"
+
+Animation         =     "open"
+
+AnimationTrigger  =     "hp_door 3.0"
+
+OrdnanceCollision = "p_door"
+
+OpenSound = "door_open"
+CloseSound = "door_close"
+LockedSound = "vehicle_equip"
+FoleyFXGroup    = "metal_foley"

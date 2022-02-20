@@ -1,0 +1,70 @@
+SkyInfo()
+{
+	Enable(1);
+	VisibilityRange(1000);
+
+	PS2()
+	{
+		NearSceneRange(0.3, 1000.0, 1100.0);
+		FarSceneRange(7000.0);
+	}
+	XBOX()
+	{
+		NearSceneRange(0.3, 1000.0, 1100.0);
+		FarSceneRange(7000.0);
+	}
+	PC()
+	{
+		NearSceneRange(1000.0, 1100.0, 1500.0, 1600.0);
+		FarSceneRange(7000.000000, 8000.0);
+	}
+
+}
+
+DomeInfo()
+{
+	Softness(1);
+	SoftnessParam(30);
+	  	
+}
+
+SkyObject()
+{
+	Geometry("imp_cap_stardestroyer_dome");
+	NumObjects(0);
+	Height(-550, 400);
+	VelocityZ(30, 50);
+	Distance(6500);
+	InDirectionFactor(2.5);
+}
+ 
+SkyObject()
+{
+	Geometry("cis_cap_fedcoreship_dome");
+	NumObjects(1);
+	Height(-2000, -2000);
+	VelocityZ(30, 50);
+	Distance(2500);
+	InDirectionFactor(2.5);
+}
+
+SkyObject()
+{
+	Geometry("cis_cap_fedcruiser_dome");
+	NumObjects(2);
+	Height(300, 700);
+	VelocityZ(80, 120);
+	Distance(3800);
+	InDirectionFactor(0.5);
+}
+
+SkyObject()
+{
+	Geometry("imp_cap_stardestroyer_dome");
+	NumObjects(0);
+	Height(300, 400);
+	VelocityZ(80, 120);
+	Distance(3200);
+	InDirectionFactor(0.5);
+}
+

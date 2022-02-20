@@ -1,0 +1,28 @@
+[OrdnanceClass]
+ClassLabel          = "bolt"
+
+[Properties]
+ExplosionName       = "nab_weap_hover_gianspeeder_cannon_exp"
+LaserTexture        = "com_sfx_laser_orange"
+ImpactEffect        = "com_sfx_explosion_sm"
+LaserLength         = "7.0"
+LaserWidth          = "0.55"
+LaserGlowColor      = "249 42 42 100"
+
+LifeSpan            = "7.0"
+Velocity            = "70.0"
+Gravity             = "1.0"
+Rebound             = "0.0"
+
+MaxDamage           = "800.0"
+
+VehicleScale            = "1.0"
+ShieldScale         = "1.0"
+PersonScale         = "1.0"
+AnimalScale         = "1.0"
+DroidScale          = "1.0"
+BuildingScale           = "0.5"
+
+
+OrdnanceSound  = "com_weap_inf_ord_hum_lg"
+CollisionSound = "imp_weap_ord_exp"

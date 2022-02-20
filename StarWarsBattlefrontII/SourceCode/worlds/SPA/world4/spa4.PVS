@@ -1,0 +1,98 @@
+Sector("sector")
+{
+	Base(0.000000);
+	Height(10.000000);
+	Point(-1023.361511, 717.478210);
+}
+Sector("Sector-1")
+{
+	Base(-112.087746);
+	Height(60.000000);
+	Point(-847.925659, 453.932037);
+	Point(-941.973083, 455.656433);
+	Point(-941.905151, 337.913818);
+	Point(-846.603943, 335.767548);
+	Object("imp_cap_stardestroyer_hallway1");
+	Object("com_item_healthrecharge0");
+	Object("spa1_prop_fuelpod");
+	Object("spa2_prop_crate3");
+	Object("spa2_prop_crate2");
+	Object("spa1_prop_fuelpod1");
+	Object("IMP_01");
+	Object("IMP_03");
+	Object("CAM_cp1");
+	Object("CAM_cp3");
+	Object("IMP_04");
+	Object("spa2_prop_crate4");
+	Object("imp_cap_stardestroyer_shield");
+	Object("spa2_prop_crate1");
+	Object("com_item_healthrecharge1");
+	Object("com_item_weaponrecharge0");
+	Object("com_item_weaponrecharge00");
+	Object("spa1_prop_impdoor");
+	Object("spa1_prop_fuelpod2");
+}
+Sector("Sector-2")
+{
+	Base(-90.258575);
+	Height(15.000000);
+	Point(-936.126404, 417.922028);
+	Point(-987.293091, 417.893860);
+	Point(-985.736206, 371.876984);
+	Point(-935.126831, 373.368958);
+	Object("spa_prop_doorwaysignr1");
+	Object("imp_cap_stardestroyer_hallway1");
+	Object("cis_gunship");
+	Object("imp_cap_stardestroyer_commandroom");
+	Object("imp_door02");
+	Object("Imp_chair04");
+	Object("land_box01");
+	Object("spa_prop_doorwaysignr");
+	Object("Imp_chair03");
+	Object("Imp_chair05");
+	Object("com_item_healthrecharge2");
+	Object("spa1_prop_fuelpod");
+	Object("com_item_weaponrecharge1");
+	Object("spa_prop_doorwaysignB");
+	Object("spa1_prop_impdoor1");
+	Object("imp_door01");
+	Object("spa_prop_doorwaysignB1");
+	Object("Imp_chair01");
+	Object("spa_prop_liquidgen");
+	Object("imp_door03");
+	Object("IMP_01");
+	Object("IMP_03");
+	Object("IMP_04");
+	Object("spa_prop_doorwaysignr2");
+	Object("spa1_prop_fuelpod3");
+	Object("Imp_chair06");
+	Object("com_item_weaponrecharge0");
+	Object("Imp_chair02");
+	Object("spa1_prop_impdoor");
+}
+Portal("Portal")
+{
+	Rotation(0.710893, 0.000000, 0.703300, 0.000000);
+	Position(-858.503479, -72.377487, 396.931854);
+	Width(95.279999);
+	Height(26.000000);
+	Sector1("Sector-1");
+}
+Portal("Portal-1")
+{
+	Rotation(0.703845, 0.000000, 0.710354, 0.000000);
+	Position(-938.470947, -85.699188, 407.701813);
+	Width(5.000000);
+	Height(5.000000);
+	Sector1("Sector-2");
+	Sector2("Sector-1");
+}
+Portal("Portal-2")
+{
+	Rotation(0.710893, 0.000000, 0.703300, 0.000000);
+	Position(-938.481750, -85.307259, 385.837555);
+	Width(5.000000);
+	Height(5.000000);
+	Sector1("Sector-1");
+	Sector2("Sector-2");
+}

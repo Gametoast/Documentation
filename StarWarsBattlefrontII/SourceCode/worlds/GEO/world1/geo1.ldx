@@ -1,0 +1,90 @@
+Version(1);
+NextID(1);
+
+Layer("[Base]", 0, 8)
+{
+	Description("");
+}
+
+Layer("SoundRegions", 1, 2)
+{
+	Description("");
+}
+
+Layer("Soundspaces", 2, 2)
+{
+	Description("");
+}
+
+Layer("SoundRegionEnv", 3, 2)
+{
+	Description("");
+}
+
+Layer("Conquest", 4, 0)
+{
+	Description("");
+}
+
+Layer("CTF", 5, 0)
+{
+	Description("");
+}
+
+Layer("Campaign", 6, 0)
+{
+	Description("");
+}
+
+Layer("1flag", 7, 2)
+{
+	Description("");
+}
+
+Layer("hunt", 8, 0)
+{
+	Description("");
+}
+
+Layer("droids", 9, 0)
+{
+	Description("");
+}
+
+
+GameMode("Common")
+{
+	Layer(0);
+	Layer(1);
+	Layer(2);
+	Layer(3);
+}
+
+GameMode("conquest")
+{
+	Layer(4);
+	Layer(9);
+}
+
+GameMode("ctf")
+{
+	Layer(5);
+	Layer(9);
+}
+
+GameMode("campaign")
+{
+	Layer(6);
+}
+
+GameMode("1flag")
+{
+	Layer(7);
+}
+
+GameMode("hunt")
+{
+	Layer(8);
+	Layer(9);
+}
+

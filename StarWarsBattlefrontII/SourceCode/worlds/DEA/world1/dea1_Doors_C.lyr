@@ -1,0 +1,54 @@
+Version(3);
+SaveType(0);
+
+Camera("camera")
+{
+	Rotation(0.043, 0.033, -0.790, 0.610);
+	Position(-105.447, 83.070, 116.416);
+	FieldOfView(55.400);
+	NearPlane(1.000);
+	FarPlane(5000.000);
+	ZoomFactor(1.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(-152.774, 79.858, 25.642,  0.295, 0.249, -0.705, 0.595);
+}
+LightName("dea1_Doors_C.LGT");
+ControllerManager("StandardCtrlMgr");
+
+WorldExtents()
+{
+	Min(0.000000, 0.000000, 0.000000);
+	Max(0.000000, 0.000000, 0.000000);
+}
+
+NextSequence(-3705784);
+
+Object("door1", "dea1_prop_door", 251304335)
+{
+	ChildRotation(0.708, 0.000, -0.706, 0.000);
+	ChildPosition(-15.087, 61.469, 63.472);
+	SeqNo(251304335);
+	Team(0);
+	NetworkId(-1);
+	Label("door1");
+	Layer(8);
+}
+
+Object("door2", "dea1_prop_door_blast", -1138793586)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-62.996, 50.005, 74.977);
+	SeqNo(-1138793586);
+	Team(0);
+	NetworkId(-1);
+	Label("door2");
+	Layer(8);
+}

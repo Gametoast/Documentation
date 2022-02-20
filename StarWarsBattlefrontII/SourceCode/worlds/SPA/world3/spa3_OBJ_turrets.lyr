@@ -1,0 +1,131 @@
+Version(3);
+SaveType(0);
+
+Camera("camera")
+{
+	Rotation(0.931, -0.020, -0.363, -0.008);
+	Position(25.420, 110.438, -819.112);
+	FieldOfView(55.400);
+	NearPlane(1.000);
+	FarPlane(5000.000);
+	ZoomFactor(1.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(311.798, 193.000, -985.990,  0.354, 0.146, -0.854, 0.354);
+}
+LightName("spa3_OBJ_turrets.LGT");
+ControllerManager("StandardCtrlMgr");
+
+WorldExtents()
+{
+	Min(0.000000, 0.000000, 0.000000);
+	Max(0.000000, 0.000000, 0.000000);
+}
+
+NextSequence(-1726375);
+
+Object("CIS_roofgun3", "tur_bldg_chaingun_roof", 358227372)
+{
+	ChildRotation(0.710, 0.000, 0.705, 0.000);
+	ChildPosition(-0.524, 110.562, -821.210);
+	SeqNo(358227372);
+	Team(2);
+	NetworkId(-1);
+	Label("CIS_roofgun2");
+	Layer(5);
+}
+
+Object("REP_roofgun3", "tur_bldg_chaingun_roof", 382400423)
+{
+	ChildRotation(-0.102, 0.000, -0.995, 0.000);
+	ChildPosition(1366.263, -74.991, -493.555);
+	SeqNo(382400423);
+	Team(1);
+	NetworkId(-1);
+	Label("REP_roofgun3");
+	Layer(5);
+}
+
+Object("REP_roofgun5", "tur_bldg_chaingun_roof", 940692996)
+{
+	ChildRotation(0.982, 0.000, 0.189, 0.000);
+	ChildPosition(1373.370, -75.977, -562.155);
+	SeqNo(940692996);
+	Team(1);
+	NetworkId(-1);
+	Label("REP_roofgun5");
+	Layer(5);
+}
+
+Object("REP_roofgun2", "tur_bldg_chaingun_roof", 1245688670)
+{
+	ChildRotation(0.595, 0.000, -0.804, 0.000);
+	ChildPosition(1377.179, -76.101, -515.103);
+	SeqNo(1245688670);
+	Team(1);
+	NetworkId(-1);
+	Label("REP_roofgun2");
+	Layer(5);
+}
+
+Object("CIS_roofgun1", "tur_bldg_chaingun_roof", -1768883638)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(47.050, 109.368, -815.291);
+	SeqNo(-1768883638);
+	Team(2);
+	NetworkId(-1);
+	Label("CIS_roofgun1");
+	Layer(5);
+}
+
+Object("REP_roofgun1", "tur_bldg_chaingun_roof", -680473201)
+{
+	ChildRotation(0.681, 0.000, -0.732, 0.000);
+	ChildPosition(1382.163, -76.060, -538.766);
+	SeqNo(-680473201);
+	Team(1);
+	NetworkId(-1);
+	Label("REP_roofgun1");
+	Layer(5);
+}
+
+Object("CIS_roofgun4", "tur_bldg_chaingun_roof", -565449444)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(84.053, 108.238, -814.971);
+	SeqNo(-565449444);
+	Team(2);
+	NetworkId(-1);
+	Label("CIS_roofgun2");
+	Layer(5);
+}
+
+Object("REP_roofgun4", "tur_bldg_chaingun_roof", -504899513)
+{
+	ChildRotation(0.942, 0.000, -0.335, 0.000);
+	ChildPosition(1388.951, -75.978, -570.984);
+	SeqNo(-504899513);
+	Team(1);
+	NetworkId(-1);
+	Label("REP_roofgun4");
+	Layer(5);
+}
+
+Object("CIS_roofgun2", "tur_bldg_chaingun_roof", -322812122)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(22.859, 109.405, -815.291);
+	SeqNo(-322812122);
+	Team(2);
+	NetworkId(-1);
+	Label("CIS_roofgun2");
+	Layer(5);
+}

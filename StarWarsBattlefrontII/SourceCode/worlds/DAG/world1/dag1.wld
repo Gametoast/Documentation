@@ -1,0 +1,146 @@
+Version(3);
+SaveType(0);
+
+Camera("camera")
+{
+	Rotation(-0.412, -0.020, -0.910, 0.044);
+	Position(-5.803, -11.346, 101.770);
+	FieldOfView(55.400);
+	NearPlane(1.000);
+	FarPlane(500.000);
+	ZoomFactor(1.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(-30.043, 7.803, 76.911,  0.854, 0.354, 0.354, -0.146);
+}
+LightName("dag1.LGT");
+TerrainName("dag1.ter");
+SkyName("dag1.sky");
+ScriptName("DummyScript.dll");
+ControllerManager("StandardCtrlMgr");
+
+WorldExtents()
+{
+	Min(0.000000, 0.000000, 0.000000);
+	Max(0.000000, 0.000000, 0.000000);
+}
+
+NextSequence(-3705784);
+
+Object("com_item_healthrecharge1", "com_item_healthrecharge", 347839144)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(28.619, 2.515, 103.727);
+	SeqNo(347839144);
+	Team(0);
+	NetworkId(-1);
+	EffectRegion("");
+	Radius("5.0");
+}
+
+Object("com_item_healthrecharge", "com_item_healthrecharge", 543705638)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(42.508, 3.769, -18.521);
+	SeqNo(543705638);
+	Team(0);
+	NetworkId(-1);
+	EffectRegion("");
+	Radius("5.0");
+}
+
+Object("dag1_prop_light2", "dag1_prop_light", 935717271)
+{
+	ChildRotation(0.764, -0.075, -0.639, -0.040);
+	ChildPosition(40.672, 2.821, -144.159);
+	SeqNo(935717271);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("dag1_prop_light", "dag1_prop_light", 1751420454)
+{
+	ChildRotation(0.771, 0.000, 0.637, 0.000);
+	ChildPosition(29.573, 3.974, -144.023);
+	SeqNo(1751420454);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("com_item_weaponrecharge1", "com_item_weaponrecharge", 1756450646)
+{
+	ChildRotation(0.353, 0.000, -0.936, 0.000);
+	ChildPosition(73.694, 3.863, 50.798);
+	SeqNo(1756450646);
+	Team(0);
+	NetworkId(-1);
+	EffectRegion("");
+	Radius("5.0");
+}
+
+Object("com_item_weaponrecharge", "com_item_weaponrecharge", 1794022251)
+{
+	ChildRotation(0.637, 0.000, -0.771, 0.000);
+	ChildPosition(67.831, 2.890, -7.213);
+	SeqNo(1794022251);
+	Team(0);
+	NetworkId(-1);
+	EffectRegion("");
+	Radius("5.0");
+}
+
+Object("dag1_prop_crate_stack_4", "dag1_prop_crate_stack_03", -1187486016)
+{
+	ChildRotation(0.646, 0.000, 0.763, 0.000);
+	ChildPosition(23.932, 4.000, -137.853);
+	SeqNo(-1187486016);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("dag1_prop_crate_stack_03", "dag1_prop_crate_stack_03", -666621388)
+{
+	ChildRotation(0.964, 0.000, 0.266, 0.000);
+	ChildPosition(30.299, 3.964, -147.661);
+	SeqNo(-666621388);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("com_item_weaponrecharge2", "com_item_weaponrecharge", -572940133)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(74.183, 1.220, -97.513);
+	SeqNo(-572940133);
+	Team(0);
+	NetworkId(-1);
+	EffectRegion("");
+	Radius("5.0");
+}
+
+Object("com_item_healthrecharge2", "com_item_healthrecharge", -392300617)
+{
+	ChildRotation(0.997, 0.000, 0.080, 0.000);
+	ChildPosition(49.856, 0.883, -133.049);
+	SeqNo(-392300617);
+	Team(0);
+	NetworkId(-1);
+	EffectRegion("");
+	Radius("5.0");
+}
+
+Object("dag1_prop_light3", "dag1_prop_light", -348093291)
+{
+	ChildRotation(0.969, 0.000, 0.248, 0.000);
+	ChildPosition(34.206, 3.806, -147.201);
+	SeqNo(-348093291);
+	Team(0);
+	NetworkId(-1);
+}

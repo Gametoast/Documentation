@@ -1,0 +1,117 @@
+[GameObjectClass]
+ClassLabel			= "walker"
+GeometryName 			= "rep_walk_kaadu.msh"
+GeometryScale 			= 1.0
+
+[Properties]
+WALKERSECTION 			= "BODY"
+VehicleType 			= "scout"
+Label 				= "Kaadu"
+MapTexture 			= "tauntaun_kaadu_icon"
+HealthTexture 			= "HUD_kaadu_icon"
+MapScale 			= "1.0"
+
+GeometryName 			= "rep_walk_kaadu"
+AnimationName 			= "rep_walk_kaadu"
+//FirstPerson       		= "REP\repgunnr;rep_1st_gunner"
+
+MaxHealth 			= "400.0"
+HealthType 			= "animal"
+
+CollisionInflict = "0"
+
+Acceleraton 			= "5.0"
+
+MaxSpeed 			= "5.0"
+MaxStrafeSpeed 			= "2.5"
+MaxTurnSpeed 			= "1"
+
+StoppedTurnSpeed		= "1"
+ForwardTurnSpeed		= "1"
+TurnThreshold			= "1"
+
+PrimaryWeapon 			= ""
+SecondaryWeapon 		= ""
+
+AISizeType			= "SMALL"
+NoCombatInterrupt		= 1
+
+StompDecal			= "decal_tauntaun_footprint"
+StompDecalSize			= "0.38"
+
+NoDeathExplosions		= 1
+
+EyePointOffset 			= "0.0 2.5 0.0"
+TrakCenter			= "0.0 2.5 0.0"
+TrackOffset 			= "0.0 1.0 5.0"
+
+TEMP_Type 			= "2"
+
+
+
+AnimatedPilotPosition 		= "bone_rider"
+PilotAnimation 			= "ride"
+
+VehicleCollision 		= "p_collision"
+VehicleCollision 		= "p_collision1"
+VehicleCollision 		= "p_collision2"
+VehicleCollision 		= "p_collision3"
+VehicleCollision 		= "p_collision4"
+BuildingCollision 		= "p_collision"
+BuildingCollision 		= "p_collision1"
+BuildingCollision 		= "p_collision2"
+BuildingCollision 		= "p_collision3"
+BuildingCollision 		= "p_collision4"
+SoldierCollision		= "p_torso"
+SoldierCollision		= "p_tail"
+SoldierCollision		= "p_neck"
+SoldierCollision		= "p_l_thigh"
+SoldierCollision		= "p_r_thigh"
+SoldierCollision		= "p_l_calf"
+SoldierCollision		= "p_r_calf"
+TerrainCollision 		= "p_collision"
+TerrainCollision     	 	= "p_l_foot"
+TerrainCollision      	= "p_r_foot"
+
+LegPairCount			= "1"
+
+WalkerLegPair			= "LEGS"
+
+LegBoneLeft			= "bone_l_thigh"
+LegBoneRight			= "bone_r_thigh"
+
+LegBoneTopLeft			= "bone_l_thigh"
+LegBoneTopRight			= "bone_r_thigh"
+
+TerrainLeft			= "p_l_foot"
+TerrainRight			= "p_r_foot"
+
+IgnorableCollsion       = "p_l_foot"
+IgnorableCollsion       = "p_r_foot"
+
+//FootBoneLeft			= "bone_collision"
+//FootBoneRight			= "bone_collision1"
+
+//LeftFootstepSound    		= "kaadustepleft"
+//RightFootstepSound   		= "kaadustepright"
+HydraulicSound       		= ""
+HydraulicSoundHeight 		= ""
+HydraulicLowerSound  		= ""
+HydraulicLowerHeight 		= ""
+//HurtSound            		= "kaadu"
+//DeathSound           		= "kaaducry"
+Music                		= ""
+AllMusic            		= ""
+ImpMusic             		= ""
+RepMusic             		= ""
+CISMusic             		= ""
+MusicSpeed           		= ""
+MusicDelay           		= ""
+EngineSound          		= ""
+//TurnOnSound          		= "kaadu"
+TurningOffSound      		= ""
+//TurnOffSound         		= "kaadu"
+TurnOffTime          		= ""
+CockpitChatterStream 		= ""
+
+DropShadowSize = "1.6"

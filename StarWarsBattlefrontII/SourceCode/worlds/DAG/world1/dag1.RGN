@@ -1,0 +1,18 @@
+Version(1);
+RegionCount(2);
+
+Region("mapbounds", 0)
+{
+	Position(60.978043, -26.967484, -11.510704);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(166.905762, 37.823975, 182.437164);
+	Name("mapbounds");
+}
+
+Region("shadow directional=0.1 directional1=0.1 colortop=75,100,107 colorbottom=83,97,108", 0)
+{
+	Position(2.000000, -9.069324, 57.000000);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(27.722389, 10.000000, 28.939705);
+	Name("shadow");
+}

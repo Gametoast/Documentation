@@ -1,0 +1,18 @@
+[GameObjectClass]       
+
+ClassLabel      =   "prop"
+GeometryName    =   "dea1_bldg_garbage_room.msh"
+
+
+[Properties]        
+
+GeometryName    =   "dea1_bldg_garbage_room"
+
+//AttachOdf   =   "dea1_prop_trashcompactor"
+//AttachToHardPoint   =   "hp_attach"
+
+AttachOdf = "dea1_light_garbage"
+AttachToHardPoint = "hp_redlight"
+
+
+FoleyFXGroup    = "metal_foley"

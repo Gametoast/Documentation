@@ -1,0 +1,333 @@
+Version(3);
+SaveType(0);
+
+Camera("camera")
+{
+	Rotation(0.606, 0.072, -0.787, 0.093);
+	Position(115.928, -270.005, 1832.019);
+	FieldOfView(55.400);
+	NearPlane(1.000);
+	FarPlane(5000.000);
+	ZoomFactor(1.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(-889.512, 47.707, 1642.307,  0.496, 0.095, -0.848, 0.163);
+}
+LightName("spa4_C_Ships.LGT");
+ControllerManager("StandardCtrlMgr");
+
+WorldExtents()
+{
+	Min(0.000000, 0.000000, 0.000000);
+	Max(0.000000, 0.000000, 0.000000);
+}
+
+NextSequence(-3705784);
+
+Object("imp_cap_stardestroyer_hallway1", "imp_cap_stardestroyer_hallway", 250681054)
+{
+	ChildRotation(0.708, 0.000, 0.706, 0.000);
+	ChildPosition(-957.008, -86.974, 395.812);
+	SeqNo(250681054);
+	Team(0);
+	NetworkId(-1);
+	Layer(3);
+}
+
+Object("imp_cap_dest_engine_1", "imp_cap_dest_engine_1", 274076806)
+{
+	ChildRotation(0.011, 0.000, -1.000, 0.000);
+	ChildPosition(-1133.000, -79.000, 1319.000);
+	SeqNo(274076806);
+	Team(0);
+	NetworkId(-1);
+	Layer(3);
+}
+
+Object("com_item_healthrecharge0", "com_item_healthrecharge", 365775778)
+{
+	ChildRotation(0.931, 0.000, 0.365, 0.000);
+	ChildPosition(-937.085, -86.804, 421.668);
+	SeqNo(365775778);
+	Team(0);
+	NetworkId(-1);
+	Layer(3);
+	EffectRegion("");
+	Radius("5.0");
+}
+
+Object("imp_door02", "spa1_prop_impdoor", 478256888)
+{
+	ChildRotation(0.714, 0.000, 0.700, 0.000);
+	ChildPosition(-980.503, -87.243, 395.389);
+	SeqNo(478256888);
+	Team(0);
+	NetworkId(-1);
+	Label("imp_door02");
+	Layer(3);
+}
+
+Object("imp_cap_dest_engine_2", "imp_cap_dest_engine_2", 931825358)
+{
+	ChildRotation(0.011, 0.000, -1.000, 0.000);
+	ChildPosition(-1435.000, -94.000, 1286.000);
+	SeqNo(931825358);
+	Team(0);
+	NetworkId(-1);
+	Layer(3);
+	CaptureRegion("");
+	ControlRegion("");
+	KillRegion("");
+	SpawnPath("");
+	AllyPath("");
+	AllyCount("65536");
+	Radius("0.0");
+	ValueBleed("10");
+	Value_ATK_Alliance("20");
+	Value_ATK_CIS("10");
+	Value_ATK_Empire("10");
+	Value_ATK_Republic("10");
+	Value_DEF_Alliance("20");
+	Value_DEF_CIS("10");
+	Value_DEF_Empire("10");
+	Value_DEF_Republic("10");
+	Value_DEF_Locals("10");
+	VO_All_AllCapture("");
+	VO_All_AllLost("");
+	VO_All_AllInDispute("");
+	VO_All_AllSaved("");
+	VO_All_AllInfo("");
+	VO_All_ImpCapture("");
+	VO_All_ImpLost("");
+	VO_All_ImpInDispute("");
+	VO_All_ImpSaved("");
+	VO_All_ImpInfo("");
+	VO_Imp_AllCapture("");
+	VO_Imp_AllLost("");
+	VO_Imp_AllInDispute("");
+	VO_Imp_AllSaved("");
+	VO_Imp_AllInfo("");
+	VO_Imp_ImpCapture("");
+	VO_Imp_ImpLost("");
+	VO_Imp_ImpInDispute("");
+	VO_Imp_ImpSaved("");
+	VO_Imp_ImpInfo("");
+	VO_Rep_RepCapture("");
+	VO_Rep_RepLost("");
+	VO_Rep_RepInDispute("");
+	VO_Rep_RepSaved("");
+	VO_Rep_RepInfo("");
+	VO_Rep_CISCapture("");
+}
+
+Object("com_item_healthrecharge2", "com_item_healthrecharge", 1058301900)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-946.254, -86.726, 387.599);
+	SeqNo(1058301900);
+	Team(0);
+	NetworkId(-1);
+	Layer(3);
+	EffectRegion("");
+	Radius("5.0");
+}
+
+Object("com_item_weaponrecharge1", "com_item_weaponrecharge", 1122380956)
+{
+	ChildRotation(0.699, 0.000, -0.715, 0.000);
+	ChildPosition(-946.437, -86.798, 405.363);
+	SeqNo(1122380956);
+	Team(0);
+	NetworkId(-1);
+	Layer(3);
+	EffectRegion("");
+	Radius("5.0");
+}
+
+Object("spa1_prop_impdoor1", "spa1_prop_impdoor", 1397577482)
+{
+	ChildRotation(0.711, 0.000, 0.704, 0.000);
+	ChildPosition(-938.819, -87.170, 407.518);
+	SeqNo(1397577482);
+	Team(0);
+	NetworkId(-1);
+	Layer(3);
+}
+
+Object("imp_door01", "spa1_prop_impdoor", 1568341547)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-967.031, -87.235, 414.116);
+	SeqNo(1568341547);
+	Team(0);
+	NetworkId(-1);
+	Label("imp_door01");
+	Layer(3);
+}
+
+Object("imp_door03", "spa1_prop_impdoor", 2029010086)
+{
+	ChildRotation(1.000, 0.000, -0.010, 0.000);
+	ChildPosition(-966.602, -87.252, 376.679);
+	SeqNo(2029010086);
+	Team(0);
+	NetworkId(-1);
+	Label("imp_door03");
+	Layer(3);
+}
+
+Object("imp_cap_stardestroyer4", "imp_cap_stardestroyer4", -1585664676)
+{
+	ChildRotation(0.000, 0.000, -1.000, -0.002);
+	ChildPosition(-932.073, -71.583, 449.216);
+	SeqNo(-1585664676);
+	Team(0);
+	NetworkId(-1);
+	Layer(3);
+}
+
+Object("imp_cap_stardestroyer20", "imp_cap_stardestroyer2", -1458700405)
+{
+	ChildRotation(0.000, 0.000, -1.000, -0.002);
+	ChildPosition(-932.070, -71.583, 449.219);
+	SeqNo(-1458700405);
+	Team(0);
+	NetworkId(-1);
+	Layer(3);
+}
+
+Object("imp_cap_dest_engine_3", "imp_cap_dest_engine_3", -1211628660)
+{
+	ChildRotation(0.021, 0.000, -1.000, 0.000);
+	ChildPosition(-1714.000, -78.000, 1149.000);
+	SeqNo(-1211628660);
+	Team(0);
+	NetworkId(-1);
+	Layer(3);
+	CaptureRegion("");
+	ControlRegion("");
+	KillRegion("");
+	SpawnPath("");
+	AllyPath("");
+	AllyCount("65536");
+	Radius("0.0");
+	ValueBleed("10");
+	Value_ATK_Alliance("20");
+	Value_ATK_CIS("10");
+	Value_ATK_Empire("10");
+	Value_ATK_Republic("10");
+	Value_DEF_Alliance("20");
+	Value_DEF_CIS("10");
+	Value_DEF_Empire("10");
+	Value_DEF_Republic("10");
+	Value_DEF_Locals("10");
+	VO_All_AllCapture("");
+	VO_All_AllLost("");
+	VO_All_AllInDispute("");
+	VO_All_AllSaved("");
+	VO_All_AllInfo("");
+	VO_All_ImpCapture("");
+	VO_All_ImpLost("");
+	VO_All_ImpInDispute("");
+	VO_All_ImpSaved("");
+	VO_All_ImpInfo("");
+	VO_Imp_AllCapture("");
+	VO_Imp_AllLost("");
+	VO_Imp_AllInDispute("");
+	VO_Imp_AllSaved("");
+	VO_Imp_AllInfo("");
+	VO_Imp_ImpCapture("");
+	VO_Imp_ImpLost("");
+	VO_Imp_ImpInDispute("");
+	VO_Imp_ImpSaved("");
+	VO_Imp_ImpInfo("");
+	VO_Rep_RepCapture("");
+	VO_Rep_RepLost("");
+	VO_Rep_RepInDispute("");
+	VO_Rep_RepSaved("");
+	VO_Rep_RepInfo("");
+	VO_Rep_CISCapture("");
+}
+
+Object("imp_cap_stardestroyer3", "imp_cap_stardestroyer3", -1030180814)
+{
+	ChildRotation(0.000, 0.000, -1.000, -0.002);
+	ChildPosition(-932.071, -71.583, 449.219);
+	SeqNo(-1030180814);
+	Team(0);
+	NetworkId(-1);
+	Layer(3);
+}
+
+Object("imp_cap_stardestroyer_shield", "imp_cap_stardestroyer_shield", -943395529)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-859.000, -86.000, 395.967);
+	SeqNo(-943395529);
+	Team(0);
+	NetworkId(-1);
+	Layer(3);
+}
+
+Object("com_item_healthrecharge1", "com_item_healthrecharge", -465004677)
+{
+	ChildRotation(0.931, 0.000, 0.365, 0.000);
+	ChildPosition(-865.100, -86.803, 351.622);
+	SeqNo(-465004677);
+	Team(0);
+	NetworkId(-1);
+	Layer(3);
+	EffectRegion("");
+	Radius("5.0");
+}
+
+Object("imp_cap_stardestroyer1", "imp_cap_stardestroyer1", -328547462)
+{
+	ChildRotation(0.000, 0.000, -1.000, -0.002);
+	ChildPosition(-932.070, -71.583, 449.219);
+	SeqNo(-328547462);
+	Team(0);
+	NetworkId(-1);
+	Layer(3);
+}
+
+Object("com_item_weaponrecharge0", "com_item_weaponrecharge", -311039421)
+{
+	ChildRotation(0.931, 0.000, 0.365, 0.000);
+	ChildPosition(-901.726, -86.764, 354.716);
+	SeqNo(-311039421);
+	Team(0);
+	NetworkId(-1);
+	Layer(3);
+	EffectRegion("");
+	Radius("5.0");
+}
+
+Object("com_item_weaponrecharge00", "com_item_weaponrecharge", -258191456)
+{
+	ChildRotation(0.931, 0.000, 0.364, 0.000);
+	ChildPosition(-934.667, -86.755, 371.315);
+	SeqNo(-258191456);
+	Team(0);
+	NetworkId(-1);
+	Layer(3);
+	EffectRegion("");
+	Radius("5.0");
+}
+
+Object("spa1_prop_impdoor", "spa1_prop_impdoor", -155210905)
+{
+	ChildRotation(0.712, 0.000, 0.702, 0.000);
+	ChildPosition(-938.780, -87.135, 385.952);
+	SeqNo(-155210905);
+	Team(0);
+	NetworkId(-1);
+	Layer(3);
+}

@@ -1,0 +1,31 @@
+[GameObjectClass]		
+
+ClassLabel		=	"prop"
+GeometryName	=	"dag1_prop_grandtree_4.msh"
+
+
+[Properties]		
+
+GeometryName	=	"dag1_prop_grandtree_4"
+
+AttachToHardPoint = "hp_branch"
+
+AttachOdf = "dag1_prop_leafpatch"
+
+AttachEffect = "dag1_mist"
+
+AttachToHardPoint = "hp_dryice1"
+
+AttachEffect = "fireflies"
+
+AttachToHardPoint = "hp_fireflies1"
+
+AttachEffect = "fireflies"
+
+AttachToHardPoint = "hp_fireflies2"
+
+AttachEffect = "fireflies"
+
+AttachToHardPoint = "hp_fireflies3"
+
+FoleyFXGroup    = "wood_foley"

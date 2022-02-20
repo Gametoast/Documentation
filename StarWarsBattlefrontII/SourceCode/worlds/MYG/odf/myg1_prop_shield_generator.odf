@@ -1,0 +1,41 @@
+[GameObjectClass]		
+
+ClassLabel		=	"destructablebuilding"
+GeometryName	=	"myg1_prop_shield_generator.msh"
+
+
+[Properties]		
+
+GeometryName	=	"myg1_prop_shield_generator"
+
+DestroyedGeometryName	= "myg1_prop_shield_generator_destroyed"
+ExplosionName		= "com_inf_rechargedroid_exp"
+MaxHealth	=	120
+
+TargetPointOffset	= "0 0 -2"
+
+DamageStartPercent      = 90.0
+DamageStopPercent       = 50.0
+DamageEffect            = "myg1_sfx_generator_damage1"
+DamageEffectScale       = 0.6
+DamageInheritVelocity   = 0.0
+DamageAttachPoint       = "hp_damage"
+DamageEffectSound = "ball_sparks"
+
+DamageStartPercent      = 50.0
+DamageStopPercent       = 30.0
+DamageEffect            = "myg1_sfx_generator_damage2"
+DamageEffectScale       = 0.6
+DamageInheritVelocity   = 0.0
+DamageAttachPoint       = "hp_damage"
+DamageEffectSound = "ball_sparks"
+
+DamageStartPercent      = 30.0
+DamageStopPercent       = 0.010
+DamageEffect            = "myg1_sfx_generator_damage3"
+DamageEffectScale       = 0.6
+DamageInheritVelocity   = 0.0
+DamageAttachPoint       = "hp_damage"
+DamageEffectSound = "ball_sparks"
+
+FoleyFXGroup    = "metal_foley"

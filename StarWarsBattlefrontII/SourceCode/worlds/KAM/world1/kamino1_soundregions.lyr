@@ -1,0 +1,1072 @@
+Version(3);
+SaveType(0);
+
+Camera("camera")
+{
+    Rotation(0.836, 0.109, 0.533, -0.069);
+    Position(-141.937, 108.434, -164.045);
+    FieldOfView(55.400);
+    NearPlane(1.000);
+    FarPlane(500.000);
+    ZoomFactor(1.000);
+    Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+    Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+    Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+    Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+    Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+    Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+    Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+    Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+    Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+    Bookmark(-196.821, 114.873, -34.125,  -0.112, -0.097, -0.750, 0.645);
+}
+LightName("kamino1_SoundRegions.LGT");
+ControllerManager("StandardCtrlMgr");
+
+WorldExtents()
+{
+    Min(0.000000, 0.000000, 0.000000);
+    Max(0.000000, 0.000000, 0.000000);
+}
+
+NextSequence(-1211604);
+
+Object("Gutter39", "com_snd_amb_static", 111564249)
+{
+    ChildRotation(1.000, 0.000, 0.000, 0.000);
+    ChildPosition(-15.000, 62.000, -103.000);
+    SeqNo(111564249);
+    Team(0);
+    NetworkId(-1);
+    Layer(1);
+    Sound("gutter_rain");
+    MinDistance("7.0");
+    MaxDistance("50.0");
+}
+
+Object("Gutter28", "com_snd_amb_static", 208265562)
+{
+    ChildRotation(1.000, 0.000, 0.000, 0.000);
+    ChildPosition(-77.000, 69.993, 44.000);
+    SeqNo(208265562);
+    Team(0);
+    NetworkId(-1);
+    Layer(1);
+    Sound("gutter_rain");
+    MinDistance("7.0");
+    MaxDistance("50.0");
+}
+
+Object("Gutter23", "com_snd_amb_static", 236211819)
+{
+    ChildRotation(1.000, 0.000, 0.000, 0.000);
+    ChildPosition(57.000, 79.043, 65.000);
+    SeqNo(236211819);
+    Team(0);
+    NetworkId(-1);
+    Layer(1);
+    Sound("gutter_rain");
+    MinDistance("7.0");
+    MaxDistance("50.0");
+}
+
+Object("EmbA", "com_snd_amb_static", 325092204)
+{
+    ChildRotation(1.000, 0.000, 0.000, 0.000);
+    ChildPosition(103.000, 53.000, -156.000);
+    SeqNo(325092204);
+    Team(0);
+    NetworkId(-1);
+    Layer(1);
+    Sound("control_panel_A");
+    MinDistance("7.0");
+    MaxDistance("30");
+}
+
+Object("Platform2A", "com_snd_amb_static", 364499066)
+{
+    ChildRotation(1.000, 0.000, 0.000, 0.000);
+    ChildPosition(-195.000, 70.000, -49.000);
+    SeqNo(364499066);
+    Team(0);
+    NetworkId(-1);
+    Layer(1);
+    Sound("Control_Panel_A");
+    MinDistance("7.0");
+    MaxDistance("30");
+}
+
+Object("Gutter27", "com_snd_amb_static", 381720420)
+{
+    ChildRotation(1.000, 0.000, 0.000, 0.000);
+    ChildPosition(-33.000, 69.993, 44.000);
+    SeqNo(381720420);
+    Team(0);
+    NetworkId(-1);
+    Layer(1);
+    Sound("gutter_rain");
+    MinDistance("7.0");
+    MaxDistance("50.0");
+}
+
+Object("Gutter55", "com_snd_amb_static", 403461678)
+{
+    ChildRotation(1.000, 0.000, 0.000, 0.000);
+    ChildPosition(-95.000, 70.000, 5.000);
+    SeqNo(403461678);
+    Team(0);
+    NetworkId(-1);
+    Layer(1);
+    Sound("gutter_rain");
+    MinDistance("7.0");
+    MaxDistance("50.0");
+}
+
+Object("Gutter7", "com_snd_amb_static", 483397198)
+{
+    ChildRotation(1.000, 0.000, 0.000, 0.000);
+    ChildPosition(71.000, 52.000, -131.000);
+    SeqNo(483397198);
+    Team(0);
+    NetworkId(-1);
+    Layer(1);
+    Sound("gutter_rain");
+    MinDistance("7.0");
+    MaxDistance("50.0");
+}
+
+Object("Gutter53", "com_snd_amb_static", 492862180)
+{
+    ChildRotation(1.000, 0.000, 0.000, 0.000);
+    ChildPosition(-89.000, 69.000, -27.000);
+    SeqNo(492862180);
+    Team(0);
+    NetworkId(-1);
+    Layer(1);
+    Sound("gutter_rain");
+    MinDistance("7.0");
+    MaxDistance("50.0");
+}
+
+Object("Gutter1", "com_snd_amb_static", 507332525)
+{
+    ChildRotation(1.000, 0.000, 0.000, 0.000);
+    ChildPosition(139.000, 52.000, -95.000);
+    SeqNo(507332525);
+    Team(0);
+    NetworkId(-1);
+    Layer(1);
+    Sound("gutter_rain");
+    MinDistance("7.0");
+    MaxDistance("50.0");
+}
+
+Object("Gutter14", "com_snd_amb_static", 607915650)
+{
+    ChildRotation(1.000, 0.000, 0.000, 0.000);
+    ChildPosition(50.000, 52.000, -220.000);
+    SeqNo(607915650);
+    Team(0);
+    NetworkId(-1);
+    Layer(1);
+    Sound("gutter_rain");
+    MinDistance("7.0");
+    MaxDistance("50.0");
+}
+
+Object("Gutter9", "com_snd_amb_static", 776065678)
+{
+    ChildRotation(1.000, 0.000, 0.000, 0.000);
+    ChildPosition(56.000, 51.000, -156.000);
+    SeqNo(776065678);
+    Team(0);
+    NetworkId(-1);
+    Layer(1);
+    Sound("gutter_rain");
+    MinDistance("7.0");
+    MaxDistance("50.0");
+}
+
+Object("Gutter19", "com_snd_amb_static", 837443203)
+{
+    ChildRotation(1.000, 0.000, 0.000, 0.000);
+    ChildPosition(110.000, 51.000, -292.000);
+    SeqNo(837443203);
+    Team(0);
+    NetworkId(-1);
+    Layer(1);
+    Sound("gutter_rain");
+    MinDistance("7.0");
+    MaxDistance("50.0");
+}
+
+Object("Platform3A", "com_snd_amb_static", 914420156)
+{
+    ChildRotation(1.000, 0.000, 0.000, 0.000);
+    ChildPosition(-201.000, 70.000, -19.000);
+    SeqNo(914420156);
+    Team(0);
+    NetworkId(-1);
+    Layer(1);
+    Sound("control_panel_a");
+    MinDistance("7.0");
+    MaxDistance("30");
+}
+
+Object("Gutter18", "com_snd_amb_static", 967920529)
+{
+    ChildRotation(1.000, 0.000, 0.000, 0.000);
+    ChildPosition(91.000, 51.000, -281.000);
+    SeqNo(967920529);
+    Team(0);
+    NetworkId(-1);
+    Layer(1);
+    Sound("gutter_rain");
+    MinDistance("7.0");
+    MaxDistance("50.0");
+}
+
+Object("Gutter58", "com_snd_amb_static", 976149507)
+{
+    ChildRotation(1.000, 0.000, 0.000, 0.000);
+    ChildPosition(-119.000, 70.000, 41.000);
+    SeqNo(976149507);
+    Team(0);
+    NetworkId(-1);
+    Layer(1);
+    Sound("gutter_rain");
+    MinDistance("7.0");
+    MaxDistance("50.0");
+}
+
+Object("Platform5B", "com_snd_amb_static", 1046664674)
+{
+    ChildRotation(1.000, 0.000, 0.000, 0.000);
+    ChildPosition(133.000, 53.000, -192.000);
+    SeqNo(1046664674);
+    Team(0);
+    NetworkId(-1);
+    Layer(1);
+    Sound("Control_panel_B");
+    MinDistance("2");
+    MaxDistance("30");
+}
+
+Object("Gutter16", "com_snd_amb_static", 1088839572)
+{
+    ChildRotation(1.000, 0.000, 0.000, 0.000);
+    ChildPosition(62.000, 51.000, -252.000);
+    SeqNo(1088839572);
+    Team(0);
+    NetworkId(-1);
+    Layer(1);
+    Sound("gutter_rain");
+    MinDistance("7.0");
+    MaxDistance("50.0");
+}
+
+Object("Gutter50", "com_snd_amb_static", 1093617410)
+{
+    ChildRotation(1.000, 0.000, 0.000, 0.000);
+    ChildPosition(-95.000, 70.000, -69.000);
+    SeqNo(1093617410);
+    Team(0);
+    NetworkId(-1);
+    Layer(1);
+    Sound("gutter_rain");
+    MinDistance("7.0");
+    MaxDistance("50.0");
+}
+
+Object("CoreGen", "com_snd_amb_static", 1141909209)
+{
+    ChildRotation(1.000, 0.000, 0.000, 0.000);
+    ChildPosition(-191.000, 74.000, -31.000);
+    SeqNo(1141909209);
+    Team(0);
+    NetworkId(-1);
+    Layer(1);
+    Sound("control_panel_c");
+    MinDistance("5");
+    MaxDistance("50");
+}
+
+Object("Gutter35", "com_snd_amb_static", 1218426820)
+{
+    ChildRotation(1.000, 0.000, 0.000, 0.000);
+    ChildPosition(-34.000, 61.351, -99.000);
+    SeqNo(1218426820);
+    Team(0);
+    NetworkId(-1);
+    Layer(1);
+    Sound("gutter_rain");
+    MinDistance("7.0");
+    MaxDistance("50.0");
+}
+
+Object("Platform5A", "com_snd_amb_static", 1267087592)
+{
+    ChildRotation(1.000, 0.000, 0.000, 0.000);
+    ChildPosition(133.000, 53.000, -200.000);
+    SeqNo(1267087592);
+    Team(0);
+    NetworkId(-1);
+    Layer(1);
+    Sound("control_panel_a");
+    MinDistance("2");
+    MaxDistance("30");
+}
+
+Object("Small1A", "com_snd_amb_static", 1282138893)
+{
+    ChildRotation(1.000, 0.000, 0.000, 0.000);
+    ChildPosition(-131.000, 71.000, -88.000);
+    SeqNo(1282138893);
+    Team(0);
+    NetworkId(-1);
+    Layer(1);
+    Sound("control_panel_A");
+    MinDistance("7.0");
+    MaxDistance("30");
+}
+
+Object("Platform1B", "com_snd_amb_static", 1311988470)
+{
+    ChildRotation(1.000, 0.000, 0.000, 0.000);
+    ChildPosition(-174.000, 70.000, -37.000);
+    SeqNo(1311988470);
+    Team(0);
+    NetworkId(-1);
+    Layer(1);
+    Sound("control_panel_B");
+    MinDistance("7.0");
+    MaxDistance("30");
+}
+
+Object("Gutter32", "com_snd_amb_static", 1367137036)
+{
+    ChildRotation(1.000, 0.000, 0.000, 0.000);
+    ChildPosition(-23.000, 60.912, -124.000);
+    SeqNo(1367137036);
+    Team(0);
+    NetworkId(-1);
+    Layer(1);
+    Sound("gutter_rain");
+    MinDistance("7.0");
+    MaxDistance("50.0");
+}
+
+Object("Gutter12", "com_snd_amb_static", 1376779293)
+{
+    ChildRotation(1.000, 0.000, 0.000, 0.000);
+    ChildPosition(47.000, 52.000, -192.000);
+    SeqNo(1376779293);
+    Team(0);
+    NetworkId(-1);
+    Layer(1);
+    Sound("gutter_rain");
+    MinDistance("7.0");
+    MaxDistance("50.0");
+}
+
+Object("Gutter51", "com_snd_amb_static", 1426947971)
+{
+    ChildRotation(1.000, 0.000, 0.000, 0.000);
+    ChildPosition(-91.000, 70.000, -57.000);
+    SeqNo(1426947971);
+    Team(0);
+    NetworkId(-1);
+    Layer(1);
+    Sound("gutter_rain");
+    MinDistance("7.0");
+    MaxDistance("50.0");
+}
+
+Object("Gutter10", "com_snd_amb_static", 1446548735)
+{
+    ChildRotation(1.000, 0.000, 0.000, 0.000);
+    ChildPosition(52.000, 51.000, -168.000);
+    SeqNo(1446548735);
+    Team(0);
+    NetworkId(-1);
+    Layer(1);
+    Sound("gutter_rain");
+    MinDistance("7.0");
+    MaxDistance("50.0");
+}
+
+Object("Gutter38", "com_snd_amb_static", 1453138229)
+{
+    ChildRotation(1.000, 0.000, 0.000, 0.000);
+    ChildPosition(7.000, 52.288, -196.000);
+    SeqNo(1453138229);
+    Team(0);
+    NetworkId(-1);
+    Layer(1);
+    Sound("gutter_rain");
+    MinDistance("7.0");
+    MaxDistance("50.0");
+}
+
+Object("Gutter37", "com_snd_amb_static", 1572382485)
+{
+    ChildRotation(1.000, 0.000, 0.000, 0.000);
+    ChildPosition(-25.000, 52.500, -180.000);
+    SeqNo(1572382485);
+    Team(0);
+    NetworkId(-1);
+    Layer(1);
+    Sound("gutter_rain");
+    MinDistance("7.0");
+    MaxDistance("50.0");
+}
+
+Object("EmbCore", "com_snd_amb_static", 1814186131)
+{
+    ChildRotation(1.000, 0.000, 0.000, 0.000);
+    ChildPosition(98.000, 54.000, -148.000);
+    SeqNo(1814186131);
+    Team(0);
+    NetworkId(-1);
+    Layer(1);
+    Sound("control_panel_c");
+    MinDistance("10");
+    MaxDistance("50");
+}
+
+Object("Gutter47", "com_snd_amb_static", 1886924199)
+{
+    ChildRotation(1.000, 0.000, 0.000, 0.000);
+    ChildPosition(-118.000, 70.000, -105.000);
+    SeqNo(1886924199);
+    Team(0);
+    NetworkId(-1);
+    Layer(1);
+    Sound("gutter_rain");
+    MinDistance("7.0");
+    MaxDistance("50.0");
+}
+
+Object("Platform6A", "com_snd_amb_static", 1938902631)
+{
+    ChildRotation(1.000, 0.000, 0.000, 0.000);
+    ChildPosition(153.000, 52.000, -185.000);
+    SeqNo(1938902631);
+    Team(0);
+    NetworkId(-1);
+    Layer(1);
+    Sound("Control_panel_A");
+    MinDistance("2");
+    MaxDistance("30");
+}
+
+Object("Gutter44", "com_snd_amb_static", 1986937154)
+{
+    ChildRotation(1.000, 0.000, 0.000, 0.000);
+    ChildPosition(-163.000, 69.000, -131.000);
+    SeqNo(1986937154);
+    Team(0);
+    NetworkId(-1);
+    Layer(1);
+    Sound("gutter_rain");
+    MinDistance("7.0");
+    MaxDistance("50.0");
+}
+
+Object("Gutter2", "com_snd_amb_static", 1990385806)
+{
+    ChildRotation(1.000, 0.000, 0.000, 0.000);
+    ChildPosition(130.000, 51.000, -97.000);
+    SeqNo(1990385806);
+    Team(0);
+    NetworkId(-1);
+    Layer(1);
+    Sound("gutter_rain");
+    MinDistance("7.0");
+    MaxDistance("50.0");
+}
+
+Object("Gutter20", "com_snd_amb_static", 2000031567)
+{
+    ChildRotation(1.000, 0.000, 0.000, 0.000);
+    ChildPosition(127.000, 51.000, -297.000);
+    SeqNo(2000031567);
+    Team(0);
+    NetworkId(-1);
+    Layer(1);
+    Sound("gutter_rain");
+    MinDistance("7.0");
+    MaxDistance("50.0");
+}
+
+Object("Gutter5", "com_snd_amb_static", 2002032463)
+{
+    ChildRotation(1.000, 0.000, 0.000, 0.000);
+    ChildPosition(92.000, 51.000, -112.000);
+    SeqNo(2002032463);
+    Team(0);
+    NetworkId(-1);
+    Layer(1);
+    Sound("gutter_rain");
+    MinDistance("7.0");
+    MaxDistance("50.0");
+}
+
+Object("Gutter15", "com_snd_amb_static", 2078265093)
+{
+    ChildRotation(1.000, 0.000, 0.000, 0.000);
+    ChildPosition(55.000, 52.000, -238.000);
+    SeqNo(2078265093);
+    Team(0);
+    NetworkId(-1);
+    Layer(1);
+    Sound("gutter_rain");
+    MinDistance("7.0");
+    MaxDistance("50.0");
+}
+
+Object("Gutter25", "com_snd_amb_static", -2064889730)
+{
+    ChildRotation(1.000, 0.000, 0.000, 0.000);
+    ChildPosition(-84.000, 70.000, 67.000);
+    SeqNo(-2064889730);
+    Team(0);
+    NetworkId(-1);
+    Layer(1);
+    Sound("gutter_rain");
+    MinDistance("7.0");
+    MaxDistance("50.0");
+}
+
+Object("Gutter57", "com_snd_amb_static", -1962826341)
+{
+    ChildRotation(1.000, 0.000, 0.000, 0.000);
+    ChildPosition(-110.000, 69.000, 29.000);
+    SeqNo(-1962826341);
+    Team(0);
+    NetworkId(-1);
+    Layer(1);
+    Sound("gutter_rain");
+    MinDistance("7.0");
+    MaxDistance("50.0");
+}
+
+Object("Gutter3", "com_snd_amb_static", -1876435367)
+{
+    ChildRotation(1.000, 0.000, 0.000, 0.000);
+    ChildPosition(118.000, 51.000, -100.000);
+    SeqNo(-1876435367);
+    Team(0);
+    NetworkId(-1);
+    Layer(1);
+    Sound("gutter_rain");
+    MinDistance("7.0");
+    MaxDistance("50.0");
+}
+
+Object("Gutter36", "com_snd_amb_static", -1832070067)
+{
+    ChildRotation(1.000, 0.000, 0.000, 0.000);
+    ChildPosition(-26.000, 52.045, -184.000);
+    SeqNo(-1832070067);
+    Team(0);
+    NetworkId(-1);
+    Layer(1);
+    Sound("gutter_rain");
+    MinDistance("7.0");
+    MaxDistance("50.0");
+}
+
+Object("Gutter52", "com_snd_amb_static", -1796215641)
+{
+    ChildRotation(1.000, 0.000, 0.000, 0.000);
+    ChildPosition(-88.000, 69.000, -38.000);
+    SeqNo(-1796215641);
+    Team(0);
+    NetworkId(-1);
+    Layer(1);
+    Sound("gutter_rain");
+    MinDistance("7.0");
+    MaxDistance("50.0");
+}
+
+Object("Gutter62", "com_snd_amb_static", -1725309878)
+{
+    ChildRotation(1.000, 0.000, 0.000, 0.000);
+    ChildPosition(-173.000, 70.000, 69.000);
+    SeqNo(-1725309878);
+    Team(0);
+    NetworkId(-1);
+    Layer(1);
+    Sound("gutter_rain");
+    MinDistance("7.0");
+    MaxDistance("50.0");
+}
+
+Object("Platform3B", "com_snd_amb_static", -1717841652)
+{
+    ChildRotation(1.000, 0.000, 0.000, 0.000);
+    ChildPosition(-194.000, 70.000, -16.000);
+    SeqNo(-1717841652);
+    Team(0);
+    NetworkId(-1);
+    Layer(1);
+    Sound("control_panel_b");
+    MinDistance("7.0");
+    MaxDistance("30");
+}
+
+Object("Gutter11", "com_snd_amb_static", -1652180846)
+{
+    ChildRotation(1.000, 0.000, 0.000, 0.000);
+    ChildPosition(49.000, 51.000, -180.000);
+    SeqNo(-1652180846);
+    Team(0);
+    NetworkId(-1);
+    Layer(1);
+    Sound("gutter_rain");
+    MinDistance("7.0");
+    MaxDistance("50.0");
+}
+
+Object("Gutter54", "com_snd_amb_static", -1628154907)
+{
+    ChildRotation(1.000, 0.000, 0.000, 0.000);
+    ChildPosition(-90.000, 69.000, -15.000);
+    SeqNo(-1628154907);
+    Team(0);
+    NetworkId(-1);
+    Layer(1);
+    Sound("gutter_rain");
+    MinDistance("7.0");
+    MaxDistance("50.0");
+}
+
+Object("Platform2B", "com_snd_amb_static", -1520935914)
+{
+    ChildRotation(1.000, 0.000, 0.000, 0.000);
+    ChildPosition(-201.000, 70.000, -45.000);
+    SeqNo(-1520935914);
+    Team(0);
+    NetworkId(-1);
+    Layer(1);
+    Sound("control_panel_b");
+    MinDistance("7.0");
+    MaxDistance("50.0");
+}
+
+Object("Small2A", "com_snd_amb_static", -1473828652)
+{
+    ChildRotation(1.000, 0.000, 0.000, 0.000);
+    ChildPosition(90.000, 53.000, -141.000);
+    SeqNo(-1473828652);
+    Team(0);
+    NetworkId(-1);
+    Layer(1);
+    Sound("control_panel_a");
+    MinDistance("7.0");
+    MaxDistance("30");
+}
+
+Object("Platform6B", "com_snd_amb_static", -1461495311)
+{
+    ChildRotation(1.000, 0.000, 0.000, 0.000);
+    ChildPosition(160.000, 53.000, -183.000);
+    SeqNo(-1461495311);
+    Team(0);
+    NetworkId(-1);
+    Layer(1);
+    Sound("control_panel_b");
+    MinDistance("2");
+    MaxDistance("30");
+}
+
+Object("Platform4A", "com_snd_amb_static", -1419884724)
+{
+    ChildRotation(1.000, 0.000, 0.000, 0.000);
+    ChildPosition(152.000, 52.000, -209.000);
+    SeqNo(-1419884724);
+    Team(0);
+    NetworkId(-1);
+    Layer(1);
+    Sound("control_panel_a");
+    MinDistance("2");
+    MaxDistance("30");
+}
+
+Object("Gutter21", "com_snd_amb_static", -1362799674)
+{
+    ChildRotation(1.000, 0.000, 0.000, 0.000);
+    ChildPosition(-94.000, 60.912, -316.000);
+    SeqNo(-1362799674);
+    Team(0);
+    NetworkId(-1);
+    Layer(1);
+    Sound("gutter_rain");
+    MinDistance("7.0");
+    MaxDistance("50.0");
+}
+
+Object("Gutter61", "com_snd_amb_static", -1283065285)
+{
+    ChildRotation(1.000, 0.000, 0.000, 0.000);
+    ChildPosition(-161.000, 69.000, 65.000);
+    SeqNo(-1283065285);
+    Team(0);
+    NetworkId(-1);
+    Layer(1);
+    Sound("gutter_rain");
+    MinDistance("7.0");
+    MaxDistance("50.0");
+}
+
+Object("Gutter8", "com_snd_amb_static", -1223037630)
+{
+    ChildRotation(1.000, 0.000, 0.000, 0.000);
+    ChildPosition(62.000, 53.000, -142.000);
+    SeqNo(-1223037630);
+    Team(0);
+    NetworkId(-1);
+    Layer(1);
+    Sound("gutter_rain");
+    MinDistance("7.0");
+    MaxDistance("50.0");
+}
+
+Object("Gutter41", "com_snd_amb_static", -1218068996)
+{
+    ChildRotation(1.000, 0.000, 0.000, 0.000);
+    ChildPosition(-66.000, 70.092, 35.000);
+    SeqNo(-1218068996);
+    Team(0);
+    NetworkId(-1);
+    Layer(1);
+    Sound("gutter_rain");
+    MinDistance("7.0");
+    MaxDistance("50.0");
+}
+
+Object("Gutter45", "com_snd_amb_static", -1207208200)
+{
+    ChildRotation(1.000, 0.000, 0.000, 0.000);
+    ChildPosition(-143.000, 69.000, -123.000);
+    SeqNo(-1207208200);
+    Team(0);
+    NetworkId(-1);
+    Layer(1);
+    Sound("gutter_rain");
+    MinDistance("7.0");
+    MaxDistance("50.0");
+}
+
+Object("Gutter48", "com_snd_amb_static", -1084489111)
+{
+    ChildRotation(1.000, 0.000, 0.000, 0.000);
+    ChildPosition(-110.000, 69.000, -96.000);
+    SeqNo(-1084489111);
+    Team(0);
+    NetworkId(-1);
+    Layer(1);
+    Sound("gutter_rain");
+    MinDistance("7.0");
+    MaxDistance("50.0");
+}
+
+Object("Gutter13", "com_snd_amb_static", -1058851501)
+{
+    ChildRotation(1.000, 0.000, 0.000, 0.000);
+    ChildPosition(47.000, 52.000, -206.000);
+    SeqNo(-1058851501);
+    Team(0);
+    NetworkId(-1);
+    Layer(1);
+    Sound("gutter_rain");
+    MinDistance("7.0");
+    MaxDistance("50.0");
+}
+
+Object("Gutter59", "com_snd_amb_static", -967716398)
+{
+    ChildRotation(1.000, 0.000, 0.000, 0.000);
+    ChildPosition(-131.000, 69.000, 50.000);
+    SeqNo(-967716398);
+    Team(0);
+    NetworkId(-1);
+    Layer(1);
+    Sound("gutter_rain");
+    MinDistance("7.0");
+    MaxDistance("50.0");
+}
+
+Object("EmbB", "com_snd_amb_static", -942086290)
+{
+    ChildRotation(1.000, 0.000, 0.000, 0.000);
+    ChildPosition(107.000, 53.000, -152.000);
+    SeqNo(-942086290);
+    Team(0);
+    NetworkId(-1);
+    Layer(1);
+    Sound("control_panel_b");
+    MinDistance("7.0");
+    MaxDistance("30");
+}
+
+Object("Gutter43", "com_snd_amb_static", -931345646)
+{
+    ChildRotation(1.000, 0.000, 0.000, 0.000);
+    ChildPosition(-182.000, 70.000, -134.000);
+    SeqNo(-931345646);
+    Team(0);
+    NetworkId(-1);
+    Layer(1);
+    Sound("gutter_rain");
+    MinDistance("7.0");
+    MaxDistance("50.0");
+}
+
+Object("Gutter31", "com_snd_amb_static", -906749417)
+{
+    ChildRotation(1.000, 0.000, 0.000, 0.000);
+    ChildPosition(-47.000, 60.912, -44.000);
+    SeqNo(-906749417);
+    Team(0);
+    NetworkId(-1);
+    Layer(1);
+    Sound("gutter_rain");
+    MinDistance("7.0");
+    MaxDistance("50.0");
+}
+
+Object("Gutter17", "com_snd_amb_static", -790693682)
+{
+    ChildRotation(1.000, 0.000, 0.000, 0.000);
+    ChildPosition(75.000, 51.000, -268.000);
+    SeqNo(-790693682);
+    Team(0);
+    NetworkId(-1);
+    Layer(1);
+    Sound("gutter_rain");
+    MinDistance("7.0");
+    MaxDistance("50.0");
+}
+
+Object("Gutter22", "com_snd_amb_static", -762241591)
+{
+    ChildRotation(1.000, 0.000, 0.000, 0.000);
+    ChildPosition(-111.000, 61.000, -323.000);
+    SeqNo(-762241591);
+    Team(0);
+    NetworkId(-1);
+    Layer(1);
+    Sound("gutter_rain");
+    MinDistance("7.0");
+    MaxDistance("50.0");
+}
+
+Object("Gutter24", "com_snd_amb_static", -721302947)
+{
+    ChildRotation(1.000, 0.000, 0.000, 0.000);
+    ChildPosition(73.000, 79.000, 60.000);
+    SeqNo(-721302947);
+    Team(0);
+    NetworkId(-1);
+    Layer(1);
+    Sound("gutter_rain");
+    MinDistance("7.0");
+    MaxDistance("50.0");
+}
+
+Object("Gutter42", "com_snd_amb_static", -671492298)
+{
+    ChildRotation(1.000, 0.000, 0.000, 0.000);
+    ChildPosition(-62.000, 70.186, 31.000);
+    SeqNo(-671492298);
+    Team(0);
+    NetworkId(-1);
+    Layer(1);
+    Sound("gutter_rain");
+    MinDistance("7.0");
+    MaxDistance("50.0");
+}
+
+Object("Gutter33", "com_snd_amb_static", -657990365)
+{
+    ChildRotation(1.000, 0.000, 0.000, 0.000);
+    ChildPosition(-8.000, 61.115, -119.000);
+    SeqNo(-657990365);
+    Team(0);
+    NetworkId(-1);
+    Layer(1);
+    Sound("gutter_rain");
+    MinDistance("7.0");
+    MaxDistance("50.0");
+}
+
+Object("Gutter60", "com_snd_amb_static", -645036124)
+{
+    ChildRotation(1.000, 0.000, 0.000, 0.000);
+    ChildPosition(-142.000, 69.000, 57.000);
+    SeqNo(-645036124);
+    Team(0);
+    NetworkId(-1);
+    Layer(1);
+    Sound("gutter_rain");
+    MinDistance("7.0");
+    MaxDistance("50.0");
+}
+
+Object("Platform4B", "com_snd_amb_static", -542345496)
+{
+    ChildRotation(1.000, 0.000, 0.000, 0.000);
+    ChildPosition(158.000, 53.000, -213.000);
+    SeqNo(-542345496);
+    Team(0);
+    NetworkId(-1);
+    Layer(1);
+    Sound("Control_Panel_B");
+    MinDistance("2");
+    MaxDistance("30");
+}
+
+Object("Gutter46", "com_snd_amb_static", -527464194)
+{
+    ChildRotation(1.000, 0.000, 0.000, 0.000);
+    ChildPosition(-126.000, 70.000, -112.000);
+    SeqNo(-527464194);
+    Team(0);
+    NetworkId(-1);
+    Layer(1);
+    Sound("gutter_rain");
+    MinDistance("7.0");
+    MaxDistance("50.0");
+}
+
+Object("Gutter49", "com_snd_amb_static", -458986896)
+{
+    ChildRotation(1.000, 0.000, 0.000, 0.000);
+    ChildPosition(-100.000, 69.000, -80.000);
+    SeqNo(-458986896);
+    Team(0);
+    NetworkId(-1);
+    Layer(1);
+    Sound("gutter_rain");
+    MinDistance("7.0");
+    MaxDistance("50.0");
+}
+
+Object("Platform1A", "com_snd_amb_static", -231822521)
+{
+    ChildRotation(1.000, 0.000, 0.000, 0.000);
+    ChildPosition(-174.000, 71.000, -30.000);
+    SeqNo(-231822521);
+    Team(0);
+    NetworkId(-1);
+    Layer(1);
+    Sound("Control_Panel_a");
+    MinDistance("7.0");
+    MaxDistance("30");
+}
+
+Object("Gutter4", "com_snd_amb_static", -229663543)
+{
+    ChildRotation(1.000, 0.000, 0.000, 0.000);
+    ChildPosition(105.000, 51.000, -105.000);
+    SeqNo(-229663543);
+    Team(0);
+    NetworkId(-1);
+    Layer(1);
+    Sound("gutter_rain");
+    MinDistance("7.0");
+    MaxDistance("50.0");
+}
+
+Object("Gutter56", "com_snd_amb_static", -191688641)
+{
+    ChildRotation(1.000, 0.000, 0.000, 0.000);
+    ChildPosition(-102.000, 70.000, 19.000);
+    SeqNo(-191688641);
+    Team(0);
+    NetworkId(-1);
+    Layer(1);
+    Sound("gutter_rain");
+    MinDistance("7.0");
+    MaxDistance("50.0");
+}
+
+Object("Gutter29", "com_snd_amb_static", -188737511)
+{
+    ChildRotation(1.000, 0.000, 0.000, 0.000);
+    ChildPosition(-16.000, 60.912, -11.000);
+    SeqNo(-188737511);
+    Team(0);
+    NetworkId(-1);
+    Layer(1);
+    Sound("gutter_rain");
+    MinDistance("7.0");
+    MaxDistance("50.0");
+}
+
+Object("Gutter40", "com_snd_amb_static", -130126072)
+{
+    ChildRotation(1.000, 0.000, 0.000, 0.000);
+    ChildPosition(-34.000, 60.912, -36.000);
+    SeqNo(-130126072);
+    Team(0);
+    NetworkId(-1);
+    Layer(1);
+    Sound("gutter_rain");
+    MinDistance("7.0");
+    MaxDistance("50.0");
+}
+
+Object("Gutter34", "com_snd_amb_static", -68446868)
+{
+    ChildRotation(1.000, 0.000, 0.000, 0.000);
+    ChildPosition(-33.000, 61.075, -105.000);
+    SeqNo(-68446868);
+    Team(0);
+    NetworkId(-1);
+    Layer(1);
+    Sound("gutter_rain");
+    MinDistance("7.0");
+    MaxDistance("50.0");
+}
+
+Object("Gutter30", "com_snd_amb_static", -65949340)
+{
+    ChildRotation(1.000, 0.000, 0.000, 0.000);
+    ChildPosition(-41.000, 60.912, -9.000);
+    SeqNo(-65949340);
+    Team(0);
+    NetworkId(-1);
+    Layer(1);
+    Sound("gutter_rain");
+    MinDistance("7.0");
+    MaxDistance("50.0");
+}
+
+Object("Gutter6", "com_snd_amb_static", -56608967)
+{
+    ChildRotation(1.000, 0.000, 0.000, 0.000);
+    ChildPosition(82.000, 52.000, -120.000);
+    SeqNo(-56608967);
+    Team(0);
+    NetworkId(-1);
+    Layer(1);
+    Sound("gutter_rain");
+    MinDistance("7.0");
+    MaxDistance("50.0");
+}
+
+Object("Gutter26", "com_snd_amb_static", -26825006)
+{
+    ChildRotation(1.000, 0.000, 0.000, 0.000);
+    ChildPosition(-99.000, 71.925, 77.000);
+    SeqNo(-26825006);
+    Team(0);
+    NetworkId(-1);
+    Layer(1);
+    Sound("gutter_rain");
+    MinDistance("7.0");
+    MaxDistance("50.0");
+}

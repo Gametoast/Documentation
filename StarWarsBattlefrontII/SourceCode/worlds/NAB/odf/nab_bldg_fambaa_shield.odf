@@ -1,0 +1,125 @@
+[GameObjectClass]
+
+ClassLabel		="commandarmedanimatedbuilding"
+GeometryName		="nab1_walk_fambaa.msh"
+
+
+[Properties]
+
+GeometryName		="nab1_walk_fambaa"
+
+BUILDINGSECTION 	="BODY"
+Label 			="Control Zone"
+MapTexture 		="hud_dest_icon"
+MapScale 		=3.0
+
+GeometryName		="nab1_walk_fambaa"
+AnimationName		="nab_walk_fambaa"
+IdleAnimation		="fambaa_idle"
+DeathAnimation		="fambaa_death"
+
+MaxHealth 		="10000.0"
+RespawnTime 		="6000000"
+
+AmbientSound        = "all famba_moan"
+AmbientSound        = "cis famba_moan"
+AmbientSound        = "imp famba_moan"
+AmbientSound        = "rep famba_moan"
+HurtSound	= "famba_hurt"
+DeathSound	= "famba_death"
+SpawnPointCount 		= "6"
+SpawnPointLocation 		= "8.0 0.0 0.0 5"
+SpawnPointLocation 		= "8.0 0.0 4.0 5"
+SpawnPointLocation 		= "8.0 0.0 -4.0 5"
+SpawnPointLocation 		= "-8.0 0.0 0.0 355"
+SpawnPointLocation 		= "-8.0 0.0 4.0 355"
+SpawnPointLocation 		= "-8.0 0.0 -4.0 355"
+
+BUILDINGSECTION = "TURRET1"
+
+PilotType = "self"
+Controllable = "0"
+AutoFire = "1"
+
+TurretNodeName = "hp_fire"
+PitchLimits = "0.0 0.0"
+YawLimits = "0.0 0.0"
+MaxTurnSpeed = "0.0"
+MaxPitchSpeed = "0.0"
+
+WeaponName = "nab_weap_bldg_fambaa_shield"
+WeaponAmmo = 2
+
+[InstanceProperties]
+CaptureRegion = ""
+ControlRegion = ""
+KillRegion = ""
+SpawnPath = "FambaSpawnPath"
+AllyPath = ""
+AllyCount = 65536
+Radius = 0.0
+ValueBleed = 10
+Value_ATK_Alliance =
+Value_ATK_CIS =
+Value_ATK_Empire =
+Value_ATK_Republic =
+Value_DEF_Alliance =
+Value_DEF_CIS =
+Value_DEF_Empire =
+Value_DEF_Republic =
+Value_DEF_Locals =
+VO_All_AllCapture = ""
+VO_All_AllLost = ""
+VO_All_AllInDispute = ""
+VO_All_AllSaved = ""
+VO_All_AllInfo = ""
+VO_All_ImpCapture = ""
+VO_All_ImpLost = ""
+VO_All_ImpInDispute = ""
+VO_All_ImpSaved = ""
+VO_All_ImpInfo = ""
+VO_Imp_AllCapture = ""
+VO_Imp_AllLost = ""
+VO_Imp_AllInDispute = ""
+VO_Imp_AllSaved = ""
+VO_Imp_AllInfo = ""
+VO_Imp_ImpCapture = ""
+VO_Imp_ImpLost = ""
+VO_Imp_ImpInDispute = ""
+VO_Imp_ImpSaved = ""
+VO_Imp_ImpInfo = ""
+VO_Rep_RepCapture = ""
+VO_Rep_RepLost = ""
+VO_Rep_RepInDispute = ""
+VO_Rep_RepSaved = ""
+VO_Rep_RepInfo = "cis_destroy_famba"
+VO_Rep_CISCapture = ""
+VO_Rep_CISLost = ""
+VO_Rep_CISInDispute = ""
+VO_Rep_CISSaved = ""
+VO_Rep_CISInfo = "cis_destroy_famba"
+VO_CIS_RepCapture = ""
+VO_CIS_RepLost = ""
+VO_CIS_RepInDispute = ""
+VO_CIS_RepSaved = ""
+VO_CIS_RepInfo = "cis_destroy_famba"
+VO_CIS_CISCapture = ""
+VO_CIS_CISLost = ""
+VO_CIS_CISInDispute = ""
+VO_CIS_CISSaved = ""
+VO_CIS_CISInfo = "cis_destroy_famba"
+Strategic_Filter1 = ""
+Strategic_Filter2 = ""
+Strategic_Filter3 = ""
+Strategic_Filter4 = ""
+Strategic_Filter5 = ""
+Strategic_Filter6 = ""
+
+
+SoldierBan = ""
+HoverBan = ""
+SmallBan = ""
+MediumBan = ""
+HugeBan = ""
+
+CollisionScale 	= 100.0

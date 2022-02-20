@@ -1,0 +1,445 @@
+[GameObjectClass]
+ClassLabel          = "flyer"
+GeometryName            = "uta1_prop_gunship.msh"
+
+[Properties]
+FLYERSECTION            = "BODY"
+
+ReserveOneForPlayer     = "0"
+
+VehicleType         = "transport"
+MapTexture          = "gunship_icon"
+HealthTexture           = "HUD_rep_gunship_icon"
+MapScale            = 2.0
+PilotType = self
+GeometryName            = "uta1_prop_gunship"
+FirstPerson         = "REP\repgunsh;rep_1st_cockpit_gunship"
+FirstPersonFOV          = "60"
+CockpitTension              = "12"
+ThirdPersonFOV          = "55"
+NeverCrashWhenUnpiloted = 1
+
+CollisionScale          = "2.5"
+CollisionThreshold      = "5.0"
+
+CollisionInflict = "0.1"
+
+MaxHealth           = 1500.0
+HealthType          = "vehicle"
+//HitLocation           = "p_crithit 0"
+
+
+PilotSkillRepairScale = 0.01
+
+Acceleraton         = 20.0
+MinSpeed            = -15.0
+MidSpeed            = 0.0
+MaxSpeed            = 45.0
+StrafeSpeed         = 15.0
+
+PitchRate           = 0.8
+PitchFilter         = 1.75
+TurnRate            = 1.0
+TurnFilter          = 5.75
+
+//TurnRate            	= 1.25 // Max turn  //3.25 mouse!
+//TurnFilter          	= 5.75 // Speed of turn //5.75 mouse!
+
+
+//ThrustPitchAngle      = 0.2
+//StrafeRollAngle           = 0.1
+BankAngle           = 0.55
+BankFilter          = 5.5
+LevelFilter         = 2.0
+
+PCPitchRate         = 15.0
+PCSpinRate          = 15.0
+PCTurnRate          = 25.0
+
+TakeoffTime         = 1.5
+TakeoffSpeed            = 5.0
+LandingTime         = 1.5
+LandingSpeed            = 8.0
+TakeoffHeight           = 10.0
+
+EyePointOffset          = "0.0 0.0 10.0"
+TrackCenter         = "0.0 10.0 -24.0"
+TrackOffset         = "0.0 0.0 0.0 "
+TiltValue           = "4.0"
+
+AimTension          = "30.0"
+MoveTension         = "4.5"
+
+WEAPONSECTION           = "1"
+
+WeaponName          = "rep_weap_fly_gunship_cannon"
+WeaponAmmo          = "0"
+
+AimerNodeName           = "front_gun_1"
+AimerYawLimits          = "-20.0 20.0"
+AimerPitchLimits        = "-20.0 20.0"
+BarrelLength            = "1.0"
+FireOutsideLimits       = "1"
+
+NextAimer           = "-"
+
+AimerNodeName           = "front_gun_2"
+AimerYawLimits          = "-20.0 20.0"
+AimerPitchLimits        = "-20.0 20.0"
+BarrelLength            = "1.0"
+FireOutsideLimits       = "1"
+
+WEAPONSECTION           = "2"
+
+WeaponName          = "rep_weap_fly_gunship_missile"
+WeaponAmmo          = "6"
+
+AimerNodeName           = "hp_cannon_1"
+AimerYawLimits          = "-0.0 0.0"
+AimerPitchLimits        = "-0.0 0.0"
+BarrelLength            = "1.0"
+
+NextAimer           = "-"
+
+AimerNodeName           = "hp_cannon_2"
+AimerYawLimits          = "-0.0 0.0"
+AimerPitchLimits        = "-0.0 0.0"
+BarrelLength            = "1.0"
+
+VehiclePosition         = "common.vehiclepositions.pilot"
+
+//********************************
+//**********   CO PILOT  *********
+//********************************
+FLYERSECTION            = "TURRET1"
+PilotType = self
+FirstPerson             = "rep\repsccam;rep_1st_cockpit_securitycam"
+PitchRate           = 0.8
+PitchFilter         = 2.75
+TurnRate            = 1.3
+TurnFilter          = 2.75
+
+
+PitchLimits         = "-20 50"
+YawLimits           = "-89 89"
+EyePointOffset          = "0.0 10.0 0.0"
+TrackCenter         = "0.0 7.0 -10.0"
+TrackOffset         = "0.0 1.0 14.0"
+TiltValue           = "5.0"
+
+WEAPONSECTION           = "1"
+WeaponName          = "rep_weap_fly_gunship_wing"
+WeaponAmmo          = "0"
+
+AimerNodeName           = "wing_turret_2"
+AimerYawLimits          = "-160.0 20.0"//"-160.0 -20.0"
+AimerPitchLimits        = "-80.0 80.0"
+BarrelLength            = "1.0"
+
+//WEAPONSECTION         = "2"
+NextAimer           = "-"
+
+WeaponName          = "rep_weap_fly_gunship_wing"
+WeaponAmmo          = "0"
+
+AimerNodeName           = "wing_turret_1"
+AimerYawLimits          = "-20.0 160.0"//"20.0 160.0"
+AimerPitchLimits        = "-80.0 80.0"
+BarrelLength            = "1.0"
+
+VehiclePosition         = "common.vehiclepositions.copilot"
+//********************************
+//********  R BALL TURRET  *******
+//********************************
+
+FLYERSECTION            = "TURRET2"
+PilotType = self
+PitchRate           = 0.8
+PitchFilter         = 2.75
+TurnRate            = 1.3
+TurnFilter          = 2.75
+
+
+FirstPerson         = "REP\repguntr;rep_1st_cockpit_gunshipgnr"
+YawLimits           = "-115.0 0.0"
+PitchLimits         = "-30.0 70.0"
+
+PCPitchTurnFactor       = "20.0"
+PCYawTurnFactor         = "20.0"
+
+
+EyePointOffset          = "0.0 0.3 0.25"
+TrackOffset             = "0.0 0.0 0.0"
+TrackCenter         = "0.0 1.2 -1.0"
+ThirdPersonFOV          = "55"
+TiltValue           = "0.0"
+TurretNodeName          = "ball_turret_2"
+FirePointName           = "hp_turret_right"
+
+
+WeaponName          = "rep_weap_fly_gunship_cannon"
+WeaponAmmo          = "0"
+
+BarrelLength            = "0.0"
+
+PilotPosition           = "hp_gunner2"
+PilotAnimation          = "drive"
+IsPilotExposed          = "0"
+
+TurretYawSound         = "turret_whir_yaw_lp"
+TurretYawSoundPitch    = "0.7"
+TurretPitchSound       = "turret_whir_pitch_lp"
+TurretPitchSoundPitch  = "0.7"
+TurretAmbientSound     = ""
+TurretActivateSound    = "vehicle_equip"
+TurretDeactivateSound  = ""
+TurretStartSound       = ""
+TurretStopSound        = ""
+
+VehiclePosition         = "common.vehiclepositions.rightturret"
+
+//********************************
+//********  L BALL TURRET  *******
+//********************************
+FLYERSECTION        = "TURRET3"
+PilotType = self
+PitchRate           = 0.8
+PitchFilter         = 2.75
+TurnRate            = 1.3
+TurnFilter          = 2.75
+
+
+FirstPerson         = "REP\repguntr;rep_1st_cockpit_gunshipgnr"
+YawLimits           = "0.0 115.0"
+PitchLimits         = "-30.0 70.0"
+
+//YawLimits         = "0.0 170.0"
+//PitchLimits       = "10.0 70.0"
+
+PCPitchTurnFactor   = "20.0"
+PCYawTurnFactor     = "20.0"
+
+//PitchTurnFactor   = "1.0"
+//YawTurnFactor         = "1.0"
+
+EyePointOffset      = "0.0 0.3 0.25"
+TrackOffset         = "0.0 0.0 0.0"
+TrackCenter     = "0.0 1.2 -1.0"
+ThirdPersonFOV      = "55"
+TiltValue       = "0.0"
+TurretNodeName      = "ball_turret_1"
+FireNodeName        = "hp_turret_left"
+
+WeaponName          = "rep_weap_fly_gunship_cannon"
+WeaponAmmo          = "0"
+
+BarrelLength        = "0.0"
+
+PilotPosition       = "hp_gunner1"
+PilotAnimation      = "drive"
+IsPilotExposed      = "0"
+
+TurretYawSound         = "turret_whir_yaw_lp"
+TurretYawSoundPitch    = "0.7"
+TurretPitchSound       = "turret_whir_pitch_lp"
+TurretPitchSoundPitch  = "0.7"
+TurretAmbientSound     = ""
+TurretActivateSound    = "vehicle_equip"
+TurretDeactivateSound  = ""
+TurretStartSound       = ""
+TurretStopSound        = ""
+
+VehiclePosition     = "common.vehiclepositions.leftturret"
+
+////////////////////////////////
+FLYERSECTION        = "TURRET4"
+////////////////////////////////
+PassengerSlots          = "4"
+//PassengerEyePoint       = "hp_passenger1"
+
+ForceMode           = 1
+ThirdPersonFOV          = 60
+PitchRate           = 0.8
+PitchFilter         = 2.75
+TurnRate            = 1.3
+TurnFilter          = 2.75
+
+YawLimits           = "25.0 115.0"
+PitchLimits         = "-10.0 20.0"
+
+PCPitchTurnFactor   = "20.0"
+PCYawTurnFactor     = "20.0"
+
+PitchTurnFactor     = "1.0"
+YawTurnFactor       = "1.0"
+
+EyePointOffset      = "0.0 10.0 -2.5"
+MountPos        = "1.5 -0.75 1.75"
+TrackCenter     = "0.0 0.0 -3.0"
+TrackOffset     = "0.0 0.0 0.0"
+
+//ControlsUnit = "1"
+PilotPosition       = "hp_passenger3"
+PilotAnimation      = "standing"
+
+VehiclePosition     = "common.vehiclepositions.passenger"
+
+///////////////////////////////////////////////////////////////
+
+//***********************************************
+//***********  COMMAND POST VALUES  *************
+//***********************************************
+
+//SpawnPointCount 		= "6"
+//SpawnPointLocation 		= "8.0 0.0 0.0 5"
+//SpawnPointLocation 		= "8.0 0.0 4.0 5"
+//SpawnPointLocation 		= "8.0 0.0 -4.0 5"
+//SpawnPointLocation 		= "-8.0 0.0 0.0 355"
+//SpawnPointLocation 		= "-8.0 0.0 4.0 355"
+//SpawnPointLocation 		= "-8.0 0.0 -4.0 355"
+//ValueBleed			= 10
+//Value_ATK_Alliance 		= 10
+//Value_ATK_CIS 			= 10
+//Value_ATK_Empire 		= 10
+//Value_ATK_Republic 		= 10
+//Value_ATK_Locals 		= 0
+//Value_DEF_Alliance 		= 0
+//Value_DEF_CIS 			= 0
+//Value_DEF_Empire 		= 0
+//Value_DEF_Republic 		= 0
+//Value_DEF_Locals 		= 0
+//LegRayHitLength 		= "16"
+
+
+CHUNKSECTION        = "CHUNK1"
+ChunkGeometryName   = "gunship_chunk1"
+ChunkNodeName       = "Wing_gun_housing_2"
+ChunkTerrainCollisions  = "5"
+ChunkTerrainEffect  = "dirtspray"
+ChunkPhysics        = "FULL"
+ChunkOmega      = "2.0 2.0 1.5"
+ChunkBounciness         = 0.45
+ChunkStickiness         = 0.25
+ChunkSpeed      = "10.0"
+ChunkUpFactor       = "0.00"
+ChunkTrailEffect        = "com_sfx_chunktrail_sm"
+
+CHUNKSECTION        = "CHUNK2"
+ChunkGeometryName   = "gunship_chunk2"
+ChunkNodeName       = "main_backdoor_R"
+ChunkTerrainCollisions  = "4"
+ChunkTerrainEffect  = "dirtspray"
+ChunkPhysics        = "FULL"
+ChunkOmega      = "2.0 2.5 2.0"
+ChunkBounciness         = 0.45
+ChunkStickiness         = 0.25
+ChunkSpeed      = "8.0"
+ChunkUpFactor       = "0.00"
+ChunkTrailEffect        = "com_sfx_chunktrail_sm"
+
+CHUNKSECTION        = "CHUNK3"
+ChunkGeometryName   = "REP_LA_AT_Gunship_hulk"
+ChunkNodeName       = ""
+ChunkTerrainCollisions  = "0"
+ChunkTerrainEffect  = "com_sfx_explosion_lg"
+ChunkTrailEffect        = "com_sfx_chunktrail_sm"
+ChunkPhysics        = "FULL"
+ChunkOmega      = "1.0 1.0 1.0"
+ChunkSpeed      = "12.0"
+
+ChunkSmokeEffect    = "com_sfx_smokeplume"
+ChunkSmokeNodeName  = "hp_smoke1"
+
+ChunkSmokeEffect    = "com_sfx_smokeplume"
+ChunkSmokeNodeName  = "hp_smoke2"
+
+ChunkSmokeEffect    = "com_sfx_smokeplume"
+ChunkSmokeNodeName  = "hp_smoke3"
+
+ChunkSmokeEffect    = "com_sfx_smokeplume"
+ChunkSmokeNodeName  = "hp_smoke4"
+
+//////////////////////////
+////DAMAGE///////////
+///////////////
+
+DamageStartPercent  = 60.0
+DamageStopPercent   = 20.0
+DamageEffect        = "com_sfx_vehiclespark"
+DamageAttachPoint   = "hp_damage_3"
+
+DamageStartPercent  = 60.0
+DamageStopPercent   = 20.0
+DamageEffect        = "com_sfx_vehiclesmoke"
+DamageAttachPoint   = "hp_damage_2"
+
+DamageStartPercent  = 60.0
+DamageStopPercent   = 20.0
+DamageEffect        = "com_sfx_vehiclespark"
+DamageAttachPoint   = "hp_damage_4"
+
+DamageStartPercent  = 50.0
+DamageStopPercent   = 0.0
+DamageEffect        = "com_sfx_vehiclesmoke"
+DamageAttachPoint   = "hp_damage_1"
+
+DamageStartPercent  = 30.0
+DamageStopPercent   = 0.0
+DamageEffect        = "com_sfx_vehiclesmoke"
+DamageAttachPoint   = "hp_damage_3"
+
+DamageStartPercent  = 50.0
+DamageStopPercent   = 0.0
+DamageEffect        = "com_sfx_vehiclesmoke"
+DamageAttachPoint   = "hp_damage_4"
+
+DamageStartPercent  = 10.0
+DamageStopPercent   = 0.0
+DamageEffect        = "com_sfx_vehicleflame"
+DamageAttachPoint   = "hp_damage_1"
+
+
+
+//ExplosionCritical = "rep_fly_gunship_exp"
+ExplosionDestruct   = "rep_fly_gunship_exp"
+
+
+
+///////////////////////////////////////////////////////////////
+//// COLLISION
+
+BuildingCollision       = "p_front_sphere"
+BuildingCollision       = "p_left_sphere"
+BuildingCollision       = "p_right_sphere"
+
+TerrainCollision        = "p_front_sphere"
+TerrainCollision        = "p_left_sphere"
+TerrainCollision        = "p_right_sphere"
+
+VehicleCollision        = "p_front_sphere"
+VehicleCollision        = "p_left_sphere"
+VehicleCollision        = "p_right_sphere"
+VehicleCollision        = "p_center_sphere"
+VehicleCollision        = "p_rear_sphere"
+
+SoldierCollision        = "p_ball_turret_1"
+SoldierCollision        = "p_ball_turret_2"
+SoldierCollision        = "CollisionMesh"
+
+OrdnanceCollision       = "p_ball_turret_1"
+OrdnanceCollision       = "p_ball_turret_2"
+OrdnanceCollision       = "CollisionMesh"
+
+EngineSound         = "rep_fly_gunship_engine_parameterized"
+TakeoffSound        = "rep_fly_gunship_takeoff"
+LandSound           = "rep_fly_gunship_land"
+HurtSound           = ""
+DeathSound      = "imp_weap_ord_exp_lg"
+VehicleCollisionSound   ="com_veh_collision_lg"
+TurnOnSound         = ""
+TurnOffSound        = ""
+CISMusic            ="cis_vehicle"
+RepMusic            ="rep_vehicle"
+MusicSpeed          = ".30"
+MusicDelay          = "3.0"
+FoleyFXGroup    = "metal_foley"

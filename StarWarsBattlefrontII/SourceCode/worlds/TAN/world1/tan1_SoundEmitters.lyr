@@ -1,0 +1,253 @@
+Version(3);
+SaveType(0);
+
+Camera("camera")
+{
+	Rotation(-0.495, -0.492, -0.508, 0.505);
+	Position(-292.155, 78.876, -124.692);
+	FieldOfView(55.400);
+	NearPlane(1.000);
+	FarPlane(5000.000);
+	ZoomFactor(1.000);
+	Bookmark(-317.325, 246.197, -115.678,  0.707, 0.707, 0.001, -0.001);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(-306.915, 189.293, -150.754,  0.713, 0.701, -0.001, 0.001);
+}
+LightName("tan1_SoundEmitters.LGT");
+ControllerManager("StandardCtrlMgr");
+
+WorldExtents()
+{
+	Min(0.000000, 0.000000, 0.000000);
+	Max(0.000000, 0.000000, 0.000000);
+}
+
+NextSequence(-3705784);
+
+Object("com_snd_amb_static23", "com_snd_amb_static", 271485630)
+{
+	ChildRotation(0.704, 0.000, -0.710, 0.000);
+	ChildPosition(-329.000, 5.000, -147.000);
+	SeqNo(271485630);
+	Team(0);
+	NetworkId(-1);
+	Layer(5);
+	Sound("control_panel_b");
+	MinDistance("3.0");
+	MaxDistance("30.0");
+}
+
+Object("com_snd_amb_static32", "com_snd_amb_static", 366806158)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-386.000, 3.000, -141.000);
+	SeqNo(366806158);
+	Team(0);
+	NetworkId(-1);
+	Layer(5);
+	Sound("control_panel_a");
+	MinDistance("3.0");
+	MaxDistance("30.0");
+}
+
+Object("com_snd_amb_static38", "com_snd_amb_static", 391795203)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-224.000, 12.000, -115.000);
+	SeqNo(391795203);
+	Team(0);
+	NetworkId(-1);
+	Layer(5);
+	Sound("control_panel_a");
+	MinDistance("3.0");
+	MaxDistance("30.0");
+}
+
+Object("com_snd_amb_static25", "com_snd_amb_static", 774850769)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-348.000, 5.000, -133.000);
+	SeqNo(774850769);
+	Team(0);
+	NetworkId(-1);
+	Layer(5);
+	Sound("control_panel_a");
+	MinDistance("3.0");
+	MaxDistance("30.0");
+}
+
+Object("com_snd_amb_static31", "com_snd_amb_static", 1481578149)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-381.000, 5.000, -119.000);
+	SeqNo(1481578149);
+	Team(0);
+	NetworkId(-1);
+	Layer(5);
+	Sound("control_panel_a");
+	MinDistance("3.0");
+	MaxDistance("30.0");
+}
+
+Object("com_snd_amb_static24", "com_snd_amb_static", 1499656197)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-348.000, 5.000, -161.000);
+	SeqNo(1499656197);
+	Team(0);
+	NetworkId(-1);
+	Layer(5);
+	Sound("control_panel_b");
+	MinDistance("3.0");
+	MaxDistance("30.0");
+}
+
+Object("com_snd_amb_static22", "com_snd_amb_static", 1530394524)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-322.000, 3.000, -164.000);
+	SeqNo(1530394524);
+	Team(0);
+	NetworkId(-1);
+	Layer(5);
+	Sound("control_panel_a");
+	MinDistance("3.0");
+	MaxDistance("30.0");
+}
+
+Object("com_snd_amb_static27", "com_snd_amb_static", 1747591908)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-373.000, 6.000, -128.000);
+	SeqNo(1747591908);
+	Team(0);
+	NetworkId(-1);
+	Layer(5);
+	Sound("control_panel_b");
+	MinDistance("3.0");
+	MaxDistance("30.0");
+}
+
+Object("com_snd_amb_static35", "com_snd_amb_static", 2014544462)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-219.000, 11.000, -147.000);
+	SeqNo(2014544462);
+	Team(0);
+	NetworkId(-1);
+	Layer(5);
+	Sound("control_panel_b");
+	MinDistance("3.0");
+	MaxDistance("30.0");
+}
+
+Object("com_snd_amb_static26", "com_snd_amb_static", -1700701600)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-360.000, 6.000, -141.000);
+	SeqNo(-1700701600);
+	Team(0);
+	NetworkId(-1);
+	Layer(5);
+	Sound("control_panel_b");
+	MinDistance("3.0");
+	MaxDistance("30.0");
+}
+
+Object("com_snd_amb_static30", "com_snd_amb_static", -1331477142)
+{
+	ChildRotation(0.701, -0.092, 0.701, 0.092);
+	ChildPosition(-381.000, 5.000, -149.000);
+	SeqNo(-1331477142);
+	Team(0);
+	NetworkId(-1);
+	Layer(5);
+	Sound("control_panel_b");
+	MinDistance("3.0");
+	MaxDistance("30.0");
+}
+
+Object("com_snd_amb_static37", "com_snd_amb_static", -1273214603)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-360.000, 6.000, -140.000);
+	SeqNo(-1273214603);
+	Team(0);
+	NetworkId(-1);
+	Layer(5);
+	Sound("control_panel_a");
+	MinDistance("3.0");
+	MaxDistance("30.0");
+}
+
+Object("com_snd_amb_static28", "com_snd_amb_static", -477516170)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-360.000, 7.000, -128.000);
+	SeqNo(-477516170);
+	Team(0);
+	NetworkId(-1);
+	Layer(5);
+	Sound("control_panel_a");
+	MinDistance("3.0");
+	MaxDistance("30.0");
+}
+
+Object("com_snd_amb_static20", "com_snd_amb_static", -420856023)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-322.000, 3.000, -132.000);
+	SeqNo(-420856023);
+	Team(0);
+	NetworkId(-1);
+	Layer(5);
+	Sound("control_panel_b");
+	MinDistance("3.0");
+	MaxDistance("30.0");
+}
+
+Object("com_snd_amb_static29", "com_snd_amb_static", -368759021)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-373.000, 7.000, -141.000);
+	SeqNo(-368759021);
+	Team(0);
+	NetworkId(-1);
+	Layer(5);
+	Sound("control_panel_a");
+	MinDistance("3.0");
+	MaxDistance("30.0");
+}
+
+Object("com_snd_amb_static36", "com_snd_amb_static", -355871602)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-369.000, 5.000, -116.000);
+	SeqNo(-355871602);
+	Team(0);
+	NetworkId(-1);
+	Layer(5);
+	Sound("control_panel_b");
+	MinDistance("3.0");
+	MaxDistance("30.0");
+}
+
+Object("com_snd_amb_static33", "com_snd_amb_static", -248444576)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-385.000, 3.000, -127.000);
+	SeqNo(-248444576);
+	Team(0);
+	NetworkId(-1);
+	Layer(5);
+	Sound("control_panel_b");
+	MinDistance("3.0");
+	MaxDistance("30.0");
+}

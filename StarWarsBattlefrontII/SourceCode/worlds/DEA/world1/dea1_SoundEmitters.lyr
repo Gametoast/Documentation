@@ -1,0 +1,279 @@
+Version(3);
+SaveType(0);
+
+Camera("camera")
+{
+	Rotation(-0.074, -0.009, -0.990, 0.119);
+	Position(-150.782, 59.167, 21.868);
+	FieldOfView(55.400);
+	NearPlane(1.000);
+	FarPlane(5000.000);
+	ZoomFactor(1.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(-50.570, 84.787, 49.728,  -0.005, -0.002, -0.938, 0.347);
+}
+LightName("dea1_SoundEmitters.LGT");
+ControllerManager("StandardCtrlMgr");
+
+WorldExtents()
+{
+	Min(0.000000, 0.000000, 0.000000);
+	Max(0.000000, 0.000000, 0.000000);
+}
+
+NextSequence(-3705784);
+
+Object("DetCtrlB", "com_snd_amb_static", 150013267)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-105.000, 51.000, 148.000);
+	SeqNo(150013267);
+	Team(0);
+	NetworkId(-1);
+	Layer(12);
+	Sound("Control_Panel_B");
+	MinDistance("2.0");
+	MaxDistance("30");
+}
+
+Object("TrctrEmt3", "com_snd_amb_static", 592184904)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-171.000, 65.000, 260.000);
+	SeqNo(592184904);
+	Team(0);
+	NetworkId(-1);
+	Layer(12);
+	Sound("TractorBeam");
+	MinDistance("20");
+	MaxDistance("100");
+}
+
+Object("Shield_hum6", "com_snd_amb_static", 1016955636)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-145.000, 57.000, -5.000);
+	SeqNo(1016955636);
+	Team(0);
+	NetworkId(-1);
+	Layer(12);
+	Sound("Shield_hum");
+	MinDistance("15");
+	MaxDistance("50");
+}
+
+Object("Shield_hum4", "com_snd_amb_static", 1488794970)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-89.000, 57.000, 8.000);
+	SeqNo(1488794970);
+	Team(0);
+	NetworkId(-1);
+	Layer(12);
+	Sound("shield_hum");
+	MinDistance("15");
+	MaxDistance("50");
+}
+
+Object("Shield_Hum3", "com_snd_amb_static", 1664998179)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-71.000, 57.000, 8.000);
+	SeqNo(1664998179);
+	Team(0);
+	NetworkId(-1);
+	Layer(12);
+	Sound("shield_hum");
+	MinDistance("15");
+	MaxDistance("50");
+}
+
+Object("GunCtrlC3", "com_snd_amb_static", 1687200640)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-158.000, 44.000, 176.000);
+	SeqNo(1687200640);
+	Team(0);
+	NetworkId(-1);
+	Layer(12);
+	Sound("Control_Panel_C");
+	MinDistance("2.0");
+	MaxDistance("30.");
+}
+
+Object("HngrCtrl", "com_snd_amb_static", 1740805204)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-23.000, 58.000, 56.000);
+	SeqNo(1740805204);
+	Team(0);
+	NetworkId(-1);
+	Layer(12);
+	Sound("Control_Panel_A");
+	MinDistance("2.0");
+	MaxDistance("30");
+}
+
+Object("Shield_hum5", "com_snd_amb_static", 1978710083)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-133.000, 56.000, -5.000);
+	SeqNo(1978710083);
+	Team(0);
+	NetworkId(-1);
+	Layer(12);
+	Sound("shield_hum");
+	MinDistance("15");
+	MaxDistance("50");
+}
+
+Object("TrctrEmt2", "com_snd_amb_static", -2125850598)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-107.000, 60.000, 259.000);
+	SeqNo(-2125850598);
+	Team(0);
+	NetworkId(-1);
+	Layer(12);
+	Sound("tractorbeam");
+	MinDistance("20");
+	MaxDistance("100");
+}
+
+Object("TrctrEmt1", "com_snd_amb_static", -1936963543)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-132.000, 60.000, 259.000);
+	SeqNo(-1936963543);
+	Team(0);
+	NetworkId(-1);
+	Layer(12);
+	Sound("tractorbeam");
+	MinDistance("20");
+	MaxDistance("100");
+}
+
+Object("Shield_hum1", "com_snd_amb_static", -1703570166)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-41.000, 57.000, 9.000);
+	SeqNo(-1703570166);
+	Team(0);
+	NetworkId(-1);
+	Layer(12);
+	Sound("shield_hum");
+	MinDistance("15");
+	MaxDistance("50");
+}
+
+Object("Shield_hum7", "com_snd_amb_static", -1687012804)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-158.000, 56.000, -5.000);
+	SeqNo(-1687012804);
+	Team(0);
+	NetworkId(-1);
+	Layer(12);
+	Sound("shield_hum");
+	MinDistance("15");
+	MaxDistance("50");
+}
+
+Object("TrctrEmt4", "com_snd_amb_static", -1551010706)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-181.000, 63.000, 229.000);
+	SeqNo(-1551010706);
+	Team(0);
+	NetworkId(-1);
+	Layer(12);
+	Sound("TractorBeam");
+	MinDistance("20");
+	MaxDistance("100");
+}
+
+Object("GunCtrlC2", "com_snd_amb_static", -1432799847)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-158.000, 45.000, 132.000);
+	SeqNo(-1432799847);
+	Team(0);
+	NetworkId(-1);
+	Layer(12);
+	Sound("Control_Panel_C");
+	MinDistance("2");
+	MaxDistance("30");
+}
+
+Object("GunCtrlB", "com_snd_amb_static", -1425107506)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-153.000, 51.000, 164.000);
+	SeqNo(-1425107506);
+	Team(0);
+	NetworkId(-1);
+	Layer(12);
+	Sound("Control_Panel_B");
+	MinDistance("2");
+	MaxDistance("30");
+}
+
+Object("TrctrEmt5", "com_snd_amb_static", -823005319)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-163.000, 66.000, 211.000);
+	SeqNo(-823005319);
+	Team(0);
+	NetworkId(-1);
+	Layer(12);
+	Sound("TractorBeam");
+	MinDistance("20");
+	MaxDistance("100");
+}
+
+Object("GunCtrlC", "com_snd_amb_static", -695618824)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-159.000, 51.000, 154.000);
+	SeqNo(-695618824);
+	Team(0);
+	NetworkId(-1);
+	Layer(12);
+	Sound("Control_Panel_C");
+	MinDistance("2.0");
+	MaxDistance("30.0");
+}
+
+Object("Shield_Hum2", "com_snd_amb_static", -157502008)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-56.000, 57.000, 9.000);
+	SeqNo(-157502008);
+	Team(0);
+	NetworkId(-1);
+	Layer(12);
+	Sound("shield_hum");
+	MinDistance("15");
+	MaxDistance("50");
+}
+
+Object("GunCtrlA", "com_snd_amb_static", -45846441)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-152.000, 51.000, 144.000);
+	SeqNo(-45846441);
+	Team(0);
+	NetworkId(-1);
+	Layer(12);
+	Sound("Control_Panel_A");
+	MinDistance("2");
+	MaxDistance("30");
+}

@@ -1,0 +1,92 @@
+Version(1);
+RegionCount(10);
+
+Region("SoundSpace hangar", 0)
+{
+	Layer(7);
+	Position(21.253784, -17.367065, 985.195007);
+	Rotation(0.997611, 0.000000, 0.069301, 0.000000);
+	Size(59.258232, 22.284885, 41.771240);
+	Name("AllHangar-SS");
+}
+
+Region("Soundspace engineroom", 0)
+{
+	Layer(7);
+	Position(69.895874, -26.187325, 1049.032959);
+	Rotation(0.997629, 0.000000, 0.069153, 0.000000);
+	Size(20.573818, 7.083241, 16.625637);
+	Name("AllEngineRoom-SS");
+}
+
+Region("SoundSpace CommandRoom", 0)
+{
+	Layer(7);
+	Position(30.596153, -23.610613, 1047.179932);
+	Rotation(0.997629, 0.000000, 0.068881, 0.000000);
+	Size(20.478249, 7.337317, 21.304655);
+	Name("AllCommandRoom-SS");
+}
+
+Region("SoundSpace serverroom", 0)
+{
+	Layer(7);
+	Position(-7.277037, -23.500877, 1058.702881);
+	Rotation(0.998799, 0.000000, 0.049461, 0.000000);
+	Size(20.006981, 7.014469, 13.439734);
+	Name("AllServerRoom-SS");
+}
+
+Region("SoundSpace Shieldgenroom", 2)
+{
+	Layer(7);
+	Position(34.506023, -36.186348, 1079.444946);
+	Rotation(0.999233, 0.000000, 0.039735, 0.000000);
+	Size(10.477061, 18.128201, 10.000000);
+	Name("AllShieldGenRoom-SS");
+}
+
+Region("SoundSpace CommandRoom", 0)
+{
+	Layer(7);
+	Position(44.359608, 8.880085, -1587.428223);
+	Rotation(0.991880, 0.000000, -0.127351, 0.000000);
+	Size(20.282837, 7.400057, 20.874950);
+	Name("ImpCommandRoom-SS");
+}
+
+Region("SoundSpace serverroom", 0)
+{
+	Layer(7);
+	Position(79.412712, 10.382624, -1584.150513);
+	Rotation(0.991561, 0.000000, -0.129638, 0.000000);
+	Size(17.659332, 5.860728, 13.916163);
+	Name("ImpServerroom-SS");
+}
+
+Region("Soundspace engineroom", 0)
+{
+	Layer(7);
+	Position(8.125568, 8.401364, -1605.328735);
+	Rotation(0.991561, 0.000000, -0.129639, 0.000000);
+	Size(19.653168, 6.510548, 12.456801);
+	Name("ImpEngineRoom-SS");
+}
+
+Region("SoundSpace Shieldgenroom", 2)
+{
+	Layer(7);
+	Position(51.186153, -2.321706, -1620.574097);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(10.893471, 18.552711, 10.000000);
+	Name("ImpShieldGenRoom-SS");
+}
+
+Region("SoundSpace hangar", 0)
+{
+	Layer(7);
+	Position(26.490320, 17.067734, -1526.937744);
+	Rotation(0.990397, 0.000000, -0.138284, 0.000000);
+	Size(56.748718, 20.418730, 42.967304);
+	Name("ImpHangar-SS");
+}

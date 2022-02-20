@@ -1,0 +1,20 @@
+[GameObjectClass]       
+
+ClassLabel      =   "prop"
+GeometryName    =   "dea1_bldg_central_shaft.msh"
+
+
+[Properties]        
+
+GeometryName    =   "dea1_bldg_central_shaft"
+
+AttachOdf = "dea1_light_core_redflare"
+AttachToHardPoint = "hp_light_core_redflare_1"
+AttachToHardPoint = "hp_light_core_redflare_2"
+AttachToHardPoint = "hp_light_core_redflare_3"
+AttachToHardPoint = "hp_light_core_redflare_4"
+AttachToHardPoint = "hp_light_core_redflare_5"
+AttachToHardPoint = "hp_light_core_redflare_6"
+
+FoleyFXGroup    = "metal_foley"
+

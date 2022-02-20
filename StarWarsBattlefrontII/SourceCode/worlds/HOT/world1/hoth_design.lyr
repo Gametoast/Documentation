@@ -1,0 +1,348 @@
+Version(3);
+SaveType(0);
+
+Camera("camera")
+{
+	Rotation(0.727, 0.085, -0.677, 0.079);
+	Position(-424.122, 11.020, 126.958);
+	FieldOfView(55.400);
+	NearPlane(1.000);
+	FarPlane(5000.000);
+	ZoomFactor(1.000);
+	Bookmark(-252.996, 639.127, 3.342,  0.707, 0.707, 0.006, -0.006);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+}
+LightName("hoth_Design.LGT");
+ControllerManager("StandardCtrlMgr");
+
+WorldExtents()
+{
+	Min(0.000000, 0.000000, 0.000000);
+	Max(0.000000, 0.000000, 0.000000);
+}
+
+NextSequence(-16362439);
+
+Object("trenchturrets1", "hoth_prop_trench_turrets", 91677345)
+{
+	ChildRotation(-0.261, 0.000, -0.965, 0.000);
+	ChildPosition(-176.000, -6.926, -164.000);
+	SeqNo(91677345);
+	Team(0);
+	NetworkId(-1);
+	Label("14");
+	Layer(2);
+}
+
+Object("trenchturrets", "hoth_prop_trench_turrets", 139437770)
+{
+	ChildRotation(0.385, 0.000, -0.923, 0.000);
+	ChildPosition(-256.000, -8.050, 16.000);
+	SeqNo(139437770);
+	Team(0);
+	NetworkId(-1);
+	Label("trenchturrets");
+	Layer(2);
+}
+
+Object("turet9", "tur_bldg_hoth_lasermortar", 149770521)
+{
+	ChildRotation(0.808, 0.000, 0.589, 0.000);
+	ChildPosition(-480.057, -17.957, -139.580);
+	SeqNo(149770521);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("turet6", "tur_bldg_hoth_lasermortar", 240021674)
+{
+	ChildRotation(-0.248, 0.000, -0.969, 0.000);
+	ChildPosition(-245.776, -7.574, 32.740);
+	SeqNo(240021674);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("com_item_healthrecharge", "com_item_healthrecharge", 379887451)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-316.000, -4.793, 58.163);
+	SeqNo(379887451);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+	EffectRegion("");
+	Radius("5.0");
+}
+
+Object("turet1", "tur_bldg_hoth_lasermortar", 656648934)
+{
+	ChildRotation(0.552, 0.000, 0.834, 0.000);
+	ChildPosition(-319.041, 0.147, 62.285);
+	SeqNo(656648934);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("turet", "tur_bldg_hoth_lasermortar", 773041441)
+{
+	ChildRotation(0.681, 0.000, 0.732, 0.000);
+	ChildPosition(-320.489, 0.000, 40.918);
+	SeqNo(773041441);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("shield", "hoth_bldg_shieldgenerator", 805713705)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-423.489, -16.558, -204.950);
+	SeqNo(805713705);
+	Team(2);
+	NetworkId(-1);
+	Label("shield");
+	Layer(2);
+	CaptureRegion("");
+	ControlRegion("CP2_Control");
+	KillRegion("CP2_Death");
+	SpawnPath("CP2_SpawnPath");
+	AllyPath("");
+	AllyCount("65536");
+	Radius("0.0");
+	ValueBleed("10");
+	Value_ATK_Alliance("10");
+	Value_ATK_CIS("10");
+	Value_ATK_Empire("10");
+	Value_ATK_Republic("10");
+	Value_DEF_Alliance("10");
+	Value_DEF_CIS("10");
+	Value_DEF_Empire("10");
+	Value_DEF_Republic("10");
+	Value_DEF_Locals("10");
+	VO_All_AllCapture("");
+	VO_All_AllLost("");
+	VO_All_AllInDispute("");
+	VO_All_AllSaved("");
+	VO_All_AllInfo("");
+	VO_All_ImpCapture("");
+	VO_All_ImpLost("");
+	VO_All_ImpInDispute("");
+	VO_All_ImpSaved("");
+	VO_All_ImpInfo("");
+	VO_Imp_AllCapture("");
+	VO_Imp_AllLost("");
+	VO_Imp_AllInDispute("");
+	VO_Imp_AllSaved("");
+	VO_Imp_AllInfo("");
+	VO_Imp_ImpCapture("");
+	VO_Imp_ImpLost("");
+	VO_Imp_ImpInDispute("");
+	VO_Imp_ImpSaved("");
+	VO_Imp_ImpInfo("");
+	VO_Rep_RepCapture("");
+	VO_Rep_RepLost("");
+	VO_Rep_RepInDispute("");
+	VO_Rep_RepSaved("");
+	VO_Rep_RepInfo("");
+	VO_Rep_CISCapture("");
+	HUDIndex("5");
+	HUDIndexDisplay("1");
+}
+
+Object("com_item_weaponrecharge1", "com_item_weaponrecharge", 957533540)
+{
+	ChildRotation(0.704, 0.000, 0.710, 0.000);
+	ChildPosition(-204.222, -7.799, -185.332);
+	SeqNo(957533540);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+	EffectRegion("");
+	Radius("5.0");
+}
+
+Object("turet4", "tur_bldg_hoth_lasermortar", 972731102)
+{
+	ChildRotation(0.863, 0.000, 0.505, 0.000);
+	ChildPosition(-173.286, -6.553, -185.890);
+	SeqNo(972731102);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("turet12", "tur_bldg_hoth_lasermortar", 1248272272)
+{
+	ChildRotation(-0.287, 0.000, -0.958, 0.000);
+	ChildPosition(37.935, 0.638, 20.530);
+	SeqNo(1248272272);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("turet8", "tur_bldg_hoth_lasermortar", 1360453885)
+{
+	ChildRotation(0.887, 0.000, 0.461, 0.000);
+	ChildPosition(-464.237, -17.932, -175.651);
+	SeqNo(1360453885);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("com_item_weaponrecharge3", "com_item_weaponrecharge", 1412893813)
+{
+	ChildRotation(-0.190, 0.000, -0.982, 0.000);
+	ChildPosition(24.171, -0.006, 8.393);
+	SeqNo(1412893813);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+	EffectRegion("");
+	Radius("5.0");
+}
+
+Object("turet11", "tur_bldg_hoth_lasermortar", 1572886317)
+{
+	ChildRotation(-0.372, 0.000, -0.928, 0.000);
+	ChildPosition(7.061, 0.639, -4.088);
+	SeqNo(1572886317);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("turet2", "tur_bldg_hoth_lasermortar", 1882274739)
+{
+	ChildRotation(0.708, 0.000, 0.706, 0.000);
+	ChildPosition(-207.768, -3.765, -202.717);
+	SeqNo(1882274739);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("com_item_weaponrecharge5", "com_item_weaponrecharge", 2089510574)
+{
+	ChildRotation(0.858, 0.000, 0.514, 0.000);
+	ChildPosition(-137.754, -12.168, -146.243);
+	SeqNo(2089510574);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+	EffectRegion("");
+	Radius("5.0");
+}
+
+Object("com_item_healthrecharge3", "com_item_healthrecharge", 2107017155)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-139.958, -12.249, -143.281);
+	SeqNo(2107017155);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+	EffectRegion("");
+	Radius("5.0");
+}
+
+Object("turet7", "tur_bldg_hoth_lasermortar", -2024623728)
+{
+	ChildRotation(-0.427, 0.000, -0.904, 0.000);
+	ChildPosition(-277.113, -7.597, 7.884);
+	SeqNo(-2024623728);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("trenchturrets2", "hoth_prop_trench_turrets", -1892288885)
+{
+	ChildRotation(-0.259, 0.000, -0.966, 0.000);
+	ChildPosition(-467.098, -18.400, -153.432);
+	SeqNo(-1892288885);
+	Team(0);
+	NetworkId(-1);
+	Label("334");
+	Layer(2);
+}
+
+Object("com_item_healthrecharge5", "com_item_healthrecharge", -1729942482)
+{
+	ChildRotation(0.217, 0.000, -0.976, 0.000);
+	ChildPosition(25.654, -0.014, 10.095);
+	SeqNo(-1729942482);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+	EffectRegion("");
+	Radius("5.0");
+}
+
+Object("turet3", "tur_bldg_hoth_lasermortar", -1721468014)
+{
+	ChildRotation(0.708, 0.000, 0.706, 0.000);
+	ChildPosition(-207.752, -3.794, -181.284);
+	SeqNo(-1721468014);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("trenchturrets3", "hoth_prop_trench_turrets", -775377043)
+{
+	ChildRotation(0.384, 0.000, -0.923, 0.000);
+	ChildPosition(28.000, 0.204, 4.000);
+	SeqNo(-775377043);
+	Team(0);
+	NetworkId(-1);
+	Label("trenchturrets3");
+	Layer(2);
+}
+
+Object("com_item_weaponrecharge8", "com_item_weaponrecharge", -762629564)
+{
+	ChildRotation(0.675, 0.000, 0.738, 0.000);
+	ChildPosition(-315.829, -5.359, 44.393);
+	SeqNo(-762629564);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+	EffectRegion("");
+	Radius("5.0");
+}
+
+Object("com_item_healthrecharge8", "com_item_healthrecharge", -385234742)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-203.714, -7.374, -197.360);
+	SeqNo(-385234742);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+	EffectRegion("");
+	Radius("5.0");
+}
+
+Object("turet5", "tur_bldg_hoth_lasermortar", -43718489)
+{
+	ChildRotation(0.820, 0.000, 0.572, 0.000);
+	ChildPosition(-189.038, -6.464, -150.222);
+	SeqNo(-43718489);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}

@@ -1,0 +1,20 @@
+[GameObjectClass]
+ClassLabel = "prop"
+GeometryName = "tan4_bldg_engine_c.msh"
+
+[Properties]
+Label = "bridge"
+GeometryName = "tan4_bldg_engine_c"
+
+FoleyFXGroup    = "metal_foley"
+
+
+
+AttachEffect = "all_halo"
+
+AttachToHardPoint = "hp_light_1"
+AttachToHardPoint = "hp_light_2"
+AttachToHardPoint = "hp_light_3"
+AttachToHardPoint = "hp_light_4"
+AttachToHardPoint = "hp_light_5"
+AttachToHardPoint = "hp_light_6"

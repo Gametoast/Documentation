@@ -1,0 +1,36 @@
+Version(10);
+PathCount(1);
+
+Path("SP_spawn")
+{
+	Data(0);
+	PathType(0);
+	PathSpeedType(0);
+	PathTime(0.000000);
+	OffsetPath(0);
+	Layer(9);
+	SplineType("Hermite");
+
+	Properties(0)
+	{
+	}
+
+	Nodes(1)
+	{
+		Node()
+		{
+			Position(1342.672363, -78.885788, -531.788208);
+			Knot(0.000000);
+			Data(0);
+			Time(1.000000);
+			PauseTime(0.000000);
+			Rotation(0.637058, 0.000000, -0.770816, 0.000000);
+			Properties(0)
+			{
+			}
+		}
+
+	}
+
+}
+

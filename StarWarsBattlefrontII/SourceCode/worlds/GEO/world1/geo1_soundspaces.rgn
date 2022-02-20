@@ -1,0 +1,76 @@
+Version(1);
+RegionCount(8);
+
+Region("Soundspace Spire", 2)
+{
+	Layer(2);
+	Position(21.140516, -59.367744, 84.971222);
+	Rotation(0.995366, 0.003806, -0.095754, -0.009742);
+	Size(11.000000, 6.692459, 0.747214);
+	Name("Region 37");
+}
+
+Region("Soundspace Spire", 2)
+{
+	Layer(2);
+	Position(-84.429634, -59.428226, -269.582275);
+	Rotation(0.957608, 0.000000, 0.288126, 0.000000);
+	Size(11.000000, 6.600000, 0.000000);
+	Name("Region 38");
+}
+
+Region("Soundspace Spire", 2)
+{
+	Layer(2);
+	Position(106.817116, -35.317734, -167.072113);
+	Rotation(0.262946, 0.000000, -0.964811, 0.000000);
+	Size(11.000000, 6.600000, 0.000000);
+	Name("Region 39");
+}
+
+Region("Soundspace Spire", 2)
+{
+	Layer(2);
+	Position(28.001768, -62.859432, -51.061897);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(3.590271, 3.327990, 0.626436);
+	Name("Region20");
+	NextIsGrouped();
+}
+
+Region("Soundspace Spire", 2)
+{
+	Layer(2);
+	Position(37.036880, -63.104805, -51.331100);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(1.562595, 3.555008, 3.090040);
+	Name("Region21");
+}
+
+Region("Soundspace Spire", 0)
+{
+	Layer(2);
+	Position(32.871361, -61.856201, -39.911018);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(8.216309, 6.454624, 7.850746);
+	Name("Region22");
+	NextIsGrouped();
+}
+
+Region("Soundspace Spire", 0)
+{
+	Layer(2);
+	Position(164.485947, -57.991978, 26.736805);
+	Rotation(0.914454, 0.000000, -0.404712, 0.000000);
+	Size(23.074928, 10.000000, 33.188862);
+	Name("Region23");
+}
+
+Region("Soundspace cave", 2)
+{
+	Layer(2);
+	Position(69.815147, -76.835785, -106.143524);
+	Rotation(0.549016, 0.687272, 0.425193, 0.213190);
+	Size(6.383394, 15.446255, 9.856964);
+	Name("cave");
+}
