@@ -152,7 +152,7 @@ All global variables live as fields in ordinary Lua tables, called _environment 
 
 An access to a global variable `x` is equivalent to `_env.x`, which in turn is equivalent to
 
-       gettable\_event(\_env, "x")
+       gettable_event(_env, "x")
 
 where `_env` is the environment of the running function. (The `_env` variable is not defined in Lua. We use it here only for explanatory purposes.)
 
@@ -212,7 +212,7 @@ The meaning of assignments to global variables and table fields can be changed v
 
 An assignment to a global variable `x = val` is equivalent to the assignment `_env.x = val`, which in turn is equivalent to
 
-       settable\_event(\_env, "x", val)
+       settable_event(_env, "x", val)
 
 where `_env` is the environment of the running function. (The `_env` variable is not defined in Lua. We use it here only for explanatory purposes.)
 
@@ -255,11 +255,11 @@ The _block_ is repeated for _name_ starting at the value of the first _exp_, unt
 is equivalent to the code:
 
        do
-         local var, \_limit, \_step = tonumber(e1), tonumber(e2), tonumber(e3)
-         if not (var and \_limit and \_step) then error() end
-         while (\_step>0 and var<=\_limit) or (\_step<=0 and var>=\_limit) do
+         local var, _limit, _step = tonumber(e1), tonumber(e2), tonumber(e3)
+         if not (var and _limit and _step) then error() end
+         while (_step>0 and var<=_limit) or (_step<=0 and var>=_limit) do
            block
-           var = var + \_step
+           var = var + _step
          end
        end
 
@@ -278,16 +278,16 @@ The generic **for** statement works over functions, called _iterators_. For each
 
 A **for** statement like
 
-       for var\_1, ..., var\_n in explist do block end
+       for var_1, ..., var_n in explist do block end
 
 is equivalent to the code:
 
        do
-         local \_f, \_s, var\_1 = explist
-         local var\_2, ... , var\_n
+         local _f, _s, var_1 = explist
+         local var_2, ... , var_n
          while true do
-           var\_1, ..., var\_n = \_f(\_s, var\_1)
-           if var\_1 == nil then break end
+           var_1, ..., var_n = _f(_s, var_1)
+           if var_1 == nil then break end
            block
          end
        end
@@ -647,12 +647,12 @@ That is, the access to a metamethod does not invoke other metamethods, and the a
     
     Using that function, the behavior of the `op1 + op2` is
     
-     function add\_event (op1, op2)
+     function add_event (op1, op2)
        local o1, o2 = tonumber(op1), tonumber(op2)
        if o1 and o2 then  -- both operands are numeric?
          return o1 + o2   -- \`+' here is the primitive \`add'
        else  -- at least one of the operands is not numeric
-         local h = getbinhandler(op1, op2, "\_\_add")
+         local h = getbinhandler(op1, op2, "_add")
          if h then
            -- call the handler with both operands
            return h(op1, op2)
@@ -670,12 +670,12 @@ That is, the access to a metamethod does not invoke other metamethods, and the a
     
 *   **"pow":** the `^` (exponentiation) operation.
     
-     function pow\_event (op1, op2)
+     function pow_event (op1, op2)
        local o1, o2 = tonumber(op1), tonumber(op2)
        if o1 and o2 then  -- both operands are numeric?
-         return \_\_pow(o1, o2)   -- call global \`\_\_pow'
+         return _pow(o1, o2)   -- call global \`_pow'
        else  -- at least one of the operands is not numeric
-         local h = getbinhandler(op1, op2, "\_\_pow")
+         local h = getbinhandler(op1, op2, "_pow")
          if h then
            -- call the handler with both operands
            return h(op1, op2)
@@ -687,13 +687,13 @@ That is, the access to a metamethod does not invoke other metamethods, and the a
     
 *   **"unm":** the unary `-` operation.
     
-     function unm\_event (op)
+     function unm_event (op)
        local o = tonumber(op)
        if o then  -- operand is numeric?
          return -o  -- \`-' here is the primitive \`unm'
        else  -- the operand is not numeric.
          -- Try to get a handler from the operand
-         local h = metatable(op).\_\_unm
+         local h = metatable(op)._unm
          if h then
            -- call the handler with the operand and nil
            return h(op, nil)
@@ -705,12 +705,12 @@ That is, the access to a metamethod does not invoke other metamethods, and the a
     
 *   **"concat":** the `..` (concatenation) operation.
     
-     function concat\_event (op1, op2)
+     function concat_event (op1, op2)
        if (type(op1) == "string" or type(op1) == "number") and
           (type(op2) == "string" or type(op2) == "number") then
          return op1 .. op2  -- primitive string concatenation
        else
-         local h = getbinhandler(op1, op2, "\_\_concat")
+         local h = getbinhandler(op1, op2, "_concat")
          if h then
            return h(op1, op2)
          else
@@ -730,7 +730,7 @@ That is, the access to a metamethod does not invoke other metamethods, and the a
     
     The "eq" event is defined as follows:
     
-     function eq\_event (op1, op2)
+     function eq_event (op1, op2)
        if type(op1) ~= type(op2) then  -- different types?
          return false   -- different objects
        end
@@ -738,7 +738,7 @@ That is, the access to a metamethod does not invoke other metamethods, and the a
          return true   -- objects are equal
        end
        -- try metamethod
-       local h = getcomphandler(op1, op2, "\_\_eq")
+       local h = getcomphandler(op1, op2, "_eq")
        if h then
          return h(op1, op2)
        else
@@ -750,13 +750,13 @@ That is, the access to a metamethod does not invoke other metamethods, and the a
     
 *   **"lt":** the `<` operation.
     
-     function lt\_event (op1, op2)
+     function lt_event (op1, op2)
        if type(op1) == "number" and type(op2) == "number" then
          return op1 < op2   -- numeric comparison
        elseif type(op1) == "string" and type(op2) == "string" then
          return op1 < op2   -- lexicographic comparison
        else
-         local h = getcomphandler(op1, op2, "\_\_lt")
+         local h = getcomphandler(op1, op2, "_lt")
          if h then
            return h(op1, op2)
          else
@@ -769,17 +769,17 @@ That is, the access to a metamethod does not invoke other metamethods, and the a
     
 *   **"le":** the `<=` operation.
     
-     function le\_event (op1, op2)
+     function le_event (op1, op2)
        if type(op1) == "number" and type(op2) == "number" then
          return op1 <= op2   -- numeric comparison
        elseif type(op1) == "string" and type(op2) == "string" then
          return op1 <= op2   -- lexicographic comparison
        else
-         local h = getcomphandler(op1, op2, "\_\_le")
+         local h = getcomphandler(op1, op2, "_le")
          if h then
            return h(op1, op2)
          else
-           h = getcomphandler(op1, op2, "\_\_lt")
+           h = getcomphandler(op1, op2, "_lt")
            if h then
              return not h(op2, op1)
            else
@@ -793,15 +793,15 @@ That is, the access to a metamethod does not invoke other metamethods, and the a
     
 *   **"index":** The indexing access `table[key]`.
     
-     function gettable\_event (table, key)
+     function gettable_event (table, key)
        local h
        if type(table) == "table" then
          local v = rawget(table, key)
          if v ~= nil then return v end
-         h = metatable(table).\_\_index
+         h = metatable(table)._index
          if h == nil then return nil end
        else
-         h = metatable(table).\_\_index
+         h = metatable(table)._index
          if h == nil then
            error("...");
          end
@@ -813,15 +813,15 @@ That is, the access to a metamethod does not invoke other metamethods, and the a
     
 *   **"newindex":** The indexing assignment `table[key] = value`.
     
-     function settable\_event (table, key, value)
+     function settable_event (table, key, value)
        local h
        if type(table) == "table" then
          local v = rawget(table, key)
          if v ~= nil then rawset(table, key, value); return end
-         h = metatable(table).\_\_newindex
+         h = metatable(table)._newindex
          if h == nil then rawset(table, key, value); return end
        else
-         h = metatable(table).\_\_newindex
+         h = metatable(table)._newindex
          if h == nil then
            error("...");
          end
@@ -833,11 +833,11 @@ That is, the access to a metamethod does not invoke other metamethods, and the a
     
 *   **"call":** called when Lua calls a value.
     
-     function function\_event (func, ...)
+     function function_event (func, ...)
        if type(func) == "function" then
          return func(unpack(arg))   -- primitive call
        else
-         local h = metatable(func).\_\_call
+         local h = metatable(func)._call
          if h then
            return h(func, unpack(arg))
          else
@@ -862,8 +862,8 @@ Using the C API, you can set garbage-collector metamethods for userdata (see [2
 
 Free userdata with a field `__gc` in their metatables are not collected immediately by the garbage collector. Instead, Lua puts them in a list. After the collection, Lua does the equivalent of the following function for each userdata in that list:
 
- function gc\_event (udata)
-   local h = metatable(udata).\_\_gc
+ function gc_event (udata)
+   local h = metatable(udata)._gc
    if h then
      h(udata)
    end
@@ -944,11 +944,11 @@ The Lua library is fully reentrant: it has no global variables. The whole state 
 
 Before calling any API function, you must create a state by calling `lua_open`:
 
-       lua\_State \*lua\_open (void);
+       lua_State \*lua_open (void);
 
 To release a state created with `lua_open`, call `lua_close`:
 
-       void lua\_close (lua\_State \*L);
+       void lua_close (lua_State \*L);
 
 This function destroys all objects in the given Lua state (calling the corresponding garbage-collection metamethods, if any) and frees all dynamic memory used by that state. On several platforms, you may not need to call this function, because all resources are naturally released when the host program ends. On the other hand, long-running programs, such as a daemon or a web server, might need to release states as soon as they are not needed, to avoid growing too large.
 
@@ -963,13 +963,13 @@ For convenience, most query operations in the API do not follow a strict stack d
 
 At any time, you can get the index of the top element by calling `lua_gettop`:
 
-       int lua\_gettop (lua\_State \*L);
+       int lua_gettop (lua_State \*L);
 
 Because indices start at 1, the result of `lua_gettop` is equal to the number of elements in the stack (and so 0 means an empty stack).
 
 When you interact with Lua API, _you are responsible for controlling stack overflow_. The function
 
-       int lua\_checkstack (lua\_State \*L, int extra);
+       int lua_checkstack (lua_State \*L, int extra);
 
 grows the stack size to `top + extra` elements; it returns false if it cannot grow the stack to that size. This function never shrinks the stack; if the stack is already larger than the new size, it is left unchanged.
 
@@ -988,15 +988,15 @@ Unless otherwise noted, any function that accepts valid indices can also be call
 
 The API offers the following functions for basic stack manipulation:
 
-       void lua\_settop    (lua\_State \*L, int index);
-       void lua\_pushvalue (lua\_State \*L, int index);
-       void lua\_remove    (lua\_State \*L, int index);
-       void lua\_insert    (lua\_State \*L, int index);
-       void lua\_replace   (lua\_State \*L, int index);
+       void lua_settop    (lua_State \*L, int index);
+       void lua_pushvalue (lua_State \*L, int index);
+       void lua_remove    (lua_State \*L, int index);
+       void lua_insert    (lua_State \*L, int index);
+       void lua_replace   (lua_State \*L, int index);
 
 `lua_settop` accepts any acceptable index, or 0, and sets the stack top to that index. If the new top is larger than the old one, then the new elements are filled with **nil**. If `index` is 0, then all stack elements are removed. A useful macro defined in the `lua.h` is
 
-       #define lua\_pop(L,n)   lua\_settop(L, -(n)-1)
+       #define lua_pop(L,n)   lua_settop(L, -(n)-1)
 
 which pops `n` elements from the stack.
 
@@ -1004,45 +1004,45 @@ which pops `n` elements from the stack.
 
 As an example, if the stack starts as `10 20 30 40 50*` (from bottom to top; the \``*` marks the top), then
 
-       lua\_pushvalue(L, 3)    --> 10 20 30 40 50 30\*
-       lua\_pushvalue(L, -1)   --> 10 20 30 40 50 30 30\*
-       lua\_remove(L, -3)      --> 10 20 30 40 30 30\*
-       lua\_remove(L,  6)      --> 10 20 30 40 30\*
-       lua\_insert(L,  1)      --> 30 10 20 30 40\*
-       lua\_insert(L, -1)      --> 30 10 20 30 40\*  (no effect)
-       lua\_replace(L, 2)      --> 30 40 20 30\*
-       lua\_settop(L, -3)      --> 30 40\*
-       lua\_settop(L,  6)      --> 30 40 nil nil nil nil\*
+       lua_pushvalue(L, 3)    --> 10 20 30 40 50 30\*
+       lua_pushvalue(L, -1)   --> 10 20 30 40 50 30 30\*
+       lua_remove(L, -3)      --> 10 20 30 40 30 30\*
+       lua_remove(L,  6)      --> 10 20 30 40 30\*
+       lua_insert(L,  1)      --> 30 10 20 30 40\*
+       lua_insert(L, -1)      --> 30 10 20 30 40\*  (no effect)
+       lua_replace(L, 2)      --> 30 40 20 30\*
+       lua_settop(L, -3)      --> 30 40\*
+       lua_settop(L,  6)      --> 30 40 nil nil nil nil\*
 
 3.4  Querying the Stack
 ------------------------
 
 To check the type of a stack element, the following functions are available:
 
-       int lua\_type            (lua\_State \*L, int index);
-       int lua\_isnil           (lua\_State \*L, int index);
-       int lua\_isboolean       (lua\_State \*L, int index);
-       int lua\_isnumber        (lua\_State \*L, int index);
-       int lua\_isstring        (lua\_State \*L, int index);
-       int lua\_istable         (lua\_State \*L, int index);
-       int lua\_isfunction      (lua\_State \*L, int index);
-       int lua\_iscfunction     (lua\_State \*L, int index);
-       int lua\_isuserdata      (lua\_State \*L, int index);
-       int lua\_islightuserdata (lua\_State \*L, int index);
+       int lua_type            (lua_State \*L, int index);
+       int lua_isnil           (lua_State \*L, int index);
+       int lua_isboolean       (lua_State \*L, int index);
+       int lua_isnumber        (lua_State \*L, int index);
+       int lua_isstring        (lua_State \*L, int index);
+       int lua_istable         (lua_State \*L, int index);
+       int lua_isfunction      (lua_State \*L, int index);
+       int lua_iscfunction     (lua_State \*L, int index);
+       int lua_isuserdata      (lua_State \*L, int index);
+       int lua_islightuserdata (lua_State \*L, int index);
 
 These functions can be called with any acceptable index.
 
 `lua_type` returns the type of a value in the stack, or `LUA_TNONE` for a non-valid index (that is, if that stack position is "empty"). The types returned by `lua_type` are coded by the following constants defined in `lua.h`: `LUA_TNIL`, `LUA_TNUMBER`, `LUA_TBOOLEAN`, `LUA_TSTRING`, `LUA_TTABLE`, `LUA_TFUNCTION`, `LUA_TUSERDATA`, `LUA_TTHREAD`, `LUA_TLIGHTUSERDATA`. The following function translates these constants to strings:
 
-       const char \*lua\_typename  (lua\_State \*L, int type);
+       const char \*lua_typename  (lua_State \*L, int type);
 
 The `lua_is*` functions return 1 if the object is compatible with the given type, and 0 otherwise. `lua_isboolean` is an exception to this rule: It succeeds only for boolean values (otherwise it would be useless, as any value has a boolean value). They always return 0 for a non-valid index. `lua_isnumber` accepts numbers and numerical strings; `lua_isstring` accepts strings and numbers (see [2.2.1](https://www.lua.org/manual/5.0/manual.html#coercion)); `lua_isfunction` accepts both Lua functions and C functions; and `lua_isuserdata` accepts both full and light userdata. To distinguish between Lua functions and C functions, you can use `lua_iscfunction`. To distinguish between full and light userdata, you can use `lua_islightuserdata`. To distinguish between numbers and numerical strings, you can use `lua_type`.
 
 The API also contains functions to compare two values in the stack:
 
-       int lua\_equal    (lua\_State \*L, int index1, int index2);
-       int lua\_rawequal (lua\_State \*L, int index1, int index2);
-       int lua\_lessthan (lua\_State \*L, int index1, int index2);
+       int lua_equal    (lua_State \*L, int index1, int index2);
+       int lua_rawequal (lua_State \*L, int index1, int index2);
+       int lua_lessthan (lua_State \*L, int index1, int index2);
 
 `lua_equal` and `lua_lessthan` are equivalent to their counterparts in Lua (see [2.5.2](https://www.lua.org/manual/5.0/manual.html#rel-ops)). `lua_rawequal` compares the values for primitive equality, without metamethods. These functions return 0 (false) if any of the indices are non-valid.
 
@@ -1051,14 +1051,14 @@ The API also contains functions to compare two values in the stack:
 
 To translate a value in the stack to a specific C type, you can use the following conversion functions:
 
-       int            lua\_toboolean   (lua\_State \*L, int index);
-       lua\_Number     lua\_tonumber    (lua\_State \*L, int index);
-       const char    \*lua\_tostring    (lua\_State \*L, int index);
-       size\_t         lua\_strlen      (lua\_State \*L, int index);
-       lua\_CFunction  lua\_tocfunction (lua\_State \*L, int index);
-       void          \*lua\_touserdata  (lua\_State \*L, int index);
-       lua\_State     \*lua\_tothread    (lua\_State \*L, int index);
-       void          \*lua\_topointer   (lua\_State \*L, int index);
+       int            lua_toboolean   (lua_State \*L, int index);
+       lua_Number     lua_tonumber    (lua_State \*L, int index);
+       const char    \*lua_tostring    (lua_State \*L, int index);
+       size_t         lua_strlen      (lua_State \*L, int index);
+       lua_CFunction  lua_tocfunction (lua_State \*L, int index);
+       void          \*lua_touserdata  (lua_State \*L, int index);
+       lua_State     \*lua_tothread    (lua_State \*L, int index);
+       void          \*lua_topointer   (lua_State \*L, int index);
 
 These functions can be called with any acceptable index. When called with a non-valid index, they act as if the given value had an incorrect type.
 
@@ -1081,20 +1081,20 @@ These functions can be called with any acceptable index. When called with a non-
 
 The API has the following functions to push C values onto the stack:
 
-       void lua\_pushboolean       (lua\_State \*L, int b);
-       void lua\_pushnumber        (lua\_State \*L, lua\_Number n);
-       void lua\_pushlstring       (lua\_State \*L, const char \*s, size\_t len);
-       void lua\_pushstring        (lua\_State \*L, const char \*s);
-       void lua\_pushnil           (lua\_State \*L);
-       void lua\_pushcfunction     (lua\_State \*L, lua\_CFunction f);
-       void lua\_pushlightuserdata (lua\_State \*L, void \*p);
+       void lua_pushboolean       (lua_State \*L, int b);
+       void lua_pushnumber        (lua_State \*L, lua_Number n);
+       void lua_pushlstring       (lua_State \*L, const char \*s, size_t len);
+       void lua_pushstring        (lua_State \*L, const char \*s);
+       void lua_pushnil           (lua_State \*L);
+       void lua_pushcfunction     (lua_State \*L, lua_CFunction f);
+       void lua_pushlightuserdata (lua_State \*L, void \*p);
 
 These functions receive a C value, convert it to a corresponding Lua value, and push the result onto the stack. In particular, `lua_pushlstring` and `lua_pushstring` make an internal copy of the given string. `lua_pushstring` can only be used to push proper C strings (that is, strings that end with a zero and do not contain embedded zeros); otherwise, you should use the more general `lua_pushlstring`, which accepts an explicit size.
 
 You can also push "formatted" strings:
 
-       const char \*lua\_pushfstring  (lua\_State \*L, const char \*fmt, ...);
-       const char \*lua\_pushvfstring (lua\_State \*L, const char \*fmt, va\_list argp);
+       const char \*lua_pushfstring  (lua_State \*L, const char \*fmt, ...);
+       const char \*lua_pushvfstring (lua_State \*L, const char \*fmt, va_list argp);
 
 These functions push onto the stack a formatted string and return a pointer to that string. They are similar to `sprintf` and `vsprintf`, but with some important differences:
 
@@ -1103,7 +1103,7 @@ These functions push onto the stack a formatted string and return a pointer to t
 
 The function
 
-       void lua\_concat (lua\_State \*L, int n);
+       void lua_concat (lua_State \*L, int n);
 
 concatenates the `n` values at the top of the stack, pops them, and leaves the result at the top. If `n` is 1, the result is that single string (that is, the function does nothing); if `n` is 0, the result is the empty string. Concatenation is done following the usual semantics of Lua (see [2.5.4](https://www.lua.org/manual/5.0/manual.html#concat)).
 
@@ -1114,12 +1114,12 @@ Lua uses two numbers to control its garbage collection: the _count_ and the _thr
 
 You can access the current values of these two numbers through the following functions:
 
-       int  lua\_getgccount     (lua\_State \*L);
-       int  lua\_getgcthreshold (lua\_State \*L);
+       int  lua_getgccount     (lua_State \*L);
+       int  lua_getgcthreshold (lua_State \*L);
 
 Both return their respective values in Kbytes. You can change the threshold value with
 
-       void  lua\_setgcthreshold (lua\_State \*L, int newthreshold);
+       void  lua_setgcthreshold (lua_State \*L, int newthreshold);
 
 Again, the `newthreshold` value is given in Kbytes. When you call this function, Lua sets the new threshold and checks it against the byte counter. If the new threshold is less than the byte counter, then Lua immediately runs the garbage collector. In particular `lua_setgcthreshold(L,0)` forces a garbage collection. After the collection, a new threshold is set according to the previous rule.
 
@@ -1136,7 +1136,7 @@ In Lua code, there is no way to test whether a userdata is full or light; both h
 
 You can create a new full userdata with the following function:
 
-       void \*lua\_newuserdata (lua\_State \*L, size\_t size);
+       void \*lua_newuserdata (lua_State \*L, size_t size);
 
 This function allocates a new block of memory with the given size, pushes on the stack a new userdata with the block address, and returns this address.
 
@@ -1151,8 +1151,8 @@ When Lua collects a full userdata, it calls the userdata's `gc` metamethod, if a
 
 The following functions allow you to manipulate the metatables of an object:
 
-       int lua\_getmetatable (lua\_State \*L, int index);
-       int lua\_setmetatable (lua\_State \*L, int index);
+       int lua_getmetatable (lua_State \*L, int index);
+       int lua_setmetatable (lua_State \*L, int index);
 
 `lua_getmetatable` pushes on the stack the metatable of a given object. If the index is not valid, or if the object does not have a metatable, `lua_getmetatable` returns 0 and pushes nothing on the stack.
 
@@ -1163,10 +1163,10 @@ The following functions allow you to manipulate the metatables of an object:
 
 You can load a Lua chunk with `lua_load`:
 
-       typedef const char \* (\*lua\_Chunkreader)
-                                (lua\_State \*L, void \*data, size\_t \*size);
+       typedef const char \* (\*lua_Chunkreader)
+                                (lua_State \*L, void \*data, size_t \*size);
 
-       int lua\_load (lua\_State \*L, lua\_Chunkreader reader, void \*data,
+       int lua_load (lua_State \*L, lua_Chunkreader reader, void \*data,
                                    const char \*chunkname);
 
 The return values of `lua_load` are:
@@ -1192,41 +1192,41 @@ See the auxiliary library (`lauxlib.c`) for examples of how to use `lua_load` an
 
 Tables are created by calling the function
 
-       void lua\_newtable (lua\_State \*L);
+       void lua_newtable (lua_State \*L);
 
 This function creates a new, empty table and pushes it onto the stack.
 
 To read a value from a table that resides somewhere in the stack, call
 
-       void lua\_gettable (lua\_State \*L, int index);
+       void lua_gettable (lua_State \*L, int index);
 
 where `index` points to the table. `lua_gettable` pops a key from the stack and returns (on the stack) the contents of the table at that key. The table is left where it was in the stack. As in Lua, this function may trigger a metamethod for the "index" event (see [2.8](https://www.lua.org/manual/5.0/manual.html#metatable)). To get the real value of any table key, without invoking any metamethod, use the _raw_ version:
 
-       void lua\_rawget (lua\_State \*L, int index);
+       void lua_rawget (lua_State \*L, int index);
 
 To store a value into a table that resides somewhere in the stack, you push the key and then the value onto the stack, and call
 
-       void lua\_settable (lua\_State \*L, int index);
+       void lua_settable (lua_State \*L, int index);
 
 where `index` points to the table. `lua_settable` pops from the stack both the key and the value. The table is left where it was in the stack. As in Lua, this operation may trigger a metamethod for the "settable" or "newindex" events. To set the real value of any table index, without invoking any metamethod, use the _raw_ version:
 
-       void lua\_rawset (lua\_State \*L, int index);
+       void lua_rawset (lua_State \*L, int index);
 
 You can traverse a table with the function
 
-       int lua\_next (lua\_State \*L, int index);
+       int lua_next (lua_State \*L, int index);
 
 where `index` points to the table to be traversed. The function pops a key from the stack, and pushes a key-value pair from the table (the "next" pair after the given key). If there are no more elements, then `lua_next` returns 0 (and pushes nothing). Use a **nil** key to signal the start of a traversal.
 
 A typical traversal looks like this:
 
        /\* table is in the stack at index \`t' \*/
-       lua\_pushnil(L);  /\* first key \*/
-       while (lua\_next(L, t) != 0) {
+       lua_pushnil(L);  /\* first key \*/
+       while (lua_next(L, t) != 0) {
          /\* \`key' is at index -2 and \`value' at index -1 \*/
          printf("%s - %s\\n",
-           lua\_typename(L, lua\_type(L, -2)), lua\_typename(L, lua\_type(L, -1)));
-         lua\_pop(L, 1);  /\* removes \`value'; keeps \`key' for next iteration \*/
+           lua_typename(L, lua_type(L, -2)), lua_typename(L, lua_type(L, -1)));
+         lua_pop(L, 1);  /\* removes \`value'; keeps \`key' for next iteration \*/
        }
 
 While traversing a table, do not call `lua_tostring` directly on a key, unless you know that the key is actually a string. Recall that `lua_tostring` _changes_ the value at the given index; this confuses the next call to `lua_next`.
@@ -1238,15 +1238,15 @@ All global variables are kept in ordinary Lua tables, called environments. The i
 
 To access and change the value of global variables, you can use regular table operations over an environment table. For instance, to access the value of a global variable, do
 
-       lua\_pushstring(L, varname);
-       lua\_gettable(L, LUA\_GLOBALSINDEX);
+       lua_pushstring(L, varname);
+       lua_gettable(L, LUA_GLOBALSINDEX);
 
 You can change the global environment of a Lua thread using `lua_replace`.
 
 The following functions get and set the environment of Lua functions:
 
-       void lua\_getfenv (lua\_State \*L, int index);
-       int  lua\_setfenv (lua\_State \*L, int index);
+       void lua_getfenv (lua_State \*L, int index);
+       int  lua_setfenv (lua_State \*L, int index);
 
 `lua_getfenv` pushes on the stack the environment table of the function at index `index` in the stack. If the function is a C function, `lua_getfenv` pushes the global environment. `lua_setfenv` pops a table from the stack and sets it as the new environment for the function at index `index` in the stack. If the object at the given index is not a Lua function, `lua_setfenv` returns 0.
 
@@ -1255,8 +1255,8 @@ The following functions get and set the environment of Lua functions:
 
 The API has functions that help to use Lua tables as arrays, that is, tables indexed by numbers only:
 
-       void lua\_rawgeti (lua\_State \*L, int index, int n);
-       void lua\_rawseti (lua\_State \*L, int index, int n);
+       void lua_rawgeti (lua_State \*L, int index, int n);
+       void lua_rawseti (lua_State \*L, int index, int n);
 
 `lua_rawgeti` pushes the value of the _n_\-th element of the table at stack position `index`. `lua_rawseti` sets the value of the _n_\-th element of the table at stack position `index` to the value at the top of the stack, removing this value from the stack.
 
@@ -1265,7 +1265,7 @@ The API has functions that help to use Lua tables as arrays, that is, tables ind
 
 Functions defined in Lua and C functions registered in Lua can be called from the host program. This is done using the following protocol: First, the function to be called is pushed onto the stack; then, the arguments to the function are pushed in _direct order_, that is, the first argument is pushed first. Finally, the function is called using
 
-       void lua\_call (lua\_State \*L, int nargs, int nresults);
+       void lua_call (lua_State \*L, int nargs, int nresults);
 
 `nargs` is the number of arguments that you pushed onto the stack. All arguments and the function value are popped from the stack, and the function results are pushed. The number of results are adjusted to `nresults`, unless `nresults` is `LUA_MULTRET`. In that case, _all_ results from the function are pushed. Lua takes care that the returned values fit into the stack space. The function results are pushed onto the stack in direct order (the first result is pushed first), so that after the call the last result is on the top.
 
@@ -1275,18 +1275,18 @@ The following example shows how the host program may do the equivalent to this L
 
 Here it is in C:
 
-    lua\_pushstring(L, "t");
-    lua\_gettable(L, LUA\_GLOBALSINDEX);          /\* global \`t' (for later use) \*/
-    lua\_pushstring(L, "a");                                       /\* var name \*/
-    lua\_pushstring(L, "f");                                  /\* function name \*/
-    lua\_gettable(L, LUA\_GLOBALSINDEX);               /\* function to be called \*/
-    lua\_pushstring(L, "how");                                 /\* 1st argument \*/
-    lua\_pushstring(L, "x");                            /\* push the string "x" \*/
-    lua\_gettable(L, -5);                      /\* push result of t.x (2nd arg) \*/
-    lua\_pushnumber(L, 14);                                    /\* 3rd argument \*/
-    lua\_call(L, 3, 1);         /\* call function with 3 arguments and 1 result \*/
-    lua\_settable(L, LUA\_GLOBALSINDEX);             /\* set global variable \`a' \*/
-    lua\_pop(L, 1);                               /\* remove \`t' from the stack \*/
+    lua_pushstring(L, "t");
+    lua_gettable(L, LUA_GLOBALSINDEX);          /\* global \`t' (for later use) \*/
+    lua_pushstring(L, "a");                                       /\* var name \*/
+    lua_pushstring(L, "f");                                  /\* function name \*/
+    lua_gettable(L, LUA_GLOBALSINDEX);               /\* function to be called \*/
+    lua_pushstring(L, "how");                                 /\* 1st argument \*/
+    lua_pushstring(L, "x");                            /\* push the string "x" \*/
+    lua_gettable(L, -5);                      /\* push result of t.x (2nd arg) \*/
+    lua_pushnumber(L, 14);                                    /\* 3rd argument \*/
+    lua_call(L, 3, 1);         /\* call function with 3 arguments and 1 result \*/
+    lua_settable(L, LUA_GLOBALSINDEX);             /\* set global variable \`a' \*/
+    lua_pop(L, 1);                               /\* remove \`t' from the stack \*/
 
 Note that the code above is "balanced": at its end, the stack is back to its original configuration. This is considered good programming practice.
 
@@ -1297,7 +1297,7 @@ Note that the code above is "balanced": at its end, the stack is back to its ori
 
 When you call a function with `lua_call`, any error inside the called function is propagated upwards (with a `longjmp`). If you need to handle errors, then you should use `lua_pcall`:
 
-       int lua\_pcall (lua\_State \*L, int nargs, int nresults, int errfunc);
+       int lua_pcall (lua_State \*L, int nargs, int nresults, int errfunc);
 
 Both `nargs` and `nresults` have the same meaning as in `lua_call`. If there are no errors during the call, `lua_pcall` behaves exactly like `lua_call`. However, if there is any error, `lua_pcall` catches it, pushes a single value at the stack (the error message), and returns an error code. Like `lua_call`, `lua_pcall` always removes the function and its arguments from the stack.
 
@@ -1316,7 +1316,7 @@ The `lua_pcall` function returns 0 in case of success or one of the following er
 
 Lua can be extended with functions written in C. These functions must be of type `lua_CFunction`, which is defined as
 
-       typedef int (\*lua\_CFunction) (lua\_State \*L);
+       typedef int (\*lua_CFunction) (lua_State \*L);
 
 A C function receives a Lua state and returns an integer, the number of values it wants to return to Lua.
 
@@ -1324,42 +1324,42 @@ In order to communicate properly with Lua, a C function must follow the followi
 
 As an example, the following function receives a variable number of numerical arguments and returns their average and sum:
 
-       static int foo (lua\_State \*L) {
-         int n = lua\_gettop(L);    /\* number of arguments \*/
-         lua\_Number sum = 0;
+       static int foo (lua_State \*L) {
+         int n = lua_gettop(L);    /\* number of arguments \*/
+         lua_Number sum = 0;
          int i;
          for (i = 1; i <= n; i++) {
-           if (!lua\_isnumber(L, i)) {
-             lua\_pushstring(L, "incorrect argument to function \`average'");
-             lua\_error(L);
+           if (!lua_isnumber(L, i)) {
+             lua_pushstring(L, "incorrect argument to function \`average'");
+             lua_error(L);
            }
-           sum += lua\_tonumber(L, i);
+           sum += lua_tonumber(L, i);
          }
-         lua\_pushnumber(L, sum/n);        /\* first result \*/
-         lua\_pushnumber(L, sum);         /\* second result \*/
+         lua_pushnumber(L, sum/n);        /\* first result \*/
+         lua_pushnumber(L, sum);         /\* second result \*/
          return 2;                   /\* number of results \*/
        }
 
 To register a C function to Lua, there is the following convenience macro:
 
-       #define lua\_register(L,n,f) \\
-               (lua\_pushstring(L, n), \\
-                lua\_pushcfunction(L, f), \\
-                lua\_settable(L, LUA\_GLOBALSINDEX))
-     /\* lua\_State \*L;    \*/
+       #define lua_register(L,n,f) \\
+               (lua_pushstring(L, n), \\
+                lua_pushcfunction(L, f), \\
+                lua_settable(L, LUA_GLOBALSINDEX))
+     /\* lua_State \*L;    \*/
      /\* const char \*n;   \*/
-     /\* lua\_CFunction f; \*/
+     /\* lua_CFunction f; \*/
 
 which receives the name the function will have in Lua and a pointer to the function. Thus, the C function `foo` above may be registered in Lua as `average` by calling
 
-       lua\_register(L, "average", foo);
+       lua_register(L, "average", foo);
 
 3.17  Defining C Closures
 --------------------------
 
 When a C function is created, it is possible to associate some values with it, thus creating a _C closure_; these values are then accessible to the function whenever it is called. To associate values with a C function, first these values should be pushed onto the stack (when there are multiple values, the first value is pushed first). Then the function
 
-       void lua\_pushcclosure (lua\_State \*L, lua\_CFunction fn, int n);
+       void lua_pushcclosure (lua_State \*L, lua_CFunction fn, int n);
 
 is used to push the C function onto the stack, with the argument `n` telling how many values should be associated with the function (`lua_pushcclosure` also pops these values from the stack); in fact, the macro `lua_pushcfunction` is defined as `lua_pushcclosure` with `n` set to 0.
 
@@ -1381,7 +1381,7 @@ Internally, Lua uses the C `longjmp` facility to handle errors. When Lua faces a
 
 If an error happens outside any protected environment, Lua calls a _panic function_ and then calls `exit(EXIT_FAILURE)`. You can change the panic function with
 
-       lua\_CFunction lua\_atpanic (lua\_State \*L, lua\_CFunction panicf);
+       lua_CFunction lua_atpanic (lua_State \*L, lua_CFunction panicf);
 
 Your new panic function may avoid the application exit by never returning (e.g., by doing a long jump). Nevertheless, the corresponding Lua state will not be consistent; the only safe operation with it is to close it.
 
@@ -1389,13 +1389,13 @@ Almost any function in the API may raise an error, for instance due to a memory 
 
 There is yet another function that runs a given C function in protected mode:
 
-       int lua\_cpcall (lua\_State \*L, lua\_CFunction func, void \*ud);
+       int lua_cpcall (lua_State \*L, lua_CFunction func, void \*ud);
 
 `lua_cpcall` calls `func` in protected mode. `func` starts with only one element in its stack, a light userdata containing `ud`. In case of errors, `lua_cpcall` returns the same error codes as `lua_pcall` (see [3.15](https://www.lua.org/manual/5.0/manual.html#lua_pcall)), plus the error object on the top of the stack; otherwise, it returns zero, and does not change the stack. Any value returned by `func` is discarded.
 
 C code can generate a Lua error calling the function
 
-       void lua\_error (lua\_State \*L);
+       void lua_error (lua_State \*L);
 
 The error message (which actually can be any type of object) must be on the stack top. This function does a long jump, and therefore never returns.
 
@@ -1404,7 +1404,7 @@ The error message (which actually can be any type of object) must be on the stac
 
 Lua offers partial support for multiple threads of execution. If you have a C library that offers multi-threading, then Lua can cooperate with it to implement the equivalent facility in Lua. Also, Lua implements its own coroutine system on top of threads. The following function creates a new thread in Lua:
 
-       lua\_State \*lua\_newthread (lua\_State \*L);
+       lua_State \*lua_newthread (lua_State \*L);
 
 This function pushes the thread on the stack and returns a pointer to a `lua_State` that represents this new thread. The new state returned by this function shares with the original state all global objects (such as tables), but has an independent run-time stack.
 
@@ -1414,20 +1414,20 @@ There is no explicit function to close or to destroy a thread. Threads are subje
 
 To manipulate threads as coroutines, Lua offers the following functions:
 
-       int lua\_resume (lua\_State \*L, int narg);
-       int lua\_yield  (lua\_State \*L, int nresults);
+       int lua_resume (lua_State \*L, int narg);
+       int lua_yield  (lua_State \*L, int nresults);
 
 To start a coroutine, you first create a new thread; then you push on its stack the body function plus any eventual arguments; then you call `lua_resume`, with `narg` being the number of arguments. This call returns when the coroutine suspends or finishes its execution. When it returns, the stack contains all values passed to `lua_yield`, or all values returned by the body function. `lua_resume` returns 0 if there are no errors running the coroutine, or an error code (see [3.15](https://www.lua.org/manual/5.0/manual.html#lua_pcall)). In case of errors, the stack contains only the error message. To restart a coroutine, you put on its stack only the values to be passed as results from `yield`, and then call `lua_resume`.
 
 The `lua_yield` function can only be called as the return expression of a C function, as follows:
 
-       return lua\_yield (L, nresults);
+       return lua_yield (L, nresults);
 
 When a C function calls `lua_yield` in that way, the running coroutine suspends its execution, and the call to `lua_resume` that started this coroutine returns. The parameter `nresults` is the number of values from the stack that are passed as results to `lua_resume`.
 
 To exchange values between different threads, you may use `lua_xmove`:
 
-       void lua\_xmove (lua\_State \*from, lua\_State \*to, int n);
+       void lua_xmove (lua_State \*from, lua_State \*to, int n);
 
 It pops `n` values from the stack `from`, and puhses them into the stack `to`.
 
@@ -1441,13 +1441,13 @@ Lua has no built-in debugging facilities. Instead, it offers a special interface
 
 The main function to get information about the interpreter runtime stack is
 
-       int lua\_getstack (lua\_State \*L, int level, lua\_Debug \*ar);
+       int lua_getstack (lua_State \*L, int level, lua_Debug \*ar);
 
 This function fills parts of a `lua_Debug` structure with an identification of the _activation record_ of the function executing at a given level. Level 0 is the current running function, whereas level _n+1_ is the function that has called level _n_. When there are no errors, `lua_getstack` returns 1; when called with a level greater than the stack depth, it returns 0.
 
 The structure `lua_Debug` is used to carry different pieces of information about an active function:
 
-      typedef struct lua\_Debug {
+      typedef struct lua_Debug {
         int event;
         const char \*name;      /\* (n) \*/
         const char \*namewhat;  /\* (n) \`global', \`local', \`field', \`method' \*/
@@ -1456,24 +1456,24 @@ The structure `lua_Debug` is used to carry different pieces of information about
         int currentline;       /\* (l) \*/
         int nups;              /\* (u) number of upvalues \*/
         int linedefined;       /\* (S) \*/
-        char short\_src\[LUA\_IDSIZE\]; /\* (S) \*/
+        char short_src\[LUA_IDSIZE\]; /\* (S) \*/
 
         /\* private part \*/
         ...
-      } lua\_Debug;
+      } lua_Debug;
 
 `lua_getstack` fills only the private part of this structure, for later use. To fill the other fields of `lua_Debug` with useful information, call
 
-       int lua\_getinfo (lua\_State \*L, const char \*what, lua\_Debug \*ar);
+       int lua_getinfo (lua_State \*L, const char \*what, lua_Debug \*ar);
 
 This function returns 0 on error (for instance, an invalid option in `what`). Each character in the string `what` selects some fields of the structure `ar` to be filled, as indicated by the letter in parentheses in the definition of `lua_Debug` above: \``S` fills in the fields `source`, `linedefined`, and `what`; \``l` fills in the field `currentline`, etc. Moreover, \``f` pushes onto the stack the function that is running at the given level.
 
 To get information about a function that is not active (that is, not in the stack), you push it onto the stack and start the `what` string with the character \``>`. For instance, to know in which line a function `f` was defined, you can write
 
-       lua\_Debug ar;
-       lua\_pushstring(L, "f");
-       lua\_gettable(L, LUA\_GLOBALSINDEX);  /\* get global \`f' \*/
-       lua\_getinfo(L, ">S", &ar);
+       lua_Debug ar;
+       lua_pushstring(L, "f");
+       lua_gettable(L, LUA_GLOBALSINDEX);  /\* get global \`f' \*/
+       lua_getinfo(L, ">S", &ar);
        printf("%d\\n", ar.linedefined);
 
 The fields of `lua_Debug` have the following meaning:
@@ -1502,36 +1502,36 @@ For the manipulation of local variables and upvalues, the debug interface uses i
 
 The following functions allow the manipulation of the local variables of a given activation record:
 
-       const char \*lua\_getlocal (lua\_State \*L, const lua\_Debug \*ar, int n);
-       const char \*lua\_setlocal (lua\_State \*L, const lua\_Debug \*ar, int n);
+       const char \*lua_getlocal (lua_State \*L, const lua_Debug \*ar, int n);
+       const char \*lua_setlocal (lua_State \*L, const lua_Debug \*ar, int n);
 
 The parameter `ar` must be a valid activation record that was filled by a previous call to `lua_getstack` or given as argument to a hook (see [4.3](https://www.lua.org/manual/5.0/manual.html#sub-hooks)). `lua_getlocal` gets the index `n` of a local variable, pushes the variable's value onto the stack, and returns its name. `lua_setlocal` assigns the value at the top of the stack to the variable and returns its name. Both functions return `NULL` when the index is greater than the number of active local variables.
 
 The following functions allow the manipulation of the upvalues of a given function (unlike local variables, the upvalues of a function are accessible even when the function is not active):
 
-       const char \*lua\_getupvalue (lua\_State \*L, int funcindex, int n);
-       const char \*lua\_setupvalue (lua\_State \*L, int funcindex, int n);
+       const char \*lua_getupvalue (lua_State \*L, int funcindex, int n);
+       const char \*lua_setupvalue (lua_State \*L, int funcindex, int n);
 
 These functions operate both on Lua functions and on C functions. (For Lua functions, upvalues are the external local variables that the function uses, and that consequently are included in its closure.) `funcindex` points to a function in the stack. `lua_getupvalue` gets the index `n` of an upvalue, pushes the upvalue's value onto the stack, and returns its name. `lua_setupvalue` assigns the value at the top of the stack to the upvalue and returns its name. Both functions return `NULL` when the index is greater than the number of upvalues. For C functions, these functions use the empty string `""` as a name for all upvalues.
 
 As an example, the following function lists the names of all local variables and upvalues for a function at a given level of the stack:
 
-       int listvars (lua\_State \*L, int level) {
-         lua\_Debug ar;
+       int listvars (lua_State \*L, int level) {
+         lua_Debug ar;
          int i;
          const char \*name;
-         if (lua\_getstack(L, level, &ar) == 0)
+         if (lua_getstack(L, level, &ar) == 0)
            return 0;  /\* failure: no such level in the stack \*/
          i = 1;
-         while ((name = lua\_getlocal(L, &ar, i++)) != NULL) {
+         while ((name = lua_getlocal(L, &ar, i++)) != NULL) {
            printf("local %d %s\\n", i-1, name);
-           lua\_pop(L, 1);  /\* remove variable value \*/
+           lua_pop(L, 1);  /\* remove variable value \*/
          }
-         lua\_getinfo(L, "f", &ar);  /\* retrieves function \*/
+         lua_getinfo(L, "f", &ar);  /\* retrieves function \*/
          i = 1;
-         while ((name = lua\_getupvalue(L, -1, i++)) != NULL) {
+         while ((name = lua_getupvalue(L, -1, i++)) != NULL) {
            printf("upvalue %d %s\\n", i-1, name);
-           lua\_pop(L, 1);  /\* remove upvalue value \*/
+           lua_pop(L, 1);  /\* remove upvalue value \*/
          }
          return 1;
        }
@@ -1543,11 +1543,11 @@ Lua offers a mechanism of hooks, which are user-defined C functions that are cal
 
 A hook has type `lua_Hook`, defined as follows:
 
-       typedef void (\*lua\_Hook) (lua\_State \*L, lua\_Debug \*ar);
+       typedef void (\*lua_Hook) (lua_State \*L, lua_Debug \*ar);
 
 You can set the hook with the following function:
 
-       int lua\_sethook (lua\_State \*L, lua\_Hook func, int mask, int count);
+       int lua_sethook (lua_State \*L, lua_Hook func, int mask, int count);
 
 `func` is the hook. `mask` specifies on which events the hook will be called: It is formed by a disjunction of the constants `LUA_MASKCALL`, `LUA_MASKRET`, `LUA_MASKLINE`, and `LUA_MASKCOUNT`. The `count` argument is only meaningful when the mask includes `LUA_MASKCOUNT`. For each event, the hook is called as explained below:
 
@@ -1560,9 +1560,9 @@ A hook is disabled by setting `mask` to zero.
 
 You can get the current hook, the current mask, and the current count with the following functions:
 
-       lua\_Hook lua\_gethook      (lua\_State \*L);
-       int      lua\_gethookmask  (lua\_State \*L);
-       int      lua\_gethookcount (lua\_State \*L);
+       lua_Hook lua_gethook      (lua_State \*L);
+       int      lua_gethookmask  (lua_State \*L);
+       int      lua_gethookcount (lua_State \*L);
 
 Whenever a hook is called, its `ar` argument has its field `event` set to the specific event that triggered the hook. Moreover, for line events, the field `currentline` is also set. To get the value of any other field in `ar`, the hook must call `lua_getinfo`. For return events, `event` may be `LUA_HOOKRET`, the normal value, or `LUA_HOOKTAILRET`. In the latter case, Lua is simulating a return from a function that did a tail call; in this case, it is useless to call `lua_getinfo`.
 
@@ -1898,10 +1898,10 @@ Here are some examples:
    --> x="4+5 = 9"
 
    local t = {name="lua", version="5.0"}
-   x = string.gsub("$name\_$version.tar.gz", "%$(%w+)", function (v)
+   x = string.gsub("$name_$version.tar.gz", "%$(%w+)", function (v)
          return t\[v\]
        end)
-   --> x="lua\_5.0.tar.gz"
+   --> x="lua_5.0.tar.gz"
 
 ### Patterns
 
@@ -2291,7 +2291,7 @@ In interactive mode, if you write an incomplete statement, the interpreter waits
 
 If the global variable `_PROMPT` is defined as a string, then its value is used as the prompt. Therefore, the prompt can be changed directly on the command line:
 
-       $ lua -e"\_PROMPT='myprompt> '" -i
+       $ lua -e"_PROMPT='myprompt> '" -i
 
 (the outer pair of quotes is for the shell, the inner is for Lua), or in any Lua programs by assigning to `_PROMPT`. Note the use of `-i` to enter interactive mode; otherwise, the program would end just after the assignment to `_PROMPT`.
 
