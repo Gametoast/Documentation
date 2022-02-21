@@ -1270,14 +1270,14 @@ player[num].statistic.changed         - fired when any statistic changes
 player[num].statistic.disable         - fired when statistics should be disabled
 
 
-Player Hero Events
+### Player Hero Events
 ------------------
 
 player[num].hero.health           - player's hero health (in hit points)
 player[num].hero.healthFraction   - player's hero health (0..1)
 player[num].hero.healthDisable    - fired when hero bar should be disabled
 
-Player Vehicle Events
+### Player Vehicle Events
 ---------------------
                                      
 player[num].vehicle.health              - player vehicle's health (in hit points)
@@ -1308,7 +1308,7 @@ where imp_hover_fightertank_seatinglayout is the model for the seating layout
 of the fightertank.  The seating layout model should contain hardpoints
 labelled hp_1, hp_2 ... hp_N for each seating position from 1..N.
 
-Targeting Events
+### Targeting Events
 ----------------
 player[num].lockOnName              - name / tip string of the target player is locked on to 
 player[num].lockOnClassName         - class name of target player is locked on to
@@ -1327,7 +1327,7 @@ player[num].missileLockDisable      - fired when another player loses missle loc
                                       this player
 player[num].missileLockDistance     - distance of missile to player
        
-Weapon Events
+### Weapon Events
 -------------
 
 player[num].weaponsEnable                     - fired when a weapon becomes available
@@ -1367,7 +1367,7 @@ player[num].weapon[num].lockOnPosition        - position of the locked on object
 player[num].weapon[num].lockOnDisable         - whether to disable the lock on indicator
 
 
-Team Events
+### Team Events
 -----------
 
 Team number 0 is always the specified player's team.  Team 1 is the opposition
@@ -1389,7 +1389,7 @@ player[num].team[num].bleedRate             - when bleeding is maximum this
                                               value is 1, when not bleeding
                                               this value is huge (FLT_MAX).
 
-Map Events
+### Map Events
 ----------
 
 player[num].map.mode          - fired when the player select a map mode
@@ -1410,7 +1410,7 @@ player[num].objectivelist.enable  - fired when the objective list is enabled
 player[num].objectivelist.disable - fired when the objective list is disabled
 
 
-Spawn Display Events
+### Spawn Display Events
 --------------------
 
 player[num].spawnDisplay.enable    - fired when the spawn display map screen 
@@ -1426,7 +1426,7 @@ player[num].spawnDisplay.spawninfo - command post specific localization string
                                      fired when a command post is selected in 
                                      the spawn display
                                      
-Command post capture
+### Command post capture
 --------------------
 
 player[num].commandPost.charge         - number 0..1 command posts charge
@@ -1438,7 +1438,7 @@ player[num].commandPost.disputeEnable  - fired when a dispute starts
 player[num].commandPost.disputeDisable - fired when a dispute stops
 
 
-CTF / Flag Events
+### CTF / Flag Events
 -----------------
 
 player[num].flag.player.carried    - fired when the player picks up the flag
@@ -1494,7 +1494,7 @@ Model3D("weapon")
 }
 ```
 
-*Weapon Events*
+###  Weapon Events
 -------------
 
 player[num].weapon[mode].change 
