@@ -138,13 +138,13 @@ Before the first assignment to a variable, its value is **nil**.
 
 Square brackets are used to index a table:
 
-	var ::= prefixexp \`**\[** exp \`**\]**
+	var ::= prefixexp \`\[ exp \`\]
 
 The first expression (_prefixexp_)should result in a table value; the second expression (_exp_) identifies a specific entry inside that table. The expression denoting the table to be indexed has a restricted syntax; see [2.5](https://www.lua.org/manual/5.0/manual.html#expressions) for details.
 
 The syntax `var.NAME` is just syntactic sugar for `var["NAME"]`:
 
-	var ::= prefixexp \`**.** Name
+	var ::= prefixexp \`. Name
 
 The meaning of accesses to global variables and table fields can be changed via metatables. An access to an indexed variable `t[i]` is equivalent to a call `gettable_event(t,i)`. (See [2.8](https://www.lua.org/manual/5.0/manual.html#metatable) for a complete description of the `gettable_event` function. This function is not defined or callable in Lua. We use it here only for explanatory purposes.)
 
@@ -165,7 +165,7 @@ Lua supports an almost conventional set of statements, similar to those in Pasca
 
 The unit of execution of Lua is called a _chunk_. A chunk is simply a sequence of statements, which are executed sequentially. Each statement can be optionally followed by a semicolon:
 
-	chunk ::= {stat \[\`**;**\]}
+	chunk ::= {stat \[\`;\]}
 
 Lua handles a chunk as the body of an anonymous function (see [2.5.8](https://www.lua.org/manual/5.0/manual.html#func-def)). As such, chunks can define local variables and return values.
 
@@ -181,7 +181,7 @@ A block is a list of statements; syntactically, a block is equal to a chunk:
 
 A block may be explicitly delimited to produce a single statement:
 
-	stat ::= **do** block **end**
+	stat ::= do block end
 
 Explicit blocks are useful to control the scope of variable declarations. Explicit blocks are also sometimes used to add a **return** or **break** statement in the middle of another block (see [2.4.4](https://www.lua.org/manual/5.0/manual.html#control)).
 
@@ -189,9 +189,9 @@ Explicit blocks are useful to control the scope of variable declarations. Explic
 
 Lua allows multiple assignment. Therefore, the syntax for assignment defines a list of variables on the left side and a list of expressions on the right side. The elements in both lists are separated by commas:
 
-	stat ::= varlist1 \`**\=** explist1
-	varlist1 ::= var {\`**,** var}
-	explist1 ::= exp {\`**,** exp}
+	stat ::= varlist1 \`\= explist1
+	varlist1 ::= var {\`, var}
+	explist1 ::= exp {\`, exp}
 
 Expressions are discussed in [2.5](https://www.lua.org/manual/5.0/manual.html#expressions).
 
@@ -220,9 +220,9 @@ where `_env` is the environment of the running function. (The `_env` variable is
 
 The control structures **if**, **while**, and **repeat** have the usual meaning and familiar syntax:
 
-	stat ::= **while** exp **do** block **end**
-	stat ::= **repeat** block **until** exp
-	stat ::= **if** exp **then** block {**elseif** exp **then** block} \[**else** block\] **end**
+	stat ::= while exp do block end
+	stat ::= repeat block until exp
+	stat ::= if exp then block {elseif exp then block} \[else block\] end
 
 Lua also has a **for** statement, in two flavors (see [2.4.5](https://www.lua.org/manual/5.0/manual.html#for)).
 
@@ -230,11 +230,11 @@ The condition expression _exp_ of a control structure may return any value. Both
 
 The **return** statement is used to return values from a function or from a chunk. Functions and chunks may return more than one value, so the syntax for the **return** statement is
 
-	stat ::= **return** \[explist1\]
+	stat ::= return \[explist1\]
 
 The **break** statement can be used to terminate the execution of a **while**, **repeat**, or **for** loop, skipping to the next statement after the loop:
 
-	stat ::= **break**
+	stat ::= break
 
 A **break** ends the innermost enclosing loop.
 
@@ -246,7 +246,7 @@ The **for** statement has two forms: one numeric and one generic.
 
 The numeric **for** loop repeats a block of code while a control variable runs through an arithmetic progression. It has the following syntax:
 
-	stat ::= **for** Name \`**\=** exp \`**,** exp \[\`**,** exp\] **do** block **end**
+	stat ::= for Name \`\= exp \`, exp \[\`, exp\] do block end
 
 The _block_ is repeated for _name_ starting at the value of the first _exp_, until it passes the second _exp_ by steps of the third _exp_. More precisely, a **for** statement like
 
@@ -274,7 +274,7 @@ Note the following:
 
 The generic **for** statement works over functions, called _iterators_. For each iteration, it calls its iterator function to produce a new value, stopping when the new value is **nil**. The generic **for** loop has the following syntax:
 
-	stat ::= **for** Name {\`**,** Name} **in** explist1 **do** block **end**
+	stat ::= for Name {\`, Name} in explist1 do block end
 
 A **for** statement like
 
@@ -312,8 +312,8 @@ In this case, all returned values are thrown away. Function calls are explained 
 
 Local variables may be declared anywhere inside a block. The declaration may include an initial assignment:
 
-	stat ::= **local** namelist \[\`**\=** explist1\]
-	namelist ::= Name {\`**,** Name}
+	stat ::= local namelist \[\`\= explist1\]
+	namelist ::= Name {\`, Name}
 
 If present, an initial assignment has the same semantics of a multiple assignment (see [2.4.3](https://www.lua.org/manual/5.0/manual.html#assignment)). Otherwise, all variables are initialized with **nil**.
 
@@ -327,12 +327,12 @@ The visibility rules for local variables are explained in [2.6](https://www.lua.
 The basic expressions in Lua are the following:
 
 	exp ::= prefixexp
-	exp ::= **nil** | **false** | **true**
+	exp ::= nil | false | true
 	exp ::= Number
 	exp ::= Literal
 	exp ::= function
 	exp ::= tableconstructor
-	prefixexp ::= var | functioncall | \`**(** exp \`**)**
+	prefixexp ::= var | functioncall | \`( exp \`)
 
 Numbers and literal strings are explained in [2.1](https://www.lua.org/manual/5.0/manual.html#lexical); variables are explained in [2.3](https://www.lua.org/manual/5.0/manual.html#variables); function definitions are explained in [2.5.8](https://www.lua.org/manual/5.0/manual.html#func-def); function calls are explained in [2.5.7](https://www.lua.org/manual/5.0/manual.html#functioncall); table constructors are explained in [2.5.6](https://www.lua.org/manual/5.0/manual.html#tableconstructor).
 
@@ -405,10 +405,10 @@ You can use parentheses to change the precedences in an expression. The concaten
 
 Table constructors are expressions that create tables. Every time a constructor is evaluated, a new table is created. Constructors can be used to create empty tables, or to create a table and initialize some of its fields. The general syntax for constructors is
 
-	tableconstructor ::= \`**{** \[fieldlist\] \`**}**
+	tableconstructor ::= \`{ \[fieldlist\] \`}
 	fieldlist ::= field {fieldsep field} \[fieldsep\]
-	field ::= \`**\[** exp \`**\]** \`**\=** exp | Name \`**\=** exp | exp
-	fieldsep ::= \`**,** | \`**;**
+	field ::= \`\[ exp \`\] \`\= exp | Name \`\= exp | exp
+	fieldsep ::= \`, | \`;
 
 Each field of the form `[exp1] = exp2` adds to the new table an entry with key `exp1` and value `exp2`. A field of the form `name = exp` is equivalent to `["name"] = exp`. Finally, fields of the form `exp` are equivalent to `[i] = exp`, where `i` are consecutive numerical integers, starting with 1. Fields in the other formats do not affect this counting. For example,
 
@@ -442,13 +442,13 @@ In a function call, first _prefixexp_ and _args_ are evaluated. If the value of 
 
 The form
 
-	functioncall ::= prefixexp \`**:** Name args
+	functioncall ::= prefixexp \`: Name args
 
 can be used to call "methods". A call `v:name(...)` is syntactic sugar for `v.name(v,...)`, except that `v` is evaluated only once.
 
 Arguments have the following syntax:
 
-	args ::= \`**(** \[explist1\] \`**)**
+	args ::= \`( \[explist1\] \`)
 	args ::= tableconstructor
 	args ::= Literal
 
@@ -493,14 +493,14 @@ A call of the form `return` _functioncall_ is called a _tail call_. Lua implemen
 
 The syntax for function definition is
 
-	function ::= **function** funcbody
-	funcbody ::= \`**(** \[parlist1\] \`**)** block **end**
+	function ::= function funcbody
+	funcbody ::= \`( \[parlist1\] \`) block end
 
 The following syntactic sugar simplifies function definitions:
 
-	stat ::= **function** funcname funcbody
-	stat ::= **local** **function** Name funcbody
-	funcname ::= Name {\`**.** Name} \[\`**:** Name\]
+	stat ::= function funcname funcbody
+	stat ::= local function Name funcbody
+	funcname ::= Name {\`. Name} \[\`: Name\]
 
 The statement
 
@@ -530,8 +530,8 @@ A function definition is an executable expression, whose value has type _functio
 
 Parameters act as local variables that are initialized with the argument values:
 
-	parlist1 ::= namelist \[\`**,** \`**...**\]
-	parlist1 ::= \`**...**
+	parlist1 ::= namelist \[\`, \`...\]
+	parlist1 ::= \`...
 
 When a function is called, the list of arguments is adjusted to the length of the list of parameters, unless the function is a variadic or _vararg function_, which is indicated by three dots (\``...`) at the end of its parameter list. A vararg function does not adjust its argument list; instead, it collects all extra arguments into an implicit parameter, called `arg`. The value of `arg` is a table, with a field \``n` that holds the number of extra arguments and with the extra arguments at positions 1, 2, ..., `n`.
 
