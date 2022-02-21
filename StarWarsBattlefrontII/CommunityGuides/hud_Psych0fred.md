@@ -1105,12 +1105,12 @@ then in game press CTRL-E on the connected keyboard.
 
 There are 3 modes...
 
-o HUD element selection
-o property selection
-o property edit
+* HUD element selection
+* property selection
+* property edit
 
 In the HUD element selection mode the controls are the following...
-
+```
 XBOX / PS2
 
 D pad left   - selects previous element (move up the list)
@@ -1159,7 +1159,7 @@ R1         - Page up
 R2         - Page down
 Start      - Delete
 Select     - Insert
-
+```
 
 
 ## Battlefront2 HUD
