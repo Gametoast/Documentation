@@ -11,7 +11,7 @@ http://www.secretsociety.com/forum/downloads/BF2Docs/HUD.txt
 
 The first item of a HUD configuration file should specify information about the 
 file like, the filename and which split screen modes the HUD supports.
-
+```
 FileInfo(filename)      - filename is the name of the file you want the editor 
                           to write out.
 
@@ -23,7 +23,7 @@ SplitMode(mode0, mode1) - mode is either "Horizontal" (top / bottom split
 Widescreen(enable)      - when set to 1 the file will only be loaded when
                           widescreen is enabled, set to 0 to load file 
                           when widescreen isn't enabled
-                  
+```                  
 This will support vertical two player split screen...
 
 SplitMode("Vertical")
@@ -69,7 +69,7 @@ FileInfo("tooltips")
 -------------------------------------
 
 All HUD elements have the following properties...
-
+```
 Position(x, y, z, rel) - position of the group (positive z is into the screen)
                          If rel is set to 1 the x and y coordinates are relative to 
                          the screen's width and height. When rel can be set to 
@@ -124,12 +124,12 @@ Scalable(enable)       - PC ONLY : set enable to 1 to allow the application to s
                          this element, set enable to 0 to disable scaling.  This can
                          be useful to allow user scaling of elements like 
                          reticules for the PC.
-
+```
 ## Text elements
 -------------
 
 Text elements have the following properties...
-
+```
 TextBox(w, h)           - Bounding box for text.  
                           w (width as fraction of the screen)  range 0..1
                           h (height as fraction of the screen) range 0..1
@@ -181,7 +181,7 @@ Percent(enable)         - 1 displays a value in the range 0..1 as
                           formatting option.
 InfiniteDashes(enable)  - 1 displays -- when number is infinite.  0
                           displays nothing when number is infinite.
-                          
+```                          
 
 Example...
 ```C#
@@ -200,7 +200,7 @@ Text()
 ---------------
 
 Bitmap elements have the following properties...
-
+```
 Bitmap(textureName)              - Specifies the name of the texture to be 
                                    displayed in the bitmap element
 BitmapStyle(style)               - Specifies the style of the bitmap
@@ -229,7 +229,7 @@ MaskTexCoords(l, t, r, b)        - Sets the texture coordinates for the mask
                                    b - bottom.
 Hardpoint(hardpointName)         - Sets the hardpoint used to position the model
 EventBitmap(event)               - Sets the bitmap via an event
-                          
+```                          
 Example...
 ```C#
 Bitmap()
@@ -251,7 +251,7 @@ BitmapMasked()
 -----------------
 
 3D Model elements have the following properties...
-
+```
 Mesh(meshName)           - Specifies the name of the mesh to be displayed in the 
                            element
 Lighting(enable)         - Sets whether lighting is enabled on the mesh. 
@@ -262,7 +262,7 @@ EventMesh(event)         - event which changes the mesh displayed by the element
 InheritMeshInfo(element) - inherits the MeshInfos from the specified element
 MeshInfo(meshName)       - Section which defines position, rotation and scale of a 
                            specific mesh when assigned to this element.
-
+```
 Example ...
 ```C#
 Model3D("healthitem")
@@ -289,7 +289,7 @@ Group elements are areas which can contain other HUD elements or more group
 elements.  Coordinates of HUD elements added to a group element are 
 relative to that group element's coordinates.   Group elements have the 
 following additional properties...
-
+```
 Rect(w, h, halign, valign, rel)  - 
                               w is the width of the group element 
                               relative to the width of the screen (0..1).
@@ -314,7 +314,7 @@ PropagateAlpha(enable)      - set enable to 1 to propagate the groups
 EventScale(event)           - Expects a vector3 event which
                               is used to scale the group.
 EventRotation(event)        - Expects a vector3 event which rotates the group
-
+```
 Example...
 ```C#
 // health / ammo group
@@ -359,6 +359,7 @@ Group()
 
 ## BorderedBoxes
 -------------
+```
 A BorderedBox is a group element with a textured background with a border.
 Rather than simply stretching the bitmap across the whole background,
 it uses a border width and height to maintain a non-stretched border.
@@ -370,7 +371,7 @@ Rect(width, height)   - specifies how big the box will be displayed,
                         width and height are specified in relative screen 
                         coordinates (0..1)
 Border(width, height) - specifies the thickness of the border in pixels
-
+```
 Example...
 ```C#
 BorderedBox()
@@ -385,6 +386,7 @@ BorderedBox()
 
 ## MultilineText
 -------------
+```
 A MultilineText is a group element which can display multiple lines of 
 text.  MultilineText has all properties of Group elements with the 
 addition of...
@@ -401,7 +403,7 @@ AddToTop(enable)       - 1 to add new text to the top line of the box, 0
 ScrollSpeed(speed)     - speed is the scrolling rate in lines per second
 EventText(event)       - event which adds a line of text to the box
 Format                 - text box element which is used to format text 
-
+```
 Example...
 ```C#
 MultilineText()
@@ -426,6 +428,7 @@ MultilineText()
 
 ## BarBitmap
 ---------
+```
 Displays a bar using a bitmap.element.  BitmapBar has all the properties of
 Bitmap elements with the addition of...
 
@@ -447,7 +450,7 @@ FlashyDecFadeOutTime(time) - Time taken to fade out flashy block when bar
                              value decreases, 0.0 disables flashyness on 
                              value decrease
 
-
+```
 Example...
 ```C#
 BarBitmap("player1weapon1ammobar")
@@ -544,7 +547,7 @@ Group("player1herobar")
 
 ## Map
 ---
-
+```
 Battlefront's map / mini map.  The map's bounds are defined by either the 
 box region "mapbounds" defined in the map's world file or the bounds defined 
 by the command posts in the world.
@@ -645,7 +648,7 @@ Map("player1map")
 
 ## Target
 ------
-
+```
 Battlefront's targeting / lock on display.  Has all of the default element and group 
 properties with the addition of...
 
@@ -701,7 +704,7 @@ properties...
 ColorInterp(rate) - rate of interpolation of the color of the target
 MinScale(scale)   - scale factor of the bitmap when it's close to the camera
 MaxScale(scale)   - scale factor of the bitmap when it's far away from the camera
-
+```
 For example...
 ```C#
 Target("player1target")
@@ -1174,7 +1177,7 @@ time                    - time elapsed (in seconds) since the start of the missi
 
 ### Player Events (apply to object player is controlling, soldier or vehicle)
 -------------
-
+```
 player[num].spawn                 - fired when player num spawns
 player[num].die                   - fired when player num dies
 player[num].index                 - fired by the spawn display to attach players 
@@ -1193,10 +1196,10 @@ player[num].energyWarning         - value from 0..1, 0 when energy is zero, 1
 player[num].energyDisable         - fired when energy display is disabled
 player[num].energyOverburn        - 1.0 when energy is in overburn region
                                     0.0 when energy is normal
-
+```
 ### Player Messaging
 ----------------
-
+```
 player[num].centerMessage         - localization string fired when objectives 
                                     or really important messages need to be 
                                     displayed
@@ -1217,11 +1220,11 @@ player[num].heroSelect.timerFraction - remaining time (0..1) whilst the player
 player[num].heroSelect.message       - hero selection message string 
                                        e.g "Play as Anakin?"
 player[num].heroSelect.disable       - fired when selection display is disabled
-
+```
 
 ### Player Soldier Events
 ---------------------
-
+```
 player[num].health                  - player soldier's health (in hit points) left
 player[num].healthFraction          - player soldier's health (0..1) left
 player[num].healthDisable           - fired when player soldier's health display 
@@ -1239,9 +1242,10 @@ player[num].jetFuelWarning          - value from 0..1, 0 when out of jetfuel
 player[num].jetFuelThreshold        - threshold of fuel warning (0..1) 
                                       (use to overlay a threshold bar for warning 
                                        region)
-
+```
 ### Player Statistics
 -----------------
+```
 player[num].statistic.points          - player's current points, fired when 
                                         player's points changes 
                                         (number, so assign to EventNumber)
@@ -1268,18 +1272,18 @@ player[num].statistic.capturesDelta   - change in command post captures
                                         (string, so assign to EventText)
 player[num].statistic.changed         - fired when any statistic changes
 player[num].statistic.disable         - fired when statistics should be disabled
-
+```
 
 ### Player Hero Events
 ------------------
-
+```
 player[num].hero.health           - player's hero health (in hit points)
 player[num].hero.healthFraction   - player's hero health (0..1)
 player[num].hero.healthDisable    - fired when hero bar should be disabled
-
+```
 ### Player Vehicle Events
 ---------------------
-                                     
+```                                     
 player[num].vehicle.health              - player vehicle's health (in hit points)
 player[num].vehicle.healthFraction      - player vehicle's health (0..1)
 player[num].vehicle.healthDisable       - fired when the vehicle's health display is 
@@ -1300,7 +1304,7 @@ player[num].vehicle.hackedTimeFraction  - time (0..1) before the player is
                                           ejected from their vehicle
 player[num].vehicle.hackedTimeDisable   - fired when hacked display should be 
                                           disabled
-                                     
+```
 
 Vehicle seating example - in imp_hover_fightertank add the following property...
 HUDModel = "imp_hover_fightertank_seatinglayout"
@@ -1310,6 +1314,7 @@ labelled hp_1, hp_2 ... hp_N for each seating position from 1..N.
 
 ### Targeting Events
 ----------------
+```
 player[num].lockOnName              - name / tip string of the target player is locked on to 
 player[num].lockOnClassName         - class name of target player is locked on to
 player[num].lockOnHealth            - target's health (in hitpoints)
@@ -1326,10 +1331,10 @@ player[num].missileLock             - fired when another player has locked a mis
 player[num].missileLockDisable      - fired when another player loses missle lock on 
                                       this player
 player[num].missileLockDistance     - distance of missile to player
-       
+```       
 ### Weapon Events
 -------------
-
+```
 player[num].weaponsEnable                     - fired when a weapon becomes available
 player[num].weaponsDisable                    - fired when no weapons are available
 player[num].weaponsOverheat                   - fired when a player's weapon overheats
@@ -1365,7 +1370,7 @@ player[num].weapon[num].reticule.disable      - disable reticule
 player[num].weapon[num].reticule.position     - position of the reticule
 player[num].weapon[num].lockOnPosition        - position of the locked on object
 player[num].weapon[num].lockOnDisable         - whether to disable the lock on indicator
-
+```
 
 ### Team Events
 -----------
@@ -1373,7 +1378,7 @@ player[num].weapon[num].lockOnDisable         - whether to disable the lock on i
 Team number 0 is always the specified player's team.  Team 1 is the opposition
 team.  So to display the player 0's team's points use player0.team0.points,
 to display player 1's team's points use player1.team0.points.
-
+```
 player[num].team[num].texture               - team's icon
 player[num].team[num].textureDisable        - disables team's icon
 player[num].team[num].points                - team points
@@ -1388,10 +1393,10 @@ player[num].team[num].reinforcementsDisable - fired when team reinforcement
 player[num].team[num].bleedRate             - when bleeding is maximum this
                                               value is 1, when not bleeding
                                               this value is huge (FLT_MAX).
-
+```
 ### Map Events
 ----------
-
+```
 player[num].map.mode          - fired when the player select a map mode
 player[num].map.modeToggle    - fired when the player cycles through available 
                                 map modes
@@ -1408,11 +1413,11 @@ player[num].map.spawnLargeDisable  - fired when large map or spawn map is disabl
 
 player[num].objectivelist.enable  - fired when the objective list is enabled
 player[num].objectivelist.disable - fired when the objective list is disabled
-
+```
 
 ### Spawn Display Events
 --------------------
-
+```
 player[num].spawnDisplay.enable    - fired when the spawn display map screen 
                                      is enabled
 player[num].spawnDisplay.disable   - fired when the spawn display map screen 
@@ -1425,10 +1430,10 @@ player[num].spawnDisplay.vehicle   - command post specific localization string
 player[num].spawnDisplay.spawninfo - command post specific localization string 
                                      fired when a command post is selected in 
                                      the spawn display
-                                     
+```                                     
 ### Command post capture
 --------------------
-
+```
 player[num].commandPost.charge         - number 0..1 command posts charge
 player[num].commandPost.disable        - fired when command post display is disabled
 player[num].commandPost.color          - color of the capturing team
@@ -1437,10 +1442,10 @@ player[num].commandPost.disputeColor   - color of the disputing team (or netural
 player[num].commandPost.disputeEnable  - fired when a dispute starts
 player[num].commandPost.disputeDisable - fired when a dispute stops
 
-
+```
 ### CTF / Flag Events
 -----------------
-
+```
 player[num].flag.player.carried    - fired when the player picks up the flag
 player[num].flag.player.dropped    - fired when the player drops the flag
 player[num].flag.player.disable    - fired when player's flag status should be disabled
@@ -1462,7 +1467,7 @@ player[num].flag.enemy.dropped                 - fired when a enemy drops up the
 player[num].flag.enemy.dropped.disable         - fired when the enemy flag indicator should be disabled
 player[num].flag.enemy.dropped.number          - number of enemyly flags dropped
 player[num].flag.enemy.dropped.number.disable  - fired when number of enemy flags should be disabled
-
+```
 Handling spawn / die events example...
 ```C#
 TransformNameMesh("hudweapons")
