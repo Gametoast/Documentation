@@ -36,7 +36,7 @@ A model is a msh file that will be displayed on the screen:
 ```C#
     Model3D("player1weapon1backdrop") // name of model
     {
-        Mesh("hud\_weapon\_backdrop") // name of the msh file that is found in common/mshs/
+        Mesh("hud_weapon_backdrop") // name of the msh file that is found in common/mshs/
         Viewport(1)
         Position(0.00000, 0.000000, -2.212803, "Viewport") // transformations, note that you can leave out any of these if you don’t need them. 
         Rotation(0.804269, 90.747269, 359.999695)
@@ -64,7 +64,7 @@ Text("player1weapon1overheat")
     TextStyle("Shadow")
     Text("game.weaponOverheat") // points to localized string
     TextAlignment("Center", "Top")
-    TextFont("gamefont\_medium")
+    TextFont("gamefont_medium")
     Position(0.500000, 0.750000, 0.000000, "Viewport")
     ZOrder(5)
     Color(230, 70, 0)
@@ -89,7 +89,7 @@ Secondary weapons found in:
 
 Format is as follows:
 ```C#
-MeshInfo("msh\_name\_goes\_here")
+MeshInfo("msh_name_goes_here")
 {
     Position(-0.252832, 0.341293, 0.014590, "Viewport")
     Rotation(0.804269, 90.747269, 359.999695)
@@ -109,8 +109,8 @@ ucft
     REQN
     {
         "model"
-        "any\_new\_msh\_you\_added\_to\_common\_mshs"
-        "just\_list\_them\_all\_here"
+        "any_new_msh_you_added_to_common_mshs"
+        "just_list_them_all_here"
     }
     REQN
     {

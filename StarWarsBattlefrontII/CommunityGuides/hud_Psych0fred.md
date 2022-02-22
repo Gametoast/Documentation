@@ -1168,13 +1168,14 @@ Select     - Insert
 
 ### Global Events
 -------------
+```
 objectivetimer          - current value of the objective timer if it's active
 objectivetimer.disable  - fired when objective timer is disabled
 levelHintText           - level hint localization string fired when level starts
 targetResetCommon       - fired when a target should be reset on the target display
 initialize              - fired on the first update of the HUD (when the mission starts)
 time                    - time elapsed (in seconds) since the start of the mission
-
+```
 ### Player Events (apply to object player is controlling, soldier or vehicle)
 -------------
 ```
