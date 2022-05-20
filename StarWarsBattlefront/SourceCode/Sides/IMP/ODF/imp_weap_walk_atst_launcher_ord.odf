@@ -1,0 +1,32 @@
+[OrdnanceClass]
+
+ClassLabel 		= "missile"
+
+[Properties]
+ImpactEffectWater 	= "watersplash_md"
+
+LightColor              = "123 132 249 150"
+LightRadius             = "5.0"
+
+ExplosionName		= "imp_weap_walk_atst_launcher_exp"
+
+LifeSpan 		= "5.0"
+TurnRate		= "3.0"
+WaverRate		= "2.0"
+WaverTurn		= "1.0"
+Velocity 		= "50.0"
+Gravity			= "1.0"
+Rebound			= "0.0"
+
+Damage		= "250"
+VehicleScale	= "1.2"
+PersonScale 	= "1.0"
+DroidScale 	= "1.0"
+BuildingScale	= "0.5"
+AnimalScale	= "1.0"
+
+TrailEffect		= "smoketrail"
+
+OrdnanceSound		= "com_weap_inf_ord_hum_rocket"
+//LockedOnSound		= "com_weap_launcher_missile_guided"
+

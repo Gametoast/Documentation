@@ -1,0 +1,105 @@
+[WeaponClass]
+ClassLabel 		= "cannon"
+
+[Properties]
+Label			= "CIS torp launcher"
+IconTexture		= "HUD_all_lascannon_icon"
+
+MuzzleFlash		= "small_muzzle_flash"
+FlashLightColor 	= "255 192 192 175"
+FlashLightRadius 	= "5.0"
+FlashLightDuration 	= "0.25"
+Discharge		= "small_smoke_effect"
+GeometryName 		= "cis_weap_inf_launcher"
+HighResGeometry         = "cis_1st_weap_inf_launcher"
+
+RoundsPerClip 		= "1"
+ReloadTime 		= "4.0"
+//HeatRecoverRate	= "0.2"
+//HeatThreshold		= "0.3"
+
+ZoomMin			= "4.0"
+ZoomMax			= "4.0"
+ZoomRate		= "0.0"
+
+AnimationBank		= "bazooka"
+FirePointName		= "hp_fire"
+
+WEAPONSECTION		= "1"
+
+ModeTexture		= "HUD_weap_semiauto"
+//ReticuleTexture	= "reticule_04"
+OrdnanceName 		= "cis_weap_inf_rocketlauncher_ord"
+
+ShotDelay 		= "0.0"
+TriggerSingle		= "1"
+//HeatPerShot		= "0.8"
+MaxPressedTime		= "5.0"
+
+PitchSpread		= "0.0"
+YawSpread		= "0.0"
+
+SpreadPerShot		= "1.1"//1.2
+SpreadRecoverRate	= "4.8"//0.08
+SpreadThreshold		= "1.6"//0.03
+SpreadLimit		= "6.0"
+
+StandStillSpread	= "0.0"//0.4
+StandMoveSpread	= "0.0"//0.9
+CrouchStillSpread	= "0.0"//0.1
+CrouchMoveSpread	= "0.0"//0.6
+ProneStillSpread	= "0.0"
+ProneMoveSpread		= "0.0"
+
+MinRange		= "6"
+OptimalRange		= "48"
+MaxRange		= "128"
+
+LockOnRange		= "100.0"
+LockTime 		= "0.0"
+AutoAimSize		= "1.0"
+
+SalvoCount		= "1"
+SalvoDelay		= "0.0"
+InitialSalvoDelay	= "0.0"
+SalvoTime		= "0.0"
+
+TargetEnemy		= "1"
+TargetNeutral		= "0"
+TargetFriendly		= "0"
+
+TargetPerson		= "0"
+TargetAnimal		= "0"
+TargetDroid		= "0"
+TargetVehicle		= "1"
+TargetBuilding		= "1"
+
+ChargeRateLight         = "0.0"
+MaxChargeStrengthLight  = "0.0"
+ChargeDelayLight        = "0.0"
+ChargeRateHeavy         = "0.0"
+MaxChargeStrengthHeavy  = "0.0"
+ChargeDelayHeavy        = "2.45"
+
+RecoilLengthHeavy       = "1.5"
+RecoilStrengthHeavy     = "1"
+RecoilDecayHeavy        = ".75"
+
+
+FireSound       	= "cis_weap_inf_rocket_fire"
+FireEmptySound		= "com_weap_inf_weapon_empty"
+FireLoopSound		= ""
+ReloadSound     	= "cis_weap_inf_reload_lg"
+ChargeSound		= ""
+//ChangeModeSound		= "com_weap_inf_launcher_modechange"
+WeaponChangeSound	= "cis_weap_inf_equip_lg"
+ClankLeftWalkSound  = ""
+ClankRightWalkSound = ""
+ClankLeftRunSound   = ""
+ClankRightRunSound  = ""
+JumpSound           = "cis_weap_inf_rocket_mvt_jump"
+LandSound           = "cis_weap_inf_rocket_mvt_land"
+RollSound           = "cis_weap_inf_rocket_mvt_roll"
+ProneSound          = "cis_weap_inf_rocket_mvt_squat"
+SquatSound          = "cis_weap_inf_rocket_mvt_lie"
+StandSound          = "cis_weap_inf_rocket_mvt_getup"

@@ -1,0 +1,25 @@
+[ExplosionClass]
+ClassLabel 	= "explosion"
+
+[Properties]
+WaterEffect 	= "watersplash_lg"
+
+Damage 		= "400.0"
+DamageRadius 	= "7.0"
+Shake 		= "4.0"
+ShakeRadius 	= "10.0"
+//Push 		= "10.0"
+//PushRadius 	= "8.0"
+Effect 		= "gun_sfx_electric_exp"
+LightColor 	= "255 255 50 255"
+LightRadius 	= "7.0"
+LightDuration 	= "1.0"
+
+
+VehicleScale	= "0.5"
+PersonScale 	= "1.0"
+DroidScale 	= "1.0"
+BuildingScale	= "0.25"
+AnimalScale	= "1.0"
+
+SoundProperty	= "com_weap_thermaldetonator_exp"

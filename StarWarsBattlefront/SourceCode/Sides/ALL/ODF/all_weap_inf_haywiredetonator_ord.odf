@@ -1,0 +1,22 @@
+[OrdnanceClass]
+ClassLabel 		= "haywire"
+
+[Properties]
+LightColor              = "92 136 250 100"
+LightRadius             = "4.0"
+
+GeometryName 		= "com_weap_inf_grenadethermal_ord"
+ExplosionExpire		= "all_weap_inf_haywiredetonator_exp"
+OrdnanceEffect		= "thermal_detonator"
+ImpactEffect		= "medium_explosion"
+TrailEffect		= "com_sfx_weap_grenade_blue"
+
+LifeSpan 		= "0.1"
+Velocity 		= "25.0"
+Gravity			= "1.5"
+Rebound			= "0.35"
+Friction		= "1.25"
+
+DisableTime		= "10.0"
+
+CollisionOtherSound	= "com_weap_inf_grenade_bounce"

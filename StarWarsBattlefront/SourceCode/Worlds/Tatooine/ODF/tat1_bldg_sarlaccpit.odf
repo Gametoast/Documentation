@@ -1,0 +1,25 @@
+[GameObjectClass]		
+
+ClassLabel		=	"prop"
+GeometryName	=	"tat1_bldg_sarlaccpit.msh"
+
+
+[Properties]		
+
+GeometryName	=	"tat1_bldg_sarlaccpit"
+AttachOdf		=	"tat1_bldg_sarlacctentacle"
+AttachToHardPoint	=	"hp_tentacle1"
+AttachOdf		=	"tat1_bldg_sarlacctentacle"
+AttachToHardPoint	=	"hp_tentacle2"
+AttachOdf		=	"tat1_bldg_sarlacctentacle"
+AttachToHardPoint	=	"hp_tentacle3"
+AttachOdf		=	"tat1_bldg_sarlacctentacle"
+AttachToHardPoint	=	"hp_tentacle4"
+AttachOdf		=	"tat1_bldg_sarlacctentacle"
+AttachToHardPoint	=	"hp_tentacle5"
+
+VehicleCollision = "CLEAR"
+VehicleCollisionPrim	= "VhclCylinder aacylinder NULL 0.0 6.0 0.0 9.0 8.0 0.0"
+SoundProperty  = "sarlacc_amb"
+
+DenyFlyerLand = "1"

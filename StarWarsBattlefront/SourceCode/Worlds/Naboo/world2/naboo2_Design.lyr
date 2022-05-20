@@ -1,0 +1,952 @@
+Version(3);
+SaveType(0);
+
+Camera("camera")
+{
+	Rotation(0.952, 0.083, 0.294, -0.026);
+	Position(-170.490, -45.902, 110.040);
+	FieldOfView(55.400);
+	NearPlane(1.000);
+	FarPlane(2000.000);
+	ZoomFactor(1.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(-263.512, -11.113, -84.265,  0.150, 0.148, -0.697, 0.685);
+}
+TerrainName("naboo2.ter");
+SkyName("naboo2.sky");
+ScriptName("DummyScript.dll");
+ControllerManager("StandardCtrlMgr");
+
+WorldExtents()
+{
+	Min(0.000000, 0.000000, 0.000000);
+	Max(0.000000, 0.000000, 0.000000);
+}
+
+NextSequence(-212167);
+
+Object("CP2", "com_bldg_controlzone", 358539506)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-168.000, -50.063, -88.000);
+	SeqNo(358539506);
+	Team(2);
+	NetworkId(-1);
+	Label("CP2");
+	Layer(1);
+	CaptureRegion("CP2Capture");
+	ControlRegion("CP2Control");
+	SpawnPath("CP2Spawn");
+	AllyPath("");
+	AllyCount("65536");
+	Radius("0.0");
+	ValueBleed("10");
+	Value_ATK_Alliance("30");
+	Value_ATK_CIS("30");
+	Value_ATK_Empire("30");
+	Value_ATK_Republic("30");
+	Value_ATK_Locals("10");
+	Value_DEF_Alliance("50");
+	Value_DEF_CIS("50");
+	Value_DEF_Empire("50");
+	Value_DEF_Republic("50");
+	Value_DEF_Locals("10");
+	VO_All_AllCapture("all_off_com_report_captured_commandpost");
+	VO_All_AllLost("all_off_com_report_lost_commandpost3");
+	VO_All_AllInDispute("");
+	VO_All_AllSaved("");
+	VO_All_AllInfo("");
+	VO_All_ImpCapture("all_off_com_report_lost_commandpost");
+	VO_All_ImpLost("");
+	VO_All_ImpInDispute("");
+	VO_All_ImpSaved("");
+	VO_All_ImpInfo("");
+	VO_Imp_AllCapture("imp_off_com_report_lost_commandpost");
+	VO_Imp_AllLost("");
+	VO_Imp_AllInDispute("");
+	VO_Imp_AllSaved("");
+	VO_Imp_AllInfo("");
+	VO_Imp_ImpCapture("imp_off_com_report_captured_commandpost");
+	VO_Imp_ImpLost("imp_off_com_report_lost_commandpost3");
+	VO_Imp_ImpInDispute("");
+	VO_Imp_ImpSaved("");
+	VO_Imp_ImpInfo("");
+	VO_Rep_RepCapture("rep_off_com_report_captured_commandpost");
+	VO_Rep_RepLost("rep_off_com_report_lost_commandpost3");
+	VO_Rep_RepInDispute("");
+	VO_Rep_RepSaved("");
+	VO_Rep_RepInfo("");
+	VO_Rep_CISCapture("rep_off_com_report_lost_commandpost");
+	VO_Rep_CISLost("");
+	VO_Rep_CISInDispute("");
+	VO_Rep_CISSaved("");
+	VO_Rep_CISInfo("");
+	VO_CIS_RepCapture("cis_off_com_report_lost_commandpost");
+	VO_CIS_RepLost("");
+	VO_CIS_RepInDispute("");
+	VO_CIS_RepSaved("");
+	VO_CIS_RepInfo("");
+	VO_CIS_CISCapture("cis_off_com_chatter_goodjob2");
+	VO_CIS_CISLost("cis_off_com_report_lost_commandpost3");
+	VO_CIS_CISInDispute("");
+	VO_CIS_CISSaved("");
+	VO_CIS_CISInfo("");
+	SoldierBan("");
+	HoverBan("");
+	SmallBan("");
+	MediumBan("");
+	HugeBan("");
+	FlyerBan("");
+}
+
+Object("", "com_item_healthrecharge", 382116133)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-127.367, -50.074, -68.734);
+	SeqNo(382116133);
+	Team(0);
+	NetworkId(-1);
+	Layer(1);
+	EffectRegion("");
+	Radius("5.0");
+}
+
+Object("CP6", "com_bldg_controlzone", 432708793)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-239.742, -42.295, -112.323);
+	SeqNo(432708793);
+	Team(2);
+	NetworkId(-1);
+	Label("CP6");
+	Layer(1);
+	CaptureRegion("CP6Capture");
+	ControlRegion("CP6Control");
+	SpawnPath("CP6Spawn");
+	AllyPath("");
+	AllyCount("65536");
+	Radius("0.0");
+	ValueBleed("10");
+	Value_ATK_Alliance("10");
+	Value_ATK_CIS("10");
+	Value_ATK_Empire("10");
+	Value_ATK_Republic("10");
+	Value_ATK_Locals("10");
+	Value_DEF_Alliance("10");
+	Value_DEF_CIS("10");
+	Value_DEF_Empire("10");
+	Value_DEF_Republic("10");
+	Value_DEF_Locals("10");
+	VO_All_AllCapture("all_off_com_report_captured_commandpost");
+	VO_All_AllLost("all_off_com_report_lost_commandpost3");
+	VO_All_AllInDispute("");
+	VO_All_AllSaved("");
+	VO_All_AllInfo("");
+	VO_All_ImpCapture("all_off_com_report_lost_commandpost");
+	VO_All_ImpLost("");
+	VO_All_ImpInDispute("");
+	VO_All_ImpSaved("");
+	VO_All_ImpInfo("");
+	VO_Imp_AllCapture("imp_off_com_report_lost_commandpost");
+	VO_Imp_AllLost("");
+	VO_Imp_AllInDispute("");
+	VO_Imp_AllSaved("");
+	VO_Imp_AllInfo("");
+	VO_Imp_ImpCapture("imp_off_com_report_captured_commandpost");
+	VO_Imp_ImpLost("imp_off_com_report_lost_commandpost3");
+	VO_Imp_ImpInDispute("");
+	VO_Imp_ImpSaved("");
+	VO_Imp_ImpInfo("");
+	VO_Rep_RepCapture("rep_off_com_report_captured_commandpost");
+	VO_Rep_RepLost("rep_off_com_report_lost_commandpost3");
+	VO_Rep_RepInDispute("");
+	VO_Rep_RepSaved("");
+	VO_Rep_RepInfo("");
+	VO_Rep_CISCapture("rep_off_com_report_lost_commandpost");
+	VO_Rep_CISLost("");
+	VO_Rep_CISInDispute("");
+	VO_Rep_CISSaved("");
+	VO_Rep_CISInfo("");
+	VO_CIS_RepCapture("cis_off_com_report_lost_commandpost");
+	VO_CIS_RepLost("");
+	VO_CIS_RepInDispute("");
+	VO_CIS_RepSaved("");
+	VO_CIS_RepInfo("");
+	VO_CIS_CISCapture("cis_off_com_chatter_goodjob2");
+	VO_CIS_CISLost("cis_off_com_report_lost_commandpost3");
+	VO_CIS_CISInDispute("");
+	VO_CIS_CISSaved("");
+	VO_CIS_CISInfo("");
+	SoldierBan("");
+	HoverBan("");
+	SmallBan("");
+	MediumBan("");
+	HugeBan("");
+	FlyerBan("");
+}
+
+Object("", "com_weap_gunturret", 445019572)
+{
+	ChildRotation(0.349, 0.000, -0.937, 0.000);
+	ChildPosition(-12.948, -50.220, -58.859);
+	SeqNo(445019572);
+	Team(0);
+	NetworkId(-1);
+	Layer(1);
+}
+
+Object("CP3", "com_bldg_controlzone", 511569812)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-32.159, -50.045, 35.236);
+	SeqNo(511569812);
+	Team(1);
+	NetworkId(-1);
+	Label("CP3");
+	Layer(1);
+	CaptureRegion("CP3Capture");
+	ControlRegion("CP3Control");
+	SpawnPath("CP3Spawn");
+	AllyPath("");
+	AllyCount("65536");
+	Radius("0.0");
+	ValueBleed("10");
+	Value_ATK_Alliance("10");
+	Value_ATK_CIS("10");
+	Value_ATK_Empire("10");
+	Value_ATK_Republic("10");
+	Value_ATK_Locals("10");
+	Value_DEF_Alliance("10");
+	Value_DEF_CIS("10");
+	Value_DEF_Empire("10");
+	Value_DEF_Republic("10");
+	Value_DEF_Locals("10");
+	VO_All_AllCapture("all_off_com_report_captured_commandpost");
+	VO_All_AllLost("all_off_com_report_lost_commandpost3");
+	VO_All_AllInDispute("");
+	VO_All_AllSaved("");
+	VO_All_AllInfo("");
+	VO_All_ImpCapture("all_off_com_report_lost_commandpost");
+	VO_All_ImpLost("");
+	VO_All_ImpInDispute("");
+	VO_All_ImpSaved("");
+	VO_All_ImpInfo("");
+	VO_Imp_AllCapture("imp_off_com_report_lost_commandpost");
+	VO_Imp_AllLost("");
+	VO_Imp_AllInDispute("");
+	VO_Imp_AllSaved("");
+	VO_Imp_AllInfo("");
+	VO_Imp_ImpCapture("imp_off_com_report_captured_commandpost");
+	VO_Imp_ImpLost("imp_off_com_report_lost_commandpost3");
+	VO_Imp_ImpInDispute("");
+	VO_Imp_ImpSaved("");
+	VO_Imp_ImpInfo("");
+	VO_Rep_RepCapture("rep_off_com_report_captured_commandpost");
+	VO_Rep_RepLost("rep_off_com_report_lost_commandpost3");
+	VO_Rep_RepInDispute("");
+	VO_Rep_RepSaved("");
+	VO_Rep_RepInfo("");
+	VO_Rep_CISCapture("rep_off_com_report_lost_commandpost");
+	VO_Rep_CISLost("");
+	VO_Rep_CISInDispute("");
+	VO_Rep_CISSaved("");
+	VO_Rep_CISInfo("");
+	VO_CIS_RepCapture("cis_off_com_report_lost_commandpost");
+	VO_CIS_RepLost("");
+	VO_CIS_RepInDispute("");
+	VO_CIS_RepSaved("");
+	VO_CIS_RepInfo("");
+	VO_CIS_CISCapture("cis_off_com_chatter_goodjob2");
+	VO_CIS_CISLost("cis_off_com_report_lost_commandpost3");
+	VO_CIS_CISInDispute("");
+	VO_CIS_CISSaved("");
+	VO_CIS_CISInfo("");
+	SoldierBan("");
+	HoverBan("");
+	SmallBan("");
+	MediumBan("");
+	HugeBan("");
+	FlyerBan("");
+}
+
+Object("", "com_item_healthrecharge", 755682354)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-198.249, -50.046, -77.732);
+	SeqNo(755682354);
+	Team(0);
+	NetworkId(-1);
+	Layer(1);
+	EffectRegion("");
+	Radius("5.0");
+}
+
+Object("", "com_item_weaponrecharge", 791139929)
+{
+	ChildRotation(0.928, 0.000, 0.373, 0.000);
+	ChildPosition(-286.311, -50.040, -88.962);
+	SeqNo(791139929);
+	Team(0);
+	NetworkId(-1);
+	Layer(1);
+	EffectRegion("");
+	Radius("5.0");
+}
+
+Object("CP4", "com_bldg_controlzone", 920692920)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-168.000, -47.279, 112.000);
+	SeqNo(920692920);
+	Team(1);
+	NetworkId(-1);
+	Label("CP4");
+	Layer(1);
+	CaptureRegion("CP4Capture");
+	ControlRegion("CP4Control");
+	SpawnPath("CP4Spawn");
+	AllyPath("");
+	AllyCount("65536");
+	Radius("0.0");
+	ValueBleed("10");
+	Value_ATK_Alliance("10");
+	Value_ATK_CIS("10");
+	Value_ATK_Empire("10");
+	Value_ATK_Republic("10");
+	Value_ATK_Locals("10");
+	Value_DEF_Alliance("10");
+	Value_DEF_CIS("10");
+	Value_DEF_Empire("10");
+	Value_DEF_Republic("10");
+	Value_DEF_Locals("10");
+	VO_All_AllCapture("all_off_com_report_captured_commandpost");
+	VO_All_AllLost("all_off_com_report_lost_commandpost3");
+	VO_All_AllInDispute("");
+	VO_All_AllSaved("");
+	VO_All_AllInfo("");
+	VO_All_ImpCapture("all_off_com_report_lost_commandpost");
+	VO_All_ImpLost("");
+	VO_All_ImpInDispute("");
+	VO_All_ImpSaved("");
+	VO_All_ImpInfo("");
+	VO_Imp_AllCapture("imp_off_com_report_lost_commandpost");
+	VO_Imp_AllLost("");
+	VO_Imp_AllInDispute("");
+	VO_Imp_AllSaved("");
+	VO_Imp_AllInfo("");
+	VO_Imp_ImpCapture("imp_off_com_report_captured_commandpost");
+	VO_Imp_ImpLost("imp_off_com_report_lost_commandpost3");
+	VO_Imp_ImpInDispute("");
+	VO_Imp_ImpSaved("");
+	VO_Imp_ImpInfo("");
+	VO_Rep_RepCapture("rep_off_com_report_captured_commandpost");
+	VO_Rep_RepLost("rep_off_com_report_lost_commandpost3");
+	VO_Rep_RepInDispute("");
+	VO_Rep_RepSaved("");
+	VO_Rep_RepInfo("");
+	VO_Rep_CISCapture("rep_off_com_report_lost_commandpost");
+	VO_Rep_CISLost("");
+	VO_Rep_CISInDispute("");
+	VO_Rep_CISSaved("");
+	VO_Rep_CISInfo("");
+	VO_CIS_RepCapture("cis_off_com_report_lost_commandpost");
+	VO_CIS_RepLost("");
+	VO_CIS_RepInDispute("");
+	VO_CIS_RepSaved("");
+	VO_CIS_RepInfo("");
+	VO_CIS_CISCapture("cis_off_com_chatter_goodjob2");
+	VO_CIS_CISLost("cis_off_com_report_lost_commandpost3");
+	VO_CIS_CISInDispute("");
+	VO_CIS_CISSaved("");
+	VO_CIS_CISInfo("");
+	SoldierBan("");
+	HoverBan("");
+	SmallBan("");
+	MediumBan("");
+	HugeBan("");
+	FlyerBan("");
+}
+
+Object("", "com_item_weaponrecharge", 1062343437)
+{
+	ChildRotation(0.744, 0.000, -0.668, 0.000);
+	ChildPosition(-127.658, -50.063, -64.206);
+	SeqNo(1062343437);
+	Team(0);
+	NetworkId(-1);
+	Layer(1);
+	EffectRegion("");
+	Radius("5.0");
+}
+
+Object("", "com_item_healthrecharge", 1105466874)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-152.000, -46.000, 62.000);
+	SeqNo(1105466874);
+	Team(0);
+	NetworkId(-1);
+	Layer(1);
+	EffectRegion("");
+	Radius("5.0");
+}
+
+Object("", "com_weap_gunturret", 1244245789)
+{
+	ChildRotation(0.695, 0.000, 0.719, 0.000);
+	ChildPosition(-192.197, -50.392, -60.002);
+	SeqNo(1244245789);
+	Team(0);
+	NetworkId(-1);
+	Layer(1);
+}
+
+Object("", "com_item_weaponrecharge", 1275171238)
+{
+	ChildRotation(0.074, 0.000, -0.997, 0.000);
+	ChildPosition(-76.200, -50.038, -65.767);
+	SeqNo(1275171238);
+	Team(0);
+	NetworkId(-1);
+	Layer(1);
+	EffectRegion("");
+	Radius("5.0");
+}
+
+Object("", "com_item_healthrecharge", 1295877758)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-98.555, -49.970, 75.850);
+	SeqNo(1295877758);
+	Team(0);
+	NetworkId(-1);
+	Layer(1);
+	EffectRegion("");
+	Radius("5.0");
+}
+
+Object("", "com_item_weaponrecharge", 1325185251)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-168.000, -47.323, 84.000);
+	SeqNo(1325185251);
+	Team(0);
+	NetworkId(-1);
+	Layer(1);
+	EffectRegion("");
+	Radius("5.0");
+}
+
+Object("", "com_item_healthrecharge", 1586400728)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-220.388, -49.967, 46.444);
+	SeqNo(1586400728);
+	Team(0);
+	NetworkId(-1);
+	Layer(1);
+	EffectRegion("");
+	Radius("5.0");
+}
+
+Object("", "com_weap_gunturret", 1661995031)
+{
+	ChildRotation(0.905, 0.000, 0.426, 0.000);
+	ChildPosition(-314.107, -50.040, 4.583);
+	SeqNo(1661995031);
+	Team(0);
+	NetworkId(-1);
+	Layer(1);
+}
+
+Object("", "com_weap_gunturret", 1683645085)
+{
+	ChildRotation(0.881, 0.000, 0.473, 0.000);
+	ChildPosition(-122.052, -50.040, -103.463);
+	SeqNo(1683645085);
+	Team(0);
+	NetworkId(-1);
+	Layer(1);
+}
+
+Object("", "com_item_healthrecharge", 1867809154)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-5.353, -50.061, -67.342);
+	SeqNo(1867809154);
+	Team(0);
+	NetworkId(-1);
+	Layer(1);
+	EffectRegion("");
+	Radius("5.0");
+}
+
+Object("", "com_item_healthrecharge", 2007428145)
+{
+	ChildRotation(0.814, 0.000, -0.581, 0.000);
+	ChildPosition(-150.975, -49.959, 26.173);
+	SeqNo(2007428145);
+	Team(0);
+	NetworkId(-1);
+	Layer(1);
+	EffectRegion("");
+	Radius("5.0");
+}
+
+Object("", "com_item_weaponrecharge", 2029417711)
+{
+	ChildRotation(0.630, 0.000, 0.776, 0.000);
+	ChildPosition(-116.121, -49.942, 46.390);
+	SeqNo(2029417711);
+	Team(0);
+	NetworkId(-1);
+	Layer(1);
+	EffectRegion("");
+	Radius("5.0");
+}
+
+Object("CP2_Vspawn", "com_item_vehicle_spawn", 2121327177)
+{
+	ChildRotation(1.000, 0.000, -0.003, 0.000);
+	ChildPosition(-140.457, -49.701, -93.499);
+	SeqNo(2121327177);
+	Team(2);
+	NetworkId(-1);
+	Layer(1);
+	ControlZone("CP2");
+	SpawnTime("45.0");
+	ExpireTimeEnemy("20.0");
+	ExpireTimeField("40.0");
+	DecayTime("10.0");
+	ClassAllATK("all_hover_combatspeeder");
+	ClassCISATK("cis_hover_aat");
+	ClassImpATK("imp_hover_fightertank");
+	ClassRepATK("rep_hover_fightertank");
+	ClassLocATK("");
+	ClassHisATK("cis_hover_aat");
+	ClassAllDEF("all_hover_combatspeeder");
+	ClassCISDEF("cis_hover_aat");
+	ClassImpDEF("imp_hover_fightertank");
+	ClassRepDEF("rep_hover_fightertank");
+	ClassLocDEF("");
+	ClassHisDEF("nab_hover_gianspeeder");
+}
+
+Object("", "com_weap_gunturret", 2141251408)
+{
+	ChildRotation(0.366, 0.000, -0.931, 0.000);
+	ChildPosition(-64.591, -49.945, 74.679);
+	SeqNo(2141251408);
+	Team(0);
+	NetworkId(-1);
+	Layer(1);
+}
+
+Object("", "com_item_weaponrecharge", -2099625174)
+{
+	ChildRotation(0.272, 0.000, -0.962, 0.000);
+	ChildPosition(-236.962, -49.964, 75.065);
+	SeqNo(-2099625174);
+	Team(0);
+	NetworkId(-1);
+	Layer(1);
+	EffectRegion("");
+	Radius("5.0");
+}
+
+Object("", "com_weap_gunturret", -2040141785)
+{
+	ChildRotation(0.438, 0.000, -0.899, 0.000);
+	ChildPosition(-21.833, -50.125, -3.782);
+	SeqNo(-2040141785);
+	Team(0);
+	NetworkId(-1);
+	Layer(1);
+}
+
+Object("CP2_Vspawn", "com_item_vehicle_spawn", -1980720024)
+{
+	ChildRotation(1.000, 0.000, 0.005, 0.000);
+	ChildPosition(-192.158, -49.918, -97.198);
+	SeqNo(-1980720024);
+	Team(2);
+	NetworkId(-1);
+	Layer(1);
+	ControlZone("CP2");
+	SpawnTime("45.0");
+	ExpireTimeEnemy("20.0");
+	ExpireTimeField("40.0");
+	DecayTime("10.0");
+	ClassAllATK("all_hover_combatspeeder");
+	ClassCISATK("cis_hover_aat");
+	ClassImpATK("imp_hover_fightertank");
+	ClassRepATK("rep_hover_fightertank");
+	ClassLocATK("");
+	ClassHisATK("cis_hover_aat");
+	ClassAllDEF("all_hover_combatspeeder");
+	ClassCISDEF("cis_hover_aat");
+	ClassImpDEF("imp_hover_fightertank");
+	ClassRepDEF("rep_hover_fightertank");
+	ClassLocDEF("");
+	ClassHisDEF("nab_hover_gianspeeder");
+}
+
+Object("CP3_Vspawn", "com_item_vehicle_spawn", -1906416749)
+{
+	ChildRotation(0.986, 0.000, -0.165, 0.000);
+	ChildPosition(-56.741, -50.000, 18.245);
+	SeqNo(-1906416749);
+	Team(1);
+	NetworkId(-1);
+	Layer(1);
+	ControlZone("CP3");
+	SpawnTime("45.0");
+	ExpireTimeEnemy("20.0");
+	ExpireTimeField("40.0");
+	DecayTime("10.0");
+	ClassAllATK("all_hover_combatspeeder");
+	ClassCISATK("cis_hover_aat");
+	ClassImpATK("imp_hover_fightertank");
+	ClassRepATK("rep_hover_fightertank");
+	ClassLocATK("");
+	ClassHisATK("cis_hover_aat");
+	ClassAllDEF("all_hover_combatspeeder");
+	ClassCISDEF("cis_hover_aat");
+	ClassImpDEF("imp_hover_fightertank");
+	ClassRepDEF("rep_hover_fightertank");
+	ClassLocDEF("");
+	ClassHisDEF("nab_hover_gianspeeder");
+}
+
+Object("", "com_item_weaponrecharge", -1832136632)
+{
+	ChildRotation(-0.299, 0.000, -0.954, 0.000);
+	ChildPosition(-184.758, -49.945, 25.448);
+	SeqNo(-1832136632);
+	Team(0);
+	NetworkId(-1);
+	Layer(1);
+	EffectRegion("");
+	Radius("5.0");
+}
+
+Object("", "com_item_healthrecharge", -1740671198)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-186.000, -46.000, 128.000);
+	SeqNo(-1740671198);
+	Team(0);
+	NetworkId(-1);
+	Layer(1);
+	EffectRegion("");
+	Radius("5.0");
+}
+
+Object("", "com_item_healthrecharge", -1689159511)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-30.211, -50.040, 44.709);
+	SeqNo(-1689159511);
+	Team(0);
+	NetworkId(-1);
+	Layer(1);
+	EffectRegion("");
+	Radius("5.0");
+}
+
+Object("", "com_item_weaponrecharge", -1547901018)
+{
+	ChildRotation(0.365, 0.000, -0.931, 0.000);
+	ChildPosition(-2.246, -50.048, -70.443);
+	SeqNo(-1547901018);
+	Team(0);
+	NetworkId(-1);
+	Layer(1);
+	EffectRegion("");
+	Radius("5.0");
+}
+
+Object("", "com_item_healthrecharge", -1323035282)
+{
+	ChildRotation(0.645, 0.000, -0.764, 0.000);
+	ChildPosition(-84.283, -50.074, -65.038);
+	SeqNo(-1323035282);
+	Team(0);
+	NetworkId(-1);
+	Layer(1);
+	EffectRegion("");
+	Radius("5.0");
+}
+
+Object("", "com_weap_gunturret", -1241307701)
+{
+	ChildRotation(-0.348, 0.000, -0.938, 0.000);
+	ChildPosition(-270.743, -50.040, 74.657);
+	SeqNo(-1241307701);
+	Team(0);
+	NetworkId(-1);
+	Layer(1);
+}
+
+Object("CP1_Vspawn", "com_item_vehicle_spawn", -1105689624)
+{
+	ChildRotation(0.732, 0.000, 0.681, 0.000);
+	ChildPosition(-309.796, -50.000, 15.943);
+	SeqNo(-1105689624);
+	Team(1);
+	NetworkId(-1);
+	Layer(1);
+	ControlZone("CP1");
+	SpawnTime("45.0");
+	ExpireTimeEnemy("20.0");
+	ExpireTimeField("40.0");
+	DecayTime("10.0");
+	ClassAllATK("all_hover_combatspeeder");
+	ClassCISATK("cis_hover_aat");
+	ClassImpATK("imp_hover_fightertank");
+	ClassRepATK("rep_hover_fightertank");
+	ClassLocATK("");
+	ClassHisATK("cis_hover_aat");
+	ClassAllDEF("all_hover_combatspeeder");
+	ClassCISDEF("cis_hover_aat");
+	ClassImpDEF("imp_hover_fightertank");
+	ClassRepDEF("rep_hover_fightertank");
+	ClassLocDEF("");
+	ClassHisDEF("nab_hover_gianspeeder");
+}
+
+Object("", "com_weap_gunturret", -961720727)
+{
+	ChildRotation(0.438, 0.000, -0.899, 0.000);
+	ChildPosition(-132.304, -50.422, -74.205);
+	SeqNo(-961720727);
+	Team(0);
+	NetworkId(-1);
+	Layer(1);
+}
+
+Object("", "com_item_weaponrecharge", -755301733)
+{
+	ChildRotation(0.681, 0.000, 0.732, 0.000);
+	ChildPosition(-198.147, -50.035, -80.477);
+	SeqNo(-755301733);
+	Team(0);
+	NetworkId(-1);
+	Layer(1);
+	EffectRegion("");
+	Radius("5.0");
+}
+
+Object("CP5", "com_bldg_controlzone", -754577027)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-80.037, -50.056, -72.093);
+	SeqNo(-754577027);
+	Team(2);
+	NetworkId(-1);
+	Label("CP5");
+	Layer(1);
+	CaptureRegion("CP5Capture");
+	ControlRegion("CP5Control");
+	SpawnPath("CP5Spawn");
+	AllyPath("");
+	AllyCount("65536");
+	Radius("0.0");
+	ValueBleed("10");
+	Value_ATK_Alliance("10");
+	Value_ATK_CIS("10");
+	Value_ATK_Empire("10");
+	Value_ATK_Republic("10");
+	Value_ATK_Locals("10");
+	Value_DEF_Alliance("10");
+	Value_DEF_CIS("10");
+	Value_DEF_Empire("10");
+	Value_DEF_Republic("10");
+	Value_DEF_Locals("10");
+	VO_All_AllCapture("all_off_com_report_captured_commandpost");
+	VO_All_AllLost("all_off_com_report_lost_commandpost3");
+	VO_All_AllInDispute("");
+	VO_All_AllSaved("");
+	VO_All_AllInfo("");
+	VO_All_ImpCapture("all_off_com_report_lost_commandpost");
+	VO_All_ImpLost("");
+	VO_All_ImpInDispute("");
+	VO_All_ImpSaved("");
+	VO_All_ImpInfo("");
+	VO_Imp_AllCapture("imp_off_com_report_lost_commandpost");
+	VO_Imp_AllLost("");
+	VO_Imp_AllInDispute("");
+	VO_Imp_AllSaved("");
+	VO_Imp_AllInfo("");
+	VO_Imp_ImpCapture("imp_off_com_report_captured_commandpost");
+	VO_Imp_ImpLost("imp_off_com_report_lost_commandpost3");
+	VO_Imp_ImpInDispute("");
+	VO_Imp_ImpSaved("");
+	VO_Imp_ImpInfo("");
+	VO_Rep_RepCapture("rep_off_com_report_captured_commandpost");
+	VO_Rep_RepLost("rep_off_com_report_lost_commandpost3");
+	VO_Rep_RepInDispute("");
+	VO_Rep_RepSaved("");
+	VO_Rep_RepInfo("");
+	VO_Rep_CISCapture("rep_off_com_report_lost_commandpost");
+	VO_Rep_CISLost("");
+	VO_Rep_CISInDispute("");
+	VO_Rep_CISSaved("");
+	VO_Rep_CISInfo("");
+	VO_CIS_RepCapture("cis_off_com_report_lost_commandpost");
+	VO_CIS_RepLost("");
+	VO_CIS_RepInDispute("");
+	VO_CIS_RepSaved("");
+	VO_CIS_RepInfo("");
+	VO_CIS_CISCapture("cis_off_com_chatter_goodjob2");
+	VO_CIS_CISLost("cis_off_com_report_lost_commandpost3");
+	VO_CIS_CISInDispute("");
+	VO_CIS_CISSaved("");
+	VO_CIS_CISInfo("");
+	SoldierBan("");
+	HoverBan("");
+	SmallBan("");
+	MediumBan("");
+	HugeBan("");
+	FlyerBan("");
+}
+
+Object("CP1", "com_bldg_controlzone", -665636260)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-328.158, -42.109, 15.616);
+	SeqNo(-665636260);
+	Team(1);
+	NetworkId(-1);
+	Label("CP1");
+	Layer(1);
+	CaptureRegion("CP1Capture");
+	ControlRegion("CP1Control");
+	SpawnPath("CP1Spawn");
+	AllyPath("");
+	AllyCount("65536");
+	Radius("0.0");
+	ValueBleed("10");
+	Value_ATK_Alliance("10");
+	Value_ATK_CIS("10");
+	Value_ATK_Empire("10");
+	Value_ATK_Republic("10");
+	Value_ATK_Locals("10");
+	Value_DEF_Alliance("10");
+	Value_DEF_CIS("10");
+	Value_DEF_Empire("10");
+	Value_DEF_Republic("10");
+	Value_DEF_Locals("10");
+	VO_All_AllCapture("all_off_com_report_captured_commandpost");
+	VO_All_AllLost("all_off_com_report_lost_commandpost3");
+	VO_All_AllInDispute("");
+	VO_All_AllSaved("");
+	VO_All_AllInfo("");
+	VO_All_ImpCapture("all_off_com_report_lost_commandpost");
+	VO_All_ImpLost("");
+	VO_All_ImpInDispute("");
+	VO_All_ImpSaved("");
+	VO_All_ImpInfo("");
+	VO_Imp_AllCapture("imp_off_com_report_lost_commandpost");
+	VO_Imp_AllLost("");
+	VO_Imp_AllInDispute("");
+	VO_Imp_AllSaved("");
+	VO_Imp_AllInfo("");
+	VO_Imp_ImpCapture("imp_off_com_report_captured_commandpost");
+	VO_Imp_ImpLost("imp_off_com_report_lost_commandpost3");
+	VO_Imp_ImpInDispute("");
+	VO_Imp_ImpSaved("");
+	VO_Imp_ImpInfo("");
+	VO_Rep_RepCapture("rep_off_com_report_captured_commandpost");
+	VO_Rep_RepLost("rep_off_com_report_lost_commandpost3");
+	VO_Rep_RepInDispute("");
+	VO_Rep_RepSaved("");
+	VO_Rep_RepInfo("");
+	VO_Rep_CISCapture("rep_off_com_report_lost_commandpost");
+	VO_Rep_CISLost("");
+	VO_Rep_CISInDispute("");
+	VO_Rep_CISSaved("");
+	VO_Rep_CISInfo("");
+	VO_CIS_RepCapture("cis_off_com_report_lost_commandpost");
+	VO_CIS_RepLost("");
+	VO_CIS_RepInDispute("");
+	VO_CIS_RepSaved("");
+	VO_CIS_RepInfo("");
+	VO_CIS_CISCapture("cis_off_com_chatter_goodjob2");
+	VO_CIS_CISLost("cis_off_com_report_lost_commandpost3");
+	VO_CIS_CISInDispute("");
+	VO_CIS_CISSaved("");
+	VO_CIS_CISInfo("");
+	SoldierBan("");
+	HoverBan("");
+	SmallBan("");
+	MediumBan("");
+	HugeBan("");
+	FlyerBan("");
+}
+
+Object("", "com_weap_gunturret", -592423157)
+{
+	ChildRotation(0.897, 0.000, 0.441, 0.000);
+	ChildPosition(-62.491, -50.229, -104.431);
+	SeqNo(-592423157);
+	Team(0);
+	NetworkId(-1);
+	Layer(1);
+}
+
+Object("", "com_item_healthrecharge", -576412352)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-306.476, -50.050, -11.513);
+	SeqNo(-576412352);
+	Team(0);
+	NetworkId(-1);
+	Layer(1);
+	EffectRegion("");
+	Radius("5.0");
+}
+
+Object("", "com_item_weaponrecharge", -439700456)
+{
+	ChildRotation(0.365, 0.000, -0.931, 0.000);
+	ChildPosition(-23.429, -50.040, 37.921);
+	SeqNo(-439700456);
+	Team(0);
+	NetworkId(-1);
+	Layer(1);
+	EffectRegion("");
+	Radius("5.0");
+}
+
+Object("", "com_item_weaponrecharge", -338899865)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-293.018, -50.033, -12.975);
+	SeqNo(-338899865);
+	Team(0);
+	NetworkId(-1);
+	Layer(1);
+	EffectRegion("");
+	Radius("5.0");
+}
+
+Object("", "com_item_healthrecharge", -169627532)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-280.946, -50.040, -94.356);
+	SeqNo(-169627532);
+	Team(0);
+	NetworkId(-1);
+	Layer(1);
+	EffectRegion("");
+	Radius("5.0");
+}

@@ -1,0 +1,66 @@
+[WeaponClass]
+ClassLabel 			= "cannon"
+
+
+//***************************************
+//********COMBAT SPEEDER MAIN GUN********
+//***************************************
+[Properties]
+Label				= "Blaster Cannon"
+IconTexture			= "HUD_all_lascannon_icon"
+
+OrdnanceName 			= "all_weap_hover_combatspeeder_cannon_ord"
+MuzzleFlash			= "med_muzzle_flash"
+Discharge			= "med_smoke_effect"
+ModeTexture			= "HUD_weap_fullauto"
+ReticuleTexture			= "reticule_rifle"
+
+//***************************************
+//**********WEAPON SHOT TIMING***********
+//***************************************
+RoundsPerClip 			= "0"
+ShotDelay 			= "0.3"
+//ReloadTime 			= "2.0"
+TriggerSingle			= "0"
+//MaxPressedTime			= "3"
+
+//***************************************
+//**********HEAT AND RANGE***************
+//***************************************
+HeatRecoverRate			= "0.3"
+HeatThreshold			= "0.2"
+HeatPerShot			= "0.45"
+
+LockOnRange			= "0.0"
+LockTime 			= "0.0"
+AutoAimSize			= "0.0"
+
+RecoilLengthLight    	   	= "0.1"
+RecoilLengthHeavy     	  	= "0.15"
+RecoilStrengthLight    	 	= "1"
+RecoilStrengthHeavy     	= "1"
+
+
+//***************************************
+//**********VIBRATION********************
+//***************************************
+
+//ChargeRateLight         	= "1.0"
+//MaxChargeStrengthLight  	= "2.0"
+//ChargeDelayLight        	= "0.0"
+//ChargeRateHeavy         	= "1.0"
+//MaxChargeStrengthHeavy  	= "0.75"
+//ChargeDelayHeavy        	= "3"
+
+//***************************************
+//**********SOUND************************
+//***************************************
+FireSound      			= "all_weap_hover_combatspeeder_cannon_fire"
+//ReloadSound     		= "laserreload"
+
+OverheatSound      = "com_weap_energy_depleted"
+OverheatSoundPitch  = "0.5"
+OverheatStopSound   = "com_weap_energy_refilled"
+
+
+

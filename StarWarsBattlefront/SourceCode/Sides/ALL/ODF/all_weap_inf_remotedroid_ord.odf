@@ -1,0 +1,84 @@
+[GameObjectClass]
+ClassLabel 		= "droid"
+GeometryName 		 "com_weap_probedroid.msh"
+
+[Properties]
+ImpactEffectWater 	= "watersplash_ord"
+
+FLYERSECTION 		= "BODY"
+VehicleType 		= "light"
+
+PilotType		= "remote"
+
+MapTexture 		= "troop_icon"
+HealthTexture		= "HUD_com_probedroid_health_icon"
+MapScale 		= 1.0
+
+ExplosionName		= "all_weap_inf_remotedroid_exp2"
+GeometryName 		= "com_weap_probedroid"
+CollisionScale 		= 10.0
+
+MaxHealth 		= 40.0
+AddHealth		= -1.0
+
+SetAltitude		= 1.75
+GravityScale		= 1.0//2
+LiftSpring		= 10.0  //10Lighter the veh the high the number
+LiftDamp		= 3.0
+
+ScanningRange		= 30.0
+TransmitRange		= 300.0
+
+Acceleration 		= 1.0
+Deceleration		= 6.0
+Traction		= 22.0
+ForwardSpeed		= 3.5
+ReverseSpeed		= 2.0
+StrafeSpeed		= 0.25
+
+SpinRate		= 1.5
+TurnRate		= 1.5
+TurnFilter		= 5.0
+PitchRate		= 2.0
+PitchFilter		= 5.0
+BankAngle		= 0.0
+BankFilter		= 0
+
+MoveTension		= "20.0"//how much swim the craft has from the center of the screen
+
+
+LevelSpring		= 5.0
+LevelDamp		= 3.0
+
+EyePointOffset 		= "0.0 0.5 0.0"
+TrackOffset 		= "0.0 -0.25 1.5"
+TiltValue		= "5.0"
+
+PitchLimits		= "-50.0 50.0"
+YawLimits		= "-0.0 0.0"
+AimerPitchLimits	= "-90 90"
+AimerYawLimits		= "-90 90"
+
+WEAPONSECTION	= 1
+WeaponName		= "all_weap_inf_remotedroid_blaster"
+WeaponAmmo		= 0
+WeaponChannel		= 0
+
+WEAPONSECTION	= 2
+WeaponName		= "all_weap_inf_remotedroid_destruct"
+WeaponAmmo		= 1
+WeaponChannel		= 1
+
+AmbientSound   = "remotedroid_engine_lp"
+Ambient2Sound  = "remotedroid_radio"
+HurtSound      = ""
+DeathSound     = ""
+
+AISizeType		= "SMALL"
+
+\\\\\\\\\\\\ Collision \\\\\\\\\\\\\\
+
+BuildingCollision		= "p_buildingsphere"
+VehicleCollision		= "p_buildingsphere"
+OrdnanceCollision		= "p_sphere"
+SoldierCollision		= "p_sphere"

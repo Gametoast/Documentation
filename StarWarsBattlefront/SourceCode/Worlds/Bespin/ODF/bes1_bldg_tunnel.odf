@@ -1,0 +1,23 @@
+[GameObjectClass]		
+
+ClassLabel		=	"prop"
+GeometryName	=	"bes1_bldg_tunnel.msh"
+
+
+[Properties]		
+
+GeometryName	=	"bes1_bldg_tunnel"
+
+AttachEffect = "prop_steamgrate"
+
+AttachToHardPoint = "hp_steam_1"
+
+AttachEffect = "prop_steamgrate"
+
+AttachToHardPoint = "hp_steam_2"
+
+AttachEffect = "prop_steamgrate"
+
+AttachToHardPoint = "hp_steam_3"
+
+FoleyFXGroup    = "metal_foley"

@@ -1,0 +1,126 @@
+[GameObjectClass]
+ClassLabel 			= "flyer"
+VehicleType	 		= "flyer"
+GeometryName 			= "cis_fly_geofighter.msh"
+
+[Properties]
+FLYERSECTION 			= "BODY"
+
+ReserveOneForPlayer		= "0"
+
+Label 				= "Geonosian Starfighter"
+MapTexture 			= "geofighter_icon"
+HealthTexture			= "HUD_geo_fighter_icon"
+VehiclePosition			= "common.vehiclepositions.pilot"
+MapScale 			= 1.5
+
+GeometryName 			= "cis_fly_geofighter"
+FirstPerson       		= "cis\cissccam;cis_1st_cockpit_securitycam"
+
+CollisionScale 			= "1.5"
+CollisionThreshold		= "5.0"
+//ExplosionCritical		= "cis_fly_geofighter_exp"
+ExplosionDestruct		= "cis_fly_geofighter_exp"
+
+MaxHealth 			= "1600.0"
+HealthType			= "vehicle"
+//HitLocation			= "p_crithit 1.5"
+
+DamageStartPercent		= 60.0
+DamageStopPercent		= 20.0
+DamageEffect			= "vehiclespark"
+DamageEffectScale		= 1.0
+DamageInheritVelocity		= 0.75
+DamageAttachPoint		= "hp_damage_2"
+
+DamageStartPercent		= 60.0
+DamageStopPercent		= 20.0
+DamageEffect			= "vehiclespark"
+DamageEffectScale		= 1.0
+DamageInheritVelocity		= 0.75
+DamageAttachPoint		= "hp_damage_1"
+
+DamageStartPercent		= 30.0
+DamageStopPercent		= 0.0
+DamageEffect			= "vehiclesmoke"
+DamageEffectScale		= 1.0
+DamageInheritVelocity		= 0.75
+DamageAttachPoint		= "hp_damage_1"
+
+DamageStartPercent		= 19.0
+DamageStopPercent		= 0.0
+DamageEffect			= "vehiclesmoke"
+DamageEffectScale		= 1.0
+DamageInheritVelocity		= 0.75
+DamageAttachPoint		= "hp_damage_2"
+
+Acceleraton             	= 30.0
+MinSpeed            		= 20.0
+MidSpeed            		= 50.0
+MaxSpeed            		= 82.0
+
+PitchRate 			= 1.0
+PitchFilter 			= 2.9
+TurnRate            		= 1.25 // Max turn  //3.25 mouse!
+TurnFilter          		= 5.75 // Speed of turn //5.75 mouse!
+BankAngle 			= 0.8
+BankFilter 			= 2.5
+LevelFilter 			= 2.0
+
+TakeoffTime             	= 1.0
+TakeoffSpeed            	= 3.0
+LandingTime             	= 2.0
+LandingSpeed            	= 5.0
+TakeoffHeight           	= 2.5
+
+EyePointOffset			= "0.0 1.0 1.0"
+TrackCenter 			= "0.0 15 13.0"
+TrackOffset 			= "0.0 -13.0 20.0"
+TiltValue			= "10.0"
+
+AimTension			= "20.0"
+MoveTension			= "4.25"
+
+WeaponName			= "cis_weap_fly_geofighter_cannon"
+WeaponAmmo			= "0"
+
+AimerNodeName 			= "turret"
+AimerPitchLimits 		= "-10.0 10.0"
+AimerYawLimits 			= "-20.0 20.0"
+BarrelNodeName			= "barrel"
+
+PilotPosition 			= "hp_active"
+PilotAnimation 			= "drive"
+IsPilotExposed		= "0"
+
+EngineSound 			= "cis_fly_geofighter_engine_parameterized"
+TakeoffSound 			= ""
+LandSound    			= ""
+HurtSound    			= ""
+DeathSound   			= "imp_weap_ord_exp_lg"
+VehicleCollisionSound   ="com_veh_collision_lg"
+TurnOnSound  			= ""
+TurnOffSound 			= ""
+Music        			= ""
+CISMusic			    ="cis_vehicle"
+RepMusic			    ="rep_vehicle"
+MusicSpeed   			= ".15"
+MusicDelay   			= "3.0"
+FoleyFXGroup    		= "metal_foley"
+
+\\ ----------- COLLISION
+
+TerrainCollision		= "p_sphere1"
+TerrainCollision		= "p_sphere2"
+TerrainCollision		= "p_sphere3"
+TerrainCollision		= "p_sphere4"
+
+BuildingCollision		= "p_sphere1"
+BuildingCollision		= "p_sphere2"
+BuildingCollision		= "p_sphere3"
+BuildingCollision		= "p_sphere4"
+
+VehicleCollision		= "p_sphere1"
+VehicleCollision		= "p_sphere2"
+VehicleCollision		= "p_sphere3"
+VehicleCollision		= "p_sphere4"

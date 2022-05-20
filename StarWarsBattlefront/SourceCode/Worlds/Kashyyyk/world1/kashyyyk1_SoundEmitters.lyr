@@ -1,0 +1,892 @@
+Version(3);
+SaveType(0);
+
+Camera("camera")
+{
+	Rotation(0.299, 0.104, -0.896, 0.311);
+	Position(431.911, 278.764, 348.404);
+	FieldOfView(55.400);
+	NearPlane(1.000);
+	FarPlane(8000.000);
+	ZoomFactor(1.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+}
+TerrainName("kashyyyk1.ter");
+SkyName("kashyyyk1.sky");
+ScriptName("DummyScript.dll");
+ControllerManager("StandardCtrlMgr");
+
+WorldExtents()
+{
+	Min(0.000000, 0.000000, 0.000000);
+	Max(0.000000, 0.000000, 0.000000);
+}
+
+NextSequence(-1214484);
+
+Object("Waterlapping25", "com_snd_amb_static", 75027845)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(218.383, -45.683, -267.902);
+	SeqNo(75027845);
+	Team(0);
+	NetworkId(-1);
+	Layer(4);
+	Sound("waterlapping");
+	MinDistance("15.0");
+	MaxDistance("50.0");
+}
+
+Object("Waterlapping28", "com_snd_amb_static", 97414435)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(130.745, -45.799, -288.524);
+	SeqNo(97414435);
+	Team(0);
+	NetworkId(-1);
+	Layer(4);
+	Sound("waterlapping");
+	MinDistance("15.0");
+	MaxDistance("50.0");
+}
+
+Object("Waterlapping50", "com_snd_amb_static", 98975700)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-21.822, -45.304, 259.600);
+	SeqNo(98975700);
+	Team(0);
+	NetworkId(-1);
+	Layer(4);
+	Sound("waterlapping");
+	MinDistance("15.0");
+	MaxDistance("50.0");
+}
+
+Object("Waterlapping34", "com_snd_amb_static", 189972252)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(15.335, -45.622, -218.339);
+	SeqNo(189972252);
+	Team(0);
+	NetworkId(-1);
+	Layer(4);
+	Sound("waterlapping");
+	MinDistance("15.0");
+	MaxDistance("50.0");
+}
+
+Object("Waterlapping10", "com_snd_amb_static", 302103072)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(284.211, -45.257, 102.410);
+	SeqNo(302103072);
+	Team(0);
+	NetworkId(-1);
+	Layer(4);
+	Sound("waterlapping");
+	MinDistance("15.0");
+	MaxDistance("50.0");
+}
+
+Object("Waterlapping13", "com_snd_amb_static", 393419890)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(203.643, -45.829, 31.878);
+	SeqNo(393419890);
+	Team(0);
+	NetworkId(-1);
+	Layer(4);
+	Sound("waterlapping");
+	MinDistance("15.0");
+	MaxDistance("50.0");
+}
+
+Object("Waterlapping11", "com_snd_amb_static", 426726427)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(255.808, -45.042, 81.912);
+	SeqNo(426726427);
+	Team(0);
+	NetworkId(-1);
+	Layer(4);
+	Sound("waterlapping");
+	MinDistance("15.0");
+	MaxDistance("50.0");
+}
+
+Object("Waterlapping40", "com_snd_amb_static", 442209507)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(28.216, -45.686, -11.541);
+	SeqNo(442209507);
+	Team(0);
+	NetworkId(-1);
+	Layer(4);
+	Sound("waterlapping");
+	MinDistance("15.0");
+	MaxDistance("50.0");
+}
+
+Object("Waterlapping7", "com_snd_amb_static", 502272556)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(296.435, -45.310, 194.542);
+	SeqNo(502272556);
+	Team(0);
+	NetworkId(-1);
+	Layer(4);
+	Sound("waterlapping");
+	MinDistance("15.0");
+	MaxDistance("50.0");
+}
+
+Object("Waterlapping61", "com_snd_amb_static", 588711573)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(306.185, -45.925, -182.026);
+	SeqNo(588711573);
+	Team(0);
+	NetworkId(-1);
+	Layer(4);
+	Sound("waterlapping");
+	MinDistance("15.0");
+	MaxDistance("50.0");
+}
+
+Object("Waterlapping59", "com_snd_amb_static", 616139451)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(123.762, -45.559, 248.641);
+	SeqNo(616139451);
+	Team(0);
+	NetworkId(-1);
+	Layer(4);
+	Sound("waterlapping");
+	MinDistance("15.0");
+	MaxDistance("50.0");
+}
+
+Object("Waterlapping19", "com_snd_amb_static", 835392568)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(276.094, -45.571, -108.235);
+	SeqNo(835392568);
+	Team(0);
+	NetworkId(-1);
+	Layer(4);
+	Sound("waterlapping");
+	MinDistance("15.0");
+	MaxDistance("50.0");
+}
+
+Object("Waterlapping35", "com_snd_amb_static", 1001549782)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(1.366, -45.423, -159.570);
+	SeqNo(1001549782);
+	Team(0);
+	NetworkId(-1);
+	Layer(4);
+	Sound("waterlapping");
+	MinDistance("15.0");
+	MaxDistance("50.0");
+}
+
+Object("Waterstream2", "com_snd_amb_static", 1046318202)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(34.920, -44.854, 139.018);
+	SeqNo(1046318202);
+	Team(0);
+	NetworkId(-1);
+	Layer(4);
+	Sound("stream");
+	MinDistance("15.0");
+	MaxDistance("50.0");
+}
+
+Object("Waterlapping6", "com_snd_amb_static", 1069194666)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(289.131, -45.712, 226.467);
+	SeqNo(1069194666);
+	Team(0);
+	NetworkId(-1);
+	Layer(4);
+	Sound("waterlapping");
+	MinDistance("15.0");
+	MaxDistance("50.0");
+}
+
+Object("Waterlapping46", "com_snd_amb_static", 1335164168)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-65.073, -45.527, 127.655);
+	SeqNo(1335164168);
+	Team(0);
+	NetworkId(-1);
+	Layer(4);
+	Sound("waterlapping");
+	MinDistance("15.0");
+	MaxDistance("50.0");
+}
+
+Object("Waterlapping48", "com_snd_amb_static", 1530214076)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-64.914, -45.667, 191.214);
+	SeqNo(1530214076);
+	Team(0);
+	NetworkId(-1);
+	Layer(4);
+	Sound("waterlapping");
+	MinDistance("15.0");
+	MaxDistance("50.0");
+}
+
+Object("Waterlapping38", "com_snd_amb_static", 1533704426)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(31.454, -45.291, -68.385);
+	SeqNo(1533704426);
+	Team(0);
+	NetworkId(-1);
+	Layer(4);
+	Sound("waterlapping");
+	MinDistance("15.0");
+	MaxDistance("50.0");
+}
+
+Object("Waterlapping", "com_snd_amb_static", 1620730563)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(192.234, -45.201, 315.417);
+	SeqNo(1620730563);
+	Team(0);
+	NetworkId(-1);
+	Layer(4);
+	Sound("waterlapping");
+	MinDistance("15.0");
+	MaxDistance("50.0");
+}
+
+Object("Waterlapping37", "com_snd_amb_static", 1642506436)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(13.101, -45.624, -97.185);
+	SeqNo(1642506436);
+	Team(0);
+	NetworkId(-1);
+	Layer(4);
+	Sound("waterlapping");
+	MinDistance("15.0");
+	MaxDistance("50.0");
+}
+
+Object("Waterlapping26", "com_snd_amb_static", 1765418294)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(191.462, -45.358, -276.434);
+	SeqNo(1765418294);
+	Team(0);
+	NetworkId(-1);
+	Layer(4);
+	Sound("waterlapping");
+	MinDistance("15.0");
+	MaxDistance("50.0");
+}
+
+Object("Waterlapping12", "com_snd_amb_static", 1830989816)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(226.663, -45.678, 60.264);
+	SeqNo(1830989816);
+	Team(0);
+	NetworkId(-1);
+	Layer(4);
+	Sound("waterlapping");
+	MinDistance("15.0");
+	MaxDistance("50.0");
+}
+
+Object("Waterlapping53", "com_snd_amb_static", 1867470192)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(32.145, -45.121, 285.901);
+	SeqNo(1867470192);
+	Team(0);
+	NetworkId(-1);
+	Layer(4);
+	Sound("waterlapping");
+	MinDistance("15.0");
+	MaxDistance("50.0");
+}
+
+Object("Waterlapping44", "com_snd_amb_static", 1885402472)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-45.317, -45.584, 76.969);
+	SeqNo(1885402472);
+	Team(0);
+	NetworkId(-1);
+	Layer(4);
+	Sound("waterlapping");
+	MinDistance("15.0");
+	MaxDistance("50.0");
+}
+
+Object("Waterlapping18", "com_snd_amb_static", 1995669511)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(247.122, -45.363, -59.372);
+	SeqNo(1995669511);
+	Team(0);
+	NetworkId(-1);
+	Layer(4);
+	Sound("waterlapping");
+	MinDistance("15.0");
+	MaxDistance("50.0");
+}
+
+Object("Waterstream5", "com_snd_amb_static", 2064719444)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-13.282, -44.563, 70.230);
+	SeqNo(2064719444);
+	Team(0);
+	NetworkId(-1);
+	Layer(4);
+	Sound("stream");
+	MinDistance("15.0");
+	MaxDistance("50.0");
+}
+
+Object("Waterstream1", "com_snd_amb_static", -2121432543)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(52.601, -44.998, 164.028);
+	SeqNo(-2121432543);
+	Team(0);
+	NetworkId(-1);
+	Layer(4);
+	Sound("stream");
+	MinDistance("15.0");
+	MaxDistance("50.0");
+}
+
+Object("Waterstream", "com_snd_amb_static", -2075718208)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(73.029, -45.356, 181.952);
+	SeqNo(-2075718208);
+	Team(0);
+	NetworkId(-1);
+	Layer(4);
+	Sound("stream");
+	MinDistance("15.0");
+	MaxDistance("50.0");
+}
+
+Object("Waterlapping15", "com_snd_amb_static", -2009814494)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(192.033, -45.813, -39.463);
+	SeqNo(-2009814494);
+	Team(0);
+	NetworkId(-1);
+	Layer(4);
+	Sound("waterlapping");
+	MinDistance("15.0");
+	MaxDistance("50.0");
+}
+
+Object("Waterlapping47", "com_snd_amb_static", -1989868232)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-66.055, -45.286, 159.395);
+	SeqNo(-1989868232);
+	Team(0);
+	NetworkId(-1);
+	Layer(4);
+	Sound("waterlapping");
+	MinDistance("15.0");
+	MaxDistance("50.0");
+}
+
+Object("Waterlapping21", "com_snd_amb_static", -1941441347)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(293.472, -45.918, -155.188);
+	SeqNo(-1941441347);
+	Team(0);
+	NetworkId(-1);
+	Layer(4);
+	Sound("waterlapping");
+	MinDistance("15.0");
+	MaxDistance("50.0");
+}
+
+Object("Waterlapping27", "com_snd_amb_static", -1864842005)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(160.352, -45.013, -284.435);
+	SeqNo(-1864842005);
+	Team(0);
+	NetworkId(-1);
+	Layer(4);
+	Sound("waterlapping");
+	MinDistance("15.0");
+	MaxDistance("50.0");
+}
+
+Object("Waterlapping9", "com_snd_amb_static", -1839861002)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(291.886, -45.437, 131.674);
+	SeqNo(-1839861002);
+	Team(0);
+	NetworkId(-1);
+	Layer(4);
+	Sound("waterlapping");
+	MinDistance("15.0");
+	MaxDistance("50.0");
+}
+
+Object("Waterlapping23", "com_snd_amb_static", -1785159970)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(273.001, -45.530, -230.462);
+	SeqNo(-1785159970);
+	Team(0);
+	NetworkId(-1);
+	Layer(4);
+	Sound("waterlapping");
+	MinDistance("15.0");
+	MaxDistance("50.0");
+}
+
+Object("Waterlapping22", "com_snd_amb_static", -1737228056)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(297.988, -45.425, -205.249);
+	SeqNo(-1737228056);
+	Team(0);
+	NetworkId(-1);
+	Layer(4);
+	Sound("waterlapping");
+	MinDistance("15.0");
+	MaxDistance("50.0");
+}
+
+Object("Waterlapping51", "com_snd_amb_static", -1728696339)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-36.633, -45.355, 234.390);
+	SeqNo(-1728696339);
+	Team(0);
+	NetworkId(-1);
+	Layer(4);
+	Sound("waterlapping");
+	MinDistance("15.0");
+	MaxDistance("50.0");
+}
+
+Object("Waterlapping52", "com_snd_amb_static", -1670738811)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-0.479, -45.323, 280.520);
+	SeqNo(-1670738811);
+	Team(0);
+	NetworkId(-1);
+	Layer(4);
+	Sound("waterlapping");
+	MinDistance("15.0");
+	MaxDistance("50.0");
+}
+
+Object("Waterlapping58", "com_snd_amb_static", -1654439545)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(131.899, -45.622, 219.334);
+	SeqNo(-1654439545);
+	Team(0);
+	NetworkId(-1);
+	Layer(4);
+	Sound("waterlapping");
+	MinDistance("15.0");
+	MaxDistance("50.0");
+}
+
+Object("Waterlapping16", "com_snd_amb_static", -1601163490)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(224.769, -45.211, -43.158);
+	SeqNo(-1601163490);
+	Team(0);
+	NetworkId(-1);
+	Layer(4);
+	Sound("waterlapping");
+	MinDistance("15.0");
+	MaxDistance("50.0");
+}
+
+Object("Waterlapping2", "com_snd_amb_static", -1537000412)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(224.037, -45.131, 305.975);
+	SeqNo(-1537000412);
+	Team(0);
+	NetworkId(-1);
+	Layer(4);
+	Sound("waterlapping");
+	MinDistance("15.0");
+	MaxDistance("50.0");
+}
+
+Object("Waterlapping42", "com_snd_amb_static", -1522543545)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-8.076, -45.256, 38.099);
+	SeqNo(-1522543545);
+	Team(0);
+	NetworkId(-1);
+	Layer(4);
+	Sound("waterlapping");
+	MinDistance("15.0");
+	MaxDistance("50.0");
+}
+
+Object("Waterstream4", "com_snd_amb_static", -1481195347)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(7.266, -44.784, 93.821);
+	SeqNo(-1481195347);
+	Team(0);
+	NetworkId(-1);
+	Layer(4);
+	Sound("stream");
+	MinDistance("15.0");
+	MaxDistance("50.0");
+}
+
+Object("Waterlapping39", "com_snd_amb_static", -1431398840)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(37.756, -45.829, -37.262);
+	SeqNo(-1431398840);
+	Team(0);
+	NetworkId(-1);
+	Layer(4);
+	Sound("waterlapping");
+	MinDistance("15.0");
+	MaxDistance("50.0");
+}
+
+Object("Waterlapping31", "com_snd_amb_static", -1388679492)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(48.235, -45.656, -258.433);
+	SeqNo(-1388679492);
+	Team(0);
+	NetworkId(-1);
+	Layer(4);
+	Sound("waterlapping");
+	MinDistance("15.0");
+	MaxDistance("50.0");
+}
+
+Object("Waterlapping29", "com_snd_amb_static", -1340436932)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(100.246, -45.023, -284.398);
+	SeqNo(-1340436932);
+	Team(0);
+	NetworkId(-1);
+	Layer(4);
+	Sound("waterlapping");
+	MinDistance("15.0");
+	MaxDistance("50.0");
+}
+
+Object("Waterlapping1", "com_snd_amb_static", -1278683111)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(159.128, -45.383, 304.696);
+	SeqNo(-1278683111);
+	Team(0);
+	NetworkId(-1);
+	Layer(4);
+	Sound("waterlapping");
+	MinDistance("15.0");
+	MaxDistance("50.0");
+}
+
+Object("Waterlapping55", "com_snd_amb_static", -1230884761)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(87.308, -45.120, 267.020);
+	SeqNo(-1230884761);
+	Team(0);
+	NetworkId(-1);
+	Layer(4);
+	Sound("waterlapping");
+	MinDistance("15.0");
+	MaxDistance("50.0");
+}
+
+Object("Waterlapping8", "com_snd_amb_static", -1181235540)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(295.031, -45.280, 161.786);
+	SeqNo(-1181235540);
+	Team(0);
+	NetworkId(-1);
+	Layer(4);
+	Sound("waterlapping");
+	MinDistance("15.0");
+	MaxDistance("50.0");
+}
+
+Object("Waterlapping14", "com_snd_amb_static", -1145599019)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(182.756, -45.136, 0.778);
+	SeqNo(-1145599019);
+	Team(0);
+	NetworkId(-1);
+	Layer(4);
+	Sound("waterlapping");
+	MinDistance("15.0");
+	MaxDistance("50.0");
+}
+
+Object("Waterlapping33", "com_snd_amb_static", -1026712905)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(8.084, -45.707, -192.584);
+	SeqNo(-1026712905);
+	Team(0);
+	NetworkId(-1);
+	Layer(4);
+	Sound("waterlapping");
+	MinDistance("15.0");
+	MaxDistance("50.0");
+}
+
+Object("Waterlapping4", "com_snd_amb_static", -1000605707)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(251.941, -45.315, 278.534);
+	SeqNo(-1000605707);
+	Team(0);
+	NetworkId(-1);
+	Layer(4);
+	Sound("waterlapping");
+	MinDistance("15.0");
+	MaxDistance("50.0");
+}
+
+Object("Waterlapping24", "com_snd_amb_static", -934084618)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(254.390, -45.388, -248.409);
+	SeqNo(-934084618);
+	Team(0);
+	NetworkId(-1);
+	Layer(4);
+	Sound("waterlapping");
+	MinDistance("15.0");
+	MaxDistance("50.0");
+}
+
+Object("Waterlapping20", "com_snd_amb_static", -832450033)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(277.769, -45.734, -135.805);
+	SeqNo(-832450033);
+	Team(0);
+	NetworkId(-1);
+	Layer(4);
+	Sound("waterlapping");
+	MinDistance("15.0");
+	MaxDistance("50.0");
+}
+
+Object("Waterlapping45", "com_snd_amb_static", -812832781)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-57.998, -45.658, 98.417);
+	SeqNo(-812832781);
+	Team(0);
+	NetworkId(-1);
+	Layer(4);
+	Sound("waterlapping");
+	MinDistance("15.0");
+	MaxDistance("50.0");
+}
+
+Object("Waterlapping56", "com_snd_amb_static", -783751347)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(90.050, -45.462, 227.873);
+	SeqNo(-783751347);
+	Team(0);
+	NetworkId(-1);
+	Layer(4);
+	Sound("waterlapping");
+	MinDistance("15.0");
+	MaxDistance("50.0");
+}
+
+Object("Waterlapping32", "com_snd_amb_static", -743550029)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(28.974, -45.980, -239.087);
+	SeqNo(-743550029);
+	Team(0);
+	NetworkId(-1);
+	Layer(4);
+	Sound("waterlapping");
+	MinDistance("15.0");
+	MaxDistance("50.0");
+}
+
+Object("Waterlapping54", "com_snd_amb_static", -678532332)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(65.988, -45.097, 284.074);
+	SeqNo(-678532332);
+	Team(0);
+	NetworkId(-1);
+	Layer(4);
+	Sound("waterlapping");
+	MinDistance("15.0");
+	MaxDistance("50.0");
+}
+
+Object("Waterlapping57", "com_snd_amb_static", -583219992)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(109.687, -45.350, 172.969);
+	SeqNo(-583219992);
+	Team(0);
+	NetworkId(-1);
+	Layer(4);
+	Sound("waterlapping");
+	MinDistance("15.0");
+	MaxDistance("50.0");
+}
+
+Object("Waterlapping3", "com_snd_amb_static", -582898871)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(130.320, -45.723, 287.684);
+	SeqNo(-582898871);
+	Team(0);
+	NetworkId(-1);
+	Layer(4);
+	Sound("waterlapping");
+	MinDistance("15.0");
+	MaxDistance("50.0");
+}
+
+Object("Waterlapping36", "com_snd_amb_static", -536667827)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-2.309, -45.805, -128.791);
+	SeqNo(-536667827);
+	Team(0);
+	NetworkId(-1);
+	Layer(4);
+	Sound("waterlapping");
+	MinDistance("15.0");
+	MaxDistance("50.0");
+}
+
+Object("Waterlapping5", "com_snd_amb_static", -212079372)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(271.864, -45.323, 255.694);
+	SeqNo(-212079372);
+	Team(0);
+	NetworkId(-1);
+	Layer(4);
+	Sound("waterlapping");
+	MinDistance("15.0");
+	MaxDistance("50.0");
+}
+
+Object("Waterlapping30", "com_snd_amb_static", -147039407)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(71.084, -45.996, -275.317);
+	SeqNo(-147039407);
+	Team(0);
+	NetworkId(-1);
+	Layer(4);
+	Sound("waterlapping");
+	MinDistance("15.0");
+	MaxDistance("50.0");
+}
+
+Object("Waterstream3", "com_snd_amb_static", -58899319)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(22.719, -44.945, 117.241);
+	SeqNo(-58899319);
+	Team(0);
+	NetworkId(-1);
+	Layer(4);
+	Sound("stream");
+	MinDistance("15.0");
+	MaxDistance("50.0");
+}
+
+Object("Waterlapping49", "com_snd_amb_static", -50526030)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-60.090, -45.236, 219.970);
+	SeqNo(-50526030);
+	Team(0);
+	NetworkId(-1);
+	Layer(4);
+	Sound("waterlapping");
+	MinDistance("15.0");
+	MaxDistance("50.0");
+}
+
+Object("Waterlapping17", "com_snd_amb_static", -17163566)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(265.241, -45.939, -83.168);
+	SeqNo(-17163566);
+	Team(0);
+	NetworkId(-1);
+	Layer(4);
+	Sound("waterlapping");
+	MinDistance("15.0");
+	MaxDistance("50.0");
+}
+
+Object("Waterlapping41", "com_snd_amb_static", -4167437)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(16.776, -45.270, 15.889);
+	SeqNo(-4167437);
+	Team(0);
+	NetworkId(-1);
+	Layer(4);
+	Sound("waterlapping");
+	MinDistance("15.0");
+	MaxDistance("50.0");
+}

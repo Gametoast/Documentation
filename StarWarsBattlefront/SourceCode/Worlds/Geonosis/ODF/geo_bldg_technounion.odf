@@ -1,0 +1,28 @@
+[GameObjectClass]
+ClassLabel		=	"animatedbuilding"
+GeometryName	=	"geo_bldg_technounion.msh"
+
+
+[Properties]
+
+GeometryName	="geo_bldg_technounion"
+DestroyedGeometryName 		= "geo_bldg_technounion_hulk"
+CollisionScale 	= 100.0
+MaxHealth 		= "1200.0"
+ExplosionName	= "geo_bldg_technounion_exp"
+ExplosionOffset      		= "0.0 35.18 0.0"
+
+AnimationName	="geo_bldg_technounion"
+IdleAnimation	="idle"
+DeathAnimation	="destroy"
+
+EnableDeathExplosions = "1"
+
+DeathEffect	= "super_explosion hp_explode1"
+DeathEffect	= "super_explosion hp_explode3"
+DeathEffect	= "super_explosion hp_explode5"
+
+TargetableCollision = "p_explode_sphere1"
+
+vehiclecollisiononly = "p_vehicle"
+

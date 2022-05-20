@@ -1,0 +1,37 @@
+[WeaponClass]
+
+ClassLabel      = "melee"
+
+[Properties]
+IconTexture     = "HUD_all_rifle_icon"
+
+
+GeometryName    = "cis_weap_inf_lightsabre"
+AnimationBank   = "lightsabre"
+
+MuzzleFlash     = "med_muzzle_flash"
+Discharge       = "med_smoke_effect"
+
+RoundsPerClip   = "75"
+ReloadTime      = "5.0"
+
+
+//ReloadSound       = "laserreload"
+//ChangeModeSound   = "com_weap_inf_blaster_rifle_modechange"
+HitSound            = "imp_weap_lightsabre_hit"
+//DeflectSound        = "imp_weap_lightsabre_deflect"
+//WeaponChangeSound = "com_weap_inf_laser_weaponchange"
+
+LockOnRange         = "1.0"
+LockTime            = "0.4"
+AutoAimSize         = "1.0"
+
+MinRange            = "0"
+OptimalRange        = "1.5"
+MaxRange        = "3"
+
+
+FirePointName       = "hp_fire_lightsabre"
+
+SwingTime           = "0.7 0.5 imp_weap_lightsabre"
+Texture = "redlightsabre"

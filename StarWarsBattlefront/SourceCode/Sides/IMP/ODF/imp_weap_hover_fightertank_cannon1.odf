@@ -1,0 +1,56 @@
+[WeaponClass]
+ClassLabel 			= "weapon"
+
+//***************************************
+//**********MEDIUM PULSE LASER***********
+//***************************************
+[Properties]
+AutoAimSize			= "1.0"
+
+WEAPONSECTION			= "1"
+IconTexture			= "IMP_blasterrifle_icon"
+OrdnanceName 			= "imp_weap_hover_fightertank_cannon1_ord"
+MuzzleFlash			= ""
+ModeTexture			= "HUD_weap_fullauto"
+ReticuleTexture			= "reticule_rifle"
+
+//***************************************
+//**********TIMING, SALVO & SPREAD*******
+//***************************************
+ShotDelay			= "0.5"
+InitialSalvoDelay		= "0.0"
+SalvoCount			= "1"
+ShotsPerSalvo			= "2"
+SalvoDelay			= "0.0"
+
+SpreadPerShot			= "0.8"
+SpreadRecoverRate		= "2.0"
+SpreadThreshold			= "1.2"
+SpreadLimit			= "4.0"
+
+RoundsPerClip 			= "0"
+
+//***************************************
+//**********HEAT AND RANGE***************
+//***************************************
+
+HeatPerShot			= "0.05"
+HeatRecoverRate			= "0.25"
+HeatThreshold			= "0.86"
+
+MinRange			= "0"
+OptimalRange			= "50"
+MaxRange			= "150"
+
+//***************************************
+//**********SOUND************************
+//***************************************
+//This is the main gun, imp.weap.hover...cannon is the top mounted turret
+
+FireSound       = "imp_weap_hover_fightertank_cannon1_fire"
+//ReloadSound     		= "laserreload"
+
+OverheatSound      = "com_weap_energy_depleted"
+OverheatSoundPitch  = "0.5"
+OverheatStopSound   = "com_weap_energy_refilled"
+

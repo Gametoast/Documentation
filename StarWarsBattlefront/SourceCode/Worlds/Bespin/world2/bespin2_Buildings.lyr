@@ -1,0 +1,2742 @@
+Version(3);
+SaveType(0);
+
+Camera("camera")
+{
+	Rotation(0.252, 0.252, -0.661, 0.661);
+	Position(-235.552, 138.960, -141.053);
+	FieldOfView(55.400);
+	NearPlane(1.000);
+	FarPlane(2000.000);
+	ZoomFactor(1.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(-187.831, 15.033, 33.616,  0.205, 0.087, -0.897, 0.381);
+}
+TerrainName("bespin2.ter");
+SkyName("bespin2.sky");
+ScriptName("DummyScript.dll");
+ControllerManager("StandardCtrlMgr");
+
+WorldExtents()
+{
+	Min(0.000000, 0.000000, 0.000000);
+	Max(0.000000, 0.000000, 0.000000);
+}
+
+NextSequence(-14070829);
+
+Object("", "bes2_bldg_base", 1963669)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-179.000, -50.000, -132.000);
+	SeqNo(1963669);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("building_c_top 4", "bes2_bldg_c_top", 16158741)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-64.344, -27.988, -12.731);
+	SeqNo(16158741);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("lampost32", "bes2_bldg_street_lamp", 27710001)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-141.134, -33.151, -77.871);
+	SeqNo(27710001);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("building_b_bot 9", "bes2_bldg_b_bot2", 35997401)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-399.861, -50.040, -109.559);
+	SeqNo(35997401);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("building_b_yop 7", "bes2_bldg_b_top1", 86847036)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-120.773, -51.724, -311.559);
+	SeqNo(86847036);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("outer wall21", "bes2_bldg_16M_outerwall", 131380451)
+{
+	ChildRotation(0.383, 0.000, -0.924, 0.000);
+	ChildPosition(-228.837, -50.040, 12.711);
+	SeqNo(131380451);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("building_tower24", "bes2_bldg_clock_tower", 157767719)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-131.031, -53.500, -98.813);
+	SeqNo(157767719);
+	Team(0);
+	NetworkId(-1);
+	Label("W");
+	Layer(2);
+}
+
+Object("building_c_top 3", "bes2_bldg_c_top", 203149070)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-259.737, -1.963, -186.167);
+	SeqNo(203149070);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("lampost15", "bes2_bldg_street_lamp", 236078858)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-135.777, -33.130, -182.763);
+	SeqNo(236078858);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("building_a_top_5", "bes2_bldg_a_top1", 253218600)
+{
+	ChildRotation(0.711, 0.000, -0.703, 0.000);
+	ChildPosition(-285.684, -19.674, -116.725);
+	SeqNo(253218600);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("lampost13", "bes2_bldg_street_lamp", 255393656)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-226.039, -33.116, -183.211);
+	SeqNo(255393656);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("building_tower 10", "bes2_bldg_large_tower", 261414676)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-404.217, -50.942, -23.223);
+	SeqNo(261414676);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("building_c_bot_7", "bes2_bldg_c_bot1", 275765927)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-322.917, -50.040, 92.236);
+	SeqNo(275765927);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("lampost18", "bes2_bldg_street_lamp", 278468259)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-128.305, -33.200, -182.727);
+	SeqNo(278468259);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("skyway71", "bes2_bldg_skyway", 288874827)
+{
+	ChildRotation(0.708, 0.000, -0.707, 0.000);
+	ChildPosition(-235.914, -34.115, -77.896);
+	SeqNo(288874827);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("outer wall8", "bes2_bldg_16M_outerwall", 290151051)
+{
+	ChildRotation(0.502, 0.000, 0.865, 0.000);
+	ChildPosition(-362.049, -50.033, -28.042);
+	SeqNo(290151051);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("building_b_yop 5", "bes2_bldg_b_top1", 315446570)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-332.567, -34.710, -52.022);
+	SeqNo(315446570);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("building_a_top_11", "bes2_bldg_a_top1", 328227803)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-243.503, -30.040, -240.287);
+	SeqNo(328227803);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("building_c_mid_17", "bes2_bldg_c_mid2", 353744991)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-377.715, -28.040, -156.896);
+	SeqNo(353744991);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("lampost14", "bes2_bldg_street_lamp", 379390574)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-135.783, -33.134, -189.333);
+	SeqNo(379390574);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("building_c_mid_18", "bes2_bldg_c_mid2", 402756922)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-395.596, -39.237, 13.123);
+	SeqNo(402756922);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("", "bes2_bldg_skyway_ramp", 404025962)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-133.068, -34.055, -81.088);
+	SeqNo(404025962);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("building_c_bot_5", "bes2_bldg_c_bot1", 407289079)
+{
+	ChildRotation(0.929, 0.000, -0.370, 0.000);
+	ChildPosition(-119.433, -50.113, -13.390);
+	SeqNo(407289079);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("hotel4", "bes2_bldg_hotel", 407367245)
+{
+	ChildRotation(0.386, 0.000, -0.923, 0.000);
+	ChildPosition(-340.444, -50.033, -3.290);
+	SeqNo(407367245);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("building_a_yop_15", "bes2_bldg_a_top2", 414375956)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-377.899, -38.444, -235.283);
+	SeqNo(414375956);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("Mall9", "bes2_bldg_mall", 420099333)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-445.756, -50.777, -83.805);
+	SeqNo(420099333);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("building_modular 37", "bes2_bldg_hospital", 420974024)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(-248.986, -50.000, -116.985);
+	SeqNo(420974024);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("outer wall23", "bes2_bldg_16M_outerwall", 455186702)
+{
+	ChildRotation(0.200, 0.000, -0.980, 0.000);
+	ChildPosition(-112.203, -50.038, 22.585);
+	SeqNo(455186702);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("building_c_bot 7", "bes2_bldg_c_bot2", 460803950)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-332.609, -50.000, -52.387);
+	SeqNo(460803950);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("building_c_mid_21", "bes2_bldg_c_mid2", 463029471)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-192.134, -29.548, 104.017);
+	SeqNo(463029471);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("outer wall33", "bes2_bldg_16M_outerwall", 486560046)
+{
+	ChildRotation(0.794, 0.000, -0.608, 0.000);
+	ChildPosition(-62.279, -50.040, -152.292);
+	SeqNo(486560046);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("lampost23", "bes2_bldg_street_lamp", 490813852)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-98.940, -33.104, -105.210);
+	SeqNo(490813852);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("building_a_yop_3", "bes2_bldg_a_top2", 509183885)
+{
+	ChildRotation(0.711, 0.000, -0.703, 0.000);
+	ChildPosition(-249.985, -29.343, -145.108);
+	SeqNo(509183885);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("outer wall31", "bes2_bldg_16M_outerwall", 521321158)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(-79.315, -51.027, -84.187);
+	SeqNo(521321158);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("building_b_top_12", "bes2_bldg_b_top3", 580474195)
+{
+	ChildRotation(0.707, 0.000, 0.707, 0.000);
+	ChildPosition(-95.696, -50.040, -148.769);
+	SeqNo(580474195);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("building_c_mid 12", "bes2_bldg_c_mid1", 584650793)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-18.307, -30.319, -162.513);
+	SeqNo(584650793);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("", "bes2_bldg_skyway_ramp", 601629058)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-95.568, -34.061, -121.123);
+	SeqNo(601629058);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("building_b_top_15", "bes2_bldg_b_top2", 605106766)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-297.038, -11.147, 16.607);
+	SeqNo(605106766);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("building_tower 2", "bes2_bldg_large_tower", 633573623)
+{
+	ChildRotation(0.259, 0.000, -0.966, 0.000);
+	ChildPosition(-224.000, -51.280, -210.000);
+	SeqNo(633573623);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("skyway60", "bes2_bldg_skyway", 635569234)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-249.571, -33.970, -98.906);
+	SeqNo(635569234);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("", "bes2_bldg_square_top1", 647407476)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(229.555, -50.040, 124.136);
+	SeqNo(647407476);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("lampost9", "bes2_bldg_street_lamp", 652613287)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-246.251, -33.152, -162.586);
+	SeqNo(652613287);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("outer wall32", "bes2_bldg_16M_outerwall", 667492818)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(-58.265, -50.983, -118.956);
+	SeqNo(667492818);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("outer wall7", "bes2_bldg_16M_outerwall", 701062574)
+{
+	ChildRotation(-0.384, 0.000, -0.923, 0.000);
+	ChildPosition(-328.809, -50.039, 3.128);
+	SeqNo(701062574);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("building_c_mid_detai 36", "bes2_bldg_c_mid_detail", 729452059)
+{
+	ChildRotation(0.131, 0.000, -0.991, 0.000);
+	ChildPosition(-132.258, -45.945, -208.366);
+	SeqNo(729452059);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("", "bes2_bldg_skyway_ramp", 739389522)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(-239.965, -34.118, -77.883);
+	SeqNo(739389522);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("skyway37", "bes2_bldg_skyway", 749906002)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-249.618, -34.049, -166.371);
+	SeqNo(749906002);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("outer wall11", "bes2_bldg_16M_outerwall", 753029262)
+{
+	ChildRotation(0.966, 0.000, 0.259, 0.000);
+	ChildPosition(-351.041, -50.040, -66.154);
+	SeqNo(753029262);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("building_rotunda 4", "bes2_bldg_court1", 759061015)
+{
+	ChildRotation(0.411, 0.000, -0.912, 0.000);
+	ChildPosition(-305.605, -50.038, -26.628);
+	SeqNo(759061015);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("outer wall22", "bes2_bldg_16M_outerwall", 759681906)
+{
+	ChildRotation(0.266, 0.000, -0.964, 0.000);
+	ChildPosition(-138.147, -50.038, -9.831);
+	SeqNo(759681906);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("lampost7", "bes2_bldg_street_lamp", 764030222)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-246.245, -33.118, -94.926);
+	SeqNo(764030222);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("building_c_mid 10", "bes2_bldg_c_mid1", 766072219)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-147.555, -50.040, -69.715);
+	SeqNo(766072219);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("building_landing station. 1", "bes2_bldg_d_landing_station", 781872012)
+{
+	ChildRotation(0.966, 0.000, 0.257, 0.000);
+	ChildPosition(-249.482, -49.976, -77.646);
+	SeqNo(781872012);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("", "bes2_bldg_square_bot1", 842185321)
+{
+	ChildRotation(0.711, 0.000, -0.703, 0.000);
+	ChildPosition(-420.806, -50.436, -157.439);
+	SeqNo(842185321);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("building_tower 5", "bes2_bldg_large_tower", 849687829)
+{
+	ChildRotation(0.500, 0.000, 0.866, 0.000);
+	ChildPosition(-240.063, -50.076, -4.945);
+	SeqNo(849687829);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("building_c_mid 13", "bes2_bldg_c_mid1", 904325307)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-15.417, -28.040, 7.666);
+	SeqNo(904325307);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("Mall10", "bes2_bldg_mall", 925114689)
+{
+	ChildRotation(0.708, 0.000, 0.707, 0.000);
+	ChildPosition(-180.178, -50.040, -186.503);
+	SeqNo(925114689);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("outer wall29", "bes2_bldg_16M_outerwall", 939936440)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-95.396, -33.609, -46.900);
+	SeqNo(939936440);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("outer wall14", "bes2_bldg_16M_outerwall", 948446133)
+{
+	ChildRotation(-0.131, 0.000, -0.991, 0.000);
+	ChildPosition(-313.967, -50.042, 14.978);
+	SeqNo(948446133);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("outer wall1", "bes2_bldg_16M_outerwall", 950233938)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-282.204, -50.040, -200.966);
+	SeqNo(950233938);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("lampost6", "bes2_bldg_street_lamp", 964098144)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-252.772, -33.072, -94.874);
+	SeqNo(964098144);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("building_c_mid_11", "bes2_bldg_c_mid2", 965144075)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-82.271, -50.040, -118.386);
+	SeqNo(965144075);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("building_tower25", "bes2_bldg_clock_tower", 976323471)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-228.923, -53.500, -99.525);
+	SeqNo(976323471);
+	Team(0);
+	NetworkId(-1);
+	Label("W");
+	Layer(2);
+}
+
+Object("outer wall35", "bes2_bldg_16M_outerwall", 990765701)
+{
+	ChildRotation(0.708, 0.000, -0.707, 0.000);
+	ChildPosition(-86.495, -50.939, -194.615);
+	SeqNo(990765701);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("", "bes2_bldg_skywaysupport", 1000862142)
+{
+	ChildRotation(0.709, 0.000, -0.705, 0.000);
+	ChildPosition(-234.760, -50.000, -186.357);
+	SeqNo(1000862142);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("outer wall5", "bes2_bldg_16M_outerwall", 1003806674)
+{
+	ChildRotation(0.708, 0.000, 0.706, 0.000);
+	ChildPosition(-341.997, -50.040, -168.484);
+	SeqNo(1003806674);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("", "bes2_bldg_skyway_45", 1013495047)
+{
+	ChildRotation(0.949, 0.000, 0.315, 0.000);
+	ChildPosition(-133.143, -34.056, -81.146);
+	SeqNo(1013495047);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("", "bes2_bldg_square_bot1", 1067246125)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-309.474, -50.461, -180.982);
+	SeqNo(1067246125);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("lampost1", "bes2_bldg_street_lamp", 1068493969)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-252.784, -33.079, -126.636);
+	SeqNo(1068493969);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("building_tower23", "bes2_bldg_clock_tower", 1076412706)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-155.965, -53.500, -123.611);
+	SeqNo(1076412706);
+	Team(0);
+	NetworkId(-1);
+	Label("W");
+	Layer(2);
+}
+
+Object("building_c_bot_2", "bes2_bldg_c_bot1", 1091206894)
+{
+	ChildRotation(0.966, 0.000, 0.257, 0.000);
+	ChildPosition(-63.278, -50.056, -135.282);
+	SeqNo(1091206894);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("outer wall27", "bes2_bldg_16M_outerwall", 1095958022)
+{
+	ChildRotation(0.708, 0.000, -0.706, 0.000);
+	ChildPosition(-82.294, -50.040, -31.434);
+	SeqNo(1095958022);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("outer wall30", "bes2_bldg_16M_outerwall", 1100572137)
+{
+	ChildRotation(0.383, 0.000, -0.924, 0.000);
+	ChildPosition(-114.571, -50.040, -29.752);
+	SeqNo(1100572137);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("building_a_yop_9", "bes2_bldg_a_top2", 1136846283)
+{
+	ChildRotation(0.925, 0.000, -0.380, 0.000);
+	ChildPosition(-254.435, -50.106, 19.095);
+	SeqNo(1136846283);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("hotel3", "bes2_bldg_hotel", 1147668670)
+{
+	ChildRotation(0.405, 0.000, -0.914, 0.000);
+	ChildPosition(-273.759, -50.849, 58.123);
+	SeqNo(1147668670);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("building_tower 8", "bes2_bldg_large_tower", 1159309119)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-9.085, -50.040, 49.405);
+	SeqNo(1159309119);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("lampost29", "bes2_bldg_street_lamp", 1168023355)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-98.885, -33.063, -128.754);
+	SeqNo(1168023355);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("building_c_mid_20", "bes2_bldg_c_mid2", 1168325086)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-50.444, -40.595, 42.140);
+	SeqNo(1168325086);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("building_c_mid_10", "bes2_bldg_c_mid2", 1171805178)
+{
+	ChildRotation(0.925, 0.000, -0.380, 0.000);
+	ChildPosition(-254.555, -24.706, 19.305);
+	SeqNo(1171805178);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("building_tower20", "bes2_bldg_clock_tower", 1214759200)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-131.000, -54.000, -164.000);
+	SeqNo(1214759200);
+	Team(0);
+	NetworkId(-1);
+	Label("W");
+	Layer(2);
+}
+
+Object("building_c_mid 11", "bes2_bldg_c_mid1", 1220742235)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-342.616, -68.775, -76.047);
+	SeqNo(1220742235);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("building_tower 11", "bes2_bldg_large_tower", 1221693362)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-100.473, -51.265, 118.774);
+	SeqNo(1221693362);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("building_c_mid_19", "bes2_bldg_c_mid2", 1243792211)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-322.902, -30.040, 93.002);
+	SeqNo(1243792211);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("building_b_top_17", "bes2_bldg_b_top2", 1258145764)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-31.674, -13.799, 84.529);
+	SeqNo(1258145764);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("", "bes2_bldg_chamber_exit", 1269878297)
+{
+	ChildRotation(0.713, 0.000, 0.701, 0.000);
+	ChildPosition(-178.243, -65.579, 20.694);
+	SeqNo(1269878297);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("building_tower 4", "bes2_bldg_large_tower", 1286504656)
+{
+	ChildRotation(0.882, 0.000, -0.471, 0.000);
+	ChildPosition(-310.219, -11.667, -181.204);
+	SeqNo(1286504656);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("", "bes2_bldg_skyway_T", 1293863256)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-95.619, -34.055, -121.128);
+	SeqNo(1293863256);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("building_c_top 6", "bes2_bldg_c_top", 1299324679)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-296.031, -21.949, -69.220);
+	SeqNo(1299324679);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("building_c_mid_7", "bes2_bldg_c_mid2", 1299467511)
+{
+	ChildRotation(0.883, 0.000, -0.469, 0.000);
+	ChildPosition(-128.661, -33.935, -42.247);
+	SeqNo(1299467511);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("outer wall9", "bes2_bldg_16M_outerwall", 1327194781)
+{
+	ChildRotation(0.707, 0.000, 0.707, 0.000);
+	ChildPosition(-365.176, -50.037, -41.819);
+	SeqNo(1327194781);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("building_c_mid_15", "bes2_bldg_c_mid2", 1345419002)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-107.427, -28.040, -245.974);
+	SeqNo(1345419002);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("jail3", "bes2_bldg_jail", 1346473295)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-56.006, -50.506, -245.352);
+	SeqNo(1346473295);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("platform 4", "bes2_bldg_d_landingzone", 1348279809)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-223.897, -53.467, -102.822);
+	SeqNo(1348279809);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("outer wall15", "bes2_bldg_16M_outerwall", 1378522607)
+{
+	ChildRotation(0.501, 0.000, 0.866, 0.000);
+	ChildPosition(-293.955, -45.725, 38.883);
+	SeqNo(1378522607);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("building_c_mid 8", "bes2_bldg_c_mid1", 1413122753)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-61.583, -18.747, -135.582);
+	SeqNo(1413122753);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("lampost5", "bes2_bldg_street_lamp", 1414828649)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-252.752, -33.069, -110.866);
+	SeqNo(1414828649);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("hotel8", "bes2_bldg_hotel", 1415014298)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-212.867, -50.967, 171.832);
+	SeqNo(1415014298);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("building_b_top_19", "bes2_bldg_b_top3", 1415958703)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-259.086, -50.040, -269.605);
+	SeqNo(1415958703);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("building_a_yop_11", "bes2_bldg_a_top2", 1441702723)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-54.132, -17.501, -244.566);
+	SeqNo(1441702723);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("lampost21", "bes2_bldg_street_lamp", 1443247849)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-98.852, -33.097, -169.795);
+	SeqNo(1443247849);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("", "bes2_bldg_courtyard_bench", 1451022684)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-180.000, -56.370, -132.000);
+	SeqNo(1451022684);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("lampost26", "bes2_bldg_street_lamp", 1488617790)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-103.618, -33.158, -117.933);
+	SeqNo(1488617790);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("", "bes2_bldg_square_bot1", 1498961016)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-32.592, -50.854, 83.426);
+	SeqNo(1498961016);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("outer wall19", "bes2_bldg_16M_outerwall", 1500639900)
+{
+	ChildRotation(0.385, 0.000, -0.923, 0.000);
+	ChildPosition(-250.783, -50.040, 34.782);
+	SeqNo(1500639900);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("", "bes2_bldg_square_top1", 1513244576)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-312.153, -50.322, 150.983);
+	SeqNo(1513244576);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("building_c_mid_9", "bes2_bldg_c_mid2", 1517618509)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-339.241, -50.000, -129.523);
+	SeqNo(1517618509);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("skyway70", "bes2_bldg_skyway", 1518424815)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-95.634, -34.063, -101.284);
+	SeqNo(1518424815);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("building_c_bot 5", "bes2_bldg_c_bot2", 1559582163)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-294.827, -50.000, -68.659);
+	SeqNo(1559582163);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("building_a_yop_8", "bes2_bldg_a_top2", 1568735867)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-339.222, -49.945, -162.230);
+	SeqNo(1568735867);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("", "bes2_bldg_square_bot2", 1571558894)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(-259.655, -50.040, -186.287);
+	SeqNo(1571558894);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("building_a_yop_16", "bes2_bldg_a_top2", 1575314364)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-277.030, -30.925, -221.328);
+	SeqNo(1575314364);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("building_c_bot_11", "bes2_bldg_c_bot1", 1584509300)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-243.625, -50.913, -239.886);
+	SeqNo(1584509300);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("building_c_mid 16", "bes2_bldg_c_mid1", 1585989045)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-402.049, -32.234, -197.744);
+	SeqNo(1585989045);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("lampost24", "bes2_bldg_street_lamp", 1632833770)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-92.382, -33.191, -113.152);
+	SeqNo(1632833770);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("", "bes2_bldg_courtyard_fountain", 1669237901)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-180.000, -56.389, -132.000);
+	SeqNo(1669237901);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("building_b_top_13", "bes2_bldg_b_top2", 1670907643)
+{
+	ChildRotation(0.998, 0.000, -0.070, 0.000);
+	ChildPosition(-259.840, -21.439, -186.791);
+	SeqNo(1670907643);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("building_b_bot 6", "bes2_bldg_b_bot2", 1695969007)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-50.412, -51.178, -199.459);
+	SeqNo(1695969007);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("platform 5", "bes2_bldg_d_landingzone", 1700535463)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-212.524, -66.448, -58.582);
+	SeqNo(1700535463);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("building_b_bot 8", "bes2_bldg_b_bot2", 1703551376)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-395.815, -50.384, 13.833);
+	SeqNo(1703551376);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("building_rotunda 10", "bes2_bldg_court1", 1724467894)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-107.021, -50.040, -244.884);
+	SeqNo(1724467894);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("", "bes2_bldg_square_bot1", 1742655547)
+{
+	ChildRotation(0.924, 0.000, 0.382, 0.000);
+	ChildPosition(-295.297, -50.040, 15.978);
+	SeqNo(1742655547);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("building_c_mid_detai 37", "bes2_bldg_c_mid_detail", 1772043613)
+{
+	ChildRotation(0.318, 0.000, -0.948, 0.000);
+	ChildPosition(-213.359, -55.979, 53.492);
+	SeqNo(1772043613);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("building_c_top 7", "bes2_bldg_c_top", 1773496917)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-31.995, 5.948, 83.424);
+	SeqNo(1773496917);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("", "bes2_bldg_16M_outerwall", 1823725753)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-259.706, -50.062, -205.196);
+	SeqNo(1823725753);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("building_c_mid 7", "bes2_bldg_c_mid1", 1856201085)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-213.708, -49.395, 53.597);
+	SeqNo(1856201085);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("building_rotunda 12", "bes2_bldg_court1", 1866590102)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-376.133, -50.040, -158.586);
+	SeqNo(1866590102);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("building_b_yop 6", "bes2_bldg_b_top1", 1882690051)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-60.099, -18.949, -95.392);
+	SeqNo(1882690051);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("building_c_mid 9", "bes2_bldg_c_mid1", 1888669539)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-366.005, -70.940, -28.587);
+	SeqNo(1888669539);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("outer wall24", "bes2_bldg_16M_outerwall", 1926830864)
+{
+	ChildRotation(0.231, 0.000, -0.973, 0.000);
+	ChildPosition(-87.670, -50.043, 14.383);
+	SeqNo(1926830864);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("", "bes2_bldg_carbon_upper_dais", 1936463636)
+{
+	ChildRotation(0.707, 0.000, 0.708, 0.000);
+	ChildPosition(-178.435, -65.461, 20.250);
+	SeqNo(1936463636);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("building_c_bot_12", "bes2_bldg_c_bot1", 1939122654)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-400.891, -50.958, -197.449);
+	SeqNo(1939122654);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("building_b_top_20", "bes2_bldg_b_top3", 1960585818)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-328.276, -51.148, -264.210);
+	SeqNo(1960585818);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("lampost2", "bes2_bldg_street_lamp", 1987275266)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-246.248, -33.031, -118.790);
+	SeqNo(1987275266);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("building_a_yop_14", "bes2_bldg_a_top2", 2010787691)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-390.409, -29.228, -63.110);
+	SeqNo(2010787691);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("outer wall10", "bes2_bldg_16M_outerwall", 2022252111)
+{
+	ChildRotation(0.867, 0.000, 0.499, 0.000);
+	ChildPosition(-361.413, -50.038, -55.990);
+	SeqNo(2022252111);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("lampost3", "bes2_bldg_street_lamp", 2040823613)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-252.790, -33.032, -118.822);
+	SeqNo(2040823613);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("lampost11", "bes2_bldg_street_lamp", 2051297910)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-233.918, -33.125, -183.210);
+	SeqNo(2051297910);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("building_b_bot 11", "bes2_bldg_b_bot2", 2058401074)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-237.516, -50.508, 114.183);
+	SeqNo(2058401074);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("outer wall16", "bes2_bldg_16M_outerwall", 2065201546)
+{
+	ChildRotation(-0.385, 0.000, -0.923, 0.000);
+	ChildPosition(-283.824, -50.039, 45.964);
+	SeqNo(2065201546);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("building_b_top_18", "bes2_bldg_b_top3", 2065634493)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-135.884, -52.163, -273.059);
+	SeqNo(2065634493);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("lampost12", "bes2_bldg_street_lamp", 2067395220)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-226.020, -33.278, -189.819);
+	SeqNo(2067395220);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("outer wall2", "bes2_bldg_16M_outerwall", 2106371031)
+{
+	ChildRotation(0.984, 0.000, 0.179, 0.000);
+	ChildPosition(-296.935, -50.040, -198.330);
+	SeqNo(2106371031);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("building_b_top_16", "bes2_bldg_b_top2", 2108815145)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-422.510, -13.217, -156.044);
+	SeqNo(2108815145);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("outer wall12", "bes2_bldg_16M_outerwall", 2122711446)
+{
+	ChildRotation(0.708, 0.000, 0.706, 0.000);
+	ChildPosition(-338.936, -51.020, -104.729);
+	SeqNo(2122711446);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("building_rotunda 13", "bes2_bldg_court1", -2144801983)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-389.669, -50.735, -63.736);
+	SeqNo(-2144801983);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("outer wall36", "bes2_bldg_16M_outerwall", -2143932868)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-95.599, -50.905, -204.843);
+	SeqNo(-2143932868);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("lampost28", "bes2_bldg_street_lamp", -2127757249)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-92.304, -33.083, -128.831);
+	SeqNo(-2127757249);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("building_a_yop_10", "bes2_bldg_a_top2", -2127388773)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-117.366, -31.195, -11.649);
+	SeqNo(-2127388773);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("building_c_bot_9", "bes2_bldg_c_bot1", -2084222577)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-26.628, -50.923, -35.701);
+	SeqNo(-2084222577);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("", "bes2_bldg_midi_skyway", -2073450558)
+{
+	ChildRotation(0.708, 0.000, -0.707, 0.000);
+	ChildPosition(-235.365, -34.050, -186.577);
+	SeqNo(-2073450558);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("hotel10", "bes2_bldg_hotel", -1977340016)
+{
+	ChildRotation(0.690, 0.000, -0.724, 0.000);
+	ChildPosition(-199.789, -50.037, -288.907);
+	SeqNo(-1977340016);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("building_c_mid_13", "bes2_bldg_c_mid2", -1968841100)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(5.239, -50.430, -28.563);
+	SeqNo(-1968841100);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("building_c_mid_14", "bes2_bldg_c_mid2", -1967696270)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-2.450, -31.383, -202.358);
+	SeqNo(-1967696270);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("building_b_bot 5", "bes2_bldg_b_bot2", -1948810701)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-338.917, -50.000, -129.488);
+	SeqNo(-1948810701);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("skyway24", "bes2_bldg_skyway", -1936349295)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-95.512, -34.060, -173.460);
+	SeqNo(-1936349295);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("outer wall6", "bes2_bldg_16M_outerwall", -1933612380)
+{
+	ChildRotation(0.924, 0.000, -0.382, 0.000);
+	ChildPosition(-346.251, -50.040, -16.312);
+	SeqNo(-1933612380);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("building_rotunda 9", "bes2_bldg_court1", -1925989783)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-19.698, -51.189, -162.548);
+	SeqNo(-1925989783);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("building_c_mid 17", "bes2_bldg_c_mid1", -1915276721)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-172.676, -75.720, -218.215);
+	SeqNo(-1915276721);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("bar", "bes2_bldg_bars", -1909623542)
+{
+	ChildRotation(0.708, 0.000, 0.706, 0.000);
+	ChildPosition(-180.147, -33.085, -169.004);
+	SeqNo(-1909623542);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("building_rotunda 8", "bes2_bldg_court1", -1896047783)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-15.762, -50.040, 7.548);
+	SeqNo(-1896047783);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("lampost17", "bes2_bldg_street_lamp", -1890561399)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-120.581, -33.172, -189.339);
+	SeqNo(-1890561399);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("building_c_bot_10", "bes2_bldg_c_bot1", -1886078629)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-3.953, -50.791, -200.834);
+	SeqNo(-1886078629);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("building_rotunda 14", "bes2_bldg_court1", -1874045814)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-192.149, -50.510, 103.798);
+	SeqNo(-1874045814);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("building_c_bot_14", "bes2_bldg_c_bot1", -1852270308)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-155.198, -51.936, 139.221);
+	SeqNo(-1852270308);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("Mall8", "bes2_bldg_mall", -1830338941)
+{
+	ChildRotation(0.704, 0.000, 0.710, 0.000);
+	ChildPosition(8.510, -51.492, -112.802);
+	SeqNo(-1830338941);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("building_c_mid_detai 38", "bes2_bldg_c_mid_detail", -1786425024)
+{
+	ChildRotation(0.739, 0.000, -0.674, 0.000);
+	ChildPosition(-61.515, -41.581, -135.356);
+	SeqNo(-1786425024);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("building_a_top_8", "bes2_bldg_a_top1", -1762315365)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-228.224, -50.040, -38.406);
+	SeqNo(-1762315365);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("", "bes2_bldg_long_skyway", -1742626272)
+{
+	ChildRotation(0.708, 0.000, -0.706, 0.000);
+	ChildPosition(-129.516, -34.050, -186.043);
+	SeqNo(-1742626272);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("lampost20", "bes2_bldg_street_lamp", -1728526736)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-92.438, -33.104, -169.783);
+	SeqNo(-1728526736);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("building_c_bot_8", "bes2_bldg_c_bot1", -1722972439)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-73.682, -51.508, 78.826);
+	SeqNo(-1722972439);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("lampost30", "bes2_bldg_street_lamp", -1698061635)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-121.902, -33.166, -69.765);
+	SeqNo(-1698061635);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("building_tower6", "bes2_bldg_clock_tower", -1681544373)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-203.884, -53.500, -140.078);
+	SeqNo(-1681544373);
+	Team(0);
+	NetworkId(-1);
+	Label("W");
+	Layer(2);
+}
+
+Object("lampost8", "bes2_bldg_street_lamp", -1638469347)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-252.835, -33.145, -162.598);
+	SeqNo(-1638469347);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("lampost", "bes2_bldg_street_lamp", -1601795206)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-246.285, -33.007, -126.794);
+	SeqNo(-1601795206);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("building_c_bot 8", "bes2_bldg_c_bot2", -1574590602)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-231.885, -49.777, 48.509);
+	SeqNo(-1574590602);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("building_c_mid 6", "bes2_bldg_c_mid1", -1549404126)
+{
+	ChildRotation(0.037, 0.000, -0.999, 0.000);
+	ChildPosition(-332.306, -44.858, -91.892);
+	SeqNo(-1549404126);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("outer wall40", "bes2_bldg_16M_outerwall", -1536009322)
+{
+	ChildRotation(0.966, 0.000, 0.259, 0.000);
+	ChildPosition(-238.597, -50.065, -204.041);
+	SeqNo(-1536009322);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("building_c_top 2", "bes2_bldg_c_top", -1533912643)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-61.703, -30.723, -135.594);
+	SeqNo(-1533912643);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("jail1", "bes2_bldg_jail", -1532349438)
+{
+	ChildRotation(0.707, 0.000, 0.707, 0.000);
+	ChildPosition(-285.503, -49.875, -117.122);
+	SeqNo(-1532349438);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("building_c_mid 15", "bes2_bldg_c_mid1", -1532071930)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-440.126, -30.040, -26.657);
+	SeqNo(-1532071930);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("building_c_mid_detai 39", "bes2_bldg_c_mid_detail", -1505727301)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-64.895, -42.723, -13.976);
+	SeqNo(-1505727301);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("building_tower22", "bes2_bldg_clock_tower", -1498350750)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-203.926, -53.500, -123.627);
+	SeqNo(-1498350750);
+	Team(0);
+	NetworkId(-1);
+	Label("W");
+	Layer(2);
+}
+
+Object("outer wall28", "bes2_bldg_16M_outerwall", -1478979295)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-92.713, -50.040, -46.676);
+	SeqNo(-1478979295);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("building_b_bot 4", "bes2_bldg_b_bot2", -1442083286)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-201.000, -50.040, -251.000);
+	SeqNo(-1442083286);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("building_rotunda 7", "bes2_bldg_court1", -1421998240)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-64.192, -50.039, -11.868);
+	SeqNo(-1421998240);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("outer wall25", "bes2_bldg_16M_outerwall", -1388218092)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(-82.285, -50.039, 0.286);
+	SeqNo(-1388218092);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("", "bes2_bldg_courtyard_bench", -1383290052)
+{
+	ChildRotation(0.708, 0.000, 0.706, 0.000);
+	ChildPosition(-180.000, -56.364, -132.000);
+	SeqNo(-1383290052);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("lampost10", "bes2_bldg_street_lamp", -1367346063)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-233.924, -33.221, -189.573);
+	SeqNo(-1367346063);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("outer wall26", "bes2_bldg_16M_outerwall", -1329539632)
+{
+	ChildRotation(0.708, 0.000, -0.706, 0.000);
+	ChildPosition(-82.322, -50.040, -15.602);
+	SeqNo(-1329539632);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("jail2", "bes2_bldg_jail", -1328138526)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-131.268, -50.256, 85.470);
+	SeqNo(-1328138526);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("lampost25", "bes2_bldg_street_lamp", -1290307523)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-98.830, -33.110, -113.173);
+	SeqNo(-1290307523);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("outer wall37", "bes2_bldg_16M_outerwall", -1287148469)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-116.623, -50.040, -206.974);
+	SeqNo(-1287148469);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("building_tower5", "bes2_bldg_clock_tower", -1284103297)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-155.965, -53.500, -140.350);
+	SeqNo(-1284103297);
+	Team(0);
+	NetworkId(-1);
+	Label("W");
+	Layer(2);
+}
+
+Object("lampost27", "bes2_bldg_street_lamp", -1264509998)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-103.580, -33.222, -124.356);
+	SeqNo(-1264509998);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("outer wall39", "bes2_bldg_16M_outerwall", -1263611785)
+{
+	ChildRotation(0.991, 0.000, -0.130, 0.000);
+	ChildPosition(-212.036, -50.040, -199.083);
+	SeqNo(-1263611785);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("building_c_mid_16", "bes2_bldg_c_mid2", -1263442810)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-312.072, -28.040, -223.948);
+	SeqNo(-1263442810);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("building_b_top_14", "bes2_bldg_b_top2", -1261245601)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-94.941, -21.670, -197.972);
+	SeqNo(-1261245601);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("Mall7", "bes2_bldg_mall", -1226204161)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-95.374, -50.039, -59.072);
+	SeqNo(-1226204161);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("building_a_bot 3", "bes2_bldg_a_bot2", -1218165784)
+{
+	ChildRotation(0.711, 0.000, -0.703, 0.000);
+	ChildPosition(-249.604, -50.034, -144.992);
+	SeqNo(-1218165784);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("building_b_bot 3", "bes2_bldg_b_bot2", -1175329914)
+{
+	ChildRotation(0.707, 0.000, 0.707, 0.000);
+	ChildPosition(-59.758, -50.160, -95.426);
+	SeqNo(-1175329914);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("outer wall13", "bes2_bldg_16M_outerwall", -1171410800)
+{
+	ChildRotation(0.708, 0.000, 0.707, 0.000);
+	ChildPosition(-342.832, -50.948, -151.062);
+	SeqNo(-1171410800);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("skyway45", "bes2_bldg_skyway", -1167684303)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-249.574, -33.970, -106.899);
+	SeqNo(-1167684303);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("hotel6", "bes2_bldg_hotel", -1155475182)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(1.566, -51.737, -64.351);
+	SeqNo(-1155475182);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("hotel7", "bes2_bldg_hotel", -1125493110)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-289.156, -50.964, -269.217);
+	SeqNo(-1125493110);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("lampost19", "bes2_bldg_street_lamp", -1114508834)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-120.487, -33.216, -182.811);
+	SeqNo(-1114508834);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("building_c_mid_23", "bes2_bldg_c_mid2", -1099623134)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-239.049, -50.040, -299.932);
+	SeqNo(-1099623134);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("building_b_top_9", "bes2_bldg_b_top3", -1081123173)
+{
+	ChildRotation(0.901, 0.000, -0.435, 0.000);
+	ChildPosition(-307.512, -29.863, -25.355);
+	SeqNo(-1081123173);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("building_a_yop_13", "bes2_bldg_a_top2", -1079242668)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-237.040, -39.250, 113.503);
+	SeqNo(-1079242668);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("platform 6", "bes2_bldg_d_landingzone", -1072617046)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-241.563, -42.259, -67.112);
+	SeqNo(-1072617046);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("building_b_top_10", "bes2_bldg_b_top2", -1067347508)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-60.000, -38.000, -95.000);
+	SeqNo(-1067347508);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("", "bes2_bldg_skyway_ramp2", -1066520469)
+{
+	ChildRotation(0.708, 0.000, 0.707, 0.000);
+	ChildPosition(-249.551, -34.042, -75.786);
+	SeqNo(-1066520469);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("building_b_yop 8", "bes2_bldg_b_top1", -1058496095)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-328.639, -51.144, -301.805);
+	SeqNo(-1058496095);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("outer wall34", "bes2_bldg_16M_outerwall", -1041678184)
+{
+	ChildRotation(0.924, 0.000, -0.383, 0.000);
+	ChildPosition(-76.413, -50.040, -178.499);
+	SeqNo(-1041678184);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("", "bes2_bldg_skywaysupport", -1010067361)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-249.147, -50.000, -117.854);
+	SeqNo(-1010067361);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("hotel5", "bes2_bldg_hotel", -1001923226)
+{
+	ChildRotation(0.837, 0.000, -0.548, 0.000);
+	ChildPosition(-98.056, -50.039, 22.684);
+	SeqNo(-1001923226);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("", "bes2_bldg_skywaysupport", -992799887)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-96.004, -50.040, -116.398);
+	SeqNo(-992799887);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("outer wall18", "bes2_bldg_16M_outerwall", -986520073)
+{
+	ChildRotation(0.383, 0.000, -0.924, 0.000);
+	ChildPosition(-261.968, -50.039, 46.024);
+	SeqNo(-986520073);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("outer wall3", "bes2_bldg_16M_outerwall", -962891497)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-309.165, -50.040, -175.891);
+	SeqNo(-962891497);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("building_c_top 5", "bes2_bldg_c_top", -956060455)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-296.031, -32.948, -69.220);
+	SeqNo(-956060455);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("", "bes2_bldg_skywaysupport", -939828127)
+{
+	ChildRotation(0.708, 0.000, -0.706, 0.000);
+	ChildPosition(-126.342, -50.040, -185.953);
+	SeqNo(-939828127);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("skyway50", "bes2_bldg_skyway", -934156431)
+{
+	ChildRotation(0.966, 0.000, 0.258, 0.000);
+	ChildPosition(-126.608, -34.079, -71.655);
+	SeqNo(-934156431);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("skyway61", "bes2_bldg_skyway", -932459584)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-249.575, -33.978, -90.932);
+	SeqNo(-932459584);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("building_c_bot_13", "bes2_bldg_c_bot1", -910921497)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-438.419, -50.539, -27.693);
+	SeqNo(-910921497);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("lampost4", "bes2_bldg_street_lamp", -905387706)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-246.265, -33.072, -110.859);
+	SeqNo(-905387706);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("building_c_bot 6", "bes2_bldg_c_bot2", -903815474)
+{
+	ChildRotation(0.991, 0.000, -0.131, 0.000);
+	ChildPosition(-132.258, -50.036, -209.366);
+	SeqNo(-903815474);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("", "bes2_bldg_skyway_45", -902807338)
+{
+	ChildRotation(0.262, 0.000, -0.965, 0.000);
+	ChildPosition(-120.610, -34.097, -61.337);
+	SeqNo(-902807338);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("lampost22", "bes2_bldg_street_lamp", -899655480)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-92.390, -33.112, -105.201);
+	SeqNo(-899655480);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("lampost33", "bes2_bldg_street_lamp", -816460883)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-141.055, -33.105, -84.430);
+	SeqNo(-816460883);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("outer wall20", "bes2_bldg_16M_outerwall", -809704545)
+{
+	ChildRotation(0.384, 0.000, -0.923, 0.000);
+	ChildPosition(-239.582, -50.040, 23.495);
+	SeqNo(-809704545);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("skyway12", "bes2_bldg_skyway", -807641500)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-249.599, -33.966, -122.774);
+	SeqNo(-807641500);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("building_a_bot 4", "bes2_bldg_a_bot1", -785733413)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-276.361, -50.947, -222.547);
+	SeqNo(-785733413);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("building_modular 38", "bes2_bldg_hospital", -779643965)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(-249.018, -50.000, -116.982);
+	SeqNo(-779643965);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("building_b_bot 10", "bes2_bldg_b_bot2", -773513340)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-378.188, -50.593, -235.577);
+	SeqNo(-773513340);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("building_a_top_6", "bes2_bldg_a_top1", -768329480)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-95.171, -2.075, -198.010);
+	SeqNo(-768329480);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("building_c_bot_6", "bes2_bldg_c_bot1", -694117285)
+{
+	ChildRotation(0.037, 0.000, -0.999, 0.000);
+	ChildPosition(-331.951, -50.001, -92.105);
+	SeqNo(-694117285);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("building_a_yop_12", "bes2_bldg_a_top2", -649070811)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-72.776, -32.376, 79.174);
+	SeqNo(-649070811);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("skyway4", "bes2_bldg_skyway", -635690647)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-249.596, -33.965, -130.745);
+	SeqNo(-635690647);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("", "bes2_bldg_skywaysupport", -618991938)
+{
+	ChildRotation(0.687, 0.000, 0.726, 0.000);
+	ChildPosition(-139.774, -49.933, -80.599);
+	SeqNo(-618991938);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("building_tower 6", "bes2_bldg_large_tower", -610043286)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-149.970, -51.197, -238.261);
+	SeqNo(-610043286);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("building_a_top_7", "bes2_bldg_a_top1", -577633364)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-128.861, -50.074, -42.476);
+	SeqNo(-577633364);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("building_c_mid 5", "bes2_bldg_c_mid1", -564243454)
+{
+	ChildRotation(0.131, 0.000, -0.991, 0.000);
+	ChildPosition(-132.258, -34.985, -209.366);
+	SeqNo(-564243454);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("building_b_yop 3", "bes2_bldg_b_top1", -559409692)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-201.000, -38.190, -251.000);
+	SeqNo(-559409692);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("building_modular 39", "bes2_bldg_hospital", -462987092)
+{
+	ChildRotation(0.707, 0.000, 0.707, 0.000);
+	ChildPosition(-249.020, -50.000, -116.009);
+	SeqNo(-462987092);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("skyway44", "bes2_bldg_skyway", -457211177)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-249.580, -33.959, -114.840);
+	SeqNo(-457211177);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("lampost31", "bes2_bldg_street_lamp", -434388543)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-127.354, -33.237, -66.615);
+	SeqNo(-434388543);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("building_a_top_10", "bes2_bldg_a_top1", -429195402)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-49.851, -38.830, -199.958);
+	SeqNo(-429195402);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("building_b_top_11", "bes2_bldg_b_top3", -417063932)
+{
+	ChildRotation(0.984, 0.000, -0.179, 0.000);
+	ChildPosition(-337.259, -51.006, 46.642);
+	SeqNo(-417063932);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("building_a_top_12", "bes2_bldg_a_top1", -414155837)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-401.182, -38.040, -109.233);
+	SeqNo(-414155837);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("building_rotunda 11", "bes2_bldg_court1", -405803678)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-312.072, -50.040, -225.565);
+	SeqNo(-405803678);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("outer wall38", "bes2_bldg_16M_outerwall", -378858705)
+{
+	ChildRotation(0.924, 0.000, 0.382, 0.000);
+	ChildPosition(-152.566, -50.040, -204.619);
+	SeqNo(-378858705);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("skyway23", "bes2_bldg_skyway", -354499116)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-95.671, -34.549, -150.082);
+	SeqNo(-354499116);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("building_tower 7", "bes2_bldg_large_tower", -351701322)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-56.192, -50.563, -51.886);
+	SeqNo(-351701322);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("building_tower21", "bes2_bldg_clock_tower", -327435722)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-228.862, -53.500, -164.000);
+	SeqNo(-327435722);
+	Team(0);
+	NetworkId(-1);
+	Label("W");
+	Layer(2);
+}
+
+Object("skyway53", "bes2_bldg_skyway", -324598837)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-95.633, -34.066, -109.184);
+	SeqNo(-324598837);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("building_c_mid 14", "bes2_bldg_c_mid1", -297891660)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-25.622, -32.135, -35.482);
+	SeqNo(-297891660);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("building_b_bot 7", "bes2_bldg_b_bot2", -297481373)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-51.004, -51.088, 42.233);
+	SeqNo(-297481373);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("", "bes2_bldg_courtyard_bench", -295708931)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(-180.000, -56.397, -132.000);
+	SeqNo(-295708931);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("outer wall4", "bes2_bldg_16M_outerwall", -292737959)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-334.708, -50.040, -175.773);
+	SeqNo(-292737959);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("lampost16", "bes2_bldg_street_lamp", -267353477)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-128.286, -33.126, -189.289);
+	SeqNo(-267353477);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("building_tower 3", "bes2_bldg_large_tower", -185105666)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-69.900, -50.319, -165.027);
+	SeqNo(-185105666);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("", "bes2_bldg_square_bot2", -179263160)
+{
+	ChildRotation(0.708, 0.000, 0.706, 0.000);
+	ChildPosition(-95.580, -50.072, -197.300);
+	SeqNo(-179263160);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("hotel9", "bes2_bldg_hotel", -164580696)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-92.307, -52.501, -292.350);
+	SeqNo(-164580696);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("building_modular 32", "bes2_bldg_hospital", -149017825)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-248.990, -49.996, -116.006);
+	SeqNo(-149017825);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("skyway38", "bes2_bldg_skyway", -131469071)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-249.611, -34.065, -158.813);
+	SeqNo(-131469071);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("building_a_top_9", "bes2_bldg_a_top1", -98348658)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-154.797, -31.817, 139.580);
+	SeqNo(-98348658);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("building_tower 9", "bes2_bldg_large_tower", -94419366)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-362.436, -50.995, -102.197);
+	SeqNo(-94419366);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("building_c_mid_22", "bes2_bldg_c_mid2", -88516623)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-137.748, -21.210, -275.820);
+	SeqNo(-88516623);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("building_c_mid_12", "bes2_bldg_c_mid2", -79192638)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-228.387, -24.129, -38.241);
+	SeqNo(-79192638);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("", "bes2_bldg_courtyard_bench", -72417822)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(-180.000, -56.383, -132.000);
+	SeqNo(-72417822);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}
+
+Object("outer wall17", "bes2_bldg_16M_outerwall", -36449777)
+{
+	ChildRotation(-0.383, 0.000, -0.924, 0.000);
+	ChildPosition(-259.742, -50.040, 65.810);
+	SeqNo(-36449777);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+}

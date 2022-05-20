@@ -1,0 +1,91 @@
+[GameObjectClass]
+ClassLabel 				= "soldier"
+GeometryName 			= "rep_inf_macewindu.msh"
+
+[Properties]
+FootWaterSplashEffect 	= "watersplash_sm"
+WaterSplashEffect 	= "watersplash_md"
+WakeWaterSplashEffect	= "watersplash_wade"
+
+UnitType				= "assault"
+MapTexture 				= "troop_icon"
+MapScale 				= 1.4
+
+GeometryName 			= "rep_inf_macewindu"
+GeometryLowRes			= "rep_inf_macewindu_low1"
+JetDuration 			= "0.0"		//The duration of the jet push, until its turned off
+JetJump 			= "10.0"		//The initial jump-push given when enabling the jet
+JetPush 			= "20.0"	//The constant push given while the jet is enabled (20 is gravity)
+WingModel			= "gen_wings"
+AnimationName 			= "all_inf_snowtrooper"
+
+HealthType				= "person"
+MaxHealth 				= 2500.0
+
+Acceleraton 		= 70.0
+MaxSpeed 		= 6.5
+MaxStrafeSpeed 		= 4.5
+MaxTurnSpeed 		= 4.0
+
+WeaponName1 			= "rep_weap_lightsabery"
+WeaponAmmo1 			= 0
+
+AimFactorPostureSpecial 	= 50
+AimFactorPostureStand 		= 100
+AimFactorPostureCrouch 		= 140
+AimFactorPostureProne 		= 160
+AimFactorStrafe 			= 60
+AimFactorMove 			= 70
+
+
+CAMERASECTION 			= "STAND"
+
+EyePointOffset 			= "0.0 2.0 0.0"
+TrackOffset 			= "0.0 -0.25 3.5"
+TiltValue				= "10"
+
+CAMERASECTION 			= "CROUCH"
+
+EyePointOffset 			= "0.0 1.6 0.0"
+TrackOffset 			= "0.0 -0.25 3.5"
+TiltValue				= "10"
+
+CAMERASECTION 			= "PRONE"
+
+EyePointOffset 			= "0.0 1.0 0.0"
+TrackOffset 			= "0.0 -0.25 3.0"
+TiltValue				= "10"
+
+AimValue 				= "1.0"
+
+HurtSound               	= ""
+DeathSound              	= ""
+AcquiredTargetSound     	= ""
+HidingSound             	= ""
+//ApproachingTargetSound	= ""
+FleeSound               = ""
+PreparingForDamageSound = ""
+HeardEnemySound         = ""
+ShockFadeOutTime        = ""
+ShockFadeInTime         = ""
+ShockFadeOutGain        = ""
+ShockSound              = ""
+ClothingRustleSound     = ""
+//LowHealthSound          = "com_inf_saber_ambient"
+//LowHealthThreshold      = "1.1"
+FoleyFXClass            = "rep_inf_trooper"
+
+NoEnterVehicles		= 1
+
+AISizeType		= "SOLDIER"
+
+DropItemClass = "com_item_powerup_ammo"
+DropItemProbability = 0.20
+NextDropItem = "-"
+DropItemClass = "com_item_powerup_health25"
+DropItemProbability = 0.05
+NextDropItem = "-"
+DropItemClass = "com_item_powerup_health100"
+DropItemProbability = 0.0
+
+

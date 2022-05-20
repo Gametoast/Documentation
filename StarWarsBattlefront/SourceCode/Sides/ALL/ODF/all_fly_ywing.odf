@@ -1,0 +1,300 @@
+[GameObjectClass]
+
+ClassLabel      = "flyer"
+GeometryName        = "all_fly_ywing.msh"
+
+[Properties]
+VehicleType     = "fighter"
+MapTexture      = "y-wing_icon"
+HealthTexture       = "HUD_all_ywing_icon"
+VehiclePosition     = "common.vehiclepositions.pilot"
+MapScale        = 1.5
+
+GeometryName        = "all_fly_ywing"
+AnimationName       = "all_fly_ywing"
+FirstPerson             = "all\allywing;all_1st_cockpit_ywing"
+CollisionScale          = "1.5"
+CollisionThreshold      = "5.0"
+MaxHealth       = 2160.0
+HealthType      = "vehicle"
+//HitLocation       = "p_crithit 1.5"
+FirstPersonFOV          = "55"
+CockpitTension      = 25
+
+PilotSkillRepairScale = 0.03
+
+PilotPosition       = "hp_active"
+PilotAnimation      = "drive"
+IsPilotExposed      = "0"
+
+WEAPONSECTION       = "1"
+WeaponName      = "all_weap_fly_ywing_cannon"
+WeaponAmmo      = "0"
+
+AimerNodeName       = "hp_fire1"
+AimerYawLimts       = "-30 30"
+AimerPitchLimts     = "-30 30"
+//BarrelLength      = "1.0"
+
+NextAimer           = "-"
+
+AimerNodeName       = "hp_fire2"
+AimerYawLimts       = "-30 30"
+AimerPitchLimts     = "-30 30"
+//BarrelLength      = "1.0"
+
+WeaponSection       = "2"
+WeaponName      = "all_weap_fly_ywing_bomb"
+WeaponAmmo      = "0"
+FirePointName       = "hp_fire1"
+
+
+//ENGINES------------------------------------------
+ThrustEffect        = "exhaust_xwing"
+ThrustAttachPoint   = "dummyroot"
+ThrustAttachOffset  = "3.5014 0.0622 -4.263"
+ThrustEffectMinScale    = "0.8"
+ThrustEffectMaxScale    = "1.5"
+ThrustEffectScaleStart  = "0.75"
+
+ThrustEffect        = "exhaust_xwing"
+ThrustAttachPoint   = "dummyroot"
+ThrustAttachOffset  = "-3.5014 0.0622 -4.263"
+ThrustEffectMinScale    = "0.8"
+ThrustEffectMaxScale    = "1.5"
+ThrustEffectScaleStart  = "0.75"
+
+DamageStartPercent  = 65.0
+DamageStopPercent   = 30.0
+DamageEffect        = "vehiclespark"
+DamageEffectScale   = 1.0
+DamageInheritVelocity   = 0.75
+DamageAttachPoint   = "hp_damage_3"
+
+//DamageStartPercent    = 65.0
+//DamageStopPercent = 30.0
+//DamageEffect      = "vehicleflame"
+//DamageEffectScale = 1.0
+//DamageInheritVelocity = 0.75
+//DamageAttachPoint = "hp_damage_4"
+
+DamageStartPercent  = 40.0
+DamageStopPercent   = 20.0
+DamageEffect        = "vehiclesmoke"
+DamageEffectScale   = 1.0
+DamageInheritVelocity   = 0.75
+DamageAttachPoint   = "hp_damage_2"
+
+DamageStartPercent  = 10.0
+DamageStopPercent   = 0.0
+DamageEffect        = "vehicleflame"
+DamageEffectScale   = 1.0
+DamageInheritVelocity   = 0.75
+DamageAttachPoint   = "hp_damage_1"
+
+//ExplosionCritical     = "all_fly_ywing_exp"
+ExplosionDestruct       = "all_fly_ywing_exp"
+
+Acceleraton         = 15.0
+MinSpeed            = 20.0
+MidSpeed            = 35.0
+MaxSpeed        = 60.0
+
+PitchRate       = 1.0 //1.85
+PitchFilter         = 1.5
+TurnRate            = 1.0 // Max turn  //3.25 mouse!
+TurnFilter          = 5.75 // Speed of turn //5.75 mouse!
+BankAngle       = 0.7
+BankFilter      = 2.5
+LevelFilter         = 5.0
+
+PCPitchRate         = 15.0
+PCSpinRate      = 15.0
+PCTurnRate      = 25.0
+//TurnFilter        = 2.75
+//BankAngle         = 0.9
+//BankFilter        = 2.5
+//LevelFilter       = 5.0
+
+
+TakeoffTime         = 1.0
+TakeoffSpeed        = 5.0
+LandingTime         = 2.0
+LandingSpeed        = 5.0
+TakeoffHeight       = 6.0
+
+
+EyePointOffset      = "0.0 3.0 2.0"
+TrackCenter         = "0.0 2.0 -4.0"
+TrackOffset         = "0.0 2.0 8.0"
+//              = "0.0 0.0 5.0"
+TiltValue           = "0.0"
+
+AimTension          = "30.0"
+MoveTension         = "4.5"
+
+TerrainCollision        = "p_front_sphere1"
+TerrainCollision        = "p_front_sphere2"
+TerrainCollision        = "p_front_sphere3"
+TerrainCollision        = "p_left_sphere1"
+TerrainCollision        = "p_left_sphere2"
+TerrainCollision        = "p_left_sphere3"
+TerrainCollision        = "p_right_sphere1"
+TerrainCollision        = "p_right_sphere2"
+TerrainCollision        = "p_right_sphere3"
+
+BuildingCollision       = "p_front_sphere1"
+BuildingCollision       = "p_front_sphere2"
+BuildingCollision       = "p_front_sphere3"
+BuildingCollision       = "p_left_sphere1"
+BuildingCollision       = "p_left_sphere2"
+BuildingCollision       = "p_left_sphere3"
+BuildingCollision       = "p_right_sphere1"
+BuildingCollision       = "p_right_sphere2"
+BuildingCollision       = "p_right_sphere3"
+
+VehicleCollision        = "p_front_sphere1"
+VehicleCollision        = "p_front_sphere2"
+VehicleCollision        = "p_front_sphere3"
+VehicleCollision        = "p_left_sphere1"
+VehicleCollision        = "p_left_sphere2"
+VehicleCollision        = "p_left_sphere3"
+VehicleCollision        = "p_right_sphere1"
+VehicleCollision        = "p_right_sphere2"
+VehicleCollision        = "p_right_sphere3"
+
+
+FLYERSECTION            = "TURRET1"
+VehiclePosition         = "common.vehiclepositions.gunner"
+
+FirstPerson             = "all\allsccam;all_1st_cockpit_securitycam"
+EyePointOffset          = "0.0 2.5 4.0"
+TrackCenter         = "0.0 2.0 -1.0"
+TrackOffset             = "0.0 0.0 0.0"
+TiltValue           = "5.0"
+FirstPersonFOV          = "50"
+
+WeaponSection           = 1
+WeaponName          = "all_weap_fly_ywing_cannon"
+WeaponAmmo          = "0"
+
+
+
+PitchLimits         = "-20.0 15.0"
+YawLimits           = "-180.0 180.0"
+
+PitchTurnFactor         = "0.0"
+
+TurretNodeName          ="turret_base"
+AimerNodeName           = "turret_back"
+AimerPitchLimits        = "-10.0 90.0"
+AimerYawLimits          = "0.0 0.0"
+
+BarrelNodeName          = "cannon_R"
+BarrelRecoil            = 0.15
+FirePointName           = "hp_cannon2"
+
+NextBarrel          = "-"
+
+BarrelNodeName          = "cannon_L"
+BarrelRecoil            = 0.15
+FirePointName           = "hp_cannon1"
+
+//Camera Placement
+//--------------
+//EyePointOffset          = "0.0 0.0 3.0"
+TrackCenter         = "0.0 0.5 0.0"
+TrackOffset             = "0.0 0.0 3.0"
+TiltValue           = "5.0"
+
+// BOMBADIER
+//--------------  THIS SLOT STILL NEEDS AN AIMER ON THE CHIN OF THE VEHICLE 4-12-04
+//FLYERSECTION          = "TURRET2"
+
+//PitchLimits       = "-10.0 85"
+//YawLimits     = "-180.0 180.0"
+//EyePointCenter    = "0.0 0.0 0.0"
+//MountPos      = "0.0 -1.0 -15.0"
+//TrackCenter       = "0.0 -.9 -9.0"
+//TrackOffset       = "0.0 0.0 0.0"
+//TiltValue     = "0"
+
+//PitchLimits       = "-10 85"
+//YawLimits     = "-145 145"
+//EyePointOffset        = "0.0 0.0 0.0"
+//MountPos      = "0.0 -1.0 -10.0"
+//TrackCenter       = "0.0 0.0 0.0"
+//TrackOffset       = "0.0 1.5 10.0"
+//TiltValue     = "0.0"
+
+//WeaponSection     = "1"
+//WeaponName        = "all_weap_fly_ywing_bomb"
+//WeaponAmmo        = "0"
+//FirePointName     = "hp_fire1"
+
+//NOTES:
+//
+// Hardpoint names:
+// guns on nose are called hp_fire1 and hp_fire2
+// guns on turret are called hp_cannon1 and hp_cannon2
+//
+// damage points are already done and should be ok
+//
+// turret nodes names:
+// the base which turns along the y axis :  turret_base
+// the other piece which turns on the x :    turret_back
+//
+// barrel nodes:
+// cannon_R
+// cannon_L
+// gun_L
+// gun_R
+//
+// i mostly already took care of the cosmetic stuff like the exhaust, damage points, collision,  and hud display.. the rest is up to
+// you guys
+
+
+
+CHUNKSECTION        = "CHUNK1"
+ChunkGeometryName   = "all_fly_ywing_chunk1"
+ChunkNodeName       = ""
+ChunkTerrainCollisions  = "0"
+ChunkTerrainEffect  = "explosion"
+ChunkPhysics        = "FULL"
+ChunkOmega      = "2.0 1.0 1.5"
+ChunkBounciness         = 0.45
+ChunkStickiness         = 0.25
+ChunkSpeed      = "8.0"
+ChunkUpFactor       = "4.00"
+ChunkTrailEffect        = "mediumsmoketrail"
+
+
+
+CHUNKSECTION        = "CHUNK2"
+ChunkGeometryName   = "all_fly_ywing_chunk2"
+ChunkNodeName       = ""
+ChunkTerrainCollisions  = "0"
+ChunkTerrainEffect  = "explosion"
+ChunkPhysics        = "FULL"
+ChunkOmega      = "2.0 1.5 2.0"
+ChunkBounciness         = 0.45
+ChunkStickiness         = 0.25
+ChunkSpeed      = "11.0"
+ChunkUpFactor       = "3.00"
+ChunkTrailEffect        = "mediumsmoketrail"
+
+EngineSound         = "all_fly_ywing_engine_parameterized"
+TakeoffSound            = "r2_take_off"
+LandSound               = "r2_land"
+HurtSound               = "r2_damage"
+DeathSound              = "imp_weap_ord_exp_lg"
+VehicleCollisionSound   = "com_veh_collision_lg"
+TurnOnSound             = "r2_turn_on"
+TurnOffSound            = ""
+TurnOffTime             = ""
+TurningOffSound         = "r2_turn_off"
+ImpMusic            = "imp_vehicle"
+AllMusic            = "all_vehicle"
+MusicSpeed          = ".25"
+MusicDelay          = "3.0"
+FoleyFXGroup    = "metal_foley"

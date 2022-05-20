@@ -1,0 +1,109 @@
+[WeaponClass]
+
+ClassLabel 		= "cannon"
+
+[Properties]
+IconTexture		= "IMP_blasterrifle_icon"
+
+
+MuzzleFlash		= "small_muzzle_flash"
+FlashColor 		= "255 80 80 255"
+FlashLength 		= 0.025
+FlashLightColor 	= "255 192 192 175"
+FlashLightRadius 	= "2.0"
+FlashLightDuration	= "0.25"
+Discharge		= "small_smoke_effect"
+GeometryName 		= "all_weap_inf_seeker"
+HighResGeometry         = "all_1st_weap_inf_seeker"
+
+RoundsPerClip 		= "30"
+ReloadTime 		= "1.5"
+
+HeatPerShot			= "0.0"
+HeatRecoverRate			= "0.2"
+HeatThreshold			= "0.0"
+
+ZoomMin			= "2.5"
+ZoomMax			= "2.5"
+ZoomRate		= "0.0"
+
+AnimationBank		= "rifle"
+
+FirePointName		= "hp_fire_ALL_INF_BlasterRifle"
+
+WEAPONSECTION		= 1
+
+ModeTexture		= "HUD_weap_scope"
+ReticuleTexture		= "reticule_rifle"
+OrdnanceName 		= "all_weap_inf_spyrifle_ord"
+
+ShotDelay 		= "0.175"
+TriggerSingle		= "0"
+//HeatPerShot		= "0.005"
+
+PitchSpread		= "1.0"
+YawSpread		= "1.0"
+
+
+SpreadPerShot		= "1.2"//1.2
+SpreadRecoverRate	= "4.8"//0.08
+SpreadThreshold		= "1.6"//0.03
+SpreadLimit		= "6.0"
+
+StandStillSpread	= "0.0"//0.4
+StandMoveSpread	= "0.0"//0.9
+CrouchStillSpread	= "0.0"//0.1
+CrouchMoveSpread	= "0.0"//0.6
+ProneStillSpread	= "0.0"
+ProneMoveSpread		= "0.0"
+
+MinRange		= "0"
+OptimalRange		= "10"
+MaxRange		= "30"
+
+LockOnRange             = "30.0"
+LockTime 		= "0.4"
+AutoAimSize		= "1.0"
+
+SalvoCount		= "1"
+ShotsPerSalvo		= "1"
+SalvoDelay		= "0.0"
+InitialSalvoDelay	= "0.0"
+SalvoTime		= "0.0"
+
+TargetEnemy		= "1"
+TargetNeutral		= "0"
+TargetFriendly		= "0"
+
+TargetPerson		= "1"
+TargetAnimal		= "1"
+TargetDroid		= "0"
+TargetVehicle		= "0"
+TargetBuilding		= "0"
+
+//RecoilLengthLight     = "0.2"
+//RecoilLengthHeavy     = "0.1"
+//RecoilStrengthLight   = "1"
+//RecoilStrengthHeavy   = "1"
+
+FireSound		= "all_weap_inf_spyrifle_fire"
+//FireEmptySound		= "com_weap_inf_weapon_empty"
+FireLoopSound		= ""
+ReloadSound		= "all_weap_inf_reload_med"
+ChargeSound		= ""
+//ChangeModeSound		= "com_weap_inf_blaster_rifle_modechange"
+WeaponChangeSound	= "all_weap_inf_equip_med"
+ClankLeftWalkSound  = ""
+ClankRightWalkSound = ""
+ClankLeftRunSound   = ""
+ClankRightRunSound  = ""
+JumpSound           = "all_weap_inf_spyrifle_mvt_jump"
+LandSound           = "all_weap_inf_spyrifle_mvt_land"
+RollSound           = "all_weap_inf_spyrifle_mvt_roll"
+ProneSound          = "all_weap_inf_spyrifle_mvt_squat"
+SquatSound          = "all_weap_inf_spyrifle_mvt_lie"
+StandSound          = "all_weap_inf_spyrifle_mvt_getup"
+
+
+
+

@@ -1,0 +1,98 @@
+[GameObjectClass]
+ClassLabel			= "walker"
+GeometryName 			= "all_walk_tauntaun.msh"
+GeometryScale 			= 1.0
+
+[Properties]
+WALKERSECTION 			= "BODY"
+VehicleType 			= "scout"
+Label 				= "Tauntaun"
+MapTexture 			= "tauntaun_kaadu_icon"
+HealthTexture 			= "HUD_all_tauntaun_icon"
+ForceMode 			= "1"
+MapScale 			= "1.0"
+
+CollisionScale 			= "0.5 0 0"
+//CollisionThreshold = "20.5 2.5 10.0",
+
+CollisionInflict = "0"
+
+GeometryName 			= "all_walk_tauntaun"
+AnimationName 			= "all_walk_tauntaun"
+FirstPerson       		= "all\alltaun;all_1st_cockpit_tauntaun"
+
+MaxHealth 			= "400.0"
+HealthType 			= "animal"
+//HitLocation			= "p_crithit 0"
+
+Acceleraton 			= "2.4"
+
+MaxSpeed 			= "1.0"
+MaxStrafeSpeed 			= "2.5"
+MaxTurnSpeed 			= "2"
+
+StoppedTurnSpeed		= "1.0"
+ForwardTurnSpeed		= "1.0"
+TurnThreshold			= "1.0"
+
+PrimaryWeapon 			= ""
+SecondaryWeapon 		= ""
+
+AISizeType			= "SMALL"
+NoCombatInterrupt		= 1
+
+StompDecal			= "decal_tauntaun_footprint"
+StompDecalSize			= "0.38"
+
+NoDeathExplosions		= 1
+
+EyePointOffset 			= "0.0 2.5 0.0"
+TrakCenter			= "0.0 2.5 0.0"
+TrackOffset 			= "0.0 1.0 12.0"
+
+TEMP_Type 			= "2"
+
+AnimatedPilotPosition 		= "bone_root"
+PilotAnimation 			= "ride"
+
+VehicleCollision		= "p_collision"
+SoldierCollision 		= "p_torso"
+TerrainCollision 		= "p_collision"
+TerrainCollision 		= "p_l_foot"
+TerrainCollision 		= "p_r_foot"
+BuildingCollision 		= "p_collision"
+BuildingCollision 		= "p_collision1"
+LegPairCount			= "1"
+
+WalkerLegPair			= "LEGS"
+
+LegBoneLeft			= "bone_l_thigh"
+LegBoneRight			= "bone_r_thigh"
+
+LegBoneTopLeft			= "bone_l_thigh"
+LegBoneTopRight			= "bone_r_thigh"
+
+TerrainLeft			= "p_l_foot"
+TerrainRight			= "p_r_foot"
+
+FootBoneLeft			= "bone_collision"
+FootBoneRight			= "bone_collision1"
+
+IgnorableCollsion       = "p_l_foot"
+IgnorableCollsion       = "p_r_foot"
+
+DropShadowSize = "1.8"
+
+StompThreshold       = "0.5"
+FootStepSound1       = "tauntaunstepleft"
+FootStepSound2       = "tauntaunstepright"
+HydraulicSound       = ""
+HydraulicSoundHeight = ""
+HurtSound            = "tauntaunhurt"
+DeathSound           = "tauntaundie"
+TurnOnSound          = "tauntaunstart"
+TurnOffSound         = "tauntaunstop"
+AllMusic             = "all_vehicle"
+ImpMusic             = "imp_vehicle"
+MusicSpeed           = "0.15"
+MusicDelay           = "3.0"

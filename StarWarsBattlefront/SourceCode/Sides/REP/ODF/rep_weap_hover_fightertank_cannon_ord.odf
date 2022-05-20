@@ -1,0 +1,31 @@
+[OrdnanceClass]
+ClassLabel          = "bolt"
+
+[Properties]
+ImpactEffectWater   = "watersplash_sm"
+
+LaserTexture            = "bluelaser_D"
+ImpactEffect            = "med_cannon_impacts"
+ExplosionName           = "rep_weap_hover_fightertank_cannon_exp"
+LaserLength         = "6.0"
+LaserWidth          = "0.4"
+LaserGlowColor          = "92 136 250 100"
+LightColor                  = "92 136 250 100"
+LightRadius                 = "6.0"
+
+LifeSpan            = "3.0"
+Velocity            = "180.0"
+Gravity             = "1.0"
+Rebound             = "0.0"
+
+MaxDamage           = "300.0"
+
+VehicleScale            = "0.19"
+ShieldScale         = "1.0"
+PersonScale         = "1.0"
+AnimalScale         = "1.0"
+DroidScale          = "1.0"
+BuildingScale           = "0.5"
+
+OrdnanceSound  = "com_weap_inf_ord_hum_lg"
+CollisionSound = "imp_weap_ord_exp"

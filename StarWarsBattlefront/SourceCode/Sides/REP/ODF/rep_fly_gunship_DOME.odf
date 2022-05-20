@@ -1,0 +1,106 @@
+[GameObjectClass]
+ClassLabel 				= "flyer"
+GeometryName 			= "rep_fly_gunship_DOME.msh"
+
+[Properties]
+////////////////////////////////
+FLYERSECTION 			= "BODY"
+////////////////////////////////
+
+Label 				= "LA-AT"
+VehicleType 			= "transport"
+MapTexture 				= "speeder_icon"
+StatusTexture			= "HUD_rep_gunship_icon"
+MapScale 				= 2.0
+
+GeometryName 			= "rep_fly_gunship_DOME"
+CollisionScale 			= 0.25
+
+
+
+MaxHealth 				= 1500.0
+
+DamageStartPercent		= 60.0
+DamageStopPercent			= 20.0
+DamageEffect			= "vehiclespark"
+DamageAttachPoint			= "hp_damage_2"
+
+DamageStartPercent		= 60.0
+DamageStopPercent			= 20.0
+DamageEffect			= "vehiclespark"
+DamageAttachPoint			= "hp_damage_3"
+
+DamageStartPercent		= 60.0
+DamageStopPercent			= 20.0
+DamageEffect			= "vehiclespark"
+DamageAttachPoint			= "hp_damage_4"
+
+DamageStartPercent		= 30.0
+DamageStopPercent			= 20.0
+DamageEffect			= "vehiclesmoke"
+DamageAttachPoint			= "hp_damage_1"
+
+DamageStartPercent		= 19.0
+DamageStopPercent			= 0.0
+DamageEffect			= "vehicleflame"
+DamageAttachPoint			= "hp_damage_1"
+
+ExplosionCritical		= "rep_fly_gunship_exp"
+ExplosionDestruct		= "rep_fly_gunship_exp"
+
+Acceleraton 			= 10.0
+MinSpeed 				= 10.0
+MaxSpeed 				= 35.0
+
+PitchRate 				= 0.8
+PitchFilter 			= 5.0
+
+PitchRate 			= 1.85
+PitchFilter 		= 2.0
+TurnRate 			= 1.85
+TurnFilter 			= 2.1
+BankAngle 			= 0.75
+BankFilter 			= 2.5
+LevelFilter 		= 5.0
+
+TakeoffTime 		= 4.0
+TakeoffSpeed 		= 3.0
+LandingTime 		= 2.0
+LandingSpeed 		= 5.0
+
+EyePointOffset 		= "0.0 0.0 0.0"
+TrackCenter			= "0.0 0.0 15.0"
+TrackOffset 		= "0.0 7.0 28.0"
+TiltValue			= "5.5"
+
+AimTension			= "10.0"
+MoveTension			= "5.0"
+
+
+
+
+
+CHUNKSECTION = "CHUNK1"
+ChunkGeometryName = "gunship_chunk1"
+ChunkNodeName = "Wing_gun_housing_2"
+ChunkTerrainCollisions = "0"
+ChunkTerrainEffect = "walkerstomp"
+ChunkPhysics = "LEAF"
+
+CHUNKSECTION = "CHUNK2"
+ChunkGeometryName = "gunship_chunk2"
+ChunkNodeName = "main_backdoor_R"
+ChunkTerrainCollisions = "0"
+ChunkTerrainEffect = "walkerstomp"
+ChunkPhysics = "LEAF"
+
+CHUNKSECTION = "CHUNK3"
+ChunkGeometryName = "REP_LA_AT_Gunship_hulk"
+ChunkNodeName = ""
+ChunkTerrainCollisions = "0"
+ChunkTerrainEffect = "explosion"
+ChunkPhysics = "FULL"
+
+ChunkSmokeEffect = "smokeplume"
+ChunkSmokeNodeName = "hp_smoke1"
+

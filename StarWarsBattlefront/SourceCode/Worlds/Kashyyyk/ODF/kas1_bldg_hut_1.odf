@@ -1,0 +1,15 @@
+[GameObjectClass]		
+
+ClassLabel		=	"prop"
+GeometryName	=	"kas1_bldg_hut_1.msh"
+
+
+[Properties]		
+
+GeometryName	=	"kas1_bldg_hut_1"
+AttachOdf 		= "redlight"
+AttachToHardPoint 	= "hp_light_b"
+
+VehicleCollisionOnly	=	"p_vehicle_5"
+
+FoleyFXGroup    = "wood_foley"

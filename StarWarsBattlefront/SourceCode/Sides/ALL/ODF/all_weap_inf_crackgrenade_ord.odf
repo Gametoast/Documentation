@@ -1,0 +1,30 @@
+[OrdnanceClass]
+ClassLabel 		= "sticky"
+
+[Properties]
+ImpactEffectWater 	= "watersplash_sm"
+
+LightColor              = "220 220 100 150"
+LightRadius             = "4.0"
+
+GeometryName 		= "com_weap_inf_grenadethermal_ord"
+ExplosionExpire		= "all_weap_inf_crackgrenade_exp"
+ImpactEffect		= "medium_explosion"
+TrailEffect		= "com_sfx_weap_grenade_gold"
+
+LifeSpan 		= "0.9"
+Velocity 		= "25.0"
+Gravity			= "1.25"
+Rebound			= "0.2"
+Friction		= "2.0"
+
+StickPerson		= 0
+StickAnimal		= 0
+StickDroid		= 0
+StickVehicle		= 1
+StickBuilding		= 1
+StickBuildingDead	= 1
+StickBuildingUnbuilt	= 0
+StickTerrain		= 0
+
+CollisionOtherSound = "com_weap_inf_grenade_bounce"

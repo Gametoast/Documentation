@@ -1,0 +1,72 @@
+[WeaponClass]
+ClassLabel          = "repair"
+
+[Properties]
+IconTexture         = "HUD_all_welder_icon"
+
+MuzzleFlashEffect       = "repairkit"
+Discharge           = "small_smoke_effect"
+
+GeometryName            = "wok_weap_inf_fusioncutter"
+RoundsPerClip           = "-1"
+ReloadTime          = "0.0"
+HeatRecoverRate         = "0.16"
+HeatThreshold           = "0.7"
+
+AnimationBank           = "tool"
+FirePointName           = "hp_fire"
+
+WEAPONSECTION           = 1
+
+ModeTexture         = "HUD_weap_repair"
+//ModeTextureColor      = "42 235 42 100"
+//ReticuleTexture       = "reticule_00"
+
+ShotDelay           = 0.25
+TriggerSingle           = "0"
+HeatPerShot         = "0.030"
+
+TargetEnemy         = "0"
+TargetNeutral           = "1"
+TargetFriendly          = "1"
+
+TargetPerson            = "0"
+TargetAnimal            = "0"
+TargetDroid         = "1"
+TargetVehicle           = "1"
+TargetBuilding          = "1"
+
+LockOnRange         = 6.0
+LockOnAngle         = 30.0
+
+VehicleHealth           = 30
+BuildingHealth          = 30
+BuildingBuild           = 15
+BuildingRebuild         = 10
+DroidHealth         = 30
+
+RecoilLengthLight           = "0.2"
+RecoilLengthHeavy           = "0.1"
+RecoilStrengthLight         = "1"
+RecoilStrengthHeavy         = "1"
+
+FireSound           = ""
+FireEmptySound          = "com_weap_inf_weapon_empty"
+FireLoopSound           = "com_weap_inf_fusioncutter_fire"
+ReloadSound         = ""
+ChargeSound         = ""
+OverheatSound               = "com_weap_energy_depleted"
+OverheatSoundPitch          = "0.5"
+OverheatStopSound           = "com_weap_energy_refilled"
+//ChangeModeSound       = "com_weap_inf_dispenser_modechange"
+WeaponChangeSound       = ""
+ClankLeftWalkSound          = ""
+ClankRightWalkSound         = ""
+ClankLeftRunSound           = ""
+ClankRightRunSound          = ""
+JumpSound                   = ""
+LandSound                   = ""
+RollSound                   = ""
+ProneSound                  = ""
+SquatSound                  = ""
+StandSound                  = ""

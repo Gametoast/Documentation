@@ -1,0 +1,85 @@
+[GameObjectClass]
+
+ClassLabel 			= "soldier"
+GeometryName 		= "tat_inf_tusken.msh"
+
+
+[Properties]
+FootWaterSplashEffect 	= "watersplash_sm"
+WaterSplashEffect 	= "watersplash_md"
+WakeWaterSplashEffect	= "watersplash_wade"
+
+Label 			= "Republic Trooper"
+UnitType			= "Assault"
+IconTexture 		= "rep_trooper_icon"
+MapTexture 			= "troop_icon"
+MapScale 			= 1.4
+
+GeometryName 		= "tat_inf_tusken"
+AnimationName		= "all_inf_snowtrooper"
+
+
+CAMERASECTION 		= "STAND"
+
+EyePointOffset 		= "0.0 2.0 0.0"
+TrackOffset 		= "0.0 -0.25 3.5"
+TiltValue			= "10"
+
+CAMERASECTION 		= "CROUCH"
+
+EyePointOffset 		= "0.0 1.6 0.0"
+TrackOffset 		= "0.0 -0.25 3.5"
+TiltValue			= "10"
+
+CAMERASECTION 		= "PRONE"
+
+EyePointOffset 		= "0.0 1.0 0.0"
+TrackOffset 		= "0.0 -0.25 3.0"
+TiltValue			= "10"
+
+MaxHealth 			= 300.0
+
+Acceleraton 		= 30.0
+MaxSpeed 			= 7.0
+MaxStrafeSpeed 		= 5.0
+MaxTurnSpeed 		= 2.25
+
+
+WeaponName1 		= "tat_weap_inf_tuskenrifle"
+WeaponAmmo1 		= 0
+
+
+
+AimFactorPostureSpecial = 50
+AimFactorPostureStand 	= 100
+AimFactorPostureCrouch 	= 140
+AimFactorPostureProne 	= 160
+AimFactorStrafe 		= 60
+AimFactorMove 			= 70
+
+HurtSound			= "tusken_hurt"
+DeathSound              = "tusken_die"
+//LeftFootstepSound       = "soldierstepleft"
+//RightFootstepSound      = "soldierstepright"
+AcquiredTargetSound     = "tusken_chatter"
+HidingSound             = "tusken_chatter"
+ApproachingTargetSound  = "tusken_chatter"
+FleeSound               = "tusken_chatter"
+PreparingForDamageSound = "tusken_chatter"
+HeardEnemySound         = "tusken_chatter"
+//WaterWadingSound        = "com_inf_wading"
+//ShockFadeOutTime        = "0.8"
+//ShockFadeInTime         = "2.0"
+
+
+AISizeType		= "SOLDIER"
+NoEnterVehicles		= 1
+
+DropItemClass = "com_item_powerup_ammo"
+DropItemProbability = 0.07
+NextDropItem = "-"
+DropItemClass = "com_item_powerup_health25"
+DropItemProbability = 0.08
+NextDropItem = "-"
+DropItemClass = "com_item_powerup_health100"
+DropItemProbability = 0.0

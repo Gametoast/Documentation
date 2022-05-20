@@ -1,0 +1,17 @@
+[GameObjectClass]
+
+ClassLabel		=	"animatedprop"
+GeometryName	=	"bes2_carbon_forklift.msh"
+
+
+[Properties]
+
+GeometryName	=	"bes2_carbon_forklift"
+AnimationName 	= 	"bes2_carbon_forklift"
+Animation		=	"basepose"
+Animation		=	"activate"
+
+AnimationTrigger	=	"activate hp_activate 0.5"
+DisableForCloneWars = "1"
+IdleDelay = "10.0"
+//KillSoldierSound  = "sarlac_belch"

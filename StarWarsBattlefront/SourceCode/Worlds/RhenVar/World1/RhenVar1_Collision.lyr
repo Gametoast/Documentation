@@ -1,0 +1,84 @@
+Version(3);
+SaveType(0);
+
+Camera("camera")
+{
+	Rotation(0.163, 0.013, -0.983, 0.077);
+	Position(-121.479, 11.979, -79.918);
+	FieldOfView(55.400);
+	NearPlane(1.000);
+	FarPlane(3000.000);
+	ZoomFactor(1.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(-42.138, 94.693, -106.926,  0.596, 0.339, 0.633, -0.360);
+}
+TerrainName("RhenVar1.ter");
+SkyName("RhenVar1.sky");
+ScriptName("DummyScript.dll");
+ControllerManager("StandardCtrlMgr");
+
+WorldExtents()
+{
+	Min(0.000000, 0.000000, 0.000000);
+	Max(0.000000, 0.000000, 0.000000);
+}
+
+NextSequence(-16519);
+
+Object("", "com_inv_col_16", 160946683)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-120.000, 8.000, 48.000);
+	SeqNo(160946683);
+	Team(0);
+	NetworkId(-1);
+	Layer(5);
+}
+
+Object("", "com_inv_col_64", 1029038936)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-24.000, 24.000, 96.000);
+	SeqNo(1029038936);
+	Team(0);
+	NetworkId(-1);
+	Layer(5);
+}
+
+Object("", "com_inv_col_64", -1631231808)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(40.000, 24.000, 96.000);
+	SeqNo(-1631231808);
+	Team(0);
+	NetworkId(-1);
+	Layer(5);
+}
+
+Object("", "com_inv_col_16", -987404662)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(8.000, 8.000, 48.000);
+	SeqNo(-987404662);
+	Team(0);
+	NetworkId(-1);
+	Layer(5);
+}
+
+Object("", "com_inv_col_64", -34846945)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-88.000, 24.000, 96.000);
+	SeqNo(-34846945);
+	Team(0);
+	NetworkId(-1);
+	Layer(5);
+}

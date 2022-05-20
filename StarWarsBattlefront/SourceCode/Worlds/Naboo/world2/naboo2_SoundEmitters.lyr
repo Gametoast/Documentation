@@ -1,0 +1,502 @@
+Version(3);
+SaveType(0);
+
+Camera("camera")
+{
+	Rotation(0.712, 0.702, -0.004, 0.004);
+	Position(-233.401, 125.518, 133.566);
+	FieldOfView(55.400);
+	NearPlane(1.000);
+	FarPlane(2000.000);
+	ZoomFactor(1.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(-263.512, -11.113, -84.265,  0.150, 0.148, -0.697, 0.685);
+}
+TerrainName("naboo2.ter");
+SkyName("naboo2.sky");
+ScriptName("DummyScript.dll");
+ControllerManager("StandardCtrlMgr");
+
+WorldExtents()
+{
+	Min(0.000000, 0.000000, 0.000000);
+	Max(0.000000, 0.000000, 0.000000);
+}
+
+NextSequence(-212167);
+
+Object("lightstream23", "com_snd_amb_static", 5570345)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-60.238, -53.045, 101.119);
+	SeqNo(5570345);
+	Team(0);
+	NetworkId(-1);
+	Layer(5);
+	Sound("canal");
+	MinDistance("15.0");
+	MaxDistance("100.0");
+}
+
+Object("lightstream2", "com_snd_amb_static", 60761970)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-310.972, -53.992, 98.037);
+	SeqNo(60761970);
+	Team(0);
+	NetworkId(-1);
+	Layer(5);
+	Sound("canal");
+	MinDistance("15.0");
+	MaxDistance("100.0");
+}
+
+Object("stream2", "com_snd_amb_static", 101812568)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-183.870, -53.000, 47.402);
+	SeqNo(101812568);
+	Team(0);
+	NetworkId(-1);
+	Layer(5);
+	Sound("canal");
+	MinDistance("15.0");
+	MaxDistance("100.0");
+}
+
+Object("lightstream30", "com_snd_amb_static", 104525644)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-189.447, -53.872, 173.071);
+	SeqNo(104525644);
+	Team(0);
+	NetworkId(-1);
+	Layer(5);
+	Sound("canal");
+	MinDistance("15.0");
+	MaxDistance("100.0");
+}
+
+Object("lightstream6", "com_snd_amb_static", 111818028)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-311.381, -53.992, 123.213);
+	SeqNo(111818028);
+	Team(0);
+	NetworkId(-1);
+	Layer(5);
+	Sound("canal");
+	MinDistance("15.0");
+	MaxDistance("100.0");
+}
+
+Object("lightstream", "com_snd_amb_static", 158408579)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-240.766, -53.045, 96.791);
+	SeqNo(158408579);
+	Team(0);
+	NetworkId(-1);
+	Layer(5);
+	Sound("canal");
+	MinDistance("15.0");
+	MaxDistance("100.0");
+}
+
+Object("lightstream5", "com_snd_amb_static", 216681777)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-284.552, -53.992, 128.069);
+	SeqNo(216681777);
+	Team(0);
+	NetworkId(-1);
+	Layer(5);
+	Sound("canal");
+	MinDistance("15.0");
+	MaxDistance("100.0");
+}
+
+Object("fountain2", "com_snd_amb_static", 364940929)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-271.914, -46.689, -79.330);
+	SeqNo(364940929);
+	Team(0);
+	NetworkId(-1);
+	Layer(5);
+	Sound("fountain");
+	MinDistance("25.0");
+	MaxDistance("100.0");
+}
+
+Object("stream", "com_snd_amb_static", 458018408)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-216.018, -53.000, 83.723);
+	SeqNo(458018408);
+	Team(0);
+	NetworkId(-1);
+	Layer(5);
+	Sound("canal");
+	MinDistance("1");
+	MaxDistance("40");
+}
+
+Object("fountain4", "com_snd_amb_static", 645779297)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-8.971, -48.000, -85.404);
+	SeqNo(645779297);
+	Team(0);
+	NetworkId(-1);
+	Layer(5);
+	Sound("fountain");
+	MinDistance("25.0");
+	MaxDistance("100.0");
+}
+
+Object("lightstream32", "com_snd_amb_static", 783479359)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-137.797, -53.899, 154.416);
+	SeqNo(783479359);
+	Team(0);
+	NetworkId(-1);
+	Layer(5);
+	Sound("canal");
+	MinDistance("15.0");
+	MaxDistance("100.0");
+}
+
+Object("lightstream22", "com_snd_amb_static", 991843520)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-64.483, -53.961, 150.530);
+	SeqNo(991843520);
+	Team(0);
+	NetworkId(-1);
+	Layer(5);
+	Sound("canal");
+	MinDistance("15.0");
+	MaxDistance("100.0");
+}
+
+Object("lightstream17", "com_snd_amb_static", 1207489036)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-76.421, -53.976, 126.007);
+	SeqNo(1207489036);
+	Team(0);
+	NetworkId(-1);
+	Layer(5);
+	Sound("canal");
+	MinDistance("15.0");
+	MaxDistance("100.0");
+}
+
+Object("fountain", "com_snd_amb_static", 1444028687)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-300.234, -47.369, -19.993);
+	SeqNo(1444028687);
+	Team(0);
+	NetworkId(-1);
+	Layer(5);
+	Sound("fountain");
+	MinDistance("25.0");
+	MaxDistance("100.0");
+}
+
+Object("lightstream12", "com_snd_amb_static", 1626496915)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-259.472, -53.992, 113.247);
+	SeqNo(1626496915);
+	Team(0);
+	NetworkId(-1);
+	Layer(5);
+	Sound("canal");
+	MinDistance("15.0");
+	MaxDistance("100.0");
+}
+
+Object("lightstream18", "com_snd_amb_static", 1764654414)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-93.096, -53.932, 148.830);
+	SeqNo(1764654414);
+	Team(0);
+	NetworkId(-1);
+	Layer(5);
+	Sound("canal");
+	MinDistance("15.0");
+	MaxDistance("100.0");
+}
+
+Object("lightstream25", "com_snd_amb_static", 1791483175)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-113.668, -53.932, 167.587);
+	SeqNo(1791483175);
+	Team(0);
+	NetworkId(-1);
+	Layer(5);
+	Sound("canal");
+	MinDistance("15.0");
+	MaxDistance("100.0");
+}
+
+Object("lightstream7", "com_snd_amb_static", 2037847449)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-300.320, -53.035, 147.496);
+	SeqNo(2037847449);
+	Team(0);
+	NetworkId(-1);
+	Layer(5);
+	Sound("canal");
+	MinDistance("15.0");
+	MaxDistance("100.0");
+}
+
+Object("lightstream31", "com_snd_amb_static", 2048738084)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-166.887, -53.872, 157.349);
+	SeqNo(2048738084);
+	Team(0);
+	NetworkId(-1);
+	Layer(5);
+	Sound("canal");
+	MinDistance("15.0");
+	MaxDistance("100.0");
+}
+
+Object("lightstream27", "com_snd_amb_static", -2126510358)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-213.415, -53.932, 132.659);
+	SeqNo(-2126510358);
+	Team(0);
+	NetworkId(-1);
+	Layer(5);
+	Sound("canal");
+	MinDistance("15.0");
+	MaxDistance("100.0");
+}
+
+Object("stream1", "com_snd_amb_static", -2118868332)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-201.096, -53.000, 60.252);
+	SeqNo(-2118868332);
+	Team(0);
+	NetworkId(-1);
+	Layer(5);
+	Sound("canal");
+	MinDistance("15.0");
+	MaxDistance("100.0");
+}
+
+Object("lightstream9", "com_snd_amb_static", -2112587649)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-279.350, -53.313, 167.534);
+	SeqNo(-2112587649);
+	Team(0);
+	NetworkId(-1);
+	Layer(5);
+	Sound("canal");
+	MinDistance("15.0");
+	MaxDistance("100.0");
+}
+
+Object("lightstream28", "com_snd_amb_static", -2014475608)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-214.449, -53.932, 157.447);
+	SeqNo(-2014475608);
+	Team(0);
+	NetworkId(-1);
+	Layer(5);
+	Sound("canal");
+	MinDistance("15.0");
+	MaxDistance("100.0");
+}
+
+Object("stream4", "com_snd_amb_static", -1953220935)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-132.945, -53.000, 59.747);
+	SeqNo(-1953220935);
+	Team(0);
+	NetworkId(-1);
+	Layer(5);
+	Sound("canal");
+	MinDistance("15.0");
+	MaxDistance("100.0");
+}
+
+Object("lightstream10", "com_snd_amb_static", -1930461965)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-250.595, -53.994, 146.732);
+	SeqNo(-1930461965);
+	Team(0);
+	NetworkId(-1);
+	Layer(5);
+	Sound("canal");
+	MinDistance("15.0");
+	MaxDistance("100.0");
+}
+
+Object("lightstream33", "com_snd_amb_static", -1894120906)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-142.063, -53.992, 132.031);
+	SeqNo(-1894120906);
+	Team(0);
+	NetworkId(-1);
+	Layer(5);
+	Sound("canal");
+	MinDistance("15.0");
+	MaxDistance("100.0");
+}
+
+Object("lightstream24", "com_snd_amb_static", -1618980263)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-92.370, -53.045, 98.005);
+	SeqNo(-1618980263);
+	Team(0);
+	NetworkId(-1);
+	Layer(5);
+	Sound("canal");
+	MinDistance("15.0");
+	MaxDistance("100.0");
+}
+
+Object("lightstream29", "com_snd_amb_static", -1401726500)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-232.847, -53.289, 169.886);
+	SeqNo(-1401726500);
+	Team(0);
+	NetworkId(-1);
+	Layer(5);
+	Sound("canal");
+	MinDistance("15.0");
+	MaxDistance("100.0");
+}
+
+Object("fountain5", "com_snd_amb_static", -1349482864)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-38.900, -48.000, 18.732);
+	SeqNo(-1349482864);
+	Team(0);
+	NetworkId(-1);
+	Layer(5);
+	Sound("fountain");
+	MinDistance("25.0");
+	MaxDistance("100.0");
+}
+
+Object("stream6", "com_snd_amb_static", -686750874)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-112.432, -53.954, 115.846);
+	SeqNo(-686750874);
+	Team(0);
+	NetworkId(-1);
+	Layer(5);
+	Sound("canal");
+	MinDistance("15.0");
+	MaxDistance("100.0");
+}
+
+Object("lightstream1", "com_snd_amb_static", -410958020)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-281.352, -53.045, 96.982);
+	SeqNo(-410958020);
+	Team(0);
+	NetworkId(-1);
+	Layer(5);
+	Sound("canal");
+	MinDistance("15.0");
+	MaxDistance("100.0");
+}
+
+Object("stream3", "com_snd_amb_static", -329632403)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-153.625, -53.970, 47.429);
+	SeqNo(-329632403);
+	Team(0);
+	NetworkId(-1);
+	Layer(5);
+	Sound("canal");
+	MinDistance("15.0");
+	MaxDistance("100.0");
+}
+
+Object("stream5", "com_snd_amb_static", -173941322)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-120.173, -53.000, 83.146);
+	SeqNo(-173941322);
+	Team(0);
+	NetworkId(-1);
+	Layer(5);
+	Sound("canal");
+	MinDistance("15.0");
+	MaxDistance("100.0");
+}
+
+Object("fountain3", "com_snd_amb_static", -107697455)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-36.077, -48.000, -111.120);
+	SeqNo(-107697455);
+	Team(0);
+	NetworkId(-1);
+	Layer(5);
+	Sound("fountain");
+	MinDistance("25.0");
+	MaxDistance("100.0");
+}
+
+Object("lightstream20", "com_snd_amb_static", -89887313)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-79.342, -53.932, 167.877);
+	SeqNo(-89887313);
+	Team(0);
+	NetworkId(-1);
+	Layer(5);
+	Sound("canal");
+	MinDistance("15.0");
+	MaxDistance("100.0");
+}
+
+Object("stream7", "com_snd_amb_static", -85387074)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-220.298, -53.932, 109.170);
+	SeqNo(-85387074);
+	Team(0);
+	NetworkId(-1);
+	Layer(5);
+	Sound("canal");
+	MinDistance("15.0");
+	MaxDistance("100.0");
+}

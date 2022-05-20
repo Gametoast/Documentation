@@ -1,0 +1,50 @@
+[GameObjectClass]
+ClassLabel = "armedbuilding"
+GeometryName = "hoth_bldg_minigun_turret.msh"
+
+[Properties]
+BUILDINGSECTION = "BODY"
+
+Label = "Minigun Turret"
+StatusTexture = "HUD_all_minigun_icon"
+IconTexture		= "HUD_all_lascannon_icon"
+MapTexture = "turret_icon"
+MapScale = "1.2"
+GeometryName = "hoth_bldg_minigun_turret"
+ExplosionName	=	"hoth_bldg_minigun_turret_exp"
+DestroyedGeometryName = "hoth_bldg_minigun_turret_dest"
+RespawnTime = 50.0
+MaxHealth = "500.0"
+
+BUILDINGSECTION = "TURRET1"
+
+YawLimits = "-40 40"
+PitchLimits = "-10.0 20.0"
+
+PCMaxTurnSpeed	= "20.0"
+PCaxPitchSpeed	= "20.0"
+
+EyePointOffset 		= "0.0 0.0 0.0"
+TrackOffset 		= "0.0 0.5 3.6"
+TurretNodeName = "turret_y"
+PilotPosition = "hp_active"
+PilotAnimation = "man_minigun"
+
+	TURRETSECTION = "TURRET1"
+	
+	WeaponName = "hoth_weap_bldg_minigun"
+	WeaponAmmo = "5"	//"2"
+	MaxTurnSpeed = "4.0"
+	MaxPitchSpeed = "2.0"
+	PCMaxTurnSpeed	= "20.0"
+	PCaxPitchSpeed	= "20.0"
+	
+	AimerNodeName = "trigger" 
+
+	BarrelNodeName = "barrel"
+	BarrelLength = "2.0"
+	BarrelRecoil = "0.0"
+	
+FoleyFXGroup    = "metal_foley"
+
+

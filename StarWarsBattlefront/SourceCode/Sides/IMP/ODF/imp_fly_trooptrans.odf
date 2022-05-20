@@ -1,0 +1,168 @@
+[GameObjectClass]
+ClassLabel          = "flyer"
+GeometryName            = "imp_fly_trooptrans.msh"
+
+[Properties]
+FLYERSECTION            = "BODY"
+
+Label               = "Lamda Shuttle"
+MapTexture          = "trooptrans_icon"
+HealthTexture           = "HUD_imp_trooptrans_icon"
+VehiclePosition         = "common.vehiclepositions.pilot"
+MapScale            = 1.5
+
+GeometryName            = "imp_fly_trooptrans"
+AnimationName           = "imp_fly_trooptrans"
+FirstPerson             = "IMP\impimplc;imp_1st_cockpit_landingcraft"
+CollisionScale          = 30.0
+
+CockpitTension      = 18
+
+MaxHealth           = 5000.0
+HealthType          = "vehicle"
+//HitLocation           = "p_crithit 1.5"
+
+VehicleCollision        = "p_base"
+
+BuildingCollision       = "p_frontsphere"
+BuildingCollision       = "p_leftbacksphere"
+BuildingCollision       = "p_rightbacksphere"
+
+TerrainCollision        = "p_frontsphere"
+TerrainCollision        = "p_leftbacksphere"
+TerrainCollision        = "p_rightbacksphere"
+
+OrdnanceCollision       = "p_wing_R"
+OrdnanceCollision       = "p_wing_L"
+
+SoldierCollision        = "p_wing_R"
+SoldierCollision        = "p_wing_L"
+
+DamageStartPercent      = 60.0
+DamageStopPercent       = 20.0
+DamageEffect            = "vehiclespark"
+DamageEffectScale       = 1.0
+DamageInheritVelocity       = 0.75
+DamageAttachPoint       = "hp_damage_1"
+
+DamageStartPercent      = 60.0
+DamageStopPercent       = 20.0
+DamageEffect            = "vehiclespark"
+DamageEffectScale       = 1.0
+DamageInheritVelocity       = 0.75
+DamageAttachPoint       = "hp_damage_2"
+
+DamageStartPercent      = 60.0
+DamageStopPercent       = 20.0
+DamageEffect            = "vehiclespark"
+DamageEffectScale       = 1.0
+DamageInheritVelocity       = 0.75
+DamageAttachPoint       = "hp_damage_3"
+
+DamageStartPercent      = 30.0
+DamageStopPercent       = 20.0
+DamageEffect            = "vehiclesmoke"
+DamageEffectScale       = 1.0
+DamageInheritVelocity       = 0.75
+DamageAttachPoint       = "hp_damage_1"
+
+DamageStartPercent      = 19.0
+DamageStopPercent       = 0.0
+DamageEffect            = "vehicleflame"
+DamageEffectScale       = 1.0
+DamageInheritVelocity       = 0.75
+DamageAttachPoint       = "hp_damage_1"
+
+CHUNKSECTION        = "CHUNK1"
+ChunkGeometryName   = "imp_fly_trooptrans_chunk1"
+ChunkNodeName       = ""
+ChunkTerrainCollisions  = "0"
+ChunkTerrainEffect  = "explosion"
+ChunkPhysics        = "FULL"
+ChunkOmega      = "2.0 2.0 2.5"
+ChunkBounciness         = 0.45
+ChunkStickiness         = 0.25
+ChunkSpeed      = "10.0"
+ChunkUpFactor       = "4.00"
+ChunkTrailEffect        = "mediumsmoketrail"
+ChunkSmokeEffect    = "smokeplume"
+ChunkSmokeNodeName  = "hp_smoke2"
+
+CHUNKSECTION        = "CHUNK2"
+ChunkGeometryName   = "imp_fly_trooptrans_chunk2"
+ChunkNodeName       = ""
+ChunkTerrainCollisions  = "0"
+ChunkTerrainEffect  = "explosion"
+ChunkPhysics        = "FULL"
+ChunkOmega      = "2.0 2.5 2.3"
+ChunkBounciness         = 0.45
+ChunkStickiness         = 0.25
+ChunkSpeed      = "12.0"
+ChunkUpFactor       = "3.00"
+ChunkTrailEffect        = "mediumsmoketrail"
+ChunkSmokeEffect    = "smokeplume"
+ChunkSmokeNodeName  = "hp_smoke1"
+
+CHUNKSECTION        = "CHUNK3"
+ChunkGeometryName   = "imp_fly_trooptrans_chunk3"
+ChunkNodeName       = ""
+ChunkTerrainCollisions  = "0"
+ChunkTerrainEffect  = "explosion"
+ChunkPhysics        = "FULL"
+ChunkOmega      = "2.0 2.5 1.0"
+ChunkBounciness         = 0.45
+ChunkStickiness         = 0.25
+ChunkSpeed      = "12.0"
+ChunkUpFactor       = "8.00"
+ChunkTrailEffect        = "mediumsmoketrail"
+ChunkSmokeEffect    = "smokeplume"
+ChunkSmokeNodeName  = "hp_smoke1"
+
+//ExplosionCritical     = "imp_fly_trooptrans_exp"
+ExplosionDestruct       = "imp_fly_trooptrans_exp"
+
+Acceleraton             = 10.0
+MinSpeed            = 20.0
+MaxSpeed            = 52.0
+
+//PCPitchRate       = 15.0
+//PCSpinRate        = 15.0
+//PCTurnRate        = 25.0
+
+
+
+PitchRate           = 1.75
+PitchFilter             = 2.75
+TurnRate            = 1.75
+TurnFilter          = 2.75
+BankAngle           = 0.9
+BankFilter          = 2.5
+LevelFilter             = 5.0
+
+TakeoffTime             = 6.0
+TakeoffSpeed            = 3.0
+LandingTime             = 2.0
+LandingSpeed            = 5.0
+TakeoffHeight           = 10.0
+
+EyePointOffset          = "0.0 0.0 0.0"
+TrackCenter             = "0.0 3.0 -18.0"
+TrackOffset             = "0.0 3.0 4.0"
+TiltValue           = "-2.0"
+
+AimTension          = "30.0"
+MoveTension         = "4.5"
+
+EngineSound         = ""
+TakeoffSound        = ""
+LandSound           = ""
+HurtSound           = ""
+DeathSound          = "com_weap_obj_med_exp"
+TurnOnSound         = ""
+TurnOffSound        = ""
+Music               = ""
+ImpMusic        = "imp_vehicle"
+AllMusic        = "all_vehicle"
+MusicSpeed          = ".15"
+MusicDelay          = "3.0"
+FoleyFXGroup            = "metal_foley"

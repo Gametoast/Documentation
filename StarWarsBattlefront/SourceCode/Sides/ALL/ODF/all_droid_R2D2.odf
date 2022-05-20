@@ -1,0 +1,23 @@
+[GameObjectClass]
+ClassLabel = "droid"
+GeometryName = "all_droid_r2d2.msh"
+
+[Properties]
+Label = "R2D2"
+
+GeometryName = "all_droid_r2d2"
+ExplosionName = "all_droid_R2D2_exp"
+MaxHealth = 50.0
+SetAltitude = 0.0
+Acceleraton = 15.0
+MaxSpeed = 2.0
+MaxStrafeSpeed = 0.0
+MaxTurnSpeed = 0.6
+WeaponName = "all_weap_inf_fusioncutter"
+WeaponAmmo = 5
+CameraHeight = 2.3
+CameraDistance = 4.5
+
+TrackOffset = "0.0 0.0 4.5"
+NormalDirection = "0.0"
+AimValue = "1.0"

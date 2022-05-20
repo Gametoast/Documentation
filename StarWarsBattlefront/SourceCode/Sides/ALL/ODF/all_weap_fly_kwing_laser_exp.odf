@@ -1,0 +1,23 @@
+[ExplosionClass]
+ClassLabel = "explosion"
+
+[Properties]
+WaterEffect 	= "watersplash_md"
+
+Damage = "100.0"
+DamageRadius = "3.0"
+
+Shake 		  	= "0.2"
+ShakeRadius = "5.0"
+
+Push = "17.5"
+PushRadius = "1.0"
+Effect = "small_explosion"
+
+VehicleScale		= "0.50"
+ShieldScale		= "0.75"
+PersonScale		= "1.0"
+DroidScale		= "1.0"
+BuildingScale		= "1.0"
+
+SoundProperty="com_weap_obj_small_exp"

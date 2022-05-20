@@ -1,0 +1,36 @@
+[WeaponClass]
+ClassLabel 			= "weapon"
+
+[Properties]
+Label				= "Blaster Cannon"
+ReticuleTexture			= "reticule_rifle"
+MuzzleFlash			= ""
+Discharge			= ""
+
+RoundsPerClip 			= "0"
+ReloadTime 			= "0.0"
+
+HeatRecoverRate			= "0.3"
+HeatThreshold			= "0.8"
+HeatPerShot			= "0.040"
+
+
+OrdnanceName 			= "bes_weap_fly_cloudcar_cannon_ord"
+
+ShotDelay 			= "0.2"
+LockTime 			= "0.5"
+MinSpread			= "0.00"
+MaxSpread			= "0.02"
+
+SalvoCount			= "2"
+//RoundsPerSalvo		= "1"
+SalvoDelay			= "0.0"
+InitialSalvoDelay		= "0.0"
+
+FireSound       		= "bes_weap_fly_cloudcar_cannon_fire"
+//ReloadSound     		= "laserreload"
+//WeaponChangeSound = "com_weap_inf_laser_weaponchange"
+
+MinRange		= "0"
+OptimalRange		= "100"
+MaxRange		= "200"

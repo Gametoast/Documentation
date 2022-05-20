@@ -1,0 +1,81 @@
+[WeaponClass]
+ClassLabel 			= "weapon"
+
+[Properties]
+
+Label				= "RP60 Turrets"
+IconTexture			= "IMP_blasterrifle_icon"
+
+MuzzleFlash			= "med_muzzle_flash"
+Discharge			= "med_smoke_effect"
+FlashLightColor 		= "255 192 192 175"
+FlashLightRadius 		= "4.0"
+FlashLightDuration 		= "0.25"
+ReticuleTexture			= "reticule_rifle"
+
+RoundsPerClip 			= "0"
+ReloadTime 			= "0.0"
+
+HeatPerShot			= "0.275"
+HeatRecoverRate			= "0.38"
+HeatThreshold			= "0.02"
+
+//ZoomMin			= "2.0"
+//ZoomMax			= "2.0"
+//ZoomRate			= "0.0"
+
+FireSound       		= "imp_weap_walk_atst_cannon_head_fire"
+//ReloadSound     		= "laserreload"
+//WeaponChangeSound 		= "com_weap_inf_laser_weaponchange"
+
+OverheatSound      		= "com_weap_energy_depleted"
+OverheatSoundPitch 		= "0.5"
+OverheatStopSound   		= "com_weap_energy_refilled"
+
+
+ModeTexture			= "HUD_weap_fullauto"
+OrdnanceName 			= "imp_weap_walk_atst_cannon_head_ord"
+
+TriggerSingle			= "0"
+ShotDelay 			= "0.45"
+
+
+YawSpread			= "0.1"
+PitchSpread			= "0.1"
+//KickSpread			= "0.15"
+//SpreadThreshold		= "1.6"
+//SpreadRecover			= "3.0"
+
+SpreadPerShot			= "0.0"
+SpreadRecoverRate		= "1.0"
+SpreadThreshold			= "0.9"
+SpreadLimit			= "0.1"
+
+
+KickStrength			= "0.1"
+KickBuildup			= "100.0"
+
+LockOnRange			= "120.0"
+LockTime 			= "0.4"
+AutoAimSize			= "1.0"
+
+SalvoCount			= "1"
+ShotsPerSalvo			= "1"
+SalvoDelay			= "0.0"
+InitialSalvoDelay		= "0.0"
+SalvoTime			= "0.0"
+
+TargetEnemy			= "1"
+TargetNeutral			= "0"
+TargetFriendly			= "0"
+
+TargetPerson			= "1"
+TargetAnimal			= "1"
+TargetDroid			= "1"
+TargetVehicle			= "1"
+TargetBuilding			= "1"
+
+RecoilLengthHeavy       	= "0.1"
+RecoilStrengthLight     	= "1"
+RecoilLengthLight      	 	= "0.1"
+RecoilStrengthHeavy     	= "1"

@@ -1,0 +1,59 @@
+[WeaponClass]
+
+ClassLabel 			= "cannon"
+
+[Properties]
+//***********************************************
+//*************PROTON BOMBS**********************
+//***********************************************
+
+//***********************************************
+//**************TARGET & RANGE VALUES************
+//***********************************************
+TargetEnemy			= "1"
+TargetNeutral			= "0"
+TargetFriendly			= "0"
+
+TargetPerson			= "0"
+TargetAnimal			= "0"
+TargetDroid			= "0"
+TargetVehicle			= "1"
+TargetBuilding			= "0"
+
+MinRange			= "25"
+OptimalRange			= "75"
+MaxRange			= "150"
+
+//***********************************************
+//***********  HUD & CONTROLLER VALUES  *********
+//***********************************************
+Label 				= "Proton Bombs"
+OrdnanceName 			= "all_weap_fly_ywing_bomb_ord"
+MuzzleFlash			= ""
+Discharge			= ""
+ModeTexture			= "HUD_weap_scope"
+IconTexture			= "IMP_launcher_icon"
+ReticuleTexture			= "reticule_rocket"
+//***********************************************
+//************WEAPON PERFORMANCE VALUES**********
+//***********************************************
+ShotDelay			= "4.5"
+RoundsPerClip 			= "24"
+ReloadTime 			= "4.5"
+
+SalvoCount			= "5.0"
+SalvoDelay			= ".5"
+
+//************************************************
+//**********************SOUND*********************
+//************************************************
+
+FireSound       		= "imp_weap_fly_tiebomber_bomb_fire"
+//ReloadSound     		= "vehicle_reload"
+
+
+RecoilLengthLight     	 	= "0.2"
+RecoilStrengthLight     	= "1"
+
+RecoilLengthHeavy      		= "0.3"
+RecoilStrengthHeavy     	= "1"

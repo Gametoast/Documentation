@@ -1,0 +1,65 @@
+[WeaponClass]
+ClassLabel          = "dispenser"
+
+[Properties]
+GeometryName        = "rep_weap_inf_landmine"
+HighResGeometry         = "rep_1st_weap_inf_landmine"
+
+IconTexture         = "HUD_com_landmine_icon"
+
+RoundsPerClip           = "1"
+ReloadTime          = "0.75"
+
+AnimationBank           = "grenade"
+
+WEAPONSECTION           = 1
+
+//FireSound             = "dispense1"
+//ReloadSound           = "cannonreload"
+//ChangeModeSound           = "com_weap_inf_dispenser_modechange"
+//FireEmptySound            = "com_weap_inf_weapon_empty"
+
+ModeTexture         = "HUD_weap_mine"
+//ModeTextureColor      = "42 235 42 100"
+ReticuleTexture         = "reticule_00"
+OrdnanceName            = "com_weap_inf_landmine"
+
+ShotDelay           = "0.0"
+MaxItems            = "4.0"
+
+AutoAimSize         = "1.0"
+
+SalvoCount          = "1"
+SalvoDelay          = "0.0"
+InitialSalvoDelay       = "0.0"
+
+MinStrength         = "0.3"
+MaxStrength         = "0.4"
+
+WEAPONSECTION           = 2
+
+ModeTexture         = "HUD_weap_mine_defused"
+//ModeTextureColor      = "42 235 42 100"
+ReticuleTexture         = "reticule_00"
+
+FireSound           = "com_weap_throw"
+FireEmptySound      = "com_weap_inf_ammo_empty"
+FireLoopSound       = ""
+//ReloadSound         = "rep_weap_inf_equip_med"
+ChargeSound         = ""
+ChargeSoundPitch    = ""
+ChangeModeSound     = "rep_weap_inf_equip_med"
+WeaponChangeSound   = "rep_weap_inf_equip_med"
+OverheatSound       = ""
+OverheatSoundPitch  = ""
+OverheatStopSound   = ""
+ClankLeftWalkSound  = ""
+ClankRightWalkSound = ""
+ClankLeftRunSound   = ""
+ClankRightRunSound  = ""
+JumpSound           = ""
+LandSound           = ""
+RollSound           = ""
+ProneSound          = ""
+SquatSound          = ""
+StandSound          = ""

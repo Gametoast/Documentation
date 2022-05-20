@@ -1,0 +1,154 @@
+[WeaponClass]
+ClassLabel 		= "cannon"
+
+[Properties]
+IconTexture		= "HUD_imp_rifle_icon"
+
+GeometryName 		= "imp_weap_inf_rifle"
+HighResGeometry         = "imp_1st_weap_inf_rifle"
+
+MuzzleFlash		= "small_muzzle_flash"
+FlashLightColor 	= "255 192 192 175"
+FlashLightRadius 	= "2.0"
+FlashLightDuration 	= "0.25"
+
+Discharge		= "small_smoke_effect"
+
+AnimationBank		= "rifle"
+FirePointName		= "hp_fire"
+
+RoundsPerClip 		= "200"
+ReloadTime 		= "1.75"
+
+//HeatRecoverRate		= "0.15"
+//HeatThreshold		= "0.3"
+
+ZoomMin			= "3.0"
+ZoomMax			= "3.0"
+ZoomRate		= "0.0"
+
+WEAPONSECTION		= 1
+
+//FireSound		= "com_weap_inf_blaster_red2"
+//ReloadSound     	= "laserreload"
+//ChangeModeSound 	= "com_weap_inf_blaster_rifle_modechange"
+//FireEmptySound		= "com_weap_inf_weapon_empty"
+//WeaponChangeSound 	= "com_weap_inf_laser_weaponchange"
+
+ModeTexture		= "HUD_weap_fullauto"
+OrdnanceName 		= "imp_weap_droid_probe_blaster_ord"
+
+TriggerSingle		= "0"
+ShotDelay 		= "0.2"
+//HeatPerShot		= "0.05"
+
+YawSpread		= "0.5"
+PitchSpread		= "0.5"
+KickSpread		= "0.65"
+SpreadRecover		= "3.0"
+
+StandStillSpread	= "0.0"
+StandMoveSpread		= "0.30"
+CrouchStillSpread	= "0.0"
+CrouchMoveSpread	= "0.15"
+ProneStillSpread	= "0.0"
+ProneMoveSpread		= "0.0"
+
+KickStrength		= "1.0"
+KickBuildup		= "100.0"
+
+MinRange		= "32"
+OptimalRange		= "48"
+MaxRange		= "128"
+
+LockOnRange		= "100.0"
+LockTime 		= "0.4"
+AutoAimSize		= "1.0"
+
+SalvoCount		= "1"
+ShotsPerSalvo		= "1"
+SalvoDelay		= "0.0"
+InitialSalvoDelay	= "0.0"
+SalvoTime		= "0.0"
+
+TargetEnemy		= "1"
+TargetNeutral		= "0"
+TargetFriendly		= "0"
+
+TargetPerson		= "1"
+TargetAnimal		= "1"
+TargetDroid		= "1"
+TargetVehicle		= "0"
+TargetBuilding		= "0"
+
+WEAPONSECTION		= 2
+
+//FireSound		= "com_weap_inf_blaster_red2"
+//ReloadSound     	= "laserreload"
+//ChangeModeSound 	= "com_weap_inf_blaster_rifle_modechange"
+//FireEmptySound		= "com_weap_inf_weapon_empty"
+
+ModeTexture		= "HUD_weap_salvo"
+OrdnanceName 		= "imp_weap_droid_probe_blaster_ord"
+
+TriggerSingle		= "0"
+
+ShotDelay 		= "0.5"
+//HeatPerShot		= "0.08"
+
+//MaxPressedTime		= "n/a"
+
+PitchSpread		= "0.25"
+YawSpread		= "0.25"
+
+MinRange		= "2"
+OptimalRange		= "24"
+MaxRange		= "40"
+
+KickSpread		= "0.65"
+SpreadRecover		= "5.0"
+
+StandStillSpread	= "0.0"
+StandMoveSpread		= "0.30"
+CrouchStillSpread	= "0.0"
+CrouchMoveSpread	= "0.15"
+ProneStillSpread	= "0.0"
+ProneMoveSpread		= "0.0"
+
+KickStrength		= "1.0"
+KickBuildup		= "5.0"
+
+LockOnRange		= "100.0"
+LockTime 		= "0.4"
+AutoAimSize		= "1.0"
+
+SalvoCount		= "3"
+ShotsPerSalvo		= "1"
+SalvoDelay		= "0.1"
+InitialSalvoDelay	= "0.0"
+SalvoTime		= "0.0"
+
+TargetEnemy		= "1"
+TargetNeutral		= "0"
+TargetFriendly		= "0"
+
+TargetPerson		= "1"
+TargetAnimal		= "1"
+TargetDroid		= "1"
+TargetVehicle		= "0"
+TargetBuilding		= "0"
+
+//ChargeRateLight         	= "n/a"
+//MaxChargeStrengthLight  	= "n/a"
+//ChargeDelayLight        	= "n/a"
+//ChargeRateHeavy         	= "n/a"
+//MaxChargeStrengthHeavy  	= "n/a"
+//ChargeDelayHeavy        	= "n/a"
+
+//RecoilLengthLight       	= "n/a"
+//RecoilLengthHeavy       	= "n/a"
+//RecoilStrengthLight     	= "n/a"
+//RecoilStrengthHeavy     	= "n/a"
+
+
+

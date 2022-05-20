@@ -1,0 +1,43 @@
+[OrdnanceClass]
+
+ClassLabel 			= "bolt"
+
+//***************************************
+//**********LIGHT PULSE LASER************
+//***************************************
+[Properties]
+
+//***************************************
+//**********VISUAL EFFECTS***************
+//***************************************
+LaserTexture			= "orangelaser_D"
+LaserLength			= "22.5"
+GlowLength 			= 15
+BlurLength 			= 15
+LaserWidth			= "2.0"
+LaserGlowColor			= "249 42 42 100"
+
+//ImpactEffect			= "med_cannon_impacts"
+ImpactEffectWater 		= "watersplash_sm"
+ExplosionName			= "all_weap_fly_xwing_cannon_exp"
+
+//***************************************
+//**********SPEED AND DAMAGE*************
+//***************************************
+LifeSpan 			= "1.5"
+Velocity 			= "600.0"
+Gravity				= "0.1"
+Rebound				= "0.0"
+
+MaxDamage 			= "180"
+
+VehicleScale			= "1.0"
+ShieldScale			= "1.0"
+BuildingScale			= "0.5"
+
+//***************************************
+//**********SOUND************************
+//***************************************
+
+OrdnanceSound  = "com_weap_inf_ord_hum_lg"
+CollisionSound = "imp_weap_ord_exp"

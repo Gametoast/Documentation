@@ -1,0 +1,126 @@
+[GameObjectClass]
+ClassLabel 				= "soldier"
+GeometryName 			= "imp_inf_vader.msh"
+
+[Properties]
+FootWaterSplashEffect 	= "watersplash_sm"
+WaterSplashEffect 	= "watersplash_md"
+WakeWaterSplashEffect	= "watersplash_wade"
+
+UnitType				= "assault"
+MapTexture 				= "troop_icon"
+MapScale 				= 1.4
+
+GeometryName 			= "imp_inf_vader"
+GeometryLowRes			= "imp_inf_vader_low1"
+SkeletonName			= "imp_darthvader"
+AnimationName 			= "all_inf_snowtrooper"
+SkeletonRootScale		= "1.14"
+
+HealthType				= "person"
+MaxHealth 				= 1000000.0
+AddHealth				= 1000000.0
+
+CapturePosts			= 0
+
+Acceleraton 		= 70.0
+MaxSpeed 		= 6.5
+MaxStrafeSpeed 		= 4.5
+MaxTurnSpeed 		= 4.0
+
+WeaponName1 			= "imp_weap_lightsaber"
+WeaponAmmo1 			= 0
+//WeaponName2 			= "imp_weap_inf_forcechoke"
+//WeaponAmmo2 			= 0
+//WeaponChannel2		= 1
+
+AimFactorPostureSpecial 	= 50
+AimFactorPostureStand 		= 100
+AimFactorPostureCrouch 		= 140
+AimFactorPostureProne 		= 160
+AimFactorStrafe 			= 60
+AimFactorMove 			= 70
+
+CAMERASECTION 		= "STAND"
+
+EyePointOffset 		= "0.0 1.8 0.0"
+TrackCenter		= "0.0 1.8 0.0
+TrackOffset 		= "0.0 0.0 3.5"
+TiltValue		= "5.0"
+
+CAMERASECTION 		= "STANDZOOM"
+
+EyePointOffset 		= "0.0 1.8 0.0"
+TrackCenter		= "0.0 1.8 0.0
+TrackOffset 		= "0.4 0.05 2.8"
+TiltValue		= "3.5"
+
+CAMERASECTION 		= "CROUCH"
+
+EyePointOffset 		= "0.0 1.3 0.0"
+TrackCenter		= "0.0 1.3 0.0
+TrackOffset 		= "0.0 0.15 3.5"
+TiltValue		= "5.0"
+
+CAMERASECTION 		= "CROUCHZOOM"
+
+EyePointOffset 		= "0.0 1.3 0.0"
+TrackCenter		= "0.0 1.3 0.0
+TrackOffset 		= "0.4 0.2 2.8"
+TiltValue		= "3.5"
+
+CAMERASECTION 		= "PRONE"
+
+EyePointOffset 		= "0.0 0.5 0.0"
+TrackCenter 		= "0.0 0.5 0.0"
+TrackOffset 		= "0.0 0.0 3.0"
+TiltValue		= "5.0"
+
+CAMERASECTION 		= "PRONEZOOM"
+
+EyePointOffset 		= "0.0 0.5 0.0"
+TrackCenter 		= "0.0 0.5 0.0"
+TrackOffset 		= "0.4 0.2 2.8"
+TiltValue		= "3.5"
+
+
+AimValue 				= "1.0"
+
+//HurtSound               	= "imp_inf_com_chatter_wound"
+//DeathSound              	= "imp_inf_com_chatter_death"
+AcquiredTargetSound     	= ""
+HidingSound             	= ""
+ApproachingTargetSound  	= ""
+FleeSound               	= ""
+PreparingForDamageSound 	= ""
+HeardEnemySound         	= ""
+ShockFadeOutTime        	= ""
+ShockFadeInTime         	= ""
+ShockFadeOutGain        	= ""
+ShockSound              	= ""
+ClothingRustleSound     	= ""
+LowHealthSound          	= "imp_inf_vo_darth_breath"
+LowHealthThreshold      	= "1.0"
+AmbientSound			= "com_inf_saber_ambient"
+FoleyFXClass            = "imp_inf_soldier"
+
+NoEnterVehicles		= 1
+
+AISizeType		= "SOLDIER"
+
+DropItemClass = "com_item_powerup_ammo"
+DropItemProbability = 0.20
+NextDropItem = "-"
+DropItemClass = "com_item_powerup_health25"
+DropItemProbability = 0.05
+NextDropItem = "-"
+DropItemClass = "com_item_powerup_health100"
+DropItemProbability = 0.0
+
+
+AnimatedAddon			= "CAPE"
+
+GeometryAddon			= "imp_inf_vader_cape"
+AnimationAddon			= "imp_inf_vader_cape"
+AddonAttachJoint		= "bone_ribcage"
+

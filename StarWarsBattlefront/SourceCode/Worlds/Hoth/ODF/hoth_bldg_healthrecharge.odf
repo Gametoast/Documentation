@@ -1,0 +1,19 @@
+[GameObjectClass]
+ClassLabel = "powerupstation"
+GeometryName = "hoth_bldg_healthrecharge.msh"
+
+
+[Properties]
+Label = "Bacta Dispenser"
+MapTexture = "HUD_healthrecharge_icon"
+MapScale = "1.0"
+
+GeometryName = "hoth_bldg_healthrecharge"
+
+PowerupDelay = "1.0"  //<delay time, default 0.5>
+SoldierHealth =  "15.0"  //<health to add, default 0.0>
+FoleyFXGroup    = "metal_foley"
+
+[InstanceProperties]
+EffectRegion = ""
+Radius = 0.0

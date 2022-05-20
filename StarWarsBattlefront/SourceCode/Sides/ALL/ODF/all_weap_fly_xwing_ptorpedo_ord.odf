@@ -1,0 +1,40 @@
+[OrdnanceClass]
+ClassLabel          = "missile"
+
+[Properties]
+//***************************************
+//*************PROTON TORPEDOS***********
+//***************************************
+
+//***************************************
+//**********VISUAL EFFECTS***************
+//***************************************
+OrdnanceEffect          = "all_proton_torpedo"
+ImpactEffectWater       = "watersplash_lg"
+TrailEffect         = "ProtonTorpedo"
+
+ExplosionName           = "all_weap_fly_xwing_ptorpedo_exp"
+
+//***************************************
+//**********RANGE AND DAMAGE*************
+//***************************************
+LifeSpan            = "6.0"
+Velocity            = "130.0"
+Gravity             = "1.2"
+Rebound             = "0.0"
+TurnRate            = "6.0"
+
+MaxDamage           = "450.0"
+
+DamageRadius            = "5.0"
+
+VehicleScale            = "1.0"
+
+
+//************************************
+//***************SOUND****************
+//************************************
+
+OrdnanceSound       = "com_weap_inf_ord_hum_rocket"
+CollisionSound      = "com_veh_laser_imp_exp"
+//LockedOnSound     = "com_weap_launcher_missile_guided"

@@ -1,0 +1,129 @@
+SkyInfo()
+{
+	Enable(1);
+		PS2()
+	{
+		NearSceneRange(0.700000, 100.000000, 150.000000);
+		FarSceneRange(0.000000);
+		AmbientColor(100, 110, 100);
+		CharacterAmbientColor(140, 140, 120);
+		VehicleAmbientColor(120, 120, 100);
+		FogRamp(3);
+	}
+	XBOX()
+	{
+		NearSceneRange(0.700000, 160.000000, 200.000000);
+		FarSceneRange(400.000000);
+		AmbientColor(90,100,90);
+		TopDirectionalAmbientColor(130,140,130);
+		BottomDirectionalAmbientColor(70,90,70);
+
+	}
+	PC()
+	{
+		NearSceneRange(50.0, 180.0, 60.0, 220.0);
+		FarSceneRange(160.000000, 400.0);
+		AmbientColor(90,100,90);
+		TopDirectionalAmbientColor(130,140,130);
+		BottomDirectionalAmbientColor(70,90,70);
+	}
+}
+
+SunInfo()
+{
+	PS2()
+	{
+		Angle(140.000000, -10.000000);
+		Color(255, 255, 255);
+	}
+	XBOX()
+	{
+		Angle(140.000000, -10.000000);
+		Color(255, 255, 255);
+	}
+	PC()
+	{
+		Angle(140.000000, -10.000000);
+		Color(255, 255, 255);
+	}
+
+	Texture("");
+	Degree(0.000000);
+	BackAngle(210, 0.000000);
+	BackColor(0, 0, 0);
+	BackDegree(0.000000);
+
+}
+
+FlatInfo()
+{
+	Height(0.000000, 0.000000);
+	Texture("");
+	Color(128, 128, 128, 255);
+	Modulate(0);
+	TextureSpeed(0.000000, 0.000000);
+	TileSize(100.000000);
+}
+
+DomeInfo()
+{
+	Texture("sky_endor.tga");
+	Angle(-90.000000);
+	Ambient(255.000000, 255.000000, 255.000000);
+	Filter(1);
+	Threshold(150);	
+	Intensity(50);	
+	TerrainColorDarkening();
+
+	Softness(1);
+	SoftnessParam(60);
+	
+
+	DomeModel()
+	{	
+		Geometry("end1_sky_dome");
+	}
+	DomeModel()
+	{	
+		Geometry("end_sky_dome_sat");
+		Offset(130.0);
+		MovementScale(0.992);
+	}
+	DomeModel()
+	{	
+		Geometry("end_sky_dome_trees");
+		Offset(95.0);
+		MovementScale(0.992);
+	}
+	DomeModel()
+	{	
+		Geometry("end_sky_dome_death");
+		Offset(130.0);
+		MovementScale(0.992);
+	}
+	LowResTerrain()
+	{
+		Texture("end1_lowresterrain");
+		PatchResolution(5);
+		TextureScale(19.0);
+		PS2()
+		{
+			FogNear(90.0);
+			FogFar(350.0);
+			FogColor(144,153,156);
+		}
+		XBOX()
+		{
+			FogNear(90.0);
+			FogFar(450.0);
+			FogColor(170,170,170);
+		}
+		PC()
+		{
+			FogNear(90.0);
+			FogFar(450.0);
+			FogColor(170,170,170);
+		}
+	}
+}
+

@@ -1,0 +1,17 @@
+[GameObjectClass]
+
+ClassLabel		=	"prop"
+GeometryName	=	"kas1_prop_torch.msh"
+
+
+[Properties]
+
+GeometryName	=	"kas1_prop_torch"
+
+VehicleCollisionOnly	=	"p_vehicle1"
+
+//SoundProperty = "com_amb_fire"
+AttachEffect = "torchflame"
+
+
+AttachToHardPoint = "hp_light1"

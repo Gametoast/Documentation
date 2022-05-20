@@ -1,0 +1,24 @@
+[GameObjectClass]
+ClassLabel = "prop"
+GeometryName = "geo_prop_war_room_table.msh"
+
+[Properties]
+Label = "Table"
+GeometryName = "geo_prop_war_room_table"
+
+AttachOdf   = "geolight"
+
+AttachToHardPoint  = "hp_light_a"
+
+AttachOdf = "geo_prop_godray"
+
+AttachToHardPoint = "hp_godray_1"
+
+AttachToHardPoint = "hp_godray_2"
+
+AttachToHardPoint = "hp_godray_3"
+
+AttachToHardPoint = "hp_godray_4"
+
+SoundProperty   = ""
+FoleyFXGroup    = "metal_foley"

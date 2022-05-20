@@ -1,0 +1,44 @@
+[OrdnanceClass]
+
+ClassLabel 			= "bolt"
+
+//***************************************
+//**********MEDIUM PULSE LASER************
+//***************************************
+[Properties]
+
+//***************************************
+//**********VISUAL EFFECTS***************
+//***************************************
+LaserTexture			= "greenlaser_L"
+LaserLength			= "4.0"
+GlowLength 			= 4
+BlurLength 			= 4
+LaserWidth			= "0.175"
+LaserGlowColor			= "61 252 56 100 100"
+
+ImpactEffect			= "med_cannon_impacts"
+ImpactEffectWater 		= "watersplash_sm"
+ExplosionName			= "all_weap_hover_hovernaut_blaster_exp"
+
+//***************************************
+//**********SPEED AND DAMAGE*************
+//***************************************
+LifeSpan 			= "7.0"
+Velocity 			= "70.0"
+Gravity				= "1.0"
+Rebound				= "0.0"
+
+MaxDamage 			= "450.0"
+
+VehicleScale			= "0.7"
+ShieldScale			= "1.0"
+PersonScale			= "1.0"
+DroidScale			= "1.0"
+BuildingScale			= "0.3"
+
+//***************************************
+//**********SOUND************************
+//***************************************
+
+OrdnanceSound		= "com_weap_inf_ord_hum_lg"

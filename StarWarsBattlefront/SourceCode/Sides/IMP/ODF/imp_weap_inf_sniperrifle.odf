@@ -1,0 +1,107 @@
+[WeaponClass]
+ClassLabel 		= "cannon"
+
+[Properties]
+AnimationBank		= "rifle"
+GeometryName 		= "imp_weap_inf_sniperrifle"
+HighResGeometry         = "imp_1st_weap_inf_sniperrifle"
+
+//***********************************************
+//*************	TARGET & RANGE VALUES  **********
+//***********************************************
+
+TargetEnemy		= "1"
+TargetNeutral		= "0"
+TargetFriendly		= "0"
+
+TargetPerson		= "1"
+TargetAnimal		= "1"
+TargetDroid		= "1"
+TargetVehicle		= "0"
+TargetBuilding		= "0"
+
+MinRange		= "32"
+OptimalRange		= "64"
+MaxRange		= "128"
+
+LockOnRange		= "0.0"
+LockTime 		= "0.0"
+LockOnAngle		= "1.0"
+
+SniperScope		= 1
+ZoomFirstPerson		= 1
+ZoomMin			= "6.0"
+ZoomMax			= "6.0"
+ZoomRate		= "0.0"
+
+YawSpread		= "0.0"
+PitchSpread		= "0.0"
+
+KickStrength		= "2.0"
+
+SpreadPerShot		= "1.1"
+SpreadRecoverRate	= "4.8"
+SpreadThreshold		= "1.6"
+SpreadLimit		= "6.0"
+
+StandStillSpread	= "0.0"
+StandMoveSpread		= "0.0"
+CrouchStillSpread	= "0.0"
+CrouchMoveSpread	= "0.0"
+ProneStillSpread	= "0.0"
+ProneMoveSpread		= "0.0"
+
+//***********************************************
+//*********** WEAPON PERFORMANCE VALUES *********
+//***********************************************
+
+RoundsPerClip 		= "6"
+ReloadTime 		= "2.0"
+ShotDelay 		= "1.0"
+TriggerSingle		= "1"
+MaxPressedTime		= "0.0"
+
+SalvoCount		= "1"
+SalvoDelay		= "0.0"
+InitialSalvoDelay	= "0.0"
+SalvoTime		= "0.0"
+
+OrdnanceName 		= "imp_weap_inf_sniperrifle_ord"
+FirePointName		= "hp_fire"
+
+//***********************************************
+//***********  HUD & CONTROLLER VALUES  *********
+//***********************************************
+
+IconTexture		= "IMP_sniperrifle_icon"
+ModeTexture		= "HUD_weap_semiauto"
+ReticuleTexture		= "reticule_sniper"
+ScopeTexture	= "weapon_scope3"
+
+MuzzleFlash		= "small_muzzle_flash"
+FlashColor 		= "255 80 80 255"
+FlashLength 		= 0.025
+FlashLightColor 	= "255 192 192 175"
+FlashLightRadius 	= "2.0"
+FlashLightDuration 	= "0.25"
+Discharge		= "small_smoke_effect"
+
+//************************************************
+//*******************   SOUND    *****************
+//************************************************
+
+FireSound       	= "imp_weap_inf_sniperrifle_fire"
+ReloadSound     	= "imp_weap_inf_reload_med"
+ChangeModeSound 	= "imp_weap_inf_equip_med"
+FireEmptySound		= "com_weap_inf_ammo_empty"
+WeaponChangeSound 	= "imp_weap_inf_equip_med"
+ClankLeftWalkSound  = ""
+ClankRightWalkSound = ""
+ClankLeftRunSound   = ""
+ClankRightRunSound  = ""
+JumpSound           = "imp_weap_inf_sniperrifle_mvt_jump"
+LandSound           = "imp_weap_inf_sniperrifle_mvt_land"
+RollSound           = "imp_weap_inf_sniperrifle_mvt_roll"
+ProneSound          = "imp_weap_inf_sniperrifle_mvt_squat"
+SquatSound          = "imp_weap_inf_sniperrifle_mvt_lie"
+StandSound          = "imp_weap_inf_sniperrifle_mvt_getup"

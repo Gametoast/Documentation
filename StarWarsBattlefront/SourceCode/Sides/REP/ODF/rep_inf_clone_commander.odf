@@ -1,0 +1,157 @@
+
+
+[GameObjectClass]
+
+ClassLabel 			= "soldier"
+GeometryName 		= "rep_inf_arctrooper.msh"
+
+
+[Properties]
+FootWaterSplashEffect 	= "watersplash_sm"
+WaterSplashEffect 	= "watersplash_md"
+WakeWaterSplashEffect	= "watersplash_wade"
+
+Label 				= "Arch Trooper"
+UnitType			= "support"
+IconTexture 		= "rep_trooper_icon"
+MapTexture 			= "troop_icon"
+MapScale 			= 1.4
+
+GeometryName 		= "rep_inf_arctrooper"
+GeometryLowRes			= "rep_inf_arctrooper_low1"
+FirstPerson 		= "REP\reptroop;rep_1st_trooper"
+FirstPersonFOV			= "70"
+ThirdPersonFOV			= "65"
+AnimationName		= "all_inf_snowtrooper"
+
+OverrideTexture		= "rep_inf_arc_red"
+OverrideTexture2	= "rep_inf_arc_pack_red"
+
+CAMERASECTION 		= "STAND"
+
+EyePointOffset 		= "0.0 1.8 0.0"
+TrackCenter		= "0.0 1.8 0.0
+TrackOffset 		= "0.0 0.0 3.5"
+TiltValue		= "5.0"
+
+CAMERASECTION 		= "STANDZOOM"
+
+EyePointOffset 		= "0.0 1.8 0.0"
+TrackCenter		= "0.0 1.8 0.0
+TrackOffset 		= "0.4 0.05 2.8"
+TiltValue		= "3.5"
+
+CAMERASECTION 		= "CROUCH"
+
+EyePointOffset 		= "0.0 1.3 0.0"
+TrackCenter		= "0.0 1.3 0.0
+TrackOffset 		= "0.0 0.15 3.5"
+TiltValue		= "5.0"
+
+CAMERASECTION 		= "CROUCHZOOM"
+
+EyePointOffset 		= "0.0 1.3 0.0"
+TrackCenter		= "0.0 1.3 0.0
+TrackOffset 		= "0.4 0.2 2.8"
+TiltValue		= "3.5"
+
+CAMERASECTION 		= "PRONE"
+
+EyePointOffset 		= "0.0 0.5 0.0"
+TrackCenter 		= "0.0 0.5 0.0"
+TrackOffset 		= "0.0 0.0 3.0"
+TiltValue		= "5.0"
+
+CAMERASECTION 		= "PRONEZOOM"
+
+EyePointOffset 		= "0.0 0.5 0.0"
+TrackCenter 		= "0.0 0.5 0.0"
+TrackOffset 		= "0.4 0.2 2.8"
+TiltValue		= "3.5"
+
+MaxHealth 			= 300.0
+
+Acceleraton 		= 70.0
+MaxSpeed 		= 6.5
+MaxStrafeSpeed 		= 4.5
+MaxTurnSpeed 		= 4.0
+
+WeaponName1 		= "rep_weap_inf_grenade_launcher"
+WeaponAmmo1 		= 5
+WeaponName2 		= "rep_weap_inf_pistol"
+WeaponAmmo2 		= 3
+WeaponName3 		= "rep_weap_inf_powerup_dispenser"
+WeaponAmmo3 		= 1
+WeaponChannel3		= 1
+
+
+AimFactorPostureSpecial = 50
+AimFactorPostureStand 	= 100
+AimFactorPostureCrouch 	= 140
+AimFactorPostureProne 	= 160
+AimFactorStrafe 		= 60
+AimFactorMove 			= 70
+
+HurtSound				= "rep_inf_com_chatter_wound"
+DeathSound              = "rep_inf_com_chatter_death"
+AcquiredTargetSound     = "rep_inf_com_chatter_acquired"
+HidingSound             = "rep_inf_com_chatter_hide"
+ApproachingTargetSound  = "rep_inf_com_chatter_approach"
+FleeSound               = "rep_inf_com_chatter_flee"
+PreparingForDamageSound = "rep_inf_com_chatter_predamage"
+HeardEnemySound         = "rep_inf_com_chatter_heard"
+ShockFadeOutTime        = ""
+ShockFadeInTime         = ""
+ShockFadeOutGain        = ""
+ShockSound              = ""
+ClothingRustleSound     = ""
+LowHealthSound          = ""
+LowHealthThreshold      = ".25"
+FoleyFXClass            = "rep_inf_trooper"
+
+// squad command VO
+SCFieldMoveOutSound		= "rep_inf_com_chatter_tac_moveout"
+SCFieldHoldSound		= "rep_inf_com_chatter_tac_hold"
+SCFieldFollowSound		= "rep_inf_com_chatter_tac_follow"
+SCDriverGetInSound		= "rep_inf_com_chatter_tac_needgunner"
+SCDriverGetOutSound		= "rep_inf_com_chatter_tac_moveout"
+SCPassengerMoveOutSound	= "rep_inf_com_chatter_tac_spreadout"
+SCPassengerStopSound	= "rep_inf_com_chatter_tac_stop"
+SCPassengerGetInSound	= "rep_inf_com_chatter_tac_needgunner"
+SCPassengerGetOutSound	= "rep_inf_com_chatter_tac_moveout"
+SCGunnerAllClearSound	= "rep_inf_com_chatter_tac_allclear"
+SCGunnerSteadySound		= "rep_inf_com_chatter_tac_stop"
+SCGunnerGetInSound		= "rep_inf_com_chatter_tac_needgunner"
+SCGunnerGetOutSound		= "rep_inf_com_chatter_tac_moveout"
+SCResponseYessirSound	= "rep_inf_com_chatter_tac_yes"
+SCResponseNosirSound	= "rep_inf_com_chatter_tac_no"
+//ChargeSound				= "rep_inf_com_chatter_tac_charge"
+
+// AI squad command VO
+AISCFieldMoveOutSound		= "ai_rep_inf_com_chatter_tac_moveout"
+AISCFieldHoldSound			= "ai_rep_inf_com_chatter_tac_hold"
+AISCFieldFollowSound		= "ai_rep_inf_com_chatter_tac_follow"
+AISCDriverGetInSound		= "ai_rep_inf_com_chatter_tac_needgunner"
+AISCDriverGetOutSound		= "ai_rep_inf_com_chatter_tac_moveout"
+AISCPassengerMoveOutSound	= "ai_rep_inf_com_chatter_tac_spreadout"
+AISCPassengerStopSound		= "ai_rep_inf_com_chatter_tac_stop"
+AISCPassengerGetInSound		= "ai_rep_inf_com_chatter_tac_needgunner"
+AISCPassengerGetOutSound	= "ai_rep_inf_com_chatter_tac_moveout"
+AISCGunnerAllClearSound		= "ai_rep_inf_com_chatter_tac_allclear"
+AISCGunnerSteadySound		= "ai_rep_inf_com_chatter_tac_stop"
+AISCGunnerGetInSound		= "ai_rep_inf_com_chatter_tac_needgunner"
+AISCGunnerGetOutSound		= "ai_rep_inf_com_chatter_tac_moveout"
+AISCResponseYessirSound		= "ai_rep_inf_com_chatter_tac_yes"
+AISCResponseNosirSound		= "ai_rep_inf_com_chatter_tac_no"
+AISCGunnerGetOutSound		= "ai_rep_inf_com_chatter_tac_moveout"
+
+AISizeType			= "SOLDIER"
+
+DropItemClass 			= "com_item_powerup_ammo"
+DropItemProbability 	= 0.40
+NextDropItem 			= "-"
+DropItemClass 			= "com_item_powerup_health100"
+DropItemProbability 	= 0.30
+NextDropItem 			= "-"
+DropItemClass 			= "com_item_powerup_dual"
+DropItemProbability 	= 0.10

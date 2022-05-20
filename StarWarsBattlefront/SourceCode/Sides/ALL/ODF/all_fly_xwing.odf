@@ -1,0 +1,271 @@
+[GameObjectClass]
+
+ClassLabel          = "flyer"
+GeometryName            = "all_fly_xwing.msh"
+
+[Properties]
+VehicleType         = "fighter"
+MapTexture          = "x-wing_icon"
+HealthTexture           = "HUD_all_xwing_icon"
+VehiclePosition         = "common.vehiclepositions.pilot"
+MapScale            = 1.5
+
+GeometryName            = "all_fly_xwing"
+AnimationName           = "all_fly_xwing"
+FirstPerson         = "ALL\allxwing;all_1st_cockpit_xwing"
+FirstPersonFOV          = "52" //Ideally, I'd like to see a 80 or 90 fov, with the cockpit brought down on the screen.
+CollisionScale          = "1.5"
+CollisionThreshold      = "5.0"
+MaxHealth           = 1980.0
+HealthType          = "vehicle"
+//HitLocation           = "p_crithit 1.5"
+
+PilotSkillRepairScale = 0.04
+
+PilotPosition       = "hp_active"
+PilotAnimation      = "drive"
+IsPilotExposed      = "0"
+
+
+CockpitTension          = 22
+
+//ExplosionCritical     = "all_fly_snowspeeder_exp"
+ExplosionDestruct       = "all_fly_snowspeeder_exp"
+
+Acceleraton             = 30.0
+MinSpeed            = 20.0
+MidSpeed            = 50.0
+MaxSpeed            = 82.0
+//StrafeSpeed           = 6.5
+
+//StrafeRollAngle           = 0.05
+PitchRate           = 1.0 //Max Amount of Pitch.  Larger # is higher amount.
+PitchFilter             = 2.9 // Speed of reaching Max Pitch.  Larger # is faster.
+TurnRate            = 1.25 // Max turn  //3.25 mouse!
+TurnFilter          = 5.75 // Speed of turn //5.75 mouse!
+BankAngle           = 0.7 // Max Bank
+BankFilter          = 2.5 // Speed of Bank
+LevelFilter             = 2.0 // How fast the craft levels when inverted.  Zero disables the auto-level.
+
+TakeoffTime             = 1.0
+TakeoffSpeed            = 3.0
+LandingTime             = 2.0
+LandingSpeed            = 5.0
+TakeoffHeight           = 2.5
+
+EyePointOffset      = "0.0 3.0 2.0"
+TrackCenter         = "0.0 2.0 -4.0"
+TrackOffset         = "0.0 2.0 6.0"
+TiltValue           = "5.0"
+
+AimTension          = "20.0"// 8.5 How far from the center of the screen will the reticule move.  Low is further from the center.
+MoveTension         = "4.25"//how much swim the craft has from the center of the screen
+
+
+//MoveTensionX          = "2.0"// How far from the screen will the ship move, affects acceleration and braking shift.  Low is further from the screen.
+//MoveTensionY          = "4.5 2.5"
+//MoveTensionZ          = "3.5"
+
+
+
+WEAPONSECTION           = 1
+
+WeaponName          = "all_weap_fly_xwing_cannon"
+WeaponAmmo          = "0"
+
+AimerNodeName           = "hp_laser_01"
+//FirePointName         = "hp_laser_01"
+AimerYawLimts           = "-90 90"
+AimerPitchLimts         = "-90 90"
+//BarrelLength          = "1.0"
+
+NextAimer           = "-"
+
+AimerNodeName           = "hp_laser_02"
+//FirePointName         = "hp_laser_02"
+AimerYawLimts           = "-90 90"
+AimerPitchLimts         = "-90 90"
+//BarrelLength          = "1.0"
+
+NextAimer           = "-"
+
+AimerNodeName           = "hp_laser_03"
+//FirePointName         = "hp_laser_03"
+AimerYawLimts           = "-90 90"
+AimerPitchLimts         = "-90 90"
+//BarrelLength          = "1.0"
+
+NextAimer           = "-"
+
+AimerNodeName           = "hp_laser_04"
+//FirePointName         = "hp_laser_04"
+AimerYawLimts           = "-90 90"
+AimerPitchLimts         = "-90 90"
+//BarrelLength          = "1.0"
+
+WEAPONSECTION           = 2
+
+WeaponName          = "all_weap_fly_xwing_ptorpedo"
+WeaponAmmo          = "4"
+
+AimerNodeName           = "hp_torpedo_01"
+//FirePointName         = "hp_laser_01"
+AimerYawLimts           = "-90.0 90.0"
+AimerPitchLimts         = "-90.0 90.0"
+//BarrelLength          = "1.0"
+
+NextAimer           = "-"
+
+AimerNodeName           = "hp_torpedo_02"
+//FirePointName         = "hp_laser_02"
+AimerYawLimts           = "-90.0 90.0"
+AimerPitchLimts         = "-90.0 90.0"
+//BarrelLength          = "1.0"
+
+TerrainCollision        = "p_left_sphere"
+TerrainCollision        = "p_right_sphere"
+TerrainCollision        = "p_front_sphere"
+
+VehicleCollision        = "p_left_sphere"
+VehicleCollision        = "p_right_sphere"
+VehicleCollision        = "p_front_sphere"
+
+BuildingCollision       = "p_left_sphere"
+BuildingCollision       = "p_right_sphere"
+BuildingCollision       = "p_front_sphere"
+
+SoldierCollision        = "p_wing1"
+SoldierCollision        = "p_wing2"
+SoldierCollision        = "p_wing3"
+SoldierCollision        = "p_wing4"
+
+SoldierCollision        = "p_laser1"
+SoldierCollision        = "p_laser2"
+SoldierCollision        = "p_laser3"
+SoldierCollision        = "p_laser4"
+
+OrdnanceCollision       = "p_wing1"
+OrdnanceCollision       = "p_wing2"
+OrdnanceCollision       = "p_wing3"
+OrdnanceCollision       = "p_wing4"
+
+OrdnanceCollision       = "p_laser1"
+OrdnanceCollision       = "p_laser2"
+OrdnanceCollision       = "p_laser3"
+OrdnanceCollision       = "p_laser4"
+
+CHUNKSECTION            = "CHUNK1"
+ChunkGeometryName       = "all_fly_xwing_chunk1"
+ChunkNodeName           = ""
+ChunkTerrainCollisions      = "0"
+ChunkTerrainEffect      = "explosion"
+ChunkPhysics            = "FULL"
+ChunkOmega          = "2.0 1.0 1.5"
+ChunkBounciness         = 0.45
+ChunkStickiness         = 0.25
+ChunkSpeed          = "10.0"
+ChunkUpFactor           = "0.00"
+ChunkTrailEffect        = "mediumsmoketrail"
+
+CHUNKSECTION            = "CHUNK2"
+ChunkGeometryName       = "all_fly_xwing_chunk2"
+ChunkNodeName           = "main_backdoor_R"
+ChunkTerrainCollisions      = "2"
+ChunkTerrainEffect      = "dirtspray"
+ChunkPhysics            = "FULL"
+ChunkOmega          = "2.0 0.5 2.0"
+ChunkBounciness         = 0.45
+ChunkStickiness         = 0.25
+ChunkSpeed          = "8.0"
+ChunkUpFactor           = "0.00"
+ChunkTrailEffect        = "mediumsmoketrail"
+
+ChunkSmokeEffect        = "smokeplume"
+ChunkSmokeNodeName      = "hp_smoke1"
+
+CHUNKSECTION            = "CHUNK3"
+ChunkGeometryName       = "all_fly_xwing_chunk3"
+ChunkNodeName           = ""
+ChunkTerrainCollisions      = "3"
+ChunkTerrainEffect      = "dirtspray"
+ChunkTrailEffect        = "mediumsmoketrail"
+ChunkPhysics            = "FULL"
+ChunkOmega          = "3.0 1.0 2.0"
+ChunkSpeed          = "9.0"
+
+ThrustEffect            = "exhaust_xwing"
+ThrustAttachPoint       = "xwing_bl_hatch3"
+ThrustAttachOffset      = "0.7501 0.3673 -2.5559"
+ThrustEffectMinScale        = "0.95"
+ThrustEffectMaxScale        = "1.5"
+ThrustEffectScaleStart      = "0.85"
+
+ThrustEffect            = "exhaust_xwing"
+ThrustAttachPoint       = "xwing_br_hatch3"
+ThrustAttachOffset      = "-0.7501 0.3673 -2.5559"
+ThrustEffectMinScale        = "0.95"
+ThrustEffectMaxScale        = "1.5"
+ThrustEffectScaleStart      = "0.85"
+
+ThrustEffect            = "exhaust_xwing"
+ThrustAttachPoint       = "xwing_bl_hatch4"
+ThrustAttachOffset      = "0.7501 -0.3673 -2.5559"
+ThrustEffectMinScale        = "0.95"
+ThrustEffectMaxScale        = "1.5"
+ThrustEffectScaleStart      = "0.85"
+
+ThrustEffect            = "exhaust_xwing"
+ThrustAttachPoint       = "xwing_br_hatch4"
+ThrustAttachOffset      = "-0.7501 -0.3673 -2.5559"
+ThrustEffectMinScale        = "0.95"
+ThrustEffectMaxScale        = "1.5"
+ThrustEffectScaleStart      = "0.85"
+
+DamageStartPercent      = 65.0
+DamageStopPercent       = 30.0
+DamageEffect            = "vehiclespark"
+DamageEffectScale       = 1.0
+DamageInheritVelocity       = 0.75
+DamageAttachPoint       = "hp_damage_2"
+
+DamageStartPercent      = 65.0
+DamageStopPercent       = 30.0
+DamageEffect            = "vehiclespark"
+DamageEffectScale       = 1.0
+DamageInheritVelocity       = 0.75
+DamageAttachPoint       = "hp_damage_3"
+
+DamageStartPercent      = 50.0
+DamageStopPercent       = 20.0
+DamageEffect            = "vehiclesmoke"
+DamageEffectScale       = 1.0
+DamageInheritVelocity       = 0.75
+DamageAttachPoint       = "hp_damage_1"
+
+DamageStartPercent      = 10.0
+DamageStopPercent       = 0.0
+DamageEffect            = "vehicleflame"
+DamageEffectScale       = 1.0
+DamageInheritVelocity       = 0.75
+DamageAttachPoint       = "hp_damage_1"
+
+DamageStartPercent      = 50.0
+DamageStopPercent       = 30.0
+DamageEffect            = "smokeplume"
+DamageAttachPoint       = "hp_smoke_1"
+
+EngineSound             = "all_fly_xwing_engine_parameterized"
+TakeoffSound            = "r2_take_off"
+LandSound               = "r2_land"
+HurtSound               = "r2_damage"
+DeathSound              = "imp_weap_ord_exp_lg"
+VehicleCollisionSound   = "com_veh_collision_lg"
+TurnOnSound             = "r2_turn_on"
+TurnOffSound            = ""
+TurnOffTime             = ""
+TurningOffSound         = "r2_turn_off"
+AllMusic                = "all_vehicle"
+ImpMusic            = "imp_vehicle"
+MusicSpeed              = "0.15"
+MusicDelay              = "3.0"
+FoleyFXGroup    = "metal_foley"

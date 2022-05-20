@@ -1,0 +1,100 @@
+[GameObjectClass]
+ClassLabel 			= "flyer"
+GeometryName 		= "imp_fly_tiefighter_DOME.msh"
+
+[Properties]
+
+FLYERSECTION 		= "BODY"
+VehicleType 		= "fighter"
+Label 			= "TIE Fighter"
+MapTexture 			= "speeder_icon"
+StatusTexture		= "HUD_imp_tiefighter_icon"
+MapScale 			= 1.5
+
+GeometryName 		= "imp_fly_tiefighter"
+CollisionScale 		= 0.25
+
+MaxHealth 			= "1200.0"
+
+DamageStartPercent	= 60.0
+DamageStopPercent		= 20.0
+DamageEffect		= "vehiclespark"
+DamageEffectScale		= 1.0
+DamageInheritVelocity	= 0.75
+DamageAttachPoint		= "hp_damage_2"
+
+DamageStartPercent	= 30.0
+DamageStopPercent		= 20.0
+DamageEffect		= "vehiclesmoke"
+DamageEffectScale		= 1.0
+DamageInheritVelocity	= 0.75
+DamageAttachPoint		= "hp_damage_1"
+
+DamageStartPercent	= 19.0
+DamageStopPercent		= 0.0
+DamageEffect		= "vehicleflame"
+DamageEffectScale		= 1.0
+DamageInheritVelocity	= 0.75
+DamageAttachPoint		= "hp_damage_1"
+
+ExplosionCritical		= "imp_fly_tiefighter_exp"
+ExplosionDestruct		= "imp_fly_tiefighter_exp"
+
+Acceleraton 		= 30.0
+MinSpeed 			= 30.0
+MaxSpeed 			= 50.0
+
+PitchRate 			= 1.75
+PitchFilter 		= 2.75
+TurnRate 			= 1.75
+TurnFilter 			= 2.75
+BankAngle 			= 0.9 //0.75
+BankFilter 			= 2.5
+LevelFilter 		= 5.0
+
+TakeoffTime 		= 1.0
+TakeoffSpeed 		= 3.0
+LandingTime 		= 2.0
+LandingSpeed 		= 5.0
+
+TrackCenter 		= "0.0 15 4.0"
+TrackOffset 		= "0.0 -10.0 18.0"
+//				= "0.0 0.0 5.0"
+TiltValue			= "0.0"
+
+AimTension			= "30.0"
+MoveTension			= "4.5"
+
+
+WeaponName 			= "imp_weap_fly_tiefighter_cannon"
+WeaponAmmo 			= "20"
+
+AimerNodeName		= "hp_fire_1"
+AimerPitchLimits		= "-20 20"
+AimerYawLimits		= "-20 20"
+
+NextAimer			= "-"
+
+AimerNodeName		= "hp_fire_2"
+AimerPitchLimits		= "-20 20"
+AimerYawLimits		= "-20 20"
+
+TerrainCollision 		= "p_collision_wingR"
+TerrainCollision 		= "p_collision_wingL"
+
+//BuildingCollision 	  = "p_buildingsphere"
+
+SoldierCollision 		= "p_collision_wingR"
+SoldierCollision 		= "p_collision_wingL"
+SoldierCollision 		= "p_collision_arms"
+SoldierCollision 		= "p_collision_cockpit"
+
+VehicleCollision 		= "p_collision_wingR"
+VehicleCollision 		= "p_collision_wingL"
+VehicleCollision 		= "p_collision_arms"
+VehicleCollision 		= "p_collision_cockpit"
+
+OrdnanceCollision 	= "p_collision_wingR"
+OrdnanceCollision 	= "p_collision_wingL"
+OrdnanceCollision 	= "p_collision_arms"
+OrdnanceCollision 	= "p_collision_cockpit"

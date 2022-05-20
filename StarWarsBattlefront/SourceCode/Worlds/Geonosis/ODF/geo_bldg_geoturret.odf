@@ -1,0 +1,68 @@
+[GameObjectClass]
+ClassLabel              = "armedbuilding"
+GeometryName            = "geo_bldg_geoturret.msh"
+
+[Properties]
+
+BUILDINGSECTION         = "BODY"
+
+Label                   = "Geonosian Turret"
+MapTexture              = "turret_icon"
+IconTexture             = "HUD_all_lascannon_icon"
+MapScale                = "1.2"
+HealthTexture           = "HUD_geo_turret_icon"
+GeometryName            = "geo_bldg_geoturret"
+DestroyedGeometryName   = "geo_bldg_geoturret_dest"
+RespawnTime             = 30.0
+MaxHealth               = "1250.0"
+
+
+
+BUILDINGSECTION         = "TURRET1"
+
+PitchLimits             = "-45 15"
+YawLimits           = "-180 180"
+
+PitchTurnFactor         = "0.0"
+
+EyePointOffset          = "0.0 2.5 0.0"
+TrackCenter             = "0.0 0.0 -2.0"
+TrackOffset		= "0.0 3.2 0.0
+TurretNodeName          = "aimer_y"
+
+PilotPosition       = "hp_active"
+//PilotAnimation        = "man_gun"
+Pilot9Pose      = "minigun_9pose"
+
+
+TurretYawSound         = "turret_whir_yaw_lp"
+TurretYawSoundPitch    = "0.7"
+TurretPitchSound       = "turret_whir_pitch_lp"
+TurretPitchSoundPitch   = "0.7"
+TurretAmbientSound     = ""
+TurretActivateSound    = "vehicle_equip"
+TurretDeactivateSound  = ""
+TurretStartSound       = ""
+TurretStopSound        = ""
+
+TURRETSECTION           = "TURRET1"
+  
+WeaponName              = "geo_weap_bldg_geoturret"
+WeaponAmmo              = "0"   //"2"
+AimerNodeName           = "aimer_x"
+MaxTurnSpeed        	= "1.85"
+MaxPitchSpeed       	= "0.75"
+
+BarrelNodeName          = "barrel"
+BarrelLength            = "4.0"
+FirePointName           = "hp_cannon_1"
+FirstPerson             = "com\comunive;com_1st_scope_universal"
+    
+DamageStartPercent      = 50.0
+DamageStopPercent       = 30.0
+DamageEffect            = "vehiclespark"
+
+DamageStartPercent      = 30.0
+DamageStopPercent       = 0.0
+DamageEffect            = "smokeplume"
+DamageAttachPoint       = "hp_smoke_1"

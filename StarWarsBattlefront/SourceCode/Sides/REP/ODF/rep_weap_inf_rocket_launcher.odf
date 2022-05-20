@@ -1,0 +1,83 @@
+[WeaponClass]
+ClassLabel 		= "cannon"
+
+[Properties]
+IconTexture		= "HUD_all_lascannon_icon"
+
+GeometryName 		= "com_weap_inf_torpedo"
+HighResGeometry   	= "com_1st_weap_inf_torpedo"
+
+Discharge		= "small_smoke_effect"
+MuzzleFlash		= "med_muzzle_flash"
+
+FlashColor 		= "20 130 255 255"
+FlashLength 		= "0.025"
+FlashLightColor 	= "120 220 255 175"
+
+RoundsPerClip 		= "2"
+ReloadTime 		= "2.25"
+HeatRecoverRate		= "0.15"
+HeatThreshold		= "0.3"
+HideOnFire              = "0"
+
+ZoomMin			= "2.0"
+ZoomMax			= "2.0"
+ZoomRate		= "0.0"
+
+AnimationBank		= "rifle"
+FirePointName		= "hp_fire"
+
+FireSound       	= "cis_weap_inf_rocket_fire"
+FireEmptySound		= "com_weap_inf_ammo_empty"
+FireLoopSound		= ""
+ReloadSound     	= "rep_weap_inf_reload_lg"
+ChangeModeSound		= "rep_weap_inf_equip_lg"
+WeaponChangeSound	= "rep_weap_inf_equip_lg"
+ClankLeftWalkSound  	= ""
+ClankRightWalkSound 	= ""
+ClankLeftRunSound   	= ""
+ClankRightRunSound  	= ""
+JumpSound           	= "rep_weap_inf_grenadelauncher_mvt_jump"
+LandSound           	= "rep_weap_inf_grenadelauncher_mvt_land"
+RollSound           	= "rep_weap_inf_grenadelauncher_mvt_roll"
+ProneSound          	= "rep_weap_inf_grenadelauncher_mvt_squat"
+SquatSound          	= "rep_weap_inf_grenadelauncher_mvt_lie"
+StandSound          	= "rep_weap_inf_grenadelauncher_mvt_getup"
+
+ModeTexture		= "HUD_weap_impact"
+ReticuleTexture		= "reticule_rocket"
+ScopeTexture	= "weapon_scope2"
+
+OrdnanceName 		= "rep_weap_inf_rocket_launcher_ord"
+
+TriggerSingle		= "1"
+ShotDelay 		= "1.5"
+//HeatPerShot		= "0.5"
+
+ShotElevate		= "0.0"
+PitchSpread		= "0.0"
+YawSpread		= "0.0"
+
+LockOnRange		= "0.0"
+LockTime 		= "0.0"
+AutoAimSize		= "1.0"
+
+SalvoCount		= "1"
+ShotsPerSalvo		= "1"
+SalvoDelay		= "0.0"
+InitialSalvoDelay	= "0.0"
+SalvoTime		= "0.0"
+
+TargetEnemy		= "1"
+TargetNeutral		= "0"
+TargetFriendly		= "0"
+
+TargetPerson		= "1"
+TargetAnimal		= "1"
+TargetDroid		= "1"
+TargetVehicle		= "0"
+TargetBuilding		= "0"
+
+RecoilLengthHeavy       = "1.5"
+RecoilStrengthHeavy     = "1"
+RecoilDecayHeavy        = ".75"

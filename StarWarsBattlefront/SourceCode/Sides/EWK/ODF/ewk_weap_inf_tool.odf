@@ -1,0 +1,53 @@
+[WeaponClass]
+ClassLabel 			= "repair"
+
+[Properties]
+IconTexture			= "IMP_fusioncutter_icon"
+
+//MuzzleFlashEffect		= "repairkit"
+//Discharge			= "small_smoke_effect"
+
+GeometryName 		= "ewk_spear"
+
+RoundsPerClip 			= "-1"
+ReloadTime 			= "0.0"
+HeatRecoverRate			= "0.16"
+HeatThreshold			= "0.7"
+
+AnimationBank			= "tool"
+//FirePointName			= "hp_fire"
+
+WEAPONSECTION			= 1
+
+ModeTexture			= "HUD_weap_repair"
+//ModeTextureColor		= "42 235 42 100"
+//ReticuleTexture		= "reticule_00"
+
+ShotDelay 			= 0.25
+TriggerSingle			= "0"
+HeatPerShot			= "0.030"
+
+TargetEnemy			= "0"
+TargetNeutral			= "1"
+TargetFriendly			= "1"
+
+TargetPerson			= "0"
+TargetAnimal			= "0"
+TargetDroid			= "1"
+TargetVehicle			= "1"
+TargetBuilding			= "1"
+
+LockOnRange			= 6.0
+LockOnAngle			= 30.0
+
+VehicleHealth			= 30
+BuildingHealth			= 30
+BuildingBuild			= 15
+BuildingRebuild			= 10
+DroidHealth			= 30
+
+RecoilLengthLight       	= "0.2"
+RecoilLengthHeavy       	= "0.1"
+RecoilStrengthLight     	= "1"
+RecoilStrengthHeavy     	= "1"
+		

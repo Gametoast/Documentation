@@ -1,0 +1,153 @@
+[GameObjectClass]
+ClassLabel 		= "soldier"
+GeometryName		= "wok_inf_wookie.msh"
+
+[Properties]
+FootWaterSplashEffect 	= "watersplash_sm"
+WaterSplashEffect 	= "watersplash_md"
+WakeWaterSplashEffect	= "watersplash_wade"
+
+UnitType		= "trooper"
+IconTexture 		= "all_sapper_icon"
+MapTexture 		= "troop_icon"
+MapScale 		= 1.4
+
+GeometryName 		= "wok_inf_wookie"
+SkeletonName		= "all_inf_wookie"
+AnimationName 		= "all_inf_snowtrooper"
+GeometryLowRes	    = "wok_inf_wookie_low1"
+SkeletonLowRes	    = "all_inf_wookie_lowres"
+
+OverrideTexture		= "wookie02"
+OverrideTexture2		= "wookieface02"
+
+SkeletonRootScale	= "1.15"
+CollisionRootScale	= "1.15"
+
+CAMERASECTION 		= "STAND"
+
+EyePointOffset 		= "0.0 1.8 0.0"
+TrackCenter		= "0.0 1.8 0.0
+TrackOffset 		= "0.0 0.0 3.5"
+TiltValue		= "7.5"
+
+CAMERASECTION 		= "STANDZOOM"
+
+EyePointOffset 		= "0.0 1.8 0.0"
+TrackCenter		= "0.0 1.8 0.0
+TrackOffset 		= "0.4 0.05 2.8"
+TiltValue		= "3.5"
+
+CAMERASECTION 		= "CROUCH"
+
+EyePointOffset 		= "0.0 1.3 0.0"
+TrackCenter		= "0.0 1.3 0.0
+TrackOffset 		= "0.0 0.15 3.5"
+TiltValue		= "7.5"
+
+CAMERASECTION 		= "CROUCHZOOM"
+
+EyePointOffset 		= "0.0 1.3 0.0"
+TrackCenter		= "0.0 1.3 0.0
+TrackOffset 		= "0.4 0.2 2.8"
+TiltValue		= "3.5"
+
+CAMERASECTION 		= "PRONE"
+
+EyePointOffset 		= "0.0 0.5 0.0"
+TrackCenter 		= "0.0 0.5 0.0"
+TrackOffset 		= "0.0 0.0 3.0"
+TiltValue		= "7.5"
+
+CAMERASECTION 		= "PRONEZOOM"
+
+EyePointOffset 		= "0.0 0.5 0.0"
+TrackCenter 		= "0.0 0.5 0.0"
+TrackOffset 		= "0.4 0.2 2.8"
+TiltValue		= "3.5"
+
+AimValue 		= "1.0"
+
+HealthType		= "person"
+MaxHealth 		= 300.0
+
+Acceleraton 		= 30.0
+MaxSpeed 		= 7.0
+MaxStrafeSpeed 		= 5.0
+MaxTurnSpeed 		= 2.25
+
+WeaponName1 		= "wok_weap_inf_bowcaster"
+WeaponAmmo1 		= 6
+
+AimFactorPostureSpecial = 50
+AimFactorPostureStand 	= 100
+AimFactorPostureCrouch 	= 140
+AimFactorPostureProne 	= 160
+AimFactorStrafe 	    = 60
+AimFactorMove 		    = 70
+
+HurtSound		        = "all_inf_com_chatter_wound_wookie"
+DeathSound              = "all_inf_com_chatter_death_wookie"
+LeftFootstepSound       = "soldierstepleft"
+RightFootstepSound      = "soldierstepright"
+AcquiredTargetSound     = ""
+HidingSound             = "all_inf_com_chatter_hide_wookie"
+ApproachingTargetSound  = "all_inf_com_chatter_approach_wookie"
+FleeSound               = "all_inf_com_chatter_flee_wookie"
+PreparingForDamageSound = "all_inf_com_chatter_predamage_wookie"
+HeardEnemySound         = "all_inf_com_chatter_heard_wookie"
+WaterWadingSound        = "com_inf_wading"
+//ShockFadeOutTime      = "0.8"
+//ShockFadeInTime       = "2.0"
+ShockFadeOutGain        = ""
+ShockSound              = ""
+//RollSound               = "com_inf_roll"
+//JumpSound               = "com_inf_jump_wookiee"
+//LandSound               = "com_inf_land_wookiee"
+ClothingRustleSound     = ""
+LowHealthSound		    = ""
+LowHealthThreshold      = ".25"
+FoleyFXClass            = "wok_inf_soldier"
+
+// squad command VO
+SCFieldMoveOutSound		= "wok_inf_com_chatter_tac_moveout"
+SCFieldHoldSound		= "wok_inf_com_chatter_tac_hold"
+SCFieldFollowSound		= "wok_inf_com_chatter_tac_follow"
+SCDriverGetInSound		= "wok_inf_com_chatter_tac_needgunner"
+SCDriverGetOutSound		= "wok_inf_com_chatter_tac_moveout"
+SCPassengerMoveOutSound	= "wok_inf_com_chatter_tac_spreadout"
+SCPassengerStopSound	= "wok_inf_com_chatter_tac_stop"
+SCPassengerGetInSound	= "wok_inf_com_chatter_tac_needgunner"
+SCPassengerGetOutSound	= "wok_inf_com_chatter_tac_moveout"
+SCGunnerAllClearSound	= "wok_inf_com_chatter_tac_allclear"
+SCGunnerSteadySound		= "wok_inf_com_chatter_tac_stop"
+SCGunnerGetInSound		= "wok_inf_com_chatter_tac_needgunner"
+SCGunnerGetOutSound		= "wok_inf_com_chatter_tac_moveout"
+SCResponseYessirSound	= "wok_inf_com_chatter_tac_yes"
+SCResponseNosirSound	= "wok_inf_com_chatter_tac_no"
+
+// AI squad command VO
+AISCFieldMoveOutSound		= "wok_inf_com_chatter_tac_moveout"
+AISCFieldHoldSound		    = "wok_inf_com_chatter_tac_hold"
+AISCFieldFollowSound		= "wok_inf_com_chatter_tac_follow"
+AISCDriverGetInSound		= "wok_inf_com_chatter_tac_needgunner"
+AISCDriverGetOutSound		= "wok_inf_com_chatter_tac_moveout"
+AISCPassengerMoveOutSound	= "wok_inf_com_chatter_tac_spreadout"
+AISCPassengerStopSound	    = "wok_inf_com_chatter_tac_stop"
+AISCPassengerGetInSound	    = "wok_inf_com_chatter_tac_needgunner"
+AISCPassengerGetOutSound	= "wok_inf_com_chatter_tac_moveout"
+AISCGunnerAllClearSound	    = "wok_inf_com_chatter_tac_allclear"
+AISCGunnerSteadySound		= "wok_inf_com_chatter_tac_stop"
+AISCGunnerGetInSound		= "wok_inf_com_chatter_tac_needgunner"
+AISCGunnerGetOutSound		= "wok_inf_com_chatter_tac_moveout"
+AISCResponseYessirSound	    = "wok_inf_com_chatter_tac_yes"
+AISCResponseNosirSound	    = "wok_inf_com_chatter_tac_no"
+
+DropItemClass 		    = "com_item_powerup_ammo"
+DropItemProbability 	= 0.20
+NextDropItem 		    = "-"
+DropItemClass 		    = "com_item_powerup_health25"
+DropItemProbability 	= 0.05
+NextDropItem 		    = "-"
+DropItemClass 		    = "com_item_powerup_health100"
+DropItemProbability 	= 0.0

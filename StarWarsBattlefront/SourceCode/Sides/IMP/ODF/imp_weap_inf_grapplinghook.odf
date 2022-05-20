@@ -1,0 +1,86 @@
+[WeaponClass]
+
+ClassLabel 			= "grapplinghookweapon"
+
+[Properties]
+
+IconTexture			= "HUD_all_pistol_icon"
+
+MuzzleFlash			= "small_muzzle_flash"
+FlashLightColor 	= "255 192 192 175"
+FlashLightRadius 	= "2.0"
+FlashLightDuration 	= "0.25"
+
+Discharge			= "small_smoke_effect"
+GeometryName 			= "imp_weap_inf_pistol"
+HighResGeometry                 = "imp_1st_weap_inf_pistol"
+
+RoundsPerClip 			= "40"
+ReloadTime 			= "2.0"
+//HeatRecoverRate			= "0.15"
+//HeatThreshold			= "0.3"
+
+ZoomMin				= "2.0"
+ZoomMax				= "2.0"
+ZoomRate			= "0.0"
+
+AnimationBank			= "pistol"
+FirePointName			= "hp_fire"
+
+WEAPONSECTION			= 1
+
+//FireSound			= "com_weap_inf_blaster_red1"
+//ReloadSound     		= "laserreload"
+//ChangeModeSound 		= "com_weap_inf_blaster_pistol_modechange"
+//FireEmptySound			= "com_weap_inf_weapon_empty"
+//WeaponChangeSound 		= "com_weap_inf_laser_weaponchange"
+
+ModeTexture			= "HUD_weap_semiauto"
+//ReticuleTexture		= "reticule_02"
+OrdnanceName 			= "imp_weap_inf_grapplinghook_ord"
+
+YawSpread		= "0.4"
+PitchSpread		= "0.4"
+
+SpreadPerShot		= "1.1"
+SpreadRecoverRate	= "4.8"
+SpreadThreshold		= "1.6"
+SpreadLimit		= "6.0"
+
+StandStillSpread	= "0.0"
+StandMoveSpread		= "0.0"
+CrouchStillSpread	= "0.0"
+CrouchMoveSpread	= "0.0"
+ProneStillSpread	= "0.0"
+ProneMoveSpread		= "0.0"
+
+TriggerSingle			= "1"
+ShotDelay 			= "0.2"
+//HeatPerShot			= "0.05"
+MaxPressedTime			= "0.0"
+
+LockOnRange			= "100.0"
+LockTime 			= "0.65"
+AutoAimSize			= "1.0"
+
+SalvoCount			= "1"
+ShotsPerSalvo			= "1"
+SalvoDelay			= "0.0"
+InitialSalvoDelay		= "0.0"
+SalvoTime			= "0.0"
+
+TargetEnemy			= "1"
+TargetNeutral			= "0"
+TargetFriendly			= "0"
+
+TargetPerson			= "1"
+TargetAnimal			= "1"
+TargetDroid			= "1"
+TargetVehicle			= "0"
+TargetBuilding			= "0"
+
+
+
+
+
+

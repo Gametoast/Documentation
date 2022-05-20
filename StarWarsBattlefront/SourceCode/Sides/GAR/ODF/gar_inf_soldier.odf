@@ -1,0 +1,141 @@
+[GameObjectClass]
+ClassLabel 		= "soldier"
+GeometryName 		= "gar_inf_nabooguard.msh"
+
+[Properties]
+FootWaterSplashEffect 	= "watersplash_sm"
+WaterSplashEffect 	= "watersplash_md"
+WakeWaterSplashEffect	= "watersplash_wade"
+
+UnitType		= "Trooper"
+IconTexture 		= "gar_soldier_icon"
+MapTexture 		= "troop_icon"
+MapScale 		= 1.4
+
+GeometryName 		= "gar_inf_nabooguard"
+
+AnimationName		= "all_inf_snowtrooper"
+GeometryLowRes	    	= "gar_inf_nabooguard_low1"
+
+OverrideTexture		= "gar_inf_naboo_guard_red"
+
+CAMERASECTION 		= "STAND"
+
+EyePointOffset 		= "0.0 1.8 0.0"
+TrackCenter		= "0.0 1.8 0.0
+TrackOffset 		= "0.0 0.0 3.5"
+TiltValue		= "7.5"
+
+CAMERASECTION 		= "STANDZOOM"
+
+EyePointOffset 		= "0.0 1.8 0.0"
+TrackCenter		= "0.0 1.8 0.0
+TrackOffset 		= "0.4 0.05 2.8"
+TiltValue		= "3.5"
+
+CAMERASECTION 		= "CROUCH"
+
+EyePointOffset 		= "0.0 1.3 0.0"
+TrackCenter		= "0.0 1.3 0.0
+TrackOffset 		= "0.0 0.15 3.5"
+TiltValue		= "7.5"
+
+CAMERASECTION 		= "CROUCHZOOM"
+
+EyePointOffset 		= "0.0 1.3 0.0"
+TrackCenter		= "0.0 1.3 0.0
+TrackOffset 		= "0.4 0.2 2.8"
+TiltValue		= "3.5"
+
+CAMERASECTION 		= "PRONE"
+
+EyePointOffset 		= "0.0 0.5 0.0"
+TrackCenter 		= "0.0 0.5 0.0"
+TrackOffset 		= "0.0 0.0 3.0"
+TiltValue		= "7.5"
+
+CAMERASECTION 		= "PRONEZOOM"
+
+EyePointOffset 		= "0.0 0.5 0.0"
+TrackCenter 		= "0.0 0.5 0.0"
+TrackOffset 		= "0.4 0.2 2.8"
+TiltValue		= "3.5"
+
+
+AimValue 		= "1.0"
+
+HealthType		= "person"
+MaxHealth 		= 300.0
+
+Acceleraton 	= 30.0
+MaxSpeed 		= 7.0
+MaxStrafeSpeed 	= 5.0
+MaxTurnSpeed 	= 2.25
+
+WeaponName1 	= "gar_weap_inf_rifle"
+WeaponAmmo1 	= 4
+WeaponName2 	= "gar_weap_inf_thermaldetonator"
+WeaponAmmo2 	= 3
+WeaponChannel2	= 1
+
+AimFactorPostureSpecial = 50
+AimFactorPostureStand 	= 100
+AimFactorPostureCrouch 	= 140
+AimFactorPostureProne 	= 160
+AimFactorStrafe 		= 60
+AimFactorMove 			= 70
+
+HurtSound               = "gar_inf_com_chatter_wound"
+DeathSound              = "gar_inf_com_chatter_death"
+AcquiredTargetSound     = "gar_inf_com_chatter_acquired"
+HidingSound             = "gar_inf_com_chatter_hide"
+ApproachingTargetSound  = "gar_inf_com_chatter_approach"
+FleeSound               = "gar_inf_com_chatter_flee"
+PreparingForDamageSound = "gar_inf_com_chatter_predamage"
+HeardEnemySound         = "gar_inf_com_chatter_heard"
+FoleyFXClass            = "rep_inf_soldier"
+
+// squad command VO
+SCFieldMoveOutSound	= "gar_inf_com_chatter_tac_moveout"
+SCFieldHoldSound	= "gar_inf_com_chatter_tac_hold"
+SCFieldFollowSound	= "gar_inf_com_chatter_tac_follow"
+SCDriverGetInSound	= "gar_inf_com_chatter_tac_needgunner"
+SCDriverGetOutSound	= "gar_inf_com_chatter_tac_moveout"
+SCPassengerMoveOutSound	= "gar_inf_com_chatter_tac_spreadout"
+SCPassengerStopSound	= "gar_inf_com_chatter_tac_stop"
+SCPassengerGetInSound	= "gar_inf_com_chatter_tac_needgunner"
+SCPassengerGetOutSound	= "gar_inf_com_chatter_tac_moveout"
+SCGunnerAllClearSound	= "gar_inf_com_chatter_tac_allclear"
+SCGunnerSteadySound	= "gar_inf_com_chatter_tac_stop"
+SCGunnerGetInSound	= "gar_inf_com_chatter_tac_needgunner"
+SCGunnerGetOutSound	= "gar_inf_com_chatter_tac_moveout"
+SCResponseYessirSound	= "gar_inf_com_chatter_tac_yes"
+SCResponseNosirSound	= "gar_inf_com_chatter_tac_no"
+
+// AIsquad command VO
+AISCFieldMoveOutSound		= "ai_gar_inf_com_chatter_tac_moveout"
+AISCFieldHoldSound		= "ai_gar_inf_com_chatter_tac_hold"
+AISCFieldFollowSound		= "ai_gar_inf_com_chatter_tac_follow"
+AISCDriverGetInSound		= "ai_gar_inf_com_chatter_tac_needgunner"
+AISCDriverGetOutSound		= "ai_gar_inf_com_chatter_tac_moveout"
+AISCPassengerMoveOutSound	= "ai_gar_inf_com_chatter_tac_spreadout"
+AISCPassengerStopSound		= "ai_gar_inf_com_chatter_tac_stop"
+AISCPassengerGetInSound		= "ai_gar_inf_com_chatter_tac_needgunner"
+AISCPassengerGetOutSound	= "ai_gar_inf_com_chatter_tac_moveout"
+AISCGunnerAllClearSound		= "ai_gar_inf_com_chatter_tac_allclear"
+AISCGunnerSteadySound		= "ai_gar_inf_com_chatter_tac_stop"
+AISCGunnerGetInSound		= "ai_gar_inf_com_chatter_tac_needgunner"
+AISCGunnerGetOutSound		= "ai_gar_inf_com_chatter_tac_moveout"
+AISCResponseYessirSound		= "ai_gar_inf_com_chatter_tac_yes"
+AISCResponseNosirSound		= "ai_gar_inf_com_chatter_tac_no"
+
+AISizeType				= "SOLDIER"
+
+DropItemClass 			= "com_item_powerup_ammo"
+DropItemProbability 	= 0.07
+NextDropItem 			= "-"
+DropItemClass 			= "com_item_powerup_health25"
+DropItemProbability 	= 0.08
+NextDropItem 			= "-"
+DropItemClass 			= "com_item_powerup_health100"
+DropItemProbability 	= 0.0

@@ -1,0 +1,71 @@
+[OrdnanceClass]
+ClassLabel          = "bolt"
+
+[Properties]
+LaserTexture            = "yellowlaser_D"
+ImpactEffect            = "med_cannon_impacts"
+LaserLength         = "4.5"
+LaserWidth          = "0.3"
+LaserGlowColor          = "96 96 32 75"
+LightColor                  = "96 96 32 150"
+LightRadius                 = "6.0"
+
+LifeSpan            = "1.5"
+Velocity            = "160.0"
+Gravity             = "1.0"
+Rebound             = "0.0"
+
+OrdnanceSound           = "com_weap_inf_ord_hum_lg"
+
+VehicleScale            = "1.0"
+ShieldScale         = "1.0"
+PersonScale         = "1.0"
+AnimalScale         = "1.0"
+DroidScale          = "1.0"
+BuildingScale           = "1.0"
+
+Damage              = "200.0"
+ExplosionName           = "hoth_weap_bldg_dishturret_cannon_exp1"
+LaserTexture            = "yellowlaser_D"
+LaserGlowColor          = "128 128 32 100"
+LaserLength         = "3.0"
+LaserWidth          = "0.3"
+LightColor                  = "128 128 32 150"
+LightRadius                 = "6.0"
+
+NEXTCHARGE          = "0.5"
+
+Damage              = "300.0"
+ExplosionName           = "hoth_weap_bldg_dishturret_cannon_exp2"
+LaserTexture            = "yellowlaser_D"
+LaserGlowColor          = "160 160 32 100"
+LaserLength         = "4.0"
+LaserWidth          = "0.4"
+LightColor                  = "160 160 32 150"
+LightRadius                 = "6.0"
+
+NEXTCHARGE          = "0.75"
+
+
+Damage              = "400.0"
+ExplosionName           = "hoth_weap_bldg_dishturret_cannon_exp3"
+LaserTexture            = "yellowlaser_D"
+LaserGlowColor          = "192 192 64 100"
+LaserLength         = "5.0"
+LaserWidth          = "0.5"
+LightColor                  = "192 192 64 150"
+LightRadius                 = "6.0"
+
+NEXTCHARGE          = "0.99"
+
+Damage              = "500.0"
+ExplosionName           = "hoth_weap_bldg_dishturret_cannon_exp4"
+LaserTexture            = "yellowlaser_D"
+LaserGlowColor          = "224 224 128 100"
+LaserLength         = "6.0"
+LaserWidth          = "0.6"
+LightColor                  = "224 224 128 150"
+LightRadius                 = "6.0"
+
+OrdnanceSound  = "com_weap_inf_ord_hum_lg"
+CollisionSound = "imp_weap_ord_exp"

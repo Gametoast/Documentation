@@ -1,0 +1,33 @@
+[OrdnanceClass]
+ClassLabel 			= "missile"
+
+[Properties]
+ImpactEffectWater 	= "watersplash_md"
+
+LightColor              = "18 85 239 150"
+LightRadius             = "4.0"
+GeometryName 		= "com_weap_missile"
+
+ExplosionName		= "rep_weap_inf_torpedo_launcher_exp"
+
+TrailEffect		= "smoketrail_blue"
+
+
+LifeSpan 		= "8.0"
+TurnRate		= "2.0"
+Velocity 		= "55.0"
+Gravity			= "0.0"
+Rebound			= "0.0"
+
+WaverRate		= "0.0"
+WaverTurn		= "0.0"
+
+Damage			= "800"
+
+VehicleScale		= "1.1875"
+PersonScale 		= "1.0"
+DroidScale 		= "1.0"
+BuildingScale		= "0.25"
+AnimalScale		= "1.0"
+
+OrdnanceSound		= "com_weap_inf_ord_hum_rocket"

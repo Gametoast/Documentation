@@ -1,0 +1,31 @@
+[OrdnanceClass]
+ClassLabel 		= "missile"
+
+[Properties]
+ImpactEffectWater 	= "watersplash_md"
+
+GeometryName 		= "com_weap_missile"
+ExplosionName		= "cis_weap_tread_hailfire_missile_exp"
+TrailEffect		= "smoketrail_purple"
+
+LifeSpan 		= "7.0"
+Velocity 		= "40.0"
+Gravity			= "1.0"
+Rebound			= "0.0"
+
+Damage			= "300"
+
+VehicleScale		= "0.5"
+PersonScale 		= "1.0"
+DroidScale 		= "1.0"
+BuildingScale		= "0.25"
+AnimalScale		= "1.0"
+
+TurnRate		= "8.0"
+WaverRate		= "2.5"
+WaverTurn		= "2.25"
+
+OrdnanceSound		= "com_weap_inf_ord_hum_rocket"
+//LockedOnSound		= "com_weap_launcher_missile_guided"
+
+

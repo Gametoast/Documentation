@@ -1,0 +1,18 @@
+[GameObjectClass]		
+
+ClassLabel		=	"building"
+GeometryName	=	"kas1_bldg_bonfire.msh"
+
+
+[Properties]		
+
+GeometryName	=	"kas1_bldg_bonfire"
+
+AttachEffect = "kas1_bonfire"
+SoundProperty = "com_amb_fire_large"
+
+AttachToHardPoint = "hp_fire"
+
+
+AttachOdf 		= "bonefirelight"
+AttachToHardPoint 	= "hp_firelight1"

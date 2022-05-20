@@ -1,0 +1,43 @@
+[OrdnanceClass]
+ClassLabel      = "bullet"
+
+[Properties]
+//***************************************
+//**********THERMAL MISSILES*************
+//***************************************
+
+//***************************************
+//**********VISUAL EFFECTS***************
+//***************************************
+GeometryName            = "com_weap_missile"
+ExplosionName           = "imp_weap_hover_fightertank_missile_exp"
+TrailEffect         = "smoketrail"
+ImpactEffectWater       = "watersplash_sm"
+
+//***************************************
+//**********RANGE AND DAMAGE*************
+//***************************************
+LifeSpan            = "7.0"
+Velocity            = "40.0"
+Gravity             = "1.0"
+Rebound             = "0.0"
+
+MaxDamage           = "400.0"
+
+VehicleScale        = "0.55"
+PersonScale         = "1.0"
+DroidScale      = "1.0"
+BuildingScale       = "1.0"
+AnimalScale     = "1.0"
+
+//TurnRate          = "2.0"
+//WaverRate         = "4.0"
+//WaverTurn         = "1.0"
+
+//************************************
+//***************SOUND****************
+//************************************
+
+OrdnanceSound       = "com_weap_inf_ord_hum_rocket"
+CollisionSound     = "com_weap_rocket_small_exp"
+//LockedOnSound     = "com_weap_launcher_missile_guided"

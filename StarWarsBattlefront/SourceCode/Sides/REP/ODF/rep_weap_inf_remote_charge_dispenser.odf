@@ -1,0 +1,56 @@
+[WeaponClass]
+ClassLabel 			= "dispenser"
+
+[Properties]
+GeometryName 			= "com_weap_inf_seismic_mine"
+
+RoundsPerClip 			= "1"
+ShotDelay			= "0.0"
+ReloadTime 			= "3.0"
+IconTexture         		= "HUD_com_landmine_icon"
+
+TriggerAll			= "1"
+
+AnimationBank			= "grenade"
+
+TrackingSound       		= ""
+
+WEAPONSECTION			= 1
+
+ModeTexture			= "HUD_weap_mine"
+//ModeTextureColor		= "42 235 42 100"
+ReticuleTexture			= "reticule_00"
+OrdnanceName 			= "rep_weap_inf_remote_charge_dispenser_ord"
+
+ShotDelay 			= "0.5"
+MaxItems			= "3.0"
+
+AutoAimSize			= "1.0"
+
+MinStrength			= "0.3"
+MaxStrength			= "0.4"
+
+FireSound           = "com_weap_remote_charge_fire"
+FireEmptySound      = "com_weap_inf_ammo_empty"
+FireLoopSound       = ""
+ReloadSound         = "rep_weap_inf_equip_med"
+ChargeSound         = ""
+ChargeSoundPitch    = ""
+ChangeModeSound	    = "rep_weap_inf_equip_med"
+WeaponChangeSound   = "rep_weap_inf_equip_med"
+OverheatSound       = ""
+OverheatSoundPitch  = ""
+OverheatStopSound   = ""
+ClankLeftWalkSound  = ""
+ClankRightWalkSound = ""
+ClankLeftRunSound   = ""
+ClankRightRunSound  = ""
+JumpSound           = ""
+LandSound           = ""
+RollSound           = ""
+ProneSound          = ""
+SquatSound          = ""
+StandSound          = ""
+
+
+

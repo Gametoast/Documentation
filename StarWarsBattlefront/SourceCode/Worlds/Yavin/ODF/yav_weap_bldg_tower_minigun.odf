@@ -1,0 +1,43 @@
+[WeaponClass]
+ClassLabel          = "weapon"
+
+
+[Properties]
+Label               = "Turret Gunner"
+
+OrdnanceName        = "yav_weap_bldg_tower_minigun_ord"
+MuzzleFlash         = "small_muzzle_flash"
+Discharge           = "small_smoke_effect"
+//GeometryName      = "hoth_weapon_minigun"
+ReticuleTexture		= "reticule_rifle"
+RoundsPerClip       = "200"
+ShotDelay           = "0.2"
+ReloadTime          = "3.0"
+
+LockOnRange         = "0.0"
+LockTime            = "0.0"
+MinSpread           = "0.0"
+MaxSpread           = "0.0"
+//AutoAimSize           = "1.0"
+
+SalvoCount          = "1"
+SalvoDelay          = "0.0"
+InitialSalvoDelay       = "0.0"
+
+TurretYawSound         = "turret_whir_yaw_lp"
+TurretYawSoundPitch    = "0.7"
+TurretPitchSound       = "turret_whir_pitch_lp"
+TurretPitchSoundPitch   = "0.7"
+TurretAmbientSound     = ""
+TurretActivateSound    = "vehicle_equip"
+TurretDeactivateSound  = "vehicle_equip"
+TurretStartSound       = ""
+TurretStopSound        = ""
+
+FireSound           = "com_weap_turret_fire"
+
+RecoilLengthLight           = "0.1"
+RecoilStrengthLight         = "1"
+
+RecoilLengthHeavy           = "0.1"
+RecoilStrengthHeavy         = ".3"

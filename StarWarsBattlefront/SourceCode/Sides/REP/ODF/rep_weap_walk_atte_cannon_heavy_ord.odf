@@ -1,0 +1,41 @@
+[OrdnanceClass]
+
+ClassLabel 			= "bolt"
+
+//***************************************
+//**********MEDIUM PULSE LASER************
+//***************************************
+[Properties]
+
+//***************************************
+//**********VISUAL EFFECTS***************
+//***************************************
+LaserTexture			= "greenlaser_D"
+LaserLength			= "6.0"
+LaserWidth			= "0.4"
+LaserGlowColor			= "61 252 56 100 100"
+ExplosionName			= "rep_weap_walk_atte_cannon_heavy_exp"
+ImpactEffectWater 		= "watersplash_sm"
+
+//***************************************
+//**********SPEED AND DAMAGE*************
+//***************************************
+LifeSpan 			= "5.0"
+Velocity 			= "80.0"
+Gravity				= "1.0"
+Rebound				= "0.0"
+
+MaxDamage 			= "400"
+
+VehicleScale			= "0.4"
+ShieldScale			= "1.0"
+PersonScale			= "1.0"
+DroidScale			= "1.0"
+BuildingScale			= "1.0"
+
+//***************************************
+//**********SOUND************************
+//***************************************
+
+OrdnanceSound			= "com_weap_inf_ord_hum_lg"
+

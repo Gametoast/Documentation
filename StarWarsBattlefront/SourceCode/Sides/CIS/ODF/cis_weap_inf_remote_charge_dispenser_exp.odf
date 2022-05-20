@@ -1,0 +1,34 @@
+[ExplosionClass]
+ClassLabel = "explosion"
+
+[Properties]
+Damage 		  	= "2000.0"
+DamageRadiusInner 	= "2.5"
+DamageRadiusOuter 	= "3.5"
+
+Push 		  	= "10.0"
+PushRadiusInner   	= "2.5"
+PushRadiusOuter   	= "2.5"
+
+Shake 		  	= "1.0"
+ShakeLength	  	= "1.25"
+ShakeRadiusInner  	= "8.0"
+ShakeRadiusOuter  	= "16.0"
+
+//Effect 		= "com_sfx_weap_grenade_schrap_exp"
+Effect 			= "timebomb"
+Decal			= "decal_explosion"
+LightColor 		= "255 255 255"
+
+LightRadius 		= "10.0"
+
+LightDuration 		= "1.0"
+
+VehicleScale		= "1.0"
+PersonScale 		= "1.0"
+DroidScale 		= "1.0"
+BuildingScale		= "0.5"
+AnimalScale		= "1.0"
+VehicleScale		= "1.0"
+
+SoundProperty		= "com_weap_obj_med_exp"

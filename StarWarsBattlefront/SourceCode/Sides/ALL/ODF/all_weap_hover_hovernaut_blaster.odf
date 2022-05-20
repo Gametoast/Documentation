@@ -1,0 +1,50 @@
+[WeaponClass]
+ClassLabel 			= "weapon"
+
+//***************************************
+//**********MEDIUM PULSE LASER***********
+//***************************************
+[Properties]
+AutoAimSize			= "1.0"
+
+WEAPONSECTION			= "1"
+OrdnanceName 			= "all_weap_hover_hovernaut_blaster_ord"
+MuzzleFlash			= ""
+ReticuleTexture			= "reticule_rifle"
+ModeTexture			= "HUD_weap_fullauto"
+IconTexture			= "HUD_all_lascannon_icon"
+
+//***************************************
+//**********TIMING, SALVO & SPREAD*******
+//***************************************
+ShotDelay			= "0.5"
+InitialSalvoDelay		= "0.0"
+SalvoCount			= "1"
+ShotsPerSalvo			= "2"
+SalvoDelay			= "0.0"
+
+SpreadPerShot			= "0.8"
+SpreadRecoverRate		= "2.0"
+SpreadThreshold			= "1.2"
+SpreadLimit			= "4.0"
+
+RoundsPerClip 			= "0"
+
+//***************************************
+//**********HEAT AND RANGE***************
+//***************************************
+
+HeatPerShot			= "0.05"
+HeatRecoverRate			= "0.25"
+HeatThreshold			= "0.86"
+
+MinRange			= "0"
+OptimalRange			= "50"
+MaxRange			= "150"
+
+//***************************************
+//**********SOUND************************
+//***************************************
+
+FireSound       		= "all_weap_hover_combatspeeder_cannon_fire"
+//ReloadSound     		= "laserreload"

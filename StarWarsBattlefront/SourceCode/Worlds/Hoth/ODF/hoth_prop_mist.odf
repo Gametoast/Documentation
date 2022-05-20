@@ -1,0 +1,24 @@
+[GameObjectClass]		
+
+ClassLabel		=	"dusteffect"
+GeometryName	=	"editor_grasspatch.msh"
+
+
+[Properties]		
+
+MinPos = "-15 1 -15"
+MaxPos = "15 6 15"
+MinVel = "0 -0.5 0"
+MaxVel = "0 0.5 0"
+MinSize = "10"
+MaxSize = "18"
+MinLifeTime = "3"
+MaxLifeTime = "6"
+Alpha = "0.5"
+NumParticles = "8"
+MaxDistance = "100"
+Texture = "hoth_mist"
+RadiusFadeMin = "10"
+RadiusFadeMax = "30"
+HeightScale = "0.8"
+SpawnSound = ""

@@ -1,0 +1,25 @@
+[OrdnanceClass]
+ClassLabel 		= "missile"
+
+[Properties]
+ImpactEffectWater 	= "watersplash_sm"
+
+GeometryName 	= "com_weap_missile"
+ExplosionName	= "cis_weap_fly_droidfighter_torpedo_exp"
+
+LifeSpan 			= "6.0"
+Velocity 			= "130.0"
+Gravity			= "1.2"
+Rebound			= "0.0"
+
+TurnRate		= "2.0"
+MaxDamage 			= "120.0"
+DamageRadius		= "5.0"
+VehicleScale			= "1.0"
+ShieldScale			= "1.0"
+HealthScale			= "1.0"
+
+TrailEffect			= "SmokeTrail"
+
+OrdnanceSound			= "com_weap_inf_ord_hum_rocket"
+//LockedOnSound		= "com_weap_launcher_missile_guided"

@@ -1,0 +1,194 @@
+[GameObjectClass]
+
+ClassLabel		=	"hover"
+GeometryName	=	"tat_hover_landspeeder.msh"
+
+
+[Properties]
+WaterEffect 		= "waterwake_lg"
+
+FLYERSECTION 		= "BODY"
+
+VehicleType 		= "light"
+
+MapTexture 			= "combatspeeder_icon"
+HealthTexture		= "HUD_lukelandspeeder_icon"
+MapScale 			= 1.5
+
+GeometryName	=	"tat_hover_landspeeder"
+
+FirstPerson			= "all\repgunnr;rep_1st_gunner"
+ExplosionName		= "all_hover_combatspeeder_exp"
+
+MaxHealth 			= 750.0
+HealthType			= "vehicle"
+
+DamageStartPercent		= 65.0
+DamageStopPercent		= 30.0
+DamageEffect			= "vehiclespark"
+DamageEffectScale		= 1.5
+DamageInheritVelocity	= 0.5
+DamageAttachPoint		= "hp_damage_3"
+
+DamageStartPercent		= 50.0
+DamageStopPercent		= 20.0
+DamageEffect			= "vehiclesmoke"
+DamageEffectScale		= 1.5
+DamageInheritVelocity	= 0.5
+DamageAttachPoint		= "hp_damage_1"
+
+DamageStartPercent		= 19.0
+DamageStopPercent		= 0.0
+DamageEffect			= "vehicleflame"
+DamageEffectScale		= 1.5
+DamageInheritVelocity	= 0.5
+DamageAttachPoint		= "hp_damage_1"
+
+DamageStartPercent		= 50.0
+DamageStopPercent		= 20.0
+DamageEffect			= "vehiclesmoke"
+DamageEffectScale		= 1.5
+DamageInheritVelocity	= 0.5
+DamageAttachPoint		= "hp_damage_2"
+
+DamageStartPercent		= 19.0
+DamageStopPercent		= 0.0
+DamageEffect			= "vehicleflame"
+DamageEffectScale		= 1.5
+DamageInheritVelocity	= 0.5
+DamageAttachPoint		= "hp_damage_2"
+
+
+SetAltitude			= 0.3
+GravityScale		= 2.0
+LiftSpring			= 10.0
+LiftDamp			= 3.0
+
+Acceleration 		= 9.0
+Deceleration		= 7.0
+Traction			= 10.0
+ForwardSpeed		= 9.0
+ReverseSpeed		= 8.0
+StrafeSpeed			= 5.0
+
+AddSpringBody = "-1.8 2.4 1.4 3.5"
+BodySpringLength = 1.0
+AddSpringBody = "1.8 2.4 1.4 3.5"
+BodySpringLength = 1.0
+
+AddSpringBody = "0.0 2.4 -2.0 3.5"
+BodySpringLength = 1.0
+BodyOmegaXSpringFactor = 2
+
+VelocitySpring = 5
+VelocityDamp = 2.5
+OmegaXSpring = 3.0
+OmegaXDamp = 3.0
+OmegaZSpring = 5.0
+OmegaZDamp = 1.5
+
+SpinRate			= 1.0
+TurnRate			= 1.5
+TurnFilter			= 5.0
+PitchRate			= 0.5
+PitchFilter			= 1.0
+PitchDamp			= 1.0
+
+//SpinRate			= 1.0
+//TurnRate			= 3.0
+//TurnFilter			= 8.0
+//PitchRate			= 1.5
+LevelSpring			= 10.0
+LevelDamp			= 3.0
+PCPitchRate			= 10.0
+PCSpinRate			= 15.0
+PCTurnRate			= 20.0
+
+EyePointOffset 			= "0.0 0.0 0"
+TrackCenter			= "0.0 5 -12"
+TrackOffset 			= "0.0 0.0 0"
+TiltValue			= "9.0"
+
+PitchLimits 		= "-10 15"
+YawLimits 			= "-90 90"
+
+PilotPosition 		= "hp_pilot"
+PilotAnimation 		= "drive"
+
+FLYERSECTION = TURRET1
+
+PilotPosition 		= "hp_passenger"
+PilotAnimation 		= "drive"
+FirstPerson       	= "all\repgunnr;rep_1st_gunner"
+
+AISizeType			= "MEDIUM"
+
+OrdnanceCollision = "p_collision1"
+OrdnanceCollision = "p_collision2"
+OrdnanceCollision = "p_collision3"
+OrdnanceCollision = "p_collision4"
+OrdnanceCollision = "p_collision5"
+OrdnanceCollision = "p_collision6"
+OrdnanceCollision = "p_collision7"
+
+VehicleCollision = "p_vehiclesphere"
+
+SoldierCollision = "p_collision1"
+SoldierCollision = "p_collision2"
+SoldierCollision = "p_collision3"
+SoldierCollision = "p_collision4"
+SoldierCollision = "p_collision5"
+SoldierCollision = "p_collision6"
+SoldierCollision = "p_collision7"
+
+CHUNKSECTION 		= "CHUNK1"
+ChunkGeometryName 	= "tat_hover_landspeeder_chunk1"
+ChunkNodeName 		= ""
+ChunkTerrainCollisions 	= "1"
+ChunkTerrainEffect 	= "dirtspray"
+ChunkTrailEffect		= "mediumsmoketrail"
+ChunkPhysics 		= "FULL"
+ChunkOmega 		= "1.0 1.0 1.0"
+ChunkSpeed		= "8.0"
+
+ChunkSmokeEffect 	= "smokeplume"
+ChunkSmokeNodeName 	= "hp_smoke1"
+
+CHUNKSECTION 		= "CHUNK2"
+ChunkGeometryName 	= "tat_hover_landspeeder_chunk2"
+ChunkNodeName 		= "main_backdoor_R"
+ChunkTerrainCollisions 	= "4"
+ChunkTerrainEffect 	= "dirtspray"
+ChunkPhysics 		= "FULL"
+ChunkOmega 		= "2.0 2.0 2.0"
+ChunkBounciness 		= 0.45
+ChunkStickiness 		= 0.25
+ChunkSpeed		= "12.0"
+ChunkUpFactor		= "0.00"
+ChunkTrailEffect 		= "mediumsmoketrail"
+
+CHUNKSECTION 		= "CHUNK3"
+ChunkGeometryName 	= "tat_hover_landspeeder_chunk3"
+ChunkNodeName 		= "Wing_gun_housing_2"
+ChunkTerrainCollisions 	= "1"
+ChunkTerrainEffect 	= "dirtspray"
+ChunkPhysics 		= "FULL"
+ChunkOmega 		= "2.0 2.0 1.5"
+ChunkBounciness 		= 0.45
+ChunkStickiness 		= 0.25
+ChunkSpeed		= "14.0"
+ChunkUpFactor		= "8.00"
+ChunkTrailEffect 		= "mediumsmoketrail"
+
+EngineSound		= "all_hover_landspeeder_engine_parameterized"
+HurtSound      	= ""
+DeathSound   		= "com_weap_obj_med_exp"
+TurnOnSound    	= ""
+TurnOffSound   	= ""
+ImpMusic			= "imp_vehicle"
+AllMusic			= "all_vehicle"
+MusicSpeed   		= ".25"
+MusicDelay   		= "3.0"
+GroundedSound  	= ""
+GroundedHeight 	= ""
+FoleyFXGroup    = "metal_foley"

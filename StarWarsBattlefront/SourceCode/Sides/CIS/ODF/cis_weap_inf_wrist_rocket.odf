@@ -1,0 +1,83 @@
+[WeaponClass]
+ClassLabel 		= "cannon"
+
+[Properties]
+AnimationBank		= "sbdroid"
+
+//***********************************************
+//*************	TARGET & RANGE VALUES  **********
+//***********************************************
+TargetEnemy		= "1"
+TargetNeutral		= "0"
+TargetFriendly		= "0"
+
+TargetPerson		= "1"
+TargetAnimal		= "1"
+TargetDroid		= "1"
+TargetVehicle		= "0"
+TargetBuilding		= "0"
+
+MinRange		= "0"
+OptimalRange		= "16"
+MaxRange		= "48"
+
+LockOnRange             = "64.0"
+LockTime 		= "0.4"
+LockOnAngle		= "1.0"
+
+ZoomMin			= "2.5"
+ZoomMax			= "2.5"
+ZoomRate		= "0.0"
+
+YawSpread		= "0.25"
+PitchSpread		= "0.25"
+
+SpreadPerShot		= "1.1"
+SpreadRecoverRate	= "4.8"
+SpreadThreshold		= "1.6"
+SpreadLimit		= "6.0"
+
+StandStillSpread	= "0.0"
+StandMoveSpread		= "0.0"
+CrouchStillSpread	= "0.0"
+CrouchMoveSpread	= "0.0"
+ProneStillSpread	= "0.0"
+ProneMoveSpread		= "0.0"
+
+//***********************************************
+//*********** WEAPON PERFORMANCE VALUES *********
+//***********************************************
+
+RoundsPerClip 		= "1"
+ReloadTime 		= "2.0"
+ShotDelay 		= "0.0"
+TriggerSingle		= "1"
+
+OrdnanceName 		= "cis_weap_inf_wrist_rocket_ord"
+
+//***********************************************
+//***********  HUD & CONTROLLER VALUES  *********
+//***********************************************
+
+IconTexture		= "HUD_rocket_icon"
+ModeTexture		= "HUD_weap_semiauto"
+ReticuleTexture		= "reticule_rocket"
+
+MuzzleFlash		= "small_muzzle_flash"
+Discharge		= "small_smoke_effect"
+
+RecoilLengthHeavy       = "1.5"
+RecoilStrengthHeavy     = "1"
+RecoilDecayHeavy        = ".75"
+
+//************************************************
+//*******************   SOUND    *****************
+//************************************************
+
+FireSound       	= "cis_weap_inf_rocket_fire"
+ReloadSound     	= "cis_weap_inf_reload_med"
+ChangeModeSound	    = "rep_weap_inf_equip_sm"
+WeaponChangeSound	= "rep_weap_inf_equip_sm"
+FireEmptySound	= "com_weap_inf_ammo_empty"
+TrackingSound       	= ""
+

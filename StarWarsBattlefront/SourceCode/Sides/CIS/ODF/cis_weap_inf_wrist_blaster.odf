@@ -1,0 +1,99 @@
+[WeaponClass]
+ClassLabel 		= "cannon"
+
+[Properties]
+AnimationBank		= "sbdroid"
+GeometryName 		= "cis_weap_inf_sbdroidmuzzle"
+HighResGeometry         = "cis_weap_inf_sbdroidmuzzle"
+
+//***********************************************
+//*************	TARGET & RANGE VALUES  **********
+//***********************************************
+
+TargetEnemy		= "1"
+TargetNeutral		= "0"
+TargetFriendly		= "0"
+
+TargetPerson		= "1"
+TargetAnimal		= "1"
+TargetDroid		= "1"
+TargetVehicle		= "0"
+TargetBuilding		= "0"
+
+MinRange		= "0"
+OptimalRange		= "40"
+MaxRange		= "64"
+
+LockOnRange             = "64.0"
+LockTime 		= "0.4"
+LockOnAngle		= "1.0"
+
+ZoomMin			= "2.0"
+ZoomMax			= "2.0"
+ZoomRate		= "0.0"
+
+YawSpread		= "0.25"
+PitchSpread		= "0.25"
+
+SpreadPerShot		= "1.1"
+SpreadRecoverRate	= "4.8"
+SpreadThreshold		= "1.6"
+SpreadLimit		= "6.0"
+
+StandStillSpread	= "0.0"
+StandMoveSpread		= "0.0"
+CrouchStillSpread	= "0.0"
+CrouchMoveSpread	= "0.0"
+ProneStillSpread	= "0.0"
+ProneMoveSpread		= "0.0"
+
+//***********************************************
+//*********** WEAPON PERFORMANCE VALUES *********
+//***********************************************
+
+RoundsPerClip 		= "55"
+ReloadTime 		= "1.5"
+ShotDelay 		= "0.2"
+TriggerSingle		= "0"
+
+SalvoCount		= "1"
+ShotsPerSalvo		= "1"
+SalvoDelay		= "0.0"
+InitialSalvoDelay	= "0.0"
+SalvoTime		= "0.0"
+
+OrdnanceName 		= "cis_weap_inf_wrist_blaster_ord"
+FirePointName		= "hp_fire"
+
+//***********************************************
+//***********  HUD & CONTROLLER VALUES  *********
+//***********************************************
+
+IconTexture		= "IMP_blasterrifle_icon"
+ModeTexture		= "HUD_weap_fullauto"
+ReticuleTexture		= "reticule_rifle"
+
+MuzzleFlash		= "small_muzzle_flash"
+FlashColor 		= "255 80 80 255"
+FlashLength 		= 0.01
+FlashLightColor 	= "255 220 220 175"
+FlashLightRadius 	= "2.0"
+FlashLightDuration 	= "0.25"
+Discharge		= "small_smoke_effect"
+
+RecoilLengthLight       = "0.3"
+RecoilLengthHeavy       = "0.2"
+RecoilStrengthLight     = "1.0"
+RecoilStrengthHeavy     = "0.2"
+RecoilDecayLight	= "0.0"
+RecoilDecayHeavy	= "0.0"
+
+//************************************************
+//*******************   SOUND    *****************
+//************************************************
+
+FireSound       	= "cis_weap_inf_blaster_fire"
+ReloadSound     	= "cis_weap_inf_equip_med"
+ChangeModeSound 	= "cis_weap_inf_equip_med"
+FireEmptySound		= "com_weap_inf_ammo_empty"
+WeaponChangeSound 	= "cis_weap_inf_equip_med"

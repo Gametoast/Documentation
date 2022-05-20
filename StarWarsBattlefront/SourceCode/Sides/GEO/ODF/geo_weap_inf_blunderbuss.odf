@@ -1,0 +1,61 @@
+[WeaponClass]
+ClassLabel          = "cannon"
+
+[Properties]
+IconTexture         = "HUD_all_rifle_icon"
+
+GeometryName        = "geo_weap_inf_blunderbuss"
+
+MuzzleFlash         = "small_muzzle_flash"
+Discharge           = "small_smoke_effect"
+
+ZoomMin         = "3.0"
+ZoomMax         = "3.0"
+ZoomRate            = "0.0"
+
+AnimationBank       = "rifle"
+
+FirePointName       = "hp_fire"
+
+RoundsPerClip       = "100"
+ReloadTime          = "4.0"
+HeatRecoverRate     = "0.1"
+HeatThreshold       = "0.3"
+
+WEAPONSECTION       = 1
+FireSound               = "cis_weap_inf_sonicblaster_fire"
+//ReloadSound           = "laserreload"
+//ChangeModeSound       = "com_weap_inf_blaster_rifle_modechange"
+//FireEmptySound        = "com_weap_inf_weapon_empty"
+
+OrdnanceName        = "geo_weap_inf_blunderbuss_ord"
+
+ReticuleTexture     = "reticule_04"
+
+TargetEnemy         = "1"
+TargetNeutral       = "0"
+TargetFriendly      = "0"
+
+TargetPerson        = "1"
+TargetAnimal        = "1"
+TargetDroid         = "1"
+TargetVehicle       = "0"
+TargetBuilding      = "0"
+
+ShotDelay           = "2.0"
+TriggerSingle       = "0"
+HeatPerShot         = "0.075"
+
+LockOnRange         = "30.0"
+LockTime            = "0.8"
+MinSpread           = "0.01"
+MaxSpread           = "0.15"
+AutoAimSize         = "0.1"
+
+
+
+
+
+
+
+

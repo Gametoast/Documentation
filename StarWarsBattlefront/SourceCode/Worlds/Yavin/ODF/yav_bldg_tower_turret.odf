@@ -1,0 +1,84 @@
+[GameObjectClass]
+ClassLabel          = "armedbuilding"
+GeometryName        = "yav_bldg_watchtower.msh"
+
+[Properties]
+BUILDINGSECTION         = "BODY"
+
+Label           = "Minigun Turret"
+HealthTexture       = "HUD_yav_pedastal_turret_icon"
+IconTexture         = "HUD_all_lascannon_icon"
+MapTexture          = "turret_icon"
+MapScale            = "1.2"
+GeometryName        = "yav_bldg_watchtower"
+DestroyedGeometryName = "yav_bldg_watchtower_hulk"
+ExplosionName       = "yav_bldg_tower_turret_exp"
+RespawnTime         = 50.0
+MaxHealth           = "300.0"
+
+BUILDINGSECTION         = "TURRET1"
+
+YawLimits       = "-180 180"
+PitchLimits         = "-10.0 35.0"
+PCMaxPitchSpeed         = "20.0"
+PCMaxTurnSpeed          = "20.0"
+EyePointOffset      = "0.0 3.0 0.5"
+TrackOffset         = "0.0 -1.0 3.5"
+TiltValue       = 5
+TurretNodeName      = "cube_y"
+PilotPosition       = "hp_active"
+Pilot9Pose      = "minigun_9pose"
+
+PitchTurnFactor     = "0.0"
+
+
+
+    TURRETSECTION = "TURRET1"
+	FirstPerson             = "com\comunive;com_1st_scope_universal"
+
+    WeaponName = "yav_weap_bldg_tower_minigun"
+    WeaponAmmo = "5"    //"2"
+    MaxTurnSpeed = "1.0"
+    MaxPitchSpeed = "0.5"
+AimerNodeName = "gun"
+AimerPitchLimits        = "-10.0 35.0"
+AimerYawLimits      = "-5.0 5.0"
+
+PCMaxPitchSpeed         = "20.0"
+PCMaxTurnSpeed          = "20.0"
+    BarrelNodeName = "barrel"
+    BarrelLength = "2.0"
+    BarrelRecoil = "0.0"
+
+TurretYawSound         = "turret_whir_yaw_lp"
+TurretYawSoundPitch    = "0.7"
+TurretPitchSound       = "turret_whir_pitch_lp"
+TurretPitchSoundPitch   = "0.7"
+TurretAmbientSound     = ""
+TurretActivateSound    = "vehicle_equip"
+TurretDeactivateSound  = "vehicle_equip"
+TurretStartSound       = ""
+TurretStopSound        = ""
+FireSound           = "com_weap_turret_fire"
+
+CHUNKSECTION = "CHUNK1"
+\\ChunkGeometryName = "yav_bldg_watchtower_hulk"
+\\ChunkPhysics = "STATIC"
+\\ChunkTrailEffect      = "mediumsmoketrail"
+\\ChunkSmokeEffect  = "smokeplume"
+\\ChunkSmokeNodeName    = "hp_smoke1"
+
+DamageStartPercent      = 50.0
+DamageStopPercent       = 30.0
+DamageEffect            = "vehiclespark"
+
+DamageStartPercent      = 30.0
+DamageStopPercent       = 0.0
+DamageEffect            = "smokeplume"
+DamageAttachPoint       = "hp_damage_1"
+
+VehicleCollision            = "p_vehiclecylinder"
+
+SoldierCollision            = "CollisionMesh"
+
+OrdnanceCollision           = "CollisionMesh"

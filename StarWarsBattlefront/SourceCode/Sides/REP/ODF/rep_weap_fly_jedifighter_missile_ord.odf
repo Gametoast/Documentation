@@ -1,0 +1,26 @@
+[OrdnanceClass]
+
+ClassLabel      = "missile"
+
+[Properties]
+ImpactEffectWater   = "watersplash_sm"
+
+ExplosionName   = "rep_weap_fly_jedifighter_missile_exp"
+GeometryName    = "com_weap_missile"
+
+LifeSpan            = "6.0"
+Velocity            = "130.0"
+Gravity         = "1.2"
+Rebound         = "0.0"
+
+TurnRate        = "5.0"
+MaxDamage           = "300.0"
+DamageRadius        = "5.0"
+VehicleScale            = "1.0"
+ShieldScale         = "1.0"
+HealthScale         = "1.0"
+
+TrailEffect         = "SmokeTrail"
+OrdnanceSound       = "com_weap_inf_ord_hum_rocket"
+CollisionSound      = "com_veh_laser_imp_exp"
+//LockedOnSound     = "com_weap_launcher_missile_guided"

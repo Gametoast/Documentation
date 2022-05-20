@@ -1,0 +1,59 @@
+[WeaponClass]
+ClassLabel 			= "weapon"
+
+[Properties]
+ReloadTime 			= "2.0"
+RoundsPerClip 			= "0"
+
+LockOnRange			= "100.0"
+LockTime 			= "0.4"
+AutoAimSize			= "1.0"
+
+ReticuleTexture			= "reticule_rifle"
+ModeTexture			= "HUD_weap_fullauto"
+IconTexture			= "IMP_blasterrifle_icon"
+
+
+WEAPONSECTION			= "1"
+OrdnanceName 			= "rep_weap_walk_atte_cannon_heavy_ord"
+ReticuleTexture			= "reticule_rifle"
+MuzzleFlash			= ""
+
+ShotDelay			= "1.2"
+//InitialSalvoDelay		= "0.3"
+SalvoCount			= "2"
+ShotsPerSalvo			= "2"
+SalvoDelay			= "0.2"
+
+YawSpread			= "0.1"
+PitchSpread			= "0.1"
+
+SpreadPerShot			= "0.1"
+SpreadRecoverRate		= "1.0"
+SpreadThreshold			= "0.9"
+SpreadLimit			= "1.0"
+
+HeatPerShot			= "0.19"
+//HeatPerShot			= "0.33"
+HeatRecoverRate			= "0.32"
+HeatThreshold			= "0.05"
+
+MinRange			= "20"
+OptimalRange			= "100"
+MaxRange			= "250"
+
+FireSound       		= "rep_weap_walk_atte_cannon_fire"
+//ReloadSound     		= "laserreload"
+
+OverheatSound      		= "com_weap_energy_depleted"
+OverheatSoundPitch 		= "0.5"
+OverheatStopSound   		= "com_weap_energy_refilled"
+
+
+ModeTexture			= "HUD_weap_fullauto"
+
+RecoilLengthLight       	= "0.1"
+RecoilLengthHeavy       	= "0.15"
+RecoilStrengthLight     	= "1"
+RecoilStrengthHeavy     	= "1"
+

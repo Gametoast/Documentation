@@ -1,0 +1,68 @@
+[WeaponClass]
+ClassLabel 		= "launcher"
+
+[Properties]
+//***********************************************
+//*************PROTON TORPEDOS*******************
+//***********************************************
+
+//***********************************************
+//*************TARGET & RANGE VALUES*************
+//***********************************************
+Label 				= "Proton Torpedos"
+TargetEnemy			= "1"
+TargetNeutral			= "0"
+TargetFriendly			= "0"
+
+TargetPerson			= "0"
+TargetAnimal			= "0"
+TargetDroid			= "0"
+TargetVehicle			= "1"
+TargetBuilding			= "0"
+
+MinRange			= "0"
+OptimalRange			= "150"
+MaxRange			= "200"
+
+LockOnRange			= "150.0"
+LockOnAngle			= "6.0"
+LockOffAngle			= "10.0"
+LockTime 			= "1.5"
+MinSpread			= "0.0"
+MaxSpread			= "0.0"
+
+
+//***********************************************
+//*********** WEAPON PERFORMANCE VALUES *********
+//***********************************************
+RoundsPerClip 			= "0"
+ShotDelay 			= "1.0"
+ReloadTime 			= "0.0"
+
+SalvoCount			= "2"
+SalvoDelay			= "0.05"
+
+RecoilLengthHeavy      		= "0.5"
+RecoilStrengthHeavy     	= "1"
+RecoilDecayHeavy        	= "5"
+
+OrdnanceName 			= "imp_weap_fly_tiebomber_ptorpedo_ord"
+
+//***********************************************
+//***********  HUD & CONTROLLER VALUES  *********
+//***********************************************
+Label				= "Proton Torpedo"
+IconTexture			= "IMP_launcher_icon"
+ReticuleTexture			= "reticule_03"
+
+
+MuzzleFlash			= ""
+Discharge			= ""
+
+//******************************************************
+//***************	SOUND		****************
+//******************************************************
+
+FireSound       		= "all_weap_fly_xwing_ptorpedo_fire"
+//ReloadSound     		= "cannonreload"
+//WeaponChangeSound 		= "com_weap_inf_laser_weaponchange"

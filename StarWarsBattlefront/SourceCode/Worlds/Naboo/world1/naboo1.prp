@@ -1,0 +1,40 @@
+Layer(0)
+{
+	SpreadFactor(0.5);
+	Mesh()
+	{
+		GrassPatch("nab1_grass.odf", 80);
+		File("editor_grasspatch.msh", 80);
+		Frequency(100);
+		Scale(1);
+		Stiffness(0.0);
+	        ColorVariation(0.1);
+	}
+}
+Layer(1)
+{
+	SpreadFactor(0.1);
+	Mesh()
+	{
+		GrassPatch("nab1_grass_close.odf", 30);
+		File("editor_grasspatch.msh", 30);
+		Frequency(100);
+		Scale(1);
+		Stiffness(0.0);
+	        ColorVariation(0.1);
+	}
+}
+//Layer(2)
+//{
+//	SpreadFactor(0.2);
+//	Mesh()
+//	{
+//		GrassPatch("nab1_prop_grass_tall.odf", 80);
+//		File("editor_grasspatch.msh", 80);
+//		Frequency(100);
+//		Scale(1);
+//		Stiffness(0.0);
+//		ColorVariation(0.1);
+//		CollisionSound("");
+//	}
+//}

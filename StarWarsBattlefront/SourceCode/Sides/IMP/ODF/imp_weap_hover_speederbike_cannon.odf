@@ -1,0 +1,54 @@
+[WeaponClass]
+ClassLabel 			= "weapon"
+
+[Properties]
+IconTexture			= "IMP_blasterrifle_icon"
+Label				= "74-Z Blaster Cannon"
+
+RoundsPerClip 			= "0"
+ReloadTime 			= "0.0"
+
+//HeatRecoverRate			= "0.2"
+//HeatThreshold			= "0.3"
+
+ModeTexture			= "HUD_weap_fullauto"
+
+OrdnanceName 			= "imp_weap_hover_speederbike_cannon_ord"
+MuzzleFlash			= "med_muzzle_flash"
+Discharge			= "med_smoke_effect"
+
+ShotDelay 			= "0.25"
+
+HeatRecoverRate			= "0.3"
+HeatThreshold			= "0.05"
+HeatPerShot			= "0.2"
+
+YawSpread			= "0.1"
+PitchSpread			= "0.1"
+KickSpread			= "0.0"
+SpreadRecover			= "4.0"
+
+LockOnRange			= "100.0"
+LockTime 			= "0.2"
+AutoAimSize			= "1.0"
+
+SalvoCount			= "1"
+ShotsPerSalvo			= "1"
+SalvoDelay			= "0.0"
+InitialSalvoDelay		= "0.0"
+SalvoTime			= "0.0"
+
+FireSound       		= "imp_weap_hover_speederbike_cannon_fire"
+//ReloadSound     		= "laserreload"
+//WeaponChangeSound = "com_weap_inf_laser_weaponchange"
+
+OverheatSound      = "com_weap_energy_depleted"
+OverheatSoundPitch  = "0.5"
+OverheatStopSound   = "com_weap_energy_refilled"
+
+
+RecoilLengthLight     	 	= "0.2"
+RecoilStrengthLight     	= "1"
+
+RecoilLengthHeavy      		= "0.1"
+RecoilStrengthHeavy     	= ".6"

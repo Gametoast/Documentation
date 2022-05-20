@@ -1,0 +1,57 @@
+[GameObjectClass]
+
+ClassLabel		=	"prop"
+GeometryName	=	"end_bldg_bunker.msh"
+
+
+[Properties]
+BUILDINGSECTION = "BODY"
+Label = "Control Zone"
+MapTexture = "hud_dest_icon"
+MapScale = 3.0
+GeometryName = "end_bldg_bunker"
+MaxHealth = "4000.0"
+ExplosionName 			= "imp_walk_atst_exp"
+DestroyedGeometryName 	= "end_bldg_bunker_dest"
+
+DamageStartPercent		= 95.0
+DamageStopPercent			= 0.0
+DamageEffect			= "vehiclespark"
+DamageEffectScale			= 1.5
+DamageInheritVelocity		= 0.0
+DamageAttachPoint			= "hp_damage2"
+
+DamageStartPercent		= 90.0
+DamageStopPercent			= 0.0
+DamageEffect			= "vehiclesmoke"
+DamageEffectScale			= 1.5
+DamageInheritVelocity		= 0.0
+DamageAttachPoint			= "hp_damage1"
+
+DamageStartPercent		= 70.0
+DamageStopPercent			= 0.0
+DamageEffect			= "vehicleflame"
+DamageEffectScale			= 1.5
+DamageInheritVelocity		= 0.0
+DamageAttachPoint			= "hp_damage3"
+
+DamageStartPercent		= 60.0
+DamageStopPercent			= 0.0
+DamageEffect			= "vehicleflame"
+DamageEffectScale			= 1.5
+DamageInheritVelocity		= 0.0
+DamageAttachPoint			= "hp_damage4"
+
+DamageStartPercent		= 40.0
+DamageStopPercent			= 0.0
+DamageEffect			= "vehicleflame"
+DamageEffectScale			= 1.5
+DamageInheritVelocity		= 0.0
+DamageAttachPoint			= "hp_damage5"
+
+VehicleCollision	=	"CollisionMesh"
+VehicleCollisionOnly	=	"p_vehicle"
+
+FoleyFXGroup    = "metal_foley"
+
+

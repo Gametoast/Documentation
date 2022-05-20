@@ -1,0 +1,73 @@
+[WeaponClass]
+ClassLabel		= "grenade"
+
+[Properties]
+IconTexture		= "HUD_all_detonator_icon"
+
+GeometryName	= "wok_weap_inf_thermaldetonator"
+
+RoundsPerClip	= "1"
+ReloadTime		= "0.0"
+
+LockOnRange		= "30.0"
+
+AnimationBank	= "grenade"
+
+WEAPONSECTION	= 1
+
+ModeTexture			= "HUD_weap_bounce"
+ReticuleTexture		= "reticule_00"
+OrdnanceName		= "wok_weap_inf_thermaldetonator_ord"
+
+ShotDelay			= "1.4"
+MaxPressedTime		= "1.5"
+
+TargetEnemy			= "1"
+TargetNeutral		= "0"
+TargetFriendly		= "0"
+
+TargetPerson		= "1"
+TargetAnimal		= "1"
+TargetDroid			= "1"
+TargetVehicle		= "1"
+TargetBuilding		= "1"
+
+MinRange			= "8"
+OptimalRange		= "16"
+MaxRange			= "24"
+
+InitialSalvoDelay	= "0.3"
+
+ChargeRateLight         = "1.0"
+MaxChargeStrengthLight  = "1.0"
+ChargeDelayLight        = "0.0"
+ChargeRateHeavy         = "1.0"
+MaxChargeStrengthHeavy  = "0.25"
+ChargeDelayHeavy        = "1.45"
+
+RecoilLengthLight       = "0.1"
+RecoilLengthHeavy       = "0.1"
+RecoilStrengthLight     = "0"
+RecoilStrengthHeavy     = "0"
+
+FireSound           = "com_weap_thermaldetonator_fire"
+FireEmptySound      = ""
+FireLoopSound       = ""
+ReloadSound         = ""
+ChargeSound         = ""
+ChargeSoundPitch    = ""
+ChangeModeSound	    = ""
+WeaponChangeSound   = ""
+OverheatSound       = ""
+OverheatSoundPitch  = ""
+OverheatStopSound   = ""
+ClankLeftWalkSound  = ""
+ClankRightWalkSound = ""
+ClankLeftRunSound   = ""
+ClankRightRunSound  = ""
+JumpSound           = ""
+LandSound           = ""
+RollSound           = ""
+ProneSound          = ""
+SquatSound          = ""
+StandSound          = ""

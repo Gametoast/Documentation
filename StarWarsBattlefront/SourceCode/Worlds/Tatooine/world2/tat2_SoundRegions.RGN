@@ -1,0 +1,26 @@
+Version(1);
+RegionCount(3);
+
+Region("SoundStream tat_amb_desert 1.0", 1)
+{
+	Layer(2);
+	Position(-157.370026, 21.908493, 9.456154);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(257.992249, 10.000000, 10.000000);
+}
+
+Region("soundstream tat_amb_cantina 2.0", 1)
+{
+	Layer(2);
+	Position(-192.361221, 15.184128, -69.637444);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(36.979858, 10.000000, 10.000000);
+}
+
+Region("soundspace cantina", 0)
+{
+	Layer(2);
+	Position(-192.732529, 11.060184, -67.987999);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(15.391022, 10.000000, 15.083302);
+}

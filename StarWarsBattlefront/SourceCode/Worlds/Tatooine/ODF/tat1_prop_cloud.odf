@@ -1,0 +1,24 @@
+[GameObjectClass]		
+
+ClassLabel		=	"dusteffect"
+GeometryName	=	"hoth_prop_dust.msh"
+
+
+[Properties]		
+
+MinPos = "-128 -128 -128"
+MaxPos = "128 128 128"
+MinVel = "-100 0 -100"
+MaxVel = "-100 0 -100"
+MinSize = "128"
+MaxSize = "192"
+MinLifeTime = "1.5"
+MaxLifeTime = "2.5"
+Alpha = "0.45"
+NumParticles = "1"
+MaxDistance = "350"
+Texture = "tat1_prop_cloud"
+RadiusFadeMin = "350"
+RadiusFadeMax = "550"
+HeightScale = "0.35"
+SpawnSound = ""

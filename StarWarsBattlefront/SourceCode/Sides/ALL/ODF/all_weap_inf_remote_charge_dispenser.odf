@@ -1,0 +1,56 @@
+[WeaponClass]
+ClassLabel 			= "dispenser"
+
+[Properties]
+GeometryName 			= "com_weap_inf_seismic_mine"
+
+RoundsPerClip 			= "1"
+ShotDelay			= "0.0"
+ReloadTime 			= "3.0"
+IconTexture         		= "HUD_timebomb_icon"
+
+TriggerAll			= "1"
+
+AnimationBank			= "grenade"
+
+TrackingSound       		= ""
+
+WEAPONSECTION			= 1
+
+ModeTexture			= "HUD_weap_mine"
+//ModeTextureColor		= "42 235 42 100"
+ReticuleTexture			= "reticule_00"
+OrdnanceName 			= "all_weap_inf_remote_charge_dispenser_ord"
+
+ShotDelay 			= "0.5"
+MaxItems			= "3.0"
+
+AutoAimSize			= "1.0"
+
+MinStrength			= "0.3"
+MaxStrength			= "0.4"
+
+FireSound           = "com_weap_throw_fire"
+FireEmptySound      = "com_weap_inf_ammo_empty"
+FireLoopSound       = ""
+ReloadSound         = "all_weap_inf_equip_med"
+ChargeSound         = ""
+ChargeSoundPitch    = ""
+ChangeModeSound	    = "all_weap_inf_equip_med"
+WeaponChangeSound   = "all_weap_inf_equip_med"
+OverheatSound       = ""
+OverheatSoundPitch  = ""
+OverheatStopSound   = ""
+ClankLeftWalkSound  = ""
+ClankRightWalkSound = ""
+ClankLeftRunSound   = ""
+ClankRightRunSound  = ""
+JumpSound           = "all_weap_inf_pistol_mvt_jump"
+LandSound           = "all_weap_inf_pistol_mvt_land"
+RollSound           = "all_weap_inf_pistol_mvt_roll"
+ProneSound          = "all_weap_inf_pistol_mvt_squat"
+SquatSound          = "all_weap_inf_pistol_mvt_lie"
+StandSound          = "all_weap_inf_pistol_mvt_getup"
+
+
+

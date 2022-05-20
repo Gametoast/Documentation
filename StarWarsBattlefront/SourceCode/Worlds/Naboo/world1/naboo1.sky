@@ -1,0 +1,135 @@
+SkyInfo()
+{
+	Enable(1);
+	PS2()
+	{
+		FogColor(128, 128, 128);
+		FogRange(0.000000, 3000.000000);
+		NearSceneRange(0.95, 100.0, 130.0);
+		FarSceneRange(1000.0);
+		AmbientColor(105, 105, 105);
+		VehicleAmbientColor(105,105,105);
+		FogRamp(3);
+	}
+	XBOX()
+	{
+		FogColor(128, 128, 128);
+		FogRange(0.000000, 3000.000000);
+		NearSceneRange(0.95, 120.0, 160.0);
+		FarSceneRange(1000.0);
+		AmbientColor(108, 108, 108);
+		TopDirectionalAmbientColor(140, 140, 140);
+		BottomDirectionalAmbientColor(100, 120, 100);
+	}
+	PC()
+	{
+		FogColor(128, 128, 128);
+		FogRange(0.000000, 3000.000000);
+		NearSceneRange(70.0, 150.0, 90.0, 200.0);
+		FarSceneRange(300.000000, 1000.0);
+		AmbientColor(108, 108, 108);
+		TopDirectionalAmbientColor(140, 140, 140);
+		BottomDirectionalAmbientColor(100, 120, 100);
+	}
+}
+
+SunInfo()
+{
+
+	PS2()
+	{
+		Angle(140.000000, 10.000000);
+		Color(210, 200, 190);
+	}
+	XBOX()
+	{
+		Angle(140.000000, -10.000000);
+		Color(210, 200, 190);
+		ShadowColor(210, 200, 190);
+	}
+	PC()
+	{
+		Angle(140.000000, -10.000000);
+		Color(210, 200, 190);
+	}
+
+	Texture("");
+	Degree(0.000000);
+	BackAngle(210.000042, 0.000000);
+	BackColor(0, 0, 0);
+	BackDegree(0.000000);
+}
+
+FlatInfo()
+{
+	Height(300.000000, 200.000000);
+	Texture("");
+	Color(128, 255, 255, 0);
+	Modulate(0);
+	TextureSpeed(10.000000, 0.000000);
+	TileSize(1200.000000);
+}
+
+DomeInfo()
+{
+	Angle(190.000005);
+	Ambient(256.000038, 256.000038, 256.000038);
+	Filter(1);
+	Threshold(50);	
+	Intensity(50);	
+	TerrainColorDarkening();
+
+	Softness(1);
+	SoftnessParam(60);
+
+	DomeModel()
+	{	
+		Geometry("naboo1_sky_dome");
+	}
+	DomeModel()
+	{	
+		Geometry("sky_water");
+		Offset(-40.0);
+		MovementScale(0.995);
+	}
+
+	DomeModel()
+	{	
+		Geometry("sky_mountains");
+		Offset(-40.0);
+		MovementScale(0.995);
+	}
+
+	LowResTerrain()
+	{
+		Texture("naboo1");
+		DetailTexture("nab1_far_detail");
+		DetailTextureScale(0.25);
+		PatchResolution(9);
+		FogNear(700.0);
+		FogFar(1000.0);
+		FogColor(126,148,82, 128);
+	}
+}
+
+SkyObject()
+{
+Geometry("cis_fly_fedlander_DOME");
+NumObjects(1);
+Height(350, 500);
+VelocityZ(30, 50);
+Distance(2500);
+InDirectionFactor(2.5);
+}
+
+
+
+SkyObject()
+{
+Geometry("imp_fly_destroyer_DOME");
+NumObjects(1);
+Height(350, 500);
+VelocityZ(30, 50);
+Distance(2500);
+InDirectionFactor(2.5);
+}

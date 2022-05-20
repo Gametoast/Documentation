@@ -1,0 +1,57 @@
+[WeaponClass]
+
+ClassLabel 			= "cannon"
+
+[Properties]
+//***********************************************
+//*************THERMAL MISSILES******************
+//***********************************************
+
+//***********************************************
+//*************TARGET & RANGE VALUES*************
+//***********************************************
+TargetEnemy			= "1"
+TargetNeutral			= "0"
+TargetFriendly			= "0"
+
+TargetPerson			= "0"
+TargetAnimal			= "0"
+TargetDroid			= "0"
+TargetVehicle			= "1"
+TargetBuilding			= "0"
+
+MinRange			= "25"
+OptimalRange			= "75"
+MaxRange			= "150"
+
+//***********************************************
+//***********WEAPON PERFORMANCE VALUES***********
+//***********************************************
+ShotDelay			= "2.0"
+RoundsPerClip 			= "24"
+ReloadTime 			= "2.0"
+
+SalvoCount			= "2.0"
+SalvoDelay			= "0.0"
+LockOnRange			= "100.0"
+LockTime 			= "0.2"
+MinSpread			= "0.2"
+MaxSpread			= "0.2"
+AutoAimSize			= "1.0"
+
+//***********************************************
+//***********HUD & CONTROLLER VALUES*************
+//***********************************************
+Label 				= "Thermal Missiles"
+ModeTexture			= "HUD_weap_scope"
+IconTexture			= "HUD_all_lascannon_icon"
+OrdnanceName 			= "all_weap_hover_hovernaut_missile_ord"
+MuzzleFlash			= ""
+Discharge			= ""
+ReticuleTexture			= "reticule_rocket"
+
+//******************************************************
+//***************SOUND**********************************
+//******************************************************
+FireSound       		= "all_weap_inf_torpedo_fire"
+//ReloadSound     		= "laserreload"

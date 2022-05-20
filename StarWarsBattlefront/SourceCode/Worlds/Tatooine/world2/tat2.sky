@@ -1,0 +1,168 @@
+SkyInfo()
+{
+	Enable(1559);
+	PS2()
+	{
+		FogColor(128, 128, 128);
+		FogRange(0.000000, 30000.000000);
+		NearSceneRange(1.750000, 150.000000, 180.000000);
+		FarSceneRange(3000.000000);
+		AmbientColor(120, 118, 140);
+		CharacterAmbientColor(130, 128, 150);
+		VehicleAmbientColor(110,108,130);
+		FogRamp(3);
+
+	
+	}
+	XBOX()
+	{
+		FogColor(128, 128, 128);
+		FogRange(0.000000, 30000.000000);
+		NearSceneRange(1.750000, 150.000000, 180.000000);
+		FarSceneRange(3000.000000);
+		AmbientColor(120, 118, 140);
+		CharacterAmbientColor(130, 128, 150);
+		TopDirectionalAmbientColor(150, 150, 180);
+		BottomDirectionalAmbientColor(110, 90, 60);
+	}
+	PC()
+	{
+		FogColor(128, 128, 128);
+		FogRange(0.000000, 30000.000000);
+		NearSceneRange(50.0, 150.0, 60.0, 200.0);
+		FarSceneRange(150.000000, 1000.0);
+		AmbientColor(120, 118, 140);
+		CharacterAmbientColor(130, 128, 150);
+		TopDirectionalAmbientColor(150, 150, 180);
+		BottomDirectionalAmbientColor(110, 90, 60);
+
+	}
+
+}
+
+SunInfo()
+{
+	Angle(130.000000, 120.000000);
+	Color(255, 240, 210);
+	Texture("");
+	Degree(-50.000035);
+	BackAngle(180.000022, 0.000000);
+	BackColor(150, 150, 150);
+	BackDegree(0.000000);
+}
+
+
+DomeInfo()
+{
+	Texture("SKY_Tatooine2.tga");
+	Angle(-90.000000);
+	Ambient(255.000000, 255.000000, 255.000000);
+	Filter(1);
+	Threshold(150);	
+	Intensity(50);	
+	TerrainColorDarkening();
+
+	Softness(1);
+	SoftnessParam(60);
+
+	XBOX()
+	{
+		TerrainBumpTexture("tat2_bump", 1.0);
+	}
+	PC()
+	{
+		TerrainBumpTexture("tat2_bump", 1.0);
+	}
+	
+
+	TerrainColorDarkening();
+	
+	AtmosphereColor()
+	{
+		on(0);
+		color(0, 0, 128, 20);
+		color(0, 0, 96, 20);
+		color(0, 0, 64, 20);
+		color(0, 0, 32, 20);
+		color(0, 0, 10, 20);
+	}
+
+	DomeModel()
+	{	
+		Geometry("tat2_sky_dome");
+	}
+	DomeModel()
+	{	
+		Geometry("");
+		Offset(100.0);
+		MovementScale(0.995);
+	}
+	DomeModel()
+	{	
+		Geometry("");
+		Offset(110.0);
+		MovementScale(0.995);
+	}
+		DomeModel()
+	{	
+		Geometry("");
+		Offset(120.0);
+		MovementScale(0.995);
+	}
+
+
+	
+	LowResTerrain()
+	{
+		Texture("tat2");
+		PatchResolution(5);
+		MaxDistance(3000);
+		FogNear(200.0);
+		FogFar(3500.0);
+		FogColor(164,174,194);
+	}
+}
+
+
+
+SkyObject()
+{
+Geometry("rep_fly_assault_DOME");
+NumObjects(2);
+Height(350, 500);
+VelocityZ(30, 50);
+Distance(2500);
+InDirectionFactor(2.5);
+}
+ 
+SkyObject()
+{
+Geometry("cis_fly_fedlander_DOME");
+NumObjects(2);
+Height(350, 500);
+VelocityZ(30, 50);
+Distance(2500);
+InDirectionFactor(2.5);
+}
+
+SkyObject()
+{
+Geometry("all_fly_moncalamari_DOME");
+NumObjects(2);
+Height(350, 500);
+VelocityZ(30, 50);
+Distance(2500);
+InDirectionFactor(2.5);
+}
+
+SkyObject()
+{
+Geometry("imp_fly_destroyer_DOME");
+NumObjects(2);
+Height(350, 500);
+VelocityZ(30, 50);
+Distance(2500);
+InDirectionFactor(2.5);
+}
+
+

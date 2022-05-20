@@ -1,0 +1,71 @@
+[WeaponClass]
+//*WEAPON NAMES AND CLASS*
+//"ClassLabel" is the type of weapon this is which will put ceertain rules in play.
+
+ClassLabel 		= "towcableweapon"
+
+
+[Properties]
+
+// "Label" is the text displayed in the interface
+Label			= "Turret Gunner"
+IconTexture		= "HUD_all_lascannon_icon"
+
+ReticuleTexture			= "reticule_sniper"
+
+//"OrdnanceName" is the name of the .odf file containing all the Ordnance Statistics
+//"MuzzleFlash" is the effect attached to the end of the weapon when it is fired
+//"Discharge" is any effect resulting fomr the weapon being fried, like smoke or ammo casings.
+
+OrdnanceName 		= "all_weap_fly_snowspeeder_reargun_ord"
+Discharge			= "med_smoke_effect"
+
+//*WEAPON STATS*
+//These stats determine the opperational characteristics of the weapon
+//"RoundsPerClip" determines how many Ordnances can be fired from the weapon before it must be reloaded with a fresh clip
+//"ShotDelay" is the minimum amount of time between ordnances being fired from the weapon
+//"ReloadTime" is the set amount of time it takes to change to a frsh clip
+
+RoundsPerClip 	= "20"
+ShotDelay 		= "3.0"
+ReloadTime 		= "3.0"
+
+
+//*AIMING*  ( (MinSpread - MaxSpread) / (LockTime) )
+//"LockTime" is the time it takes for the Auto Targeting system to get a perfect lock on a target.
+//"MinSpread" This defines how accurate the weapon can be once a full lock is acquired.
+//"MaxSpread" This defines the widest spread the weapon has at the begining of a lock or when no lock is acquired.
+
+LockOnRange		= "70.0"
+LockTime 		= "0.4"
+AutoAimSize		= "1.0"
+
+MinRange		= "0"
+OptimalRange	= "200"
+MaxRange		= "300"
+
+SalvoCount		= "1"
+SalvoDelay		= "0.0"
+InitialSalvoDelay	= "0.0"		//Default is 0
+
+
+TargetEnemy			    = "1"
+TargetNeutral			= "0"
+TargetFriendly			= "0"
+TargetPerson			= "0"
+TargetAnimal			= "0"
+TargetDroid			    = "0"
+TargetVehicle			= "1"
+TargetBuilding			= "0"
+
+
+RecoilLengthLight       = "0.1"
+RecoilLengthHeavy       = "0.1"
+RecoilStrengthLight     = "1"
+RecoilStrengthHeavy     = "0"
+
+FireSound         = "all_weap_fly_snowspeeder_reargun_fire"
+//ReloadSound       = "vehicle_reload"
+WeaponChangeSound = "vehicle_equip"
+WindSound    = ""
+DetatchSound = "all_weap_fly_snowspeeder_towcable_release"

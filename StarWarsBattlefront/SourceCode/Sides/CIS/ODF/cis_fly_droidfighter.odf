@@ -1,0 +1,184 @@
+[GameObjectClass]
+ClassLabel 			= "flyer"
+VehicleType	 		= "fighter"
+GeometryName 		= "cis_fly_droidfighter.msh"
+
+[Properties]
+FLYERSECTION 		= "BODY"
+
+Label 			= "Geonosian Starfighter"
+MapTexture 			= "droidfighter_icon"
+HealthTexture		= "HUD_cis_droidfighter_icon"
+VehiclePosition			= "common.vehiclepositions.pilot"
+MapScale 			= 1.5
+
+GeometryName 		= "cis_fly_droidfighter"
+FirstPerson       	= "cis\cisstrft;cis_1st_cockpit_starfighter"
+FirstPersonFOV		= "45"
+
+//ExplosionCritical		= "cis_fly_droidfighter_exp"
+ExplosionDestruct		= "cis_fly_droidfighter_exp"
+CollisionScale 			= "1.5"
+CollisionThreshold		= "5.0"
+MaxHealth 			= 1620.0
+HealthType		= "vehicle"
+//HitLocation		= "p_crithit 2"
+
+PilotSkillRepairScale = 0.04
+
+Acceleraton 		= 30.0
+MinSpeed 			= 20.0
+MidSpeed			= 40.0
+MaxSpeed 			= 72.0
+//StrafeSpeed			= 6.5
+
+//StrafeRollAngle			= 0.1
+PitchRate 		= 1.00 // 1.75
+PitchFilter 		= 2.90 // 2.75
+TurnRate            	= 1.25 // Max turn  //3.25 mouse!
+TurnFilter          	= 5.75 // Speed of turn //5.75 mouse!
+BankAngle 		= 0.9 // 0.9
+BankFilter 		= 2.0 // 2.5
+LevelFilter 		= 2.0 // 5.0
+
+PCPitchRate 		= 15.0
+PCSpinRate		= 15.0
+PCTurnRate 		= 25.0
+
+TakeoffTime 			= 1.0
+TakeoffSpeed 			= 3.0
+LandingTime 			= 2.0
+LandingSpeed 			= 5.0
+TakeoffHeight 			= 2.5
+
+EyePointOffset		= "0.0 1.5 0.0"
+TrackCenter 		= "0.0 2.0 -2.0"
+TrackOffset 		= "0.0 2.0 6.0"
+//				= "0.0 0.0 5.0"
+TiltValue			= "0.0"
+
+CockpitTension		= 20
+
+AimTension		= "20.0"//how much the reticule swims
+MoveTension		= "4.25"//how much swim the craft has from the center of the screen
+
+
+WEAPONSECTION		= 1
+WeaponName			= "cis_weap_fly_droidfighter_cannon"
+WeaponAmmo			= "0"
+
+AimerNodeName		= "hp_gun1"
+//FirePointName		= "hp_gun"
+AimerPitchLimits 		= "-90.0 90.0"
+AimerYawLimits 		= "-90.0 90.0"
+
+NextAimer			= "-"
+
+AimerNodeName		= "hp_gun2"
+//FirePointName		= "hp_gun3"
+AimerPitchLimits 		= "-90.0 90.0"
+AimerYawLimits 		= "-90.0 90.0"
+
+NextAimer			= "-"
+
+AimerNodeName		= "hp_gun"
+//FirePointName		= "hp_gun2"
+AimerPitchLimits 		= "-90.0 90.0"
+AimerYawLimits 		= "-90.0 90.0"
+
+NextAimer			= "-"
+
+AimerNodeName		= "hp_gun3"
+//FirePointName		= "hp_gun1"
+AimerPitchLimits 		= "-90.0 90.0"
+AimerYawLimits 		= "-90.0 90.0"
+
+
+//WEAPONSECTION		= 2
+//WeaponName			= "cis_weap_fly_droidfighter_torpedo"
+//WeaponAmmo			= "1"
+
+//AimerNodeName		= "hp_gun"
+//FirePointName		= "hp_gun2"
+//AimerPitchLimits 		= "-90.0 90.0"
+//AimerYawLimits 		= "-90.0 90.0"
+
+//NextAimer			= "-"
+
+//AimerNodeName		= "hp_gun2"
+//FirePointName		= "hp_gun3"
+//AimerPitchLimits 		= "-90.0 90.0"
+//AimerYawLimits 		= "-90.0 90.0"
+
+
+CHUNKSECTION 		= "CHUNK1"
+ChunkGeometryName 	= "cis_fly_droidfighter_chunk1"
+ChunkNodeName 		= ""
+ChunkTerrainCollisions 	= "0"
+ChunkTerrainEffect 	= "explosion"
+ChunkPhysics 		= "FULL"
+ChunkOmega 		= "3.0 2.0 3.5"
+ChunkSpeed		= "10.0"
+ChunkUpFactor		= "2.00"
+ChunkTrailEffect 		= "mediumsmoketrail"
+
+
+CHUNKSECTION 		= "CHUNK2"
+ChunkGeometryName 	= "cis_fly_droidfighter_chunk2"
+ChunkNodeName 		= ""
+ChunkTerrainCollisions 	= "0"
+ChunkTerrainEffect 	= "explosion"
+ChunkPhysics 		= "FULL"
+ChunkOmega 		= "2.0 1.5 3.0"
+ChunkSpeed		= "8.0"
+ChunkUpFactor		= "3.00"
+ChunkTrailEffect 		= "mediumsmoketrail"
+
+//////////////////////////
+////DAMAGE///////////
+///////////////
+
+DamageStartPercent		= 60.0
+DamageStopPercent		= 20.0
+DamageEffect			= "vehiclespark"
+DamageEffectScale		= 1.0
+DamageInheritVelocity		= 0.75
+DamageAttachPoint		= "hp_damage_2"
+
+DamageStartPercent		= 60.0
+DamageStopPercent		= 20.0
+DamageEffect			= "vehiclespark"
+DamageEffectScale		= 1.0
+DamageInheritVelocity		= 0.75
+DamageAttachPoint		= "hp_damage_1"
+
+DamageStartPercent		= 40.0
+DamageStopPercent		= 0.0
+DamageEffect			= "vehiclesmoke"
+DamageEffectScale		= 1.0
+DamageInheritVelocity		= 0.75
+DamageAttachPoint		= "hp_damage_1"
+
+DamageStartPercent		= 10.0
+DamageStopPercent		= 0.0
+DamageEffect			= "vehiclesmoke"
+DamageEffectScale		= 1.0
+DamageInheritVelocity		= 0.75
+DamageAttachPoint		= "hp_damage_2"
+
+
+EngineSound 		= "cis_fly_droidfighter_engine_parameterized"
+TakeoffSound 		= ""
+LandSound    		= ""
+HurtSound    		= ""
+DeathSound   		= "imp_weap_ord_exp_lg"
+VehicleCollisionSound ="com_veh_collision_lg"
+TurnOnSound  		= ""
+TurnOffSound 		= ""
+Music        		= ""
+CISMusic			="cis_vehicle"
+RepMusic			="rep_vehicle"
+MusicSpeed   		= ".15"
+MusicDelay   		= "3.0"
+
+FoleyFXGroup    	= "metal_foley"

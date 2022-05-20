@@ -1,0 +1,61 @@
+[OrdnanceClass]
+//This area defines the ordnances class
+ClassLabel 		= "bolt"
+
+[Properties]
+ImpactEffectWater 	= "watersplash_md"
+
+//This area defines the ordnances geometry and the effects associated with it.
+ExplosionName			= "cis_weap_hover_aat_launcher_exp"
+LaserTexture			= "orangelaser_D"
+ImpactEffect			= "med_cannon_impacts"
+LaserLength			= "6.0"
+LaserWidth			= "0.4"
+LaserGlowColor			= "250 170 5 100"
+LightRadius			= "5.0"
+
+LifeSpan 			= "3.0"
+Velocity 			= "160.0"
+Gravity				= "1.0"
+Rebound				= "0.0"
+
+//MaxDamage 			= "400.0"
+
+VehicleScale			= "1.0"
+ShieldScale			= "1.0"
+PersonScale			= "1.0"
+AnimalScale			= "1.0"
+DroidScale			= "1.0"
+BuildingScale			= "0.5"
+
+//NEXTCHARGE			= "0.5"
+
+//MaxDamage 			= "800.0"
+//LaserLength			= "7.0"
+//LaserWidth			= "0.5"
+
+
+
+//NEXTCHARGE			= "0.75"
+
+//MaxDamage 			= "1000.0"
+//LaserLength			= "7.5"
+//LaserWidth			= "5.5"
+
+
+//NEXTCHARGE			= "0.9"
+
+//MaxDamage 			= "1100.0"
+//LaserLength			= "8.0"
+//LaserWidth			= "0.6"
+
+
+//NEXTCHARGE			= "1.0"
+
+MaxDamage 			= "1200.0"
+LaserLength			= "8.5"
+LaserWidth			= "0.6"
+
+
+OrdnanceSound  = "com_weap_inf_ord_hum_lg"
+CollisionSound = "imp_weap_ord_exp"

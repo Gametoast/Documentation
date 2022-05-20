@@ -1,0 +1,39 @@
+[OrdnanceClass]
+ClassLabel 			= "shell"
+
+[Properties]
+ImpactEffectWater 	= "watersplash_sm"
+
+GeometryName 		= "com_weap_inf_grenadethermal_ord"
+ExplosionExpire		= "cis_weap_inf_mortar_launcher_exp"
+ExplosionImpact		= "cis_weap_inf_mortar_launcher_exp"
+ImpactEffect		= "medium_explosion"
+TrailEffect		= "com_sfx_weap_grenade_green"
+
+LightColor              = "46 252 5 150"
+LightRadius             = "4.0"
+
+Damage 			= "150.0"
+
+Velocity 		= "40.0"
+Gravity			= "1.75"
+Rebound			= "0.35"
+Friction		= "1.0"
+
+VehicleScale		="0.1"
+PersonScale 		="1.0"
+DroidScale 		="0.5"
+AnimalScale		="1.0"
+BuildingScale		="0.1"
+
+StickPerson		= 0
+StickAnimal		= 0
+StickDroid		= 0
+StickVehicle		= 0
+StickBuilding		= 0
+StickBuildingDead	= 0
+StickBuildingUnbuilt	= 0
+StickTerrain		= 0
+
+OrdnanceSound		= ""
+CollisionOtherSound	= ""

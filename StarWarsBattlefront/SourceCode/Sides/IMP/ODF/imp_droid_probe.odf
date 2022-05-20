@@ -1,0 +1,48 @@
+[GameObjectClass]
+ClassLabel 	= "droid"
+GeometryName 	= "imp_droid_probe.msh"
+
+[Properties]
+MapTexture 	= "troop_icon"
+MapScale 	= 1.4
+
+PilotType 	= "self"
+
+GeometryName 	= "imp_droid_probe"
+ExplosionName 	= "imp_droid_probe_exp"
+
+MaxHealth 	= 180.0
+HealthType 	= "droid"
+
+SetAltitude 	= 1.0
+
+Acceleraton 	= 2.0
+MaxSpeed 	= 7.5.0
+
+MaxStrafeSpeed 	= 5.0
+MaxTurnSpeed 	= 2.25
+PCMaxTurnSpeed	= 20.0
+PCMaxStrafeSpeed = 20.0
+
+WeaponName 	= "imp_weap_droid_probe_blaster"
+WeaponAmmo 	= 4		
+
+CameraHeight 		= 2.3
+CameraDistance 		= 4.5
+
+TrakCenter		= "0.0 0.0 0.0"
+TrackOffset 		= "0.0 0.0 4.5"
+NormalDirection 	= "0.0"
+AimValue 		= "1.0"
+
+AISizeType			= "HOVER"
+
+DropItemClass 			= "com_item_powerup_ammo"
+DropItemProbability 		= 0.15
+NextDropItem 			= "-"
+DropItemClass 			= "com_item_powerup_health25"
+DropItemProbability 		= 0.0
+NextDropItem 			= "-"
+DropItemClass 			= "com_item_powerup_health100"
+DropItemProbability 		= 0.0
+

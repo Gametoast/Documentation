@@ -1,0 +1,63 @@
+[WeaponClass]
+
+ClassLabel          = "launcher"
+
+[Properties]
+
+Label               = "Guided Mini-Missles"
+ReticuleTexture         = "reticule_rocket"
+OrdnanceName            = "bes_weap_cloudcar_miss_ord"
+MuzzleFlash         = ""
+Discharge           = ""
+
+ShotDelay           = "2.0"
+RoundsPerClip           = "15"
+ReloadTime          = "3.0"
+
+//MaxPressedTime            = "2.0"
+
+PitchSpread         = "1.5"
+YawSpread           = "0.5"
+
+MinRange            = "10"
+OptimalRange            = "100"
+MaxRange            = "200"
+
+LockOnRange         = "175.0"
+LockOnAngle         = "6.0"
+LockOffAngle            = "10.0"
+LockTime            = "3.5"
+
+SalvoCount          = "5.0"
+SalvoDelay          = "0.1"
+//LockOnRange           = "100.0"
+//LockTime          = "2.0"
+MinSpread           = "0.5"
+MaxSpread           = "1.0"
+AutoAimSize         = "1.0"
+
+TargetEnemy         = "1"
+TargetNeutral           = "0"
+TargetFriendly          = "0"
+
+TargetPerson            = "0"
+TargetAnimal            = "0"
+TargetDroid         = "0"
+TargetVehicle           = "1"
+TargetBuilding          = "0"
+
+//ChargeRateLight                = "1.0"
+//MaxChargeStrengthLight    = "1.0"
+//ChargeDelayLight          = "0.0"
+//ChargeRateHeavy           = "1.0"
+//MaxChargeStrengthHeavy    = "0.25"
+//ChargeDelayHeavy          = "2.45"
+
+ModeTexture         = "HUD_weap_scope"
+
+FireSound               = "bes_weap_fly_cloudcar_ptorpedo_fire"
+//ReloadSound           = "vehicle_reload"
+
+RecoilLengthHeavy       = "0.15"
+RecoilStrengthHeavy     = "1"
+RecoilDecayHeavy        = "10"

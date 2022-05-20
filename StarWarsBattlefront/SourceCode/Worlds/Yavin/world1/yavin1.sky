@@ -1,0 +1,60 @@
+SkyInfo()
+{
+	FogColor(128, 128, 128);
+	FogRange(1800.000000, 3000.000000);
+	NearSceneRange(60.000000, 150.000000,   90.000000, 200.000000);
+	FarSceneRange(10.0, 20.0);
+	AmbientColor(90, 90, 90);
+	TopDirectionalAmbientColor(75, 83, 85);
+	BottomDirectionalAmbientColor(42, 44, 20);
+	ReflectionFogColor(57, 66, 68);
+	Enable(1);
+	FogRamp(3);
+}
+
+SunInfo()
+{
+	Angle(130.000000, -30.000000);
+	Color(200, 200, 200);
+	ShadowColor(200, 200, 200);
+	Texture("");
+	Degree(0.000000);
+	BackAngle(210, 0.000000);
+	BackColor(0, 0, 0);
+	BackDegree(0.000000);
+}
+
+DomeInfo()
+{
+	Texture("sky_yavin.tga");
+	Angle(-90.000000);
+	Ambient(255.000000, 255.000000, 255.000000);
+		Filter(1);
+	Threshold(150);	
+	Intensity(50);
+
+	Softness(1);
+	SoftnessParam(60);
+
+	DomeModel()
+	{	
+		Geometry("yav_sky_dome");
+	}
+	
+	DomeModel()
+	{	
+		Geometry("yav_sky_planet");
+	}
+		LowResTerrain()
+	{
+		Texture("yavin1");
+		PatchResolution(5);
+		FogNear(90.0);
+		FogFar(350.0);
+		FogColor(144,153,156);
+		TextureScale(19.0);
+	}
+
+}
+
+

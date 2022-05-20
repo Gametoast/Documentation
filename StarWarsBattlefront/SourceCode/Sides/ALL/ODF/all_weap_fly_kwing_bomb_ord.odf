@@ -1,0 +1,26 @@
+[OrdnanceClass]
+ClassLabel 		= "shell"
+
+[Properties]
+ImpactEffectWater 	= "watersplash_md"
+
+GeometryName 	= "com_weap_inf_grenadethermal_ord"
+ExplosionName	= "all_weap_fly_kwing_bomb_exp"
+TrailEffect		= "ProtonTorpedo"
+
+LifeSpan 		= "10.0"
+Velocity 		= "35.0"
+Gravity			= "1.75"
+Rebound			= "0.0"
+
+MaxDamage 		= "600.0"
+VehicleScale		= "1.0"
+ShieldScale		= "0.5"
+HealthScale		= "0.1"
+
+TurnRate		= "0.0"
+WaverRate		= "0.0"
+WaverTurn		= "0.0"
+
+//OrdnanceSound		= "com_weap_launcher_missile_dumbfire"
+//LockedOnSound		= "com_weap_launcher_missile_guided"

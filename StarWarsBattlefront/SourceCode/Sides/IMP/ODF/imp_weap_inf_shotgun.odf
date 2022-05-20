@@ -1,0 +1,99 @@
+[WeaponClass]
+ClassLabel 			= "cannon"
+
+[Properties]
+IconTexture			= "IMP_blasterrifle_icon"
+
+GeometryName 			= "imp_weap_inf_rifle"
+HighResGeometry       		= "imp_1st_weap_inf_rifle"
+
+MuzzleFlash			= "small_muzzle_flash"
+FlashColor 			= "255 80 80 255"
+FlashLength 			= 0.025
+FlashLightColor 		= "255 192 192 175"
+FlashLightRadius 		= "2.0"
+FlashLightDuration 		= "0.25"
+Discharge			= "small_smoke_effect"
+
+
+RoundsPerClip 			= "30"
+ReloadTime 			= "1.75"
+
+//HeatRecoverRate		= "0.15"
+//HeatThreshold			= "0.0"
+
+ZoomMin				= "2.0"
+ZoomMax				= "2.0"
+ZoomRate			= "0.0"
+
+AnimationBank			= "rifle"
+FirePointName			= "hp_fire_ALL_INF_BlasterRifle"
+
+ModeTexture			= "HUD_weap_scatter"
+ReticuleTexture			= "reticule_charger"
+OrdnanceName 			= "imp_weap_inf_shotgun_ord"
+
+TriggerSingle			= "1"
+ShotDelay 			= "0.75"
+//HeatPerShot			= "0.0"
+
+PitchSpread			= "1.5"
+YawSpread			= "3.0"
+
+SpreadPerShot			= "1.1"
+SpreadRecoverRate		= "4.8"
+SpreadThreshold			= "1.6"
+SpreadLimit			= "6.0"
+
+StandStillSpread		= "0.0"
+StandMoveSpread			= "0.0"
+CrouchStillSpread		= "0.0"
+CrouchMoveSpread		= "0.0"
+ProneStillSpread		= "0.0"
+ProneMoveSpread			= "0.0"
+
+LockOnRange             	= "64.0"
+LockTime 			= "0.0"
+AutoAimSize			= "1.0"
+
+MinRange			= "0"
+OptimalRange			= "16"
+MaxRange			= "36"
+
+SalvoCount			= "1"
+ShotsPerSalvo			= "5"
+SalvoDelay			= "0.0"
+InitialSalvoDelay		= "0.0"
+
+TargetEnemy			= "1"
+TargetNeutral			= "0"
+TargetFriendly			= "0"
+
+TargetPerson			= "1"
+TargetAnimal			= "1"
+TargetDroid			= "1"
+TargetVehicle			= "0"
+TargetBuilding			= "0"
+
+//RecoilLengthLight       	= "0.3"
+//RecoilLengthHeavy       	= "0.5"
+//RecoilStrengthLight     	= "1"
+//RecoilStrengthHeavy     	= "1"
+
+
+FireSound       		= "all_weap_inf_bowcaster_fire"
+ReloadSound     		= "imp_weap_inf_reload_med"
+ChangeModeSound 		= "imp_weap_inf_equip_med"
+FireEmptySound			= "com_weap_inf_ammo_empty"
+WeaponChangeSound = "imp_weap_inf_equip_med"
+ClankLeftWalkSound  = ""
+ClankRightWalkSound = ""
+ClankLeftRunSound   = ""
+ClankRightRunSound  = ""
+JumpSound           = "imp_weap_inf_rifle_mvt_jump"
+LandSound           = "imp_weap_inf_rifle_mvt_land"
+RollSound           = "imp_weap_inf_rifle_mvt_roll"
+ProneSound          = "imp_weap_inf_rifle_mvt_squat"
+SquatSound          = "imp_weap_inf_rifle_mvt_lie"
+StandSound          = "imp_weap_inf_rifle_mvt_getup"
+

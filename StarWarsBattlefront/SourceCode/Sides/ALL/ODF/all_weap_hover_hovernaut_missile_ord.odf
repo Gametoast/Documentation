@@ -1,0 +1,40 @@
+[OrdnanceClass]
+ClassLabel 		= "missile"
+
+[Properties]
+//***************************************
+//**********THERMAL MISSILES*************
+//***************************************
+
+//***************************************
+//**********VISUAL EFFECTS***************
+//***************************************
+GeometryName 			= "com_weap_missile"
+ExplosionName			= "all_weap_hover_hovernaut_missile_exp"
+TrailEffect			= "smoketrail"
+ImpactEffectWater 		= "watersplash_sm"
+
+//***************************************
+//**********RANGE AND DAMAGE*************
+//***************************************
+LifeSpan 			= "8.0"
+Velocity 			= "70.0"
+Gravity				= "1.0"
+Rebound				= "0.0"
+
+MaxDamage 			= "120.0"
+VehicleScale			= "0.2"
+ShieldScale			= "1.0"
+HealthScale			= "1.0"
+
+TurnRate			= "2.0"
+WaverRate			= "4.0"
+WaverTurn			= "1.5"
+
+//************************************
+//***************SOUND****************
+//************************************
+OrdnanceSound		= "com_weap_inf_ord_hum_rocket"
+//LockedOnSound		= "com_weap_launcher_missile_guided"
+
+

@@ -1,0 +1,81 @@
+[WeaponClass]
+
+ClassLabel 			= "cannon"
+
+[Properties]
+
+Label				= "LR1K Cannon"
+IconTexture			= "HUD_all_lascannon_icon"
+
+Discharge			= "medium_smoke_effect"
+MuzzleFlash			= "medium_muzzle_flash"
+
+FlashLightColor 		= "255 192 192 175"
+FlashLightRadius 		= "6.0"
+FlashLightDuration 		= "0.25"
+
+RoundsPerClip 			= "0"
+ReloadTime 			= "5.0"
+
+HeatRecoverRate			= "0.4"
+HeatThreshold			= "0.25"
+
+ZoomMin				= "4.0"
+ZoomMax				= "4.0"
+ZoomRate			= "0.0"
+
+MinRange			= "0"
+OptimalRange			= "150"
+MaxRange			= "300"
+
+WEAPONSECTION			= 1
+
+FireSound 			= "com_weap_turret_fire"
+//ReloadSound     		= "laserreload"
+//ChangeModeSound 		= "com_weap_inf_blaster_rifle_modechange"
+//FireEmptySound		= "com_weap_inf_weapon_empty"
+
+ModeTexture			= "HUD_weap_salvo"
+ReticuleTexture			= "reticule_rifle"
+OrdnanceName 			= "hoth_weap_bldg_hothturret_cannon_ord"
+
+
+TriggerSingle			= "0"
+ShotDelay 			= "0.4"
+HeatPerShot			= "0.25"
+MaxPressedTime			= "0.0"
+
+YawSpread			= "0.0"
+PitchSpread			= "0.0"
+KickSpread			= "0.0"
+SpreadRecover			= "3.0"
+
+KickStrength			= "1.0"
+KickBuildup			= "100.0"
+
+LockOnRange			= "0.0"
+LockTime 			= "0.0"
+//AutoAimSize			= "1.0"
+
+SalvoCount			= "2"
+RoundsPerSalvo			= "1"
+SalvoDelay			= "0.15"
+InitialSalvoDelay		= "0.0"
+SalvoTime			= "0.0"
+
+TargetEnemy			= "1"
+TargetNeutral			= "0"
+TargetFriendly			= "0"
+
+TargetPerson			= "0"
+TargetAnimal			= "0"
+TargetDroid			= "0"
+TargetVehicle			= "0"
+TargetBuilding			= "0"
+
+RecoilLengthHeavy       	= "0.1"
+RecoilStrengthLight     	= "1"
+RecoilLengthLight      	 	= "0.1"
+RecoilStrengthHeavy    	 	= "1"
+
+FoleyFXGroup    		= "metal_foley"

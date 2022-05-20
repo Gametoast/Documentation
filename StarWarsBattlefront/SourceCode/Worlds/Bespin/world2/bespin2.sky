@@ -1,0 +1,205 @@
+SkyInfo()
+{
+	Enable(1559);
+	FogColor(128, 128, 128);
+	FogRange(250.000000, 350.000000);
+	NearSceneRange(50.0, 150.0, 60.0, 200.0);
+	FarSceneRange(220.000000, 500.0);
+	AmbientColor(90, 90, 110);
+	TopDirectionalAmbientColor(140, 140, 145);
+	BottomDirectionalAmbientColor(70, 60, 40);
+}
+
+SunInfo()
+{
+	Angle(135.000000, 190.000000);
+	Color(200, 150, 70);
+	ShadowColor(200, 150, 70);
+	Texture("");
+	Degree(-50.000035);
+	BackAngle(180.000022, 0.000000);
+	BackColor(150, 150, 150);
+	BackDegree(0.000000);
+}
+
+FlatInfo()
+{
+	Height(0.000000, 0.000000);
+	Texture("");
+	Color(128, 128, 128, 255);
+	Modulate(0);
+	TextureSpeed(0.000000, 0.000000);
+	TileSize(100.000000);
+}
+
+DomeInfo()
+{
+	Texture("sky_bespin2.tga");
+	Angle(-90.000000);
+	Ambient(255.000000, 255.000000, 255.000000);
+	Filter(1);
+	Threshold(100);	
+	Intensity(50);
+
+	Softness(1);
+	SoftnessParam(60);
+
+	DomeModel()
+	{	
+		Geometry("bes2_sky_dome");
+	}
+	
+	LowResTerrain()
+	{
+		Texture("bespin2_lowresterrain");
+		PatchResolution(10);
+		MaxDistance(400);
+		TextureScale(20.0);
+		FogNear(80.0);
+		FogFar(430.0);
+		FogColor(45,45,60,100);
+
+	}
+}
+
+PuffInfo()
+{
+	TypeCount(0);
+	Count(0);
+	Type(0);
+	TileSize(0.000000);
+}
+
+RainInfo()
+{
+	BlockSize(50.000000, 50.000000);
+	StringGrids(0);
+	BeadCount(0);
+	BeadSize(0.000000, 0.000000);
+	BeadSpeed(0.000000);
+	BeadColor(255, 255, 255, 255);
+	BeadTexture("");
+	BeadModulate(1);
+	StringAngle(0.000000);
+	OnTime(0.000000);
+	TransitionTime(5.000000);
+	OffTime(0.000000);
+	AmbientScale(1.000000);
+	DomeColor(0.250000, 0.250000, 0.250000);
+	Enabled(0);
+}
+
+SplatInfo("Water")
+{
+	Count(64);
+	Color(0, 63, 0, 128);
+	MinSize(0.100000, 0.100000);
+	MaxSize(3.000000, 3.000000);
+	Velocity(0.000000, 0.000000, 0.000000);
+	Texture("");
+	Modulate(1);
+	LifeSpan(0.500000);
+	Right(0.000000, 0.000000, 0.000000);
+	Up(0.000000, 0.000000, 0.000000);
+	Centered(1);
+	Distance(1.000000, 100.000000);
+}
+
+SplatInfo("Ground")
+{
+	Count(128);
+	Color(255, 255, 255, 255);
+	MinSize(0.010000, 0.010000);
+	MaxSize(0.500000, 1.000000);
+	Velocity(0.000000, 0.000000, 0.000000);
+	Texture("");
+	Modulate(0);
+	LifeSpan(0.500000);
+	Right(0.000000, 0.000000, 0.000000);
+	Up(0.000000, 0.000000, 0.000000);
+	Centered(0);
+	Distance(1.000000, 100.000000);
+}
+
+SplatInfo("Screen")
+{
+	Count(4);
+	Color(63, 63, 63, 255);
+	MinSize(0.010000, 0.010000);
+	MaxSize(0.100000, 0.100000);
+	Velocity(0.000000, 0.000000, 0.000000);
+	Texture("");
+	Modulate(1);
+	LifeSpan(1.000000);
+	Right(0.000000, 0.000000, 0.000000);
+	Up(0.000000, 0.000000, 0.000000);
+	Centered(1);
+	Distance(1.000000, 100.000000);
+}
+
+MirrorInfo()
+{
+	UseTexture(0);
+	Offset(-0.010000);
+}
+
+StarsInfo()
+{
+	Color(255, 255, 255, 255);
+	Count(0);
+	Modulate(0);
+}
+
+SpritesInfo()
+{
+}
+
+WaterInfo()
+{
+	TopColor(0, 0, 0);
+	BottomColor(0, 0, 0);
+	TopRange(50.000000);
+	BottomRange(30.000000);
+	BottomDrop(5.000000);
+	Enabled(0);
+}
+
+SkyObject()
+{
+Geometry("rep_fly_assault_DOME");
+NumObjects(2);
+Height(170, 250);
+VelocityZ(20, 50);
+Distance(1500);
+InDirectionFactor(2.5);
+}
+ 
+SkyObject()
+{
+Geometry("cis_fly_fedlander_DOME");
+NumObjects(2);
+Height(170, 250);
+VelocityZ(20, 50);
+Distance(1500);
+InDirectionFactor(2.5);
+}
+
+SkyObject()
+{
+Geometry("all_fly_moncalamari_DOME");
+NumObjects(2);
+Height(170, 250);
+VelocityZ(20, 50);
+Distance(1500);
+InDirectionFactor(2.5);
+}
+
+SkyObject()
+{
+Geometry("imp_fly_destroyer_DOME");
+NumObjects(2);
+Height(170, 250);
+VelocityZ(20, 50);
+Distance(1500);
+InDirectionFactor(2.5);
+}

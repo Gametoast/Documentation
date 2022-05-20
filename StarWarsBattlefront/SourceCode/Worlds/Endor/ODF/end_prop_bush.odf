@@ -1,0 +1,32 @@
+[GameObjectClass]		
+
+ClassLabel		=	"leafpatch"
+GeometryName	=	"editor_prop_bush.msh"
+
+
+[Properties]		
+
+MinSize = "1.9"
+MaxSize = "2.0"
+Offset = "0.0 1.0 0.0"
+Alpha = "1.0"
+NumParticles = "90"
+MaxDistance = "30"
+Texture = "end_leaf2"
+Radius = "5.0"
+Height = "2.0"
+
+DarknessMin = "0.5"
+DarknessMax = "0.8"
+
+Seed = "97234345"
+//Vine = "0.6 0.6"
+//VineSpread = "0.4"
+//VineLength = "0 2"
+
+NumVisible = "60"
+
+WiggleAmount = "0.06"
+
+
+MaxScatterBirds = "3"

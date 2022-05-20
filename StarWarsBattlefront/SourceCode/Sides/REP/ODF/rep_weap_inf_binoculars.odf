@@ -1,0 +1,32 @@
+[WeaponClass]
+ClassLabel 		= "binoculars"
+
+[Properties]
+// "Label" is the text displayed in the interface
+// "IconTexture" is the icon displayed in the interface
+GeometryName 	= "com_weap_inf_binoculars"
+Label			= "Binoculars"
+IconTexture		= "HUD_all_binoculars_icon"
+
+// *WEAPON STATS*
+// These stats determine the opperational characteristics of the weapon
+//"RoundsPerClip" determines how many Ordnances can be fired from the weapon before it must be reloaded with a fresh clip
+//"ShotDelay" is the minimum amount of time between ordnances being fired from the weapon
+//"ReloadTime" is the set amount of time it takes to change to a frsh clip
+//"FireStateTime" is the time that we fire for (if it's 2.0 then it'll take 2 seconds after you release the trigger for the binocular effect to stop)
+RoundsPerClip 	        = 1
+ShotDelay 		= 1.0
+ReloadTime 		= 0.0
+LockOnRange		= 100.0
+FireStateTime           = 0.0
+
+// "ZoomMin" is the lowest zoom value in first-person aim mode
+// "ZoomMax" is the highest zoom value in first-person aim mode
+// "ZoomRate" is the rate of change in zoom
+ZoomMin			= "2.0"
+ZoomMax			= "10.0"
+ZoomRate		= "3.0"
+ReticuleTexture		= "reticule_00"
+
+AnimationBank		= "tool"
+FirePointName		= "hp_fire"

@@ -1,0 +1,24 @@
+[GameObjectClass]		
+
+ClassLabel		=	"dusteffect"
+GeometryName	=	"EDITOR_prop_cloud.msh"
+
+[Properties]		
+
+MinPos = "-60 -15 -60"
+MaxPos = "60 15 60"
+MinVel = "-5 0.0 -5"
+MaxVel = "10 0.0 10"
+MinSize = "100"
+MaxSize = "180"
+MinLifeTime = "50"
+MaxLifeTime = "80"
+Alpha = "0.5"
+NumParticles = "6"
+MaxDistance = "850"
+//MinDistance = "10"
+Texture = "cloud"
+RadiusFadeMin = "60"
+RadiusFadeMax = "70"
+HeightScale = "0.5"
+SpawnSound = ""

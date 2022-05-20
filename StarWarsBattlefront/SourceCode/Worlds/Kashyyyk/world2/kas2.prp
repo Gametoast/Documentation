@@ -1,0 +1,32 @@
+Layer(0)
+{
+	SpreadFactor(0.2);
+	Mesh()
+	{
+		GrassPatch("kas_prop_grass_tall.odf", 100);
+		File("editor_grasspatch.msh", 100);
+		Frequency(50);
+		Scale(1);
+		Stiffness(0.0);
+	        ColorVariation(0.15);
+	}
+	Mesh()
+	{
+		GrassPatch("kas_prop_grass_tall.odf", 55);
+		File("editor_grasspatch.msh", 55);
+		Frequency(50);
+		Scale(1);
+		Stiffness(0.0);
+	        ColorVariation(0.15);
+	}
+}
+TreeLine()
+{
+	Path("jungle1")
+	{
+		Distance(28);
+		BorderOdf("kas_prop_treebill.odf");
+	}
+
+}
+

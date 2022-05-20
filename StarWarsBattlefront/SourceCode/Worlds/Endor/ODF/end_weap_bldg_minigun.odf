@@ -1,0 +1,30 @@
+[WeaponClass]
+ClassLabel 			= "weapon"
+
+[Properties]
+Label				= "Turret Gunner"
+
+OrdnanceName 		= "end_weap_bldg_minigun_ord"
+MuzzleFlash			= "small_muzzle_flash"
+Discharge			= "small_smoke_effect"
+
+RoundsPerClip 		= "100"
+ShotDelay 			= "0.1"
+ReloadTime 			= "3.0"
+
+LockOnRange			= "70.0"
+LockTime 			= "0.4"
+MinSpread			= "0.2"
+MaxSpread			= "1.0"
+AutoAimSize			= "1.0"
+
+
+SalvoCount			= "1"
+SalvoDelay			= "0.0"
+InitialSalvoDelay		= "0.0"
+
+FirePointName		= "hp_fire"
+
+//FireSound       		= "com_weap_inf_blaster_red3"
+//ReloadSound     		= "laserreload"
+

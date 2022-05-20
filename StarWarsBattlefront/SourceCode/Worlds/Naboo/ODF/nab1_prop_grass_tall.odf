@@ -1,0 +1,28 @@
+[GameObjectClass]		
+
+ClassLabel		=	"grasspatch"
+GeometryName	=	"editor_grasspatch.msh"
+
+
+[Properties]		
+
+MinSize = "1.5"
+MaxSize = "1.7"
+Alpha = "1.0"
+NumParticles = "55"
+MaxDistance = "80"
+Texture = "nab1_grass_tall"
+NumParts = "1"
+RadiusFadeMin = "4.0"
+RadiusFadeMax = "5.0"
+NumParts = "6"
+
+FlatHeight = "0.25 0.4"
+FlatSizeMultiplier = "1.6"
+FlatFaceFactor = "0.15"
+SkinnyFactor = "1.0"
+
+FlatCount = "4"
+FlatGrassSwing = "1"
+DarknessMin = "0.8"
+DarknessMax = "1.0"

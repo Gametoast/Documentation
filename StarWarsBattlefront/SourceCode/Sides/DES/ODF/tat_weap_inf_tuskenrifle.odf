@@ -1,0 +1,98 @@
+[WeaponClass]
+ClassLabel 			= "cannon"
+
+[Properties]
+IconTexture			= "HUD_all_rifle_icon"
+
+OrdnanceName 		= "tat_weap_inf_tuskenrifle_ord"
+GeometryName 		= "tat_weap_tuskrifle"
+
+//***********************************************
+//*************	TARGET & RANGE VALUES  **********
+//***********************************************
+
+TargetEnemy		= "1"
+TargetNeutral		= "0"
+TargetFriendly		= "0"
+
+TargetPerson		= "1"
+TargetAnimal		= "1"
+TargetDroid		= "1"
+TargetVehicle		= "0"
+TargetBuilding		= "0"
+
+MinRange		= "0"
+OptimalRange		= "16"
+MaxRange		= "48"
+
+LockOnRange             = "64.0"
+LockTime 		= "0.4"
+lockOnAngle		= "1.0"
+
+ZoomMin			= "2.5"
+ZoomMax			= "2.5"
+ZoomRate		= "0.0"
+
+YawSpread		= "0.25"
+PitchSpread		= "0.25"
+
+SpreadPerShot		= "1.1"
+SpreadRecoverRate	= "4.8"
+SpreadThreshold		= "1.6"
+SpreadLimit		= "6.0"
+
+StandStillSpread	= "0.0"
+StandMoveSpread		= "0.0"
+CrouchStillSpread	= "0.0"
+CrouchMoveSpread	= "0.0"
+ProneStillSpread	= "0.0"
+ProneMoveSpread		= "0.0"
+
+//***********************************************
+//*********** WEAPON PERFORMANCE VALUES *********
+//***********************************************
+
+RoundsPerClip 		= "55"
+ReloadTime 		= "1.5"
+ShotDelay 		= "0.4"
+TriggerSingle		= "0"
+
+SalvoCount		= "1"
+SalvoDelay		= "0.0"
+InitialSalvoDelay	= "0.0"
+SalvoTime		= "0.0"
+
+FirePointName		= "hp_fire"
+
+//***********************************************
+//***********  HUD & CONTROLLER VALUES  *********
+//***********************************************
+
+IconTexture		= "IMP_blasterrifle_icon"
+ReticuleTexture		= "reticule_rifle"
+ModeTexture		= "HUD_weap_fullauto"
+
+MuzzleFlash		= "small_muzzle_flash"
+FlashColor 		= "255 80 80 255"
+FlashLength 		= 0.025
+FlashLightColor 	= "255 220 220 175"
+FlashLightRadius 	= "2.0"
+FlashLightDuration 	= "0.25"
+Discharge		= "small_smoke_effect"
+
+RecoilLengthLight       = "0.2"
+RecoilLengthHeavy       = "0.15"
+RecoilStrengthLight     = "1.0"
+RecoilStrengthHeavy     = "0.2"
+RecoilDecayLight	= "0.0"
+RecoilDecayHeavy	= "0.0"
+
+//******************************************************
+//***************	SOUND		****************
+//******************************************************
+
+FireSound       	= "tat_weap_tusken_fire"
+ReloadSound     	= "tat_weap_tusken_reload"
+FireEmptySound		= "com_weap_inf_ammo_empty"
+
+

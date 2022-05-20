@@ -1,0 +1,25 @@
+[GameObjectClass]
+
+ClassLabel      =   "animatedprop"
+GeometryName    =   "tat1_bldg_sarlacctentacle.msh"
+
+
+[Properties]
+
+GeometryName    =   "tat1_bldg_sarlacctentacle"
+AnimationName   =   "tat1_bldg_sarlacctentacle"
+Animation       =   "idle"
+Animation       =   "grab"
+Animation       =   "grab1"
+Animation       =   "grab2"
+
+AnimationTrigger    =   "grab hp_hotspot 5.0"
+AnimationTrigger    =   "grab1 hp_hotspot1 5.0"
+AnimationTrigger    =   "grab2 hp_hotspot2 5.0"
+AttachTrigger   =   "hp_active 1.5 grab human_rifle_thrown_flail 2.5 hp_camera die"
+AttachTrigger   =   "hp_active 1.75 grab1 human_rifle_thrown_flail 2.5 hp_camera die"
+AttachTrigger   =   "hp_active 2.0 grab2 human_rifle_thrown_flail 2.5 hp_camera die"
+KillSoldierSound  = "sarlacc_belch"
+
+DenyFlyerLand = "1"
+TrackDeathOnAttach = "1"

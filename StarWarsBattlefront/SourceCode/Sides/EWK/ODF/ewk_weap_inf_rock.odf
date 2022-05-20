@@ -1,0 +1,34 @@
+[WeaponClass]
+ClassLabel 			= "grenade"
+
+[Properties]
+IconTexture			= "HUD_all_detonator_icon"
+
+GeometryName 		= "ewk_rock"
+
+RoundsPerClip 		= "1"
+ReloadTime 			= "0.5"
+
+LockOnRange			= "20.0"
+
+AnimationBank		= "grenade"
+
+OrdnanceName 		= "ewk_weap_inf_rock_ord"
+
+ShotDelay 			= "2"  
+
+ReticuleTexture		= "reticule_00"
+ForceFireAnimation	= "2"
+
+TargetEnemy			= "1"
+TargetNeutral		= "0"
+TargetFriendly		= "0"
+
+TargetPerson		= "1"
+TargetAnimal		= "1"
+TargetDroid			= "1"
+TargetVehicle		= "1"
+TargetBuilding		= "1"
+
+InitialSalvoDelay		= "0.3"
+ShotElevate			= "0.0"

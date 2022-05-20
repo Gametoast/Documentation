@@ -1,0 +1,30 @@
+[OrdnanceClass]
+ClassLabel 			= "bolt"
+
+[Properties]
+ImpactEffectWater 	= "watersplash_sm"
+
+ExplosionName		= "cis_weap_hover_stap_cannon_exp"
+LaserTexture			= "redlaser_D"
+LaserLength			= "3.0"
+LaserWidth			= "0.25"
+LaserGlowColor			= "254 6 18 100"
+//LaserGlowColor			= "250 170 5 100"
+LightRadius			= "5.0"
+
+LifeSpan 			= "2.5"
+Velocity 			= "90.0"
+Gravity			= "1.0"
+Rebound			= "0.0"
+
+MaxDamage 			= "300.0"
+VehicleScale			= "0.1"
+PersonScale 		= "1.0"
+DroidScale 		= "1.0"
+BuildingScale		= "0.05"
+AnimalScale		= "1.0"
+
+
+
+OrdnanceSound  = "com_weap_inf_ord_hum_lg"
+CollisionSound = "imp_weap_ord_exp"

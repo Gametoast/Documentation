@@ -1,0 +1,111 @@
+[GameObjectClass]
+
+ClassLabel		="commandpost"
+GeometryName		="nab1_walk_fambaa.msh"
+
+
+[Properties]
+
+GeometryName		="nab1_walk_fambaa"
+
+BUILDINGSECTION 	="BODY"
+Label 			="Control Zone"
+MapTexture 		="hud_dest_icon"
+MapScale 		=3.0
+
+GeometryName		="nab1_walk_fambaa"
+//DestroyedGeometryName ="geo_bldg_technounion_hulK"
+MaxHealth 		="12000.0"
+//ExplosionName 	="cis_fly_fedcoreship_exp"
+//AnimationName		="geo_bldg_technounion"
+//IdleAnimation		="idle"
+//DeathAnimation	="destroy"
+
+
+
+
+//HoloOdf 			= "com_holo_controlzone"
+//HoloImageGeometry	= "alliance com_icon_alliance"
+//HoloImageGeometry 	= "empire com_icon_imperial"
+//HoloImageGeometry 	= "republic com_icon_republic"
+//HoloImageGeometry 	= "CIS com_icon_CIS"
+//HoloTurnOnTime		= 2.2
+AmbientSound        = "all famba_moan"
+AmbientSound        = "imp famba_moan"
+AmbientSound        = "cis famba_moan"
+AmbientSound        = "rep famba_moan"
+SoundPitchDev       = "0.4"
+
+[InstanceProperties]
+CaptureRegion = ""
+ControlRegion = ""
+KillRegion = ""
+SpawnPath = ""
+AllyPath = ""
+AllyCount = 65536
+Radius = 0.0
+ValueBleed = 10
+Value_ATK_Alliance = 10
+Value_ATK_CIS = 10
+Value_ATK_Empire = 10
+Value_ATK_Republic = 10
+Value_DEF_Alliance = 10
+Value_DEF_CIS = 10
+Value_DEF_Empire = 10
+Value_DEF_Republic = 10
+Value_DEF_Locals = 10
+VO_All_AllCapture = ""
+VO_All_AllLost = ""
+VO_All_AllInDispute = ""
+VO_All_AllSaved = ""
+VO_All_AllInfo = ""
+VO_All_ImpCapture = ""
+VO_All_ImpLost = ""
+VO_All_ImpInDispute = ""
+VO_All_ImpSaved = ""
+VO_All_ImpInfo = ""
+VO_Imp_AllCapture = ""
+VO_Imp_AllLost = ""
+VO_Imp_AllInDispute = ""
+VO_Imp_AllSaved = ""
+VO_Imp_AllInfo = ""
+VO_Imp_ImpCapture = ""
+VO_Imp_ImpLost = ""
+VO_Imp_ImpInDispute = ""
+VO_Imp_ImpSaved = ""
+VO_Imp_ImpInfo = ""
+VO_Rep_RepCapture = ""
+VO_Rep_RepLost = ""
+VO_Rep_RepInDispute = ""
+VO_Rep_RepSaved = ""
+VO_Rep_RepInfo = ""
+VO_Rep_CISCapture = ""
+VO_Rep_CISLost = ""
+VO_Rep_CISInDispute = ""
+VO_Rep_CISSaved = ""
+VO_Rep_CISInfo = ""
+VO_CIS_RepCapture = ""
+VO_CIS_RepLost = ""
+VO_CIS_RepInDispute = ""
+VO_CIS_RepSaved = ""
+VO_CIS_RepInfo = ""
+VO_CIS_CISCapture = ""
+VO_CIS_CISLost = ""
+VO_CIS_CISInDispute = ""
+VO_CIS_CISSaved = ""
+VO_CIS_CISInfo = ""
+Strategic_Filter1 = ""
+Strategic_Filter2 = ""
+Strategic_Filter3 = ""
+Strategic_Filter4 = ""
+Strategic_Filter5 = ""
+Strategic_Filter6 = ""
+
+
+SoldierBan = ""
+HoverBan = ""
+SmallBan = ""
+MediumBan = ""
+HugeBan = ""
+
+CollisionScale 	= 100.0

@@ -1,0 +1,25 @@
+[ExplosionClass]
+ClassLabel 	= "explosion"
+
+[Properties]
+WaterEffect 	= "watersplash_ord"
+
+Damage 		= "300.0"
+DamageRadius 	= "5.0"
+Shake 		= "0.05"
+ShakeRadius 	= "2.0"
+//Push 		= "10.0"
+//PushRadius 	= "8.0"
+Effect 		= "com_sfx_weap_emp_exp_lg"
+LightColor      = "92 136 250 100"
+LightRadius 	= "10.0"
+LightDuration 	= "1.0"
+
+
+VehicleScale	= "0.8"
+PersonScale 	= "1.0"
+DroidScale 	= "1.0"
+BuildingScale	= "0.5"
+AnimalScale	= "1.0"
+
+SoundProperty	= "com_weap_inf_haywire_exp"

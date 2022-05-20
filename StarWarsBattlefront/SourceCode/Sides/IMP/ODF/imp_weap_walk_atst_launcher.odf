@@ -1,0 +1,85 @@
+[WeaponClass]
+
+
+ClassLabel 			= "launcher"
+
+[Properties]
+IconTexture			= "HUD_all_lascannon_icon"
+
+MuzzleFlash			= "lrg_weap_discharge"
+Discharge			= "lrg_weap_discharge"
+FlashLightColor 		= "255 192 192 175"
+FlashLightRadius 		= "2.0"
+FlashLightDuration 		= "0.25"
+
+TriggerSingle			= "1"
+RoundsPerClip 			= "1"
+ReloadTime 			= "4.0"
+ShotDelay 			= "0.1"
+
+HeatRecoverRate			= "0.1"
+HeatThreshold			= "0.3"
+
+ZoomMin				= "2.0"
+ZoomMax				= "2.0"
+ZoomRate			= "0.0"
+
+
+
+WEAPONSECTION		= "1"
+
+
+//FireSound		= "imp_weap_walk_atst_launcher_fire"
+//FireEmptySound		= "com_weap_inf_weapon_empty"
+FireLoopSound		= ""
+//ReloadSound		= "imp_weap_inf_reload_lg"
+ChargeSound		= ""
+//ChangeModeSound		= "com_weap_inf_launcher_modechange"
+//WeaponChangeSound	= "com_weap_inf_launcher_weaponchange"
+//TrackingSound  		= "com_weap_laserlock"
+
+ModeTexture		= "HUD_weap_scope"
+ReticuleTexture		= "reticule_pistol"
+OrdnanceName 		= "imp_weap_walk_atst_launcher_ord"
+
+ShotDelay 		= "0.0"
+TriggerSingle		= "1"
+//HeatPerShot		= "0.8"
+
+PitchSpread		= "0.5"
+YawSpread		= "0.5"
+
+MinRange		= "10"
+OptimalRange		= "80"
+MaxRange		= "160"
+
+LockOnRange		= "100.0"
+LockTime 		= "3.0"
+LockOnAngle		= "4.0"
+LockOffAngle		= "9.0"
+
+SalvoCount		= "1"
+SalvoDelay		= "0.0"
+InitialSalvoDelay	= "0.0"
+SalvoTime		= "0.0"
+
+TargetEnemy		= "1"
+TargetNeutral		= "0"
+TargetFriendly		= "0"
+
+TargetPerson		= "0"
+TargetAnimal		= "0"
+TargetDroid		= "1"
+TargetVehicle		= "1"
+TargetBuilding		= "1"
+
+
+
+RecoilLengthHeavy       = "1.5"
+RecoilStrengthHeavy     = "1"
+RecoilDecayHeavy        = ".75"
+
+
+
+
+

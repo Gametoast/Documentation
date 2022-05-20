@@ -1,0 +1,85 @@
+[GameObjectClass]
+ClassLabel 			= "flyer"
+VehicleType	 		= "fighter"
+GeometryName 		= "cis_fly_technounion_DOME.msh"
+
+[Properties]
+FLYERSECTION 		= "BODY"
+
+Label 			= "Geonosian Starfighter"
+MapTexture 			= "speeder_icon"
+StatusTexture		= "HUD_rep_jedistarfighter_icon"
+MapScale 			= 1.5
+
+GeometryName 		= "cis_fly_technounion_DOME"
+CollisionScale 		= 0.25
+ExplosionCritical		= "cis_fly_geofighter_exp"
+ExplosionDestruct		= "cis_fly_geofighter_exp"
+
+MaxHealth 			= 1000.0
+
+DamageStartPercent	= 60.0
+DamageStopPercent		= 20.0
+DamageEffect		= "vehiclespark"
+DamageEffectScale		= 1.0
+DamageInheritVelocity	= 0.75
+DamageAttachPoint		= "hp_damage_2"
+
+DamageStartPercent	= 60.0
+DamageStopPercent		= 20.0
+DamageEffect		= "vehiclespark"
+DamageEffectScale		= 1.0
+DamageInheritVelocity	= 0.75
+DamageAttachPoint		= "hp_damage_1"
+
+DamageStartPercent	= 30.0
+DamageStopPercent		= 0.0
+DamageEffect		= "vehiclesmoke"
+DamageEffectScale		= 1.0
+DamageInheritVelocity	= 0.75
+DamageAttachPoint		= "hp_damage_1"
+
+DamageStartPercent	= 19.0
+DamageStopPercent		= 0.0
+DamageEffect		= "vehicleflame"
+DamageEffectScale		= 1.0
+DamageInheritVelocity	= 0.75
+DamageAttachPoint		= "hp_damage_1"
+
+Acceleraton 		= 20.0
+MinSpeed 			= 30.0
+MaxSpeed 			= 50.0
+
+PitchRate 			= 1.75 //1.85
+PitchFilter 		= 2.75
+TurnRate 			= 1.75
+TurnFilter 			= 2.75
+BankAngle 			= 0.9
+BankFilter 			= 2.5
+LevelFilter 		= 5.0
+
+TakeoffTime 		= 1.0
+TakeoffSpeed 		= 3.0
+LandingTime 		= 2.0
+LandingSpeed 		= 5.0
+
+TrackCenter 		= "0.0 15 12.0"
+TrackOffset 		= "0.0 -10.0 18.0"
+//				= "0.0 0.0 5.0"
+TiltValue			= "0.0"
+
+AimTension			= "30.0"
+MoveTension			= "4.5"
+
+WeaponName			= "cis_weap_fly_geofighter_cannon"
+WeaponAmmo			= "0"
+
+AimerNodeName 		= "turret"
+AimerPitchLimits 		= "-10.0 10.0"
+AimerYawLimits 		= "-20.0 20.0"
+BarrelNodeName		= "barrel"
+
+PilotPosition 		= "hp_active"
+PilotAnimation 		= "drive"
+
+

@@ -1,0 +1,75 @@
+[WeaponClass]
+ClassLabel 			= "cannon"
+
+[Properties]
+
+//***********************************************
+//***********  HUD & CONTROLLER VALUES  *********
+//***********************************************
+Label				= "Blaster Cannon"
+IconTexture			= "HUD_all_lascannon_icon"
+ReticuleTexture			= "reticule_rifle"
+
+//***********************************************
+//*********** WEAPON PERFORMANCE VALUES *********
+//***********************************************
+RoundsPerClip 			= "0"
+ReloadTime 			= "0.0"
+ShotDelay 			= "0.25" //for RS style, 0.1
+
+SalvoCount			= "1"
+ShotsPerSalvo			= "2"
+SalvoDelay			= "0.0"
+InitialSalvoDelay		= "0.0"
+SalvoTime			= "0.0"
+
+RecoilLengthLight       	= "0.1"
+RecoilLengthHeavy       	= "0.1"
+RecoilStrengthLight     	= "1"
+RecoilStrengthHeavy     	= "1"
+
+HeatRecoverRate			= "0.35"
+HeatThreshold			= "0.4"
+HeatPerShot			= "0.15"
+
+
+
+OrdnanceName 			= "all_weap_fly_ywing_cannon_ord"
+
+//***********************************************
+//*************	TARGET & RANGE VALUES  **********
+//***********************************************
+
+TargetEnemy			= "1"
+TargetNeutral			= "0"
+TargetFriendly			= "0"
+
+TargetPerson			= "1"
+TargetAnimal			= "1"
+TargetDroid			= "1"
+TargetVehicle			= "1"
+TargetBuilding			= "1"
+
+//LockOnRange			= "200.0"
+//LockTime 			= "0.5"
+//LockOnAngle			= "20.0"
+
+MinRange			= "0"
+OptimalRange			= "150"
+MaxRange			= "300"
+
+//MinSpread			= "0.0"
+//MaxSpread			= "0.2"
+
+//******************************************************
+//***************	SOUND		****************
+//******************************************************
+
+FireSound       		= "all_weap_fly_ywing_cannon_fire"
+//ReloadSound     		= "laserreload"
+//WeaponChangeSound 		= "com_weap_inf_laser_weaponchange"
+
+
+OverheatSound      = "com_weap_energy_depleted"
+OverheatSoundPitch  = "0.5"
+OverheatStopSound   = "com_weap_energy_refilled"

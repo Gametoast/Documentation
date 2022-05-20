@@ -1,0 +1,16 @@
+[GameObjectClass]		
+
+ClassLabel		=	"prop"
+GeometryName	=	"end_prop_ewok_fire.msh"
+
+
+[Properties]		
+
+GeometryName	=	"end_prop_ewok_fire"
+
+AttachEffect = "torchflame"
+
+SoundProperty = "com_amb_fire"
+AttachToHardPoint = "hp_fire"
+
+VehicleCollisionPrim	=	"VehBlockEntry2 aacylinder NULL 0.0 0.0 0.0 1.3 6.5 0.0"

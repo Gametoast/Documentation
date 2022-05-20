@@ -1,0 +1,120 @@
+[WeaponClass]
+ClassLabel 		= "launcher"
+
+[Properties]
+AnimationBank		= "bazooka"
+GeometryName 		= "all_weap_inf_launcher"
+HighResGeometry         = "all_1st_weap_inf_launcher"
+
+//***********************************************
+//*************	TARGET & RANGE VALUES  **********
+//***********************************************
+
+TargetEnemy		= "1"
+TargetNeutral		= "0"
+TargetFriendly		= "0"
+
+TargetPerson		= "0"
+TargetAnimal		= "0"
+TargetDroid		= "0"
+TargetVehicle		= "1"
+TargetBuilding		= "0"
+
+MinRange		= "6"
+OptimalRange		= "75"
+MaxRange		= "150"
+
+LockOnRange		= "175.0"
+LockOnAngle		= "6.0"
+LockOffAngle		= "10.0"
+LockTime 		= "1.0"
+
+ZoomMin			= "2.0"
+ZoomMax			= "2.0"
+ZoomRate		= "0.0"
+
+PitchSpread		= "0.0"
+YawSpread		= "0.0"
+
+SpreadPerShot		= "1.1"
+SpreadRecoverRate	= "4.8"
+SpreadThreshold		= "1.6"
+SpreadLimit		= "6.0"
+
+StandStillSpread	= "0.0"
+StandMoveSpread		= "0.0"
+CrouchStillSpread	= "0.0"
+CrouchMoveSpread	= "0.0"
+ProneStillSpread	= "0.0"
+ProneMoveSpread		= "0.0"
+
+//***********************************************
+//*********** WEAPON PERFORMANCE VALUES *********
+//***********************************************
+
+RoundsPerClip 		= "2"
+ReloadTime 		= "4.0"
+ShotDelay 		= "0.0"
+TriggerSingle		= "1"
+MaxPressedTime		= "0.0"
+
+SalvoCount		= "2"
+SalvoDelay		= "0.25"
+InitialSalvoDelay	= "0.25"
+SalvoTime		= "0.0"
+
+OrdnanceName 		= "all_weap_inf_torpedo_launcher_ord"
+FirePointName		= "hp_fire"
+
+//***********************************************
+//***********  HUD & CONTROLLER VALUES  *********
+//***********************************************
+
+IconTexture		= "IMP_launcher_icon"
+ModeTexture		= "HUD_weap_semiauto"
+ReticuleTexture		= "reticule_rocket"
+
+ScopeTexture	= "weapon_scope2"
+MuzzleFlash		= "small_muzzle_flash"
+FlashColor 		= "255 198 62"
+FlashLength 		= "0.075"
+FlashLightColor 	= "255 198 62 175"
+
+FlashLightRadius 	= "5.0"
+FlashLightDuration 	= "0.25"
+Discharge		= "small_smoke_effect"
+
+ChargeRateLight         = "0.0"
+MaxChargeStrengthLight  = "0.0"
+ChargeDelayLight        = "0.0"
+ChargeRateHeavy         = "0.0"
+MaxChargeStrengthHeavy  = "0.0"
+ChargeDelayHeavy        = "0.0"
+
+RecoilLengthHeavy       = "1.5"
+RecoilStrengthHeavy     = "1"
+RecoilDecayHeavy        = "0.75"
+
+//******************************************************
+//***************	SOUND		****************
+//******************************************************
+
+FireSound           = "all_weap_inf_torpedo_fire"
+FireEmptySound      = "com_weap_inf_ammo_empty"
+FireLoopSound       = ""
+ReloadSound         = "all_weap_inf_reload_lg"
+ChargeSound         = "all_weap_inf_tracking_unit"
+ChargeSoundPitch    = "0.0"
+ChangeModeSound		= "all_weap_inf_equip_lg"
+WeaponChangeSound	= "all_weap_inf_equip_lg"
+ClankLeftWalkSound  = ""
+ClankRightWalkSound = ""
+ClankLeftRunSound   = ""
+ClankRightRunSound  = ""
+JumpSound           = "all_weap_inf_torpedo_mvt_jump"
+LandSound           = "all_weap_inf_torpedo_mvt_land"
+RollSound           = "all_weap_inf_torpedo_mvt_roll"
+ProneSound          = "all_weap_inf_torpedo_mvt_squat"
+SquatSound          = "all_weap_inf_torpedo_mvt_lie"
+StandSound          = "all_weap_inf_torpedo_mvt_getup"
+

@@ -1,0 +1,49 @@
+Layer(0)
+{
+	SpreadFactor(0.3);
+	
+	Mesh()
+	{
+		GrassPatch("kas_prop_grass.odf", 90);
+		File("editor_grasspatch.msh", 90);
+		Frequency(50);
+		Scale(1);
+		Stiffness(0.0);
+		CollisionSound("foliage_collision");
+	}
+	Mesh()
+	{
+		GrassPatch("kas_prop_grass.odf", 50);
+		File("editor_grasspatch.msh", 50);
+		Frequency(50);
+		Scale(1);
+		Stiffness(0.0);
+		CollisionSound("foliage_collision");
+	}
+
+}
+Layer(1)
+{
+	SpreadFactor(0.3);
+	
+	Mesh()
+	{
+		GrassPatch("kas_prop_reeds.odf", 90);
+		File("editor_grasspatch.msh", 90);
+		Frequency(50);
+		Scale(1);
+		Stiffness(0.0);
+		CollisionSound("foliage_collision");
+	}
+	Mesh()
+	{
+		GrassPatch("kas_prop_reeds.odf", 50);
+		File("editor_grasspatch.msh", 50);
+		Frequency(50);
+		Scale(1);
+		Stiffness(0.0);
+		CollisionSound("foliage_collision");
+	}
+}
+
+

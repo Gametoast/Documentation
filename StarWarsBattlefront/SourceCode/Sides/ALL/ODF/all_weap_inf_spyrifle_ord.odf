@@ -1,0 +1,35 @@
+[OrdnanceClass]
+ClassLabel 			= "bolt"
+
+[Properties]
+LaserTexture		= "yellowlaser_D"
+LaserGlowColor		= "254 254 15 100"
+LightColor              = "254 254 15 150"
+LightRadius             = "3.0"
+
+LaserLength		= "0.75"
+LaserWidth		= "0.075"
+GlowLength		= "1.0"
+BlurLength		= "1.25"
+
+LifeSpan 			= "0.70"
+Velocity 			= "45.0"
+Gravity				= "1.0"
+Rebound				= "0.0"
+
+MaxDamage 		= "60.0"
+VehicleScale		= "0.0"
+ShieldScale		= "1.0"
+PersonScale		= "1.0"
+DroidScale		= "1.0"
+BuildingScale		= "0.1"
+
+ImpactEffectSoft	= "ord_explosion"
+ImpactEffectRigid	= "ord_explosion"
+ImpactEffectStatic	= "ord_explosion"
+ImpactEffectTerrain	= "ord_explosion"
+ImpactEffectWater 	= "watersplash_ord"
+ImpactEffectShield	= "ord_explosion"
+
+OrdnanceSound ="com_weap_inf_ord_hum_sm"
+//ExplosionName		= "com_weap_ord_exp"

@@ -1,0 +1,47 @@
+Version(3);
+SaveType(0);
+
+Camera("camera")
+{
+    Rotation(0.388, 0.087, -0.895, 0.202);
+    Position(32.103, 109.696, -120.322);
+    FieldOfView(55.400);
+    NearPlane(1.000);
+    FarPlane(3000.000);
+    ZoomFactor(1.000);
+    Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+    Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+    Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+    Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+    Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+    Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+    Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+    Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+    Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+    Bookmark(-142.505, 26.620, -142.171,  0.717, 0.095, 0.685, -0.090);
+}
+TerrainName("tat1.ter");
+SkyName("tat1.sky");
+ScriptName("DummyScript.dll");
+ControllerManager("StandardCtrlMgr");
+
+WorldExtents()
+{
+    Min(0.000000, 0.000000, 0.000000);
+    Max(0.000000, 0.000000, 0.000000);
+}
+
+NextSequence(-3705784);
+
+Object("Sandcrawler", "com_snd_amb_static", -1737917199)
+{
+    ChildRotation(1.000, 0.000, 0.000, 0.000);
+    ChildPosition(-118.387, 18.018, -211.900);
+    SeqNo(-1737917199);
+    Team(0);
+    NetworkId(-1);
+    Layer(3);
+    Sound("sandcrawler");
+    MinDistance("30");
+    MaxDistance("150.0");
+}

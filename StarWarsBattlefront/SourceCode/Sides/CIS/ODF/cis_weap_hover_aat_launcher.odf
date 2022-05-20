@@ -1,0 +1,57 @@
+[WeaponClass]
+ClassLabel 			= "cannon"
+
+[Properties]
+
+IconTexture			= "IMP_launcher_icon"
+ModeTexture			= "HUD_weap_semiauto"
+ReticuleTexture			= "reticule_rocket"
+
+OrdnanceName 			= "cis_weap_hover_aat_launcher_ord"
+MuzzleFlash			= "lrg_weap_discharge"
+Discharge			= "lrg_weap_discharge"
+
+HeatRecoverRate			= "0.3"
+HeatThreshold			= "0.05"
+HeatPerShot			= "1.05"
+
+RoundsPerClip 			= "0"
+ShotDelay 			= "0.5"
+//ReloadTime 			= "4.0"
+//LockOnTime 			= "5.0"
+
+//LockOnRange			= "0.0"
+//LockTime 			= "0.4"
+MinSpread			= "0.0"
+MaxSpread			= "0.0"
+AutoAimSize			= "1.0"
+
+SalvoCount			= "1"
+SalvoDelay			= "0.0"
+InitialSalvoDelay		= "0.0"
+
+//MaxPressedTime			= "4.0"
+
+FireSound       		= "cis_weap_hover_aat_launcher_fire"
+//ReloadSound     		= "cannonreload"
+
+OverheatSound      = "com_weap_energy_depleted"
+OverheatSoundPitch  = "0.5"
+OverheatStopSound   = "com_weap_energy_refilled"
+
+
+//***************************************
+//**********VIBRATION********************
+//***************************************
+
+RecoilLengthLight     	 	= ".5"
+RecoilStrengthLight     	= "1"
+
+RecoilLengthHeavy      		= "2.5"
+RecoilStrengthHeavy     	= ".7"
+RecoilDecayHeavy		= ".25"
+
+
+MinRange			= "0"
+OptimalRange			= "60"
+MaxRange			= "130"

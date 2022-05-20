@@ -1,0 +1,70 @@
+[WeaponClass]
+//*WEAPON NAMES AND CLASS*
+//"ClassLabel" is the type of weapon this is which will put ceertain rules in play.
+
+ClassLabel 		= "cannon"
+
+
+[Properties]
+
+// "Label" is the text displayed in the interface
+Label			= "GC/850 Turrets"
+IconTexture		= "IMP_blasterrifle_icon"
+ModeTexture		= "HUD_weap_semiauto"
+ReticuleTexture		= "reticule_rifle"
+//"OrdnanceName" is the name of the .odf file containing all the Ordnance Statistics
+//"MuzzleFlash" is the effect attached to the end of the weapon when it is fired
+//"Discharge" is any effect resulting fomr the weapon being fried, like smoke or ammo casings.
+
+OrdnanceName 	= "imp_weap_walk_atat_cannon_head_ord"
+//MuzzleFlash		= "med_muzzle_flash"
+Discharge		= "med_smoke_effect"
+
+HeatRecoverRate			= "0.4"
+HeatThreshold			= "0.01"
+HeatPerShot			= "0.25"
+
+//*WEAPON STATS*
+//These stats determine the opperational characteristics of the weapon
+//"RoundsPerClip" determines how many Ordnances can be fired from the weapon before it must be reloaded with a fresh clip
+//"ShotDelay" is the minimum amount of time between ordnances being fired from the weapon
+//"ReloadTime" is the set amount of time it takes to change to a frsh clip
+
+RoundsPerClip 	= "0"
+ShotDelay 		= "0.4"
+ReloadTime 		= "2.5"
+
+ZoomMin			= "2.5"
+ZoomMax			= "2.5"
+ZoomRate		= "0.0"
+
+MinRange		= "0"
+OptimalRange		= "100"
+MaxRange		= "400"
+
+//*AIMING*  ( (MinSpread - MaxSpread) / (LockTime) )
+//"LockTime" is the time it takes for the Auto Targeting system to get a perfect lock on a target.
+//"MinSpread" This defines how accurate the weapon can be once a full lock is acquired.
+//"MaxSpread" This defines the widest spread the weapon has at the begining of a lock or when no lock is acquired.
+
+LockOnRange		= "150.0"
+LockTime 		= "0.6"
+MinSpread		= "0.1"
+MaxSpread		= "0.1"
+AutoAimSize		= "1.0"
+
+FireSound         = "imp_weap_walk_atat_cannon_head_fire"
+//ReloadSound       = "laserreload"
+//WeaponChangeSound = "com_weap_inf_laser_weaponchange"
+
+OverheatSound      = "com_weap_energy_depleted"
+OverheatSoundPitch  = "0.5"
+OverheatStopSound   = "com_weap_energy_refilled"
+
+
+RecoilDelayLight     	 	= ".1"
+RecoilLengthLight		= ".3"
+RecoilStrengthLight     	= "1"
+
+RecoilLengthHeavy       	= "0.25"
+RecoilStrengthHeavy     	= "1"

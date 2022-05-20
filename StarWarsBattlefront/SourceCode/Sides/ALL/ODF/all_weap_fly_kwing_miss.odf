@@ -1,0 +1,67 @@
+[WeaponClass]
+
+ClassLabel 			= "cannon"
+
+[Properties]
+
+Label 			= "Guided Mini-Missles"
+
+OrdnanceName 		= "all_weap_fly_kwing_miss_ord"
+MuzzleFlash			= ""
+Discharge			= "small_smoke_effect"
+
+ReticuleTexture		= "reticule_02"
+
+ShotDelay			= "4.0"
+RoundsPerClip 			= "45"
+ReloadTime 			= "3.5"
+
+//PitchSpread			= "1.5"
+//YawSpread			= "2.5"
+
+MinRange			= "10"
+OptimalRange			= "200"
+MaxRange			= "350"
+
+LockOnRange			= "350.0"
+LockOnAngle			= "6.0"
+LockOffAngle			= "10.0"
+LockTime 			= "0.5"
+
+SalvoCount		= "1"
+ShotsPerSalvo		= "7"
+SalvoDelay		= "0.5"
+InitialSalvoDelay	= "0.0"
+SalvoTime		= "0.0"
+
+ShotPatternCount 	= 7
+ShotPatternPitchYaw 	= "0.0 -9.0"
+ShotPatternPitchYaw 	= "0.0 -6.0"
+ShotPatternPitchYaw 	= "0.0 -3.0"
+ShotPatternPitchYaw 	= "0.0 0.0"
+ShotPatternPitchYaw 	= "0.0 3.0"
+ShotPatternPitchYaw 	= "0.0 6.0"
+ShotPatternPitchYaw 	= "0.0 9.0"
+
+//SalvoCount			= "8.0"
+//SalvoDelay			= "0.6"
+
+
+TargetEnemy			= "1"
+TargetNeutral			= "0"
+TargetFriendly			= "1"
+
+TargetPerson			= "0"
+TargetAnimal			= "0"
+TargetDroid			= "0"
+TargetVehicle			= "1"
+TargetBuilding			= "1"
+
+ModeTexture			= "HUD_weap_scope"
+
+//FireSound       		= "com_weap_inf_launcher_rocket2"
+//ReloadSound     		= "laserreload"
+
+RecoilLengthHeavy       = "0.15"
+RecoilStrengthHeavy     = "1"
+RecoilDecayHeavy        = "10"

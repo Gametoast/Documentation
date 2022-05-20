@@ -1,0 +1,44 @@
+[OrdnanceClass]
+
+ClassLabel 			= "bolt"
+
+//***************************************
+//**********PILOT DUAL LASERS************
+//***************************************
+[Properties]
+ExplosionName			= "all_weap_hover_combatspeeder_cannon1_exp"
+
+//***************************************
+//**********VISUAL EFFECTS***************
+//***************************************
+LaserTexture			= "redlaser_L"
+ImpactEffect			= "med_cannon_impacts"
+LaserLength			= "3.0"
+LaserWidth			= "0.3"
+LaserGlowColor			= "254 6 18 100"
+LightColor              	= "254 6 18 150"
+LightRadius             	= "5.0"
+ImpactEffectWater 		= "watersplash_sm"
+
+//***************************************
+//**********SPEED AND DAMAGE*************
+//***************************************
+LifeSpan 			= "5.0"
+Velocity 			= "70.0"
+Gravity				= "1.0"
+Rebound				= "0.0"
+
+MaxDamage 			= "300.0"
+
+VehicleScale			= "0.18"
+ShieldScale			= "1.0"
+PersonScale			= "1.0"
+AnimalScale			= "1.0"
+DroidScale			= "1.0"
+BuildingScale			= "0.5"
+//***************************************
+//**********SOUND************************
+//***************************************
+
+OrdnanceSound  = "com_weap_inf_ord_hum_lg"
+CollisionSound = "imp_weap_ord_exp"

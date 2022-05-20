@@ -1,0 +1,90 @@
+[WeaponClass]
+ClassLabel      = "launcher"
+
+[Properties]
+Label           = "torpedo Launcher"
+IconTexture     = "HUD_all_lascannon_icon"
+
+MuzzleFlash     = "small_muzzle_flash"
+FlashLightColor     = "255 192 192 175"
+FlashLightRadius    = "5.0"
+FlashLightDuration  = "0.25"
+Discharge       = "small_smoke_effect"
+GeometryName        = "wok_weap_inf_launcher"
+
+RoundsPerClip       = "1"
+ReloadTime      = "4.5"
+//HeatRecoverRate   = "0.2"
+//HeatThreshold     = "0.3"
+
+ZoomMin         = "2.5"
+ZoomMax         = "2.5"
+ZoomRate        = "0.0"
+
+AnimationBank       = "bazooka"
+FirePointName       = "hp_fire"
+
+ModeTexture     = "HUD_weap_semiauto"
+ReticuleTexture     = "reticule_02"
+OrdnanceName        = "wok_weap_inf_torpedo_launcher_ord"
+
+ShotDelay       = "0.0"
+TriggerSingle       = "1"
+//HeatPerShot       = "0.8"
+MaxPressedTime      = "2.0"
+
+PitchSpread     = "0.0"
+YawSpread       = "0.0"
+
+MinRange        = "0"
+OptimalRange        = "75"
+MaxRange        = "150"
+
+LockOnRange     = "175.0"
+LockOnAngle     = "6.0"
+LockOffAngle        = "10.0"
+LockTime        = "1.5"
+//AutoAimSize       = "1.0"
+
+SalvoCount      = "1"
+SalvoDelay      = "0.0"
+InitialSalvoDelay   = "0.0"
+SalvoTime       = "0.0"
+
+TargetEnemy     = "1"
+TargetNeutral       = "0"
+TargetFriendly      = "0"
+
+TargetPerson        = "0"
+TargetAnimal        = "0"
+TargetDroid     = "0"
+TargetVehicle       = "1"
+TargetBuilding      = "0"
+
+ChargeRateLight         = "1.0"
+MaxChargeStrengthLight  = "1.0"
+ChargeDelayLight        = "0.0"
+ChargeRateHeavy         = "1.0"
+MaxChargeStrengthHeavy  = "0.25"
+ChargeDelayHeavy        = "2.45"
+
+RecoilLengthHeavy       = "1.5"
+RecoilStrengthHeavy     = "1"
+RecoilDecayHeavy        = "0.75"
+
+FireSound           = "wok_weap_inf_rocket_fire"
+FireEmptySound      = "com_weap_inf_ammo_empty"
+FireLoopSound       = ""
+ReloadSound         = "wok_weap_inf_reload_lg"
+ChangeModeSound     = "wok_weap_inf_equip_lg"
+WeaponChangeSound   = "wok_weap_inf_equip_lg"
+ClankLeftWalkSound      = ""
+ClankRightWalkSound     = ""
+ClankLeftRunSound       = ""
+ClankRightRunSound      = ""
+JumpSound               = "wok_weap_inf_grenadelauncher_mvt_jump"
+LandSound               = "wok_weap_inf_grenadelauncher_mvt_land"
+RollSound               = "wok_weap_inf_grenadelauncher_mvt_roll"
+ProneSound              = "wok_weap_inf_grenadelauncher_mvt_squat"
+SquatSound              = "wok_weap_inf_grenadelauncher_mvt_lie"
+StandSound              = "wok_weap_inf_grenadelauncher_mvt_getup"

@@ -1,0 +1,40 @@
+[WeaponClass]
+ClassLabel 			= "cannon"
+
+[Properties]
+IconTexture			= "IMP_blasterrifle_icon"
+
+GeometryName 			= "com_weap_inf_binoculars"
+
+RoundsPerClip 			= "0"
+ReloadTime 			= "0.0"
+
+LockOnRange			= "40.0"
+
+AnimationBank			= "pistol"
+FirePointName			= "hp_fire"
+ReticuleTexture			= "reticule_01"
+WEAPONSECTION			= 1
+
+ModeTexture			= "HUD_weap_detonate"
+//ModeTextureColor		= "42 235 42 100"
+ReticuleTexture			= "reticule_00"
+OrdnanceName 			= "cis_weap_inf_orbital_attack_ord"
+
+ShotDelay 			= "1.0"
+
+SniperScope		= 1
+ZoomFirstPerson		= 1
+ZoomMin			= "2.0"
+ZoomMax			= "8.0"
+ZoomRate		= "2.0"
+MaxPressedTime		= 4.0
+
+HeatPerShot		= "1.01"
+HeatRecoverRate		= "0.05"
+HeatThreshold		= "0.01"
+InitialSalvoDelay	= "0.0"
+//FireSound       	= "com_weap_inf_grenadethermal_ord"
+ReloadSound     	= "cis_weap_inf_reload_med"
+//MinStrength		= "0.01"
+//MaxStrength		= "0.25"

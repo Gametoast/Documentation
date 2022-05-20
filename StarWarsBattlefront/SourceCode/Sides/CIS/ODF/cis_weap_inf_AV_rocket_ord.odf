@@ -1,0 +1,34 @@
+[OrdnanceClass]
+//This area defines the ordnances class
+ClassLabel 		= "missile"
+
+[Properties]
+ImpactEffectWater 	= "watersplash_md"
+
+ExplosionExpire		= "cis_weap_inf_AV_rocket_exp"
+Explosion		= "cis_weap_inf_AV_rocket_exp"
+
+LifeSpan 		= "3.0"
+TurnRate		= "0.0"
+WaverRate		= "0.0"
+WaverTurn		= "0.0"
+Velocity 		= "50.0"
+Gravity			= "1.0"
+Rebound			= "0.0"
+
+MaxDamage 		= "250.0"
+
+VehicleScale		= "1.0"
+PersonScale 		= "0.25"
+DroidScale 		= "0.25"
+BuildingScale		= "0.5"
+AnimalScale		= "0.25"
+
+//TrailEffect		= "smoketrail"
+TrailEffect		= "sbd_missiles_gold"
+
+LightColor              = "206 206 67 150"
+LightRadius             = "4.0"
+
+OrdnanceSound			= "com_weap_inf_ord_hum_rocket"
+//LockedOnSound		= "com_weap_launcher_missile_guided"

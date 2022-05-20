@@ -1,0 +1,87 @@
+[WeaponClass]
+ClassLabel		= "grenade"
+
+[Properties]
+AnimationBank		= "grenade"
+GeometryName		= "com_weap_inf_grenadethermal"
+HighResGeometry		= "com_1st_weap_inf_grenadethermal"
+
+//***********************************************
+//*************	TARGET & RANGE VALUES  **********
+//***********************************************
+
+TargetEnemy		= "1"
+TargetNeutral		= "0"
+TargetFriendly		= "0"
+
+TargetPerson		= "1"
+TargetAnimal		= "1"
+TargetDroid		= "1"
+TargetVehicle		= "0"
+TargetBuilding		= "0"
+
+MinRange		= "8"
+OptimalRange		= "16"
+MaxRange		= "24"
+
+LockOnRange		= "30.0"
+
+//***********************************************
+//*********** WEAPON PERFORMANCE VALUES *********
+//***********************************************
+
+RoundsPerClip		= "1"
+ReloadTime		= "1.0"
+ShotDelay		= "1.3"
+ShotElevate		= "0.05"
+MaxPressedTime		= "0.0"
+
+InitialSalvoDelay	= "0.3"
+
+OrdnanceName		= "all_weap_inf_thermaldetonator_ord"
+
+//***********************************************
+//***********  HUD & CONTROLLER VALUES  *********
+//***********************************************
+
+ModeTexture		= "HUD_weap_bounce"
+ReticuleTexture		= "reticule_00"
+IconTexture		= "HUD_com_grenade_icon"
+
+ChargeRateLight         = "1.0"
+MaxChargeStrengthLight  = "1.0"
+ChargeDelayLight        = "0.0"
+ChargeRateHeavy         = "1.0"
+MaxChargeStrengthHeavy  = "0.25"
+ChargeDelayHeavy        = "1.45"
+
+RecoilLengthLight       = "0.1"
+RecoilLengthHeavy       = "0.1"
+RecoilStrengthLight     = "0"
+RecoilStrengthHeavy     = "0"
+
+//************************************************
+//*******************   SOUND    *****************
+//************************************************
+
+FireSound           = "com_weap_throw"
+FireEmptySound      = "com_weap_inf_ammo_empty"
+FireLoopSound       = ""
+//ReloadSound         = "all_weap_inf_equip_med"
+ChargeSound         = ""
+ChargeSoundPitch    = ""
+ChangeModeSound	    = "all_weap_inf_equip_med"
+WeaponChangeSound   = "all_weap_inf_equip_med"
+OverheatSound       = ""
+OverheatSoundPitch  = ""
+OverheatStopSound   = ""
+ClankLeftWalkSound  = ""
+ClankRightWalkSound = ""
+ClankLeftRunSound   = ""
+ClankRightRunSound  = ""
+JumpSound           = ""
+LandSound           = ""
+RollSound           = ""
+ProneSound          = ""
+SquatSound          = ""
+StandSound          = ""

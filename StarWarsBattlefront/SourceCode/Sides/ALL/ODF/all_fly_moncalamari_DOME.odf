@@ -1,0 +1,32 @@
+[GameObjectClass]		
+
+ClassLabel		=	"flyer"
+VehicleType		=	"capitol"
+GeometryName	=	"all_fly_moncalamari_DOME.msh"
+
+
+[Properties]		
+FLYERSECTION = "BODY"
+GeometryName	=	"all_fly_moncalamari_DOME"
+//AnimationName	=	"rep_fly_assault"
+CollisionScale 	= 100.0
+
+MaxHealth 				= 4000.0
+
+Acceleraton 	= 3.0
+MinSpeed 		= 1.0
+MaxSpeed 		= 10.0
+
+PitchRate 		= 0.1
+PitchFilter 	= 5.0
+TurnRate 		= 0.1
+TurnFilter 		= 5.0
+BankAngle 		= 0.1
+BankFilter 		= 3.0
+LevelFilter 	= 5.0
+
+TakeoffTime 	= 10.0
+TakeoffSpeed 	= 10.0
+LandingTime 	= 20.0
+LandingSpeed 	= 8.0
+

@@ -1,0 +1,36 @@
+[OrdnanceClass]
+
+ClassLabel 			= "beam"
+
+//***************************************
+//**********HEAVY BEAM LASER*************
+//***************************************
+[Properties]
+
+//***************************************
+//**********VISUAL EFFECTS***************
+//***************************************
+LaserTexture			= "redlaser_L"
+ImpactEffect 			= "spiderdroid_ord_exp"
+LaserWidth			= "0.4"
+LaserGlowColor			= "254 6 18 100"
+ImpactEffect 			= "small_explosion"
+ImpactEffectWater 		= "watersplash_md"
+
+//***************************************
+//**********RANGE AND DAMAGE*************
+//***************************************
+Range	 			= "250.0"
+Gravity				= "1.0"
+Rebound				= "0.0"
+LifeSpan			= "2.0"
+
+MaxDamage 			= "800.0"
+ArmorScale			= "1.0"
+ShieldScale			= "2.0"
+HealthScale			= "1.5"
+
+//***************************************
+//***************SOUND*******************
+//***************************************
+OrdnanceSound		= "com_weap_inf_ord_hum_lg"

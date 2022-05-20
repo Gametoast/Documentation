@@ -1,0 +1,51 @@
+[WeaponClass]
+//*WEAPON NAMES AND CLASS*
+//"ClassLabel" is the type of weapon this is which will put ceertain rules in play.
+
+ClassLabel 		= "weapon"
+
+[Properties]
+
+// "Label" is the text displayed in the interface
+Label			= "Turret Gunner"
+
+//"OrdnanceName" is the name of the .odf file containing all the Ordnance Statistics
+//"MuzzleFlash" is the effect attached to the end of the weapon when it is fired
+//"Discharge" is any effect resulting fomr the weapon being fried, like smoke or ammo casings.
+
+OrdnanceName 		= "nab_weap_bldg_minigun_ord"
+MuzzleFlash		= "small_muzzle_flash"
+Discharge		= "small_smoke_effect"
+//GeometryName 		= "hoth_weapon_minigun"
+
+//*WEAPON STATS*
+//These stats determine the opperational characteristics of the weapon
+//"RoundsPerClip" determines how many Ordnances can be fired from the weapon before it must be reloaded with a fresh clip
+//"ShotDelay" is the minimum amount of time between ordnances being fired from the weapon
+//"ReloadTime" is the set amount of time it takes to change to a frsh clip
+
+RoundsPerClip 		= "200"
+ShotDelay 		= "5.0"
+ReloadTime 		= "10.0"
+
+ModeTexture			= "HUD_weap_impact"
+
+//*AIMING*  ( (MinSpread - MaxSpread) / (LockTime) )
+//"LockTime" is the time it takes for the Auto Targeting system to get a perfect lock on a target.
+//"MinSpread" This defines how accurate the weapon can be once a full lock is acquired.
+//"MaxSpread" This defines the widest spread the weapon has at the begining of a lock or when no lock is acquired.
+
+LockOnRange		= "70.0"
+LockTime 		= "0.4"
+MinSpread		= "0.2"
+MaxSpread		= "1.0"
+AutoAimSize		= "1.0"
+
+
+SalvoCount		= "1"
+SalvoDelay		= "0.0"
+InitialSalvoDelay	= "0.0"		//Default is 0
+
+//FireSound       	= "com_weap_inf_launcher_rocket2"
+//ReloadSound     	= "cannonreload"
+

@@ -1,0 +1,29 @@
+[OrdnanceClass]
+//This area defines the ordnances class and the effects associated with it.
+ClassLabel 		= "bolt"
+
+
+
+[Properties]
+//ExplosionName		= "all_autocannon_snowspeeder_exp"
+OrdnanceEffect		= "red_blaster_bolt_small"
+ImpactEffect		= "med_cannon_impacts"
+LaserLength			= "2.0"
+LaserWidth			= "0.2"
+
+//*RANGE*  (Velocity * Lifespan = range)
+//"LifeSpan" is the amount of time in seconds the ordnance will be in play
+//"Velocity" is the speed at which the ordance travels in the direction fired
+LifeSpan 		= "2.0"
+Velocity 		= "200.0"
+Gravity			= "1.0"
+Rebound			= "0.0"
+
+//*DAMAGE* (Damage * Soak = DamageDealt)
+//"MaxDamage" is the unmodified amount of damage the ordnance can inflict.
+//"AreaOfEffect" is the blast radius in meters from the center.
+//"Soak", all three kinds, indicates the ordnances effectiveness against it's target
+MaxDamage 		= "30.0"
+ArmorScale		= "0.5"
+ShieldScale		= "1.0"
+HealthScale		= "1.0"

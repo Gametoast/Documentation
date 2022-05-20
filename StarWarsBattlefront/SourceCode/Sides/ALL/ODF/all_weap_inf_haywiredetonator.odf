@@ -1,0 +1,60 @@
+[WeaponClass]
+ClassLabel 		= "grenade"
+
+[Properties]
+IconTexture		= "HUD_all_detonator_icon"
+
+GeometryName 		= "com_weap_inf_grenadethermal"
+
+RoundsPerClip 		= "1"
+ReloadTime 		= "0.0"
+
+LockOnRange		= "30.0"
+
+AnimationBank		= "grenade"
+
+WEAPONSECTION		= 1
+
+ModeTexture		= "HUD_weap_detonate"
+ReticuleTexture		= "reticule_00"
+OrdnanceName 		= "all_weap_inf_haywiredetonator_ord"
+
+ShotDelay 		= "1.4"
+
+TargetEnemy		= "1"
+TargetNeutral		= "0"
+TargetFriendly		= "0"
+
+TargetPerson		= "0"
+TargetAnimal		= "0"
+TargetDroid		= "1"
+TargetVehicle		= "1"
+TargetBuilding		= "0"
+
+MinRange		= "8"
+OptimalRange		= "16"
+MaxRange		= "24"
+
+InitialSalvoDelay	= "0.3"
+
+FireSound           = "com_weap_inf_haywiredetonator_fire"
+FireEmptySound      = "com_weap_inf_ammo_empty"
+FireLoopSound       = ""
+ReloadSound         = "all_weap_inf_equip_med"
+ChargeSound         = ""
+ChargeSoundPitch    = ""
+ChangeModeSound	    = "all_weap_inf_equip_sm"
+WeaponChangeSound   = "all_weap_inf_equip_sm"
+OverheatSound       = ""
+OverheatSoundPitch  = ""
+OverheatStopSound   = ""
+ClankLeftWalkSound  = ""
+ClankRightWalkSound = ""
+ClankLeftRunSound   = ""
+ClankRightRunSound  = ""
+JumpSound           = "all_weap_inf_pistol_mvt_jump"
+LandSound           = "all_weap_inf_pistol_mvt_land"
+RollSound           = "all_weap_inf_pistol_mvt_roll"
+ProneSound          = "all_weap_inf_pistol_mvt_squat"
+SquatSound          = "all_weap_inf_pistol_mvt_lie"
+StandSound          = "all_weap_inf_pistol_mvt_getup"

@@ -1,0 +1,17 @@
+Layer(0)
+{
+	SpreadFactor(0.2);
+ 	Mesh()
+	{
+		File("tat1_prop_stones.msh", 35);
+		Frequency(10);
+		Scale(1);
+		Stiffness(0.0);
+		CollisionSound("");
+	}
+
+}
+
+
+
+

@@ -1,0 +1,30 @@
+[OrdnanceClass]
+
+ClassLabel 			= "beam"
+
+[Properties]
+ImpactEffectWater 	= "watersplash_md"
+
+LaserTexture		= "redlaser_D"
+ImpactEffect		= "med_cannon_impacts"
+LaserWidth			= "0.4"
+LaserGlowColor		= "254 6 18 100"
+
+Range	 			= "500.0"
+Gravity				= "1.0"
+Rebound				= "0.0"
+
+LifeSpan			= "0.6"
+
+MaxDamage 			= "300.0"
+VehicleScale			= "1.0"
+ShieldScale			= "2.0"
+PersonScale			= "1.0"
+AnimalScale			= "1.0"
+DroidScale			= "1.0"
+BuildingScale			= "1.0"
+
+ImpactEffect 			= "spiderdroid_ord_exp"
+
+OrdnanceSound		= "" // No Ordnance Sound on Beams
+CollisionSound = "imp_weap_ord_exp_lg"

@@ -1,0 +1,38 @@
+[OrdnanceClass]
+ClassLabel 		= "sticky"
+
+[Properties]
+ImpactEffectWater 	= "watersplash_sm"
+
+LightColor              = "252 206 67 150"
+LightRadius             = "5.0"
+
+GeometryName 		= "com_weap_inf_grenadethermal_ord"
+ExplosionExpire		= "wok_weap_inf_thermaldetonator_exp"
+//OrdnanceEffect	= "com_sfx_weap_grenade_red"
+ImpactEffect		= "medium_explosion"
+TrailEffect		= "com_sfx_weap_grenade_gold"
+
+
+
+LifeSpan 		= "1.50"
+Velocity 		= "4.0"
+Gravity			= "1.5"
+Rebound			= "0.35"
+Friction		= "1.25"
+
+NEXTCHARGE		= "0.65"
+LifeSpan 		= "1.00"
+Velocity 		= "25.0"
+Gravity			= "1.5"
+Rebound			= "0.35"
+Friction		= "1.25"
+
+NEXTCHARGE		= "0.95"
+LifeSpan 		= "0.1"
+Velocity 		= "25.0"
+Gravity			= "1.5"
+Rebound			= "0.35"
+Friction		= "1.25"
+
+CollisionOtherSound	= "com_weap_inf_grenade_bounce"

@@ -1,0 +1,38 @@
+[GameObjectClass]
+ClassLabel 				= "armedbuildingdynamic"
+GeometryName 			= "cis_bldg_forwardcenter.msh"
+
+[Properties]
+Label 				= "forward command center"
+GeometryName 			= "cis_bldg_forwardcenter"
+
+RespawnTime 			= 75.0
+MaxHealth 				= "2000.0"
+
+BUILDINGSECTION 			= "TURRET1"
+
+//WeaponName 				= "cis_weap_inf_remotedroid"
+//WeaponAmmo 				= "0"	
+
+PilotPosition 			= "hp_main_gunner"
+PilotAnimation 			= "drive"
+
+TrackCenter				= "3.0 4.0 -10.0"
+PitchLimits				= "-10 30"
+YawLimits				= "-50 50"
+
+BUILDINGSECTION 			= "TURRET2"
+
+//WeaponName 				= "cis_weap_inf_remotedroid"
+//WeaponAmmo 				= "0"	
+
+PilotPosition 			= "hp_main_gunner1"
+PilotAnimation 			= "drive"
+
+TrackCenter				= "3.0 4.0 -10.0"
+PitchLimits				= "-10 30"
+YawLimits				= "-50 50"
+
+
+
+

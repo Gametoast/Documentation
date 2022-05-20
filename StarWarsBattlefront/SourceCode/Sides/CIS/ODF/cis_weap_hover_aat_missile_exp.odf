@@ -1,0 +1,24 @@
+[ExplosionClass]
+ClassLabel 		= "explosion"
+
+[Properties]
+WaterEffect 	= "watersplash_lg"
+
+Damage 		  	= "400.0"
+DamageRadiusInner 	= "2.5"
+DamageRadiusOuter 	= "4.5"
+
+Push 		  	= "5.0"
+PushRadiusInner   	= "2.5"
+PushRadiusOuter   	= "2.5"
+
+Shake 		  	= "0.1"
+ShakeLength	 	= "0.25"
+ShakeRadiusInner  	= "2.0"
+ShakeRadiusOuter  	= "8.0"
+
+Effect 			= "com_sfx_weap_flame_exp_lg"
+VehicleScale		= "0.0"
+BuildingScale		= "0.0"
+
+SoundProperty="com_weap_rocket_small_exp"

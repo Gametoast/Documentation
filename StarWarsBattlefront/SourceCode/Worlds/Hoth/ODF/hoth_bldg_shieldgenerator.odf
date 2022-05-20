@@ -1,0 +1,106 @@
+[GameObjectClass]
+ClassLabel 			= "commandpost"
+GeometryName 			= "hoth_bldg_shieldgenerator.msh"
+
+[Properties]
+
+BUILDINGSECTION 		= "BODY"
+
+Label 				= "Shield Generator"
+MapTexture 			= "hud_dest_icon"
+MapScale 			= 3.0
+
+GeometryName 			= "hoth_bldg_shieldgenerator"
+DestroyedGeometryName 		= "hoth_bldg_shieldgenerator_dst"
+
+MaxHealth 			= "50000.0"
+ExplosionName 			= "imp_walk_atst_exp"
+
+DamageStartPercent		= 85.0
+DamageStopPercent		= 0.0
+DamageEffect			= "vehiclespark"
+DamageEffectScale		= 1.5
+DamageInheritVelocity		= 0.0
+DamageAttachPoint		= "hp_damage_2"
+
+DamageStartPercent		= 70.0
+DamageStopPercent		= 0.0
+DamageEffect			= "vehiclesmoke"
+DamageEffectScale		= 1.5
+DamageInheritVelocity		= 0.0
+DamageAttachPoint		= "hp_damage_1"
+
+DamageStartPercent		= 55.0
+DamageStopPercent		= 0.0
+DamageEffect			= "vehicleflame"
+DamageEffectScale		= 1.5
+DamageInheritVelocity		= 0.0
+DamageAttachPoint		= "hp_damage_3"
+
+DamageStartPercent		= 40.0
+DamageStopPercent		= 0.0
+DamageEffect			= "vehicleflame"
+DamageEffectScale		= 1.5
+DamageInheritVelocity		= 0.0
+DamageAttachPoint		= "hp_damage_4"
+
+DamageStartPercent		= 25.0
+DamageStopPercent		= 0.0
+DamageEffect			= "vehicleflame"
+DamageEffectScale		= 1.5
+DamageInheritVelocity		= 0.0
+DamageAttachPoint		= "hp_damage_5"
+
+
+HoloOdf 			= "com_holo_controlzone"
+HoloImageGeometry		= "alliance com_icon_alliance"
+AmbientSound        = "all hoth_shield_amb"
+HoloTurnOnTime			= 2.2
+
+FoleyFXGroup    = "metal_foley"
+
+[InstanceProperties]
+
+CaptureRegion = ""
+ControlRegion = ""
+KillRegion = ""
+SpawnPath = ""
+AllyPath = ""
+AllyCount = 65536
+Radius = 0.0
+ValueBleed = 10
+Value_ATK_Alliance = 10
+Value_ATK_CIS = 10
+Value_ATK_Empire = 10
+Value_ATK_Republic = 10
+Value_DEF_Alliance = 10
+Value_DEF_CIS = 10
+Value_DEF_Empire = 10
+Value_DEF_Republic = 10
+Value_DEF_Locals = 10
+VO_All_AllCapture = ""
+VO_All_AllLost = ""
+VO_All_AllInDispute = ""
+VO_All_AllSaved = ""
+VO_All_AllInfo = ""
+VO_All_ImpCapture = ""
+VO_All_ImpLost = ""
+VO_All_ImpInDispute = ""
+VO_All_ImpSaved = ""
+VO_All_ImpInfo = ""
+VO_Imp_AllCapture = ""
+VO_Imp_AllLost = ""
+VO_Imp_AllInDispute = ""
+VO_Imp_AllSaved = ""
+VO_Imp_AllInfo = ""
+VO_Imp_ImpCapture = ""
+VO_Imp_ImpLost = ""
+VO_Imp_ImpInDispute = ""
+VO_Imp_ImpSaved = ""
+VO_Imp_ImpInfo = ""
+VO_Rep_RepCapture = ""
+VO_Rep_RepLost = ""
+VO_Rep_RepInDispute = ""
+VO_Rep_RepSaved = ""
+VO_Rep_RepInfo = ""
+VO_Rep_CISCapture = ""

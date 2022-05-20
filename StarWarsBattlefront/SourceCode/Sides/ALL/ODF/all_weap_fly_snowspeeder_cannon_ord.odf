@@ -1,0 +1,26 @@
+[OrdnanceClass]
+ClassLabel 		= "bolt"
+
+[Properties]
+ExplosionName		= "all_weap_fly_snowspeeder_cannon_exp"
+LaserTexture		= "redlaser_D"
+ImpactEffect		= "med_cannon_impacts"
+LaserLength		= "4.0"
+LaserWidth		= "0.4"
+LaserGlowColor		= "249 42 42 100"
+
+LifeSpan 		= "2.0"
+Velocity 		= "350.0"
+Gravity			= "1.0"
+Rebound			= "0.0"
+
+MaxDamage 		= "120.0"
+
+VehicleScale	= "0.1"
+ShieldScale		= "1.0"
+PersonScale		= "1.0"
+DroidScale		= "1.0"
+BuildingScale		= "0.25"
+
+OrdnanceSound  = "com_weap_inf_ord_hum_lg"
+CollisionSound = "imp_weap_ord_exp"

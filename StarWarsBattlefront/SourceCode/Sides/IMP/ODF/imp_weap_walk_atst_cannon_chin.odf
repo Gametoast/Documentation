@@ -1,0 +1,75 @@
+[WeaponClass]
+ClassLabel 			= "cannon"
+
+[Properties]
+IconTexture			= "IMP_blasterrifle_icon"
+
+MuzzleFlash			= "med_muzzle_flash"
+FlashLightColor 		= "255 192 192 175"
+FlashLightRadius 		= "4.0"
+FlashLightDuration 		= "0.25"
+Discharge			= "small_smoke_effect"
+ReticuleTexture			= "reticule_pistol"
+RoundsPerClip 			= "0"
+
+HeatPerShot			= "0.29"
+HeatRecoverRate			= "0.28"
+HeatThreshold			= "0.05"
+
+//ZoomMin			= "2.0"
+//ZoomMax			= "2.0"
+//ZoomRate			= "0.0"
+
+WEAPONSECTION			= 1
+
+FireSound       		= "imp_weap_walk_atst_cannon_chin_fire"
+//ReloadSound     		= "laserreload"
+//ChangeModeSound 		= "com_weap_inf_blaster_rifle_modechange"
+//FireEmptySound		= "com_weap_inf_weapon_empty"
+
+OverheatSound      		= "com_weap_energy_depleted"
+OverheatSoundPitch 		= "0.5"
+OverheatStopSound   		= "com_weap_energy_refilled"
+
+
+ModeTexture			= "HUD_weap_salvo"
+OrdnanceName 			= "imp_weap_walk_atst_cannon_chin1_ord"
+
+TriggerSingle			= "0"
+ShotDelay 			= "1.0"
+//MaxPressedTime		= "0.0"
+
+YawSpread			= "0.0"
+PitchSpread			= "0.0"
+KickSpread			= "0.0"
+SpreadRecover			= "1.0"
+
+KickStrength			= "0.1"
+KickBuildup			= "100.0"
+
+LockOnRange			= "100.0"
+LockTime 			= "0.4"
+AutoAimSize			= "1.0"
+
+SalvoCount			= "2"
+RoundsPerSalvo		= "1"
+SalvoDelay			= "0.1"
+InitialSalvoDelay		= "0.0"
+SalvoTime			= "0.0"
+
+
+TargetEnemy			= "1"
+TargetNeutral			= "0"
+TargetFriendly			= "0"
+
+TargetPerson			= "1"
+TargetAnimal			= "1"
+TargetDroid			= "1"
+TargetVehicle			= "1"
+TargetBuilding			= "1"
+
+RecoilLengthHeavy       	= "0.1"
+RecoilStrengthLight     	= "1"
+RecoilLengthLight      	 	= "0.1"
+RecoilStrengthHeavy    	 	= "1"
+

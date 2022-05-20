@@ -1,0 +1,35 @@
+[OrdnanceClass]
+ClassLabel          = "bolt"
+
+[Properties]
+//ExplosionName         = "imp_weap_hover_speederbike_cannon_exp"
+LaserTexture            = "redlaser_L"
+//ImpactEffect          = "med_cannon_impacts"
+LaserLength         = "4.0"
+LaserWidth          = "0.1"
+LaserGlowColor          = "254 6 18 100"
+LightColor                  = "254 6 18"
+LightRadius                 = "5.0"
+
+LifeSpan            = "1.25"
+Velocity            = "160.0"
+Gravity             = "1.0"
+Rebound             = "0.0"
+
+MaxDamage           = "300.0"
+VehicleScale            = "0.1"
+PersonScale             = "1.0"
+DroidScale          = "1.0"
+BuildingScale           = "0.05"
+AnimalScale         = "1.0"
+
+ImpactEffectSoft    = "ord_explosion"
+ImpactEffectRigid   = "ord_explosion"
+ImpactEffectStatic  = "ord_explosion"
+ImpactEffectTerrain = "ord_explosion"
+ImpactEffectWater   = "watersplash_ord"
+ImpactEffectShield  = "ord_explosion"
+
+ExpireEffect        = "ord_explosion"
+OrdnanceSound  = "com_weap_inf_ord_hum_lg"
+CollisionSound = "imp_weap_ord_exp"

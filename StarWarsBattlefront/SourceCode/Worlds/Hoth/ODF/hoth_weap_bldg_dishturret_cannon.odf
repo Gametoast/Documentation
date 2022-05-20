@@ -1,0 +1,94 @@
+[WeaponClass]
+
+ClassLabel 			= "cannon"
+
+[Properties]
+
+Label				= "Defensive Dish Cannon"
+IconTexture			= "HUD_all_lascannon_icon"
+
+Discharge			= "large_smoke_effect"
+MuzzleFlash			= "large_muzzle_flash"
+
+FlashLightColor 		= "255 192 192 175"
+FlashLightRadius 		= "6.0"
+FlashLightDuration 		= "0.25"
+
+RoundsPerClip 			= "0"
+ReloadTime 			= "5.0"
+
+HeatRecoverRate			= "0.4"
+HeatThreshold			= "0.25"
+
+
+MinRange			= "0"
+OptimalRange			= "150"
+MaxRange			= "300"
+
+ZoomMin				= "5.0"
+ZoomMax				= "5.0"
+ZoomRate			= "1.0"
+
+WEAPONSECTION			= 1
+
+FireSound 			= "com_weap_turret_fire"
+//ReloadSound     		= "laserreload"
+//ChangeModeSound 		= "com_weap_inf_blaster_rifle_modechange"
+//FireEmptySound		= "com_weap_inf_weapon_empty"
+//WeaponChangeSound 		= "com_weap_inf_laser_weaponchange"
+ChargeSound             	= "com_weap_charge"
+ChargeSoundPitch        	= "0.7"
+
+ModeTexture			= "HUD_weap_charge"
+ReticuleTexture			= "reticule_rifle"
+OrdnanceName 			= "hoth_weap_bldg_dishturret_cannon_ord"
+
+
+TriggerSingle			= "1"
+ShotDelay 			= "0.5"
+HeatPerShot			= "0.0"
+MaxPressedTime			= "1.5"
+
+PitchSpread			= "0.0"
+YawSpread			= "0.0"
+
+KickSpread			= "0.0"
+SpreadRecover			= "0.0"
+
+KickStrength			= "0.0"
+KickBuildup			= "0.0"
+
+LockOnRange			= "0.0"
+LockTime 			= "0.0"
+//AutoAimSize			= "1.0"
+
+SalvoCount			= "1"
+RoundsPerSalvo			= "1"
+SalvoDelay			= "0.0"
+InitialSalvoDelay		= "0.2"
+SalvoTime			= "0.0"
+
+TargetEnemy			= "1"
+TargetNeutral			= "0"
+TargetFriendly			= "0"
+
+TargetPerson			= "0"
+TargetAnimal			= "0"
+TargetDroid			= "0"
+TargetVehicle			= "0"
+TargetBuilding			= "0"
+
+ChargeRateLight         	= "1.0"
+MaxChargeStrengthLight  	= "1.0"
+ChargeDelayLight        	= "0.0"
+ChargeRateHeavy         	= "1.0"
+MaxChargeStrengthHeavy  	= "0.75"
+ChargeDelayHeavy        	= "2.0"
+
+RecoilLengthLight       	= "1.5"
+RecoilLengthHeavy       	= "0.75"
+RecoilStrengthLight     	= "1"
+RecoilStrengthHeavy     	= "1"
+
+FoleyFXGroup    		= "metal_foley"
+

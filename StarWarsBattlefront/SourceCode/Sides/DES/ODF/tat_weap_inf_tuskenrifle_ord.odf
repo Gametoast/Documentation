@@ -1,0 +1,25 @@
+[OrdnanceClass]
+ClassLabel 			= "bolt"
+
+[Properties]
+ImpactEffectWater 	= "watersplash_ord"
+
+LaserTexture		= "greenlaser_D"
+LaserLength			= "2.0"
+LaserWidth			= "0.15"
+LaserGlowColor		= "10 127 10 100"
+ImpactEffect		= "small_blaster_impacts"
+ExplosionName		= "com_weap_ord_exp"
+
+LifeSpan 			= "0.8"
+Velocity 		= "150.0"
+
+MaxDamage 			= "40.0"
+VehicleScale			= "0.25"
+ShieldScale			= "1.0"
+PersonScale			= "1.0"
+AnimalScale			= "1.0"
+DroidScale			= "1.0"
+BuildingScale			= "0.25"
+
+OrdnanceSound		= "com_weap_inf_ord_hum_sm"

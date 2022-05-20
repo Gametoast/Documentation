@@ -1,0 +1,8503 @@
+Version(3);
+SaveType(0);
+
+Camera("camera")
+{
+	Rotation(0.929, 0.353, 0.103, -0.039);
+	Position(-123.756, 41.638, 210.518);
+	FieldOfView(55.400);
+	NearPlane(1.000);
+	FarPlane(3000.000);
+	ZoomFactor(1.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(-269.641, -0.073, 165.701,  0.953, 0.105, 0.282, -0.031);
+}
+TerrainName("RhenVar2.ter");
+SkyName("RhenVar2.sky");
+ScriptName("DummyScript.dll");
+ControllerManager("StandardCtrlMgr");
+
+WorldExtents()
+{
+	Min(0.000000, 0.000000, 0.000000);
+	Max(0.000000, 0.000000, 0.000000);
+}
+
+NextSequence(-426981);
+
+Object("", "Rhn_bldg_floor_tile", 3210548)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-140.000, 12.000, 260.000);
+	SeqNo(3210548);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_ceiling_tile", 6931508)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-156.000, 22.000, 268.000);
+	SeqNo(6931508);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_ruin_4a", 10616813)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-252.000, 6.000, 215.000);
+	SeqNo(10616813);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("4x4x4_5", "Rhn_bldg_lego_1", 12644568)
+{
+	ChildRotation(0.982, -0.133, -0.048, -0.124);
+	ChildPosition(-195.330, -14.852, 86.343);
+	SeqNo(12644568);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_8x16_tile", 33646806)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(-248.000, -8.000, 180.000);
+	SeqNo(33646806);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_facade17", 36103679)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(-200.000, 0.000, 116.000);
+	SeqNo(36103679);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_floor_tile_f48", 46210731)
+{
+	ChildRotation(0.000, 0.000, 0.000, -1.000);
+	ChildPosition(-256.000, 12.000, 124.000);
+	SeqNo(46210731);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_facade14", 46889558)
+{
+	ChildRotation(0.707, 0.000, 0.707, 0.000);
+	ChildPosition(-172.000, 14.000, 276.000);
+	SeqNo(46889558);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_broken_corner", 50630712)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-268.000, -4.000, 220.000);
+	SeqNo(50630712);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("CP4", "com_bldg_controlzone", 50924168)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-204.000, 16.100, 172.000);
+	SeqNo(50924168);
+	Team(0);
+	NetworkId(-1);
+	Label("CP4");
+	CaptureRegion("CP4_Capture");
+	ControlRegion("CP4_Control");
+	SpawnPath("CP4_SpawnPath");
+	AllyPath("");
+	AllyCount("65536");
+	Radius("0.0");
+	ValueBleed("10");
+	Value_ATK_Alliance("20");
+	Value_ATK_CIS("20");
+	Value_ATK_Empire("20");
+	Value_ATK_Republic("20");
+	Value_ATK_Locals("10");
+	Value_DEF_Alliance("20");
+	Value_DEF_CIS("20");
+	Value_DEF_Empire("20");
+	Value_DEF_Republic("20");
+	Value_DEF_Locals("10");
+	VO_All_AllCapture("all_off_com_report_captured_commandpost");
+	VO_All_AllLost("all_off_com_report_lost_commandpost3");
+	VO_All_AllInDispute("");
+	VO_All_AllSaved("");
+	VO_All_AllInfo("");
+	VO_All_ImpCapture("all_off_com_report_lost_commandpost");
+	VO_All_ImpLost("");
+	VO_All_ImpInDispute("");
+	VO_All_ImpSaved("");
+	VO_All_ImpInfo("");
+	VO_Imp_AllCapture("imp_off_com_report_lost_commandpost");
+	VO_Imp_AllLost("");
+	VO_Imp_AllInDispute("");
+	VO_Imp_AllSaved("");
+	VO_Imp_AllInfo("");
+	VO_Imp_ImpCapture("imp_off_com_report_captured_commandpost");
+	VO_Imp_ImpLost("imp_off_com_report_lost_commandpost3");
+	VO_Imp_ImpInDispute("");
+	VO_Imp_ImpSaved("");
+	VO_Imp_ImpInfo("");
+	VO_Rep_RepCapture("rep_off_com_report_captured_commandpost");
+	VO_Rep_RepLost("rep_off_com_report_lost_commandpost3");
+	VO_Rep_RepInDispute("");
+	VO_Rep_RepSaved("");
+	VO_Rep_RepInfo("");
+	VO_Rep_CISCapture("rep_off_com_report_lost_commandpost");
+	VO_Rep_CISLost("");
+	VO_Rep_CISInDispute("");
+	VO_Rep_CISSaved("");
+	VO_Rep_CISInfo("");
+	VO_CIS_RepCapture("cis_off_com_report_lost_commandpost");
+	VO_CIS_RepLost("");
+	VO_CIS_RepInDispute("");
+	VO_CIS_RepSaved("");
+	VO_CIS_RepInfo("");
+	VO_CIS_CISCapture("cis_off_com_chatter_goodjob2");
+	VO_CIS_CISLost("cis_off_com_report_lost_commandpost3");
+	VO_CIS_CISInDispute("");
+	VO_CIS_CISSaved("");
+	VO_CIS_CISInfo("");
+	SoldierBan("");
+	HoverBan("");
+	SmallBan("");
+	MediumBan("");
+	HugeBan("");
+	FlyerBan("");
+}
+
+Object("", "Rhn_bldg_basebrick_5", 75962774)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(-260.000, 0.000, 264.000);
+	SeqNo(75962774);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_ruin_1c", 84571427)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-153.000, 12.000, 208.000);
+	SeqNo(84571427);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("4x4x32_94", "Rhn_bldg_lego_2", 88111256)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-194.000, -20.000, 122.000);
+	SeqNo(88111256);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_catacombs_wall", 92360142)
+{
+	ChildRotation(0.707, 0.000, 0.707, 0.000);
+	ChildPosition(-180.000, 0.000, 228.000);
+	SeqNo(92360142);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_floor_tile", 107438945)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-244.000, 8.000, 260.000);
+	SeqNo(107438945);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_8x16_tile", 110481182)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-204.000, -14.000, 76.000);
+	SeqNo(110481182);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_floor_tile_top", 117105698)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-164.000, 4.000, 156.000);
+	SeqNo(117105698);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_facade14", 117113240)
+{
+	ChildRotation(0.707, 0.000, 0.707, 0.000);
+	ChildPosition(-212.000, 10.000, 260.000);
+	SeqNo(117113240);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_facade24", 122669017)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(-132.000, 28.000, 252.000);
+	SeqNo(122669017);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn2_prop_cloud", 134920161)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-128.098, -34.081, 46.902);
+	SeqNo(134920161);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_damagedwall_01", 139373918)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(-180.000, 14.000, 284.000);
+	SeqNo(139373918);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_ruin_Cathedral_wall", 142829766)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-182.000, 12.000, 244.000);
+	SeqNo(142829766);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_broken_corner1", 148571206)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-292.000, -4.000, 196.000);
+	SeqNo(148571206);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_facade14", 154426197)
+{
+	ChildRotation(0.000, -0.707, 0.000, -0.707);
+	ChildPosition(-124.000, 14.000, 276.000);
+	SeqNo(154426197);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_ruin_4a", 172469881)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-235.000, 12.000, 184.000);
+	SeqNo(172469881);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_ruin_interiorstairs", 172921604)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(-216.000, 2.000, 276.000);
+	SeqNo(172921604);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_facade17", 178590159)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(-212.000, 24.000, 220.000);
+	SeqNo(178590159);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_8x16_tile", 189356471)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(-244.000, 4.000, 208.000);
+	SeqNo(189356471);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_facade19", 192448361)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(-180.000, 36.000, 252.000);
+	SeqNo(192448361);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_facade_pillar_l", 198825909)
+{
+	ChildRotation(0.708, 0.000, 0.706, 0.000);
+	ChildPosition(-152.000, 4.000, 247.000);
+	SeqNo(198825909);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_bridge", 199109436)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-284.000, 6.059, 132.000);
+	SeqNo(199109436);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_ruin_debris", 202436157)
+{
+	ChildRotation(0.392, 0.000, -0.920, 0.000);
+	ChildPosition(-222.790, 11.932, 129.339);
+	SeqNo(202436157);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_8x16_tile", 205768323)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(-208.000, -14.000, 72.000);
+	SeqNo(205768323);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_floor_tile", 207459228)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-188.000, 16.000, 212.000);
+	SeqNo(207459228);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_facade17", 209774147)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(-196.000, 16.000, 220.000);
+	SeqNo(209774147);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_facade14", 219630953)
+{
+	ChildRotation(0.000, 0.707, 0.000, -0.707);
+	ChildPosition(-244.000, 8.000, 260.000);
+	SeqNo(219630953);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_broken_corner1", 220762124)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-164.000, 4.000, 212.000);
+	SeqNo(220762124);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_ruin_interiorstairs", 221646389)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(-236.000, 6.000, 264.000);
+	SeqNo(221646389);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_facade14", 223406022)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-164.000, -2.000, 268.000);
+	SeqNo(223406022);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_basebrick_3", 223635616)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-264.000, -8.000, 156.000);
+	SeqNo(223635616);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_8x16_floor", 227260628)
+{
+	ChildRotation(0.707, 0.000, 0.707, 0.000);
+	ChildPosition(-108.000, 4.000, 216.000);
+	SeqNo(227260628);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_facade19", 234758120)
+{
+	ChildRotation(0.707, 0.000, 0.707, 0.000);
+	ChildPosition(-284.000, -12.000, 196.000);
+	SeqNo(234758120);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("doorway_5", "Rhn_bldg_ruin_14", 237191140)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-236.000, 8.000, 248.000);
+	SeqNo(237191140);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("4x4x4_9", "Rhn_bldg_lego_1", 249475166)
+{
+	ChildRotation(0.916, -0.050, 0.379, 0.120);
+	ChildPosition(-128.483, -3.992, 142.000);
+	SeqNo(249475166);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_catacombs_wall", 256079203)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-228.000, 8.000, 260.000);
+	SeqNo(256079203);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_floor_tile_f48", 258153801)
+{
+	ChildRotation(0.000, 0.000, 0.000, -1.000);
+	ChildPosition(-152.000, 12.000, 188.000);
+	SeqNo(258153801);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "com_item_healthrecharge", 260237481)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-149.995, 7.988, 209.134);
+	SeqNo(260237481);
+	Team(0);
+	NetworkId(-1);
+	EffectRegion("");
+	Radius("5.0");
+}
+
+Object("", "Rhn_bldg_floor_tile_top", 262495136)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-108.000, 14.000, 236.000);
+	SeqNo(262495136);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_floor_tile_f24", 266410074)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(-104.000, 6.000, 220.000);
+	SeqNo(266410074);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_facade18", 266445414)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(-220.000, -4.000, 132.000);
+	SeqNo(266445414);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_ruin_Cathedral_2", 289363309)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-184.000, 12.000, 202.000);
+	SeqNo(289363309);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_facade15", 299772257)
+{
+	ChildRotation(0.707, 0.000, 0.707, 0.000);
+	ChildPosition(-228.000, 6.000, 268.000);
+	SeqNo(299772257);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_facade24", 308472916)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(-220.000, 24.000, 220.000);
+	SeqNo(308472916);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_facade_pillar_l", 308931363)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-103.000, -6.000, 280.000);
+	SeqNo(308931363);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_8x16_floor", 313264259)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-120.000, 10.000, 236.000);
+	SeqNo(313264259);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_8x24_tile", 314501269)
+{
+	ChildRotation(0.707, 0.000, 0.707, 0.000);
+	ChildPosition(-108.000, -2.000, 212.000);
+	SeqNo(314501269);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_facade15", 318540693)
+{
+	ChildRotation(0.707, 0.000, 0.707, 0.000);
+	ChildPosition(-220.000, 6.000, 268.000);
+	SeqNo(318540693);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_facade19", 320529795)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(-260.000, 0.000, 124.000);
+	SeqNo(320529795);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_facade19", 327583557)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-260.000, 32.000, 284.000);
+	SeqNo(327583557);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_8x16_floor", 332366312)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-152.000, 0.000, 228.000);
+	SeqNo(332366312);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_catacombs_wall", 333023766)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(-220.000, 0.000, 252.000);
+	SeqNo(333023766);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_basebrick_5", 336861322)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(-176.000, 10.000, 220.000);
+	SeqNo(336861322);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_floor_tile_top", 340812442)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-276.000, 12.000, 140.000);
+	SeqNo(340812442);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_floor_tile_f48", 345199499)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(-152.000, 8.000, 204.000);
+	SeqNo(345199499);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_8x16_tile", 352283832)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(-280.000, 0.000, 268.000);
+	SeqNo(352283832);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_facade18", 373464864)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(-116.000, -8.000, 180.000);
+	SeqNo(373464864);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_ruin_damagetile_02", 377110987)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-224.000, 12.000, 140.000);
+	SeqNo(377110987);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("Pillar01_13", "Rhn_bldg_ruin_pillar", 378545095)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-214.000, 12.000, 122.000);
+	SeqNo(378545095);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "com_item_weaponrecharge", 378827546)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-160.515, 11.969, 162.698);
+	SeqNo(378827546);
+	Team(0);
+	NetworkId(-1);
+	EffectRegion("");
+	Radius("5.0");
+}
+
+Object("", "Rhn_bldg_wall_ruin_debris5", 381805860)
+{
+	ChildRotation(0.707, 0.000, 0.707, 0.000);
+	ChildPosition(-259.000, 6.000, 184.000);
+	SeqNo(381805860);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_ruin_1c", 382316757)
+{
+	ChildRotation(0.707, 0.000, 0.707, 0.000);
+	ChildPosition(-252.000, 8.000, 177.000);
+	SeqNo(382316757);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_facade17", 441435821)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-252.000, 0.000, 180.000);
+	SeqNo(441435821);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "com_item_weaponrecharge", 443189519)
+{
+	ChildRotation(0.922, 0.000, -0.388, 0.000);
+	ChildPosition(-141.058, -7.740, 122.760);
+	SeqNo(443189519);
+	Team(0);
+	NetworkId(-1);
+	EffectRegion("");
+	Radius("5.0");
+}
+
+Object("", "Rhn_bldg_wall_8x16_tile", 445607350)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-160.000, 0.000, 220.000);
+	SeqNo(445607350);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_16x16_tile", 449146339)
+{
+	ChildRotation(0.707, 0.000, 0.707, 0.000);
+	ChildPosition(-108.000, 14.000, 271.998);
+	SeqNo(449146339);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_floor_tile_top", 451135177)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-228.000, 12.000, 180.000);
+	SeqNo(451135177);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_floor_tile_f48", 453175136)
+{
+	ChildRotation(0.000, -0.707, 0.000, -0.707);
+	ChildPosition(-244.000, 12.000, 144.000);
+	SeqNo(453175136);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_floor_tile_f48", 466394282)
+{
+	ChildRotation(0.000, -1.000, 0.000, 0.000);
+	ChildPosition(-232.000, 12.000, 140.000);
+	SeqNo(466394282);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_facade17", 469041970)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(-200.000, -6.000, 68.000);
+	SeqNo(469041970);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_facade23", 471333515)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(-188.000, 16.000, 220.000);
+	SeqNo(471333515);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_facade17", 472017298)
+{
+	ChildRotation(-0.001, 0.000, -1.000, 0.000);
+	ChildPosition(-132.000, 36.000, 252.000);
+	SeqNo(472017298);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_facade14", 481231037)
+{
+	ChildRotation(0.707, 0.000, 0.707, 0.000);
+	ChildPosition(-228.000, 14.000, 268.000);
+	SeqNo(481231037);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_catacombs_wall", 482704293)
+{
+	ChildRotation(0.707, 0.000, 0.707, 0.000);
+	ChildPosition(-204.000, 0.000, 220.000);
+	SeqNo(482704293);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_ruin_Cathedral_L", 484308521)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(-184.000, 12.000, 168.000);
+	SeqNo(484308521);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_basebrick_5", 486466144)
+{
+	ChildRotation(0.707, 0.000, 0.707, 0.000);
+	ChildPosition(-292.000, 14.000, 136.000);
+	SeqNo(486466144);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_basebrick_1", 487083253)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(-304.000, 24.000, 260.000);
+	SeqNo(487083253);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_8x24_tile", 491413811)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(-116.000, 6.000, 236.000);
+	SeqNo(491413811);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_floor_tile_top", 492434537)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-156.000, 12.000, 204.000);
+	SeqNo(492434537);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_8x16_tile", 495259421)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-256.000, -2.000, 212.000);
+	SeqNo(495259421);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_ruin_debris5", 497368257)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(-232.000, 12.000, 216.000);
+	SeqNo(497368257);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_basebrick_5", 503792306)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(-292.000, 14.000, 128.000);
+	SeqNo(503792306);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_floor_tile", 513497621)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-236.000, 8.000, 252.000);
+	SeqNo(513497621);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_ceiling_tile", 513814357)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-148.000, 20.000, 252.000);
+	SeqNo(513814357);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "com_item_weaponrecharge", 515858872)
+{
+	ChildRotation(0.814, 0.000, 0.581, 0.000);
+	ChildPosition(-293.529, 3.978, 189.284);
+	SeqNo(515858872);
+	Team(0);
+	NetworkId(-1);
+	EffectRegion("");
+	Radius("5.0");
+}
+
+Object("", "Rhn_bldg_catacombs_wall", 518008041)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(-180.000, 0.000, 244.000);
+	SeqNo(518008041);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_facade14", 522201631)
+{
+	ChildRotation(0.000, -0.707, 0.000, -0.707);
+	ChildPosition(-156.000, 24.000, 292.000);
+	SeqNo(522201631);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("ruin01_4", "Rhn_bldg_ruin_01", 523187609)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-212.000, 16.000, 196.000);
+	SeqNo(523187609);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_16x16_tile", 524450964)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(-312.000, 16.000, 260.000);
+	SeqNo(524450964);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_8x16_floor", 528805999)
+{
+	ChildRotation(0.707, 0.000, 0.707, 0.000);
+	ChildPosition(-156.000, 8.000, 184.000);
+	SeqNo(528805999);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_facade_pillar_o", 546282039)
+{
+	ChildRotation(0.707, 0.000, 0.707, 0.000);
+	ChildPosition(-264.000, 4.000, 271.000);
+	SeqNo(546282039);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_8x16_floor", 550953446)
+{
+	ChildRotation(0.707, 0.000, 0.707, 0.000);
+	ChildPosition(-268.000, 2.000, 200.000);
+	SeqNo(550953446);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_floor_tile", 553834846)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-220.000, 16.000, 212.000);
+	SeqNo(553834846);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_catacombs_wall", 560085666)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(-220.000, 0.000, 244.000);
+	SeqNo(560085666);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_floor_tile", 565949064)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-252.000, 8.000, 252.000);
+	SeqNo(565949064);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("4x4x32_100", "Rhn_bldg_lego_2", 567643420)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-214.000, -20.000, 126.000);
+	SeqNo(567643420);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_floor_tile_f48", 568741552)
+{
+	ChildRotation(0.000, 0.000, 0.000, -1.000);
+	ChildPosition(-152.000, 12.000, 180.000);
+	SeqNo(568741552);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_8x24_tile", 571625465)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(-148.000, 36.000, 260.000);
+	SeqNo(571625465);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_broken_front1", 577023628)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(-108.000, -6.000, 180.000);
+	SeqNo(577023628);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_8x16_tile", 580955947)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(-236.000, 2.000, 224.000);
+	SeqNo(580955947);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_ceiling_tile", 585305007)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-156.000, 22.000, 276.000);
+	SeqNo(585305007);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_facade14", 596853774)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(-164.000, 14.000, 276.000);
+	SeqNo(596853774);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "com_weap_gunturret", 606712933)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(-116.000, 14.000, 233.384);
+	SeqNo(606712933);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_floor_tile_f", 609445867)
+{
+	ChildRotation(0.707, 0.000, 0.707, 0.000);
+	ChildPosition(-284.000, -8.000, 152.000);
+	SeqNo(609445867);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_broken_corner", 619154405)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(-292.000, -4.000, 188.000);
+	SeqNo(619154405);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_floor_tile_top", 620793614)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-236.000, 8.000, 244.000);
+	SeqNo(620793614);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_catacombs_wall", 623513131)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-228.000, 8.000, 268.000);
+	SeqNo(623513131);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_ruin_debris", 630652943)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(-136.000, 8.000, 219.000);
+	SeqNo(630652943);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_floor_tile_f24", 630713170)
+{
+	ChildRotation(0.707, 0.000, 0.707, 0.000);
+	ChildPosition(-244.000, 10.000, 216.000);
+	SeqNo(630713170);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_facade14", 642615860)
+{
+	ChildRotation(0.000, -0.707, 0.000, 0.707);
+	ChildPosition(-252.000, 8.000, 260.000);
+	SeqNo(642615860);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_8x24_tile", 645710086)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-252.000, -8.000, 156.000);
+	SeqNo(645710086);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_16x16_tile", 650048715)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(-176.000, 12.000, 252.000);
+	SeqNo(650048715);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_facade17", 653193934)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(-203.997, 8.000, 140.000);
+	SeqNo(653193934);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_facade24", 654178255)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(-108.000, 22.000, 284.000);
+	SeqNo(654178255);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_ruin_1d", 665088681)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-264.000, 12.000, 155.000);
+	SeqNo(665088681);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("Tunnel_43", "Rhn_bldg_lego_tunnel", 676081016)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(-116.000, 14.007, 260.000);
+	SeqNo(676081016);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_ruin_4way", 679142684)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-172.000, 2.010, 260.007);
+	SeqNo(679142684);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_bridge", 682179136)
+{
+	ChildRotation(0.707, 0.000, 0.707, 0.000);
+	ChildPosition(-284.000, -4.000, 172.000);
+	SeqNo(682179136);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_facade23", 682370336)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(-164.000, 12.000, 252.000);
+	SeqNo(682370336);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_ruin_4way", 687732089)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-236.000, 5.999, 276.007);
+	SeqNo(687732089);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_ruin_buttress", 691597498)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-168.000, 4.000, 198.000);
+	SeqNo(691597498);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_floor_tile", 692404503)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-156.000, 12.000, 252.000);
+	SeqNo(692404503);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("stairs_19005", "Rhn_bldg_ruin_stairs", 694085677)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-108.000, 5.946, 200.000);
+	SeqNo(694085677);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("stairs_19028", "Rhn_bldg_ruin_stairs", 695460931)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-100.000, 10.000, 232.000);
+	SeqNo(695460931);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_floor_tile_f", 699324206)
+{
+	ChildRotation(0.707, 0.000, 0.707, 0.000);
+	ChildPosition(-268.000, 4.000, 144.000);
+	SeqNo(699324206);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_facade18", 713861442)
+{
+	ChildRotation(0.707, 0.000, 0.707, 0.000);
+	ChildPosition(-108.000, 6.000, 236.000);
+	SeqNo(713861442);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_floor_tile_top", 715875832)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-284.000, 8.000, 148.000);
+	SeqNo(715875832);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_facade14", 726385223)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-204.000, -4.000, 268.000);
+	SeqNo(726385223);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_ruin_post", 729310837)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-116.000, 8.000, 220.000);
+	SeqNo(729310837);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("Pillar01_12", "Rhn_bldg_ruin_pillar", 737630323)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-194.000, 12.000, 122.000);
+	SeqNo(737630323);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_prop_ceiling_light", 739663693)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-243.570, 12.399, 260.286);
+	SeqNo(739663693);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_ruin_4way", 745249563)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-212.000, 0.010, 236.000);
+	SeqNo(745249563);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_facade14", 747601373)
+{
+	ChildRotation(0.000, 0.000, 0.000, -1.000);
+	ChildPosition(-164.000, 14.000, 268.000);
+	SeqNo(747601373);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_broken_corner1", 750978361)
+{
+	ChildRotation(0.707, 0.000, 0.707, 0.000);
+	ChildPosition(-100.000, 4.000, 244.000);
+	SeqNo(750978361);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_trim", 754461153)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-160.000, 12.000, 188.000);
+	SeqNo(754461153);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "com_item_weaponrecharge", 754566262)
+{
+	ChildRotation(0.312, 0.000, -0.950, 0.000);
+	ChildPosition(-242.368, 8.012, 258.391);
+	SeqNo(754566262);
+	Team(0);
+	NetworkId(-1);
+	EffectRegion("");
+	Radius("5.0");
+}
+
+Object("", "Rhn_bldg_ruin_stairs2", 755111491)
+{
+	ChildRotation(0.707, 0.000, 0.707, 0.000);
+	ChildPosition(-280.000, 8.000, 144.000);
+	SeqNo(755111491);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_catacombs_wall", 758819725)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-180.000, 0.000, 252.000);
+	SeqNo(758819725);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "com_weap_gunturret", 763478296)
+{
+	ChildRotation(0.383, 0.000, -0.924, 0.000);
+	ChildPosition(-248.000, 0.000, 240.000);
+	SeqNo(763478296);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_facade_pillar_l", 766763979)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-103.000, -6.000, 272.000);
+	SeqNo(766763979);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_floor_tile", 767573661)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-132.000, 12.000, 268.000);
+	SeqNo(767573661);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_facade15", 768042628)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-188.000, 10.000, 244.000);
+	SeqNo(768042628);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("stairs_19016", "Rhn_bldg_ruin_stairs", 769728802)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(-272.000, 11.965, 132.000);
+	SeqNo(769728802);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_ceiling_tile", 771280780)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-132.000, 22.000, 268.000);
+	SeqNo(771280780);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_ruin_stairs2", 774464249)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(-136.000, 4.000, 232.000);
+	SeqNo(774464249);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_ruin_post", 779933584)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-248.088, 11.989, 152.000);
+	SeqNo(779933584);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_floor_tile_top", 781305179)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-284.000, 6.059, 132.000);
+	SeqNo(781305179);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_bridge", 784185521)
+{
+	ChildRotation(0.707, 0.000, 0.707, 0.000);
+	ChildPosition(-284.000, -4.000, 180.000);
+	SeqNo(784185521);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_8x16_tile", 784493004)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(-292.000, -20.000, 192.000);
+	SeqNo(784493004);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_facade19", 784755441)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-236.000, 0.000, 164.000);
+	SeqNo(784755441);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_trim", 787978025)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-184.000, 12.000, 140.000);
+	SeqNo(787978025);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("stairs_19013", "Rhn_bldg_ruin_stairs", 789465832)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-284.000, 5.988, 136.000);
+	SeqNo(789465832);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_facade17", 791928249)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(-259.998, -2.000, 188.000);
+	SeqNo(791928249);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_ruin_1c", 792362662)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(-236.000, 12.000, 144.000);
+	SeqNo(792362662);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_floor_tile_f24", 796931693)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(-112.000, 6.000, 204.000);
+	SeqNo(796931693);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_facade14", 803334107)
+{
+	ChildRotation(0.707, 0.000, 0.707, 0.000);
+	ChildPosition(-132.000, 14.000, 260.000);
+	SeqNo(803334107);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_facade18", 805230402)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-276.000, 4.000, 124.000);
+	SeqNo(805230402);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn2_prop_cloud", 808909366)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-320.098, -34.081, 62.902);
+	SeqNo(808909366);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_broken_corner1", 812914077)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(-228.000, 4.000, 132.000);
+	SeqNo(812914077);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_16x16_tile", 817066360)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(-296.000, 8.000, 260.000);
+	SeqNo(817066360);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_facade19", 820738893)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(-204.000, -8.000, 108.000);
+	SeqNo(820738893);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_facade17", 822339166)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-108.000, 38.000, 260.000);
+	SeqNo(822339166);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "rhn_bldg_floor_tile4", 834717922)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-240.000, 12.000, 152.000);
+	SeqNo(834717922);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_facade24", 842875751)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(-108.000, 30.000, 260.000);
+	SeqNo(842875751);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_ruin_4c", 846423963)
+{
+	ChildRotation(0.000, -0.001, -1.000, 0.015);
+	ChildPosition(-140.000, 8.000, 193.000);
+	SeqNo(846423963);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_8x16_tile", 853044161)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(-236.000, 0.000, 240.000);
+	SeqNo(853044161);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_8x16_tile", 859751936)
+{
+	ChildRotation(0.707, 0.000, 0.707, 0.000);
+	ChildPosition(-172.000, 4.000, 144.000);
+	SeqNo(859751936);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_ruin_interiorstairs", 861847488)
+{
+	ChildRotation(0.707, 0.000, 0.707, 0.000);
+	ChildPosition(-168.000, 6.000, 284.000);
+	SeqNo(861847488);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("doorway_12", "Rhn_bldg_ruin_14", 864730267)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-148.000, 12.000, 248.000);
+	SeqNo(864730267);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_ruin_4way", 865915477)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-212.000, 0.010, 252.000);
+	SeqNo(865915477);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_8x16_tile", 869349971)
+{
+	ChildRotation(0.708, 0.000, 0.707, 0.000);
+	ChildPosition(-100.000, -14.000, 184.000);
+	SeqNo(869349971);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_ruin_interiorstairs", 880009923)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-212.000, 0.000, 264.000);
+	SeqNo(880009923);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_floor_tile", 883648630)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-188.000, 16.000, 180.000);
+	SeqNo(883648630);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_16x16_tile", 886511987)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(-316.000, -16.000, 279.998);
+	SeqNo(886511987);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_floor_tile_f24", 886998127)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(-116.000, 2.000, 192.000);
+	SeqNo(886998127);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_catacombs_wall", 893272800)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(-252.000, 0.000, 276.000);
+	SeqNo(893272800);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_facade19", 900233313)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(-268.000, 16.000, 276.000);
+	SeqNo(900233313);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_8x16_floor", 907463153)
+{
+	ChildRotation(0.707, 0.000, 0.707, 0.000);
+	ChildPosition(-180.000, 8.000, 216.000);
+	SeqNo(907463153);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("Pillar01_11", "Rhn_bldg_ruin_pillar", 907885040)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-207.278, 8.003, 88.544);
+	SeqNo(907885040);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_catacombs_wall", 918058385)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(-252.000, 8.000, 276.000);
+	SeqNo(918058385);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_ruin_4way", 919802646)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-212.000, 0.010, 244.000);
+	SeqNo(919802646);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_ruin_Cathedral_wall", 923442400)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(-228.000, 12.000, 236.000);
+	SeqNo(923442400);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_floor_tile_top", 924815594)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-236.000, 10.000, 228.000);
+	SeqNo(924815594);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_basebrick_5", 930545849)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(-308.000, 14.000, 128.000);
+	SeqNo(930545849);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_ruin_4b", 932682000)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-252.000, 12.000, 159.000);
+	SeqNo(932682000);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_facade18", 939735824)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(-100.000, -6.000, 236.000);
+	SeqNo(939735824);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "com_item_weaponrecharge", 941017411)
+{
+	ChildRotation(-0.077, 0.000, -0.997, 0.000);
+	ChildPosition(-263.364, 11.977, 140.500);
+	SeqNo(941017411);
+	Team(0);
+	NetworkId(-1);
+	EffectRegion("");
+	Radius("5.0");
+}
+
+Object("", "Rhn_bldg_wall_8x16_tile", 945946640)
+{
+	ChildRotation(0.707, 0.000, 0.707, 0.000);
+	ChildPosition(-156.000, 0.000, 183.998);
+	SeqNo(945946640);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_ruin_post", 946790812)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-116.000, 8.000, 212.000);
+	SeqNo(946790812);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_floor_tile_f24", 948165740)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(-136.000, 6.000, 220.000);
+	SeqNo(948165740);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_8x16_floor", 948419256)
+{
+	ChildRotation(0.707, 0.000, 0.707, 0.000);
+	ChildPosition(-228.000, 8.000, 168.000);
+	SeqNo(948419256);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_floor_tile", 949706956)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-156.000, 8.000, 284.000);
+	SeqNo(949706956);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_catacombs_wall", 953726242)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(-212.000, 2.000, 284.000);
+	SeqNo(953726242);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_ruin_Cathedral_wall", 954306139)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(-226.000, 12.000, 212.000);
+	SeqNo(954306139);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_ruin_wallshort", 959632215)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-182.000, 12.000, 198.000);
+	SeqNo(959632215);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_ruin_interiorstairs", 967667425)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-172.000, 2.000, 264.000);
+	SeqNo(967667425);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_ruin_Cathedral_1", 979592859)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-184.000, 12.020, 206.000);
+	SeqNo(979592859);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_bridge", 989233527)
+{
+	ChildRotation(0.707, 0.000, 0.707, 0.000);
+	ChildPosition(-284.000, -2.000, 164.000);
+	SeqNo(989233527);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_ruin_1e", 989863219)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-148.000, 8.000, 192.000);
+	SeqNo(989863219);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn2_prop_cloud", 998927745)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-336.098, -34.081, 254.902);
+	SeqNo(998927745);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_facade17", 1004869020)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(-124.000, 38.000, 260.000);
+	SeqNo(1004869020);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_facade17", 1012086386)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-260.000, 32.000, 276.000);
+	SeqNo(1012086386);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_facade_pillar_h3a", 1014670516)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-103.000, 18.000, 272.000);
+	SeqNo(1014670516);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_ruin_4way", 1021131367)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-204.000, 0.000, 228.000);
+	SeqNo(1021131367);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_facade24", 1038489452)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(-164.000, 28.000, 252.000);
+	SeqNo(1038489452);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_prop_ceiling_light", 1053796871)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-226.678, 12.427, 276.000);
+	SeqNo(1053796871);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_facade14", 1054392268)
+{
+	ChildRotation(0.000, -1.000, 0.000, 0.000);
+	ChildPosition(-148.000, 14.000, 276.000);
+	SeqNo(1054392268);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_ceiling_tile", 1055548938)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-156.000, 20.000, 252.000);
+	SeqNo(1055548938);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_ruin_1d", 1055649167)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(-156.000, 8.000, 223.000);
+	SeqNo(1055649167);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_floor_tile", 1056691836)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-188.000, 16.000, 172.000);
+	SeqNo(1056691836);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_ceiling_tile", 1066320884)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-124.000, 22.000, 268.000);
+	SeqNo(1066320884);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_facade14", 1068258623)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-132.000, 12.000, 252.000);
+	SeqNo(1068258623);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_ruin_Rotunda", 1076918085)
+{
+	ChildRotation(0.708, 0.000, -0.706, 0.000);
+	ChildPosition(-231.928, 34.044, 272.244);
+	SeqNo(1076918085);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_broken_corner", 1093044037)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(-208.000, 0.000, 108.000);
+	SeqNo(1093044037);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_ceiling_tile", 1106739646)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-180.000, 12.000, 260.000);
+	SeqNo(1106739646);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("stairs_19054", "Rhn_bldg_ruin_stairs", 1107017216)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(-284.000, 6.000, 160.000);
+	SeqNo(1107017216);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_facade17", 1126285165)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(-260.000, 24.000, 276.000);
+	SeqNo(1126285165);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_facade18", 1131051573)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(-228.000, -4.000, 132.000);
+	SeqNo(1131051573);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_floor_tile", 1131968933)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-220.000, 16.000, 196.000);
+	SeqNo(1131968933);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_8x16_tile", 1135413190)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(-284.000, -10.000, 144.000);
+	SeqNo(1135413190);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_facade14", 1136434675)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-164.000, -2.000, 276.000);
+	SeqNo(1136434675);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_ruin_1a", 1137979281)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(-129.000, 8.000, 197.000);
+	SeqNo(1137979281);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("4x4x4_7", "Rhn_bldg_lego_1", 1138913058)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-124.483, -1.932, 152.000);
+	SeqNo(1138913058);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_ruin_13", 1140209413)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(-160.000, 4.000, 208.000);
+	SeqNo(1140209413);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "com_item_healthrecharge", 1141065632)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-246.477, 7.995, 261.914);
+	SeqNo(1141065632);
+	Team(0);
+	NetworkId(-1);
+	EffectRegion("");
+	Radius("5.0");
+}
+
+Object("", "Rhn_bldg_wall_facade14", 1144354885)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(-228.000, 14.000, 284.000);
+	SeqNo(1144354885);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_ruin_Cathedral_wall", 1155192803)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-182.000, 12.000, 228.000);
+	SeqNo(1155192803);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_8x16_floor", 1157799958)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-239.000, 8.000, 188.000);
+	SeqNo(1157799958);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_facade_pillar_o", 1158707447)
+{
+	ChildRotation(0.707, 0.000, 0.707, 0.000);
+	ChildPosition(-112.000, 25.000, 255.000);
+	SeqNo(1158707447);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_facade_pillar_l", 1159604266)
+{
+	ChildRotation(0.707, 0.000, 0.707, 0.000);
+	ChildPosition(-136.000, 3.999, 247.000);
+	SeqNo(1159604266);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_catacombs_wall", 1161354075)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-228.000, 8.000, 252.000);
+	SeqNo(1161354075);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_floor_tile_top", 1166340247)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-308.000, 16.000, 132.000);
+	SeqNo(1166340247);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_floor_tile_f", 1183762348)
+{
+	ChildRotation(0.707, 0.000, 0.707, 0.000);
+	ChildPosition(-156.000, -4.000, 232.000);
+	SeqNo(1183762348);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("stairs_1800", "Rhn_bldg_ruin_stairs", 1193348254)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(-172.000, 10.000, 216.000);
+	SeqNo(1193348254);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "com_item_healthrecharge", 1202810797)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-213.734, -6.820, 106.836);
+	SeqNo(1202810797);
+	Team(0);
+	NetworkId(-1);
+	EffectRegion("");
+	Radius("5.0");
+}
+
+Object("", "Rhn_bldg_floor_tile_top", 1213280941)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-268.000, 2.000, 268.000);
+	SeqNo(1213280941);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_floor_tile", 1217435089)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-220.000, 16.000, 204.000);
+	SeqNo(1217435089);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("stairs_19006", "Rhn_bldg_ruin_stairs", 1221235040)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(-111.999, 2.016, 188.001);
+	SeqNo(1221235040);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_basebrick_4", 1231009152)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(-168.000, 4.000, 228.000);
+	SeqNo(1231009152);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_ceiling_tile", 1231567519)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-196.000, 17.754, 236.000);
+	SeqNo(1231567519);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_facade19", 1232913732)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-292.000, -12.000, 188.000);
+	SeqNo(1232913732);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_8x16_floor", 1235984330)
+{
+	ChildRotation(0.707, 0.000, 0.707, 0.000);
+	ChildPosition(-228.000, 8.000, 224.000);
+	SeqNo(1235984330);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_facade18", 1243982925)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(-164.000, 36.000, 252.000);
+	SeqNo(1243982925);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("stairs_19025", "Rhn_bldg_ruin_stairs", 1245543957)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-268.000, 0.000, 256.000);
+	SeqNo(1245543957);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_ruin_Cathedral_2", 1246053219)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(-224.000, 12.000, 194.000);
+	SeqNo(1246053219);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_ruin_debris", 1257168160)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-244.000, 12.000, 144.000);
+	SeqNo(1257168160);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "com_item_healthrecharge", 1257270725)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-125.421, 13.987, 251.688);
+	SeqNo(1257270725);
+	Team(0);
+	NetworkId(-1);
+	EffectRegion("");
+	Radius("5.0");
+}
+
+Object("", "Rhn_bldg_wall_8x16_tile", 1262926788)
+{
+	ChildRotation(0.707, 0.000, 0.707, 0.000);
+	ChildPosition(-100.000, -22.000, 184.000);
+	SeqNo(1262926788);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_trim", 1274419807)
+{
+	ChildRotation(0.707, 0.000, 0.707, 0.000);
+	ChildPosition(-188.000, 12.000, 136.000);
+	SeqNo(1274419807);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_facade15", 1285114059)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(-220.000, 6.000, 284.000);
+	SeqNo(1285114059);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_facade17", 1294271089)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(-227.997, 10.000, 252.000);
+	SeqNo(1294271089);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_facade14", 1296770236)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(-180.000, -4.000, 268.000);
+	SeqNo(1296770236);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_8x16_tile", 1298699323)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(-124.000, -2.000, 240.000);
+	SeqNo(1298699323);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_facade17", 1299948323)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(-132.000, 28.000, 252.000);
+	SeqNo(1299948323);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("doorway_10", "Rhn_bldg_ruin_14", 1311648819)
+{
+	ChildRotation(0.707, 0.000, 0.707, 0.000);
+	ChildPosition(-256.000, 8.000, 260.000);
+	SeqNo(1311648819);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_floor_tile_top", 1315742232)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-276.000, 12.000, 124.000);
+	SeqNo(1315742232);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_ceiling_tile", 1334748995)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-228.000, 16.000, 276.000);
+	SeqNo(1334748995);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_facade14", 1351697929)
+{
+	ChildRotation(0.707, 0.000, 0.707, 0.000);
+	ChildPosition(-180.000, -4.000, 252.000);
+	SeqNo(1351697929);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_ruin_4way", 1356753377)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-212.000, 0.000, 228.000);
+	SeqNo(1356753377);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_broken_front1", 1358441972)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-284.000, -4.000, 196.000);
+	SeqNo(1358441972);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_16x16_tile", 1361616917)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(-104.000, -22.000, 180.000);
+	SeqNo(1361616917);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_ruin_buttress", 1367286730)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-168.000, 4.000, 244.000);
+	SeqNo(1367286730);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "com_item_healthrecharge", 1368183075)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-205.987, 10.001, 65.243);
+	SeqNo(1368183075);
+	Team(0);
+	NetworkId(-1);
+	EffectRegion("");
+	Radius("5.0");
+}
+
+Object("", "Rhn_bldg_ceiling_tile", 1368928787)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-172.000, 14.000, 268.000);
+	SeqNo(1368928787);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_ruin_stairs2", 1371587546)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(-144.000, 0.000, 160.000);
+	SeqNo(1371587546);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_broken_corner1", 1377166367)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(-200.000, 2.000, 68.000);
+	SeqNo(1377166367);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_facade14", 1378094115)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(-188.000, 10.000, 260.000);
+	SeqNo(1378094115);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_catacombs_wall", 1378908432)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(-188.000, 0.000, 268.000);
+	SeqNo(1378908432);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn2_prop_cloud", 1382223134)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-64.098, -34.081, 206.902);
+	SeqNo(1382223134);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_16x16_tile", 1383328440)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(-316.000, -16.000, 263.999);
+	SeqNo(1383328440);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_ceiling_tile", 1386694650)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-156.000, 20.000, 260.000);
+	SeqNo(1386694650);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_8x16_floor", 1388110364)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-144.000, 4.000, 196.000);
+	SeqNo(1388110364);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_8x16_tile", 1405968824)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-288.000, -20.000, 196.000);
+	SeqNo(1405968824);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_floor_tile_f48", 1413715823)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-256.000, 12.005, 268.000);
+	SeqNo(1413715823);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("4x4x32_97", "Rhn_bldg_lego_2", 1418233179)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-210.000, -32.000, 110.000);
+	SeqNo(1418233179);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("Pillar01_10", "Rhn_bldg_ruin_pillar", 1422688488)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-200.590, 7.995, 88.627);
+	SeqNo(1422688488);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "com_item_healthrecharge", 1430228380)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-142.514, -8.226, 120.198);
+	SeqNo(1430228380);
+	Team(0);
+	NetworkId(-1);
+	EffectRegion("");
+	Radius("5.0");
+}
+
+Object("", "Rhn_bldg_ruin_stairs2", 1430845946)
+{
+	ChildRotation(0.707, 0.000, 0.707, 0.000);
+	ChildPosition(-232.000, 12.000, 184.000);
+	SeqNo(1430845946);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_broken_corner1", 1438388875)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(-108.000, -2.000, 196.000);
+	SeqNo(1438388875);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_facade15", 1440710242)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(-132.000, 12.000, 276.000);
+	SeqNo(1440710242);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_trim", 1451739794)
+{
+	ChildRotation(0.708, 0.000, -0.706, 0.000);
+	ChildPosition(-164.000, 12.000, 208.000);
+	SeqNo(1451739794);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_8x16_floor", 1455747120)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-176.000, 8.000, 244.000);
+	SeqNo(1455747120);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("Tunnel_47", "Rhn_bldg_lego_tunnel", 1457729159)
+{
+	ChildRotation(0.707, 0.000, 0.707, 0.000);
+	ChildPosition(-314.000, 16.000, 132.000);
+	SeqNo(1457729159);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_basebrick_5", 1458012804)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(-300.000, 14.000, 128.000);
+	SeqNo(1458012804);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_ruin_debris2", 1462688864)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-110.000, 14.000, 232.000);
+	SeqNo(1462688864);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("Pillar01_15", "Rhn_bldg_ruin_pillar", 1467954946)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-210.000, 8.000, 106.000);
+	SeqNo(1467954946);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_facade19", 1468196304)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-228.000, 0.000, 140.000);
+	SeqNo(1468196304);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "com_weap_gunturret", 1469351788)
+{
+	ChildRotation(-0.383, 0.000, -0.924, 0.000);
+	ChildPosition(-147.000, 0.086, 186.000);
+	SeqNo(1469351788);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_facade18", 1470476496)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(-108.000, -2.000, 252.000);
+	SeqNo(1470476496);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_8x16_tile", 1474078172)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(-204.000, -14.000, 68.000);
+	SeqNo(1474078172);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_ceiling_tile", 1483558553)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-140.000, 20.000, 252.000);
+	SeqNo(1483558553);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_ruin_4way", 1484209893)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-196.000, 0.010, 252.000);
+	SeqNo(1484209893);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_ruin_Cathedral_2", 1487973990)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(-224.000, 12.000, 178.000);
+	SeqNo(1487973990);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_floor_tile_f48", 1488104598)
+{
+	ChildRotation(0.000, -0.707, 0.000, 0.707);
+	ChildPosition(-252.000, 12.000, 160.000);
+	SeqNo(1488104598);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_basebrick_5", 1490823652)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(-172.000, 10.000, 224.000);
+	SeqNo(1490823652);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn2_prop_cloud", 1504786813)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-368.098, -34.081, 94.902);
+	SeqNo(1504786813);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_facade18", 1504883652)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(-292.000, 8.000, 260.000);
+	SeqNo(1504883652);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_ruin_buttress", 1506593594)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(-240.000, 4.000, 228.000);
+	SeqNo(1506593594);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_facade_pillar_l", 1530122303)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-103.000, -6.000, 264.000);
+	SeqNo(1530122303);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn2_prop_cloud", 1537874403)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-64.098, -34.081, 286.902);
+	SeqNo(1537874403);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_floor_tile", 1547833921)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-252.000, 4.000, 268.000);
+	SeqNo(1547833921);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_8x16_tile", 1554493604)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(-244.000, 4.000, 192.000);
+	SeqNo(1554493604);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_facade14", 1567923030)
+{
+	ChildRotation(0.707, 0.000, 0.707, 0.000);
+	ChildPosition(-164.000, 14.000, 276.000);
+	SeqNo(1567923030);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_ruin_post", 1568372545)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-240.088, 12.000, 152.000);
+	SeqNo(1568372545);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_ruin_Cathedral_wall", 1576318352)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(-226.000, 12.000, 220.000);
+	SeqNo(1576318352);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_trim", 1579463546)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-264.000, 6.000, 196.000);
+	SeqNo(1579463546);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_ruin_interiorstairs", 1581945301)
+{
+	ChildRotation(0.707, 0.000, 0.707, 0.000);
+	ChildPosition(-248.000, 4.000, 268.000);
+	SeqNo(1581945301);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "com_item_weaponrecharge", 1583102710)
+{
+	ChildRotation(0.698, 0.000, -0.716, 0.000);
+	ChildPosition(-249.249, 6.370, 203.160);
+	SeqNo(1583102710);
+	Team(0);
+	NetworkId(-1);
+	EffectRegion("");
+	Radius("5.0");
+}
+
+Object("", "Rhn_bldg_ruin_13", 1589507430)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(-204.000, 0.000, 112.000);
+	SeqNo(1589507430);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_facade14", 1589618052)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-148.000, 14.000, 268.000);
+	SeqNo(1589618052);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_facade14", 1591716122)
+{
+	ChildRotation(0.000, 0.000, 0.000, -1.000);
+	ChildPosition(-244.000, 8.000, 260.000);
+	SeqNo(1591716122);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "com_weap_gunturret", 1599001410)
+{
+	ChildRotation(0.707, 0.000, 0.707, 0.000);
+	ChildPosition(-249.479, 12.000, 141.000);
+	SeqNo(1599001410);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_facade23", 1610336273)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(-124.000, 14.000, 260.000);
+	SeqNo(1610336273);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_facade18", 1622846816)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-228.000, -4.000, 132.000);
+	SeqNo(1622846816);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_ruin_4c", 1627182663)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(-260.000, 6.000, 216.000);
+	SeqNo(1627182663);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("CP7", "com_bldg_controlzone", 1628786276)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-200.000, 0.005, 234.000);
+	SeqNo(1628786276);
+	Team(0);
+	NetworkId(-1);
+	Label("CP7");
+	CaptureRegion("CP7_Capture");
+	ControlRegion("CP7_Control");
+	SpawnPath("CP7Spawn");
+	AllyPath("");
+	AllyCount("65536");
+	Radius("0.0");
+	ValueBleed("10");
+	Value_ATK_Alliance("10");
+	Value_ATK_CIS("10");
+	Value_ATK_Empire("10");
+	Value_ATK_Republic("10");
+	Value_ATK_Locals("10");
+	Value_DEF_Alliance("10");
+	Value_DEF_CIS("10");
+	Value_DEF_Empire("10");
+	Value_DEF_Republic("10");
+	Value_DEF_Locals("10");
+	VO_All_AllCapture("all_off_com_report_captured_commandpost");
+	VO_All_AllLost("all_off_com_report_lost_commandpost3");
+	VO_All_AllInDispute("");
+	VO_All_AllSaved("");
+	VO_All_AllInfo("");
+	VO_All_ImpCapture("all_off_com_report_lost_commandpost");
+	VO_All_ImpLost("");
+	VO_All_ImpInDispute("");
+	VO_All_ImpSaved("");
+	VO_All_ImpInfo("");
+	VO_Imp_AllCapture("imp_off_com_report_lost_commandpost");
+	VO_Imp_AllLost("");
+	VO_Imp_AllInDispute("");
+	VO_Imp_AllSaved("");
+	VO_Imp_AllInfo("");
+	VO_Imp_ImpCapture("imp_off_com_report_captured_commandpost");
+	VO_Imp_ImpLost("imp_off_com_report_lost_commandpost3");
+	VO_Imp_ImpInDispute("");
+	VO_Imp_ImpSaved("");
+	VO_Imp_ImpInfo("");
+	VO_Rep_RepCapture("rep_off_com_report_captured_commandpost");
+	VO_Rep_RepLost("rep_off_com_report_lost_commandpost3");
+	VO_Rep_RepInDispute("");
+	VO_Rep_RepSaved("");
+	VO_Rep_RepInfo("");
+	VO_Rep_CISCapture("rep_off_com_report_lost_commandpost");
+	VO_Rep_CISLost("");
+	VO_Rep_CISInDispute("");
+	VO_Rep_CISSaved("");
+	VO_Rep_CISInfo("");
+	VO_CIS_RepCapture("cis_off_com_report_lost_commandpost");
+	VO_CIS_RepLost("");
+	VO_CIS_RepInDispute("");
+	VO_CIS_RepSaved("");
+	VO_CIS_RepInfo("");
+	VO_CIS_CISCapture("cis_off_com_chatter_goodjob2");
+	VO_CIS_CISLost("cis_off_com_report_lost_commandpost3");
+	VO_CIS_CISInDispute("");
+	VO_CIS_CISSaved("");
+	VO_CIS_CISInfo("");
+	SoldierBan("");
+	HoverBan("");
+	SmallBan("");
+	MediumBan("");
+	HugeBan("");
+	FlyerBan("");
+}
+
+Object("", "Rhn_bldg_floor_tile_top", 1636816620)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-172.000, 10.000, 220.000);
+	SeqNo(1636816620);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_basebrick_5", 1645484286)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(-176.000, 10.000, 212.000);
+	SeqNo(1645484286);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_ruin_1a", 1652367188)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(-248.000, 12.000, 188.094);
+	SeqNo(1652367188);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_ruin_Rotunda_upper", 1656074273)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(-231.941, 32.923, 272.487);
+	SeqNo(1656074273);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn2_prop_cloud", 1658440910)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-368.098, -34.081, 158.902);
+	SeqNo(1658440910);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_facade18", 1659638594)
+{
+	ChildRotation(0.707, 0.000, 0.707, 0.000);
+	ChildPosition(-100.000, -4.000, 244.000);
+	SeqNo(1659638594);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_facade19", 1661928735)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(-276.000, 24.000, 276.000);
+	SeqNo(1661928735);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_basebrick_2", 1663068369)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(-168.000, 4.000, 244.000);
+	SeqNo(1663068369);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_look_out", 1668813446)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(-268.000, 12.000, 132.000);
+	SeqNo(1668813446);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_8x16_floor", 1669958852)
+{
+	ChildRotation(0.707, 0.000, 0.707, 0.000);
+	ChildPosition(-132.000, 4.000, 200.000);
+	SeqNo(1669958852);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_facade18", 1671198298)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(-252.000, -4.000, 132.000);
+	SeqNo(1671198298);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("Pillar01_18", "Rhn_bldg_ruin_pillar", 1671588938)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-89.000, 2.005, 186.000);
+	SeqNo(1671588938);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_8x16_tile", 1675259352)
+{
+	ChildRotation(0.707, 0.000, 0.707, 0.000);
+	ChildPosition(-164.000, -4.000, 144.000);
+	SeqNo(1675259352);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_facade15", 1680917296)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(-228.000, 6.000, 284.000);
+	SeqNo(1680917296);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_facade24", 1688434315)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(-108.000, 22.000, 260.000);
+	SeqNo(1688434315);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_catacombs_wall", 1689740138)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(-220.000, 0.000, 228.000);
+	SeqNo(1689740138);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_8x16_floor", 1689878963)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-208.000, 8.000, 132.000);
+	SeqNo(1689878963);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_ruin_damagetile_02", 1693799528)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-144.000, 4.000, 228.000);
+	SeqNo(1693799528);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_ruin_Cathedral_wall", 1697610491)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-180.000, 12.000, 236.000);
+	SeqNo(1697610491);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_ruin_13", 1701671646)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-280.000, -4.000, 120.000);
+	SeqNo(1701671646);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_ceiling_tile", 1701842915)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-156.000, 22.000, 284.000);
+	SeqNo(1701842915);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_facade19", 1702532704)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-204.000, -8.000, 108.000);
+	SeqNo(1702532704);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("4x4x32_95", "Rhn_bldg_lego_2", 1706145550)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-190.000, -28.000, 122.000);
+	SeqNo(1706145550);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_broken_front", 1708181279)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(-100.000, -6.000, 180.000);
+	SeqNo(1708181279);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_catacombs_wall", 1709016705)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-228.000, 0.000, 268.000);
+	SeqNo(1709016705);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_floor_tile", 1715086179)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-140.000, 12.000, 268.000);
+	SeqNo(1715086179);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_16x16_tile", 1715476690)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-204.000, -6.000, 76.000);
+	SeqNo(1715476690);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_facade19", 1730559809)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(-284.000, 24.000, 276.000);
+	SeqNo(1730559809);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_8x16_tile", 1731141089)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(-296.000, 0.000, 260.000);
+	SeqNo(1731141089);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_facade25", 1735941269)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(-108.000, 38.000, 284.000);
+	SeqNo(1735941269);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_ruin_damagetile_02", 1748439209)
+{
+	ChildRotation(0.708, 0.000, -0.706, 0.000);
+	ChildPosition(-147.967, 8.117, 199.907);
+	SeqNo(1748439209);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_basebrick_4", 1751195985)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-280.000, 4.000, 140.000);
+	SeqNo(1751195985);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn2_prop_cloud", 1754651696)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-336.098, -34.081, 190.902);
+	SeqNo(1754651696);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_16x16_tile", 1761104492)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(-316.000, 0.000, 263.998);
+	SeqNo(1761104492);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "rhn_bldg_floor_tile4", 1765011254)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-256.000, 12.000, 152.000);
+	SeqNo(1765011254);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_floor_tile_f4", 1766105330)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(-204.000, -8.000, 104.000);
+	SeqNo(1766105330);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_facade15", 1771469749)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(-196.000, 10.000, 252.000);
+	SeqNo(1771469749);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("doorway_11", "Rhn_bldg_ruin_14", 1773889322)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-156.000, 12.000, 248.000);
+	SeqNo(1773889322);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_ruin_1c", 1777622736)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(-244.000, 12.000, 215.000);
+	SeqNo(1777622736);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_ruin_Cathedral_entrence", 1779019939)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-196.000, 16.000, 162.000);
+	SeqNo(1779019939);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_floor_tile_f48", 1785863194)
+{
+	ChildRotation(0.000, -0.707, 0.000, -0.707);
+	ChildPosition(-268.000, 12.000, 120.000);
+	SeqNo(1785863194);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_ruin_4way", 1793553429)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-180.000, 0.010, 236.000);
+	SeqNo(1793553429);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "rhn_bldg_floor_tile4", 1795611432)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-176.000, 12.000, 232.000);
+	SeqNo(1795611432);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_basebrick_1", 1797028916)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(-128.000, 12.000, 252.000);
+	SeqNo(1797028916);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_broken_corner1", 1797882855)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(-208.000, 2.000, 68.000);
+	SeqNo(1797882855);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_facade_pillar_o", 1798633893)
+{
+	ChildRotation(0.707, 0.000, 0.707, 0.000);
+	ChildPosition(-120.000, 25.000, 255.000);
+	SeqNo(1798633893);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "rhn_bridge_new", 1803796774)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(-204.000, -2.000, 88.000);
+	SeqNo(1803796774);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_ruin_1e", 1806568040)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(-263.000, 6.000, 211.000);
+	SeqNo(1806568040);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_ruin_4way", 1810229772)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-204.000, 0.010, 252.007);
+	SeqNo(1810229772);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_ruin_4way", 1810406263)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-212.000, 0.010, 260.007);
+	SeqNo(1810406263);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_tower", 1810461213)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(-151.999, 0.500, 168.000);
+	SeqNo(1810461213);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("stairs_19053", "Rhn_bldg_ruin_stairs", 1819258735)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(-284.000, 4.000, 176.000);
+	SeqNo(1819258735);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_floor_tile_top", 1819641332)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-260.000, 6.000, 188.000);
+	SeqNo(1819641332);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_8x16_tile", 1837686202)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(-268.000, -2.000, 200.000);
+	SeqNo(1837686202);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_facade17", 1846359777)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(-260.000, 8.000, 276.000);
+	SeqNo(1846359777);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("doorway_8", "Rhn_bldg_ruin_14", 1849595105)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-252.000, 8.000, 248.000);
+	SeqNo(1849595105);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_ruin_light_coals_amber", 1850815836)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-155.839, 14.623, 283.997);
+	SeqNo(1850815836);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "com_item_weaponrecharge", 1860259800)
+{
+	ChildRotation(0.705, 0.000, 0.709, 0.000);
+	ChildPosition(-149.918, 7.993, 206.162);
+	SeqNo(1860259800);
+	Team(0);
+	NetworkId(-1);
+	EffectRegion("");
+	Radius("5.0");
+}
+
+Object("", "Rhn_bldg_ruin_Cathedral_wall", 1866273119)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-182.000, 12.000, 212.000);
+	SeqNo(1866273119);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_facade18", 1867900503)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(-172.000, 28.000, 252.000);
+	SeqNo(1867900503);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_facade18", 1870618597)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(-100.000, -6.000, 228.000);
+	SeqNo(1870618597);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_ruin_light_coals_amber", 1884087807)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-172.550, 5.973, 259.724);
+	SeqNo(1884087807);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("CP1", "com_bldg_controlzone", 1886611452)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-132.000, -8.056, 112.000);
+	SeqNo(1886611452);
+	Team(1);
+	NetworkId(-1);
+	Label("CP1");
+	CaptureRegion("CP1_Capture");
+	ControlRegion("CP1_Control");
+	SpawnPath("CP1_SpawnPath");
+	AllyPath("");
+	AllyCount("65536");
+	Radius("0.0");
+	ValueBleed("10");
+	Value_ATK_Alliance("10");
+	Value_ATK_CIS("10");
+	Value_ATK_Empire("10");
+	Value_ATK_Republic("10");
+	Value_ATK_Locals("10");
+	Value_DEF_Alliance("15");
+	Value_DEF_CIS("15");
+	Value_DEF_Empire("15");
+	Value_DEF_Republic("15");
+	Value_DEF_Locals("10");
+	VO_All_AllCapture("all_off_com_report_captured_commandpost");
+	VO_All_AllLost("all_off_com_report_lost_commandpost3");
+	VO_All_AllInDispute("");
+	VO_All_AllSaved("");
+	VO_All_AllInfo("");
+	VO_All_ImpCapture("all_off_com_report_lost_commandpost");
+	VO_All_ImpLost("");
+	VO_All_ImpInDispute("");
+	VO_All_ImpSaved("");
+	VO_All_ImpInfo("");
+	VO_Imp_AllCapture("imp_off_com_report_lost_commandpost");
+	VO_Imp_AllLost("");
+	VO_Imp_AllInDispute("");
+	VO_Imp_AllSaved("");
+	VO_Imp_AllInfo("");
+	VO_Imp_ImpCapture("imp_off_com_report_captured_commandpost");
+	VO_Imp_ImpLost("imp_off_com_report_lost_commandpost3");
+	VO_Imp_ImpInDispute("");
+	VO_Imp_ImpSaved("");
+	VO_Imp_ImpInfo("");
+	VO_Rep_RepCapture("rep_off_com_report_captured_commandpost");
+	VO_Rep_RepLost("rep_off_com_report_lost_commandpost3");
+	VO_Rep_RepInDispute("");
+	VO_Rep_RepSaved("");
+	VO_Rep_RepInfo("");
+	VO_Rep_CISCapture("rep_off_com_report_lost_commandpost");
+	VO_Rep_CISLost("");
+	VO_Rep_CISInDispute("");
+	VO_Rep_CISSaved("");
+	VO_Rep_CISInfo("");
+	VO_CIS_RepCapture("cis_off_com_report_lost_commandpost");
+	VO_CIS_RepLost("");
+	VO_CIS_RepInDispute("");
+	VO_CIS_RepSaved("");
+	VO_CIS_RepInfo("");
+	VO_CIS_CISCapture("cis_off_com_chatter_goodjob2");
+	VO_CIS_CISLost("cis_off_com_report_lost_commandpost3");
+	VO_CIS_CISInDispute("");
+	VO_CIS_CISSaved("");
+	VO_CIS_CISInfo("");
+	SoldierBan("");
+	HoverBan("");
+	SmallBan("");
+	MediumBan("");
+	HugeBan("");
+	FlyerBan("");
+}
+
+Object("", "Rhn_bldg_floor_tile_f", 1887539808)
+{
+	ChildRotation(0.707, 0.000, 0.000, 0.707);
+	ChildPosition(-204.000, 0.000, 108.000);
+	SeqNo(1887539808);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "com_weap_gunturret", 1895519879)
+{
+	ChildRotation(0.383, 0.000, -0.924, 0.000);
+	ChildPosition(-133.194, 3.965, 242.806);
+	SeqNo(1895519879);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_facade14", 1900547352)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(-220.000, -2.000, 284.000);
+	SeqNo(1900547352);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_catacombs_wall", 1900912178)
+{
+	ChildRotation(0.707, 0.000, 0.707, 0.000);
+	ChildPosition(-196.000, 0.000, 220.000);
+	SeqNo(1900912178);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn2_prop_cloud", 1907262652)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-256.098, -34.081, 30.902);
+	SeqNo(1907262652);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_trim", 1911983953)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-160.000, 12.000, 172.000);
+	SeqNo(1911983953);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "com_weap_gunturret", 1926111078)
+{
+	ChildRotation(0.707, 0.000, 0.707, 0.000);
+	ChildPosition(-153.439, 12.000, 200.000);
+	SeqNo(1926111078);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_facade14", 1938487978)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(-180.000, -2.000, 268.000);
+	SeqNo(1938487978);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_facade19", 1940136580)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(-236.000, 0.000, 148.000);
+	SeqNo(1940136580);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_floor_tile", 1949338366)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-156.000, 12.000, 260.000);
+	SeqNo(1949338366);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_basebrick_5", 1949727106)
+{
+	ChildRotation(0.707, 0.000, 0.707, 0.000);
+	ChildPosition(-300.000, 14.000, 136.000);
+	SeqNo(1949727106);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "com_weap_gunturret", 1951400554)
+{
+	ChildRotation(0.384, 0.000, -0.923, 0.000);
+	ChildPosition(-102.189, 1.995, 178.172);
+	SeqNo(1951400554);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_facade19", 1962296473)
+{
+	ChildRotation(0.707, 0.000, 0.707, 0.000);
+	ChildPosition(-276.000, 0.000, 148.000);
+	SeqNo(1962296473);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_catacombs_wall", 1966816323)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(-315.000, 16.000, 132.000);
+	SeqNo(1966816323);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_facade15", 1967970722)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-108.000, 14.000, 268.000);
+	SeqNo(1967970722);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_facade15", 1973961079)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(-164.000, 12.000, 260.000);
+	SeqNo(1973961079);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_8x16_floor", 1975478017)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-256.000, 2.000, 212.000);
+	SeqNo(1975478017);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("doorway_6", "Rhn_bldg_ruin_14", 1976783639)
+{
+	ChildRotation(0.707, 0.000, 0.707, 0.000);
+	ChildPosition(-256.000, 4.000, 268.000);
+	SeqNo(1976783639);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_floor_tile", 1997769795)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-188.000, 16.000, 204.000);
+	SeqNo(1997769795);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_facade19", 1999145269)
+{
+	ChildRotation(0.708, 0.000, -0.707, 0.000);
+	ChildPosition(-268.000, 24.000, 276.000);
+	SeqNo(1999145269);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_floor_tile_f48", 2000896960)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-128.000, 4.000, 228.000);
+	SeqNo(2000896960);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_ruin_4a", 2001003890)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(-247.000, 12.000, 196.101);
+	SeqNo(2001003890);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_ruin_Cathedral_wall", 2003399348)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(-226.000, 12.000, 228.000);
+	SeqNo(2003399348);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_ruin_Cathedral_3", 2006039128)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(-224.000, 12.000, 206.000);
+	SeqNo(2006039128);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_facade19", 2006873319)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(-244.000, 0.000, 180.000);
+	SeqNo(2006873319);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_facade19", 2007548060)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-208.000, -6.000, 68.000);
+	SeqNo(2007548060);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_ruin_light_coals_amber", 2010948068)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-172.817, 14.651, 284.088);
+	SeqNo(2010948068);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_floor_tile_top", 2016117439)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-228.000, 18.000, 252.000);
+	SeqNo(2016117439);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_facade25", 2019277795)
+{
+	ChildRotation(0.708, 0.000, -0.706, 0.000);
+	ChildPosition(-220.000, 32.000, 220.000);
+	SeqNo(2019277795);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_floor_tile", 2019841776)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-212.000, 2.000, 276.000);
+	SeqNo(2019841776);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_catacombs_wall", 2020296096)
+{
+	ChildRotation(0.708, 0.000, 0.707, 0.000);
+	ChildPosition(-172.000, 2.000, 252.000);
+	SeqNo(2020296096);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_floor_tile", 2021463729)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-148.000, 12.000, 252.000);
+	SeqNo(2021463729);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_8x16_tile", 2022034499)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(-236.000, -8.000, 168.000);
+	SeqNo(2022034499);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_16x16_tile", 2022665855)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-104.000, -14.000, 188.000);
+	SeqNo(2022665855);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_facade14", 2031184658)
+{
+	ChildRotation(0.000, -1.000, 0.000, 0.000);
+	ChildPosition(-148.000, 14.000, 268.000);
+	SeqNo(2031184658);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_facade19", 2039501205)
+{
+	ChildRotation(0.707, 0.000, 0.707, 0.000);
+	ChildPosition(-260.000, 0.000, 156.000);
+	SeqNo(2039501205);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("ruin01_8", "Rhn_bldg_ruin_01", 2040850983)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-196.000, 16.000, 180.000);
+	SeqNo(2040850983);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("CP3", "com_bldg_controlzone", 2066705836)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-287.575, 0.005, 237.832);
+	SeqNo(2066705836);
+	Team(2);
+	NetworkId(-1);
+	Label("CP3");
+	CaptureRegion("CP3_Capture");
+	ControlRegion("CP3_Control");
+	SpawnPath("CP3_SpawnPath");
+	AllyPath("");
+	AllyCount("65536");
+	Radius("0.0");
+	ValueBleed("10");
+	Value_ATK_Alliance("15");
+	Value_ATK_CIS("15");
+	Value_ATK_Empire("15");
+	Value_ATK_Republic("15");
+	Value_ATK_Locals("10");
+	Value_DEF_Alliance("10");
+	Value_DEF_CIS("10");
+	Value_DEF_Empire("10");
+	Value_DEF_Republic("10");
+	Value_DEF_Locals("10");
+	VO_All_AllCapture("all_off_com_report_captured_commandpost");
+	VO_All_AllLost("all_off_com_report_lost_commandpost3");
+	VO_All_AllInDispute("");
+	VO_All_AllSaved("");
+	VO_All_AllInfo("");
+	VO_All_ImpCapture("all_off_com_report_lost_commandpost");
+	VO_All_ImpLost("");
+	VO_All_ImpInDispute("");
+	VO_All_ImpSaved("");
+	VO_All_ImpInfo("");
+	VO_Imp_AllCapture("imp_off_com_report_lost_commandpost");
+	VO_Imp_AllLost("");
+	VO_Imp_AllInDispute("");
+	VO_Imp_AllSaved("");
+	VO_Imp_AllInfo("");
+	VO_Imp_ImpCapture("imp_off_com_report_captured_commandpost");
+	VO_Imp_ImpLost("imp_off_com_report_lost_commandpost3");
+	VO_Imp_ImpInDispute("");
+	VO_Imp_ImpSaved("");
+	VO_Imp_ImpInfo("");
+	VO_Rep_RepCapture("rep_off_com_report_captured_commandpost");
+	VO_Rep_RepLost("rep_off_com_report_lost_commandpost3");
+	VO_Rep_RepInDispute("");
+	VO_Rep_RepSaved("");
+	VO_Rep_RepInfo("");
+	VO_Rep_CISCapture("rep_off_com_report_lost_commandpost");
+	VO_Rep_CISLost("");
+	VO_Rep_CISInDispute("");
+	VO_Rep_CISSaved("");
+	VO_Rep_CISInfo("");
+	VO_CIS_RepCapture("cis_off_com_report_lost_commandpost");
+	VO_CIS_RepLost("");
+	VO_CIS_RepInDispute("");
+	VO_CIS_RepSaved("");
+	VO_CIS_RepInfo("");
+	VO_CIS_CISCapture("cis_off_com_chatter_goodjob2");
+	VO_CIS_CISLost("cis_off_com_report_lost_commandpost3");
+	VO_CIS_CISInDispute("");
+	VO_CIS_CISSaved("");
+	VO_CIS_CISInfo("");
+	SoldierBan("");
+	HoverBan("");
+	SmallBan("");
+	MediumBan("");
+	HugeBan("");
+	FlyerBan("");
+}
+
+Object("", "Rhn_trim", 2074308536)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-264.000, 6.000, 204.000);
+	SeqNo(2074308536);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_facade14", 2075049223)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-212.000, 12.000, 276.000);
+	SeqNo(2075049223);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_facade_pillar_h2", 2090079359)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-103.000, 2.000, 264.000);
+	SeqNo(2090079359);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_catacombs_wall", 2100888518)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-180.000, 0.000, 228.000);
+	SeqNo(2100888518);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_8x16_tile", 2117443136)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-144.000, 0.000, 220.000);
+	SeqNo(2117443136);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_floor_tile_f48", 2127374477)
+{
+	ChildRotation(0.000, -0.707, 0.000, -0.707);
+	ChildPosition(-260.000, 12.000, 120.000);
+	SeqNo(2127374477);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_facade15", 2128851425)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(-204.000, 10.000, 252.000);
+	SeqNo(2128851425);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_trim", 2129334049)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-160.000, 12.000, 196.000);
+	SeqNo(2129334049);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_facade19", 2131876699)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(-252.000, 0.000, 140.000);
+	SeqNo(2131876699);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_catacombs_wall", 2132717185)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(-236.000, 6.000, 284.000);
+	SeqNo(2132717185);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("stairs_19004", "Rhn_bldg_ruin_stairs", 2140782704)
+{
+	ChildRotation(0.707, 0.000, 0.707, 0.000);
+	ChildPosition(-120.000, 3.941, 196.001);
+	SeqNo(2140782704);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_16x16_tile", -2147031536)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(-316.000, 0.000, 279.998);
+	SeqNo(-2147031536);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_facade19", -2146410692)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-208.000, -6.000, 76.000);
+	SeqNo(-2146410692);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_8x16_tile", -2138158257)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(-204.000, 8.000, 144.000);
+	SeqNo(-2138158257);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_facade23", -2120363019)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(-108.000, 14.000, 260.000);
+	SeqNo(-2120363019);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_broken_corner", -2113212425)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(-252.000, 4.000, 132.000);
+	SeqNo(-2113212425);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_floor_tile_f48", -2111940200)
+{
+	ChildRotation(0.000, 0.000, 0.000, -1.000);
+	ChildPosition(-168.000, 12.000, 236.000);
+	SeqNo(-2111940200);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_facade23", -2111406754)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(-132.000, 12.000, 252.000);
+	SeqNo(-2111406754);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_floor_tile_f24", -2105576405)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-264.000, 4.000, 212.000);
+	SeqNo(-2105576405);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_ruin_Cathedral_1", -2094804174)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-184.000, 12.000, 174.000);
+	SeqNo(-2094804174);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_ruin_1d", -2093594859)
+{
+	ChildRotation(0.707, 0.000, 0.707, 0.000);
+	ChildPosition(-123.000, 14.000, 233.000);
+	SeqNo(-2093594859);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_ruin_4way", -2092455805)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-212.000, 2.010, 276.007);
+	SeqNo(-2092455805);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_ruin_post", -2091603372)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-183.556, 12.000, 144.453);
+	SeqNo(-2091603372);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_16x16_tile", -2091512933)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(-316.000, 16.000, 263.998);
+	SeqNo(-2091512933);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_floor_tile_f24", -2090407168)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-128.000, 6.000, 220.000);
+	SeqNo(-2090407168);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "com_item_healthrecharge", -2086056851)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-204.074, -0.004, 232.073);
+	SeqNo(-2086056851);
+	Team(0);
+	NetworkId(-1);
+	EffectRegion("");
+	Radius("5.0");
+}
+
+Object("", "Rhn_bldg_ruin_stairs2", -2082303017)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-204.000, 8.000, 112.000);
+	SeqNo(-2082303017);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_facade11", -2078061633)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(-116.000, 22.000, 260.000);
+	SeqNo(-2078061633);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_catacombs_wall", -2071062455)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-228.000, 0.000, 260.000);
+	SeqNo(-2071062455);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_ruin_4a", -2065397255)
+{
+	ChildRotation(0.707, 0.000, 0.707, 0.000);
+	ChildPosition(-169.000, 12.000, 140.000);
+	SeqNo(-2065397255);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_ruin_Cathedral_3", -2052883315)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(-224.000, 12.000, 202.000);
+	SeqNo(-2052883315);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_facade15", -2037485105)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(-180.000, 6.000, 284.000);
+	SeqNo(-2037485105);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_facade_pillar_h2", -2033663522)
+{
+	ChildRotation(0.709, 0.000, 0.705, 0.000);
+	ChildPosition(-152.000, 12.000, 247.000);
+	SeqNo(-2033663522);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_facade19", -2031531380)
+{
+	ChildRotation(0.707, 0.000, 0.707, 0.000);
+	ChildPosition(-244.000, 0.000, 156.000);
+	SeqNo(-2031531380);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_16x16_tile", -2024998253)
+{
+	ChildRotation(0.707, 0.000, 0.707, 0.000);
+	ChildPosition(-284.000, -16.000, 192.000);
+	SeqNo(-2024998253);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_basebrick_2", -2023298831)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(-288.000, 24.000, 268.000);
+	SeqNo(-2023298831);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_floor_tile_f48", -2022529111)
+{
+	ChildRotation(0.000, -0.707, 0.000, 0.707);
+	ChildPosition(-260.000, 12.000, 160.000);
+	SeqNo(-2022529111);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_trim", -2020817119)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-160.000, 12.000, 180.000);
+	SeqNo(-2020817119);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_ruin_buttress", -2016607707)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(-240.000, 4.000, 244.000);
+	SeqNo(-2016607707);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_ruin_4c", -2015866893)
+{
+	ChildRotation(0.707, 0.000, 0.707, 0.000);
+	ChildPosition(-128.000, 14.000, 236.000);
+	SeqNo(-2015866893);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "com_item_weaponrecharge", -2010663997)
+{
+	ChildRotation(-0.256, 0.000, -0.967, 0.000);
+	ChildPosition(-122.128, 14.005, 254.252);
+	SeqNo(-2010663997);
+	Team(0);
+	NetworkId(-1);
+	EffectRegion("");
+	Radius("5.0");
+}
+
+Object("", "Rhn_bldg_wall_facade19", -2002011628)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-284.000, -2.000, 148.000);
+	SeqNo(-2002011628);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("stairs_19026", "Rhn_bldg_ruin_stairs", -1998810712)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(-252.000, 0.000, 232.000);
+	SeqNo(-1998810712);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_ruin_Cathedral_3", -1988618441)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(-224.000, 12.000, 182.000);
+	SeqNo(-1988618441);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_facade19", -1987859033)
+{
+	ChildRotation(0.708, 0.000, -0.706, 0.000);
+	ChildPosition(-172.000, 36.000, 252.000);
+	SeqNo(-1987859033);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_8x16_floor", -1986335082)
+{
+	ChildRotation(0.707, 0.000, 0.707, 0.000);
+	ChildPosition(-228.000, 8.000, 144.000);
+	SeqNo(-1986335082);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("stairs_19055", "Rhn_bldg_ruin_stairs", -1982301461)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(-280.000, 14.000, 132.000);
+	SeqNo(-1982301461);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_ruin_stairs2", -1971990342)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-192.000, 12.000, 136.000);
+	SeqNo(-1971990342);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_facade19", -1970449587)
+{
+	ChildRotation(0.708, 0.000, -0.706, 0.000);
+	ChildPosition(-268.000, 8.000, 276.000);
+	SeqNo(-1970449587);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_basebrick_1", -1968132670)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(-104.000, 6.000, 236.000);
+	SeqNo(-1968132670);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_8x16_tile", -1964309389)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(-176.000, 0.000, 132.000);
+	SeqNo(-1964309389);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_catacombs_wall", -1952387988)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-180.000, 0.000, 244.000);
+	SeqNo(-1952387988);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_8x16_tile", -1952183212)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(-228.000, 4.000, 240.000);
+	SeqNo(-1952183212);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_facade23", -1943316933)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(-108.000, 14.000, 284.000);
+	SeqNo(-1943316933);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "com_item_weaponrecharge", -1936498280)
+{
+	ChildRotation(0.922, 0.000, -0.388, 0.000);
+	ChildPosition(-90.604, 2.027, 179.981);
+	SeqNo(-1936498280);
+	Team(0);
+	NetworkId(-1);
+	EffectRegion("");
+	Radius("5.0");
+}
+
+Object("", "Rhn_bldg_wall_ruin_1a", -1935723849)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-260.000, 12.000, 160.000);
+	SeqNo(-1935723849);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_Obelisk", -1931268046)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-318.000, -18.000, 132.000);
+	SeqNo(-1931268046);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_ceiling_tile", -1930504843)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-140.000, 22.000, 268.000);
+	SeqNo(-1930504843);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_facade15", -1929926124)
+{
+	ChildRotation(0.707, 0.000, 0.707, 0.000);
+	ChildPosition(-196.000, 10.000, 228.000);
+	SeqNo(-1929926124);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_facade15", -1918209314)
+{
+	ChildRotation(0.708, 0.000, -0.707, 0.000);
+	ChildPosition(-172.000, 6.000, 292.000);
+	SeqNo(-1918209314);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("ruin01_9", "Rhn_bldg_ruin_01", -1915385283)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-196.000, 16.000, 196.000);
+	SeqNo(-1915385283);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_floor_tile", -1913381085)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-188.000, 16.000, 164.000);
+	SeqNo(-1913381085);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_facade18", -1911268347)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(-100.000, -6.000, 228.000);
+	SeqNo(-1911268347);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_facade19", -1906834586)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-284.000, -4.000, 124.000);
+	SeqNo(-1906834586);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_damagedwall_01", -1906517372)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-164.000, 2.000, 260.000);
+	SeqNo(-1906517372);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_ruin_stairs2", -1903968436)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(-240.000, 8.000, 176.000);
+	SeqNo(-1903968436);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_basebrick_3", -1901203443)
+{
+	ChildRotation(0.708, 0.000, 0.706, 0.000);
+	ChildPosition(-276.000, 5.000, 144.000);
+	SeqNo(-1901203443);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_ruin_stairs2", -1897762177)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-196.000, 8.000, 112.000);
+	SeqNo(-1897762177);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("CP2", "com_bldg_controlzone", -1895881751)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-268.000, 11.970, 132.000);
+	SeqNo(-1895881751);
+	Team(0);
+	NetworkId(-1);
+	Label("CP2");
+	CaptureRegion("CP2_Capture");
+	ControlRegion("CP2_Control");
+	SpawnPath("CP2_SpawnPath");
+	AllyPath("");
+	AllyCount("65536");
+	Radius("0.0");
+	ValueBleed("10");
+	Value_ATK_Alliance("10");
+	Value_ATK_CIS("10");
+	Value_ATK_Empire("10");
+	Value_ATK_Republic("10");
+	Value_ATK_Locals("10");
+	Value_DEF_Alliance("20");
+	Value_DEF_CIS("20");
+	Value_DEF_Empire("20");
+	Value_DEF_Republic("20");
+	Value_DEF_Locals("10");
+	VO_All_AllCapture("all_off_com_report_captured_commandpost");
+	VO_All_AllLost("all_off_com_report_lost_commandpost3");
+	VO_All_AllInDispute("");
+	VO_All_AllSaved("");
+	VO_All_AllInfo("");
+	VO_All_ImpCapture("all_off_com_report_lost_commandpost");
+	VO_All_ImpLost("");
+	VO_All_ImpInDispute("");
+	VO_All_ImpSaved("");
+	VO_All_ImpInfo("");
+	VO_Imp_AllCapture("imp_off_com_report_lost_commandpost");
+	VO_Imp_AllLost("");
+	VO_Imp_AllInDispute("");
+	VO_Imp_AllSaved("");
+	VO_Imp_AllInfo("");
+	VO_Imp_ImpCapture("imp_off_com_report_captured_commandpost");
+	VO_Imp_ImpLost("imp_off_com_report_lost_commandpost3");
+	VO_Imp_ImpInDispute("");
+	VO_Imp_ImpSaved("");
+	VO_Imp_ImpInfo("");
+	VO_Rep_RepCapture("rep_off_com_report_captured_commandpost");
+	VO_Rep_RepLost("rep_off_com_report_lost_commandpost3");
+	VO_Rep_RepInDispute("");
+	VO_Rep_RepSaved("");
+	VO_Rep_RepInfo("");
+	VO_Rep_CISCapture("rep_off_com_report_lost_commandpost");
+	VO_Rep_CISLost("");
+	VO_Rep_CISInDispute("");
+	VO_Rep_CISSaved("");
+	VO_Rep_CISInfo("");
+	VO_CIS_RepCapture("cis_off_com_report_lost_commandpost");
+	VO_CIS_RepLost("");
+	VO_CIS_RepInDispute("");
+	VO_CIS_RepSaved("");
+	VO_CIS_RepInfo("");
+	VO_CIS_CISCapture("cis_off_com_chatter_goodjob2");
+	VO_CIS_CISLost("cis_off_com_report_lost_commandpost3");
+	VO_CIS_CISInDispute("");
+	VO_CIS_CISSaved("");
+	VO_CIS_CISInfo("");
+	SoldierBan("");
+	HoverBan("");
+	SmallBan("");
+	MediumBan("");
+	HugeBan("");
+	FlyerBan("");
+}
+
+Object("", "Rhn_bldg_wall_ruin_1d", -1888838860)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-128.000, 8.000, 220.000);
+	SeqNo(-1888838860);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "com_item_weaponrecharge", -1886435638)
+{
+	ChildRotation(1.000, 0.000, -0.027, 0.000);
+	ChildPosition(-205.608, 16.105, 160.428);
+	SeqNo(-1886435638);
+	Team(0);
+	NetworkId(-1);
+	EffectRegion("");
+	Radius("5.0");
+}
+
+Object("", "Rhn_prop_ceiling_light", -1883809001)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-172.885, 14.462, 284.085);
+	SeqNo(-1883809001);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_catacombs_wall", -1875288010)
+{
+	ChildRotation(0.707, 0.000, 0.707, 0.000);
+	ChildPosition(-188.000, 0.000, 220.000);
+	SeqNo(-1875288010);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_facade18", -1871123006)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(-180.000, 28.000, 252.000);
+	SeqNo(-1871123006);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_facade19", -1861567398)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(-244.000, 0.000, 148.000);
+	SeqNo(-1861567398);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_ruin_interiorstairs", -1861218780)
+{
+	ChildRotation(0.707, 0.000, 0.707, 0.000);
+	ChildPosition(-184.000, 0.000, 260.000);
+	SeqNo(-1861218780);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("Pillar01_14", "Rhn_bldg_ruin_pillar", -1854786439)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-198.000, 8.000, 106.000);
+	SeqNo(-1854786439);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_facade17", -1851618521)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-260.000, 0.000, 156.000);
+	SeqNo(-1851618521);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_16x16_tile", -1851265987)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(-312.000, -16.000, 260.000);
+	SeqNo(-1851265987);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_ruin_stairs2", -1851064339)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(-168.000, 4.000, 152.000);
+	SeqNo(-1851064339);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_observatory_main", -1849492384)
+{
+	ChildRotation(-0.387, 0.000, -0.922, 0.000);
+	ChildPosition(-287.862, -0.111, 239.202);
+	SeqNo(-1849492384);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_trim", -1848676359)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(-260.000, 6.000, 192.000);
+	SeqNo(-1848676359);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_facade_pillar_h2", -1845556572)
+{
+	ChildRotation(0.707, 0.000, 0.707, 0.000);
+	ChildPosition(-136.000, 12.000, 247.224);
+	SeqNo(-1845556572);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_facade14", -1844922000)
+{
+	ChildRotation(0.707, 0.000, 0.707, 0.000);
+	ChildPosition(-220.000, -2.000, 268.000);
+	SeqNo(-1844922000);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_ruin_interiorstairs", -1841853722)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-172.000, 4.000, 272.000);
+	SeqNo(-1841853722);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_facade14", -1840860351)
+{
+	ChildRotation(0.000, -0.707, 0.000, -0.707);
+	ChildPosition(-132.000, 28.000, 276.000);
+	SeqNo(-1840860351);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_floor_tile_top", -1835463085)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-156.000, 8.000, 220.000);
+	SeqNo(-1835463085);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("4x4x4_6", "Rhn_bldg_lego_1", -1828918169)
+{
+	ChildRotation(0.991, 0.000, 0.000, -0.130);
+	ChildPosition(-122.483, -2.932, 156.000);
+	SeqNo(-1828918169);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_floor_tile", -1826489378)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-188.000, 16.000, 196.000);
+	SeqNo(-1826489378);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_facade14", -1825390289)
+{
+	ChildRotation(0.707, 0.000, 0.707, 0.000);
+	ChildPosition(-124.000, 14.000, 260.000);
+	SeqNo(-1825390289);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("4x4x32_93", "Rhn_bldg_lego_2", -1820419270)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-214.000, -20.000, 122.000);
+	SeqNo(-1820419270);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_ruin_4c", -1817402653)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-132.000, 8.000, 192.000);
+	SeqNo(-1817402653);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("stairs_19049", "Rhn_bldg_ruin_stairs", -1809595443)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-204.000, 16.000, 206.000);
+	SeqNo(-1809595443);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_facade18", -1808276795)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-268.000, -4.000, 212.000);
+	SeqNo(-1808276795);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn2_prop_cloud", -1799312109)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-192.098, -34.081, 30.902);
+	SeqNo(-1799312109);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_8x16_tile", -1793506840)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-272.000, -8.000, 148.000);
+	SeqNo(-1793506840);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "com_weap_gunturret", -1789451701)
+{
+	ChildRotation(0.924, 0.000, 0.382, 0.000);
+	ChildPosition(-198.111, 9.978, 77.804);
+	SeqNo(-1789451701);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_facade15", -1787571333)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-188.000, 10.000, 236.000);
+	SeqNo(-1787571333);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_catacombs_wall", -1785304568)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(-220.000, 0.000, 236.000);
+	SeqNo(-1785304568);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_facade25", -1784445257)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(-108.000, 38.000, 260.000);
+	SeqNo(-1784445257);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "com_item_weaponrecharge", -1780998555)
+{
+	ChildRotation(0.698, 0.000, -0.716, 0.000);
+	ChildPosition(-214.085, -6.046, 109.650);
+	SeqNo(-1780998555);
+	Team(0);
+	NetworkId(-1);
+	EffectRegion("");
+	Radius("5.0");
+}
+
+Object("", "Rhn_bldg_wall_facade19", -1776607824)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(-196.000, 32.000, 220.000);
+	SeqNo(-1776607824);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_facade18", -1764001694)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(-100.000, 2.000, 236.000);
+	SeqNo(-1764001694);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_floor_tile_f24", -1758899608)
+{
+	ChildRotation(0.707, 0.000, 0.707, 0.000);
+	ChildPosition(-188.000, 14.000, 184.000);
+	SeqNo(-1758899608);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_basebrick_4", -1757551529)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(-160.000, -6.000, 148.000);
+	SeqNo(-1757551529);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_facade14", -1757152078)
+{
+	ChildRotation(0.000, -0.707, 0.000, 0.707);
+	ChildPosition(-164.000, 14.000, 276.000);
+	SeqNo(-1757152078);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_facade17", -1756797644)
+{
+	ChildRotation(0.707, 0.000, 0.707, 0.000);
+	ChildPosition(-284.000, 0.000, 148.000);
+	SeqNo(-1756797644);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_broken_corner1", -1754881944)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(-268.000, -2.000, 188.000);
+	SeqNo(-1754881944);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_prop_ceiling_light", -1742269416)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-155.815, 14.404, 284.052);
+	SeqNo(-1742269416);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_facade14", -1729652830)
+{
+	ChildRotation(0.708, 0.000, -0.707, 0.000);
+	ChildPosition(-227.993, -2.000, 284.000);
+	SeqNo(-1729652830);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_ruin_13", -1727342568)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(-192.000, 4.000, 128.000);
+	SeqNo(-1727342568);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_facade18", -1726072440)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(-252.000, -4.000, 132.000);
+	SeqNo(-1726072440);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("stairs_19024", "Rhn_bldg_ruin_stairs", -1718281529)
+{
+	ChildRotation(0.708, 0.000, 0.707, 0.000);
+	ChildPosition(-264.000, 2.000, 267.995);
+	SeqNo(-1718281529);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_floor_tile_f", -1707129254)
+{
+	ChildRotation(0.707, 0.000, 0.707, 0.000);
+	ChildPosition(-148.000, -4.000, 232.000);
+	SeqNo(-1707129254);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_facade15", -1700888801)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-132.000, 12.000, 260.000);
+	SeqNo(-1700888801);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("stairs_19018", "Rhn_bldg_ruin_stairs", -1691908499)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(-268.000, 3.980, 216.000);
+	SeqNo(-1691908499);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("stairs_19019", "Rhn_bldg_ruin_stairs", -1691079696)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(-236.000, 10.000, 224.000);
+	SeqNo(-1691079696);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("Pillar01_23", "Rhn_bldg_ruin_pillar", -1681318393)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(-96.000, -10.309, 188.000);
+	SeqNo(-1681318393);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_facade19", -1674238082)
+{
+	ChildRotation(0.707, 0.000, 0.707, 0.000);
+	ChildPosition(-252.000, 0.000, 156.000);
+	SeqNo(-1674238082);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("stairs_14", "Rhn_bldg_ruin_stairs", -1665542355)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(-204.000, 8.000, 88.000);
+	SeqNo(-1665542355);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_8x16_tile", -1663817194)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(-120.000, 0.000, 204.000);
+	SeqNo(-1663817194);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_16x16_tile", -1652798343)
+{
+	ChildRotation(0.707, 0.000, 0.707, 0.000);
+	ChildPosition(-108.000, 30.000, 271.996);
+	SeqNo(-1652798343);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_ruin_buttress", -1650623021)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-168.000, 4.000, 182.000);
+	SeqNo(-1650623021);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_facade25", -1638100790)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(-132.000, 36.000, 252.000);
+	SeqNo(-1638100790);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_facade19", -1629296677)
+{
+	ChildRotation(0.707, 0.000, 0.707, 0.000);
+	ChildPosition(-268.000, 0.000, 148.000);
+	SeqNo(-1629296677);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("4x4x32_91", "Rhn_bldg_lego_2", -1628676040)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-194.000, -20.000, 126.000);
+	SeqNo(-1628676040);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_damagedwall_01", -1624159985)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(-220.000, 4.000, 268.000);
+	SeqNo(-1624159985);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("stairs_19020", "Rhn_bldg_ruin_stairs", -1619123424)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(-236.000, 8.000, 240.000);
+	SeqNo(-1619123424);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("4x4x4_8", "Rhn_bldg_lego_1", -1616153797)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-123.483, -3.932, 148.000);
+	SeqNo(-1616153797);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn1_bldg_brokenfront_1", -1606733032)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(-164.000, -4.000, 244.000);
+	SeqNo(-1606733032);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_facade25", -1604509213)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(-108.000, 38.000, 260.000);
+	SeqNo(-1604509213);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_trim", -1599767206)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-160.000, 12.000, 204.000);
+	SeqNo(-1599767206);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_facade25", -1581537404)
+{
+	ChildRotation(0.708, 0.000, -0.706, 0.000);
+	ChildPosition(-124.000, 38.000, 260.000);
+	SeqNo(-1581537404);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("doorway_7", "Rhn_bldg_ruin_14", -1581187355)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-244.000, 8.000, 248.000);
+	SeqNo(-1581187355);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_catacombs_wall", -1567338991)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(-244.000, 6.000, 276.000);
+	SeqNo(-1567338991);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_ruin_4way", -1566635711)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-196.000, 0.010, 228.000);
+	SeqNo(-1566635711);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_facade17", -1565667501)
+{
+	ChildRotation(0.707, 0.000, 0.707, 0.000);
+	ChildPosition(-260.000, -6.000, 220.000);
+	SeqNo(-1565667501);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "com_item_healthrecharge", -1557514503)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-263.839, 12.003, 122.339);
+	SeqNo(-1557514503);
+	Team(0);
+	NetworkId(-1);
+	EffectRegion("");
+	Radius("5.0");
+}
+
+Object("", "Rhn_bldg_wall_facade19", -1551478854)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-292.000, -12.000, 196.000);
+	SeqNo(-1551478854);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_ruin_interiorstairs", -1547273297)
+{
+	ChildRotation(0.707, 0.000, 0.707, 0.000);
+	ChildPosition(-128.000, 12.000, 268.000);
+	SeqNo(-1547273297);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_8x16_floor", -1545068990)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(-124.000, 4.000, 224.000);
+	SeqNo(-1545068990);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_grandfacade", -1541997122)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(-148.000, 20.000, 256.000);
+	SeqNo(-1541997122);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_floor_tile", -1536952452)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-236.000, 6.000, 268.000);
+	SeqNo(-1536952452);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_broken_front1", -1525163627)
+{
+	ChildRotation(0.707, 0.000, 0.707, 0.000);
+	ChildPosition(-156.000, 4.000, 196.000);
+	SeqNo(-1525163627);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("stairs_19027", "Rhn_bldg_ruin_stairs", -1524220680)
+{
+	ChildRotation(0.707, 0.000, 0.707, 0.000);
+	ChildPosition(-112.001, 8.000, 228.001);
+	SeqNo(-1524220680);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_facade_pillar_h2", -1504891522)
+{
+	ChildRotation(0.000, -1.000, 0.000, 0.000);
+	ChildPosition(-103.000, 18.000, 280.000);
+	SeqNo(-1504891522);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("stairs_183", "Rhn_bldg_ruin_stairs", -1499079155)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(-252.000, 5.965, 192.000);
+	SeqNo(-1499079155);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_ceiling_tile", -1496513506)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-140.000, 20.000, 260.000);
+	SeqNo(-1496513506);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("CP6", "com_bldg_controlzone", -1493719458)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-204.000, 9.972, 72.000);
+	SeqNo(-1493719458);
+	Team(0);
+	NetworkId(-1);
+	Label("CP6");
+	CaptureRegion("CP6_Capture");
+	ControlRegion("CP6_Control");
+	SpawnPath("CP6_SpawnPath");
+	AllyPath("");
+	AllyCount("65536");
+	Radius("0.0");
+	ValueBleed("10");
+	Value_ATK_Alliance("10");
+	Value_ATK_CIS("10");
+	Value_ATK_Empire("10");
+	Value_ATK_Republic("10");
+	Value_ATK_Locals("10");
+	Value_DEF_Alliance("10");
+	Value_DEF_CIS("10");
+	Value_DEF_Empire("10");
+	Value_DEF_Republic("10");
+	Value_DEF_Locals("10");
+	VO_All_AllCapture("all_off_com_report_captured_commandpost");
+	VO_All_AllLost("all_off_com_report_lost_commandpost3");
+	VO_All_AllInDispute("");
+	VO_All_AllSaved("");
+	VO_All_AllInfo("");
+	VO_All_ImpCapture("all_off_com_report_lost_commandpost");
+	VO_All_ImpLost("");
+	VO_All_ImpInDispute("");
+	VO_All_ImpSaved("");
+	VO_All_ImpInfo("");
+	VO_Imp_AllCapture("imp_off_com_report_lost_commandpost");
+	VO_Imp_AllLost("");
+	VO_Imp_AllInDispute("");
+	VO_Imp_AllSaved("");
+	VO_Imp_AllInfo("");
+	VO_Imp_ImpCapture("imp_off_com_report_captured_commandpost");
+	VO_Imp_ImpLost("imp_off_com_report_lost_commandpost3");
+	VO_Imp_ImpInDispute("");
+	VO_Imp_ImpSaved("");
+	VO_Imp_ImpInfo("");
+	VO_Rep_RepCapture("rep_off_com_report_captured_commandpost");
+	VO_Rep_RepLost("rep_off_com_report_lost_commandpost3");
+	VO_Rep_RepInDispute("");
+	VO_Rep_RepSaved("");
+	VO_Rep_RepInfo("");
+	VO_Rep_CISCapture("rep_off_com_report_lost_commandpost");
+	VO_Rep_CISLost("");
+	VO_Rep_CISInDispute("");
+	VO_Rep_CISSaved("");
+	VO_Rep_CISInfo("");
+	VO_CIS_RepCapture("cis_off_com_report_lost_commandpost");
+	VO_CIS_RepLost("");
+	VO_CIS_RepInDispute("");
+	VO_CIS_RepSaved("");
+	VO_CIS_RepInfo("");
+	VO_CIS_CISCapture("cis_off_com_chatter_goodjob2");
+	VO_CIS_CISLost("cis_off_com_report_lost_commandpost3");
+	VO_CIS_CISInDispute("");
+	VO_CIS_CISSaved("");
+	VO_CIS_CISInfo("");
+	SoldierBan("");
+	HoverBan("");
+	SmallBan("");
+	MediumBan("");
+	HugeBan("");
+	FlyerBan("");
+}
+
+Object("Pillar01_6", "Rhn_bldg_ruin_pillar", -1493393001)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-211.000, 10.000, 65.000);
+	SeqNo(-1493393001);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_facade24", -1488489087)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(-124.000, 30.000, 260.000);
+	SeqNo(-1488489087);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_facade15", -1486564381)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(-180.000, 6.000, 268.000);
+	SeqNo(-1486564381);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_ruin_1b", -1467536359)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(-148.000, 8.000, 223.000);
+	SeqNo(-1467536359);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_floor_tile_f24", -1464054466)
+{
+	ChildRotation(0.707, 0.000, 0.707, 0.000);
+	ChildPosition(-220.000, 14.000, 184.000);
+	SeqNo(-1464054466);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_facade15", -1461538194)
+{
+	ChildRotation(0.707, 0.000, 0.707, 0.000);
+	ChildPosition(-204.000, 10.000, 228.000);
+	SeqNo(-1461538194);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_facade24", -1458670509)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(-188.000, 24.000, 220.000);
+	SeqNo(-1458670509);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_8x16_floor", -1449605345)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-104.000, -2.000, 188.000);
+	SeqNo(-1449605345);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_ceiling_tile", -1449027741)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-204.000, 17.754, 236.000);
+	SeqNo(-1449027741);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn1_bldg_brokenfront", -1439468341)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-164.000, -4.000, 228.000);
+	SeqNo(-1439468341);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_ruin_wallshort", -1438922868)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-182.000, 12.000, 170.000);
+	SeqNo(-1438922868);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "rhn_prop_statue", -1431056775)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(-204.000, 16.000, 140.000);
+	SeqNo(-1431056775);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_floor_tile_f48", -1427962750)
+{
+	ChildRotation(0.000, -1.000, 0.000, 0.000);
+	ChildPosition(-264.000, 12.000, 156.000);
+	SeqNo(-1427962750);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_ruin_13", -1414521059)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(-96.000, -6.000, 184.000);
+	SeqNo(-1414521059);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_facade24", -1412887483)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(-132.000, 20.000, 252.000);
+	SeqNo(-1412887483);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_facade18", -1410385573)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(-100.000, -4.000, 244.000);
+	SeqNo(-1410385573);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_ruin_wallshort", -1407371264)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(-226.000, 12.000, 170.000);
+	SeqNo(-1407371264);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_8x16_tile", -1406731376)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(-240.000, 4.000, 188.000);
+	SeqNo(-1406731376);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_8x24_tile", -1394894093)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(-268.000, 0.000, 124.000);
+	SeqNo(-1394894093);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_floor_tile_f48", -1388767532)
+{
+	ChildRotation(0.000, 0.000, 0.000, -1.000);
+	ChildPosition(-280.000, 4.000, 188.000);
+	SeqNo(-1388767532);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("ruin01_10", "Rhn_bldg_ruin_01", -1386330916)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-166.000, 28.000, 258.000);
+	SeqNo(-1386330916);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_ruin_4a", -1383394787)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-116.000, 8.000, 200.000);
+	SeqNo(-1383394787);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_ceiling_tile", -1373759980)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-172.000, 14.000, 276.000);
+	SeqNo(-1373759980);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_facade18", -1367347333)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(-200.000, -8.000, 116.000);
+	SeqNo(-1367347333);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_ceiling_tile", -1367194642)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-116.000, 22.000, 268.000);
+	SeqNo(-1367194642);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_facade18", -1364719300)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(-292.000, 0.000, 260.000);
+	SeqNo(-1364719300);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_ruin_4d", -1364684163)
+{
+	ChildRotation(0.707, 0.000, 0.707, 0.000);
+	ChildPosition(-128.000, 14.000, 244.000);
+	SeqNo(-1364684163);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_facade15", -1359592083)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-148.000, 8.000, 284.000);
+	SeqNo(-1359592083);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_8x24_tile", -1357135181)
+{
+	ChildRotation(0.520, -0.520, -0.479, 0.479);
+	ChildPosition(-221.000, 26.000, 256.000);
+	SeqNo(-1357135181);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_ruin_1a", -1350713757)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(-232.000, 12.000, 132.000);
+	SeqNo(-1350713757);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_facade18", -1348633169)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(-108.000, 6.000, 252.000);
+	SeqNo(-1348633169);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_facade17", -1329952824)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(-204.000, 32.000, 220.000);
+	SeqNo(-1329952824);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_floor_tile_f48", -1324299534)
+{
+	ChildRotation(0.000, -0.707, 0.000, 0.707);
+	ChildPosition(-244.000, 12.000, 160.000);
+	SeqNo(-1324299534);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_floor_tile", -1323626145)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-172.000, 2.000, 260.000);
+	SeqNo(-1323626145);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "com_item_healthrecharge", -1320285501)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-163.651, 11.945, 162.761);
+	SeqNo(-1320285501);
+	Team(0);
+	NetworkId(-1);
+	EffectRegion("");
+	Radius("5.0");
+}
+
+Object("4x4x32_96", "Rhn_bldg_lego_2", -1313994789)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-186.000, -28.000, 126.000);
+	SeqNo(-1313994789);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_coffin_shadowvolume", -1306520126)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-195.940, 6.689, 255.885);
+	SeqNo(-1306520126);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_coffin", -1306520125)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-200.000, 0.000, 240.000);
+	SeqNo(-1306520125);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_facade19", -1292565847)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(-200.000, -8.000, 116.000);
+	SeqNo(-1292565847);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_facade_pillar_h2", -1292325949)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-103.000, 2.000, 272.000);
+	SeqNo(-1292325949);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("stairs_19029", "Rhn_bldg_ruin_stairs", -1280699708)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(-104.000, 12.000, 244.001);
+	SeqNo(-1280699708);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_8x16_floor", -1273030688)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-144.000, 4.000, 220.000);
+	SeqNo(-1273030688);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_facade24", -1270907048)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(-124.000, 22.000, 260.000);
+	SeqNo(-1270907048);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_facade14", -1268347239)
+{
+	ChildRotation(0.000, 0.000, 0.000, -1.000);
+	ChildPosition(-164.000, 14.000, 276.000);
+	SeqNo(-1268347239);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_facade14", -1264804270)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-148.000, 14.000, 276.000);
+	SeqNo(-1264804270);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_prop_ceiling_light", -1255695157)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-148.005, 16.398, 257.357);
+	SeqNo(-1255695157);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_facade24", -1253839131)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(-108.000, 22.000, 260.000);
+	SeqNo(-1253839131);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_facade17", -1241596931)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(-196.000, 24.000, 220.000);
+	SeqNo(-1241596931);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_ruin_debris5", -1239100277)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(-170.562, 12.000, 156.984);
+	SeqNo(-1239100277);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_ceiling_tile", -1233570081)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-204.000, 17.754, 244.000);
+	SeqNo(-1233570081);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_trim", -1233519227)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-176.000, 12.000, 164.000);
+	SeqNo(-1233519227);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_facade14", -1232974691)
+{
+	ChildRotation(0.707, 0.000, 0.707, 0.000);
+	ChildPosition(-227.997, -2.000, 268.000);
+	SeqNo(-1232974691);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_ruin_stairs2", -1228300458)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(-264.000, 0.000, 120.000);
+	SeqNo(-1228300458);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_ruin_13", -1227568483)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-216.000, 4.000, 128.000);
+	SeqNo(-1227568483);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_8x16_tile", -1221231107)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(-124.000, 6.000, 240.000);
+	SeqNo(-1221231107);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_damagedwall_01", -1220552093)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(-180.000, 4.000, 268.000);
+	SeqNo(-1220552093);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_8x16_floor", -1215365924)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-264.000, 8.000, 124.000);
+	SeqNo(-1215365924);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_catacombs_wall", -1214754435)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(-196.000, 0.000, 260.000);
+	SeqNo(-1214754435);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_facade19", -1208473196)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(-200.000, -6.000, 76.000);
+	SeqNo(-1208473196);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_ruin_4way", -1203793748)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-188.000, 0.010, 260.007);
+	SeqNo(-1203793748);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn2_prop_cloud", -1198968304)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-64.098, -34.081, 126.902);
+	SeqNo(-1198968304);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_8x16_tile", -1190782977)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(-272.000, -8.000, 116.000);
+	SeqNo(-1190782977);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_ruin_4c", -1189163866)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(-127.000, 14.000, 252.000);
+	SeqNo(-1189163866);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_facade14", -1186079591)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(-164.000, 14.000, 292.000);
+	SeqNo(-1186079591);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("stairs_19021", "Rhn_bldg_ruin_stairs", -1183910952)
+{
+	ChildRotation(0.708, 0.000, -0.706, 0.000);
+	ChildPosition(-256.000, 1.979, 219.994);
+	SeqNo(-1183910952);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_ruin_1b", -1183139655)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(-153.000, 12.000, 188.000);
+	SeqNo(-1183139655);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("doorway_9", "Rhn_bldg_ruin_14", -1178764520)
+{
+	ChildRotation(0.707, 0.000, 0.707, 0.000);
+	ChildPosition(-255.935, 8.000, 252.109);
+	SeqNo(-1178764520);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_ruin_buttress", -1173276905)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(-240.000, 4.000, 212.000);
+	SeqNo(-1173276905);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_16x16_tile", -1171683285)
+{
+	ChildRotation(0.707, 0.000, 0.707, 0.000);
+	ChildPosition(-108.000, -2.000, 263.998);
+	SeqNo(-1171683285);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_facade14", -1170075553)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(-220.000, -4.000, 268.000);
+	SeqNo(-1170075553);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_facade15", -1169602868)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(-148.000, 12.000, 268.000);
+	SeqNo(-1169602868);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_facade_pillar_h3b", -1164511558)
+{
+	ChildRotation(0.707, 0.000, 0.707, 0.000);
+	ChildPosition(-144.000, 12.000, 247.224);
+	SeqNo(-1164511558);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_ruin_4b", -1151179003)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(-152.000, 12.000, 180.000);
+	SeqNo(-1151179003);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_catacombs_wall", -1143250517)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(-220.000, 0.000, 260.000);
+	SeqNo(-1143250517);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_8x16_floor", -1138221067)
+{
+	ChildRotation(0.707, 0.000, 0.707, 0.000);
+	ChildPosition(-228.000, 8.000, 240.000);
+	SeqNo(-1138221067);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_facade14", -1138132440)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(-164.000, 12.000, 252.000);
+	SeqNo(-1138132440);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_damagedwall_01", -1136484978)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(-148.000, 12.000, 268.000);
+	SeqNo(-1136484978);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_8x16_floor", -1127710786)
+{
+	ChildRotation(0.707, 0.000, 0.707, 0.000);
+	ChildPosition(-124.000, 10.000, 248.000);
+	SeqNo(-1127710786);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_ruin_4b", -1124966184)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(-244.000, 12.000, 160.000);
+	SeqNo(-1124966184);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_trim", -1118577034)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(-172.000, 12.000, 168.000);
+	SeqNo(-1118577034);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_16x16_tile", -1113244519)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(-280.000, 8.000, 268.000);
+	SeqNo(-1113244519);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_facade18", -1100349380)
+{
+	ChildRotation(0.707, 0.000, 0.707, 0.000);
+	ChildPosition(-244.000, 2.000, 212.000);
+	SeqNo(-1100349380);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_catacombs_wall", -1096692368)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(-196.000, 0.000, 260.000);
+	SeqNo(-1096692368);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_8x24_tile", -1096177034)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(-140.000, 0.000, 196.000);
+	SeqNo(-1096177034);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_facade14", -1095038356)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-220.000, 14.000, 276.000);
+	SeqNo(-1095038356);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_facade19", -1094027921)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(-172.000, 4.000, 156.000);
+	SeqNo(-1094027921);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_8x24_tile", -1093345823)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(-140.000, 4.000, 252.000);
+	SeqNo(-1093345823);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_8x16_floor", -1092358916)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-152.000, 0.000, 244.000);
+	SeqNo(-1092358916);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_facade17", -1088251549)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(-208.000, -6.000, 68.000);
+	SeqNo(-1088251549);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_facade14", -1088053695)
+{
+	ChildRotation(0.000, -0.707, 0.000, 0.707);
+	ChildPosition(-132.000, 14.000, 260.000);
+	SeqNo(-1088053695);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_facade15", -1082946753)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(-180.000, 6.000, 276.000);
+	SeqNo(-1082946753);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_facade15", -1080704641)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-164.000, 6.000, 268.000);
+	SeqNo(-1080704641);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_facade17", -1079565930)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(-212.000, 16.000, 220.000);
+	SeqNo(-1079565930);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_ruin_Cathedral_wall", -1068950445)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-182.000, 12.000, 220.000);
+	SeqNo(-1068950445);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_facade25", -1065369946)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(-164.000, 36.000, 252.000);
+	SeqNo(-1065369946);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_facade19", -1059181188)
+{
+	ChildRotation(0.707, 0.000, 0.707, 0.000);
+	ChildPosition(-292.000, -12.000, 196.000);
+	SeqNo(-1059181188);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_floor_tile_f24", -1058891443)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(-116.000, 0.000, 184.000);
+	SeqNo(-1058891443);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_8x24_tile", -1055986295)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(-228.000, 4.000, 172.000);
+	SeqNo(-1055986295);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_facade14", -1053593275)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(-148.000, 20.000, 268.000);
+	SeqNo(-1053593275);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_ceiling_tile", -1050178088)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-212.000, 12.000, 268.000);
+	SeqNo(-1050178088);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_8x16_tile", -1042136172)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(-264.000, 0.000, 276.000);
+	SeqNo(-1042136172);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_ruin_1b", -1032938756)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(-243.000, 12.000, 184.000);
+	SeqNo(-1032938756);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_basebrick_5", -1030968556)
+{
+	ChildRotation(0.708, 0.000, 0.707, 0.000);
+	ChildPosition(-308.000, 14.000, 136.000);
+	SeqNo(-1030968556);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_facade24", -1024201291)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(-108.000, 30.000, 284.000);
+	SeqNo(-1024201291);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("ruin01_5", "Rhn_bldg_ruin_01", -1016225031)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-212.000, 16.000, 180.000);
+	SeqNo(-1016225031);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_floor_tile", -1005265985)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-148.000, 12.000, 260.000);
+	SeqNo(-1005265985);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("CP5", "com_bldg_controlzone", -1004950016)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-116.000, 14.000, 244.000);
+	SeqNo(-1004950016);
+	Team(0);
+	NetworkId(-1);
+	Label("CP5");
+	CaptureRegion("CP5_Capture");
+	ControlRegion("CP5_Control");
+	SpawnPath("CP5_SpawnPath");
+	AllyPath("");
+	AllyCount("65536");
+	Radius("0.0");
+	ValueBleed("10");
+	Value_ATK_Alliance("20");
+	Value_ATK_CIS("20");
+	Value_ATK_Empire("20");
+	Value_ATK_Republic("20");
+	Value_ATK_Locals("10");
+	Value_DEF_Alliance("10");
+	Value_DEF_CIS("10");
+	Value_DEF_Empire("10");
+	Value_DEF_Republic("10");
+	Value_DEF_Locals("10");
+	VO_All_AllCapture("all_off_com_report_captured_commandpost");
+	VO_All_AllLost("all_off_com_report_lost_commandpost3");
+	VO_All_AllInDispute("");
+	VO_All_AllSaved("");
+	VO_All_AllInfo("");
+	VO_All_ImpCapture("all_off_com_report_lost_commandpost");
+	VO_All_ImpLost("");
+	VO_All_ImpInDispute("");
+	VO_All_ImpSaved("");
+	VO_All_ImpInfo("");
+	VO_Imp_AllCapture("imp_off_com_report_lost_commandpost");
+	VO_Imp_AllLost("");
+	VO_Imp_AllInDispute("");
+	VO_Imp_AllSaved("");
+	VO_Imp_AllInfo("");
+	VO_Imp_ImpCapture("imp_off_com_report_captured_commandpost");
+	VO_Imp_ImpLost("imp_off_com_report_lost_commandpost3");
+	VO_Imp_ImpInDispute("");
+	VO_Imp_ImpSaved("");
+	VO_Imp_ImpInfo("");
+	VO_Rep_RepCapture("rep_off_com_report_captured_commandpost");
+	VO_Rep_RepLost("rep_off_com_report_lost_commandpost3");
+	VO_Rep_RepInDispute("");
+	VO_Rep_RepSaved("");
+	VO_Rep_RepInfo("");
+	VO_Rep_CISCapture("rep_off_com_report_lost_commandpost");
+	VO_Rep_CISLost("");
+	VO_Rep_CISInDispute("");
+	VO_Rep_CISSaved("");
+	VO_Rep_CISInfo("");
+	VO_CIS_RepCapture("cis_off_com_report_lost_commandpost");
+	VO_CIS_RepLost("");
+	VO_CIS_RepInDispute("");
+	VO_CIS_RepSaved("");
+	VO_CIS_RepInfo("");
+	VO_CIS_CISCapture("cis_off_com_chatter_goodjob2");
+	VO_CIS_CISLost("cis_off_com_report_lost_commandpost3");
+	VO_CIS_CISInDispute("");
+	VO_CIS_CISSaved("");
+	VO_CIS_CISInfo("");
+	SoldierBan("");
+	HoverBan("");
+	SmallBan("");
+	MediumBan("");
+	HugeBan("");
+	FlyerBan("");
+}
+
+Object("", "Rhn_bldg_wall_facade_pillar_h3b", -1002984062)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-103.000, 2.000, 280.000);
+	SeqNo(-1002984062);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_floor_tile_f24", -1000544356)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(-220.000, 14.000, 192.000);
+	SeqNo(-1000544356);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_floor_tile", -993928103)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-236.000, 6.000, 276.000);
+	SeqNo(-993928103);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_8x16_tile", -991871540)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(-252.000, 0.000, 256.000);
+	SeqNo(-991871540);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_16x16_tile", -989850681)
+{
+	ChildRotation(0.707, 0.000, 0.707, 0.000);
+	ChildPosition(-108.000, -2.000, 279.998);
+	SeqNo(-989850681);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_facade18", -984468830)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-132.000, 36.000, 252.000);
+	SeqNo(-984468830);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "com_item_weaponrecharge", -984375789)
+{
+	ChildRotation(1.000, 0.000, -0.027, 0.000);
+	ChildPosition(-202.600, 10.015, 65.536);
+	SeqNo(-984375789);
+	Team(0);
+	NetworkId(-1);
+	EffectRegion("");
+	Radius("5.0");
+}
+
+Object("", "Rhn_bldg_wall_8x16_floor", -974328092)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-192.000, 8.000, 132.000);
+	SeqNo(-974328092);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_facade_pillar_h3b", -973358905)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-103.000, 10.000, 264.000);
+	SeqNo(-973358905);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_ruin_1e", -968208721)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(-173.000, 12.000, 137.000);
+	SeqNo(-968208721);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_facade19", -967170370)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(-292.000, 24.000, 268.000);
+	SeqNo(-967170370);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("ruin01_11", "Rhn_bldg_ruin_01", -958209037)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-132.000, 28.000, 258.000);
+	SeqNo(-958209037);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "com_item_healthrecharge", -957398102)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-92.615, 2.012, 177.848);
+	SeqNo(-957398102);
+	Team(0);
+	NetworkId(-1);
+	EffectRegion("");
+	Radius("5.0");
+}
+
+Object("", "Rhn_prop_snowdrift", -938065141)
+{
+	ChildRotation(0.924, 0.000, 0.382, 0.000);
+	ChildPosition(-216.050, 12.159, 159.124);
+	SeqNo(-938065141);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_ruin_Cathedral_wall", -931660700)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(-226.000, 12.000, 244.000);
+	SeqNo(-931660700);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_8x16_floor", -924929326)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-280.000, 20.000, 268.000);
+	SeqNo(-924929326);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_8x16_tile", -918824784)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(-228.000, 4.000, 224.000);
+	SeqNo(-918824784);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_basebrick_3", -914277588)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-256.000, -8.000, 180.000);
+	SeqNo(-914277588);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_trim", -909257130)
+{
+	ChildRotation(0.707, 0.000, 0.707, 0.000);
+	ChildPosition(-164.000, 12.000, 168.000);
+	SeqNo(-909257130);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("Pillar01_21", "Rhn_bldg_ruin_pillar", -909065978)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-95.000, 1.690, 191.000);
+	SeqNo(-909065978);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_ruin_Cathedral_entrence", -908924046)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-212.000, 16.000, 162.000);
+	SeqNo(-908924046);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_facade19", -901810969)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(-252.000, 0.000, 180.000);
+	SeqNo(-901810969);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_catacombs_wall", -899597699)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-204.000, 0.000, 260.000);
+	SeqNo(-899597699);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_ruin_Cathedral_3", -899472409)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-184.000, 12.000, 194.000);
+	SeqNo(-899472409);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_ruin_13", -888175317)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(-96.000, -6.000, 184.000);
+	SeqNo(-888175317);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_facade17", -885811922)
+{
+	ChildRotation(0.000, -1.000, 0.000, 0.000);
+	ChildPosition(-208.000, 10.000, 76.000);
+	SeqNo(-885811922);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_catacombs_wall", -883270051)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(-244.000, 8.000, 276.000);
+	SeqNo(-883270051);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_floor_tile_f", -880794429)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(-148.000, -4.000, 240.000);
+	SeqNo(-880794429);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_facade14", -874910884)
+{
+	ChildRotation(0.000, -0.707, 0.000, 0.707);
+	ChildPosition(-172.000, 20.000, 260.000);
+	SeqNo(-874910884);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_floor_tile_f", -873162974)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(-156.000, -4.000, 240.000);
+	SeqNo(-873162974);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_facade14", -868288470)
+{
+	ChildRotation(0.000, -1.000, 0.000, 0.000);
+	ChildPosition(-148.000, 24.000, 284.000);
+	SeqNo(-868288470);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "com_item_weaponrecharge", -865769387)
+{
+	ChildRotation(-0.131, 0.000, -0.991, 0.000);
+	ChildPosition(-290.291, 0.013, 250.915);
+	SeqNo(-865769387);
+	Team(0);
+	NetworkId(-1);
+	EffectRegion("");
+	Radius("5.0");
+}
+
+Object("", "Rhn_bldg_floor_tile", -864388093)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-140.000, 12.000, 252.000);
+	SeqNo(-864388093);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_ruin_interiorstairs", -858310677)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(-156.000, 10.000, 272.000);
+	SeqNo(-858310677);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_facade_pillar_o", -856548531)
+{
+	ChildRotation(0.708, 0.000, 0.707, 0.000);
+	ChildPosition(-280.000, 4.000, 263.000);
+	SeqNo(-856548531);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_broken_corner", -854354322)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(-163.966, 0.000, 131.961);
+	SeqNo(-854354322);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_statue_alcove", -852906695)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-204.000, 16.000, 214.000);
+	SeqNo(-852906695);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_ruin_4c", -852435906)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(-168.000, 12.000, 148.000);
+	SeqNo(-852435906);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_facade17", -851701734)
+{
+	ChildRotation(0.000, 0.000, 0.000, -1.000);
+	ChildPosition(-200.000, 10.000, 76.000);
+	SeqNo(-851701734);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_floor_tile_f24", -851073859)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(-200.000, 8.000, 72.000);
+	SeqNo(-851073859);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("Pillar01_19", "Rhn_bldg_ruin_pillar", -848246221)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-91.000, 1.690, 190.000);
+	SeqNo(-848246221);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_ruin_Cathedral_3", -847584176)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-184.000, 12.000, 178.000);
+	SeqNo(-847584176);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_8x16_floor", -830677720)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(-244.000, 8.000, 200.000);
+	SeqNo(-830677720);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_facade18", -829908004)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(-132.000, 20.000, 252.000);
+	SeqNo(-829908004);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_facade_pillar_l", -825987411)
+{
+	ChildRotation(0.708, 0.000, 0.706, 0.000);
+	ChildPosition(-160.000, 3.999, 248.000);
+	SeqNo(-825987411);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_facade_pillar_h3b", -824635835)
+{
+	ChildRotation(0.000, -1.000, 0.000, 0.000);
+	ChildPosition(-103.000, 18.000, 272.000);
+	SeqNo(-824635835);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_facade23", -823663944)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(-108.000, 14.000, 260.000);
+	SeqNo(-823663944);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_facade24", -820580175)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(-164.000, 20.000, 252.000);
+	SeqNo(-820580175);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_facade15", -816412775)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(-212.000, 10.000, 244.000);
+	SeqNo(-816412775);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_8x16_floor", -803850415)
+{
+	ChildRotation(0.707, 0.000, 0.707, 0.000);
+	ChildPosition(-172.000, 8.000, 160.000);
+	SeqNo(-803850415);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_facade24", -801969269)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(-108.000, 30.000, 260.000);
+	SeqNo(-801969269);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_ruin_debris", -787379434)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(-160.000, 12.000, 216.000);
+	SeqNo(-787379434);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_floor_tile_f48", -786739679)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(-204.000, 6.000, 68.000);
+	SeqNo(-786739679);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_8x16_floor", -782563522)
+{
+	ChildRotation(0.707, 0.000, 0.000, 0.707);
+	ChildPosition(-208.000, 0.000, 116.000);
+	SeqNo(-782563522);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_ruin_post", -778845399)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-175.556, 11.960, 152.453);
+	SeqNo(-778845399);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_floor_tile", -776288809)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-244.000, 8.000, 252.000);
+	SeqNo(-776288809);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_facade15", -775337334)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-164.000, 6.000, 276.000);
+	SeqNo(-775337334);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_ruin_Cathedral_L", -774417028)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-216.000, 12.000, 160.000);
+	SeqNo(-774417028);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_ruin_light_coals_amber", -771736807)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-212.000, 5.941, 276.022);
+	SeqNo(-771736807);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_bridge", -757696092)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-276.000, -4.000, 196.000);
+	SeqNo(-757696092);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_facade18", -754748553)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(-276.000, 16.000, 268.000);
+	SeqNo(-754748553);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "com_item_healthrecharge", -751260684)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-249.108, 5.968, 206.743);
+	SeqNo(-751260684);
+	Team(0);
+	NetworkId(-1);
+	EffectRegion("");
+	Radius("5.0");
+}
+
+Object("Pillar01_20", "Rhn_bldg_ruin_pillar", -749129538)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-95.000, 1.690, 177.000);
+	SeqNo(-749129538);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_facade19", -743593157)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(-212.000, 32.000, 220.000);
+	SeqNo(-743593157);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_trim", -730415825)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-176.000, 12.000, 156.000);
+	SeqNo(-730415825);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "com_item_weaponrecharge", -721408278)
+{
+	ChildRotation(0.994, 0.000, -0.110, 0.000);
+	ChildPosition(-195.902, 0.017, 232.000);
+	SeqNo(-721408278);
+	Team(0);
+	NetworkId(-1);
+	EffectRegion("");
+	Radius("5.0");
+}
+
+Object("", "Rhn_bldg_floor_tile", -711829032)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-252.000, 8.000, 260.000);
+	SeqNo(-711829032);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_ruin_light_coals_amber", -711700883)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-148.085, 16.613, 257.306);
+	SeqNo(-711700883);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_facade_pillar_l1", -701408290)
+{
+	ChildRotation(0.708, 0.000, 0.706, 0.000);
+	ChildPosition(-144.000, 4.000, 247.000);
+	SeqNo(-701408290);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_ruin_wallshort", -699323160)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(-226.000, 12.000, 198.000);
+	SeqNo(-699323160);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_floor_tile", -693461944)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-220.000, 16.000, 164.000);
+	SeqNo(-693461944);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_ruin_4way", -693326664)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-188.000, 0.010, 252.000);
+	SeqNo(-693326664);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("Tunnel_11", "Rhn_bldg_lego_tunnel", -689382351)
+{
+	ChildRotation(0.707, 0.000, 0.707, 0.000);
+	ChildPosition(-172.000, 0.000, 236.000);
+	SeqNo(-689382351);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_prop_ceiling_light", -687809089)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-211.931, 5.744, 276.000);
+	SeqNo(-687809089);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_8x16_floor", -677394939)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-240.000, 8.000, 212.000);
+	SeqNo(-677394939);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_catacombs_wall", -675297741)
+{
+	ChildRotation(0.707, 0.000, 0.707, 0.000);
+	ChildPosition(-212.000, 0.000, 220.000);
+	SeqNo(-675297741);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_ruin_4way", -674477372)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-188.000, 0.010, 244.000);
+	SeqNo(-674477372);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_floor_tile_top", -659217511)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-124.000, 4.000, 196.000);
+	SeqNo(-659217511);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_facade_pillar_h2", -658047532)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-103.000, 18.000, 280.000);
+	SeqNo(-658047532);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_facade15", -654621822)
+{
+	ChildRotation(0.707, 0.000, 0.707, 0.000);
+	ChildPosition(-180.000, 4.000, 252.000);
+	SeqNo(-654621822);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_facade18", -645464124)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(-292.000, 16.000, 260.000);
+	SeqNo(-645464124);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("Pillar01_16", "Rhn_bldg_ruin_pillar", -641796281)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-89.000, 2.000, 182.000);
+	SeqNo(-641796281);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_ruin_4c", -641423893)
+{
+	ChildRotation(0.707, 0.000, 0.707, 0.000);
+	ChildPosition(-128.000, 8.000, 228.000);
+	SeqNo(-641423893);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_8x16_floor", -623543194)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-296.000, 12.000, 132.000);
+	SeqNo(-623543194);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "rhn_bridge_new", -622959870)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-304.000, 4.000, 132.000);
+	SeqNo(-622959870);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_8x16_floor", -616900009)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-296.000, 20.000, 260.000);
+	SeqNo(-616900009);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_floor_tile_f24", -613539298)
+{
+	ChildRotation(0.707, 0.000, 0.707, 0.000);
+	ChildPosition(-252.000, 0.000, 224.000);
+	SeqNo(-613539298);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "com_item_healthrecharge", -610802213)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-202.401, 16.067, 160.153);
+	SeqNo(-610802213);
+	Team(0);
+	NetworkId(-1);
+	EffectRegion("");
+	Radius("5.0");
+}
+
+Object("", "com_inv_col_64", -606519555)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-40.000, -18.000, 340.000);
+	SeqNo(-606519555);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_floor_tile", -599616323)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-172.000, 6.000, 284.000);
+	SeqNo(-599616323);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_8x16_tile", -599179729)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(-176.000, 4.000, 140.000);
+	SeqNo(-599179729);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_facade14", -590154842)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(-258.000, 12.000, 268.000);
+	SeqNo(-590154842);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_ruin_light", -588570254)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-199.809, 5.813, 239.802);
+	SeqNo(-588570254);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_ruin_wallshort", -585345651)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-182.103, 12.000, 182.000);
+	SeqNo(-585345651);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_8x16_tile", -568337467)
+{
+	ChildRotation(0.707, 0.000, 0.707, 0.000);
+	ChildPosition(-204.000, 8.000, 144.000);
+	SeqNo(-568337467);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_ruin_stairs2", -564564721)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-208.000, 12.000, 136.000);
+	SeqNo(-564564721);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_facade15", -563759895)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(-140.000, 12.000, 276.000);
+	SeqNo(-563759895);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn2_prop_cloud", -560654138)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-352.098, -34.081, 302.902);
+	SeqNo(-560654138);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_facade19", -559753530)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(-260.000, 32.000, 276.000);
+	SeqNo(-559753530);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_ruin_4a", -550163722)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-140.000, 8.000, 223.000);
+	SeqNo(-550163722);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_ruin_1b", -549059330)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(-264.000, 6.000, 196.000);
+	SeqNo(-549059330);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_ruin_light_coals", -544273248)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-200.001, 5.718, 239.711);
+	SeqNo(-544273248);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "rhn_bldg_floor_tile4", -535496369)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-176.000, 12.000, 144.000);
+	SeqNo(-535496369);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_ruin_damagetile_02", -534740972)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-232.000, 12.000, 156.000);
+	SeqNo(-534740972);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_ruin_interiorstairs", -530834799)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(-156.000, 8.000, 280.000);
+	SeqNo(-530834799);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_8x16_tile", -527816706)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(-248.000, 0.000, 252.000);
+	SeqNo(-527816706);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_ruin_interiorstairs", -522186954)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(-224.000, 4.000, 276.000);
+	SeqNo(-522186954);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_ruin_post", -512095296)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-175.556, 12.000, 144.453);
+	SeqNo(-512095296);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_catacombs_wall", -511933011)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(-244.000, 0.000, 276.000);
+	SeqNo(-511933011);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_ruin_buttress", -508219156)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-168.000, 4.000, 228.000);
+	SeqNo(-508219156);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_8x16_floor", -485036565)
+{
+	ChildRotation(0.707, 0.000, 0.707, 0.000);
+	ChildPosition(-204.000, 12.000, 144.000);
+	SeqNo(-485036565);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "com_inv_col_64", -473029595)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-312.000, -32.000, 336.000);
+	SeqNo(-473029595);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("stairs_19052", "Rhn_bldg_ruin_stairs", -470831871)
+{
+	ChildRotation(0.707, 0.000, 0.707, 0.000);
+	ChildPosition(-280.000, 4.000, 196.000);
+	SeqNo(-470831871);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_floor_tile", -468184066)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-220.000, 16.000, 172.000);
+	SeqNo(-468184066);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("Pillar01_22", "Rhn_bldg_ruin_pillar", -467843792)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-96.000, -10.310, 180.000);
+	SeqNo(-467843792);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_facade18", -467083224)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(-260.000, 16.000, 276.000);
+	SeqNo(-467083224);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_prop_ceiling_light", -466397260)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-172.518, 5.781, 259.630);
+	SeqNo(-466397260);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_ruin_post", -463071322)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-256.088, 11.965, 152.000);
+	SeqNo(-463071322);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_ruin_4d", -461565061)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-124.000, 8.000, 200.000);
+	SeqNo(-461565061);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_ruin_buttress", -446580082)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(-240.000, 4.000, 198.000);
+	SeqNo(-446580082);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_facade15", -441941040)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(-156.000, 8.000, 292.000);
+	SeqNo(-441941040);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_floor_tile_f48", -433944098)
+{
+	ChildRotation(0.000, 0.000, 0.000, -1.000);
+	ChildPosition(-248.000, 12.000, 140.000);
+	SeqNo(-433944098);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_facade11", -432324890)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(-116.000, 30.000, 260.000);
+	SeqNo(-432324890);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_16x16_tile", -430965672)
+{
+	ChildRotation(0.707, 0.000, 0.707, 0.000);
+	ChildPosition(-276.000, 0.000, 272.000);
+	SeqNo(-430965672);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_floor_tile_f24", -426201017)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(-104.000, 6.000, 212.000);
+	SeqNo(-426201017);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_floor_tile_f48", -425875026)
+{
+	ChildRotation(0.000, -0.707, 0.000, -0.707);
+	ChildPosition(-236.000, 12.000, 144.000);
+	SeqNo(-425875026);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_ceiling_tile", -423537376)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-164.000, 22.000, 284.000);
+	SeqNo(-423537376);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_facade14", -413792133)
+{
+	ChildRotation(0.707, 0.000, 0.707, 0.000);
+	ChildPosition(-156.000, 20.000, 260.000);
+	SeqNo(-413792133);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_ruin_stairs2", -413469412)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(-168.000, 8.000, 136.000);
+	SeqNo(-413469412);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_ruin_4way", -411123241)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-188.000, 0.010, 236.000);
+	SeqNo(-411123241);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_basebrick_5", -407412162)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-288.000, 6.000, 148.000);
+	SeqNo(-407412162);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_trim", -406407460)
+{
+	ChildRotation(0.707, 0.000, 0.707, 0.000);
+	ChildPosition(-180.000, 12.000, 152.000);
+	SeqNo(-406407460);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_catacombs_wall", -392024683)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-204.000, 2.000, 276.000);
+	SeqNo(-392024683);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn2_prop_cloud", -376824455)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-64.098, -34.081, 62.902);
+	SeqNo(-376824455);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_8x16_floor", -363496427)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-240.000, 4.000, 180.000);
+	SeqNo(-363496427);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_floor_tile_top", -357863807)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-208.000, 10.000, 76.000);
+	SeqNo(-357863807);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_broken_corner", -351190937)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(-99.966, 2.000, 227.961);
+	SeqNo(-351190937);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_ruin_Rotunda_upper", -347247062)
+{
+	ChildRotation(0.708, 0.000, 0.706, 0.000);
+	ChildPosition(-231.933, 32.967, 271.513);
+	SeqNo(-347247062);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_floor_tile_top", -345613042)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-200.000, 10.000, 76.000);
+	SeqNo(-345613042);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_floor_tile_top", -340155191)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-252.000, 12.000, 140.000);
+	SeqNo(-340155191);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_basebrick_1", -333757705)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(-128.000, 0.000, 196.000);
+	SeqNo(-333757705);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_16x16_tile", -315670969)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(-312.000, 0.000, 260.000);
+	SeqNo(-315670969);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_ruin_Rotunda_ceiling", -312898157)
+{
+	ChildRotation(0.708, 0.000, -0.706, 0.000);
+	ChildPosition(-249.000, 17.000, 255.000);
+	SeqNo(-312898157);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_ruin_light_coals_amber", -311035304)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-243.547, 12.556, 260.289);
+	SeqNo(-311035304);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "com_weap_gunturret", -302412870)
+{
+	ChildRotation(0.384, 0.000, -0.924, 0.000);
+	ChildPosition(-269.339, 6.041, 186.927);
+	SeqNo(-302412870);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "com_item_healthrecharge", -299232701)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-285.667, -0.008, 251.292);
+	SeqNo(-299232701);
+	Team(0);
+	NetworkId(-1);
+	EffectRegion("");
+	Radius("5.0");
+}
+
+Object("", "Rhn_bldg_wall_facade14", -293950990)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(-124.000, 14.000, 276.000);
+	SeqNo(-293950990);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_facade25", -289333046)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(-188.000, 32.000, 220.000);
+	SeqNo(-289333046);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_facade14", -286175929)
+{
+	ChildRotation(0.000, -0.707, 0.000, -0.707);
+	ChildPosition(-140.000, 28.000, 276.000);
+	SeqNo(-286175929);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_facade19", -284166942)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-236.000, 0.000, 172.000);
+	SeqNo(-284166942);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_ruin_4way", -280660616)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-188.000, 0.010, 228.000);
+	SeqNo(-280660616);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_facade14", -280099755)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(-172.000, 14.000, 292.000);
+	SeqNo(-280099755);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_floor_tile_f24", -269145565)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(-188.000, 14.000, 192.000);
+	SeqNo(-269145565);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_ruin_1b", -258888846)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(-232.000, 12.000, 140.000);
+	SeqNo(-258888846);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_floor_tile", -252338832)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-220.000, 16.000, 180.000);
+	SeqNo(-252338832);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_broken_corner", -251892883)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(-124.000, -4.000, 188.000);
+	SeqNo(-251892883);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("doorway_13", "Rhn_bldg_ruin_14", -251831403)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-140.000, 12.000, 248.000);
+	SeqNo(-251831403);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("4x4x4_4", "Rhn_bldg_lego_1", -248826724)
+{
+	ChildRotation(0.966, 0.000, 0.258, 0.000);
+	ChildPosition(-211.432, -11.000, 83.779);
+	SeqNo(-248826724);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("stairs_19012", "Rhn_bldg_ruin_stairs", -247781268)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-284.000, 4.000, 120.000);
+	SeqNo(-247781268);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_facade14", -246162162)
+{
+	ChildRotation(0.000, 0.707, 0.000, -0.707);
+	ChildPosition(-124.000, 14.000, 260.000);
+	SeqNo(-246162162);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_floor_tile_top", -239581596)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-220.000, 12.000, 132.000);
+	SeqNo(-239581596);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_ruin_1d", -233993404)
+{
+	ChildRotation(0.707, 0.000, 0.707, 0.000);
+	ChildPosition(-181.000, 12.000, 137.000);
+	SeqNo(-233993404);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_facade19", -215017003)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(-200.000, -6.000, 68.000);
+	SeqNo(-215017003);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_8x16_tile", -213109966)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(-161.000, 4.000, 252.000);
+	SeqNo(-213109966);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_ruin_Cathedral_1", -206667248)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(-224.000, 12.000, 174.000);
+	SeqNo(-206667248);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_ruin_Cathedral_window", -204849695)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-204.000, 16.000, 162.000);
+	SeqNo(-204849695);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_facade14", -202361962)
+{
+	ChildRotation(0.000, -0.707, 0.000, -0.707);
+	ChildPosition(-164.000, 14.000, 292.000);
+	SeqNo(-202361962);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_facade19", -200910022)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(-300.000, 24.000, 268.000);
+	SeqNo(-200910022);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_facade23", -195451593)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(-220.000, 16.000, 220.000);
+	SeqNo(-195451593);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_facade15", -193293207)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(-116.000, 14.000, 276.000);
+	SeqNo(-193293207);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_facade15", -181233482)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-204.000, 4.000, 268.000);
+	SeqNo(-181233482);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_floor_tile_top", -169254191)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-252.000, 8.000, 180.000);
+	SeqNo(-169254191);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_facade14", -153935728)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(-164.000, 14.000, 268.000);
+	SeqNo(-153935728);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_ruin_4a", -152518238)
+{
+	ChildRotation(0.707, 0.000, 0.707, 0.000);
+	ChildPosition(-264.000, 6.000, 188.000);
+	SeqNo(-152518238);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_ceiling_tile", -149943337)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-148.000, 20.000, 260.000);
+	SeqNo(-149943337);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_ruin_1b", -140925496)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(-129.000, 8.000, 205.000);
+	SeqNo(-140925496);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_ruin_stairs2", -138322602)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(-176.000, 12.000, 192.000);
+	SeqNo(-138322602);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_ruin_debris", -136792073)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-243.000, 8.000, 176.000);
+	SeqNo(-136792073);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_16x16_tile", -135498613)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(-316.000, 16.000, 279.998);
+	SeqNo(-135498613);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_ruin_debris", -133561240)
+{
+	ChildRotation(0.707, 0.000, 0.707, 0.000);
+	ChildPosition(-248.000, 12.000, 210.000);
+	SeqNo(-133561240);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "com_item_healthrecharge", -131811520)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-293.649, 3.986, 194.026);
+	SeqNo(-131811520);
+	Team(0);
+	NetworkId(-1);
+	EffectRegion("");
+	Radius("5.0");
+}
+
+Object("", "Rhn_bldg_wall_facade19", -119841232)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-284.000, -2.000, 140.000);
+	SeqNo(-119841232);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_bridge", -114483371)
+{
+	ChildRotation(0.707, 0.000, 0.707, 0.000);
+	ChildPosition(-284.000, -2.000, 156.000);
+	SeqNo(-114483371);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_16x16_tile", -108945207)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(-288.000, -20.000, 188.000);
+	SeqNo(-108945207);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_facade14", -107418783)
+{
+	ChildRotation(0.707, 0.000, 0.707, 0.000);
+	ChildPosition(-140.000, 20.000, 260.000);
+	SeqNo(-107418783);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_8x16_tile", -103915543)
+{
+	ChildRotation(0.707, 0.000, 0.707, 0.000);
+	ChildPosition(-200.000, -14.000, 72.000);
+	SeqNo(-103915543);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_ceiling_tile", -103433264)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-196.000, 17.754, 244.000);
+	SeqNo(-103433264);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_catacombs_wall", -97524344)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(-204.000, 0.000, 260.000);
+	SeqNo(-97524344);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("stairs_19007", "Rhn_bldg_ruin_stairs", -95218015)
+{
+	ChildRotation(0.707, 0.000, 0.707, 0.000);
+	ChildPosition(-120.000, 0.000, 180.000);
+	SeqNo(-95218015);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "com_weap_gunturret", -94108146)
+{
+	ChildRotation(0.924, 0.000, -0.382, 0.000);
+	ChildPosition(-210.003, 9.958, 77.978);
+	SeqNo(-94108146);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_floor_tile_f48", -90621294)
+{
+	ChildRotation(0.000, -0.707, 0.000, -0.707);
+	ChildPosition(-276.000, 12.000, 120.000);
+	SeqNo(-90621294);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_facade14", -88014322)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(-180.000, -2.000, 276.000);
+	SeqNo(-88014322);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("stairs_19003", "Rhn_bldg_ruin_stairs", -64208875)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(-160.000, 8.000, 219.999);
+	SeqNo(-64208875);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_ruin_stairs2", -54550146)
+{
+	ChildRotation(0.707, 0.000, 0.707, 0.000);
+	ChildPosition(-160.000, 0.000, 232.000);
+	SeqNo(-54550146);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_8x16_floor", -52369817)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-120.000, 4.000, 204.000);
+	SeqNo(-52369817);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_look_out2", -48655115)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-132.000, -8.192, 112.000);
+	SeqNo(-48655115);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_ceiling_tile", -47749603)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-172.000, 22.000, 284.000);
+	SeqNo(-47749603);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_trim", -30327206)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-184.000, 12.000, 148.000);
+	SeqNo(-30327206);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_ceiling_tile", -27147167)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-220.000, 14.000, 276.000);
+	SeqNo(-27147167);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_floor_tile_top", -11254868)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-284.000, 4.000, 188.000);
+	SeqNo(-11254868);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "rhn_bldg_floor_tile4", -9778459)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-264.000, 12.000, 136.000);
+	SeqNo(-9778459);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_broken_front1", -9258037)
+{
+	ChildRotation(0.707, 0.000, 0.707, 0.000);
+	ChildPosition(-108.000, 6.000, 252.000);
+	SeqNo(-9258037);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("", "Rhn_bldg_wall_facade15", -2358777)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(-212.000, 10.000, 236.000);
+	SeqNo(-2358777);
+	Team(0);
+	NetworkId(-1);
+}

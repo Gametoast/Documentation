@@ -1,0 +1,40 @@
+[OrdnanceClass]
+ClassLabel 			= "bolt"
+
+//***************************************
+//************MAF PULSE LASER************
+//***************************************
+
+[Properties]
+
+//***************************************
+//**********VISUAL EFFECTS***************
+//***************************************
+ImpactEffectWater 		= "watersplash_sm"
+
+ExplosionName			= "cis_weap_fly_maf_cannon_heavy_exp"
+LaserTexture			= "orangelaser_D"
+LaserLength			= "7.0"
+LaserWidth			= "0.5"
+LaserGlowColor			= "254 6 18 100"
+
+//***************************************
+//**********SPEED AND DAMAGE*************
+//***************************************
+LifeSpan 			= "4.0"
+Velocity 			= "120.0"
+Gravity				= "1.0"
+Rebound				= "0.0"
+
+MaxDamage 			= "800.0"
+
+VehicleScale			= "1.0"
+ShieldScale			= "1.0"
+HealthScale			= "1.0"
+BuildingScale			= "0.5"
+
+//***************************************
+//**********SOUND************************
+//***************************************
+OrdnanceSound  = "com_weap_inf_ord_hum_lg"
+CollisionSound = "imp_weap_ord_exp"

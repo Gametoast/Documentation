@@ -1,0 +1,58 @@
+SkyInfo()
+{
+	FogColor(128, 128, 128);
+	FogRange(50.000000, 800.000000);
+	NearSceneRange(60.000000, 200.000000,   80.000000, 250.000000);
+	FarSceneRange(300.0, 1000.0);
+	AmbientColor(60, 60, 60);
+	CharacterAmbientColor(105,103,121);
+	TopDirectionalAmbientColor(220,230,240);
+	BottomDirectionalAmbientColor(50,55,60);
+	Enable(1);
+	FogRamp(3);
+}
+
+SunInfo()
+{
+	Angle(155.000005, 1.000000);
+	Color(65, 85, 105);
+	Texture("");
+	Degree(0.000000);
+	BackAngle(210.000028, 0.000000);
+	BackColor(0, 0, 0);
+	BackDegree(0.000000);
+}
+
+DomeInfo()
+{
+	Texture("SKY_kam1.tga");
+	Angle(-90.000000);
+	Ambient(255.000000, 255.000000, 255.000000);
+	Filter(1);
+	Threshold(50);	
+	Intensity(50);
+
+	Softness(1);
+	SoftnessParam(60);
+	TerrainEnable(0);
+
+	DomeModel()
+	{	
+		Geometry("kam1_sky_dome");
+	}
+	
+	DomeModel()
+	{	
+		Geometry("kam1_city");
+		Offset(80.0);
+		MovementScale(0.995);
+	}
+
+	LowResTerrain()
+	{
+		FogNear(50);
+		FogFar(800);
+		FogColor(0,0,0,255);
+	}
+
+}

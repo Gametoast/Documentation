@@ -1,0 +1,54 @@
+[WeaponClass]
+
+ClassLabel 		= "cannon"
+
+[Properties]
+
+Label			= "Dish Laser"
+IconTexture		= "HUD_all_lascannon_icon"
+ReticuleTexture		= "reticule_rifle"
+ModeTexture		= "HUD_weap_semiauto"
+
+OrdnanceName 		= "cis_weap_walk_spider_laser_ord"
+MuzzleFlash		= ""
+Discharge		= ""
+
+HeatRecoverRate		= "0.25"
+HeatThreshold		= "0.05"
+HeatPerShot		= "1.15"
+
+RoundsPerClip 		= "0"
+ShotDelay 		= "1.0"
+ReloadTime 		= "0.0"
+
+LockOnRange		= "0.0"
+
+//AutoAimSize		= "0.1"
+
+TriggerSingle		= "0"
+
+FireSound      		= "cis_weap_walk_spider_laser_fire"
+FireLoopSound   	= "cis_weap_walk_spider_laser_loop"
+//ReloadSound     	= "laserbeamreload"
+
+OverheatSound      = "com_weap_energy_depleted"
+OverheatSoundPitch  = "0.5"
+OverheatStopSound   = "com_weap_energy_refilled"
+
+
+//ZoomFirstPerson		= "1"
+
+//ZoomMin			= "1.5"
+//ZoomMax			= "1.5"
+//ZoomRate		= "0.0"
+
+MinRange		= "0"
+OptimalRange		= "50"
+MaxRange		= "150"
+
+RecoilLengthLight     	 	= "0.6"
+RecoilStrengthLight     	= "1"
+
+RecoilDelayHeavy        	= ".1"
+RecoilLengthHeavy      		= "0.1"
+RecoilStrengthHeavy     	= ".4"

@@ -1,0 +1,89 @@
+[GameObjectClass]
+ClassLabel 		= "flyer"
+GeometryName 		= "rep_fly_jedifighter_DOME.msh"
+
+[Properties]
+FLYERSECTION 		= "BODY"
+VehicleType 		= "fighter"
+
+Label 			= "Jedi Fighter"
+MapTexture 		= "speeder_icon"
+StatusTexture		= "HUD_rep_jedistarfighter_icon"
+MapScale 		= 1.5
+
+GeometryName 		= "rep_fly_jedifighter_DOME"
+CollisionScale 		= 0.25
+
+MaxHealth 		= 1250.0
+
+DamageStartPercent	= 60.0
+DamageStopPercent	= 20.0
+DamageEffect		= "vehiclespark"
+DamageEffectScale	= 1.0
+DamageInheritVelocity	= 0.75
+DamageAttachPoint	= "hp_damage_3"
+
+DamageStartPercent	= 30.0
+DamageStopPercent	= 20.0
+DamageEffect		= "vehiclesmoke"
+DamageEffectScale	= 1.0
+DamageInheritVelocity	= 0.75
+DamageAttachPoint	= "hp_damage_1"
+
+DamageStartPercent	= 19.0
+DamageStopPercent	= 0.0
+DamageEffect		= "vehicleflame"
+DamageEffectScale	= 1.0
+DamageInheritVelocity	= 0.75
+DamageAttachPoint	= "hp_damage_1"
+
+DamageStartPercent	= 30.0
+DamageStopPercent	= 20.0
+DamageEffect		= "vehiclesmoke"
+DamageEffectScale	= 1.0
+DamageInheritVelocity	= 0.75
+DamageAttachPoint	= "hp_damage_2"
+
+DamageStartPercent	= 19.0
+DamageStopPercent	= 0.0
+DamageEffect		= "vehicleflame"
+DamageEffectScale	= 1.0
+DamageInheritVelocity	= 0.75
+DamageAttachPoint	= "hp_damage_2"
+
+ExplosionCritical	= "rep_fly_jedifighter_exp"
+ExplosionDestruct	= "rep_fly_jedifighter_exp"
+
+Acceleraton 		= 15.0
+MinSpeed 		= 30.0
+MaxSpeed 		= 50.0
+
+PitchRate 		= 1.75 //1.85
+PitchFilter 		= 2.75
+TurnRate 		= 1.75
+TurnFilter 		= 2.75
+BankAngle 		= 0.9
+BankFilter 		= 2.5
+LevelFilter 		= 5.0
+
+TakeoffTime 		= 1.0
+TakeoffSpeed 		= 3.0
+LandingTime 		= 2.0
+LandingSpeed 		= 5.0
+
+TrackCenter 		= "0.0 15 10.0"
+TrackOffset 		= "0.0 -10.0 18.0"
+//			= "0.0 0.0 5.0"
+TiltValue		= "0.0"
+
+AimTension		= "30.0"
+MoveTension		= "4.5"
+
+TerrainCollision 	= "p_generic"
+BuildingCollision 	= "p_generic"
+VehicleCollision 	= "p_generic"
+
+
+PilotPosition 		= "hp_active"
+PilotAnimation 		= "drive"
+

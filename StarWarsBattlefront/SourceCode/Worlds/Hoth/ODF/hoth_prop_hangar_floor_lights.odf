@@ -1,0 +1,34 @@
+[GameObjectClass]		
+
+ClassLabel		=	"prop"
+GeometryName	=	"hoth_prop_hangar_floor_lights.msh"
+
+
+[Properties]		
+
+GeometryName	=	"hoth_prop_hangar_floor_lights"
+
+AttachEffect = "prop_steamgrate"
+AttachToHardPoint = "hp_steamgrate_1"
+
+AttachEffect = "prop_steamgrate"
+AttachToHardPoint = "hp_steamgrate_2"
+
+AttachEffect = "prop_steamgrate"
+AttachToHardPoint = "hp_steamgrate_3"
+
+AttachEffect = "prop_steamgrate"
+AttachToHardPoint = "hp_steamgrate_4"
+
+FoleyFXGroup    = "metal_foley"
+
+AttachOdf       = "hothlight3"
+AttachToHardPoint   = "hp_light_a1"
+AttachToHardPoint   = "hp_light_a2"
+AttachToHardPoint   = "hp_light_a3"
+AttachToHardPoint   = "hp_light_a4"
+AttachToHardPoint   = "hp_light_a5"
+AttachToHardPoint   = "hp_light_a6"
+AttachToHardPoint   = "hp_light_a7"
+AttachToHardPoint   = "hp_light_a8"
+AttachToHardPoint   = "hp_light_a9"

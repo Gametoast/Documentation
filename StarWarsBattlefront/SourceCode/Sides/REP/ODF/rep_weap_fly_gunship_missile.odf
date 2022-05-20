@@ -1,0 +1,36 @@
+[WeaponClass]
+
+ClassLabel      = "weapon"
+
+
+[Properties]
+
+Label           = "Guided Missile"
+IconTexture     = "IMP_launcher_icon"
+
+OrdnanceName    = "rep_weap_fly_gunship_missile_ord"
+
+RoundsPerClip   = "4"
+ShotDelay       = "0.7"
+ReloadTime      = "2.0"
+
+LockOnRange     = "250.0"
+
+//SalvoTime     = "0.75"
+
+AutoAimSize         = "0.1"
+
+FireSound       = "rep_weap_fly_gunship_missile_fire"
+ReloadSound     = ""
+
+RecoilLengthLight           = "0.5"
+RecoilStrengthLight         = "1"
+
+RecoilDelayHeavy            = ".15"
+RecoilLengthHeavy           = "0.45"
+RecoilStrengthHeavy         = ".8"
+
+
+MinRange        = "0"
+OptimalRange        = "100"
+MaxRange        = "200"

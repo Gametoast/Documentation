@@ -1,0 +1,37 @@
+[OrdnanceClass]
+//This area defines the ordnances class and the effects associated with it.
+ClassLabel 		= "towcable"
+
+
+
+[Properties]
+ImpactEffectWater 	= "watersplash_ord"
+
+//ExplosionName		= "all_weap_fly_snowspeeder_reargun_exp"
+OrdnanceEffect		= "red_blaster_bolt_small"
+ImpactEffect		= "med_cannon_impacts"
+LaserLength			= "2.5"
+LaserWidth			= "0.2"
+
+InitialCableLength	= "60.0"
+CableLength			= "60.0"
+
+//*RANGE*  (Velocity * Lifespan = range)
+//"LifeSpan" is the amount of time in seconds the ordnance will be in play
+//"Velocity" is the speed at which the ordance travels in the direction fired
+LifeSpan 		= "2.5"
+Velocity 		= "250.0"
+Gravity			= "1.0"
+Rebound			= "0.0"
+
+//*DAMAGE* (Damage * Soak = DamageDealt)
+//"MaxDamage" is the unmodified amount of damage the ordnance can inflict.
+//"AreaOfEffect" is the blast radius in meters from the center.
+//"Soak", all three kinds, indicates the ordnances effectiveness against it's target
+MaxDamage 		= "50.0"
+ArmorScale		= "1.0"
+ShieldScale		= "1.0"
+HealthScale		= "1.0"
+
+OrdnanceSound  = ""
+CollisionSound = "all_weap_fly_snowspeeder_towcable_attach"

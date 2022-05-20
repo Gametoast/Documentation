@@ -1,0 +1,35 @@
+Layer(0)
+{
+	SpreadFactor(0.2);
+ 	Mesh()
+	{
+		File("geo_prop_flatrocks.msh", 40);
+		Frequency(30);
+		Scale(1);
+		Stiffness(0.0);
+		UseCollision();
+	}
+ 	Mesh()
+	{
+		File("geo_prop_flatrocks_2.msh", 30);
+		Frequency(70);
+		Scale(1.0);
+		Stiffness(0.0);
+	}
+Layer(1)
+	{
+		SpreadFactor(0.3);
+		Mesh()
+		{
+			GrassPatch("geo_prop_pebble.odf", 30);
+			File("editor_prop_bush.msh", 30);
+			Frequency(100);
+			Scale(1);
+			Stiffness(0.0);
+		}
+	}
+}
+
+
+
+

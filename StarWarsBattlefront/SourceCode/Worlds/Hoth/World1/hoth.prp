@@ -1,0 +1,80 @@
+Layer(0)
+{
+	SpreadFactor(0.1);
+	Mesh()
+	{
+		File("HOTH_prop_rock_1.msh", 30);
+		Frequency(100);
+		Scale(.3);
+		Stiffness(0.0);
+	}
+	Mesh()
+	{
+		File("HOTH_prop_rock_2.msh", 25);
+		Frequency(100);
+		Scale(.3);
+		Stiffness(0.0);
+	}
+	Mesh()
+	{
+		File("HOTH_prop_rock_3.msh", 10);
+		Frequency(20);
+		Scale(.05);
+		Stiffness(0.0);
+	}
+//	Mesh()
+//	{
+//		File("HOTH_prop_grass.msh", 200);
+//		Frequency(90);
+//		Scale(1.5);
+//		Stiffness(0.0);
+//	}
+}
+
+Layer(1)
+{
+	SpreadFactor(2.5);
+	Mesh()
+	{
+		File("HOTH_prop_rock_1.msh", 250);
+		Frequency(30);
+		Scale(2);
+		Stiffness(0.0);
+	}
+	Mesh()
+	{
+		File("HOTH_prop_rock_2.msh", 300);
+		Frequency(30);
+		Scale(2);
+		Stiffness(0.0);
+	}
+	Mesh()
+	{
+		File("HOTH_prop_rock_2.msh", 300);
+		Frequency(10);
+ 		Scale(1);
+		Stiffness(0.0);
+	}
+}
+
+// Layer(2)
+// {
+// 	SpreadFactor(1);
+// 	Mesh()
+// 	{
+// 		File("HOTH_prop_bush_1.msh", 200);
+// 		Frequency(90);
+// 		Scale(1);
+// 		Stiffness(0.0);
+// 	}
+// 	Mesh()
+// 	{
+// 		File("HOTH_prop_bush_1.msh", 150);
+// 		Frequency(90);
+// 		Scale(3);
+// 		Stiffness(0.0);
+// 	}
+// }
+
+
+

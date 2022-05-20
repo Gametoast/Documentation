@@ -1,0 +1,69 @@
+[WeaponClass]
+
+ClassLabel 			= "cannon"
+
+[Properties]
+
+Label				= "Heavy Turbo Lasers"
+IconTexture			= "HUD_all_lascannon_icon"
+
+MuzzleFlash			= "med_muzzle_flash"
+Discharge			= "med_smoke_effect"
+
+FlashLightColor 		= "255 192 192 175"
+FlashLightRadius 		= "12.0"
+FlashLightDuration 		= "0.25"
+
+RoundsPerClip 			= "0"
+ReloadTime 			= "0.0"
+
+HeatRecoverRate			= "0.3"
+HeatThreshold			= "0.2"
+
+ZoomMin				= "3.0"
+ZoomMax				= "3.0"
+ZoomRate			= "0.0"
+
+WEAPONSECTION			= 1
+
+FireSound       		= "all_weap_fly_snowspeeder_cannon_fire"
+//ReloadSound     		= "laserreload"
+//ChangeModeSound 		= ""
+//FireEmptySound			= "com_weap_inf_weapon_empty"
+
+ModeTexture			= "HUD_weap_salvo"
+OrdnanceName 			= "all_weap_fly_kwing_laser_ord"
+
+TriggerSingle			= "0"
+ShotDelay 			= "0.2"
+HeatPerShot			= "0.08"
+MaxPressedTime			= "0.0"
+
+YawSpread			= "0.0"
+PitchSpread			= "0.0"
+KickSpread			= "0.0"
+SpreadRecover			= "0.0"
+
+KickStrength			= "1.0"
+KickBuildup			= "100.0"
+
+MinRange		= "0"
+OptimalRange		= "100"
+MaxRange		= "200"
+
+SalvoCount			= "2"
+RoundsPerSalvo			= "1"
+SalvoDelay			= "0.0"
+InitialSalvoDelay		= "0.0"
+SalvoTime			= "0.0"
+
+
+TargetEnemy			= "1"
+TargetNeutral			= "0"
+TargetFriendly			= "0"
+
+TargetPerson			= "1"
+TargetAnimal			= "1"
+TargetDroid			= "1"
+TargetVehicle			= "1"
+TargetBuilding			= "1"

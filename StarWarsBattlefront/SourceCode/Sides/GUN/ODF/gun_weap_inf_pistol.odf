@@ -1,0 +1,86 @@
+[WeaponClass]
+ClassLabel 		= "cannon"
+
+[Properties]
+IconTexture		= "HUD_all_pistol_icon"
+
+MuzzleFlash		= "small_muzzle_flash"
+FlashLightColor 	= "255 192 192 175"
+FlashLightRadius 	= "2.0"
+FlashLightDuration 	= "0.25"
+Discharge		= "small_smoke_effect"
+GeometryName 		= "gun_weap_inf_pistol"
+
+RoundsPerClip 		= "0"
+ReloadTime 		= "2.0"
+HeatRecoverRate		= "0.2"
+HeatThreshold		= "0.8"
+
+ZoomMin			= "2.0"
+ZoomMax			= "2.0"
+ZoomRate		= "0.0"
+
+AnimationBank		= "pistol"
+FirePointName		= "hp_fire"
+
+WEAPONSECTION		= 1
+
+//FireSound		= "com_weap_inf_blaster_red1"
+//FireEmptySound		= "com_weap_inf_weapon_empty"
+FireLoopSound		= ""
+//ReloadSound		= "laserreload"
+ChargeSound		= ""
+//ChangeModeSound		= "com_weap_inf_blaster_pistol_modechange"
+//WeaponChangeSound	= "com_weap_inf_laser_weaponchange"
+
+ModeTexture		= "HUD_weap_semiauto"
+//ReticuleTexture	= "reticule_02"
+OrdnanceName 		= "gun_weap_inf_pistol_ord"
+
+YawSpread		= "0.5"
+PitchSpread		= "0.5"
+KickSpread		= "0.8"
+SpreadRecover		= "1.5"
+
+StandStillSpread	= "0.0"
+StandMoveSpread		= "0.30"
+CrouchStillSpread	= "0.0"
+CrouchMoveSpread	= "0.15"
+ProneStillSpread	= "0.0"
+ProneMoveSpread		= "0.0"
+
+//KickStrength		= "3.0"
+//KickBuildup		= "5.0"
+
+TriggerSingle		= "1"
+ShotDelay 		= "0.05"
+HeatPerShot		= "0.1"
+MaxPressedTime		= "0.0"
+
+LockOnRange             = "30.0"
+LockTime                = "0.4"
+LockOnAngle             = "1.0"
+//AutoAimSize           = "1.0"
+
+MinRange		= "0"
+OptimalRange		= "24"
+MaxRange		= "40"
+
+SalvoCount		= "1"
+ShotsPerSalvo		= "1"
+SalvoDelay		= "0.0"
+InitialSalvoDelay	= "0.0"
+SalvoTime		= "0.0"
+
+TargetEnemy		= "1"
+TargetNeutral		= "0"
+TargetFriendly		= "0"
+
+TargetPerson		= "1"
+TargetAnimal		= "1"
+TargetDroid		= "1"
+TargetVehicle		= "0"
+TargetBuilding		= "0"
+
+
+

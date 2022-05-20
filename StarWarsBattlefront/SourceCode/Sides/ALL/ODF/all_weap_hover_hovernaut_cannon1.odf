@@ -1,0 +1,41 @@
+[WeaponClass]
+ClassLabel 			= "cannon"
+
+//***************************************
+//**********HEAVY BEAM LASER*************
+//***************************************
+[Properties]
+Label				= "Beam Cannon"
+	
+WEAPONSECTION			= "1"
+OrdnanceName 			= "all_weap_hover_hovernaut_cannon1_ord"
+MuzzleFlash			= ""
+ModeTexture			= "HUD_weap_semiauto"
+ReticuleTexture			= "reticule_rifle"
+IconTexture			= "HUD_all_lascannon_icon"
+
+//***************************************
+//**********TIMING, SALVO & SPREAD*******
+//***************************************
+ShotDelay 			= "4"
+ReloadTime 			= "0.0"
+LockOnRange			= "200.0"
+AutoAimSize			= "0.1"
+
+//***************************************
+//**********HEAT AND RANGE***************
+//***************************************
+HeatPerShot			= "0.02"
+HeatRecoverRate			= "0.3"
+HeatThreshold			= "0.2"
+
+MinRange			= "0"
+OptimalRange			= "100"
+MaxRange			= "250"
+
+//***************************************
+//**********SOUND************************
+//***************************************
+FireSound       		= "all_weap_inf_sniperrifle_fire"
+//FireLoopSound   		= "laserbeamfireloop"
+//ReloadSound     		= "laserbeamreload"

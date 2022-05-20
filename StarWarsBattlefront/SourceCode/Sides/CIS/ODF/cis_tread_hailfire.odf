@@ -1,0 +1,338 @@
+[GameObjectClass]
+ClassLabel 			= "hover"
+GeometryName 			= "cis_tread_hailfire.msh"
+
+[Properties]
+FLYERSECTION 			= "BODY"
+VehicleType 			= "medium"
+
+ReserveOneForPlayer		= "0"
+
+MapTexture 			= "hailfire_icon"
+HealthTexture			= "HUD_cis_hailfire_icon"
+VehiclePosition			= "common.vehiclepositions.pilot"
+MapScale 			= 1.5
+
+GeometryName 			= "cis_tread_hailfire"
+
+Explosion			= "cis_tread_hailfire_exp"
+//ExplosionCritical		= "cis_tread_hailfire_exp"
+ExplosionDestruct		= "cis_tread_hailfire_exp"
+FirstPerson       		= "cis\cishlfrd;cis_1st_cockpit_hailfiredroid"
+FirstPersonFOV			= "45"
+
+CockpitTension			= 35
+
+CollisionScale 			= 1.0
+CollisionThreshold		= 4
+MaxHealth 			= 5200.0
+HealthType			= "vehicle"
+//HitLocation			= "p_crithit 0"
+
+SetAltitude			= 0.0
+GravityScale			= 3.0
+LiftSpring			= 10.0
+LiftDamp			= 3.0
+
+Acceleration 			= 8.0
+Deceleration			= 10.0
+Traction			= 50.0
+ForwardSpeed			= 30.0
+ReverseSpeed			= 16.0
+StrafeSpeed			= 0.0
+
+AddSpringBody = "0.0 3.8 2.0 4.0"
+BodySpringLength = 0.4
+BodyOmegaXSpringFactor = -2.0
+
+AddSpringBody = "-2.5 3.3 -0.8 3.5"
+BodySpringLength = 0.4
+AddSpringBody = "2.5 3.3 -0.8 3.5"
+BodySpringLength = 0.4
+
+NoRandomSpring = 1
+
+VelocitySpring = 4
+VelocityDamp = 2
+OmegaXSpring = 3.0
+OmegaXDamp = 2.0
+OmegaZSpring = 6.0
+OmegaZDamp = 2.5
+
+PCPitchRate 			= "15.0"
+PCSpinRate			= "15.0"
+PCTurnRate 			= "20.0"
+
+SpinRate			= 1.5
+TurnRate			= 1.5
+TurnFilter			= 5.0
+PitchRate			= 0.5
+LevelSpring			= 5.0
+LevelDamp			= 3.0
+
+EyePointOffset 			= "0.0 3.0 -5.0"
+TrackCenter			= "0.0 6.25 -7.0"
+TrackOffset 			= "0.0 -1.0 6.0"
+TiltValue			= "10.0"
+NormalDirection 		= "0.0 -10.0 0.0"
+
+PitchLimits = 			"-15 25"
+
+WEAPONSECTION			= 1
+WeaponName			= "cis_weap_tread_hailfire_missile"
+WeaponAmmo			= 32
+
+AimerNodeName 			= "missile_left"
+AimerPitchLimits 		= "-25 25"
+AimerYawLimits 			= "-0.0 0.0"
+FireOutsideLimits		= 1
+BarrelNodeName			= "missile_1"
+BarrelRecoil			= 0.5
+NextBarrel			= "-"
+BarrelNodeName			= "missile_2"
+BarrelRecoil			= 0.5
+NextBarrel 			= "-"
+BarrelNodeName			= "missile_3"
+BarrelRecoil			= 0.5
+NextBarrel 			= "-"
+BarrelNodeName			= "missile_4"
+BarrelRecoil			= 0.5
+
+NextAimer 			= "-"
+
+AimerNodeName 			= "missile_right"
+AimerPitchLimits 		= "-25 25"
+AimerYawLimits 			= "-0.0 0.0"
+FireOutsideLimits		= 1
+BarrelNodeName			= "missile_17"
+BarrelRecoil			= 0.5
+NextBarrel 			= "-"
+BarrelNodeName			= "missile_18"
+BarrelRecoil			= 0.5
+NextBarrel 			= "-"
+BarrelNodeName			= "missile_19"
+BarrelRecoil			= 0.5
+NextBarrel 			= "-"
+BarrelNodeName			= "missile_20"
+BarrelRecoil			= 0.5
+
+NextAimer 			= "-"
+
+AimerNodeName 			= "missile_left"
+AimerPitchLimits 		= "-25 25"
+AimerYawLimits 			= "-0.0 0.0"
+FireOutsideLimits		= 1
+BarrelNodeName			= "missile_5"
+BarrelRecoil			= 0.5
+NextBarrel 			= "-"
+BarrelNodeName			= "missile_6"
+BarrelRecoil			= 0.5
+NextBarrel 			= "-"
+BarrelNodeName			= "missile_7"
+BarrelRecoil			= 0.5
+NextBarrel 			= "-"
+BarrelNodeName			= "missile_8"
+BarrelRecoil			= 0.5
+
+NextAimer 			= "-"
+
+AimerNodeName 			= "missile_right"
+AimerPitchLimits 		= "-25 25"
+AimerYawLimits 			= "-0.0 0.0"
+FireOutsideLimits		= 1
+BarrelNodeName			= "missile_21"
+BarrelRecoil			= 0.5
+NextBarrel 			= "-"
+BarrelNodeName			= "missile_22"
+BarrelRecoil			= 0.5
+NextBarrel 			= "-"
+BarrelNodeName			= "missile_23"
+BarrelRecoil			= 0.5
+NextBarrel 			= "-"
+BarrelNodeName			= "missile_24"
+BarrelRecoil			= 0.5
+
+NextAimer 			= "-"
+
+AimerNodeName 			= "missile_left"
+AimerPitchLimits 		= "-25 25"
+AimerYawLimits 			= "-0.0 0.0"
+FireOutsideLimits		= 1
+BarrelNodeName			= "missile_9"
+BarrelRecoil			= 0.5
+NextBarrel 			= "-"
+BarrelNodeName			= "missile_10"
+BarrelRecoil			= 0.5
+NextBarrel 			= "-"
+BarrelNodeName			= "missile_11"
+BarrelRecoil			= 0.5
+NextBarrel 			= "-"
+BarrelNodeName			= "missile_12"
+BarrelRecoil			= 0.5
+
+NextAimer 			= "-"
+
+AimerNodeName 			= "missile_right"
+AimerPitchLimits 		= "-25 25"
+AimerYawLimits 			= "-0.0 0.0"
+FireOutsideLimits		= 1
+BarrelNodeName			= "missile_25"
+BarrelRecoil			= 0.5
+NextBarrel 			= "-"
+BarrelNodeName			= "missile_26"
+BarrelRecoil			= 0.5
+NextBarrel 			= "-"
+BarrelNodeName			= "missile_27"
+BarrelRecoil			= 0.5
+NextBarrel 			= "-"
+BarrelNodeName			= "missile_28"
+BarrelRecoil			= 0.5
+
+NextAimer 			= "-"
+
+AimerNodeName 			= "missile_left"
+AimerPitchLimits 		= "-25 25"
+AimerYawLimits 			= "-0.0 0.0"
+FireOutsideLimits		= 1
+BarrelNodeName			= "missile_13"
+BarrelRecoil			= 0.5
+NextBarrel 			= "-"
+BarrelNodeName			= "missile_14"
+BarrelRecoil			= 0.5
+NextBarrel 			= "-"
+BarrelNodeName			= "missile_15"
+BarrelRecoil			= 0.5
+NextBarrel 			= "-"
+BarrelNodeName			= "missile_16"
+BarrelRecoil			= 0.5
+
+NextAimer 			= "-"
+
+AimerNodeName 			= "missile_right"
+AimerPitchLimits 		= "-25 25"
+AimerYawLimits 			= "-0.0 0.0"
+FireOutsideLimits		= 1
+BarrelNodeName			= "missile_29"
+BarrelRecoil			= 0.5
+NextBarrel 			= "-"
+BarrelNodeName			= "missile_30"
+BarrelRecoil			= 0.5
+NextBarrel 			= "-"
+BarrelNodeName			= "missile_31"
+BarrelRecoil			= 0.5
+NextBarrel	 		= "-"
+BarrelNodeName			= "missile_32"
+BarrelRecoil			= 0.5
+
+WEAPONSECTION			= 2
+
+WeaponName			= "cis_weap_walk_spider_cannon"
+WeaponAmmo			= 0
+//BarrelLength 			= "2.0"
+
+WakeEffect 			= "hailfire_wake"
+
+
+
+\\\\\\\\\\\\ -----  COLLISION ----- \\\\\\\\\\\\\\
+
+VehicleCollision		= "p_vehiclesphere"
+
+SoldierCollision 		= "CollisionMesh"
+
+OrdnanceCollision 		= "CollisionMesh"
+
+
+
+
+CHUNKSECTION 			= "CHUNK1"
+ChunkGeometryName 		= "hailfire_chunk1"
+ChunkNodeName 			= "wheel_left"
+ChunkTerrainCollisions 		= "100"
+ChunkTerrainEffect 		= "walkerstomp"
+ChunkPhysics 			= "FULL"
+ChunkOmega 			= "0.0 -.75 0.0"
+ChunkSpeed 			= "5.0"
+ChunkUpFactor			= "1.0"
+ChunkBounciness			= "0.75"
+ChunkStickiness			= "0.2"
+ChunkLinearDamping		= "0.6"
+ChunkAngularDamping		= "0.55"
+
+CHUNKSECTION 			= "CHUNK2"
+ChunkGeometryName 		= "hailfire_chunk2"
+ChunkNodeName 			= "wheel_right"
+ChunkTerrainCollisions 		= "100"
+ChunkTerrainEffect 		= "walkerstomp"
+ChunkPhysics 			= "FULL"
+ChunkOmega 			= "0.0 0.75 0.0"
+ChunkSpeed 			= "5.0"
+ChunkUpFactor			= "1.0"
+ChunkBounciness			= "0.75"
+ChunkStickiness			= "0.2"
+ChunkLinearDamping		= "0.6"
+ChunkAngularDamping		= "0.55"
+
+CHUNKSECTION 			= "CHUNK3"
+ChunkGeometryName 		= "hailfire_chunk3"
+ChunkNodeName 			= ""
+ChunkOmega 			= "0.0 2.0 0.0"
+ChunkTerrainCollisions 		= "10"
+ChunkTerrainEffect 		= "explosion"
+ChunkPhysics 			= "FULL"
+ChunkSpeed 			= "20.0"
+ChunkUpFactor			= "0.0"
+
+AISizeType			= "MEDIUM"
+MovingTurnOnly			= 1
+
+SuspensionNodeName		= "CIS_HailFire_Droid_center"
+SuspensionLeftArmNodeName	= "armL"
+SuspensionRightArmNodeName	= "armR"
+SuspensionMaxOffset		= "-0.5"
+SuspensionMidOffset		= "-0.125"
+
+//////////////////////////
+////DAMAGE///////////
+///////////////
+
+DamageStartPercent		= 60.0
+DamageStopPercent		= 20.0
+DamageEffect			= "vehiclespark"
+DamageAttachPoint		= "hp_damage_2"
+
+DamageStartPercent		= 70.0
+DamageStopPercent		= 20.0
+DamageEffect			= "vehiclespark"
+DamageAttachPoint		= "hp_damage_3"
+
+DamageStartPercent		= 70.0
+DamageStopPercent		= 20.0
+DamageEffect			= "vehiclespark"
+DamageAttachPoint		= "hp_damage_4"
+
+DamageStartPercent		= 50.0
+DamageStopPercent		= 0.0
+DamageEffect			= "vehiclesmoke"
+DamageAttachPoint		= "hp_damage_1"
+
+DamageStartPercent		= 5.0
+DamageStopPercent		= 0.0
+DamageEffect			= "vehicleflame"
+DamageAttachPoint		= "hp_damage_1"
+
+
+EngineSound 			= "cis_tread_hailfire_engine_parameterized"
+//HurtSound      			= "cis_inf_com_chatter_wound"
+DeathSound   	= "imp_weap_ord_exp_lg"
+VehicleCollisionSound   ="com_veh_collision_lg"
+TurnOnSound    			= ""
+TurnOffSound   			= ""
+Music          			= ""
+CISMusic			="cis_vehicle"
+RepMusic			="rep_vehicle"
+MusicSpeed     			= ".15"
+MusicDelay     			= "3.0"
+GroundedSound  			= ""
+GroundedHeight 			= ""
+FoleyFXGroup    		= "metal_foley"

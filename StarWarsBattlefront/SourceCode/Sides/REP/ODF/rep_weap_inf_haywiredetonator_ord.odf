@@ -1,0 +1,33 @@
+[OrdnanceClass]
+ClassLabel 		= "sticky"
+
+[Properties]
+ImpactEffectWater 	= "watersplash_sm"
+
+LightColor              = "92 136 250 100"
+LightRadius             = "4.0"
+
+GeometryName 		= "com_weap_inf_grenadethermal_ord"
+ExplosionExpire		= "rep_weap_inf_haywiredetonator_exp"
+OrdnanceEffect		= "thermal_detonator"
+ImpactEffect		= "medium_explosion"
+TrailEffect		= "com_sfx_weap_grenade_blue"
+
+LifeSpan 		= "0.9"
+Velocity 		= "25.0"
+Gravity			= "1.25"
+Rebound			= "0.2"
+Friction		= "2.0"
+
+StickPerson		= 0
+StickAnimal		= 0
+StickDroid		= 0
+StickVehicle		= 0
+StickBuilding		= 0
+StickBuildingDead	= 0
+StickBuildingUnbuilt	= 0
+StickTerrain		= 0
+
+
+CollisionOtherSound	= "com_weap_inf_grenade_bounce"
+

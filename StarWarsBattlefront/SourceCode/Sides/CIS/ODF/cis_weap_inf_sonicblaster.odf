@@ -1,0 +1,95 @@
+[WeaponClass]
+ClassLabel 		= "cannon"
+
+[Properties]
+IconTexture		= "HUD_all_rifle_icon"
+
+GeometryName		= "cis_weap_inf_sonicblaster"
+HighResGeometry         = "cis_1st_weap_inf_sonicblaster"
+
+MuzzleFlash		= "small_muzzle_flash"
+Discharge		= "small_smoke_effect"
+
+ZoomMin			= "1.5"
+ZoomMax			= "1.5"
+ZoomRate		= "0.0"
+
+AnimationBank		= "rifle"
+
+FirePointName		= "hp_fire"
+
+RoundsPerClip 		= "-1"
+ReloadTime 		= "4.0"
+
+HeatRecoverRate		= "0.1"
+HeatThreshold		= "0.3"
+MaxPressedTime		= "1.0"
+
+WEAPONSECTION		= 1
+
+OrdnanceName 		= "cis_weap_inf_sonicblaster_ord"
+
+ReticuleTexture		= "reticule_04"
+
+TriggerSingle		= "0"
+ShotDelay 		= "0.5"
+HeatPerShot		= "0.075"
+
+YawSpread		= "0.25"
+PitchSpread		= "0.25"
+
+SpreadPerShot		= "1.1"
+SpreadRecoverRate	= "4.8"
+SpreadThreshold		= "1.6"
+SpreadLimit		= "6.0"
+
+StandStillSpread	= "0.0"
+StandMoveSpread		= "0.0"
+CrouchStillSpread	= "0.0"
+CrouchMoveSpread	= "0.0"
+ProneStillSpread	= "0.0"
+ProneMoveSpread		= "0.0"
+
+MinRange		= "0"
+OptimalRange		= "16"
+MaxRange		= "36"
+
+LockOnRange             = "64.0"
+LockTime 		= "0.4"
+lockOnAngle		= "1.0"
+//AutoAimSize		= "1.0"
+
+SalvoCount		= "1"
+ShotsPerSalvo		= "1"
+SalvoDelay		= "0.0"
+InitialSalvoDelay	= "0.0"
+SalvoTime		= "0.0"
+
+TargetEnemy		= "1"
+TargetNeutral		= "0"
+TargetFriendly		= "0"
+
+TargetPerson		= "1"
+TargetAnimal		= "1"
+TargetDroid		= "1"
+TargetVehicle		= "0"
+TargetBuilding		= "0"
+
+FireSound       	= "cis_weap_inf_sonicblaster_fire"
+//ReloadSound     	= "laserreload"
+//ChangeModeSound 	= "com_weap_inf_blaster_rifle_modechange"
+//FireEmptySound		= "com_weap_inf_weapon_empty"
+ClankLeftWalkSound  = ""
+ClankRightWalkSound = ""
+ClankLeftRunSound   = ""
+ClankRightRunSound  = ""
+JumpSound           = "cis_weap_inf_sonicblaster_mvt_jump"
+LandSound           = "cis_weap_inf_sonicblaster_mvt_land"
+RollSound           = "cis_weap_inf_sonicblaster_mvt_roll"
+ProneSound          = "cis_weap_inf_sonicblaster_mvt_squat"
+SquatSound          = "cis_weap_inf_sonicblaster_mvt_lie"
+StandSound          = "cis_weap_inf_sonicblaster_mvt_getup"
+
+
+
+

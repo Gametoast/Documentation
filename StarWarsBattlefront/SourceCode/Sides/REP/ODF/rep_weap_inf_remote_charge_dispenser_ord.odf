@@ -1,0 +1,17 @@
+[GameObjectClass]
+ClassLabel 			= "mine"
+
+[Properties]
+GeometryName 			= "com_weap_inf_seismic_mine"
+ExplosionTrigger		= "rep_weap_inf_remote_charge_dispenser_exp"
+ExplosionExpire			= "rep_weap_inf_remote_charge_dispenser_exp"
+ExplosionDeath			= "rep_weap_inf_remote_charge_dispenser_exp"
+
+
+LifeSpan 			= "10.0"
+Velocity 			= "0.0"
+Gravity				= "1.0"
+Rebound				= "0.0
+Friction			= "1.0
+
+//CollisionOtherSound		= "deployable1"

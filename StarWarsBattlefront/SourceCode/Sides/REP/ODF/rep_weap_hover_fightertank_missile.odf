@@ -1,0 +1,46 @@
+[WeaponClass]
+
+ClassLabel          = "cannon"
+
+[Properties]
+
+Label               = "T47 Cannons"
+IconTexture         = "IMP_launcher_icon"
+ModeTexture         = "HUD_weap_semiauto"
+ReticuleTexture         = "reticule_rocket"
+OrdnanceName            = "rep_weap_hover_fightertank_missile_ord"
+MuzzleFlash         = ""
+Discharge           = ""
+
+ShotDelay           = "1.0"
+RoundsPerClip           = "2"
+ReloadTime          = "2.5"
+
+TargetEnemy     = "1"
+TargetNeutral       = "1"
+TargetFriendly      = "0"
+
+TargetPerson        = "0"
+TargetAnimal        = "0"
+TargetDroid     = "0"
+TargetVehicle       = "0"
+TargetBuilding      = "0"
+
+MinRange        = "30"
+OptimalRange        = "100"
+MaxRange        = "150"
+
+LockOnRange     = "0.0"
+LockOnAngle     = "0.0"
+LockOffAngle        = "0.0"
+LockTime        = "0.0"
+
+FireSound               = "imp_weap_hover_fightertank_missile_fire"
+ReloadSound             = ""
+
+RecoilLengthLight           = "0.7"
+RecoilStrengthLight         = "1"
+
+RecoilDelayHeavy            = ".4"
+RecoilLengthHeavy           = "0.45"
+RecoilStrengthHeavy         = ".6"

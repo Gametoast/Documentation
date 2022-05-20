@@ -1,0 +1,74 @@
+[WeaponClass]
+ClassLabel 			= "repair"
+
+[Properties]
+IconTexture			= "IMP_fusioncutter_icon"
+
+MuzzleFlashEffect		= "repairkit"
+Discharge			= "small_smoke_effect"
+
+GeometryName 		= "all_weap_inf_fusioncutter"
+HighResGeometry         = "all_1st_weap_inf_fusioncutter"
+
+RoundsPerClip 			= "-1"
+ReloadTime 			= "0.0"
+HeatRecoverRate			= "0.16"
+HeatThreshold			= "0.7"
+
+AnimationBank			= "tool"
+FirePointName			= "hp_fire"
+
+WEAPONSECTION			= 1
+
+ModeTexture			= "HUD_weap_repair"
+//ModeTextureColor		= "42 235 42 100"
+//ReticuleTexture		= "reticule_00"
+
+ShotDelay 			= 0.5
+TriggerSingle			= "0"
+HeatPerShot			= "0.060"
+
+TargetEnemy			= "0"
+TargetNeutral			= "1"
+TargetFriendly			= "1"
+
+TargetPerson			= "0"
+TargetAnimal			= "0"
+TargetDroid			= "1"
+TargetVehicle			= "1"
+TargetBuilding			= "1"
+
+LockOnRange			= 3.0
+LockOnAngle			= 30.0
+
+VehicleHealth			= 60
+BuildingHealth			= 60
+BuildingBuild			= 30
+BuildingRebuild			= 20
+DroidHealth			= 0
+
+//RecoilLengthLight       	= "0.15"
+//RecoilLengthHeavy       	= "0.1"
+//RecoilStrengthLight     	= "1"
+//RecoilStrengthHeavy     	= "1"
+
+FireSound			= ""
+FireEmptySound			= "com_weap_inf_weapon_empty"
+FireLoopSound			= "com_weap_inf_fusioncutter_fire"
+ReloadSound			= "all_weap_inf_reload_med"
+ChargeSound			= ""
+OverheatSound	    = "com_weap_energy_depleted"
+OverheatSoundPitch  = "0.5"
+OverheatStopSound   = "com_weap_energy_refilled"
+//ChangeModeSound			= "com_weap_inf_dispenser_modechange"
+WeaponChangeSound		= "all_weap_inf_equip_sm"
+ClankLeftWalkSound  = ""
+ClankRightWalkSound = ""
+ClankLeftRunSound   = ""
+ClankRightRunSound  = ""
+JumpSound           = "all_weap_inf_pistol_mvt_jump"
+LandSound           = "all_weap_inf_pistol_mvt_land"
+RollSound           = "all_weap_inf_pistol_mvt_roll"
+ProneSound          = "all_weap_inf_pistol_mvt_squat"
+SquatSound          = "all_weap_inf_pistol_mvt_lie"
+StandSound          = "all_weap_inf_pistol_mvt_getup"

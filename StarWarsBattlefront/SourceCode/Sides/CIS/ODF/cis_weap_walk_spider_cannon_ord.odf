@@ -1,0 +1,38 @@
+[OrdnanceClass]
+//This area defines the ordnances class and the effects associated with it.
+ClassLabel 		= "bolt"
+
+
+
+[Properties]
+ImpactEffectWater 	= "watersplash_md"
+
+ExplosionName		= "cis_weap_walk_spider_cannon_exp"
+LaserTexture		= "redlaser_D"
+ImpactEffect		= "med_cannon_impacts"
+LaserLength		= "5.0"
+LaserWidth		= "0.3"
+LaserGlowColor		= "249 15 15 100"
+
+//*RANGE*  (Velocity * Lifespan = range)
+//"LifeSpan" is the amount of time in seconds the ordnance will be in play
+//"Velocity" is the speed at which the ordance travels in the direction fired
+LifeSpan 		= "2.0"
+Velocity 		= "150.0"
+Gravity			= "1.0"
+Rebound			= "0.0"
+
+//*DAMAGE* (Damage * Soak = DamageDealt)
+//"MaxDamage" is the unmodified amount of damage the ordnance can inflict.
+//"AreaOfEffect" is the blast radius in meters from the center.
+//"Soak", all three kinds, indicates the ordnances effectiveness against it's target
+MaxDamage 		= "400.0"
+VehicleScale			= "0.1"
+ShieldScale			= "1.0"
+PersonScale			= "1.0"
+AnimalScale			= "1.0"
+DroidScale			= "1.0"
+BuildingScale			= "1.0"
+
+OrdnanceSound		= "com_weap_inf_ord_hum_lg"
+CollisionSound = "imp_weap_ord_exp"

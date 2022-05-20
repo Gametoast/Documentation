@@ -1,0 +1,30 @@
+[OrdnanceClass]
+ClassLabel          = "bolt"
+
+[Properties]
+
+
+LaserTexture            = "redlaser_D"
+ImpactEffect            = "med_cannon_impacts"
+LaserLength         = "1.0"
+LaserWidth          = "0.2"
+LaserGlowColor          = "247 91 70 75"
+LightColor                  = "247 91 70 150"
+LightRadius                 = "3.0"
+
+LifeSpan            = "1.5"
+Velocity            = "160.0"
+Gravity             = "1.0"
+Rebound             = "0.0"
+
+MaxDamage           = "300.0"
+
+VehicleScale            = "0.25"
+ShieldScale         = "1.0"
+PersonScale         = "1.0"
+AnimalScale         = "1.0"
+DroidScale          = "1.0"
+BuildingScale           = "0.25"
+
+OrdnanceSound  = "com_weap_inf_ord_hum_lg"
+CollisionSound = "imp_weap_ord_exp"

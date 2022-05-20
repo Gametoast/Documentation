@@ -1,0 +1,26 @@
+[OrdnanceClass]
+ClassLabel          = "bolt"
+
+[Properties]
+ImpactEffectWater   = "watersplash_sm"
+
+LaserTexture            = "greenlaser_D"
+LaserLength         = "7.0"
+LaserWidth          = "0.25"
+LaserGlowColor          = "61 252 56 100"
+ImpactEffect            = "ord_explosion"
+ExplosionName           = "imp_weap_fly_tiefighter_cannon_exp"
+
+LifeSpan            = "1.5"
+Velocity            = "600.0"
+Gravity             = "0.1"
+Rebound             = "0.0"
+
+MaxDamage           = "240.0"
+VehicleScale            = "1.0"
+ShieldScale         = "1.0"
+HealthScale         = "1.0"
+BuildingScale           = "0.5"
+
+OrdnanceSound  = "com_weap_inf_ord_hum_lg"
+CollisionSound = "imp_weap_ord_exp"

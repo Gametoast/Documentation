@@ -1,0 +1,43 @@
+[WeaponClass]
+ClassLabel 			= "cannon"
+
+[Properties]
+IconTexture			= "HUD_all_lascannon_icon"
+ReticuleTexture		= "reticule_rifle"
+OrdnanceName 		= "cis_weap_fly_droidfighter_cannon_ord"
+Discharge			= "med_smoke_effect"
+
+RoundsPerClip 		= "0"
+ShotDelay 			= "0.22"
+ReloadTime 			= "0.0"
+
+HeatRecoverRate			= "0.5"
+HeatThreshold			= "0.4"
+HeatPerShot			= "0.12"
+
+LockOnRange			= "80.0"
+LockTime 			= "0.5"
+//MinSpread			= "0.0"
+//MaxSpread			= "0.2"
+AutoAimSize			= "0.1"
+
+SalvoCount			= "2"
+SalvoDelay			= "0.0"
+InitialSalvoDelay		= "0.0"
+
+RecoilLengthLight       = "0.1"
+RecoilLengthHeavy       = "0.1"
+RecoilStrengthLight     = "1"
+RecoilStrengthHeavy     = "1"
+
+MinRange		= "0"
+OptimalRange		= "100"
+MaxRange		= "200"
+
+FireSound       		= "cis_weap_fly_droidfighter_cannon_fire"
+//ReloadSound     		= "laserreload"
+FireSoundStop			= "1"
+
+OverheatSound      = "com_weap_energy_depleted"
+OverheatSoundPitch  = "0.5"
+OverheatStopSound   = "com_weap_energy_refilled"

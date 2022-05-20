@@ -1,0 +1,66 @@
+[GameObjectClass]
+ClassLabel 				= "armedbuilding"
+GeometryName 			= "kam_prop_antiaircraft.msh"
+
+[Properties]
+
+BUILDINGSECTION 			= "BODY"
+
+MapTexture 			= "turret_icon"
+IconTexture			= "HUD_all_lascannon_icon"
+MapScale 			= "1.2"
+StatusTexture 			= "HUD_all_turret_icon"
+GeometryName 			= "kam_prop_antiaircraft"
+//ExplosionName			="hoth_bldg_hoth_turret_exp"
+//DestroyedGeometryName 	= "hoth_bldg_hoth_turret_destroyed"
+RespawnTime 			= 75.0
+MaxHealth 			= "500.0"
+
+
+BUILDINGSECTION 		= "TURRET1"
+
+WeaponName 			= "kam_weap_bldg_AAA_turret_cannon"
+WeaponAmmo 			= "0"	//"2"
+
+PitchLimits 			= "-70 0"
+YawLimits 			= "-180 180"
+
+
+MaxTurnSpeed 			= "1.2"
+MaxPitchSpeed 			= "1.0"
+PCMaxPitchSpeed			= "20.0"
+PCMaxTurnSpeed			= "20.0"	
+EyePointOffset 			= "0.0 8.0 5.0"
+TrackOffset 			= "0.0 -3.0 10.0"
+
+TurretNodeName			= "aimer_y"
+
+AimerNodeName 			= "aimer_x"
+
+BarrelNodeName 			= "barrel1"
+BarrelRecoil			= "0.5"
+FirePointName 			= "hp_fire1"
+
+NextBarrel				= "-"
+
+BarrelNodeName 			= "barrel2"
+BarrelRecoil			= "0.5"
+FirePointName 			= "hp_fire2"
+
+
+
+TurretMoveSound              = ""
+TurretMoveSoundStartEndPitch = ""
+TurretMoveSoundStartEndTime  = ""
+
+PilotPosition 			= "hp_main_gunner"
+PilotAnimation 			= "drive"
+
+DamageStartPercent		= 50.0
+DamageStopPercent		= 30.0
+DamageEffect			= "vehiclespark"
+
+DamageStartPercent		= 30.0
+DamageStopPercent		= 0.0
+DamageEffect			= "smokeplume"
+DamageAttachPoint		= "hp_smoke_1"

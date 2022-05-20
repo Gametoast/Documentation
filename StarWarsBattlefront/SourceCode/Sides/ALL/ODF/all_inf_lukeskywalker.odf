@@ -1,0 +1,117 @@
+[GameObjectClass]
+ClassLabel 				= "soldier"
+GeometryName 			= "all_inf_luke.msh"
+
+[Properties]
+UnitType				= "assault"
+MapTexture 				= "troop_icon"
+MapScale 				= 1.4
+
+GeometryName 			= "all_inf_luke"
+AnimationName 			= "all_inf_snowtrooper"
+GeometryLowRes			= "all_inf_luke_low1"
+
+HealthType				= "person"
+MaxHealth 				= 1000000.0
+AddHealth				= 1000000.0
+
+CapturePosts			= 0
+
+Acceleraton 		= 70.0
+MaxSpeed 		= 6.5
+MaxStrafeSpeed 		= 4.5
+MaxTurnSpeed 		= 4.0
+
+WeaponName1 			= "all_weap_lightsaber"
+WeaponAmmo1 			= 0
+//WeaponName2 			= "all_weap_inf_forcepull"
+//WeaponAmmo2 			= 0
+//WeaponChannel2		= 1
+
+AimFactorPostureSpecial 	= 50
+AimFactorPostureStand 		= 100
+AimFactorPostureCrouch 		= 140
+AimFactorPostureProne 		= 160
+AimFactorStrafe 		= 60
+AimFactorMove 			= 70
+
+
+CAMERASECTION 		= "STAND"
+
+EyePointOffset 		= "0.0 1.8 0.0"
+TrackCenter		= "0.0 1.8 0.0
+TrackOffset 		= "0.0 0.0 3.5"
+TiltValue		= "5.0"
+
+CAMERASECTION 		= "STANDZOOM"
+
+EyePointOffset 		= "0.0 1.8 0.0"
+TrackCenter		= "0.0 1.8 0.0
+TrackOffset 		= "0.4 0.05 2.8"
+TiltValue		= "3.5"
+
+CAMERASECTION 		= "CROUCH"
+
+EyePointOffset 		= "0.0 1.3 0.0"
+TrackCenter		= "0.0 1.3 0.0
+TrackOffset 		= "0.0 0.15 3.5"
+TiltValue		= "5.0"
+
+CAMERASECTION 		= "CROUCHZOOM"
+
+EyePointOffset 		= "0.0 1.3 0.0"
+TrackCenter		= "0.0 1.3 0.0
+TrackOffset 		= "0.4 0.2 2.8"
+TiltValue		= "3.5"
+
+CAMERASECTION 		= "PRONE"
+
+EyePointOffset 		= "0.0 0.5 0.0"
+TrackCenter 		= "0.0 0.5 0.0"
+TrackOffset 		= "0.0 0.0 3.0"
+TiltValue		= "5.0"
+
+CAMERASECTION 		= "PRONEZOOM"
+
+EyePointOffset 		= "0.0 0.5 0.0"
+TrackCenter 		= "0.0 0.5 0.0"
+TrackOffset 		= "0.4 0.2 2.8"
+TiltValue		= "3.5"
+
+
+AimValue 				= "1.0"
+
+
+
+
+NoEnterVehicles		= 1
+
+AISizeType		= "SOLDIER"
+
+DropItemClass = "com_item_powerup_ammo"
+DropItemProbability = 0.20
+NextDropItem = "-"
+DropItemClass = "com_item_powerup_health25"
+DropItemProbability = 0.05
+NextDropItem = "-"
+DropItemClass = "com_item_powerup_health100"
+DropItemProbability = 0.0
+
+HurtSound               	= ""
+DeathSound              	= ""
+AcquiredTargetSound     	= ""
+HidingSound             	= ""
+ApproachingTargetSound  	= ""
+FleeSound               	= ""
+PreparingForDamageSound 	= ""
+HeardEnemySound         	= ""
+//ShockFadeOutTime        	= "0.8"
+//ShockFadeInTime         	= "2.0"
+ShockFadeOutGain        	= ""
+ShockSound              	= ""
+ClothingRustleSound     	= ""
+LowHealthSound              = "com_inf_saber_ambient"
+LowHealthThreshold          = "1.1"
+FoleyFXClass                = "all_inf_soldier"
+
+

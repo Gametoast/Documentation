@@ -1,0 +1,26 @@
+[OrdnanceClass]
+ClassLabel 		= "missile"
+
+[Properties]
+ImpactEffectWater 	= "watersplash_md"
+
+GeometryName 	= "com_weap_missile"
+ExplosionName	= "all_weap_fly_kwing_conc_exp"
+TrailEffect		= "mortartrail_red"
+
+LifeSpan 		= "10.0"
+Velocity 		= "30.0"
+Gravity			= "0.0"
+Rebound			= "0.0"
+
+MaxDamage 		= "200.0"
+VehicleScale		= "0.5"
+ShieldScale		= "1.0"
+HealthScale		= "1.0"
+
+TurnRate		= "0.0"
+WaverRate		= "0.0"
+WaverTurn		= "0.0"
+
+OrdnanceSound		= "com_weap_inf_ord_hum_rocket"
+

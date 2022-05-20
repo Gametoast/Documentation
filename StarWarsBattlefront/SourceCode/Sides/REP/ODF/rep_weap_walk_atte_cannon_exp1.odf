@@ -1,0 +1,29 @@
+[ExplosionClass]
+ClassLabel = "explosion"
+
+[Properties]
+WaterEffect 	= "watersplash_md"
+
+//LifeSpan 			= "0.2"
+
+Damage 				= "650"
+DamageRadiusInner 		= "2.5"
+DamageRadiusOuter 		= "8.5"
+
+Push 		  		= "2.0"
+PushRadiusInner   		= "1.5"
+PushRadiusOuter   		= "5.5"
+
+Shake 		  	= "0.2"
+ShakeLength	  		= "0.75"
+ShakeRadiusInner  		= "6.5" 
+ShakeRadiusOuter  		= "10.0"
+
+Effect 				= "com_sfx_weap_bluebolt_exp_lg"
+
+VehicleScale			= "0.0"
+ShieldScale			= "0.75"
+PersonScale			= "1.0"
+AnimalScale			= "0.5"
+DroidScale			= "1.0"
+BuildingScale			= "0.0"

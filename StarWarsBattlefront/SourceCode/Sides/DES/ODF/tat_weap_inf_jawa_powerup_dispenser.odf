@@ -1,0 +1,75 @@
+[WeaponClass]
+ClassLabel 			= "dispenser"
+
+[Properties]
+IconTexture			= "HUD_com_powerup_icon"
+
+//MuzzleFlash			= "small_muzzle_flash"
+//Discharge			= "small_smoke_effect"
+
+//GeometryName 			= "com_weap_inf_medkit"
+
+RoundsPerClip 			= "1"
+ReloadTime 			= "1.4"
+LockOnRange			= "80.0"
+LockTime 			= "0.4"
+
+AnimationBank			= "grenade"
+
+TrackingSound       		= ""
+
+RefillFromItem		= 0
+
+WEAPONSECTION			= 1
+
+FireSound           = "com_weap_throw"
+FireEmptySound		= "com_weap_inf_ammo_empty"
+FireLoopSound		= ""
+//ReloadSound			= "cannonreload"
+ChargeSound			= ""
+//ChangeModeSound		= "com_weap_inf_dispenser_modechange"
+//WeaponChangeSound		= "com_weap_inf_dispenser_weaponchange"
+
+ModeTexture			= "HUD_weap_health"
+ReticuleTexture		= "reticule_00"
+OrdnanceName 		= "com_item_powerup_health25"
+
+ShotDelay 			= "0.0"
+MinSpread			= "0.0"
+MaxSpread			= "0.0"
+AutoAimSize			= "1.0"
+
+SalvoCount			= "1"
+SalvoDelay			= "0.0"
+InitialSalvoDelay		= "0.0"
+
+MinStrength			= "0.3"
+MaxStrength			= "0.4"
+MaxPressedTime			= "0.0"
+
+WEAPONSECTION			= 2
+
+//FireSound		= "dispense1"
+//FireEmptySound	= "com_weap_inf_weapon_empty"
+FireLoopSound	= ""
+//ReloadSound		= "cannonreload"
+ChargeSound		= ""
+//ChangeModeSound	= "com_weap_inf_dispenser_modechange"
+//WeaponChangeSound	= "com_weap_inf_dispenser_weaponchange"
+
+ModeTexture			= "HUD_weap_ammo"
+ReticuleTexture			= "reticule_00"
+OrdnanceName 			= "com_item_powerup_ammo"
+
+ShotDelay 			= "0.0"
+MinSpread			= "0.0"
+MaxSpread			= "0.0"
+AutoAimSize			= "1.0"
+
+SalvoCount			= "1"
+SalvoDelay			= "0.0"
+InitialSalvoDelay		= "0.0"
+
+MinStrength			= "0.3"
+MaxStrength			= "0.4"
+MaxPressedTime			= "0.0"

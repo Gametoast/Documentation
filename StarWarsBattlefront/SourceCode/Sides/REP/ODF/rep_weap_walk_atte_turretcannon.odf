@@ -1,0 +1,72 @@
+[WeaponClass]
+ClassLabel 			= "cannon"
+
+[Properties]
+ReloadTime 			= "0"
+RoundsPerClip 			= "0"
+// ChargeUpEffect			= "chargeup"
+
+ReticuleTexture			= "reticule_rocket"
+ScopeTexture			= "weapon_scope2"
+ModeTexture			= "HUD_weap_charge"
+IconTexture			= "IMP_blasterrifle_icon"
+
+LockOnRange			= "100.0"
+LockTime 			= "0.4"
+AutoAimSize			= "1.0"
+
+OrdnanceName 			= "rep_weap_walk_atte_turretcannon_ord1"
+MuzzleFlash			= "med_muzzle_flash"
+Discharge			= "med_smoke_effect"
+
+ShotDelay			= "2.25"
+InitialSalvoDelay		= "0.0"
+SalvoCount			= "1"
+ShotsPerSalvo			= "1"
+SalvoDelay			= "0.0"
+
+// MaxPressedTime			= "6.0"
+
+YawSpread			= "0.0"
+PitchSpread			= "0.0"
+
+SpreadPerShot			= "0.0"
+SpreadRecoverRate		= "0.0"
+SpreadThreshold			= "0.0"
+SpreadLimit			= "0.0"
+
+HeatPerShot			= "0.7"
+HeatRecoverRate			= "0.15"
+HeatThreshold			= "0.25"
+
+ZoomMin				= "2.0"
+ZoomMax				= "2.0"
+ZoomRate			= "0.0"
+
+MinRange			= "0"
+OptimalRange			= "50"
+MaxRange			= "150"
+
+FireSound       		= "rep_weap_walk_atte_turret_fire"
+
+//ReloadSound     		= "laserreload"
+
+OverheatSound      		= "com_weap_energy_depleted"
+OverheatSoundPitch 		= "0.5"
+OverheatStopSound   		= "com_weap_energy_refilled"
+
+
+ModeTexture			= "HUD_weap_fullauto"
+
+// ChargeRateLight         	= "1.0"
+// MaxChargeStrengthLight  	= "2.0"
+// ChargeDelayLight        	= "0.0"
+// ChargeRateHeavy         	= "1.0"
+// MaxChargeStrengthHeavy  	= "0.75"
+// ChargeDelayHeavy        	= "6.0"
+
+RecoilLengthLight       	= "0.1"
+RecoilLengthHeavy       	= "0.15"
+RecoilStrengthLight     	= "1"
+RecoilStrengthHeavy    		= "1"
+

@@ -1,0 +1,159 @@
+[WeaponClass]
+
+ClassLabel 		= "cannon"
+
+[Properties]
+
+IconTexture		= "IMP_blasterrifle_icon"
+
+ChargeUpEffect		= "chargeup"
+MuzzleFlash		= "small_muzzle_flash"
+FlashColor 		= "100 255 100 255"
+FlashLength 		= 0.025
+FlashLightColor 	= "192 255 192 175"
+FlashLightRadius 	= "2.0"
+FlashLightDuration 	= "0.25"
+Discharge		= "small_smoke_effect"
+GeometryName 		= "all_weap_inf_bowcaster"
+HighResGeometry         	= "all_1st_weap_inf_bowcaster"
+
+RoundsPerClip 		= "35"
+ReloadTime 		= "1.75"
+//HeatRecoverRate	= "0.15"
+//HeatThreshold		= "0.3"
+
+ZoomMin			= "2.5"
+ZoomMax			= "2.5"
+ZoomRate		= "0.0"
+
+AnimationBank		= "rifle"
+FirePointName		= "hp_fire_ALL_INF_BlasterRifle"
+
+ModeTexture		= "HUD_weap_charge"
+//ModeTextureColor	= "42 235 42 100"
+ReticuleTexture		= "reticule_bowcaster"
+ScopeTexture	= "weapon_scope2"
+
+OrdnanceName 		= "all_weap_inf_bowcaster_ord"
+
+ShotDelay 		= "0.35"
+TriggerSingle		= "1"
+//HeatPerShot		= "0.15"
+MaxPressedTime		= "1.75"
+
+YawSpread		= "0.0"
+PitchSpread		= "0.0"
+
+KickSpread		= "0.25"
+SpreadRecover		= "5.0"
+
+SpreadPerShot		= "1.1"//1.2
+SpreadRecoverRate	= "4.8"//0.08
+SpreadThreshold		= "1.6"//0.03
+SpreadLimit		= "6.0"
+
+StandStillSpread	= "0.0"//0.4
+StandMoveSpread		= "0.0"//0.9
+CrouchStillSpread	= "0.0"//0.1
+CrouchMoveSpread	= "0.0"//0.6
+ProneStillSpread	= "0.0"
+ProneMoveSpread		= "0.0"
+
+KickStrength		= "0.25"
+KickBuildup		= "100.0"
+
+MinRange		= "0"
+OptimalRange		= "16"
+MaxRange		= "32"
+
+LockOnRange             = "64.0"
+LockTime 		= "0.0"
+AutoAimSize		= "1.0"
+LockOnAngle             = "3.0"
+
+SalvoCount		= "1"
+ShotsPerSalvo		= "1"
+SalvoDelay		= "0.0"
+InitialSalvoDelay	= "0.0"
+SalvoTime		= "0.0"
+
+TargetEnemy		= "1"
+TargetNeutral		= "0"
+TargetFriendly		= "0"
+
+TargetPerson		= "1"
+TargetAnimal		= "1"
+TargetDroid		= "1"
+TargetVehicle		= "0"
+TargetBuilding		= "0"
+
+ChargeRateLight         = "1.0"
+MaxChargeStrengthLight  = "1.0"
+ChargeDelayLight        = "0.15"
+ChargeRateHeavy         = "1.0"
+MaxChargeStrengthHeavy  = "0.5"
+ChargeDelayHeavy        = "2.0"
+
+RecoilLengthLight       = "0.1"
+RecoilLengthHeavy       = "0.1"
+RecoilStrengthLight     = "1"
+RecoilStrengthHeavy     = "0"
+
+FireSound       	= "all_weap_inf_bowcaster_fire"
+FireEmptySound		= "com_weap_inf_ammo_empty"
+//FireLoopSound     	= ""
+ReloadSound     	= "all_weap_inf_reload_med"
+ChargeSound       	= "all_weap_inf_bowcaster_charge"
+ChargeSoundPitch  	= "0.05"
+ChangeModeSound 	= "all_weap_inf_equip_med"
+WeaponChangeSound 	= "all_weap_inf_equip_med"
+ClankLeftWalkSound  = ""
+ClankRightWalkSound = ""
+ClankLeftRunSound   = ""
+ClankRightRunSound  = ""
+JumpSound           = "all_weap_inf_rifle_mvt_jump"
+LandSound           = "all_weap_inf_rifle_mvt_land"
+RollSound           = "all_weap_inf_rifle_mvt_roll"
+ProneSound          = "all_weap_inf_rifle_mvt_squat"
+SquatSound          = "all_weap_inf_rifle_mvt_lie"
+StandSound          = "all_weap_inf_rifle_mvt_getup"
+
+NextCharge			= 0.15
+
+OrdnanceName 		= "all_weap_inf_bowcaster_ord_high"
+
+NextCharge			= 0.35
+
+ShotsPerSalvo		= 3
+ShotPatternCount 	= 3
+ShotPatternPitchYaw 	= "0.0 0.0"
+ShotPatternPitchYaw 	= "0.0 -0.7"
+ShotPatternPitchYaw 	= "0.0 0.7"
+
+OrdnanceName 		= "all_weap_inf_bowcaster_ord_high"
+
+NextCharge			= 0.65
+
+ShotsPerSalvo		= 5
+ShotPatternCount 	= 5
+ShotPatternPitchYaw 	= "0.0 0.0"
+ShotPatternPitchYaw 	= "0.0 -0.7"
+ShotPatternPitchYaw 	= "0.0 0.7"
+ShotPatternPitchYaw 	= "0.0 -1.4"
+ShotPatternPitchYaw 	= "0.0 1.4"
+
+OrdnanceName 		= "all_weap_inf_bowcaster_ord_high"
+
+NextCharge			= 0.95
+
+ShotsPerSalvo		= 7
+ShotPatternCount 	= 7
+ShotPatternPitchYaw 	= "0.0 0.0"
+ShotPatternPitchYaw 	= "0.0 -0.7"
+ShotPatternPitchYaw 	= "0.0 0.7"
+ShotPatternPitchYaw 	= "0.0 -1.4"
+ShotPatternPitchYaw 	= "0.0 1.4"
+ShotPatternPitchYaw 	= "0.0 -2.1"
+ShotPatternPitchYaw 	= "0.0 2.1"
+
+OrdnanceName 		= "all_weap_inf_bowcaster_ord_high"

@@ -1,0 +1,22 @@
+Layer(0)
+{
+	SpreadFactor(0.2);
+ 	Mesh()
+	{
+		File("rhn_proprocks.msh", 35);
+		Frequency(10);
+		Scale(1);
+		Stiffness(0.0);
+	}
+}
+Layer(1)
+{
+	SpreadFactor(0.1);
+ 	Mesh()
+	{
+		File("rhn_proprocks_02.msh", 35);
+		Frequency(10);
+		Scale(1);
+		Stiffness(0.0);
+	}
+}

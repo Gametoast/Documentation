@@ -1,0 +1,40 @@
+[OrdnanceClass]
+ClassLabel 		= "bolt"
+
+[Properties]
+ImpactEffectWater 	= "watersplash_ord"
+
+LaserTexture		= "bluelaser_d"
+LaserGlowColor		= "92 136 250 100"
+LightColor              = "92 136 250 100"
+LightRadius             = "4.0"
+
+LaserLength		= "1.0"
+LaserWidth		= "0.1"
+GlowLength		= "3"
+BlurLength		= "5"
+
+
+ImpactEffectSoft	= "ord_explosion"
+ImpactEffectRigid	= "ord_explosion"
+ImpactEffectStatic	= "ord_explosion"
+ImpactEffectTerrain	= "ord_explosion"
+ImpactEffectWater 	= "watersplash_ord"
+ImpactEffectShield	= "ord_explosion"
+
+ExpireEffect		= "ord_explosion"
+
+LifeSpan 			= "0.8"
+Velocity 		= "150.0"
+Gravity			= "1.0"
+Rebound			= "0.0"
+
+OrdnanceSound		= "com_weap_inf_ord_hum_lg"
+CollisionSound = "imp_weap_ord_exp"
+
+MaxDamage 		= "50.0"
+VehicleScale		= "0.0"
+ShieldScale		= "1.0"
+PersonScale		= "1.0"
+DroidScale		= "1.0"
+BuildingScale		= "0.1"

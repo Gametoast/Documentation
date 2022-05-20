@@ -1,0 +1,130 @@
+Version(3);
+SaveType(0);
+
+Camera("camera")
+{
+	Rotation(0.836, 0.025, 0.547, -0.016);
+	Position(-398.573, 53.947, -56.462);
+	FieldOfView(55.400);
+	NearPlane(1.000);
+	FarPlane(3000.000);
+	ZoomFactor(1.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(-1006.345, 866.995, -927.730,  0.854, 0.354, 0.354, -0.146);
+}
+TerrainName("hoth.ter");
+SkyName("hoth.sky");
+ScriptName("DummyScript.dll");
+ControllerManager("StandardCtrlMgr");
+
+WorldExtents()
+{
+	Min(0.000000, 0.000000, 0.000000);
+	Max(0.000000, 0.000000, 0.000000);
+}
+
+NextSequence(-16362439);
+
+Object("", "com_item_healthrecharge", 379887451)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-316.000, -4.793, 58.163);
+	SeqNo(379887451);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+	EffectRegion("");
+	Radius("5.0");
+}
+
+Object("", "com_item_weaponrecharge", 957533540)
+{
+	ChildRotation(0.704, 0.000, 0.710, 0.000);
+	ChildPosition(-204.222, -7.799, -185.332);
+	SeqNo(957533540);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+	EffectRegion("");
+	Radius("5.0");
+}
+
+Object("", "com_item_weaponrecharge", 1412893813)
+{
+	ChildRotation(-0.190, 0.000, -0.982, 0.000);
+	ChildPosition(24.171, -0.006, 8.393);
+	SeqNo(1412893813);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+	EffectRegion("");
+	Radius("5.0");
+}
+
+Object("", "com_item_weaponrecharge", 2089510574)
+{
+	ChildRotation(0.858, 0.000, 0.514, 0.000);
+	ChildPosition(-137.754, -12.168, -146.243);
+	SeqNo(2089510574);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+	EffectRegion("");
+	Radius("5.0");
+}
+
+Object("", "com_item_healthrecharge", 2107017155)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-139.958, -12.249, -143.281);
+	SeqNo(2107017155);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+	EffectRegion("");
+	Radius("5.0");
+}
+
+Object("", "com_item_healthrecharge", -1729942482)
+{
+	ChildRotation(0.217, 0.000, -0.976, 0.000);
+	ChildPosition(25.654, -0.014, 10.095);
+	SeqNo(-1729942482);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+	EffectRegion("");
+	Radius("5.0");
+}
+
+Object("", "com_item_weaponrecharge", -762629564)
+{
+	ChildRotation(0.675, 0.000, 0.738, 0.000);
+	ChildPosition(-315.829, -5.359, 44.393);
+	SeqNo(-762629564);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+	EffectRegion("");
+	Radius("5.0");
+}
+
+Object("", "com_item_healthrecharge", -385234742)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-203.714, -7.374, -197.360);
+	SeqNo(-385234742);
+	Team(0);
+	NetworkId(-1);
+	Layer(2);
+	EffectRegion("");
+	Radius("5.0");
+}

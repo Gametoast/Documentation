@@ -1,0 +1,246 @@
+SkyInfo()
+{
+	Enable(1);
+	PS2()
+	{
+		FogColor(128, 128, 128);
+		FogRange(0.000000, 3000.000000);
+		NearSceneRange(0.700000, 90.000000, 165.000000);
+		FarSceneRange(0.000000);
+		AmbientColor(80,85,95);
+		CharacterAmbientColor(80,85,95);
+		FogRamp(3);
+	}
+	XBOX()
+	{
+		FogColor(128, 128, 128);
+		FogRange(0.000000, 3000.000000);
+		NearSceneRange(0.700000, 90.000000, 110.000000);
+		FarSceneRange(0.000000);
+		AmbientColor80(130,130,130);
+		TopDirectionalAmbientColor(140,140,140);
+		BottomDirectionalAmbientColor(90, 90, 100);
+	}
+	PC()
+	{
+		FogColor(128, 128, 128);
+		FogRange(0.000000, 3000.000000);
+		NearSceneRange(60.0, 170.0, 70.0, 220.0);
+		FarSceneRange(30.000000, 40.0);
+		AmbientColor(130,130,130);
+		TopDirectionalAmbientColor(140,140,160);
+		BottomDirectionalAmbientColor(90, 90, 100);
+	}
+}
+
+SunInfo()
+{
+
+	PS2()
+	{
+		Angle(130.000000, 55.000000);
+		Color(148, 148, 160);
+	}
+	XBOX()
+	{
+		Angle(160.000000, 55.000000);
+		Color(220, 220, 220);
+		ShadowColor(220, 220, 220);
+	}
+	PC()
+	{
+		Angle(160.000000, 55.000000);
+		Color(220, 220, 220);
+		ShadowColor(130, 130, 130);
+	}
+
+	Texture("");
+	Degree(-50.000035);
+	BackAngle(180.000022, 0.000000);
+	BackColor(0, 0, 0);
+	BackDegree(0.000000);
+
+}
+
+FlatInfo()
+{
+	Height(0.000000, 0.000000);
+	Texture("");
+	Color(128, 128, 128, 255);
+	Modulate(0);
+	TextureSpeed(0.000000, 0.000000);
+	TileSize(100.000000);
+}
+
+DomeInfo()
+{
+	Texture("RhenVar2_sky.tga");
+	Angle(-90.000000);
+	Ambient(255.000000, 255.000000, 255.000000);
+	Filter(1);
+	Threshold(150);	
+	Intensity(50);
+
+	Softness(1);
+	SoftnessParam(60);
+
+	Stars()
+	{
+		NumStars(2000);
+		RandomSeed(1);
+		TwinkleFactor(0.0);
+		TwinkleFrequency(0.0);
+		Color(255, 255, 255, 255);
+		XBOX()
+		{
+			BrightStarPercent(70.0);
+			AlphaMin(15);
+			ColorSaturation(0.5);
+		}
+		PC()
+		{
+			BrightStarPercent(70.0);
+			AlphaMin(15);
+			ColorSaturation(0.5);
+		}
+		PS2()
+		{
+			StarTexture("fx_star");
+			BrightStarPercent(10.0);
+			AlphaMin(10);
+			ColorSaturation(0.2);
+		}
+	}
+	DomeModel()
+	{	
+		Geometry("RhenVar2_skydome");
+	}
+	DomeModel()
+	{	
+		Geometry("RhenVar2_skydome_clouds");
+		Offset(65.0);
+		MovementScale(0.992);
+	}
+	DomeModel()
+	{	
+		Geometry("RhenVar2_skydome_clouds_2");
+		Offset(70.0);
+		MovementScale(0.991);
+	}
+	DomeModel()
+	{	
+		Geometry("");
+		Offset(130.0);
+		MovementScale(0.992);
+	}
+	DomeModel()
+	{	
+		Geometry("");
+		Offset(130.0);
+		MovementScale(0.992);
+	}
+}
+
+PuffInfo()
+{
+	TypeCount(0);
+	Count(0);
+	Type(0);
+	TileSize(0.000000);
+}
+
+RainInfo()
+{
+	BlockSize(50.000000, 50.000000);
+	StringGrids(0);
+	BeadCount(0);
+	BeadSize(0.000000, 0.000000);
+	BeadSpeed(0.000000);
+	BeadColor(255, 255, 255, 255);
+	BeadTexture("");
+	BeadModulate(1);
+	StringAngle(0.000000);
+	OnTime(0.000000);
+	TransitionTime(5.000000);
+	OffTime(0.000000);
+	AmbientScale(1.000000);
+	DomeColor(0.250000, 0.250000, 0.250000);
+	Enabled(0);
+}
+
+SplatInfo("Water")
+{
+	Count(64);
+	Color(0, 63, 0, 128);
+	MinSize(0.100000, 0.100000);
+	MaxSize(3.000000, 3.000000);
+	Velocity(0.000000, 0.000000, 0.000000);
+	Texture("");
+	Modulate(1);
+	LifeSpan(0.500000);
+	Right(0.000000, 0.000000, 0.000000);
+	Up(0.000000, 0.000000, 0.000000);
+	Centered(1);
+	Distance(1.000000, 100.000000);
+}
+
+SplatInfo("Ground")
+{
+	Count(128);
+	Color(255, 255, 255, 255);
+	MinSize(0.010000, 0.010000);
+	MaxSize(0.500000, 1.000000);
+	Velocity(0.000000, 0.000000, 0.000000);
+	Texture("");
+	Modulate(0);
+	LifeSpan(0.500000);
+	Right(0.000000, 0.000000, 0.000000);
+	Up(0.000000, 0.000000, 0.000000);
+	Centered(0);
+	Distance(1.000000, 100.000000);
+}
+
+SplatInfo("Screen")
+{
+	Count(4);
+	Color(63, 63, 63, 255);
+	MinSize(0.010000, 0.010000);
+	MaxSize(0.100000, 0.100000);
+	Velocity(0.000000, 0.000000, 0.000000);
+	Texture("");
+	Modulate(1);
+	LifeSpan(1.000000);
+	Right(0.000000, 0.000000, 0.000000);
+	Up(0.000000, 0.000000, 0.000000);
+	Centered(1);
+	Distance(1.000000, 100.000000);
+}
+
+MirrorInfo()
+{
+	UseTexture(0);
+	Offset(-0.010000);
+}
+
+StarsInfo()
+{
+	Color(255, 255, 255, 255);
+	Count(0);
+	Modulate(0);
+}
+
+SpritesInfo()
+{
+}
+
+WaterInfo()
+{
+	TopColor(0, 0, 0);
+	BottomColor(0, 0, 0);
+	TopRange(50.000000);
+	BottomRange(30.000000);
+	BottomDrop(5.000000);
+	Enabled(0);
+}
+
+EnvTexture("");

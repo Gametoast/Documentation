@@ -1,0 +1,65 @@
+SkyInfo()
+{
+	FogColor(128, 128, 128);
+	FogRange(0.000000, 3000.000000);
+	NearSceneRange(90.0, 250.0, 120.0, 300.0);
+	FarSceneRange(400.000000, 1400.0);
+	AmbientColor(170, 170, 170);
+	TopDirectionalAmbientColor(120, 120, 120);
+	BottomDirectionalAmbientColor(255, 255, 255);
+
+	Enable(1);
+	FogRamp(3);
+}
+
+SunInfo()
+{
+	Color(255, 255, 255);
+	ShadowColor(130, 130, 130);
+	Angle(140.000005, -20.000011);
+	Texture("");
+	Degree(40.000003);
+	BackAngle(180.000022, 0.000000);
+	BackColor(128, 128, 128);
+	BackDegree(0.000000);
+}
+
+DomeInfo()
+{
+	Texture("SKY_Hoth.tga");
+	Angle(190.000005);
+	Ambient(128.000038, 128.000038, 128.000038);
+	Filter(1);
+	Threshold(0);	
+	Intensity(0);
+
+	Softness(1);
+	SoftnessParam(60);
+
+	//TerrainBumpDetail("hoth_bump", 1.0, 0.3);
+
+	DomeModel()
+	{	
+		Geometry("hoth_sky_dome");
+	}
+	DomeModel()
+	{	
+		Geometry("hoth_mountain");
+		Offset(80.0);
+		MovementScale(0.995);
+	}
+	DomeModel()
+	{	
+		Geometry("hoth_cannon");
+		Offset(28.0);
+		MovementScale(0.995);
+	}
+	LowResTerrain()
+	{
+		Texture("hoth");
+		PatchResolution(6);
+		FogNear(30.0);
+		FogFar(1000.0);
+		FogColor(201,200,206, 255);
+	}
+}

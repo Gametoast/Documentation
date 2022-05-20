@@ -1,0 +1,40 @@
+[WeaponClass]
+ClassLabel 			= "weapon"
+
+[Properties]
+IconTexture			= "HUD_all_rifle_icon"
+ModeTexture			= "HUD_weap_fullauto"
+IconTexture			= "IMP_pistol_icon"
+ReticuleTexture			= "reticule_rifle"
+
+OrdnanceName 			= "cis_weap_hover_stap_cannon_ord"
+MuzzleFlash			= "med_muzzle_flash"
+Discharge			= "med_smoke_effect"
+
+RoundsPerClip 		= "0"
+ShotDelay 			= "0.25"
+ReloadTime 			= "2.5"
+
+HeatRecoverRate			= "0.3"
+HeatThreshold			= "0.05"
+HeatPerShot			= "0.17"
+
+LockOnRange			= "0.0"
+LockTime 			= "0.0"
+//MinSpread			= "0.1"
+//MaxSpread			= "0.4"
+//AutoAimSize			= "1.0"
+
+FireSound       		= "cis_weap_hover_stap_cannon_fire"
+//ReloadSound     		= "laserreload"
+
+OverheatSound      = "com_weap_energy_depleted"
+OverheatSoundPitch  = "0.5"
+OverheatStopSound   = "com_weap_energy_refilled"
+
+
+RecoilLengthLight     	 	= "0.2"
+RecoilStrengthLight     	= "1"
+
+RecoilLengthHeavy      		= "0.1"
+RecoilStrengthHeavy     	= ".6"

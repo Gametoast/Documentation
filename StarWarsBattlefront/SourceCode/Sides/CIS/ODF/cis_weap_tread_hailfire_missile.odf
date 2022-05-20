@@ -1,0 +1,58 @@
+[WeaponClass]
+ClassLabel 			= "launcher"
+
+[Properties]
+Label				= "Kuat L50 Lascannon"
+IconTexture			= "HUD_all_lascannon_icon"
+
+OrdnanceName 		= "cis_weap_tread_hailfire_missile_ord"
+MuzzleFlash			= "small_muzzle_flash"
+Discharge			= "small_smoke_effect"
+
+ShotDelay 			= "0.25"
+
+
+//InitialSalvoDelay	= "0.2"
+SalvoCount		= "1"
+ShotsPerSalvo		= "1"
+
+RoundsPerClip 		= "5"
+ReloadTime 		= "2.5"
+TriggerSingle		= "1"
+//MaxPressedTime		= "4.0"
+
+TargetEnemy		= "1"
+TargetNeutral		= "1"
+TargetFriendly		= "0"
+
+TargetPerson		= "0"
+TargetAnimal		= "0"
+TargetDroid		= "0"
+TargetVehicle		= "1"
+TargetBuilding		= "0"
+
+MinRange		= "30"
+OptimalRange		= "100"
+MaxRange		= "150"
+
+LockOnRange		= "150.0"
+LockOnAngle		= "6.0"
+LockOffAngle		= "10.0"
+LockTime 		= "0.01"
+
+ZoomMin				= "3.0"
+ZoomMax				= "6.0"
+ZoomRate			= "3.0"
+
+FireSound       = "cis_weap_tread_hailfire_missile_fire"
+//ReloadSound     = "vehicle_reload"
+
+RecoilLengthLight     	 	= "0.25"
+RecoilStrengthLight     	= "1"
+
+RecoilDelayHeavy        	= "0.25"
+RecoilLengthHeavy      		= "0.25"
+RecoilStrengthHeavy     	= "0.5"
+
+
+ModeTexture			= "HUD_weap_fullauto"

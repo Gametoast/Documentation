@@ -1,0 +1,289 @@
+[GameObjectClass]
+ClassLabel 			= "commandhover"
+GeometryName 			= "cis_hover_mtt.msh"
+
+[Properties]
+WaterEffect 			= "waterwake_lg"
+
+VehicleType 			= "heavy"
+AISizeType			= "Huge"
+NoCombatInterrupt		= "1"
+
+FLYERSECTION 			= "BODY"
+
+MapTexture 			= "mtt_icon"
+HealthTexture			= "HUD_cis_mtt_icon"
+VehiclePosition			= "common.vehiclepositions.pilot"
+MapScale 			= 2.5
+
+GeometryName 			= "cis_hover_mtt"
+CollisionScale 			= 30.0
+Explosion			= "cis_hover_mtt_exp"
+ExplosionCritical		= "cis_hover_mtt_exp"
+ExplosionDestruct		= "cis_hover_mtt_exp"
+//FirstPerson       		= "cis\cissccam;cis_1st_cockpit_securitycam"
+FirstPerson       		= "cis\cismttp;cis_1st_cockpit_MTT"
+FirstPersonFOV			= "48"
+//ForceMode			= "2"
+CockpitTension			= 40
+
+SpawnPointCount 		= "6"
+SpawnPointLocation 		= "8.0 0.0 0.0 5"
+SpawnPointLocation 		= "8.0 0.0 4.0 5"
+SpawnPointLocation 		= "8.0 0.0 -4.0 5"
+SpawnPointLocation 		= "-8.0 0.0 0.0 355"
+SpawnPointLocation 		= "-8.0 0.0 4.0 355"
+SpawnPointLocation 		= "-8.0 0.0 -4.0 355"
+ValueBleed			= 10
+Value_ATK_Alliance 		= 10
+Value_ATK_CIS 			= 10
+Value_ATK_Empire 		= 10
+Value_ATK_Republic 		= 10
+Value_ATK_Locals 		= 0
+Value_DEF_Alliance 		= 0
+Value_DEF_CIS 			= 0
+Value_DEF_Empire 		= 0
+Value_DEF_Republic 		= 0
+Value_DEF_Locals 		= 0
+
+// dont know if these are working for vehicles but it would be cool
+ScanningRange		= "60.0"
+TransmitRange		= "60.0"
+
+MaxHealth 		= 15000.0
+HealthType		= "vehicle"
+//HitLocation		= "p_crithit 0"
+
+DamageStartPercent	= 60.0
+DamageStopPercent	= 20.0
+DamageEffect		= "vehiclespark"
+DamageAttachPoint	= "hp_damage_3"
+
+DamageStartPercent	= 60.0
+DamageStopPercent	= 20.0
+DamageEffect		= "vehiclespark"
+DamageAttachPoint	= "hp_damage_4"
+
+DamageStartPercent	= 60.0
+DamageStopPercent	= 20.0
+DamageEffect		= "vehiclespark"
+DamageAttachPoint	= "hp_damage_5"
+
+DamageStartPercent	= 30.0
+DamageStopPercent	= 20.0
+DamageEffect		= "vehiclesmoke"
+DamageAttachPoint	= "hp_damage_2"
+
+DamageStartPercent	= 19.0
+DamageStopPercent	= 0.0
+DamageEffect		= "vehicleflame"
+DamageAttachPoint	= "hp_damage_2"
+
+DamageStartPercent	= 30.0
+DamageStopPercent	= 20.0
+DamageEffect		= "vehiclesmoke"
+DamageAttachPoint	= "hp_damage_1"
+
+DamageStartPercent	= 19.0
+DamageStopPercent	= 0.0
+DamageEffect		= "vehicleflame"
+DamageAttachPoint	= "hp_damage_1"
+
+SetAltitude		= 1.5
+GravityScale		= 4.0
+LiftSpring		= 10.0
+LiftDamp		= 3.0
+
+Acceleration 		= 5.0
+Deceleration		= 5.0
+Traction		= 2.0
+ForwardSpeed		= 5.0
+ReverseSpeed		= 3.0
+StrafeSpeed		= 1.5
+
+AddSpringBody = "0.0 6.0 6.0 7.0"
+BodySpringLength = 1.0
+
+AddSpringBody = "-3.0 5.1 0.0 6.0"
+BodySpringLength = 1.0
+
+AddSpringBody = "3.0 5.1 0.0 6.0"
+BodySpringLength = 1.0
+
+AddSpringBody = "0.0 6.0 -14.0 7.0"
+BodySpringLength = 1.0
+
+VelocitySpring = 3.5
+VelocityDamp = 3.0
+OmegaXSpring = 2.0
+OmegaXDamp = 5.0
+OmegaZSpring = 2.0
+OmegaZDamp = 5.0
+
+SpinRate		= 0.5
+TurnRate		= 0.5
+TurnFilter		= 5.0
+PitchRate		= 0.5
+LevelSpring		= 3.0
+LevelDamp		= 7.0
+
+StrafeRollAngle			= 0.00
+ThrustPitchAngle		= 0.00
+BankAngle			= 0.00
+BankFilter			= 3//low is slow - How quickly the bank returns to level
+LevelSpring			= 3.0//low is slow - the force the restores level
+LevelDamp			= 1.0//low is slow - the force that reduces the momentum of the rotation
+
+//PCPitchRate 		= 15.0
+//PCSpinRate		= 15.0
+//PCTurnRate 		= 0.5
+
+EyePointOffset		= "0.0 4.0 -6.0"
+//EyePointOffset 		= "0.0 12.0 -6.0"
+TrackCenter		= "0.0 7.5 -15.0"
+TrackOffset 		= "0.0 15.0 15.0"
+TiltValue		= "5.0"
+
+PitchLimits 		= "-30 10"
+YawLimits 		= "-90 90"
+
+////////////////////////////////////////////////////////////////////////
+//WEAPON SYSTEMS
+
+WEAPONSECTION			= "1"
+
+WeaponName			= "cis_weap_fly_maf_cannon"
+WeaponAmmo			= "0"
+
+AimerNodeName			= "aimer_l"
+BarrelNodeName			= "barrel1_l"
+//BarrelRecoil			= 1.25
+NextBarrel			= "-"
+BarrelNodeName			= "barrel2_l"
+//BarrelRecoil			= 1.25
+
+NextAimer			= "-"
+
+AimerNodeName			= "aimer_r"
+BarrelNodeName			= "barrel1_r"
+//BarrelRecoil			= 1.25
+NextBarrel 			= "-"
+BarrelNodeName			= "barrel2_r"
+//BarrelRecoil			= 1.25
+
+
+
+////////COLLISION////////////////////////////////////////////////////////////////
+
+
+VehicleCollision 	= "p_vehiclesphere1"
+VehicleCollision 	= "p_vehiclesphere2"
+VehicleCollision 	= "p_vehiclesphere3"
+
+SoldierCollision	= "CollisionMesh"
+SoldierCollision	= "p_cannon1"
+SoldierCollision	= "p_cannon2"
+
+OrdnanceCollision	= "CollisionMesh"
+OrdnanceCollision	= "p_cannon1"
+OrdnanceCollision	= "p_cannon2"
+
+
+CHUNKSECTION 		= "CHUNK1"
+ChunkGeometryName 	= "cis_hover_mtt_chunk1"
+ChunkNodeName 		= ""
+ChunkTerrainCollisions 	= "0"
+ChunkTerrainEffect 	= "explosion"
+ChunkPhysics 		= "FULL"
+ChunkOmega 		= "1.0 0.1 0.5"
+ChunkBounciness 		= 0.45
+ChunkStickiness 		= 0.25
+ChunkSpeed		= "14.0"
+ChunkUpFactor		= "7.00"
+ChunkTrailEffect 		= "mediumsmoketrail"
+
+
+CHUNKSECTION 		= "CHUNK2"
+ChunkGeometryName 	= "cis_hover_mtt_chunk2"
+ChunkNodeName 		= ""
+ChunkTerrainCollisions 	= "4"
+ChunkTerrainEffect 	= "dirtspray"
+ChunkPhysics 		= "FULL"
+ChunkOmega 		= "0.5 0.5 0.3"
+ChunkBounciness 		= 0.45
+ChunkStickiness 		= 0.25
+ChunkSpeed		= "12.0"
+ChunkUpFactor		= "6.00"
+ChunkTrailEffect 		= "mediumsmoketrail"
+
+
+CHUNKSECTION 		= "CHUNK3"
+ChunkGeometryName 	= "cis_hover_mtt_chunk3"
+ChunkNodeName 		= ""
+ChunkTerrainCollisions 	= "2"
+ChunkTerrainEffect 	= "explosion"
+ChunkTrailEffect		= "mediumsmoketrail"
+ChunkPhysics 		= "FULL"
+ChunkOmega 		= "0.1 0.4 0.1"
+ChunkSpeed		= "4.0"
+ChunkUpFactor		= "8.00"
+
+
+CHUNKSECTION 		= "CHUNK4"
+ChunkGeometryName 	= "cis_hover_mtt_chunk4"
+ChunkNodeName 		= ""
+ChunkTerrainCollisions 	= "2"
+ChunkTerrainEffect 	= "explosion"
+ChunkPhysics 		= "FULL"
+ChunkOmega 		= "0.1 0.4 0.1"
+ChunkBounciness 		= 0.55
+ChunkStickiness 		= 0.25
+ChunkSpeed		= "5.0"
+ChunkUpFactor		= "4.00"
+ChunkTrailEffect 		= "mediumsmoketrail"
+
+
+CHUNKSECTION 		= "CHUNK5"
+ChunkGeometryName 	= "cis_hover_mtt_chunk5"
+ChunkNodeName 		= ""
+ChunkTerrainCollisions 	= "3"
+ChunkTerrainEffect 	= "explosion"
+ChunkPhysics 		= "FULL"
+ChunkOmega 		= "0.1 0.5 0.2"
+ChunkBounciness 		= 0.45
+ChunkStickiness 		= 0.25
+ChunkSpeed		= "10.0"
+ChunkUpFactor		= "10.00"
+ChunkTrailEffect 		= "mediumsmoketrail"
+
+
+CHUNKSECTION 		= "CHUNK6"
+ChunkGeometryName 	= "cis_hover_mtt_chunk6"
+ChunkNodeName 		= ""
+ChunkTerrainCollisions 	= "3"
+ChunkPhysics 		= "FULL"
+ChunkTerrainEffect 	= "explosion"
+ChunkOmega 		= "0.1 0.5 0.1"
+ChunkBounciness 		= 0.45
+ChunkStickiness 		= 0.25
+ChunkSpeed		= "9.0"
+ChunkUpFactor		= "11.00"
+ChunkTrailEffect 		= "mediumsmoketrail"
+
+EngineSound		= "cis_hover_mtt_engine_parameterized"
+TurnOnSound     = ""
+TurningOffSound = ""
+TurnOffSound    = ""
+TurnOffTime     = ""
+HurtSound      	= ""
+DeathSound   	= "imp_weap_ord_exp_lg"
+VehicleCollisionSound   ="com_veh_collision_lg"
+Music           = ""
+RepMusic        = "rep_vehicle"
+CISMusic        = "cis_vehicle"
+MusicSpeed   	= ".25"
+MusicDelay   	= "3.0"
+GroundedSound  	= ""
+GroundedHeight 	= ""
+BoostSound      = ""
+FoleyFXGroup    = "metal_foley"

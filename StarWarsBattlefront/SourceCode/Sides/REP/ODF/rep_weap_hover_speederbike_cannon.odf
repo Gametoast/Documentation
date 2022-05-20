@@ -1,0 +1,52 @@
+[WeaponClass]
+ClassLabel 			= "weapon"
+
+[Properties]
+
+IconTexture			= "IMP_pistol_icon"
+ModeTexture			= "HUD_weap_fullauto"
+ReticuleTexture			= "reticule_pistol"
+
+RoundsPerClip 			= "0"
+ReloadTime 			= "0.0"
+
+OrdnanceName 			= "rep_weap_hover_speederbike_cannon_ord"
+MuzzleFlash			= "med_muzzle_flash"
+Discharge			= "med_smoke_effect"
+
+ShotDelay 			= "0.25"
+
+HeatRecoverRate			= "0.3"
+HeatThreshold			= "0.05"
+HeatPerShot			= "0.2"
+
+YawSpread			= "0.5"
+PitchSpread			= "0.5"
+KickSpread			= "0.65"
+SpreadRecover			= "3.0"
+
+LockOnRange			= "100.0"
+LockTime 			= "0.2"
+AutoAimSize			= "1.0"
+
+SalvoCount			= "1"
+ShotsPerSalvo			= "1"
+SalvoDelay			= "0.0"
+InitialSalvoDelay		= "0.0"
+SalvoTime			= "0.0"
+
+FireSound			= "rep_weap_hover_speederbike_cannon_fire"
+//ReloadSound		    = ""
+WeaponChangeSound	= ""
+
+OverheatSound      		= "com_weap_energy_depleted"
+OverheatSoundPitch 		= "0.5"
+OverheatStopSound   		= "com_weap_energy_refilled"
+
+
+
+RecoilLengthLight     	 	= "0.2"
+RecoilStrengthLight     	= "1"
+
+RecoilLengthHeavy      		= "0.1"
+RecoilStrengthHeavy     	= ".6"

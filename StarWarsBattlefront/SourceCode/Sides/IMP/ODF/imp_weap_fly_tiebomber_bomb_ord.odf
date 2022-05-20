@@ -1,0 +1,33 @@
+[OrdnanceClass]
+ClassLabel 			= "shell"
+
+[Properties]
+//***************************************
+//*************PROTON BOMBS**************
+//***************************************
+
+//***************************************
+//**********VISUAL EFFECTS***************
+//***************************************
+ImpactEffectWater 		= "watersplash_sm"
+
+GeometryName 			= "com_weap_inf_grenadethermal_ord"
+ExplosionName			= "imp_weap_fly_tiebomber_bomb_exp"
+TrailEffect			= "ProtonTorpedo"
+
+//***************************************
+//**********RANGE AND DAMAGE*************
+//***************************************
+LifeSpan 			= "10.0"
+Velocity 			= "70.0"
+Gravity				= "1.15"
+Rebound				= "0.0"
+
+MaxDamage 			= "600.0"
+VehicleScale			= "1.0"
+
+//***************************************
+//**********SOUNDS***********************
+//***************************************
+OrdnanceSound			= "com_weap_inf_ord_hum_lg"
+//LockedOnSound			= "com_weap_launcher_missile_guided"
