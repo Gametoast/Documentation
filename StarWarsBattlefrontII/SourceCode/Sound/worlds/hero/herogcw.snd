@@ -1,0 +1,42 @@
+//----------------------SOUND FX---------------------------
+
+
+SoundProperties()
+{
+    Name("hero_weap_energyBall_throw");
+    Group("weapons");
+    Inherit("weapon_template");
+	Gain(5.0)
+    SampleList()
+    {
+        Sample("hero_weap_energyBall_throw", 1.0);
+    }
+}
+	
+SoundProperties()
+{
+    Name("hero_weap_energyBall_stdy")
+    Group("unit_weapon");
+    Inherit("props_template");
+	Gain(5.0)
+    SampleList()
+    {
+        Sample("hero_weap_energyBall_stdy", 1.0);
+    }
+}
+	
+SoundProperties()
+{
+    Name("hero_weap_energyBall_explo"); // rocket explosion near
+    Group("Explosion");
+    Inherit("explosion_template");
+	Gain(5.0)
+	MinDistance(5.0)
+	MaxDistance(60)
+	MuteDIstance(60)
+	RollOff(1.0)
+    SampleList()
+    {
+      Sample("hero_weap_energyBall_explo", 1.0);
+    }
+}
