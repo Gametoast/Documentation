@@ -1,39 +1,39 @@
 ///////////////////////////////////
 // Common to Worlds -------------------------------------------------------------------------------------------------
-..\..\global\effects\eng_chop_a_loop.wav -resample pc 22050
+..\..\global\effects\eng_chop_a_loop.wav -resample ps2 16000 xbox 22050 pc 22050
 // Unit Weapons -----------------------------------------------------------------------------------------------------
 // Common Unit Weapons
-..\..\global\effects\emt_steam_lp.wav -resample pc 22050
+..\..\global\effects\emt_steam_lp.wav -resample ps2 16000 xbox 22050 pc 22050
 // Common Props and Effects -------------------------------------------------------------------------------------
-..\..\global\effects\wpn_powerDispense_pickUp.wav   -resample pc 22050
-..\..\global\effects\ifc_NoAmmo.wav                 -resample pc 22050
-..\..\global\effects\fusioncutter.wav               wpn_fusionCutter_lp   -resample pc 22050
-..\..\global\effects\wpn_reconDroid_Launch.wav      -resample pc 22050
-..\..\global\effects\mineactivate2.wav              -resample pc 22050
-..\..\global\effects\wpn_energyRecharge.wav         -resample pc 22050
-..\..\global\effects\wpn_energyDepleted.wav         -resample pc 22050
-#ifplatform pc
-..\..\global\effects\emt_torch_lp.wav                 -resample pc 44100
-..\..\global\effects\wpn_powerDispenser.wav           -resample pc 22050
-..\..\global\effects\wpn_lightsaber_idle_lp.wav       -resample pc 22050
-..\..\global\effects\wpn_lightsaber_swing_01.wav      -resample pc 22050
-..\..\global\effects\wpn_lightsaber_swing_02.wav      -resample pc 22050
-..\..\global\effects\wpn_lightsaber_swing_03.wav      -resample pc 22050
-..\..\global\effects\wpn_sniperRifle_zoomIn01.wav     -resample pc 22050
-..\..\global\effects\wpn_sniperRifle_zoomIn02.wav     -resample pc 22050
-..\..\global\effects\wpn_sniperRifle_zoomOut.wav      -resample pc 22050
-//..\..\global\effects\wpn_intrcptTnk_trtYaw_st.wav    -resample pc 22050
-//..\..\global\effects\wpn_intrcptTnk_trtYaw_end.wav   -resample pc 22050
-..\..\global\effects\wpn_intrcptTnk_trtYaw_lp.wav     -resample pc 22050
-..\..\global\effects\wpn_intrcptTnk_trtPtch_lp.wav    -resample pc 22050
-#endifplatform pc
+..\..\global\effects\wpn_powerDispense_pickUp.wav   -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\ifc_NoAmmo.wav                 -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\fusioncutter.wav               wpn_fusionCutter_lp   -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\wpn_reconDroid_Launch.wav      -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\mineactivate2.wav              -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\wpn_energyRecharge.wav         -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\wpn_energyDepleted.wav         -resample ps2 16000 xbox 22050 pc 22050
+#ifplatform ps2 xbox pc
+..\..\global\effects\emt_torch_lp.wav                 -resample ps2 16000 xbox 22050 pc 44100
+..\..\global\effects\wpn_powerDispenser.wav           -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\wpn_lightsaber_idle_lp.wav       -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\wpn_lightsaber_swing_01.wav      -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\wpn_lightsaber_swing_02.wav      -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\wpn_lightsaber_swing_03.wav      -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\wpn_sniperRifle_zoomIn01.wav     -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\wpn_sniperRifle_zoomIn02.wav     -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\wpn_sniperRifle_zoomOut.wav      -resample ps2 16000 xbox 22050 pc 22050
+//..\..\global\effects\wpn_intrcptTnk_trtYaw_st.wav    -resample ps2 16000 xbox 22050 pc 22050
+//..\..\global\effects\wpn_intrcptTnk_trtYaw_end.wav   -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\wpn_intrcptTnk_trtYaw_lp.wav     -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\wpn_intrcptTnk_trtPtch_lp.wav    -resample ps2 16000 xbox 22050 pc 22050
+#endifplatform ps2 xbox pc
 
 // --------------------------------------------------------------------------------------------------------------
 
 // Command Posts ------------------------------------------------------------------------------------------------
 ..\..\global\effects\com_blg_commandpost_capture.wav        
-..\..\global\effects\com_blg_commandpost_charge.wav         -resample pc 22050
-..\..\global\effects\com_blg_commandpost_discharge.wav      -resample pc 22050
+..\..\global\effects\com_blg_commandpost_charge.wav         -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\com_blg_commandpost_discharge.wav      -resample ps2 16000 xbox 22050 pc 22050
 ..\..\global\effects\com_blg_commandpost_dispute.wav
 ..\..\global\effects\com_blg_commandpost_lost.wav           
 ..\..\global\effects\com_blg_commandpost1.wav
@@ -42,149 +42,149 @@
 // ---------------------------------------------------------------------------------------------------------------
 
 // Ammo Droid Gonk -----------------------------------------------------------------------------------------------
-#ifplatform pc
-..\..\global\effects\droid_gonk_01.wav          -resample pc 22050
-..\..\global\effects\droid_gonk_02.wav          -resample pc 22050
-..\..\global\effects\droid_gonk_03.wav          -resample pc 22050
-..\..\global\effects\droid_gonk_04.wav          -resample pc 22050
-//..\..\global\effects\droid_gonk_die_01.wav      -resample pc 22050
-//..\..\global\effects\droid_gonk_die_02.wav      -resample pc 22050
-#endifplatform pc
+#ifplatform ps2 xbox pc
+..\..\global\effects\droid_gonk_01.wav          -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\droid_gonk_02.wav          -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\droid_gonk_03.wav          -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\droid_gonk_04.wav          -resample ps2 16000 xbox 22050 pc 22050
+//..\..\global\effects\droid_gonk_die_01.wav      -resample ps2 16000 xbox 22050 pc 22050
+//..\..\global\effects\droid_gonk_die_02.wav      -resample ps2 16000 xbox 22050 pc 22050
+#endifplatform ps2 xbox pc
 
 // ----------------------------------------------------------------------------------------------------------
 
 // Medical Droid FX7 ----------------------------------------------------------------------------------------
-..\..\global\effects\crt_medicalDroid04.wav  -resample pc 22050
-#ifplatform pc
-..\..\global\effects\droid_fx7_chatter_04.wav     -resample pc 22050
-..\..\global\effects\droid_fx7_chatter_01.wav     -resample pc 22050
-..\..\global\effects\droid_fx7_chatter_02.wav     -resample pc 22050
-..\..\global\effects\droid_fx7_chatter_03.wav     -resample pc 22050
-//..\..\global\effects\droid_fx7_hum_lp.wav         -resample pc 22050
-..\..\global\effects\droid_fx7_recharge_01.wav    -resample pc 16000
-..\..\global\effects\droid_fx7_recharge_02.wav    -resample pc 16000
-..\..\global\effects\droid_fx7_recharge_03.wav    -resample pc 16000
-..\..\global\effects\droid_fx7_recharge_04.wav    -resample pc 16000
-//..\..\global\effects\droid_fx7death.wav           -resample pc 22050
-#endifplatform pc
+..\..\global\effects\crt_medicalDroid04.wav  -resample ps2 16000 xbox 22050 pc 22050
+#ifplatform ps2 xbox pc
+..\..\global\effects\droid_fx7_chatter_04.wav     -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\droid_fx7_chatter_01.wav     -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\droid_fx7_chatter_02.wav     -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\droid_fx7_chatter_03.wav     -resample ps2 16000 xbox 22050 pc 22050
+//..\..\global\effects\droid_fx7_hum_lp.wav         -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\droid_fx7_recharge_01.wav    -resample ps2 11025 xbox 16000 pc 16000
+..\..\global\effects\droid_fx7_recharge_02.wav    -resample ps2 11025 xbox 16000 pc 16000
+..\..\global\effects\droid_fx7_recharge_03.wav    -resample ps2 11025 xbox 16000 pc 16000
+..\..\global\effects\droid_fx7_recharge_04.wav    -resample ps2 11025 xbox 16000 pc 16000
+//..\..\global\effects\droid_fx7death.wav           -resample ps2 16000 xbox 22050 pc 22050
+#endifplatform ps2 xbox pc
 
 // --------------------------------------------------------------------------------------------------------------
 
 // Vehicle Repair Droid R5D4 ------------------------------------------------------------------------------------
-#ifplatform pc
-..\..\global\effects\droid_r5_chatter_01.wav    -resample pc 22050
-..\..\global\effects\droid_r5_chatter_02.wav    -resample pc 22050
-..\..\global\effects\droid_r5_chatter_03.wav    -resample pc 22050
-..\..\global\effects\droid_r5_chatter_04.wav    -resample pc 22050
-..\..\global\effects\droid_r5_chatter_05.wav    -resample pc 22050
-//..\..\global\effects\droid_r5_death.wav         -resample pc 22050
-#endifplatform pc
+#ifplatform ps2 xbox pc
+..\..\global\effects\droid_r5_chatter_01.wav    -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\droid_r5_chatter_02.wav    -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\droid_r5_chatter_03.wav    -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\droid_r5_chatter_04.wav    -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\droid_r5_chatter_05.wav    -resample ps2 16000 xbox 22050 pc 22050
+//..\..\global\effects\droid_r5_death.wav         -resample ps2 16000 xbox 22050 pc 22050
+#endifplatform ps2 xbox pc
 
 // --------------------------------------------------------------------------------------------------------------
 
 // Ordnance Hums ---------------------------------------------------------------------------------------------------------
 // ----- High hum hums for unit blasters -----
-#ifplatform pc
-..\..\global\effects\ammo_blaster_lp01.wav   -resample pc 22050
-..\..\global\effects\ammo_blaster_lp04.wav   -resample pc 22050
-#endifplatform pc
+#ifplatform ps2 xbox pc
+..\..\global\effects\ammo_blaster_lp01.wav   -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\ammo_blaster_lp04.wav   -resample ps2 16000 xbox 22050 pc 22050
+#endifplatform ps2 xbox pc
 
 
 // ----- Low hums for turret blasters -----
-#ifplatform pc
-..\..\global\effects\ammo_blaster_lp02.wav   -resample pc 22050
-..\..\global\effects\ammo_blaster_lp03.wav   -resample pc 22050
-#endifplatform pc
+#ifplatform ps2 xbox pc
+..\..\global\effects\ammo_blaster_lp02.wav   -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\ammo_blaster_lp03.wav   -resample ps2 16000 xbox 22050 pc 22050
+#endifplatform ps2 xbox pc
 
 
 // ----- Rocket hum-thrust -----
-#ifplatform pc
-..\..\global\effects\ammo_rocket_lp02.wav    -resample pc 22050
-..\..\global\effects\ammo_rocket_lp03.wav    -resample pc 22050
-..\..\global\effects\ammo_rocket_lp05.wav    -resample pc 22050
-..\..\global\effects\ammo_rocket_lp06.wav    -resample pc 22050
-#endifplatform pc
+#ifplatform ps2 xbox pc
+..\..\global\effects\ammo_rocket_lp02.wav    -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\ammo_rocket_lp03.wav    -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\ammo_rocket_lp05.wav    -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\ammo_rocket_lp06.wav    -resample ps2 16000 xbox 22050 pc 22050
+#endifplatform ps2 xbox pc
 
 // -----------------------------------------------------------------------------------------------------------------------
 
 // Laser Impact ------------------------------------------------------------------------------------------
-#ifplatform pc
-..\..\global\effects\imp_laser_dirt_07.wav      -resample pc 22050
-..\..\global\effects\imp_laser_dirt_09.wav      -resample pc 22050
-..\..\global\effects\imp_laser_stone_03.wav     -resample pc 22050
-..\..\global\effects\imp_laser_stone_04.wav     -resample pc 22050
-..\..\global\effects\imp_laser_stone_05.wav     -resample pc 22050
-..\..\global\effects\imp_laser_metal_02.wav     -resample pc 22050
-..\..\global\effects\imp_laser_metal_03.wav     -resample pc 22050
-..\..\global\effects\imp_laser_metal_05.wav     -resample pc 22050
-..\..\global\effects\imp_laser_metal_06.wav     -resample pc 22050
-..\..\global\effects\imp_laser_metal_07.wav     -resample pc 22050
-..\..\global\effects\imp_laser_metal_08.wav     -resample pc 22050
-..\..\global\effects\imp_laser_metal_09.wav     -resample pc 22050
-..\..\global\effects\imp_laser_metal_16.wav     -resample pc 22050
-..\..\global\effects\imp_laser_metal_18.wav     -resample pc 22050
-..\..\global\effects\imp_laser_metal_21.wav     -resample pc 22050
-..\..\global\effects\imp_ricco_02.wav           -resample pc 22050
-..\..\global\effects\imp_ricco_03.wav           -resample pc 22050
-..\..\global\effects\imp_ricco_04.wav           -resample pc 22050
-..\..\global\effects\imp_ricco_06.wav           -resample pc 22050
-..\..\global\effects\imp_ricco_08.wav           -resample pc 22050
-..\..\global\effects\imp_ricco_12.wav           -resample pc 22050
-#endifplatform pc
+#ifplatform ps2 xbox pc
+..\..\global\effects\imp_laser_dirt_07.wav      -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\imp_laser_dirt_09.wav      -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\imp_laser_stone_03.wav     -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\imp_laser_stone_04.wav     -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\imp_laser_stone_05.wav     -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\imp_laser_metal_02.wav     -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\imp_laser_metal_03.wav     -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\imp_laser_metal_05.wav     -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\imp_laser_metal_06.wav     -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\imp_laser_metal_07.wav     -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\imp_laser_metal_08.wav     -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\imp_laser_metal_09.wav     -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\imp_laser_metal_16.wav     -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\imp_laser_metal_18.wav     -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\imp_laser_metal_21.wav     -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\imp_ricco_02.wav           -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\imp_ricco_03.wav           -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\imp_ricco_04.wav           -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\imp_ricco_06.wav           -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\imp_ricco_08.wav           -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\imp_ricco_12.wav           -resample ps2 16000 xbox 22050 pc 22050
+#endifplatform ps2 xbox pc
 
 // ---------------------------------------------------------------------------------------------------
 
 // Generic Throw ---------------------------------------------------------------------------------------------------------
-..\..\global\effects\wpn_throw01.wav     -resample pc 22050
-..\..\global\effects\wpn_throw02.wav     -resample pc 22050
-..\..\global\effects\wpn_throw03.wav     -resample pc 22050
-..\..\global\effects\wpn_throw04.wav     -resample pc 22050
-..\..\global\effects\wpn_throw05.wav     -resample pc 22050
-#ifplatform pc
-//..\..\global\effects\wpn_thermalDetonator_throw.wav      -resample pc 22050
-#endifplatform pc
+..\..\global\effects\wpn_throw01.wav     -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\wpn_throw02.wav     -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\wpn_throw03.wav     -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\wpn_throw04.wav     -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\wpn_throw05.wav     -resample ps2 16000 xbox 22050 pc 22050
+#ifplatform ps2 xbox pc
+//..\..\global\effects\wpn_thermalDetonator_throw.wav      -resample ps2 16000 xbox 22050 pc 22050
+#endifplatform ps2 xbox pc
 
 // -----------------------------------------------------------------------------------------------------------------------
 
 // Grenade Bounce --------------------------------------------------------------------------------------------------------
-..\..\global\effects\imp_grenade_dirt_01.wav    -resample pc 22050
-..\..\global\effects\imp_grenade_dirt_03.wav    -resample pc 22050
-..\..\global\effects\imp_grenade_dirt_04.wav    -resample pc 22050
-..\..\global\effects\imp_grenade_stone_01.wav   -resample pc 22050
-..\..\global\effects\imp_grenade_stone_03.wav   -resample pc 22050
-..\..\global\effects\imp_grenade_stone_04.wav   -resample pc 22050
-..\..\global\effects\imp_grenade_wood_03b.wav   -resample pc 22050
+..\..\global\effects\imp_grenade_dirt_01.wav    -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\imp_grenade_dirt_03.wav    -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\imp_grenade_dirt_04.wav    -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\imp_grenade_stone_01.wav   -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\imp_grenade_stone_03.wav   -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\imp_grenade_stone_04.wav   -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\imp_grenade_wood_03b.wav   -resample ps2 16000 xbox 22050 pc 22050
 // -----------------------------------------------------------------------------------------------------------------------
 
 // Concussion Grenade Explosion -----------------------------------------------------------------------------------------
-#ifplatform pc
-..\..\global\effects\exp_ord_grenade02.wav             -resample pc 44100
-..\..\global\effects\exp_ord_grenade03.wav             -resample pc 44100
-..\..\global\effects\exp_ord_grenade01.wav             -resample pc 44100
-..\..\global\effects\exp_ord_rocket_small01.wav        -resample pc 44100
-..\..\global\effects\exp_ord_rocket_small02.wav        -resample pc 44100
-..\..\global\effects\exp_ord_rocket_small03.wav        -resample pc 44100
-#endifplatform pc
+#ifplatform ps2 xbox pc
+..\..\global\effects\exp_ord_grenade02.wav             -resample ps2 12000 xbox 22050 pc 44100
+..\..\global\effects\exp_ord_grenade03.wav             -resample ps2 12000 xbox 22050 pc 44100
+..\..\global\effects\exp_ord_grenade01.wav             -resample ps2 12000 xbox 22050 pc 44100
+..\..\global\effects\exp_ord_rocket_small01.wav        -resample ps2 12000 xbox 22050 pc 44100
+..\..\global\effects\exp_ord_rocket_small02.wav        -resample ps2 12000 xbox 22050 pc 44100
+..\..\global\effects\exp_ord_rocket_small03.wav        -resample ps2 12000 xbox 22050 pc 44100
+#endifplatform ps2 xbox pc
 
 //---------------------------------------------------------------------------------------------------------------------
 
 // Thermal Detonator Explosion ----------------------------------------------------------------------------------------
-#ifplatform pc
-..\..\global\effects\exp_ord_thermalDetonator01.wav    -resample pc 44100
-..\..\global\effects\exp_ord_thermalDetonator02.wav    -resample pc 44100
-#endifplatform pc
+#ifplatform ps2 xbox pc
+..\..\global\effects\exp_ord_thermalDetonator01.wav    -resample ps2 16000 xbox 22050 pc 44100
+..\..\global\effects\exp_ord_thermalDetonator02.wav    -resample ps2 16000 xbox 22050 pc 44100
+#endifplatform ps2 xbox pc
 
 //---------------------------------------------------------------------------------------------------------------------
 
 // Rocket Explosion ---------------------------------------------------------------------------------------------------
-#ifplatform pc
-..\..\global\effects\exp_ord_rocket_large01.wav        -resample pc 44100
-..\..\global\effects\exp_ord_rocket_large02.wav        -resample pc 44100
-..\..\global\effects\exp_ord_rocket_large03.wav        -resample pc 44100
-..\..\global\effects\exp_ord_rocket_med01.wav          -resample pc 44100
-..\..\global\effects\exp_ord_rocket_med02.wav          -resample pc 44100
-..\..\global\effects\exp_ord_rocket_med03.wav          -resample pc 44100
-#endifplatform pc
+#ifplatform ps2 xbox pc
+..\..\global\effects\exp_ord_rocket_large01.wav        -resample ps2 12000 xbox 22050 pc 44100
+..\..\global\effects\exp_ord_rocket_large02.wav        -resample ps2 12000 xbox 22050 pc 44100
+..\..\global\effects\exp_ord_rocket_large03.wav        -resample ps2 12000 xbox 22050 pc 44100
+..\..\global\effects\exp_ord_rocket_med01.wav          -resample ps2 12000 xbox 22050 pc 44100
+..\..\global\effects\exp_ord_rocket_med02.wav          -resample ps2 12000 xbox 22050 pc 44100
+..\..\global\effects\exp_ord_rocket_med03.wav          -resample ps2 12000 xbox 22050 pc 44100
+#endifplatform ps2 xbox pc
 
 // ----- Jetpack -----
 ..\..\global\effects\rep_inf_jetpack.wav             
@@ -194,33 +194,33 @@
 
 // Weapon Foley ----------------------------------------------------------------------------------------------------------
 // Common Weapon Foley
-#ifplatform pc
-..\..\global\effects\mvt_getup_rifle.wav     -resample pc 22050
-..\..\global\effects\mvt_jump_rifle.wav      -resample pc 22050
-..\..\global\effects\mvt_land_rifle.wav      -resample pc 22050
-..\..\global\effects\mvt_squat_rifle.wav     -resample pc 22050
-..\..\global\effects\mvt_roll_rifle.wav      -resample pc 22050
-..\..\global\effects\mvt_lie_rifle.wav       -resample pc 22050
-..\..\global\effects\mvt_stop_rifle.wav      -resample pc 22050
-..\..\global\effects\mvt_getup_pistol.wav    -resample pc 22050
-..\..\global\effects\mvt_jump_pistol.wav     -resample pc 22050
-..\..\global\effects\mvt_land_pistol.wav     -resample pc 22050
-..\..\global\effects\mvt_squat_pistol.wav    -resample pc 22050
-..\..\global\effects\mvt_roll_pistol.wav     -resample pc 22050
-..\..\global\effects\mvt_lie_pistol.wav      -resample pc 22050
-..\..\global\effects\mvt_stop_pistol.wav     -resample pc 22050
-..\..\global\effects\mvt_getup_bazooka.wav   -resample pc 22050
-..\..\global\effects\mvt_jump_bazooka.wav    -resample pc 22050
-..\..\global\effects\mvt_land_bazooka.wav    -resample pc 22050
-..\..\global\effects\mvt_squat_bazooka.wav   -resample pc 22050
-..\..\global\effects\mvt_roll_bazooka.wav    -resample pc 22050
-..\..\global\effects\mvt_lie_bazooka.wav     -resample pc 22050
-..\..\global\effects\mvt_stop_bazooka.wav    -resample pc 22050
-..\..\global\effects\mvt_bazooka_lgBF_01.wav -resample pc 22050
-..\..\global\effects\mvt_bazooka_lgBF_02.wav -resample pc 22050 
-..\..\global\effects\mvt_bazooka_lgBF_03.wav -resample pc 22050
-..\..\global\effects\mvt_bazooka_smBF.wav    -resample pc 22050
-#endifplatform pc
+#ifplatform ps2 xbox pc
+..\..\global\effects\mvt_getup_rifle.wav     -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\mvt_jump_rifle.wav      -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\mvt_land_rifle.wav      -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\mvt_squat_rifle.wav     -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\mvt_roll_rifle.wav      -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\mvt_lie_rifle.wav       -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\mvt_stop_rifle.wav      -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\mvt_getup_pistol.wav    -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\mvt_jump_pistol.wav     -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\mvt_land_pistol.wav     -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\mvt_squat_pistol.wav    -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\mvt_roll_pistol.wav     -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\mvt_lie_pistol.wav      -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\mvt_stop_pistol.wav     -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\mvt_getup_bazooka.wav   -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\mvt_jump_bazooka.wav    -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\mvt_land_bazooka.wav    -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\mvt_squat_bazooka.wav   -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\mvt_roll_bazooka.wav    -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\mvt_lie_bazooka.wav     -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\mvt_stop_bazooka.wav    -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\mvt_bazooka_lgBF_01.wav -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\mvt_bazooka_lgBF_02.wav -resample ps2 16000 xbox 22050 pc 22050 
+..\..\global\effects\mvt_bazooka_lgBF_03.wav -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\mvt_bazooka_smBF.wav    -resample ps2 16000 xbox 22050 pc 22050
+#endifplatform ps2 xbox pc
 
 // ---------------------------------------------------------------------------------------------------------------------
 
@@ -234,172 +234,172 @@
 
 // Object Explosions ---------------------------------------------------------------------------------------------
 // --- Huge -----
-#ifplatform pc
-..\..\global\effects\exp_obj_huge01.wav          -resample pc 44100
-..\..\global\effects\exp_obj_huge02.wav          -resample pc 44100
-..\..\global\effects\exp_obj_huge03.wav          -resample pc 44100
-..\..\global\effects\exp_obj_huge04.wav          -resample pc 44100
-..\..\global\effects\exp_obj_huge05.wav          -resample pc 44100
-#endifplatform pc
+#ifplatform ps2 xbox pc
+..\..\global\effects\exp_obj_huge01.wav          -resample ps2 20000 xbox 22050 pc 44100
+..\..\global\effects\exp_obj_huge02.wav          -resample ps2 20000 xbox 22050 pc 44100
+..\..\global\effects\exp_obj_huge03.wav          -resample ps2 20000 xbox 22050 pc 44100
+..\..\global\effects\exp_obj_huge04.wav          -resample ps2 20000 xbox 22050 pc 44100
+..\..\global\effects\exp_obj_huge05.wav          -resample ps2 20000 xbox 22050 pc 44100
+#endifplatform ps2 xbox pc
 
 
 // ----- Large -----
-#ifplatform pc
-..\..\global\effects\exp_obj_large04.wav          -resample pc 44100
-..\..\global\effects\exp_obj_large02.wav          -resample pc 44100
-..\..\global\effects\exp_obj_large05.wav          -resample pc 44100
-..\..\global\effects\exp_obj_large01.wav          -resample pc 44100
-..\..\global\effects\exp_distant_large02.wav      -resample pc 22050
-..\..\global\effects\exp_distant_large01.wav      -resample pc 22050
-..\..\global\effects\exp_verydistant_large01.wav  -resample pc 320
-..\..\global\effects\exp_verydistant_large02.wav  -resample pc 320
-#endifplatform pc
+#ifplatform ps2 xbox pc
+..\..\global\effects\exp_obj_large04.wav          -resample ps2 16000 xbox 22050 pc 44100
+..\..\global\effects\exp_obj_large02.wav          -resample ps2 16000 xbox 22050 pc 44100
+..\..\global\effects\exp_obj_large05.wav          -resample ps2 16000 xbox 22050 pc 44100
+..\..\global\effects\exp_obj_large01.wav          -resample ps2 16000 xbox 22050 pc 44100
+..\..\global\effects\exp_distant_large02.wav      -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\exp_distant_large01.wav      -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\exp_verydistant_large01.wav  -resample ps2 320 xbox 320 pc 320
+..\..\global\effects\exp_verydistant_large02.wav  -resample ps2 320 xbox 320 pc 320
+#endifplatform ps2 xbox pc
 
 
 // ----- Medium ----- Orbital Strike Combatspeeder Fightertank
-#ifplatform pc
-..\..\global\effects\exp_obj_med05.wav            -resample pc 44100
-..\..\global\effects\exp_obj_med04.wav            -resample pc 44100
-..\..\global\effects\exp_obj_med03.wav            -resample pc 44100
-..\..\global\effects\exp_obj_med02.wav            -resample pc 44100
-..\..\global\effects\exp_obj_med01.wav            -resample pc 44100
-..\..\global\effects\exp_distant_medium01.wav     -resample pc 22050
-..\..\global\effects\exp_distant_medium02.wav     -resample pc 22050
-..\..\global\effects\exp_verydistant_medium01.wav -resample pc 320
-..\..\global\effects\exp_verydistant_medium02.wav -resample pc 320
-#endifplatform pc
+#ifplatform ps2 xbox pc
+..\..\global\effects\exp_obj_med05.wav            -resample ps2 20000 xbox 22050 pc 44100
+..\..\global\effects\exp_obj_med04.wav            -resample ps2 20000 xbox 22050  pc 44100
+..\..\global\effects\exp_obj_med03.wav            -resample ps2 20000 xbox 22050  pc 44100
+..\..\global\effects\exp_obj_med02.wav            -resample ps2 20000 xbox 22050  pc 44100
+..\..\global\effects\exp_obj_med01.wav            -resample ps2 20000 xbox 22050  pc 44100
+..\..\global\effects\exp_distant_medium01.wav     -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\exp_distant_medium02.wav     -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\exp_verydistant_medium01.wav -resample ps2 320 xbox 320 pc 320
+..\..\global\effects\exp_verydistant_medium02.wav -resample ps2 320 xbox 320 pc 320
+#endifplatform ps2 xbox pc
 
 // ----- Small ------ STAP Speederbike GunTurrets Droideka Large Blaster Ordnance
-#ifplatform pc
-..\..\global\effects\exp_obj_small01.wav          -resample pc 44100
-..\..\global\effects\exp_obj_small02.wav          -resample pc 44100
-..\..\global\effects\exp_obj_small03.wav          -resample pc 44100
-..\..\global\effects\exp_obj_small04.wav          -resample pc 44100
-..\..\global\effects\exp_obj_small05.wav          -resample pc 44100
-..\..\global\effects\exp_distant_small02.wav      -resample pc 22050
-..\..\global\effects\exp_distant_small01.wav      -resample pc 22050
-..\..\global\effects\exp_verydistant_small01.wav  -resample pc 320
-..\..\global\effects\exp_verydistant_small02.wav  -resample pc 320
-#endifplatform pc
+#ifplatform ps2 xbox pc
+..\..\global\effects\exp_obj_small01.wav          -resample ps2 20000 xbox 22050 pc 44100
+..\..\global\effects\exp_obj_small02.wav          -resample ps2 20000 xbox 22050 pc 44100
+..\..\global\effects\exp_obj_small03.wav          -resample ps2 20000 xbox 22050 pc 44100
+..\..\global\effects\exp_obj_small04.wav          -resample ps2 20000 xbox 22050 pc 44100
+..\..\global\effects\exp_obj_small05.wav          -resample ps2 20000 xbox 22050 pc 44100
+..\..\global\effects\exp_distant_small02.wav      -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\exp_distant_small01.wav      -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\exp_verydistant_small01.wav  -resample ps2 320 xbox 320 pc 320
+..\..\global\effects\exp_verydistant_small02.wav  -resample ps2 320 xbox 320 pc 320
+#endifplatform ps2 xbox pc
 
 // --------------------------------------------------------------------------------------------------------------
 
 // Sub Explosions ------------------------------------------------------------------------------------------------
 // ----- Pop -----
-#ifplatform pc
-..\..\global\effects\exp_sub01.wav      -resample pc 22050
-..\..\global\effects\exp_sub02.wav      -resample pc 22050
-..\..\global\effects\exp_sub03.wav      -resample pc 22050
-#endifplatform pc
+#ifplatform ps2 xbox pc
+..\..\global\effects\exp_sub01.wav      -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\exp_sub02.wav      -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\exp_sub03.wav      -resample ps2 16000 xbox 22050 pc 22050
+#endifplatform ps2 xbox pc
 
 
 // ----- Hiss -----
-#ifplatform pc
-//..\..\global\effects\exp_sub04.wav      -resample pc 22050
-#endifplatform pc
+#ifplatform ps2 xbox pc
+//..\..\global\effects\exp_sub04.wav      -resample ps2 16000 xbox 22050 pc 22050
+#endifplatform ps2 xbox pc
 
 
 // ----- Pop and Hiss -----
-#ifplatform pc
-..\..\global\effects\exp_sub05.wav      -resample pc 22050
-..\..\global\effects\exp_sub06.wav      -resample pc 22050
-..\..\global\effects\exp_sub07.wav      -resample pc 22050
-..\..\global\effects\exp_sub08.wav      -resample pc 22050
-#endifplatform pc
+#ifplatform ps2 xbox pc
+..\..\global\effects\exp_sub05.wav      -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\exp_sub06.wav      -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\exp_sub07.wav      -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\exp_sub08.wav      -resample ps2 16000 xbox 22050 pc 22050
+#endifplatform ps2 xbox pc
 
 // -------------------------------------------------------------------------------------------------------------
 
 
 // ----- Alliance Unit Weapons ------------------------------------------------------------------------
-#ifplatform pc
-..\..\gcw\effects\wpn_all_blaster_fire.wav      -resample pc 44100
-..\..\gcw\effects\wpn_all_pistol_fire.wav       -resample pc 44100
-..\..\gcw\effects\wpn_all_torplauncher_fire.wav -resample pc 44100
-..\..\gcw\effects\wpn_all_bowcaster_fire.wav    -resample pc 44100
-..\..\gcw\effects\wpn_bowcaster_chargeup.wav    -resample pc 44100
-..\..\gcw\effects\wpn_all_sniperrifle_fire.wav  -resample pc 44100
-#endifplatform pc
+#ifplatform ps2 xbox pc
+..\..\gcw\effects\wpn_all_blaster_fire.wav      -resample ps2 16000 xbox 20000 pc 44100
+..\..\gcw\effects\wpn_all_pistol_fire.wav       -resample ps2 16000 xbox 22050 pc 44100
+..\..\gcw\effects\wpn_all_torplauncher_fire.wav -resample ps2 16000 xbox 22050 pc 44100
+..\..\gcw\effects\wpn_all_bowcaster_fire.wav    -resample ps2 16000 xbox 22050 pc 44100
+..\..\gcw\effects\wpn_bowcaster_chargeup.wav    -resample ps2 16000 xbox 22050 pc 44100
+..\..\gcw\effects\wpn_all_sniperrifle_fire.wav  -resample ps2 16000 xbox 22050 pc 44100
+#endifplatform ps2 xbox pc
 
 
 // ----- Imperial Unit Weapons ------------------------------------------------------------------------
-#ifplatform pc
-..\..\gcw\effects\wpn_imp_blaster_fire.wav      -resample pc 44100
-..\..\gcw\effects\wpn_imp_pistol_fire.wav       -resample pc 44100
-..\..\gcw\effects\wpn_imp_sniperrifle_fire.wav  -resample pc 44100
-..\..\gcw\effects\wpn_imp_mortar_fire.wav       -resample pc 44100
-#endifplatform pc
+#ifplatform ps2 xbox pc
+..\..\gcw\effects\wpn_imp_blaster_fire.wav      -resample ps2 16000 xbox 22050 pc 44100
+..\..\gcw\effects\wpn_imp_pistol_fire.wav       -resample ps2 16000 xbox 20000 pc 44100
+..\..\gcw\effects\wpn_imp_sniperrifle_fire.wav  -resample ps2 16000 xbox 22050 pc 44100
+..\..\gcw\effects\wpn_imp_mortar_fire.wav       -resample ps2 16000 xbox 22050 pc 44100
+#endifplatform ps2 xbox pc
 
 // GCW Unit Weapons ------------------------------------------------------------------------------------------
-#ifplatform pc
-..\..\gcw\effects\wpn_all_unit_lockon_lp.wav     -resample pc 22050
-//..\..\gcw\effects\wpn_all_vehicle_lockon_lp.wav  -resample pc 22050
-..\..\gcw\effects\wpn_imp_unit_lockon_lp.wav     -resample pc 22050
-//..\..\gcw\effects\wpn_imp_vehicle_lockon_lp.wav  -resample pc 22050
-..\..\gcw\effects\crtr_vader_breath_lp.wav       -resample pc 22050
-#endifplatform pc
+#ifplatform ps2 xbox pc
+..\..\gcw\effects\wpn_all_unit_lockon_lp.wav     -resample ps2 16000 xbox 22050 pc 22050
+//..\..\gcw\effects\wpn_all_vehicle_lockon_lp.wav  -resample ps2 16000 xbox 22050 pc 22050
+..\..\gcw\effects\wpn_imp_unit_lockon_lp.wav     -resample ps2 16000 xbox 22050 pc 22050
+//..\..\gcw\effects\wpn_imp_vehicle_lockon_lp.wav  -resample ps2 16000 xbox 22050 pc 22050
+..\..\gcw\effects\crtr_vader_breath_lp.wav       -resample ps2 16000 xbox 22050 pc 22050
+#endifplatform ps2 xbox pc
 
 
 // ----- GCW Equip --------------------------------------------------------------------------------------------
-#ifplatform pc
-..\..\gcw\effects\wpn_rebel_lgEquip.wav       -resample pc 22050
-..\..\gcw\effects\wpn_rebel_medEquip.wav      -resample pc 22050
-..\..\gcw\effects\wpn_rebel_smlEquip.wav      -resample pc 22050
-..\..\gcw\effects\wpn_empire_lgEquip.wav      -resample pc 22050
-..\..\gcw\effects\wpn_empire_medEquip.wav     -resample pc 22050
-..\..\gcw\effects\wpn_empire_smlEquip.wav     -resample pc 22050
-#endifplatform pc
+#ifplatform ps2 xbox pc
+..\..\gcw\effects\wpn_rebel_lgEquip.wav       -resample ps2 16000 xbox 22050 pc 22050
+..\..\gcw\effects\wpn_rebel_medEquip.wav      -resample ps2 16000 xbox 22050 pc 22050
+..\..\gcw\effects\wpn_rebel_smlEquip.wav      -resample ps2 16000 xbox 22050 pc 22050
+..\..\gcw\effects\wpn_empire_lgEquip.wav      -resample ps2 16000 xbox 22050 pc 22050
+..\..\gcw\effects\wpn_empire_medEquip.wav     -resample ps2 16000 xbox 22050 pc 22050
+..\..\gcw\effects\wpn_empire_smlEquip.wav     -resample ps2 16000 xbox 22050 pc 22050
+#endifplatform ps2 xbox pc
 
 
 // ----- GCW Reload --------------------------------------------------------------------------------------------
-#ifplatform pc
-..\..\gcw\effects\wpn_rebel_medReload.wav    -resample pc 22050
-..\..\gcw\effects\wpn_rebel_lgReload.wav     -resample pc 22050
-..\..\gcw\effects\wpn_empire_medReload.wav   -resample pc 22050
-..\..\gcw\effects\wpn_empire_lgReload.wav    -resample pc 22050
-#endifplatform pc
+#ifplatform ps2 xbox pc
+..\..\gcw\effects\wpn_rebel_medReload.wav    -resample ps2 16000 xbox 22050 pc 22050
+..\..\gcw\effects\wpn_rebel_lgReload.wav     -resample ps2 16000 xbox 22050 pc 22050
+..\..\gcw\effects\wpn_empire_medReload.wav   -resample ps2 16000 xbox 22050 pc 22050
+..\..\gcw\effects\wpn_empire_lgReload.wav    -resample ps2 16000 xbox 22050 pc 22050
+#endifplatform ps2 xbox pc
 
 // --------------------------------------------------------------------------------------------------------------
 
 // ----- Imperial Sith Probe Droid Ordnance -----
-#ifplatform pc
-..\..\global\effects\droid_probe_beeps_01.wav   -resample pc 22050
-..\..\global\effects\droid_probe_beeps_02.wav   -resample pc 22050
-..\..\global\effects\droid_probe_beeps_03.wav   -resample pc 22050
-..\..\global\effects\droid_probe_beeps_04.wav   -resample pc 22050
-..\..\global\effects\droid_probe_beeps_05.wav   -resample pc 22050
-..\..\global\effects\droid_probe_eng_lp.wav     -resample pc 22050
-#endifplatform pc
+#ifplatform ps2 xbox pc
+..\..\global\effects\droid_probe_beeps_01.wav   -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\droid_probe_beeps_02.wav   -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\droid_probe_beeps_03.wav   -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\droid_probe_beeps_04.wav   -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\droid_probe_beeps_05.wav   -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\droid_probe_eng_lp.wav     -resample ps2 16000 xbox 22050 pc 22050
+#endifplatform ps2 xbox pc
 
 // -------------------------------------------------------------------------------------------------------------------
 
 // Unit Pain Chatter VO -----------------------------------------------------------------------------------------
 
 // ----- Alliance -----
-..\..\gcw\effects\AICOM401.wav -resample pc 22050
-..\..\gcw\effects\AICOM402.wav -resample pc 22050
-..\..\gcw\effects\AICOM403.wav -resample pc 22050
-..\..\gcw\effects\AICOM404.wav -resample pc 22050
-..\..\gcw\effects\AICOM405.wav -resample pc 22050
-..\..\gcw\effects\AICOM406.wav -resample pc 22050
+..\..\gcw\effects\AICOM401.wav -resample ps2 16000 xbox 22050 pc 22050
+..\..\gcw\effects\AICOM402.wav -resample ps2 16000 xbox 22050 pc 22050
+..\..\gcw\effects\AICOM403.wav -resample ps2 16000 xbox 22050 pc 22050
+..\..\gcw\effects\AICOM404.wav -resample ps2 16000 xbox 22050 pc 22050
+..\..\gcw\effects\AICOM405.wav -resample ps2 16000 xbox 22050 pc 22050
+..\..\gcw\effects\AICOM406.wav -resample ps2 16000 xbox 22050 pc 22050
 
 // ----- Imperial -----
-..\..\gcw\effects\IICOM416.wav -resample pc 22050
-..\..\gcw\effects\IICOM417.wav -resample pc 22050
-..\..\gcw\effects\IICOM418.wav -resample pc 22050
-..\..\gcw\effects\IICOM419.wav -resample pc 22050
-..\..\gcw\effects\IICOM420.wav -resample pc 22050
-..\..\gcw\effects\IICOM421.wav -resample pc 22050
+..\..\gcw\effects\IICOM416.wav -resample ps2 16000 xbox 22050 pc 22050
+..\..\gcw\effects\IICOM417.wav -resample ps2 16000 xbox 22050 pc 22050
+..\..\gcw\effects\IICOM418.wav -resample ps2 16000 xbox 22050 pc 22050
+..\..\gcw\effects\IICOM419.wav -resample ps2 16000 xbox 22050 pc 22050
+..\..\gcw\effects\IICOM420.wav -resample ps2 16000 xbox 22050 pc 22050
+..\..\gcw\effects\IICOM421.wav -resample ps2 16000 xbox 22050 pc 22050
 
 // ----- Wookiee Chatter ---------------------------------------------------------------------------
-#ifplatform pc
-..\..\global\effects\crtr_wookiee_chatter_01.wav     -resample pc 22050
-..\..\global\effects\crtr_wookiee_chatter_02.wav     -resample pc 22050
-..\..\global\effects\crtr_wookiee_chatter_03.wav     -resample pc 22050
-..\..\global\effects\crtr_wookiee_chatter_05.wav     -resample pc 22050
-..\..\global\effects\crtr_wookiee_chatter_06.wav     -resample pc 22050
-..\..\global\effects\crtr_wookiee_death.wav          -resample pc 22050
-..\..\global\effects\crtr_wookiee_hurt.wav           -resample pc 22050
-#endifplatform pc
+#ifplatform ps2 xbox pc
+..\..\global\effects\crtr_wookiee_chatter_01.wav     -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\crtr_wookiee_chatter_02.wav     -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\crtr_wookiee_chatter_03.wav     -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\crtr_wookiee_chatter_05.wav     -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\crtr_wookiee_chatter_06.wav     -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\crtr_wookiee_death.wav          -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\crtr_wookiee_hurt.wav           -resample ps2 16000 xbox 22050 pc 22050
+#endifplatform ps2 xbox pc
 
 
 /////// Common to Units --------------------------------------------------------------------------------------------------
@@ -408,314 +408,314 @@
 /////// Common to Vehicles ///////// -------------------------------------------------------------------------------------
 
 // Vehicle Equip
-..\..\global\effects\wpn_vehicle_weaponEquip.wav     -resample pc 22050
+..\..\global\effects\wpn_vehicle_weaponEquip.wav     -resample ps2 16000 xbox 22050 pc 22050
 
 /////// Map Specific ///////// --------------------------------------------------------------------------------------------
 
 //Orbital Bombardment -----------------------------------------------------------------------------------------------------
-#ifplatform pc
-effects\emt_orbitalBombardment_02.wav rumble1 -resample pc 22050
-effects\emt_orbitalBombardment_01.wav rumble2 -resample pc 22050
-#endifplatform pc
+#ifplatform ps2 xbox pc
+effects\emt_orbitalBombardment_02.wav rumble1 -resample ps2 16000 xbox 22050 pc 22050
+effects\emt_orbitalBombardment_01.wav rumble2 -resample ps2 16000 xbox 22050 pc 22050
+#endifplatform ps2 xbox pc
 
 
 
 // Trooper Foley ----------------------------------------------------------------------------------------------------------
-#ifplatform pc
-..\..\global\effects\mvt_trooper_squat.wav          -resample pc 22050
-#endifplatform pc
+#ifplatform ps2 xbox pc
+..\..\global\effects\mvt_trooper_squat.wav          -resample ps2 16000 xbox 22050 pc 22050
+#endifplatform ps2 xbox pc
 
 
 //-- snow - Walkways etc.
-#ifplatform pc
-..\..\global\effects\mvt_trooper_getup_snow.wav         -resample pc 22050
-..\..\global\effects\mvt_trooper_jump_snow.wav          -resample pc 22050
-..\..\global\effects\mvt_trooper_land_snow.wav          -resample pc 22050
-..\..\global\effects\mvt_trooper_Snow_lgBF_01.wav       -resample pc 22050
-..\..\global\effects\mvt_trooper_Snow_lgBF_02.wav       -resample pc 22050
-..\..\global\effects\mvt_trooper_Snow_lgBF_03.wav       -resample pc 22050
-..\..\global\effects\mvt_trooper_Snow_smBF.wav          -resample pc 22050
-..\..\global\effects\mvt_trooper_lie_snow.wav           -resample pc 22050
-..\..\global\effects\mvt_trooper_roll_snow.wav          -resample pc 22050
-..\..\global\effects\mvt_trooper_run_snow_L01.wav       -resample pc 22050
-..\..\global\effects\mvt_trooper_run_snow_L02.wav       -resample pc 22050
-..\..\global\effects\mvt_trooper_run_snow_L03.wav       -resample pc 22050
-..\..\global\effects\mvt_trooper_run_snow_L04.wav       -resample pc 22050
-..\..\global\effects\mvt_trooper_run_snow_R01.wav       -resample pc 22050
-..\..\global\effects\mvt_trooper_run_snow_R02.wav       -resample pc 22050
-..\..\global\effects\mvt_trooper_run_snow_R03.wav       -resample pc 22050
-..\..\global\effects\mvt_trooper_run_snow_R04.wav       -resample pc 22050
-..\..\global\effects\mvt_trooper_walk_snow_L01.wav      -resample pc 22050
-..\..\global\effects\mvt_trooper_walk_snow_L02.wav      -resample pc 22050
-..\..\global\effects\mvt_trooper_walk_snow_L03.wav      -resample pc 22050
-..\..\global\effects\mvt_trooper_walk_snow_L04.wav      -resample pc 22050
-..\..\global\effects\mvt_trooper_walk_snow_R01.wav      -resample pc 22050
-..\..\global\effects\mvt_trooper_walk_snow_R02.wav      -resample pc 22050
-..\..\global\effects\mvt_trooper_walk_snow_R03.wav      -resample pc 22050
-..\..\global\effects\mvt_trooper_walk_snow_R04.wav      -resample pc 22050
-..\..\global\effects\mvt_trooper_stop_snow.wav          -resample pc 22050
-#endifplatform pc
+#ifplatform ps2 xbox pc
+..\..\global\effects\mvt_trooper_getup_snow.wav         -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\mvt_trooper_jump_snow.wav          -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\mvt_trooper_land_snow.wav          -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\mvt_trooper_Snow_lgBF_01.wav       -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\mvt_trooper_Snow_lgBF_02.wav       -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\mvt_trooper_Snow_lgBF_03.wav       -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\mvt_trooper_Snow_smBF.wav          -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\mvt_trooper_lie_snow.wav           -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\mvt_trooper_roll_snow.wav          -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\mvt_trooper_run_snow_L01.wav       -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\mvt_trooper_run_snow_L02.wav       -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\mvt_trooper_run_snow_L03.wav       -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\mvt_trooper_run_snow_L04.wav       -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\mvt_trooper_run_snow_R01.wav       -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\mvt_trooper_run_snow_R02.wav       -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\mvt_trooper_run_snow_R03.wav       -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\mvt_trooper_run_snow_R04.wav       -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\mvt_trooper_walk_snow_L01.wav      -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\mvt_trooper_walk_snow_L02.wav      -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\mvt_trooper_walk_snow_L03.wav      -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\mvt_trooper_walk_snow_L04.wav      -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\mvt_trooper_walk_snow_R01.wav      -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\mvt_trooper_walk_snow_R02.wav      -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\mvt_trooper_walk_snow_R03.wav      -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\mvt_trooper_walk_snow_R04.wav      -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\mvt_trooper_stop_snow.wav          -resample ps2 16000 xbox 22050 pc 22050
+#endifplatform ps2 xbox pc
 
 
 //-- Stone - Walkways etc.
-#ifplatform pc
-..\..\global\effects\mvt_trooper_getup_Stone.wav         -resample pc 22050
-..\..\global\effects\mvt_trooper_jump_Stone.wav          -resample pc 22050
-..\..\global\effects\mvt_trooper_land_Stone.wav          -resample pc 22050
-..\..\global\effects\mvt_trooper_Stone_lgBF_01.wav       -resample pc 22050
-..\..\global\effects\mvt_trooper_Stone_lgBF_02.wav       -resample pc 22050
-..\..\global\effects\mvt_trooper_Stone_lgBF_03.wav       -resample pc 22050
-..\..\global\effects\mvt_trooper_Stone_smBF.wav          -resample pc 22050
-..\..\global\effects\mvt_trooper_lie_Stone.wav           -resample pc 22050
-..\..\global\effects\mvt_trooper_roll_Stone.wav          -resample pc 22050
-..\..\global\effects\mvt_trooper_run_Stone_L01.wav       -resample pc 22050
-..\..\global\effects\mvt_trooper_run_Stone_L02.wav       -resample pc 22050
-..\..\global\effects\mvt_trooper_run_Stone_L03.wav       -resample pc 22050
-..\..\global\effects\mvt_trooper_run_Stone_L04.wav       -resample pc 22050
-..\..\global\effects\mvt_trooper_run_Stone_R01.wav       -resample pc 22050
-..\..\global\effects\mvt_trooper_run_Stone_R02.wav       -resample pc 22050
-..\..\global\effects\mvt_trooper_run_Stone_R03.wav       -resample pc 22050
-..\..\global\effects\mvt_trooper_run_Stone_R04.wav       -resample pc 22050
-..\..\global\effects\mvt_trooper_walk_Stone_L01.wav      -resample pc 22050
-..\..\global\effects\mvt_trooper_walk_Stone_L02.wav      -resample pc 22050
-..\..\global\effects\mvt_trooper_walk_Stone_L03.wav      -resample pc 22050
-..\..\global\effects\mvt_trooper_walk_Stone_L04.wav      -resample pc 22050
-..\..\global\effects\mvt_trooper_walk_Stone_R01.wav      -resample pc 22050
-..\..\global\effects\mvt_trooper_walk_Stone_R02.wav      -resample pc 22050
-..\..\global\effects\mvt_trooper_walk_Stone_R03.wav      -resample pc 22050
-..\..\global\effects\mvt_trooper_walk_Stone_R04.wav      -resample pc 22050
-..\..\global\effects\mvt_trooper_stop_Stone.wav          -resample pc 22050
-#endifplatform pc
+#ifplatform ps2 xbox pc
+..\..\global\effects\mvt_trooper_getup_Stone.wav         -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\mvt_trooper_jump_Stone.wav          -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\mvt_trooper_land_Stone.wav          -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\mvt_trooper_Stone_lgBF_01.wav       -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\mvt_trooper_Stone_lgBF_02.wav       -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\mvt_trooper_Stone_lgBF_03.wav       -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\mvt_trooper_Stone_smBF.wav          -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\mvt_trooper_lie_Stone.wav           -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\mvt_trooper_roll_Stone.wav          -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\mvt_trooper_run_Stone_L01.wav       -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\mvt_trooper_run_Stone_L02.wav       -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\mvt_trooper_run_Stone_L03.wav       -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\mvt_trooper_run_Stone_L04.wav       -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\mvt_trooper_run_Stone_R01.wav       -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\mvt_trooper_run_Stone_R02.wav       -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\mvt_trooper_run_Stone_R03.wav       -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\mvt_trooper_run_Stone_R04.wav       -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\mvt_trooper_walk_Stone_L01.wav      -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\mvt_trooper_walk_Stone_L02.wav      -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\mvt_trooper_walk_Stone_L03.wav      -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\mvt_trooper_walk_Stone_L04.wav      -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\mvt_trooper_walk_Stone_R01.wav      -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\mvt_trooper_walk_Stone_R02.wav      -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\mvt_trooper_walk_Stone_R03.wav      -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\mvt_trooper_walk_Stone_R04.wav      -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\mvt_trooper_stop_Stone.wav          -resample ps2 16000 xbox 22050 pc 22050
+#endifplatform ps2 xbox pc
 
 
 //-- Metal - Walkways etc.
-#ifplatform pc
-..\..\global\effects\mvt_trooper_getup_Metal.wav         -resample pc 22050
-..\..\global\effects\mvt_trooper_jump_Metal.wav          -resample pc 22050
-..\..\global\effects\mvt_trooper_land_Metal.wav          -resample pc 22050
-..\..\global\effects\mvt_trooper_Metal_lgBF_01.wav       -resample pc 22050
-..\..\global\effects\mvt_trooper_Metal_lgBF_02.wav       -resample pc 22050
-..\..\global\effects\mvt_trooper_Metal_lgBF_03.wav       -resample pc 22050
-..\..\global\effects\mvt_trooper_Metal_smBF.wav          -resample pc 22050
-..\..\global\effects\mvt_trooper_lie_Metal.wav           -resample pc 22050
-..\..\global\effects\mvt_trooper_roll_Metal.wav          -resample pc 22050
-..\..\global\effects\mvt_trooper_run_Metal_L01.wav       -resample pc 22050
-..\..\global\effects\mvt_trooper_run_Metal_L02.wav       -resample pc 22050
-..\..\global\effects\mvt_trooper_run_Metal_L03.wav       -resample pc 22050
-..\..\global\effects\mvt_trooper_run_Metal_L04.wav       -resample pc 22050
-..\..\global\effects\mvt_trooper_run_Metal_R01.wav       -resample pc 22050
-..\..\global\effects\mvt_trooper_run_Metal_R02.wav       -resample pc 22050
-..\..\global\effects\mvt_trooper_run_Metal_R03.wav       -resample pc 22050
-..\..\global\effects\mvt_trooper_run_Metal_R04.wav       -resample pc 22050
-..\..\global\effects\mvt_trooper_walk_Metal_L01.wav      -resample pc 22050
-..\..\global\effects\mvt_trooper_walk_Metal_L02.wav      -resample pc 22050
-..\..\global\effects\mvt_trooper_walk_Metal_L03.wav      -resample pc 22050
-..\..\global\effects\mvt_trooper_walk_Metal_L04.wav      -resample pc 22050
-..\..\global\effects\mvt_trooper_walk_Metal_R01.wav      -resample pc 22050
-..\..\global\effects\mvt_trooper_walk_Metal_R02.wav      -resample pc 22050
-..\..\global\effects\mvt_trooper_walk_Metal_R03.wav      -resample pc 22050
-..\..\global\effects\mvt_trooper_walk_Metal_R04.wav      -resample pc 22050
-..\..\global\effects\mvt_trooper_stop_Metal.wav          -resample pc 22050
-#endifplatform pc
+#ifplatform ps2 xbox pc
+..\..\global\effects\mvt_trooper_getup_Metal.wav         -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\mvt_trooper_jump_Metal.wav          -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\mvt_trooper_land_Metal.wav          -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\mvt_trooper_Metal_lgBF_01.wav       -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\mvt_trooper_Metal_lgBF_02.wav       -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\mvt_trooper_Metal_lgBF_03.wav       -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\mvt_trooper_Metal_smBF.wav          -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\mvt_trooper_lie_Metal.wav           -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\mvt_trooper_roll_Metal.wav          -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\mvt_trooper_run_Metal_L01.wav       -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\mvt_trooper_run_Metal_L02.wav       -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\mvt_trooper_run_Metal_L03.wav       -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\mvt_trooper_run_Metal_L04.wav       -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\mvt_trooper_run_Metal_R01.wav       -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\mvt_trooper_run_Metal_R02.wav       -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\mvt_trooper_run_Metal_R03.wav       -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\mvt_trooper_run_Metal_R04.wav       -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\mvt_trooper_walk_Metal_L01.wav      -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\mvt_trooper_walk_Metal_L02.wav      -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\mvt_trooper_walk_Metal_L03.wav      -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\mvt_trooper_walk_Metal_L04.wav      -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\mvt_trooper_walk_Metal_R01.wav      -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\mvt_trooper_walk_Metal_R02.wav      -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\mvt_trooper_walk_Metal_R03.wav      -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\mvt_trooper_walk_Metal_R04.wav      -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\mvt_trooper_stop_Metal.wav          -resample ps2 16000 xbox 22050 pc 22050
+#endifplatform ps2 xbox pc
 
 
 // Soldier Foley Effects --------------------------------------------------------------------------------------------------
 // Terrain Independent Foley
-#ifplatform pc
-..\..\gcw\effects\mvt_Soldier_squat.wav       -resample   pc 22050
-#endifplatform pc
+#ifplatform ps2 xbox pc
+..\..\gcw\effects\mvt_Soldier_squat.wav       -resample   ps2 16000 xbox 22050 pc 22050
+#endifplatform ps2 xbox pc
 
 
 //-- snow - Walkways etc.
-#ifplatform pc
-..\..\gcw\effects\mvt_Soldier_getup_snow.wav         -resample pc 22050
-..\..\gcw\effects\mvt_Soldier_jump_snow.wav          -resample pc 22050
-..\..\gcw\effects\mvt_Soldier_land_snow.wav          -resample pc 22050
-..\..\gcw\effects\mvt_Soldier_Snow_lgBF_01.wav       -resample pc 22050
-..\..\gcw\effects\mvt_Soldier_Snow_lgBF_02.wav       -resample pc 22050
-..\..\gcw\effects\mvt_Soldier_Snow_smBF.wav          -resample pc 22050
-..\..\gcw\effects\mvt_Soldier_lie_snow.wav           -resample pc 22050
-..\..\gcw\effects\mvt_Soldier_roll_snow.wav          -resample pc 22050
-..\..\gcw\effects\mvt_Soldier_run_snow_L01.wav       -resample pc 22050
-..\..\gcw\effects\mvt_Soldier_run_snow_L02.wav       -resample pc 22050
-..\..\gcw\effects\mvt_Soldier_run_snow_L03.wav       -resample pc 22050
-..\..\gcw\effects\mvt_Soldier_run_snow_L04.wav       -resample pc 22050
-..\..\gcw\effects\mvt_Soldier_run_snow_R01.wav       -resample pc 22050
-..\..\gcw\effects\mvt_Soldier_run_snow_R02.wav       -resample pc 22050
-..\..\gcw\effects\mvt_Soldier_run_snow_R03.wav       -resample pc 22050
-..\..\gcw\effects\mvt_Soldier_run_snow_R04.wav       -resample pc 22050
-..\..\gcw\effects\mvt_Soldier_walk_snow_L01.wav      -resample pc 22050
-..\..\gcw\effects\mvt_Soldier_walk_snow_L02.wav      -resample pc 22050
-..\..\gcw\effects\mvt_Soldier_walk_snow_L03.wav      -resample pc 22050
-..\..\gcw\effects\mvt_Soldier_walk_snow_L04.wav      -resample pc 22050
-..\..\gcw\effects\mvt_Soldier_walk_snow_R01.wav      -resample pc 22050
-..\..\gcw\effects\mvt_Soldier_walk_snow_R02.wav      -resample pc 22050
-..\..\gcw\effects\mvt_Soldier_walk_snow_R03.wav      -resample pc 22050
-..\..\gcw\effects\mvt_Soldier_walk_snow_R04.wav      -resample pc 22050
-..\..\gcw\effects\mvt_Soldier_stop_snow.wav          -resample pc 22050
-#endifplatform pc
+#ifplatform ps2 xbox pc
+..\..\gcw\effects\mvt_Soldier_getup_snow.wav         -resample ps2 16000 xbox 22050 pc 22050
+..\..\gcw\effects\mvt_Soldier_jump_snow.wav          -resample ps2 16000 xbox 22050 pc 22050
+..\..\gcw\effects\mvt_Soldier_land_snow.wav          -resample ps2 16000 xbox 22050 pc 22050
+..\..\gcw\effects\mvt_Soldier_Snow_lgBF_01.wav       -resample ps2 16000 xbox 22050 pc 22050
+..\..\gcw\effects\mvt_Soldier_Snow_lgBF_02.wav       -resample ps2 16000 xbox 22050 pc 22050
+..\..\gcw\effects\mvt_Soldier_Snow_smBF.wav          -resample ps2 16000 xbox 22050 pc 22050
+..\..\gcw\effects\mvt_Soldier_lie_snow.wav           -resample ps2 16000 xbox 22050 pc 22050
+..\..\gcw\effects\mvt_Soldier_roll_snow.wav          -resample ps2 16000 xbox 22050 pc 22050
+..\..\gcw\effects\mvt_Soldier_run_snow_L01.wav       -resample ps2 16000 xbox 22050 pc 22050
+..\..\gcw\effects\mvt_Soldier_run_snow_L02.wav       -resample ps2 16000 xbox 22050 pc 22050
+..\..\gcw\effects\mvt_Soldier_run_snow_L03.wav       -resample ps2 16000 xbox 22050 pc 22050
+..\..\gcw\effects\mvt_Soldier_run_snow_L04.wav       -resample ps2 16000 xbox 22050 pc 22050
+..\..\gcw\effects\mvt_Soldier_run_snow_R01.wav       -resample ps2 16000 xbox 22050 pc 22050
+..\..\gcw\effects\mvt_Soldier_run_snow_R02.wav       -resample ps2 16000 xbox 22050 pc 22050
+..\..\gcw\effects\mvt_Soldier_run_snow_R03.wav       -resample ps2 16000 xbox 22050 pc 22050
+..\..\gcw\effects\mvt_Soldier_run_snow_R04.wav       -resample ps2 16000 xbox 22050 pc 22050
+..\..\gcw\effects\mvt_Soldier_walk_snow_L01.wav      -resample ps2 16000 xbox 22050 pc 22050
+..\..\gcw\effects\mvt_Soldier_walk_snow_L02.wav      -resample ps2 16000 xbox 22050 pc 22050
+..\..\gcw\effects\mvt_Soldier_walk_snow_L03.wav      -resample ps2 16000 xbox 22050 pc 22050
+..\..\gcw\effects\mvt_Soldier_walk_snow_L04.wav      -resample ps2 16000 xbox 22050 pc 22050
+..\..\gcw\effects\mvt_Soldier_walk_snow_R01.wav      -resample ps2 16000 xbox 22050 pc 22050
+..\..\gcw\effects\mvt_Soldier_walk_snow_R02.wav      -resample ps2 16000 xbox 22050 pc 22050
+..\..\gcw\effects\mvt_Soldier_walk_snow_R03.wav      -resample ps2 16000 xbox 22050 pc 22050
+..\..\gcw\effects\mvt_Soldier_walk_snow_R04.wav      -resample ps2 16000 xbox 22050 pc 22050
+..\..\gcw\effects\mvt_Soldier_stop_snow.wav          -resample ps2 16000 xbox 22050 pc 22050
+#endifplatform ps2 xbox pc
 
 
 //-- Stone - Walkways etc.
-#ifplatform pc
-..\..\gcw\effects\mvt_Soldier_getup_Stone.wav         -resample pc 22050
-..\..\gcw\effects\mvt_Soldier_jump_Stone.wav          -resample pc 22050
-..\..\gcw\effects\mvt_Soldier_land_Stone.wav          -resample pc 22050
-..\..\gcw\effects\mvt_Soldier_Stone_lgBF_01.wav       -resample pc 22050
-..\..\gcw\effects\mvt_Soldier_Stone_lgBF_02.wav       -resample pc 22050
-..\..\gcw\effects\mvt_Soldier_Stone_smBF.wav          -resample pc 22050
-..\..\gcw\effects\mvt_Soldier_lie_Stone.wav           -resample pc 22050
-..\..\gcw\effects\mvt_Soldier_roll_Stone.wav          -resample pc 22050
-..\..\gcw\effects\mvt_Soldier_run_Stone_L01.wav       -resample pc 22050
-..\..\gcw\effects\mvt_Soldier_run_Stone_L02.wav       -resample pc 22050
-..\..\gcw\effects\mvt_Soldier_run_Stone_L03.wav       -resample pc 22050
-..\..\gcw\effects\mvt_Soldier_run_Stone_L04.wav       -resample pc 22050
-..\..\gcw\effects\mvt_Soldier_run_Stone_R01.wav       -resample pc 22050
-..\..\gcw\effects\mvt_Soldier_run_Stone_R02.wav       -resample pc 22050
-..\..\gcw\effects\mvt_Soldier_run_Stone_R03.wav       -resample pc 22050
-..\..\gcw\effects\mvt_Soldier_run_Stone_R04.wav       -resample pc 22050
-..\..\gcw\effects\mvt_Soldier_walk_Stone_L01.wav      -resample pc 22050
-..\..\gcw\effects\mvt_Soldier_walk_Stone_L02.wav      -resample pc 22050
-..\..\gcw\effects\mvt_Soldier_walk_Stone_L03.wav      -resample pc 22050
-..\..\gcw\effects\mvt_Soldier_walk_Stone_L04.wav      -resample pc 22050
-..\..\gcw\effects\mvt_Soldier_walk_Stone_R01.wav      -resample pc 22050
-..\..\gcw\effects\mvt_Soldier_walk_Stone_R02.wav      -resample pc 22050
-..\..\gcw\effects\mvt_Soldier_walk_Stone_R03.wav      -resample pc 22050
-..\..\gcw\effects\mvt_Soldier_walk_Stone_R04.wav      -resample pc 22050
-..\..\gcw\effects\mvt_Soldier_stop_Stone.wav          -resample pc 22050
-#endifplatform pc
+#ifplatform ps2 xbox pc
+..\..\gcw\effects\mvt_Soldier_getup_Stone.wav         -resample ps2 16000 xbox 22050 pc 22050
+..\..\gcw\effects\mvt_Soldier_jump_Stone.wav          -resample ps2 16000 xbox 22050 pc 22050
+..\..\gcw\effects\mvt_Soldier_land_Stone.wav          -resample ps2 16000 xbox 22050 pc 22050
+..\..\gcw\effects\mvt_Soldier_Stone_lgBF_01.wav       -resample ps2 16000 xbox 22050 pc 22050
+..\..\gcw\effects\mvt_Soldier_Stone_lgBF_02.wav       -resample ps2 16000 xbox 22050 pc 22050
+..\..\gcw\effects\mvt_Soldier_Stone_smBF.wav          -resample ps2 16000 xbox 22050 pc 22050
+..\..\gcw\effects\mvt_Soldier_lie_Stone.wav           -resample ps2 16000 xbox 22050 pc 22050
+..\..\gcw\effects\mvt_Soldier_roll_Stone.wav          -resample ps2 16000 xbox 22050 pc 22050
+..\..\gcw\effects\mvt_Soldier_run_Stone_L01.wav       -resample ps2 16000 xbox 22050 pc 22050
+..\..\gcw\effects\mvt_Soldier_run_Stone_L02.wav       -resample ps2 16000 xbox 22050 pc 22050
+..\..\gcw\effects\mvt_Soldier_run_Stone_L03.wav       -resample ps2 16000 xbox 22050 pc 22050
+..\..\gcw\effects\mvt_Soldier_run_Stone_L04.wav       -resample ps2 16000 xbox 22050 pc 22050
+..\..\gcw\effects\mvt_Soldier_run_Stone_R01.wav       -resample ps2 16000 xbox 22050 pc 22050
+..\..\gcw\effects\mvt_Soldier_run_Stone_R02.wav       -resample ps2 16000 xbox 22050 pc 22050
+..\..\gcw\effects\mvt_Soldier_run_Stone_R03.wav       -resample ps2 16000 xbox 22050 pc 22050
+..\..\gcw\effects\mvt_Soldier_run_Stone_R04.wav       -resample ps2 16000 xbox 22050 pc 22050
+..\..\gcw\effects\mvt_Soldier_walk_Stone_L01.wav      -resample ps2 16000 xbox 22050 pc 22050
+..\..\gcw\effects\mvt_Soldier_walk_Stone_L02.wav      -resample ps2 16000 xbox 22050 pc 22050
+..\..\gcw\effects\mvt_Soldier_walk_Stone_L03.wav      -resample ps2 16000 xbox 22050 pc 22050
+..\..\gcw\effects\mvt_Soldier_walk_Stone_L04.wav      -resample ps2 16000 xbox 22050 pc 22050
+..\..\gcw\effects\mvt_Soldier_walk_Stone_R01.wav      -resample ps2 16000 xbox 22050 pc 22050
+..\..\gcw\effects\mvt_Soldier_walk_Stone_R02.wav      -resample ps2 16000 xbox 22050 pc 22050
+..\..\gcw\effects\mvt_Soldier_walk_Stone_R03.wav      -resample ps2 16000 xbox 22050 pc 22050
+..\..\gcw\effects\mvt_Soldier_walk_Stone_R04.wav      -resample ps2 16000 xbox 22050 pc 22050
+..\..\gcw\effects\mvt_Soldier_stop_Stone.wav          -resample ps2 16000 xbox 22050 pc 22050
+#endifplatform ps2 xbox pc
 
 
 //-- Metal - Walkways etc.
-#ifplatform pc
-..\..\gcw\effects\mvt_Soldier_getup_Metal.wav         -resample pc 22050
-..\..\gcw\effects\mvt_Soldier_jump_Metal.wav          -resample pc 22050
-..\..\gcw\effects\mvt_Soldier_land_Metal.wav          -resample pc 22050
-..\..\gcw\effects\mvt_Soldier_Metal_lgBF_01.wav       -resample pc 22050
-..\..\gcw\effects\mvt_Soldier_Metal_lgBF_02.wav       -resample pc 22050
-..\..\gcw\effects\mvt_Soldier_Metal_smBF.wav          -resample pc 22050
-..\..\gcw\effects\mvt_Soldier_lie_Metal.wav           -resample pc 22050
-..\..\gcw\effects\mvt_Soldier_roll_Metal.wav          -resample pc 22050
-..\..\gcw\effects\mvt_Soldier_run_Metal_L01.wav       -resample pc 22050
-..\..\gcw\effects\mvt_Soldier_run_Metal_L02.wav       -resample pc 22050
-..\..\gcw\effects\mvt_Soldier_run_Metal_L03.wav       -resample pc 22050
-..\..\gcw\effects\mvt_Soldier_run_Metal_L04.wav       -resample pc 22050
-..\..\gcw\effects\mvt_Soldier_run_Metal_R01.wav       -resample pc 22050
-..\..\gcw\effects\mvt_Soldier_run_Metal_R02.wav       -resample pc 22050
-..\..\gcw\effects\mvt_Soldier_run_Metal_R03.wav       -resample pc 22050
-..\..\gcw\effects\mvt_Soldier_run_Metal_R04.wav       -resample pc 22050
-..\..\gcw\effects\mvt_Soldier_walk_Metal_L01.wav      -resample pc 22050
-..\..\gcw\effects\mvt_Soldier_walk_Metal_L02.wav      -resample pc 22050
-..\..\gcw\effects\mvt_Soldier_walk_Metal_L03.wav      -resample pc 22050
-..\..\gcw\effects\mvt_Soldier_walk_Metal_L04.wav      -resample pc 22050
-..\..\gcw\effects\mvt_Soldier_walk_Metal_R01.wav      -resample pc 22050
-..\..\gcw\effects\mvt_Soldier_walk_Metal_R02.wav      -resample pc 22050
-..\..\gcw\effects\mvt_Soldier_walk_Metal_R03.wav      -resample pc 22050
-..\..\gcw\effects\mvt_Soldier_walk_Metal_R04.wav      -resample pc 22050
-..\..\gcw\effects\mvt_Soldier_stop_Metal.wav          -resample pc 22050
-#endifplatform pc
+#ifplatform ps2 xbox pc
+..\..\gcw\effects\mvt_Soldier_getup_Metal.wav         -resample ps2 16000 xbox 22050 pc 22050
+..\..\gcw\effects\mvt_Soldier_jump_Metal.wav          -resample ps2 16000 xbox 22050 pc 22050
+..\..\gcw\effects\mvt_Soldier_land_Metal.wav          -resample ps2 16000 xbox 22050 pc 22050
+..\..\gcw\effects\mvt_Soldier_Metal_lgBF_01.wav       -resample ps2 16000 xbox 22050 pc 22050
+..\..\gcw\effects\mvt_Soldier_Metal_lgBF_02.wav       -resample ps2 16000 xbox 22050 pc 22050
+..\..\gcw\effects\mvt_Soldier_Metal_smBF.wav          -resample ps2 16000 xbox 22050 pc 22050
+..\..\gcw\effects\mvt_Soldier_lie_Metal.wav           -resample ps2 16000 xbox 22050 pc 22050
+..\..\gcw\effects\mvt_Soldier_roll_Metal.wav          -resample ps2 16000 xbox 22050 pc 22050
+..\..\gcw\effects\mvt_Soldier_run_Metal_L01.wav       -resample ps2 16000 xbox 22050 pc 22050
+..\..\gcw\effects\mvt_Soldier_run_Metal_L02.wav       -resample ps2 16000 xbox 22050 pc 22050
+..\..\gcw\effects\mvt_Soldier_run_Metal_L03.wav       -resample ps2 16000 xbox 22050 pc 22050
+..\..\gcw\effects\mvt_Soldier_run_Metal_L04.wav       -resample ps2 16000 xbox 22050 pc 22050
+..\..\gcw\effects\mvt_Soldier_run_Metal_R01.wav       -resample ps2 16000 xbox 22050 pc 22050
+..\..\gcw\effects\mvt_Soldier_run_Metal_R02.wav       -resample ps2 16000 xbox 22050 pc 22050
+..\..\gcw\effects\mvt_Soldier_run_Metal_R03.wav       -resample ps2 16000 xbox 22050 pc 22050
+..\..\gcw\effects\mvt_Soldier_run_Metal_R04.wav       -resample ps2 16000 xbox 22050 pc 22050
+..\..\gcw\effects\mvt_Soldier_walk_Metal_L01.wav      -resample ps2 16000 xbox 22050 pc 22050
+..\..\gcw\effects\mvt_Soldier_walk_Metal_L02.wav      -resample ps2 16000 xbox 22050 pc 22050
+..\..\gcw\effects\mvt_Soldier_walk_Metal_L03.wav      -resample ps2 16000 xbox 22050 pc 22050
+..\..\gcw\effects\mvt_Soldier_walk_Metal_L04.wav      -resample ps2 16000 xbox 22050 pc 22050
+..\..\gcw\effects\mvt_Soldier_walk_Metal_R01.wav      -resample ps2 16000 xbox 22050 pc 22050
+..\..\gcw\effects\mvt_Soldier_walk_Metal_R02.wav      -resample ps2 16000 xbox 22050 pc 22050
+..\..\gcw\effects\mvt_Soldier_walk_Metal_R03.wav      -resample ps2 16000 xbox 22050 pc 22050
+..\..\gcw\effects\mvt_Soldier_walk_Metal_R04.wav      -resample ps2 16000 xbox 22050 pc 22050
+..\..\gcw\effects\mvt_Soldier_stop_Metal.wav          -resample ps2 16000 xbox 22050 pc 22050
+#endifplatform ps2 xbox pc
 
 
 // Wookiee Foley Effects -------------------------------------------------------
 // Terrain Independent Foley
-#ifplatform pc
-..\..\global\effects\mvt_Wookiee_squat.wav    -resample pc 22050
+#ifplatform ps2 xbox pc
+..\..\global\effects\mvt_Wookiee_squat.wav    -resample ps2 16000 xbox 22050 pc 22050
 #endifplatform
 
 
 //-- snow - Walkways etc.
-#ifplatform pc
-..\..\global\effects\mvt_Wookiee_getup_snow.wav         -resample pc 22050
-..\..\global\effects\mvt_Wookiee_jump_snow.wav          -resample pc 22050
-..\..\global\effects\mvt_Wookiee_land_snow.wav          -resample pc 22050
-..\..\global\effects\mvt_wookiee_Snow_lgBF_01.wav       -resample pc 22050
-..\..\global\effects\mvt_wookiee_Snow_lgBF_02.wav       -resample pc 22050
-..\..\global\effects\mvt_wookiee_Snow_smBF.wav          -resample pc 22050
-..\..\global\effects\mvt_Wookiee_lie_snow.wav           -resample pc 22050
-..\..\global\effects\mvt_Wookiee_roll_snow.wav          -resample pc 22050
-..\..\global\effects\mvt_Wookiee_run_snow_L01.wav       -resample pc 22050
-..\..\global\effects\mvt_Wookiee_run_snow_L02.wav       -resample pc 22050
-..\..\global\effects\mvt_Wookiee_run_snow_L03.wav       -resample pc 22050
-..\..\global\effects\mvt_Wookiee_run_snow_L04.wav       -resample pc 22050
-..\..\global\effects\mvt_Wookiee_run_snow_R01.wav       -resample pc 22050
-..\..\global\effects\mvt_Wookiee_run_snow_R02.wav       -resample pc 22050
-..\..\global\effects\mvt_Wookiee_run_snow_R03.wav       -resample pc 22050
-..\..\global\effects\mvt_Wookiee_run_snow_R04.wav       -resample pc 22050
-..\..\global\effects\mvt_Wookiee_walk_snow_L01.wav      -resample pc 22050
-..\..\global\effects\mvt_Wookiee_walk_snow_L02.wav      -resample pc 22050
-..\..\global\effects\mvt_Wookiee_walk_snow_L03.wav      -resample pc 22050
-..\..\global\effects\mvt_Wookiee_walk_snow_L04.wav      -resample pc 22050
-..\..\global\effects\mvt_Wookiee_walk_snow_R01.wav      -resample pc 22050
-..\..\global\effects\mvt_Wookiee_walk_snow_R02.wav      -resample pc 22050
-..\..\global\effects\mvt_Wookiee_walk_snow_R03.wav      -resample pc 22050
-..\..\global\effects\mvt_Wookiee_walk_snow_R04.wav      -resample pc 22050
-..\..\global\effects\mvt_Wookiee_stop_snow.wav          -resample pc 22050
-#endifplatform pc
+#ifplatform ps2 xbox pc
+..\..\global\effects\mvt_Wookiee_getup_snow.wav         -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\mvt_Wookiee_jump_snow.wav          -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\mvt_Wookiee_land_snow.wav          -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\mvt_wookiee_Snow_lgBF_01.wav       -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\mvt_wookiee_Snow_lgBF_02.wav       -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\mvt_wookiee_Snow_smBF.wav          -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\mvt_Wookiee_lie_snow.wav           -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\mvt_Wookiee_roll_snow.wav          -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\mvt_Wookiee_run_snow_L01.wav       -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\mvt_Wookiee_run_snow_L02.wav       -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\mvt_Wookiee_run_snow_L03.wav       -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\mvt_Wookiee_run_snow_L04.wav       -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\mvt_Wookiee_run_snow_R01.wav       -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\mvt_Wookiee_run_snow_R02.wav       -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\mvt_Wookiee_run_snow_R03.wav       -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\mvt_Wookiee_run_snow_R04.wav       -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\mvt_Wookiee_walk_snow_L01.wav      -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\mvt_Wookiee_walk_snow_L02.wav      -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\mvt_Wookiee_walk_snow_L03.wav      -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\mvt_Wookiee_walk_snow_L04.wav      -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\mvt_Wookiee_walk_snow_R01.wav      -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\mvt_Wookiee_walk_snow_R02.wav      -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\mvt_Wookiee_walk_snow_R03.wav      -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\mvt_Wookiee_walk_snow_R04.wav      -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\mvt_Wookiee_stop_snow.wav          -resample ps2 16000 xbox 22050 pc 22050
+#endifplatform ps2 xbox pc
 
 
 //-- Stone - Walkways etc.
-#ifplatform pc
-..\..\global\effects\mvt_Wookiee_getup_Stone.wav         -resample pc 22050
-..\..\global\effects\mvt_Wookiee_jump_Stone.wav          -resample pc 22050
-..\..\global\effects\mvt_Wookiee_land_Stone.wav          -resample pc 22050
-..\..\global\effects\mvt_wookiee_Stone_lgBF_01.wav       -resample pc 22050
-..\..\global\effects\mvt_wookiee_Stone_lgBF_02.wav       -resample pc 22050
-..\..\global\effects\mvt_wookiee_Stone_smBF.wav          -resample pc 22050
-..\..\global\effects\mvt_Wookiee_lie_Stone.wav           -resample pc 22050
-..\..\global\effects\mvt_Wookiee_roll_Stone.wav          -resample pc 22050
-..\..\global\effects\mvt_Wookiee_run_Stone_L01.wav       -resample pc 22050
-..\..\global\effects\mvt_Wookiee_run_Stone_L02.wav       -resample pc 22050
-..\..\global\effects\mvt_Wookiee_run_Stone_L03.wav       -resample pc 22050
-..\..\global\effects\mvt_Wookiee_run_Stone_L04.wav       -resample pc 22050
-..\..\global\effects\mvt_Wookiee_run_Stone_R01.wav       -resample pc 22050
-..\..\global\effects\mvt_Wookiee_run_Stone_R02.wav       -resample pc 22050
-..\..\global\effects\mvt_Wookiee_run_Stone_R03.wav       -resample pc 22050
-..\..\global\effects\mvt_Wookiee_run_Stone_R04.wav       -resample pc 22050
-..\..\global\effects\mvt_Wookiee_walk_Stone_L01.wav      -resample pc 22050
-..\..\global\effects\mvt_Wookiee_walk_Stone_L02.wav      -resample pc 22050
-..\..\global\effects\mvt_Wookiee_walk_Stone_L03.wav      -resample pc 22050
-..\..\global\effects\mvt_Wookiee_walk_Stone_L04.wav      -resample pc 22050
-..\..\global\effects\mvt_Wookiee_walk_Stone_R01.wav      -resample pc 22050
-..\..\global\effects\mvt_Wookiee_walk_Stone_R02.wav      -resample pc 22050
-..\..\global\effects\mvt_Wookiee_walk_Stone_R03.wav      -resample pc 22050
-..\..\global\effects\mvt_Wookiee_walk_Stone_R04.wav      -resample pc 22050
-..\..\global\effects\mvt_Wookiee_stop_Stone.wav          -resample pc 22050
-#endifplatform pc
+#ifplatform ps2 xbox pc
+..\..\global\effects\mvt_Wookiee_getup_Stone.wav         -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\mvt_Wookiee_jump_Stone.wav          -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\mvt_Wookiee_land_Stone.wav          -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\mvt_wookiee_Stone_lgBF_01.wav       -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\mvt_wookiee_Stone_lgBF_02.wav       -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\mvt_wookiee_Stone_smBF.wav          -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\mvt_Wookiee_lie_Stone.wav           -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\mvt_Wookiee_roll_Stone.wav          -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\mvt_Wookiee_run_Stone_L01.wav       -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\mvt_Wookiee_run_Stone_L02.wav       -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\mvt_Wookiee_run_Stone_L03.wav       -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\mvt_Wookiee_run_Stone_L04.wav       -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\mvt_Wookiee_run_Stone_R01.wav       -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\mvt_Wookiee_run_Stone_R02.wav       -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\mvt_Wookiee_run_Stone_R03.wav       -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\mvt_Wookiee_run_Stone_R04.wav       -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\mvt_Wookiee_walk_Stone_L01.wav      -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\mvt_Wookiee_walk_Stone_L02.wav      -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\mvt_Wookiee_walk_Stone_L03.wav      -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\mvt_Wookiee_walk_Stone_L04.wav      -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\mvt_Wookiee_walk_Stone_R01.wav      -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\mvt_Wookiee_walk_Stone_R02.wav      -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\mvt_Wookiee_walk_Stone_R03.wav      -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\mvt_Wookiee_walk_Stone_R04.wav      -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\mvt_Wookiee_stop_Stone.wav          -resample ps2 16000 xbox 22050 pc 22050
+#endifplatform ps2 xbox pc
 
 
 //-- Metal - Walkways etc.
-#ifplatform pc
-..\..\global\effects\mvt_Wookiee_getup_Metal.wav         -resample pc 22050
-..\..\global\effects\mvt_Wookiee_jump_Metal.wav          -resample pc 22050
-..\..\global\effects\mvt_Wookiee_land_Metal.wav          -resample pc 22050
-..\..\global\effects\mvt_wookiee_Metal_lgBF_01.wav       -resample pc 22050
-..\..\global\effects\mvt_wookiee_Metal_lgBF_02.wav       -resample pc 22050
-..\..\global\effects\mvt_wookiee_Metal_smBF.wav          -resample pc 22050
-..\..\global\effects\mvt_Wookiee_lie_Metal.wav           -resample pc 22050
-..\..\global\effects\mvt_Wookiee_roll_Metal.wav          -resample pc 22050
-..\..\global\effects\mvt_Wookiee_run_Metal_L01.wav       -resample pc 22050
-..\..\global\effects\mvt_Wookiee_run_Metal_L02.wav       -resample pc 22050
-..\..\global\effects\mvt_Wookiee_run_Metal_L03.wav       -resample pc 22050
-..\..\global\effects\mvt_Wookiee_run_Metal_L04.wav       -resample pc 22050
-..\..\global\effects\mvt_Wookiee_run_Metal_R01.wav       -resample pc 22050
-..\..\global\effects\mvt_Wookiee_run_Metal_R02.wav       -resample pc 22050
-..\..\global\effects\mvt_Wookiee_run_Metal_R03.wav       -resample pc 22050
-..\..\global\effects\mvt_Wookiee_run_Metal_R04.wav       -resample pc 22050
-..\..\global\effects\mvt_Wookiee_walk_Metal_L01.wav      -resample pc 22050
-..\..\global\effects\mvt_Wookiee_walk_Metal_L02.wav      -resample pc 22050
-..\..\global\effects\mvt_Wookiee_walk_Metal_L03.wav      -resample pc 22050
-..\..\global\effects\mvt_Wookiee_walk_Metal_L04.wav      -resample pc 22050
-..\..\global\effects\mvt_Wookiee_walk_Metal_R01.wav      -resample pc 22050
-..\..\global\effects\mvt_Wookiee_walk_Metal_R02.wav      -resample pc 22050
-..\..\global\effects\mvt_Wookiee_walk_Metal_R03.wav      -resample pc 22050
-..\..\global\effects\mvt_Wookiee_walk_Metal_R04.wav      -resample pc 22050
-..\..\global\effects\mvt_Wookiee_stop_Metal.wav          -resample pc 22050
-#endifplatform pc
+#ifplatform ps2 xbox pc
+..\..\global\effects\mvt_Wookiee_getup_Metal.wav         -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\mvt_Wookiee_jump_Metal.wav          -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\mvt_Wookiee_land_Metal.wav          -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\mvt_wookiee_Metal_lgBF_01.wav       -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\mvt_wookiee_Metal_lgBF_02.wav       -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\mvt_wookiee_Metal_smBF.wav          -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\mvt_Wookiee_lie_Metal.wav           -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\mvt_Wookiee_roll_Metal.wav          -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\mvt_Wookiee_run_Metal_L01.wav       -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\mvt_Wookiee_run_Metal_L02.wav       -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\mvt_Wookiee_run_Metal_L03.wav       -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\mvt_Wookiee_run_Metal_L04.wav       -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\mvt_Wookiee_run_Metal_R01.wav       -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\mvt_Wookiee_run_Metal_R02.wav       -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\mvt_Wookiee_run_Metal_R03.wav       -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\mvt_Wookiee_run_Metal_R04.wav       -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\mvt_Wookiee_walk_Metal_L01.wav      -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\mvt_Wookiee_walk_Metal_L02.wav      -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\mvt_Wookiee_walk_Metal_L03.wav      -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\mvt_Wookiee_walk_Metal_L04.wav      -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\mvt_Wookiee_walk_Metal_R01.wav      -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\mvt_Wookiee_walk_Metal_R02.wav      -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\mvt_Wookiee_walk_Metal_R03.wav      -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\mvt_Wookiee_walk_Metal_R04.wav      -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\mvt_Wookiee_stop_Metal.wav          -resample ps2 16000 xbox 22050 pc 22050
+#endifplatform ps2 xbox pc
 
 // ----- ATST Weapons --------------------------------------------------------------------------------------
-#ifplatform pc
-..\..\gcw\effects\wpn_atst_headBlaster_fire.wav     -resample pc 44100
-#endifplatform pc
+#ifplatform ps2 xbox pc
+..\..\gcw\effects\wpn_atst_headBlaster_fire.wav     -resample ps2 20000 xbox 22050 pc 44100
+#endifplatform ps2 xbox pc
 
 // ---------------------------------------------------------------------------------------------------------
 
@@ -723,53 +723,53 @@ effects\emt_orbitalBombardment_01.wav rumble2 -resample pc 22050
 
 // AT Walker Engine ATAT ATST ATTE
 
-#ifplatform pc
-..\..\global\effects\eng_walker_hi_lp.wav            -resample pc 22050
-..\..\global\effects\eng_walker_mid_lp.wav           -resample pc 22050
-..\..\global\effects\eng_walker_low_lp.wav            -resample pc 22050
-..\..\global\effects\hyd_walker01.wav atst_leg_up01  -resample pc 22050
-..\..\global\effects\hyd_walker02.wav atst_leg_up02  -resample pc 22050
-..\..\global\effects\hyd_walker03.wav atst_leg_up03  -resample pc 22050
-..\..\global\effects\hyd_walker04.wav atst_leg_up04  -resample pc 22050
-..\..\global\effects\hyd_walker05.wav atst_leg_up05  -resample pc 22050
-..\..\global\effects\hyd_walker06.wav atst_leg_up06  -resample pc 22050
-#endifplatform pc
+#ifplatform ps2 xbox pc
+..\..\global\effects\eng_walker_hi_lp.wav            -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\eng_walker_mid_lp.wav           -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\eng_walker_low_lp.wav            -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\hyd_walker01.wav atst_leg_up01  -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\hyd_walker02.wav atst_leg_up02  -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\hyd_walker03.wav atst_leg_up03  -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\hyd_walker04.wav atst_leg_up04  -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\hyd_walker05.wav atst_leg_up05  -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\hyd_walker06.wav atst_leg_up06  -resample ps2 16000 xbox 22050 pc 22050
+#endifplatform ps2 xbox pc
 
 
 
 // AT Walker Footsteps XBOX and PC ATTE ATAT ATST
-#ifplatform pc
-..\..\global\effects\fs_walker_layerA01.wav -resample pc 22050
-..\..\global\effects\fs_walker_layerA02.wav -resample pc 22050
-..\..\global\effects\fs_walker_layerA03.wav -resample pc 22050
-..\..\global\effects\fs_walker_layerA04.wav -resample pc 22050
-..\..\global\effects\fs_walker_layerA05.wav -resample pc 22050
-..\..\global\effects\fs_walker_layerA06.wav -resample pc 22050
+#ifplatform ps2 xbox pc
+..\..\global\effects\fs_walker_layerA01.wav -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\fs_walker_layerA02.wav -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\fs_walker_layerA03.wav -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\fs_walker_layerA04.wav -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\fs_walker_layerA05.wav -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\fs_walker_layerA06.wav -resample ps2 16000 xbox 22050 pc 22050
 
-..\..\global\effects\fs_walker_layerB01.wav -resample pc 22050
-..\..\global\effects\fs_walker_layerB02.wav -resample pc 22050
-..\..\global\effects\fs_walker_layerB03.wav -resample pc 22050
-..\..\global\effects\fs_walker_layerB04.wav -resample pc 22050
-..\..\global\effects\fs_walker_layerB05.wav -resample pc 22050
-..\..\global\effects\fs_walker_layerB06.wav -resample pc 22050
+..\..\global\effects\fs_walker_layerB01.wav -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\fs_walker_layerB02.wav -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\fs_walker_layerB03.wav -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\fs_walker_layerB04.wav -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\fs_walker_layerB05.wav -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\fs_walker_layerB06.wav -resample ps2 16000 xbox 22050 pc 22050
 
-..\..\global\effects\fs_walker_layerC01.wav -resample pc 22050
-..\..\global\effects\fs_walker_layerC02.wav -resample pc 22050
-..\..\global\effects\fs_walker_layerC03.wav -resample pc 22050
-..\..\global\effects\fs_walker_layerC04.wav -resample pc 22050
-..\..\global\effects\fs_walker_layerC05.wav -resample pc 22050
-..\..\global\effects\fs_walker_layerC06.wav -resample pc 22050
+..\..\global\effects\fs_walker_layerC01.wav -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\fs_walker_layerC02.wav -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\fs_walker_layerC03.wav -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\fs_walker_layerC04.wav -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\fs_walker_layerC05.wav -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\fs_walker_layerC06.wav -resample ps2 16000 xbox 22050 pc 22050
 
-..\..\global\effects\fs_walker_low01.wav  -resample pc 22050
-..\..\global\effects\fs_walker_low02.wav  -resample pc 22050
-..\..\global\effects\fs_walker_low03.wav  -resample pc 22050
+..\..\global\effects\fs_walker_low01.wav  -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\fs_walker_low02.wav  -resample ps2 16000 xbox 22050 pc 22050
+..\..\global\effects\fs_walker_low03.wav  -resample ps2 16000 xbox 22050 pc 22050
 #endifplatform
 
 // ----- AT-AT Weapons -------------------------------------------------------------------------------------
-#ifplatform pc
-..\..\gcw\effects\wpn_atat_chinBlaster_fire.wav   -resample pc 44100
-..\..\gcw\effects\wpn_atat_headBlaster_fire.wav   -resample pc 44100
-#endifplatform pc
+#ifplatform ps2 xbox pc
+..\..\gcw\effects\wpn_atat_chinBlaster_fire.wav   -resample ps2 16000 xbox 22050 pc 44100
+..\..\gcw\effects\wpn_atat_headBlaster_fire.wav   -resample ps2 16000 xbox 22050 pc 44100
+#endifplatform ps2 xbox pc
 
 // ----------------------------------------------------------------------------------------------------------
 
@@ -777,45 +777,45 @@ effects\emt_orbitalBombardment_01.wav rumble2 -resample pc 22050
 //effects\emt_shieldGenerator_lp01.wav
 
 // TaunTaun -------------------------------------------------------------------------------------------------------
-#ifplatform pc
-effects\mvt_tauntaun_run_snow_L01.wav  -resample pc 22050
-effects\mvt_tauntaun_run_snow_L02.wav  -resample pc 22050
-effects\mvt_tauntaun_run_snow_R01.wav  -resample pc 22050
-effects\mvt_tauntaun_run_snow_R02.wav  -resample pc 22050
-effects\crtr_taun-taun_death.wav       -resample pc 22050
-effects\crtr_taun-taun_grunt_01.wav    -resample pc 22050
-effects\crtr_taun-taun_grunt_02.wav    -resample pc 22050
-effects\crtr_taun-taun_grunt_03.wav    -resample pc 22050
-effects\crtr_taun-taun_grunt_04.wav    -resample pc 22050
-effects\crtr_taun-taun_hurt.wav        -resample pc 22050
-#endifplatform pc
+#ifplatform ps2 xbox pc
+effects\mvt_tauntaun_run_snow_L01.wav  -resample ps2 16000 xbox 22050 pc 22050
+effects\mvt_tauntaun_run_snow_L02.wav  -resample ps2 16000 xbox 22050 pc 22050
+effects\mvt_tauntaun_run_snow_R01.wav  -resample ps2 16000 xbox 22050 pc 22050
+effects\mvt_tauntaun_run_snow_R02.wav  -resample ps2 16000 xbox 22050 pc 22050
+effects\crtr_taun-taun_death.wav       -resample ps2 16000 xbox 22050 pc 22050
+effects\crtr_taun-taun_grunt_01.wav    -resample ps2 16000 xbox 22050 pc 22050
+effects\crtr_taun-taun_grunt_02.wav    -resample ps2 16000 xbox 22050 pc 22050
+effects\crtr_taun-taun_grunt_03.wav    -resample ps2 16000 xbox 22050 pc 22050
+effects\crtr_taun-taun_grunt_04.wav    -resample ps2 16000 xbox 22050 pc 22050
+effects\crtr_taun-taun_hurt.wav        -resample ps2 16000 xbox 22050 pc 22050
+#endifplatform ps2 xbox pc
 
 //-------------------------------------------------------------------------------------------------------------------
 // Metal Debris -------------------------------------------------------------------------------------------------
-#ifplatform pc
-..\..\global\effects\exp_debris_metal_large01.wav  -resample pc 44100
-..\..\global\effects\exp_debris_metal_med03.wav    -resample pc 44100
-..\..\global\effects\exp_debris_metal_med02.wav    -resample pc 44100
-..\..\global\effects\exp_debris_metal_small01.wav  -resample pc 44100
-..\..\global\effects\exp_debris_metal_small03.wav  -resample pc 44100
-#endifplatform pc
+#ifplatform ps2 xbox pc
+..\..\global\effects\exp_debris_metal_large01.wav  -resample ps2 16000 xbox 22050 pc 44100
+..\..\global\effects\exp_debris_metal_med03.wav    -resample ps2 16000 xbox 22050 pc 44100
+..\..\global\effects\exp_debris_metal_med02.wav    -resample ps2 16000 xbox 22050 pc 44100
+..\..\global\effects\exp_debris_metal_small01.wav  -resample ps2 18000 xbox 22050 pc 44100
+..\..\global\effects\exp_debris_metal_small03.wav  -resample ps2 18000 xbox 22050 pc 44100
+#endifplatform ps2 xbox pc
 
 // --------------------------------------------------------------------------------------------------------------
 // Snowspeeder ----------------------------------------------------------------------------------------------
-#ifplatform pc
-..\..\gcw\effects\wpn_snowSpder_blaster_fire.wav     -resample pc 44100
-..\..\gcw\effects\wpn_snowSpder_towCable_att.wav     -resample pc 22050
-..\..\gcw\effects\wpn_snowSpder_towCable_fire.wav    -resample pc 22050
-..\..\gcw\effects\wpn_snowSpder_towCable_rls.wav     -resample pc 22050
-..\..\gcw\effects\eng_snowspeeder_hi_lp.wav          -resample pc 22050
-..\..\gcw\effects\eng_snowspeeder_low_lp.wav         -resample pc 22050
-..\..\gcw\effects\eng_snowspeeder_mid_lp.wav         -resample pc 22050
-#endifplatform pc
+#ifplatform ps2 xbox pc
+..\..\gcw\effects\wpn_snowSpder_blaster_fire.wav     -resample ps2 16000 xbox 22050 pc 44100
+..\..\gcw\effects\wpn_snowSpder_towCable_att.wav     -resample ps2 16000 xbox 22050 pc 22050
+..\..\gcw\effects\wpn_snowSpder_towCable_fire.wav    -resample ps2 16000 xbox 22050 pc 22050
+..\..\gcw\effects\wpn_snowSpder_towCable_rls.wav     -resample ps2 16000 xbox 22050 pc 22050
+..\..\gcw\effects\eng_snowspeeder_hi_lp.wav          -resample ps2 16000 xbox 22050 pc 22050
+..\..\gcw\effects\eng_snowspeeder_low_lp.wav         -resample ps2 16000 xbox 22050 pc 22050
+..\..\gcw\effects\eng_snowspeeder_mid_lp.wav         -resample ps2 16000 xbox 22050 pc 22050
+#endifplatform ps2 xbox pc
 
 // ---------------------------------------------------------------------------------------------------------------
 // Ambient Emitters ---------------------------------------------------------------------------------------------
-#ifplatform pc
-..\YAV\effects\emt_telemetry_temple_lp01.wav            -resample pc 22050
-..\YAV\effects\emt_telemetry_temple_lp02.wav            -resample pc 22050
-#endifplatform pc
+#ifplatform ps2 xbox pc
+..\YAV\effects\emt_telemetry_temple_lp01.wav            -resample ps2 16000 xbox 22050 pc 22050
+..\YAV\effects\emt_telemetry_temple_lp02.wav            -resample ps2 16000 xbox 22050 pc 22050
+#endifplatform ps2 xbox pc
 // --------------------------------------------------------------------------------------------------------------
