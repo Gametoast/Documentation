@@ -1,0 +1,30 @@
+MovieSubtitles()
+{
+    Segment("geomon01")
+    Font("gamefont_small")
+    Color(255, 255, 255, 190)
+    SubtitleList()
+    {
+        Subtitle("ifs.movies.geointro.line01",  3.0,  2.71)
+        Subtitle("ifs.movies.geointro.line02",  5.9,  6.04)
+        Subtitle("ifs.movies.geointro.line03",  11.8,  3.5)
+        Subtitle("ifs.movies.geointro.line04",  15.3,  3.21)
+        Subtitle("ifs.movies.geointro.line05",  18.5,  3.28)
+        Subtitle("ifs.movies.geointro.line06",  22.7,  4.09)
+        Subtitle("ifs.movies.geointro.line07",  26.79,  3.45)
+        
+    }
+}
+
+MovieSubtitles()
+{
+    Segment("geomon02")
+    Font("gamefont_small")
+    Color(255, 255, 255, 190)
+    SubtitleList()
+    {
+        Subtitle("ifs.movies.geooutro.line01",  1.3,  4.4)
+        Subtitle("ifs.movies.geooutro.line02",  6.0,  3.5)
+        
+    }
+}

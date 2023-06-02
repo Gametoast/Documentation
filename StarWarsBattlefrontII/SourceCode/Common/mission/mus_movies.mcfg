@@ -1,0 +1,36 @@
+MovieSubtitles()
+{
+    Segment("musmon01")
+    Font("gamefont_small")
+    Color(255, 255, 255, 190)
+    SubtitleList()
+    {
+        Subtitle("ifs.movies.musintro.line01",  03.09,  03.55)
+        Subtitle("ifs.movies.musintro.line02",  6.92, 03.10)
+        Subtitle("ifs.movies.musintro.line03", 10, 04.00)
+        Subtitle("ifs.movies.musintro.line04", 14.45, 03.10)
+        Subtitle("ifs.movies.musintro.line05", 18.17, 03.45)
+        Subtitle("ifs.movies.musintro.line06", 23.80, 06.00)
+        Subtitle("ifs.movies.musintro.line07", 26.25, 04.20)
+        Subtitle("ifs.movies.musintro.line08", 30.68, 05.16)
+ 	Subtitle("ifs.movies.musintro.line09", 35.68, 10.00)
+        
+    }
+}
+
+
+MovieSubtitles()
+{
+    Segment("musmon02")
+    Font("gamefont_small")
+    Color(255, 255, 255, 190)
+    SubtitleList()
+        {
+        Subtitle("ifs.movies.musoutro.line01",  02.00,  03.55)
+        Subtitle("ifs.movies.musoutro.line02",  5.32, 05.30)
+        Subtitle("ifs.movies.musoutro.line03", 11, 03.80)
+        Subtitle("ifs.movies.musoutro.line04", 14.8, 02.10)
+        
+        
+    }
+}

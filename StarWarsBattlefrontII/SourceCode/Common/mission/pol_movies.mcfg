@@ -1,0 +1,39 @@
+MovieSubtitles()
+{
+    Segment("polmon01")
+    Font("gamefont_small")
+    Color(255, 255, 255, 190)
+    SubtitleList()
+    {
+        Subtitle("ifs.movies.polintro.line01", 04.60, 02.35)
+        Subtitle("ifs.movies.polintro.line02", 07.20, 05.55)
+		Subtitle("ifs.movies.polintro.line03", 12.08, 04.80)
+        Subtitle("ifs.movies.polintro.line04", 16.43, 03.45)
+        Subtitle("ifs.movies.polintro.line05", 18.59, 03.68)
+        Subtitle("ifs.movies.polintro.line06", 22.00, 03.66)
+		Subtitle("ifs.movies.polintro.line07", 25.40, 05.20)
+        Subtitle("ifs.movies.polintro.line08", 30.78, 02.43)
+        Subtitle("ifs.movies.polintro.line09", 33.00, 05.54)
+        Subtitle("ifs.movies.polintro.line10", 38.20, 04.94)
+		Subtitle("ifs.movies.polintro.line11", 43.12, 03.46)
+                
+    }
+}
+
+
+
+MovieSubtitles()
+{
+    Segment("polmon02")
+    Font("gamefont_small")
+    Color(255, 255, 255, 190)
+    SubtitleList()
+    {
+        Subtitle("ifs.movies.poloutro.line01", 01.71, 04.71)
+        Subtitle("ifs.movies.poloutro.line02", 05.53, 04.10)
+		Subtitle("ifs.movies.poloutro.line03", 09.81, 03.68)
+
+        
+    }
+}
+

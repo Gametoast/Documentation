@@ -1,0 +1,36 @@
+MovieSubtitles()
+{
+    Segment("tanmon01")
+    Font("gamefont_small")
+    Color(255, 255, 255, 190)
+    SubtitleList()
+    {
+        Subtitle("ifs.movies.tanintro.line01",  3.17,  2.73)
+        Subtitle("ifs.movies.tanintro.line02",  5.90,  2.11)
+        Subtitle("ifs.movies.tanintro.line03",  8.01,  3.92)
+        Subtitle("ifs.movies.tanintro.line04",  11.93,  1.83)
+        Subtitle("ifs.movies.tanintro.line05",  13.76,  2.92)
+        Subtitle("ifs.movies.tanintro.line06",  16.68,  3.88)
+        Subtitle("ifs.movies.tanintro.line07",  20.56,  2.23)
+        Subtitle("ifs.movies.tanintro.line08",  22.79,  3.67)
+        Subtitle("ifs.movies.tanintro.line09",  26.46,  1.83)
+        Subtitle("ifs.movies.tanintro.line10",  28.29,  3.00)        
+    }
+}
+
+MovieSubtitles()
+{
+    Segment("tanmon02")
+    Font("gamefont_small")
+    Color(255, 255, 255, 190)
+    SubtitleList()
+    {
+        Subtitle("ifs.movies.tanoutro.line01",  1.10,  3.08)
+        Subtitle("ifs.movies.tanoutro.line02",  4.18,  5.24)
+        Subtitle("ifs.movies.tanoutro.line03",  9.42,  3.23)
+        Subtitle("ifs.movies.tanoutro.line04",  12.65,  2.39)
+        Subtitle("ifs.movies.tanoutro.line05",  15.04,  4.58)
+        Subtitle("ifs.movies.tanoutro.line06",  19.62,  3.00)
+        
+    }
+}

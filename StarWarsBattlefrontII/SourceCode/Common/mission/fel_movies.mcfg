@@ -1,0 +1,37 @@
+MovieSubtitles()
+{
+    Segment("felmon01")
+    Font("gamefont_small")
+    Color(255, 255, 255, 190)
+    SubtitleList()
+    {
+        Subtitle("ifs.movies.felintro.line01",  3.31,  3.45)
+        Subtitle("ifs.movies.felintro.line02",  6.76,  1.92)
+        Subtitle("ifs.movies.felintro.line03",  8.68,  3.94)
+        Subtitle("ifs.movies.felintro.line04",  12.62,  2.77)
+        Subtitle("ifs.movies.felintro.line05",  15.39,  2.23)
+        Subtitle("ifs.movies.felintro.line06",  17.62,  5.69)
+        Subtitle("ifs.movies.felintro.line07",  23.31,  3.04)
+        Subtitle("ifs.movies.felintro.line08",  26.35,  4.46)
+        Subtitle("ifs.movies.felintro.line09",  30.81,  2.65)
+        Subtitle("ifs.movies.felintro.line10",  33.46,  7.32)
+        Subtitle("ifs.movies.felintro.line11",  40.78,  2.84)
+        Subtitle("ifs.movies.felintro.line12",  43.62,  3.8)
+        
+    }
+}
+
+MovieSubtitles()
+{
+    Segment("felmon02")
+    Font("gamefont_small")
+    Color(255, 255, 255, 190)
+    SubtitleList()
+    {
+        Subtitle("ifs.movies.feloutro.line01",  1.21,  3.10)
+        Subtitle("ifs.movies.feloutro.line02",  4.31,  4.39)
+        Subtitle("ifs.movies.feloutro.line03",  8.70,  4.05)
+        Subtitle("ifs.movies.feloutro.line04",  12.75,  6.18)
+        
+    }
+}

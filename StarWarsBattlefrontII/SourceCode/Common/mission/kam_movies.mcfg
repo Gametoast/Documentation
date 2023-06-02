@@ -1,0 +1,38 @@
+MovieSubtitles()
+{
+    Segment("kammon01")
+    Font("gamefont_small")
+    Color(255, 255, 255, 190)
+    SubtitleList()
+    {
+        Subtitle("ifs.movies.kamintro.line01",  03.00,  04.55)
+        Subtitle("ifs.movies.kamintro.line02",  7.28, 10.10)
+
+        Subtitle("ifs.movies.kamintro.line04", 18.45, 07.10)
+        Subtitle("ifs.movies.kamintro.line05", 24.17, 07.45)
+        Subtitle("ifs.movies.kamintro.line06", 31.80, 04.20)
+        Subtitle("ifs.movies.kamintro.line07", 35.68, 04.00)
+ 	
+        
+    }
+}
+
+
+MovieSubtitles()
+{
+    Segment("kammon02")
+    Font("gamefont_small")
+    Color(255, 255, 255, 190)
+    SubtitleList()
+    {
+        Subtitle("ifs.movies.kamoutro.line01",  01.25,  03.25)
+        Subtitle("ifs.movies.kamoutro.line02",  4.12, 04.10)
+        Subtitle("ifs.movies.kamoutro.line03", 07.55, 09.00)
+        Subtitle("ifs.movies.kamoutro.line04", 17.45, 03.50)
+        
+	Subtitle("ifs.movies.kamoutro.line05", 20.17, 4.45)
+        Subtitle("ifs.movies.kamoutro.line06", 24.80, 05.00)
+        Subtitle("ifs.movies.kamoutro.line07", 29.68, 04.00)
+        
+    }
+}

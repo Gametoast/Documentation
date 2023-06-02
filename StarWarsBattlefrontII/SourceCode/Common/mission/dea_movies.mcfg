@@ -1,0 +1,35 @@
+MovieSubtitles()
+{
+    Segment("deamon01")
+    Font("gamefont_small")
+    Color(255, 255, 255, 190)
+    SubtitleList()
+    {
+        Subtitle("ifs.movies.deaintro.line01",  5.0,  4.2)
+        Subtitle("ifs.movies.deaintro.line02",  10.0,  3.29)
+        Subtitle("ifs.movies.deaintro.line03",  14.1,  4.4)
+        Subtitle("ifs.movies.deaintro.line04",  19.1,  2.6)
+        Subtitle("ifs.movies.deaintro.line05",  22.1,  2.55)
+        Subtitle("ifs.movies.deaintro.line06",  25.3,  3.8)
+        Subtitle("ifs.movies.deaintro.line07",  29.5,  4.1)
+        
+    }
+}
+
+MovieSubtitles()
+{
+    Segment("deamon02")
+    Font("gamefont_small")
+    Color(255, 255, 255, 190)
+    SubtitleList()
+    {
+        Subtitle("ifs.movies.deaoutro.line01",  2.04,  2.84)
+        Subtitle("ifs.movies.deaoutro.line02",  4.93,  2.94)
+        Subtitle("ifs.movies.deaoutro.line03",  7.87,  3.65)
+        Subtitle("ifs.movies.deaoutro.line04",  11.52,  4.25)
+        Subtitle("ifs.movies.deaoutro.line05",  15.77,  5.03)
+        Subtitle("ifs.movies.deaoutro.line06",  20.80,  4.57)
+        Subtitle("ifs.movies.deaoutro.line07",  25.37,  3.83)
+        
+    }
+}

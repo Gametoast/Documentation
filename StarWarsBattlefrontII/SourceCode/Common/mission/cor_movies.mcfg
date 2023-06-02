@@ -1,0 +1,41 @@
+MovieSubtitles()
+{
+    Segment("cormon01")
+    Font("gamefont_small")
+    Color(255, 255, 255, 190)
+    SubtitleList()
+    {
+        Subtitle("ifs.movies.corintro.line01",  04.14,  05.60)
+        Subtitle("ifs.movies.corintro.line02",  09.89, 06.60)
+        Subtitle("ifs.movies.corintro.line03", 16.75, 2.10)
+        Subtitle("ifs.movies.corintro.line04", 18.50, 04.09)
+        Subtitle("ifs.movies.corintro.line05", 22.87, 04.03)
+        Subtitle("ifs.movies.corintro.line06", 26.76, 04.20)
+        Subtitle("ifs.movies.corintro.line07", 29.84, 04.08)
+        Subtitle("ifs.movies.corintro.line08", 33.95, 03.11)
+        Subtitle("ifs.movies.corintro.line09", 37.50, 04.44)
+        
+    }
+}
+
+
+
+
+
+MovieSubtitles()
+{
+    Segment("cormon02")
+    Font("gamefont_small")
+    Color(255, 255, 255, 190)
+    SubtitleList()
+    {
+        Subtitle("ifs.movies.coroutro.line01",  11.12,  10.12)
+        Subtitle("ifs.movies.coroutro.line02",  14.82,  03.00)
+        Subtitle("ifs.movies.coroutro.line03",  18.20,  04.70)
+        Subtitle("ifs.movies.coroutro.line04",  21.51,  04.28)
+        Subtitle("ifs.movies.coroutro.line05",  26.56,  05.05)
+        Subtitle("ifs.movies.coroutro.line06",  31.30,  06.20)
+        Subtitle("ifs.movies.coroutro.line07",  37.90,  2.60)
+        Subtitle("ifs.movies.coroutro.line08",  40.56,  05.66)
+    }
+}

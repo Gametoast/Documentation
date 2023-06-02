@@ -1,0 +1,23 @@
+MovieSubtitles()
+{
+    Segment("geomon01")
+    Font("gamefont_small")
+    Color(255, 0, 0, 190)
+    SubtitleList()
+    {
+        Subtitle("ifs.movies.geointr01",  0.0,  15.0)
+        
+    }
+}
+
+MovieSubtitles()
+{
+    Segment("geomon02")
+    Font("gamefont_small")
+    Color(255, 0, 0, 190)
+    SubtitleList()
+    {
+        Subtitle("ifs.movies.geooutr01",  0.0,  15.0)
+        
+    }
+}

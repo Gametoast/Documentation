@@ -1,0 +1,39 @@
+MovieSubtitles()
+{
+    Segment("mygmon01")
+    Font("gamefont_small")
+    Color(255, 255, 255, 190)
+    SubtitleList()
+    {
+        Subtitle("ifs.movies.mygintro.line01",  2.81,  2.23)
+        Subtitle("ifs.movies.mygintro.line02",  5.04,  4.85)
+        Subtitle("ifs.movies.mygintro.line03",  9.89,  2.65)
+        Subtitle("ifs.movies.mygintro.line04",  12.54,  5.02)
+        Subtitle("ifs.movies.mygintro.line05",  17.56,  1.61)
+        Subtitle("ifs.movies.mygintro.line06",  19.17,  2.64)
+        Subtitle("ifs.movies.mygintro.line07",  21.81,  3.61)
+        Subtitle("ifs.movies.mygintro.line08",  25.42,  3.11)
+        Subtitle("ifs.movies.mygintro.line09",  28.53,  2.87)
+        Subtitle("ifs.movies.mygintro.line10",  31.40,  3.78)
+        Subtitle("ifs.movies.mygintro.line11",  35.18,  3.64)
+        Subtitle("ifs.movies.mygintro.line13",  38.82,  2.91)
+        Subtitle("ifs.movies.mygintro.line14",  41.73,  2.67)
+        Subtitle("ifs.movies.mygintro.line15",  44.40,  3.00)
+        
+    }
+}
+
+MovieSubtitles()
+{
+    Segment("mygmon02")
+    Font("gamefont_small")
+    Color(255, 255, 255, 190)
+    SubtitleList()
+    {
+        Subtitle("ifs.movies.mygoutro.line01",  2.18,  1.94)
+        Subtitle("ifs.movies.mygoutro.line02",  4.12,  4.14)
+        Subtitle("ifs.movies.mygoutro.line03",  8.26,  4.38)
+        Subtitle("ifs.movies.mygoutro.line04",  12.64,  2.46)
+        Subtitle("ifs.movies.mygoutro.line05",  15.10,  3.00)      
+    }
+}

@@ -1,0 +1,23 @@
+MovieSubtitles()
+{
+    Segment("kammon01")
+    Font("gamefont_small")
+    Color(255, 0, 0, 190)
+    SubtitleList()
+    {
+        Subtitle("ifs.movies.kamintr01",  0.0,  20.0)
+        
+    }
+}
+
+MovieSubtitles()
+{
+    Segment("kammon02")
+    Font("gamefont_small")
+    Color(255, 0, 0, 190)
+    SubtitleList()
+    {
+        Subtitle("ifs.movies.kamoutr02",  0.0,  20.0)
+        
+    }
+}

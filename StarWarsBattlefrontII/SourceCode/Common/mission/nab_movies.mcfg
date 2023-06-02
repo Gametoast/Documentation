@@ -1,0 +1,43 @@
+MovieSubtitles()
+{
+    Segment("nabmon01")
+    Font("gamefont_small")
+    Color(255, 255, 255, 190)
+    SubtitleList()
+    {
+        Subtitle("ifs.movies.nabintro.line01",  3.54,  2.41)
+        Subtitle("ifs.movies.nabintro.line02",  5.95,  2.02)
+        Subtitle("ifs.movies.nabintro.line03",  7.98,  4.24)
+        Subtitle("ifs.movies.nabintro.line04",  12.23,  2.58)
+        Subtitle("ifs.movies.nabintro.line05",  14.82,  2.32)
+        Subtitle("ifs.movies.nabintro.line06",  17.15,  2.93)
+        Subtitle("ifs.movies.nabintro.line07",  20.09,  4.11)
+        Subtitle("ifs.movies.nabintro.line08",  24.21,  3.45)
+        Subtitle("ifs.movies.nabintro.line09",  27.67,  3.14)
+        Subtitle("ifs.movies.nabintro.line10",  30.82,  2.88)
+        Subtitle("ifs.movies.nabintro.line11",  33.71,  1.93)
+        Subtitle("ifs.movies.nabintro.line12",  35.65,  1.49)
+        Subtitle("ifs.movies.nabintro.line13",  37.15,  1.62)
+        Subtitle("ifs.movies.nabintro.line14",  38.78,  3.22)
+        Subtitle("ifs.movies.nabintro.line15",  42.01,  4.00)
+        
+        
+    }
+}
+
+MovieSubtitles()
+{
+    Segment("nabmon02")
+    Font("gamefont_small")
+    Color(255, 255, 255, 190)
+    SubtitleList()
+    {
+        Subtitle("ifs.movies.naboutro.line01",  1.76,  1.59)
+        Subtitle("ifs.movies.naboutro.line02",  3.35,  2.33)
+        Subtitle("ifs.movies.naboutro.line03",  5.68,  5.67)
+        Subtitle("ifs.movies.naboutro.line04",  11.35,  2.19)
+        Subtitle("ifs.movies.naboutro.line05",  13.54,  4.13)
+        Subtitle("ifs.movies.naboutro.line06",  17.67,  4.20)
+        
+    }
+}

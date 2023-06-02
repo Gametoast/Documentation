@@ -1,0 +1,37 @@
+MovieSubtitles()
+{
+    Segment("yavmon01")
+    Font("gamefont_small")
+    Color(255, 255, 255, 190)
+    SubtitleList()
+    {
+        Subtitle("ifs.movies.yavintro.line01", 03.80, 04.00)
+        Subtitle("ifs.movies.yavintro.line02", 05.90, 03.00)
+		Subtitle("ifs.movies.yavintro.line03", 09.01, 02.40)
+        Subtitle("ifs.movies.yavintro.line04", 11.67, 03.80)
+        Subtitle("ifs.movies.yavintro.line05", 15.80, 06.00)
+        Subtitle("ifs.movies.yavintro.line06", 22.00, 02.40)
+		Subtitle("ifs.movies.yavintro.line07", 24.87, 02.64)
+                
+    }
+}
+
+
+
+
+
+
+MovieSubtitles()
+{
+    Segment("yavmon02")
+    Font("gamefont_small")
+    Color(255, 255, 255, 190)
+    SubtitleList()
+    {
+        Subtitle("ifs.movies.yavoutro.line01", 00.85, 05.85)
+        Subtitle("ifs.movies.yavoutro.line02", 06.34, 05.00)
+		Subtitle("ifs.movies.yavoutro.line03", 11.32, 03.98)
+        
+    }
+}
+

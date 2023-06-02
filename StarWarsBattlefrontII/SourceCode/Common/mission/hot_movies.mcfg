@@ -1,0 +1,39 @@
+MovieSubtitles()
+{
+    Segment("hotmon01")
+    Font("gamefont_small")
+    Color(255, 255, 255, 190)
+    SubtitleList()
+    {
+        Subtitle("ifs.movies.hotintro.line01",  3.25,  3.32)
+        Subtitle("ifs.movies.hotintro.line02",  6.57,  1.61)
+        Subtitle("ifs.movies.hotintro.line03",  8.18,  2.96)
+        Subtitle("ifs.movies.hotintro.line04",  11.14,  4.34)
+        Subtitle("ifs.movies.hotintro.line05",  15.48,  1.69)
+        Subtitle("ifs.movies.hotintro.line06",  17.17,  1.29)
+        Subtitle("ifs.movies.hotintro.line07",  18.46,  1.29)
+        Subtitle("ifs.movies.hotintro.line08",  19.75,  4.28)
+        Subtitle("ifs.movies.hotintro.line09",  24.03,  3.00)
+        
+    }
+}
+
+MovieSubtitles()
+{
+    Segment("hotmon02")
+    Font("gamefont_small")
+    Color(255, 255, 255, 190)
+    SubtitleList()
+    {
+        Subtitle("ifs.movies.hotoutro.line01",  16.71,  1.30)
+        Subtitle("ifs.movies.hotoutro.line02",  18.01,  2.72)
+        Subtitle("ifs.movies.hotoutro.line03",  20.73,  3.28)
+        Subtitle("ifs.movies.hotoutro.line04",  24.01,  2.05)
+        Subtitle("ifs.movies.hotoutro.line05",  26.06,  3.08)
+        Subtitle("ifs.movies.hotoutro.line06",  29.14,  3.20)
+        Subtitle("ifs.movies.hotoutro.line07",  32.34,  2.97)
+        Subtitle("ifs.movies.hotoutro.line08",  35.31,  1.20)
+        Subtitle("ifs.movies.hotoutro.line09",  36.51,  3.00)
+        
+    }
+}

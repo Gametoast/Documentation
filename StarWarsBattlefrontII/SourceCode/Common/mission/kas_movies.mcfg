@@ -1,0 +1,40 @@
+MovieSubtitles()
+{
+    Segment("kasmon01")
+    Font("gamefont_small")
+    Color(255, 255, 255, 190)
+    SubtitleList()
+    {
+        Subtitle("ifs.movies.kasintro.line01",  3.85,  1.69)
+        Subtitle("ifs.movies.kasintro.line02",  5.54,  2.92)
+        Subtitle("ifs.movies.kasintro.line03",  8.46,  1.22)
+        Subtitle("ifs.movies.kasintro.line04",  9.68,  4.55)
+        Subtitle("ifs.movies.kasintro.line05",  14.23,  1.59)
+        Subtitle("ifs.movies.kasintro.line06",  15.82,  1.85)
+        Subtitle("ifs.movies.kasintro.line07",  17.67,  1.50)
+        Subtitle("ifs.movies.kasintro.line08",  19.17,  1.90)
+        Subtitle("ifs.movies.kasintro.line09",  21.07,  3.47)
+        Subtitle("ifs.movies.kasintro.line10",  24.54,  1.91)
+        Subtitle("ifs.movies.kasintro.line11",  26.45,  2.62)
+        Subtitle("ifs.movies.kasintro.line12",  29.07,  3.02)
+        Subtitle("ifs.movies.kasintro.line13",  32.09,  2.01)
+        Subtitle("ifs.movies.kasintro.line14",  34.10,  3.00)
+        
+    }
+}
+
+MovieSubtitles()
+{
+    Segment("kasmon02")
+    Font("gamefont_small")
+    Color(255, 255, 255, 190)
+    SubtitleList()
+    {
+        Subtitle("ifs.movies.kasoutro.line01",  2.01,  2.74)
+        Subtitle("ifs.movies.kasoutro.line02",  4.75,  4.46)
+        Subtitle("ifs.movies.kasoutro.line03",  9.21,  1.93)
+        Subtitle("ifs.movies.kasoutro.line04",  11.14,  2.45)
+        Subtitle("ifs.movies.kasoutro.line05",  13.59,  3.00)
+        
+    }
+}

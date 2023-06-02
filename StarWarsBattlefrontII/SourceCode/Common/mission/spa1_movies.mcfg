@@ -1,0 +1,34 @@
+MovieSubtitles()
+{
+    Segment("sb1mon01")
+    Font("gamefont_small")
+    Color(255, 255, 255, 190)
+    SubtitleList()
+    {
+        Subtitle("ifs.movies.sb4intro.line01",  4.71,  1.85)
+        Subtitle("ifs.movies.sb4intro.line02",  6.56,  5.04)
+        Subtitle("ifs.movies.sb4intro.line03",  11.60,  3.94)
+        Subtitle("ifs.movies.sb4intro.line04",  15.54,  3.80)
+        Subtitle("ifs.movies.sb4intro.line05",  19.34,  4.42)
+        Subtitle("ifs.movies.sb4intro.line06",  23.76,  4.16)
+        Subtitle("ifs.movies.sb4intro.line07",  27.92,  3.97)
+        Subtitle("ifs.movies.sb4intro.line08",  31.89,  2.64)
+        Subtitle("ifs.movies.sb4intro.line09",  34.53,  5.81)
+        
+    }
+}
+
+MovieSubtitles()
+{
+    Segment("sb1mon02")
+    Font("gamefont_small")
+    Color(255, 255, 255, 190)
+    SubtitleList()
+    {
+        Subtitle("ifs.movies.sb4outro.line01",  1.04,  3.07)
+        Subtitle("ifs.movies.sb4outro.line02",  4.11,  3.79)
+        Subtitle("ifs.movies.sb4outro.line03",  7.90,  2.13)
+        Subtitle("ifs.movies.sb4outro.line04",  10.03,  2.86)
+        
+    }
+}

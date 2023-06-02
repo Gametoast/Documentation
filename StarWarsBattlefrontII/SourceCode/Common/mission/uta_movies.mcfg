@@ -1,0 +1,33 @@
+MovieSubtitles()
+{
+    Segment("utamon01")
+    Font("gamefont_small")
+    Color(255, 255, 255, 190)
+    SubtitleList()
+    {
+        Subtitle("ifs.movies.utaintro.line01",  4.57,  2.51)
+        Subtitle("ifs.movies.utaintro.line02",  7.38,  6.05)
+        Subtitle("ifs.movies.utaintro.line03",  14.25,  2.42)
+        Subtitle("ifs.movies.utaintro.line04",  16.67,  4.53)
+        Subtitle("ifs.movies.utaintro.line05",  21.20,  2.51)
+        Subtitle("ifs.movies.utaintro.line06",  23.71,  5.02)
+        Subtitle("ifs.movies.utaintro.line07",  29.48,  4.16)
+        Subtitle("ifs.movies.utaintro.line08",  33.64,  5.39)
+        
+    }
+}
+
+MovieSubtitles()
+{
+    Segment("utamon02")
+    Font("gamefont_small")
+    Color(255, 255, 255, 190)
+    SubtitleList()
+    {
+        Subtitle("ifs.movies.utaoutro.line01",  0.39, 3.82)
+        Subtitle("ifs.movies.utaoutro.line02",  4.21, 3.32)
+        Subtitle("ifs.movies.utaoutro.line03",  7.37, 4.84)
+        Subtitle("ifs.movies.utaoutro.line04",  11.90, 4.55)
+        
+    }
+}

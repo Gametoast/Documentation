@@ -1,0 +1,505 @@
+// transition times used by all movies
+
+MovieProperties()
+{
+    Name("ingame_template");
+    FadeInTime(0.0);
+    FadeOutTime(0.0);
+}
+
+MovieProperties()
+{
+    Name("transition_template");
+    FadeInTime(0.0);
+    FadeOutTime(0.2);
+}
+
+// Movies played during level
+
+// hoth 1st movie
+MovieProperties()
+{
+    Name("hot1cam1");
+    Inherit("ingame_template");
+    Movie("ingame");
+    SegmentList()
+    {
+        Segment("hot1cam1", 1.0, 0);
+    }
+}
+
+// hoth 2nd movie
+MovieProperties()
+{
+    Name("hot1cam2");
+    Inherit("ingame_template");
+    Movie("ingame");
+    SegmentList()
+    {
+        Segment("hot1cam2", 1.0, 0);
+    }
+}
+
+
+//Montage Intro Movies
+
+// Coruscant
+MovieProperties()
+{
+    Name("cormon01");
+    Inherit("ingame_template");
+    Movie("ingame");
+    SegmentList()
+    {
+        Segment("cormon01", 1.0, 0);
+    }
+}
+
+// Deathstar
+MovieProperties()
+{
+    Name("deamon01");
+    Inherit("ingame_template");
+    Movie("ingame");
+    SegmentList()
+    {
+        Segment("deamon01", 1.0, 0);
+    }
+}
+
+// Felucia
+MovieProperties()
+{
+    Name("felmon01");
+    Inherit("ingame_template");
+    Movie("ingame");
+    SegmentList()
+    {
+        Segment("felmon01", 1.0, 0);
+    }
+}
+
+// Geonosis
+MovieProperties()
+{
+    Name("geomon01");
+    Inherit("ingame_template");
+    Movie("ingame");
+    SegmentList()
+    {
+        Segment("geomon01", 1.0, 0);
+    }
+}
+
+// Hoth
+MovieProperties()
+{
+    Name("hotmon01");
+    Inherit("ingame_template");
+    Movie("ingame");
+    SegmentList()
+    {
+        Segment("hotmon01", 1.0, 0);
+    }
+}
+
+
+// Kamino
+MovieProperties()
+{
+    Name("kammon01");
+    Inherit("ingame_template");
+    Movie("ingame");
+    SegmentList()
+    {
+        Segment("kammon01", 1.0, 0);
+    }
+}
+
+// Kashyyk
+MovieProperties()
+{
+    Name("kasmon01");
+    Inherit("ingame_template");
+    Movie("ingame");
+    SegmentList()
+    {
+        Segment("kasmon01", 1.0, 0);
+    }
+}
+
+// Mustafar
+MovieProperties()
+{
+    Name("musmon01");
+    Inherit("ingame_template");
+    Movie("ingame");
+    SegmentList()
+    {
+        Segment("musmon01", 1.0, 0);
+    }
+}
+
+// Mygeeto
+MovieProperties()
+{
+    Name("mygmon01");
+    Inherit("ingame_template");
+    Movie("ingame");
+    SegmentList()
+    {
+        Segment("mygmon01", 1.0, 0);
+    }
+}
+
+// Naboo
+MovieProperties()
+{
+    Name("nabmon01");
+    Inherit("ingame_template");
+    Movie("ingame");
+    SegmentList()
+    {
+        Segment("nabmon01", 1.0, 0);
+    }
+}
+
+// Polis Massa
+MovieProperties()
+{
+    Name("polmon01");
+    Inherit("ingame_template");
+    Movie("ingame");
+    SegmentList()
+    {
+        Segment("polmon01", 1.0, 0);
+    }
+}
+
+// Space 1 Coruscant
+MovieProperties()
+{
+    Name("sb1mon01");
+    Inherit("ingame_template");
+    Movie("ingame");
+    SegmentList()
+    {
+        Segment("sb1mon01", 1.0, 0);
+    }
+}
+
+// Space 2 Kashyyk 
+MovieProperties()
+{
+    Name("sb2mon01");
+    Inherit("ingame_template");
+    Movie("ingame");
+    SegmentList()
+    {
+        Segment("sb2mon01", 1.0, 0);
+    }
+}
+
+// Space 3 Mustafar
+MovieProperties()
+{
+    Name("sb3mon01");
+    Inherit("ingame_template");
+    Movie("ingame");
+    SegmentList()
+    {
+        Segment("sb3mon01", 1.0, 0);
+    }
+}
+
+// Space 4 Kamino 
+MovieProperties()
+{
+    Name("sb4mon01");
+    Inherit("ingame_template");
+    Movie("ingame");
+    SegmentList()
+    {
+        Segment("sb4mon01", 1.0, 0);
+    }
+}
+
+// Tantiv IV
+MovieProperties()
+{
+    Name("tanmon01");
+    Inherit("ingame_template");
+    Movie("ingame");
+    SegmentList()
+    {
+        Segment("tanmon01", 1.0, 0);
+    }
+}
+
+// Utapau
+MovieProperties()
+{
+    Name("utamon01");
+    Inherit("ingame_template");
+    Movie("ingame");
+    SegmentList()
+    {
+        Segment("utamon01", 1.0, 0);
+    }
+}
+
+// Yavin
+MovieProperties()
+{
+    Name("yavmon01");
+    Inherit("ingame_template");
+    Movie("ingame");
+    SegmentList()
+    {
+        Segment("yavmon01", 1.0, 0);
+    }
+}
+
+//Montage Outro Movies
+
+// Coruscant
+MovieProperties()
+{
+    Name("cormon02");
+    Inherit("ingame_template");
+    Movie("ingame");
+    SegmentList()
+    {
+        Segment("cormon02", 1.0, 0);
+    }
+}
+
+// Deathstar
+MovieProperties()
+{
+    Name("deamon02");
+    Inherit("ingame_template");
+    Movie("ingame");
+    SegmentList()
+    {
+        Segment("deamon02", 1.0, 0);
+    }
+}
+
+// Felucia
+MovieProperties()
+{
+    Name("felmon02");
+    Inherit("ingame_template");
+    Movie("ingame");
+    SegmentList()
+    {
+        Segment("felmon02", 1.0, 0);
+    }
+}
+
+// Geonosis
+MovieProperties()
+{
+    Name("geomon02");
+    Inherit("ingame_template");
+    Movie("ingame");
+    SegmentList()
+    {
+        Segment("geomon02", 1.0, 0);
+    }
+}
+
+// Hoth
+MovieProperties()
+{
+    Name("hotmon02");
+    Inherit("ingame_template");
+    Movie("ingame");
+    SegmentList()
+    {
+        Segment("hotmon02", 1.0, 0);
+    }
+}
+
+
+// Kamino
+MovieProperties()
+{
+    Name("kammon02");
+    Inherit("ingame_template");
+    Movie("ingame");
+    SegmentList()
+    {
+        Segment("kammon02", 1.0, 0);
+    }
+}
+
+// Kashyyk
+MovieProperties()
+{
+    Name("kasmon02");
+    Inherit("ingame_template");
+    Movie("ingame");
+    SegmentList()
+    {
+        Segment("kasmon02", 1.0, 0);
+    }
+}
+
+// Mustafar
+MovieProperties()
+{
+    Name("musmon02");
+    Inherit("ingame_template");
+    Movie("ingame");
+    SegmentList()
+    {
+        Segment("musmon02", 1.0, 0);
+    }
+}
+
+// Mygeeto
+MovieProperties()
+{
+    Name("mygmon02");
+    Inherit("ingame_template");
+    Movie("ingame");
+    SegmentList()
+    {
+        Segment("mygmon02", 1.0, 0);
+    }
+}
+
+// Naboo
+MovieProperties()
+{
+    Name("nabmon02");
+    Inherit("ingame_template");
+    Movie("ingame");
+    SegmentList()
+    {
+        Segment("nabmon02", 1.0, 0);
+    }
+}
+
+// Polis Massa
+MovieProperties()
+{
+    Name("polmon02");
+    Inherit("ingame_template");
+    Movie("ingame");
+    SegmentList()
+    {
+        Segment("polmon02", 1.0, 0);
+    }
+}
+
+// Space 1 Coruscant
+MovieProperties()
+{
+    Name("sb1mon02");
+    Inherit("ingame_template");
+    Movie("ingame");
+    SegmentList()
+    {
+        Segment("sb1mon02", 1.0, 0);
+    }
+}
+
+// Space 2 Kashyyk 
+MovieProperties()
+{
+    Name("sb2mon02");
+    Inherit("ingame_template");
+    Movie("ingame");
+    SegmentList()
+    {
+        Segment("sb2mon02", 1.0, 0);
+    }
+}
+
+// Space 3 Mustafar
+MovieProperties()
+{
+    Name("sb3mon02");
+    Inherit("ingame_template");
+    Movie("ingame");
+    SegmentList()
+    {
+        Segment("sb3mon02", 1.0, 0);
+    }
+}
+
+// Space 4 Kamino 
+MovieProperties()
+{
+    Name("sb4mon02");
+    Inherit("ingame_template");
+    Movie("ingame");
+    SegmentList()
+    {
+        Segment("sb4mon02", 1.0, 0);
+    }
+}
+
+// Tantive IV
+MovieProperties()
+{
+    Name("tanmon02");
+    Inherit("ingame_template");
+    Movie("ingame");
+    SegmentList()
+    {
+        Segment("tanmon02", 1.0, 0);
+    }
+}
+
+// Utapau
+MovieProperties()
+{
+    Name("utamon02");
+    Inherit("ingame_template");
+    Movie("ingame");
+    SegmentList()
+    {
+        Segment("utamon02", 1.0, 0);
+    }
+}
+
+// Yavin
+MovieProperties()
+{
+    Name("yavmon02");
+    Inherit("ingame_template");
+    Movie("ingame");
+    SegmentList()
+    {
+        Segment("yavmon02", 1.0, 0);
+    }
+}
+
+
+// Fall of the Republic intro
+MovieProperties()
+{
+    Name("crawl1");
+    Inherit("transition_template");
+    Movie("ingame");
+    SegmentList()
+    {
+        Segment("crawl1", 1.0, 0);
+    }
+}
+
+// Rise of the Empire intro
+MovieProperties()
+{
+    Name("crawl2");
+    Inherit("transition_template");
+    Movie("ingame");
+    SegmentList()
+    {
+        Segment("crawl2", 1.0, 0);
+    }
+}
