@@ -1,0 +1,2297 @@
+Header
+[GameObjectClass]
+ClassLabel is required by the game engine to determine it's functional properties.
+GeometryName is required to display the lowrez mesh within the zeroeditor.
+GeometryScale is required by zero to reflect any post-XSI scaling done through the msh.option file
+
+Classlabels
+Collision-less Object Classlabels
+	DustEffect
+	Cloth
+	Light
+
+Objects with Collision
+Prop
+Any building with infinite health should be classlabel prop.
+Prop subclasses include 
+    Door 
+    AnimatedProp
+     
+
+Damageable objects with finite health
+Asteroid 
+Building/DestructableBuilding  - If you want a building with health use classlabel destructible building.
+
+    AnimatedBuilding 
+        CommandPost 
+        BuildingAnimatedArmed ?
+            CommandArmedAnimatedBuilding 
+    ArmedBuilding 
+        CommandBuildingArmed ?
+        BuildingArmedDynamic ?
+            DefenseGridTurret 
+            PortableTurret 
+    Trap 
+    PowerupStation 
+Droid 
+Droideka 
+Flyer 
+    CommandFlyer 
+    Carrier 
+Hover 
+    CommandHover 
+Item 
+    Mine 
+    FlagItem 
+    PowerupItem 
+RemoteTerminal 
+Soldier 
+Walker 
+    CommandWalker 
+         
+
+
+
+BF2 Controllable Objects
+Controllable objects support camera views and first person models
+    Droid
+    Droideka
+    Flyer
+    Hover
+    RemoteTerminal
+    Soldier
+    Walker
+    MountedTurret
+    PassengerSlot
+
+Controllable objects support units
+    ThirdPersonFOV 
+    FirstPersonFOV
+    ForceMode
+    VehiclePosition
+    CockpitTension
+    NumBobPoints
+    BobVector
+    BobSlope
+    BobOrient
+    BobRSlope
+    BobTime
+    ShakeScale
+    PilotPosition
+    AnimatedPilotPosition
+    Pilot9Pose
+    PilotAnimation
+    PilotType
+        none
+        self
+        vehicle
+        remote
+        vehicleself
+    IsPilotExposed
+    PilotDeath
+        fly
+        fall
+    CapturePosts
+    NoEnterVehicles
+    IgnoreHintNodes
+    ControlsUnit
+    AnimatesUnitAsTurret
+
+
+
+Controllable objects support weapons
+Weapons Have Aimers
+    Aimer Properties
+AimerPitchLimits deg
+AimerPitchRate
+AimerYawLimits deg
+AimerYawRate
+AimerRestDirection xyz
+BarrelOffset
+AimerOffset xyz
+AimerNodeName
+NextBarrel
+BarrelNodeName
+BarrelLength
+BarrelRecoil                        
+FirePointName
+FireNodeName
+HierarchyLevel bool
+FireOutsideLimits bool
+NextAimer
+
+BF2 Weapon Classes
+Weapon 
+                    NextCharge
+                    IconTexture
+                    ReticuleTexture
+                    ScopeTexture
+                    Ordnance
+                    OrdnanceName
+                    AmmoPerShot
+                    HeatPerShot
+                    HeatRecoverRate
+                    MagReloadTime
+                    ReloadTime
+                    ZoomMin
+                    ZoomMax
+                    ZoomRate
+                    ZoomTurnDivisorMin
+                    ZoomTurnDivisorMax
+                    ZoomFirstPerson
+                    RecoilStrengthHeavy
+                    RecoilStrengthLight
+                    RecoilLengthLight
+                    RecoilLengthHeavy
+                    RecoilDelayLight
+                    RecoilDelayHeavy
+                    RecoilDecayLight
+                    RecoilDecayHeavy
+                    MaxChargeStrengthHeavy
+                    MaxChargeStrengthLight
+                    ChargeRateHeavy
+                    ChargeRateLight
+                    ChargeDelayLight
+                    ChargeDelayHeavy
+                    TimeAtMaxCharge
+                    TriggerSingle
+                    ExtremeRange
+                    LockOnRange
+                    AutoAimSize
+                    LockOnAngle
+                    LockOffAngle
+                    MinRange
+                    OptimalRange
+                    MaxRange
+                    TargetEnemy
+                    TargetNeutral
+                    TargetFriendly
+                    TargetAll
+                    TargetPerson
+                    TargetAnimal
+                    TargetDroid
+                    TargetVehicle
+                    TargetBuilding
+                    TargetBuildingDead
+                    TargetBuildingUnbuilt
+                    TargetMine
+                    AITargetAll
+                    AITargetPerson
+                    AITargetAnimal
+                    AITargetDroid
+                    AITargetVehicle
+                    AITargetBuilding
+                    AITargetBuildingDead
+                    AITargetBuildingUnbuilt
+                    AITargetMine
+                    GeometryName
+                    WeaponName
+                    HUDTag
+                    HighResGeometry
+                    CustomAnimationBank
+                    AnimationBank
+                    FirePointName
+                    FireSound
+                    FireSoundStop
+                    ReloadSound
+                    FireLoopSound
+                    FireEmptySound
+                    ChargeSound
+                    ChargedSound
+                    ChargeSoundStop
+                    ChargeSoundPitch
+                    WeaponChangeSound
+                    OverheatSound
+                    OverheatSoundPitch
+                    OverheatStopSound
+                    ClankLeftWalkSound
+                    ClankRightWalkSound
+                    ClankLeftRunSound
+                    ClankRightRunSound
+                    JumpSound
+                    LandSound
+                    RollSound
+                    ProneSound
+                    SquatSound
+                    StandSound
+                    BarrageMin
+                    BarrageMax
+                    BarrageDelay
+                    SniperScope
+                    FlashRadius
+                    FlashWidth
+                    FlashLength
+                    FlashColor
+                    FlashLightColor
+                    FlashLightRadius
+                    FlashLightDuration
+                    MuzzleFlashEffect
+                    ChargeUpEffect
+                    MuzzleFlashModel
+                    FireAnim
+                    MuzzleFlash
+                        small_muzzle_flash
+                        med_muzzle_flash
+                        large_muzzle_flash
+                    EnergyDrain
+                    AutoPitchScreenDist
+                    AutoTurnScreenDist
+                    TargetLockMaxDistance
+                    TargetLockMaxDistanceLose
+                    ScoreForMedalsType
+                    MedalsTypeToUnlock
+                    MedalsTypeToLock
+                    InstantPlayFireAnim bool
+                    OffhandWeapon bool
+                    ReticuleInAimingOnly bool
+                    DisplayRefire bool
+                    AIBubbleCircle bool
+                    AIBubbleSizeMultiplier float
+                    AIBubbleScaleDistDivider float
+                    AIBubbleScaleClamp float
+                    NoFirstPersonFireAnim bool
+
+    WeaponAreaEffect
+                                        FireType
+                                            Repeat
+                                            Charge
+                                            Hold
+                                        EffectType
+                                            Push
+                                            Pull
+                                            Choke
+                                            Stun
+                                            Mindtrick
+                                        AreaType
+                                            Sphere
+                                            Cylinder
+                                            Arc
+                                            Ray
+                                        InitialSalvoDelay
+                                        AreaRange
+                                        AreaRadius
+                                        AreaHeight
+                                        MaxTargets
+                                        EffectDamage
+                                        EffectStrength
+                                        EffectFalloff
+                                        EnergyDrainRate
+                                        ChargeMaxTime
+                                        ChargeMinStrength
+                                        ThrustFactor
+                                        TargetLock
+                                        SoldierAnimation    
+    WeaponBinoculars 
+    WeaponCannon
+                                        ShotDelay
+                                        MaxPressedTime
+                                        MaxSpread
+                                        PitchSpread
+                                        YawSpread
+                                        StandStillSpread
+                                        StandMoveSpread
+                                        StandAimSpread
+                                        CrouchStillSpread
+                                        CrouchMoveSpread
+                                        CrouchAimSpread
+                                        ProneStillSpread
+                                        ProneMoveSpread
+                                        ProneAimSpread
+                                        KickSpread
+                                        SpreadPerShot
+                                        SpreadRecover
+                                        SpreadRecoverRate
+                                        SpreadThreshold
+                                        SpreadLimit
+                                        KickStrength
+                                        KickBuildup
+                                        SalvoCount
+                                        ShotsPerSalvo
+                                        SalvoDelay
+                                        InitialSalvoDelay
+                                        ShotPatternCount
+                                        ShotPatternPitchYaw
+                                        WarmUpTime
+                                        CoolDownTime
+                                        WarmUpSoundStartPitch
+                                        WarmUpSoundFadeInTime
+                                        WarmUpSoundFadeOutTime
+                                        BarrelSoundFadeInTime
+                                        BarrelSoundFadeOutTime
+                                        CoolDownSoundEndPitch
+                                        CoolDownSoundFadeInTime
+                                        CoolDownSoundFadeOutTime
+                                        WarmUpSound
+                                        BarrelSound
+                                        CoolDownSound
+                                        SecondaryOrdnance
+                                        SecondaryOrdnanceName
+                                        SecondaryOrdnancePeriod    
+        WeaponGrapplingHook 
+        WeaponLauncher
+                                        Ordnance
+                                        OrdnanceName
+                                        LockTime
+                                        TrackingSound
+                                        ClearLockOnFire        
+        WeaponTowCable
+                                        WindSound
+                                        DetatchSound        
+    WeaponCatapult
+                                        ArmName
+                                        CockedAngle
+                                        OrdnanceGeometryName    
+    WeaponDestruct
+                                        MaxPressedTime
+                                        ExplosionClass
+                                        SelfDestructSoundPitch    
+    WeaponDisguise
+                                        TimeToChange    
+    WeaponDispenser
+                                        HideOnFire
+                                        Ordnance
+                                        OrdnanceName
+                                        Velocity
+                                        ShotDelay
+                                        MaxPressedTime
+                                        MinStrength
+                                        MaxStrength
+                                        InitialSalvoDelay
+                                        InitialSalvoDelayProne
+                                        MaxItems
+                                        FirePointExtraOffset    
+        WeaponDetonator
+                                        PlantedHash        
+        WeaponRemote
+                                        SwitchImmediately
+                                        AllowDestruct        
+    WeaponGrenade
+
+    Weapon Grenade
+                                        ShotDelay
+                                        InitialSalvoDelay
+                                        InitialSalvoDelayUnderhand
+                                        InitialSalvoDelayProne
+                                        ShotElevate
+                                        MaxPressedTime
+                                        HideOnFire
+                                        ForceFireAnimation    
+    WeaponInvisibility
+                                        InvisibilityTrigger
+                                            Press     "0"
+                                            Toggle    "1"
+                                            Hold      "2"
+                                        InvisibilityPersistTime
+                                        InvisibilityMax
+                                        InvisibilityMin
+                                        SpeedForInvisibilityMax
+                                        SpeedForInvisibilityMin
+                                        InvisibilityIncRate
+                                        InvisibilityDecRate
+                                        FlickerAmplitude
+                                        FlickerTimeMin
+                                        FlickerTimeMax
+                                        InitialSalvoDelay
+                                        InitialEnergyDrain    
+    WeaponLaser
+                                        ShotDelay
+                                        SalvoTime    
+    WeaponMelee
+                                        Explosion
+                                        ExplosionName
+                                        HitEffect     // this call now gets rid of any additional hit effects
+                                        AddHitEffect // add extra hit effects - choose one randomly when making contact - Mike Z
+                                        HitSound
+                                        DeflectEffect
+                                        DeflectSound
+                                        TurnOnDuration
+                                        OnSound
+                                        TurnOnSound
+                                        TurnOffSound
+                                        NumDamageEdges
+                                        DamageEdgeLength
+                                        LightSaberLength
+                                        DamageEdgeWidth
+                                        LightSaberWidth
+                                        LightSaberTexture
+                                        LightSaberGlowTexture
+                                        LightSaberTrailColor
+                                        CustomAnimationBank // Override handling of WeaponAnimationBank tags
+                                        ComboAnimationBank // Override handling of WeaponAnimationBank tags
+                                        GeometryName
+                                        FirePointName
+                                        OffhandGeometryName
+                                        OffhandFirePointName
+                                        AttachedFirePoint    
+    WeaponMeleeThrow
+                                        PrimaryWeaponIndex
+                                        InitialSalvoDelay    
+    WeaponRepair
+                                        ShotDelay
+                                        SoldierHealth
+                                        SoldierAmmo
+                                        PersonHealth
+                                        PersonAmmo
+                                        AnimalHealth
+                                        AnimalAmmo
+                                        DroidHealth
+                                        DroidAmmo
+                                        VehicleHealth
+                                        VehicleAmmo
+                                        BuildingHealth
+                                        BuildingAmmo
+                                        BuildingRebuild
+                                        BuildingBuild
+                                        MineHealth    
+    WeaponShield 
+                                        MaxShield
+                                        AddShield
+                                        AddShieldOff
+                                        ShieldOffset
+                                        ShieldRadius xyz
+                                        ShieldEffect
+                                        ShieldSound
+                                        ShieldOffSound
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Entity 
+    DustEffect
+                                        MinPos
+                                        MaxPos
+                                        MinVel
+                                        MaxVel
+                                        MinSize
+                                        MaxSize
+                                        MinLifeTime
+                                        MaxLifeTime
+                                        Alpha
+                                        Color
+                                        NumParticles
+                                        MaxDistance
+                                        MinDistance
+                                        RadiusFadeMin
+                                        RadiusFadeMax
+                                        HeightScale
+                                        Texture
+                                        CameraDistance
+                                        SpawnSound
+   
+    Cloth 
+                                        winddirection
+                                        windspeed
+                                        dampening
+                                        drag
+                                        particlemass
+                                        maxacceleration
+                                        attachedmesh
+                                        priority
+                                        crossconstraint
+                                        bendconstraint
+                                        stretchconstraint
+                                        hardedge
+                                        transparent    
+    EntityEx 
+        EntityGeometry
+                                        IsVisible ?
+                                        IsCollidable ?
+                                        CHUNKSECTION
+                                        CHUNK
+                                        CHUNK1
+                                        CHUNK2
+                                        CHUNK3
+                                        CHUNK4
+                                        CHUNK5
+                                        CHUNK6
+                                        CHUNK7
+                                        CHUNK8
+                                        CHUNK9
+                                        LODPriorityMod
+                                        GeometryName
+                                        ChunkGeometryName
+                                        ChunkNodeName
+                                        ChunkTerrainCollisions
+                                        ChunkTerrainEffect
+                                        ChunkTrailEffect
+                                        ChunkSmokeEffect
+                                        ChunkSmokeNodeName
+                                        ChunkTrailNodeName
+                                        ChunkPhysics
+                                            FULL
+                                            LEAF
+                                            STATIC
+                                            COCKPIT
+                                            SIMPLE
+                                        ChunkOmega xyz
+                                        ChunkSpeed
+                                        ChunkGravity
+                                        ChunkLinearDamping
+                                        ChunkAngularDamping
+                                        ChunkDeathSpeed
+                                        ChunkVelocityFactor
+                                        ChunkUpFactor
+                                        ChunkBounciness
+                                        ChunkStickiness
+                                        ChunkSimpleFriction
+                                        ChunkLifetime
+                                        ChunkInitialCollisionSound
+                                        ChunkScrapeCollisionSound
+                                        ChunkKeepSoldierCollision
+                                        TerrainCollisionPrim
+                                        BuildingCollisionPrim
+                                        VehicleCollisionPrim
+                                        SoldierCollisionPrim
+                                        OrdnanceCollisionPrim
+                                        TargetableCollisionPrim
+                                            sphere radius
+                                                aacylinder radius,height
+                                                cylinder radius,height
+                                                box  radius,height,width
+                                                    TerrainCollisionPrim
+                                                    BuildingCollisionPrim
+                                                    VehicleCollisionPrim
+                                                    SoldierCollisionPrim
+                                                    OrdnanceCollisionPrim
+                                                    TargetableCollisionPrim
+                                        TargetableCollision
+                                        TerrainCollision
+                                        BuildingCollision
+                                        VehicleCollision
+                                        SoldierCollision
+                                        OrdnanceCollision
+                                        HitLocation
+                                        Lighting
+                                            dynamic
+                                            static
+                                        MaxShadowLength
+                                        DeathOnFlyerLand
+                                        DenyFlyerLand
+                                        TargetPointOffset        
+            Prop
+                                        GeometryName    = "mesh filename"
+                                        TerrainCollisionPrim = 
+                                        BuildingCollisionPrim = 
+                                        VehicleCollisionPrim = 
+                                        SoldierCollisionPrim = 
+                                        OrdnanceCollisionPrim = 
+                                            sphere x,y,z, radius // manually create invisible collision using predefined shape
+                                            aacylinder x,y,z, radius,height // manually create invisible collision using predefined shape
+                                            cylinder x,y,z, radius,height // manually create invisible collision using predefined shape
+                                            box x,y,z, radius,height,width // manually create invisible collision using predefined shape
+                                        TargetableCollision = "geometryname"
+                                        TerrainCollision = "geometryname"
+                                        BuildingCollision = "geometryname"
+                                        VehicleCollision = geometryname, none, clear
+                                        VehicleCollisionOnly ="geometryname" //masks from soldier collision
+                                        SoldierCollision = geometryname, none, clear
+                                        OrdnanceCollision = geometryname, none, clear
+                                        DestroyedGeometryName = "mesh filename"
+                                        LowResModel = "geometryname"
+                                        GeometryColorMin = "r,g,b,a"
+                                        GeometryColorMax = "r,g,b,a"
+                                        SoundOffset = x,y,z
+                                        SoundWhenMoving = soundpropertyname
+                                        SoundProperty = soundpropertyname
+                                        StartMovementSound = soundpropertyname 
+                                        StopMovementSound = soundpropertyname
+                                        Lighting = dynamic or static //controls dynamic lighting
+                                        DeathOnFlyerLand = 0 or 1 // kills flyers that land on object
+                                        DenyFlyerLand = 0 or 1 // prevents ai from landing on object
+                                        AttachEffect = "effect filename"
+                                        AttachOdf = "odf filename"
+                                        AttachToHardPoint = "hard point name"
+                                            MaxDistance = // sets distance of attached odfs, may need to go in attached odf
+                Door
+                                        OpenTrigger
+                                        OpenRatio
+                                        IsLocked
+                                        AnimationName
+                                        Animation
+                                        AnimationTrigger
+                                        OpenSound
+                                        CloseSound
+                                        LockedSound
+                AnimatedProp
+                                        AnimationName
+                                        Animation
+                                        AttachTrigger
+                                            die
+                                        AnimationTrigger
+                                        DisableForCloneWars
+                                        TrackDeathOnAttach
+                                        IdleDelay
+                                        KillSoldierSound
+                                        AnimationTriggerSound                                        
+            GameObject
+                                        Team
+                                        PerceivedTeam
+                                        CurHealth
+                                        MaxHealth
+                                        AddHealth
+                                        CurShield
+                                        MaxShield
+                                        AddShield
+                                        DisableTime
+                                        PhysicsActive
+                                        HealthType
+                                            Person
+                                            Animal
+                                            Droid
+                                            Vehicle
+                                            Building
+                                            Mine
+                                        HealthTypeForLockOn
+                                            Person
+                                            Animal
+                                            Droid
+                                            Vehicle
+                                            Building
+                                            Mine
+                                        MaxHealth
+                                        AddHealth
+                                        MaxShield
+                                        AddShield
+                                        HideHealthBar
+                                        PilotSkillRepairScale
+                                        ScanningRange
+                                        TransmitRange
+                                        ReserveOneForPlayer
+                                        AvailableForAnyTeam
+                                        HurtSound
+                                        HurtFallSound
+                                        DeathSound
+                                        DamageRegionSound
+                                        AISizeType 
+                                            SOLDIER
+                                            HOVER
+                                            SMALL
+                                            MEDIUM
+                                            HUGE
+                                            FLYER
+                                        AINoRepair
+                                        DamageStartPercent
+                                        DamageStopPercent
+                                        DamageEffect
+                                        DamageEffectScale
+                                        DamageInheritVelocity
+                                        DamageAttachPoint
+                                        DamageAttachOffset
+                                        DamageEffectSound
+                                        VOSound
+                                        VOUnitType
+                                        VORadius
+                                        SwitchClassRadius
+                                        IsNotTargetableByPlayer
+                                        LockOnMinDist
+                                        LockOnMaxDist
+                                        LockOnMaxTrackDist
+                                        PointsToUnlock
+                                        DisabledEffect
+                                        HideHealthBar
+                                        AICollisionRadius
+                                        RadiusDamageSizeScale
+                                        VehicleType //Used By Vehicles
+                                            SCOUT
+                                            LIGHT
+                                            MEDIUM
+                                            HEAVY
+                                            FIGHTER
+                                            TRANSPORT
+                                            CAPITOL
+                                            REMOTETERMINAL
+                                            ATAT            
+                Asteroid
+                                        GeometryName
+                                        SoldierCollision
+                                        OrdnanceCollision
+                                        MinSpeed
+                                        MaxSpeed
+                                        MinOmega
+                                        MaxOmega
+                                        Collidable
+                                        ExplosionBreak
+                                        Explosion
+                                        ExplosionName
+                                        ExplosionDestruct
+                                        ChildAsteroid
+                Building
+                                        GeometryName
+                                        DestroyedGeometryName
+                                        UnbuiltGeometryName
+                                        Explosion
+                                        ExplosionName
+                                        ExplosionOffset
+                                        RespawnTime
+                                        UnbuiltHoloOdf
+                                        BuiltSound
+                                        BuildingSound
+                                        AutoBarrierEnable
+                                        AutoBarrierRemoveOnDeath
+                                        ColorizeByTeam
+                                        AutoBarrierSize                
+                    AnimatedBuilding
+                                        AnimationName
+                                        IdleAnimation
+                                        DeathAnimation
+                                        EnableDeathExplosions
+                                        DeathEffect                   
+                        CommandPost
+                                        Label
+                                        CaptureRegion
+                                        ControlRegion
+                                        KillRegion
+                                        SpawnPath
+                                        SpawnRegion
+                                        AllyPath
+                                        TurretPath
+                                        AllyCount
+                                        Radius
+                                        HUDIndex
+                                        HUDIndexDisplay
+                                            /* player(s) is/are Alliance
+                                        VO_All_AllCapture
+                                        VO_All_AllLost
+                                        VO_All_AllInDispute
+                                        VO_All_AllSaved
+                                        VO_All_AllInfo
+                                        VO_All_ImpCapture
+                                        VO_All_ImpLost
+                                        VO_All_ImpInDispute
+                                        VO_All_ImpSaved
+                                        VO_All_ImpInfo
+                                            /* player(s) is/are Empire
+                                        VO_Imp_AllLost
+                                        VO_Imp_AllInDispute
+                                        VO_Imp_AllSaved
+                                        VO_Imp_AllInfo
+                                        VO_Imp_ImpCapture
+                                        VO_Imp_ImpLost
+                                        VO_Imp_ImpInDispute
+                                        VO_Imp_ImpSaved
+                                        VO_Imp_ImpInfo
+                                            /* player(s) is/are Republic
+                                        VO_Rep_RepCapture
+                                        VO_Rep_RepLost
+                                        VO_Rep_RepInDispute
+                                        VO_Rep_RepSaved
+                                        VO_Rep_RepInfo
+                                        VO_Rep_CISCapture
+                                        VO_Rep_CISLost
+                                        VO_Rep_CISInDispute
+                                        VO_Rep_CISSaved
+                                        VO_Rep_CISInfo
+                                            /* player(s) is/are CIS
+                                        VO_CIS_RepCapture
+                                        VO_CIS_RepLost
+                                        VO_CIS_RepInDispute
+                                        VO_CIS_RepSaved
+                                        VO_CIS_RepInfo
+                                        VO_CIS_CISCapture
+                                        VO_CIS_CISLost
+                                        VO_CIS_CISInDispute
+                                        VO_CIS_CISSaved
+                                        VO_CIS_CISInfo
+                                        ValueBleed_Alliance
+                                        ValueBleed_CIS
+                                        ValueBleed_Empire
+                                        ValueBleed_Republic
+                                        ValueBleed_Neutral
+                                        ValueBleed_Locals
+                                        Value_ATK_Alliance
+                                        Value_ATK_CIS
+                                        Value_ATK_Empire
+                                        Value_ATK_Republic
+                                        Value_ATK_Locals
+                                        Value_DEF_Alliance
+                                        Value_DEF_CIS
+                                        Value_DEF_Empire
+                                        Value_DEF_Republic
+                                        Value_DEF_Locals
+                                        SoldierBan      
+                                        HoverBan       
+                                        SmallBan       
+                                        MediumBan      
+                                        HugeBan        
+                                        FlyerBan       
+                                        AISpawnWeight                        
+                                        NeutralizeTime
+                                        CaptureTime
+                                        HoloOdf
+                                        HoloImageGeometry
+                                        HoloTurnOnTime
+                                        ChargeSound
+                                        CapturedSound
+                                        DischargeSound
+                                        LostSound
+                                        DisputeSound
+                                        AmbientSound
+                                        SoundPitchDev
+                                        CaptureMusic
+                                        LostMusic
+                                        SpawnPointNames
+                                        SpawnPointCount
+                                        SpawnPointLocation                      
+                        BuildingAnimatedArmed ?
+                                        BUILDINGSECTION
+                                        BODY
+                                        TURRET
+                                        TURRET1
+                                        TURRET2
+                                        TURRET3
+                                        TURRET4
+                                        TURRET5
+                                        TURRET6
+                                        TURRET7
+                                        TURRET8                        
+                            CommandArmedAnimatedBuilding 
+                    ArmedBuilding
+                                        NoAIBoard
+                                        BUILDINGSECTION
+                                        BODY
+                                        TURRET
+                                        TURRET1
+                                        TURRET2
+                                        TURRET3
+                                        TURRET4
+                                        TURRET5
+                                        TURRET6
+                                        TURRET7
+                                        TURRET8                    
+                        CommandBuildingArmed ?
+                        BuildingArmedDynamic ?
+                            DefenseGridTurret 
+                                        RespawnTime                            
+                            PortableTurret
+                                        LifeTime
+                                        Gravity
+                                        Rebound
+                                        Friction
+                                        CollisionSound
+                                        CollisionWaterSound
+                                        CollisionOtherSound                            
+                    Trap
+                                        GeometryName
+                                        AnimationName
+                                        BuildAnimation
+                                        BuildPoint
+                                        BuildModelOdf
+                                        TriggerAnimation
+                                        TriggerNode
+                                        TriggerOffset
+                                        TriggerRadius
+                                        TriggerTeam
+                                            all
+                                            imp
+                                            rep
+                                            cis
+                                        RayTriggerWidth
+                                        RayTriggerMinSpeed
+                                        ResetTeam
+                                            all
+                                            imp
+                                            rep
+                                            cis
+                                        MinEnemyRadius
+                                        DeathTime
+                                        DeathEffect
+                                        DeathEffectOffset
+                                        TriggerSound
+                                        BuiltCollision
+                                        TriggerCollision
+                                        HideUnbuiltModel
+                                        DeathOnCollision                   
+                    PowerupStation
+                                        EffectRegion
+                                        Radius
+                                        PowerupDelay
+                                        SoldierHealth
+                                        SoldierAmmo
+                                        SoldierEnergy
+                                        PersonHealth
+                                        PersonAmmo
+                                        PersonEnergy
+                                        AnimalHealth
+                                        AnimalAmmo
+                                        AnimalEnergy
+                                        DroidHealth
+                                        DroidAmmo
+                                        DroidEnergy
+                                        VehicleHealth
+                                        VehicleAmmo
+                                        VehicleEnergy
+                                        BuildingHealth
+                                        BuildingAmmo
+                                        BuildingEnergy
+                                        BuffOffenseTimer
+                                        BuffOffenseMult
+                                        BuffDefenseTimer
+                                        BuffDefenseMult
+                                        BuffHealthTimer
+                                        BuffHealthRate
+                                        DebuffDamageTimer
+                                        DebuffDamageRate
+                                        PowerupSound
+                                        AmbientSound
+                                        IdleRotateSpeed
+                                        IdleWaitTime
+                                        IdleWobbleNode
+                                        IdleWobbleFactor
+                                        IdleWobbleLeftFoot
+                                        IdleWobbleRightFoot
+                                        ActiveRotateNode
+                                        ActiveSpinNode                    
+                Droid
+                                        GeometryName
+                                        SetAltitude
+                                        GravityScale
+                                        LiftSpring
+                                        LiftDamp
+                                        NoCombatInterrupt
+                                        Acceleration
+                                        Acceleraton    //HACK support old typo
+                                        MaxSpeed
+                                        MaxStrafeSpeed
+                                        MaxTurnSpeed
+                                        MaxPitchSpeed
+                                        PitchLimits
+                                        LevelSpring
+                                        LevelDamp
+                                        CollisionThreshold
+                                        CollisionScale
+                                        CollisionInflict
+                                        WeaponSection
+                                        Weapon
+                                        WeaponName
+                                        WeaponAmmo
+                                        WeaponShareAmmo
+                                        WeaponShareHeat
+                                        WeaponChannel
+                                        Explosion
+                                        ExplosionName
+                                        EnergyAutoRestore
+                                        AmbientSound
+                                        Ambient2Sound
+                                        DestructTrackOffset
+                                        DestructTiltValue
+                                        DestructChargeEffect                
+                Droideka
+                                        MouseTurnDecay
+                                        FirstPerson
+                                        GeometryName
+                                        UprightLowResModel
+                                        BallLowResModel
+                                        VehicleType
+                                        NoCombatInterrupt
+                                        AnimationName
+                                        Acceleration
+                                        Acceleraton    //HACK support old typo
+                                        MaxSpeed
+                                        MaxTurnSpeed
+                                        MaxYawSpeed
+                                        YawLimits
+                                        MaxPitchSpeed
+                                        UnrollTime
+                                        RollTime
+                                        PitchLimits
+                                        CollisionThreshold
+                                        CollisionScale
+                                        CollisionInflict
+                                        WeaponSection
+                                        Weapon
+                                        WeaponName
+                                        WeaponAmmo
+                                        WeaponShareAmmo
+                                        WeaponShareHeat
+                                        WeaponChannel
+                                        Explosion
+                                        ExplosionName
+                                        TEMP_AnimationSpeed - No Longer in code, was in ODFs for develpment
+                                        StompEffect
+                                        AttachNodeName
+                                        NoDeathExplosions
+                                        DeathDustEffect
+                                        DeathDustDelay
+                                        DeathDustOffset
+                                        DeathShakeDelay
+                                        DeathShakeForce
+                                        DeathShakeDuration
+                                        DeathShakeRadius
+                                        JumpSound
+                                        LandSound
+                                        Footstep0Sound
+                                        Footstep1Sound
+                                        Footstep2Sound
+                                        HydraulicSound
+                                        HydraulicSoundHeight
+                                        StoppedTurnSpeed ?
+                                        ForwardTurnSpeed ?
+                                        TurnThreshold
+                                        MaxTerrainAngle
+                                        WaterDamageInterval
+                                        WaterDamageAmount
+                                        BallRadius
+                                        BallMoveSpeed
+                                        BallStoppedTurnSpeed
+                                        BallTurnSpeed
+                                        BallSprintTurnSpeed
+                                        BallSlippage
+                                        BallMaxLean
+                                        BallAcceleration
+                                        BallRollingFriction
+                                        MaxBallAngle
+                                        SprintTimeForBowling
+                                        BowlingPush
+                                        BallSprintSpeedBoost
+                                        BallJumpHeight
+                                        BallJumpForwardBoost
+                                        EnergyRestore
+                                        EnergyRestoreIdle
+                                        EnergyDrainSprint
+                                        EnergyCostJump
+                                        EnergyCostBowling
+                                        WakeEffect
+                                        CAMERASECTION
+                                            STAND
+                                            STANDZOOM
+                                            CROUCH
+                                            SPLITSTAND
+                                            SPLITSTANDZOOM
+                                            SPLITCROUCH
+                                        UprightWaterDamageHeight
+                                        BallWaterDamageHeight
+                                        HealthGainEffect
+                                        AmmoGainEffect
+                                        EnergyGainEffect
+                                        BuffHealthEffect
+                                        BuffOffenseEffect
+                                        BuffDefenseEffect
+                                        DebuffEffect                
+                Flyer
+                                        FLYERSECTION
+                                        BODY
+                                        TURRET
+                                        TURRET1
+                                        TURRET2
+                                        TURRET3
+                                        TURRET4
+                                        TURRET5
+                                        TURRET6
+                                        TURRET7
+                                        TURRET8
+                                        GeometryName
+                                        FirstPerson
+                                        NoCombatInterrupt
+                                        SoldierCollision
+                                        OrdnanceCollision
+                                        VehicleType
+                                        AnimationName
+                                        Acceleration
+                                        Acceleraton    //HACK support old typo
+                                        BoostAcceleration
+                                        MinSpeed
+                                        MidSpeed
+                                        MaxSpeed
+                                        BoostSpeed
+                                        StrafeSpeed
+                                        PitchRate
+                                        PitchFilter
+                                        PitchFilterDecel
+                                        TurnRate
+                                        TurnFilter
+                                        TurnFilterDecel
+                                        PitchBuildupMultiplier
+                                        TurnBuildupMultiplier
+                                        ThrustPitchAngle
+                                        StrafeRollAngle
+                                        BankAngle
+                                        BankFilter
+                                        LevelFilter
+                                        LevelFilterLanding
+                                        RollRate
+                                        RollRateAccel
+                                        TakeoffHeight
+                                        TakeoffTime
+                                        TakeoffSpeed
+                                        LandingTime
+                                        LandingSpeed
+                                        LandedHeight
+                                        CollisionThreshold
+                                        CollisionScale
+                                        CollisionInflict
+                                        WeaponSection
+                                        Weapon
+                                        WeaponName
+                                        WeaponAmmo
+                                        WeaponShareAmmo
+                                        WeaponShareHeat
+                                        WeaponChannel
+                                        ExplosionCritical
+                                        Explosion
+                                        ExplosionName
+                                        ExplosionDestruct
+                                        ThrustEffect
+                                        ThrustEffectMinScale
+                                        ThrustEffectMaxScale
+                                        ThrustEffectScaleStart
+                                        ThrustAttachPoint
+                                        ThrustAttachOffset
+                                        ContrailEffect
+                                        ContrailAttachPoint
+                                        ContrailAttachOffset
+                                        ContrailEffectMinSpeed
+                                        ContrailEffectMaxSpeed
+                                        ContrailEffectMinScale
+                                        ContrailEffectMaxScale
+                                        BlurEffect
+                                        BlurStart
+                                        FinAnimation
+                                        PassengerSlots
+                                        FOVEffect3rd DEG
+                                        FOVEFFectMinCamOffset3rd
+                                        FOVEFFectMaxCamOffset3rd
+                                        FOVEffect1st DEG
+                                        EnergyAutoRestore
+                                        EnergyBoostDrain
+                                        EnergyTrickDrainSingleTap
+                                        EnergyTrickDrainDoubleTap
+                                        TrickRollSpeed
+                                        TrickFlipSpeed
+                                        TrickFlipCameraDetach
+                                        TrickSideRollCameraDetach
+                                        TrickSideRollStrafeSpeed
+                                        MomentumFilter
+                                        FreeFlyTime
+                                        TrickTimeMid
+                                        TrickTimeRange
+                                        CircleATATFrequency
+                                        SquadronMaxAngle
+                                        SquadronDistance
+                                        TimeRequiredToEject
+                                        EjectResistance
+                                        TimeTilReboard
+                                        NeverCrashWhenUnpiloted
+                                        GuidedMissile
+                                        GuidedMissileDamage
+                                        GuidedMissileDamageBoost
+                                        HealthScale
+                                        ArmorScale
+                                        PersonScale
+                                        AnimalScale
+                                        DroidScale
+                                        VehicleScale
+                                        BuildingScale
+                                        ShieldScale
+                                        GuidedMissileDeathCamPause
+                                        GuidedMissileDeathCamPullbackSpeed
+                                        GuidedMissileDeathCamMinDistance
+                                        GuidedMissileBoostExplosionSpeedThreshold
+                                        TrickSound
+                                        FlipSound                
+                    CommandFlyer 
+                    Carrier
+                                        CargoNodeName
+                                        CargoNodeOffset
+                                        PickupSound
+                                        DropoffSound                    
+                Hover
+                                        HOVERSECTION
+                                        BODY
+                                        TURRET
+                                        TURRET1
+                                        TURRET2
+                                        TURRET3
+                                        TURRET4
+                                        TURRET5
+                                        TURRET6
+                                        TURRET7
+                                        TURRET8
+                                        GeometryName
+                                        FirstPerson
+                                        FPModelAttachedtoCam
+                                        NoCombatInterrupt
+                                        SoldierCollision
+                                        OrdnanceCollision
+                                        TerrainCollision
+                                        SetSpringBody
+                                        AddSpringBody
+                                        BodySpringLengthRadiusMultiplier
+                                        BodyVelocitySpringFactor
+                                        BodyVelocityDampFactor
+                                        BodyOmegaXSpringFactor
+                                        BodyOmegaXDampFactor
+                                        BodyOmegaZSpringFactor
+                                        BodyOmegaZDampFactor
+                                        BodySpringLength
+                                        VelocitySpring
+                                        VelocityDamp
+                                        OmegaXSpring
+                                        OmegaXDamp
+                                        OmegaZSpring
+                                        OmegaZDamp
+                                        NoRandomSpring
+                                        VehicleType
+                                        SetAltitude
+                                        GravityScale
+                                        LiftSpring
+                                        LiftDamp
+                                        Acceleration
+                                        Deceleration
+                                        Traction
+                                        ForwardSpeed
+                                        ReverseSpeed
+                                        StrafeSpeed
+                                        BoostSpeed
+                                        BoostAcceleration
+                                        BoostFOV
+                                        BoostTurnMultiplier
+                                        SpinRate
+                                        TurnRate
+                                        TurnFilter
+                                        PitchRate
+                                        PitchLimits min max
+                                        ThrustPitchAngle
+                                        StrafeRollAngle
+                                        BankAngle
+                                        BankFilter
+                                        LevelSpring
+                                        LevelDamp
+                                        CollisionThreshold
+                                        CollisionScale
+                                        CollisionInflict
+                                        WeaponSection
+                                        Weapon
+                                        WeaponName
+                                        WeaponAmmo
+                                        WeaponShareAmmo
+                                        WeaponShareHeat
+                                        WeaponChannel
+                                        Explosion
+                                        ExplosionName
+                                        AttachNodeName
+                                        WakeEffect
+                                        WaterEffect
+                                        BlurEffect
+                                        BlurStart
+                                        GroundedSound
+                                        GroundedHeight
+                                        AnimationName
+                                        MovingTurnOnly
+                                        FloatsOnWater
+                                        FinAnimation
+                                        SuspensionNodeName
+                                        SuspensionLeftArmNodeName
+                                        SuspensionRightArmNodeName
+                                        SuspensionMaxOffset
+                                        SuspensionMidOffset
+                                        PassengerSlots
+                                        EnergyAutoRestore
+                                        EnergyBoostDrain
+                                        TimeRequiredToEject
+                                        EjectResistance
+                                        TimeTilReboard
+                                        JumpTimeMin
+                                        JumpTimeMax
+                                        JumpForce
+                                        JumpEnergyPerSec
+                                        JumpMinSpeedMult
+                                        WheelSection
+                                        WheelTexture
+                                        WheelVelocToU
+                                        WheelVelocToV
+                                        WheelOmegaToU
+                                        WheelOmegaToV                
+                    CommandHover 
+                Item
+                                        GeometryName
+                                        LifeSpan
+                                        NoLifeSpanDisplay bool
+                                        Gravity
+                                        Rebound
+                                        Friction
+                                        LightOdf
+                                        LightColor rgba
+                                        LightRadius
+                                        CollisionSound
+                                        CollisionWaterSound
+                                        CollisionOtherSound
+                                        TrailEffect                
+                    Mine
+                                        Explosion
+                                        ExplosionName
+                                        ExplosionTrigger
+                                        ExplosionExpire
+                                        ExplosionDeath
+                                        TriggerContact
+                                        TriggerRadius
+                                        SuppressRadius
+                                        TickSound
+                                        TickSoundPitch                    
+                    FlagItem
+                                        SoldierAttachBone
+                                        DroidekaAttachBone
+                                        GeometryName
+                                        CarriedGeometryName
+                                        DroppedInLandingZoneGeometryName
+                                        HomeRegion
+                                        AllowTeamPickup
+                                        AllowAIPickup
+                                        CarriedGeometryName
+                                        DroppedInLandingZoneGeometryName
+                                        SoldierAttachBone
+                                        DroidekaAttachBone
+                                        CarriedOffset
+                                        CarriedColorize
+                                        DroppedColorize
+                                        PickupSound
+                                        DropSound
+                                        AmbientSound                    
+                    PowerupItem
+                                        SoldierHealth
+                                        SoldierAmmo
+                                        SoldierEnergy
+                                        PersonHealth
+                                        PersonAmmo
+                                        PersonEnergy
+                                        AnimalHealth
+                                        AnimalAmmo
+                                        AnimalEnergy
+                                        DroidHealth
+                                        DroidAmmo
+                                        DroidEnergy
+                                        VehicleHealth
+                                        VehicleAmmo
+                                        VehicleEnergy
+                                        BuildingHealth
+                                        BuildingAmmo
+                                        BuildingEnergy
+                                        BuffOffenseTimer
+                                        BuffOffenseMult
+                                        BuffDefenseTimer
+                                        BuffDefenseMult
+                                        BuffHealthTimer
+                                        BuffHealthRate
+                                        DebuffDamageTimer
+                                        DebuffDamageRate
+                                        PowerupSound
+                                        AmbientSound
+                    
+                RemoteTerminal
+                                        RemoteGameObject
+                                        NextLinkedTerminal
+                                        PrevLinkedTerminal
+                                        GeometryName
+                                        VehicleType                
+                Soldier
+                                        IsAcklay 
+                                        GeometryName
+                                        GeometryLowRes
+                                        AnimationName
+                                        SkeletonName
+                                        AnimationLowRes
+                                        SkeletonLowRes
+                                        FirstPerson
+                                        NoCombatInterrupt
+                                        Acceleration
+                                        Acceleraton    //HACK support old typo
+                                        MaxSpeed
+                                        MaxStrafeSpeed
+                                        MaxTurnSpeed
+                                        MaxPitchSpeed
+                                        PitchLimits
+                                        JumpHeight
+                                        JumpForwardSpeedFactor
+                                        JumpStrafeSpeedFactor
+                                        RollSpeedFactor
+                                        SprintAccelerateTime
+                                        RecoverFromTumble
+                                        UseDirectionalJumps
+                                        UseDirectionalDeaths //- Mike Z
+                                        ControlSpeed
+                                            stand
+                                            crouch
+                                            prone
+                                            sprint
+                                            jump
+                                            jet
+                                            tumble
+                                            roll
+                                        CollisionThreshold
+                                        CollisionScale
+                                        CollisionInflict
+                                        UnitType
+                                        ImmuneToMines
+                                        WeaponSection
+                                        Weapon
+                                        WeaponName
+                                        WeaponAmmo
+                                        WeaponAmmo1
+                                        WeaponAmmo2
+                                        WeaponAmmo3
+                                        WeaponAmmo4
+                                        WeaponShareAmmo
+                                        WeaponShareAmmo1
+                                        WeaponShareAmmo2
+                                        WeaponShareAmmo3
+                                        WeaponShareAmmo4
+                                        WeaponShareHeat
+                                        WeaponShareHeat1
+                                        WeaponShareHeat2
+                                        WeaponShareHeat3
+                                        WeaponShareHeat4
+                                        WeaponChannel
+                                        PrimaryWeapon
+                                        WeaponName1
+                                        SecondaryWeapon
+                                        WeaponName2
+                                        WeaponName3
+                                        WeaponName4
+                                        WeaponChannel1
+                                        WeaponChannel2
+                                        WeaponChannel3
+                                        WeaponChannel4
+                                        EnergyRestore
+                                        EnergyRestoreIdle
+                                        EnergyDrainSprint
+                                        EnergyCostJump
+                                        EnergyCostJumpSprint
+                                        EnergyCostRoll
+                                        JetJump
+                                        JetPush
+                                        JetAcceleration
+                                        JetShowHud
+                                        JetEnergyDrain
+                                        JetFuelRechargeRate
+                                        JetFuelCost
+                                        JetFuelInitialCost
+                                        JetFuelMinBorder
+                                        HealthGainEffect
+                                        AmmoGainEffect
+                                        EnergyGainEffect
+                                        BuffHealthEffect
+                                        BuffOffenseEffect
+                                        BuffDefenseEffect
+                                        DebuffEffect
+                                        InvincibleEffect
+                                        JetEffect
+                                        JetIdleEffect // - Mike Z
+                                        JetType
+                                        FootSlideEffect
+                                        ChokeEffect
+                                        BlurEffect
+                                        WaterSplashEffect
+                                        FootWaterSplashEffect
+                                        WakeWaterSplashEffect
+                                        CAMERASECTION
+                                            STAND
+                                            STANDZOOM
+                                            CROUCH
+                                            CROUCHZOOM
+                                            PRONE
+                                            PRONEZOOM
+                                            SPRINT
+                                            SPLITSTAND
+                                            SPLITSTANDZOOM
+                                            SPLITCROUCH
+                                            SPLITCROUCHZOOM
+                                            SPLITPRONE
+                                            SPLITPRONEZOOM
+                                            SPLITSPRINT
+                                        CameraBlendTime
+                                        FootstepStride
+                                        RunSpeed
+                                        AcquiredTargetSound
+                                        HidingSound
+                                        ApproachingTargetSound
+                                        FleeSound
+                                        PreparingForDamageSound
+                                        HeardEnemySound
+                                        ChargeSound
+                                        ShockFadeOutTime
+                                        ShockFadeInTime
+                                        ShockFadeOutGain
+                                        ShockSound
+                                        ClothingRustleSound
+                                        LowHealthSound
+                                        LowHealthThreshold
+                                        ChokeSound
+                                        AmbientSound
+                                        DropItemClass
+                                        DropItemProbability
+                                        NextDropItem
+                                        SkeletonRootScale
+                                        CollisionRootScale
+                                        CollisionHeadScale
+                                        CollisionTorsoScale
+                                        CollisionHeadOffset
+                                        CollisionTorsoOffset
+                                        SkeletonRootScaleLowRes
+                                        Explosion
+                                        ExplosionName
+                                        ChunkFrequency
+                                        OverrideTexture
+                                        OverrideTexture2
+                                        AnimatedAddon
+                                        GeometryAddon
+                                        AnimationAddon
+                                        AddonAttachJoint
+                                        SndHeroSelectable
+                                        SndHeroSpawned
+                                        SndHeroDefeated
+                                        SndHeroKiller
+                                        SoldierMusic
+                                        AISoldierMusic
+                                        SoldierAnnoucement
+                                        FleeLikeAHero 
+                                        MinFootHeight
+                                        TargetPointOffsetStand
+                                        TargetPointOffsetCrouch
+                                        TentacleCollType
+                                        NumTentacles
+                                        BonesPerTentacle
+                                        Scout
+                                        Anti-Armor rocket
+                                        Assault rocket
+                                        Repair
+                                        Support repair
+                                        Pilot
+                                        Trooper
+                                        Special - repair                
+                Walker
+                                        GeometryName
+                                        WALKERSECTION
+                                        BODY
+                                        TURRET
+                                        TURRET1
+                                        TURRET2
+                                        TURRET3
+                                        TURRET4
+                                        TURRET5
+                                        TURRET6
+                                        TURRET7
+                                        TURRET8
+                                        StompRumbleLightDuration
+                                        StompRumbleHeavyDuration
+                                        StompRumbleHeavy
+                                        StompRumbleLight
+                                        FPWalkScale
+                                        FPPosePointName
+                                        VehicleType
+                                        NoCombatInterrupt
+                                        AnimationName
+                                        SkeletonName
+                                        SkeletonRootScale
+                                        AnimationBlending
+                                        Acceleration
+                                        Acceleraton    //HACK support old typo
+                                        MaxSpeed
+                                        BoostSpeed
+                                        JumpHeight
+                                        JumpForwardSpeedBoost
+                                        JumpMinSpeed
+                                        MaxTurnSpeed
+                                        MaxYawSpeed
+                                        YawLimits
+                                        MaxPitchSpeed
+                                        PitchLimits
+                                        ThrustAngleToStrafe
+                                        ThrustAngleToTurn
+                                        ThrustAngleToStop
+                                        SteerTowardAimRate
+                                        SteerAtYawLimit
+                                        SteerAtStrafeLimit
+                                        CorrectAimForSteering
+                                        ReverseBackwardSteering
+                                        CollisionThreshold
+                                        CollisionScale
+                                        CollisionInflict
+                                        WeaponSection
+                                        Weapon
+                                        WeaponName
+                                        WeaponAmmo
+                                        WeaponShareAmmo
+                                        WeaponShareHeat
+                                        WeaponChannel
+                                        Explosion
+                                        ExplosionName
+                                        ExplosionOffset
+                                        FinalExplosion
+                                        FinalExplosionName
+                                        FinalExplosionOffset
+                                        StompEffect
+                                        StompDecal
+                                        StompDecalSize
+                                        FootWaterSplashEffect
+                                        AttachNodeName
+                                        DeathAnimationExplosion
+                                        DeathAnimationExplosionTime
+                                        DeathDustEffect
+                                        DeathDustDelay
+                                        DeathDustOffset
+                                        DeathShakeDelay
+                                        DeathShakeForce
+                                        DeathShakeDuration
+                                        DeathShakeRadius
+                                        DeathFadeTimeStart
+                                        DeathFadeTimeEnd
+                                        StompDetectionType
+                                        StompThreshold
+                                        FootstepSound0
+                                        FootstepSound1
+                                        FootstepSound2
+                                        FootstepSound3
+                                        FootstepSound4
+                                        FootstepSound5
+                                        HydraulicSound
+                                        HydraulicSoundHeight
+                                        HydraulicLowerSound
+                                        HydraulicLowerHeight
+                                        StoppedTurnSpeed
+                                        ForwardTurnSpeed
+                                        BoostTurnSpeed
+                                        EnergyAutoRestore
+                                        EnergyBoostDrain
+                                        EnergyCostJump
+                                        TurnThreshold
+                                        MaxTerrainAngle
+                                        LegPairCount
+                                        WalkerLegPair
+                                        LegRayHitLength
+                                        WalkerOrientRoll
+                                        FootBoneLeft
+                                        FootBoneRight
+                                        TerrainLeft
+                                        TerrainRight
+                                        LegBoneLeft
+                                        LegBoneRight
+                                        LegBoneTopLeft
+                                        LegBoneTopRight
+                                        WaterDamageInterval
+                                        WaterDamageAmount
+                                        FirstPerson
+                                        DropShadowSize
+                                        PassengerSlots
+                                        TowCableCollision
+                                        IgnorableCollision
+                                        IgnorableCollsion      //HACK continue supporting old misspelling
+                                        WalkerWidth
+                                        SmashParkedFlyers
+                                        TimeRequiredToEject
+                                        EjectResistance
+                                        TimeTilReboard
+                                        AttackAnimation
+                                        AttackControls
+                                        AttackPosition
+                                        AttackTime
+                                        AttackRadius
+                                        AttackDamage
+                                        AttackPush
+                                        AIUseHoverPhysics                
+                    CommandWalker 
+        Hologram 
+                                        Color
+                                        HoloImageGeometry
+                                        HoloVisibleDistance
+                                        HoloHeight
+                                        HoloSize
+                                        HoloBeamInitialWidth
+                                        HoloBeamIntensity
+                                        HoloLightIntensity
+                                        HoloImageIntensity
+                                        HoloFlareIntensity
+                                        HoloLightRadius
+                                        HoloRotateRate
+                                        HoloPopRate
+                                        HoloFlickerRate
+                                        HoloFlickerAlphaMin
+                                        HoloFlickerAlphaMax
+                                        HoloFadeInTime
+                                        HoloTurnOnDistance
+                                        HoloType        
+        MountedTurret 
+        PassengerSlot
+                                        PassengerEyePoint        
+    Light 
+                                        Color
+                                        ConeLength
+                                        ConeWidth
+                                        ConeInitialWidth
+                                        ConeFadeFactor
+                                        ConeFadeLength
+                                        HaloRadius
+                                        HaloFadeFactor
+                                        HaloFadeLength
+                                        FlareIntensity
+                                        BeamIntensity
+                                        FlickerType
+                                            None
+                                            Strobe
+                                            StrobeRandom
+                                            StrobeFade
+                                            Pulse
+                                            Flicker
+                                        FlickerPeriod
+                                        FadePeriod
+                                        OmniRadius
+                                        SpotInnerConeAngle
+                                        SpotOuterConeAngle
+                                        DrawDistance
+                                        Static
+                                        ShadowCaster
+                                        SpecularCaster
+                                        Bidirectional
+                                        Name  
+                                        Type
+                                            Spot
+                                            Omni
+                                        ProjectedTexture
+                                        FrameRate
+                                        Synchronize    
+    EntitySound 
+        EntitySoundStatic 
+        EntitySoundStream 
+    GrassPatch 
+                                        MinSize
+                                        MaxSize
+                                        Alpha
+                                        NumParticles
+                                        MaxDistance
+                                        RadiusFadeMin
+                                        RadiusFadeMax
+                                        DarknessMin
+                                        DarknessMax
+                                        NumParts
+                                        YOffset
+                                        Texture
+                                        BoxSize
+                                        FlatHeight
+                                        FlatSizeMultiplier
+                                        FlatFaceFactor
+                                        FlatShadowHeight
+                                        FlatGrassSwing
+                                        FlatCount
+                                        SkinnyFactor
+                                        MaxSkew
+                                        TransparentType
+    LeafPatch 
+                                        MaxDistance
+                                        Offset
+                                        BoxSize
+                                        MinSize
+                                        MaxSize
+                                        Alpha
+                                        NumParticles
+                                        MaxDistance
+                                        Radius
+                                        Height
+                                        ConeHeight
+                                        DarknessMin
+                                        DarknessMax
+                                        HeightScale
+                                        NumVisible
+                                        Texture
+                                        MaxFallingLeaves
+                                        MaxScatterBirds
+                                        Seed
+                                        NumParts
+                                        Vine
+                                        VineLength
+                                        VineSpread
+                                        WiggleSpeed
+                                        WiggleAmount
+
+    RotatingModel 
+                                        RotateNodeName
+                                        YawConstant
+                                        YawRandom
+    
+    RumbleEffect 
+                                        MinLight
+                                        MaxLight
+                                        MinHeavy
+                                        MaxHeavy
+                                        MinHeavyDecay
+                                        MaxHeavyDecay
+                                        MinLightDecay
+                                        MaxLightDecay
+                                        MinDelayLight
+                                        MaxDelayLight
+                                        MinDelayHeavy
+                                        MaxDelayHeavy
+                                        MinTimeLeftHeavy
+                                        MaxTimeLeftHeavy
+                                        MinTimeLeftLight
+                                        MaxTimeLeftLight
+                                        MinInterval
+                                        MaxInterval
+                                        MinShakeAmt
+                                        MaxShakeAmt
+                                        MinShakeLen
+                                        MaxShakeLen
+                                        SoundName
+    VehicleSpawn
+                                        Team
+                                        CommandPost
+                                        SpawnCount
+                                        SpawnTime
+                                        ExpireTimeEnemy
+                                        ExpireTimeField
+                                        DecayTime        
+    
+    
+    Trackable Entity Properties
+IconTexture
+HealthTexture
+MapTexture
+HUDModel
+MapScale
+MapSpeedMin
+MapSpeedMax
+MapViewMin - make sure the view cone's range is at least as far as the min map range
+MapViewMax
+MapTargetFadeRate
+MapRangeOverall
+MapRangeShooting
+MapRangeViewCone
+MapViewConeAngle
+RemoveFromMapWhenDead    
+
+
+    Vehicle Properties
+EngineSound
+TurnOnSound
+TurnOffSound
+TurningOffSound
+WindUpSound
+TakeoffSound
+WindDownSound
+LandSound
+BoostSound
+TurnOffTime
+VehicleCollisionSound
+Cockpit1stPersonSound
+Cockpit3rdPersonSound
+ProximityMinDist
+ProximityMaxDist
+ Music
+ AllMusic
+ ImpMusic
+ RepMusic
+ CISMusic
+ MusicSpeed
+ MusicDelay
+
+
+
+
+
+
+
+    
+    SkyObject Properties - skyfile?
+Geometry
+NumObjects
+Height h, variance
+VelocityX Vx, variance
+VelocityY Vy, variance
+VelocityZ Vz, variance
+Acceleration xyz
+Distance
+InDirectionFactor
+LifeTime
+
+    Sky Stars - sky file?
+NumStars
+RandomSeed
+BrightStarPercent
+AlphaMin
+ColorSaturation
+TwinkleFactor
+TwinkleFrequency
+AngleMin
+AngleFade
+EnableBottom
+Color rgba
+StarTexture
+
+
+    Space Dust Effect Properties
+Enable
+SpawnDistance
+MaxRandomSideOffset
+CenterDeadZoneRadius
+SpawnDelay
+ReferenceSpeed
+DustParticleSpeed
+MinParticleScale
+MaxParticleScale
+SpeedParticleMinLength
+SpeedParticleMaxLength
+ParticleLengthMinSpeed
+ParticleLengthMaxSpeed
+Texture
+
+
+    Attached Effect Properties - add to any object to attach an effect
+AttachOdf
+AttachEffect
+AttachToHardPoint
+Emitter
+AttachDynamic bool
+
+
+
+    Godlight Properties
+Radius
+MinLifetime
+MaxLifetime
+MinAlpha
+MaxAlpha
+Color
+
+    Godray Properties
+Enable
+MaxGodraysInWorld
+MaxGodraysOnScreen
+MaxViewDistance
+FadeViewDistance
+MaxLength
+OffsetAngle
+Texture
+TextureScale
+TextureVelocity
+TextureJitterSpeed
+MaxRaysPerGodray
+MinRaysPerGodray
+RadiusForMaxRays
+Radius
+MinLifetime
+MaxLifetime
+MinAlpha
+MaxAlpha
+Color
+NumRays
+SpreadRadius
+
+
+    Lightning Effect
+Enable
+Color
+SunlightFadeFactor
+SkyDomeDarkenFactor
+BrightnessMin
+FadeTime
+TimeBetweenFlashesMinMax
+TimeBetweenSubFlashesMinMax
+NumSubFlashesMinMax
+HorizonAngleMinMax
+SoundCrack
+SoundSubCrack
+
+    Lightning Bolt Effect
+Texture
+Width
+FadeTime
+BreakDistance
+TextureSize
+SpreadFactor
+MaxBranches
+BranchFactor
+BranchSpreadFactor
+BranchLength
+InterpolationSpeed
+NumChildren
+ChildBreakDistance
+ChildTextureSize
+ChildWidth
+ChildSpreadFactor
+Color
+ChildColor
+
+
+
+
+    
+
+
+    OrbitalStrike // WeaponDestruct Class
+AimAzimuth
+AimElevation
+AimDistance
+SalvoCount
+SalvoDelay
+InitialSalvoDelay
+ScatterDistance
+StrikeOrdnance
+StrikeOrdnanceName   
+
+    Explosion Properties
+Damage
+MaxDamage
+HealthScale
+ArmorScale
+PersonScale
+AnimalScale
+DroidScale
+VehicleScale
+BuildingScale
+ShieldScale
+DamageRadiusInner
+DamageRadiusOuter
+DamageRadius
+Shake
+ShakeRadiusInner
+ShakeRadiusOuter
+ShakeRadius
+ShakeLength
+Push
+PushRadiusInner
+PushRadiusOuter
+PushRadius
+PushDeadOnly
+HurtOwner
+Effect
+WaterEffect
+ShieldEffect
+Decal
+SoundProperty
+ChunkGeometryName
+ChunkTerrainCollisions
+ChunkTerrainEffect
+ChunkTrailEffect
+ChunkSmokeEffect
+ChunkPhysics
+    FULL
+    LEAF
+    STATIC
+    SIMPLE
+ChunkOmega float xyz
+ChunkSpeed
+ChunkGravity float xyz
+NumChunks
+ChunkStartDistance
+ChunkInitialCollisionSound
+ChunkScrapeCollisionSound
+VisibleRadius
+LightColor
+LightRadius
+LightDuration
+    
+    
+
+    ShieldEffect Properties
+Type f for faamba?
+Texture
+Color
+SpecularColor
+Radius
+Height
+ViewAngleFactor
+TurnOnTime
+TurnOffTime
+ScrollRate
+
+
+
+
+
+
+Ordnance
+NextCharge
+LifeSpan
+DamageTransitionDelay
+DamageTransitionPeriod
+DamageFinalDamage
+Explosion
+ExplosionImpact
+ExplosionName
+ExplosionExpire
+Damage
+MaxDamage
+HealthScale
+ArmorScale
+PersonScale
+AnimalScale
+DroidScale
+VehicleScale
+BuildingScale
+ShieldScale
+TrailEffect
+ExplosionEffect
+OrdnanceSound
+CollisionSound
+CollisionWaterSound
+CollisionShieldSound
+BonusAmplification
+BonusColor - rgba
+    Ordnance Beam
+                                        BeamWidth
+                                        BeamTexture
+                                        BeamColor rgba
+                                        BeamGlowWidth
+                                        BeamGlowTexture
+                                        BeamGlowColor rgba
+                                        PassThrough
+                                        OrdnanceEffect
+                                            red_blaster_bolt
+                                            red_blaster_bolt_small
+                                            green_blaster_bolt
+                                            green_blaster_bolt_small
+                                            blue_blaster_bolt
+                                            blue_blaster_bolt_small
+                                        ImpactEffect
+    Ordnance Bullet
+                                        GeometryName
+                                        Velocity
+                                        OrdnanceEffect
+                                        ImpactEffectSoft
+                                        ImpactEffectRigid
+                                        ImpactEffectStatic
+                                        ImpactEffectTerrain
+                                        ImpactEffectWater
+                                        ImpactEffectShieldSmall
+                                        ImpactEffectShieldLarge
+                                        ImpactDecalTerrain
+                                        ImpactDecalStatic
+                                        LightOdf
+                                        LightColor rgba
+                                        LightRadius
+                                        EndLightColor rgba
+                                        FadeLightColor
+            Ordnance FatRay
+                                        RayRadius
+                                        MaxDamage
+                                        MinDamage
+                                        DamageDeduction
+                                        MaxPush
+                                        MinPush
+                                        PushDeduction                                        
+        Ordnance GrapplingHook
+                                        SoldierAnimation
+        Ordnance Laser
+                                        LaserLength
+                                        GlowLength
+                                        BlurLength
+                                        LaserWidth
+                                        FadeOutTime
+                                        LaserTexture
+                                        LaserGlowColor
+                                        EndLaserGlowColor rgba
+                                        OrdnanceEffect
+                                            red_blaster_bolt
+                                            red_blaster_bolt_small
+                                            green_blaster_bolt
+                                            green_blaster_bolt_small
+                                            blue_blaster_bolt
+                                            blue_blaster_bolt_small                                        
+        Ordnance Missile
+                                        ScaleTime
+                                        TurnRate
+                                        WaverRate
+                                        WaverTurn
+                                        LockedOnSound
+                                        MinSpeed
+                                        Acceleration
+        Ordnance Shell
+                                        Gravity
+            Ordnance Grenade
+                                        Rebound
+                                        Friction
+                                        CollisionFoliageSound
+                                        CollisionOtherSound
+                                        StartTimerOnContact
+                                        AlignVertical
+                                        ImpactEffectWater
+
+
+            Ordnance Sticky
+                                        CollisionWaterSound
+                                        CollisionFoliageSound
+                                        CollisionOtherSound
+                                        StartTimerOnContact
+                                        AlignVertical
+                                        StickAll
+                                        StickPerson
+                                        StickAnimal
+                                        StickDroid
+                                        StickVehicle
+                                        StickBuilding
+                                        StickBuildingDead
+                                        StickBuildingUnbuilt
+                                        StickTerrain  
+                Ordnance Beacon
+                                        AimAzimuth
+                                        AimElevation
+                                        AimDistance
+                                        SalvoCount
+                                        SalvoDelay
+                                        ScatterDistance
+                                        Ordnance
+                                        OrdnanceName                                        
+                Ordnance Haywire
+                                        DisableTime 
+        Ordnance Towcable
+                                        InitialCableLength
+                                        CableLength
+    Ordnance Emitter
+                                        StunTime
+                                        Damage
+                                        Push
+                                        ConeLength
+                                        ConeAngle
+                                        MaxTargets
+                                        Effect
+                                        StunAnimation
+                                        LightningEffect
+                                        LightningEffectScale
+                                        NoTargetLightningEffectCount
+                                        NoTargetLightningEffectRandomSpread
+                                        MaxDamage
+                                        DamageThreshold
+                                        MaxJumpDistance
+                                        JumpDeduction
+                                        FirstRadius
+                                        NoChaining
+                                        Radius
+                                        BuffOffenseTimer
+                                        BuffOffenseMult
+                                        BuffDefenseTimer
+                                        BuffDefenseMult
+                                        BuffHealthTimer
+                                        BuffHealthRate
+                                        DebuffDamageTimer
+                                        DebuffDamageRate
+                                        PlayEffectOnOwner
+                                        PlayEffectOnOwnerAimer
+                                        Explosion
+                                        SmolderEffectTimer
+                                        SmolderVanishDeath
+                                        SmolderBone
+                                        SmolderEffect
+                                        SmolderDamageRate
+                                        AffectFriends
+                                        AffectEnemies
+                                        ApplyOnOwnerIfOnOthers
+    Ordnance Melee Throw
+                                        Velocity
+                                        ReturnDuration
+                                        RotationRate
+                                        DamageLength
+                                        DamageWidth
+                                        LightOdf
+                                        LightColor
+                                        LightRadius
+                                        OnSound                                        
