@@ -1,8 +1,11 @@
-Before learning about Galactic Conquest, you should understand how Interface Screens work to some degree. Please read shell_reference first.
+# Galactic Conquest Walkthrough
+
+Before learning about Galactic Conquest, you should understand how Interface Screens work to some degree. Please read shell_reference first: https://github.com/Gametoast/Documentation/blob/main/StarWarsBattlefrontII/CommunityGuides/shell_reference.md
 
 Galactic Conquest is entirely controlled by interface screens. Campaign works the same way, but instead of "ifs_freeform..." it's files are "ifs_campaign...".
 Since we have all the files, we can change how galactic conquest works.
 
+## Order of Screens in a game
 This is the order of interface screens you would typically have in Galactic Conquest
 
 ```
@@ -13,6 +16,7 @@ ifs_freeform_battle <-- if you moved to enemy planet, you enter this screen
 ifs_freeform_battle_mode <-- choose mode (not used, it pretty much skips through. but it would allow us to pick CTF or Hunt as the battle mode if we wanted)
 ifs_freeform_battle_card <-- enemy choose bonus
 ifs_freeform_battle_card <-- player choose bonus -- then enter the mission (battle)
+-- battle is played
 ifs_freeform_main < -- return to galactic conquest afer battle
 ifs_freeform_result <-- show result
 ifs_freeform_load <-- ask to save
@@ -32,7 +36,7 @@ Move: ifs_freeform_fleet
 Bonus: ifs_freeform_purchase_tech
 Units: ifs_freeform_purchase_unit
 
-starting the Galactic Conquest
+## Starting the Galactic Conquest
 
 When you start the Galactic Conquest from the menu, for example "Republic Sovereignity" you actually call the function ifs_freeform_start_rep(ifs_freeform_main).
 This applies the presets for that scenario onto the galactic conquest game (ifs_freeform_main). It sets which planets belong to which team, and where the fleets go.
@@ -45,7 +49,7 @@ When you load an old save, this ifs_freeform_start_rep (or cis.. etc) function a
 If you wanted to contain your changes just to your new GC campaign, you would put all the ScriptCB_DoFile calls in this start function.
 
 
-ifs_freeform_main
+## ifs_freeform_main
 
 The most important screen is ifs_freeform_main. It loads all the objects and sets up all the fleets, planets, and all the tables we need.
 When you are enter a screen, the Enter function is automatically called. In ifs_freeform_main, if the game is loaded for the first time from the menu, from a saved game,
@@ -73,12 +77,12 @@ teamCode - the name of each team, ie "rep", "cis", so `this.teamCode[this.player
 teamController - which teams are a human. if the active team is a human, then `this.teamCode[this.playerTeam]` would be defined, otherwise it would be nil
 joystick and joystick_other - used as booleans if the current team or the opposite team is a human.
 
-ifs_freeform_fleet
+## ifs_freeform_fleet
 
 the player will most of the time be on the ifs_freeform_fleet screen. That is what you see when you start GC and have not taken any actions.
 After ifs_freeform_main loads everything you are sent there. It has the buttons: Select fleet, deselect fleet, Move fleet, skip.
 
-ifs_freeform_battle ... _mode ... _card
+## ifs_freeform_battle ... _mode ... _card
 
 When you enter the battle screen as the attacking player, you press Attack or Back.
 If you press Back, you go back to the fleet screen. if you press Attack, you go to the battle_mode screen.
@@ -92,6 +96,8 @@ We save the mission setup, which is what units we purchased for battle, and for 
 Then we enter the mission, with the operative function being `ScriptCB_EnterMission()`.
 
 Once the game is over, we load the shell again, and load Galactic Conquest again. Going into ifs_freeform_main, and then to ifs_freefrom_result, and so on like I described above.
+
+## Other Tips
 
 I don't really know enough about the other screens to writ anything meaningful, but this should be the core gameplay loop.
 
