@@ -5,6 +5,7 @@ Since we have all the files, we can change how galactic conquest works.
 
 This is the order of interface screens you would typically have in Galactic Conquest
 
+```
 ifs_sp_gc_main <-- choose galactic conquest from main menu
 ifs_freeform_main <-- enter game
 ifs_freeform_fleet <-- show move, select fleet buttons. move fleet
@@ -21,6 +22,7 @@ ifs_freeform_ai <-- ai completes move (they didn't end up attacking this round, 
 ifs_freeform_summary
 ifs_freeform_main <-- back to player turn
 ifs_freeform_fleet
+```
 
 (please note that this is not the screen stack, at the end of every turn, the stack is cleared with a call to ScriptCB_PopScreen("ifs_freeform_main"))
 
