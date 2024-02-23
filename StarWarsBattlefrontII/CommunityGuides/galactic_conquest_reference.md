@@ -99,7 +99,7 @@ Once the game is over, we load the shell again, and load Galactic Conquest again
 
 ## Other Tips
 
-I don't really know enough about the other screens to writ anything meaningful, but this should be the core gameplay loop.
+I don't really know enough about the other screens to write anything meaningful, but this should be the core gameplay loop.
 
 if you want to edit the galactic conquest, you will need to use a the custom Galactic conquest feature from the v1.3 patch, or better,
 use Anakin's Remaster mod's custom galactic conquest (which is what I did).
