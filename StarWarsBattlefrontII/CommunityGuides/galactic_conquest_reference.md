@@ -69,13 +69,15 @@ If you are editing GC, if you add something to ScriptCB_SaveMetagameState, you a
 ifs_freeform_main.SetActiveTeam is called to set the initial team or to switch teams. It also changes the active controller.
 
 there are a couple important tables in ifs_freeform_main
+```
 planetFleet - the team of the fleet on this planet/ star. If there is a space battle, it will be 0
 planetTeam - team of the planet. Stars will be neutral/ 0. Also your base will be set to 0 if it is caputred.
 playerTeam - the team of the ACTIVE player, ie, whose turn it is. NOT necessarily the human player.
 planetNext - the name of the planet which was just moved to, "dag" for dagobah. It should match the label of the planet in the gal.lvl file.
-teamCode - the name of each team, ie "rep", "cis", so `this.teamCode[this.playerTeam]` would tell you which team was active.
-teamController - which teams are a human. if the active team is a human, then `this.teamCode[this.playerTeam]` would be defined, otherwise it would be nil
+teamCode - the name of each team, ie "rep", "cis", so this.teamCode[this.playerTeam] would tell you which team was active.
+teamController - which teams are a human. if the active team is a human, then this.teamCode[this.playerTeam] would be defined, otherwise it would be nil
 joystick and joystick_other - used as booleans if the current team or the opposite team is a human.
+```
 
 ## ifs_freeform_fleet
 
