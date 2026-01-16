@@ -1,0 +1,17 @@
+# Exclude heavy binaries that the AI can't read
+*.jpg
+*.png
+*.tga
+*.msh
+*.lvl
+*.exe
+*.dll
+*.zip
+*.7z
+
+# Totally ignore Battlefront 1 folder
+StarWarsBattlefront/
+
+# Do not process these folders either
+StarWarsBattlefrontII/StringsFromExecutable/
+StarWarsBattlefrontII/OfficialUpdates/
