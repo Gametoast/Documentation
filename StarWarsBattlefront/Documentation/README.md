@@ -14,6 +14,9 @@ This kit will allow users to create their own levels for Star Wars Battlefront. 
 [Art Design Guide](artguide.md)  
 [Animation Guide](aniguide.md)
 
+**Community notes**  
+[Munged .lvl Format Notes (Battlefront Eternal)](lvlformat.md)
+
 The Star Wars Battlefront mod tool kit consists of the applications, assets, and documentation required to build, test and run new maps.
 
 Also included in this tool kit is a special add on for Softimage XSI 4.2 or greater that allows for the creation of new models for use in Star Wars Battlefront.
